@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Lacan &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/lacan/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 27 Feb 2023 14:41:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The topology of dreams</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 27 Feb 2023 14:41:39 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[dreams]]></category>
+		<category><![CDATA[fiber]]></category>
+		<category><![CDATA[Freud]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Lacan]]></category>
+		<category><![CDATA[sheaf]]></category>
+		<category><![CDATA[Sibony]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10937</guid>
+
+					<description><![CDATA[Last May, the meeting Lacan et Grothendieck, l’impossible rencontre? took place in Paris (see this post). Video&#8217;s of that meeting are now available online. Here&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Last May, the meeting <a href="https://sites.google.com/site/dugowsonrecherche/coordinations-colloques/LG">Lacan et Grothendieck, l’impossible rencontre?</a> took place in Paris (see <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan">this post</a>). Video&#8217;s of that meeting are now available online.</p>
+<p>Here&#8217;s the talk by Alain Connes and Patrick Gauthier-Lafaye on their book <a href="https://www.mollat.com/livres/2624527/alain-connes-a-l-ombre-de-grothendieck-et-de-lacan-un-topos-sur-l-inconscient#"> A l&#8217;ombre de Grothendieck et de Lacan : un topos sur l&#8217;inconscient ?</a> (see <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">this post</a> ).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/yiXPvueGbsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Let&#8217;s quickly recall their main ideas:</p>
+<p>1. The unconscious is structured as a topos (<a href="https://en.wikipedia.org/wiki/Jacques_Lacan">Jacques Lacan</a> argued it was structured as a language), because we need a framework allowing logic without the law of the excluded middle for Lacan&#8217;s <a href="https://nosubject.com/Sexual_relationship">formulas of sexuation</a> to make some sense at all.</p>
+<p>2. This topos may differs from person to person, so we do not all share the same rules of logic (as observed in real life).</p>
+<p>3. Consciousness is related to the points of the topos (they are not precise on this, neither in the talk, nor the book).</p>
+<p>4. All these individual toposes are ruled by a classifying topos, and they see Lacan&#8217;s work as the very first steps towards trying to describe the unconscious by a geometrical theory (though his formulas are not first order).</p>
+<p>Surely these are intriguing ideas, if only we would know how to construct the topos of someone&#8217;s unconscious.</p>
+<p>Let&#8217;s go looking for clues.</p>
+<p>At the same meeting, there was a talk by <a href="https://fr.wikipedia.org/wiki/Daniel_Sibony">Daniel Sibony</a>: &#8220;Mathématiques et inconscient&#8221;</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/xzYiReWsGVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Sibony started out as mathematician, then turned to psychiatry in the early 70ties. He was acquainted with both Grothendieck and Lacan, and even brought them together once, over lunch, some day in 1973. He makes a one-line appearance in Grothendieck&#8217;s <a href="https://fr.wikipedia.org/wiki/R%C3%A9coltes_et_Semailles">Récoltes et Semailles</a>, when G discribes his friends in <a href="https://fr.wikipedia.org/wiki/Survivre_et_vivre">&#8216;Survivre et Vivre&#8217;</a>:</p>
+<blockquote><p>
+&#8220;Daniel Sibony (who stayed away from this group, while pursuing its evolution out of the corner of a semi-disdainful, smirking eye)&#8221;
+</p></blockquote>
+<p>In his talk, Sibony said he had a similar idea, 50 years before Connes and Gauthier-Lafaye (3.04 into the clip):</p>
+<blockquote><p>
+&#8220;At the same time (early 70ties) I did a seminar in Vincennes, where I was a math professor, on the topology of dreams. At the time I didn&#8217;t have categories at my disposal, but I used fibered spaces instead. I showed how we could interpret dreams with a fibered space. This is consistent with the Freudian idea, except that Freud says we should take the list of words from the story of the dream and look for associations. For me, these associations were in the fibers, and these thoughts on fibers and sheaves have always followed me. And now, after 50 years I find this pretty book by Alain Connes and Patrick Gauthier-Lafaye on toposes, and see that my thoughts on dreams as sheaves and fibered spaces are but a special case of theirs.&#8221;
+</p></blockquote>
+<p>This looks interesting. After all, Freud called dream interpretation the &#8216;royal road&#8217; to the unconscious. &#8220;It is the &#8216;King&#8217;s highway&#8217; along which everyone can travel to discover the truth of unconscious processes for themselves.&#8221;</p>
+<p>Sibony clarifies his idea in the interview <a href="https://www.cairn.info/revue-le-journal-des-psychologues-2015-2-page-49.htm">L&#8217;utilisation des rêves en psychothérapie</a> with Maryse Siksou.</p>
+<blockquote><p>
+&#8220;The dream brings blocks of words, of “compacted” meanings, and we question, according to the good old method, each of these blocks, each of these points and which we associate around (we “unblock” around…), we let each point unfold according to the &#8220;fiber&#8221; which is its own.</p>
+<p>I introduced this notion of the dream as fibered space in an article in the review Scilicet in 1972, and in a seminar that I gave at the University of Vincennes in 1973 under the title &#8220;Topologie et interpretation des rêves&#8221;, to which Jacques Lacan and his close retinue attended throughout the year.</p>
+<p>The idea is that the dream is a sheaf, a bundle of fibers, each of which is associated with a &#8220;word&#8221; of the dream; interpretation makes the fibers appear, and one can pick an element from each, which is of course &#8220;displaced&#8221; in relation to the word that &#8220;produced&#8221; the fiber, and these elements are articulated with other elements taken in other fibers, to finally create a message which, once again, does not necessarily say the meaning of the dream because a dream has as many meanings as recipients to whom it is told, but which produces a strong statement, a relevant statement, which can restart the work.&#8221;
+</p></blockquote>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/dream.png" width=60% ><br />
+</center></p>
+<p>Key images in the dream (the &#8216;points&#8217; of the base-space) can stand for entirely different situations in someone&#8217;s life (the points in the &#8216;fiber&#8217; over an image). The therapist&#8217;s job is to find a suitable &#8216;section&#8217; in this &#8216;sheaf&#8217; to further the theraphy.</p>
+<p>It&#8217;s a bit like translating a sentence from one language to another. Every word (point of the base-space) can have several possible translations with subtle differences (the points in the fiber over the word). It&#8217;s the translator&#8217;s job to find the best &#8216;section&#8217; in this sheaf of possibilities.</p>
+<p>This translation-analogy is used by Daniel Sibony in his paper <a href="https://www.erudit.org/fr/revues/ttr/1998-v11-n2-ttr1489/037336ar.pdf">Traduire la passe</a>:</p>
+<blockquote><p>
+&#8220;It therefore operates just like the dream through articulated choices, from one fiber to another, in a bundle of speaking fibers; it articulates them by seeking the optimal section. In fact, the translation takes place between two fiber bundles, each in a language, but in the starting bundle the choice seems fixed by the initial text. However, more or less consciously, the translator &#8220;bursts&#8221; each word into a larger fiber, he therefore has a bundle of fibers where the given text seems after the fact a singular choice, which will produce another choice in the bundle of the other language.&#8221;
+</p></blockquote>
+<p>This paper also contains a pre-ChatGPT story (we&#8217;re in 1998), in which the language model fails because it has far too few alternatives in its fibers:</p>
+<blockquote><p>
+I felt it during a &#8220;humor festival&#8221; where I was approached by someone (who seemed to have some humor) and who was a robot. We had a brief conversation, very acceptable, beyond the conventional witticisms and knowing sighs he uttered from time to time to complain about the lack of atmosphere, repeating that after all we are not robots.</p>
+<p>I thought at first that it must be a walking walkie-talkie and that in fact I was talking to a guy who was remote control from his cabin. But the object was programmed; the unforeseen effects of meaning were all the more striking. To my question: &#8220;Who created you?&#8221; he answered with a strange word, a kind of technical god.</p>
+<p>I went on to ask him who he thought created me; his answer was immediate: “Oedipus”. (He knew, having questioned me, that I was a psychoanalyst.) The piquancy of his answer pleased me (without Oedipus, at least on a first level, no analyst). These bursts of meaning that we know in children, psychotics, to whom we attribute divinatory gifts — when they only exist, save their skin, questioning us about our being to defend theirs — , these random strokes of meaning shed light on the classic aftermaths where when a tile arrives, we hook it up to other tiles from the past, it ties up the pain by chaining the meaning.</p>
+<p>Anyway, the conversation continuing, the robot asked me to psychoanalyse him; I asked him what he was suffering from. His answer was immediate: “Oedipus”.</p>
+<p>Disappointing and enlightening: it shows that with each &#8220;word&#8221; of the interlocutor, the robot makes correspond a signifying constellation, a fiber of elements; choosing a word in each fiber, he then articulates the whole with obvious sequence constraints: a bit of readability and a certain phrasal push that leaves open the game of exchange. And now, in the fiber concerning the “psy” field, chance or constraint had fixed him on the same word, “Oedipus”, which, by repeating itself, closed the scene heavily.
+</p></blockquote>
+<p>Okay, we have a first potential approximation to Connes and Gauthier-Lafaye&#8217;s elusive topos, a sheaf of possible interpretation of base-words in a language.</p>
+<p>But, the base-space is still rather discrete, or at best linearly ordered. And also in the fibers, and among the sections, there&#8217;s not much of a topology at work.</p>
+<p>Perhaps, we should have a look at applications of topology and/or topos theory in <a href="https://en.wikipedia.org/wiki/Wikipedia:Large_language_models">large language models</a>?</p>
+<p>(tbc)</p>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cartan meets Lacan</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/cartan-meets-lacan/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/cartan-meets-lacan/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 19 Aug 2022 12:30:21 +0000</pubDate>
+				<category><![CDATA[art]]></category>
+		<category><![CDATA[france]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Cartan]]></category>
+		<category><![CDATA[Chabaud]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Lacan]]></category>
+		<category><![CDATA[Reidemeister]]></category>
+		<category><![CDATA[Whitehead]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10859</guid>
+
+					<description><![CDATA[In the Grothendieck meets Lacan-post we did mention that Alain Connes wrote a book together with Patrick Gauthier-Lafaye &#8220;A l&#8217;ombre de Grothendieck et de Lacan,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In the <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan">Grothendieck meets Lacan-post</a> we did mention that Alain Connes wrote a book together with Patrick Gauthier-Lafaye <a href="https://www.odilejacob.fr/catalogue/psychologie/psychiatrie/a-lombre-de-grothendieck-et-de-lacan_9782415002381.php">&#8220;A l&#8217;ombre de Grothendieck et de Lacan, un topos sur l&#8217;inconscient&#8221;</a>, on the potential use of Grothendieck&#8217;s toposes for the theory of  unconsciousness, proposed by the French psychoanalyst <a href="https://en.wikipedia.org/wiki/Jacques_Lacan">Jacques Lacan</a>.</p>
+<p>A bit more on that book you can read in <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">the topos of unconsciousness</a>. For another take on this you can visit the blog of <a href="https://www.entropologie.fr/">l&#8217;homme quantique &#8211; Sur les traces de Lévi-Strauss, Lacan et Foucault, filant comme le sable au vent marin&#8230;</a>. There is a series of posts dedicated to the reading of &#8216;A l&#8217;ombre de Grothendieck et de Lacan&#8217;:</p>
+<ul>
+<li><a href="https://www.entropologie.fr/2022/06/a-l-ombre-de-grothendieck-et-de-lacan-1.html">1. Initiation au topos</a></li>
+<li><a href="https://www.entropologie.fr/2022/06/a-l-ombre-de-grothendieck-et-de-lacan-2-rencontre-d-une-evidence.html">2. Rencontre d&#8217;une évidence</a></li>
+<li><a href="https://www.entropologie.fr/2022/06/a-l-ombre-de-grothendieck-et-de-lacan-3-metapsychologie-du-topos.html">3. Métapsychologie du topos</a></li>
+<li><a href="https://www.entropologie.fr/2022/06/a-l-ombre-de-grothendieck-et-de-lacan-4-psychanalyse-et-mathematiques.html">4. Psychanalyse et mathématiques</a></li>
+<li><a href="https://www.entropologie.fr/2022/06/a-l-ombre-de-grothendieck-et-de-lacan-5-temps-et-instant.html">5. Temps et instant</a></li>
+<li><a href="https://www.entropologie.fr/2022/07/a-l-ombre-de-grothendieck-et-de-lacan-6-mythes-fantasmes-et-topos-classifiant.html">6. Mythes, fantasmes et topos classifiant</a></li>
+</ul>
+<p>Alain Connes isn&#8217;t the first (former) Bourbaki-member to write a book together with a Lacan-disciple.</p>
+<p>In 1984, <a href="https://en.wikipedia.org/wiki/Henri_Cartan">Henri Cartan</a> (one of the founding fathers of Bourbaki) teamed up with the French psychoanalyst (and student of Lacan) Jean-Francois Chabaud for <a href="https://www.amazon.fr/Noeud-dit-fantasme-Topologie-Topologiques/dp/B0014IKLPG">&#8220;Le Nœud dit du fantasme &#8211; Topologie de Jacques Lacan&#8221;</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://jeanfrancoischabaud.fr/wp-content/uploads/2015/09/jeanfc-7.jpg" width=100%><br />
+(Chabaud on the left, Cartan on the right, Cartan&#8217;s wife Nicole in the mddle)<br />
+</center></p>
+<p>&#8220;Dans cet ouvrage Jean François Chabaud, psychanalyste, effectue la monstration de l’interchangeabilité des consistances de la <a href="https://en.wikipedia.org/wiki/Whitehead_link">chaîne de Whitehead</a> (communément nommée « Noeud dit du fantasme » ou du « Non rapport sexuel » dans l’aire analytique), et peut ainsi se risquer à proposer, en s’appuyant sur les remarques essentielles de Jacques Lacan, une écriture du virage, autre nom de la passe. Henri Cartan (1904-2008), l’un des Membres-fondateur de N. Bourbaki, a contribué à ce travail avec deux réflexions : la première, considère cette monstration et l’augmente d’une présentation ; la seconde, traite tout particulièrement de l’orientation des consistances. Une suite de traces d’une séquence de la chaîne précède ce cahier qui s’achève par : « L’en-plus-de-trait », une contribution à l’écriture nodale.&#8221;</p>
+<p>Lacan was not only fascinated by the topology of surfaces such as the crosscap (see <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">the topos of unconsciousness</a>), but also by the theory of knots and links.</p>
+<p><img decoding="async" src="https://miro.medium.com/max/1400/1*1F5sfPRtf10GtuCupl3cSA.jpeg" width=100%></p>
+<p>The Borromean link figures in Lacan&#8217;s world for the Real, the Imaginary and the Symbolic. The Whitehead link (that is, two unknots linked together) is thought to be the knot (sic) of phantasy.</p>
+<p>In 1986, there was the exposition &#8220;La Chaine de J.H.C. Whitehead&#8221; in the<br />
+<a href="https://en.wikipedia.org/wiki/Palais_de_la_D%C3%A9couverte">Palais de la découverte</a> in Paris (from which also the Chabaud-Cartan picture above is taken), where la Salle de Mathématiques was filled with different models of the Whitehead link.</p>
+<p><img decoding="async" src="https://jeanfrancoischabaud.fr/wp-content/uploads/2015/08/JFC-Palais-de-la-D%C3%A9couverte-1986-3-copie.jpg" width=100% ></p>
+<p>In 1988, the exposition was held in the <a href="https://en.wikipedia.org/wiki/Deutsches_Mu">Deutches Museum in Munich</a> and was called &#8220;Wandlung &#8211; Darstellung der topologischen Transformationen der Whitehead-Kette&#8221;</p>
+<p><center><br />
+<img decoding="async" src="https://jeanfrancoischabaud.fr/wp-content/uploads/2015/09/1-WANDLUNG-617x1024.jpg" width=60%><br />
+</center></p>
+<p>The set-up in Munich was mathematically more interesting as one could see the link-projection on the floor, and use it to compute the link-number. It might have been even more interesting if the difference in these projections between two subsequent models was exactly one <a href="https://en.wikipedia.org/wiki/Reidemeister_move">Reidemeister move</a>&#8230;</p>
+<p><img decoding="async" src="https://jeanfrancoischabaud.fr/wp-content/uploads/2015/09/DM6.jpg" width=100% ></p>
+<p>You can view more pictures of these and subsequent expositions on the page dedicated to the work of Jean-Francois Chabaud: <a href="https://jeanfrancoischabaud.fr/le-noeud-dit-du-fantasme-et-la-chaine-de-whitehead-1984-1997-livre-et-expositions/">La Chaîne de Whitehead ou Le Nœud dit du fantasme Livre et Expositions 1980/1997</a>.</p>
+<p>Part of the first picture featured also in the <a href="https://www.ams.org/notices/200905/rtx090500614p.pdf">Hommage to Henri Cartan (1904-2008)</a> by Michele Audin in the Notices of the AMS. She writes (about the 1986 exposition):</p>
+<p>&#8220;At the time, Henri Cartan was 82 years old and retired, but he continued to be interested in mathematics and, as one sees, its popularization.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/cartan-meets-lacan/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the topos of unconsciousness</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 14 May 2022 09:00:12 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[france]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Bailly]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[Greenshield]]></category>
+		<category><![CDATA[Lacan]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10531</guid>
+
+					<description><![CDATA[Since wednesday, as mentioned last time, the book by Alain Connes and Patrick Gauthier-Lafaye: &#8220;A l&#8217;ombre de Grothendieck et de Lacan, un topos sur l&#8217;inconscient&#8221;&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Since wednesday, as mentioned <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan">last time</a>, the book by Alain Connes and Patrick Gauthier-Lafaye: <a href="https://www.odilejacob.fr/catalogue/psychologie/psychiatrie/a-lombre-de-grothendieck-et-de-lacan_9782415002381.php">&#8220;A l&#8217;ombre de Grothendieck et de Lacan, un topos sur l&#8217;inconscient&#8221;</a> is available in the better bookshops.</p>
+<p><center><br />
+<img decoding="async" src="https://s1.odilejacob.fr/couvertures/9782415002381.jpg" width=60% /><br />
+</center></p>
+<p>There&#8217;s no need to introduce Alain Connes <a href="https://lievenlebruyn.github.io/neverendingbooks/tag/connes">on this blog</a>. <a href="https://www.fnac.com/ia4645504/Patrick-Gauthier-Lafaye">Patrick Gauthier-Lafaye</a> is a French psychiatrist and psycho-analyst, working in Strassbourg.</p>
+<p>The book is a lengthy dialogue in which the authors try to find a use for topos theory in <a href="https://en.wikipedia.org/wiki/Jacques_Lacan">Jaques Lacan&#8217;s</a> psycho-analytical view of the unconscious.</p>
+<p>If you are a complete Lacanian virgin, it may be helpful to browse through <a href="https://ia800709.us.archive.org/23/items/lionel-bailly-lacan-a-beginners-guide/lionel-bailly-lacan-a-beginners-guide.pdf">&#8220;Lacan, a beginners guide&#8221;</a> (by Lionel Bailly) first.</p>
+<p><center><br />
+<img decoding="async" src="https://static.fnac-static.com/multimedia/0/Images/BE/NR/31/e0/68/6873137/1507-1/tsp20150505170821/Lacan-Oneworld-Beginner-s-Guide.jpg" width=60% /><br />
+</center></p>
+<p>If this left you bewildered, for example by Lacan&#8217;s strange (ab)use of mathematics, rest assured, you&#8217;re not alone.</p>
+<p>It is no coincidence that Lacan&#8217;s works are the first case-study in the book <a href="https://en.wikipedia.org/wiki/Fashionable_Nonsense">&#8220;Fashionable Nonsense: Postmodern Intellectuals&#8217; Abuse of Science&#8221;</a> by Alan Sokal (the one of the <a href="https://en.wikipedia.org/wiki/Sokal_affair">hoax</a>) and Jean Bricmont. You can download the book from <a href="https://monoskop.org/images/5/53/Sokal_Alan_Bricmont_Jean_Fashionable_Nonsense.pdf">this link</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://media.s-bol.com/BlnrYDOm5BN/550x820.jpg" width=60% /><br />
+</center></p>
+<p>If now you feel that Sokal and Bricmont are way too harsh on Lacan, I urge you to have a go at the book <a href="https://www.academia.edu/32004206/Writing_the_Structures_of_the_Subject_Lacan_and_Topology">&#8220;Writing the structures of the subject, Lacan and topology&#8221;</a> by Will Greenshields.</p>
+<p><center><br />
+<img decoding="async" src="https://images-na.ssl-images-amazon.com/images/I/31PQmXX0rDL._SX350_BO1,204,203,200_.jpg" width=60% /><br />
+</center></p>
+<p>If you don&#8217;t have the time or energy for this, let me give you one illustrative example: the topological explanation of <a href="http://art3idea.psu.edu/locus/fantasy_formula.pdf">Lacan&#8217;s formula of fantasy</a>:</p>
+<p>\[<br />
+\$~\diamond~a \]</p>
+<p>Loosely speaking this formula says “the barred subject stands within a circular relationship to the <a href="https://en.wikipedia.org/wiki/Objet_petit_a">objet petit a</a> (the object of desire), one part of which is determined by alienation, the other by separation”.</p>
+<p>Lacan was obsessed with the immersion of the projective plane $\mathbb{P}^2(\mathbb{R})$ into $\mathbb{R}^3$ as the cross-cap. Here&#8217;s an image of it from his 1966-67 seminar on <a href="http://staferla.free.fr/S14/S14%20LOGIQUE.pdf">&#8216;Logique du fantasme&#8217;</a> (213 pages).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/crosscap1.png" width=60% /><br />
+</center></p>
+<p>This image includes the position of the objet petit $a$ as the end point of the self-intersection curve, which itself is referred to as the &#8216;castration&#8217;, or the &#8216;phallus&#8217;, or whatever.</p>
+<p>Brace yourself for the &#8216;explanation&#8217; of $\$~\diamond~a$: if you walk <em>twice</em> around $a$ this divides the cross-cap into a disk and a Mobius-strip!</p>
+<p>The mathematics is correct but I fail to see how this helps the psycho-analyst in her therapy. But hey, everyone will tell you I have absolutely no therapeutic talent.</p>
+<p>Let&#8217;s return to the brand new book by Alain Connes and Patrick Gauthier-Lafaye: <a href="https://www.odilejacob.fr/catalogue/psychologie/psychiatrie/a-lombre-de-grothendieck-et-de-lacan_9782415002381.php">&#8220;A l&#8217;ombre de Grothendieck et de Lacan, un topos sur l&#8217;inconscient&#8221;</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://s1.odilejacob.fr/couvertures/9782415002381.jpg" width=60% /><br />
+</center></p>
+<p>It was to be expected that they would defend Lacan&#8217;s exploitation of (surface) topology by saying that he was just unfortunate not to have the more general notion of toposes available, as well as their much subtler logic. Perhaps someone should write a fictional parody on Greenshields book: &#8220;Lacan and the topos&#8221;&#8230;</p>
+<p>Connes&#8217; first attempt to construct the topos of unconsciousness was also not much of a surprise. According to Lacan the unconscious is &#8216;structured like a language&#8217;.</p>
+<p>So, a natural approach might be to start with a &#8216;dictionary&#8217;-category (words and relations between them) or any other known use of a category in linguistics. A good starting point to read up on this is the blog post <a href="https://blog.juliosong.com/linguistics/mathematics/a-new-application-of-category-theory-in-linguistics-part-1/">A new application of category theory in linguistics</a>.</p>
+<p>Eventually they settled for a much more ambitious project. To Connes and Gauthier-Lafaye every individual has her own topos and corresponding logic.</p>
+<p>They don&#8217;t specify how to construct these individual toposes, but postulate that they are all connected to a <a href="https://www.oliviacaramello.com/Teaching/CambridgeToposTheoryCourseLectures21and22.pdf">classifying topos</a>, which is their incarnation of the world of &#8216;myths&#8217; and &#8216;fantasies&#8217;.</p>
+<p>Surely an idea Lacan would have liked. Underlying the unconscious must be, according to Connes and Gauthier-Lafaye, a <a href="https://ncatlab.org/nlab/show/geometric+theory">geometric theory</a>! That is, it can be fully described by first order sentences.</p>
+<p>Lacan himself used already some first order sequences in his teachings, such as in his <a href="https://nosubject.com/Logic_of_Sexuation">logic of sexuation</a>:</p>
+<p>\[<br />
+\forall x~(\Phi~x)~\quad \text{but also} \quad \exists x~\neg~(\Phi~x) \]</p>
+<p>where $\Phi~x$ is the <a href="https://thedangerousmaybe.medium.com/lacans-concept-of-the-phallus-498743c95270">phallic function</a>. Quoting from Greenshield&#8217;s book:</p>
+<p>&#8220;While all (the sons) are subject to ($\forall x$) the law of castration ($\Phi~x$), we also learn that this law nevertheless resides upon an exception: there exists a subject ($\exists x$) that is not subject to this law ($\neg \Phi~x$). This exception is embodied by the despotic father who, not being subject to the phallic function, experiences an impossible mode of totalised jouissance (he enjoys all the women). He is, quite simply, the exception that proves the law a necessary beyond that enables the law’s geometric bounds to be defined.&#8221;</p>
+<p>It will be quite hard (but probably great fun for psycho-analysts) to turn the whole of Lacanian theory on the unconscious into a coherent geometric theory, construct its classifying topos, and apply the Joyal-Reyes theorem to get at the individual cases/toposes.</p>
+<p>I&#8217;m sure there are much deeper insights to be gained from Connes&#8217; and Gauthier-Lafaye&#8217;s book, but this is what i got from a first, fast, cursory reading of it.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Grothendieck meets Lacan</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 21 Apr 2022 09:34:42 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Dugowson]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Lacan]]></category>
+		<category><![CDATA[Sibony]]></category>
+		<category><![CDATA[topos theory]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10501</guid>
+
+					<description><![CDATA[Next month, a weekend-meeting is organised in Paris on Lacan et Grothendieck, l&#8217;impossible rencontre?. Photo from Remembering my father, Jacques Lacan Jacques Lacan was a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Next month, a weekend-meeting is organised in Paris on <a href="https://sites.google.com/site/dugowsonrecherche/accueil/LG">Lacan et Grothendieck, l&#8217;impossible rencontre?</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://s26162.pcdn.co/wp-content/uploads/2019/06/838_jacques-lacan3.jpg" width=100% \><br />
+Photo from <a href="https://lithub.com/remembering-my-father-jacques-lacan/">Remembering my father, Jacques Lacan</a><br />
+</center></p>
+<p><a href="https://en.wikipedia.org/wiki/Jacques_Lacan">Jacques Lacan</a> was a French psychoanalyst and psychiatrist who has been called &#8220;the most controversial psycho-analyst since Freud&#8221;.</p>
+<p>What&#8217;s the connection between Lacan and Grothendieck? Here&#8217;s <a href="https://sites.google.com/site/dugowsonrecherche/accueil">Stephane Dugowson</a>&#8216;s take (G-translated):</p>
+<p>&#8220;As we know, Lacan was passionate about certain mathematics, notably temporal logic and the theory of knots, where he thought he found material for advancing the theory of psychoanalysis. For his part, Grothendieck testifies in his non-strictly mathematical writings to his passion for the psyche, as shown by many pages of his <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendieck-stuff">Récoltes et Semailles</a> just published by Gallimard (in January 2022), or even, among the tens of <a href="https://lievenlebruyn.github.io/neverendingbooks/where-are-grothendiecks-writings-2">thousands of pages discovered at his death</a> and of which we know almost nothing, the 3700 pages of mathematics grouped under the title &#8216;Structure of the Psyche&#8217;.</p>
+<p>One might therefore be surprised that the two geniuses never met. In fact, a lunch did take place in the early 1970s organized by the mathematician and psychoanalyst <a href="https://fr.wikipedia.org/wiki/Daniel_Sibony">Daniel Sibony</a>. But a lunch does not necessarily make a meeting, and it seems that this one unfortunately did not happen.&#8221;</p>
+<p>As it is &#8216;bon ton&#8217; these days in Parisian circles to utter the word &#8216;topos&#8217;, several titles of the talks given at the meeting contain that word.</p>
+<p>There&#8217;s <a href="https://sites.google.com/site/dugowsonrecherche/accueil">Stephane Dugowson</a>&#8216;s talk on &#8220;Logique du topos borroméen et autres logiques à trois points&#8221;.</p>
+<p>Lacan used the <a href="https://en.wikipedia.org/wiki/Borromean_rings">Borromean link</a> to illustrate his concepts of the Real, Symbolic, and Imaginary (RSI). For more on this, please read chapter 6 of Lionel Baily&#8217;s excellent introduction to Lacan&#8217;s work <a href="https://ia800709.us.archive.org/23/items/lionel-bailly-lacan-a-beginners-guide/lionel-bailly-lacan-a-beginners-guide.pdf">Lacan, A Beginner’s Guide</a>.</p>
+<p>The Borromean topos is an example of Dugowson&#8217;s toposes associated to his &#8216;connectivity spaces&#8217;. From his paper <a href="https://hal.archives-ouvertes.fr/hal-01381304">Définition du topos d&#8217;un espace connectif</a> I gather that the objects in the Borromean topos consist of a triple of set-maps from a set $A$ (the global sections) to sets $A_x,A_y$ and $A_z$ (the restrictions to three disconnected &#8216;opens&#8217;).</p>
+<p>\[<br />
+\xymatrix{&#038; A \ar[rd] \ar[d] \ar[ld] &#038; \\ A_x &#038; A_y &#038; A_z} \]</p>
+<p>This seems to be a topos with a Boolean logic, but perhaps there are other 3-point connectivity spaces with a non-Boolean Heyting subobject classifier.</p>
+<p>There&#8217;s <a href="https://fr.wikipedia.org/wiki/Daniel_Sibony">Daniel Sibony</a>&#8216;s talk on &#8220;Mathématiques et inconscient&#8221;. Sibony is a French mathematician, turned philosopher and psychoanalyst, <a href="https://fr.wikipedia.org/wiki/Sujet_de_l%27inconscient">l&#8217;inconscient</a> is an important concept in Lacan&#8217;s work.</p>
+<p>Here&#8217;s a nice conversation between Daniel Sibony and Alain Connes on the notions of &#8216;time&#8217; and &#8216;truth&#8217;.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/SWgASHHanLU?start=3449" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>In the second part (starting around 57.30) Connes brings up toposes whose underlying logic is much subtler than brute &#8216;true&#8217; or &#8216;false&#8217; statements. He discusses the presheaf topos on the additive monoid $\mathbb{N}_+$ which leads to statements which are &#8216;one step from the truth&#8217;, &#8216;two steps from the truth&#8217; and so on. It is also the example Connes used in his talk <a href="https://www.youtube.com/watch?v=LFV4FpfdwEw">Un topo sur les topos</a>.</p>
+<p>Alain Connes himself will also give a talk at the meeting, together with Patrick Gauthier-Lafaye, on &#8220;Un topos sur l&#8217;inconscient&#8221;.</p>
+<p>It appears that Connes and Gauthier-Lafaye have written a book on the subject, <a href="https://www.mollat.com/livres/2624527/alain-connes-a-l-ombre-de-grothendieck-et-de-lacan-un-topos-sur-l-inconscient#">A l&#8217;ombre de Grothendieck et de Lacan : un topos sur l&#8217;inconscient</a>. Here&#8217;s the summary (G-translated):</p>
+<p>&#8220;The authors present the relevance of the mathematical concept of topos, introduced by A. Grothendieck at the end of the 1950s, in the exploration of the structure of the unconscious.&#8221;</p>
+<p>The book will be released on May 11th.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

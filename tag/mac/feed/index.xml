@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mac &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/mac/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 11 Jul 2011 12:01:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>From WordPress to ePublishing (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 11 Jul 2011 12:01:46 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[epub]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5577</guid>
+
+					<description><![CDATA[Perhaps, the tips and tricks I did receive to turn a selection of wordpress-posts into a proper ePub-file may be of use to others, so&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Perhaps, the tips and tricks I did receive to turn a selection of wordpress-posts into a proper <a href="http://en.wikipedia.org/wiki/EPUB">ePub</a>-file may be of use to others, so I will describe the procedure here in some detail.</p>
+<p>It makes a difference whether or not some of the posts contain TeX. This time, I&#8217;ll sketch the process for non-LaTeX posts and hence we will turn the Bourbaki-code posts into ePub-format to read on your iPad, rather than merely into a pdf-file as <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/ebook-the-bourbaki-code-v1-0.html">last time</a>. Next time, I&#8217;ll add some tricks to repeat this when some of your posts do contain LaTeX.</p>
+<p><strong>1. Install the ePub export plugin</strong></p>
+<p>Get the <a href="http://wordpress.org/extend/plugins/epub-export/">epub export</a> wordpress plugin, install and activate it in the usual way. ePub Export automatically creates an ePub file when a post or page is published or updated. The ePubs are stored in the uploads directory. For later use, remember that your uploads directories are located under BLOGHOME/wp-content/uploads.</p>
+<p><strong>2. Update the posts you want to include</strong></p>
+<p>Decide which posts you want to include in your eBook, edit them (or not) and press for each one of them the update-button. This will populate today&#8217;s uploads-directory with a number of epub-files. Transfer them all, for example using <a href="http://www.panic.com/transmit/">Transmit</a>, to a directory on your home-computer, named say MyFirstEBook.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/epub1.jpg"><br />
+</center></p>
+<p><strong>3. Unpack the epub-files</strong></p>
+<p>The crucial fact to remember about epub-files is that they are really zipped archives containing xhtml-, css- and other files and directories. As we want to edit some of those, we first have to unpack the directories. So, change the .epub extensions to .zip and double-click on them to create the directories.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/epub2.jpg"><br />
+</center></p>
+<p>The crucial files in each directory are preface.xhtml (containing title author and blog-name), text.html (containing the blog-post) and the images-directory (containing copies of all the images used in the post).</p>
+<p><strong>4. Rename the directories user-friendly</strong></p>
+<p>As all the posts will be chapters in our eBook in some specific order, we will rename the numbers of the directories to something more user-friendly such as shortened blog-titles. To do this, double-click in each of the directories on the preface.xhtml file. This will open Safari and will show the title of the blog-post. Use it to rename that directory. For convenience let us call the directory corresponding to the first chapter in our book MasterDirectory</p>
+<p><strong>5. Move all images to the master directory</strong></p>
+<p>For each of the other chapter-directories, drag all the files contained in the images-subdirectory to MasterDirectory/images.</p>
+<p><strong>6. Edit the MasterDirectory/text.xhtml file</strong></p>
+<p>Because we will have to open and copy-paste all the text.xhtml files of the different directories, it is perhaps best to rename momentarily the MasterDirectory/text.xhtml file to something like master.xhtml.</p>
+<p>Now, open this file with a text-processor such as <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a>. Edit it to remove unwanted html-code (such as links to other posts at the start if you are using the series-plugin, or previous/next post links at the end). Also add the title of the blog-post between h1-tags (and if you want to include a table of contents later, give it an anchor-name).</p>
+<p>Go to the directory of your second chapter, open that text.xhtml file and copy/paste only the post-content over to the master-xhtml file at the appropriate place. As before, add title/anchor before the copied post-content.</p>
+<p>Repeat this procedure, in order, for all the chapters of your eBook.</p>
+<p>Once finished, doubleclick the master.xhtml file and correct remaining errors (as it is an xhtml-file, it is rather picky about opening and closing tags) and see whether all your images are included. If you&#8217;re satisfied with it, rename the master.xhtml to text.xhtml (don&#8217;t forget this!).</p>
+<p><strong>7. Edit the MasterDirectory/preface.xhtml file</strong></p>
+<p>Open the preface.xhtml file and change the first blogpost-title to the title of your booklet, alter your name (by default it uses your wp-nick) and add a frontipiece-picture if you so desire.</p>
+<p><strong>8. Re-package the directory into an epub-file</strong></p>
+<p>This is the (only) tricky part. E-book readers require that the mimetype file is the first one in the zip document. What&#8217;s more, to be fully compliant, this file should start at a very specific point &#8211; a 30-byte offset from the beginning of the zip file (so that the mimetype text itself starts at byte 38).</p>
+<p>Here&#8217;s how to do this on a Mac (Linux-users being the geeks they are will have given up on reading this post a while ago and as to Windows-users, yeah well &#8230;). Open Terminal.app and cd to your MasterDirectory. Now type:</p>
+<p>zip -X MyFirstEBook.epub mimetype</p>
+<p>Next, type:</p>
+<p>zip -rg MyFirstEBook.epub * -x &#42;.DS_Store</p>
+<p>(of course you&#8217;ll have to change your book-title to whatever you want). If you want to know more about these 2 magical commands, read <a href="http://www.webvivant.com/zipping-epub-files.html">this post</a>.</p>
+<p><strong>9. Edit metadata</strong></p>
+<p>Get <a href="http://calibre-ebook.com/">Calibre</a> and add the MyFirstEBook.epub to Calibre by clicking on the &#8216;Add Books&#8217; button.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/epub3.jpg"><br />
+</center></p>
+<p>You can preview your eBook by clicking on the &#8216;View&#8217;-button. Next, click the &#8216;Edit metadata&#8217;-button and alter the title and author entries (and whatever else you want to include) and click the OK button. Then click &#8216;Save to disk&#8217;.</p>
+<p><strong>10. Read your eBook on your iPad</strong></p>
+<p>Finally, we want to see how it looks on the iPad. Mail MyFirstEBook.epub to yourself as attachement, open it with iBooks and enjoy!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What&#8217;s Pippa got to do with the Bourbaki wedding?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/whats-pippa-got-to-do-with-the-bourbaki-wedding/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/whats-pippa-got-to-do-with-the-bourbaki-wedding/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 09 Jul 2011 10:00:45 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[Bourbaki code]]></category>
+		<category><![CDATA[Cande]]></category>
+		<category><![CDATA[Edward-Wallis]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5412</guid>
+
+					<description><![CDATA[Last time we&#8217;ve seen that on June 3rd 1939, the very day of the Bourbaki wedding, Malraux&#8217; movie &#8216;L&#8217;espoir&#8217; had its first (private) viewing, and&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/what-happened-on-the-bourbaki-wedding-day.html">Last time</a> we&#8217;ve seen that on June 3rd 1939, the very day of the Bourbaki wedding, Malraux&#8217; movie &#8216;L&#8217;espoir&#8217; had its first (private) viewing, and we mused whether <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-wedding-invitation-that-nearly-killed-andre-weil.html">Weil&#8217;s wedding card</a> was a coded invitation to that event.</p>
+<p>But, there&#8217;s another plausible explanation why the Bourbaki wedding might have been scheduled for June 3rd : it was intended to be a copy-cat Royal Wedding&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/pippa.jpg" alt="" /></p>
+<p>The media-hype surrounding the wedding of Prince William to Pippa&#8217;s sister led to a hausse in newspaper articles on iconic <a href="http://www.goodhousekeeping.com/family/celebrity/memorable-royal-weddings-1937#fbIndex1">royal weddings</a> of the <a href="http://photos.oregonlive.com/photo-essay/2011/04/royal_weddings_in_history.html">past</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wallis1.jpg" align=left hspace=10> One of these, the marriage of <a href="http://www.goodhousekeeping.com/family/celebrity/memorable-royal-weddings-1937#fbIndex5">Edward VIII, Duke of Windsor and Wallis Warfield Spencer Simpson</a>, was held on <strong>June 3rd</strong> 1937 : &#8220;This was the scandal of the century, as far as royal weddings go. Edward VIII had just abdicated six months before in order to marry an American twice-divorced commoner. The British Establishment at the time would not allow Edward VIII to stay on the throne and marry this woman (the British Monarch is also the head of the Church of England), so Edward chose love over duty and fled to France to await the finalization of his beloved&#8217;s divorce. They were married in a private, civil ceremony, which the Royal Family boycotted.&#8221;</p>
+<p>But, what does this wedding have to do with Bourbaki?</p>
+<p>For starters, remember that the wedding-card-canular was concocted in the spring of 1939 in Cambridge, England. So, if Weil and his Anglo-American associates needed a common wedding-example, the Edward-Wallis case surely would spring to mind. One might even wonder about the transposed symmetry : a Royal (Betti, whose father is from the Royal Poldavian Academy), marrying an American (Stanislas Pondiczery).</p>
+<p>Even Andre Weil must have watched this wedding with interest (perhaps even sympathy). He too had to wait a considerable amount of time for Eveline&#8217;s divorce (see <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bumpy-road-to-the-first-bourbaki-congress.html">this post</a>) to finalize, so that they could marry on october 30th 1937, just a few months after Edward &amp; Wallis.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/EdwardWallis.jpg"><br />
+</center></p>
+<p>But, there&#8217;s more. The royal wedding took place at the <a href="http://en.wikipedia.org/wiki/Château_de_Candé">Chateau de Cande</a>, just south of Tours (the A on the google-map below). Now, remember that the 2nd Bourbaki congress was held at the Chevalley family-property in Chancay (see <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/wheres-bourbakis-escorial.html">the Escorial post</a>) a bit to the north-east of Tours (the marker on the map). As this conference took place only a month after the Royal Wedding (from 10th till 20th of July 1937), the event surely must have been the talk of the town.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/chancaycande.jpg" alt="" /></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/when-was-the-bourbaki-wedding.html">Early on</a>, we concluded that the Bourbaki-Petard wedding took place at 12 o&#8217;clock (&#8216;a l&#8217;heure habituelle&#8217;). So did the Edward-Wallis wedding. More precisely, the civil ceremony began at 11.47 and the local mayor had to come to the castle for the occasion, and, afterwards the couple went into the music-room, which was converted into an Anglican chapel for the day, at precisely 12 o&#8217;clock.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MarcelDupre.jpg" align=right hspace=10>The emphasis on the musical organ in the Bourbaki wedding-invitation <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/seriously-now-where-was-the-bourbaki-wedding.html">allowed us</a>  to identify the identity of &#8216;Monsieur Modulo&#8217; to be Olivier Messiaen as well as that of the wedding church. Now, the Chateau de Cande also houses an impressive organ, <a href="http://orgue-libre.bbactif.com/t150-orgue-skinner-opus-718-du-chateau-de-cande">the Skinner opus 718 organ</a>.</p>
+<p> For the wedding ceremony, Edward and Wallis hired the services of one of the most renowned French organists at the time : <a href="http://fr.wikipedia.org/wiki/Marcel_Dupré">Marcel Dupre</a> who was since 1906 Widor&#8217;s assistent, and, from 1934 resident organist in the <a href="http://en.wikipedia.org/wiki/Église_Saint-Sulpice,_Paris">Saint-Sulpice church in Paris</a>. Perhaps more telling for our story is that Dupre was, apart from Paul Dukas, the most influential teacher of Olivier Messiaen.</p>
+<p> On June 3rd, 1937 Dupre performed the following pieces. During the civil ceremony, an extract from the 29e Bach cantate, canon in re-minor by Schumann and the prelude of the fugue in do-minor of himself. When the couple entered the music room he played the march of the Judas Macchabee oratorium of Handel and the cortege by himself. During the religious ceremony he performed his own choral, adagium in mi-minor by Cesar Franck, the traditional &#8216;Oh Perfect Love&#8217;, the Jesus-choral by Bach and the toccata of the 5th symphony of Widor. Compare this level of detail to the minimal musical hint given in the Bourbaki wedding-invitation</p>
+<p> &#8220;Assistent Simplexe de la Grassmannienne (lemmas chantees par la Scholia Cartanorum)&#8221;</p>
+<p> This is one of the easier riddles to solve. The &#8216;simplicial assistent of the Grassmannian&#8217; is of course <a href="http://en.wikipedia.org/wiki/Hermann_Schubert">Hermann Schubert</a> (Schubert cell-decomposition of Grassmannians). But, the composer <a href="http://en.wikipedia.org/wiki/Franz_Schubert">Franz Schubert</a> only left us <a href="http://imslp.org/wiki/List_of_compositions_by_Franz_Schubert,_by_musical_genre#Organ_music">one organ-composition</a> : the <a href="http://imslp.org/wiki/Fugue_in_E_minor,_D.952_(Schubert,_Franz)">Fugue in E-minor</a>.</p>
+<p> I have tried hard to get hold of a copy of the official invitation for the Edward-Wallis wedding, but failed miserably. There must be quite a few of them still out there, of the 300 invited people only 16 showed up&#8230; You can watch a <a href="http://www.britishpathe.com/record.php?id=50166">video newsreel film</a> of the wedding.</p>
+<p> As Claude Chevalley&#8217;s father had an impressive diplomatic career behind him and lived in the neighborhood, he might have been invited, and, perhaps the (unused) invitation was lying around at the time of  the second Bourbaki-congress in Chancay,just one month after the Edward-Wallis wedding&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/whats-pippa-got-to-do-with-the-bourbaki-wedding/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NeB : 7 years and now an iPad App</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 31 Dec 2010 17:05:32 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[iPad]]></category>
+		<category><![CDATA[iPad App]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3943</guid>
+
+					<description><![CDATA[Exactly 7 years ago I wrote my first post. This blog wasn&#8217;t called NeB yet and it used pMachine, a then free blogging tool (later&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Exactly 7 years ago I wrote my <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/a-blogging-2004.html">first post</a>. This blog wasn&#8217;t called NeB yet and it used pMachine, a then free blogging tool (later transformed into <a href="http://expressionengine.com/">expression engine</a>), rather than WordPress.</p>
+<p>Over the years NeB survived three hardware-upgrades of &#8216;the Matrix&#8217; (the webserver hosting it), more themes than I care to remember, and a couple of dramatic closure announcements&#8230;</p>
+<p>But then we&#8217;re still here, soldiering on, still uncertain whether there&#8217;s a point to it, but grateful for tiny tokens of appreciation.</p>
+<p>Such as this morning&#8217;s story: <a href="http://mathoverflow.net/users/2821/chandan-singh-dalawat">Chandan</a> deemed it necessary to correct two spelling mistakes in a 2 year old Fun-math post on <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/andre-weil-on-the-rh.html">Weil and the Riemann hypothesis</a> (also reposted on Neb <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/andre-weil-on-the-riemann-hypothesis.html">here</a>). Often there&#8217;s a story behind such sudden comments, and a quick check of MathOverflow revealed <a href="http://mathoverflow.net/questions/50776/did-andre-weil-predict-that-the-riemann-hypothesis-would-be-settled-by-prime-numb/50795#50795">this answer</a> and the comments following it.</p>
+<p>I thank <a href="http://mathoverflow.net/users/4137/ed-dean">Ed Dean</a> for linking to the Fun-post, Chandan for correcting the misspellings and Georges for the kind words. I agree with Georges that a cut&amp;copy of a blogpost-quoted text does not require a link to that post (though it is always much appreciated). It is rewarding to see such old posts getting a second chance&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mobilevisits.jpg"></p>
+<p>Above the Google Analytics graph of the visitors coming here via a mobile device (at most 5 on a good day&#8230;). Anticipating much more iPads around after tonights presents-session I&#8217;ve made NeB more accessible for iPods, iPhones, iPads and other mobile devices.</p>
+<p>The first time you get here via your Mac-device of choice you&#8217;ll be given the option of saving NeB as an App. It has its own icon (lowest row middle, also the favicon of NeB) and flashy start-up screen.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBApp1.jpg"></p>
+<p>Of course, the whole point trying to make NeB more readable for Mobile users you get an overview of the latest posts together with links to categories and tags and the number of comments. Sliding through you can read the post, optimized for the device.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBApp2.jpg"></p>
+<p>I do hope you will use the two buttons at the end of each post, the first to share or save it and the second to leave a comment.</p>
+<p>I wish you all a lot of mathematical (and other) fun in 2011 :: lieven.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Seating the first few billion Knights</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-billion-knights/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-billion-knights/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 30 Dec 2010 20:28:57 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Galois theory]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[nim-multiplication]]></category>
+		<category><![CDATA[ONAG]]></category>
+		<category><![CDATA[roots of unity]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3907</guid>
+
+					<description><![CDATA[The odd Knight of the round table problem asks for a consistent placement of the n-th Knight in the row at an odd root of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-odd-knights-of-the-round-table.html">odd Knight of the round table problem</a> asks for a consistent placement of the n-th Knight in the row at an odd root of unity, compatible with the two different realizations of the algebraic closure of the field with two elements.</p>
+<p>The first identifies the multiplicative group of its non-zero elements with the group of all odd complex roots of unity, under complex multiplication. The second uses Conway’s ‘simplicity rules’ in ONAG to define an addition and multiplication on the set of all ordinal numbers.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/16field2.jpg"></p>
+<p>Here&#8217;s the seating arrangement for the first 15 knights. Conway proved that all finite ordinals smaller than $2^{2^i} $ form a subfield of $\overline{\mathbb{F}}_2 $. The first non-trivial one being $\{ 0,1,2,3 \} $ with smallest multiplicative generator $2 $, whence we place Knight 2 at $e^{2 i \pi/3} $ and as $2^2=3 $ we know where to place the third Knight.</p>
+<p>The next subfield is made of the numbers $\{ 0,1,2,\ldots,13,14,15 \} $ and its non-zero numbers form a cyclic group of order 15. Hence we need to find the smallest generator of this group satisfying the additional property of being compatible with the earlier seating, that is, its fifth power must equal to 2. Checking the multiplication table reproduced <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-odd-knights-of-the-round-table.html">here</a> one verifies that the wanted generator is 4 and so we place Knight 4 at $e^{\frac{2 \pi i}{15}} $ and as all the ordinals smaller than 16 are powers of 4 this tells us where to place the Knights until we get to the 15th in the row.</p>
+<p>In february we were able to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/seating-the-first-few-thousand-knights.html">seat the first few thousand Knights</a> by showing by hand that 32 is the smallest ordinal such that its 15-th power is equal to 4 and using <a href="http://www.sagemath.org/">SAGE</a> that 1051 is the smallest ordinal whose 257-th power equals 32. These calculations enabled us to seat the Knights until we get to the 65536-th in the row.</p>
+<p>Today I managed to show that 1361923 is the smallest ordinal such that its 65537-th power equals 1051. You can verify this statement in SAGE using the method explained in the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/seating-the-first-few-thousand-knights.html">february post</a></p>
+<p><verbatim><br />
+sage: R.< x,y,z,t,u >=GF(2)[]</p>
+<p>sage: S.< a,b,c,d,e > =<br />
+R.quotient((x^2+x+1,y^2+y+x,z^2+z+x*y,t^2+t+x*y*z,u^2+u+x*y*z*t))</p>
+<p>sage: (c*e+b*e+a*b*c*d+b*c*d+a*b*d+a+1)^65537<br />
+ c^2 + b*d + a + 1<br />
+</verbatim></p>
+<p>(It takes a bit longer to check minimality of 1361923). That is, we have to seat Knight 1361923 at $e^{\frac{2 \pi i}{4294967295}} $ and because all the numbers smaller than 4294967296 are powers of 1361923 we have seating arrangements for the first 4294967295 Knights!</p>
+<p>I did try the same method in february but ran into time- and memory-problems on my 2.4Ghz 2Gb MacBook. Today I upgraded from Sage 3.3 to Sage 4.6 and this version is a lot faster (using the 64-bit architecture) and also appears to be much better at memory-management. Thank you, Sage-community!</p>
+<p>Wishing you all a lot of mathematical (and other) fun in the prime-number year 2011.</p>
+<p>atb :: lieven.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-billion-knights/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>So, who did discover the Leech lattice?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 20 Dec 2010 10:58:03 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Artin]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[Golay code]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[history]]></category>
+		<category><![CDATA[lattices]]></category>
+		<category><![CDATA[Leech lattice]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Noether]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3717</guid>
+
+					<description><![CDATA[For the better part of the 30ties, Ernst Witt (1) did hang out with the rest of the &#8216;Noetherknaben&#8217;, the group of young mathematicians around&#8230;]]></description>
+										<content:encoded><![CDATA[<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/noetherWitt.png"></p>
+<p>
+For the better part of the 30ties, <a href="http://en.wikipedia.org/wiki/Ernst_Witt">Ernst Witt</a> (1) did hang out with the rest of the &#8216;Noetherknaben&#8217;, the group of young mathematicians around <a href="http://en.wikipedia.org/wiki/Emmy_Noether">Emmy Noether</a> (3) in Gottingen.</p>
+<p>
+In 1934 Witt became <a href="http://en.wikipedia.org/wiki/Helmut_Hasse">Helmut Hasse</a>&#8216;s assistent in Gottingen, where he qualified as a university lecturer in 1936. By 1938 he has made enough of a name for himself to be offered a lecturer position in Hamburg and soon became an associate professor, the down-graded position held by <a href="http://en.wikipedia.org/wiki/Emil_Artin">Emil Artin</a> (2) until he was forced to emigrate in 1937.</p>
+<p>
+A former fellow student of him in Gottingen, Erna Bannow (4), had gone earlier to Hamburg to work with Artin. She continued her studies with Witt and finished her Ph.D. in 1939. In 1940 Erna Bannow and Witt married.</p>
+<p>
+So, life was smiling on Ernst Witt that sunday january 28th 1940, both professionally and personally. There was just one cloud on the horizon, and a rather menacing one. He was called up by the Wehrmacht and knew he had to enter service in february. For all he knew, he was spending the last week-end with his future wife&#8230; (later in february 1940, Blaschke helped him to defer his military service by one year).</p>
+<p>
+Still, he desperately wanted to finish his paper before entering the army, so he spend most of that week-end going through the final version and submitted it on monday, as the published paper shows.</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wittpaperend.png"></p>
+<p>
+In the 70ties, Witt suddenly claimed he did discover the <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> $ {\Lambda} $ that sunday. <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/who-discovered-the-leech-lattice.html">Last time</a> we have seen that the only written evidence for Witt&#8217;s claim is one sentence in his 1941-paper Eine Identit&auml;t zwischen Modulformen zweiten Grades. &#8220;Bei dem Versuch, eine Form aus einer solchen Klassen wirklich anzugeben, fand ich mehr als 10 verschiedene Klassen in $ {\Gamma_{24}} $.&#8221;</p>
+<p>
+But then, why didn&#8217;t Witt include more details of this sensational lattice in his paper?</p>
+<p>
+Ina Kersten recalls on page 328 of Witt&#8217;s collected papers : &#8220;In his colloquium talk &#8220;Gitter und Mathieu-Gruppen&#8221; in Hamburg on January 27, 1970, Witt said that in 1938, he had found nine lattices in $ {\Gamma_{24}} $ and that later on January 28, 1940, while studying the Steiner system $ {S(5,8,24)} $, he had found two additional lattices $ {M} $ and $ {\Lambda} $ in $ {\Gamma_{24}} $. He continued saying that he had then given up the tedious investigation of $ {\Gamma_{24}} $ because of the surprisingly low contribution</p>
+<p><p align=center>$ \displaystyle | Aut(\Lambda) |^{-1} &lt; 10^{-18} $</p>
+<p>
+to the Minkowski density and that he had consented himself with a short note on page 324 in his 1941 paper.&#8221;</p>
+<p>
+In the last sentence he refers to the fact that the sum of the inverse orders of the automorphism groups of all even unimodular lattices of a given dimension is a fixed rational number, the Minkowski-Siegel mass constant. In dimension 24 this constant is</p>
+<p><p align=center>$ \displaystyle \sum_{L} \frac{1}{| Aut(L) |} = \frac {1027637932586061520960267}{129477933340026851560636148613120000000} \approx 7.937 \times 10^{-15} $</p>
+<p>
+That is, Witt was disappointed by the low contribution of the Leech lattice to the total constant and concluded that there might be thousands of new even 24-dimensional unimodular lattices out there, and dropped the problem.</p>
+<p>
+If true, the story gets even better : not only claims Witt to have found the lattices $ {A_1^{24}=M} $ and $ {\Lambda} $, but also enough information on the Leech lattice in order to compute the order of its automorphism group $ {Aut(\Lambda)} $, aka the <a href="http://en.wikipedia.org/wiki/Conway_group">Conway group</a> $ {Co_0 = .0} $ the dotto-group!</p>
+<p>
+Is this possible? Well fortunately, the difficulties one encounters when trying to compute the order of the automorphism group of the Leech lattice from scratch, is one of the better documented mathematical stories around.</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/weekendCambridge.png"></p>
+<p>
+The books <a href="http://www.amazon.co.uk/Error-Correcting-through-Packings-Mathematical-Monographs/dp/0883850370/">From Error-Correcting Codes through Sphere Packings to Simple Groups</a> by Thomas Thompson, <a href="http://www.amazon.co.uk/Symmetry-Monster-greatest-quests-mathematics/dp/0192807234/">Symmetry and the monster</a> by Mark Ronan, and <a href="http://www.amazon.co.uk/Finding-Moonshine-Mathematicians-Journey-Symmetry/dp/0007214626/">Finding moonshine</a> by Marcus du Sautoy tell the story in minute detail.</p>
+<p>
+It took <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> 12 hours on a 1968 saturday in Cambridge to compute the order of the dotto group, using the knowledge of Leech and McKay on the properties of the Leech lattice and with considerable help offered by <a href="http://en.wikipedia.org/wiki/John_G._Thompson">John Thompson</a> via telephone.</p>
+<p>
+But then, John Conway is one of the fastest mathematicians the world has known. The prologue of his book <a href="http://www.amazon.co.uk/Numbers-Games-John-H-Conway/dp/1568811276/">On numbers and games</a> begins with : &#8220;Just over a quarter of a century ago, for seven consecutive days I sat down and typed from 8:30 am until midnight, with just an hour for lunch, and ever since have described this book as &#8220;having been written in a week&#8221;.&#8221;</p>
+<p>
+Conway may have written a book in one week, Ernst Witt did complete his entire Ph.D. in just one week! In a letter of August 1933, his sister told her parents : &#8220;He did not have a thesis topic until July 1, and the thesis was to be submitted by July 7. He did not want to have a topic assigned to him, and when he finally had the idea, he started working day and night, and eventually managed to finish in time.&#8221;</p>
+<p>
+So, if someone might have beaten John Conway in fast-computing the dottos order, it may very well have been Witt. Sadly enough, there is a lot of circumstantial evidence to make Witt&#8217;s claim highly unlikely.</p>
+<p>
+For starters, psychology. Would you spend your last week-end together with your wife to be before going to war performing an horrendous calculation?</p>
+<p>
+Secondly, mathematical breakthroughs often arise from newly found insight. At that time, Witt was also working on his paper on root lattices &#8220;Spiegelungsgrupen and Aufz&auml;hling halbeinfacher Liescher Ringe&#8221; which he eventually submitted in january 1941. Contained in that paper is what we know as Witt&#8217;s lemma which tells us that for any integral lattice the sublattice generated by vectors of norms 1 and 2 is a direct sum of root lattices.</p>
+<p>
+This leads to the trick of trying to construct unimodular lattices by starting with a direct sum of root lattices and &#8216;adding glue&#8217;. Although this gluing-method was introduced by Kneser as late as 1967, Witt must have been aware of it as his 16-dimensional lattice $ {D_{16}^+} $ is constructed this way.</p>
+<p>
+If Witt wanted to construct new 24-dimensional even unimodular lattices in 1940, it would be natural for him to start off with direct sums of root lattices and trying to add vectors to them until he got what he was after. Now, all of the Niemeier-lattices are constructed this way, except for the Leech lattice!</p>
+<p><p align=center><img decoding="async"  width=300 src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GlueLattices.jpg"></p>
+<p>
+I&#8217;m far from an expert on the Niemeier lattices but I would say that Witt definitely knew of the existence of $ {D_{24}^+} $, $ {E_8^3} $ and $ {A_{24}^+} $ and that it is quite likely he also constructed $ {(D_{16}E_8)^+, (D_{12}^2)^+, (A_{12}^2)^+, (D_8^3)^+} $ and possibly $ {(A_{17}E_7)^+} $ and $ {(A_{15}D_9)^+} $. I&#8217;d rate it far more likely Witt constructed another two such lattices on sunday january 28th 1940, rather than discovering the Leech lattice.</p>
+<p>
+Finally, wouldn&#8217;t it be natural for him to include a remark, in his 1941 paper on root lattices, that not every even unimodular lattices can be obtained from sums of root lattices by adding glue, the Leech lattice being the minimal counter-example?</p>
+<p>
+If it is true he was playing around with the Steiner systems that sunday, it would still be a pretty good story he discovered the lattices $ {(A_2^{12})^+} $ and $ {(A_1^{24})^+} $, for this would mean he discovered the Golay codes in the process!</p>
+<p>
+Which brings us to our next question : who discovered the Golay code?</p>
+<p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Return to LaTeX</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 12 Feb 2010 20:20:29 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2965</guid>
+
+					<description><![CDATA[To most mathematicians, a good LaTeX-frontend (such as TeXShop for Mac-users) is the crucial tool to get the work done. We use it to draft&#8230;]]></description>
+										<content:encoded><![CDATA[<p><p>
+To most mathematicians, a good LaTeX-frontend (such as <a href="http://www.uoregon.edu/~koch/texshop/">TeXShop</a> for Mac-users) is the crucial tool to get the work done. We use it to draft ideas, write papers and courses, or even to take notes during lectures.</p>
+<p>
+However, after six years of blogging, my own LaTeX-routine became rusty. I rarely open a new tex-document, and when I do, I’d rather copy-paste the long preamble from an old file than to start from scratch with a minimal list of packages and definitions needed for the job at hand. The few times I put a paper on the arXiv, the resulting text resembles a blog-post more than a mathematical paper, here’s <a href="http://arxiv.org/abs/0803.3601">an example</a>.</p>
+<p>
+As I desperately need to get some math-writing done, I need to pull myself away from the lure of an ever-open <a href="http://wordpress.org/">WordPress</a> admin browser-screen and reacquaint myself with the far more efficient LaTeX-environment.</p>
+<p>
+Perhaps even my blogging will benefit from the change. Whereas I used to keep on adding to most of my tex-files in order to keep them up-to-date, I rarely edit a blog-post after hitting the ’publish’ button. If I really want to turn some of my better posts into a book, I need them in a format suitable for neverending polishing, without annoying the many RSS-feed aggregators out there.</p>
+<p>
+Who better than Terry Tao to teach me a more proficient way of blogging? A few days ago, Terry <a href="http://terrytao.wordpress.com/2010/02/07/an-epsilon-of-room-pages-from-year-three-of-a-mathematical-blog/">announced</a> he will soon have his 5th (!!) book out, after three years of blogging&#8230;</p>
+<p>
+How does he manage to do this? Well, as far as I know, Terry blogs in LaTeX and then uses a python-script called <a href="http://lucatrevisan.wordpress.com/latex-to-wordpress/">LaTeX2WP</a> ’a program that converts a LaTeX file into something that is ready to be cut and pasted into WordPress. This way, you can write, and preview, your post in LaTeX, then run LaTeX2WP, and post into WordPress whatever comes out.’ More importantly, one retains a pure-tex-file of the post on which one can keep on editing to get it into a (book)-publishable form, eventually.</p>
+<p>
+Nice, but one can do even better, as Eric from <a href="http://curiousreasoning.wordpress.com/tag/latex/">Curious Reasoning</a> worked out. He suggests to install two useful python-packages : <a href="http://www.blackbirdblog.it/programmazione/progetti/28#english">WordPressLib</a> &#8220;with this library you can control remotely a WordPress installation. Use of library is very simple, you can write a small scripts or full applications that allows you to automate publishing of articles on your blog/site powered by WordPress&#8221; and <a href="http://plastex.sourceforge.net/">plasTeX</a> &#8220;plasTeX is a LaTeX document processing framework written entirely in Python. It currently comes bundled with an XHTML renderer (including multiple themes), as well as a way to simply dump the document to a generic form of XML&#8221;. Installation is easy : download and extract the files somewhere, go there and issue a **sudo python setup.py install** to add the packages to your python.</p>
+<p>
+Finally, get Eric’s own <a href="http://curiousreasoning.wordpress.com/2010/01/30/overview-of-wplatex-4/">wplatex</a> package and install it as explained there. WpLaTeX has all the features of LaTeX2WP and much more : one can add titles, tags and categories automatically and publish the post from the command-line without ever having to enter the taboo WordPress-admin page! Here’s what I’ve written by now in TeXShop</p>
+<p><p align=center> <img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/Return2Latex.jpg" /> </p>
+<p>
+I’ve added the screenshot and the script will know where to find it online for the blog-version as well as on my hard-disk for the tex-version. Very handy is the iftex &#8230; fi versus ifblog &#8230; fi alternative which allows you to add pure HTML to get the desired effect, when needed. Remains only to go into Terminal and issue the command</p>
+<p>
+wplpost -x https://lievenlebruyn.github.io/neverendingbooks/xmlrpc.php ReturnToLatex.tex</p>
+<p>
+(if your blog is on WordPress.com it even suffices to give its name, rather than this work-around for stand-alone wordpress blogs). The script asks for my username and password and will convert the tex-file and post it automatic.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Seating the first few thousand Knights</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2010 16:31:46 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[ONAG]]></category>
+		<category><![CDATA[ordinals]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2855</guid>
+
+					<description><![CDATA[The Knight-seating problems asks for a consistent placing of n-th Knight at an odd root of unity, compatible with the two different realizations of the algebraic closure of the field with two elements.]]></description>
+										<content:encoded><![CDATA[<p>The Knight-seating problems asks for a consistent placing of n-th Knight at an odd root of unity, compatible with the two different realizations of the algebraic closure of the field with two elements.<br />
+The first identifies the multiplicative group of its non-zero elements with the group of all odd complex roots of unity, under complex multiplication. The second uses Conway&#8217;s &#8216;simplicity rules&#8217; to define an addition and multiplication on the set of all ordinal numbers.</p>
+<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-odd-knights-of-the-round-table.html">odd Knights of the round table</a>-problem asks for a specific one-to-one correspondence between two realizations of &#8216;the&#8217; algebraic closure $\overline{\mathbb{F}_2} $ of the field of two elements.</p>
+<p>The first identifies the multiplicative group of its non-zero elements with the group of all odd complex roots of unity, under complex multiplication. The addition on $\overline{\mathbb{F}_2} $ is then recovered by inducing an involution on the odd roots, pairing the one corresponding to x to the one corresponding to x+1.</p>
+<p>The second uses Conway&#8217;s &#8216;simplicity rules&#8217; to define an addition and multiplication on the set of all ordinal numbers. Conway proves in <a href="http://en.wikipedia.org/wiki/On_Numbers_and_Games">ONAG</a> that this becomes an algebraically closed field of characteristic two and that $\overline{\mathbb{F}_2} $ is the subfield of all ordinals smaller than $\omega^{\omega^{\omega}} $. The finite ordinals (the natural numbers) form the quadratic closure of $\mathbb{F}_2 $.</p>
+<p>On the natural numbers the Conway-addition is binary addition without carrying and Conway-multiplication is defined by the properties that two different Fermat-powers $N=2^{2^i} $ multiply as they do in the natural numbers, and, Fermat-powers square to its sesquimultiple, that is $N^2=\frac{3}{2}N $. Moreover, all natural numbers smaller than $N=2^{2^{i}} $ form a finite field $\mathbb{F}_{2^{2^i}} $. Using distributivity, one can write down a multiplication table for all 2-powers.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/nim2powers.jpg"><br />
+</center></p>
+<p>The Knight-seating problems asks for a consistent placing of n-th Knight $K_n $ at an odd root of unity, compatible with the two different realizations of $\overline{\mathbb{F}_2} $. Last time, we were able to place the first 15 Knights as below, and asked where you would seat $K_{16} $</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Knights16.jpg"><br />
+</center></p>
+<p>$K_4 $ was placed at $e^{2\pi i/15} $ as 4 was the smallest number generating the &#8216;Fermat&#8217;-field $\mathbb{F}_{2^{2^2}} $ (with multiplicative group of order 15) subject to the compatibility relation with the generator 2 of the smaller Fermat-field $\mathbb{F}_2 $ (with group of order 15) that $4^5=2 $.</p>
+<p>To include the next Fermat-field $\mathbb{F}_{2^{2^3}} $ (with multiplicative group of order 255) consistently, we need to find the smallest number n generating the multiplicative group and satisfying the compatibility condition $n^{17}=4 $. Let&#8217;s first concentrate on finding the smallest generator : as 2 is a generator for 1st Fermat-field $\mathbb{F}_{2^{2^1}} $ and 4 a generator for the 2-nd Fermat-field $\mathbb{F}_{2^{2^2}} $ a natural conjecture might be that 16 is a generator for the 3-rd Fermat-field $\mathbb{F}_{2^{2^3}} $ and, more generally, that $2^{2^i} $ would be a generator for the next field $\mathbb{F}_{2^{2^{i+1}}} $.</p>
+<p>However, an &#8220;exercise&#8221; in the 1978-paper by Hendrik Lenstra <a href="https://openaccess.leidenuniv.nl/bitstream/1887/2125/1/346_027.pdf">Nim multiplication</a> asks : &#8220;Prove that $2^{2^i} $ is a primitive root in the field $\mathbb{F}_{2^{2^{i+1}}} $ if and only if i=0 or 1.&#8221;</p>
+<p>I&#8217;ve struggled with several of the &#8216;exercises&#8217; in Lenstra&#8217;s paper to the extend I feared Alzheimer was setting in, only to find out, after taking pen and paper and spending a considerable amount of time calculating, that they are indeed merely exercises, when looked at properly&#8230; (Spoiler-warning : stop reading now if you want to go through this exercise yourself).</p>
+<p>In the picture above I&#8217;ve added in red the number $x(x+1)=x^2+1 $ to each of the involutions. Clearly, for each pair these numbers are all distinct and we see that for the indicated pairing they make up all numbers strictly less than 8.</p>
+<p>By Conway&#8217;s simplicity rules (or by checking) the pair (16,17) gives the number 8. In other words, the equation<br />
+$x^2+x+8 $ is an irreducible polynomial over $\mathbb{F}_{16} $ having as its roots in $\mathbb{F}_{256} $ the numbers 16 and 17. But then, 16 and 17 are conjugated under the Galois-involution (the Frobenius $y \mapsto y^{16} $). That is, we have $16^{16}=17 $ and $17^{16}=16 $ and hence $16^{17}=8 $. Now, use the multiplication table in $\mathbb{F}_{16} $ given in the previous post (or compute!) to see that 8 is of order 5 (and NOT a generator). As a consequence, the multiplicative order of 16 is 5&#215;17=85 and so 16 cannot be a generator in $\mathbb{F}_{256} $.<br />
+For general i one uses the fact that $2^{2^i} $ and $2^{2^i}+1 $ are the roots of the polynomial $x^2+x+\prod_{j&lt;i} 2^{2^j} $ over $\mathbb{F}_{2^{2^i}} $ and argues as before.</p>
+<p>Right, but then what is the minimal generator satisfying $n^{17}=4 $? By computing we see that the pairings of all numbers in the range 16&#8230;31 give us all numbers in the range 8&#8230;15 and by the above argument this implies that the 17-th powers of all numbers smaller than 32 must be different from 4. But then, the smallest candidate is 32 and one verifies that indeed $32^{17}=4 $ (use the multiplication table given before).</p>
+<p>Hence, we must place Knight $K_{32} $ at root $e^{2 \pi i/255} $ and place the other Knights prior to the 256-th at the corresponding power of 32. I forgot the argument I used to find-by-hand the requested place for Knight 16, but one can verify that $32^{171}=16 $ so we seat $K_{16} $ at root $e^{342 \pi i/255} $.</p>
+<p>But what about Knight $K_{256} $? Well, by this time I was quite good at squaring and binary representations of integers, but also rather tired, and decided to leave that task to the computer.</p>
+<p>If we denote Nim-addition and multiplication by $\oplus $ and $\otimes $, then Conway&#8217;s simplicity results in ONAG establish a field-isomorphism between $~(\mathbb{N},\oplus,\otimes) $ and the field $\mathbb{F}_2(x_0,x_1,x_2,\ldots ) $ where the $x_i $ satisfy the Artin-Schreier equations</p>
+<p>$x_i^2+x_i+\prod_{j &lt; i} x_j = 0 $</p>
+<p>and the i-th Fermat-field $\mathbb{F}_{2^{2^i}} $ corresponds to $\mathbb{F}_2(x_0,x_1,\ldots,x_{i-1}) $. The correspondence between numbers and elements from these fields is given by taking $x_i \mapsto 2^{2^i} $. But then, wecan write every 2-power as a product of the $x_i $ and use the binary representation of numbers to perform all Nim-calculations with numbers in these fields.</p>
+<p>Therefore, a quick and dirty way (and by no means the most efficient) to do Nim-calculations in the next Fermat-field consisting of all numbers smaller than 65536, is to use <a href="http://www.sagemath.org/">sage</a> and set up the field $\mathbb{F}_2(x_0,x_1,x_2,x_3) $ by</p>
+<pre>
+R.< x,y,z,t > =GF(2)[]
+S.< a,b,c,d >=R.quotient((x^2+x+1,y^2+y+x,z^2+z+x*y,t^2+t+x*y*z))
+</pre>
+<p>To find the smallest number generating the multiplicative group and satisfying the additional compatibility condition $n^{257}=32 $ we have to find the smallest binary number $i_1i_2 \ldots i_{16} $ (larger than 255) satisfying</p>
+<pre>
+(i1*a*b*c*t+i2*b*c*t+i3*a*c*t+i4*c*t+i5*a*b*t+i6*b*t+
+i7*a*t+i8*t+i9*a*b*c+i10*b*c+i11*a*c+i12*c+i13*a*b+
+i14*b+i15*a+i16)^257=a*c
+</pre>
+<p>It takes a 2.4GHz 2Gb-RAM MacBook not that long to decide that the requested generator is 1051 (killing another optimistic conjecture that these generators might be 2-powers). So, we seat Knight<br />
+$K_{1051} $ at root $e^{2 \pi i/65535} $ and can then arrange seatings for all Knight queued up until we reach the 65536-th! In particular, the first Knight we couldn&#8217;t place before, that is Knight $K_{256} $, will be seated at root $e^{65826 \pi i/65535} $.</p>
+<p>If you&#8217;re lucky enough to own a computer with more RAM, or have the patience to make the search more efficient and get the seating arrangement for the next Fermat-field, please drop a comment.</p>
+<p>I&#8217;ll leave you with another Lenstra-exercise which shouldn&#8217;t be too difficult for you to solve now : &#8220;Prove that $x^3=2^{2^i} $ has three solutions in $\mathbb{N} $ for each $i \geq 2 $.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Seriously now, where was the Bourbaki wedding?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 25 Nov 2009 11:15:59 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Cartan]]></category>
+		<category><![CDATA[geo]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[nonsense]]></category>
+		<category><![CDATA[teaching]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2569</guid>
+
+					<description><![CDATA[A few days before Halloween, Norbert Dufourcq (who died december 17th 1990&#8230;), sent me a comment, containing lots of useful information, hinting I did get&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A few days before Halloween, <a href="http://fr.wikipedia.org/wiki/Norbert_Dufourcq">Norbert Dufourcq</a> (who died december 17th 1990&#8230;), sent me a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/where-was-the-bourbaki-wedding.html/comment-page-1#comment-8463">comment</a>, containing lots of useful information, hinting I did get it wrong about the church of the Bourbali wedding in the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/where-was-the-bourbaki-wedding.html/">previous post</a>.</p>
+<p>Norbert Dufourcq, an organist and student of <a href="http://fr.wikipedia.org/wiki/André_Marchal">Andre Machall</a>, the organist-in-charge at the Saint-Germain-des-Prés church in 1939, the place where <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/where-was-the-bourbaki-wedding.html/">I speculated</a> the Bourbaki wedding took place, concluded his comment with :</p>
+<p><strong>&#8220;P.S. Lieven, you _do_ know about the Schola Cantorum, now, don&#8217;t you?!?&#8221;</strong>.</p>
+<p> Euh&#8230; actually &#8230; no, I did not &#8230;</p>
+<p><img decoding="async" style="float:right; margin-left:10px;" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/ScholaCantorum.jpg"><a href="http://en.wikipedia.org/wiki/Schola_Cantorum">La Schola Cantorum</a> is a private music school in Paris. It was founded in 1894 by Charles Bordes, Alexandre Guilmant and Vincent d&#8217;Indy as a counterbalance to the Paris Conservatoire&#8217;s emphasis on opera. Its alumni include many significant figures in 20th century music, such as <a href="http://en.wikipedia.org/wiki/Erik_Satie">Erik Satie</a> and <a href="http://en.wikipedia.org/wiki/Cole_Porter">Cole Porter</a>.</p>
+<p><a href="http://www.schola-cantorum.com/">Schola Cantorum</a> is situated 69, rue Saint Jacques, Paris, just around the corner of the <a href="http://www.ens.fr/?lang=fr">Ecole Normal Superieure</a>, home base to the Bourbakis. In fact, closer investigation reveals striking similarities and very close connections between the circle of artists at la Schola and the Bourbaki group.</p>
+<p>In december 1934, the exact month the Bourbaki group was formed, a radical reorganisation took place at the Schola, when Nestor Lejeune became the new director. He invited several young musicians, many from the famous Dukas-class, to take up teaching positions at the Schola.</p>
+<p>Here&#8217;s a picture of part of the <a href="http://en.wikipedia.org/wiki/File:Classe-dukas.jpg">Dukas class of 1929</a>, several of its members will play a role in the upcoming events :<br />
+from left to right next to the piano : Pierre Maillard-Verger, Elsa Barraine, Yvonne Desportes, Tony Aubin, Pierre Revel, Georges Favre, Paul Dukas, René Duclos, Georges Hugon, Maurice Duruflé. Seated on the right : Claude Arrieu, Olivier Messiaen.</p>
+<p />
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/ClasseDukas.jpg"><br />
+</center></p>
+<p>The mid-1930s in Paris saw the emergence of two closely-related groups with a membership which overlapped : <a href="http://books.google.com/books?id=UgGBXwpHTe8C&amp;pg=PA142&amp;lpg=PA142&amp;dq=la+spirale+Georges+Migot&amp;source=bl&amp;ots=UgEENf63Am&amp;sig=vU2ac8Lu3Rbtb5zWEDSa7dA9yNY&amp;hl=en&amp;ei=R04ES5qEFs_B-QaLiKXKCg&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=3&amp;ved=0CBIQ6AEwAg#v=onepage&amp;q=la%20spirale%20Georges%20Migot&amp;f=false">La Spirale</a> and <a href="http://www.britannica.com/EBchecked/topic/303331/La-Jeune-France">La Jeune France</a>. La Spirale was founded in 1935 under the leadership of Georges Migot; its other committee members were Paul Le Flem, his pupil André Jolivet, Edouard Sciortino, Claire Delbos, her husband <a href="http://en.wikipedia.org/wiki/Olivier_Messiaen">Olivier Messiaen</a>, Daniel-Lesur and Jules Le Febvre. The common link between almost all of these musicians was their connection with the Schola Cantorum.</p>
+<p><img decoding="async" style="float:left;margin-right:10px;" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/JeuneFrance.jpg">On the left : Les Jeunes Musiciens Français : André Jolivet on the Piano. Standing from left to right :<br />
+Olivier Messiaen, Yves Baudrier, Daniel-Lesur.</p>
+<p>Nigel Simeone wrote <a href="http://www.musicaltimes.co.uk/archive/0203/simeone.html">this</a> about Messiaen and La Jeune France :<br />
+&#8220;The extremely original and independent-minded Messiaen had already shown himself to be a rather unexpected enthusiast for joining groups: in December 1932 he wrote to his friend Claude Arrieu about a letter from another musician, Jacques Porte, outlining plans for a new society to be called Les Jeunes Musiciens Français.<br />
+Messiaen agreed to become its vice-president, but nothing seems to have come of the project. Six months later, in June 1933, he had a frustrating meeting with Roger Désormière on behalf of the composers he described to Arrieu as ‘les quatre’, all of them Dukas pupils: Elsa Barraine, <strong>the recently-deceased Jean Cartan</strong>, Arrieu and Messiaen himself; during the early 1930s Messiaen and Arrieu organised concerts featuring all four composers.&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Cartanfamily.jpg" style="float:right;margin-left:10px;" hspace=10>Finally, we&#8217;re getting a connection with the Bourbaki group! Norbert Dufourcq mentioned it already in his comment &#8220;Messiaen was also a good friend of Jean Cartan (himself a composer, and Henri’s brother)&#8221;. <a href="http://en.wikipedia.org/wiki/Henri_Cartan">Henri Cartan</a> was one of the first Bourbakis and an excellent piano player himself.</p>
+<p>The Cartan family picture on the right : standing from left to right, father <a href="http://en.wikipedia.org/wiki/Élie_Cartan">Elie Cartan</a> (one of the few older French mathematicians respected by the Bourbakis), Henri and his mother Marie-Louise. Seated, the younger children, from left to right : Louis, Helene (who later became a mathematician, herself) and the composer Jean Cartan, who sadly died very young from tuberculoses in 1932&#8230;</p>
+<p>The december 1934 revolution in French music at the Schola Cantorum, instigated by Messiaen and followers, was the culmination of a process that started a few years before when Jean Cartan was among the circle of revolutionados. Because Messiaen was a fiend of the Cartan family, they surely must have been aware of the events at the Schola (or because it was merely a block away from the ENS), and, the musicians&#8217; revolt may very well have been an example to follow for the first Bourbakis&#8230;(?!)</p>
+<p>Anyway, we now know the intended meaning of the line &#8220;with lemmas sung by the Scholia Cartanorum&#8221; on the wedding-invitation. Cartanorum is NOT (as I <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/where-was-the-bourbaki-wedding.html">claimed last time</a>) bad Latin for &#8216;Cartesiorum&#8217;, leading to Descartes and the Saint-Germain-des-Pres church, but is in fact passable Latin (plur. gen.) of CARTAN(us), whence the translation &#8220;with lemmas sung by the school of the Cartans&#8221;. There&#8217;s possibly a double pun intended here : first, a reference to (father) <a href="http://www.joensuu.fi/matematiikka/kurssit/complex/luku10.pdf">Cartan&#8217;s lemma</a> and, of course, to La Schola where the musical Cartan-family felt at home.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/valdeGrace1.jpg" style="float:left;margin-right:10px;" hspace=10> Fine, but does this brings us any closer to the intended place of the Bourbaki-Petard wedding? Well, let&#8217;s reconsider the hidden &#8216;clues&#8217; we discovered last time : the phrase &#8220;They will receive the trivial isomorphism from P. Adic, of the Order of the Diophantines&#8221; might suggest that the church belongs to a a religious order and is perhaps an abbey- or convent-church and the phrase &#8220;the organ will be played by Monsieur Modulo&#8221; requires us to identify this mysterious Mister Modulo, because Norbert Dufourcq rightfully observed :</p>
+<p>&#8220;note however that in 1939, it wasn’t as common to have a friend-organist perform at a wedding as it is today: the appointed organists, especially at prestigious Paris positions, were much less likely to accept someone play in their stead.&#8221;</p>
+<p>The <a href="http://www.schola-cantorum.com/histoire.php">history</a> of La Schola Cantorum reveals something that might have amused Frank Smithies (<a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/when-was-the-bourbaki-wedding.html">remember</a> he was one of the wedding-invitation-composers) : the Schola is located in the Convent(!) of the Brittish  Benedictines&#8230;</p>
+<p>In 1640 some Benedictine monks, on the run after the religious schism in Britain, found safety in Paris under the protection of <a href="http://en.wikipedia.org/wiki/Cardinal_Richelieu">Cardinal Richelieu</a> and <a href="http://en.wikipedia.org/wiki/Anne_of_Austria">Anne of Austria</a> at <a href="http://en.wikipedia.org/wiki/Val-de-Grâce">Val-de-Grace</a>, where the Schola is now housed.</p>
+<p>As is the case with most convents, the convent of the Brittish Benedictines did have its own convent church, now called <a href="http://perso.magic.fr/desarbre/pages/page3.html">l&#8217;église royale Notre-Dame du Val-de-Grâce</a> (remember that one of the possible interpretations for &#8220;of the universal variety&#8221; was that the name of the church would be &#8220;Notre-Dame&#8221;&#8230;).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/valdeGrace2.jpg" style="float:right;margin-left:10px;" hspace=10> This church is presently used as the concert hall of La Schola and is famous for its &#8230; <a href="http://www.valdegrace.org/pages/page4.html">musical organ</a> : &#8220;In 1853, <a href="http://en.wikipedia.org/wiki/Aristide_Cavaillé-Coll">Aristide Cavaillé-Coll</a> installed a new organ in the Church of Sainte-geneviève which had been restored in its rôle as a place of worship by Prince President Louis-Napoléon. In 1885, upon the decision of President Jules Grévy, this church once again became the Pantheon and, six years later, according to an understanding between the War and Public Works Departments, the organ was transferred to the Val-de-Grâce, under the supervision of the organ builder Merklin. Beforehand, the last time it was heard in the Pantheon must have been for the funeral service of Victor Hugo.<br />
+In 1927, a raising was carried out by the builder Paul-Marie Koenig, and the inaugural concert was given by André Marchal and Achille Philippe, the church’s organist. Added to the register of historic monument in 1979, Val-de-Grâce’s “ little great organ ”, as Cavaillé-Coll called it, was restored in 1993 by the organ builders François Delangue and Bernard Hurvy.<br />
+The organ of Val-de-Grâce is one the rare parisian surviving witnesses of the art of Aristide Cavaillé-Coll, an instrument that escaped abusive and definitive transformations or modernizations. This explain why, in spite of its relatively modest scale, this organ enjoys quite a reputation, and this, as far as the United States.&#8221;</p>
+<p>By why would the Val-de-Grace organiste at the time <a href="http://fr.wikipedia.org/wiki/Achille_Philip">Achille Philip</a>, &#8220;organiste titulaire du Val-de-Grâce de 1903 à 1950 et professeur d&#8217;orgue et d&#8217;harmonie à la Schola Cantorum de 1904 à 1950&#8221;, be called &#8216;Mister Modulo&#8217; in the wedding-invitations line &#8220;L&#8217;orgue sera tenu par Monsieur Modulo&#8221;???</p>
+<p>Again, the late Norbert Dufourcq comes to our rescue, proposing a good candidate for &#8216;Monsieur Modulo&#8217; : &#8220;As for “modulo”, note that the organist at Notre-Dame at that time, Léonce de Saint-Martin, was also the composer of a “Suite Cyclique”, though I admit that this is just wordplay: there is nothing “modular” about this work. Maybe a more serious candidate would be <a href="http://en.wikipedia.org/wiki/Olivier_Messiaen">Olivier Messiaen</a> (who was organist at the Église de la Trinité): his “modes à transposition limitée” are really about Z/12Z→Z/3Z and Z/12Z→Z/4Z. &#8220;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messi.jpg" style="float:left;margin-right:10px;" hspace=10> Messiaen&#8217;s <a href="http://en.wikipedia.org/wiki/Modes_of_limited_transposition">&#8216;Modes of limited transposition&#8217;</a> were compiled in his book &#8216;Technique de mon langage musical&#8217;. This book was published in Paris by  Leduc, as late as 1944, 5 years after the wedding-invitation.</p>
+<p>Still, several earlier works of Messiaen used these schemes, most notably <a href="http://en.wikipedia.org/wiki/La_Nativité_du_Seigneur">La Nativité du Seigneur</a>, composed in 1935 : &#8220;The work is one of the earliest to feature elements that were to become key to Messiaen&#8217;s later compositions, such as the extensive use of the composer&#8217;s own modes of limited transposition, as well as influence from birdsong, and the meters and rhythms of Ancient Greek and traditional Indian music.&#8221;</p>
+<p>More details on Messiaen&#8217;s modes and their connection to modular arithmetic can be found in the study <a href="http://www.vjmanzo.com/clients/vincemanzo/scores/Implementing%20Modality%20in%20Algorithmic%20Composition.pdf">Implementing Modality in Algorithmic Composition</a> by Vincent Joseph Manzo.</p>
+<p>Hence, Messiaen is a suitable candidate for the title &#8216;Monsieur Modulo&#8217;, but would he be able to play the Val-de-Grace organ while not being the resident organist?</p>
+<p>Remember, the Val-de-Grace church was the concert hall of La Schola, and its musical organ the instrument of choice for the relevant courses. Now &#8230; Olivier Messiaen <a href="http://www.encyclopedia.com/topic/Olivier_Messiaen.aspx">taught</a> at the Schola Cantorum and the École Normale de Musique  from 1936 till 1939. So, at the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/when-was-the-bourbaki-wedding.html">time of the Bourbaki-Petard wedding</a> he would certainly be allowed to play the  Cavaillé-Coll organ.</p>
+<p>Perhaps we got it right, the second time around : <strong>the Bourbaki-Pétard wedding was held on June 3rd 1939 in the church &#8216;l&#8217;église royale Notre-Dame du Val-de-Grâce&#8217; at 12h</strong>?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Snow leopard + wordpress + latex problem</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2009 17:09:05 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[Leopard]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2154</guid>
+
+					<description><![CDATA[Ever since I&#8217;ve upgraded to Snow Leopard I&#8217;ve been having problems with the webserver. At first there were the &#8216;obvious&#8217; problems : mysql-connection lost and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Ever since I&#8217;ve upgraded to <a href="http://www.apple.com/macosx/">Snow Leopard</a> I&#8217;ve been having problems with the webserver.</p>
+<p>At first there were the &#8216;obvious&#8217; problems : mysql-connection lost and php-error message. These were swiftly dealt with using the excellent <a href="http://wordpress.org/support/topic/306878">Snow Leopard, Apache, PHP, MySQL and WordPress!</a> advice from &#8216;tady&#8217;.</p>
+<p>Right now, access to this blog is extremely slow (and often impossible), certainly via the admin-page. The problem appears to be that most of my CPU is used by lots of pdfetex-processes owned by www. Hence the conjecture that it is a problem with either <a href="http://www.mayer.dial.pipex.com/tex.htm">LaTeXRender</a> or <a href="http://wordpress.org/extend/plugins/wp-latex/">WP LaTeX</a>.</p>
+<p>Anyone experiencing a similar problem, or knowing a trick to resolve it? Takk.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>math2.0-setup : final comments</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/math20-setup-final-comments/</link>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 26 Feb 2009 19:56:48 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1342</guid>
+
+					<description><![CDATA[Last time I promised to come back explaining how to set-up LaTeX-support, figuring I had to tell you about a few modifications I had to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/math20-setup-wpmu-and-buddypress.html">Last time</a> I promised to come back explaining how to set-up LaTeX-support, figuring I had to tell you about a few  modifications I had to make in order to get <a href="http://www.mayer.dial.pipex.com/tex.htm">Latexrender</a> run on my mac&#8230;</p>
+<p>A few google searches made it plain how out of touch I am on these matters (details below). But first, there was this comment to this series by Link Starbureiy :</p>
+<p>&#8220;I took part in Gowers’ blog discussion. My input was to move things over to Google collaboration tools, like Google Knol, and perhaps Google Sites. However, those tools for large-scale collaboration may not be the best solution anymore. I like the NSN idea, but worry about it’s very long-term stability. Would you consider porting the project over to the Google App Engine so that it can be played with in the orkut sandbox (http://sandbox.orkut.com)/?&#8221;</p>
+<p>I thought I made it clear from the outset that I didn&#8217;t want to spend the rest of my life web-mastering a site such as <a href="https://lievenlebruyn.github.io/neverendingbooks/mu/">NSN</a>. All I wanted to show is that the technology is there free for the taking, and show that you do not have to be a wizard to get it running even on a mac&#8230;</p>
+<p>I would <strong>really</strong> love it when some groups, or universities, on institutes, would set up something resembling this dedicated to a single arXiv-topic. Given <a href="http://www.math.ua.ac.be/algeo/?page_id=4">our</a> history, Antwerp University might be convinced to do this for math.RA but (a) I&#8217;m not going to maintain this on my own and (b) there may very well be a bandwidth problem if such a thing would become successful&#8230; (although, from past experiences and attempts I&#8217;ve made over the years, this is extremely unlikely for this target-group).</p>
+<p>So please, if your group has some energy to spare, set-up your own math2.0-network, port it to Google Apps, Knol, Orkut or whatever, and I&#8217;d love to join and contribute to it.</p>
+<p>As to LaTeX-support : this is trivial these days. First you need a working LaTeX-system on your virgin macbook. The best way is to download <a href="http://www.tug.org/mactex/">The MacTeX-2008 Distribution</a> at work (it is a huge 1.19Gb download&#8230;). Next, install the <a href="http://wordpress.org/extend/plugins/fauxml/">fauxml-wordpress plugin</a> (that is, download it to YourHome/Downloads and then drag the file faux-ml.php to the Library/WebServer/Documents/wp-content/plugins/ directory. Next, install likewise the <a href="http://wordpress.org/extend/plugins/wp-latex/">WP-LateX plugin</a> following the <a href="http://wordpress.org/extend/plugins/wp-latex/installation/">instructions</a>, go to the configuring page and set the directory for latex and dvipng  (if you follow my instructions they should be located at /usr/texbin/latex and /usr/texbin/dvipng), fill in the text color and background color you desire and clip your default latex-documentstyle/includepackages/newcommands section from your latest paper into the LaTeX Preamble window and believe me, you&#8217;re done!!!</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/latexstuff.jpg"><br />
+</center></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

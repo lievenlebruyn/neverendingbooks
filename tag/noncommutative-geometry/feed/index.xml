@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>noncommutative geometry &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/noncommutative-geometry/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 08 Dec 2018 10:41:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>RH and the Ishango bone</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/rh-and-the-ishango-bone/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/rh-and-the-ishango-bone/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 08 Dec 2018 10:41:20 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[dessin d'enfant]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[noncommutative geometry]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8250</guid>
+
+					<description><![CDATA[&#8220;She simply walked into the pond in Kensington Gardens Sunday morning and drowned herself in three feet of water.&#8221; This is the opening sentence of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>&#8220;She simply walked into the pond in Kensington Gardens Sunday morning and drowned herself in three feet of water.&#8221;</p>
+<p>This is the opening sentence of <a href="http://kasmana.people.cofc.edu/MATHFICT/mfview.php?callnumber=mf1120">The Ishango Bone</a>, a novel by Paul Hastings Wilson. It (re)tells the story of a young mathematician at Cambridge, Amiele, who (dis)proves the Riemann Hypothesis at the age of 26, is denied the Fields medal, and commits suicide.</p>
+<p>In his <a href="http://kasmana.people.cofc.edu/MATHFICT/mfview.php?callnumber=mf1120">review of the novel on MathFiction</a>, Alex Kasman casts he story in the 1970ties, based on the admission of the first female students to Trinity.</p>
+<p>More likely, the correct time frame is in the first decade of this century. On page 121 Amiele meets Alain Connes, said to be a &#8220;past winner of the Crafoord Prize&#8221;, which Alain obtained in 2001. In fact, noncommutative geometry and its interaction with quantum physics plays a crucial role in her &#8216;proof&#8217;.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/ishangobone.jpg" width=70% ><br />
+</center></p>
+<p>The <a href="https://en.wikipedia.org/wiki/Ishango_bone">Ishango artefact</a> only appears in the Coda to the book. There are a number of theories on the nature and grouping of the scorings on the bone. In one column some people recognise the numbers 11, 13, 17 and 19 (the primes between 10 and 20).</p>
+<p>In the book, Amiele remarks that the total number of lines scored on the bone (168) &#8220;happened to be the exact total of all the primes between 1 and 1000&#8221; and &#8220;if she multiplied 60, the total number of lines in one side column, by 168, the grand total of lines, she&#8217;d get 10080,&#8230;,not such a far guess from 9592, the actual total of primes between 1 and 100000.&#8221; (page 139-140)</p>
+<p>The bone is believed to be more than 20000 years old, prime numbers were probably not understood until about 500 BC&#8230;</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/ishango4.gif" ><br />
+</center></p>
+<p>More interesting than these speculations on the nature of the Ishango bone is the description of the tools Amiele thinks to need to tackle the Riemann Hypothesis:</p>
+<p>&#8220;These included algebraic geometry (which combines commutative algebra with the language and problems of geometry); noncommutative geometry (concerned with the geometric approach to associative algebras, in which multiplication is not commutative, that is, for which $x$ times $y$ does not always equal $y$ times $x$); quantum field theory on noncommutative spacetime, and mathematical aspects of quantum models of consciousness, to name a few.&#8221; (page 115)</p>
+<p>The breakthrough came two years later when Amiele was giving a lecture on Grothendieck&#8217;s <a href="https://en.wikipedia.org/wiki/Dessin_d%27enfant">dessins d&#8217;enfant</a>.</p>
+<p>&#8220;Dessin d&#8217;enfant, or &#8216;child&#8217;s drawing&#8217;, which Amiele had discovered in Grothendieck&#8217;s work, is a type of graph drawing that seemed technically simple, but had a very strong impression on her, partly due to the familiar nature of the objects considered. (&#8230;) Amiele found subtle arithmetic invariants associated with these dessins, which were completely transformed, again, as soon as another stroke was added.&#8221; (page 116)</p>
+<p>Amiele&#8217;s &#8216;disproof&#8217; of RH is outlined on pages 122-124 of &#8220;The Ishango Bone&#8221; and is a mixture of recognisable concepts and ill-defined terms.</p>
+<p>&#8220;Her final result proved that Riemann&#8217;s Hypothesis was false, a zero must fall to the east of Riemann&#8217;s critical line whenever the zeta function of point $q$ with momentum $p$ approached the aelotropic state-vector (this is a simplification, of course).&#8221; (page 123)</p>
+<p>More details are given in a footnote:</p>
+<p>&#8220;(&#8230;) a zero must fall to the east of Riemann&#8217;s critical line whenever:</p>
+<p>\[<br />
+\zeta(q_p) = \frac{( | \uparrow \rangle + \Psi) + \frac{1}{2}(1+cos(\Theta))\frac{\hbar}{\pi}}{\int(\Delta_p)} \]</p>
+<p>(&#8230;) The intrepid are invited to try the equation for themselves.&#8221; (page 124)</p>
+<p>Wilson&#8217;s &#8220;The Ishango Bone&#8221; was published in 2012. A fair number of topics covered (the Ishango bone, dessin d&#8217;enfant, Riemann hypothesis, quantum theory) also play a prominent role in the 2015 paper/story by Michel Planat <a href="https://arxiv.org/abs/1503.02677">&#8220;A moonshine dialogue in mathematical physics&#8221;</a>, but this time with additional story-line: <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a>&#8230;</p>
+<p>Such a paper surely deserves a separate post.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/moonshinedialogue.gif"><br />
+</center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/rh-and-the-ishango-bone/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>On the Reality of Noncommutative Space</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/on-the-reality-of-noncommutative-space/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/on-the-reality-of-noncommutative-space/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 20 Jan 2011 19:46:36 +0000</pubDate>
+				<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[dark matter]]></category>
+		<category><![CDATA[noncommutative geometry]]></category>
+		<category><![CDATA[noncommutative topology]]></category>
+		<category><![CDATA[quantum physics]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4703</guid>
+
+					<description><![CDATA[Guest post by Fred Van Oystaeyen. In my book &#8220;Virtual Topology and Functorial Geometry&#8221; (Taylor and Francis, 2009) I proposed a noncommutative version of space-time&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/fvo.jpg" align=left hspace=10> Guest post by <a href="http://sv.wikipedia.org/wiki/Freddy_Van_Oystaeyen">Fred Van Oystaeyen</a>.</p>
+<p />
+<p>In my book <a href="http://www.amazon.com/Virtual-Topology-Functor-Geometry-Mathematics/dp/1420060562/">&#8220;Virtual Topology and Functorial Geometry&#8221;</a> (Taylor and Francis, 2009) I proposed a noncommutative version of space-time ; it is a toy model, but mathematically correct and I included a few philosophical remarks about : &#8220;What if reality is noncommutative ?&#8221;.</p>
+<p>I want to add a few ideas about how &#8220;strange&#8221; ideas in quantum mechanics all fit naturally in the noncommutative world.  First let us talk about noncommutative geometry in an intuitive way.</p>
+<p>Then noncommutative space may be thought of as a set of noncommutative places but these noncommutative places need not be sets, in particular they are not sets of points.  There is a noncommutative join $\vee$ and a noncommutative intersection $\wedge$, and they satify the axioms (very natural ones) of a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/a-noncommutative-topology-2.html">noncommutative topology</a>.</p>
+<p>The non-commutativity is characterized by the existence of non $\wedge$-idempotent places, i.e. places with a nontrivial self intersection.  This allows the $\wedge$ to be noncommutative.  From algebraic geometric it follows that one may be interested to let $\vee$ be an abelian operation (hence defining a virtual topology) so let us assume this from hereon.</p>
+<p>The set of $\wedge$-idempotent noncommutative-places forms the &#8220;commutative shadow&#8221; of the noncommutative space; it has operations $\vee$ and   $\mathop{\wedge}\limits_{\bullet}$  which are abelian and  $\sigma \mathop{\wedge}\limits_{\bullet}\tau$  may be thought of as the largest $\wedge$-idempotent smaller than $\sigma$ and $\tau$ in the partial ordering of the noncommutative space.</p>
+<p>The $\wedge$-idempotent noncommutative places are sets in a commutative topology and these are the observable places in the noncommutative space.  In the book I present a dynamic (time !) model allowing further elaboration on the noncommutative space but for now let us stick to the intuitive model and assume that space is in fact noncommutative with commutative shadow built upon our space time of physics.</p>
+<p>In fact all observations, measurings and predictions made in physics are not about reality but about our observations of reality, so it may be an eternal fact that our observations of reality are described in our brains by commutative methods.  Nevertheless we can observe effect of objects existing at noncommutative places in &#8220;neighboring&#8221; $\wedge$-idempotents sets or observable places.</p>
+<p>First if an object exists at a noncommutative place it also exists at all subplaces (a harmless assumption not really essential for the rest).  So if there is a noncommutative place, where some object exists, parts of this object may be observed at idempotent subplaces of the noncommutative place.  These may even be disjoint in the commutative shadow, not &#8220;too far apart&#8221; as one object exists on the total noncommutative space.</p>
+<p>Since only a part of the noncommutative object is observed on the $\wedge$-idempotent subplace it is not clear that one may actually recognize the observations at different commutative places as belonging to the same noncommutative object.  Once one observes one observable place that object seems to exist only on that (commutative) place.  Hence a quantum particle can be thought of as existing on several &#8220;places&#8221; but once observed it looks like it only exists there.  This is a first natural phenomenon reflecting &#8220;strange&#8221; quantum mechanical principles.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/doubleslit.jpg"></p>
+<p>Secondly let us look at the double slit experiment.  The slits correspond to commutative places $\sigma_1$ and $\sigma_2$ and $\sigma_1 \mathop{\wedge}\limits_{\bullet}\sigma_2=\emptyset$, however in the noncommutative world $\sigma_1\wedge\sigma_2$ need not be empty, only it has no $\wedge$-idempotent subplaces !</p>
+<p>Therefore if a photon is defined on a noncommutative place with &#8220;light&#8221;-effect on observable places &#8220;near enough&#8221; to it (in a neighborhood small enough to have an observable effect say) then the photon may pass though both slits without splitting or without splitting reality (parallel universes) but just moving into the noncommutative space inside $\sigma_1$ and $\sigma_2$ !</p>
+<p>The observable effect at the slits will appear in commutative places near enough (for example, intersecting) to $\sigma_1$ or to $\sigma_2$.  As the photon moves on, observable effects will appear in commutative places intersecting the one near to $\sigma_1$ or the one near to $\sigma_2$ and these may themselves have nonempty intersections.</p>
+<p>At the moment the effect via $\sigma_1$ interacts with the effect via $\sigma_2$.  As the photon progresses in its observed direction other $\wedge$-idempotents showing observable effects may meet and so several interactions between observable effects (via $\sigma_1$ and $\sigma_2$) build a picture of interference.</p>
+<p>The symmetry of this picture actually suggests a symmetric arrangement of commutative places around a noncommutative place.  So the noncommutativity of space may explain this phenomenon without holographic principle or parallel universes.</p>
+<p>In a similar way dark mass may well be mass existing in a non-observable noncommutative place (i.e. containing no observable places).  If a lot of mass is in a non-observable noncommutative place its gravity may pull matter from surrounding observable places into the noncommutative place and this may explain black holes.  All kinds of problems relating to black holes may have natural non commutative solutions, e.g. information may pass from observable places to noncommutative places and is not lost, only non-observable.</p>
+<p>In fact is the definition of information not depending on the nature and capability of the recipient ?  There are many philosophically interesting ramifications of these ideas, for example every chemical or neurochemical activity should also be placed in the noncommutative space.</p>
+<p>In the book I mentioned how &#8220;free will&#8221; could be a noncommutative space aspect of the brain activity.  I also mention a possible relations with string theory.  I am not a specialist in all these things but now I reached the point that I &#8220;feel&#8221; noncommutative space is a better approximation of the reality and one should investigate it further.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/on-the-reality-of-noncommutative-space/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Jason &#038; David, the Ninja warriors of noncommutative geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/jason-david-the-ninja-warriors-of-noncommutative-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/jason-david-the-ninja-warriors-of-noncommutative-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 23 Dec 2010 13:35:12 +0000</pubDate>
+				<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[blogs]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[noncommutative geometry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3795</guid>
+
+					<description><![CDATA[SocialMention gives a rather accurate picture of the web-buzz on a specific topic. For this reason I check it irregularly to know what&#8217;s going on&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/ninjawarriors1.jpg"></p>
+<p><a href="http://www.socialmention.com/">SocialMention</a> gives a rather accurate picture of the web-buzz on a specific topic. For this reason I check it irregularly to know what&#8217;s going on in <a href="http://socialmention.com/search?q=noncommutative+geometry&amp;t=all&amp;btnG=Search">noncommutative geometry</a>, at least web-wise.</p>
+<p>Yesterday, I noticed two new kids on the block : Jason and David. Their blogs have (so far ) 44 resp. 27 posts, this month alone. My first reaction was: respect!, until I glanced at their content&#8230;</p>
+<p><strong>David of E-Infinity</strong></p>
+<p>Noncommutative geometry has a deplorable track record when it comes to personality-cults and making extra-ordinary claims, but this site beats everything I&#8217;ve seen before. Its main mission is to spread the gospel according to E.N.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/ninjawarriors2.jpg"></p>
+<p>A characteristic quote :</p>
+<p>&#8220;It was no doubt the intention of those well known internet thugs and parasites to distract us from science and derail us from our road. This was the brief given to them by you know who. Never the less we will attempt to give here what can only amount to a summary of the summary of what E. N. considers to be the philosophical background to his theory.&#8221;</p>
+<p><strong>Jason of the E.N. watch</strong></p>
+<p>The blog&#8217;s mission statement is to expose the said prophet E.N. as a charlatan.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/ninjawarriors3.jpg"></p>
+<p>The language used brings us back to the good(?!) old string-war days.</p>
+<p>&#8220;This is amusing because E. N.&#8217;s sockpuppets go on and on about E. N. being a genius polymath with an expert grasp of science, art, history, philosophy and politics. E. N. Watch readers of course know that his knowledge in all areas comes primarily from mass-market popularizations.&#8221;</p>
+<p>As long as the <a href="http://noncommutativegeometry.blogspot.com/">Connes support-blog</a> and the <a href="http://noncommutativeag.wordpress.com/">Rosenberg support-blog</a> remain silent and the Jasons and Davids of this world run the online ncg-show, it is probably better to drop the topic here.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/jason-david-the-ninja-warriors-of-noncommutative-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Books Ngram for your upcoming parties</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/books-ngram-for-your-upcoming-parties/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/books-ngram-for-your-upcoming-parties/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 19 Dec 2010 13:29:12 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[books ngram]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Hopf algebras]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[noncommutative geometry]]></category>
+		<category><![CDATA[quantum groups]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3690</guid>
+
+					<description><![CDATA[No christmas- or new-years family party without heated discussions. Often on quite silly topics. For example, which late 19th-century bookcharacter turned out to be most&#8230;]]></description>
+										<content:encoded><![CDATA[<p>No christmas- or new-years family party without heated discussions. Often on quite silly topics.</p>
+<p>For example, which late 19th-century bookcharacter turned out to be most influential in the 20th century? <a href="http://en.wikipedia.org/wiki/Dracula">Dracula</a>, from the 1897 novel by Irish author Bram Stoker or Sir Arthur Conan Doyle&#8217;s <a href="http://en.wikipedia.org/wiki/Sherlock_Holmes">Sherlock Holmes</a> who made his first appearance in 1887?</p>
+<p>Well, this year you can spice up such futile discussions by going over to Google Labs <a href="http://ngrams.googlelabs.com/graph?content=Atlantis%2CEl+Dorado&amp;year_start=1800&amp;year_end=2000&amp;corpus=0&amp;smoothing=0">Books Ngram Viewer</a>, specify the time period of interest to you and the relevant search terms and in no time it spits back a graph comparing the number of books mentioning these terms.</p>
+<p>Here&#8217;s the 20th-century graph for &#8216;Dracula&#8217; (blue), compared to &#8216;Sherlock Holmes&#8217; (red).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/draculaholmes.jpg"></p>
+<p>The verdict being that Sherlock was the more popular of the two for the better part of the century, but in the end the vampire bit the detective. Such graphs lead to lots of new questions, such as : why was Holmes so popular in the early 30ties? and in WW2? why did Dracula become popular in the late 90ties? etc. etc.</p>
+<p>Clearly, once you&#8217;ve used Books Ngram it&#8217;s a dangerous time-waster. Below, the graphs in the time-frame 1980-2008 for <a href="http://en.wikipedia.org/wiki/Alain_Connes">Alain Connes</a> (blue), <a href="http://en.wikipedia.org/wiki/Noncommutative_geometry">noncommutative geometry</a> (red), <a href="http://en.wikipedia.org/wiki/Hopf_algebra">Hopf algebras</a> (green) and <a href="http://en.wikipedia.org/wiki/Quantum_group">quantum groups</a> (yellow).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/noncgeoquantum.jpg"></p>
+<p>It illustrates the simultaneous rise and fall of both quantum groups and Hopf algebras, whereas the noncommutative geometry-graph follows that of Alain Connes with a delay of about 2 years. I&#8217;m sure you&#8217;ll find a good use for this splendid tool&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/books-ngram-for-your-upcoming-parties/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

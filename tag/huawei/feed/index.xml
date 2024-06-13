@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Huawei &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/huawei/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 10 Apr 2023 13:34:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The tropical brain-forest</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 10 Apr 2023 13:34:31 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Billera]]></category>
+		<category><![CDATA[brain-forest]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[Holmes]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[phylogenetic]]></category>
+		<category><![CDATA[Speyer]]></category>
+		<category><![CDATA[Sturmfels]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[tropical]]></category>
+		<category><![CDATA[tropical geometry]]></category>
+		<category><![CDATA[Vogtmann]]></category>
+		<category><![CDATA[Willerton]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11220</guid>
+
+					<description><![CDATA[If machine learning, AI, and large language models are here to stay, there&#8217;s this inevitable conclusion: Millennials are the last generation to grow up without&#8230;]]></description>
+										<content:encoded><![CDATA[<p>If machine learning, AI, and large language models are here to stay, there&#8217;s this inevitable conclusion:</p>
+<p><center></p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">Millennials are the last generation to grow up without tropical geometry</p>
+<p>&mdash; Dave Jensen (@DaveJensenMath) <a href="https://twitter.com/DaveJensenMath/status/1643958509019512833?ref_src=twsrc%5Etfw">April 6, 2023</a></p></blockquote>
+<p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+</center></p>
+<p>At the start of <a href="https://lievenlebruyn.github.io/neverendingbooks/category/gbrain">this series</a>, the hope was to find the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">topos of the unconscious</a>. Pretty soon, attention turned to the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">shape of languages</a> and LLMs.</p>
+<p>In <a href="https://en.wikipedia.org/wiki/Large_language_model">large language models</a> all syntactic and semantic information is encoded is huge arrays of numbers and weights. It seems unlikely that $\mathbf{Set}$-valued presheaves will be useful in machine learning, but surely <a href="https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory">Huawei</a> will <a href="https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes">prove</a> me wrong.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">$[0,\infty]$-enriched categories</a> (aka generalised metric spaces) and associated <a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">$[0,\infty]$-enriched presheaves</a> may be better suited to understand existing models.</p>
+<p>But, as with ordinary presheaves, there are just too many $[0,\infty]$-enriched ones, So, how can we weed out the irrelevant ones?</p>
+<p>For inspiration, let&#8217;s turn to <a href="https://en.wikipedia.org/wiki/Evolutionary_biology">evolutionary biology</a> and their theory of <a href="https://en.wikipedia.org/wiki/Phylogenetic_tree">phylogenetic trees</a>. They want to trace back common (extinguished) ancestors of existing species by studying overlaps in the DNA.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tree_of_life_SVG.svg/1280px-Tree_of_life_SVG.svg.png" width=75%><br />
+(A  tree of life, based on completely sequenced genomes, from <a href="https://en.wikipedia.org/wiki/Phylogenetic_tree">Wikipedia</a>)<br />
+</center></p>
+<p>The connection between phylogenetic trees and tropical geometry is nicely explained in the paper <a href="https://math.berkeley.edu/~bernd/mathmag.pdf">Tropical mathematics</a> by David Speyer and Bernd Sturmfels.</p>
+<p>The tropical semi-ring is the set $(-\infty,\infty]$, equipped with a new addition $\oplus$ and multiplication $\odot$</p>
+<p>$$a \oplus b = min(a,b), \quad \text{and} \quad a \odot b = a+b$$</p>
+<p>Because tropical multiplication is ordinary addition, a tropical monomial in $n$ variables</p>
+<p>$$\underbrace{x_1 \odot \dots \odot x_1}_{j_1} \odot \underbrace{x_2 \odot \dots \odot x_2}_{j_2} \odot \dots$$</p>
+<p>corresponds to the linear polynomial $j_1 x_1 + j_2 x_2 + \dots \in \mathbb{Z}[x_1,\dots,x_n]$. But then, a tropical polynomial in $n$ variables</p>
+<p>$$p(x_1,\dots,x_n)=a \odot x_1^{i_1}\dots x_n^{i_n} \oplus b \odot x_1^{j_1} \dots x_n^{j_n} \oplus \dots$$</p>
+<p>gives the piece-wise linear function on $p : \mathbb{R}^n \rightarrow \mathbb{R}$</p>
+<p>$$p(x_1,\dots,x_n)=min(a+i_1 x_1 + \dots + i_n x_n,b+j_1 x_1 + \dots + j_n x_n, \dots)$$</p>
+<p>The tropical hypersurface $\mathcal{H}(p)$ then consists of all points of $v \in \mathbb{R}^n$ where $p$ is not linear, that is, the value of $p(v)$ is attained in at least two linear terms in the description of $p$.</p>
+<p>Now, for the relation to phylogenetic trees: let&#8217;s sequence the genomes of human, mouse, rat and chicken and compute the values of a suitable (necessarily symmetric) distance function between them:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/brainforest2.png" width=60%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/brainforest3.png" width=30%><br />
+</center></p>
+<p>From these distances we want to trace back common ancestors and their difference in DNA-profile in a consistent manner, that is, such that the distance between two nodes in the tree is the sum of the distances of the edges connecting them.</p>
+<p>In this example, such a tree is easily found (only the weights of the two edges leaving the root can be different, with sum $0.8$):</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/brainforest4.png" width=50%><br />
+</center></p>
+<p>In general, let&#8217;s sequence the genomes of $n$ species and determine their distance matrix $D=(d_{ij})_{i,j}$. Biology asserts that this distance must be a tree-distance, and those can be characterised by the condition that for all $1 \leq i,j,k,l \leq n$, among the three numbers</p>
+<p>$$d_{ij}+d_{kl},~d_{ik}+d_{jl},~d_{il}+d_{jk}$$</p>
+<p>the <em>maximum</em> is attained at least twice.</p>
+<p>What has this to do with tropical geometry? Well, $D$ is a tree distance if and only if $-D$ is a point in the tropical Grassmannian $Gr(2,n)$.</p>
+<p>Here&#8217;s why: let $e_{ij}=-d_{ij}$ then the above condition is that the <em>minimum</em> of</p>
+<p>$$e_{ij}+e_{kl},~e_{ik}+e_{jl},~e_{il}+e_{jk}$$</p>
+<p>is attained at least twice, or that $(e_{ij})_{i,j}$ is a point of the tropical hypersurface</p>
+<p>$$\mathcal{H}(x_{ij} \odot x_{kl} \oplus x_{ik} \odot x_{jl} \oplus x_{il} \odot x_{jk})$$</p>
+<p>and we recognise this as one of the defining quadratic Plucker relations of the Grassmannian $Gr(2,n)$.</p>
+<p>More on this can be found in another paper by Speyer and Sturmfels <a href="https://arxiv.org/abs/math/0304218">The tropical Grassmannian</a>, and the paper <a href="https://susan.su.domains/papers/june.pdf">Geometry of the space of phylogenetic trees</a> by Louis Billera, Susan Holmes and Karen Vogtmann.</p>
+<p>What&#8217;s the connection with $[0,\infty]$-enriched presheaves?</p>
+<p>The set of all species $V=\{ m,n,\dots \}$ , together with the distance function $d(m,n)$ between their DNA-sequences is a $[0,\infty]$-category. Recall that a $[0,\infty]$-enriched presheaf on $V$ is a function $p : V \rightarrow [0,\infty]$ satisfying for all $m,n \in V$</p>
+<p>$$d(m,n)+p(n) \geq p(m)$$</p>
+<p>For an ancestor node $p$ we can take for every $m \in V$ as $p(m)$ the tree distance from $p$ to $m$, so every ancestor is a $[0,\infty]$-enriched presheaf.</p>
+<p>We also <a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">defined the distance</a> between such $[0,\infty]$-enriched presheaves $p$ and $q$ to be</p>
+<p>$$\hat{d}(p,q) = sup_{m \in V}~max(q(m)-p(m),0)$$</p>
+<p>and this distance coincides with the tree distance between the nodes.</p>
+<p>So, all ancestors nodes in a phylogenetic tree are very special $[0,\infty]$-enriched presheaves, optimal for the connection with the underlying $[0,\infty]$-enriched category (the species and their differences in genome).</p>
+<p>We would like to garden out such exceptional $[0,\infty]$-enriched presheaves in general, but clearly the underlying distance of a generalised metric space, even when it is symmetric, is not a tree metric.</p>
+<p>Still, there might be regions in the space where we can do the above. So, in general we might expect not one tree, but a forest of trees formed by the $[0,\infty]$-enriched presheaves, optimal for the metric we&#8217;re exploring.</p>
+<p>If we think of the underlying $[0,\infty]$-category as the conscious manifestations, then this forest of presheaves are the underlying brain-states (or, if you want, the unconscious) leading up to these.</p>
+<p>That&#8217;s why I like to call this mental picture the <em>tropical brain-forest</em>.</p>
+<p><center><br />
+<img decoding="async" src="https://s7i9m6k4.rocketcdn.me/wp-content/uploads/2017/06/Delirium-Tremens.jpg" width=80%><br />
+(<a href="https://blog.cognifit.com/synapses-how-brain-communicates/">Image credit</a>)<br />
+</center></p>
+<p>Where&#8217;s the <em>tropical</em> coming from?</p>
+<p>Well, I think that in order to pinpoint these &#8216;optimal&#8217; $[0,\infty]$-enriched presheaves a tropical-like structure on these, already mentioned by Simon Willerton in <a href="https://arxiv.org/abs/1302.4370">Tight spans, Isbell completions and semi-tropical modules</a>, will be relevant.</p>
+<p>For any two $[0,\infty]$-enriched presheaves we can take $p \oplus q = p \wedge q$, and for every $s \in [0,\infty]$ we can define</p>
+<p>$$s \odot p : V \rightarrow [0,\infty] \qquad m \mapsto max(p(m)-s,0)$$</p>
+<p>and check that this is again a $[0,\infty]$-presheaf. The mental idea of $s \odot p$ is that of a fat point centered at $p$ with size $s$.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">The super-vault of missing notes</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Huawei and topos theory</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 05 Jan 2022 11:09:55 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Belfiore]]></category>
+		<category><![CDATA[Bennequin]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[Lafforgue]]></category>
+		<category><![CDATA[toposes]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9967</guid>
+
+					<description><![CDATA[Apart from the initiatives I mentioned last time, Huawei set up a long term collaboration with the IHES, the Huawei Young Talents Program. &#8220;Every year,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Apart from the initiatives I mentioned <a href="https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics">last time</a>, Huawei set up a long term collaboration with the IHES, the <a href="https://www.ihes.fr/en/launch-huawei-young-talents-program/">Huawei Young Talents Program</a>.</p>
+<p>&#8220;Every year, the Huawei Young Talents Program will fund on average 7 postdoctoral fellowships that will be awarded by the Institute’s Scientific Council, only on the basis of scientific excellence. The fellows will collaborate with the Institute’s permanent professors and work on topics of their interest.&#8221;</p>
+<p>Over the next ten years, Huawei will invest 5 million euros in this program, and an additional 1 million euros goes into the creation of the &#8216;Huawei Chair in Algebraic Geometry&#8217;. It comes as no particular surprise that the first chairholder is <a href="https://en.wikipedia.org/wiki/Laurent_Lafforgue">Laurent Lafforgue</a>.</p>
+<p>At the launch of this Young Talents Program in November 2020, Lafforgue gave a talk on <a href="https://www.youtube.com/watch?v=LP4pANpKrcs">The creative power of categories: History and some new perspectives</a>.</p>
+<p>The latter part of the talk (starting at 47:50) clarifies somewhat Huawei&#8217;s interest in topos theory, and what Lafforgue (and others) hope to get out of their collaboration with the telecom company.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/LP4pANpKrcs?start=2870" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Clearly, Huawei is interested in <a href="https://en.wikipedia.org/wiki/Deep_learning">deep neural networks</a>, and if you can convince them your expertise is useful in that area, perhaps they&#8217;ll trow some money at you.</p>
+<p><a href="https://scholar.google.fr/citations?user=foOK-F8AAAAJ&#038;hl=fr">Jean-Claude Belfiore</a>, another mathematician turned Huaweian, is convinced topos theory is the correct tool to study DNNs. Here&#8217;s his Huawei-clip from which it is clear he was originally hired to improve <a href="https://www.ft.com/brandsuite/huawei/huawei-rolls-out-the-red-carpet-for-science/index.html">Huawei&#8217;s polar code</a>.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/JAEMEwYqSto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>At the 2018 IHES-Topos conference he gave the talk <a href="https://www.youtube.com/watch?v=-wnz9ADf8zk">Toposes for Wireless Networks: An idea whose time has come</a>, and recently he arXived the paper <a href="https://arxiv.org/abs/2106.14587">Topos and Stacks of Deep Neural Networks</a>, written jointly with <a href="https://en.wikipedia.org/wiki/Daniel_Bennequin">Daniel Bennequin</a>. Probably, I&#8217;ll come back to this paper another time, for now, the nForum has <a href="https://nforum.ncatlab.org/discussion/13133/understanding-preprint-topos-and-stacks-of-deep-neural-networks/">this page</a> on it.</p>
+<p>Towards the end of his talk, Lafforgue suggests the idea of creating an institute devoted to toposes and their applications, endorsed by IHES and supported by Huawei. Surely he knows that the <a href="https://topos.institute/">Topos Institute</a> already exists.</p>
+<p>And, if you wonder why Huawei trows money at IHES rather than your university, I leave you with Lafforgue&#8217;s parting words:</p>
+<p>&#8220;IHES professors are able to think and evaluate for themselves, whereas most mathematicians just follow &#8216;group thinking'&#8221;</p>
+<p>Ouch!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Huawei and French mathematics</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 19:42:59 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Broue]]></category>
+		<category><![CDATA[Cartier]]></category>
+		<category><![CDATA[Figalli]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[Lafforgue]]></category>
+		<category><![CDATA[Lions]]></category>
+		<category><![CDATA[Schapira]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9943</guid>
+
+					<description><![CDATA[Huawei, the Chinese telecom giant, appears to support (and divide) the French mathematical community. I was surprised to see that Laurent Lafforgue&#8217;s affiliation recently changed&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Huawei, the Chinese telecom giant, appears to support (and divide) the French mathematical community.</p>
+<p>I was surprised to see that <a href="https://en.wikipedia.org/wiki/Laurent_Lafforgue">Laurent Lafforgue&#8217;s</a> affiliation recently changed from &#8216;IHES&#8217; to &#8216;Huawei&#8217;, for example <a href="https://utge.lakecomoschool.org/">here</a> as one of the organisers of the Lake Como conference on &#8216;Unifying themes in geometry&#8217;.</p>
+<p>Judging from this short Huawei-clip (in French) he thoroughly enjoys his new position.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/EqrNLuN5Bfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Huawei <a href="https://inf.news/en/science/0b03792c7ee5879f723ea9ffaa608e60.html">claims</a> that &#8216;Three more winners of the highest mathematics award have now joined Huawei&#8217;:</p>
+<p>&#8211; <a href="https://en.wikipedia.org/wiki/Maxim_Kontsevich">Maxim Kontsevich</a>, (IHES) Fields medal 1998</p>
+<p>&#8211; <a href="https://en.wikipedia.org/wiki/Pierre-Louis_Lions">Pierre-Louis Lions</a> (College de France) Fields medal 1994</p>
+<p>&#8211; <a href="https://en.wikipedia.org/wiki/Alessio_Figalli">Alessio Figalli</a> (ETH) Fields medal 2018</p>
+<p>These news-stories seem to have been G-translated from the Chinese, resulting in misspellings and perhaps other inaccuracies. Maxim&#8217;s research field is described as &#8216;kink theory&#8217; (LoL).</p>
+<p>Apart from luring away Fields medallist, Huawei set up last year the brand new <a href="https://www.huawei.com/fr/news/fr/2020/centre-lagrange">Huawei Lagrange Research Center</a> in the posh 7th arrondissement de Paris. (This &#8216;Lagrange Center&#8217; is different from the <a href="http://ilp.upmc.fr/">Lagrange Institute in Paris</a> devoted to astronomy and physics.)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/LagrangeCenter.jpg" width=100% \><br />
+</center></p>
+<p>It aims to host about 30 researchers in mathematics and computer science, giving them the opportunity to live in the &#8216;unique eco-system of Paris, having the largest group of mathematicians in the world, as well as the best universities&#8217;.</p>
+<p>Last May, <a href="https://en.wikipedia.org/wiki/Michel_Brou%C3%A9">Michel Broué</a> authored an open letter to the French mathematical community <a href="https://blogs.mediapart.fr/michel-broue/blog/180521/dans-un-hotel-particulier-du-7eme-arrondissement-de-paris">Dans un hotel particulier du 7eme arrondissement de Paris</a> (in French). A G-translation of the final part of this open letter:</p>
+<p>&#8220;In the context of a very insufficient research and development effort in France, and bleak prospects for our young researchers, it is tempting to welcome the creation of the Lagrange center. We welcome the rise of Chinese mathematics to the highest level, and we are obviously in favour of scientific cooperation with our Chinese colleagues.</p>
+<p>But in view of the role played by Huawei in the repression in Xinjiang and potentially everywhere in China, we call on mathematicians and computer scientists already engaged to withdraw from this project. We ask all researchers not to participate in the activities of this center, as we ourselves are committed to doing.&#8221;</p>
+<p>Among the mathematicians signing the letter are <a href="https://en.wikipedia.org/wiki/Pierre_Cartier_(mathematician)">Pierre Cartier</a> and <a href="https://en.wikipedia.org/wiki/Pierre_Schapira_(mathematician)">Pierre Schapira</a>.</p>
+<p>To be continued.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Burry &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/burry/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 22 May 2021 11:45:47 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Designer Maths</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/designer-maths/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/designer-maths/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 22 May 2021 11:45:47 +0000</pubDate>
+				<category><![CDATA[art]]></category>
+		<category><![CDATA[DesignerMaths]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[architecture]]></category>
+		<category><![CDATA[Burry]]></category>
+		<category><![CDATA[Kappraff]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9798</guid>
+
+					<description><![CDATA[This fall, I&#8217;ll be teaching &#8216;Mathematics for Designers&#8217; to first year students in Architecture. The past few weeks I&#8217;ve been looking around for topics to&#8230;]]></description>
+										<content:encoded><![CDATA[<p>This fall, I&#8217;ll be teaching &#8216;Mathematics for Designers&#8217; to first year students in Architecture.</p>
+<p>The past few weeks I&#8217;ve been looking around for topics to be included in such as course, relevant to architects/artists (not necessarily to engineers/mathematicians).</p>
+<p>One of the best texts I&#8217;ve found on this (perhaps in need of a slight update) is the 1986-paper by <a href="https://en.wikipedia.org/wiki/Jay_Kappraff">Jay Kappraff</a>: <a href="https://core.ac.uk/download/pdf/82088903.pdf">A course in the mathematics of design</a>. He suggests the following list of topics:</p>
+<ul>
+<li>graph theory</li>
+<li>polyhedra</li>
+<li>tilings of the plane</li>
+<li>three dimensional packings</li>
+<li>proportion and the golden mean</li>
+<li>transformations</li>
+<li>symmetry</li>
+<li>vectors</li>
+</ul>
+<p>We all know that an awful lot of math and computation is needed to design a building, but today all of the hardcore use of vectors, equations and transformations is conveniently hidden from the architect&#8217;s view by digital design platforms and CAD-programs.</p>
+<p>These computational tools offer new creative possibilities, as illustrated in the beautiful book <a href="https://www.amazon.com/New-Mathematics-Architecture-Jane-Burry/dp/0500290253">The new mathematics of architecture</a> by <a href="https://www.swinburne.edu.au/research/our-research/access-our-research/find-a-researcher-or-supervisor/researcher-profile/?id=jburry">Jane Burry</a> and <a href=:"https://mcburry.net/">Mark Burry</a>, also available in Dutch with a cover picture of the <a href="https://www.nextroom.at/data/media/med_binary/original/1132572252.pdf">Möbius bridge in Bristol</a></p>
+<p><center><br />
+<img decoding="async" src="https://media.s-bol.com/gJJ0JPlg9OZ3/550x585.jpg" width=80%><br />
+</center></p>
+<p>In this book, about 50 recent architectural projects are clustered around these topics:</p>
+<ul>
+<li>mathematical surfaces and seriality</li>
+<li>chaos, complexity, emergence</li>
+<li>packings and tilings</li>
+<li>optimization</li>
+<li>topology</li>
+<li>datascapes and multi-dimensionality</li>
+</ul>
+<p>In the description of the projects, cool math-topics are (sadly only) touched, including</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Ammann%E2%80%93Beenker_tiling">Amman tilings</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Aperiodic_tiling#:~:text=An%20aperiodic%20tiling%20is%20a,known%20examples%20of%20aperiodic%20tilings.">Aperiodic tilings</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cellular_automaton">Cellular automata</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Chaos_theory">Chaos theory</a></li>
+<li><a href="https://prezi.com/oa4kt6-iby29/danzer-packing/">Danzer packings</a></li>
+<li><a ref="https://en.wikipedia.org/wiki/Fractal">Fractals</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Homology_(mathematics)">Homology</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Knot_theory">Knot theory</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Classification_of_manifolds">Higher dimensional manifolds</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Minimal_surface">Minimal surfaces</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline#:~:text=Non%2Duniform%20rational%20basis%20spline,mathematical%20formulae)%20and%20modeled%20shapes.">NURBS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Penrose_tiling">Penrose tilings</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Singularity_theory">Singularity theory</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Voronoi_diagram">Voronoi diagrams</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Seifert_surface">Seifert surfaces</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Quasicrystal#:~:text=A%20quasiperiodic%20crystal%2C%20or%20quasicrystal,but%20it%20lacks%20translational%20symmetry.">Quasicrystals</a></li>
+</ul>
+<p>It will take me some time to find a balance between these two approaches. Common themes clearly are</p>
+<ul>
+<li><strong>Shapes</strong> : what is possible/impossible in 2D and 3D, and how can mathematics help us to find new exciting shapes (think minimal and Seifert surfaces, knot complements, etc.)</li>
+<li><strong>Symmetry</strong> : what is possible/impossible in 2D and 3D, and what can mathematics tell us about new symmetries (think emerging symmetries from aperiodic tilings and quasicrystals)</li>
+</ul>
+<p>Over the coming months I&#8217;ll be writing the course notes and may post about it here. For this reason I&#8217;ve included a new category <a href="https://lievenlebruyn.github.io/neverendingbooks/category/designermaths">DesignerMaths</a>.</p>
+<p>If you have suggestions, please let me know.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/designer-maths/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

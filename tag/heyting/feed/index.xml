@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Heyting &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/heyting/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 21 Sep 2023 12:05:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>some skew Smullyan stumpers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 21 Sep 2023 12:05:48 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[Hemelaer]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[skew]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[some]]></category>
+		<category><![CDATA[stumpers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11674</guid>
+
+					<description><![CDATA[Raymond Smullyan&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://static01.nyt.com/images/2017/02/12/us/12smullyan-obit/12smullyan-obit-superJumbo.jpg" width=100%></p>
+<p><a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s a classic example.</p>
+<p>&#8220;On the day of his arrival, the anthropologist Edgar Abercrombie came across three inhabitants, whom we will call $A$, $B$ and $C$. He asked $A$: &#8220;Are you a Knight or a Knave?&#8221; $A$ answered, but so indistinctly that Abercrombie could not understand what he said.</p>
+<p>He then asked $B$: &#8220;What did he say?&#8221; $B$ replies: &#8220;He said that he is a knave.&#8221; At this point, $C$ piped up and said: &#8220;Don&#8217;t believe that; it&#8217;s a lie!&#8221;</p>
+<p>Was $C$ a Knight or a Knave?&#8221;</p>
+<p>If you are stumped by this, try to figure out what kind of inhabitant can say &#8220;I am a Knave&#8221;.</p>
+<p>Some years ago, my friend and co-author <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a> wrote about a much stranger island, <a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">the island of two truths</a>.</p>
+<p>&#8220;The island was ruled by a queen and a king. It is important to stress that the queen was neither inferior nor superior to the king. Rather than as a married couple one should think of the queen and the king as two parallel powers, somewhat like the Queen of the Night and the King Sarastro in Mozart&#8217;s famous opera The Magic Flute. The queen and the king had their own castle each, each of them had their own court, their own advisers and servants, and most importantly each of them even had their own truth value.</p>
+<p>On the island, a proposition p is either FALSE, Q-TRUE or K-TRUE; in each of the cases we say that p has value 0, Q or K, respectively. The queen finds the truth value Q to be superior, while the king values the most the value K. The queen and the king have their opinions on all issues, while other residents typically have their opinions on some issues but not all.&#8221;</p>
+<p>The logic of the island of two truths is the easiest example of what Karin and I called a non-commutative frame or skew Heyting algebra (see <a href="https://arxiv.org/abs/1702.04949">here</a>), a notion we then used, jointly with <a href="https://jenshemelaer.com/">Jens Hemelaer</a>, to define the notion of a <a href="https://arxiv.org/abs/1705.02831">non-commutative topos</a>.</p>
+<p><img decoding="async" src="https://elle.metropolitan.si/media/cache/upload/Photo/2014/10/22/s43_40_cvetko-vah-karin_fbimage.jpg" width=100%></p>
+<p>If you take our general definitions, and take Q as the distinguished top-element, then the truth tables for the island of two truths are these ones (value of first term on the left, that of the second on top):</p>
+<p>\[<br />
+\begin{array}{c|ccc}<br />
+\wedge &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+Q &#038; 0 &#038; Q &#038; Q \\<br />
+K &#038; 0 &#038; K &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\vee &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; Q &#038; K \\<br />
+Q &#038; Q &#038; Q &#038; K \\<br />
+K &#038; K &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; Q &#038; Q &#038; K \\<br />
+Q &#038; 0 &#038; Q &#038; K \\<br />
+K &#038; 0 &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|c}<br />
+ &#038; \neg  \\<br />
+\hline<br />
+0 &#038; Q \\<br />
+Q &#038; 0 \\<br />
+K &#038; 0<br />
+\end{array}<br />
+\]</p>
+<p>Note that on this island the order of statements is important! That is, the truth value of $p \wedge q$ may differ from that of $q \wedge p$ (and similarly for $\vee$).</p>
+<p>Let&#8217;s reconsider Smullyan&#8217;s puzzle at the beginning of this post, but now on an island of two truths, where every inhabitant is either of Knave, or a Q-Knight (uttering only Q-valued statements), or a K-Knight (saying only K-valued statements).</p>
+<p>Again, can you determine what type $C$ is?</p>
+<p>Well, if you forget about the distinction between Q- and K-valued sentences, then we&#8217;re back to classical logic (or more generally, if you divide out Green&#8217;s equivalence relation from any skew Heyting algebra you obtain an ordinary Heyting algebra), and we have seen that then $B$ must be a Knave and $C$ a Knight, so in our new setting we know that $C$ is either a Q-Knight or a K-Knight, but which of the two?</p>
+<p>Now, $C$ claims the negation of what $B$ said, so the truth value is $\neg 0 = Q$, and therefore $C$ must be a Q-Knight.</p>
+<p>Recall that in <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a>&#8216;s island of two truths all sentences have a unique value which can be either $0$ (false) or one of the non-false values Q or K, and the value of combined statements is given by the truth tables above. The Queen and King both have an opinion on all statements, which may or may not coincide with the actual value of that statement. However, if the Queen assigns value $0$ to a statement, then so does the King, and conversely.</p>
+<p>Other inhabitants of the island have only their opinion about a subset of all statements (which may be empty). Two inhabitants <em>agree</em> on a statement if they both have an opinion on it and assign the same value to it.</p>
+<p>Now, each inhabitant is either <em>loyal</em> to the Queen or to the King (or both), meaning that they agree with the Queen (resp. King) on all statements they have an opinion of. An inhabitant loyal to the Queen is said to <em>believe</em> a sentence when she assigns value $Q$ to it (and symmetric for those loyal to the King), and <em>knows</em> the statement if she believes it and that value coincides with the actual value of that statement.</p>
+<p>Further, if A is loyal to the Queen, then the value of the statement &#8216;A is loyal to the Queen&#8217; is Q, and if A is not loyal to the Queen, then the value of the sentence &#8216;A is loyal to the Queen&#8217; is $0$ (and similarly for statements about loyalty to the King).</p>
+<p>These notions are enough for the first batch of ten puzzles in Karin&#8217;s posts</p>
+<ul>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">Oscar on the island of two truths</a></li>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a></li>
+</ul>
+<p>Just one example:</p>
+<p>Show that if anybody on the island knows that A is not loyal to the Queen, then everybody that has an opinion about the sentence &#8216;A is loyal to the Queen&#8217; knows that.</p>
+<p>After these two posts, Karin decided that it was more fun to blog about the use of non-commutative frames in data analysis.</p>
+<p>But, she once gave me a text containing many more puzzles (as well as all the answers), so perhaps I&#8217;ll share these in a follow-up post.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Boolean and Heyting islands</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/boolean-and-heyting-islands/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/boolean-and-heyting-islands/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 26 Mar 2021 14:27:43 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[Boole]]></category>
+		<category><![CDATA[Carson]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[Knaves]]></category>
+		<category><![CDATA[Knights]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9455</guid>
+
+					<description><![CDATA[Raymond Smullyan&#8216;s logic puzzles frequently involve Knights (who always tell the truth) and Knaves (who always lie). In his book Logical Labyrinths (really a first&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s logic puzzles frequently involve Knights (who always tell the truth) and Knaves (who always lie).</p>
+<p>In his book <a href="http://logic-books.info/sites/default/files/logical_labirints.pdf">Logical Labyrinths</a> (really a first course in propositional logic) he introduced islands where the lying or truth-telling habits can vary from day to day—that is, an inhabitant might lie on some days and tell the truth on other days, but on any given day, he or she lies the entire day or tells the truth the entire day.</p>
+<p>An island is said to be <a href="https://en.wikipedia.org/wiki/Boolean_algebra">Boolean</a> if is satisfies the following conditions:</p>
+<ul>
+<li>$\mathbf{N}$ : For any inhabitant $A$ there is an inhabitant who tells the truth on all and only those days on which $A$ lies.</li>
+<li>$\mathbf{M}$ : For any inhabitants $A$ and $B$ there is an inhabitant $C$ who tells the truth on all and only those days on which $A$ and $B$ both tell the truth.</li>
+<li>$\mathbf{J}$ : For any inhabitants $A$ and $B$ there is an inhabitant $C$ who tells the truth on all and only those days on which either $A$ tells the truth or $B$ tells the truth (or both). (In other words, $C$ lies on those and only those days on which $A$ and $B$ both lie.)</li>
+</ul>
+<p>On any given day there are only Knights and Knaves on the island, but these two populations may vary from one day to the other. The subsets (of all days) for which there is an inhabitant who is a Knight then and a Knave on all other days form a Boolean algebra with operations $\wedge = \cap$ ($\mathbf{M}$eet), $\vee= \cup$ ($\mathbf{J}$oin) and $\neg=$ set-complement ($\mathbf{N}$egation).</p>
+<p>Here&#8217;s a nice puzzle from Smullyan&#8217;s book:</p>
+<p>Solomon’s Island also turned out to be quite interesting. When Craig arrived on it, he had the following conversation with the resident sociologist:<br />
+<verbatim><br />
+Craig : Is this island a Boolean island?<br />
+Sociologist : No.<br />
+Craig : Can you tell me something about the lying and truth-telling habits of the residents here?<br />
+Sociologist : For any inhabitants $A$ and $B$, there is an inhabitant $C$ who tells the truth on all and only those days on which either $A$ lies or $B$ lies (or both).<br />
+</verbatim></p>
+<p>Show that the sociologist didn&#8217;t <a href="https://en.wiktionary.org/wiki/go_native">go native</a>, and that his research is lousy.<br />
+(My wording, not Smullyan&#8217;s)</p>
+<p>Smullyan&#8217;s version: This interview puzzled inspector Craig; he felt that something was wrong. After a while he realized for sure that something was wrong, the sociologist was either lying or mistaken!</p>
+<p>Extending Smullyan&#8217;s idea, we can say that an island is <a href="https://en.wikipedia.org/wiki/Heyting_algebra#:~:text=In%20mathematics%2C%20a%20Heyting%20algebra,%E2%89%A4%20(a%20%E2%86%92%20b).">Heyting</a> if, in addition to $\mathbf{M}$ and $\mathbf{J}$ is satisfies the following rules</p>
+<ul>
+<li>$\mathbf{T}$ : at least one inhabitant tells the truth on all days.</li>
+<li>$\mathbf{F}$ : at least one inhabitant lies on all days.</li>
+<li>$\mathbf{I}$ : For any inhabitants $A$ and $B$ there is an inhabitant $C$ sharing Knight-days with $A$ only when $B$ tells the truth, and there are no inhabitants doing this while telling the truth on more days than $C$.</li>
+</ul>
+<p>Let&#8217;s give an example of an Heyting island which is not Boolean.</p>
+<p>On Three-island there are only three kinds of people: Knights, Knaves and Alternates, who can neither lie nor tell the truth two days in a row. All Alternates tell the truth on the same days.</p>
+<p>Here&#8217;s a riddle:</p>
+<p>You meet John, who is a Knight, James, an Alternate, and William, a Knave. You don&#8217;t know who is who. You can only ask one question containing at most four words, giving you a Yes or No answer, to just one of the three. The answer must tell you whether that person is James or not.</p>
+<p>You may like to watch Smullyan on the Carson show for a hint.</p>
+<p>Or, you might just watch it reminiscing long forgotten times, when talkshow-hosts still listened to their guests, and could think for themselves&#8230;</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/E27v83WWiGo?start=366" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/boolean-and-heyting-islands/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The strange logic of subways</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 05 Mar 2021 09:15:32 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Boole]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[logic]]></category>
+		<category><![CDATA[Reyes]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[subway]]></category>
+		<category><![CDATA[Wally]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9129</guid>
+
+					<description><![CDATA[&#8220;A subway is just a hole in the ground, and that hole is a maze.&#8221; &#8220;The map is the last vestige of the old system.&#8230;]]></description>
+										<content:encoded><![CDATA[<blockquote><p>&#8220;A subway is just a hole in the ground, and that hole is a maze.&#8221;</p>
+<p>&#8220;The map is the last vestige of the old system. If you can’t read the map, you can’t use the subway.&#8221;</p>
+<p>Eddie Jabbour in <a href="https://www.nytimes.com/2007/04/22/nyregion/thecity/22map.html?ex=1334894400&#038;en=9dca907b8de19651&#038;ei=5124&#038;partner=permalink&#038;exprod=permalink">Can he get there from here? (NYT)</a>
+</p></blockquote>
+<p>Sometimes, lines between adjacent stations can be uni-directional (as in the Paris Metro map below in the right upper corner, 7bis). So, it is best to view a subway map as a <strong>directed</strong> graph, with vertices the different stations, and directed arrows when there&#8217;s a service connecting two adjacent stations.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/met5.jpg" width=100%><br />
+</center></p>
+<p>Aha! But, directed graphs form a presheaf <a href="https://en.wikipedia.org/wiki/Topos">topos</a>. So, each and every every subway in the world comes with its own logic, its own bi-<a href="https://en.wikipedia.org/wiki/Heyting_algebra">Heyting</a> algebra!</p>
+<p>Come again&#8230;?</p>
+<p>Let&#8217;s say <a href="https://en.wikipedia.org/wiki/Where%27s_Wally%3F">Wally</a> (or Waldo, or <a href="https://fr.wikipedia.org/wiki/O%C3%B9_est_Charlie_%3F">Charlie</a>) is somewhere in the Paris metro, and we want to find him. One can make statements like:</p>
+<p>$P$ = &#8220;Wally is on line 3bis from Gambetta to Porte des Lilas.&#8221;, or</p>
+<p>$Q$ = &#8220;Wally is traveling along line 11.&#8221;</p>
+<p>Each sentence pinpoints Wally&#8217;s location to some directed <strong>subgraph</strong> of the full Paris metro digraph, let&#8217;s call this subgraph the <strong>&#8216;scope&#8217;</strong> of the sentence.</p>
+<p>We can connect such sentences with logical connectives $\vee$ or $\wedge$ and the scope will then be the union or intersection of the respective scopes.</p>
+<p>The scope of $P \vee Q$ is the directed subgraph of line 11 (in both directions) together with the directed subgraph of line 3bis from Gambetta to Porte des Lilas.</p>
+<p>The scope of $P \wedge Q$ is just the vertex corresponding to <a href="https://en.wikipedia.org/wiki/Porte_des_Lilas_(Paris_M%C3%A9tro)">Porte des Lilas</a>.</p>
+<p>The scope of the negation $\neg R$ of a sentence $R$ is the subgraph complement of the scope of $R$, so it is the full metro graph minus all vertices and directed edges in $R$-scope, together with all directed edges starting or ending in one of the deleted vertices.</p>
+<p>For example, the scope of $\neg P$ does not contain directed edges along 3bis in the reverse direction, nor the edges connecting Gambetta to Pere Lachaise, and so on.</p>
+<p>In the Paris metro logic the <a href="https://en.wikipedia.org/wiki/Double_negation#:~:text=In%20propositional%20logic%2C%20double%20negation,sign%20%E2%89%A1%20expresses%20logical%20equivalence">law of double negation</a> does not hold.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/met5.jpg" width=100%><br />
+</center></p>
+<p>$\neg \neg P \not= P$ as both statements have different scopes. For example, the reverse direction of line 3bis is part of the scope of $\neg \neg P$, but not of $P$.</p>
+<p>So, although the scope of $P \wedge \neg P$ is empty, that of $P \vee \neg P$ is <strong>not</strong> the full digraph.</p>
+<p>The logical operations $\vee$, $\wedge$ and $\neg$ do not turn the partially ordered set of all directed subgraphs of the Paris metro into  a <a href="https://en.wikipedia.org/wiki/Boolean_algebra">Boolean algebra</a> structure, but rather a <a href="https://en.wikipedia.org/wiki/Heyting_algebra">Heyting algebra</a>.</p>
+<p>Perhaps we were too drastic in removing all &#8220;problematic edges&#8221; from the scope of $\neg R$ (those with a source or target station belonging to the scope of $R$)?</p>
+<p>We might have kept all problematic edges, and added the missing source and/or target stations to get the scope of another negation of $R$: $\sim R$.</p>
+<p>Whereas the scope of $\neg \neg R$ always contains that of $R$, the scope of $\sim \sim R$ is contained in $R$&#8217;s scope.</p>
+<p>The scope of $R \vee \sim R$ will indeed be the whole graph, but now $R \wedge \sim R$ does no longer have to be empty. For example, $P \wedge \sim P$ has as its scope all stations on line 3bis.</p>
+<p>In general $R \wedge \sim R$ will be called the &#8216;boundary&#8217; $\partial(R)$ of $R$. It consists of all stations within $R$&#8217;s scope that are connected to the outside of $R$&#8217;s scope.</p>
+<p>The logical operations $\vee$, $\wedge$, $\neg$ and $\sim$ make the partially ordered set of all directed subgraphs of the Paris metro into a <a href="https://ncatlab.org/nlab/show/co-Heyting+algebra">bi-Heyting algebra</a>.</p>
+<p>There&#8217;s plenty more to say about all of this (and I may come back to it later). For the impatient, there&#8217;s the paper by Reyes and Zolfaghari: <a href="https://www.jstor.org/stable/30227088?seq=1#metadata_info_tab_contents">Bi-Heyting Algebras, Toposes and Modalities</a>.</p>
+<p>Right now, I&#8217;m more into exploring whether this setting can be used to revive an old project of mine: <a href="https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems">Heyting Smullyanesque problems</a> (btw. the algebra in that post is <strong>not</strong> Heyting, oops!).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Heyting Smullyanesque problems</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 10 Feb 2018 12:49:14 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[Rosenhouse]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8045</guid>
+
+					<description><![CDATA[Raymond Smullyan brought Knights and Knaves puzzles to a high art in his books. Here&#8217;s the setting: On Smullyan&#8217;s islands there are Knights, who always&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Raymond Smullyan brought <a href="https://en.wikipedia.org/wiki/Knights_and_Knaves">Knights and Knaves puzzles</a> to a high art in his books. Here&#8217;s the setting:</p>
+<p>On Smullyan&#8217;s islands there are Knights, who always tell true statements, Knaves, who always lie, and sometimes also Normals, who sometimes tell the truth and sometimes lie.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Smullyan2.jpg"><br />
+(image credit <a href="https://www.chess.com/article/view/can-you-solve-these-5-easy-retrograde-puzzles">MikeKlein</a>)</p>
+<p>Problems of this sort can be solved by classical propositional logic, replacing every sentence $P$ told by inhabitant $A$ by the formula $k_A \leftrightarrow P$ where $k_A$ is the sentence &#8220;A is a Knight&#8221;.</p>
+<p>Some time ago I <a href="https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way">asked</a> for Smullyanesque problems in a non-classical logic, where we replace the usual truth-values $T$ (true) and $F$ (false) of propositional logic by elements of an <a href="https://en.wikipedia.org/wiki/Heyting_algebra">Heyting algebra</a>.</p>
+<p>Jason Rosenhouse wrote a paper <a href="http://www.jstor.org/stable/10.4169/college.math.j.45.4.297">Knights, Knaves, Normals, and Neutrals</a> for The College Mathematics Journal, containing more information than in his <a href="http://scienceblogs.com/evolutionblog/2014/03/26/non-classical-knights-and-knaves/">blog post</a>, as well as some nice challenging puzzles. Here&#8217;s Rosenhouse&#8217;s setting:</p>
+<p>Apart from Knights, Knaves and Normals there&#8217;s also the tribe of Neutrals (which he describes as a sort of trans-Knights or trans-Knaves) who can only tell sentences with truth value $N$ in the Heyting algebra $\{ T,N,F \}$ with logical connectives</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/knights2.png" width=100% ></p>
+<p>A typical sentence of truth value $N$ is &#8220;A is a Knight&#8221; or &#8220;A is a Knave&#8221; whereas, in reality, $A$ is Neutral. Here are the truth values of sentences about a person (the column headings) with respect to the actual situation (the row headings)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/knights1.png" width=100% ></p>
+<p>A good way into such problems is to focus on sentence like &#8220;A is a Neutral&#8221; as they have only classical truth values $T$ or $F$ and to remember that Neutrals can never say a sentence with classical truth value. Here&#8217;s an example (only Knights,Knaves or Neutrals present):</p>
+<p><strong>Problem 1</strong>: Suppose you meet three people, named Dave, Evan and Ford. They make the following statements:</p>
+<p>Dave: Evan is a knight.<br />
+Evan: Ford is a knave.<br />
+Ford: Dave is a neutral.</p>
+<p>Can you determine the types of all three people?</p>
+<p>Solution: Ford&#8217;s sentence has value $T$ or $F$, so Ford cannot be Neutral so must be a Knight or Knave. But then Evan&#8217;s sentence also has classical truth value, so he can&#8217;t be Neutral either, and by the same reasoning also Dave cannot be neutral. So, we know that all three people must be either Knights or Knaves and then it follows at once that Ford is a Knave (because he lied) and that Evan and Dave must be knights.</p>
+<p>These puzzles become more interesting once we use logical connectives.</p>
+<p><strong>Problem 2</strong>: What can you conclude from this dialog?</p>
+<p>Mimi: Olaf is a Knight and Olaf is not a Knight.<br />
+Nate: Olaf is a Knave or Olaf is not a Knave.<br />
+Olaf: Mimi is a Knight or Nate is a Knave or I am Neutral.</p>
+<p>Solution: Mimi&#8217;s sentence can only have truth value $F$ or $N$ so she can&#8217;t be a Knight. Nate&#8217;s sentence has value $T$ or $N$ so he cannot be a Knave.<br />
+The two first parts of Olaf&#8217;s line cannot be $T$ so must be either $N$ or $F$. So, Olav&#8217;s line has total value $T$ only if the last part &#8216;I am Neutral&#8217; is $T$. So, Olaf can neither be a Knight (because then the last part is $F$) nor Neutral (because then the line would have value $T$ and Neutrals can only speak $N$-sentences). So, Olaf must be a knave. Nate must then be a Knight and Mimi a Knave (because the first part of her line is $F$ and so must be the whole sentence).</p>
+<p>The situation becomes even more complicated when we allow Normals (who sometimes lie and sometimes tell the truth but never say sentences with value $N$) to be present. Here&#8217;s Rosenhouse&#8217;s &#8216;Grand Finale&#8217;:</p>
+<p><strong>Problem 3</strong>: One day a visitor encountered eight people, among them exactly two Knights, two Knaves, two Normals and two Neutrals. What can you conclude from this dialog:</p>
+<p>Sara: Walt is a Neutral or Vera is a Neutral.<br />
+Todd: Xara is a Knave and Yoav is a Knave.<br />
+Ursa: If Sara is a Knight, then Todd and Yoav are Normals.<br />
+Vera: I am not a Neutral.<br />
+Walt: If Vera is not a Neutral, then neither is Todd.<br />
+Xara: Todd is a Knight if and only if Zack is a Neutral.<br />
+Zack: Xara is a Neutral if and only if Walt is not a Normal.</p>
+<p>You will solve this problem much quicker than to read through the long explanation in <a href="http://www.jstor.org/stable/10.4169/college.math.j.45.4.297">Rosenhouse&#8217;s paper</a>.</p>
+<p>These puzzles beg to be generalised to more complicated Heyting algebras.</p>
+<p>What about a book on &#8220;Knights, Knaves and Knols&#8221;? A <a href="https://en.wikipedia.org/wiki/Knol">Knol</a> (or $X$-Knol) has knowledge limited to sentences with truth value $X$, an element in the Heyting algebra.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Knights and Knaves, the Heyting way</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 22 Jan 2018 10:01:57 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[logic]]></category>
+		<category><![CDATA[Rosenhouse]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7812</guid>
+
+					<description><![CDATA[(image credit: Joe Blitzstein via Twitter) Smullyan&#8217;s Knights and Knaves problems are classics. On an island all inhabitants are either Knights (who only tell true&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/smullyanbooks.jpg"></p>
+<p>(image credit: Joe Blitzstein <a href="https://twitter.com/stat110/status/830125547854450694">via Twitter</a>)</p>
+<p>Smullyan&#8217;s Knights and Knaves problems are classics. On an island all inhabitants are either Knights (who only tell true things) and Knaves (who always lie). You have to determine their nature from a few statements. Here&#8217;s a very simple problem:</p>
+<p>&#8220;Abercrombie met just two inhabitants, A and B. A made the following statement: &#8220;Both of us are Knaves.&#8221; What is A and what is B?&#8221;</p>
+<p>Now, this one is simple enough to solve, but for more complicated problems a generic way to solve the puzzles is to use propositional calculas, as explained in Smullyan&#8217;s <a href="http://logic-books.info/sites/default/files/logical_labirints.pdf">Logical Labyrinths&#8221;</a>, chapter 8 &#8220;Liars, truth-tellers and propositional logic&#8217;.</p>
+<p>If an inhabitants $A$ asserts a proposition $P$, and if $k_A$ is the assertion &#8216;$A$ is a Knight&#8217;, then the statement can be rephrased as</p>
+<p>\[<br />
+k_A \Leftrightarrow P \]</p>
+<p>for if $A$ is a Knight, $P$ must be true and if $A$ is a Knave $P$ must be false.</p>
+<p>Usually, one can express $P$ as a propositional statement involving $k_A,k_B,k_C,\dots$.<br />
+The example above can be rephrased as</p>
+<p>\[<br />
+k_A \Leftrightarrow (\neg k_A \wedge \neg k_B) \]</p>
+<p>Assigning truth values to $k_A$ and $k_B$ and setting up the truth-table for this sentence, one sees that the only possibility for this to be true is that $k_A$ equals $0$ and $k_B$ equals $1$. So, $A$ is a Knave and $B$ is a Knight.</p>
+<p>Clearly, one only requires this approach for far more difficult problems.</p>
+<p>In almost all Smullyan puzzles, the only truth values are $0$ and $1$. There&#8217;s a short excursion to Boolean algebras (sorry, Boolean islands) in chapter 9 &#8216;Variable Liars&#8217; in Logical Labyrinths. But then, the type of problems are about finding equivalent notions of Boolean algebras, rather that generalised Knights&#038;Knaves puzzles.</p>
+<p><strong>Did anyone pursue the idea of Smullyanesque puzzles with truth values in a proper <a href="https://en.wikipedia.org/wiki/Heyting_algebra">Heyting algebra</a>?</strong></p>
+<p>I only found one blog-post on this: <a href="http://scienceblogs.com/evolutionblog/2014/03/26/non-classical-knights-and-knaves/">Non-Classical Knights and Knaves</a> by Jason Rosenhouse.</p>
+<p>He considers three valued logic (the Heyting algebra corresponding to the poset 0-N-1, and logical connectives as in the example on the Wiki-page on Heyting algebras.</p>
+<p>On his island the natives cycle, repeatedly and unpredictably, between the two states. They are knights for a while, then they enter a transitional phase during which they are partly knight and partly knave, and then they emerge on the other side as knaves.</p>
+<p>&#8220;If Joe is in the transitional phase, and you say, “Joe is a knight,” or “Joe is a knave,” what truth value should we assign to your statement? Since Joe is partly knight and partly knave, neither of the classical truth values seems appropriate. So we shall assign a third truth value, “N” to such statements. Think of N as standing for “neutral” or “neither true nor false.” On the island, vague statements are assigned the truth value N.</p>
+<p>Just to be clear, it’s not just any statement that can be assigned the truth value N. It is only vague statements that receive that truth value, and for now our only examples of such statements are attributions of knight-hood and knave-hood to people in the transitional phase.</p>
+<p>For the natives, entering the transitional phase implied a disconcerting loss of identity. Uncertain of how to behave, they hedged their bets by only making statements with truth value N. People in the transitional phase were referred to as neutrals. So there are now three kinds of people: Knights, who only make true statements; Knaves, who only make false statements; and Neutrals, who only make statements with the truth value N.&#8221;</p>
+<p>He gives one example of a possible problem:</p>
+<p>&#8220;Suppose you meet three people, named Dave, Evan and Ford. They make the following statements:</p>
+<p>Dave: Evan is a knight.<br />
+Evan: Ford is a knave.<br />
+Ford: Dave is a neutral.</p>
+<p>Can you determine the types of all three people?&#8221;</p>
+<p>If you know of more of these Smullanesque problems using Heyting algebras, please leave a comment.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

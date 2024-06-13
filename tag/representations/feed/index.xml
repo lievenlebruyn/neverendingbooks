@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>representations &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/representations/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 18 May 2011 09:36:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Penrose tilings and noncommutative geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 18 May 2011 09:36:49 +0000</pubDate>
+				<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Smith]]></category>
+		<category><![CDATA[tilings]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5206</guid>
+
+					<description><![CDATA[Penrose tilings are aperiodic tilings of the plane, made from 2 sort of tiles : kites and darts. It is well known (see for example&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/penrosetiling.jpg"></p>
+<p><a href="http://en.wikipedia.org/wiki/Penrose_tiling">Penrose tilings</a> are aperiodic tilings of the plane, made from 2 sort of tiles : kites and darts. It is well known (see for example the standard textbook <a href="http://www.amazon.co.uk/Tilings-Patterns-Branko-Grunbaum/dp/0486469816/">tilings and patterns</a> section 10.5) that one can describe a Penrose tiling around a given point in the plane as an infinite sequence of 0&#8217;s and 1&#8217;s, subject to the condition that no two consecutive 1&#8217;s appear in the sequence. Conversely, any such sequence is the sequence of a Penrose tiling together with a point. Moreover, if two such sequences are eventually the same (that is, they only differ in the first so many terms) then these sequences belong to two points in the same tiling,</p>
+<p>Another remarkable feature of Penrose tilings is their local isomorphism : fix a finite region around a point in one tiling, then in any other Penrose tiling one can find a point having an isomorphic region around it. For this reason, the space of all Penrose tilings has horrible topological properties (all points lie in each others closure) and is therefore a prime test-example for the techniques of <a href="http://en.wikipedia.org/wiki/Noncommutative_geometry">noncommutative geometry</a>.</p>
+<p>In his old testament, <a href="http://www.amazon.co.uk/Noncommutative-Geometry-Alain-Connes/dp/012185860X/">Noncommutative Geometry</a>, Alain Connes associates to this space a $C^*$-algebra $Fib$ (because it is constructed from the <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci series</a> $F_0,F_1,F_2,&#8230;$) which is the direct limit of sums of two full matrix-algebras $S_n$, with connecting morphisms</p>
+<p>$S_n = M_{F_n}(\mathbb{C}) \oplus M_{F_{n-1}}(\mathbb{C}) \rightarrow S_{n+1} = M_{F_{n+1}}(\mathbb{C}) \oplus M_{F_n}(\mathbb{C}) \qquad (a,b) \mapsto ( \begin{matrix} a &#038; 0 \\ 0 &#038; b \end{matrix}, a)$</p>
+<p>As such $Fib$ is an AF-algebra (for approximately finite) and hence formally smooth. That is, $Fib$ would be the coordinate ring of a smooth variety in the noncommutative sense, if only $Fib$ were finitely generated. However, $Fib$ is far from finitely generated and has other undesirable properties (at least for a noncommutative algebraic geometer) such as being simple and hence in particular $Fib$ has no finite dimensional representations&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/PaulS.jpg" align=left hspace=10> A couple of weeks ago, <a href="http://www.math.washington.edu/~smith/">Paul Smith</a> discovered a surprising connection between the noncommutative space of Penrose tilings and an <strong>affine</strong> algebra in the paper <a href="http://arxiv.org/abs/1104.3811">The space of Penrose tilings and the non-commutative curve with homogeneous coordinate ring $\mathbb{C} \langle x,y \rangle/(y^2)$</a>.</p>
+<p>Giving $x$ and $y$ degree 1, the algebra $P = \mathbb{C} \langle x,y \rangle/(y^2)$ is obviously graded and noncommutative projective algebraic geometers like to associate to such algebras their &#8216;proj&#8217; which is the quotient category of the category of all graded modules in which two objects become isomorphisc iff their &#8216;tails&#8217; (that is forgetting the first few homogeneous components) are isomorphic.</p>
+<p>The first type of objects NAGers try to describe are the <strong>point modules</strong>, which correspond to graded modules in which every homogeneous component is 1-dimensional, that is, they are of the form</p>
+<p>$\mathbb{C} e_0 \oplus \mathbb{C} e_1 \oplus \mathbb{C} e_2 \oplus \cdots \oplus \mathbb{C} e_n \oplus \mathbb{C} e_{n+1} \oplus \cdots$</p>
+<p>with $e_i$ an element of degree $i$. The reason for this is that point-modules correspond to the points of the (usual, commutative) projective variety when the affine graded algebra is commutative.</p>
+<p>Now, assume that a Penrose tiling has been given by a sequence of 0&#8217;s and 1&#8217;s, say $(z_0,z_1,z_2,\cdots)$, then it is easy to associate to it a graded vectorspace with action given by</p>
+<p>$x.e_i = e_{i+1}$ and $y.e_i = z_i e_{i+1}$</p>
+<p>Because the sequence has no two consecutive ones, it is clear that this defines a graded module for the algebra $P$ and determines a  point module in $\pmb{proj}(P)$. By the equivalence relation on Penrose sequences and the tails-equivalence on graded modules it follows that two sequences define the same Penrose tiling if and only if they determine the same point module in $\pmb{proj}(P)$.  Phrased differently, the noncommutative space of Penrose tilings embeds in $\pmb{proj}(P)$ as a subset of the point-modules for $P$.</p>
+<p>The only such point-module invariant under the shift-functor is the one corresponding to the 0-sequence, that is, corresponds to the <a href="http://www.spsu.edu/math/tile/aperiodic/cartwheel/cartwheel1.htm">cartwheel tiling</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cartwheel.jpg"></p>
+<p>Another nice consequence is that we can now explain the local isomorphism property of Penrose tilings geometrically as a consequence of the fact that the $Ext^1$ between any two such point-modules is non-zero, that is, these noncommutative points lie &#8216;infinitely close&#8217; to each other.</p>
+<p>This is the easy part of Paul&#8217;s paper.</p>
+<p>The truly, truly amazing part is that he is able to recover Connes&#8217; AF-algebra $Fib$ from $\pmb{proj}(P)$ as the algebra of global sections! More precisely, he proves that there is an equivalence of categories between $\pmb{proj}(P)$ and the category of all $Fib$-modules $\pmb{mod}(Fib)$!</p>
+<p>In other words, the noncommutative projective scheme $\pmb{proj}(P)$ is actually isomorphic to an affine scheme and as its coordinate ring is formally smooth $\pmb{proj}(P)$ is a noncommutative smooth variety. It would be interesting to construct more such examples of interesting AF-algebras appearing as local rings of sections of proj-es of affine graded algebras.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>what have quivers done to students?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-have-quivers-done-to-students/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-have-quivers-done-to-students/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 14 May 2011 10:48:23 +0000</pubDate>
+				<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5049</guid>
+
+					<description><![CDATA[A few years ago a student entered my office asking suggestions for his master thesis. &#8220;I&#8217;m open to any topic as long as it has&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A few years ago a student entered my office asking suggestions for his master thesis.</p>
+<p>&#8220;I&#8217;m open to any topic as long as it has nothing to do with those silly quivers!&#8221;</p>
+<p>At that time not the best of opening-lines to address me and, inevitably, the most disastrous teacher-student-conversation-ever followed (also on my part, i&#8217;m sorry to say).</p>
+<p>This week, <a href="http://wmaz.math.uni-wuppertal.de/reineke/">Markus Reineke</a> had a similar, though less confrontational, experience. Markus gave a mini-course on &#8216;moduli spaces of representations&#8217; in our <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/noncommutative-algebra-and-geometry-master-degree.html">advanced master class</a>. Students loved the way he introduced representation varieties and constructed the space of irreducible representations as a GIT-quotient. In fact, his course was probably the first in that program having an increasing (rather than decreasing) number of students attending throughout the week&#8230;</p>
+<p>In his third lecture he wanted to illustrate these general constructions and what better concrete example to take than representations of quivers? Result : students&#8217; eyes staring blankly at infinity&#8230;</p>
+<p>What is it that quivers do to have this effect on students?</p>
+<p>Perhaps quiver-representations cause them an information-overload.</p>
+<p>Perhaps we should take plenty of time to explain that in going from the quiver (the directed graph) to the path algebra, vertices become idempotents and arrows the remaining generators. These idempotents split a representation space into smaller vertex-spaces, the dimensions of which we collect in a dimension-vector,  the big basechange group splits therefore into a product of small vertex-basechanges and the action of this product on an matrix corresponding to an arrow is merely usual conjugation by the big basechange-group, etc. etc.  Blatant trivialities to someone breathing quivers, but probably we too had to take plenty of time once to disentangle this information-package&#8230;</p>
+<p>But then, perhaps they consider quivers and their representations as too-concrete-old-math-stuff, when there&#8217;s so much high-profile-fancy-math still left to taste.</p>
+<p>When given the option, students prefer you to tell them monstrous-moonshine stories even though they can barely prove simplicity of $A_5$, they want you to give them a short-cut to the Langlands programme but have never had the patience nor the interest to investigate the splitting of primes in quadratic number fields, they want to be taught schemes and their structure sheaves when they still struggle with the notion of a dominant map between varieties&#8230;</p>
+<p>In short, students often like to run before they can crawl.</p>
+<p>Working through the classification of some simple quiver-settings would force their agile feet firmly on the ground. They probably experience this as a waste of time.</p>
+<p>Perhaps, it is time to promote slow math&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-have-quivers-done-to-students/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Seating the first few thousand Knights</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2010 16:31:46 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[ONAG]]></category>
+		<category><![CDATA[ordinals]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2855</guid>
+
+					<description><![CDATA[The Knight-seating problems asks for a consistent placing of n-th Knight at an odd root of unity, compatible with the two different realizations of the algebraic closure of the field with two elements.]]></description>
+										<content:encoded><![CDATA[<p>The Knight-seating problems asks for a consistent placing of n-th Knight at an odd root of unity, compatible with the two different realizations of the algebraic closure of the field with two elements.<br />
+The first identifies the multiplicative group of its non-zero elements with the group of all odd complex roots of unity, under complex multiplication. The second uses Conway&#8217;s &#8216;simplicity rules&#8217; to define an addition and multiplication on the set of all ordinal numbers.</p>
+<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-odd-knights-of-the-round-table.html">odd Knights of the round table</a>-problem asks for a specific one-to-one correspondence between two realizations of &#8216;the&#8217; algebraic closure $\overline{\mathbb{F}_2} $ of the field of two elements.</p>
+<p>The first identifies the multiplicative group of its non-zero elements with the group of all odd complex roots of unity, under complex multiplication. The addition on $\overline{\mathbb{F}_2} $ is then recovered by inducing an involution on the odd roots, pairing the one corresponding to x to the one corresponding to x+1.</p>
+<p>The second uses Conway&#8217;s &#8216;simplicity rules&#8217; to define an addition and multiplication on the set of all ordinal numbers. Conway proves in <a href="http://en.wikipedia.org/wiki/On_Numbers_and_Games">ONAG</a> that this becomes an algebraically closed field of characteristic two and that $\overline{\mathbb{F}_2} $ is the subfield of all ordinals smaller than $\omega^{\omega^{\omega}} $. The finite ordinals (the natural numbers) form the quadratic closure of $\mathbb{F}_2 $.</p>
+<p>On the natural numbers the Conway-addition is binary addition without carrying and Conway-multiplication is defined by the properties that two different Fermat-powers $N=2^{2^i} $ multiply as they do in the natural numbers, and, Fermat-powers square to its sesquimultiple, that is $N^2=\frac{3}{2}N $. Moreover, all natural numbers smaller than $N=2^{2^{i}} $ form a finite field $\mathbb{F}_{2^{2^i}} $. Using distributivity, one can write down a multiplication table for all 2-powers.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/nim2powers.jpg"><br />
+</center></p>
+<p>The Knight-seating problems asks for a consistent placing of n-th Knight $K_n $ at an odd root of unity, compatible with the two different realizations of $\overline{\mathbb{F}_2} $. Last time, we were able to place the first 15 Knights as below, and asked where you would seat $K_{16} $</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Knights16.jpg"><br />
+</center></p>
+<p>$K_4 $ was placed at $e^{2\pi i/15} $ as 4 was the smallest number generating the &#8216;Fermat&#8217;-field $\mathbb{F}_{2^{2^2}} $ (with multiplicative group of order 15) subject to the compatibility relation with the generator 2 of the smaller Fermat-field $\mathbb{F}_2 $ (with group of order 15) that $4^5=2 $.</p>
+<p>To include the next Fermat-field $\mathbb{F}_{2^{2^3}} $ (with multiplicative group of order 255) consistently, we need to find the smallest number n generating the multiplicative group and satisfying the compatibility condition $n^{17}=4 $. Let&#8217;s first concentrate on finding the smallest generator : as 2 is a generator for 1st Fermat-field $\mathbb{F}_{2^{2^1}} $ and 4 a generator for the 2-nd Fermat-field $\mathbb{F}_{2^{2^2}} $ a natural conjecture might be that 16 is a generator for the 3-rd Fermat-field $\mathbb{F}_{2^{2^3}} $ and, more generally, that $2^{2^i} $ would be a generator for the next field $\mathbb{F}_{2^{2^{i+1}}} $.</p>
+<p>However, an &#8220;exercise&#8221; in the 1978-paper by Hendrik Lenstra <a href="https://openaccess.leidenuniv.nl/bitstream/1887/2125/1/346_027.pdf">Nim multiplication</a> asks : &#8220;Prove that $2^{2^i} $ is a primitive root in the field $\mathbb{F}_{2^{2^{i+1}}} $ if and only if i=0 or 1.&#8221;</p>
+<p>I&#8217;ve struggled with several of the &#8216;exercises&#8217; in Lenstra&#8217;s paper to the extend I feared Alzheimer was setting in, only to find out, after taking pen and paper and spending a considerable amount of time calculating, that they are indeed merely exercises, when looked at properly&#8230; (Spoiler-warning : stop reading now if you want to go through this exercise yourself).</p>
+<p>In the picture above I&#8217;ve added in red the number $x(x+1)=x^2+1 $ to each of the involutions. Clearly, for each pair these numbers are all distinct and we see that for the indicated pairing they make up all numbers strictly less than 8.</p>
+<p>By Conway&#8217;s simplicity rules (or by checking) the pair (16,17) gives the number 8. In other words, the equation<br />
+$x^2+x+8 $ is an irreducible polynomial over $\mathbb{F}_{16} $ having as its roots in $\mathbb{F}_{256} $ the numbers 16 and 17. But then, 16 and 17 are conjugated under the Galois-involution (the Frobenius $y \mapsto y^{16} $). That is, we have $16^{16}=17 $ and $17^{16}=16 $ and hence $16^{17}=8 $. Now, use the multiplication table in $\mathbb{F}_{16} $ given in the previous post (or compute!) to see that 8 is of order 5 (and NOT a generator). As a consequence, the multiplicative order of 16 is 5&#215;17=85 and so 16 cannot be a generator in $\mathbb{F}_{256} $.<br />
+For general i one uses the fact that $2^{2^i} $ and $2^{2^i}+1 $ are the roots of the polynomial $x^2+x+\prod_{j&lt;i} 2^{2^j} $ over $\mathbb{F}_{2^{2^i}} $ and argues as before.</p>
+<p>Right, but then what is the minimal generator satisfying $n^{17}=4 $? By computing we see that the pairings of all numbers in the range 16&#8230;31 give us all numbers in the range 8&#8230;15 and by the above argument this implies that the 17-th powers of all numbers smaller than 32 must be different from 4. But then, the smallest candidate is 32 and one verifies that indeed $32^{17}=4 $ (use the multiplication table given before).</p>
+<p>Hence, we must place Knight $K_{32} $ at root $e^{2 \pi i/255} $ and place the other Knights prior to the 256-th at the corresponding power of 32. I forgot the argument I used to find-by-hand the requested place for Knight 16, but one can verify that $32^{171}=16 $ so we seat $K_{16} $ at root $e^{342 \pi i/255} $.</p>
+<p>But what about Knight $K_{256} $? Well, by this time I was quite good at squaring and binary representations of integers, but also rather tired, and decided to leave that task to the computer.</p>
+<p>If we denote Nim-addition and multiplication by $\oplus $ and $\otimes $, then Conway&#8217;s simplicity results in ONAG establish a field-isomorphism between $~(\mathbb{N},\oplus,\otimes) $ and the field $\mathbb{F}_2(x_0,x_1,x_2,\ldots ) $ where the $x_i $ satisfy the Artin-Schreier equations</p>
+<p>$x_i^2+x_i+\prod_{j &lt; i} x_j = 0 $</p>
+<p>and the i-th Fermat-field $\mathbb{F}_{2^{2^i}} $ corresponds to $\mathbb{F}_2(x_0,x_1,\ldots,x_{i-1}) $. The correspondence between numbers and elements from these fields is given by taking $x_i \mapsto 2^{2^i} $. But then, wecan write every 2-power as a product of the $x_i $ and use the binary representation of numbers to perform all Nim-calculations with numbers in these fields.</p>
+<p>Therefore, a quick and dirty way (and by no means the most efficient) to do Nim-calculations in the next Fermat-field consisting of all numbers smaller than 65536, is to use <a href="http://www.sagemath.org/">sage</a> and set up the field $\mathbb{F}_2(x_0,x_1,x_2,x_3) $ by</p>
+<pre>
+R.< x,y,z,t > =GF(2)[]
+S.< a,b,c,d >=R.quotient((x^2+x+1,y^2+y+x,z^2+z+x*y,t^2+t+x*y*z))
+</pre>
+<p>To find the smallest number generating the multiplicative group and satisfying the additional compatibility condition $n^{257}=32 $ we have to find the smallest binary number $i_1i_2 \ldots i_{16} $ (larger than 255) satisfying</p>
+<pre>
+(i1*a*b*c*t+i2*b*c*t+i3*a*c*t+i4*c*t+i5*a*b*t+i6*b*t+
+i7*a*t+i8*t+i9*a*b*c+i10*b*c+i11*a*c+i12*c+i13*a*b+
+i14*b+i15*a+i16)^257=a*c
+</pre>
+<p>It takes a 2.4GHz 2Gb-RAM MacBook not that long to decide that the requested generator is 1051 (killing another optimistic conjecture that these generators might be 2-powers). So, we seat Knight<br />
+$K_{1051} $ at root $e^{2 \pi i/65535} $ and can then arrange seatings for all Knight queued up until we reach the 65536-th! In particular, the first Knight we couldn&#8217;t place before, that is Knight $K_{256} $, will be seated at root $e^{65826 \pi i/65535} $.</p>
+<p>If you&#8217;re lucky enough to own a computer with more RAM, or have the patience to make the search more efficient and get the seating arrangement for the next Fermat-field, please drop a comment.</p>
+<p>I&#8217;ll leave you with another Lenstra-exercise which shouldn&#8217;t be too difficult for you to solve now : &#8220;Prove that $x^3=2^{2^i} $ has three solutions in $\mathbb{N} $ for each $i \geq 2 $.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Pollock your own noncommutative space</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 19 May 2009 16:56:50 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[paintings]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1839</guid>
+
+					<description><![CDATA[I really like Matilde Marcolli&#8217;s idea to use some of Jackson Pollock&#8217;s paintings as metaphors for noncommutative spaces. In her talk she used this painting&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I really like Matilde Marcolli&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/views-of-noncommutative-spaces.html">idea</a> to use some of Jackson Pollock&#8217;s paintings as metaphors for noncommutative spaces. In her talk she used this painting</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PollockNCG.jpg"><br />
+</center></p>
+<p>and refered to it (as did I in my post) as : Jackson Pollock “Untitled N.3”. Before someone writes a post &#8216;The Pollock noncommutative space hoax&#8217; (similar to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-scottish-solids-hoax.html">my own</a> post) let me point out that I am well aware of the controversy surrounding this painting.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PollockContreversy.jpg" style="float:right;margin-left:10px;" hspace=10>This painting is among 32 works recently discovered and initially attributed to Pollock.<br />
+In fact, I&#8217;ve already told part of the story in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/doodles-worth-millions-or-not.html">Doodles worth millions (or not)?</a> (thanks to <a href="http://www.gittte.be/">PD1</a>). The story involves the people on the right : from left to right, Jackson Pollock, his wife Lee Krasner, Mercedes Matter and her son Alex Matter.</p>
+<p>Alex Matter, whose father, Herbert, and mother, Mercedes, were artists and friends of Jackson Pollock, discovered after his mother died a group of small drip paintings in a storage locker in Wainscott, N.Y. which he believed to be authentic Pollocks.</p>
+<p>Read the post mentioned above if you want to know how mathematics screwed up his plan, or much better, reed the article <a href="http://blog.cleveland.com/pdextra/2007/10/anatomy_of_the_jackson_pollock.html">Anatomy of the Jackson Pollock controversy</a> by Stephen Litt.</p>
+<p>So, perhaps the painting above was not the smartest choice, but we could take any other genuine Pollock &#8216;drip-painting&#8217;, a technique he taught himself towards the end of 1946 to make an image by splashing, pouring, sloshing colors onto the canvas. Typically, such a painting consists of blops of paint, connected via thin drip-lines.</p>
+<p>What does this have to do with noncommutative geometry? Well, consider the blops as &#8216;points&#8217;. In commutative geometry, distinct points cannot share tangent information ((technically : a commutative semi-local ring splits as the direct sum of local rings and this does no longer hold for a noncommutative semi-local ring)). In the noncommutative world though, they can!, or if you want to phrase it like this, noncommutative points &#8216;can talk to each other&#8217;. And, that&#8217;s what we cherish in those drip-lines.</p>
+<p>But then, if two points share common tangent informations, they must be awfully close to each other&#8230; so one might imagine these Pollock-lines to be strings holding these points together. Hence, it would make more sense to consider the &#8216;Pollock-quotient-painting&#8217;, that is, the space one gets after dividing out the relation &#8216;connected by drip-lines&#8217; ((my guess is that Matilde thinks of the lines as the action of a group on the points giving a topological horrible quotient space, and thats precisely where noncommutative geometry shines)).</p>
+<p>For this reason, my own mental picture of a genuinely noncommutative space  ((that is, the variety corresponding to a huge noncommutative algebra such as free algebras, group algebras of arithmetic groups or fundamental groups)) looks more like the picture below</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/LeBruynNCG.jpg"><br />
+</center></p>
+<p>The colored blops you see are really sets of points which you might view as, say, a  FacebookGroup ((technically, think of them as the connected components of isomorphism classes of finite dimensional simple representations of your favorite noncommutative algebra)). Some chatter may occur between two distinct FacebookGroups, the more chatter the thicker the connection depicted ((technically, the size of the connection is the dimension of the ext-group between generic simples in the components)). Now, there are some tiny isolated spots (say blue ones in the upper right-hand quadrant). These should really be looked at as remote clusters of noncommutative points (sharing no (tangent) information whatsoever with the blops in the foregound). If we would zoom into them beyond the Planck scale (if I&#8217;m allowed to say a bollock-word in a Pollock-post) they might reveal again a whole universe similar to the interconnected blops upfront.</p>
+<p>The picture was produced using the fabulous <a href="http://www.jacksonpollock.org/">Pollock engine</a>. Just use your mouse to draw and click to change colors in order to produce your very own noncommutative space!</p>
+<p>For the mathematicians still around, this may sound like a lot of Pollock-bollocks but can be made precise. See my note <a href="http://arxiv.org/abs/0805.2377">Noncommutative geometry and dual coalgebras</a> for a very terse reading. Now that coalgebras are <a href="http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html">gaining popularity</a>, I really should write a more readable account of it, including some fanshi-wanshi examples&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Conway’s big picture</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 02 May 2009 18:22:03 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1610</guid>
+
+					<description><![CDATA[Conway and Norton showed that there are exactly 171 moonshine functions and associated two arithmetic subgroups to them. We want a tool to describe these&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Conway and Norton showed that there are exactly 171 moonshine functions and associated two arithmetic subgroups  to them. We want a tool to describe these and here&#8217;s where Conway&#8217;s big picture comes in very handy. All moonshine groups are arithmetic groups, that is, they are commensurable with the modular group. Conway&#8217;s idea is to view several of these groups as point- or set-wise stabilizer subgroups of finite sets of (projective) commensurable 2-dimensional lattices.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/ConwayNorton.jpg" style="float:right;margin-left:10px;" hspace=10>Expanding (and partially explaining) the original moonshine observation of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-mckay-thompson-series.html">McKay and Thompson</a>, <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> and <a href="http://en.wikipedia.org/wiki/Simon_P._Norton">Simon Norton</a> formulated <a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a> :</p>
+<p>To every cyclic subgroup $\langle m \rangle $ of the Monster $\mathbb{M} $ is associated a function</p>
+<p>$f_m(\tau)=\frac{1}{q}+a_1q+a_2q^2+\ldots $ with $q=e^{2 \pi i \tau} $ and all coefficients $a_i \in \mathbb{Z} $ are characters at $m $ of a representation of $\mathbb{M} $. These representations are the homogeneous components of the so called Moonshine module.</p>
+<p>Each $f_m $ is a principal modulus for a certain genus zero congruence group commensurable with the modular group $\Gamma = PSL_2(\mathbb{Z}) $. These groups are called the moonshine groups.</p>
+<p>Conway and Norton showed that there are exactly 171 different functions $f_m $ and associated two arithmetic subgroups $F(m) \subset E(m) \subset PSL_2(\mathbb{R}) $ to them (in most cases, but not all, these two groups coincide).</p>
+<p>Whereas there is an extensive literature on subgroups of the modular group (see for instance the series of posts starting <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/modular-quilts-and-cuboid-tree-diagrams.html">here</a>), most moonshine groups are <strong>not</strong> contained in the modular group. So, we need a tool to describe them and here&#8217;s where <strong>Conway&#8217;s big picture</strong> comes in very handy.</p>
+<p>All moonshine groups are arithmetic groups, that is, they are subgroups $G $ of $PSL_2(\mathbb{R}) $ which are <strong>commensurable</strong> with the modular group $\Gamma = PSL_2(\mathbb{Z}) $ meaning that the intersection $G \cap \Gamma $ is of finite index in both $G $ and in $\Gamma $. Conway&#8217;s idea is to view several of these groups as point- or set-wise stabilizer subgroups of finite sets of (projective) commensurable 2-dimensional lattices.</p>
+<p>Start with a fixed two dimensional lattice $L_1 = \mathbb{Z} e_1 + \mathbb{Z} e_2 = \langle e_1,e_2 \rangle $ and we want to name all lattices of the form $L = \langle v_1= a e_1+ b e_2, v_2 = c e_1 + d e_2 \rangle $ that are commensurable to $L_1 $. Again this means that the intersection $L \cap L_1 $ is of finite index in both lattices. From this it follows immediately that all coefficients $a,b,c,d $ are rational numbers.</p>
+<p>It simplifies matters enormously if we do not look at lattices individually but rather at projective equivalence classes, that is $~L=\langle v_1, v_2 \rangle \sim L&#8217; = \langle v&#8217;_1,v&#8217;_2 \rangle $ if there is a rational number $\lambda \in \mathbb{Q} $ such that $~\lambda v_1 = v&#8217;_1, \lambda v_2=v&#8217;_2 $. Further, we are of course allowed to choose a different &#8216;basis&#8217; for our lattices, that is, $~L = \langle v_1,v_2 \rangle = \langle w_1,w_2 \rangle $ whenever $~(w_1,w_2) = (v_1,v_2).\gamma $ for some $\gamma \in PSL_2(\mathbb{Z}) $.<br />
+Using both operations we can get any lattice in a specific form. For example,</p>
+<p>$\langle \frac{1}{2}e_1+3e_2,e_1-\frac{1}{3}e_2 \overset{(1)}{=} \langle 3 e_1+18e_2,6e_1-2e_2 \rangle \overset{(2)}{=} \langle 3 e_1+18 e_2,38 e_2 \rangle \overset{(3)}{=} \langle \frac{3}{38}e_1+\frac{9}{19}e_2,e_2 \rangle $</p>
+<p>Here, identities (1) and (3) follow from projective equivalence and identity (2) from a base-change. In general, any lattice $L $ commensurable to the standard lattice $L_1 $ can be rewritten uniquely as $L = \langle Me_1 + \frac{g}{h} e_2,e_2 \rangle $ where $M $ a positive rational number and with $0 \leq \frac{g}{h} &lt; 1 $.</p>
+<p>Another major feature is that one can define a symmetric <strong>hyper-distance</strong> between (equivalence classes of) such lattices. Take $L=\langle Me_1 + \frac{g}{h} e_2,e_2 \rangle $ and $L&#8217;=\langle N e_1 + \frac{i}{j} e_2,e_2 \rangle $ and consider the matrix</p>
+<p>$D_{LL&#8217;} = \begin{bmatrix} M &amp; \frac{g}{h} \\ 0 &amp; 1 \end{bmatrix} \begin{bmatrix} N &amp; \frac{i}{j} \\ 0 &amp; 1 \end{bmatrix}^{-1} $ and let $\alpha $ be the smallest positive rational number such that all entries of the matrix $\alpha.D_{LL&#8217;} $ are integers, then</p>
+<p>$\delta(L,L&#8217;) = det(\alpha.D_{LL&#8217;}) \in \mathbb{N} $ defines a symmetric hyperdistance which depends only of the equivalence classes of lattices (<strong>hyper</strong>distance because the log of it behaves like an ordinary distance).</p>
+<p><strong>Conway&#8217;s big picture</strong> is the graph obtained by taking as its vertices the equivalence classes of lattices commensurable with $L_1 $ and with edges connecting any two lattices separated by a <strong>prime</strong> number hyperdistance. Here&#8217;s part of the 2-picture, that is, only depicting the edges of hyperdistance 2.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/2picture.jpg"><br />
+</center></p>
+<p>The 2-picture is an infinite 3-valent tree as there are precisely 3 classes of lattices at hyperdistance 2 from any lattice $L = \langle v_1,v_2 \rangle $ namely (the equivalence classes of) $\langle \frac{1}{2}v_1,v_2 \rangle~,~\langle v_1, \frac{1}{2} v_2 \rangle $ and $\langle \frac{1}{2}(v_1+v_2),v_2 \rangle $.</p>
+<p>Similarly, for any prime hyperdistance p, the p-picture is an infinite p+1-valent tree and the <strong>big picture</strong> is the product over all these prime trees. That is, two lattices at square-free hyperdistance $N=p_1p_2\ldots p_k $ are two corners of a k-cell in the big picture!<br />
+(Astute readers of this blog (if such people exist&#8230;) may observe that Conway&#8217;s big picture did already appear here prominently, though in disguise. More on this another time).</p>
+<p>The big picture presents a simple way to look at arithmetic groups and makes many facts about them visually immediate. For example, the point-stabilizer subgroup of $L_1 $ clearly is the modular group $PSL_2(\mathbb{Z}) $. The point-stabilizer of any other lattice is a certain conjugate of the modular group inside $PSL_2(\mathbb{R}) $. For example, the stabilizer subgroup of the lattice $L_N = \langle Ne_1,e_2 \rangle $ (at hyperdistance N from $L_1 $) is the subgroup</p>
+<p>$&#123; \begin{bmatrix} a &amp; \frac{b}{N} \\ Nc &amp; d \end{bmatrix}~|~\begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix} \in PSL_2(\mathbb{Z})~&#125; $</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/4ball.jpg" style="float:left;margin-right:10px;" hspace=10 > Now the intersection of these two groups is the modular subgroup $\Gamma_0(N) $ (consisting of those modular group element whose lower left-hand entry is divisible by N). That is, the proper way to look at this arithmetic group is as the joint stabilizer of the two lattices $L_1,L_N $. The picture makes it trivial to compute the index of this subgroup.</p>
+<p>Consider the ball $B(L_1,N) $ with center $L_1 $ and hyper-radius N (on the left, the ball with hyper-radius 4). Then, it is easy to show that the modular group acts transitively on the boundary lattices (including the lattice $L_N $), whence the index $[ \Gamma : \Gamma_0(N)] $ is just the number of these boundary lattices. For N=4 the picture shows that there are exactly 6 of them. In general, it follows from our knowledge of all the p-trees the number of all lattices at hyperdistance N from $L_1 $ is equal to $N \prod_{p | N}(1+ \frac{1}{p}) $, in accordance with the well-known index formula for these modular subgroups!</p>
+<p>But, there are many other applications of the big picture giving a simple interpretation for the <a href="http://en.wikipedia.org/wiki/Hecke_operator">Hecke operators</a>, an elegant proof of the Atkin-Lehner theorem on the normalizer of $\Gamma_0(N) $ (the whimsical source of appearances of the number 24) and of Helling&#8217;s theorem characterizing maximal arithmetical groups inside $PSL_2(\mathbb{C}) $ as conjugates of the normalizers of $\Gamma_0(N) $ for square-free N.<br />
+J.H. Conway&#8217;s paper &#8220;Understanding groups like $\Gamma_0(N) $&#8221; containing all this material is a must-read! Unfortunately, I do not know of an online version.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the monster graph and McKay’s observation</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2009 17:39:47 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1541</guid>
+
+					<description><![CDATA[While the verdict on a neolithic Scottish icosahedron is still open, let us recall Kostant&#8217;s group-theoretic construction of the icosahedron from its rotation-symmetry group $A_5&#8230;]]></description>
+										<content:encoded><![CDATA[<p>While the verdict on a neolithic Scottish icosahedron is <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-scottish-solids-hoax.html">still open</a>, let us <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-buckyball-symmetries.html">recall</a> Kostant&#8217;s group-theoretic construction of the icosahedron from its rotation-symmetry group $A_5 $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/KostantIcosahedronSmall.jpg" style="float:right;margin-left:10px;" hspace=10>The alternating group $A_5 $ has two conjugacy classes of order 5 elements, both consisting of exactly 12 elements. Fix one of these conjugacy classes, say $C $ and construct a graph with vertices the 12 elements of $C $ and an edge between two $u,v \in C $ if and only if the group-product $u.v \in C $ still belongs to the same conjugacy class.</p>
+<p>Observe that this relation is symmetric as from $u.v = w \in C $ it follows that $v.u=u^{-1}.u.v.u = u^{-1}.w.u \in C $. The graph obtained is the icosahedron, depicted on the right with vertices written as words in two adjacent elements u and v from $C $, as indicated.</p>
+<p>Kostant writes : &#8220;Normally it is not a common practice in group theory to consider whether or not the product of two elements in a conjugacy class is again an element in that conjugacy class. However such a consideration here turns out to be quite productive.&#8221;</p>
+<p>Still, similar constructions have been used in other groups as well, in particular in the study of the largest sporadic group, the <a href="http://en.wikipedia.org/wiki/Monster_group">monster group</a> $\mathbb{M} $.</p>
+<p>There is one important catch. Whereas it is quite trivial to multiply two permutations and verify whether the result is among 12 given ones, for most of us mortals it is impossible to do actual calculations in the monster. So, we&#8217;d better have an alternative way to get at the icosahedral graph using only $A_5 $-data that is also available for the monster group, such as its <a href="http://en.wikipedia.org/wiki/Character_table">character table</a>.</p>
+<p>Let $G $ be any finite group and consider three of its conjugacy classes $C(i),C(j) $ and $C(k) $. For any element $w \in C(k) $ we can compute from the character table of $G $ the number of different products $u.v = w $ such that $u \in C(i) $ and $v \in C(j) $. This number is given by the formula</p>
+<p>$\frac{|G|}{|C_G(g_i)||C_G(g_j)|} \sum_{\chi} \frac{\chi(g_i) \chi(g_j) \overline{\chi(g_k)}}{\chi(1)} $</p>
+<p>where the sum is taken over all irreducible characters $\chi $ and where $g_i \in C(i),g_j \in C(j) $ and $g_k \in C(k) $. Note also that $|C_G(g)| $ is the number of $G $-elements commuting with $g $ and that this number is the order of $G $ divided by the number of elements in the conjugacy class of $g $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/chartableA5.jpg" style="float:left;margin-right:10px;" hspace=10>The character table of $A_5 $ is given on the left : the five columns correspond to the different conjugacy classes of elements of order resp. 1,2,3,5 and 5 and the rows are the character functions of the 5 irreducible representations of dimensions 1,3,3,4 and 5.</p>
+<p>Let us fix the 4th conjugacy class, that is 5a, as our class $C $. By the general formula, for a fixed $w \in C $ the number of different products $u.v=w $ with $u,v \in C $ is equal to</p>
+<p>$\frac{60}{25}(\frac{1}{1} + \frac{(\frac{1+\sqrt{5}}{2})^3}{3} + \frac{(\frac{1-\sqrt{5}}{2})^3}{3} &#8211; \frac{1}{4} + \frac{0}{5}) = \frac{60}{25}(1 + \frac{4}{3} &#8211; \frac{1}{4}) = 5 $</p>
+<p>Because for each $x \in C $ also its inverse $x^{-1} \in C $, this can be rephrased by saying that there are exactly 5 different products $w^{-1}.u \in C $, or equivalently, that the valency of every vertex $w^{-1} \in C $ in the graph is exactly 5.</p>
+<p>That is, our graph has 12 vertices, each with exactly 5 neighbors, and with a bit of extra work one can show it to be the icosahedral graph.</p>
+<p>For the monster group, the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M/">Atlas</a> tells us that it has exactly 194 irreducible representations (and hence also 194 conjugacy classes). Of these conjugacy classes, the involutions (that is the elements of order 2) are of particular importance.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/BFischer.jpg" style="float:right;margin-left:10px;" hspace=10>There are exactly 2 conjugacy classes of involutions, usually denoted 2A and 2B. Involutions in class 2A are called &#8220;Fischer-involutions&#8221;, after <a href="http://en.wikipedia.org/wiki/Bernd_Fischer">Bernd Fischer</a>, because their centralizer subgroup is an extension of Fischer&#8217;s <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/B/">baby Monster sporadic group</a>.</p>
+<p>Likewise, involutions in class 2B are usually called &#8220;Conway-involutions&#8221; because their centralizer subgroup is an extension of the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co1/">largest Conway sporadic group</a>.</p>
+<p>Let us define the <strong>monster graph</strong> to be the graph having as its vertices the Fischer-involutions and with an edge between two of them $u,v \in 2A $ if and only if their product $u.v $ is again a Fischer-involution.</p>
+<p>Because the centralizer subgroup is $2.\mathbb{B} $, the number of vertices is equal to $97239461142009186000 = 2^4 * 3^7 * 5^3 * 7^4 * 11 * 13^2 * 29 * 41 * 59 * 71 $.</p>
+<p>From the general result recalled before we have that the valency in all vertices is equal and to determine it we have to use the character table of the monster and the formula. Fortunately <a href="http://www-gap.mcs.st-and.ac.uk/Manuals/doc/htm/ref/chapters.htm">GAP</a> provides the function <a href="http://www-gap.mcs.st-and.ac.uk/Manuals/doc/htm/ref/CHAP069.htm">ClassMultiplicationCoefficient</a> to do this without making errors.</p>
+<p><code><br />
+gap> table:=CharacterTable("M");<br />
+CharacterTable( "M" ) <br />
+gap> ClassMultiplicationCoefficient(table,2,2,2); <br />
+27143910000 <br />
+</code></p>
+<p>Perhaps noticeable is the fact that the prime decomposition of the valency $27143910000 = 2^4 * 3^4 * 5^4 * 23 * 31 * 47 $ is symmetric in the three smallest and three largest prime factors of the baby monster order.</p>
+<p>Robert Griess proved that one can recover the monster group $\mathbb{M} $ from the monster graph as its automorphism group!</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/JohnMcKay.jpg" style="float:left;margin-right:10px;" hspace=10>As in the case of the icosahedral graph, the number of vertices and their common valency does not determine the monster graph uniquely. To gain more insight, we would like to know more about the sizes of minimal circuits in the graph, the number of such minimal circuits going through a fixed vertex, and so on.</p>
+<p>Such an investigation quickly leads to a careful analysis which other elements can be obtained from products $u.v $ of two Fischer involutions $u,v \in 2A $. We are in for a major surprise, first observed by <a href="http://cjournal.concordia.ca/journalarchives/2006-07/apr_19/009196.shtml">John McKay</a>:</p>
+<p>Printing out the number of products of two Fischer-involutions giving an element in the i-th conjugacy class of the monster,<br />
+where i runs over all 194 possible classes, we get the following string of numbers :</p>
+<p><code><br />
+97239461142009186000, 27143910000, 196560, 920808, 0, 3, 1104, 4, 0, 0, 5, 0,<br />
+6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0<br />
+</code></p>
+<p>That is, the elements of only 9 conjugacy classes can be written as products of two Fischer-involutions! These classes are :</p>
+<ul>
+<li>1A = { 1 } written in 97239461142009186000 different ways (after all involutions have order two)  </li>
+<li>2A, each element of which can be written in exactly 27143910000 different ways (the valency)  </li>
+<li>2B, each element of which can be written in exactly 196560 different ways. Observe that this is the kissing number of the <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> leading to a <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/2Co1G1-p196560B0">permutation representation</a> of $2.Co_1 $.  </li>
+<li>3A, each element of which can be written in exactly 920808 ways. Note that this number gives a <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/Mmax3G0-p920808B0">permutation representation</a> of the maximal monster subgroup $3.Fi_{24}&#8217; $.  </li>
+<li>3C, each element of which can be written in exactly 3 ways.  </li>
+<li>4A, each element of which can be written in exactly 1104 ways.  </li>
+<li>4B, each element of which can be written in exactly 4 ways.  </li>
+<li>5A, each element of which can be written in exactly 5 ways.  </li>
+<li>6A, each element of which can be written in exactly 6 ways.  </li>
+</ul>
+<p>Let us forget about the actual numbers for the moment and concentrate on the orders of these 9 conjugacy classes : 1,2,2,3,3,4,4,5,6. These are precisely the components of the fundamental root of the <a href="http://www-math.mit.edu/~lesha/dynkin-diagrams.html">extended Dynkin diagram</a> $\tilde{E_8} $!</p>
+<p>This is the content of <strong>John McKay&#8217;s E(8)-observation</strong> : there should be a precise relation between the nodes of the extended Dynkin diagram and these 9 conjugacy classes in such a way that the order of the class corresponds to the component of the fundamental root. More precisely, one conjectures the following correspondence</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/e8monster.jpg" ><br />
+</center></p>
+<p>This is similar to the classical <a href="http://math.ucr.edu/home/baez/ADE.html">McKay correspondence</a> between finite subgroups of $SU(2) $ and extended Dynkin diagrams (the binary icosahedral group corresponding to extended E(8)). In that correspondence, the nodes of the Dynkin diagram correspond to irreducible representations of the group and the edges are determined by the decompositions of tensor-products with the fundamental 2-dimensional representation.</p>
+<p>Here, however, the nodes have to correspond to conjugacy classes (rather than representations) and we have to look for another procedure to arrive at the required edges! An exciting proposal has been put forward recently by <a href="http://www.math.harvard.edu/~jfd/">John Duncan</a> in his paper <a href="http://arxiv.org/abs/0810.1465">Arithmetic groups and the affine E8 Dynkin diagram</a>.</p>
+<p>It will take us a couple of posts to get there, but for now, let&#8217;s give the gist of it : <a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a> gives a correspondence between conjugacy classes of the monster and certain arithmetic subgroups of $PSL_2(\mathbb{R}) $ commensurable with the modular group $\Gamma = PSL_2(\mathbb{Z}) $. The edges of the extended Dynkin E(8) diagram are then given by the configuration of the arithmetic groups corresponding to the indicated 9 conjugacy classes!  (to be continued&#8230;)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>noncommutative F_un geometry (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 17 Oct 2008 12:14:09 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=459</guid>
+
+					<description><![CDATA[We use Kontsevich's idea of thin varieties to define complexified varieties over F\_un.]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/towards-noncommutative-f_un-geometry.html">Last time</a> we tried to generalize the <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-1.html">Connes-Consani</a> approach to commutative algebraic geometry over the field with one element $\mathbb{F}_1 $ to the noncommutative world by considering covariant functors</p>
+<p>$N~:~\mathbf{groups} \rightarrow \mathbf{sets} $</p>
+<p>which over $\mathbb{C} $ resp. $\mathbb{Z} $ become visible by a complex (resp. integral) algebra having suitable universal properties.</p>
+<p>However, we didn&#8217;t specify what we meant by a complex noncommutative variety (resp. an integral noncommutative scheme). In particular, we claimed that the $\mathbb{F}_1 $-&#8216;points&#8217; associated to the functor</p>
+<p>$D~:~\mathbf{groups} \rightarrow \mathbf{sets} \qquad G \mapsto G_2 \times G_3 $ (here $G_n $ denotes all elements of order $n $ of $G $)</p>
+<p>were precisely the modular dessins d&#8217;enfants of Grothendieck, but didn&#8217;t give details. We&#8217;ll try to do this now.</p>
+<p>For algebras over a field we follow the definition, due to <a href="http://arxiv.org/abs/math/0606241">Kontsevich and Soibelman</a>, of so called &#8220;noncommutative <strong>thin</strong> schemes&#8221;. Actually, the <strong>thinness</strong>-condition is implicit in both Soule&#8217;s-approach as that of Connes and Consani : we do not consider R-points in general, but only those of rings R which are finite and flat over our basering (or field).</p>
+<p>So, what is a <strong>noncommutative thin scheme</strong> anyway? Well, its a covariant functor (commuting with finite projective limits)</p>
+<p>$\mathbb{X}~:~\mathbf{Alg}^{fd}_k \rightarrow \mathbf{sets} $</p>
+<p>from finite-dimensional (possibly noncommutative) $k $-algebras to sets. Now, the usual dual-space operator gives an anti-equivalence of categories</p>
+<p>$\mathbf{Alg}^{fd}_k \leftrightarrow \mathbf{Coalg}^{fd}_k \qquad A=C^* \leftrightarrow C=A^* $</p>
+<p>so a thin scheme can also be viewed as a contra-variant functor (commuting with finite direct limits)</p>
+<p>$\mathbb{X}~:~\mathbf{Coalg}^{fd}_k \rightarrow \mathbf{Sets} $</p>
+<p>In particular, we are interested to associated to any {tex]k $-algebra $A $ its <strong>representation functor</strong> :</p>
+<p>$\mathbf{rep}(A)~:~\mathbf{Coalg}^{fd}_k \rightarrow \mathbf{Sets} \qquad C \mapsto Alg_k(A,C^*) $</p>
+<p>This may look strange at first sight, but $C^* $ is a finite dimensional algebra and any $n $-dimensional representation of $A $ is an algebra map $A \rightarrow M_n(k) $ and we take $C $ to be the dual coalgebra of this image.</p>
+<p>Kontsevich and Soibelman proved that every noncommutative thin scheme $\mathbb{X} $ is representable by a $k $-coalgebra. That is, there exists a unique coalgebra $C_{\mathbb{X}} $ (which they call the coalgebra of &#8216;distributions&#8217; of $\mathbb{X} $) such that for every finite dimensional $k $-algebra $B $ we have</p>
+<p>$\mathbb{X}(B) = Coalg_k(B^*,C_{\mathbb{X}}) $</p>
+<p>In the case of interest to us, that is for the functor $\mathbf{rep}(A) $ the coalgebra of distributions is <strong>Kostant&#8217;s dual coalgebra</strong> $A^o $. This is the not the full linear dual of $A $ but contains only those linear functionals on $A $ which factor through a finite dimensional quotient.</p>
+<p>So? You&#8217;ve exchanged an algebra $A $ for some coalgebra $A^o $, but where&#8217;s the geometry in all this? Well, let&#8217;s look at the commutative case. Suppose $A= \mathbb{C}[X] $ is the coordinate ring of a smooth affine variety $X $, then its dual coalgebra looks like</p>
+<p>$\mathbb{C}[X]^o = \oplus_{x \in X} U(T_x(X)) $</p>
+<p>the direct sum of all universal (co)algebras of tangent spaces at points $x \in X $. But how do we get the variety out of this? Well, any coalgebra has a <strong>coradical</strong> (being the sun of all simple subcoalgebras) and in the case just mentioned we have</p>
+<p>$corad(\mathbb{C}[X]^o) = \oplus_{x \in X} \mathbb{C} e_x $</p>
+<p>so every point corresponds to a unique simple component of the coradical. In the general case, the coradical of the dual coalgebra $A^o $ is the direct sum of all simple finite dimensional representations of $A $. That is, the direct summands of the coalgebra give us a noncommutative variety whose points are the simple representations, and the remainder of the coalgebra of distributions accounts for infinitesimal information on these points (as do the tangent spaces in the commutative case).</p>
+<p>In fact, it was a surprise to me that one can describe the dual coalgebra quite explicitly, and that $A_{\infty} $-structures make their appearance quite naturally. See <a href="http://arxiv.org/abs/0805.2377">this paper</a> if you&#8217;re in for the details on this.</p>
+<p>That settles the problem of what we mean by the noncommutative variety associated to a complex algebra. But what about the integral case? In the above, we used extensively the theory of Kostant-duality which works only for algebras over fields&#8230;</p>
+<p>Well, not quite. In the case of $\mathbb{Z} $ (or more general, of Dedekind domains) one can repeat Kostant&#8217;s proof word for word provided one takes as the definition of the dual $\mathbb{Z} $-coalgebra<br />
+of an algebra (which is $\mathbb{Z} $-torsion free)</p>
+<p>$A^o = &#123; f~:~A \rightarrow \mathbb{Z}~:~A/Ker(f)~\text{is finitely generated and torsion free}~&#125; $</p>
+<p>(over general rings there may be also variants of this duality, as in <a href="http://books.google.com/books?hl=en&amp;id=u0slIpdBjYUC&amp;dq=Joyal+Street+Quantum+groups+current+algebra&amp;printsec=frontcover&amp;source=web&amp;ots=YnWkAV4k9k&amp;sig=p9DpIEr7Ya4ssfjXlWWFDI3GndE&amp;sa=X&amp;oi=book_result&amp;resnum=4&amp;ct=result">Street&#8217;s book an Quantum groups</a>). Probably lots of people have come up with this, but the only explicit reference I have is to the <a href="http://www.math.ua.ac.be/~lebruyn/LeBruyn1981a.pdf">first paper I&#8217;ve ever written</a>. So, also for algebras over $\mathbb{Z} $ we can define a suitable noncommutative integral scheme (the coradical approach accounts only for the maximal ideals rather than all primes, but somehow this is implicit in all approaches as we consider only <strong>thin</strong> schemes).</p>
+<p>Fine! So, we can make sense of the noncommutative geometrical objects corresponding to the group-algebras $\mathbb{C} \Gamma $ and $\mathbb{Z} \Gamma $ where $\Gamma = PSL_2(\mathbb{Z}) $ is the modular group (the algebras corresponding to the $G \mapsto G_2 \times G_3 $-functor). But, what might be the points of the noncommutative scheme corresponding to $\mathbb{F}_1 \Gamma $???</p>
+<p>Well, let&#8217;s continue the path cut out before. &#8220;Points&#8221; should correspond to finite dimensional &#8220;simple representations&#8221;. Hence, what are the finite dimensional simple $\mathbb{F}_1 $-representations of $\Gamma $? (Or, for that matter, of any group $G $)</p>
+<p>Here we come back to <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/f_un-and-group-representations.html">Javier&#8217;s post on this</a> : a finite dimensional $\mathbb{F}_1 $-vectorspace is a finite set. A $\Gamma $-representation on this set (of n-elements) is a group-morphism</p>
+<p>$\Gamma \rightarrow GL_n(\mathbb{F}_1) = S_n $</p>
+<p>hence it gives a permutation representation of $\Gamma $ on this set. But then, if finite dimensional $\mathbb{F}_1 $-representations of $\Gamma $ are the finite permutation representations, then the <strong>simple</strong> ones are the <strong>transitive</strong> permutation representations. That is, the points of the noncommutative scheme corresponding to $\mathbb{F}_1 \Gamma $ are the conjugacy classes of subgroups $H \subset \Gamma $ such that $\Gamma/H $ is finite. But these are exactly the modular dessins d&#8217;enfants introduced by Grothendieck as I explained a while back elsewhere (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/modular-quilts-and-cuboid-tree-diagrams.html">this post</a> and others in the same series).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>noncommutative F_un geometry (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 13 Oct 2008 12:09:36 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=458</guid>
+
+					<description><![CDATA[We propose to extend the Connes-Consani definition to noncommuntative F_un varieties.]]></description>
+										<content:encoded><![CDATA[<p>It is perhaps surprising that Alain Connes and Katia Consani, two icons of noncommutative geometry, restrict themselves to define <strong>commutative</strong> algebraic geometry over $\mathbb{F}_1 $, the field with one element.</p>
+<p>My guess of why they stop there is as good as anyone&#8217;s. Perhaps they felt that there is already enough noncommutativity in Soule&#8217;s gadget-approach (the algebra $\mathcal{A}_X $ as in <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/gadgets-a-la-soule.html">this post</a> may very well be noncommutative). Perhaps they were only interested in the Bost-Connes system which can be entirely encoded in their commutative $\mathbb{F}_1 $-geometry. Perhaps they felt unsure as to what the noncommutative scheme of an affine noncommutative algebra might be. Perhaps &#8230;</p>
+<p>Remains the fact that their approach screams for a noncommutative extension. Their basic object is a covariant functor</p>
+<p>$N~:~\mathbf{abelian} \rightarrow \mathbf{sets} \qquad A \mapsto N(A) $</p>
+<p>from finite abelian groups to sets, together with additional data to the effect that there is a unique minimal integral scheme associated to $N $. In a series of posts on the Connes-Consani paper (starting <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-1.html">here</a>) I took some care of getting rid of all scheme-lingo and rephrasing everything entirely into algebras. But then, this set-up can be extended verbatim to noncommuative $\mathbb{F}_1 $-geometry, which should start from a covariant functor</p>
+<p>$N~:~\mathbf{groups} \rightarrow \mathbf{sets} $</p>
+<p>from all finite groups to sets. Let&#8217;s recall quickly what the additional info should be making this functor a noncommutative (affine) F&#95;un scheme :</p>
+<p>There should be a finitely generated $\mathbb{C} $-algebra $R $ together with a natural transformation (the &#8216;evaluation&#8217;)</p>
+<p>$e~:~N \rightarrow \mathbf{maxi}(R) \qquad N(G) \mapsto Hom_{\mathbb{C}-alg}(R, \mathbb{C} G) $</p>
+<p>(both $R $ and the group-algebra $\mathbb{C} G $ may be noncommutative). The pair $(N, \mathbf{maxi}(R)) $ is then called a gadget and there is an obvious notion of &#8216;morphism&#8217; between gadgets.</p>
+<p>The crucial extra ingredient is an affine $\mathbb{Z} $-algebra (possibly noncommutative) $S $<br />
+such that $N $ is a subfunctor of $\mathbf{mini}(S)~:~G \mapsto Hom_{\mathbb{Z}-alg}(S,\mathbb{Z} G) $ together with the following universal property :</p>
+<p>any affine $\mathbb{Z} $-algebra $T $ having a gadget-morphism $~(N,\mathbf{maxi}(R)) \rightarrow (\mathbf{mini}(T),\mathbf{maxi}(T \otimes_{\mathbb{Z}} \mathbb{C})) $ comes from a $\mathbb{Z} $-algebra morphism $T \rightarrow S $. (If this sounds too cryptic for you, please read the series on C-C mentioned before).</p>
+<p>So, there is no problem in defining noncommutative affine F&#95;un-schemes. However, as with any generalization, this only makes sense provided (a) we get something new and (b) we have interesting examples, not covered by the restricted theory.</p>
+<p>At first sight we do not get something new as in the only example we did in the C-C-series (the forgetful functor) it is easy to prove (using the same proof as given in <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-3.html">this post</a>) that the forgetful-functor $\mathbf{groups} \rightarrow \mathbf{sets} $ still has as its integral form the integral torus $\mathbb{Z}[x,x^{-1}] $. However, both theories quickly diverge beyond this example.</p>
+<p>For example, consider the functor</p>
+<p>$\mathbf{groups} \rightarrow \mathbf{sets} \qquad G \mapsto G \times G $</p>
+<p>Then, if we restrict to abelian finite groups $\mathbf{abelian} $ it is easy to see (again by a similar argument) that the two-dimensional integer torus $\mathbb{Z}[x,y,x^{-1},y^{-1}] $ is the correct integral form. However, this algebra cannot be the correct form for the functor on the category of all finite groups as any $\mathbb{Z} $-algebra map $\phi~:~\mathbb{Z}[x,y,x^{-1},y^{-1}] \rightarrow \mathbb{Z} G $ determines (and is determined by) a pair of <strong>commuting</strong> units in $\mathbb{Z} G $, so the above functor can not be a subfunctor if we allow non-Abelian groups.</p>
+<p>But then, perhaps there isn&#8217;t a minimal integral $\mathbb{Z} $-form for this functor? Well, yes there is. Take the <strong>free group</strong> in two letters (that is, all words in noncommuting $x,y,x^{-1} $ and $y^{-1} $ satisfying only the trivial cancellation laws between a letter and its inverse), then the corresponding integral group-algebra $\mathbb{Z} \mathcal{F}_2 $ does the trick.</p>
+<p>Again, the proof-strategy is the same. Given a gadget-morphism we have an algebra map $f~:~T \mapsto \mathbb{C} \mathcal{F}_2 $ and we have to show, using the universal property that the image of $T $ is contained in the integral group-algebra $\mathbb{Z} \mathcal{F}_2 $. Take a generator<br />
+$z $ of $T $ then the degree of the image $f(z) $ is bounded say by $d $ and we can always find a subgroup $H \subset \mathcal{F}_2 $ such that $\mathcal{F}_2/H $ is a fnite group and the quotient map $\mathbb{C} \mathcal{F}_2 \rightarrow \mathbb{C} \mathcal{F}_2/H $ is injective on the subspace spanned by all words of degree strictly less than $d+1 $. Then, the usual diagram-chase finishes the proof.</p>
+<p>What makes this work is that the free group $\mathcal{F}_2 $ has &#8216;enough&#8217; subgroups of finite index, a property it shares with many interesting discrete groups. Whence the blurb-message :</p>
+<p><strong>if the integers $\mathbb{Z} $ see a discrete group $\Gamma $, then the field $\mathbb{F}_1 $ sees its profinite completion $\hat{\Gamma} = \underset{\leftarrow}{lim}~\Gamma/ H $</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/fun/DATA/grothendieckserre.jpg" style="float:left;margin-right:10px;" > So, yes, we get something new by extending the Connes-Consani approach to the noncommutative world, but do we have interesting examples? As &#8220;interesting&#8221; is a subjective qualification, we&#8217;d better invoke the authority-argument.</p>
+<p><a href="http://en.wikipedia.org/wiki/Alexander_Grothendieck">Alexander Grothendieck</a> (sitting on the right, manifestly <strong>not</strong> disputing a vacant chair with Jean-Pierre Serre, drinking on the left (a marvelous picture taken by F. Hirzebruch in 1958)) was pushing the idea that profinite completions of arithmetical groups were useful in the study of the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q}) $, via his theory of <a href="http://en.wikipedia.org/wiki/Dessin_d'enfant">dessins d&#8217;enfants</a> (children;s drawings).</p>
+<p>In a previous life, I&#8217;ve written a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-best-rejected-proposal-ever.html">series of posts</a> on dessins d&#8217;enfants, so I&#8217;ll restrict here to the basics. A smooth projective $\overline{\mathbb{Q}} $-curve $X $ has a Belyi-map $X \rightarrow \mathbb{P}^1_{\overline{\mathbb{Q}}} $ ramified only in three points $&#123; 0,1,\infty &#125; $. The &#8220;drawing&#8221; corresponding to $X $ is a bipartite graph, drawn on the Riemann surface $X_{\mathbb{C}} $ obtained by lifting the unit interval $[0,1] $ to $X $. As the absolute Galois group acts on all such curves (and hence on their corresponding drawings), the action of it on these dessins d&#8217;enfants may give us a way into the multiple mysteries of the absolute Galois group.</p>
+<p>In his <a href="http://www.math.jussieu.fr/~leila/grothendieckcircle/EsquisseFr.pdf">&#8220;Esquisse d&#8217;un programme&#8221;</a> (<a href="http://www.math.jussieu.fr/~leila/grothendieckcircle/EsquisseEng.pdf">Sketch of a program</a> if you prefer to read it in English) he writes :</p>
+<p>&#8220;C&#8217;est ainsi que mon attention s&#8217;est portée vers ce que j&#8217;ai appelé depuis la <strong>&#8220;géométrie algêbrique anabélienne&#8221;</strong>, dont le point de départ est justement une étude (pour le moment limitée à la caractéristique zéro) de l&#8217;action de groupe de Galois &#8220;absolus&#8221; (notamment les groupes $Gal(\overline{K}/K) $, ou $K $ est une extension de type fini du corps premier) sur des groupes fondamentaux géométriques (profinis) de variétés algébriques (définies sur $K $), et plus particulièrement (rompant avec une tradition bien enracinée) des groupes fondamentaux qui sont trés éloignés des groupes abéliens (et que pour cette raison je nomme &#8220;anabéliens&#8221;). Parmi ces groupes, et trés proche du groupe $\hat{\pi}_{0,3} $, il y a le compactifié profini du groupe modulaire $SL_2(\mathbb{Z}) $, dont le quotient par le centre $\pm 1 $ contient le précédent comme sous-groupe de congruence mod 2, et peut s&#8217;interpréter d&#8217;ailleurs comme groupe &#8220;cartographique&#8221; orienté, savoir celui qui classifie les cartes orientées triangulées (i.e. celles dont les faces des triangles ou des monogones).&#8221;</p>
+<p>and a bit further, he writes :</p>
+<p>&#8220;L&#8217;élément de structure de $SL_2(\mathbb{Z}) $ qui me fascine avant tout, est bien sur l&#8217;action extérieure du groupe de Galois $Gal(\overline{\mathbb{Q}}/\mathbb{Q}) $ sur le compactifié profini. Par le théorème de Bielyi, prenant les compactifiés profinis de sous-groupes d&#8217;indice fini de $SL_2(\mathbb{Z}) $, et l&#8217;action extérieure induite (quitte à passer également à un sous-groupe overt de $Gal(\overline{\mathbb{Q}},\mathbb{Q}) $),  on trouve essentiellement les groupes fondamentaux de toutes les courbes algébriques définis sur des corps de nombres $K $, et l&#8217;action extérieure de $Gal(\overline{K}/K) $ dessus.&#8221;</p>
+<p>So, is there a noncommutative affine variety over $\mathbb{F}_1 $ of which the unique minimal integral model is the integral group algebra of the modular group $\mathbb{Z} \Gamma $ (with $\Gamma = PSL_2(\mathbb{Z}) $? Yes, here it is</p>
+<p>$N_{\Gamma}~:~\mathbf{groups} \rightarrow \mathbf{sets} \qquad G \mapsto G_2 \times G_3 $</p>
+<p>where $G_n $ is the set of all elements of order $n $ in $G $. The reason behind this is that the modular group is the free group product $C_2 \ast C_3 $.</p>
+<p>Fine, you may say, but all this is just algebra. Where is the noncommutative complex variety or the noncommutative integral scheme in all this? Well, we can introduce them too but as this post is already 1300 words long, I&#8217;ll better leave this for <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/noncommutative-f_un-geometry-2.html">another time</a>. In case you cannot stop thinking about it, here&#8217;s the short answer.</p>
+<p>The complex noncommutative variety has as its &#8216;points&#8217; all finite dimensional simple complex representations of the modular group, and the &#8216;points&#8217; of the noncommutative $\mathbb{F}_1 $-scheme are exactly the (modular) dessins d&#8217;enfants&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>what does the monster see?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-does-the-monster-see/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-does-the-monster-see/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 16 Jul 2008 18:12:41 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=440</guid>
+
+					<description><![CDATA[The Monster is the largest of the 26 sporadic simple groups and has order 808 017 424 794 512 875 886 459 904 961 710&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="http://en.wikipedia.org/wiki/Monster_group">Monster</a> is the largest of the 26 sporadic simple groups and has order</p>
+<p>808 017 424 794 512 875 886 459 904 961 710 757 005 754 368 000 000 000</p>
+<p>= 2^46 3^20 5^9 7^6 11^2 13^3 17 19 23 29 31 41 47 59 71.</p>
+<p>It is not so much the size of its order that makes it hard to do actual calculations in the monster, but rather the dimensions of its smallest non-trivial irreducible representations (196 883 for the smallest, 21 296 876 for the next one, and so on).</p>
+<p>In characteristic two there is an irreducible representation of one dimension less (196 882) which appears to be of great use to obtain information. For example, Robert Wilson used it to prove that <a href="http://web.mat.bham.ac.uk/R.A.Wilson/pubs/MHurwitz.ps">The Monster is a Hurwitz group</a>. This means that the Monster is generated by two elements g and h satisfying the relations</p>
+<p>$g^2 = h^3 = (gh)^7 = 1 $</p>
+<p>Geometrically, this implies that the Monster is the automorphism group of a Riemann surface of genus g satisfying the Hurwitz bound 84(g-1)=#Monster. That is,</p>
+<p>g=9619255057077534236743570297163223297687552000000001=42151199 * 293998543 * 776222682603828537142813968452830193</p>
+<p>Or, in analogy with the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-buckyball-curve.html">Klein quartic</a> which can be constructed from 24 heptagons in the tiling of the hyperbolic plane, there is a finite region of the hyperbolic plane, tiled with heptagons, from which we can construct this monster curve by gluing the boundary is a specific way so that we get a Riemann surface with exactly 9619255057077534236743570297163223297687552000000001 holes. This finite part of the hyperbolic tiling (consisting of #Monster/7 heptagons) we&#8217;ll call the <strong>empire of the monster</strong> and we&#8217;d love to describe it in more detail.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/whatdoesmonstersee.jpg"><br />
+</center></p>
+<p>Look at the half-edges of all the heptagons in the empire (the picture above learns that every edge in cut in two by a blue geodesic). They are exactly #Monster such half-edges and they form a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-best-rejected-proposal-ever.html">dessin d&#8217;enfant</a> for the monster-curve.</p>
+<p>If we label these half-edges by the elements of the Monster, then multiplication by g in the monster interchanges the two half-edges making up a heptagonal edge in the empire and multiplication by h in the monster takes a half-edge to the one encountered first by going counter-clockwise in the vertex of the heptagonal tiling. Because g and h generated the Monster, the dessin of the empire is just a concrete realization of the monster.</p>
+<p>Because g is of order two and h is of order three, the two permutations they determine on the dessin, gives a group epimorphism $C_2 \ast C_3 = PSL_2(\mathbb{Z}) \rightarrow \mathbb{M} $ from the <a href="http://en.wikipedia.org/wiki/Modular_group">modular group</a> $PSL_2(\mathbb{Z}) $ onto the Monster-group.</p>
+<p>In noncommutative geometry, the group-algebra of the modular group $\mathbb{C} PSL_2 $ can be interpreted as the coordinate ring of a noncommutative manifold (because it is formally smooth in the sense of <a href="http://arxiv.org/abs/math/9812158">Kontsevich-Rosenberg</a> or Cuntz-Quillen) and the group-algebra of the Monster $\mathbb{C} \mathbb{M} $ itself corresponds in this picture to a finite collection of &#8216;points&#8217; on the manifold. Using this geometric viewpoint we can now ask the question  <strong>What does the Monster see of the modular group?</strong></p>
+<p>To make sense of this question, let us first consider the commutative equivalent : what does a point P see of a commutative variety X?</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/neighborhoods.jpg" ><br />
+</center></p>
+<p>Evaluation of polynomial functions in P gives us an algebra epimorphism $\mathbb{C}[X] \rightarrow \mathbb{C} $ from the coordinate ring of the variety $\mathbb{C}[X] $ onto $\mathbb{C} $ and the kernel of this map is the maximal ideal $\mathfrak{m}_P $ of<br />
+ $\mathbb{C}[X] $ consisting of all functions vanishing in P.</p>
+<p>Equivalently, we can view the point $P= \mathbf{spec}~\mathbb{C}[X]/\mathfrak{m}_P $ as the scheme corresponding to the quotient $\mathbb{C}[X]/\mathfrak{m}_P $. Call this the 0-th formal neighborhood of the point P.</p>
+<p>This sounds pretty useless, but let us now consider higher-order formal neighborhoods. Call the affine scheme $\mathbf{spec}~\mathbb{C}[X]/\mathfrak{m}_P^{n+1} $ the n-th forml neighborhood of P, then the first neighborhood, that is with coordinate ring $\mathbb{C}[X]/\mathfrak{m}_P^2 $ gives us tangent-information. Alternatively, it gives the best linear approximation of functions near P.<br />
+The second neighborhood $\mathbb{C}[X]/\mathfrak{m}_P^3 $ gives us the best quadratic approximation of function near P, etc. etc.</p>
+<p>These successive quotients by powers of the maximal ideal $\mathfrak{m}_P $ form a system of algebra epimorphisms</p>
+<p>$\ldots \frac{\mathbb{C}[X]}{\mathfrak{m}_P^{n+1}} \rightarrow \frac{\mathbb{C}[X]}{\mathfrak{m}_P^{n}} \rightarrow \ldots \ldots \rightarrow \frac{\mathbb{C}[X]}{\mathfrak{m}_P^{2}} \rightarrow \frac{\mathbb{C}[X]}{\mathfrak{m}_P} = \mathbb{C} $</p>
+<p>and its inverse limit $\underset{\leftarrow}{lim}~\frac{\mathbb{C}[X]}{\mathfrak{m}_P^{n}} = \hat{\mathcal{O}}_{X,P} $ is the completion of the local ring in P and contains all the infinitesimal information (to any order) of the variety X in a neighborhood of P. That is, this completion $\hat{\mathcal{O}}_{X,P} $ contains <strong>all information that P can see of the variety X</strong>.</p>
+<p>In case P is a smooth point of X, then X is a manifold in a neighborhood of P and then this completion<br />
+$\hat{\mathcal{O}}_{X,P} $ is isomorphic to the algebra of formal power series $\mathbb{C}[[ x_1,x_2,\ldots,x_d ]] $ where the $x_i $ form a local system of coordinates for the manifold X near P.</p>
+<p>Right, after this lengthy recollection, back to our question <strong>what does the monster see of the modular group?</strong> Well, we have an algebra epimorphism</p>
+<p>$\pi~:~\mathbb{C} PSL_2(\mathbb{Z}) \rightarrow \mathbb{C} \mathbb{M} $</p>
+<p>and in analogy with the commutative case, all information the Monster can gain from the modular group is contained in the $\mathfrak{m} $-adic completion</p>
+<p>$\widehat{\mathbb{C} PSL_2(\mathbb{Z})}_{\mathfrak{m}} = \underset{\leftarrow}{lim}~\frac{\mathbb{C} PSL_2(\mathbb{Z})}{\mathfrak{m}^n} $</p>
+<p>where $\mathfrak{m} $ is the kernel of the epimorphism $\pi $ sending the two free generators of the modular group $PSL_2(\mathbb{Z}) = C_2 \ast C_3 $ to the permutations g and h determined by the dessin of the pentagonal tiling of the Monster&#8217;s empire.</p>
+<p>As it is a hopeless task to determine the Monster-empire explicitly, it seems even more hopeless to determine the kernel $\mathfrak{m} $ let alone the completed algebra&#8230; But, (surprise) we can compute $\widehat{\mathbb{C} PSL_2(\mathbb{Z})}_{\mathfrak{m}} $ as explicitly as in the commutative case we have $\hat{\mathcal{O}}_{X,P} \simeq \mathbb{C}[[ x_1,x_2,\ldots,x_d ]] $ for a point P on a manifold X.</p>
+<p>Here the details : the quotient $\mathfrak{m}/\mathfrak{m}^2 $ has a natural structure of $\mathbb{C} \mathbb{M} $-bimodule. The group-algebra of the monster is a semi-simple algebra, that is, a direct sum of full matrix-algebras of sizes corresponding to the dimensions of the irreducible monster-representations. That is,</p>
+<p>$\mathbb{C} \mathbb{M} \simeq \mathbb{C} \oplus M_{196883}(\mathbb{C}) \oplus M_{21296876}(\mathbb{C}) \oplus \ldots \ldots \oplus M_{258823477531055064045234375}(\mathbb{C}) $</p>
+<p>with exactly 194 components (the number of irreducible Monster-representations). For any $\mathbb{C} \mathbb{M} $-bimodule $M $ one can form the tensor-algebra</p>
+<p>$T_{\mathbb{C} \mathbb{M}}(M) = \mathbb{C} \mathbb{M} \oplus M \oplus (M \otimes_{\mathbb{C} \mathbb{M}} M) \oplus (M \otimes_{\mathbb{C} \mathbb{M}} M \otimes_{\mathbb{C} \mathbb{M}} M) \oplus \ldots \ldots $</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cuntz.jpg"><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/Quillen.jpg"><br />
+</center></p>
+<p>and applying the formal neighborhood theorem for formally smooth algebras (such as $\mathbb{C} PSL_2(\mathbb{Z}) $) due to <a href="http://wwwmath.uni-muenster.de/u/cuntz/cuntz.html">Joachim Cuntz</a> (left) and <a href="http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Quillen.html">Daniel Quillen</a> (right) we have an isomorphism of algebras</p>
+<p>$\widehat{\mathbb{C} PSL_2(\mathbb{Z})}_{\mathfrak{m}} \simeq \widehat{T_{\mathbb{C} \mathbb{M}}(\mathfrak{m}/\mathfrak{m}^2)} $</p>
+<p>where the right-hand side is the completion of the tensor-algebra (at the unique graded maximal ideal) of the $\mathbb{C} \mathbb{M} $-bimodule $\mathfrak{m}/\mathfrak{m}^2 $, so we&#8217;d better describe this bimodule explicitly.</p>
+<p>Okay, so what&#8217;s a bimodule over a semisimple algebra of the form $S=M_{n_1}(\mathbb{C}) \oplus \ldots \oplus M_{n_k}(\mathbb{C}) $? Well,  a <strong>simple</strong> S-bimodule must be either (1) a factor $M_{n_i}(\mathbb{C}) $ with all other factors acting trivially or (2) the full space of rectangular matrices $M_{n_i \times n_j}(\mathbb{C}) $ with the factor $M_{n_i}(\mathbb{C}) $ acting on the left, $M_{n_j}(\mathbb{C}) $ acting on the right and all other factors acting trivially.</p>
+<p>That is, any S-bimodule can be represented by a quiver (that is a directed graph) on k vertices (the number of matrix components) with a loop in vertex i corresponding to each simple factor of type (1) and a directed arrow from i to j corresponding to every simple factor of type (2).</p>
+<p>That is, for the Monster, the bimodule $\mathfrak{m}/\mathfrak{m}^2 $ is represented by a quiver on 194 vertices and now we only have to determine how many loops and arrows there are at or between vertices.</p>
+<p>Using Morita equivalences and standard representation theory of quivers it isn&#8217;t exactly rocket science to determine that the number of arrows between the vertices corresponding to the irreducible Monster-representations $S_i $ and $S_j $ is equal to</p>
+<p>$dim_{\mathbb{C}}~Ext^1_{\mathbb{C} PSL_2(\mathbb{Z})}(S_i,S_j)-\delta_{ij} $</p>
+<p>Now, I&#8217;ve been wasting a lot of time already here explaining what representations of the modular group have to do with quivers (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/why-nag-2.html">here</a> or some other posts in the same series) and for quiver-representations we all know how to compute Ext-dimensions in terms of the Euler-form applied to the dimension vectors.</p>
+<p>Right, so for every Monster-irreducible $S_i $ we have to determine the corresponding dimension-vector $~(a_1,a_2;b_1,b_2,b_3) $ for the quiver</p>
+<p>$\xymatrix{ &amp; &amp; &amp; &amp;<br />
+\vtx{b_1} \\ \vtx{a_1} \ar[rrrru]^(.3){B_{11}} \ar[rrrrd]^(.3){B_{21}}<br />
+\ar[rrrrddd]_(.2){B_{31}} &amp; &amp; &amp; &amp; \\ &amp; &amp; &amp; &amp; \vtx{b_2} \\ \vtx{a_2}<br />
+\ar[rrrruuu]_(.7){B_{12}} \ar[rrrru]_(.7){B_{22}}<br />
+\ar[rrrrd]_(.7){B_{23}} &amp; &amp; &amp; &amp; \\ &amp; &amp; &amp; &amp; \vtx{b_3}} $</p>
+<p>Now the dimensions $a_i $ are the dimensions of the +/-1 eigenspaces for the order 2 element g in the representation and the $b_i $ are the dimensions of the eigenspaces for the order 3 element h. So, we have to determine to which conjugacy classes g and h belong, and from Wilson&#8217;s paper mentioned above these are classes 2B and 3B in standard <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M/">Atlas notation</a>.</p>
+<p>So, for each of the 194 irreducible Monster-representations we look up the character values at 2B and 3B (see below for the first batch of those) and these together with the dimensions determine the dimension vector $~(a_1,a_2;b_1,b_2,b_3) $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/seemonsterchars.jpg"></p>
+<p>For example take the 196883-dimensional irreducible. Its 2B-character is 275 and the 3B-character is 53. So we are looking for a dimension vector such that $a_1+a_2=196883, a_1-275=a_2 $ and $b_1+b_2+b_3=196883, b_1-53=b_2=b_3 $ giving us for that representation the dimension vector of the quiver above $~(98579,98304,65663,65610,65610) $.</p>
+<p>Okay, so for each of the 194 irreducibles $S_i $ we have determined a dimension vector $~(a_1(i),a_2(i);b_1(i),b_2(i),b_3(i)) $, then standard quiver-representation theory asserts that the number of loops in the vertex corresponding to $S_i $ is equal to</p>
+<p>$dim(S_i)^2 + 1 &#8211; a_1(i)^2-a_2(i)^2-b_1(i)^2-b_2(i)^2-b_3(i)^2 $</p>
+<p>and that the number of arrows from vertex $S_i $ to vertex $S_j $ is equal to</p>
+<p>$dim(S_i)dim(S_j) &#8211; a_1(i)a_1(j)-a_2(i)a_2(j)-b_1(i)b_1(j)-b_2(i)b_2(j)-b_3(i)b_3(j) $</p>
+<p>This data then determines completely the $\mathbb{C} \mathbb{M} $-bimodule $\mathfrak{m}/\mathfrak{m}^2 $ and hence the structure of the completion $\widehat{\mathbb{C} PSL_2}_{\mathfrak{m}} $ containing all information the Monster can gain from the modular group.</p>
+<p>But then, one doesn&#8217;t have to go for the full regular representation of the Monster. Any faithful permutation representation will do, so we might as well go for the one of minimal dimension.</p>
+<p>That one is known to correspond to the largest maximal subgroup of the Monster which is known to be a two-fold extension $2.\mathbb{B} $ of the <a href="http://en.wikipedia.org/wiki/Baby_Monster_group">Baby-Monster</a>. The corresponding permutation representation is of dimension 97239461142009186000 and decomposes into Monster-irreducibles</p>
+<p>$S_1 \oplus S_2 \oplus S_4 \oplus S_5 \oplus S_9 \oplus S_{14} \oplus S_{21} \oplus S_{34} \oplus S_{35} $</p>
+<p>(in standard Atlas-ordering) and hence repeating the arguments above we get a quiver on just 9 vertices! The actual numbers of loops and arrows (I forgot to mention this, but the quivers obtained are actually symmetric) obtained were found after laborious computations mentioned in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monstrous-frustrations.html">this post</a> and the details I&#8217;ll make avalable <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/monsterquiver2.html">here</a>.</p>
+<p>Anyone who can spot a relation between the numbers obtained and any other part of mathematics will obtain quantities of genuine (ie. non-Inbev) Belgian beer&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-does-the-monster-see/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Klein’s dessins d’enfant and the buckyball</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/kleins-dessins-denfant-and-the-buckyball/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/kleins-dessins-denfant-and-the-buckyball/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 30 Jun 2008 06:37:20 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=434</guid>
+
+					<description><![CDATA[We saw that the icosahedron can be constructed from the alternating group $A_5 $ by considering the elements of a conjugacy class of order 5&#8230;]]></description>
+										<content:encoded><![CDATA[<p>We saw that the icosahedron can be <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-buckyball-symmetries.html">constructed</a> from the alternating group $A_5 $ by considering the elements of a conjugacy class of order 5 elements as the vertices and edges between two vertices if their product is still in the conjugacy class.</p>
+<p>This description is so nice that one would like to have a similar construction for the <a href="http://en.wikipedia.org/wiki/Fullerene">buckyball</a>. But, the buckyball has 60 vertices, so they surely cannot correspond to the elements of a conjugacy class of $A_5 $. But, perhaps there is a larger group, somewhat naturally containing $A_5 $, having a conjugacy class of 60 elements?</p>
+<p>This is precisely the statement contained in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">Galois&#8217; last letter</a>. He showed that 11 is the largest prime p such that the group $L_2(p)=PSL_2(\mathbb{F}_p) $ has a (transitive) permutation presentation on p elements. For, p=11 the group $L_2(11) $ is of order 660, so it permuting 11 elements means that this set must be of the form $X=L_2(11)/A $ with $A \subset L_2(11) $ a subgroup of 60 elements&#8230; and it turns out that $A \simeq A_5 $&#8230;</p>
+<p>Actually there are TWO conjugacy classes of subgroups isomorphic to $A_5 $ in $L_2(11) $ and we have already <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">seen</a> one description of these using the <strong>biplane geometry</strong> (one class is the stabilizer subgroup of a &#8216;line&#8217;, the other the stabilizer subgroup of a point).</p>
+<p>Here, we will give yet another description of these two classes of $A_5 $ in $L_2(11) $, showing among other things that the theory of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/recycled-dessins.html">dessins d&#8217;enfant</a> predates <a href="http://en.wikipedia.org/wiki/Alexander_Grothendieck">Grothendieck</a> by 100 years.</p>
+<p>In the very same paper containing the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/dedekind-or-klein.html">first depiction</a> of the Dedekind tessellation, Klein found that there should be a degree 11 cover $\mathbb{P}^1_{\mathbb{C}} \rightarrow \mathbb{P}^1_{\mathbb{C}} $ with monodromy group $L_2(11) $, ramified only in the three points $&#123; 0,1,\infty &#125; $ such that there is just one point lying over $\infty $, seven over 1 of which four points where two sheets come together and finally 5 points lying over 0 of which three where three sheets come together. In 1879 he wanted to determine this cover explicitly in the paper &#8220;Ueber die Transformationen elfter Ordnung der elliptischen Funktionen&#8221; (Math. Annalen) by describing all Riemann surfaces with this ramification data and pick out those with the correct monodromy group.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleindessins2.jpg"><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleindessins3.jpg"><br />
+</center></p>
+<p>He manages to do so by associating to all these covers their &#8216;dessins d&#8217;enfants&#8217; (which he calls <strong>Linienzuges</strong>), that is the pre-image of the interval [0,1] in which he marks the preimages of 0 by a bullet and those of 1 by a +, such as in the innermost darker graph on the right above. He even has these two wonderful pictures explaining how the dessin determines how the 11 sheets fit together. (More examples of dessins and the correspondences of sheets were drawn in the 1878 paper.)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleindessins.jpg" style="float:left;margin-right:10px;" > The ramification data translates to the following statements about the Linienzuge : (a) it must be a tree ($\infty $ has one preimage), (b) there are exactly 11 (half)edges (the degree of the cover),<br />
+(c) there are 7 +-vertices and 5 o-vertices (preimages of 0 and 1) and (d) there are 3 trivalent o-vertices and 4 bivalent +-vertices (the sheet-information).</p>
+<p>Klein finds that there are exactly 10 such dessins and lists them in his Fig. 2 (left). Then, he claims that one the two dessins of type I give the correct monodromy group. Recall that the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/permutation-representations-of-monodromy-groups.html">monodromy group</a> is found by giving each of the half-edges a number from 1 to 11 and looking at the permutation $\tau $ of order two pairing the half-edges adjacent to a +-vertex and the order three permutation $\sigma $ listing the half-edges by cycling counter-clockwise around a o-vertex. The monodromy group is the group generated by these two elements.</p>
+<p>Fpr example, if we label the type V-dessin by the numbers of the white regions bordering the half-edges (as in the picture Fig. 3 on the right above) we get<br />
+$\sigma = (7,10,9)(5,11,6)(1,4,2) $ and $\tau=(8,9)(7,11)(1,5)(3,4) $.</p>
+<p>Nowadays, it is a matter of a few seconds to determine the monodromy group using <a href="http://www-gap.mcs.st-and.ac.uk/">GAP</a> and we verify that this group is $A_{11} $.</p>
+<p>Of course, Klein didn&#8217;t have GAP at his disposal, so he had to rule out all these cases by hand.</p>
+<blockquote><p>gap> g:=Group((7,10,9)(5,11,6)(1,4,2),(8,9)(7,11)(1,5)(3,4));<br />
+Group([ (1,4,2)(5,11,6)(7,10,9), (1,5)(3,4)(7,11)(8,9) ])<br />
+gap> Size(g);<br />
+19958400<br />
+gap> IsSimpleGroup(g);<br />
+true</p></blockquote>
+<p>Klein used the fact that $L_2(11) $ only has elements of orders 1,2,3,5,6 and 11. So, in each of the remaining cases he had to find an element of a different order. For example, in type V he verified that the element $\tau.(\sigma.\tau)^3 $ is equal to the permutation (1,8)(2,10,11,9,6,4,5)(3,7) and consequently is of order 14.</p>
+<p>Perhaps Klein knew this but GAP tells us that the monodromy group of all the remaining 8 cases is isomorphic to the alternating group $A_{11} $ and in the two type I cases is indeed $L_2(11) $. Anyway, the two dessins of type I correspond to the two conjugacy classes of subgroups $A_5 $ in the group $L_2(11) $.</p>
+<p>But, back to the buckyball! The upshot of all this is that we have the group $L_2(11) $ containing two classes of subgroups isomorphic to $A_5 $ and the larger group $L_2(11) $ does indeed have two conjugacy classes of order 11 elements containing exactly 60 elements (compare this to the two conjugacy classes of order 5 elements in $A_5 $ in the icosahedral construction). Can we construct the buckyball out of such a conjugacy class?</p>
+<p>To start, we can identify the 12 pentagons of the buckyball from a conjugacy class C of order 11 elements. If $x \in C $, then so do $x^3,x^4,x^5 $ and $x^9 $, whereas the powers $&#123; x^2,x^6,x^7,x^8,x^{10} &#125; $ belong to the other conjugacy class. Hence, we can divide our 60 elements in 12 subsets of 5 elements and taking an element x in each of these, the vertices of a pentagon correspond (in order) to $~(x,x^3,x^9,x^5,x^4) $.</p>
+<p>Group-theoretically this follows from the fact that the factorgroup of the normalizer of x modulo the centralizer of x is cyclic of order 5 and this group acts naturally on the conjugacy class of x with orbits of size 5.</p>
+<p>Finding out how these pentagons fit together using hexagons is a lot subtler&#8230; and in <a href="http://www.ams.org/notices/199509/kostant.pdf">The graph of the truncated icosahedron and the last letter of Galois</a> Bertram Kostant shows how to do this.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/buckyconstruction.jpg" ><br />
+</center></p>
+<p>Fix a subgroup isomorphic to $A_5 $ and let D be the set of all its order 2 elements (recall that they form a full conjugacy class in this $A_5 $ and that there are precisely 15 of them). Now, the startling observation made by Kostant is that for our order 11 element $x $ in C there is a <strong>unique</strong> element $a \in D $ such that the commutator$~b=[x,a]=x^{-1}a^{-1}xa $ belongs again to D. The unique hexagonal side having vertex x connects it to the element $b.x $which belongs again to C as $b.x=(ax)^{-1}.x.(ax) $.</p>
+<p>Concluding, if C is a conjugacy class of order 11 elements in $L_2(11) $, then its 60 elements can be viewed as corresponding to the vertices of the buckyball. Any element $x \in C $ is connected by two pentagonal sides to the elements $x^{3} $ and $x^4 $ and one hexagonal side connecting it to $\tau x = b.x $.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/kleins-dessins-denfant-and-the-buckyball/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

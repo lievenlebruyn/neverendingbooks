@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>games &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/category/games/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 29 Sep 2023 09:51:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>A question of loyalty</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 29 Sep 2023 09:51:24 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[epistemic]]></category>
+		<category><![CDATA[loyalty]]></category>
+		<category><![CDATA[modal]]></category>
+		<category><![CDATA[question]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11739</guid>
+
+					<description><![CDATA[On the island of two truths, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$). The King and Queen of the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>On the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths">island of two truths</a>, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$).</p>
+<p>The King and Queen of the island have an opinion on all statements which may differ from their actual truth-value. We say that the Queen <em>believes</em> a statement $p$ is she assigns value $Q$ to it, and that she <em>knows</em> $p$ is she believes $p$ and the actual truth-value of $p$ is indeed $Q$. Similarly for the King, replacing $Q$&#8217;s by $K$&#8217;s.</p>
+<p>All other inhabitants of the island are <em>loyal</em> to the Queen, or to the King, or to both. This means that they <em>agree</em> with the Queen (or King, or both) on all statements they have an opinion on. Two inhabitants are said to be <em>loyal</em> to each other if they agree on all statements they both have an opinion of.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths">Last time</a> we saw that Queen and King agree on all statements one of them believes to be false, as well as the negation of such statements. This raised the question:</p>
+<p><em>Are the King and Queen loyal to each other? That is, do Queen and King agree on all statements?</em></p>
+<p>We cannot resolve this issue without the information Oscar was able to extract from Pointex in <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a>&#8216;s post <a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a>:</p>
+<p>&#8220;Oscar was determined to get some more information. &#8220;Could you at least tell me whether the queen and the king know that they&#8217;re loyal to themselves?&#8221; he asked.<br />
+&#8220;Well, of course they know that!&#8221; replied Pointex.<br />
+&#8220;You said that a proposition can be Q-TRUE, K-TRUE or FALSE,&#8221; Oscar said.<br />
+&#8220;Yes, of course. What else!&#8221; replied Pointex as he threw the cap high up.<br />
+&#8220;Well, you also said that each native was loyal either to the queen or to the king. I was just wondering &#8230; Assume that A is loyal to the queen. Then what is the truth value of the statement: A is loyal to the queen?&#8221;<br />
+&#8220;Q, of course,&#8221; answered Pointex as he threw the cap up again.<br />
+&#8220;And what if A is not loyal to the queen? What is then the truth value of the statement: A is loyal to the queen?&#8221;<br />
+He barely finished his question as something fell over his face and covered his eyes. It was the funny cap.<br />
+&#8220;Thanx,&#8221; said Pointex as Oscar handed him the cap. &#8220;The value is 0, of course.&#8221;<br />
+&#8220;Can the truth value of the statement: &#8216;A is loyal to the queen&#8217; be K in any case?&#8221;<br />
+&#8220;Well, what do you think? Of course not! What a ridiculous thing to ask!&#8221; replied Pointex.&#8221;</p>
+<p><strong>Puzzle</strong> : Show that Queen and King are <em>not</em> loyal to each other, that is, there are statements on which they do not agree.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/loyalty.jpg" width=70%><br />
+</center></p>
+<p><strong>Solution</strong> : &#8216;The King is loyal to the Queen&#8217; must have actual truth-value $0$ or $Q$, and the sentence &#8216;The Queen is loyal to the King&#8217; must have actual truth-value $0$ or $K$. But both these sentences are the same as the sentence &#8216;The Queen and King are loyal to each other&#8217; and as this sentence can have only one truth-value, it must have value $0$ so the statement is false.</p>
+<p>Note that we didn&#8217;t produce a specific statement on which the Queen and King disagree. Can you find one?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the strange island of two truths</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 26 Sep 2023 14:57:07 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[island]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[strange]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[truths]]></category>
+		<category><![CDATA[two]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11699</guid>
+
+					<description><![CDATA[Last time we had a brief encounter with the island of two truths, invented by Karin Cvetko-Vah. See her posts: Oscar on the island of&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers">Last time</a> we had a brief encounter with the island of two truths, invented by <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a>. See her posts:</p>
+<ul>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">Oscar on the island of two truths</a></li>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a></li>
+</ul>
+<p>On this island, false statements have truth-value $0$ (as usual), but non-false statements are not necessarily true,  but can be given either truth-value $Q$ (statements which the Queen on the island prefers) or $K$ (preferred by the King).</p>
+<p>Think of the island as Trump&#8217;s paradise where nobody is ever able to say: <a href="https://en.wikipedia.org/wiki/Alternative_facts">&#8220;Look, alternative truths are not truths. They&#8217;re falsehoods.&#8221;</a></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2truths.png" width=70%><br />
+</center></p>
+<p>Even the presence of just one &#8216;alternative truth&#8217; has dramatic consequences on the rationality of your reasoning. If we know the truth-values of specific sentences, we can determine the truth-value of more complex sentences in which we use logical connectives such as $\vee$ (or), $\wedge$ (and), $\neg$ (not), and $\implies$ (then) via these truth tables:</p>
+<p>\[<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\bf{\wedge}~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+Q &#038; 0 &#038; Q &#038; Q \\<br />
+K &#038; 0 &#038; K &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\vee~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; Q &#038; K \\<br />
+Q &#038; Q &#038; Q &#038; K \\<br />
+K &#038; K &#038; Q &#038; K<br />
+\end{array} \]<br />
+\[<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\implies~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; Q &#038; Q &#038; K \\<br />
+Q &#038; 0 &#038; Q &#038; K \\<br />
+K &#038; 0 &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|c}<br />
+ \downarrow &#038; \neg~\downarrow \\<br />
+\hline<br />
+0 &#038; Q \\<br />
+Q &#038; 0 \\<br />
+K &#038; 0<br />
+\end{array}<br />
+\]</p>
+<p>Note that the truth-values $Q$ and $K$ are not completely on equal footing as we have to make a choice which one of them will stand for $\neg 0$.</p>
+<p>Common <a href="https://en.wikipedia.org/wiki/Tautology_(logic)">tautologies</a> are no longer valid on this island. The best we can have are $Q$-tautologies (giving value $Q$ whatever the values of the components) or $K$-tautologies.</p>
+<p>Here&#8217;s one $Q$-tautology (check!) : $(\neg p) \vee (\neg \neg p)$. Verify that $p \vee (\neg p)$ is neither a $Q$- nor a $K$-tautology.</p>
+<p>Can you find any $K$-tautology at all?</p>
+<p>Already this makes it incredibly difficult to adapt Smullyan-like <a href="https://en.wikipedia.org/wiki/Knights_and_Knaves">Knights and Knaves</a> puzzles to this skewed island. <a href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers">Last time</a> I gave one easy example.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2island2.png" width=70%><br />
+</center></p>
+<p><strong>Puzzle</strong> : On an island of two truths all inhabitants are either Knaves (saying only false statements), Q-Knights (saying only $Q$-valued statements) or K-Knights (who only say $K$-valued statements).</p>
+<p>The King came across three inhabitants, whom we will call $A$, $B$ and $C$. He asked $A$: &#8220;Are you one of my  Knights?&#8221; $A$ answered, but so indistinctly that the King could not understand what he said.</p>
+<p>He then asked $B$: &#8220;What did he say?&#8221; $B$ replies: &#8220;He said that he is a Knave.&#8221; At this point, $C$ piped up and said: &#8220;That&#8217;s not true!&#8221;</p>
+<p>Was $C$ a Knave, a Q-Knight or a K-Knight?</p>
+<p><strong>Solution</strong> : Q- and K-Knights can never claim to be a Knave. Neither can Knaves because they can only say false statements. So, no inhabitant on the island can ever claim to be a Knave. So, $B$ lies and is a Knave, so his stament has truth-value $0$. $C$ claims the negation of what $B$ says so the truth-value of his statement is $\neg 0 = Q$. $C$ must be a Q-Knight.</p>
+<p>As if this were not difficult enough, Karin likes to complicate things by letting the Queen and King assign their own truth-values to all sentences, which may coincide with their actual truth-value or not.</p>
+<p>Clearly, these two truth-assignments follow the logic of the island of two truths for composed sentences, and we impose one additional rule: if the Queen assigns value $0$ to a statement, then so does the King, and vice versa.</p>
+<p>I guess she wanted to set the stage for variations to the island of two truths of <a href="https://en.wikipedia.org/wiki/Epistemic_modal_logic">epistemic modal logical</a> puzzles as in Smullyan&#8217;s book <a href="https://raymondsmullyan.com/books/forever-undecided/">Forever Undecided</a> (for a quick summary, have a look at Smullyan&#8217;s paper <a href="http://www.tark.org/proceedings/tark_mar19_86/p341-smullyan.pdf">Logicians who reason about themselves</a>).</p>
+<p>A possible interpretation of the Queen&#8217;s truth-assignment is that she assigns value $Q$ to all statements she believes to be true, value $0$ to all statements she believes to be false, and value $K$ to all statements she has no fixed opinion on (she neither believes them to be true nor false). The King assigns value $K$ to all statements he believes to be true, $0$ to those he believes to be false, and $Q$ to those he has no fixed opinion on.</p>
+<p>For example, if the Queen has no fixed opinion on $p$ (so she assigns value $K$ to it), then the King can either believe $p$ (if he also assigns value $K$ to it) or can have no fixed opinion on $p$ (if he assigns value $Q$ to it), but he can never believe $p$ to be false.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2island3.png" width=70%><br />
+</center></p>
+<p><strong>Puzzle</strong> : We say that Queen and King &#8216;agree&#8217; on a statement $p$ if they both assign the same value to it. So, they agree on all statements one of them (and hence both) believe to be false. But there&#8217;s more:</p>
+<ul>
+<li>Show that Queen and King agree on the negation of all statements one of them believes to be false.</li>
+<li>Show that the King never believes the negation of whatever statement.</li>
+<li>Show that the Queen believes all negations of statements the King believes to be false.</li>
+</ul>
+<p><strong>Solution</strong> : If one of them believes $p$ to be false (s)he will assign value $0$ to $p$ (and so does the other), but then they both have to assign value $Q$ to $\neg p$, so they agree on this.</p>
+<p>The value of $\neg p$ can never be $K$, so the King does not believe $\neg p$.</p>
+<p>If the King believes $p$ to be false he assigns value $0$ to it, and so does the Queen, but then the value of $\neg p$ is $Q$ and so the Queen believes $\neg p$.</p>
+<p>We see that the Queen and King agree on a lot of statements, they agree on all statements one of them believes to be false, and they agree on the negation of such statements!</p>
+<p>Can you find any statement at all on which they do not agree?</p>
+<p>Well, that may be a little bit premature. We didn&#8217;t say which sentences about the island are allowed, and what the connection (if any) is between the Queen and King&#8217;s value-assignments and the actual truth values.</p>
+<p>For example, the Queen and King may agree on a classical ($0$ or $1$) truth-assignments to the atomic sentences for the island, and replace all $1$&#8217;s with $Q$. This will give a consistent assignment of truth-values, compatible with the island&#8217;s strange logic. (We cannot do the same trick replacing $1$&#8217;s by $K$ because $\neg 0 = Q$).</p>
+<p>Clearly, such a system may have no relation at all with the intended meaning of these sentences on the island (the actual truth-values).</p>
+<p>That&#8217;s why <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a> introduced the notions of &#8216;loyalty&#8217; and &#8216;sanity&#8217; for inhabitants of the island. That&#8217;s for next time, and perhaps then you&#8217;ll be able to answer the question whether Queen and King agree on all statements.</p>
+<p>(all images in this post are from Smullyan&#8217;s book <a href="https://www.amazon.com/Alice-Puzzle-Land-Carrollian-Children-Recreational/dp/0486482006">Alice in Puzzle-Land</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>some skew Smullyan stumpers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 21 Sep 2023 12:05:48 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[Hemelaer]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[skew]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[some]]></category>
+		<category><![CDATA[stumpers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11674</guid>
+
+					<description><![CDATA[Raymond Smullyan&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://static01.nyt.com/images/2017/02/12/us/12smullyan-obit/12smullyan-obit-superJumbo.jpg" width=100%></p>
+<p><a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s a classic example.</p>
+<p>&#8220;On the day of his arrival, the anthropologist Edgar Abercrombie came across three inhabitants, whom we will call $A$, $B$ and $C$. He asked $A$: &#8220;Are you a Knight or a Knave?&#8221; $A$ answered, but so indistinctly that Abercrombie could not understand what he said.</p>
+<p>He then asked $B$: &#8220;What did he say?&#8221; $B$ replies: &#8220;He said that he is a knave.&#8221; At this point, $C$ piped up and said: &#8220;Don&#8217;t believe that; it&#8217;s a lie!&#8221;</p>
+<p>Was $C$ a Knight or a Knave?&#8221;</p>
+<p>If you are stumped by this, try to figure out what kind of inhabitant can say &#8220;I am a Knave&#8221;.</p>
+<p>Some years ago, my friend and co-author <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a> wrote about a much stranger island, <a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">the island of two truths</a>.</p>
+<p>&#8220;The island was ruled by a queen and a king. It is important to stress that the queen was neither inferior nor superior to the king. Rather than as a married couple one should think of the queen and the king as two parallel powers, somewhat like the Queen of the Night and the King Sarastro in Mozart&#8217;s famous opera The Magic Flute. The queen and the king had their own castle each, each of them had their own court, their own advisers and servants, and most importantly each of them even had their own truth value.</p>
+<p>On the island, a proposition p is either FALSE, Q-TRUE or K-TRUE; in each of the cases we say that p has value 0, Q or K, respectively. The queen finds the truth value Q to be superior, while the king values the most the value K. The queen and the king have their opinions on all issues, while other residents typically have their opinions on some issues but not all.&#8221;</p>
+<p>The logic of the island of two truths is the easiest example of what Karin and I called a non-commutative frame or skew Heyting algebra (see <a href="https://arxiv.org/abs/1702.04949">here</a>), a notion we then used, jointly with <a href="https://jenshemelaer.com/">Jens Hemelaer</a>, to define the notion of a <a href="https://arxiv.org/abs/1705.02831">non-commutative topos</a>.</p>
+<p><img decoding="async" src="https://elle.metropolitan.si/media/cache/upload/Photo/2014/10/22/s43_40_cvetko-vah-karin_fbimage.jpg" width=100%></p>
+<p>If you take our general definitions, and take Q as the distinguished top-element, then the truth tables for the island of two truths are these ones (value of first term on the left, that of the second on top):</p>
+<p>\[<br />
+\begin{array}{c|ccc}<br />
+\wedge &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+Q &#038; 0 &#038; Q &#038; Q \\<br />
+K &#038; 0 &#038; K &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\vee &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; Q &#038; K \\<br />
+Q &#038; Q &#038; Q &#038; K \\<br />
+K &#038; K &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; Q &#038; Q &#038; K \\<br />
+Q &#038; 0 &#038; Q &#038; K \\<br />
+K &#038; 0 &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|c}<br />
+ &#038; \neg  \\<br />
+\hline<br />
+0 &#038; Q \\<br />
+Q &#038; 0 \\<br />
+K &#038; 0<br />
+\end{array}<br />
+\]</p>
+<p>Note that on this island the order of statements is important! That is, the truth value of $p \wedge q$ may differ from that of $q \wedge p$ (and similarly for $\vee$).</p>
+<p>Let&#8217;s reconsider Smullyan&#8217;s puzzle at the beginning of this post, but now on an island of two truths, where every inhabitant is either of Knave, or a Q-Knight (uttering only Q-valued statements), or a K-Knight (saying only K-valued statements).</p>
+<p>Again, can you determine what type $C$ is?</p>
+<p>Well, if you forget about the distinction between Q- and K-valued sentences, then we&#8217;re back to classical logic (or more generally, if you divide out Green&#8217;s equivalence relation from any skew Heyting algebra you obtain an ordinary Heyting algebra), and we have seen that then $B$ must be a Knave and $C$ a Knight, so in our new setting we know that $C$ is either a Q-Knight or a K-Knight, but which of the two?</p>
+<p>Now, $C$ claims the negation of what $B$ said, so the truth value is $\neg 0 = Q$, and therefore $C$ must be a Q-Knight.</p>
+<p>Recall that in <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a>&#8216;s island of two truths all sentences have a unique value which can be either $0$ (false) or one of the non-false values Q or K, and the value of combined statements is given by the truth tables above. The Queen and King both have an opinion on all statements, which may or may not coincide with the actual value of that statement. However, if the Queen assigns value $0$ to a statement, then so does the King, and conversely.</p>
+<p>Other inhabitants of the island have only their opinion about a subset of all statements (which may be empty). Two inhabitants <em>agree</em> on a statement if they both have an opinion on it and assign the same value to it.</p>
+<p>Now, each inhabitant is either <em>loyal</em> to the Queen or to the King (or both), meaning that they agree with the Queen (resp. King) on all statements they have an opinion of. An inhabitant loyal to the Queen is said to <em>believe</em> a sentence when she assigns value $Q$ to it (and symmetric for those loyal to the King), and <em>knows</em> the statement if she believes it and that value coincides with the actual value of that statement.</p>
+<p>Further, if A is loyal to the Queen, then the value of the statement &#8216;A is loyal to the Queen&#8217; is Q, and if A is not loyal to the Queen, then the value of the sentence &#8216;A is loyal to the Queen&#8217; is $0$ (and similarly for statements about loyalty to the King).</p>
+<p>These notions are enough for the first batch of ten puzzles in Karin&#8217;s posts</p>
+<ul>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">Oscar on the island of two truths</a></li>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a></li>
+</ul>
+<p>Just one example:</p>
+<p>Show that if anybody on the island knows that A is not loyal to the Queen, then everybody that has an opinion about the sentence &#8216;A is loyal to the Queen&#8217; knows that.</p>
+<p>After these two posts, Karin decided that it was more fun to blog about the use of non-commutative frames in data analysis.</p>
+<p>But, she once gave me a text containing many more puzzles (as well as all the answers), so perhaps I&#8217;ll share these in a follow-up post.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A suit with shorts</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 18 Sep 2023 14:32:01 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[personal]]></category>
+		<category><![CDATA[Lenstra]]></category>
+		<category><![CDATA[Mumford]]></category>
+		<category><![CDATA[shorts]]></category>
+		<category><![CDATA[suit]]></category>
+		<category><![CDATA[with]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11619</guid>
+
+					<description><![CDATA[I&#8217;m retiring in two weeks so I&#8217;m cleaning out my office. So far, I got rid of almost all paper-work and have split my book-collection&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m retiring in two weeks so I&#8217;m cleaning out my office.</p>
+<p>So far, I got rid of almost all paper-work and have split my book-collection in two: the books I want to take with me, and those anyone can grab away.</p>
+<p>Here&#8217;s the second batch (math/computer books in the middle, popular science to the right, thrillers to the left).</p>
+<p><center><br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/grotemagweg.jpg"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/magweg.jpg" width=100%></a><br />
+</center></p>
+<p>If you&#8217;re interested in some of these books (click for a larger image, if you want to zoom in) and are willing to pay the postage, leave a comment and I&#8217;ll try to send them if they survive the current &#8216;take-away&#8217; phase.</p>
+<p>Here are two books I definitely want to keep. On the left, an original mimeographed version of Mumford&#8217;s <a href="https://link.springer.com/book/10.1007/978-3-662-21581-4">&#8216;Red Book&#8217;</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/redbook.jpg" width=100%></p>
+<p>On the right, &#8216;Een pak met een korte broek&#8217; (&#8216;A suit with shorts&#8217;), a collection of papers by family and friends, presented to <a href="https://en.wikipedia.org/wiki/Hendrik_Lenstra">Hendrik Lenstra</a> on the occasion of the defence of his Ph.D. thesis on Euclidean number-fields, May 18th 1977.</p>
+<p>If the title intrigues you, a photo of young Hendrik in suit and shorts is included.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/lenstrakortebroek.jpg" width=100%></p>
+<p>This collection includes hilarious &#8216;papers&#8217; by famous people including</p>
+<ul>
+<li><a href="http://www.auemath.aichi-edu.ac.jp/teacher/kodani/lecture/zemi-r3/inukai2.pdf">&#8216;A headache-causing problem&#8217; by Conway (J.H.), Paterson (M.S.), and Moscow (U.S.S.R.)</a></li>
+<li>&#8216;A projective plain of order ten&#8217; by A.M. Odlyzko and N.J.A. Sloane</li>
+<li>&#8216;La chasse aux anneaux principaux non-Euclidiens dans l&#8217;enseignement&#8217; by Pierre Samuel</li>
+<li>&#8216;On time-like theorems&#8217; by Michiel Hazewinkel</li>
+<li>&#8216;She loves me, she loves me not&#8217; by Richard K. Guy</li>
+<li>&#8216;Theta invariants for affine root systems&#8217; by E.J.N. Looijenga</li>
+<li>&#8216;The prime of primes&#8217; by F. Lenstra and A.J. Oort</li>
+<li>(and many more, most of them in Dutch)</li>
+</ul>
+<p>Perhaps I can do a couple of posts on some of these papers. It might break this clean-up routine.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the L-game</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 17 Sep 2023 11:38:33 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[DesignerMaths]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[de Bono]]></category>
+		<category><![CDATA[designermaths]]></category>
+		<category><![CDATA[L-game]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[winning ways]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11320</guid>
+
+					<description><![CDATA[In 1982, the BBC ran a series of 10 weekly programmes entitled de Bono&#8217;s Thinking Course. In the book accompanying the series Edward de Bono&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In 1982, the BBC ran a series of 10 weekly programmes entitled <a href="https://ia902600.us.archive.org/0/items/pdfy-RP-OuErwuZWp4xkk/deBonos_thinking_course_text.pdf">de Bono&#8217;s Thinking Course</a>. In the book accompanying the series <a href="https://en.wikipedia.org/wiki/Edward_de_Bono">Edward de Bono</a> recalls the origin of his &#8216;L-Game&#8217;:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamebegin.png" width=30%><br />
+</center></p>
+<blockquote><p>Many years ago I was sitting next to the famous mathematician, <a href="https://en.wikipedia.org/wiki/John_Edensor_Littlewood">Professor Littlewood</a>, at dinner in Trinity College. We were talking about getting computers to play chess. We agreed that chess was difficult because of the large number of pieces and different moves. It seemed an interesting challenge to design a game that was as simple as possible and yet could be played with a degree of skill.</p>
+<p>As a result of that challenge I designed the <a href="https://en.wikipedia.org/wiki/L_game">&#8216;L-Game&#8217;</a>, in which each player has only one piece (the L-shape piece). In turn he moves this to any new vacant position (lifting up, turning over, moving across the board to a vacant position, etc.). After moving his L-piece he can &#8211; if he wishes &#8211; move either one of the small neutral pieces to any new position. The object of the game is to block your opponent&#8217;s L-shape so that no move is open to it.
+</p></blockquote>
+<p>It is a pleasant exercise in symmetry to calculate the number of possible L-game positions.</p>
+<p>The $4 \times 4$ grid has $8$ symmetries, making up the dihedral group $D_8$: $4$ rotations and $4$ reflections.</p>
+<p>An L-piece breaks all these symmetries, that is, it changes in form under each of these eight operations. That is, using the symmetries of the $4 \times 4$-grid we can put one of the L-pieces (say the Red one) on the grid as a genuine L, and there are exactly 6 possibilities to do so.</p>
+<p>For each of these six positions one can then determine the number of possible placings of the Blue L-piece. This is best done separately for each of the 8 different shapes of that L-piece.</p>
+<p>Here are the numbers when the red L is placed in the left bottom corner:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamenumber1.png" width=85%><br />
+</center></p>
+<p>In total there are thus 24 possibilities to place the Blue L-piece in that case. We can repeat the same procedure for the remaining Red L-positions. Here are the number of possibilities for Blue in each case:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamenumber2.png" width=85%><br />
+</center></p>
+<p>That is, there are 82 possibilities to place the two L-pieces if the Red one stands as a genuine L on the board.</p>
+<p>But then, the L-game has exactly $18368 = 8 \times 82 \times 28$ different positions, where the factor</p>
+<ul>
+<li>$8$ gives the number of symmetries of the square $4 \times 4$ grid.</li>
+<li>Using these symmetries we can put the Red L-piece on the grid as a genuine $L$ and we just saw that this leaves $82$ possibilities for the Blue L-piece.</li>
+<li>This leaves $8$ empty squares and so $28 = \binom{8}{2}$ different choices to place the remaining two neutral pieces.</li>
+</ul>
+<p>The $2296 = 82 \times 28$ positions in which the red L-piece is placed as a genuine L can then be analysed by computer and the outcome is summarised in <a href="https://www.amazon.com/Winning-Ways-Your-Mathematical-Plays/dp/1138427578">Winning Ways 2</a> pages 384-386 (with extras on pages 408-409).</p>
+<p>Of the $2296$ positions only $29$ are $\mathcal{P}$-positions, meaning that the next player (Red) will loose. Here are these winning positions for Blue</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Ppositions1.png" width=70%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Ppositions2.png" width=70%><br />
+</center></p>
+<p>Here, neutral piece(s) should be put on the yellow square(s). A (potential) remaining neutral piece should be placed on one of the coloured squares. The different colours indicate the <em>remoteness</em> of the $\mathcal{P}$-position:</p>
+<ul>
+<li>Pink means remoteness $0$, that is, Red has no move whatsoever, so mate in $0$.</li>
+<li>Orange means remoteness $2$: Red still has a move, but will be mated after Blue&#8217;s next move.</li>
+<li>Purple stands for remoteness $4$, that is, Blue mates Red in $4$ moves, Red starting.</li>
+<li>Violet means remoteness $6$, so Blue has a mate in $6$ with Red starting</li>
+<li>Olive stands for remoteness $8$: Blue mates within eight moves.</li>
+</ul>
+<p>Memorising these gives you a method to spot winning opportunities. After Red&#8217;s move image a board symmetry such that Red&#8217;s piece is a genuine L, check whether you can place your Blue piece and one of the yellow pieces to obtain one of the 29 $\mathcal{P}$-positions, and apply the reverse symmetry to place your piece.</p>
+<p>If you don&#8217;t know this, you can run into trouble very quickly. From the starting position, Red has five options to place his L-piece before moving one of the two yellow counters.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen.png" width=85% ><br />
+</center></p>
+<p>All possible positions of the first option loose immediately.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen1.png" width=100% ><br />
+</center></p>
+<p>For example in positions $a,b,c,d,f$ and $l$, Blue wins by playing</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamewin.png" width=25%><br />
+</center></p>
+<p>Here&#8217;s my first attempt at an opening repertoire for the L-game. Question mark means immediate loss, question mark with a number means mate after that number of moves, x means your opponent plays a sensible strategy.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen2.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen3.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen4.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen5b.png" width=100% ><br />
+</center></p>
+<p>Surely I missed cases, and made errors in others. Please leave corrections in the comments and I&#8217;ll try to update the positions.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mamuth to Elephant (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 08 Mar 2022 18:58:58 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Andreatta]]></category>
+		<category><![CDATA[Crans]]></category>
+		<category><![CDATA[Ehresmann]]></category>
+		<category><![CDATA[Fiore]]></category>
+		<category><![CDATA[Noll]]></category>
+		<category><![CDATA[Popoff]]></category>
+		<category><![CDATA[Satyendra]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[triads]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10415</guid>
+
+					<description><![CDATA[Last time, we&#8217;ve viewed major and minor triads (chords) as inscribed triangles in a regular $12$-gon. If we move clockwise along the $12$-gon, starting from&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant">Last time</a>, we&#8217;ve viewed major and minor <a href="https://en.wikipedia.org/wiki/Triad_(music)">triads</a> (chords) as inscribed triangles in a regular $12$-gon.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB1.png" width=45%  /> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB2.png" width=45%  /><br />
+</center></p>
+<p>If we move clockwise along the $12$-gon, starting from the endpoint of the longest edge (the <em>root</em> of the chord, here the $0$-vertex) the edges skip $3,2$ and $4$ vertices (for a major chord, here on the left the major $0$-chord) or $2,3$ and $4$ vertices (for a minor chord, here on the right the minor $0$-chord).</p>
+<p>The symmetries of the $12$-gon, the dihedral group $D_{12}$, act on the $24$ major- and minor-chords transitively, preserving the type for rotations, and interchanging majors with minors for reflections.</p>
+<p>Mathematical Music Theoreticians (MaMuTh-ers for short) call this the $T/I$-group, and view the rotations of the $12$-gon as transpositions $T_k : x \mapsto x+k~\text{mod}~12$, and the reflections as involutions $I_k : x \mapsto -x+k~\text{mod}~12$.</p>
+<p>Note that the elements of the $T/I$-group act on the vertices of the $12$-gon, from which the action on the chord-triangles follows.</p>
+<p>There is another action on the $24$ major and minor chords, mapping a chord-triangle to its image under a reflection in one of its three sides.</p>
+<p>Note that in this case the reflection $I_k$ used will depend on the root of the chord, so this action on the chords does <em>not</em> come from an action on the vertices of the $12$-gon.</p>
+<p>There are three such operations: (pictures are taken from <a href="https://alpof.wordpress.com/2013/12/19/an-introduction-to-neo-riemannian-theory-6/">Alexandre Popoff&#8217;s blog</a>, with the &#8216;funny names&#8217; removed)</p>
+<p>The $P$-operation is reflection in the longest side of the chord-triangle. As the longest side is preserved, $P$ interchanges the major and minor chord with the same root.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB3.png" width=100% ></p>
+<p>The $L$-operation is refection in the shortest side. This operation interchanges a major $k$-chord with a minor $k+4~\text{mod}~12$-chord.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB4.png" width=100% ></p>
+<p>Finally, the $R$-operation is reflection in the middle side. This operation interchanges a major $k$-chord with a minor $k+9~\text{mod}~12$-chord.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB5.png" width=100% ></p>
+<p>From this it is already clear that the group generated by $P$, $L$ and $R$ acts transitively on the $24$ major and minor chords, but what is this $PLR$-group?</p>
+<p>If we label the major chords by their root-vertex $1,2,\dots,12$ (<a href="https://www.gap-system.org/">GAP</a> doesn&#8217;t like zeroes), and the corresponding minor chords $13,14,\dots,24$, then these operations give these permutations on the $24$ chords:</p>
+<p><code><br />
+P:=(1,13)(2,14)(3,15)(4,16)(5,17)(6,18)(7,19)(8,20)(9,21)(10,22)(11,23)(12,24)<br />
+L:=(1,17)(2,18)(3,19)(4,20)(5,21)(6,22)(7,23)(8,24)(9,13)(10,14)(11,15)(12,16)<br />
+R:=(1,22)(2,23)(3,24)(4,13)(5,14)(6,15)(7,16)(8,17)(9,18)(10,19)(11,20)(12,21)<br />
+</code></p>
+<p>Then GAP gives us that the $PLR$-group is again isomorphic to $D_{12}$:</p>
+<p><code><br />
+gap> G:=Group(P,L,R);;<br />
+gap> Size(G);<br />
+24<br />
+gap> IsDihedralGroup(G);<br />
+true<br />
+</code></p>
+<p>In fact, if we view both the $T/I$-group and the $PLR$-group as subgroups of the symmetric group $Sym(24)$ via their actions on the $24$ major and minor chords, these groups are each other centralizers! That is, the $T/I$-group and $PLR$-group are dual to each other.</p>
+<p>For more on this, there&#8217;s a beautiful paper by Alissa Crans, Thomas Fiore and Ramon Satyendra: <a href="https://www.maa.org/sites/default/files/pdf/upload_library/22/Hasse/Crans2011.pdf">Musical Actions of Dihedral Groups</a>.</p>
+<p>What does this new MaMuTh info learns us more about our Elephant, the <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.134.5669&#038;rep=rep1&#038;type=pdf">Topos of Triads</a>, studied by <a href="https://www.researchgate.net/profile/Thomas-Noll-3">Thomas Noll</a>?</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant">Last time</a> we&#8217;ve seen the eight element triadic monoid $T$ of all affine maps preserving the three tones $\{ 0,4,7 \}$ of the major $0$-chord, computed the subobject classified $\Omega$ of the corresponding topos of presheaves, and determined all its six Grothendieck topologies, among which were these three:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mumathB6.png" width=100% ></p>
+<p>Why did we label these Grothendieck topologies (and corresponding elements of $\Omega$) by $P$, $L$ and $R$?</p>
+<p>We&#8217;ve seen that the sheafification of the presheaf $\{ 0,4,7 \}$ in the triadic topos under the Grothendieck topology $j_P$ gave us the sheaf $\{ 0,3,4,7 \}$, and these are the tones of the major $0$-chord together with those of the minor $0$-chord, that is the two chords in the $\langle P \rangle$-orbit of the major $0$-chord. The group $\langle P \rangle$ is the cyclic group $C_2$.</p>
+<p>For the sheafication with respect to $j_L$ we found the $T$-set $\{ 0,3,4,7,8,11 \}$ which are the tones of the major and minor $0$-,$4$-, and $8$-chords. Again, these are exactly the six chords in the $\langle P,L \rangle$-orbit of the major $0$-chord. The group $\langle P,L \rangle$ is isomorphic to $Sym(3)$.</p>
+<p>The $j_R$-topology gave us the $T$-set $\{ 0,1,3,4,6,7,9,10 \}$ which are the tones of the major and minor $0$-,$3$-, $6$-, and $9$-chords, and lo and behold, these are the eight chords in the $\langle P,R \rangle$-orbit of the major $0$-chord. The group $\langle P,R \rangle$ is the dihedral group $D_4$.</p>
+<p>More on this can be found in the paper <a href="https://arxiv.org/abs/1102.1496">Commuting Groups and the Topos of Triads</a> by Thomas Fiore and Thomas Noll.</p>
+<p>The operations $P$, $L$ and $R$ on major and minor chords are reflexions in one side of the chord-triangle, so they preserve two of the three tones. There&#8217;s a distinction between the $P$ and $L$ operations and $R$ when it comes to how the third tone changes.</p>
+<p>Under $P$ and $L$ the third tone changes by one halftone (because the corresponding sides skip an even number of vertices), whereas under $R$ the third tone changes by two halftones (a full tone), see the pictures above.</p>
+<p>The $\langle P,L \rangle = Sym(3)$ subgroup divides the $24$ chords in four orbits of six chords each, three major chords and their corresponding minor chords. These orbits consist of the</p>
+<ul>
+<li>$0$-, $4$-, and $8$-chords (see before)</li>
+<li>$1$-, $5$-, and $9$-chords</li>
+<li>$2$-, $6$-, and $10$-chords</li>
+<li>$3$-, $7$-, and $11$-chords</li>
+</ul>
+<p>and we can view each of these orbits as a cycle tracing six of the eight vertices of a cube with one pair of antipodal points removed.</p>
+<p>These four &#8216;almost&#8217; cubes are the NE-, SE-, SW-, and NW-regions of the <em>Cube Dance Graph</em>, from the paper <a href="https://www.jstor.org/stable/843877?seq=14#metadata_info_tab_contents">Parsimonious Graphs</a> by Jack Douthett and Peter Steinbach.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cubedance.png" width=100% ></p>
+<p>To translate the funny names to our numbers, use this dictionary (major chords are given by a capital letter):</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuth1.png" width=40% ><br />
+</center></p>
+<p>The four extra chords (at the N, E, S, and P places) are <a href="https://en.wikipedia.org/wiki/Augmented_triad">augmented triads</a>. They correspond to the triads $(0,4,8),~(1,5,9),~(2,6,10)$ and $(3,7,11)$.</p>
+<p>That is, two triads are connected by an edge in the Cube Dance graph if they share two tones and differ by an halftone in the third tone.</p>
+<p>This graph screams for a group or monoid acting on it. Some of the edges we&#8217;ve already identified as the action of $P$ and $L$ on the $24$ major and minor triads. Because the triangle of an augmented triad is equilateral, we see that they are preserved under $P$ and $L$.</p>
+<p>But what about the edges connecting the regular triads to the augmented ones? If we view each edge as two directed arrows assigned to the same operation, we cannot do this with a transformation because the operation sends each augmented triad to six regular triads.</p>
+<p>Alexandre Popoff, Moreno Andreatta and <a href="https://en.wikipedia.org/wiki/Andr%C3%A9e_Ehresmann">Andree Ehresmann</a> suggest in their paper <a href="https://hal.archives-ouvertes.fr/hal-02392844/document">Relational poly-Klumpenhouwer networks for transformational and voice-leading analysis</a> that one might use a monoid generated by relations, and they show that there is such a monoid with $40$ elements acting on the Cube Dance graph.</p>
+<p>Popoff claims that usual presheaf toposes, that is contravariant functors to $\mathbf{Sets}$ are not enough to study transformational music theory. He suggest to use instead functors to $\mathbf{Rel}$, that is Sets with as the morphisms binary relations, and their compositions.</p>
+<p>Another Elephant enters the room&#8230;</p>
+<p>(to be <a href="https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-3">continued</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>From Mamuth to Elephant</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 07 Mar 2022 10:27:07 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Johnstone]]></category>
+		<category><![CDATA[Noll]]></category>
+		<category><![CDATA[Popoff]]></category>
+		<category><![CDATA[triads]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10369</guid>
+
+					<description><![CDATA[Here, MaMuTh stands for Mathematical Music Theory which analyses the pitch, timing, and structure of works of music. The Elephant is the nickname for the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here, <em>MaMuTh</em> stands for <a href="https://en.wikipedia.org/wiki/Music_and_mathematics">Mathematical Music Theory</a> which analyses the pitch, timing, and structure of works of music.</p>
+<p>The <em>Elephant</em> is the nickname for the &#8216;bible&#8217; of topos theory, <a href="https://www.amazon.com/Sketches-Elephant-Theory-Compendium-Oxford/dp/019852496X">Sketches of an Elephant: A Topos Theory Compendium</a>, a two (three?) volume book, written by Peter Johnstone.</p>
+<p>How can we get as quickly as possible from the MaMuth to the Elephant, musical illiterates such as myself?</p>
+<p>What Mamuth-ers call a <a href="https://en.wikipedia.org/wiki/Pitch_class">pitch class</a> (sounds that are a whole number of octaves apart), is for us a residue modulo $12$, as an octave is usually divided into twelve (half)tones.</p>
+<p>We&#8217;ll just denote them by numbers from $0$ to $11$, or view them as the vertices of a regular $12$-gon, and forget the funny names given to them, as there are several such encodings, and we don&#8217;t know a $G$ from a $D\#$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuth1.png" width=60% /><br />
+</center></p>
+<p>Our regular $12$-gon has exactly $24$ symmetries. Twelve rotations, which they call <em>transpositions</em>, given by the affine transformations<br />
+\[<br />
+T_k~:~x \mapsto x+k~\text{mod}~12 \]<br />
+and twelve reflexions, which they call <em>involutions</em>, given by<br />
+\[<br />
+I_k~:~x \mapsto -x+k~\text{mod}~12 \]<br />
+What for us is the dihedral group $D_{12}$ (all symmetries of the $12$-gon), is for them the $T/I$-group (for transpositions/involutions).</p>
+<p>Let&#8217;s move from individual notes (or pitch classes) to chords (or <a href="https://en.wikipedia.org/wiki/Triad_(music)">triads</a>), that is, three notes played together.</p>
+<p>Not all triples of notes sound nice when played together, that&#8217;s why the most commonly played chords are among the <em>major</em> and <em>minor</em> triads.</p>
+<p>A <a href="https://en.wikipedia.org/wiki/Major_chord">major triad</a> is an ordered triple of elements from $\mathbb{Z}_{12}$ of the form<br />
+\[<br />
+(n,n+4~\text{mod}~12,n+7~\text{mod}~12) \]<br />
+and a <a href="https://en.wikipedia.org/wiki/Minor_chord">minor triad</a> is an ordered triple of the form<br />
+\[<br />
+(n,n+3~\text{mod}~12,n+7~\text{mod}~12) \]<br />
+where the first entry $n$ is called the <em>root</em> of the triad (or chord) and its funny name is then also the name of that chord.</p>
+<p>For us, it is best to view a triad as an inscribed triangle in our regular $12$-gon. The triangles of major and minor triads have edges of different lengths, a small one, a middle, and a large one.</p>
+<p>Starting from the root, and moving clockwise, we encounter in a major chord-triangle first the middle edge, then the small edge, and finally the large edge. For a minor chord-triangle, we have first the small edge, then the middle one, and finally the large edge.</p>
+<p>On the left, two major triads, one with root $0$, the other with root $6$. On the right, two minor triads, also with roots $0$ and $6$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuth2.png" width=100% /><br />
+</center></p>
+<p>(Btw. if you are interested in the full musical story, I strongly recommend the <a href="https://alpof.wordpress.com/">alpof blog</a> by Alexandre Popoff, from which the above picture is taken.)</p>
+<p>Clearly, there are $12$ major triads (one for each root), and $12$ minor triads.</p>
+<p>From the shape of the triad-triangles it is also clear that rotations (transpositions) send major triads to major triads (and minors to minors), and that reflexions (involutions) interchange major with minor triads.</p>
+<p>That is, the dihedral group $D_{12}$ (or if you prefer the $T/I$-group) acts on the set of $24$ major and minor triads, and this action is transitive (an element stabilising a triad-triangle must preserve its type (so is a rotation) and its root (so must be the identity)).</p>
+<p>Can we hear the action of the very special group element $T_6$ (the unique non-trivial central element of $D_{12}$) on the chords?</p>
+<p>This action is not only the transposition by three full tones, but also a point-reflexion with respect to the center of the $12$-gon (see two examples in the picture above). This point reflexion can be compositionally meaningful to refer to two very different upside-down worlds.</p>
+<p>In <a href="https://alpof.wordpress.com/2020/12/06/its-t6-day/">It&#8217;s $T_6$-day</a>, Alexandre Popoff gives several examples. Here&#8217;s one of them, the Ark theme in Indiana Jones – Raiders of the Lost Ark.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/gFDM7JGHGYo?start=160" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>&#8220;The $T_6$ transformation is heard throughout the map room scene (in particular at 2:47 in the video): that the ark is a dreadful object from a very different world is well rendered by the $T_6$ transposition, with its inherent tritone and point reflection.&#8221;</p>
+<p>Let&#8217;s move on in the direction of the Elephant.</p>
+<p>We saw that the only affine map of the form $x \mapsto \pm x + k$ fixing say the major $0$-triad $(0,4,7)$ is the identity map.</p>
+<p>But, we can ask for the collection of all affine maps $x \mapsto a x + b$ fixing this major $0$-triad <em>set-wise</em>, that is, such that<br />
+\[<br />
+\{ b, 4a+b~\text{mod}~12, 7a+b~\text{mod}~2 \} \subseteq \{ 0,4,7 \} \]</p>
+<p>A quick case-by-case analysis shows that there are just eight such maps: the identity and the constant maps<br />
+\[<br />
+x \mapsto x,~x \mapsto 0,~x \mapsto 4, ~x \mapsto 7 \]<br />
+and the four maps<br />
+\[<br />
+\underbrace{x \mapsto 3x+7}_a,~\underbrace{x \mapsto 8x+4}_b,~x \mapsto 9x+4,~x \mapsto 4x \]</p>
+<p>Compositions of such maps again preserve the set $\{ 0,4,7 \}$ so they form a <em>monoid</em>, and a quick inspection with GAP learns that $a$ and $b$ generate this monoid.</p>
+<p><code><br />
+gap> a:=Transformation([10,1,4,7,10,1,4,7,10,1,4,7]);;<br />
+gap> b:=Transformation([12,8,4,12,8,4,12,8,4,12,8,4]);;<br />
+gap> gens:=[a,b];;<br />
+gap> T:=Monoid(gens);<br />
+<transformation monoid of degree 12 with 2 generators>
+gap> Size(T);<br />
+8<br />
+</code></p>
+<p>The monoid $T$ is the <em>triadic monoid</em> of Thomas Noll&#8217;s paper <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.134.5669&#038;rep=rep1&#038;type=pdf">The topos of triads</a>.</p>
+<p>The monoid $T$ can be seen as a one-object category (with endomorphisms the elements of $T$). The corresponding presheaf topos is then the category of all sets equipped with a right $T$-action.</p>
+<p>Actually, Noll considers just one such presheaf (and its sub-presheaves) namely $\mathcal{F}=\mathbb{Z}_{12}$ with the action of $T$ by affine maps described before.</p>
+<p>He is interested in the sheafifications of these presheaves with respect to Grothendieck topologies, so we have to describe those.</p>
+<p>For any monoid category, the subobject classifier $\Omega$ is the set of all right ideals in the monoid.</p>
+<p>Using the <a href="https://www.gap-system.org/Packages/sgpviz.html">GAP sgpviz package</a> we can draw its Cayley graph (red coloured vertices are idempotents in the monoid, the blue vertex is the identity map).</p>
+<p><code><br />
+gap> DrawCayleyGraph(T);<br />
+</code></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuth3.png" width=100% /><br />
+</center></p>
+<p>The elements of $T$ (vertices) which can be connected by oriented paths (in both ways) in the Cayley graph, such as here $\{ 2,4 \}$, $\{ 3,7 \}$ and $\{ 5,6,8 \}$, will generate the same right ideal in $T$, so distinct right ideals are determined by unidirectional arrows, such as from $1$ to $2$ and $3$ or from $\{ 2,4 \}$ to $5$, or from $\{ 3,7 \}$ to $6$.</p>
+<p>This gives us that $\Omega$ consists of the following six elements:</p>
+<ul>
+<li>$0 = \emptyset$</li>
+<li>$C = \{ 5,6,8 \} = a.T \wedge b.T$</li>
+<li>$L = \{ 2,4,5,6,8 \}=a.T$</li>
+<li>$R = \{ 3,7,5,6,8 \}=b.T$</li>
+<li>$P = \{ 2,3,4,5,6,7,8 \}=a.T \vee b.T$</li>
+<li>$1 = T$</li>
+</ul>
+<p>As a subobject classifier $\Omega$ is itself a presheaf, so wat is the action of the triad monoid $T$ on it? For all $A \in \Omega$, and $s \in T$ the action is given by $A.s = \{ t \in T | s.t \in A \}$ and it can be read off from the Cayley-graph.</p>
+<p>$\Omega$ is a Heyting algebra of which the inclusions, and logical operations can be summarised in the picture below, using the <a href="https://lievenlebruyn.github.io/neverendingbooks/hexboards-and-heytings">Hexboards and Heytings-post</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/hexheyting3.png" width=60% /><br />
+</center></p>
+<p>In this case, Grothendieck topologies coincide with Lawvere-Tierney topologies, which come from closure operators $j~:~\Omega \rightarrow \Omega$ which are order-increasing, idempotent, and compatible with the $T$-action and with the $\wedge$, that is,</p>
+<ul>
+<li>if $A \leq B$, then $j(A) \leq j(B)$</li>
+<li>$j(j(A)) = j(A)$</li>
+<li>$j(A).t=j(A.t)$</li>
+<li>$j(A \wedge B) = j(A) \wedge j(B)$</li>
+</ul>
+<p>Colouring all cells with the same $j$-value alike, and remaining cells $A$ with $j(A)=A$ coloured yellow, we have six such closure operations $j$, that is, Grothendieck topologies.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuth5.png" width=100% /><br />
+</center></p>
+<p>The triadic monoid $T$ acts via affine transformations on the set of pitch classes $\mathbb{Z}_{12}$ and we&#8217;ve defined it such that it preserves the notes $\{ 0,4,7 \}$ of the major $(0,4,7)$-chord, that is, $\{ 0,4,7 \}$ is a subobject of $\mathbb{Z}_{12}$ in the topos of $T$-sets.</p>
+<p>The point of the subobject classifier $\Omega$ is that morphisms to it classify subobjects, so there must be a $T$-equivariant map $\chi$ making the diagram commute (vertical arrows are the natural inclusions)<br />
+\[<br />
+\xymatrix{\{ 0,4,7 \} \ar[r] \ar[d] &#038; 1 \ar[d] \\ \mathbb{Z}_{12} \ar[r]^{\chi} &#038; \Omega} \]</p>
+<p>What does the morphism $\chi$ do on the other pitch classes? Well, it send an element $k \in \mathbb{Z}_{12} = \{ 1,2,\dots,12=0 \}$ to</p>
+<ul>
+<li>$1$ iff $k \in \{ 0,4,7 \}$</li>
+<li>$P$ iff $a(k)$ and $b(k)$ are in $\{ 0,4,7 \}$</li>
+<li>$L$ iff $a(k) \in \{ 0,4,7 \}$ but $b(k)$ is not</li>
+<li>$R$ iff $b(k) \in \{ 0,4,7 \}$ but $a(k)$ is not</li>
+<li>$C$ iff neither $a(k)$ nor $b(k)$ is in $\{ 0,4,7 \}$</li>
+</ul>
+<p>Remember that $a$ and $b$ are the transformations (images of $(1,2,\dots,12)$)<br />
+<code><br />
+a:=Transformation([10,1,4,7,10,1,4,7,10,1,4,7]);;<br />
+b:=Transformation([12,8,4,12,8,4,12,8,4,12,8,4]);;<br />
+</code><br />
+so we see that</p>
+<ul>
+<li>$0,1,4$ are mapped to $1$</li>
+<li>$3$ is mapped to $P$</li>
+<li>$8,11$ are mapped to $L$</li>
+<li>$1,6,9,10$ are mapped to $R$</li>
+<li>$2,5$ are mapped to $C$</li>
+</ul>
+<p>Finally, we can compute the sheafification of the sub-presheaf $\{ 0,4,7 \}$ of $\mathbb{Z}$ with respect to a Grothendieck topology $j$: it consists of the set of those $k \in \mathbb{Z}_{12}$ such that $j(\chi(k)) = 1$.</p>
+<p>The musically interesting Grothendieck topologies are $j_P, j_L$ and $j_R$ with corresponding sheaves:</p>
+<ul>
+<li>For $j_P$ we get the sheaf $\{ 0,3,4,7 \}$ which Mamuth-ers call a <em>Major-Minor Mixture</em> as these are the notes of both the major and minor $0$-triads</li>
+<li>For $j_L$ we get $\{ 0,3,4,7,8,11 \}$ which is an example of an <a href="https://en.wikipedia.org/wiki/Hexatonic_scale">Hexatonic scale</a> (six notes), here they are the notes of the major and minor $0,~4$ and $8$-triads</li>
+<li>For $j_R$ we get $\{ 0,1,3,4,6,7,9,10 \}$ which is an example of an <a href="https://en.wikipedia.org/wiki/Octatonic_scale">Octatonic scale</a> (eight notes), here they are the notes of the major and minor $0,~3,~6$ and $9$-triads</li>
+</ul>
+<p>We could have played the same game starting with the three notes of any other major triad.</p>
+<p>Those in the know will have noticed that so far I&#8217;ve avoided another incarnation of the dihedral $D_{12}$ group in music, namely the $PLR$-group, which explains the notation for the elements of the subobject classifier $\Omega$, but this post is already way too long.</p>
+<p>(to be <a href="https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2">continued</a>&#8230;)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hexboards and Heytings</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/hexboards-and-heytings/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/hexboards-and-heytings/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 26 Feb 2022 14:21:46 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10333</guid>
+
+					<description><![CDATA[A couple of days ago, Peter Rowlett posted on The Aperiodical: Introducing hexboard &#8211; a LaTeX package for drawing games of Hex. Hex is a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A couple of days ago, Peter Rowlett posted on The Aperiodical: <a href="https://aperiodical.com/2022/02/introducing-hexboard-a-latex-package-for-drawing-games-of-hex/">Introducing hexboard &#8211; a LaTeX package for drawing games of Hex</a>.</p>
+<p><a href="https://en.wikipedia.org/wiki/Hex_(board_game)">Hex</a> is a strategic game with two players (Red and Blue) taking turns placing a stone of their color onto any empty space. A player wins when they successfully connect their sides together through a chain of adjacent stones.</p>
+<p>Here&#8217;s a short game on a $5 \times 5$ board (normal play uses $11\times 11$ boards), won by Blue, drawn with the LaTeX-package <a href="https://www.ctan.org/pkg/hexboard">hexboard</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://aperiodical.com/wp-content/uploads/2022/02/Screenshot-from-2022-02-20-15-31-12.png" width=70% /><br />
+</center></p>
+<p>As much as I like mathematical games, I want to use the versability of the hexboard-package for something entirely different: drawing finite <a href="https://en.wikipedia.org/wiki/Heyting_algebra">Heyting algebras</a> in which it is easy to visualise the logical operations.</p>
+<p>Every full hexboard is a poset with minimal cell $0$ and maximal cell $1$ if cell-values increase if we move horizontally to the right or diagonally to the upper-right. With respect to this order, $p \vee q$ is the smallest cell bigger than both $p$ and $q$, and $p \wedge q$ is the largest cell smaller than $p$ and $q$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/hexheyting1.png" width=80% /><br />
+</center></p>
+<p>The implication $p \Rightarrow q$ is the largest cell $r$ such that $r \wedge p \leq q$, and the negation $\neg p$ stands for $p \Rightarrow 0$. With these operations, the full hexboard becomes a Heyting algebra.</p>
+<p>Now the fun part. Every filled area of the hexboard, bordered above and below by a string of strictly increasing cells from $0$ to $1$ is also a Heyting algebra, with the induced ordering, and with the logical operations defined similarly.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/hexheyting2.png" width=70% /><br />
+</center></p>
+<p>Note that this mustn&#8217;t be a sub-Heyting algebra as the operations may differ. Here, we have a different value for $p \Rightarrow q$, and $\neg p$ is now $0$.</p>
+<p>If you&#8217;re in for an innocent &#8220;Where is Wally?&#8221;-type puzzle: $W = (\neg \neg p \Rightarrow p)$.</p>
+<p><center><br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/hexheyting6.png"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/hexheyting5.png" width=50% /></a><br />
+</center></p>
+<p>Click on the image to get the solution.</p>
+<p>The downsets in these posets can be viewed as the open sets of a finite topology, so these Heyting algebra structures come from the subobject classifier of a topos.</p>
+<p>There are more interesting toposes with subobject classifier determined by such hex-Heyting algebras.</p>
+<p>For example, the <a href="https://www.researchgate.net/publication/228614514_The_Topos_of_Triads">Topos of Triads</a> of Thomas Noll in music theory has as its subobject classifier the hex-Heyting algebra (with cell-values as in the paper):</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/hexheyting3.png" width=50% /><br />
+</center></p>
+<p>Note to self: why not write a couple of posts on this topos?</p>
+<p>Another example: the category of all directed graphs is the presheaf topos of the two object category ($V$ for vertices, and $E$ for edges) with (apart from the identities) just two morphisms $s,t : V \rightarrow E$ (for start- and end-vertex of a directed edge).</p>
+<p>The subobject classifier $\Omega$ of this topos is determined by the two Heyting algebras $\Omega(E)$ and $\Omega(V)$ below.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/hexheyting4.png" width=90% /><br />
+</center></p>
+<p>These &#8216;hex-Heyting algebras&#8217; are exactly what <a href="http://angg.twu.net/">Eduardo Ochs</a> calls &#8216;planar Heyting algebras&#8217;.</p>
+<p>Eduardo has a very informative <a href="http://angg.twu.net/math-b.html">research page</a>, containing slides and handouts of talks in which he tries to explain topos theory to &#8220;children&#8221; (using these planar Heyting algebras) including:</p>
+<ul>
+<li><a href="http://angg.twu.net/LATEX/2014sfc-slides2.pdf">Sheaves for children</a></li>
+<li><a href="http://angg.twu.net/LATEX/2017planar-has-1.pdf">Planar Heyting algebras for children</a></li>
+<li><a href="http://angg.twu.net/LATEX/2018vichy-video.pdf">Logic for children</a></li>
+<li><a href="http://angg.twu.net/LATEX/2021groth-tops-children.pdf">Grothendieck topologies for children</a></li>
+</ul>
+<p>Perhaps now is a good time to revive my old <a href="http://angg.twu.net/">sga4hipsters-project</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/hexboards-and-heytings/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Boolean and Heyting islands</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/boolean-and-heyting-islands/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/boolean-and-heyting-islands/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 26 Mar 2021 14:27:43 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[Boole]]></category>
+		<category><![CDATA[Carson]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[Knaves]]></category>
+		<category><![CDATA[Knights]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9455</guid>
+
+					<description><![CDATA[Raymond Smullyan&#8216;s logic puzzles frequently involve Knights (who always tell the truth) and Knaves (who always lie). In his book Logical Labyrinths (really a first&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s logic puzzles frequently involve Knights (who always tell the truth) and Knaves (who always lie).</p>
+<p>In his book <a href="http://logic-books.info/sites/default/files/logical_labirints.pdf">Logical Labyrinths</a> (really a first course in propositional logic) he introduced islands where the lying or truth-telling habits can vary from day to day—that is, an inhabitant might lie on some days and tell the truth on other days, but on any given day, he or she lies the entire day or tells the truth the entire day.</p>
+<p>An island is said to be <a href="https://en.wikipedia.org/wiki/Boolean_algebra">Boolean</a> if is satisfies the following conditions:</p>
+<ul>
+<li>$\mathbf{N}$ : For any inhabitant $A$ there is an inhabitant who tells the truth on all and only those days on which $A$ lies.</li>
+<li>$\mathbf{M}$ : For any inhabitants $A$ and $B$ there is an inhabitant $C$ who tells the truth on all and only those days on which $A$ and $B$ both tell the truth.</li>
+<li>$\mathbf{J}$ : For any inhabitants $A$ and $B$ there is an inhabitant $C$ who tells the truth on all and only those days on which either $A$ tells the truth or $B$ tells the truth (or both). (In other words, $C$ lies on those and only those days on which $A$ and $B$ both lie.)</li>
+</ul>
+<p>On any given day there are only Knights and Knaves on the island, but these two populations may vary from one day to the other. The subsets (of all days) for which there is an inhabitant who is a Knight then and a Knave on all other days form a Boolean algebra with operations $\wedge = \cap$ ($\mathbf{M}$eet), $\vee= \cup$ ($\mathbf{J}$oin) and $\neg=$ set-complement ($\mathbf{N}$egation).</p>
+<p>Here&#8217;s a nice puzzle from Smullyan&#8217;s book:</p>
+<p>Solomon’s Island also turned out to be quite interesting. When Craig arrived on it, he had the following conversation with the resident sociologist:<br />
+<verbatim><br />
+Craig : Is this island a Boolean island?<br />
+Sociologist : No.<br />
+Craig : Can you tell me something about the lying and truth-telling habits of the residents here?<br />
+Sociologist : For any inhabitants $A$ and $B$, there is an inhabitant $C$ who tells the truth on all and only those days on which either $A$ lies or $B$ lies (or both).<br />
+</verbatim></p>
+<p>Show that the sociologist didn&#8217;t <a href="https://en.wiktionary.org/wiki/go_native">go native</a>, and that his research is lousy.<br />
+(My wording, not Smullyan&#8217;s)</p>
+<p>Smullyan&#8217;s version: This interview puzzled inspector Craig; he felt that something was wrong. After a while he realized for sure that something was wrong, the sociologist was either lying or mistaken!</p>
+<p>Extending Smullyan&#8217;s idea, we can say that an island is <a href="https://en.wikipedia.org/wiki/Heyting_algebra#:~:text=In%20mathematics%2C%20a%20Heyting%20algebra,%E2%89%A4%20(a%20%E2%86%92%20b).">Heyting</a> if, in addition to $\mathbf{M}$ and $\mathbf{J}$ is satisfies the following rules</p>
+<ul>
+<li>$\mathbf{T}$ : at least one inhabitant tells the truth on all days.</li>
+<li>$\mathbf{F}$ : at least one inhabitant lies on all days.</li>
+<li>$\mathbf{I}$ : For any inhabitants $A$ and $B$ there is an inhabitant $C$ sharing Knight-days with $A$ only when $B$ tells the truth, and there are no inhabitants doing this while telling the truth on more days than $C$.</li>
+</ul>
+<p>Let&#8217;s give an example of an Heyting island which is not Boolean.</p>
+<p>On Three-island there are only three kinds of people: Knights, Knaves and Alternates, who can neither lie nor tell the truth two days in a row. All Alternates tell the truth on the same days.</p>
+<p>Here&#8217;s a riddle:</p>
+<p>You meet John, who is a Knight, James, an Alternate, and William, a Knave. You don&#8217;t know who is who. You can only ask one question containing at most four words, giving you a Yes or No answer, to just one of the three. The answer must tell you whether that person is James or not.</p>
+<p>You may like to watch Smullyan on the Carson show for a hint.</p>
+<p>Or, you might just watch it reminiscing long forgotten times, when talkshow-hosts still listened to their guests, and could think for themselves&#8230;</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/E27v83WWiGo?start=366" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/boolean-and-heyting-islands/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the bongcloud attack</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-bongcloud-attack/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-bongcloud-attack/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 18 Mar 2021 18:01:27 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[bongcloud]]></category>
+		<category><![CDATA[Carlsen]]></category>
+		<category><![CDATA[chess]]></category>
+		<category><![CDATA[Nakamura]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9312</guid>
+
+					<description><![CDATA[In this neverending pandemic there&#8217;s a shortage of stories putting a lasting smile on my face. Here&#8217;s one. If you are at all interested in&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In this neverending pandemic there&#8217;s a shortage of stories putting a lasting smile on my face. Here&#8217;s one.</p>
+<p><center><br />
+<img decoding="async" src="https://video-images.vice.com/articles/6050d7f2156fc5009ab2839b/lede/1615911215714-maxresdefault.jpeg?crop=1xw:0.9993206521739131xh;center,center&#038;resize=1000:*" width=100% ><br />
+</center></p>
+<p>If you are at all interested in chess, you&#8217;ll know by now that some days ago IGMs (that is, international grandmasters for the rest of you) <a href="https://en.wikipedia.org/wiki/Magnus_Carlsen">Magnus Carlsen</a> and <a href="https://en.wikipedia.org/wiki/Hikaru_Nakamura">Hikaru Nakamura</a> opened an official game with a double bongcloud, and couldn&#8217;t stop laughing.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/Bongcloud_Attack">bongcloud attack</a> is the chess opening in which white continues after</p>
+<p>1. e2-e4, e7-e5</p>
+<p>with</p>
+<p>2. Ke1-e2 !</p>
+<p>thereby blocking the diagonals for the bishop and queen, losing the ability to castle, and putting its king in danger.</p>
+<p>If you are left clueless, you should download the free e-book <a href="http://i.4pcdn.org/tg/1401479151063.pdf">Winning with the bongcloud</a> immediately.</p>
+<p>If you are (or were) a chess player, it is the perfect parody to all those books you had to suffer through in order to build up an &#8216;opening repertoire&#8217;.</p>
+<p>If you are new to chess (perhaps after watching <a href="https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(miniseries)">The queen&#8217;s gambit</a>), it gives you a nice selection of easy mate-in-one problems.</p>
+<p>Every possible defence against the bongcloud is illustrated with a &#8216;game&#8217; illustrating the massive advantage the attack gives, ending with a situation in which &#8230; black(!) has a one-move mate.</p>
+<p>One example:</p>
+<p>In the two knight Copacabana tango defense against the bongcloud, that is the position after</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/bongcloud1.jpg" width=50% ><br />
+</center></p>
+<p>the Haight-Asbury (yeah, <a href="https://en.wikipedia.org/wiki/Haight-Ashbury">well</a>) game (Linares, 1987) continued with:</p>
+<p>4. Kg3, Nxe4?<br />
+5. Kh3, d6+<br />
+6. Qg4!, Bxg4<br />
+7. Kxg4, Qf6??<br />
+8. Ne2, h5+??<br />
+9. Kh3!, Nxf2<br />
+10. Kg3!</p>
+<p>giving this position</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/bongcloud2.jpg" width=50% ><br />
+</center></p>
+<p>which &#8216;Winning with the bongcloud&#8217; evaluates as:</p>
+<blockquote><p>White continues his textbook execution of a “pendulum,” swinging back and forth between g3 and h3 to counter every Black threat. With the dynamically placed King, Black’s attack teeters on the edge of petering out. Nxh1 will trap the Black Knight and extinguish the threat.</p>
+<p>In the actual game, play took a different turn as Black continued his h-file pressure. Nonetheless, this game is an excellent example of how 2. …Nc6 is often a wasted tempo in the Bongcloud.
+</p></blockquote>
+<p>Here&#8217;s Nakamura philosophising over the game and the bongcloud. Try to watch at least the first 30 seconds or so to see the commentators reaction to the actual Carlsen-Nakamura game.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/uMzYu-wL0nc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Now, that put a smile on your face, didn&#8217;t it?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-bongcloud-attack/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

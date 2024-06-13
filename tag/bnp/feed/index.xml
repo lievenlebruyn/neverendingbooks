@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>BNP &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/bnp/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 19 Jul 2019 07:30:55 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Grothendieck&#8217;s gribouillis (4)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-4/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-4/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 19 Jul 2019 07:30:55 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[france]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[BNP]]></category>
+		<category><![CDATA[Douroux]]></category>
+		<category><![CDATA[Gillot]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8388</guid>
+
+					<description><![CDATA[Fortunately, there are a few certainties left in life: In spring, you might expect the next instalment of Connes&#8217; and Consani&#8217;s quest for Gabriel&#8217;s topos.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Fortunately, there are a few certainties left in life:</p>
+<p>In spring, you might expect the next instalment of Connes&#8217; and Consani&#8217;s quest for <a href="https://lievenlebruyn.github.io/neverendingbooks/archangel-gabriel-will-make-you-a-topos">Gabriel&#8217;s topos</a>. Here&#8217;s the latest: <a href="https://arxiv.org/abs/1905.03310">$\overline{\mathbf{Spec}(\mathbb{Z})}$ and the Gromov norm</a>.</p>
+<p>Every half year or so, Mochizuki&#8217;s circle-of-friends tries to create some buzz announcing the next IUTeich-workshop. I&#8217;ll spare you the link, if you are still interested, follow <a href="https://twitter.com/math_jin">math_jin</a> or <a href="https://twitter.com/iutabc_bot">IUTT_bot_math_jin</a> on Twitter.</p>
+<p>And then, there&#8217;s the never-ending story of <a href="https://lievenlebruyn.github.io/neverendingbooks/?s=gribouillis">Grothendieck&#8217;s griboullis</a>, kept alive by the French journalist and author Philippe Douroux.</p>
+<p><img decoding="async" width=100% src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GrothGrib1.jpg"></p>
+<p>Here are some recent links:</p>
+<p><a href="https://www.lemonde.fr/sciences/article/2019/05/06/alexandre-grothendieck-une-mathematique-en-cathedrale-gothique_5459035_1650684.html">Alexandre Grothendieck : une mathématique en cathédrale gothique</a>, an article (in French) by Philippe Douroux in Le Monde, May 6th (behind paywall).</p>
+<p><a href="https://www.franceinter.fr/emissions/l-edito-carre/l-edito-carre-15-mai-2019">L’histoire étonnante des archives du mathématicien Alexandre Grothendieck</a>, an article (in French) on France Inter by Mathieu Vidar, based on info from Philippe Douroux.</p>
+<p><a href="https://www.franceinter.fr/emissions/la-tete-au-carre/la-tete-au-carre-10-juin-2019">Les archives mystérieuses de Alexandre Grothendieck</a>, a podcast of a broadcast on France Inter on June 10th. Interesting interview (in French) with Philippe Douroux and the French mathematician <a href="http://perso.ens-lyon.fr/ghys/home/">Etienne Ghys</a> (with a guest appearance by Luc Illusie).</p>
+<p><a href="https://elpais.com/elpais/2019/05/11/album/1557598548_352132.html?id_externo_rsoc=FB_CM#foto_gal_2">El enigmático legado de un genio de las matemáticas</a>, an article (in Spanish) in El Pais, May 13th, with 8 photos of some of the Gribouillis. The two pictures in this post are taken from this article.</p>
+<p>So, what&#8217;s the latest on the 70.000+ pages left by Grothendieck?</p>
+<p>As far as i know, the Mormoiron part of the gribouillis is still at the University of Montpellier, and has been made available online at the <a href="https://grothendieck.umontpellier.fr/archives-grothendieck/">Grothendieck archives</a>.</p>
+<p>The Lasserre part of the gribouillis is still in a cellar in Paris&#8217; Saint-Germain-des-Prés, belonging to <a href="http://www.alainbrieux.com/">Jean-Bernard Gillot</a>. The French national library cannot take possession of the notes before a financial agreement is reached with Grothendieck&#8217;s children (French law does not allow children to be disinherited).</p>
+<p>And there&#8217;s a dispute about the price to be paid. The notes were estimated at 45.000 Euros, but some prefer to believe that they may be worth several millions of dollars.</p>
+<p>It all depends on their mathematical content.</p>
+<p>Unfortunately, pictures claimed to be of the Lasserre notes (such as the one above) are in fact from the Mormoiron/Montpellier notes, which do indeed contain interesting mathematics.</p>
+<p>But, it is very unlikely that the Lasserre notes contain (math) surprises. Probably, most of them look like this one</p>
+<p><img decoding="async" width=100% src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GrothGrib2.jpg"></p>
+<p>endless lists of people deported by the Nazis to extermination camps in WW2.</p>
+<p>Or, as Philippe Douroux is quoted in the El Pais piece: &#8220;I think it&#8217;s a treasure, maybe not a mathematical one, but a human one. It&#8217;s a descent into the hell of one the best organised brains in the world.&#8221;</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GrothFilm"><br />
+</center></p>
+<p>The film made by Catherine Aira and Yves Le Pestipon &#8220;Alexandre Grothendieck: On the Paths of a Genius&#8221; (on the quest for G&#8217;s last hideout in the French Pyrenees) can now be watched on YouTube (with English subtitles)</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/zJnboQ_5-8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-4/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

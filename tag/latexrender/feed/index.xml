@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>latexrender &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/latexrender/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 19 Jan 2011 13:43:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>changes (ahead)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/changes-ahead/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/changes-ahead/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 19 Jan 2011 13:43:43 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4645</guid>
+
+					<description><![CDATA[In view or recents events &#38; comments, some changes have been made or will be made shortly : categories : Sanitized the plethora of wordpress-categories&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In view or recents events &amp; comments, some changes have been made or will be made shortly :</p>
+<p><strong>categories</strong> :  Sanitized the plethora of wordpress-categories to which posts belong. At the moment there are just 5 categories : &#8216;stories&#8217; and &#8216;web&#8217; (for all posts with low math-content) and three categories &#8216;level1&#8217;, &#8216;level2&#8217; and &#8216;level3&#8217;, loosely indicating the math-difficulty of a post.</p>
+<p><strong>MathJax</strong>  : After years of using LatexRender and WP-Latex, we&#8217;ll change to MathJax from now on. I&#8217;ll try to convert older posts as soon as possible. (Update : did a global search and replace. &#8216;Most&#8217; LaTeX works, major exceptions being matrices and xymatrix commands. I&#8217;ll try to fix those later with LatexRender.)</p>
+<p><strong>theme</strong> : The next couple of days, the layout of this site may change randomly as I&#8217;ll be trying out things with the <a href="http://swiftthemes.com/">Swift wordpress theme</a>. Hopefully, this will converge to a new design by next week.</p>
+<p><strong>name</strong> : Neverendingbooks will be renamed to something more math-related. Clearly, the new name will depend on the topics to be covered. On the main <a href="https://lievenlebruyn.github.io/neverendingbooks/">index page</a> a pop-up poll will appear in the lower right-hand corner after 10 seconds. Please fill in the topics you&#8217;d like us to cover (no name or email required).</p>
+<p>This poll will close on friday 21st at 12 CET and its outcome will influence name/direction of this blog. Use it also if you have a killer newname-suggestion. Among the responses so far, a funnier one : &#8220;An intro to, or motivation for non-commutative geometry, aimed at undergraduates. As a rule, I&#8217;d take what you think would be just right for undergrads, and then trim it down a little more.&#8221;</p>
+<p><strong>guest-posts</strong> : If you&#8217;d like to be a guest-blogger here at irregular times, please contact me. The first guest-post will be on noncommutative topology and the interpretation of quantum physics, and will appear soon. So, stay tuned&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/changes-ahead/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Snow leopard + wordpress + latex problem</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2009 17:09:05 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[Leopard]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2154</guid>
+
+					<description><![CDATA[Ever since I&#8217;ve upgraded to Snow Leopard I&#8217;ve been having problems with the webserver. At first there were the &#8216;obvious&#8217; problems : mysql-connection lost and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Ever since I&#8217;ve upgraded to <a href="http://www.apple.com/macosx/">Snow Leopard</a> I&#8217;ve been having problems with the webserver.</p>
+<p>At first there were the &#8216;obvious&#8217; problems : mysql-connection lost and php-error message. These were swiftly dealt with using the excellent <a href="http://wordpress.org/support/topic/306878">Snow Leopard, Apache, PHP, MySQL and WordPress!</a> advice from &#8216;tady&#8217;.</p>
+<p>Right now, access to this blog is extremely slow (and often impossible), certainly via the admin-page. The problem appears to be that most of my CPU is used by lots of pdfetex-processes owned by www. Hence the conjecture that it is a problem with either <a href="http://www.mayer.dial.pipex.com/tex.htm">LaTeXRender</a> or <a href="http://wordpress.org/extend/plugins/wp-latex/">WP LaTeX</a>.</p>
+<p>Anyone experiencing a similar problem, or knowing a trick to resolve it? Takk.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>math2.0-setup : final comments</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/math20-setup-final-comments/</link>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 26 Feb 2009 19:56:48 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1342</guid>
+
+					<description><![CDATA[Last time I promised to come back explaining how to set-up LaTeX-support, figuring I had to tell you about a few modifications I had to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/math20-setup-wpmu-and-buddypress.html">Last time</a> I promised to come back explaining how to set-up LaTeX-support, figuring I had to tell you about a few  modifications I had to make in order to get <a href="http://www.mayer.dial.pipex.com/tex.htm">Latexrender</a> run on my mac&#8230;</p>
+<p>A few google searches made it plain how out of touch I am on these matters (details below). But first, there was this comment to this series by Link Starbureiy :</p>
+<p>&#8220;I took part in Gowers’ blog discussion. My input was to move things over to Google collaboration tools, like Google Knol, and perhaps Google Sites. However, those tools for large-scale collaboration may not be the best solution anymore. I like the NSN idea, but worry about it’s very long-term stability. Would you consider porting the project over to the Google App Engine so that it can be played with in the orkut sandbox (http://sandbox.orkut.com)/?&#8221;</p>
+<p>I thought I made it clear from the outset that I didn&#8217;t want to spend the rest of my life web-mastering a site such as <a href="https://lievenlebruyn.github.io/neverendingbooks/mu/">NSN</a>. All I wanted to show is that the technology is there free for the taking, and show that you do not have to be a wizard to get it running even on a mac&#8230;</p>
+<p>I would <strong>really</strong> love it when some groups, or universities, on institutes, would set up something resembling this dedicated to a single arXiv-topic. Given <a href="http://www.math.ua.ac.be/algeo/?page_id=4">our</a> history, Antwerp University might be convinced to do this for math.RA but (a) I&#8217;m not going to maintain this on my own and (b) there may very well be a bandwidth problem if such a thing would become successful&#8230; (although, from past experiences and attempts I&#8217;ve made over the years, this is extremely unlikely for this target-group).</p>
+<p>So please, if your group has some energy to spare, set-up your own math2.0-network, port it to Google Apps, Knol, Orkut or whatever, and I&#8217;d love to join and contribute to it.</p>
+<p>As to LaTeX-support : this is trivial these days. First you need a working LaTeX-system on your virgin macbook. The best way is to download <a href="http://www.tug.org/mactex/">The MacTeX-2008 Distribution</a> at work (it is a huge 1.19Gb download&#8230;). Next, install the <a href="http://wordpress.org/extend/plugins/fauxml/">fauxml-wordpress plugin</a> (that is, download it to YourHome/Downloads and then drag the file faux-ml.php to the Library/WebServer/Documents/wp-content/plugins/ directory. Next, install likewise the <a href="http://wordpress.org/extend/plugins/wp-latex/">WP-LateX plugin</a> following the <a href="http://wordpress.org/extend/plugins/wp-latex/installation/">instructions</a>, go to the configuring page and set the directory for latex and dvipng  (if you follow my instructions they should be located at /usr/texbin/latex and /usr/texbin/dvipng), fill in the text color and background color you desire and clip your default latex-documentstyle/includepackages/newcommands section from your latest paper into the LaTeX Preamble window and believe me, you&#8217;re done!!!</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/latexstuff.jpg"><br />
+</center></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Writing &#038; Blogging</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/writing-blogging/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/writing-blogging/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 27 Feb 2008 19:04:34 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/writing-blogging.html</guid>
+
+					<description><![CDATA[Terry Tao is reworking some of his better blogposts into a book, to be published by the AMS (here&#8217;s a preliminary version of the book&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Terry Tao is <a href="http://terrytao.wordpress.com/2008/01/25/book-version-of-the-blog/">reworking</a> some of his better blogposts into a book, to be published by the AMS (here&#8217;s a <a href="http://terrytao.files.wordpress.com/2008/01/whatsnew.pdf">preliminary version</a> of the book &#8220;What&#8217;s New?&#8221;)</p>
+<blockquote><p>After some thought, I decided not to transcribe all of my posts from last year (there are 93 of them!), but instead to restrict attention to those articles which (a) have significant mathematical content, (b) are not announcements of material that will be published elsewhere, and (c) are not primarily based on a talk given by someone else. As it turns out, this still leaves about 33 articles from 2007, leading to a decent-sized book of a couple hundred pages in length.</p></blockquote>
+<p>If you have a blog and want to turn it into a LaTeX-book, there&#8217;s no need to transcribe or copy every single post, thanks to the <a href="http://xhtml-css.com/wptex/index.html">WPTeX tool</a>. Note that this is NOT a WP-plugin, but a (simple at that) php-program which turns all posts into a <strong>bookcontent.tex</strong> file. This file can then be edited further into a proper book.</p>
+<p>Unfortunately, the present version chokes on <a href="http://www.mayer.dial.pipex.com/tex.htm">LaTeXrender</a>-code (which is easy enough to solve doing a global &#8216;find-and-replace&#8217; of the tex-tags by dollar-signs) but worse, on <a href="http://daringfireball.net/projects/markdown/">Markdown</a>-code&#8230; But then, someone fluent in php-regex will have no problems extending the <strong>libs/functions.php</strong> file (I hope&#8230;).</p>
+<p>At the moment I&#8217;m considering turning the Mathieu-games-posts into a booklet. A possible title might be <strong>Math<font color =red>i</font>e<font color=red>u</font>matical Games</strong>. Rereading them (and other posts) I regret to be such an impatient blogger. Often I&#8217;m interested in something and start writing posts about it without knowing where or when I&#8217;ll land. This makes my posts a lot harder to get through than they might have been, if I would blog only after having digested the material myself&#8230; Typical recent examples are the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/key-compression.html">tori-crypto-posts</a> and the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bost-connes-coset-space.html">Bost-Connes algebra posts</a>.</p>
+<p>So, I still have a lot to learn from other bloggers I admire, such as <a href="http://www.jenniferouellette-writes.com/">Jennifer Ouellette</a> who maintains the <a href="http://twistedphysics.typepad.com/cocktail_party_physics/">Coctail Party Physics blog</a>. At the moment, Jennifer is resident blogger-journalist at the <a href="http://www.kitp.ucsb.edu/">Kavli Institute</a> where she is running a <a href="http://www.kitp.ucsb.edu/activities/journalist/current_talks.php">&#8220;Journal Club&#8221; workshop</a> giving ideas on how to write better about science.</p>
+<blockquote><p>But the KITP is also committed to fostering scientific communication. That&#8217;s where I come in. Each Friday through April 26th, I&#8217;ll be presiding over a &#8220;Journal Club&#8221; meeting focusing on some aspect of communicating science.
+</p></blockquote>
+<p>Her most recent talk was entitled <a href="http://online.itp.ucsb.edu/online/resident/ouellette2/">To Blog or Not to Blog? That is the Question</a> and you can find  the slides as well as a QuickTime movie of her talk. They even plan to set up a blog for the participants of the workshop. I will surely follow the rest of her course with keen interest!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/writing-blogging/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>thanks for linking</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/thanks-for-linking/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/thanks-for-linking/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 11 Jan 2008 13:05:12 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/thanks-for-linking.html</guid>
+
+					<description><![CDATA[I&#8217;ve re-installed the Google analytics plugin on december 22nd, so it is harvesting data for three weeks only. Still, it is an interesting tool to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/google-referrals.jpg" width=500 ></p>
+<p>I&#8217;ve re-installed the <a href="http://www.semiologic.com/software/marketing/google-analytics/">Google analytics plugin</a> on december 22nd, so it is harvesting data for three weeks only. Still, it is an interesting tool to gain insight in the social networking aspect of math-blogging, something I&#8217;m still very bad at&#8230;</p>
+<p>Below the list of all blogs referring at least 10 times over this last three weeks. In brackets are the <strong>number of referrals</strong> and included are the <strong>average time Avg.</strong> they spend on this site, as well as the <strong>bounce back rate BB</strong>. It gives me the opportunity to link back to some of their posts, as a small token of gratitude. I may repeat this  in the future, so please keep on linking&#8230;</p>
+<p><a href="http://www.math.columbia.edu/~woit/wordpress/">Not Even Wrong (69)</a> : Avg (1.05 min) BB (52.94%)</p>
+<p>The most recent post of Peter is an update on the <a href="http://www.math.columbia.edu/~woit/wordpress/?p=638">plagiarism scandal</a> on the arXiv.</p>
+<p><a href="http://golem.ph.utexas.edu/category/">The n-category cafe (63)</a> : Avg (2.13 min) BB (50%)</p>
+<p>The one series I followed at the cafe lately was the <a href="http://golem.ph.utexas.edu/category/2008/01/geometric_representation_theor_18.html">Geometric Representation Theory course</a> run by John Baez and James Dolan. They provide downloadable movies as well as notes.</p>
+<p><a href="http://borcherds.wordpress.com/">Richard Borcherd&#8217;s blog (47)</a> : Avg (1.53 min) BB (53.19%)</p>
+<p>It is great to see that Borcherds has taken up blogging again, with a post on the <a href="http://borcherds.wordpress.com/">uselessness of set theory</a>.</p>
+<p><a href="http://kea-monad.blogspot.com/">The Arcadian functor (32)</a> : Avg (3.45 min) BB (34.38 %)</p>
+<p>It is clear from the low bounce-back rate and the high average time spend on this site, that Kea&#8217;s readers and mine have common interests. Often I feel that Kea and I are talking about the same topics, but that our language is so different, that it is difficult for me to spot the precise connection. I definitely should start (for myself) a translation-project of her <a href="http://arcadianfunctor.wordpress.com/category/m-theory/">M-theory posts</a>.</p>
+<p><a href="http://rupertgee.wordpress.com/">RupertGee&#8217;s iBlog (23)</a> : Avg (6.48 min) BB (34.7 %)</p>
+<p>Surprisingly, and contrasting to my <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/sobering-up.html">previous rant</a> iTouch-people (or at least those coming here from Rupert Gee&#8217;s blog) sure take time to read the posts and look for more.</p>
+<p><a href="http://www.arsmathematica.net/">Ars Mathematica (22)</a> : Avg (0:01 min) BB (77,2 %)</p>
+<p>Well, the average time and bounce back rate say it all : people coming here from Ars Mathematica are not interested in longer posts&#8230;</p>
+<p><a href="http://www.ipodtouchfans.com/forums/showthread.php">iTouch Fans Forum (14)</a> : Avg (2:07 min) BB (42.86 %)</p>
+<p>Again, better statistics than I would have expected.</p>
+<p><a href="http://vivatsgasse7.wordpress.com/">Vivatsgasse 7 (13)</a> : Avg (1:51 min) BB (38.46 %)</p>
+<p>I hope these guys haven&#8217;t completely given up on blogging as it is one of my favourites.</p>
+<p><a href="http://www.sixthform.info/maths/">Sixth form mathematics (12)</a> : Avg (1:40 min) BB (25 %)</p>
+<p>My few old posts on LaTeXrender still draw referrals&#8230;</p>
+<p><a href="http://strategicboard.com/index.php">Strategic Boards (12)</a> : Avg (0:01 min) BB (91.67 %)</p>
+<p>People in strategic board games are not really in my game-posts it seems&#8230;</p>
+<p><a href="http://cornellmath.wordpress.com/">The Everything Seminar (11)</a> : Avg (2:04 min) BB (72.73 %)</p>
+<p>Greg Muller has been posting a couple of nice posts on chord diagrams, starting <a href="http://cornellmath.wordpress.com/2007/12/13/chord-diagrams/">here</a>.</p>
+<p><a href="http://noncommutativegeometry.blogspot.com/">Noncommutative Geometry (11)</a> : Avg (3:36 min) BB (27.27 %)</p>
+<p>Well, we are interested in the same thing viewed from different angles, so good average times and a low bounce back rate. Maybe, I should make another attempt to have cross-interaction between the two blogs.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/thanks-for-linking/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>working archive plugin, please!</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/working-archive-plugin-please/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/working-archive-plugin-please/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 08 Jan 2008 19:22:47 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[foaf]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=331</guid>
+
+					<description><![CDATA[Over the last two weeks Ive ported all old neverendingbooks-post from the last 4 years to a nearly readable format. Some tiny problems remain :&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Over the last two weeks Ive ported all old neverendingbooks-post from the last 4 years to a nearly readable format. Some tiny problems remain : a few TeX-heavy old posts are still in $&#8230;$ format rather than LaTeXrender-compatible (but Ill fix this soon), a few links may turn out to be dead (still have to check out those), TheLibrary-project links do not exist at the moment (have to decide whether to revive the project or to start a similar idea afresh), some other techie-things such as FoaF-stuff will be updated/expanded soon, et. etc. (and still have to port some 20 odd posts).</p>
+<p>Anyway, the good news being that we went from about 40 posts since last july to over 310 posts, all open to the internal Search engine. Having all this stuff online is only useful if one can browse through it easily, so I wanted to install a proper up-to-date archive-plugin&#8230;</p>
+<p>The current theme <a href="http://deanjrobinson.com/wordpress/redoable">Redoable</a> has build-in support for the <a href="http://www.sonsofskadi.net/extended-live-archive/">Extended Live Archives v0.10beta-r18 plugin</a> which would be ideal if I could get it  installed&#8230; Im not the total newbie in installing WordPress-plugins and Ive read all the documentation and the support-forum and chmodded whathever I felt like chmodding, but still no success&#8230; If you know how to kick it into caching the necessary files, please drop a comment!</p>
+<p>The next alternative Ive tried was <a href="http://www.awsom.org/awsom-drop-down-archive/">the AWSOM Archive Version 1.2.3 plugin</a> which gave me a pull-down menu just under the title-bar but not much seems to happen when using bloody Safari (Flock was OK though). Maybe Ill give it another go&#8230;</p>
+<p><strong>UPDATE (jan. 9th) : The AWSOM Archive seems to be working fine with the Redoable theme when custom installed in the footer. So, there is now a pulldown-menu at the bottom of the page.</strong></p>
+<p>**UPDATE (jan. 12th) : Ive installed the new version 1.3 of <a href="http://www.awsom.org/2008/awsom-archive-updated-to-version-130/">AWSOM Archive</a> and it works from the default position **</p>
+<p>At a loss I opted in the end for the simplest (though not the most aesthetic) plugin : <a href="http://justinblanton.com/projects/smartarchives/">Justin Blanton&#8217;s Smart Archives</a>. This provides a year-month scheme at the top followed by a reverse ordered list of all months and titles of posts and is available as the <a href="https://lievenlebruyn.github.io/neverendingbooks/?page_id=330">arXiv neverendingbooks</a> link available also from the sidebar (up, second link). I hope it will help you not to get too lost on this site&#8230;</p>
+<p>Suggestions for a working-from-the-box WordPress Archive plugin, anyone???</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/working-archive-plugin-please/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NeverEndingBooks-games</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-games/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-games/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 13 Jun 2007 13:55:35 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[dvonn]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://localhost/?p=9</guid>
+
+					<description><![CDATA[Here a list of pdf-files of NeverEndingBooks-posts on games, in reverse chronological order. Dvonn 2 overload LatexRender and Dvonn-boards Dvonn 1 mobility A DaVinci chess&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here a list of pdf-files of NeverEndingBooks-posts on games, in reverse chronological order.</p>
+<p><span id="more-12055"></span></p>
+<p><a href="NEBPDFS/144.pdf">Dvonn 2 overload</a></p>
+<p><a href="NEBPDFS/142.pdf">LatexRender and Dvonn-boards</a></p>
+<p><a href="NEBPDFS/141.pdf">Dvonn 1 mobility</a></p>
+<p><a href="NEBPDFS/21.pdf">A DaVinci chess problem</a></p>
+<p><a href="NEBPDFS/19.pdf">Bivalue Sudoku graphs</a></p>
+<p><a href="NEBPDFS/17.pdf">microsudoku.sty</a></p>
+<p><a href="NEBPDFS/15.pdf">A 2006 chess puzzle anyone?</a></p>
+<p><a href="NEBPDFS/12.pdf">Hints for micro-Sudoku</a></p>
+<p><a href="NEBPDFS/11.pdf">Micro-Sudoku</a></p>
+<p><a href="NEBPDFS/8.pdf">Sudoku mania (bis)</a></p>
+<p><a href="NEBPDFS/29.pdf">Sudoku mania</a></p>
+<p><a href="NEBPDFS/271.pdf">SnortGo 2</a></p>
+<p><a href="NEBPDFS/270.pdf">Quintominal dodecahedra</a></p>
+<p><a href="NEBPDFS/28.pdf">Elkies&#8217; puzzles</a></p>
+<p><a href="NEBPDFS/112.pdf">Fox and geese</a></p>
+<p><a href="NEBPDFS/111.pdf">SnortGo</a></p>
+<p><a href="NEBPDFS/103.pdf">ColGo</a></p>
+<p><a href="NEBPDFS/92.pdf">Antwerp sprouts</a></p>
+<p><a href="NEBPDFS/90.pdf">Combinatorial game software</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-games/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NeverEndingBooks-general</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-general/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-general/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 12 Jun 2007 13:17:35 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[GMD]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[teaching]]></category>
+		<category><![CDATA[Tiger]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://localhost/?p=8</guid>
+
+					<description><![CDATA[Here a list of pdf-files of NeverEndingBooks-posts on general topics, in reverse chronological order. Bloomsday end Group think 2 Down with determinants Group think MathML&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here a list of pdf-files of NeverEndingBooks-posts on general topics, in reverse chronological order.</p>
+<p><span id="more-12054"></span></p>
+<p><a href="NEBPDFS/323.pdf">Bloomsday end</a></p>
+<p><a href="NEBPDFS/322.pdf">Group think 2</a></p>
+<p><a href="NEBPDFS/321.pdf">Down with determinants</a></p>
+<p><a href="NEBPDFS/317.pdf">Group think</a></p>
+<p><a href="NEBPDFS/310.pdf">MathML versus LatexRender</a></p>
+<p><a href="NEBPDFS/303.pdf">Stalking the Riemann hypothesis</a></p>
+<p><a href="NEBPDFS/238.pdf">MathML and work ahead</a></p>
+<p><a href="NEBPDFS/234.pdf">The secret life of numbers</a></p>
+<p><a href="NEBPDFS/220.pdf">CCDantas on blogging</a></p>
+<p><a href="NEBPDFS/211.pdf">Doing the Perelman</a></p>
+<p><a href="NEBPDFS/206.pdf">The n-category cafe</a></p>
+<p><a href="NEBPDFS/190.pdf">Writing with gloves on</a></p>
+<p><a href="NEBPDFS/179.pdf">Why mathematicians cannot write</a></p>
+<p><a href="NEBPDFS/178.pdf">The music of the primes</a></p>
+<p><a href="NEBPDFS/173.pdf">arXiv trackback wars</a></p>
+<p><a href="NEBPDFS/146.pdf">citeUlike</a></p>
+<p><a href="NEBPDFS/143.pdf">The efficient academic</a></p>
+<p><a href="NEBPDFS/20.pdf">2005 lists : math novels</a></p>
+<p><a href="NEBPDFS/16.pdf">Teaching mathematics</a></p>
+<p><a href="NEBPDFS/14.pdf">Two TA Tales</a></p>
+<p><a href="NEBPDFS/10.pdf">The Oxford murders</a></p>
+<p><a href="NEBPDFS/9.pdf">Mappalujo</a></p>
+<p><a href="NEBPDFS/3.pdf">LatexRender Plugin for WordPress under Tiger</a></p>
+<p><a href="NEBPDFS/57.pdf">GMD</a></p>
+<p><a href="NEBPDFS/268.pdf">Google scholar</a></p>
+<p><a href="NEBPDFS/249.pdf">Simonne Stevens (1926-2004)</a></p>
+<p><a href="NEBPDFS/32.pdf">Quiver pictures in WordPress</a></p>
+<p><a href="NEBPDFS/136.pdf">Groen moet!</a></p>
+<p><a href="NEBPDFS/132.pdf">Artistic (and other) frustrations</a></p>
+<p><a href="NEBPDFS/94.pdf">The cpu 2 generation</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-general/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mathML versus LaTeXRender</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mathml-versus-latexrender/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mathml-versus-latexrender/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 21 Mar 2007 12:16:04 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[Leopard]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=207</guid>
+
+					<description><![CDATA[No math today. If you&#8217;re interested in the latest on noncommutative geometry, head over to the NCG-blog where Alain Connes has a post on Time.&#8230;]]></description>
+										<content:encoded><![CDATA[<dl>
+<dt>No math</dt>
+<dt>today. If you&#8217;re interested in the latest on noncommutative geometry,</dt>
+<dt>head over to the NCG-blog where Alain Connes has a post on</dt>
+<dt><a href="http://noncommutativegeometry.blogspot.com/2007/03/time.html">Time</a>.</dt>
+<dt>Still, Alain&#8217;s post is a good illustration of what Ill be rambling about</dt>
+<dd>TeX and how to use it in a blog.</dd>
+</dl>
+<p>If you&#8217;re running a math-blog,<br />
+sooner or later you want to say something more than new-age speak like<br />
+&#8216;points talking to each other&#8217; and get to the essence of it. In short,<br />
+you want to talk math and it&#8217;s a regrettable fact that math doesnt go<br />
+well with ASCII. In everyday life we found a way around this : we all<br />
+use TeX to write papers and even email-wise (among mathematicians) we<br />
+write plain TeX-commands as this language is more common to us than<br />
+English. But, plain TeX and the blogosphere don&#8217;t mix well. If you&#8217;re<br />
+expecting only professional mathematicians to read what you write, you<br />
+might as well arXiv your thoughts. Im convinced the majority of people<br />
+coming here (for whatever reason) dont speak plain-TeX.  Fortunately,<br />
+there is technology to display TeX-symbols on a blog. Personally, I was<br />
+an early adapter to<br />
+<a href="http://www.mayer.dial.pipex.com/tex.htm">LaTeXRender</a> and even today a<br />
+fair share of page-views relates to the few<br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/?s=latexrender">posts</a> I did on<br />
+how to get latexrender working on a mac. Some time ago I<br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/?p=204">switched</a> to mathML and now I&#8217;m<br />
+regretting I ever did&#8230;</p>
+<p>Mind you, I&#8217;m convinced that mathML is the<br />
+&#8216;proper&#8217; way to get TeX to the internet but there are at the moment some<br />
+serious drawbacks. For starters, it is highly user-unfriendly. You<br />
+simply cannot expect people to switch browsers (as well as installing<br />
+extra fonts) just because they come to your site (or you have to be a<br />
+pretty arrogant git). Speaking for myself, Im still having (against my<br />
+better judgment) Safari as my default browser, so when I come to a site<br />
+like the <a href="http://golem.ph.utexas.edu/category/">n-category cafe</a> I just<br />
+skim the plain-text in between and if (and only if) the topic interests<br />
+me tremendously I&#8217;ll allow myself to switch to Flock or Firefox to read<br />
+the post in detail. I&#8217;m convinced most of you have a similar<br />
+surfing-attitude.  MathML also has serious consequences on the<br />
+server-side. If you want to serve mathML you have to emit headers which<br />
+expect everything to follow to be purified XHTML. If I ever forget a<br />
+closing tag in a post, this is enough to break down NeverEndingBooks to<br />
+all Firefox-users. I&#8217;ve been writing HTML since the times when the best<br />
+browser around was something called <a href="http://en.wikipedia.org/wiki/Mosaic_(web_browser\\)">NCSA Mosaic</a> so Ive a<br />
+pretty lax attitude to end-tags (especially in IMG-tags) and Im just<br />
+getting too old to change these bad habbits now&#8230;  It seems I&#8217;m not the<br />
+only one. Many developers of WordPress-plugins write bad XHTML-code, so<br />
+the last couple of weeks I&#8217;ve been spending more time fixing up code<br />
+than writing posts. If you want to run a mathML-wordpress site you might<br />
+find the following hints helpfull.   If you get a &#8216;yellow screen of<br />
+death&#8217; when viewing your site with Firefox, chances are that one of your<br />
+plugin-authors missed a closing tag in the HTML-rendering of his/her<br />
+plugin. As a rule of thumb : go for the IMG-tags first!   I&#8217;m sorry to<br />
+say, but <a href="http://www.sixthform.info/steve/wordpress/">Latexrender-Steve</a><br />
+is among the XHTML-offenders. (On a marginal note, LaTeXrender also has<br />
+its drawbacks : to mathematicians this may seem incredible but what<br />
+Latexrender does to get one expression displayed is to TeX an entire<br />
+file, get the image from the ps-file turn it into a gif and display it,<br />
+so one gets a GIF-folder of enrmous proportions. Hence, use Latexrender<br />
+only if you have your own server and dont have to care about memory<br />
+constraints. Another disadvantedge was that the GIFs were displayed with<br />
+a vertical offset, but this has been solved recently (use the &#8216;offset<br />
+beta&#8217; files in the distribution)). Wrt. to that offset-beta version, use<br />
+this <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/latex.php.txt">latex.php file</a> instead (I<br />
+changed the IMG-line).  Some plugins may not serve the correct headers<br />
+to display mathML. So, if you want to allow readers to have a<br />
+printer-friendly version of your mathML-post, get the <a href="http://www.lesterchan.net/wordpress/readme/wp-print.html">WP-print plugin</a> BUT<br />
+change to this <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/wp-print.php.txt">wp-print.php file</a> in order to<br />
+send the proper headers.  Sometimes there are just forgotten lines/tags<br />
+in the code, such as in the [future calendar plugin](http://anthologyoi.com/wordpress/plugins/future-posts-calendar-<br />
+plugin.html). So, please use <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/future_calendar.php.txt">this version</a><br />
+of the future.calendar.php file.   And so on, and so on. The joys of<br />
+trying to maintain a mathML-based blog&#8230; So, no surprise I&#8217;m seriously<br />
+considering to ditch mathML and change to normal headers soon. One of<br />
+the things I like about LaTeXRender is that it can be extended, meaning<br />
+that you can get your own definitions and packages loaded whereas with<br />
+mathML you&#8217;re bound to write iTeX, which Ill never manage.  But, again,<br />
+mathML will be the correct technology once all major browsers are mathML<br />
+capable and the font-problem is resolved. Does anyone know whether<br />
+Safari 3 (in Leopard, that is Mac OS 10.5 to the rest of you) will be<br />
+mathML-able?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mathml-versus-latexrender/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mathML and work ahead</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 08 Feb 2007 09:36:55 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[dvonn]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[PPC]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=204</guid>
+
+					<description><![CDATA[It has been a difficult design decision, but I‚Äôm going to replace the LaTeXRender WordPress Plugin for mathML as the default TeX-interface for NeverEndingBooks. I&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It has<br />
+been a difficult design decision, but I‚Äôm going to replace the <a href="http://www.sixthform.info/steve/wordpress/">LaTeXRender WordPress<br />
+Plugin</a> for <a href="http://www.w3.org/Math/">mathML</a> as the<br />
+default TeX-interface for NeverEndingBooks. I will keep LaTeXRender on<br />
+standby as I may have to use exotic packages or commands that iTeX does<br />
+not deliver, but for most math-related posts, MathML will do the job<br />
+nicely (as <a href="http://golem.ph.utexas.edu/category/">the n-category<br />
+cafe</a> shows every day (or even more often)). Not that I stopped being<br />
+a dilettante but I&#8217;m going to do most of my writings (including<br />
+blog-posts) using <a href="http://www.literatureandlatte.com/">Scrivener</a> (more on this<br />
+another time) and Scrivener supports <a href="http://fletcher.freeshell.org/wiki/MultiMarkdown">MultiMarkdown</a> and allows exporting to LaTeX and XHTML (using MathML).</p>
+</p>
+<p>I could never have pulled this off in such a short time without <a href="http://golem.ph.utexas.edu/~distler/blog/">Jacques Distler</a><br />
+more or less on constant stand-by (thanks Jacques!). Looking at the<br />
+times his emails were send I have no idea in which time zone he lives<br />
+(let alone sleeps&#8230;). So, here a walk-through the changes :</p>
+<p>As<br />
+I&#8217;m on WP 2.0.5 I&#8217;ll start with Frederick&#8217; <a href="http://www.ibiblio.org/litlfred/mathBlog/projects/itextomml">post</a>. He tells me I have to install first the itex2MML binary as<br />
+explained <a href="http://golem.ph.utexas.edu/~distler/blog/archives/000367.html">by<br />
+Jacques</a> but I find that there is more recent <a href="http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html"><br />
+material</a> and therefore download the most recent imath2MML-package<br />
+and follow the readme. There is a Mac OSX binary but it&#8217;s not clear<br />
+for what processor (PPC/Intel/Binary) but a quick mail to Jacques learns<br />
+me that it&#8217;s PPC which is fine by me but on the spot he puts a<br />
+universal binary online, so whatever your Mac is you can just download<br />
+the binary, copy it to /usr/local/bin and make sure its chmodded<br />
+755.</p>
+<p>Back to Frederick&#8217;s <a href="http://www.ibiblio.org/litlfred/mathBlog/projects/itextomml">post</a>, download and install the plugin itexToMML.php in the usual way<br />
+(fortunately I spot just in time that I have to change one line saying<br />
+where my itex2MML binary is (in Frederick&#8217;s file it is NOT the default<br />
+location)). You can verify whether the plugin and itex2MML do what they<br />
+are supposed to do by typing a LaTeX-command in a post and save it. The<br />
+output will not produce the desired formula but have a look at the<br />
+source file and see whether there is some mathML code in it. If so,<br />
+fine! If not, go back and check everything.</p>
+<p>If this works, it is<br />
+&#8220;merely&#8221; a problem of getting your mathML served. Frederick suggests<br />
+to unpack wordpress_mathML.zip in the wp-includes directory (but you<br />
+better make sure you have made a copy of the original class.php and<br />
+functions-formatting.php files. In the end I decided against this<br />
+approach (that is, to replace only the functions-formatting.php but NOT<br />
+the class.php file). If you have two or more themes you want to<br />
+maintain, it is probably better to change the headers (because this is<br />
+what we have to do to get mathML served) only in those themes which are<br />
+XML-sound. In my case, the Command Line Interface theme most certainly is NOT!!!).</p>
+<p>Go to your<br />
+theme-files and look for the header.php (or similar) file and replace<br />
+the default header by the code in the addendum to <a href="http://golem.ph.utexas.edu/~distler/blog/archives/000367.html"><br />
+this post</a> within php-tags. If you can go to your blog-page then you<br />
+are in good shape and things should work well (apart possibly from<br />
+layout considerations, see below). Of course, in my case i was greeted<br />
+by &#8221; XML &#8220;yellow screen of death&#8221; (as Jacques calls<br />
+it) and I was convinced I did something wrong, so I tried out several<br />
+useless things for a couple of hours before it dawned on me that the<br />
+reason might just be that my blog-files were not valid XHTML (and the<br />
+new headers are very demanding on serving only well-form XHTML). I had<br />
+to modify all changes I made to sidebars etc. as well as rewrite parts<br />
+of my first posts (I used to take a rather liberal view on writing<br />
+blog-posts, writing a mixture between Markdown and improvised HTML and<br />
+in the process was very lax about closing IMG-tags and the likes).<br />
+But after some time and numerous corrections to the files I got the<br />
+main-page up and running (and even had the mathML served as a readable<br />
+formula) apart from the fact that I barely recognized my own site.</p>
+<p>I printed out source files of the page with and without changed<br />
+headers and couldn‚Äôt find a difference. So, it had to do with the<br />
+CSS-style files, but why on earth would the new headers be picky about<br />
+CSS? But as a last resort, after narrowing the search down to one<br />
+CSS-line, I asked Jacques whether he had an idea what went on. His reply<br />
+will be remembered for quite some time :</p>
+<blockquote><p>A fascinating<br />
+question.  The answer is that it *is* following the CSS directive, but<br />
+in XHTML, &#8216;body&#8217; is not what you think it is.  &#8216;body&#8217; is just big enough<br />
+to contain its content. It does not fill the viewport. &#8216;html&#8217; fills the<br />
+viewport.  The solution (a solution) is described in<br />
+http://golem.ph.utexas.edu/~distler/blog/archives/000203.html
+</p></blockquote>
+<p>Many hours later, I still haven‚Äôt got a clue what<br />
+this is all about, but I blindly followed the hint and surely all<br />
+problems vanished. In short, another day wasted in front of a<br />
+computer-screen.</p>
+<p>At the moment I&#8217;m back to old headers and<br />
+will not be writing mathML for some time as I have the vast job ahead to<br />
+validate all my previous posts to XHTML-standards (if not you would see<br />
+more yellows screens of death than anything else. So, here‚Äôs the<br />
+strategy I&#8217;ll be taking in the weeks ahead (I&#8217;ll sleep on it tonight<br />
+so if any of you think there is a better way, reply quickly)</p>
+<ul>
+<li>rewrite each and every post in proper MultiMarkdown using iTeX for<br />
+the most common math and only resorting to LaTeXRender for exotic things<br />
+(such as Sudoku, Chess, Dvonn) and run these posts through Markdown<br />
+(to get basic HTML and all links in place).</li>
+<li>download these<br />
+files to the WP-database (so that in the CLI-interface you will be able<br />
+to follow all links, but will read all iTeX as TeX-commands (as the<br />
+command line intended after all).</li>
+<li>in the process change all<br />
+broken links to the default permalink-structure (with index.php?p=231 or<br />
+so).</li>
+</ul>
+<p>Clearly, this is a work that will take a couple of<br />
+weeks but it may be fun to reread these old posts and possibly add new<br />
+information about the subjects. When I‚Äôm making these changes, I‚Äôll<br />
+use the new headers so if you are using a smart browser look out for the<br />
+yellow screens. When they happen, either use a dumb browser (such as<br />
+Safari) or go into CLI-interface mode where everything should still<br />
+work. I plan to start with the oldest posts as this seems more fun to<br />
+me.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

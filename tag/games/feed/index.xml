@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>games &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/games/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 29 Sep 2023 09:51:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>A question of loyalty</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 29 Sep 2023 09:51:24 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[epistemic]]></category>
+		<category><![CDATA[loyalty]]></category>
+		<category><![CDATA[modal]]></category>
+		<category><![CDATA[question]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11739</guid>
+
+					<description><![CDATA[On the island of two truths, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$). The King and Queen of the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>On the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths">island of two truths</a>, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$).</p>
+<p>The King and Queen of the island have an opinion on all statements which may differ from their actual truth-value. We say that the Queen <em>believes</em> a statement $p$ is she assigns value $Q$ to it, and that she <em>knows</em> $p$ is she believes $p$ and the actual truth-value of $p$ is indeed $Q$. Similarly for the King, replacing $Q$&#8217;s by $K$&#8217;s.</p>
+<p>All other inhabitants of the island are <em>loyal</em> to the Queen, or to the King, or to both. This means that they <em>agree</em> with the Queen (or King, or both) on all statements they have an opinion on. Two inhabitants are said to be <em>loyal</em> to each other if they agree on all statements they both have an opinion of.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths">Last time</a> we saw that Queen and King agree on all statements one of them believes to be false, as well as the negation of such statements. This raised the question:</p>
+<p><em>Are the King and Queen loyal to each other? That is, do Queen and King agree on all statements?</em></p>
+<p>We cannot resolve this issue without the information Oscar was able to extract from Pointex in <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a>&#8216;s post <a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a>:</p>
+<p>&#8220;Oscar was determined to get some more information. &#8220;Could you at least tell me whether the queen and the king know that they&#8217;re loyal to themselves?&#8221; he asked.<br />
+&#8220;Well, of course they know that!&#8221; replied Pointex.<br />
+&#8220;You said that a proposition can be Q-TRUE, K-TRUE or FALSE,&#8221; Oscar said.<br />
+&#8220;Yes, of course. What else!&#8221; replied Pointex as he threw the cap high up.<br />
+&#8220;Well, you also said that each native was loyal either to the queen or to the king. I was just wondering &#8230; Assume that A is loyal to the queen. Then what is the truth value of the statement: A is loyal to the queen?&#8221;<br />
+&#8220;Q, of course,&#8221; answered Pointex as he threw the cap up again.<br />
+&#8220;And what if A is not loyal to the queen? What is then the truth value of the statement: A is loyal to the queen?&#8221;<br />
+He barely finished his question as something fell over his face and covered his eyes. It was the funny cap.<br />
+&#8220;Thanx,&#8221; said Pointex as Oscar handed him the cap. &#8220;The value is 0, of course.&#8221;<br />
+&#8220;Can the truth value of the statement: &#8216;A is loyal to the queen&#8217; be K in any case?&#8221;<br />
+&#8220;Well, what do you think? Of course not! What a ridiculous thing to ask!&#8221; replied Pointex.&#8221;</p>
+<p><strong>Puzzle</strong> : Show that Queen and King are <em>not</em> loyal to each other, that is, there are statements on which they do not agree.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/loyalty.jpg" width=70%><br />
+</center></p>
+<p><strong>Solution</strong> : &#8216;The King is loyal to the Queen&#8217; must have actual truth-value $0$ or $Q$, and the sentence &#8216;The Queen is loyal to the King&#8217; must have actual truth-value $0$ or $K$. But both these sentences are the same as the sentence &#8216;The Queen and King are loyal to each other&#8217; and as this sentence can have only one truth-value, it must have value $0$ so the statement is false.</p>
+<p>Note that we didn&#8217;t produce a specific statement on which the Queen and King disagree. Can you find one?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the strange island of two truths</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 26 Sep 2023 14:57:07 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[island]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[strange]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[truths]]></category>
+		<category><![CDATA[two]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11699</guid>
+
+					<description><![CDATA[Last time we had a brief encounter with the island of two truths, invented by Karin Cvetko-Vah. See her posts: Oscar on the island of&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers">Last time</a> we had a brief encounter with the island of two truths, invented by <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a>. See her posts:</p>
+<ul>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">Oscar on the island of two truths</a></li>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a></li>
+</ul>
+<p>On this island, false statements have truth-value $0$ (as usual), but non-false statements are not necessarily true,  but can be given either truth-value $Q$ (statements which the Queen on the island prefers) or $K$ (preferred by the King).</p>
+<p>Think of the island as Trump&#8217;s paradise where nobody is ever able to say: <a href="https://en.wikipedia.org/wiki/Alternative_facts">&#8220;Look, alternative truths are not truths. They&#8217;re falsehoods.&#8221;</a></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2truths.png" width=70%><br />
+</center></p>
+<p>Even the presence of just one &#8216;alternative truth&#8217; has dramatic consequences on the rationality of your reasoning. If we know the truth-values of specific sentences, we can determine the truth-value of more complex sentences in which we use logical connectives such as $\vee$ (or), $\wedge$ (and), $\neg$ (not), and $\implies$ (then) via these truth tables:</p>
+<p>\[<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\bf{\wedge}~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+Q &#038; 0 &#038; Q &#038; Q \\<br />
+K &#038; 0 &#038; K &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\vee~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; Q &#038; K \\<br />
+Q &#038; Q &#038; Q &#038; K \\<br />
+K &#038; K &#038; Q &#038; K<br />
+\end{array} \]<br />
+\[<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\implies~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; Q &#038; Q &#038; K \\<br />
+Q &#038; 0 &#038; Q &#038; K \\<br />
+K &#038; 0 &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|c}<br />
+ \downarrow &#038; \neg~\downarrow \\<br />
+\hline<br />
+0 &#038; Q \\<br />
+Q &#038; 0 \\<br />
+K &#038; 0<br />
+\end{array}<br />
+\]</p>
+<p>Note that the truth-values $Q$ and $K$ are not completely on equal footing as we have to make a choice which one of them will stand for $\neg 0$.</p>
+<p>Common <a href="https://en.wikipedia.org/wiki/Tautology_(logic)">tautologies</a> are no longer valid on this island. The best we can have are $Q$-tautologies (giving value $Q$ whatever the values of the components) or $K$-tautologies.</p>
+<p>Here&#8217;s one $Q$-tautology (check!) : $(\neg p) \vee (\neg \neg p)$. Verify that $p \vee (\neg p)$ is neither a $Q$- nor a $K$-tautology.</p>
+<p>Can you find any $K$-tautology at all?</p>
+<p>Already this makes it incredibly difficult to adapt Smullyan-like <a href="https://en.wikipedia.org/wiki/Knights_and_Knaves">Knights and Knaves</a> puzzles to this skewed island. <a href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers">Last time</a> I gave one easy example.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2island2.png" width=70%><br />
+</center></p>
+<p><strong>Puzzle</strong> : On an island of two truths all inhabitants are either Knaves (saying only false statements), Q-Knights (saying only $Q$-valued statements) or K-Knights (who only say $K$-valued statements).</p>
+<p>The King came across three inhabitants, whom we will call $A$, $B$ and $C$. He asked $A$: &#8220;Are you one of my  Knights?&#8221; $A$ answered, but so indistinctly that the King could not understand what he said.</p>
+<p>He then asked $B$: &#8220;What did he say?&#8221; $B$ replies: &#8220;He said that he is a Knave.&#8221; At this point, $C$ piped up and said: &#8220;That&#8217;s not true!&#8221;</p>
+<p>Was $C$ a Knave, a Q-Knight or a K-Knight?</p>
+<p><strong>Solution</strong> : Q- and K-Knights can never claim to be a Knave. Neither can Knaves because they can only say false statements. So, no inhabitant on the island can ever claim to be a Knave. So, $B$ lies and is a Knave, so his stament has truth-value $0$. $C$ claims the negation of what $B$ says so the truth-value of his statement is $\neg 0 = Q$. $C$ must be a Q-Knight.</p>
+<p>As if this were not difficult enough, Karin likes to complicate things by letting the Queen and King assign their own truth-values to all sentences, which may coincide with their actual truth-value or not.</p>
+<p>Clearly, these two truth-assignments follow the logic of the island of two truths for composed sentences, and we impose one additional rule: if the Queen assigns value $0$ to a statement, then so does the King, and vice versa.</p>
+<p>I guess she wanted to set the stage for variations to the island of two truths of <a href="https://en.wikipedia.org/wiki/Epistemic_modal_logic">epistemic modal logical</a> puzzles as in Smullyan&#8217;s book <a href="https://raymondsmullyan.com/books/forever-undecided/">Forever Undecided</a> (for a quick summary, have a look at Smullyan&#8217;s paper <a href="http://www.tark.org/proceedings/tark_mar19_86/p341-smullyan.pdf">Logicians who reason about themselves</a>).</p>
+<p>A possible interpretation of the Queen&#8217;s truth-assignment is that she assigns value $Q$ to all statements she believes to be true, value $0$ to all statements she believes to be false, and value $K$ to all statements she has no fixed opinion on (she neither believes them to be true nor false). The King assigns value $K$ to all statements he believes to be true, $0$ to those he believes to be false, and $Q$ to those he has no fixed opinion on.</p>
+<p>For example, if the Queen has no fixed opinion on $p$ (so she assigns value $K$ to it), then the King can either believe $p$ (if he also assigns value $K$ to it) or can have no fixed opinion on $p$ (if he assigns value $Q$ to it), but he can never believe $p$ to be false.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2island3.png" width=70%><br />
+</center></p>
+<p><strong>Puzzle</strong> : We say that Queen and King &#8216;agree&#8217; on a statement $p$ if they both assign the same value to it. So, they agree on all statements one of them (and hence both) believe to be false. But there&#8217;s more:</p>
+<ul>
+<li>Show that Queen and King agree on the negation of all statements one of them believes to be false.</li>
+<li>Show that the King never believes the negation of whatever statement.</li>
+<li>Show that the Queen believes all negations of statements the King believes to be false.</li>
+</ul>
+<p><strong>Solution</strong> : If one of them believes $p$ to be false (s)he will assign value $0$ to $p$ (and so does the other), but then they both have to assign value $Q$ to $\neg p$, so they agree on this.</p>
+<p>The value of $\neg p$ can never be $K$, so the King does not believe $\neg p$.</p>
+<p>If the King believes $p$ to be false he assigns value $0$ to it, and so does the Queen, but then the value of $\neg p$ is $Q$ and so the Queen believes $\neg p$.</p>
+<p>We see that the Queen and King agree on a lot of statements, they agree on all statements one of them believes to be false, and they agree on the negation of such statements!</p>
+<p>Can you find any statement at all on which they do not agree?</p>
+<p>Well, that may be a little bit premature. We didn&#8217;t say which sentences about the island are allowed, and what the connection (if any) is between the Queen and King&#8217;s value-assignments and the actual truth values.</p>
+<p>For example, the Queen and King may agree on a classical ($0$ or $1$) truth-assignments to the atomic sentences for the island, and replace all $1$&#8217;s with $Q$. This will give a consistent assignment of truth-values, compatible with the island&#8217;s strange logic. (We cannot do the same trick replacing $1$&#8217;s by $K$ because $\neg 0 = Q$).</p>
+<p>Clearly, such a system may have no relation at all with the intended meaning of these sentences on the island (the actual truth-values).</p>
+<p>That&#8217;s why <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a> introduced the notions of &#8216;loyalty&#8217; and &#8216;sanity&#8217; for inhabitants of the island. That&#8217;s for next time, and perhaps then you&#8217;ll be able to answer the question whether Queen and King agree on all statements.</p>
+<p>(all images in this post are from Smullyan&#8217;s book <a href="https://www.amazon.com/Alice-Puzzle-Land-Carrollian-Children-Recreational/dp/0486482006">Alice in Puzzle-Land</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>some skew Smullyan stumpers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 21 Sep 2023 12:05:48 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[Hemelaer]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[skew]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[some]]></category>
+		<category><![CDATA[stumpers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11674</guid>
+
+					<description><![CDATA[Raymond Smullyan&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://static01.nyt.com/images/2017/02/12/us/12smullyan-obit/12smullyan-obit-superJumbo.jpg" width=100%></p>
+<p><a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s a classic example.</p>
+<p>&#8220;On the day of his arrival, the anthropologist Edgar Abercrombie came across three inhabitants, whom we will call $A$, $B$ and $C$. He asked $A$: &#8220;Are you a Knight or a Knave?&#8221; $A$ answered, but so indistinctly that Abercrombie could not understand what he said.</p>
+<p>He then asked $B$: &#8220;What did he say?&#8221; $B$ replies: &#8220;He said that he is a knave.&#8221; At this point, $C$ piped up and said: &#8220;Don&#8217;t believe that; it&#8217;s a lie!&#8221;</p>
+<p>Was $C$ a Knight or a Knave?&#8221;</p>
+<p>If you are stumped by this, try to figure out what kind of inhabitant can say &#8220;I am a Knave&#8221;.</p>
+<p>Some years ago, my friend and co-author <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a> wrote about a much stranger island, <a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">the island of two truths</a>.</p>
+<p>&#8220;The island was ruled by a queen and a king. It is important to stress that the queen was neither inferior nor superior to the king. Rather than as a married couple one should think of the queen and the king as two parallel powers, somewhat like the Queen of the Night and the King Sarastro in Mozart&#8217;s famous opera The Magic Flute. The queen and the king had their own castle each, each of them had their own court, their own advisers and servants, and most importantly each of them even had their own truth value.</p>
+<p>On the island, a proposition p is either FALSE, Q-TRUE or K-TRUE; in each of the cases we say that p has value 0, Q or K, respectively. The queen finds the truth value Q to be superior, while the king values the most the value K. The queen and the king have their opinions on all issues, while other residents typically have their opinions on some issues but not all.&#8221;</p>
+<p>The logic of the island of two truths is the easiest example of what Karin and I called a non-commutative frame or skew Heyting algebra (see <a href="https://arxiv.org/abs/1702.04949">here</a>), a notion we then used, jointly with <a href="https://jenshemelaer.com/">Jens Hemelaer</a>, to define the notion of a <a href="https://arxiv.org/abs/1705.02831">non-commutative topos</a>.</p>
+<p><img decoding="async" src="https://elle.metropolitan.si/media/cache/upload/Photo/2014/10/22/s43_40_cvetko-vah-karin_fbimage.jpg" width=100%></p>
+<p>If you take our general definitions, and take Q as the distinguished top-element, then the truth tables for the island of two truths are these ones (value of first term on the left, that of the second on top):</p>
+<p>\[<br />
+\begin{array}{c|ccc}<br />
+\wedge &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+Q &#038; 0 &#038; Q &#038; Q \\<br />
+K &#038; 0 &#038; K &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\vee &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; Q &#038; K \\<br />
+Q &#038; Q &#038; Q &#038; K \\<br />
+K &#038; K &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; Q &#038; Q &#038; K \\<br />
+Q &#038; 0 &#038; Q &#038; K \\<br />
+K &#038; 0 &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|c}<br />
+ &#038; \neg  \\<br />
+\hline<br />
+0 &#038; Q \\<br />
+Q &#038; 0 \\<br />
+K &#038; 0<br />
+\end{array}<br />
+\]</p>
+<p>Note that on this island the order of statements is important! That is, the truth value of $p \wedge q$ may differ from that of $q \wedge p$ (and similarly for $\vee$).</p>
+<p>Let&#8217;s reconsider Smullyan&#8217;s puzzle at the beginning of this post, but now on an island of two truths, where every inhabitant is either of Knave, or a Q-Knight (uttering only Q-valued statements), or a K-Knight (saying only K-valued statements).</p>
+<p>Again, can you determine what type $C$ is?</p>
+<p>Well, if you forget about the distinction between Q- and K-valued sentences, then we&#8217;re back to classical logic (or more generally, if you divide out Green&#8217;s equivalence relation from any skew Heyting algebra you obtain an ordinary Heyting algebra), and we have seen that then $B$ must be a Knave and $C$ a Knight, so in our new setting we know that $C$ is either a Q-Knight or a K-Knight, but which of the two?</p>
+<p>Now, $C$ claims the negation of what $B$ said, so the truth value is $\neg 0 = Q$, and therefore $C$ must be a Q-Knight.</p>
+<p>Recall that in <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a>&#8216;s island of two truths all sentences have a unique value which can be either $0$ (false) or one of the non-false values Q or K, and the value of combined statements is given by the truth tables above. The Queen and King both have an opinion on all statements, which may or may not coincide with the actual value of that statement. However, if the Queen assigns value $0$ to a statement, then so does the King, and conversely.</p>
+<p>Other inhabitants of the island have only their opinion about a subset of all statements (which may be empty). Two inhabitants <em>agree</em> on a statement if they both have an opinion on it and assign the same value to it.</p>
+<p>Now, each inhabitant is either <em>loyal</em> to the Queen or to the King (or both), meaning that they agree with the Queen (resp. King) on all statements they have an opinion of. An inhabitant loyal to the Queen is said to <em>believe</em> a sentence when she assigns value $Q$ to it (and symmetric for those loyal to the King), and <em>knows</em> the statement if she believes it and that value coincides with the actual value of that statement.</p>
+<p>Further, if A is loyal to the Queen, then the value of the statement &#8216;A is loyal to the Queen&#8217; is Q, and if A is not loyal to the Queen, then the value of the sentence &#8216;A is loyal to the Queen&#8217; is $0$ (and similarly for statements about loyalty to the King).</p>
+<p>These notions are enough for the first batch of ten puzzles in Karin&#8217;s posts</p>
+<ul>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">Oscar on the island of two truths</a></li>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a></li>
+</ul>
+<p>Just one example:</p>
+<p>Show that if anybody on the island knows that A is not loyal to the Queen, then everybody that has an opinion about the sentence &#8216;A is loyal to the Queen&#8217; knows that.</p>
+<p>After these two posts, Karin decided that it was more fun to blog about the use of non-commutative frames in data analysis.</p>
+<p>But, she once gave me a text containing many more puzzles (as well as all the answers), so perhaps I&#8217;ll share these in a follow-up post.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A suit with shorts</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 18 Sep 2023 14:32:01 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[personal]]></category>
+		<category><![CDATA[Lenstra]]></category>
+		<category><![CDATA[Mumford]]></category>
+		<category><![CDATA[shorts]]></category>
+		<category><![CDATA[suit]]></category>
+		<category><![CDATA[with]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11619</guid>
+
+					<description><![CDATA[I&#8217;m retiring in two weeks so I&#8217;m cleaning out my office. So far, I got rid of almost all paper-work and have split my book-collection&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m retiring in two weeks so I&#8217;m cleaning out my office.</p>
+<p>So far, I got rid of almost all paper-work and have split my book-collection in two: the books I want to take with me, and those anyone can grab away.</p>
+<p>Here&#8217;s the second batch (math/computer books in the middle, popular science to the right, thrillers to the left).</p>
+<p><center><br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/grotemagweg.jpg"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/magweg.jpg" width=100%></a><br />
+</center></p>
+<p>If you&#8217;re interested in some of these books (click for a larger image, if you want to zoom in) and are willing to pay the postage, leave a comment and I&#8217;ll try to send them if they survive the current &#8216;take-away&#8217; phase.</p>
+<p>Here are two books I definitely want to keep. On the left, an original mimeographed version of Mumford&#8217;s <a href="https://link.springer.com/book/10.1007/978-3-662-21581-4">&#8216;Red Book&#8217;</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/redbook.jpg" width=100%></p>
+<p>On the right, &#8216;Een pak met een korte broek&#8217; (&#8216;A suit with shorts&#8217;), a collection of papers by family and friends, presented to <a href="https://en.wikipedia.org/wiki/Hendrik_Lenstra">Hendrik Lenstra</a> on the occasion of the defence of his Ph.D. thesis on Euclidean number-fields, May 18th 1977.</p>
+<p>If the title intrigues you, a photo of young Hendrik in suit and shorts is included.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/lenstrakortebroek.jpg" width=100%></p>
+<p>This collection includes hilarious &#8216;papers&#8217; by famous people including</p>
+<ul>
+<li><a href="http://www.auemath.aichi-edu.ac.jp/teacher/kodani/lecture/zemi-r3/inukai2.pdf">&#8216;A headache-causing problem&#8217; by Conway (J.H.), Paterson (M.S.), and Moscow (U.S.S.R.)</a></li>
+<li>&#8216;A projective plain of order ten&#8217; by A.M. Odlyzko and N.J.A. Sloane</li>
+<li>&#8216;La chasse aux anneaux principaux non-Euclidiens dans l&#8217;enseignement&#8217; by Pierre Samuel</li>
+<li>&#8216;On time-like theorems&#8217; by Michiel Hazewinkel</li>
+<li>&#8216;She loves me, she loves me not&#8217; by Richard K. Guy</li>
+<li>&#8216;Theta invariants for affine root systems&#8217; by E.J.N. Looijenga</li>
+<li>&#8216;The prime of primes&#8217; by F. Lenstra and A.J. Oort</li>
+<li>(and many more, most of them in Dutch)</li>
+</ul>
+<p>Perhaps I can do a couple of posts on some of these papers. It might break this clean-up routine.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the L-game</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 17 Sep 2023 11:38:33 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[DesignerMaths]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[de Bono]]></category>
+		<category><![CDATA[designermaths]]></category>
+		<category><![CDATA[L-game]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[winning ways]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11320</guid>
+
+					<description><![CDATA[In 1982, the BBC ran a series of 10 weekly programmes entitled de Bono&#8217;s Thinking Course. In the book accompanying the series Edward de Bono&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In 1982, the BBC ran a series of 10 weekly programmes entitled <a href="https://ia902600.us.archive.org/0/items/pdfy-RP-OuErwuZWp4xkk/deBonos_thinking_course_text.pdf">de Bono&#8217;s Thinking Course</a>. In the book accompanying the series <a href="https://en.wikipedia.org/wiki/Edward_de_Bono">Edward de Bono</a> recalls the origin of his &#8216;L-Game&#8217;:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamebegin.png" width=30%><br />
+</center></p>
+<blockquote><p>Many years ago I was sitting next to the famous mathematician, <a href="https://en.wikipedia.org/wiki/John_Edensor_Littlewood">Professor Littlewood</a>, at dinner in Trinity College. We were talking about getting computers to play chess. We agreed that chess was difficult because of the large number of pieces and different moves. It seemed an interesting challenge to design a game that was as simple as possible and yet could be played with a degree of skill.</p>
+<p>As a result of that challenge I designed the <a href="https://en.wikipedia.org/wiki/L_game">&#8216;L-Game&#8217;</a>, in which each player has only one piece (the L-shape piece). In turn he moves this to any new vacant position (lifting up, turning over, moving across the board to a vacant position, etc.). After moving his L-piece he can &#8211; if he wishes &#8211; move either one of the small neutral pieces to any new position. The object of the game is to block your opponent&#8217;s L-shape so that no move is open to it.
+</p></blockquote>
+<p>It is a pleasant exercise in symmetry to calculate the number of possible L-game positions.</p>
+<p>The $4 \times 4$ grid has $8$ symmetries, making up the dihedral group $D_8$: $4$ rotations and $4$ reflections.</p>
+<p>An L-piece breaks all these symmetries, that is, it changes in form under each of these eight operations. That is, using the symmetries of the $4 \times 4$-grid we can put one of the L-pieces (say the Red one) on the grid as a genuine L, and there are exactly 6 possibilities to do so.</p>
+<p>For each of these six positions one can then determine the number of possible placings of the Blue L-piece. This is best done separately for each of the 8 different shapes of that L-piece.</p>
+<p>Here are the numbers when the red L is placed in the left bottom corner:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamenumber1.png" width=85%><br />
+</center></p>
+<p>In total there are thus 24 possibilities to place the Blue L-piece in that case. We can repeat the same procedure for the remaining Red L-positions. Here are the number of possibilities for Blue in each case:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamenumber2.png" width=85%><br />
+</center></p>
+<p>That is, there are 82 possibilities to place the two L-pieces if the Red one stands as a genuine L on the board.</p>
+<p>But then, the L-game has exactly $18368 = 8 \times 82 \times 28$ different positions, where the factor</p>
+<ul>
+<li>$8$ gives the number of symmetries of the square $4 \times 4$ grid.</li>
+<li>Using these symmetries we can put the Red L-piece on the grid as a genuine $L$ and we just saw that this leaves $82$ possibilities for the Blue L-piece.</li>
+<li>This leaves $8$ empty squares and so $28 = \binom{8}{2}$ different choices to place the remaining two neutral pieces.</li>
+</ul>
+<p>The $2296 = 82 \times 28$ positions in which the red L-piece is placed as a genuine L can then be analysed by computer and the outcome is summarised in <a href="https://www.amazon.com/Winning-Ways-Your-Mathematical-Plays/dp/1138427578">Winning Ways 2</a> pages 384-386 (with extras on pages 408-409).</p>
+<p>Of the $2296$ positions only $29$ are $\mathcal{P}$-positions, meaning that the next player (Red) will loose. Here are these winning positions for Blue</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Ppositions1.png" width=70%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Ppositions2.png" width=70%><br />
+</center></p>
+<p>Here, neutral piece(s) should be put on the yellow square(s). A (potential) remaining neutral piece should be placed on one of the coloured squares. The different colours indicate the <em>remoteness</em> of the $\mathcal{P}$-position:</p>
+<ul>
+<li>Pink means remoteness $0$, that is, Red has no move whatsoever, so mate in $0$.</li>
+<li>Orange means remoteness $2$: Red still has a move, but will be mated after Blue&#8217;s next move.</li>
+<li>Purple stands for remoteness $4$, that is, Blue mates Red in $4$ moves, Red starting.</li>
+<li>Violet means remoteness $6$, so Blue has a mate in $6$ with Red starting</li>
+<li>Olive stands for remoteness $8$: Blue mates within eight moves.</li>
+</ul>
+<p>Memorising these gives you a method to spot winning opportunities. After Red&#8217;s move image a board symmetry such that Red&#8217;s piece is a genuine L, check whether you can place your Blue piece and one of the yellow pieces to obtain one of the 29 $\mathcal{P}$-positions, and apply the reverse symmetry to place your piece.</p>
+<p>If you don&#8217;t know this, you can run into trouble very quickly. From the starting position, Red has five options to place his L-piece before moving one of the two yellow counters.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen.png" width=85% ><br />
+</center></p>
+<p>All possible positions of the first option loose immediately.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen1.png" width=100% ><br />
+</center></p>
+<p>For example in positions $a,b,c,d,f$ and $l$, Blue wins by playing</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamewin.png" width=25%><br />
+</center></p>
+<p>Here&#8217;s my first attempt at an opening repertoire for the L-game. Question mark means immediate loss, question mark with a number means mate after that number of moves, x means your opponent plays a sensible strategy.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen2.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen3.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen4.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen5b.png" width=100% ><br />
+</center></p>
+<p>Surely I missed cases, and made errors in others. Please leave corrections in the comments and I&#8217;ll try to update the positions.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>eBook &#8216;geometry and the absolute point&#8217; v0.1</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 08 Jul 2011 11:32:32 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5503</guid>
+
+					<description><![CDATA[In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217; I&#8217;ve converted about 30 posts to LaTeX, centering loosely around the topics students have asked me to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/absolutegeometry.jpg" align=left hspace=10><br />
+In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217; I&#8217;ve converted about 30 posts to LaTeX, centering loosely around the topics students have asked me to cover : noncommutative geometry, the absolute point (aka the field with one element), and their relation to the Riemann hypothesis.</p>
+<p>The idea being to edit these posts thoroughly, add much more detail (and proofs) and also add some extra sections on Borger&#8217;s work and Witt rings (and possibly other stuff).</p>
+<p>For those of you who prefer to (re)read these posts on paper or on a tablet rather than perusing this blog, you can now download the very first version (minimally edited) of the eBook <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/ncg.pdf">&#8216;geometry and the absolute point&#8217;</a>. All comments and suggestions are, of course, very welcome. I hope to post a more definite version by mid-september.</p>
+<p>I&#8217;ve used the thesis-documentclass to keep the same look-and-feel of my other course-notes, but I would appreciate advice about turning LaTeX-files into &#8216;proper&#8217; eBooks. I am aware of the fact that the memoir-class has an ebook option, and that one can use the geometry-package to control paper-sizes and margins.</p>
+<p>Soon, I will be releasing a LaTeX-ed &#8216;eBook&#8217; containing the Bourbaki-related posts. Later I might also try it on the games- and groups-related posts&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mathblogging and poll-results</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 21 Jan 2011 19:42:24 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[mathblogging]]></category>
+		<category><![CDATA[mathblogs]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[poll]]></category>
+		<category><![CDATA[rss feeds]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4733</guid>
+
+					<description><![CDATA[Mathblogging.org is a recent initiative and may well become the default starting place to check on the status of the mathematical blogosphere. Handy, if you&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://matrix.cmi.ua.ac.be/DATA3/mathblogging.jpg"><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/mathblogging.jpg" alt="" title="mathblogging" width="255" height="128" class="alignleft size-full wp-image-4747" /></a> <a href="http://www.mathblogging.org/">Mathblogging.org</a> is a recent initiative and may well become the default starting place to check on the status of the mathematical blogosphere.</p>
+</p>
+<p>Handy, if you want to (re)populate your RSS-aggregator with interesting mathematical blogs, is their graphical presentation of (nearly) all math-blogs <a href="http://www.mathblogging.org/bytype">ordered by type</a> : group blogs, individual researchers, teachers and educators, journalistic writers, communities, institutions and microblogging (twitter). Links to the last 7 posts are given so you can easily determine whether that particular blog is of interest to you.</p>
+<p>The three people behind the project, <a href="http://www.felixbreuer.net/">Felix Breuer</a>, <a href="http://ta.twi.tudelft.nl/wst/users/heymann/">Frederik von Heymann</a> and <a href="http://peter.krautzberger.info/">Peter Krautzberger</a>, welcome you to send them links to (micro)blogs they&#8217;ve missed. Surely, there must be a lot more mathematicians with a twitter-account than the few ones listed so far&#8230;</p>
+<p>Even more convenient is their <a href="http://www.mathblogging.org/bydate">list of latest posts</a> from their collection, ordered by date. I&#8217;ve put that page in my Bookmarks Bar the moment I discovered it! It would be nice, if they could provide an RSS-feed of this list, so that people could place it in their sidebar, replacing old-fashioned and useless blogrolls. The site does provide two feeds, but they are completely useless as they click through to empty pages&#8230;</p>
+<p>While we&#8217;re on the topic of math-blogging, the results of the &#8216;What should we write about next?&#8217;-poll that ran <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/changes-ahead.html">the previous two days</a> on the entry page. Of all people visiting that page, 2.6% left suggestions.</p>
+<p>The vast majority (67%) wants more posts on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/tag/noncommutative">noncommutative geometry</a>. Most of you are craving for introductions (and motivation) accessible to undergraduates (as &#8216;it&#8217;s hard to find quality, updated information on this&#8217;). In particular, you want posts giving applications in mathematics (especially number theory), or explaining relationships between different approaches. One person knew exactly how I should go about to achieve the hoped-for accessibility : &#8220;As a rule, I&#8217;d take what you think would be just right for undergrads, and then trim it down a little more.&#8221;</p>
+<p>Others want rather specialized posts, such as on &#8216;connection and parallel transport in noncommutative geometry&#8217; or on &#8216;trees (per J-L. Loday, M. Aguiar, Connes/Kreimer renormalization (aka Butcher group)), or something completely other tree-related&#8217;.</p>
+<p>Fortunately, some of you told me it was fine to write about &#8216;combinatorial games and cool nim stuff, finite simple groups, mathematical history, number theory, arithmetic geometry&#8217;, pushed me to go for &#8216;anything monstrous and moonshiney&#8217; (as if I would know the secrets of the &#8216;connection between the Mathieu group M24 and the elliptic genus of K3&#8217;&#8230;) or wrote that &#8216;various algebraic geometry related posts are always welcome: posts like <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mumfords-treasure-map.html">Mumford&#8217;s treasure map</a>&#8216;.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to play Nimbers?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/how-to-play-nimbers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/how-to-play-nimbers/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 07 Jan 2011 08:38:19 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Lenstra]]></category>
+		<category><![CDATA[nim]]></category>
+		<category><![CDATA[nim-multiplication]]></category>
+		<category><![CDATA[nimbers]]></category>
+		<category><![CDATA[ONAG]]></category>
+		<category><![CDATA[turning corners]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4003</guid>
+
+					<description><![CDATA[Nimbers is a 2-person game, winnable only if you understand the arithmetic of the finite fields $\mathbb{F}_{2^{2^n}} $ associated to Fermat 2-powers. It is played&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Nimbers is a 2-person game, winnable only if you understand the arithmetic of the finite fields $\mathbb{F}_{2^{2^n}} $ associated to Fermat 2-powers.</p>
+<p>It is played on a rectangular array (say a portion of a Go-board, for practical purposes) having a finite number of stones at distinct intersections. Here&#8217;s a typical position</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/nimbers1.jpg"></p>
+<p>The players alternate making a move, which is either</p>
+<ul>
+<li>removing one stone, or  </li>
+<li>moving a stone to a spot on the same row (resp. the same column) strictly to the left (resp. strictly lower), and if there&#8217;s already a stone on this spot, both stones are removed, or  </li>
+<li>adding stones to the empty corners of a rectangle having as its top-right hand corner a chosen stone and removing stones at the occupied corners  </li>
+</ul>
+<p>Here we illustrate two possible moves from the above position, in the first we add two new stones and remove 2 existing stones, in the second we add three new stones and remove only the top right-hand stone.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/nimbers2.jpg"></p>
+<p>As always, the last player able to move wins the game!</p>
+<p>Note that Nimbers is equivalent to Lenstra&#8217;s &#8216;turning corners&#8217;-game (as introduced in his paper <a href="https://openaccess.leidenuniv.nl/bitstream/1887/2125/1/346_027.pdf">Nim-multiplication</a> or mentioned in Winning Ways Chapter 14, page 473).</p>
+<p>If all stones are placed on the left-most column (or on the bottom row) one quickly realizes that this game reduces to classical <a href="http://en.wikipedia.org/wiki/Nim">Nim</a> with Nim-heap sizes corresponding to the stones (for example, the left-most stone corresponds to a heap of size 3).</p>
+<p>Nim-addition $n \oplus m $ is defined inductively by</p>
+<p>$n \oplus m = mex(n&#8217; \oplus m,n \oplus m&#8217;) $</p>
+<p>where $n&#8217; $ is any element of $&#123; 0,1,\ldots,n-1 &#125; $ and $m&#8217; $ any element of $&#123; 0,1,\ldots,m-1 &#125; $ and where &#8216;mex&#8217; stands for Minimal EXcluded number, that is the smallest natural number which isn&#8217;t included in the set. Alternatively, one can compute $n \oplus m $ buy writing $n $ and $m $ in binary and add these binary numbers without carrying-over. It is well known that a winning strategy for Nim tries to shorten one  Nim-heap  such that the Nim-addition of the heap-sizes equals zero.</p>
+<p>This allows us to play Nimber-endgames, that is, when all the stones have been moved to  the left-column or the bottom row.</p>
+<p>To evaluate general Nimber-positions it is best to add another row and column, the coordinate axes of the array</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/nimbers3.jpg"></p>
+<p>and so our stones lie at positions (1,3), (4,7), (6,4), (10,3) and (14,8). In this way all legal moves follow the rectangle-rule when we allow rectangles to contain corners on the added coordinate axes. For example, removing a stone is achieved by taking a rectangle with two sides on the  added axes, and, moving a stone to the left (or the bottom) is done by taking a rectangle with one side at the x-axes (resp. the y-axes)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/nimbers4.jpg"></p>
+<p>However, the added stones on the coordinate axes are considered dead and may be removed from the game. This observation allows us to compute the Grundy number of a stone at position (m,n) to be</p>
+<p>$G(m,n)=mex(G(m&#8217;,n&#8217;) \oplus G(m&#8217;,n) \oplus G(m,n&#8217;)~:~0 \leq m&#8217; &lt; m, 0 \leq n&#8217; &lt; n) $</p>
+<p>and so by induction these Grundy numbers are equal to the <a href="http://en.wikipedia.org/wiki/Nimber">Nim-multiplication</a> $G(m,n) = m \otimes n $ where</p>
+<p>$m \otimes n = mex(m&#8217; \otimes n&#8217; \oplus m&#8217; \otimes n \oplus m \otimes n&#8217;~:~0 \leq m&#8217; &lt; m, 0 \leq n&#8217; &lt; n) $</p>
+<p>Thus, we can evaluate any Nimbers-position with stone-coordinates smaller than $2^{2^n} $ by calculating in a finite field using the identification (as for example in the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-odd-knights-of-the-round-table.html">odd Knights of the round table-post</a>) $\mathbb{F}_{2^{2^n}} = \{ 0,1,2,\ldots,2^{2^n}-1 \} $</p>
+<p>For example, when all stones lie in a 15&#215;15 grid (as in the example above), all calculations can be performed using</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/16field2.jpg"></p>
+<p>Here, we&#8217;ve identified the non-zero elements of $\mathbb{F}_{16} $ with 15-th roots of unity, allowing us to multiply, and we&#8217;ve paired up couples $(n,n \oplus 1) $ allowing u to reduce nim-addition to nim-multiplication via</p>
+<p>$n \oplus m = (n \otimes \frac{1}{m}) \otimes (m \oplus 1) $</p>
+<p>In particular, the stone at position (14,8) is equivalent to a Nim-heap of size $14 \otimes 8=10 $. The nim-value of the original position is equal to 8</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/nimbers1.jpg"></p>
+<p>Suppose your opponent lets you add one extra stone along the diagonal if you allow her to start the game, where would you have to place it and be certain you will win the game?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/how-to-play-nimbers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>So, who did discover the Leech lattice?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 20 Dec 2010 10:58:03 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Artin]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[Golay code]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[history]]></category>
+		<category><![CDATA[lattices]]></category>
+		<category><![CDATA[Leech lattice]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Noether]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3717</guid>
+
+					<description><![CDATA[For the better part of the 30ties, Ernst Witt (1) did hang out with the rest of the &#8216;Noetherknaben&#8217;, the group of young mathematicians around&#8230;]]></description>
+										<content:encoded><![CDATA[<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/noetherWitt.png"></p>
+<p>
+For the better part of the 30ties, <a href="http://en.wikipedia.org/wiki/Ernst_Witt">Ernst Witt</a> (1) did hang out with the rest of the &#8216;Noetherknaben&#8217;, the group of young mathematicians around <a href="http://en.wikipedia.org/wiki/Emmy_Noether">Emmy Noether</a> (3) in Gottingen.</p>
+<p>
+In 1934 Witt became <a href="http://en.wikipedia.org/wiki/Helmut_Hasse">Helmut Hasse</a>&#8216;s assistent in Gottingen, where he qualified as a university lecturer in 1936. By 1938 he has made enough of a name for himself to be offered a lecturer position in Hamburg and soon became an associate professor, the down-graded position held by <a href="http://en.wikipedia.org/wiki/Emil_Artin">Emil Artin</a> (2) until he was forced to emigrate in 1937.</p>
+<p>
+A former fellow student of him in Gottingen, Erna Bannow (4), had gone earlier to Hamburg to work with Artin. She continued her studies with Witt and finished her Ph.D. in 1939. In 1940 Erna Bannow and Witt married.</p>
+<p>
+So, life was smiling on Ernst Witt that sunday january 28th 1940, both professionally and personally. There was just one cloud on the horizon, and a rather menacing one. He was called up by the Wehrmacht and knew he had to enter service in february. For all he knew, he was spending the last week-end with his future wife&#8230; (later in february 1940, Blaschke helped him to defer his military service by one year).</p>
+<p>
+Still, he desperately wanted to finish his paper before entering the army, so he spend most of that week-end going through the final version and submitted it on monday, as the published paper shows.</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wittpaperend.png"></p>
+<p>
+In the 70ties, Witt suddenly claimed he did discover the <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> $ {\Lambda} $ that sunday. <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/who-discovered-the-leech-lattice.html">Last time</a> we have seen that the only written evidence for Witt&#8217;s claim is one sentence in his 1941-paper Eine Identit&auml;t zwischen Modulformen zweiten Grades. &#8220;Bei dem Versuch, eine Form aus einer solchen Klassen wirklich anzugeben, fand ich mehr als 10 verschiedene Klassen in $ {\Gamma_{24}} $.&#8221;</p>
+<p>
+But then, why didn&#8217;t Witt include more details of this sensational lattice in his paper?</p>
+<p>
+Ina Kersten recalls on page 328 of Witt&#8217;s collected papers : &#8220;In his colloquium talk &#8220;Gitter und Mathieu-Gruppen&#8221; in Hamburg on January 27, 1970, Witt said that in 1938, he had found nine lattices in $ {\Gamma_{24}} $ and that later on January 28, 1940, while studying the Steiner system $ {S(5,8,24)} $, he had found two additional lattices $ {M} $ and $ {\Lambda} $ in $ {\Gamma_{24}} $. He continued saying that he had then given up the tedious investigation of $ {\Gamma_{24}} $ because of the surprisingly low contribution</p>
+<p><p align=center>$ \displaystyle | Aut(\Lambda) |^{-1} &lt; 10^{-18} $</p>
+<p>
+to the Minkowski density and that he had consented himself with a short note on page 324 in his 1941 paper.&#8221;</p>
+<p>
+In the last sentence he refers to the fact that the sum of the inverse orders of the automorphism groups of all even unimodular lattices of a given dimension is a fixed rational number, the Minkowski-Siegel mass constant. In dimension 24 this constant is</p>
+<p><p align=center>$ \displaystyle \sum_{L} \frac{1}{| Aut(L) |} = \frac {1027637932586061520960267}{129477933340026851560636148613120000000} \approx 7.937 \times 10^{-15} $</p>
+<p>
+That is, Witt was disappointed by the low contribution of the Leech lattice to the total constant and concluded that there might be thousands of new even 24-dimensional unimodular lattices out there, and dropped the problem.</p>
+<p>
+If true, the story gets even better : not only claims Witt to have found the lattices $ {A_1^{24}=M} $ and $ {\Lambda} $, but also enough information on the Leech lattice in order to compute the order of its automorphism group $ {Aut(\Lambda)} $, aka the <a href="http://en.wikipedia.org/wiki/Conway_group">Conway group</a> $ {Co_0 = .0} $ the dotto-group!</p>
+<p>
+Is this possible? Well fortunately, the difficulties one encounters when trying to compute the order of the automorphism group of the Leech lattice from scratch, is one of the better documented mathematical stories around.</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/weekendCambridge.png"></p>
+<p>
+The books <a href="http://www.amazon.co.uk/Error-Correcting-through-Packings-Mathematical-Monographs/dp/0883850370/">From Error-Correcting Codes through Sphere Packings to Simple Groups</a> by Thomas Thompson, <a href="http://www.amazon.co.uk/Symmetry-Monster-greatest-quests-mathematics/dp/0192807234/">Symmetry and the monster</a> by Mark Ronan, and <a href="http://www.amazon.co.uk/Finding-Moonshine-Mathematicians-Journey-Symmetry/dp/0007214626/">Finding moonshine</a> by Marcus du Sautoy tell the story in minute detail.</p>
+<p>
+It took <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> 12 hours on a 1968 saturday in Cambridge to compute the order of the dotto group, using the knowledge of Leech and McKay on the properties of the Leech lattice and with considerable help offered by <a href="http://en.wikipedia.org/wiki/John_G._Thompson">John Thompson</a> via telephone.</p>
+<p>
+But then, John Conway is one of the fastest mathematicians the world has known. The prologue of his book <a href="http://www.amazon.co.uk/Numbers-Games-John-H-Conway/dp/1568811276/">On numbers and games</a> begins with : &#8220;Just over a quarter of a century ago, for seven consecutive days I sat down and typed from 8:30 am until midnight, with just an hour for lunch, and ever since have described this book as &#8220;having been written in a week&#8221;.&#8221;</p>
+<p>
+Conway may have written a book in one week, Ernst Witt did complete his entire Ph.D. in just one week! In a letter of August 1933, his sister told her parents : &#8220;He did not have a thesis topic until July 1, and the thesis was to be submitted by July 7. He did not want to have a topic assigned to him, and when he finally had the idea, he started working day and night, and eventually managed to finish in time.&#8221;</p>
+<p>
+So, if someone might have beaten John Conway in fast-computing the dottos order, it may very well have been Witt. Sadly enough, there is a lot of circumstantial evidence to make Witt&#8217;s claim highly unlikely.</p>
+<p>
+For starters, psychology. Would you spend your last week-end together with your wife to be before going to war performing an horrendous calculation?</p>
+<p>
+Secondly, mathematical breakthroughs often arise from newly found insight. At that time, Witt was also working on his paper on root lattices &#8220;Spiegelungsgrupen and Aufz&auml;hling halbeinfacher Liescher Ringe&#8221; which he eventually submitted in january 1941. Contained in that paper is what we know as Witt&#8217;s lemma which tells us that for any integral lattice the sublattice generated by vectors of norms 1 and 2 is a direct sum of root lattices.</p>
+<p>
+This leads to the trick of trying to construct unimodular lattices by starting with a direct sum of root lattices and &#8216;adding glue&#8217;. Although this gluing-method was introduced by Kneser as late as 1967, Witt must have been aware of it as his 16-dimensional lattice $ {D_{16}^+} $ is constructed this way.</p>
+<p>
+If Witt wanted to construct new 24-dimensional even unimodular lattices in 1940, it would be natural for him to start off with direct sums of root lattices and trying to add vectors to them until he got what he was after. Now, all of the Niemeier-lattices are constructed this way, except for the Leech lattice!</p>
+<p><p align=center><img decoding="async"  width=300 src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GlueLattices.jpg"></p>
+<p>
+I&#8217;m far from an expert on the Niemeier lattices but I would say that Witt definitely knew of the existence of $ {D_{24}^+} $, $ {E_8^3} $ and $ {A_{24}^+} $ and that it is quite likely he also constructed $ {(D_{16}E_8)^+, (D_{12}^2)^+, (A_{12}^2)^+, (D_8^3)^+} $ and possibly $ {(A_{17}E_7)^+} $ and $ {(A_{15}D_9)^+} $. I&#8217;d rate it far more likely Witt constructed another two such lattices on sunday january 28th 1940, rather than discovering the Leech lattice.</p>
+<p>
+Finally, wouldn&#8217;t it be natural for him to include a remark, in his 1941 paper on root lattices, that not every even unimodular lattices can be obtained from sums of root lattices by adding glue, the Leech lattice being the minimal counter-example?</p>
+<p>
+If it is true he was playing around with the Steiner systems that sunday, it would still be a pretty good story he discovered the lattices $ {(A_2^{12})^+} $ and $ {(A_1^{24})^+} $, for this would mean he discovered the Golay codes in the process!</p>
+<p>
+Which brings us to our next question : who discovered the Golay code?</p>
+<p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Seating the first few thousand Knights</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2010 16:31:46 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[ONAG]]></category>
+		<category><![CDATA[ordinals]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2855</guid>
+
+					<description><![CDATA[The Knight-seating problems asks for a consistent placing of n-th Knight at an odd root of unity, compatible with the two different realizations of the algebraic closure of the field with two elements.]]></description>
+										<content:encoded><![CDATA[<p>The Knight-seating problems asks for a consistent placing of n-th Knight at an odd root of unity, compatible with the two different realizations of the algebraic closure of the field with two elements.<br />
+The first identifies the multiplicative group of its non-zero elements with the group of all odd complex roots of unity, under complex multiplication. The second uses Conway&#8217;s &#8216;simplicity rules&#8217; to define an addition and multiplication on the set of all ordinal numbers.</p>
+<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-odd-knights-of-the-round-table.html">odd Knights of the round table</a>-problem asks for a specific one-to-one correspondence between two realizations of &#8216;the&#8217; algebraic closure $\overline{\mathbb{F}_2} $ of the field of two elements.</p>
+<p>The first identifies the multiplicative group of its non-zero elements with the group of all odd complex roots of unity, under complex multiplication. The addition on $\overline{\mathbb{F}_2} $ is then recovered by inducing an involution on the odd roots, pairing the one corresponding to x to the one corresponding to x+1.</p>
+<p>The second uses Conway&#8217;s &#8216;simplicity rules&#8217; to define an addition and multiplication on the set of all ordinal numbers. Conway proves in <a href="http://en.wikipedia.org/wiki/On_Numbers_and_Games">ONAG</a> that this becomes an algebraically closed field of characteristic two and that $\overline{\mathbb{F}_2} $ is the subfield of all ordinals smaller than $\omega^{\omega^{\omega}} $. The finite ordinals (the natural numbers) form the quadratic closure of $\mathbb{F}_2 $.</p>
+<p>On the natural numbers the Conway-addition is binary addition without carrying and Conway-multiplication is defined by the properties that two different Fermat-powers $N=2^{2^i} $ multiply as they do in the natural numbers, and, Fermat-powers square to its sesquimultiple, that is $N^2=\frac{3}{2}N $. Moreover, all natural numbers smaller than $N=2^{2^{i}} $ form a finite field $\mathbb{F}_{2^{2^i}} $. Using distributivity, one can write down a multiplication table for all 2-powers.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/nim2powers.jpg"><br />
+</center></p>
+<p>The Knight-seating problems asks for a consistent placing of n-th Knight $K_n $ at an odd root of unity, compatible with the two different realizations of $\overline{\mathbb{F}_2} $. Last time, we were able to place the first 15 Knights as below, and asked where you would seat $K_{16} $</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Knights16.jpg"><br />
+</center></p>
+<p>$K_4 $ was placed at $e^{2\pi i/15} $ as 4 was the smallest number generating the &#8216;Fermat&#8217;-field $\mathbb{F}_{2^{2^2}} $ (with multiplicative group of order 15) subject to the compatibility relation with the generator 2 of the smaller Fermat-field $\mathbb{F}_2 $ (with group of order 15) that $4^5=2 $.</p>
+<p>To include the next Fermat-field $\mathbb{F}_{2^{2^3}} $ (with multiplicative group of order 255) consistently, we need to find the smallest number n generating the multiplicative group and satisfying the compatibility condition $n^{17}=4 $. Let&#8217;s first concentrate on finding the smallest generator : as 2 is a generator for 1st Fermat-field $\mathbb{F}_{2^{2^1}} $ and 4 a generator for the 2-nd Fermat-field $\mathbb{F}_{2^{2^2}} $ a natural conjecture might be that 16 is a generator for the 3-rd Fermat-field $\mathbb{F}_{2^{2^3}} $ and, more generally, that $2^{2^i} $ would be a generator for the next field $\mathbb{F}_{2^{2^{i+1}}} $.</p>
+<p>However, an &#8220;exercise&#8221; in the 1978-paper by Hendrik Lenstra <a href="https://openaccess.leidenuniv.nl/bitstream/1887/2125/1/346_027.pdf">Nim multiplication</a> asks : &#8220;Prove that $2^{2^i} $ is a primitive root in the field $\mathbb{F}_{2^{2^{i+1}}} $ if and only if i=0 or 1.&#8221;</p>
+<p>I&#8217;ve struggled with several of the &#8216;exercises&#8217; in Lenstra&#8217;s paper to the extend I feared Alzheimer was setting in, only to find out, after taking pen and paper and spending a considerable amount of time calculating, that they are indeed merely exercises, when looked at properly&#8230; (Spoiler-warning : stop reading now if you want to go through this exercise yourself).</p>
+<p>In the picture above I&#8217;ve added in red the number $x(x+1)=x^2+1 $ to each of the involutions. Clearly, for each pair these numbers are all distinct and we see that for the indicated pairing they make up all numbers strictly less than 8.</p>
+<p>By Conway&#8217;s simplicity rules (or by checking) the pair (16,17) gives the number 8. In other words, the equation<br />
+$x^2+x+8 $ is an irreducible polynomial over $\mathbb{F}_{16} $ having as its roots in $\mathbb{F}_{256} $ the numbers 16 and 17. But then, 16 and 17 are conjugated under the Galois-involution (the Frobenius $y \mapsto y^{16} $). That is, we have $16^{16}=17 $ and $17^{16}=16 $ and hence $16^{17}=8 $. Now, use the multiplication table in $\mathbb{F}_{16} $ given in the previous post (or compute!) to see that 8 is of order 5 (and NOT a generator). As a consequence, the multiplicative order of 16 is 5&#215;17=85 and so 16 cannot be a generator in $\mathbb{F}_{256} $.<br />
+For general i one uses the fact that $2^{2^i} $ and $2^{2^i}+1 $ are the roots of the polynomial $x^2+x+\prod_{j&lt;i} 2^{2^j} $ over $\mathbb{F}_{2^{2^i}} $ and argues as before.</p>
+<p>Right, but then what is the minimal generator satisfying $n^{17}=4 $? By computing we see that the pairings of all numbers in the range 16&#8230;31 give us all numbers in the range 8&#8230;15 and by the above argument this implies that the 17-th powers of all numbers smaller than 32 must be different from 4. But then, the smallest candidate is 32 and one verifies that indeed $32^{17}=4 $ (use the multiplication table given before).</p>
+<p>Hence, we must place Knight $K_{32} $ at root $e^{2 \pi i/255} $ and place the other Knights prior to the 256-th at the corresponding power of 32. I forgot the argument I used to find-by-hand the requested place for Knight 16, but one can verify that $32^{171}=16 $ so we seat $K_{16} $ at root $e^{342 \pi i/255} $.</p>
+<p>But what about Knight $K_{256} $? Well, by this time I was quite good at squaring and binary representations of integers, but also rather tired, and decided to leave that task to the computer.</p>
+<p>If we denote Nim-addition and multiplication by $\oplus $ and $\otimes $, then Conway&#8217;s simplicity results in ONAG establish a field-isomorphism between $~(\mathbb{N},\oplus,\otimes) $ and the field $\mathbb{F}_2(x_0,x_1,x_2,\ldots ) $ where the $x_i $ satisfy the Artin-Schreier equations</p>
+<p>$x_i^2+x_i+\prod_{j &lt; i} x_j = 0 $</p>
+<p>and the i-th Fermat-field $\mathbb{F}_{2^{2^i}} $ corresponds to $\mathbb{F}_2(x_0,x_1,\ldots,x_{i-1}) $. The correspondence between numbers and elements from these fields is given by taking $x_i \mapsto 2^{2^i} $. But then, wecan write every 2-power as a product of the $x_i $ and use the binary representation of numbers to perform all Nim-calculations with numbers in these fields.</p>
+<p>Therefore, a quick and dirty way (and by no means the most efficient) to do Nim-calculations in the next Fermat-field consisting of all numbers smaller than 65536, is to use <a href="http://www.sagemath.org/">sage</a> and set up the field $\mathbb{F}_2(x_0,x_1,x_2,x_3) $ by</p>
+<pre>
+R.< x,y,z,t > =GF(2)[]
+S.< a,b,c,d >=R.quotient((x^2+x+1,y^2+y+x,z^2+z+x*y,t^2+t+x*y*z))
+</pre>
+<p>To find the smallest number generating the multiplicative group and satisfying the additional compatibility condition $n^{257}=32 $ we have to find the smallest binary number $i_1i_2 \ldots i_{16} $ (larger than 255) satisfying</p>
+<pre>
+(i1*a*b*c*t+i2*b*c*t+i3*a*c*t+i4*c*t+i5*a*b*t+i6*b*t+
+i7*a*t+i8*t+i9*a*b*c+i10*b*c+i11*a*c+i12*c+i13*a*b+
+i14*b+i15*a+i16)^257=a*c
+</pre>
+<p>It takes a 2.4GHz 2Gb-RAM MacBook not that long to decide that the requested generator is 1051 (killing another optimistic conjecture that these generators might be 2-powers). So, we seat Knight<br />
+$K_{1051} $ at root $e^{2 \pi i/65535} $ and can then arrange seatings for all Knight queued up until we reach the 65536-th! In particular, the first Knight we couldn&#8217;t place before, that is Knight $K_{256} $, will be seated at root $e^{65826 \pi i/65535} $.</p>
+<p>If you&#8217;re lucky enough to own a computer with more RAM, or have the patience to make the search more efficient and get the seating arrangement for the next Fermat-field, please drop a comment.</p>
+<p>I&#8217;ll leave you with another Lenstra-exercise which shouldn&#8217;t be too difficult for you to solve now : &#8220;Prove that $x^3=2^{2^i} $ has three solutions in $\mathbb{N} $ for each $i \geq 2 $.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

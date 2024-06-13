@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pessis &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/pessis/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 28 Jan 2018 09:52:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Grothendieck&#8217;s gribouillis (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 28 Jan 2018 09:52:38 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Carmona]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Malgoire]]></category>
+		<category><![CDATA[Pessis]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7908</guid>
+
+					<description><![CDATA[As far as I know there are no recent developments in the story of Grothendieck&#8217;s Lasserre writings. Since may 2017 the Mormoiron part of the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>As far as I know there are no recent developments in the story of Grothendieck&#8217;s Lasserre writings.</p>
+<p>Since may 2017 the Mormoiron part of the notes, saved by Jean Malgoire, are scanned and made available at the <a href="https://grothendieck.umontpellier.fr/archives-grothendieck/">Archives Grothendieck</a>.</p>
+<p>Some of Grothendieck&#8217;s children were present at the opening ceremony, and an interview was made with Alexandre jr. :</p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uvjpgzpyEjk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+<p>Rather than going into Grothendieck&#8217;s mathematics, he speaks highly of his father&#8217;s role in the ecological (<a href="http://science-societe.fr/survivre/">Survivre et vivre</a>) and anti-nuclear movements of the early 70ties.</p>
+<p>The full story of Survivre et Vivre, and Grothendieck&#8217;s part in it, can be read in the thesis by Celine Pessis:</p>
+<p><a href="http://science.societe.free.fr/documents/pdf/Survivre/Pessis_M2_Survivre.pdf">Les années 1968 et la science. Survivre … et Vivre, des mathématiciens critiques à l’origine de l’écologisme</a></p>
+<p>Here&#8217;s her talk at the IHES: &#8220;L&#8217;engagement d&#8217;Alexandre Grothendieck durant la première moitié des années 1970&#8221;.</p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xxj6S6fTl1Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+<p>Returning to Montpellier&#8217;s <a href="https://grothendieck.umontpellier.fr/archives-grothendieck/">Archives Grothendieck</a>, Mateo Carmona G started a project to transcribe &#8216;La Longue Marche à travers la Théorie de Galois&#8217; at <a href="https://github.com/gcarmonamateo/LaLongueMarche">GitHub</a>.</p>
+<p>From an email: &#8220;I am specially interested in Cote n° 149 that seems to contain Grothendieck separate notes on anabelian geometry.&#8221;</p>
+<p>If you want to read up on the story of Grothendieck&#8217;s gribouillis, here are some older posts, in chronological order:</p>
+<p>&#8211; <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis">Grothendieck&#8217;s gribouillis</a></p>
+<p>&#8211; <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-2">Grothendieck&#8217;s gribouillis (2)</a></p>
+<p>&#8211; <a href="https://lievenlebruyn.github.io/neverendingbooks/where-are-grothendiecks-writings">Where are Grothendieck&#8217;s writings?</a></p>
+<p>&#8211; <a href="https://lievenlebruyn.github.io/neverendingbooks/where-are-grothendiecks-writings-2">Where are Grothendieck&#8217;s writings (2)?</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

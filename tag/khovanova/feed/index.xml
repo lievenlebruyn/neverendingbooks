@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Khovanova &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/khovanova/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 15 Mar 2021 08:55:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Kasha-eating dragons</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/kasha-eating-dragons/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/kasha-eating-dragons/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 15 Mar 2021 08:55:10 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[personal]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Dotsenko]]></category>
+		<category><![CDATA[Khovanova]]></category>
+		<category><![CDATA[Kirillov]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9263</guid>
+
+					<description><![CDATA[This semester I&#8217;m teaching a first course in representation theory. On campus, IRL! It&#8217;s a bit strange, using a big lecture room for a handful&#8230;]]></description>
+										<content:encoded><![CDATA[<p>This semester I&#8217;m teaching a first course in representation theory. <strong>On campus, IRL!</strong> It&#8217;s a bit strange, using a big lecture room for a handful of students, everyone wearing masks, keeping distances, etc.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/rt2021.jpg" width=100% ><br />
+</center></p>
+<p>So far, this is their only course on campus, so it has primarily a social function. The breaks in between are infinitely more important than the lectures themselves. I&#8217;d guess breaks take up more than one third of the four hours scheduled.</p>
+<p>At first, I hoped to make groups and their representations relevant by connecting to the crisis at hand, whence the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19">the symmetries of Covid-19</a> post, and the <a href="https://lievenlebruyn.github.io/neverendingbooks/category/gov">Geometry of Viruses</a> series of posts.</p>
+<p>Not a great idea. I guess most of us are by now over-saturated with Corona-related news, and if students are allowed to come to campus just one afternoon per week, the last thing they want to hear about is, right, Covid.</p>
+<p>So I need to change tactics. By now we&#8217;ve reached the computation of character tables, and googling around I found this MathOverflow-topic:  <a href="https://mathoverflow.net/questions/11784/fun-applications-of-representations-of-finite-groups">Fun applications of representations of finite groups</a>.</p>
+<p>The highest rated answer, by Vladimir Dotsenko, suggests a problem attributed to Kirillov:</p>
+<blockquote><p>An example from Kirillov&#8217;s book on representation theory: write numbers 1,2,3,4,5,6 on the faces of a cube, and keep replacing (simultaneously) each number by the average of its neighbours. Describe (approximately) the numbers on the faces after many iterations.</p></blockquote>
+<p>A bit further down the list, the <a href="https://math.berkeley.edu/~serganov/math252/notes1.pdf">Lecture notes on representation theory</a> by Vera Serganova are mentioned. They start off with a variation of Kirillov&#8217;s question (and an extension of it to the dodecahedron):</p>
+<blockquote><p><strong>Hungry knights.</strong> There are n hungry knights at a round table. Each of them has a plate with certain amount of food. Instead of eating every minute each knight takes one half of his neighbors servings. They start at 10 in the evening. What can you tell about food distribution in the morning?</p>
+<p><strong>Breakfast at Mars.</strong> It is well known that marsians have four arms, a standard family has 6 persons and a breakfast table has a form of a cube with each person occupying a face on a cube. Do the analog of round table problem for the family of marsians.</p>
+<p><strong>Supper at Venus.</strong> They have five arms there, 12 persons in a family and sit on the faces of a dodecahedron (a regular polyhedron whose faces are pentagons).</p></blockquote>
+<p>Perhaps the nicest exposition of the problem (and its solution!) is in the paper <a href="https://arxiv.org/pdf/1602.08488.pdf">Dragons eating kasha</a> by Tanya Khovanova.</p>
+<blockquote><p>Suppose a four-armed dragon is sitting on every face of a cube. Each dragon has a bowl of kasha in front of him. Dragons are very greedy, so instead of eating their own kasha, they try to steal kasha from their neighbors. Every minute every dragon extends four arms to the four neighboring faces on the cube and tries to get the kasha from the bowls there. As four arms are fighting for every bowl of<br />
+kasha, each arm manages to steal one-fourth of what is in the bowl. Thus each<br />
+dragon steals one-fourth of the kasha of each of his neighbors, while at the same<br />
+time all of his own kasha is stolen. Given the initial amounts of kasha in every<br />
+bowl, what is the asymptotic behavior of the amounts of kasha?
+</p></blockquote>
+<p>I can give them quick hints to reach the solution:</p>
+<ul>
+<li>the amounts of kasha on each face gives a vector in $\mathbb{R}^6$, which is an $S_4$-representation,</li>
+<li>calculate the character of this kasha-representation,</li>
+<li>use the character table of $S_4$ to decompose the representation into irreducibles,</li>
+<li>identify each of the irreducible factors as instances in the kasha-representation,</li>
+<li>check that the food-grabbing operation is an $S_4$-morphism,</li>
+<li>remember Schur&#8217;s lemma, and compute the scaling factors on each irreducible component,</li>
+<li>conclude!</li>
+</ul>
+<p>But, I can never explain it better than Khovanova&#8217;s <a href="https://arxiv.org/pdf/1602.08488.pdf">treatment</a> of the kasha-eating dragons problem.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/kasha-eating-dragons/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

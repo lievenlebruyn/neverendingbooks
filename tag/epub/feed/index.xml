@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>epub &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/epub/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 05 Sep 2011 14:35:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>wp-latex&#8217; sweet revenge : wp+MathJax-&gt; ePub</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/wp-latex-sweet-revenge-wpmathjax-epub/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/wp-latex-sweet-revenge-wpmathjax-epub/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 05 Sep 2011 14:35:56 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[epub]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<guid isPermaLink="false">http://192.168.0.163/?p=5742</guid>
+
+					<description><![CDATA[In the early days of math-blogging, one was happy to get LaTeXRender working. Some years later, the majority of math-blogs were using the, more user-friendly,&#8230;]]></description>
+										<content:encoded><![CDATA[<p> In the early days of math-blogging, one was happy to get <a href="http://www.mayer.dial.pipex.com/tex.htm">LaTeXRender</a> working. Some years later, the majority of math-blogs were using the, more user-friendly, <a href="http://wordpress.org/extend/plugins/wp-latex/">wp-latex plugin</a> to turn LaTeX-code into png-images. Today, everyone uses <a href="http://www.mathjax.org/">MathJax</a> which works with modern CSS and web fonts instead of equation images, so equations scale with surrounding text at all zoom levels.</p>
+<p> However, MathJax has one downside : it doesn&#8217;t parse in ePub-readers. Peter Krautzberger wrote a post <a href="http://peter.krautzberger.info/2011/07/Epub-and-mathematics">Epub and mathematics</a> in which he suggested two methods to turn MathJax into ePub, but after dozens of experiments I still fail to reproduce these.</p>
+<p> No doubt, someone will soon come up with a working alternative, but for the impatient here&#8217;s a quick but dirty method to turn your MathJax powered wordpress post into ePub :</p>
+<h2>the tools</h2>
+<ul>
+<li>download and install the <a href="http://wordpress.org/extend/plugins/epub-export/">ePub export plugin</a>. It automatically creates an ePub file when a post or page is published or updated. The ePubs are stored in the uploads directory (to be found in the wp-contents directory).  </li>
+<li>download and install the <a href="http://wordpress.org/extend/plugins/wp-latex/">wp-latex plugin</a>. MathJax uses the normal \$ tex-delimeters whereas wp-latex requires \$latex, so this plugin doesn&#8217;t interfere with the default use of MathJax.  </li>
+<li>download the <a href="http://lucatrevisan.wordpress.com/2009/03/01/latex2wp-update/">wp2latex python script</a>. It converts a standard LaTeX file into a format that is ready to be copied into WordPress.  </li>
+</ul>
+<h2>the routine</h2>
+<ul>
+<li>Edit the post you want to convert to ePub. Copy the contents of the post box to a file say post1.tex and save this in the same directory containing the latex2wp.py script.  </li>
+<li>In Terminal go to that directory and type the command &#8216;python latex2wp.py post1.tex&#8217;. It will produce a new file post1  in the same directory.  </li>
+<li>Copy the contents of post1  into the post box of your WordPress-post and press the update button. This time the TeX-commands in your post will be rendered using wp-latex and the ePub export-plugin will have created an ePub-version of it.  </li>
+<li>Locate this newly created ePub file in the relevant wp-contents/uploads/ folder (file has a number.epub name) and, if wanted, change its name into something easier to recognize and copy it somewhere outside the uploads directory. This will be your desired ePub-version of the post.  </li>
+<li>Replace the contents of the post box of your WordPress-post with the contents of the post1.tex file and hit the &#8216;Update&#8217; button, to restore your original post (powered by MathJax).  </li>
+<li>Email your ePub-file to your iPad and open it with iBooks. Not quite as nice as MathJax-parsed TeX but a lot better than reading unparsed TeX-commands.</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/wp-latex-sweet-revenge-wpmathjax-epub/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>From WordPress to ePublishing (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 11 Jul 2011 12:01:46 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[epub]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5577</guid>
+
+					<description><![CDATA[Perhaps, the tips and tricks I did receive to turn a selection of wordpress-posts into a proper ePub-file may be of use to others, so&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Perhaps, the tips and tricks I did receive to turn a selection of wordpress-posts into a proper <a href="http://en.wikipedia.org/wiki/EPUB">ePub</a>-file may be of use to others, so I will describe the procedure here in some detail.</p>
+<p>It makes a difference whether or not some of the posts contain TeX. This time, I&#8217;ll sketch the process for non-LaTeX posts and hence we will turn the Bourbaki-code posts into ePub-format to read on your iPad, rather than merely into a pdf-file as <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/ebook-the-bourbaki-code-v1-0.html">last time</a>. Next time, I&#8217;ll add some tricks to repeat this when some of your posts do contain LaTeX.</p>
+<p><strong>1. Install the ePub export plugin</strong></p>
+<p>Get the <a href="http://wordpress.org/extend/plugins/epub-export/">epub export</a> wordpress plugin, install and activate it in the usual way. ePub Export automatically creates an ePub file when a post or page is published or updated. The ePubs are stored in the uploads directory. For later use, remember that your uploads directories are located under BLOGHOME/wp-content/uploads.</p>
+<p><strong>2. Update the posts you want to include</strong></p>
+<p>Decide which posts you want to include in your eBook, edit them (or not) and press for each one of them the update-button. This will populate today&#8217;s uploads-directory with a number of epub-files. Transfer them all, for example using <a href="http://www.panic.com/transmit/">Transmit</a>, to a directory on your home-computer, named say MyFirstEBook.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/epub1.jpg"><br />
+</center></p>
+<p><strong>3. Unpack the epub-files</strong></p>
+<p>The crucial fact to remember about epub-files is that they are really zipped archives containing xhtml-, css- and other files and directories. As we want to edit some of those, we first have to unpack the directories. So, change the .epub extensions to .zip and double-click on them to create the directories.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/epub2.jpg"><br />
+</center></p>
+<p>The crucial files in each directory are preface.xhtml (containing title author and blog-name), text.html (containing the blog-post) and the images-directory (containing copies of all the images used in the post).</p>
+<p><strong>4. Rename the directories user-friendly</strong></p>
+<p>As all the posts will be chapters in our eBook in some specific order, we will rename the numbers of the directories to something more user-friendly such as shortened blog-titles. To do this, double-click in each of the directories on the preface.xhtml file. This will open Safari and will show the title of the blog-post. Use it to rename that directory. For convenience let us call the directory corresponding to the first chapter in our book MasterDirectory</p>
+<p><strong>5. Move all images to the master directory</strong></p>
+<p>For each of the other chapter-directories, drag all the files contained in the images-subdirectory to MasterDirectory/images.</p>
+<p><strong>6. Edit the MasterDirectory/text.xhtml file</strong></p>
+<p>Because we will have to open and copy-paste all the text.xhtml files of the different directories, it is perhaps best to rename momentarily the MasterDirectory/text.xhtml file to something like master.xhtml.</p>
+<p>Now, open this file with a text-processor such as <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a>. Edit it to remove unwanted html-code (such as links to other posts at the start if you are using the series-plugin, or previous/next post links at the end). Also add the title of the blog-post between h1-tags (and if you want to include a table of contents later, give it an anchor-name).</p>
+<p>Go to the directory of your second chapter, open that text.xhtml file and copy/paste only the post-content over to the master-xhtml file at the appropriate place. As before, add title/anchor before the copied post-content.</p>
+<p>Repeat this procedure, in order, for all the chapters of your eBook.</p>
+<p>Once finished, doubleclick the master.xhtml file and correct remaining errors (as it is an xhtml-file, it is rather picky about opening and closing tags) and see whether all your images are included. If you&#8217;re satisfied with it, rename the master.xhtml to text.xhtml (don&#8217;t forget this!).</p>
+<p><strong>7. Edit the MasterDirectory/preface.xhtml file</strong></p>
+<p>Open the preface.xhtml file and change the first blogpost-title to the title of your booklet, alter your name (by default it uses your wp-nick) and add a frontipiece-picture if you so desire.</p>
+<p><strong>8. Re-package the directory into an epub-file</strong></p>
+<p>This is the (only) tricky part. E-book readers require that the mimetype file is the first one in the zip document. What&#8217;s more, to be fully compliant, this file should start at a very specific point &#8211; a 30-byte offset from the beginning of the zip file (so that the mimetype text itself starts at byte 38).</p>
+<p>Here&#8217;s how to do this on a Mac (Linux-users being the geeks they are will have given up on reading this post a while ago and as to Windows-users, yeah well &#8230;). Open Terminal.app and cd to your MasterDirectory. Now type:</p>
+<p>zip -X MyFirstEBook.epub mimetype</p>
+<p>Next, type:</p>
+<p>zip -rg MyFirstEBook.epub * -x &#42;.DS_Store</p>
+<p>(of course you&#8217;ll have to change your book-title to whatever you want). If you want to know more about these 2 magical commands, read <a href="http://www.webvivant.com/zipping-epub-files.html">this post</a>.</p>
+<p><strong>9. Edit metadata</strong></p>
+<p>Get <a href="http://calibre-ebook.com/">Calibre</a> and add the MyFirstEBook.epub to Calibre by clicking on the &#8216;Add Books&#8217; button.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/epub3.jpg"><br />
+</center></p>
+<p>You can preview your eBook by clicking on the &#8216;View&#8217;-button. Next, click the &#8216;Edit metadata&#8217;-button and alter the title and author entries (and whatever else you want to include) and click the OK button. Then click &#8216;Save to disk&#8217;.</p>
+<p><strong>10. Read your eBook on your iPad</strong></p>
+<p>Finally, we want to see how it looks on the iPad. Mail MyFirstEBook.epub to yourself as attachement, open it with iBooks and enjoy!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

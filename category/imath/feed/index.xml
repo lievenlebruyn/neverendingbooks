@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>web &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/category/imath/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 04 Apr 2023 12:05:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Stephen Wolfram on ChatGPT</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 04 Apr 2023 12:05:44 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[GPT-2]]></category>
+		<category><![CDATA[logic]]></category>
+		<category><![CDATA[Mathematica]]></category>
+		<category><![CDATA[stephen]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[Wolfram]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11193</guid>
+
+					<description><![CDATA[A month ago, Stephen Wolfram put out a little booklet (140 pages) What Is ChatGPT Doing &#8230; and Why Does It Work?. It gives a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A month ago, <a href="https://en.wikipedia.org/wiki/Stephen_Wolfram">Stephen Wolfram</a> put out a little booklet (140 pages) <a href="https://www.amazon.com/What-ChatGPT-Doing-Does-Work-ebook/dp/B0BY59PT5Z/">What Is ChatGPT Doing &#8230; and Why Does It Work?</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/71Ve3AUJO+L.jpg" width=40%><br />
+</center></p>
+<p>It gives a gentle introduction to large language models and the architecture and training of neural networks.</p>
+<p>The entire book is freely available:</p>
+<ul>
+<li><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/">What Is ChatGPT Doing … and Why Does It Work?</a></li>
+<li><a href="https://writings.stephenwolfram.com/2023/01/wolframalpha-as-the-way-to-bring-computational-knowledge-superpowers-to-chatgpt/">Wolfram|Alpha as the Way to Bring Computational Knowledge Superpowers to ChatGPT</a></li>
+</ul>
+<p>The advantage of these online texts is that you can click on any of the images, copy their content into a Mathematica notebook, and play with the code.</p>
+<p>This really gives a good idea of how an extremely simplified version of ChatGPT (based on GPT-2) works.</p>
+<p>Downloading the model (within Mathematica) uses about 500Mb, but afterwards you can complete any prompt quickly, and see how the results change if you turn up the &#8216;temperature&#8217;.</p>
+<p>You should&#8217;t expect too much from this model. Here&#8217;s what it came up with from the prompt &#8220;The major results obtained by non-commutative geometry include &#8230;&#8221; after 20 steps, at temperature 0.8:</p>
+<p><code><br />
+NestList[StringJoin[#, model[#, {"RandomSample", "Temperature" -> 0.8}]] &,<br />
+ "The major results obtained by non-commutative geometry include ", 20]</p>
+<p>The major results obtained by non-commutative geometry include vernacular accuracy of math and arithmetic, a stable balance between simplicity and complexity and a relatively low level of violence.<br />
+</code></p>
+<p>Lol.</p>
+<p>In the more philosophical sections of the book, Wolfram speculates about the secret rules of language that ChatGPT must have found if we want to explain its apparent succes. One of these rules, he argues, must be the &#8216;logic&#8217; of languages:</p>
+<blockquote><p>
+But is there a general way to tell if a sentence is meaningful? There’s no traditional overall theory for that. But it’s something that one can think of ChatGPT as having implicitly “developed a theory for” after being trained with billions of (presumably meaningful) sentences from the web, etc.</p>
+<p>What might this theory be like? Well, there’s one tiny corner that’s basically been known for two millennia, and that’s logic. And certainly in the syllogistic form in which Aristotle discovered it, logic is basically a way of saying that sentences that follow certain patterns are reasonable, while others are not.
+</p></blockquote>
+<p>Something else ChatGPT may have discovered are language&#8217;s &#8216;semantic laws of motion&#8217;, being able to complete sentences by following &#8216;geodesics&#8217;:</p>
+<blockquote><p>
+And, yes, this seems like a mess—and doesn’t do anything to particularly encourage the idea that one can expect to identify “mathematical-physics-like” “semantic laws of motion” by empirically studying “what ChatGPT is doing inside”. But perhaps we’re just looking at the “wrong variables” (or wrong coordinate system) and if only we looked at the right one, we’d immediately see that ChatGPT is doing something “mathematical-physics-simple” like following geodesics. But as of now, we’re not ready to “empirically decode” from its “internal behavior” what ChatGPT has “discovered” about how human language is “put together”.
+</p></blockquote>
+<p>So, the &#8216;hidden secret&#8217; of successful large language models may very well be a combination of logic and geometry. Does this sound <a href="https://lievenlebruyn.github.io/neverendingbooks/category/gbrain">familiar</a>?</p>
+<p>If you prefer watching YouTube over reading a book, or if you want to see the examples in action, here&#8217;s a video by Stephen Wolfram. The stream starts about 10 minutes into the clip, and the whole lecture is pretty long, well over 3 hours (about as long as it takes to read <a href="https://www.amazon.com/What-ChatGPT-Doing-Does-Work-ebook/dp/B0BY59PT5Z/">What Is ChatGPT Doing &#8230; and Why Does It Work?</a>).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/flXrLGPY3SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Loading a second brain</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 06 Mar 2023 14:09:28 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Ahrens]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[Forte]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[graph]]></category>
+		<category><![CDATA[loading]]></category>
+		<category><![CDATA[LogSeq]]></category>
+		<category><![CDATA[mathjax]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[PKM]]></category>
+		<category><![CDATA[RoamResearch]]></category>
+		<category><![CDATA[second]]></category>
+		<category><![CDATA[SecondBrain]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11005</guid>
+
+					<description><![CDATA[Before ChatGPT, the hype among productivity boosters was a PKMs or Personal knowledge management system. It gained popularity through Tiago Forte&#8217;s book &#8216;Building a second&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Before ChatGPT, the hype among productivity boosters was a PKMs or <a href="https://en.wikipedia.org/wiki/Personal_knowledge_management">Personal knowledge management system</a>.</p>
+<p>It gained popularity through Tiago Forte&#8217;s book <a href="https://www.buildingasecondbrain.com/">&#8216;Building a second brain&#8217;</a>, and (for academics perhaps a more useful read) <a href="https://www.soenkeahrens.de/en/takesmartnotes">&#8216;How to take smart notes&#8217;</a> by Sönke Ahrens.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/412AXfNUJSL._SX313_BO1,204,203,200_.jpg" width=40%> <img decoding="async" src="https://m.media-amazon.com/images/I/41rkDzw+bSL._SX326_BO1,204,203,200_.jpg" width=41.7%><br />
+</center></p>
+<p>These books promote new techniques for note-taking (and for storing these notes) such as <a href="https://fortelabs.com/blog/para/">the PARA-method</a>, <a href="https://www.astar.studio/the-code-system/">the CODE-system</a>, and <a href="https://en.wikipedia.org/wiki/Zettelkasten">Zettelkasten</a>.</p>
+<p><a href="https://unmistakablecreative.com/category/second-brain/">Unmistakable Creative</a> has some posts on the principles behing the &#8216;second brain&#8217; approach.</p>
+<blockquote><p>
+Your brain isn’t like a hard drive or a dropbox, where information is stored in folders and subfolders. None of our thoughts or ideas exist in isolation. Information is organized in a series of non-linear associative networks in the brain.</p>
+<p>Networked thinking is not just a more efficient way to organize information. It frees your brain to do what it does best: Imagine, invent, innovate, and create. The less you have to remember where information is, the more you can use it to summarize that information and turn knowledge into action.
+</p></blockquote>
+<p>and</p>
+<blockquote><p>
+A network has no “correct” orientation and thus no bottom and no top. Each individual, or “node,” in a network functions autonomously, negotiating its own relationships and coalescing into groups. Examples of networks include a flock of birds, the World Wide Web, and the social ties in a neighborhood. Networks are inherently “bottom-up” in that the structure emerges organically from small interactions without direction from a central authority.</p>
+<p>-Tiago Forte, <a href="https://fortelabs.com/blog/a-complete-guide-to-tagging-for-personal-knowledge-management/">Tagging for Personal Knowledge Management</a>
+</p></blockquote>
+<p>There are several apps you can use to start building your second brain, the more popular seem to be <a href="https://roamresearch.com/">Roam Research</a>, <a href="https://logseq.com/">LogSeq</a>, and <a href="https://obsidian.md/">Obsidian</a>.</p>
+<p>These systems allow you to store, link and manipulate a large collection of notes, query them as a database, modify them in various ways via plugins or scripts, and navigate the network created via graph-views.</p>
+<p>Exactly the kind of things we need to modify the simple system from the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">shape of languages</a>-post into a proper topos of the unconscious.</p>
+<p>I&#8217;ve been playing around with <a href="https://obsidian.md/">Obsidian</a> which I like because it has good <a href="https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Mathjax+and+LaTeX+Plugins">LaTeX plugins</a>, powerful database tools via the <a href="https://blacksmithgu.github.io/obsidian-dataview/">Dataview plugin</a>, and one can execute codeblocks within notes in almost any programming language (python, haskell, lean, Mathematica, ruby, javascript, R, &#8230;).</p>
+<p>Most of all it has a vibrant community of users, an excellent <a href="https://forum.obsidian.md/">forum</a>, and a well-documented <a href="https://publish.obsidian.md/hub/%F0%9F%97%82%EF%B8%8F+hub">Obsidian hub</a>.</p>
+<p>There&#8217;s just one problem, I&#8217;m a terrible note-taker, so how can I begin to load my &#8216;second brain&#8217;?</p>
+<p>Obsidian has several plugins to import data, such as your Kindle highlights, your Twitter feed, your Readwise-data, and many others, but having been too lazy in the past, I cannot use any of them.</p>
+<p>In fact, the only useful collection of notes I have are my blog-posts. So, I&#8217;ve uploaded NeverEndingBooks into Obsidian, one note per post (admittedly, not very Zettelkasten-like), half a million words in total.</p>
+<p>Fortunately, I did tag most of these posts at the time. Together with other meta-data this results in the <a href="https://help.obsidian.md/Plugins/Graph+view">Graph view</a> below (under &#8216;Files&#8217; toggled tags, under &#8216;Groups&#8217; three tag-colours, and under &#8216;Display&#8217; toggled arrows). One can add colour-groups based on tags or other information (here, red dots are posts tagged &#8216;Grothendieck&#8217;, the blue ones are tagged &#8216;Conway&#8217;, the purple ones tagged &#8216;Connes&#8217;, just for the sake of illustration). In Obsidian you can zoom into this graph, place a pointer on a node to highlight the connecting dots, and much more.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBgraphview.png" width=100% ><br />
+</center></p>
+<p>Because I tend to forget such things, and as it may be useful to other people running a WordPress-blog making heavy use of MathJax, here&#8217;s the procedure I followed:</p>
+<p>1. Follow the instructions from <a href="https://daext.com/blog/convert-wordpress-articles-to-markdown/">Convert wordpress articles to markdown</a>.</p>
+<ul>
+<li>Export your WordPress posts to XML</li>
+<li>Install <a href="https://nodejs.org/en/">Node.js</a></li>
+<li>Run the <a href="https://github.com/lonekorean/wordpress-export-to-markdown">wordpress-export-to-markdown</a> script</li>
+</ul>
+<p>In the wizard I&#8217;ve opted to go only for yearly folders, to prefix posts with the date, and to save all images.</p>
+<p>2. This gives you a directory with one folder per year containing markdown versions of your posts, and in each year-folder a subfolder &#8216;img&#8217; containing all images.</p>
+<p>Turn this directory into an Obsidian-vault by opening Obsidian, click on the &#8216;open another vault&#8217; icon (third from bottom-left), select &#8216;Open folder as vault&#8217; and navigate to your directory.</p>
+<p>3. You will notice that most of your LaTeX cannot be parsed because during the markdown-process backslashes are treaded as special character, resulting in two backslashes for every LaTeX-command&#8230;</p>
+<p>A remark before trying to solve this: another option might be to use the <a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">wordpress-to-hugo-exporter</a>, resulting in clean LaTeX, but lacking the possibility to opt for yearly-folders (it dumps all posts into one folder), and it makes a mess of the image-files.</p>
+<p>4. So, we will need to do a lot of search&#038;replaces in all files, and need a convenient tool for this.</p>
+<p>First option was <a href="https://www.sublimetext.com/">the Sublime Text app</a>, which is free and does the search&#038;replaces quickly. The problem is that you have to save each of the files, one at a time! This may take hours.</p>
+<p>I&#8217;ve done it using the <a href="https://apps.apple.com/us/app/search-and-replace/id627484067?mt=12">Search and Replace app</a> (3$) which allows you to make several searches/replaces at the same time (I messed up LaTeX code in previous exports, so needed to do many more changes). It warns you that it is dangerous to replace strings in all files (which is the reason why Sublime Text makes it difficult), you can ignore it, but only after you put the &#8216;img&#8217; folders away in a safe place. Otherwise it will also try to make the changes to these files, recognise that they are not text-files, and drop them altogether&#8230;</p>
+<p>That&#8217;s it.</p>
+<p>I now have a backup network-version of this blog.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBzoom.png" width=100% ><br />
+</center></p>
+<p>As we mentioned in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">previous post</a> a first attempt to construct the &#8216;topos of the unconscious&#8217; might be to start with a collection of notes (the &#8216;conscious&#8217;) and work on the semantics of text-snippets to unravel (a part of) the unconscious underpinning of these notes. We also mentioned that the poset-structure in that post should be replaced by a more involved network structure.</p>
+<p>What interests me most is whether such an approach might be doable &#8216;in practice&#8217;, and Obsidian looks like the perfect tool to try this out.</p>
+<p>What we need is a sufficiently large set of notes, of independent interest, to inject into Obsidian. The more meta it is, the better&#8230;</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The $\mathbb{F}_1$ World Seminar</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 08 Jan 2022 08:21:22 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9986</guid>
+
+					<description><![CDATA[For some time I knew it was in the making, now they are ready to launch it: The $\mathbb{F}_1$ World Seminar, an online seminar dedicated&#8230;]]></description>
+										<content:encoded><![CDATA[<p>For some time I knew it was in the making, now they are ready to launch it:</p>
+<p><a href="https://funworldseminar.wordpress.com/">The $\mathbb{F}_1$ World Seminar</a>, an online seminar dedicated to the <a href="https://en.wikipedia.org/wiki/Field_with_one_element">&#8220;field with one element&#8221;</a>, and its many connections to areas in mathematics such as arithmetic, geometry, representation theory and combinatorics. The organisers are <a href="https://scholar.google.com/citations?user=3g_Z1vEAAAAJ&#038;hl=en">Jaiung Jun</a>, <a href="https://orcid.org/0000-0003-4670-2211">Oliver Lorscheid</a>, <a href="https://en.wikipedia.org/wiki/Yuri_Manin">Yuri Manin</a>, <a href="http://math.bu.edu/people/szczesny/">Matt Szczesny</a>, <a href="https://cage.ugent.be/~kthas/">Koen Thas</a> and <a href="https://sites.google.com/site/youngmatthewb/">Matt Young</a>.</p>
+<p>From the announcement:</p>
+<p>&#8220;While the origins of the “$\mathbb{F}_1$-story” go back to attempts to transfer Weil’s proof of the Riemann Hypothesis from the function field case to that of number fields on one hand, and Tits’s Dream of realizing Weyl groups as the $\mathbb{F}_1$ points of algebraic groups on the other, the “$\mathbb{F}_1$” moniker has come to encompass a wide variety of phenomena and analogies spanning algebraic geometry, algebraic topology, arithmetic, combinatorics, representation theory, non-commutative geometry etc. It is therefore impossible to compile an exhaustive list of topics that might be discussed. The following is but a small sample of topics that may be covered:</p>
+<p>Algebraic geometry in non-additive contexts &#8211; monoid schemes, lambda-schemes, blue schemes, semiring and hyperfield schemes, etc.<br />
+Arithmetic &#8211; connections with motives, non-archimedean and analytic geometry<br />
+Tropical geometry and geometric matroid theory<br />
+Algebraic topology &#8211; K-theory of monoid and other “non-additive” schemes/categories, higher Segal spaces<br />
+Representation theory &#8211; Hall algebras, degenerations of quantum groups, quivers<br />
+Combinatorics &#8211; finite field and incidence geometry, and various generalizations&#8221;</p>
+<p>The seminar takes place on alternating Wednesdays from 15:00 PM – 16:00 PM European Standard Time (=GMT+1). There will be room for mathematical discussion after each lecture.</p>
+<p>The first meeting takes place Wednesday, January 19th 2022. If you want to receive abstracts of the talks and their Zoom-links, you should sign up for the <a href="https://sympa.usu.edu/wws/info/f1worldseminar">mailing list</a>.</p>
+<p>Perhaps I&#8217;ll start posting about $\mathbb{F}_1$ again, either here, or on the dormant <a href="http://cage.ugent.be/~kthas/Fun/">$\mathbb{F}_1$ mathematics blog</a>. (see <a href="https://lievenlebruyn.github.io/neverendingbooks/3-related-new-math-sites">this post</a> for its history).</p>
+<p><a href="http://cage.ugent.be/~kthas/Fun/"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/fun.jpg" width=100% \></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Huawei and French mathematics</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 19:42:59 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Broue]]></category>
+		<category><![CDATA[Cartier]]></category>
+		<category><![CDATA[Figalli]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[Lafforgue]]></category>
+		<category><![CDATA[Lions]]></category>
+		<category><![CDATA[Schapira]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9943</guid>
+
+					<description><![CDATA[Huawei, the Chinese telecom giant, appears to support (and divide) the French mathematical community. I was surprised to see that Laurent Lafforgue&#8217;s affiliation recently changed&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Huawei, the Chinese telecom giant, appears to support (and divide) the French mathematical community.</p>
+<p>I was surprised to see that <a href="https://en.wikipedia.org/wiki/Laurent_Lafforgue">Laurent Lafforgue&#8217;s</a> affiliation recently changed from &#8216;IHES&#8217; to &#8216;Huawei&#8217;, for example <a href="https://utge.lakecomoschool.org/">here</a> as one of the organisers of the Lake Como conference on &#8216;Unifying themes in geometry&#8217;.</p>
+<p>Judging from this short Huawei-clip (in French) he thoroughly enjoys his new position.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/EqrNLuN5Bfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Huawei <a href="https://inf.news/en/science/0b03792c7ee5879f723ea9ffaa608e60.html">claims</a> that &#8216;Three more winners of the highest mathematics award have now joined Huawei&#8217;:</p>
+<p>&#8211; <a href="https://en.wikipedia.org/wiki/Maxim_Kontsevich">Maxim Kontsevich</a>, (IHES) Fields medal 1998</p>
+<p>&#8211; <a href="https://en.wikipedia.org/wiki/Pierre-Louis_Lions">Pierre-Louis Lions</a> (College de France) Fields medal 1994</p>
+<p>&#8211; <a href="https://en.wikipedia.org/wiki/Alessio_Figalli">Alessio Figalli</a> (ETH) Fields medal 2018</p>
+<p>These news-stories seem to have been G-translated from the Chinese, resulting in misspellings and perhaps other inaccuracies. Maxim&#8217;s research field is described as &#8216;kink theory&#8217; (LoL).</p>
+<p>Apart from luring away Fields medallist, Huawei set up last year the brand new <a href="https://www.huawei.com/fr/news/fr/2020/centre-lagrange">Huawei Lagrange Research Center</a> in the posh 7th arrondissement de Paris. (This &#8216;Lagrange Center&#8217; is different from the <a href="http://ilp.upmc.fr/">Lagrange Institute in Paris</a> devoted to astronomy and physics.)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/LagrangeCenter.jpg" width=100% \><br />
+</center></p>
+<p>It aims to host about 30 researchers in mathematics and computer science, giving them the opportunity to live in the &#8216;unique eco-system of Paris, having the largest group of mathematicians in the world, as well as the best universities&#8217;.</p>
+<p>Last May, <a href="https://en.wikipedia.org/wiki/Michel_Brou%C3%A9">Michel Broué</a> authored an open letter to the French mathematical community <a href="https://blogs.mediapart.fr/michel-broue/blog/180521/dans-un-hotel-particulier-du-7eme-arrondissement-de-paris">Dans un hotel particulier du 7eme arrondissement de Paris</a> (in French). A G-translation of the final part of this open letter:</p>
+<p>&#8220;In the context of a very insufficient research and development effort in France, and bleak prospects for our young researchers, it is tempting to welcome the creation of the Lagrange center. We welcome the rise of Chinese mathematics to the highest level, and we are obviously in favour of scientific cooperation with our Chinese colleagues.</p>
+<p>But in view of the role played by Huawei in the repression in Xinjiang and potentially everywhere in China, we call on mathematicians and computer scientists already engaged to withdraw from this project. We ask all researchers not to participate in the activities of this center, as we ourselves are committed to doing.&#8221;</p>
+<p>Among the mathematicians signing the letter are <a href="https://en.wikipedia.org/wiki/Pierre_Cartier_(mathematician)">Pierre Cartier</a> and <a href="https://en.wikipedia.org/wiki/Pierre_Schapira_(mathematician)">Pierre Schapira</a>.</p>
+<p>To be continued.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bourbaki and Grothendieck-Serre</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-grothendieck-serre/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-grothendieck-serre/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 16 Apr 2021 13:37:25 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Cartier]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Dixmier]]></category>
+		<category><![CDATA[Serre]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9664</guid>
+
+					<description><![CDATA[This time of year I&#8217;m usually in France, or at least I was before Covid. This might explain for my recent obsession with French math&#8230;]]></description>
+										<content:encoded><![CDATA[<p>This time of year I&#8217;m usually in France, or at least I was before Covid. This might explain for my recent obsession with French math YouTube interviews.</p>
+<p>Today&#8217;s first one is about Bourbaki&#8217;s golden years, the period between WW2 and 1975. Alain Connes is trying to get some anecdotes from <a href="https://en.wikipedia.org/wiki/Jean-Pierre_Serre">Jean-Pierre Serre</a>, <a href="https://en.wikipedia.org/wiki/Pierre_Cartier_(mathematician)">Pierre Cartier</a>, and <a href="https://en.wikipedia.org/wiki/Jacques_Dixmier">Jacques Dixmier</a>.</p>
+<p>If you don&#8217;t have the time to sit through the whole thing, perhaps you might have a look at the discussion on whether or not to include categories in Bourbaki (starting at 51.40 into the clip).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/QqR459KxDVU?start=3100" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Here are some other time-slots (typed on a qwerty keyboard, mes excuses) with some links.</p>
+<ul>
+<li>8.59 : Canular stupide (<a href="https://lievenlebruyn.github.io/neverendingbooks/according-to-groth-iv-22">mort de Bourbaki</a>)</li>
+<li>15.45 : recrutement de <a href="https://en.wikipedia.org/wiki/Jean-Louis_Koszul">Koszul</a></li>
+<li>17.45 : recrutement de Grothendieck</li>
+<li>26.15 : influence de Serre</li>
+<li>28.05 : importance des ultra filtres</li>
+<li>35.35 : <a href="https://en.wikipedia.org/wiki/Yves_Meyer">Meyer</a></li>
+<li>37.20 : faisceaux</li>
+<li>51.00 : Grothendieck</li>
+<li>51.40 : des categories, <a href="https://www.elsevier.com/books/introduction-to-algebraic-geometry-and-algebraic-groups/demazure/978-0-444-85443-8">Gabriel-Demazure</a></li>
+<li>57.50 : lemme de Serre, theoreme de Weil</li>
+<li>1.03.20 : Chevalley vs. Godement</li>
+<li>1.05.26 : retraite Dieudonne</li>
+<li>1.07.05 : retraite</li>
+<li>1.10.00 : Weil vs. Serre-Borel</li>
+<li>1.13.50 : hierarchie Bourbaki</li>
+<li>1.20.22 : categories</li>
+<li>1.21.30 : Bourbaki, une secte?</li>
+<li>1.22.15 : <a href="https://lievenlebruyn.github.io/neverendingbooks/the-best-rejected-proposal-ever">Grothendieck C.N.R.S. 1984</a></li>
+</ul>
+<p>The second one is an interview conducted by Alain Connes with Jean-Pierre Serre on the <a href="https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Letters/GS.pdf">Grothendieck-Serre correspondence</a>.</p>
+<p>Again, if you don&#8217;t have the energy to sit through it all, perhaps I can tempt you with Serre&#8217;s reaction to Connes bringing up the subject of toposes (starting at 14.36 into the clip).</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/pOv-ygSynRI?start=875" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<ul>
+<li>2.10 : 2e these de Grothendieck: des faisceaux</li>
+<li>3.50 : Grothendieck -> Bourbaki</li>
+<li>6.46 : Tohoku</li>
+<li>8.00 : categorie des diagrammes</li>
+<li>9.10 : <a href="https://lievenlebruyn.github.io/neverendingbooks/krull-paris">schemas et Krull</a></li>
+<li>10.50 : motifs</li>
+<li>11.50 : cohomologie etale</li>
+<li>14.05 : Weil</li>
+<li>14.36 : topos</li>
+<li>16.30 : Langlands</li>
+<li>19.40 : Grothendieck, <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-3">cours d&#8217;ecologie</a></li>
+<li>24.20 : Dwork</li>
+<li>25.45 : Riemann-Roch</li>
+<li>29.30 : influence de Serre</li>
+<li>30.50 : fin de correspondence</li>
+<li>32.05 : pourquoi?</li>
+<li>33.10 : SGA 5</li>
+<li>34.50 : methode G. vs. theorie des nombres</li>
+<li>37.00 : paranoia</li>
+<li>37.15 : Grothendieck = centrale nucleaire</li>
+<li>38.30 : <a href="http://cm2vivi2002.free.fr/AG-biblio/AG-clesonges.pdf">Clef des songes</a></li>
+<li>42.35 : <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-4">30.000 pages, probleme du mal</a></li>
+<li>44.25 : Ribenboim</li>
+<li>45.20 : Grothendieck a Paris, publication <a href="https://fr.wikipedia.org/wiki/R%C3%A9coltes_et_Semailles">R et S</a></li>
+<li>48.00 : 50 ans IHES, lettre a Bourguignon</li>
+<li>50.46 : Laurant Lafforgue</li>
+<li>51.35 : <a href="https://lievenlebruyn.github.io/neverendingbooks/g-spots-saint-girons">Lasserre</a></li>
+<li>53.10 : l&#8217;humour</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-grothendieck-serre/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the bongcloud attack</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-bongcloud-attack/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-bongcloud-attack/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 18 Mar 2021 18:01:27 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[bongcloud]]></category>
+		<category><![CDATA[Carlsen]]></category>
+		<category><![CDATA[chess]]></category>
+		<category><![CDATA[Nakamura]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9312</guid>
+
+					<description><![CDATA[In this neverending pandemic there&#8217;s a shortage of stories putting a lasting smile on my face. Here&#8217;s one. If you are at all interested in&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In this neverending pandemic there&#8217;s a shortage of stories putting a lasting smile on my face. Here&#8217;s one.</p>
+<p><center><br />
+<img decoding="async" src="https://video-images.vice.com/articles/6050d7f2156fc5009ab2839b/lede/1615911215714-maxresdefault.jpeg?crop=1xw:0.9993206521739131xh;center,center&#038;resize=1000:*" width=100% ><br />
+</center></p>
+<p>If you are at all interested in chess, you&#8217;ll know by now that some days ago IGMs (that is, international grandmasters for the rest of you) <a href="https://en.wikipedia.org/wiki/Magnus_Carlsen">Magnus Carlsen</a> and <a href="https://en.wikipedia.org/wiki/Hikaru_Nakamura">Hikaru Nakamura</a> opened an official game with a double bongcloud, and couldn&#8217;t stop laughing.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/Bongcloud_Attack">bongcloud attack</a> is the chess opening in which white continues after</p>
+<p>1. e2-e4, e7-e5</p>
+<p>with</p>
+<p>2. Ke1-e2 !</p>
+<p>thereby blocking the diagonals for the bishop and queen, losing the ability to castle, and putting its king in danger.</p>
+<p>If you are left clueless, you should download the free e-book <a href="http://i.4pcdn.org/tg/1401479151063.pdf">Winning with the bongcloud</a> immediately.</p>
+<p>If you are (or were) a chess player, it is the perfect parody to all those books you had to suffer through in order to build up an &#8216;opening repertoire&#8217;.</p>
+<p>If you are new to chess (perhaps after watching <a href="https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(miniseries)">The queen&#8217;s gambit</a>), it gives you a nice selection of easy mate-in-one problems.</p>
+<p>Every possible defence against the bongcloud is illustrated with a &#8216;game&#8217; illustrating the massive advantage the attack gives, ending with a situation in which &#8230; black(!) has a one-move mate.</p>
+<p>One example:</p>
+<p>In the two knight Copacabana tango defense against the bongcloud, that is the position after</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/bongcloud1.jpg" width=50% ><br />
+</center></p>
+<p>the Haight-Asbury (yeah, <a href="https://en.wikipedia.org/wiki/Haight-Ashbury">well</a>) game (Linares, 1987) continued with:</p>
+<p>4. Kg3, Nxe4?<br />
+5. Kh3, d6+<br />
+6. Qg4!, Bxg4<br />
+7. Kxg4, Qf6??<br />
+8. Ne2, h5+??<br />
+9. Kh3!, Nxf2<br />
+10. Kg3!</p>
+<p>giving this position</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/bongcloud2.jpg" width=50% ><br />
+</center></p>
+<p>which &#8216;Winning with the bongcloud&#8217; evaluates as:</p>
+<blockquote><p>White continues his textbook execution of a “pendulum,” swinging back and forth between g3 and h3 to counter every Black threat. With the dynamically placed King, Black’s attack teeters on the edge of petering out. Nxh1 will trap the Black Knight and extinguish the threat.</p>
+<p>In the actual game, play took a different turn as Black continued his h-file pressure. Nonetheless, this game is an excellent example of how 2. …Nc6 is often a wasted tempo in the Bongcloud.
+</p></blockquote>
+<p>Here&#8217;s Nakamura philosophising over the game and the bongcloud. Try to watch at least the first 30 seconds or so to see the commentators reaction to the actual Carlsen-Nakamura game.</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/uMzYu-wL0nc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Now, that put a smile on your face, didn&#8217;t it?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-bongcloud-attack/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Teapot supremacy</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/teapot-supremacy/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/teapot-supremacy/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 13 Mar 2021 10:08:33 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Grover]]></category>
+		<category><![CDATA[Koblitz]]></category>
+		<category><![CDATA[Menezes]]></category>
+		<category><![CDATA[quantum comuters]]></category>
+		<category><![CDATA[Shor]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9078</guid>
+
+					<description><![CDATA[No, this is not another timely post about the British Royal family. It&#8217;s about Richard Borcherds&#8217; &#8220;teapot test&#8221; for quantum computers. A lot of money&#8230;]]></description>
+										<content:encoded><![CDATA[<p>No, this is not another timely post about the British Royal family.</p>
+<p>It&#8217;s about Richard Borcherds&#8217; &#8220;teapot test&#8221; for <a href="https://en.wikipedia.org/wiki/Quantum_computing">quantum computers</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/teapot.jpg" width=100% ><br />
+</center></p>
+<p>A lot of money is being thrown at the quantum computing hype, causing people to leave academia for quantum computing firms. A recent example (<a href="https://press.vub.ac.be/vub-alumnus-bob-coecke-to-head-cambridge-quantum-computing">hitting the press</a> even in Belgium) being the <a href="https://www.prnewswire.com/news-releases/cambridge-quantum-computing-appoints-oxford-university-professor-bob-coecke-as-chief-scientist-301200425.html">move of Bob Coecke</a> from Oxford University to <a href="https://cambridgequantum.com/">Cambridge Quantum Computing</a>.</p>
+<p>Sure, quantum computing is an enticing idea, and we have fantastic quantum algorithms such as <a href="https://en.wikipedia.org/wiki/Shor%27s_algorithm">Shor&#8217;s factorisation algorithm</a> and <a href="https://en.wikipedia.org/wiki/Grover%27s_algorithm">Grover&#8217;s search algorithm</a>.</p>
+<p>The (engineering) problem is building quantum computers with a large enough number of qubits, which is very difficult due to <a href="https://en.wikipedia.org/wiki/Quantum_decoherence">quantum decoherence</a>. To an outsider it may appear that the number of qubits in a working quantum computer is growing at best linearly, if not logarithmic, in sharp contrast to <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore&#8217;s law</a> for classical computers, stating that the number of transistors in an integrated circuit doubles every two years.</p>
+<p>Quantum computing evangelists assure us that this is nonsense, and that we should replace Moore&#8217;s law by <a href="https://hackernoon.com/nevens-law-paradigm-shift-in-quantum-computers-e6c429ccd1fc">Neven&#8217;s law</a> claiming that the computing power of quantum computers will grow not just exponentially, but doubly exponentially!</p>
+<p>What is behind these exaggerated claims?</p>
+<p>In 2015 the NSA released a policy statement on the need for <a href="https://en.wikipedia.org/wiki/Post-quantum_cryptography">post-quantum cryptography</a>. In the paper <a href="https://eprint.iacr.org/2015/1018.pdf">&#8220;A riddle wrapped in an enigma&#8221;</a>, <a href="https://en.wikipedia.org/wiki/Neal_Koblitz">Neil Koblitz</a> and <a href="https://en.wikipedia.org/wiki/Alfred_Menezes">Alfred Menezes</a> carefully examined NSA&#8217;s possible strategies behind this assertion.</p>
+<p>Can the NSA break <a href="https://csrc.nist.gov/projects/post-quantum-cryptography">PQC</a>? Can the NSA break <a href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)">RSA</a>? Does the NSA believes that <a href="https://crypto.stackexchange.com/questions/35343/rsa-3072-is-65-536-more-difficult-to-factor-than-2048">RSA-3072</a> is much more quantum-resistant than <a href="https://en.wikipedia.org/wiki/Elliptic-curve_cryptography">ECC-256</a> and even ECC-384?, and so on.</p>
+<p>Perhaps the most plausible of all explanations is this one : the NSA is using a diversion strategy aimed at Russia and China.</p>
+<blockquote><p>Suppose that the NSA believes that, although a large-scale quantum computer might eventually be built, it will be hugely expensive. From a cost standpoint it will be less analogous to Alan Turing’s bombe than to the Manhattan Project or the Apollo program, and it will be within the capabilities of only a small number of nation-states and huge corporations.</p>
+<p>Suppose also that, in thinking about the somewhat adversarial relationship that still exists between the U.S. and both China and Russia, especially in the area of cybersecurity, the NSA asked itself “How did we win the Cold War? The main strategy was to goad the Soviet Union into an arms race that it could not afford, essentially bankrupting it. Their GNP was so much less than ours, what was a minor set-back for our economy was a major disaster for theirs. It was a great strategy. Let’s try it again.”</p></blockquote>
+<p>This brings us to the claim of <a href="https://en.wikipedia.org/wiki/Quantum_supremacy">quantum supremacy</a>, that is, demonstrating that a programmable quantum device can solve a problem that no classical computer can solve in any feasible amount of time.</p>
+<p>In 2019, Google claimed &#8220;to have reached quantum supremacy with an array of 54 qubits out of which 53 were functional, which were used to perform a series of operations in 200 seconds that would take a supercomputer about 10,000 years to complete&#8221;. In December 2020, a group based in USTC reached quantum supremacy by implementing a type of Boson sampling on 76 photons with their photonic quantum computer. They stated that to generate the number of samples the quantum computer generates in 20 seconds, a classical supercomputer would require 600 million years of computation.</p>
+<p>Richard Borcherds rants against the type of problems used to claim quantum &#8216;supremacy&#8217;. He proposes the &#8216;teapot problem&#8217; which a teapot can solve instantaneously, but will be impossibly hard for classical (and even quantum) computers. That is, any teapot achieves &#8216;teapot supremacy&#8217; over classical and quantum computers!</p>
+<p>Another point of contention are the &#8216;real-life applications&#8217; quantum computers are said to be used for. Probably he is referring to <a href="https://www.volkswagen-newsroom.com/en/press-releases/volkswagen-optimizes-traffic-flow-with-quantum-computers-5507">Volkswagen&#8217;s plan for traffic optimization with a D-Wave quantum computer in Lisbon</a>.</p>
+<blockquote><p>&#8220;You could give these guys a time machine and all they&#8217;d use it for was going back to watch some episodes of some soap opera they missed&#8221;</p></blockquote>
+<p>Enjoy!</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/sFhhQRxWTIM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/teapot-supremacy/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lockdown reading : Penumbra</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lockdown-reading-penumbra/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lockdown-reading-penumbra/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 07 Mar 2021 10:21:59 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Gibson]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Hadoop]]></category>
+		<category><![CDATA[Murakami]]></category>
+		<category><![CDATA[Robin Sloan]]></category>
+		<category><![CDATA[Stephemson]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9113</guid>
+
+					<description><![CDATA[In this series I’ll mention some books I found entertaining, stimulating or comforting during these Corona times. Read them at your own risk. It&#8217;s difficult&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In this series I’ll mention some books I found entertaining, stimulating or comforting during these Corona times. Read them at your own risk.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/en/b/b6/Mr_Penumbra%27s_24-Hour_Bookstore.jpg" width=50%><br />
+</center></p>
+<p>It&#8217;s difficult to admit, but Amazon&#8217;s blurb lured me into reading <a href="https://en.wikipedia.org/wiki/Mr._Penumbra%27s_24-Hour_Bookstore">Mr. Penumbra&#8217;s 24-Hour Bookstore</a> by <a href="https://en.wikipedia.org/wiki/Robin_Sloan">Robin Sloan</a>:</p>
+<blockquote><p>&#8220;With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the 21st century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or a young Umberto Eco, but with a unique and feisty sensibility that’s rare to the world of literary fiction.&#8221; (<a href="https://www.amazon.com/Mr-Penumbras-24-Hour-Bookstore-audiobook/dp/B009KF05D8">Amazon&#8217;s blurb</a>)</p></blockquote>
+<p>I&#8217;m a fan of Murakami&#8217;s later books (such as <a href="https://en.wikipedia.org/wiki/1Q84">1Q84</a> or <a href="https://en.wikipedia.org/wiki/Killing_Commendatore">Killing Commendatore</a>), and Stephenson&#8217;s earlier ones (such as <a href="https://en.wikipedia.org/wiki/Snow_Crash">Snow Crash</a> or <a href="https://en.wikipedia.org/wiki/Cryptonomicon">Cryptonomicon</a>), so if someone wrote the perfect blend, I&#8217;m in. Reading Penumbra&#8217;s bookstore, I discovered that these &#8216;comparisons&#8217; were borrowed from the book itself, leaving out a few other good suggestions:</p>
+<blockquote><p>One cold Tuesday morning, he strolls into the store with a cup of coffee in one hand and his mystery e-reader in the other, and I show him what I&#8217;ve added to the shelves:</p>
+<p>&#8220;<a href="https://en.wikipedia.org/wiki/Neal_Stephenson">Stephenson</a>, <a href="https://en.wikipedia.org/wiki/Haruki_Murakami">Murakami</a>, the latest <a href="https://en.wikipedia.org/wiki/William_Gibson">Gibson</a>, <a href="https://en.wikipedia.org/wiki/The_Information_(novel)">The Information</a>, <a href="https://en.wikipedia.org/wiki/House_of_Leaves">House of Leaves</a>, fresh editions of <a href="https://readingmapofpenumbras24hourbookstore.wordpress.com/dragon-song-chronicles/">Moffat</a>&#8221; &#8211; I point them out as I go.</p>
+<p>(from &#8220;Mr Penumbra&#8217;s 24-Hour Bookstore&#8221;)</p></blockquote>
+<p>This trailer gives a good impression of what the book is about.</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/zfKiVF-EoT0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Why might you want to read this book?</p>
+<ul>
+<li>If you have a weak spot for a bad ass Googler girl and her tecchy wizardry.</li>
+<li>If you are interested in the possibilities and limitations of Google&#8217;s tools.</li>
+<li>If you don&#8217;t know what a <a href="https://en.wikipedia.org/wiki/Apache_Hadoop">Hadoop job</a> is or how to combine it with a <a href="https://en.wikipedia.org/wiki/Amazon_Mechanical_Turk">Mechanical Turk</a> to find a marker on a building somewhere in New-York.</li>
+<li>If you never heard of the <a href="https://readingmapofpenumbras24hourbookstore.wordpress.com/font-love/">Gerritszoon font</a>, preinstalled on every Mac.</li>
+</ul>
+<p>As you see, Google features prominently in the book, so it is kind of funny to watch the author, Robin Sloan, give a talk at Google.</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/DBBhA_j_CIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Some years later, Sloan wrote a (shorter) prequel <a href="https://www.goodreads.com/book/show/18657790-ajax-penumbra-1969">Ajax Penumbra 1969</a>, which is also a good read but does not involve fancy technology, unless you count tunnel construction among those.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/51n6xq5bH1L.jpg" width=50% ><br />
+</center></p>
+<p>Read it if you want to know how Penumbra ended up in his bookstore and how he recovered the last surviving copy of the book &#8220;Techne Tycheon&#8221;.</p>
+<p>More information (together with reading suggestions) can be found at <a href="https://readingmapofpenumbras24hourbookstore.wordpress.com/">Mr Penumbra&#8217;s 24-hour bookstore: a reading map</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lockdown-reading-penumbra/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lockdown reading : the Carls</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lockdown-reading-the-carls/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lockdown-reading-the-carls/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 28 Feb 2021 08:08:42 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Carls]]></category>
+		<category><![CDATA[Hank Green]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8902</guid>
+
+					<description><![CDATA[In this series I&#8217;ll mention some books I found entertaining, stimulating or comforting during these Corona times. Read them at your own risk. An Absolutely&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In this series I&#8217;ll mention some books I found entertaining, stimulating or comforting during these Corona times. Read them at your own risk.</p>
+<p><a href="https://en.wikipedia.org/wiki/An_Absolutely_Remarkable_Thing">An Absolutely Remarkable Thing</a> (AART for the fans) by <a href="https://en.wikipedia.org/wiki/Hank_Green">Hank Green</a> came out in 2018, and recently I reread it when its sequel <a href="https://en.wikipedia.org/wiki/A_Beautifully_Foolish_Endeavor">A Beautifully Foolish Endeavor</a> appeared last summer.</p>
+<p><center><img decoding="async" src="https://upload.wikimedia.org/wikipedia/en/d/d0/The_cover_of_%22An_Absolutely_Remarkable_Thing%22_by_Hank_Green.png"  width=40%><br />
+</center></p>
+<blockquote><p>&#8220;Protagonist April May discovers a large robot sculpture in Midtown Manhattan. She and her friend Andy Skampt decide to film it and post the video online, which goes viral and makes April an overnight celebrity. All over the world identical structures—known as &#8220;Carls&#8221;—have appeared in major cities at exactly the same time.&#8221; (Wikipedia)</p></blockquote>
+<p>Here&#8217;s an artist&#8217;s impression of said video, followed by the &#8216;Queen sequence&#8217; (one of many puzzles in the book). On an audio fragment a faint trace of Queen&#8217;s &#8220;Don&#8217;t Stop Me Now&#8221; is heard, and April discovers the code &#8220;IAMU&#8221; after fixing a series of typos in the <a href="https://en.wikipedia.org/wiki/Don%27t_Stop_Me_Now">Wikipedia article</a> about that song.</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/DDQkcSAM9rQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Three reasons why you might want to read this book now:</p>
+<ol>
+<li>It&#8217;s about the dangers and pitfalls of <strong>social media</strong> and <a href="https://www.bbc.com/news/entertainment-arts-45653469">online fame</a>. (Something Hank Green is familiar with as he runs with his brother the YouTube channel <a href="https://en.wikipedia.org/wiki/Vlogbrothers">Vlogbrothers</a>.)</li>
+<li>It&#8217;s about a <strong>global pandemic</strong>. (Not caused by a virus, but by a contagious dream, containing 4096 &#8216;sequences&#8217;=puzzles, each resulting in an HEX-sequence to be combined into a vector-image.)</li>
+<li>It&#8217;s about the consequences of <strong>hate speech</strong>. (It&#8217;s hard not to draw parallels between &#8216;Peter Petrawicki&#8217; and a former president, and between the actions of the &#8216;Defenders&#8217; and the events of January 6th.) </li>
+</ol>
+<p>AART doesn&#8217;t end well for April May, and it was hard to image Hank Green ever writing a sequel without doing a <a href="https://www.mentalfloss.com/article/79815/bad-dreams-when-bobby-ewing-returned-dallas">Bobby Ewing shower scene</a> (showing my age here). And yes, the book ends with a two word text message from April: &#8220;Knock Knock&#8221;.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/en/d/db/A_Beautifully_Foolish_Endeavour_%28Hank_Green%29.png" width=40% ><br />
+</center></p>
+<p>The sequel &#8216;A Beautifully Foolish Endeavour&#8217; is perhaps even more enjoyable than AART. The Dream is now replaced by a Magic Book, and the storytelling (at first) no longer done by April herself but by her four evangelists (Maya, Andy, Miranda and Robin), Green&#8217;s very own <a href="http://peterchrisp.blogspot.com/2014/02/mamalujo-1924.html">Mamalujo</a> so to speak.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lockdown-reading-the-carls/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>G+ recovery 6 : math-history</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/g-recovery-3-history/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/g-recovery-3-history/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 06 Feb 2019 13:26:07 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8303</guid>
+
+					<description><![CDATA[In April my Google+ account will disappear. Here I collect some G+ posts, in chronological order, having a common theme. Today, math-history (jokes and puns&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In April my Google+ account will disappear. Here I collect some G+ posts, in chronological order, having a common theme. Today, math-history (jokes and puns included).</p>
+<p><strong>September 20th, 2011</strong></p>
+<p>Was looking up pictures of mathematicians from the past and couldn&#8217;t help thinking &#8216;Hey, I&#8217;ve seen this face before&#8230;&#8217;</p>
+<p>Leopold Kronecker = DSK (2/7/2019 : DSK = Dominique Strauss-Kahn)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/HistKronecker.jpg"></p>
+<p>Adolf Hurwitz = Groucho Marx</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/HistHurwitz.jpg"></p>
+<p><strong>June 2nd, 2012</strong></p>
+<p><strong>The &#8216;Noether boys&#8217; </strong></p>
+<p>(Noether-Knaben in German) were the group of (then) young algebra students around Emmy Noether in the early 1930&#8217;s. Actually two of them were girls (Grete Hermann and Olga Taussky).</p>
+<p>The picture is taken from a talk Peter Roquette gave in Heidelberg. Slides of this talk are now available from <a href="http://www.rzuser.uni-heidelberg.de/~ci3/Noether-Heidelberg2010a.pdf">his website</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/HistNoetherBoys.jpg"></p>
+<p>In 1931 Jacques Herbrand (one of the &#8216;Noether boys&#8217;) fell to his death while mountain-climbing in the Massif des Écrins (France). He was just 23, but already considered one of the greatest minds of his generation.</p>
+<p>He introduced the notion of recursive functions while proving &#8220;On the consistency of arithmetic&#8221;. In several texts on Herbrand one finds this intriguing quote by Chevalley (one of the first generation Bourbakis):</p>
+<p><strong>&#8220;Jacques Herbrand would have hated Bourbaki&#8221;</strong> said French mathematician Claude Chevalley quoted in Michèle Chouchan &#8220;Nicolas Bourbaki Faits et légendes&#8221; Edition du choix, 1995. («Jacques Herbrand aurait détesté Bourbaki» in the original French version).</p>
+<p>Can anyone tell me the underlying story?</p>
+<p><strong>June 26th, 2012</strong></p>
+<p>a 3yr <a href="https://lievenlebruyn.github.io/neverendingbooks/the-scottish-solids-hoax">old post on Scottish vs. Platonic Solids</a>  did hit <a hef="https://www.reddit.com/r/pics/comments/vml5s/4000_year_old_stone_carvings_of_the_platonic/">Reddit/pics</a></p>
+<p>1.4k upvotes. Surreal!</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/scottishballs1.jpg"></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/scottishballs2.jpg"></p>
+<p>I&#8217;d better point them to the latest on this then.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/scottish-solids-final-comments">Scottish solids, final(?) comments</a>.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-return-of-the-scottish-solids">The return of the Scottish solids</a></p>
+<p><strong>December 19th, 2012</strong></p>
+<p><strong>Mumford&#8217;s treasure map</strong></p>
+<p>+Pieter Belmans&nbsp;(re)discovered a proto-drawing of Mumford&#8217;s iconic map of Spec(Z[x]) in his &#8216;red book&#8217;.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/HistMumfordTreasure.jpg"></p>
+<p>The proto-pic is taken from Mumford&#8217;s &#8216;Lectures on curves on an algebraic surface&#8217; p.28 and tries to depict the integral projective line. The set-up is rather classical (focussing on points of different codimension) whereas the red-book picture is more daring and has been an inspiration for generations of arithmetical geometers.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/HistMumfordProto.jpg"></p>
+<p>Still there&#8217;s the issue of dating these maps.</p>
+<p>Mumford himself dates the P^1 drawing 1964 (although the publication date is 66) and the red-book as 1967.&nbsp;</p>
+<p>Though I&#8217;d love to hear more precise dates, I&#8217;m convinced they are about right. In the &#8216;Curves&#8217;-book&#8217;s preface Mumford apologises to &#8216;any reader who, hoping that he would find here in these 60 odd pages an easy and concise introduction to schemes, instead becomes hopelessly lost in a maze of unproven assertions and undeveloped suggestions.&#8217; and he stresses by underlining &#8216;From lecture 12 on, we have proven everything that we need&#8217;.</p>
+<p>So, clearly the RedBook was written later, and as he has written in-between his master-piece GIT i&#8217;d say Mumford&#8217;s own dating is about right.</p>
+<p>Still, it is not a completely vacuous dispute as the &#8216;Curves&#8217; book (supposedly from 1964 or earlier) contains a marvelous appendix by George Bergman on the Witt ring which would predate Cartier&#8217;s account&#8230;</p>
+<p>Thanks to +James Borger&nbsp;i know of George&#8217;s take on this</p>
+<p>&#8220;I was a graduate student taking the course Mumford gave on curves and surfaces; but algebraic geometry was not my main field, and soon into the course I was completely lost. &nbsp;Then Mumford started a self-contained topic that he was going to weave in &#8212; ring schemes &#8212; and it made clear and beautiful sense to me; and when he constructed the Witt vector ring scheme, I thought about it, saw a nicer way to do it, talked with him about it and with his permission presented it to the class, and eventually wrote it up as a chapter in his course notes.<br />
+I think that my main substantive contribution was the tying together of the various prime-specific ring schemes into one big ring scheme that works for all primes. &nbsp;The development in terms of power series may or may not have originated with me; I just don&#8217;t remember.&#8221;</p>
+<p>which sounds very Bergmannian to me.</p>
+<p>Anyway I&#8217;d love to know more about the dating of the &#8216;Curves&#8217; book and (even more) the first year Mumford delivered his Red-Book-Lectures (my guess 1965-66). Thanks.<br />
+Pieter maintains an &#8220;Atlas of this picture&#8221; <a href="http://pbelmans.wordpress.com/atlas/">here</a></p>
+<p><strong>June 17th, 2013</strong></p>
+<p><strong>the birthday of schemes : november 5th 1956</strong></p>
+<p>The wikipedia-entry linking Andre Martineau to the origin of the scheme-concept appears to rely on footnote 29 of Cartier&#8217;s <a href="http://goo.gl/wv7Vl">&#8216;A mad day&#8217;s work, from Grothendieck to Connes and Kontsevich&#8217;</a> which reads:</p>
+<p>&#8220;Serre first considered the set of maximal ideals of a commutative ring A subject to certain restrictions. Martineau then remarked to him that his arguments remained valid for any commutative ring, provided one takes all prime ideals instead of only maximal ideals. I then proposed a definition of schemes equivalent to the definition of Grothendieck. In my dissertation I confined myself to a framework similar to that of Chevalley, so as to avoid an excessively long exposition of the preliminaries!&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/HistSchemes1.jpg" width=100% ></p>
+<p>In the 1956/57 Chevalley seminar Cartier gave the first two talks and in the first one, on november 5th 1956, one finds the first published use of the word &#8216;scheme&#8217;, which he refers to as &#8216;schemes in the sense of Chevalley-Nagata&#8217;. On page 9 of that talk he introduces the prime spectrum with its Zariski topology.</p>
+<p>In the second talk a week later, on november 12th, he then gives the general definition of a scheme (as we know it, by gluing together affine schemes and including the stalks).</p>
+<p>BUT, he did all of this &#8216;only&#8217; for affine rings over a field, &#8216;to avoid an excessively long exposition of the preliminaries&#8217;&#8230;</p>
+<p>Grothendieck then made the quantum-leap to general commutative rings.</p>
+<p><strong>June 18th, 2013</strong></p>
+<p><strong>Correction : scheme-birthday = december 12th, 1955</strong></p>
+<p>Claude Chevalley gave already two talks on &#8216;Schemes&#8217; in the Cartan-Chevalley seminar of 1955/56, the first one on december 12th 1955, the other a week later.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/HistSchemes2.jpg" width=100% ></p>
+<p>Chevalley only considers integral schemes, of finite type over a field (Cartier drops the integrality condition on november 5th 1956, a bit later Grothendieck will drop all restrictions).</p>
+<p>Grothendieck&#8217;s quote &#8220;But then, what are schemes?&#8221; uttered in a Parisian Cafe must date from that period. Possibly Cartier explained the concept to him. In a letter to Serre, dated december 15th 1955, Grothendieck is quite impressed with Cartier:</p>
+<p>&#8220;Cartier seems to be an amazing person, especially his speed of understanding, and the incredible amount of things he reads and grasps; I really have the impression that in a few years he will be where you are now. I am exploiting him most profitably.&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/HistSchemes3.jpg" width=100% ></p>
+<p><strong>June 18th, 2013</strong></p>
+<p><strong>David Mumford on the Italian school of Geometry</strong></p>
+<p><strong>Short version:</strong><br />
+Castelnuovo : the good<br />
+Severi : the bad<br />
+Enriques : the ugly</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/HistGoodBadUgly.jpg" width=100% ></p>
+<p><strong>The longer version:</strong></p>
+<p>&#8220;The best known case is the Italian school of algebraic geometry, which produced extremely good and deep results for some 50 years, but then went to pieces.<br />
+There are 3 key names here &#8212; Castelnuovo, Enriques and&nbsp;Severi.</p>
+<p>C was earliest and was totally rigorous, a splendid mathematician.</p>
+<p>E came next and, as far as I know, never published anything that was false, though he openly acknowledged that some of his proofs didn&#8217;t cover every possible case (there were often special highly singular cases which later turned out to be central to understanding a situation). &nbsp;He used to talk about posing &#8220;critical doubts&#8221;. He had his own standards and was happy to reexamine a &#8220;proof&#8221; and make it more nearly complete.</p>
+<p>Unfortunately Severi, the last in the line, a fascist with a dictatorial temperament, really killed the whole school because, although he started off with brilliant and correct discoveries, later published books full of garbage (this was in the 30&#8217;s and 40&#8217;s). The rest of the world was uncertain what had been proven and what not. He gave a keynote speech at the first Int Congress after the war in 1950, but his mistakes were becoming clearer and clearer.</p>
+<p>It took the efforts of 2 great men, Zariski and Weil, to clean up the mess in the 40&#8217;s and 50&#8217;s although dredging this morass for its correct results continues occasionally to this day.&#8221; (<a href="http://goo.gl/e2kyk">David Mumford</a>)</p>
+<p><strong>June 19th, 2014</strong></p>
+<p><strong>Hirune Mendebaldeko &#8211; Bourbaki&#8217;s muse</strong></p>
+<p>After more than 70 years, credit is finally given to a fine, inspiring and courageous Basque algebraic geometer.</p>
+<p>One of the better held secrets, known only to the first generation Bourbakistas, was released to the general public in april 2012 at the WAGS Spring 2012, the Western Algebraic Geometry Symposium, held at the University of Washington.</p>
+<p>Hirune Mendebaldeko was a Basque pacifist, a contemporary of Nicholas Bourbaki, whom she met in Paris while there studying algebraic geometry. They were rumored to be carrying on a secret affair, with not infrequent trysts in the Pyrenees. Whenever they appeared together in public, however, there was no indication of any personal relationship.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/HistHirune.jpg" width=100% ></p>
+<p>From the comments, by +Sandor Kovacs:</p>
+<p>+Chris Brav Chris, just between us: the whole thing is a joke. I just tried to put yet another twist on it. Also, until now we have never admitted that it is, so please don&#8217;t tell anyone. <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>The explanation at the end of +lieven lebruyn&#8217;s blog post was indeed the original motivation for the name. We were starting a new &#8220;named&#8221; lecture series as part of WAGS and wanted to name it after someone not obvious. Basque is a language not related to any other. It seemed a good idea to use that, so very few people would know the meaning of any particular word.</p>
+<p>Then we tried all the words in WAGS, but the other three were actually very similar to the English/etc versions. The first name was chosen by vibe. Then we decided that we needed a bio for our distinguished namesake and the connection to Bourbaki presented itself for various reasons that you can guess. But we wanted a pacifist and it seemed a nice contrast to Bourbaki. So Hirune was born and we were hoping that one day she would gain prominence in the world. Finally, it happened. <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p><strong>June 22nd, 2014</strong></p>
+<p><strong>the state of European mathematics in 1927</strong></p>
+<p>This map, from the Rockefeller foundation, gives us the top 3 mathematical institutes in 1927 : Goettingen, Paris and &#8230; Rome.<br />
+The pie-charts per university show that algebra was a marginal topic then (wondering how a similar map might look today).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/HistMap.jpg" width=100% ></p>
+<p><strong>December 1st, 2015</strong></p>
+<p><strong>Did Chevalley invent the Zariski topology?</strong></p>
+<p>In his inaugural lecture at #ToposIHES Pierre Cartier stated (around 44m11s):<br />
+&#8220;By the way, Zariski topology, as we know it today, was not what Zariski invented. He invented a variant of that, a topology on the set of all valuation rings of a given field, which is not exactly the same thing. As for the Zariski topology, the rumour is that it was invented by Chevalley in a seminar given by Zariski, but I have no real proof.&#8221;<br />
+Do you know more about this?</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/OeGj6JqiyHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+<p>Btw. the full lecture of Cartier (mostly on sheaf theory) is not on the IHES YouTube channel, but on the <a href="https://www.youtube.com/watch?v=OeGj6JqiyHk">channel of +Laurence Honnorat</a>.</p>
+<p>The IHES did begin to upload videos of the remaining plenary talks<br />
+<a href="https://www.youtube.com/channel/UC4R1IsRVKs_qlWKTm9pT82Q/videos">here</a> (so far, the wednesday talks are available).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/g-recovery-3-history/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

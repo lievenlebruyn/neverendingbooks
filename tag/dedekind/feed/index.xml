@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Dedekind &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/dedekind/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 14 Jul 2019 16:39:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the Riemann hypothesis and Psi</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 14 Jul 2019 16:39:40 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[Nicolas]]></category>
+		<category><![CDATA[Pauli]]></category>
+		<category><![CDATA[Planat]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[Sole]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8430</guid>
+
+					<description><![CDATA[Last time we revisited Robin&#8217;s theorem saying that 5040 being the largest counterexample to the bound \[ \frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \] is equivalent&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040">Last time</a> we revisited Robin&#8217;s theorem saying that 5040 being the largest counterexample to the bound<br />
+\[<br />
+\frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \]
+is equivalent to the Riemann hypothesis.
+
+
+
+<p />
+There&#8217;s an industry of similar results using other arithmetic functions. Today, we&#8217;ll focus on <a href="https://en.wikipedia.org/wiki/Dedekind_psi_function">Dedekind&#8217;s Psi function</a><br />
+\[<br />
+\Psi(n) = n \prod_{p | n}(1 + \frac{1}{p}) \]<br />
+where $p$ runs over the prime divisors of $n$. It is series <a href="https://oeis.org/A001615">A001615</a> in the online encyclopedia of integer sequences and it starts off with</p>
+<p>1, 3, 4, 6, 6, 12, 8, 12, 12, 18, 12, 24, 14, 24, 24, 24, 18, 36, 20, 36, 32, 36, 24, 48, 30, 42, 36, 48, 30, 72, 32, 48, 48, 54, 48, &#8230;</p>
+<p>and here&#8217;s a plot of its first 1000 values</p>
+<p><center><br />
+<img decoding="async" width=100% src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DedekindPsi.jpeg"><br />
+</center></p>
+<p>To understand this behaviour it is best to focus on the &#8216;slopes&#8217; $\frac{\Psi(n)}{n}=\prod_{p|n}(1+\frac{1}{p})$.</p>
+<p />
+So, the red dots of minimal &#8216;slope&#8217; $\approx 1$ correspond to the prime numbers, and the &#8216;outliers&#8217; have a maximal number of distinct small prime divisors. Look at $210 = 2 \times 3 \times 5 \times 7$ and its multiples $420,630$ and $840$ in the picture.</p>
+<p />For this reason the <a href="https://en.wikipedia.org/wiki/Primorial">primorial numbers</a>, which are the products of the fist $k$ prime numbers, play a special role. This is series <a href="https://oeis.org/A002110">A002110</a> starting off with</p>
+<p>1, 2, 6, 30, 210, 2310, 30030, 510510, 9699690, 223092870,&#8230;</p>
+<p>In Patrick Solé and  Michel Planat <a href="https://arxiv.org/abs/1011.1825">Extreme values of the Dedekind $\Psi$ function</a>, it is shown that the primorials play a similar role for Dedekind&#8217;s Psi as the <a href="https://en.wikipedia.org/wiki/Superabundant_number">superabundant numbers</a> play for the sum-of-divisors function $\sigma(n)$.</p>
+<p />
+That is, if $N_k$ is the $k$-th primorial, then for all $n < N_k$ we have that the 'slope' at $n$ is strictly below that of $N_k$
+\[
+\frac{\Psi(n)}{n} < \frac{\Psi(N_k)}{N_k} \]
+which follows immediately from the fact that any $n < N_k$ can have at most $k-1$ distinct prime factors and $p \mapsto 1 + \frac{1}{p}$ is a strictly decreasing function.
+
+
+
+<p />
+Another easy, but nice, observation is that for all $n$ we have the inequalities<br />
+\[<br />
+n^2 > \phi(n) \times \psi(n) > \frac{n^2}{\zeta(2)} \]<br />
+where $\phi(n)$ is <a href="https://en.wikipedia.org/wiki/Euler%27s_totient_function">Euler&#8217;s totient function</a><br />
+\[<br />
+\phi(n) = n \prod_{p | n}(1 &#8211; \frac{1}{p}) \]<br />
+This follows as once from the definitions of $\phi(n)$ and $\Psi(n)$<br />
+\[<br />
+\phi(n) \times \Psi(n) = n^2 \prod_{p|n}(1 &#8211; \frac{1}{p^2}) < n^2 \prod_{p~\text{prime}} (1 - \frac{1}{p^2}) = \frac{n^2}{\zeta(2)} \]
+But now it starts getting interesting.
+
+
+
+<p />
+In the proof of his theorem, Guy Robin used a result of his Ph.D. advisor Jean-Louis Nicolas</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Nicolas.jpg" width=50%><br />
+</center></p>
+<p>known as Nicolas&#8217; criterion for the Riemann hypothesis: RH is true if and only if for all $k$ we have the inequality for the $k$-th primorial number $N_k$<br />
+\[<br />
+\frac{N_k}{\phi(N_k)~log(log(N_k))} > e^{\gamma} \]<br />
+From the above lower bound on $\phi(n) \times \Psi(n)$ we have for $n=N_k$ that<br />
+\[<br />
+\frac{\Psi(N_k)}{N_k} > \frac{N_k}{\phi(N_k) \zeta(2)} \]<br />
+and combining this with Nicolas&#8217; criterion we get<br />
+\[<br />
+\frac{\Psi(N_k)}{N_k~log(log(N_k))} > \frac{N_k}{\phi(N_k)~log(log(N_k)) \zeta(2)} > \frac{e^{\gamma}}{\zeta(2)} \approx 1.08&#8230; \]<br />
+In fact, Patrick Solé and  Michel Planat prove in their paper <a href="https://arxiv.org/abs/1011.1825">Extreme values of the Dedekind $\Psi$ function</a> that RH is equivalent to the lower bound<br />
+\[<br />
+\frac{\Psi(N_k)}{N_k~log(log(N_k))} > \frac{e^{\gamma}}{\zeta(2)} \]<br />
+holding for all $k \geq 3$.</p>
+<p />Dedekind&#8217;s Psi function pops up in lots of interesting mathematics.</p>
+<p />In the theory of modular forms, Dedekind himself used it to describe the index of the congruence subgroup $\Gamma_0(n)$ in the full modular group $\Gamma$.</p>
+<p>In other words, it gives us the number of tiles needed in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-dedekind-tessellation">Dedekind tessellation</a> to describe the fundamental domain of the action of $\Gamma_0(n)$ on the upper half-plane by Moebius transformations.</p>
+<p><img decoding="async" width=100% src="https://ethz.ch/services/en/news-and-events/internal-news/archive/2017/11/when-richard-dedekind-invented-real-numbers-at-eth-zurich/_jcr_content/news_content/fullwidthimage/image.imageformat.lightbox.2134429438.jpg"></p>
+<p>When $n=6$ we have $\Psi(6)=12$ and we can view its fundamental domain via these <a href="http://www.sagemath.org/">Sage</a> commands:</p>
+<p><code><br />
+G=Gamma0(6)<br />
+FareySymbol(G).fundamental_domain()<br />
+</code></p>
+<p>giving us the 24 back or white tiles (note that these tiles are each fundamental domains of the extended modular group, so we have twice as many of them as for subgroups of the modular group)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Gamma0(6).jpg"><br />
+</center></p>
+<p>But, there are plenty of other, seemingly unrelated, topics where $\Psi(n)$ appears. To name just a few:</p>
+<ul>
+<li>The number of points on the projective line $\mathbb{P}^1(\mathbb{Z}/n\mathbb{Z})$.</li>
+<li>The number of lattices at hyperdistance $n$ in <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture">Conway&#8217;s big picture</a>.</li>
+<li>The number of admissible maximal commuting sets of operators in the Pauli group for the $n$ qudit.</li>
+</ul>
+<p>and there are explicit natural one-to-one correspondences between all these manifestations of $\Psi(n)$, tbc.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>5 years blogging</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/5-year-blogging/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/5-year-blogging/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 31 Dec 2008 22:55:59 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[Lenstra]]></category>
+		<guid isPermaLink="false">http://matrix.cmi.ua.ac.be/?p=766</guid>
+
+					<description><![CDATA[A few recollections and a very quick number game by Hendrik Lenstra.]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Lenstra1.jpg" style="float:right;margin-left:10px;">Here&#8217;s a <strong>5</strong> move game from $\mathbb{C} $, the complex numbers game, annotated by Hendrik Lenstra in <a href="https://openaccess.leidenuniv.nl/dspace/bitstream/1887/2125/1/346_027.pdf">Nim multiplication</a>.</p>
+<p>$\begin{matrix}  &amp; \text{White} &amp; \text{Black} \\ 1. &amp; 3-2i &amp; &#123; 3_{\mathbb{R}} &#125; \\ 2. &amp; 3_{\mathbb{R}} &amp; (22/7)_{\mathbb{Q}} \\ 3. &amp; (-44_{\mathbb{Z}},-14_{\mathbb{Z}})? &amp; &#123; -44_{\mathbb{Z}} &#125; \\ 4. &amp; -44_{\mathbb{Z}} &amp; ( 0_{\mathbb{N}},44_{\mathbb{N}} )! \\ 5. &amp; \text{Resigns} &amp; \\ \end{matrix} $</p>
+<p>He writes : &#8220;The following <strong>5</strong> comments will make the rules clear.</p>
+<p><strong>1</strong> :  White selected a complex numbers. Black knows that $\mathbb{C} = \mathbb{R} \times \mathbb{R} $ by $a+bi = (a,b) $, and remembers Kuratowski&#8217;s definition of an ordered pair: $~(x,y) = &#123; &#123; x &#125;, &#123; x,y &#125; &#125; $. Thus black must choose an element of $&#123; &#123; 3_{\mathbb{R}} &#125;, &#123; 3_{\mathbb{R}},-2_{\mathbb{R}} &#125; &#125; $. The index $\mathbb{R} $ here, and later $\mathbb{Q},\mathbb{Z} $ and $\mathbb{N} $, serve to distinguish between real numbers, rational numbers, integers and natural numbers usually denoted by the same symbol. Black&#8217;s move leaves White a minimum of choice, but it is not the best one.</p>
+<p><strong>2</strong> : White has no choice. The Dedekind definition of $\mathbb{R} $ which the players agreed upon identifies a real number with the set of all strictly larger rational numbers; so Black&#8217;s move is legal.</p>
+<p><strong>3</strong> : A rational number is an equivalence class of pairs of integers $~(a,b) $ with $b \not= 0 $; here $~(a,b) $ represents the rational number $a/b $. The question mark denotes that White&#8217;s move is a bad one.</p>
+<p><strong>4</strong> : The pair $~(a,b) $ of natural numbers represents the integer $a-b $. Black&#8217;s move is the only winning one.</p>
+<p><strong>5</strong> : White resigns, since he can choose between $&#123; 0_{\mathbb{N}} &#125; $ and $&#123; 0_{\mathbb{N}},44_{\mathbb{N}} &#125; $. In both cases Black will reply by $0_{\mathbb{N}} $, which is the empty set&#8221; (and so wins because White has no move left).</p>
+<p>These rules make it clear what we mean by the natural numbers $\mathbb{N} $ game, the $\mathbb{Z} $-game and the $\mathbb{Q} $ and $\mathbb{R} $ games. A sum of games is defined as usual (players are allowed to move in exactly one of the component games).</p>
+<p>Here&#8217;s a <strong>5</strong> term exercise from Lenstra&#8217;s paper : Determine the unique winning move in the game $\mathbb{N} + \mathbb{Z} + \mathbb{Q} + \mathbb{R} + \mathbb{C} $</p>
+<p>It will take you less than <strong>5</strong> minutes to solve this riddle. Some of the other &#8216;exercises&#8217; in Lenstra&#8217;s paper may take you a lot longer, if not forever&#8230;</p>
+<p>Exactly <strong>5</strong> years ago I <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/a-blogging-2004.html">wrote</a> : &#8220;As it is probably better to run years behind than to stand eternally still, I’ll try out how much of a blogger I am in 2004.&#8221;</p>
+<p><strong>5</strong> months ago this <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-future-of-this-blog-2.html">became</a> : &#8220;from january 1st 2009, I’ll be moving out of here. I will leave the neverendingbooks-site intact for some time to come, so there is no need for you to start archiving it en masse, yet.&#8221;</p>
+<p><strong>5</strong> minutes before the deadline, this will be my last post&#8230;.</p>
+<p>of 2008</p>
+<p>less entropy in 2009!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/5-year-blogging/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>noncommutative F_un geometry (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 17 Oct 2008 12:14:09 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=459</guid>
+
+					<description><![CDATA[We use Kontsevich's idea of thin varieties to define complexified varieties over F\_un.]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/towards-noncommutative-f_un-geometry.html">Last time</a> we tried to generalize the <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-1.html">Connes-Consani</a> approach to commutative algebraic geometry over the field with one element $\mathbb{F}_1 $ to the noncommutative world by considering covariant functors</p>
+<p>$N~:~\mathbf{groups} \rightarrow \mathbf{sets} $</p>
+<p>which over $\mathbb{C} $ resp. $\mathbb{Z} $ become visible by a complex (resp. integral) algebra having suitable universal properties.</p>
+<p>However, we didn&#8217;t specify what we meant by a complex noncommutative variety (resp. an integral noncommutative scheme). In particular, we claimed that the $\mathbb{F}_1 $-&#8216;points&#8217; associated to the functor</p>
+<p>$D~:~\mathbf{groups} \rightarrow \mathbf{sets} \qquad G \mapsto G_2 \times G_3 $ (here $G_n $ denotes all elements of order $n $ of $G $)</p>
+<p>were precisely the modular dessins d&#8217;enfants of Grothendieck, but didn&#8217;t give details. We&#8217;ll try to do this now.</p>
+<p>For algebras over a field we follow the definition, due to <a href="http://arxiv.org/abs/math/0606241">Kontsevich and Soibelman</a>, of so called &#8220;noncommutative <strong>thin</strong> schemes&#8221;. Actually, the <strong>thinness</strong>-condition is implicit in both Soule&#8217;s-approach as that of Connes and Consani : we do not consider R-points in general, but only those of rings R which are finite and flat over our basering (or field).</p>
+<p>So, what is a <strong>noncommutative thin scheme</strong> anyway? Well, its a covariant functor (commuting with finite projective limits)</p>
+<p>$\mathbb{X}~:~\mathbf{Alg}^{fd}_k \rightarrow \mathbf{sets} $</p>
+<p>from finite-dimensional (possibly noncommutative) $k $-algebras to sets. Now, the usual dual-space operator gives an anti-equivalence of categories</p>
+<p>$\mathbf{Alg}^{fd}_k \leftrightarrow \mathbf{Coalg}^{fd}_k \qquad A=C^* \leftrightarrow C=A^* $</p>
+<p>so a thin scheme can also be viewed as a contra-variant functor (commuting with finite direct limits)</p>
+<p>$\mathbb{X}~:~\mathbf{Coalg}^{fd}_k \rightarrow \mathbf{Sets} $</p>
+<p>In particular, we are interested to associated to any {tex]k $-algebra $A $ its <strong>representation functor</strong> :</p>
+<p>$\mathbf{rep}(A)~:~\mathbf{Coalg}^{fd}_k \rightarrow \mathbf{Sets} \qquad C \mapsto Alg_k(A,C^*) $</p>
+<p>This may look strange at first sight, but $C^* $ is a finite dimensional algebra and any $n $-dimensional representation of $A $ is an algebra map $A \rightarrow M_n(k) $ and we take $C $ to be the dual coalgebra of this image.</p>
+<p>Kontsevich and Soibelman proved that every noncommutative thin scheme $\mathbb{X} $ is representable by a $k $-coalgebra. That is, there exists a unique coalgebra $C_{\mathbb{X}} $ (which they call the coalgebra of &#8216;distributions&#8217; of $\mathbb{X} $) such that for every finite dimensional $k $-algebra $B $ we have</p>
+<p>$\mathbb{X}(B) = Coalg_k(B^*,C_{\mathbb{X}}) $</p>
+<p>In the case of interest to us, that is for the functor $\mathbf{rep}(A) $ the coalgebra of distributions is <strong>Kostant&#8217;s dual coalgebra</strong> $A^o $. This is the not the full linear dual of $A $ but contains only those linear functionals on $A $ which factor through a finite dimensional quotient.</p>
+<p>So? You&#8217;ve exchanged an algebra $A $ for some coalgebra $A^o $, but where&#8217;s the geometry in all this? Well, let&#8217;s look at the commutative case. Suppose $A= \mathbb{C}[X] $ is the coordinate ring of a smooth affine variety $X $, then its dual coalgebra looks like</p>
+<p>$\mathbb{C}[X]^o = \oplus_{x \in X} U(T_x(X)) $</p>
+<p>the direct sum of all universal (co)algebras of tangent spaces at points $x \in X $. But how do we get the variety out of this? Well, any coalgebra has a <strong>coradical</strong> (being the sun of all simple subcoalgebras) and in the case just mentioned we have</p>
+<p>$corad(\mathbb{C}[X]^o) = \oplus_{x \in X} \mathbb{C} e_x $</p>
+<p>so every point corresponds to a unique simple component of the coradical. In the general case, the coradical of the dual coalgebra $A^o $ is the direct sum of all simple finite dimensional representations of $A $. That is, the direct summands of the coalgebra give us a noncommutative variety whose points are the simple representations, and the remainder of the coalgebra of distributions accounts for infinitesimal information on these points (as do the tangent spaces in the commutative case).</p>
+<p>In fact, it was a surprise to me that one can describe the dual coalgebra quite explicitly, and that $A_{\infty} $-structures make their appearance quite naturally. See <a href="http://arxiv.org/abs/0805.2377">this paper</a> if you&#8217;re in for the details on this.</p>
+<p>That settles the problem of what we mean by the noncommutative variety associated to a complex algebra. But what about the integral case? In the above, we used extensively the theory of Kostant-duality which works only for algebras over fields&#8230;</p>
+<p>Well, not quite. In the case of $\mathbb{Z} $ (or more general, of Dedekind domains) one can repeat Kostant&#8217;s proof word for word provided one takes as the definition of the dual $\mathbb{Z} $-coalgebra<br />
+of an algebra (which is $\mathbb{Z} $-torsion free)</p>
+<p>$A^o = &#123; f~:~A \rightarrow \mathbb{Z}~:~A/Ker(f)~\text{is finitely generated and torsion free}~&#125; $</p>
+<p>(over general rings there may be also variants of this duality, as in <a href="http://books.google.com/books?hl=en&amp;id=u0slIpdBjYUC&amp;dq=Joyal+Street+Quantum+groups+current+algebra&amp;printsec=frontcover&amp;source=web&amp;ots=YnWkAV4k9k&amp;sig=p9DpIEr7Ya4ssfjXlWWFDI3GndE&amp;sa=X&amp;oi=book_result&amp;resnum=4&amp;ct=result">Street&#8217;s book an Quantum groups</a>). Probably lots of people have come up with this, but the only explicit reference I have is to the <a href="http://www.math.ua.ac.be/~lebruyn/LeBruyn1981a.pdf">first paper I&#8217;ve ever written</a>. So, also for algebras over $\mathbb{Z} $ we can define a suitable noncommutative integral scheme (the coradical approach accounts only for the maximal ideals rather than all primes, but somehow this is implicit in all approaches as we consider only <strong>thin</strong> schemes).</p>
+<p>Fine! So, we can make sense of the noncommutative geometrical objects corresponding to the group-algebras $\mathbb{C} \Gamma $ and $\mathbb{Z} \Gamma $ where $\Gamma = PSL_2(\mathbb{Z}) $ is the modular group (the algebras corresponding to the $G \mapsto G_2 \times G_3 $-functor). But, what might be the points of the noncommutative scheme corresponding to $\mathbb{F}_1 \Gamma $???</p>
+<p>Well, let&#8217;s continue the path cut out before. &#8220;Points&#8221; should correspond to finite dimensional &#8220;simple representations&#8221;. Hence, what are the finite dimensional simple $\mathbb{F}_1 $-representations of $\Gamma $? (Or, for that matter, of any group $G $)</p>
+<p>Here we come back to <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/f_un-and-group-representations.html">Javier&#8217;s post on this</a> : a finite dimensional $\mathbb{F}_1 $-vectorspace is a finite set. A $\Gamma $-representation on this set (of n-elements) is a group-morphism</p>
+<p>$\Gamma \rightarrow GL_n(\mathbb{F}_1) = S_n $</p>
+<p>hence it gives a permutation representation of $\Gamma $ on this set. But then, if finite dimensional $\mathbb{F}_1 $-representations of $\Gamma $ are the finite permutation representations, then the <strong>simple</strong> ones are the <strong>transitive</strong> permutation representations. That is, the points of the noncommutative scheme corresponding to $\mathbb{F}_1 \Gamma $ are the conjugacy classes of subgroups $H \subset \Gamma $ such that $\Gamma/H $ is finite. But these are exactly the modular dessins d&#8217;enfants introduced by Grothendieck as I explained a while back elsewhere (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/modular-quilts-and-cuboid-tree-diagrams.html">this post</a> and others in the same series).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Klein’s dessins d’enfant and the buckyball</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/kleins-dessins-denfant-and-the-buckyball/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/kleins-dessins-denfant-and-the-buckyball/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 30 Jun 2008 06:37:20 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=434</guid>
+
+					<description><![CDATA[We saw that the icosahedron can be constructed from the alternating group $A_5 $ by considering the elements of a conjugacy class of order 5&#8230;]]></description>
+										<content:encoded><![CDATA[<p>We saw that the icosahedron can be <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-buckyball-symmetries.html">constructed</a> from the alternating group $A_5 $ by considering the elements of a conjugacy class of order 5 elements as the vertices and edges between two vertices if their product is still in the conjugacy class.</p>
+<p>This description is so nice that one would like to have a similar construction for the <a href="http://en.wikipedia.org/wiki/Fullerene">buckyball</a>. But, the buckyball has 60 vertices, so they surely cannot correspond to the elements of a conjugacy class of $A_5 $. But, perhaps there is a larger group, somewhat naturally containing $A_5 $, having a conjugacy class of 60 elements?</p>
+<p>This is precisely the statement contained in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">Galois&#8217; last letter</a>. He showed that 11 is the largest prime p such that the group $L_2(p)=PSL_2(\mathbb{F}_p) $ has a (transitive) permutation presentation on p elements. For, p=11 the group $L_2(11) $ is of order 660, so it permuting 11 elements means that this set must be of the form $X=L_2(11)/A $ with $A \subset L_2(11) $ a subgroup of 60 elements&#8230; and it turns out that $A \simeq A_5 $&#8230;</p>
+<p>Actually there are TWO conjugacy classes of subgroups isomorphic to $A_5 $ in $L_2(11) $ and we have already <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">seen</a> one description of these using the <strong>biplane geometry</strong> (one class is the stabilizer subgroup of a &#8216;line&#8217;, the other the stabilizer subgroup of a point).</p>
+<p>Here, we will give yet another description of these two classes of $A_5 $ in $L_2(11) $, showing among other things that the theory of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/recycled-dessins.html">dessins d&#8217;enfant</a> predates <a href="http://en.wikipedia.org/wiki/Alexander_Grothendieck">Grothendieck</a> by 100 years.</p>
+<p>In the very same paper containing the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/dedekind-or-klein.html">first depiction</a> of the Dedekind tessellation, Klein found that there should be a degree 11 cover $\mathbb{P}^1_{\mathbb{C}} \rightarrow \mathbb{P}^1_{\mathbb{C}} $ with monodromy group $L_2(11) $, ramified only in the three points $&#123; 0,1,\infty &#125; $ such that there is just one point lying over $\infty $, seven over 1 of which four points where two sheets come together and finally 5 points lying over 0 of which three where three sheets come together. In 1879 he wanted to determine this cover explicitly in the paper &#8220;Ueber die Transformationen elfter Ordnung der elliptischen Funktionen&#8221; (Math. Annalen) by describing all Riemann surfaces with this ramification data and pick out those with the correct monodromy group.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleindessins2.jpg"><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleindessins3.jpg"><br />
+</center></p>
+<p>He manages to do so by associating to all these covers their &#8216;dessins d&#8217;enfants&#8217; (which he calls <strong>Linienzuges</strong>), that is the pre-image of the interval [0,1] in which he marks the preimages of 0 by a bullet and those of 1 by a +, such as in the innermost darker graph on the right above. He even has these two wonderful pictures explaining how the dessin determines how the 11 sheets fit together. (More examples of dessins and the correspondences of sheets were drawn in the 1878 paper.)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleindessins.jpg" style="float:left;margin-right:10px;" > The ramification data translates to the following statements about the Linienzuge : (a) it must be a tree ($\infty $ has one preimage), (b) there are exactly 11 (half)edges (the degree of the cover),<br />
+(c) there are 7 +-vertices and 5 o-vertices (preimages of 0 and 1) and (d) there are 3 trivalent o-vertices and 4 bivalent +-vertices (the sheet-information).</p>
+<p>Klein finds that there are exactly 10 such dessins and lists them in his Fig. 2 (left). Then, he claims that one the two dessins of type I give the correct monodromy group. Recall that the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/permutation-representations-of-monodromy-groups.html">monodromy group</a> is found by giving each of the half-edges a number from 1 to 11 and looking at the permutation $\tau $ of order two pairing the half-edges adjacent to a +-vertex and the order three permutation $\sigma $ listing the half-edges by cycling counter-clockwise around a o-vertex. The monodromy group is the group generated by these two elements.</p>
+<p>Fpr example, if we label the type V-dessin by the numbers of the white regions bordering the half-edges (as in the picture Fig. 3 on the right above) we get<br />
+$\sigma = (7,10,9)(5,11,6)(1,4,2) $ and $\tau=(8,9)(7,11)(1,5)(3,4) $.</p>
+<p>Nowadays, it is a matter of a few seconds to determine the monodromy group using <a href="http://www-gap.mcs.st-and.ac.uk/">GAP</a> and we verify that this group is $A_{11} $.</p>
+<p>Of course, Klein didn&#8217;t have GAP at his disposal, so he had to rule out all these cases by hand.</p>
+<blockquote><p>gap> g:=Group((7,10,9)(5,11,6)(1,4,2),(8,9)(7,11)(1,5)(3,4));<br />
+Group([ (1,4,2)(5,11,6)(7,10,9), (1,5)(3,4)(7,11)(8,9) ])<br />
+gap> Size(g);<br />
+19958400<br />
+gap> IsSimpleGroup(g);<br />
+true</p></blockquote>
+<p>Klein used the fact that $L_2(11) $ only has elements of orders 1,2,3,5,6 and 11. So, in each of the remaining cases he had to find an element of a different order. For example, in type V he verified that the element $\tau.(\sigma.\tau)^3 $ is equal to the permutation (1,8)(2,10,11,9,6,4,5)(3,7) and consequently is of order 14.</p>
+<p>Perhaps Klein knew this but GAP tells us that the monodromy group of all the remaining 8 cases is isomorphic to the alternating group $A_{11} $ and in the two type I cases is indeed $L_2(11) $. Anyway, the two dessins of type I correspond to the two conjugacy classes of subgroups $A_5 $ in the group $L_2(11) $.</p>
+<p>But, back to the buckyball! The upshot of all this is that we have the group $L_2(11) $ containing two classes of subgroups isomorphic to $A_5 $ and the larger group $L_2(11) $ does indeed have two conjugacy classes of order 11 elements containing exactly 60 elements (compare this to the two conjugacy classes of order 5 elements in $A_5 $ in the icosahedral construction). Can we construct the buckyball out of such a conjugacy class?</p>
+<p>To start, we can identify the 12 pentagons of the buckyball from a conjugacy class C of order 11 elements. If $x \in C $, then so do $x^3,x^4,x^5 $ and $x^9 $, whereas the powers $&#123; x^2,x^6,x^7,x^8,x^{10} &#125; $ belong to the other conjugacy class. Hence, we can divide our 60 elements in 12 subsets of 5 elements and taking an element x in each of these, the vertices of a pentagon correspond (in order) to $~(x,x^3,x^9,x^5,x^4) $.</p>
+<p>Group-theoretically this follows from the fact that the factorgroup of the normalizer of x modulo the centralizer of x is cyclic of order 5 and this group acts naturally on the conjugacy class of x with orbits of size 5.</p>
+<p>Finding out how these pentagons fit together using hexagons is a lot subtler&#8230; and in <a href="http://www.ams.org/notices/199509/kostant.pdf">The graph of the truncated icosahedron and the last letter of Galois</a> Bertram Kostant shows how to do this.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/buckyconstruction.jpg" ><br />
+</center></p>
+<p>Fix a subgroup isomorphic to $A_5 $ and let D be the set of all its order 2 elements (recall that they form a full conjugacy class in this $A_5 $ and that there are precisely 15 of them). Now, the startling observation made by Kostant is that for our order 11 element $x $ in C there is a <strong>unique</strong> element $a \in D $ such that the commutator$~b=[x,a]=x^{-1}a^{-1}xa $ belongs again to D. The unique hexagonal side having vertex x connects it to the element $b.x $which belongs again to C as $b.x=(ax)^{-1}.x.(ax) $.</p>
+<p>Concluding, if C is a conjugacy class of order 11 elements in $L_2(11) $, then its 60 elements can be viewed as corresponding to the vertices of the buckyball. Any element $x \in C $ is connected by two pentagonal sides to the elements $x^{3} $ and $x^4 $ and one hexagonal side connecting it to $\tau x = b.x $.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/kleins-dessins-denfant-and-the-buckyball/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>bloomsday 2 : BistroMath</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/bloomsday-2-bistromath/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/bloomsday-2-bistromath/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 16 Jun 2008 08:11:11 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=422</guid>
+
+					<description><![CDATA[Exactly one year ago this blog was briefly renamed MoonshineMath. The concept being that it would focus on the mathematics surrounding the monster group &#38;&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Exactly <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/bloomsday-end.html">one year ago</a> this blog was briefly renamed <strong>MoonshineMath</strong>. The concept being that it would focus on the mathematics surrounding the monster group &amp; moonshine. Well, I got as far as the Mathieu groups&#8230;</p>
+<p>After a couple of months, I changed the name back to neverendingbooks because I needed the freedom to post on any topic I wanted. I know some people preferred the name MoonshineMath, but so be it, anyone&#8217;s free to borrow that name for his/her own blog.</p>
+<p>Today it&#8217;s bloomsday again, and, as I&#8217;m a cyclical guy, I have another idea for a conceptual blog : <strong>the bistromath chronicles</strong> (or something along this line).</p>
+<p>Here&#8217;s the relevant section from the <a href="http://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy">Hitchhikers guide</a></p>
+<blockquote><p><strong>Bistromathics</strong> itself is simply a revolutionary new way of understanding the behavior of numbers. &#8230; <br />
+Numbers written on restaurant checks within the confines of restaurants do not follow the same mathematical laws as numbers written on any other pieces of paper in any other parts of the Universe.<br />
+This single statement took the scientific world by storm. It completely revolutionized it.So many mathematical conferences got hold in such good restaurants that many of the finest minds of a generation died of obesity and heart failure and the science of math was put back by years.
+</p></blockquote>
+<p>Right, so what&#8217;s the idea? Well, on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-n-category-cafe.html">numerous occasions</a> Ive stated that any math-blog can only survive as a group-blog. I did approach a lot of people directly, but, as you have noticed, without too much success&#8230; Most of them couldnt see themselves contributing to a blog for one of these reasons : it costs too much energy and/or it&#8217;s way too inefficient. They say : career-wise there are far cleverer ways to spend my energy than to write a blog. And&#8230; there&#8217;s no way I can argue against this.</p>
+<p>Whence plan B : set up a group-blog for a fixed amount of time (say one year), expect contributors to write one or two series of about 4 posts on their chosen topic, re-edit the better series afterwards and turn them into a book.</p>
+<p>But, in order to make a coherent <a href="http://online.itp.ucsb.edu/online/resident/ouellette5/">book proposal</a> out of blog-post-series, they&#8217;d better center around a common theme, whence the <strong>BistroMath</strong> ploy. Imagine that some of these forgotten &#8220;restaurant-check-notes&#8221; are discovered, decoded and explained. Apart from the mathematics, one is free to invent new recepies or add descriptions of restaurants with some mathematical history, etc. etc.</p>
+<p>One possible scenario (but I&#8217;m sure you will have much better ideas) : part of the <a href="http://www.msri.org/publications/ln/msri/1997/ldt/conway/1/banner/04.html">knotation</a> is found on a restaurant-check of some Italian restaurant. This allow to explain Conway&#8217;s theory of rational tangles, give the perfect way to cook spaghetti to experiment with tangles and tell the history of Manin&#8217;s Italian restaurant in Bonn where (it is rumoured) the 1998 Fields medals were decided&#8230;</p>
+<p>But then, there is no limit to your imagination as long as it somewhat fits within the framework. For example, I&#8217;d love to read the transcripts of a chat-session in SecondLife between Dedekind and Conway on the construction of real numbers&#8230; I hope you get the drift.</p>
+<p>I&#8217;m not going to rename neverendingbooks again, but am willing to set up the BistroMath blog provided</p>
+<ul>
+<li>Five to ten people are interested to participate</li>
+<li>At least one book-editor shows an interest<br />
+<color="red">update : (16/06) contacted by first publisher</color></li>
+</ul>
+<p>You can leave a comment or, if you prefer, contact me via email (if you&#8217;re human you will have no problem getting my address&#8230;).</p>
+<p>Clearly, people already blogging are invited and are allowed to cross-post (in fact, that&#8217;s what I will do if it ever gets so far). Finally, if you are not willing to contribute blog-posts but like the idea and are willing to contribute to it in any other way, we are still auditioning for <strong>chanting monks</strong></p>
+<blockquote><p>The small group of monks who had taken up hanging around the major research institutes singing strange chants to the effect that the Universe was only a figment of its own imagination were eventually given a street theater grant and went away.
+</p></blockquote>
+<p>And, if you do not like this idea, there will be another bloomsday-idea next year&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bloomsday-2-bistromath/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Dedekind or Klein ?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/dedekind-or-klein/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/dedekind-or-klein/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 22 Apr 2008 19:00:10 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/dedekind-or-klein.html</guid>
+
+					<description><![CDATA[The black&#38;white psychedelic picture on the left of a tessellation of the hyperbolic upper-halfplane, was called the Dedekind tessellation in this post, following the reference&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dedekind1877.gif" width=300 style="float:left;margin-right:10px;" > The black&amp;white psychedelic picture on the left of a tessellation of the hyperbolic upper-halfplane, was called the <strong>Dedekind tessellation</strong> in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-dedekind-tessellation.html">this post</a>, following the reference given by John Stillwell in his excellent paper <a href="http://www.jstor.org/pss/2695682">Modular Miracles, The American Mathematical Monthly, 108 (2001) 70-76</a>.</p>
+<p>But is this correct terminology? Nobody else <a href="http://www.google.com/search?client=safari&amp;rls=en-us&amp;q=%22Dedekind+tessellation%22&amp;ie=UTF-8&amp;oe=UTF-8">uses it</a> apparently. So, let&#8217;s try to track down the earliest depiction of this tessellation in the literature&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/Dedekind.jpeg" width=200 style="float:right;margin-left:10px;" > Stillwell refers to <a href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Dedekind.html">Richard Dedekind</a>&#8216;s 1877 paper &#8220;Schreiben an Herrn Borchard uber die Theorie der elliptische Modulfunktionen&#8221;, which appeared beginning of september 1877 in <a href="http://en.wikipedia.org/wiki/Crelle's_Journal">Crelle&#8217;s journal</a> (Journal fur die reine und angewandte Mathematik, Bd. 83, 265-292).</p>
+<p>There are a few odd things about this paper. To start, it really is the transcript of a (lengthy) letter to Herrn Borchardt (at first, I misread the recipient as Herrn Borcherds which would be really weird&#8230;), written on June 12th 1877, just 2 and a half months before it appeared&#8230; Even today in the age of camera-ready-copy it would probably take longer.</p>
+<p>There isn&#8217;t a single figure in the paper, but, it is almost impossible to follow Dedekind&#8217;s arguments without having a mental image of the tessellation. He gives a fundamental domain for the action of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ on the hyperbolic upper-half plane (a fact already known to Gauss) and goes on in section 3 to give a one-to-one mapping between this domain and the complex plane using what he calls the &#8216;valenz&#8217; function $v $ (which is our modular function $j $, making an appearance in moonshine, and responsible for the black&amp;white tessellation, the two colours corresponding to pre-images of the upper or lower half-planes).</p>
+<p>Then there is this remarkable opening sentence.</p>
+<blockquote><p>Sie haben mich aufgefordert, eine etwas ausfuhrlichere Darstellung der Untersuchungen auszuarbeiten, von welchen ich, durch das Erscheinen der Abhandlung von Fuchs veranlasst, mir neulich erlaubt habe Ihnen eine kurze Ubersicht mitzuteilen; indem ich Ihrer Einladung hiermit Folge leiste, beschranke ich mich im wesentlichen auf den Teil dieser Untersuchungen, welcher mit der eben genannten Abhandlung zusammenhangt, und ich bitte Sie auch, die Ubergehung einiger Nebenpunkte entschuldigen zu wollen, da es mir im Augenblick an Zeit fehlt, alle Einzelheiten auszufuhren.</p></blockquote>
+<p>Well, just try to get a paper (let alone a letter) accepted by Crelle&#8217;s Journal with an opening line like : &#8220;I&#8217;ll restrict to just a few of the things I know, and even then, I cannot be bothered to fill in details as I don&#8217;t have the time to do so right now!&#8221; But somehow, Dedekind got away with it.</p>
+<p>So, who was this guy Borchardt? How could this paper be published so swiftly? And, what might explain this extreme &#8216;je m&#8217;en fous&#8217;-opening ?</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/Borchardt.jpg"  style="float:left;margin-right:10px;" > <a href="http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Borchardt.html">Carl Borchardt</a> was a Berlin mathematician whose main claim to fame seems to be that he succeeded Crelle in 1856 as main editor of the &#8216;Journal fur reine und&#8230;&#8217; until 1880 (so in 1877 he was still in charge, explaining the swift publication). It seems that during this time the &#8216;Journal&#8217; was often referred to as &#8220;Borchardt&#8217;s Journal&#8221; or in France as &#8220;Journal de M Borchardt&#8221;. After Borchardt&#8217;s death, the Journal für die Reine und Angewandte Mathematik again became known as Crelle&#8217;s Journal.</p>
+<p>As to the opening sentence, I have a toy-theory of what was going on. In 1877 a bitter dispute was raging between <a href="http://www-gap.dcs.st-and.ac.uk/~history/Biographies/Kronecker.html">Kronecker</a> (an editor for the Journal and an important one as he was the one succeeding Borchardt when he died in 1880) and <a href="http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Cantor.html">Cantor</a>. Cantor had published most of his papers at Crelle and submitted his latest find : there is a one-to-one correspondence between points in the unit interval [0,1] and points of d-dimensional space! Kronecker did everything in his power to stop that paper to the extend that Cantor wanted to retract it and submit it elsewhere. Dedekind supported Cantor and convinced him not to retract the paper and used his influence to have the paper published in Crelle in 1878. Cantor greatly resented Kronecker&#8217;s opposition to his work and never submitted any further papers to Crelle&#8217;s Journal.</p>
+<p>Clearly, Borchardt was involved in the dispute and it is plausible that he &#8216;invited&#8217; Dedekind to submit a paper on his old results in the process. As a further peace offering, Dedekind included a few &#8216;nice&#8217; words for Kronecker</p>
+<blockquote><p>Bei meiner Versuchen, tiefer in diese mir unentbehrliche Theorie einzudringen und mir einen einfachen Weg zu den ausgezeichnet schonen Resultaten von Kronecker zu bahnen, die leider noch immer so schwer zuganglich sind, enkannte ich sogleich&#8230;</p></blockquote>
+<p>Probably, Dedekind was referring to Kronecker&#8217;s relation between class groups of quadratic imaginary fields and the j-function, see <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-modular-miracle-of-163.html">the miracle of 163</a>. As an added bonus, Dedekind was elected to the Berlin academy in 1880&#8230;</p>
+<p>Anyhow, no visible sign of &#8216;Dedekind&#8217;s&#8217; tessellation in the 1877 Dedekind paper, so, we have to look further. I&#8217;m fairly certain to have found the earliest depiction of the black&amp;white tessellation (if you have better info, please drop a line). Here it is</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleintessellation.jpg" align=center ></p>
+<p>It is figure 7 in <a href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Klein.html">Felix Klein</a>&#8216;s paper &#8220;Uber die Transformation der elliptischen Funktionen und die Auflosung der Gleichungen funften Grades&#8221; which appeared in may 1878 in the Mathematische Annalen (Bd. 14 1878/79). He even adds the j-values which make it clear why black triangles should be oriented counter-clockwise and white triangles clockwise. If Klein would still be around today, I&#8217;m certain he&#8217;d be a metapost-guru.</p>
+<p>So, perhaps the tessellation should be called Klein&#8217;s tessellation??<br />
+Well, not quite. Here&#8217;s what Klein writes wrt. figure 7</p>
+<blockquote><p>Diese Figur nun &#8211; welche die eigentliche Grundlage fur das Nachfolgende abgibt &#8211; ist eben diejenige, von der Dedekind bei seiner Darstellung ausgeht. Er kommt zu ihr durch rein arithmetische Betrachtung.</p></blockquote>
+<p>Case closed : Klein clearly acknowledges that Dedekind did have this picture in mind when writing his 1877 paper!</p>
+<p>But then, there are a few odd things about Klein&#8217;s paper too, and, I do have a toy-theory about this as well&#8230; (tbc)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/dedekind-or-klein/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Farey symbols of sporadic groups</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/farey-symbols-of-sporadic-groups/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/farey-symbols-of-sporadic-groups/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 20 Mar 2008 19:30:35 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/farey-symbols-of-sporadic-groups.html</guid>
+
+					<description><![CDATA[John Conway once wrote : There are almost as many different constructions of $M_{24} $ as there have been mathematicians interested in that most remarkable&#8230;]]></description>
+										<content:encoded><![CDATA[<p>John Conway once wrote :</p>
+<blockquote><p>There are almost as many different constructions of $M_{24} $ as there have been mathematicians interested in that most remarkable of all finite groups.</p></blockquote>
+<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-inguanodon-dissected.html">the inguanodon post</a> Ive added yet another construction of the Mathieu groups $M_{12} $ and $M_{24} $ starting from (half of) the <a href="http://en.wikipedia.org/wiki/Farey_sequence">Farey sequences</a> and the associated cuboid tree diagram obtained by demanding that all edges are odd. In this way the Mathieu groups turned out to be part of a (conjecturally) infinite sequence of simple groups, starting <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/more-iguanodons-via-kfareysage.html">as follows</a> :</p>
+<p>$L_2(7),M_{12},A_{16},M_{24},A_{28},A_{40},A_{48},A_{60},A_{68},A_{88},A_{96},A_{120},A_{132},A_{148},A_{164},A_{196},\ldots $</p>
+<p>It is quite easy to show that none of the other sporadics will appear in this sequence via their known permutation representations. Still, several of the sporadic simple groups are generated by an element of order two and one of order three, so they are determined by a finite dimensional permutation representation of the modular group $PSL_2(\mathbb{Z}) $ and hence are hiding in a special polygonal region of the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-dedekind-tessellation.html">Dedekind&#8217;s tessellation</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dedekind1877.gif" align=center ></p>
+<p>Let us try to figure out where the sporadic with the next simplest permutation representation is hiding : the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/J2/">second Janko group</a> $J_2 $, via its <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/J2G1-p100B0">100-dimensional permutation representation</a>. The Atlas tells us that the order two and three generators act as</p>
+<pre>
+e:= (1,84)(2,20)(3,48)(4,56)(5,82)(6,67)(7,55)(8,41)(9,35)(10,40)(11,78)(12, 100)(13,49)(14,37)(15,94)(16,76)(17,19)(18,44)(21,34)(22,85)(23,92)(24, 57)(25,75)(26,28)(27,64)(29,90)(30,97)(31,38)(32,68)(33,69)(36,53)(39,61) (42,73)(43,91)(45,86)(46,81)(47,89)(50,93)(51,96)(52,72)(54,74)(58,99) (59,95)(60,63)(62,83)(65,70)(66,88)(71,87)(77,98)(79,80);
+
+v:= (1,80,22)(2,9,11)(3,53,87)(4,23,78)(5,51,18)(6,37,24)(8,27,60)(10,62,47) (12,65,31)(13,64,19)(14,61,52)(15,98,25)(16,73,32)(17,39,33)(20,97,58) (21,96,67)(26,93,99)(28,57,35)(29,71,55)(30,69,45)(34,86,82)(38,59,94) (40,43,91)(42,68,44)(46,85,89)(48,76,90)(49,92,77)(50,66,88)(54,95,56) (63,74,72)(70,81,75)(79,100,83);
+</pre>
+<p>But as the <a href="http://www.public.iastate.edu/~kurthc/research/kfarey011408.zip">kfarey.sage package</a> written by <a href="http://www.public.iastate.edu/~kurthc/index.html">Chris Kurth</a> calculates the Farey symbol using the L-R generators, we use GAP to find those</p>
+<pre>
+L = e*v^-1  and  R=e*v^-2 so
+
+L=(1,84,22,46,70,12,79)(2,58,93,88,50,26,35)(3,90,55,7,71,53,36)(4,95,38,65,75,98,92)(5,86,69,39,14,6,96)(8,41,60,72,61,17, 64)(9,57,37,52,74,56,78)(10,91,40,47,85,80,83)(11,23,49,19,33,30,20)(13,77,15,59,54,63,27)(16,48,87,29,76,32,42)(18,68, 73,44,51,21,82)(24,28,99,97,45,34,67)(25,81,89,62,100,31,94)
+
+R=(1,84,80,100,65,81,85)(2,97,69,17,13,92,78)(3,76,73,68,16,90,71)(4,54,72,14,24,35,11)(5,34,96,18,42,32,44)(6,21,86,30,58, 26,57)(7,29,48,53,36,87,55)(8,41,27,19,39,52,63)(9,28,93,66,50,99,20)(10,43,40,62,79,22,89)(12,83,47,46,75,15,38)(23,77, 25,70,31,59,56)(33,45,82,51,67,37,61)(49,64,60,74,95,94,98)
+</pre>
+<p>Defining these permutations in sage and using kfarey, this gives us the Farey-symbol of the associated permutation representation</p>
+<pre>
+L=SymmetricGroup(Integer(100))("(1,84,22,46,70,12,79)(2,58,93,88,50,26,35)(3,90,55,7,71,53,36)(4,95,38,65,75,98,92)(5,86,69,39,14,6,96)(8,41,60,72,61,17, 64)(9,57,37,52,74,56,78)(10,91,40,47,85,80,83)(11,23,49,19,33,30,20)(13,77,15,59,54,63,27)(16,48,87,29,76,32,42)(18,68, 73,44,51,21,82)(24,28,99,97,45,34,67)(25,81,89,62,100,31,94)")
+
+R=SymmetricGroup(Integer(100))("(1,84,80,100,65,81,85)(2,97,69,17,13,92,78)(3,76,73,68,16,90,71)(4,54,72,14,24,35,11)(5,34,96,18,42,32,44)(6,21,86,30,58, 26,57)(7,29,48,53,36,87,55)(8,41,27,19,39,52,63)(9,28,93,66,50,99,20)(10,43,40,62,79,22,89)(12,83,47,46,75,15,38)(23,77, 25,70,31,59,56)(33,45,82,51,67,37,61)(49,64,60,74,95,94,98)")
+
+sage: FareySymbol("Perm",[L,R])
+
+[[0, 1, 4, 3, 2, 5, 18, 13, 21, 71, 121, 413, 292, 463, 171, 50, 29, 8, 27, 46, 65, 19, 30, 11, 3, 10, 37, 64, 27, 17, 7, 4, 5], [1, 1, 3, 2, 1, 2, 7, 5, 8, 27, 46, 157, 111, 176, 65, 19, 11, 3, 10, 17, 24, 7, 11, 4, 1, 3, 11, 19, 8, 5, 2, 1, 1], [-3, 1, 4, 4, 2, 3, 6, -3, 7, 13, 14, 15, -3, -3, 15, 14, 11, 8, 8, 10, 12, 12, 10, 9, 5, 5, 9, 11, 13, 7, 6, 3, 2, 1]]
+</pre>
+<p>Here, the first string gives the numerators of the cusps, the second the denominators and the third gives the pairing information (where [tex[-2 $ denotes an even edge and $-3 $ an odd edge. Fortunately, kfarey also allows us to draw the special polygonal region determined by a Farey-symbol. So, here it is (without the pairing data) :</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/janko2.jpg" align=center ></p>
+<p>the hiding place of $J_2 $&#8230;</p>
+<p>It would be nice to have (a) other Farey-symbols associated to the second Janko group, hopefully showing a pattern that one can extend into an infinite family as in the inguanodon series and (b) to determine Farey-symbols of more sporadic groups.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/farey-symbols-of-sporadic-groups/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Quiver-superpotentials</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 14 Jan 2008 12:47:27 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/quiver-superpotentials.html</guid>
+
+					<description><![CDATA[It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by the conjugacy class of a cofinite subgroup $\Lambda \subset \Gamma $, or equivalently, to a dessin d&#8217;enfant. We have introduced a <strong>quiver</strong> (aka an oriented graph) which comes from a triangulation of the compactification of $\mathbb{H} / \Lambda $ where $\mathbb{H} $ is the hyperbolic upper half-plane. This quiver is independent of the chosen embedding of the dessin in the Dedeking tessellation. (For more on these terms and constructions, please consult the series <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-dedekind-tessellation.html">Modular subgroups</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monsieur-mathieu.html">Dessins d&#8217;enfants</a>).</p>
+<p>Why are quivers useful? To start, any quiver $Q $ defines a noncommutative algebra, the <strong>path algebra</strong> $\mathbb{C} Q $, which has as a $\mathbb{C} $-basis all oriented paths in the quiver and multiplication is induced by concatenation of paths (when possible, or zero otherwise). Usually, it is quite hard to make actual computations in noncommutative algebras, but in the case of path algebras you can just <strong>see</strong> what happens.</p>
+<p>Moreover, we can also <strong>see</strong> the finite dimensional representations of this algebra $\mathbb{C} Q $. Up to isomorphism they are all of the following form : at each vertex $v_i $ of the quiver one places a finite dimensional vectorspace $\mathbb{C}^{d_i} $ and any arrow in the quiver<br />
+[tex]\xymatrix{\vtx{v_i} \ar[r]^a &amp; \vtx{v_j}}[/tex] determines a linear map between these vertex spaces, that is, to $a $ corresponds a matrix in $M_{d_j \times d_i}(\mathbb{C}) $. These matrices determine how the paths of length one act on the representation, longer paths act via multiplcation of matrices along the oriented path.</p>
+<p>A <strong>necklace</strong> in the quiver is a closed oriented path in the quiver <strong>up to cyclic permutation</strong> of the arrows making up the cycle. That is, we are free to choose the start (and end) point of the cycle. For example, in the one-cycle quiver</p>
+<p>[tex]\xymatrix{\vtx{} \ar[rr]^a &amp; &amp; \vtx{} \ar[ld]^b \\ &amp; \vtx{} \ar[lu]^c &amp;}[/tex]</p>
+<p>the basic necklace can be represented as $abc $ or $bca $ or $cab $. How does a necklace act on a representation? Well, the matrix-multiplication of the matrices corresponding to the arrows gives a square matrix in each of the vertices in the cycle. Though the dimensions of this matrix may vary from vertex to vertex, what does not change (and hence is a property of the necklace rather than of the particular choice of cycle) is the <strong>trace</strong> of this matrix. That is, necklaces give complex-valued functions on representations of $\mathbb{C} Q $ and by a result of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/m-geometry-3.html">Artin and Procesi</a> there are enough of them to distinguish isoclasses of (semi)simple representations! That is, linear combinations a necklaces (aka <strong>super-potentials</strong>) can be viewed, after taking traces, as complex-valued functions on all representations (similar to character-functions).</p>
+<p>In physics, one views these functions as potentials and it then interested in the points (representations) where this function is extremal (minimal) : the <strong>vacua</strong>. Clearly, this does not make much sense in the complex-case but is relevant when we look at the real-case (where we look at skew-Hermitian matrices rather than all matrices). A motivating example (the <strong>Yang-Mills potential</strong>) is given in Example 2.3.2 of Victor Ginzburg&#8217;s paper <a href="http://arxiv.org/abs/math/0612139">Calabi-Yau algebras</a>.</p>
+<p>Let $\Phi $ be a super-potential (again, a linear combination of necklaces) then our commutative intuition tells us that extrema correspond to zeroes of all partial differentials $\frac{\partial \Phi}{\partial a} $ where $a $ runs over all coordinates (in our case, the arrows of the quiver). One can make sense of differentials of necklaces (and super-potentials) as follows : the partial differential with respect to an arrow $a $ occurring in a term of $\Phi $ is defined to be the <strong>path</strong> in the quiver one obtains by removing all 1-occurrences of $a $ in the necklaces (defining $\Phi $) and rearranging terms to get a maximal broken necklace (using the cyclic property of necklaces). An example, for the cyclic quiver above let us take as super-potential $abcabc $ (2 cyclic turns), then for example</p>
+<p>$\frac{\partial \Phi}{\partial b} = cabca+cabca = 2 cabca $</p>
+<p>(the first term corresponds to the first occurrence of $b $, the second to the second). Okay, but then the vacua-representations will be the representations of the quotient-algebra (which I like to call the <strong>vacualgebra</strong>)</p>
+<p>$\mathcal{U}(Q,\Phi) = \frac{\mathbb{C} Q}{(\partial \Phi/\partial a, \forall a)} $</p>
+<p>which in &#8216;physical relevant settings&#8217; (whatever that means&#8230;) turn out to be <strong>Calabi-Yau algebras</strong>.</p>
+<p>But, let us return to the case of subgroups of the modular group and their quivers. Do we have a natural <strong>super-potential</strong> in this case? Well yes, the quiver encoded a triangulation of the compactification of $\mathbb{H}/\Lambda $ and if we choose an orientation it turns out that all &#8216;black&#8217; triangles (with respect to the Dedekind tessellation) have their arrow-sides defining a necklace, whereas for the &#8216;white&#8217; triangles the <strong>reverse</strong> orientation makes the arrow-sides into a necklace. Hence, it makes sense to look at the <strong>cubic</strong> superpotential $\Phi $ being the sum over all triangle-sides-necklaces with a +1-coefficient for the black triangles and a -1-coefficient for the white ones. Let&#8217;s consider an index three example from a previous post</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver3.jpg" style="float:left;margin-right:10px;" ><br />
+[tex]\xymatrix{&amp; &amp; \rho \ar[lld]_d \ar[ld]^f \ar[rd]^e &amp; \\<br />
+i \ar[rrd]_a &amp; i+1 \ar[rd]^b &amp; &amp; \omega \ar[ld]^c \\<br />
+&amp; &amp; 0 \ar[uu]^h \ar@/^/[uu]^g \ar@/_/[uu]_i &amp;}[/tex]</p>
+<p>In this case the super-potential coming from the triangulation is</p>
+<p>$\Phi = -aid+agd-cge+che-bhf+bif $</p>
+<p>and therefore we have a noncommutative algebra $\mathcal{U}(Q,\Phi) $ associated to this index 3 subgroup. Contrary to what I believed at the start of this series, the algebras one obtains in this way from dessins d&#8217;enfants are <strong>far from being Calabi-Yau</strong> (in whatever definition). For example, using a GAP-program written by <a href="http://www.win.ua.ac.be/~rbockl/research/">Raf Bocklandt</a> Ive checked that the growth rate of the above algebra is similar to that of $\mathbb{C}[x] $, so in this case $\mathcal{U}(Q,\Phi) $ can be viewed as a noncommutative curve (with singularities).</p>
+<p>However, this is not the case for all such algebras. For example, the vacualgebra associated to the second index three subgroup (whose fundamental domain and quiver were depicted at the end of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-modular-group-and-superpotentials-2.html">this post</a>) has growth rate similar to that of $\mathbb{C} \langle x,y \rangle $&#8230;</p>
+<p>I have an outlandish conjecture about the growth-behavior of all algebras $\mathcal{U}(Q,\Phi) $ coming from dessins d&#8217;enfants : <strong>the algebra sees what the monodromy representation of the dessin sees of the modular group (or of the third braid group)</strong>.<br />
+I can make this more precise, but perhaps it is wiser to calculate one or two further examples&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>quivers versus quilts</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quivers-versus-quilts/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quivers-versus-quilts/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 02 Jan 2008 12:33:08 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=209</guid>
+
+					<description><![CDATA[We have associated to a subgroup of the modular group $PSL_2(\mathbb{Z}) $ a quiver (that is, an oriented graph). For example, one verifies that the&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver4.jpg" style="float:right;margin-left:10px;" > We have <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=115">associated</a> to a subgroup of the modular group $PSL_2(\mathbb{Z}) $ a <strong>quiver</strong> (that is, an oriented graph). For example, one verifies that the fundamental domain of the subgroup $\Gamma_0(2) $ (an index 3 subgroup) is depicted on the right by the region between the thick lines with the identification of edges as indicated. The associated quiver is then</p>
+<p>\[<br />
+\xymatrix{i \ar[rr]^a \ar[dd]^b &amp; &amp; 1 \ar@/^/[ld]^h \ar@/_/[ld]_i \\<br />
+&amp; \rho \ar@/^/[lu]^d \ar@/_/[lu]_e \ar[rd]^f &amp; \\<br />
+0 \ar[ru]^g &amp; &amp; i+1 \ar[uu]^c}<br />
+\]</p>
+<p>The corresponding &#8220;dessin d&#8217;enfant&#8221; are the green edges in the picture. But, the red dot on the left boundary is identied with the red dot on the lower circular boundary, so the dessin of the modular subgroup $\Gamma_0(2) $ is</p>
+<p>\[<br />
+\xymatrix{| \ar@{-}[r] &amp; \bullet \ar@{-}@/^8ex/[r] \ar@{-}@/_8ex/[r] &amp; -}<br />
+\]</p>
+<p>Here, the three red dots (all of them even points in the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=18">Dedekind tessellation</a>) give (after the identification) the two points indicated by a $\mid $ whereas the blue dot (an odd point in the tessellation) is depicted by a $\bullet $. There is another &#8216;quiver-like&#8217; picture associated to this dessin, a <strong>quilt</strong> of the modular subgroup $\Gamma_0(2) $ as studied by <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> and <a href="http://www.math.sjsu.edu/~hsu/">Tim Hsu</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quilt1.jpg" style="float:left;margin-right:10px;" > On the left, a quilt-diagram copied from Hsu&#8217;s book <a href="http://www.amazon.com/exec/obidos/ASIN/3540673970">Quilts : central extensions, braid actions, and finite groups</a>, exercise 3.3.9. This &#8216;quiver&#8217; has also 5 vertices and 7 arrows as our quiver above, so is there a connection?</p>
+<p>A <strong>quilt</strong> is a gadget to study transitive permutation representations of the <strong>braid group</strong> $B_3 $ (rather than its quotient, the modular group $PSL_2(\mathbb{Z}) = B_3/\langle Z \rangle $ where $\langle Z \rangle $ is the cyclic center of $B_3 $. The $Z $-stabilizer subgroup of all elements in a transitive permutation representation of $B_3 $ is the same and hence of the form $\langle Z^M \rangle $ where M is called the <strong>modulus</strong> of the representation. The <strong>arrow-data</strong> of a quilt, that is the direction of certain edges and their labeling with numbers from $\mathbb{Z}/M \mathbb{Z} $ (which have to satisfy some requirements, the <strong>flow rules</strong>, but more about that another time) encode the Z-action on the permutation representation. The dimension of the representation is $M \times k $ where $k $ is the number of half-edges in the dessin. In the above example, the modulus is 5 and the dessin has 3 (half)edges, so it depicts a 15-dimensional permutation representation of $B_3 $.</p>
+<p>If we forget the Z-action (that is, the arrow information), we get a permutation representation of the modular group (that is a dessin). So, if we delete the labels and directions on the edges we get what Hsu calls a <strong>modular quilt</strong>, that is, a picture consisting of thick edges (the dessin) together with dotted edges which are called the <strong>seams</strong> of the modular quilt. The modular quilt is merely another way to depict a fundamental domain of the corresponding subgroup of the modular group. For the above example, we have the indicated correspondences between the fundamental domain of $\Gamma_0(2) $ in the upper half-plane (on the left) and as a modular quilt (on the right)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver4.jpg"  >  <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quilt2.jpg"  ></p>
+<p>That is, we can also get our quiver (or its opposite quiver) from the modular quilt by fixing the orientation of one 2-cell. For example, if we fix the orientation of the 2-cell $\vec{fch} $ we get our quiver back from the modular quilt</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quilt2.jpg" style="float:left;margin-right:10px;" ><br />
+\[<br />
+\xymatrix{i \ar[rr]^a \ar[dd]^b &amp; &amp; 1 \ar@/^/[ld]^h \ar@/_/[ld]_i \\<br />
+&amp; \rho \ar@/^/[lu]^d \ar@/_/[lu]_e \ar[rd]^f &amp; \\<br />
+0 \ar[ru]^g &amp; &amp; i+1 \ar[uu]^c}<br />
+\]</p>
+<p />
+<p>This shows that the quiver (or its opposite) associated to a (conjugacy class of a) subgroup of $PSL_2(\mathbb{Z}) $ does not depend on the choice of embedding of the dessin (or associated <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=19">cuboid tree diagram</a>) in the upper half-plane. For, one can get the modular quilt from the dessin by adding one extra vertex for every connected component of the complement of the dessin (in the example, the two vertices corresponding to 0 and 1) and drawing a triangulation from them (the dotted lines or &#8216;seams&#8217;).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quivers-versus-quilts/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the modular group and superpotentials (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-modular-group-and-superpotentials-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-modular-group-and-superpotentials-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 26 Dec 2007 13:36:29 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=63</guid>
+
+					<description><![CDATA[Here I will go over the last post at a more leisurely pace, focussing on a couple of far more trivial examples. Here&#8217;s the goal&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here I will go over the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=61">last post</a> at a more leisurely pace, focussing on a couple of far more trivial examples. Here&#8217;s the goal : <strong>we want to assign a quiver-superpotential to any subgroup of finite index of the modular group</strong>. So fix such a subgroup $\Gamma&#8217; $ of the modular group $\Gamma=PSL_2(\mathbb{Z}) $ and consider the associated permutation representation of $\Gamma $ on the left-cosets $\Gamma/\Gamma&#8217; $. As $\Gamma \simeq C_2 \ast C_3 $ this representation is determined by the action of the order 2 and order 3 generators of the modular group. There are a number of combinatorial gadgets to control the subgroup $\Gamma&#8217; $ and the associated permutation representation : (generalized) <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=21">Farey symbols</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=20">dessins d&#8217;enfants</a>.</p>
+<p>Recall that the modular group acts on the upper-halfplane (the &#8216;hyperbolic plane&#8217;) by Moebius transformations, so to any subgroup $\Gamma&#8217; $ we can associate a fundamental domain for its restricted action. The dessins and the Farey symbols give us a particular choice of these fundamental domains. Let us consider the two most trivial subgroups of all : the modular group itself (so $\Gamma/\Gamma $ is just one element and therefore the associated permutation representation is just the trivial representation) and the unique index two subgroup $\Gamma_2 $ (so there are two cosets $\Gamma/\Gamma_2 $ and the order 2 generator interchanges these two while the order 3 generator acts trivially on them). The fundamental domains of $\Gamma $ (left) and $\Gamma_2 $ (right) are depicted below</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cy2.jpg" style="float:left;margin-right:10px;">  <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cy1.jpg" style="float:right;margin-left:10px;"></p>
+<p>In both cases the fundamental domain is bounded by the thick black (hyperbolic) edges. The left-domain consists of two hyperbolic triangles (the upper domain has $\infty $ as the third vertex) and the right-domain has 4 triangles. In general, if the subgroup $\Gamma&#8217; $ has index n, then its fundamental domain will consist of $2n $ hyperbolic triangles. Note that these triangles are part of the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=18">Dedekind tessellation</a> so really depict the action of $PGL_2(\mathbb{Z} $ and any $\Gamma $-hyperbolic triangle consists of one black and one white triangle in Dedekind&#8217;s coloring. We will indicate the color of a triangle by a black circle if the corresponding triangle is black. Of course, the bounding edges of the fundamental domain need to be identified and the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=21">Farey symbol</a> is a notation device to clarify this. The Farey symbols of the above domains are<br />
+[tex]\xymatrix{\infty \ar@{-}[r]_{\circ} &amp; 0 \ar@{-}[r]_{\bullet} &amp; \infty}[/tex] and [tex]\xymatrix{\infty \ar@{-}[r]_{\bullet} &amp; 0 \ar@{-}[r]_{\bullet} &amp; \infty}[/tex] respectively. In both cases this indicates that the two bounding edges on the left are to be identified as are the two bounding edges on the right (so, in particular, after identification $\infty $ coincides with $0 $). Hence, after identification, the $\Gamma $ domain consists of two triangles on the vertices $&#123; 0,i,\rho &#125; $ (where $\rho=e^{2 \pi i}{6} $) (the blue dots) sharing all three edges, the $\Gamma_2 $ domain consists of 4 triangles on the 4 vertices $&#123; 0,i,\rho,\rho^2 &#125; $ (the blue dots). In general we have three types of vertices : <strong>cusps</strong> (such as 0 or $\infty $), <strong>even vertices</strong> (such as $i $ where there are 4 hyperbolic edges in the Dedekind tessellation) and <strong>odd vertices</strong> (such as $\rho $ and $\rho^2 $ where there are 6 hyperbolic edges in the tessellation).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dessin1.jpg" style="float:left;margin-right:10px;"> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dessin2.jpg" style="float:right;margin-left:10px;"> Another combinatorial gadget assigned to the fundamental domain is the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=19">cuboid tree diagram</a> or <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=20">dessin</a>. It consists of all odd and even vertices on the boundary of the domain, together with all odd and even vertices in the interior. These vertices are then connected with the hyperbolic edges connecting them. If we color the even vertices red and the odds blue we have the indicated dessins for our two examples (the green pictures). An <strong>half-edge</strong> is an edge connecting a red and a blue vertex in the dessin and we number all half-edges. So, the $\Gamma $-dessin has 1 half-edge whereas the $\Gamma_2 $-dessin has two (in general, the number of these half-edges is equal to the index of the subgroup). Observe also that every triangle has exactly one half-edge as one of its three edges. The dessin gives all information to calculate the permutation representation on the coset-set $\Gamma/\Gamma&#8217; $ : the action of the order 2 generator of $\Gamma $ is given by taking for each <strong>internal</strong> red vertex the two-cycle $~(a,b) $ where a and b are the numbers of the two half-edges connected to the red vertex and the action of the order 3 generator is given by taking for every <strong>internal</strong> blue vertex the three cycle $~(c,d,e) $ where c, d and e are the numbers of the three half-edges connected to the blue vertex <strong>in counter-clockwise ordering</strong>. Our two examples above are a bit too simplistic to view this in action. There are no internal blue vertices, so the action of the order 3 generator is trivial in both cases. For $\Gamma $ there is also no red internal vertex, whence this is indeed the trivial representation whereas for $\Gamma_2 $ there is one internal red vertex, so the action of the order 2 generator is given by $~(1,2) $, which is indeed the representation representation on $\Gamma/\Gamma_2 $. In general, if the index of the subgroup $\Gamma&#8217; $ is n, then we call the subgroup of the symmetric group on n letters $S_n $ generated by the action-elements of the order 2 and order 3 generator the <strong>monodromy group</strong> of the permutation representation (or of the subgroup). In the trivial cases here, the monodromy groups are the trivial group (for $\Gamma $) and $C_2 $ (for $\Gamma_2 $).</p>
+<p>As a safety-check let us work out all these concepts in the next simplest examples, those of some subgroups of index 3. Consider the Farey symbols</p>
+<p>[tex]\xymatrix{\infty \ar@{-}[r]_{\circ} &amp; 0 \ar@{-}[r]_{\circ} &amp; 1 \ar@{-}[r]_{\circ} &amp; \infty}[/tex] and<br />
+[tex]\xymatrix{\infty \ar@{-}[r]_{\circ} &amp; 0 \ar@{-}[r]_{1} &amp; 1 \ar@{-}[r]_{1} &amp; \infty}[/tex]</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cy3.jpg" style="float:left;margin-right:10px;"> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cy4.jpg" style="float:right;margin-left:10px;"> In these cases the fundamental domain consists of 6 triangles with the indicated vertices (the blue dots). The distinction between the two is that in the first case, one identifies the two edges of the left, resp. bottom, resp. right boundary (so, in particular, 0,1 and $\infty $ are identified) whereas in the second one identifies the two edges of the left boundary and identifies the edges of the bottom with those of the right boundary (here, 0 is identified only with $\infty $ but also $1+i $ is indetified with $\frac{1}{2}+\frac{1}{2}i $).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dessin3.jpg" style="float:right;margin-left:10px;"> In both cases the dessin seems to be the same (and given by the picture on the right). However, in the first case all three red vertices are distinct hence there are no internal red vertices in this case whereas in the second case we should identify the bottom and right-hand red vertex which then becomes an internal red vertex of the dessin!</p>
+<p>Hence, if we order the three green half-edges 1,2,3 starting with the bottom one and counting counter-clockwise we see that in both cases the action of the order 3-generator of $\Gamma $ is given by the 3-cycle $~(1,2,3) $. The action of the order 2-generator is trivial in the first case, while given by the 2-cycle $~(1,2) $ in the second case. Therefore, the monodromy group is the cylic group $C_3 $ in the first case and is the symmetric group $S_3 $ in the second case.</p>
+<p>Next time we will associate a <strong>quiver</strong> to these vertices and triangles as well as a cubic <strong>superpotential</strong> which will then allow us to define a noncommutative algebra associated to any subgroup of the modular group. The monodromy group of the situation will then reappear as a group of algebra-automorphisms of this noncommutative algebra!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-modular-group-and-superpotentials-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

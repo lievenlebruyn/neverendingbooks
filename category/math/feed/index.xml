@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>math &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/category/math/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 26 Feb 2024 15:08:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Bourbaki and Dema, two remarks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 26 Feb 2024 15:08:04 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Dema]]></category>
+		<category><![CDATA[Trench]]></category>
+		<category><![CDATA[TwentyOnePilots]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11862</guid>
+
+					<description><![CDATA[While this blog is still online, I might as well correct, and add to, previous posts. Later this week new Twenty One Pilots material is&#8230;]]></description>
+										<content:encoded><![CDATA[<p>While this blog is still online, I might as well correct, and add to, previous posts.</p>
+<p>Later this week new <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">Twenty One Pilots</a> material is expected, so this might be a good time to add some remarks to a series of posts I ran last summer, trying to find a connection between <a href="https://twentyonepilots.fandom.com/wiki/Dmaorg.info">Dema-lore</a> and the actual history of the Bourbaki group. Here are links to these posts:</p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+</ul>
+<p>In the post <a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">&#8220;9 Bourbaki founding members, really?&#8221;</a> I questioned <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki#:~:text=Nicolas%20Bourbaki%20(French%3A%20%5Bnik%C9%94la,a%">Wikipedia&#8217;s assertion</a> that there were exactly nine founding members of Nicolas Bourbaki:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Henri_Cartan">Henri Cartan</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Chevalley">Claude Chevalley</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Jean_Coulomb">Jean Coulomb</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Jean_Coulomb">Jean Delsarte</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Jean_Dieudonn%C3%A9">Jean Dieudonne</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Charles_Ehresmann">Charles Ehresmann</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Szolem_Mandelbrojt">Szolem Mandelbrojt</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ren%C3%A9_de_Possel">Rene de Possel</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a></li>
+</ul>
+<p>I still stand by the arguments given in that post, but my opinion on this is completely irrelevant. What matters is who the Bourbaki-gang themself deemed worthy to attach their names to their first publication &#8216;Theorie des Ensembles&#8217; (1939).</p>
+<p>But wait, wasn&#8217;t the whole point of choosing the name Nicolas Bourbaki for their collective that the actual authors of the books should remain anonymous?</p>
+<p>Right, but then I found this strange document in the <a href="http://sites.mathdoc.fr/archives-bourbaki/">Bourbaki Archives</a> : <a href="http://sites.mathdoc.fr/archives-bourbaki/consulter.php?id=awms_001">awms_001</a>, a preliminary version of the first two chapters of &#8216;Theorie des Ensembles&#8217; written by Andre Weil and annotated by Rene de Possel. Here&#8217;s the title page:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/TitlePageTdE.jpg" width=100% ></p>
+<p>Next to N. Bourbaki we see nine capital letters: M.D.D.D.E.C.C.C.W corresponding to nine AW-approved founding members of Bourbaki: Mandelbrojt, Delsarte, De Possel, Dieudonne, Ehresmann, Chevalley, Coulomb, Cartan and Weil!</p>
+<p>What may freak out the <a href="https://www.reddit.com/r/twentyonepilots/?f=flair_name%3A%22Theory%22">Clique</a> is the similarity between the diagram to the left of the title, and the canonical depiction of the nine Bishops of Dema (at the center of the map of Dema) or the cover of the Blurryface album:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Bourbaki9.png" width=40%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Bishops9.png" width=95%><br />
+</center></p>
+<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">the Photoshop mysteries post</a> I explained why Mandelbrojt and Weil might have been drawn in opposition to each other, but I am unaware of a similar conflict between either of the three C&#8217;s (Cartan, Coulomb and Chevalley) and the three D&#8217;s (Delsarte, De Possel and Dieudonne).</p>
+<p>So, I&#8217;ll have to leave the identification of the nine Bourbaki founding members with the nine Dema Bishops as a riddle for another post.</p>
+<p>The second remark concerns the post <a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a>.</p>
+<p>In that post I briefly suggested that DEMA might stand for DEutscher MAthematiker (German Mathematicians), and hinted at the group of people around <a href="https://en.wikipedia.org/wiki/David_Hilbert">David Hilbert</a>, <a href="https://en.wikipedia.org/wiki/Emil_Artin">Emil Artin</a> and <a href="https://en.wikipedia.org/wiki/Emmy_Noether">Emmy Noether</a>, but discarded this as &#8220;one can hardly argue that there was a self-destructive attitude (like Vialism) present among that group, quite the opposite&#8221;.</p>
+<p>At the time, I didn&#8217;t know about <a href="https://en.wikipedia.org/wiki/Deutsche_Mathematik">Deutsche Mathematik</a>, a mathematics journal founded in 1936 by <a href="https://en.wikipedia.org/wiki/Ludwig_Bieberbach">Ludwig Bieberbach</a> and <a href="https://en.wikipedia.org/wiki/Theodor_Vahlen">Theodor Vahlen</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DeuMath1936_1.jpg/400px-DeuMath1936_1.jpg" width=80%><br />
+</center></p>
+<p>Deutsche Mathematik is also the name of a movement closely associated with the journal whose aim was to promote &#8220;German mathematics&#8221; and eliminate &#8220;Jewish influence&#8221; in mathematics. More about Deutsche Mathematik can be found on <a href="https://www5.in.tum.de/lehre/seminare/math_nszeit/SS03/vortraege/de-math/">this page</a>, where these eight mathematicians are mentioned in connection with it:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Ludwig_Bieberbach">Ludwig Bieberbach</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Theodor_Vahlen">Theodor Vahlen</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Oswald_Teichm%C3%BCller">Oswald Teichmuller</a></li>
+<li><a href="https://de.wikipedia.org/wiki/Erhard_Tornier">Erhard Tornier</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Helmut_Hasse">Helmut Hasse</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wilhelm_S%C3%BCss">Wilhelm Suss</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Helmut_Wielandt">Helmut Wielandt</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gustav_Doetsch">Gustav Doetsch</a></li>
+</ul>
+<p>Perhaps one can add to this list:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Erich_Kahler">Erich Kahler</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gerhard_Gentzen">Gerhard Gentzen</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wilhelm_Blaschke">Wilhelm Blaschke</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Heinrich_Brandt">Heinrich Brandt</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ernst_Witt">Ernst Witt</a></li>
+</ul>
+<p>Whether DEutsche MAthematik stands for DEMA, and which of these German mathematicians were its nine bishops might be the topic of another post. First I&#8217;ll have to read through Sanford Segal&#8217;s <a href="https://press.princeton.edu/books/paperback/9780691164632/mathematicians-under-the-nazis">Mathematicians under the Nazis</a>.</p>
+<p><strong>Added February 29th:</strong></p>
+<p>The long awaited new song has now surfaced:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/53tgVlXBZVg?si=UwaRjXUafwTKLgBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>I&#8217;ve only watched it once, but couldn&#8217;t miss the line &#8220;I fly by the <a href="https://en.wikipedia.org/wiki/Bourbaki_dangerous_bend_symbol">dangerous bend symbol</a>&#8220;.</p>
+<p>Didn&#8217;t we all fly by them in our first readings of Bourbaki&#8230;</p>
+<p>(Fortunately the clique already <a href="https://twitter.com/DiscordClique/status/1763270261623648562">spotted that reference</a>).</p>
+<p>No intention to freak out clikkies any further, but in the aforementioned Weil draft of &#8216;Theorie des Ensembles&#8217; they still used this precursor to the dangerous bend symbol</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/dangerousprecursor.jpg" width=100%></p>
+<p>Skeletons anyone?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Grothendieck&#8217;s gribouillis (6)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-6/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-6/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 02 Oct 2023 16:49:52 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[(6)]]></category>
+		<category><![CDATA[BnF]]></category>
+		<category><![CDATA[Carmona]]></category>
+		<category><![CDATA[gribouillis]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[grothendieck’s]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11817</guid>
+
+					<description><![CDATA[After the death of Grothendieck in November 2014, about 30.000 pages of his writings were found in Lasserre. Since then I&#8217;ve been trying to follow&#8230;]]></description>
+										<content:encoded><![CDATA[<p>After the death of <a href="https://en.wikipedia.org/wiki/Alexander_Grothendieck">Grothendieck</a> in November 2014, about 30.000 pages of his writings were found in Lasserre.</p>
+<p><center><br />
+<img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/Boxes2.jpg" width=100%><br />
+</center></p>
+<p>Since then I&#8217;ve been trying to follow what happened to them:</p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/where-are-grothendiecks-writings">Where are Grothendieck&#8217;s writings?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/where-are-grothendiecks-writings-2">Where are Grothendieck&#8217;s writings? (2)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis">Grothendieck&#8217;s gribouillis</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-2">Grothendieck&#8217;s gribouillis (2)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-3">Grothendieck&#8217;s gribouillis (3)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-4">Grothendieck&#8217;s gribouillis (4)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-5">Grothendieck&#8217;s gribouillis (5)</a></li>
+</ul>
+<p>So, what&#8217;s new?</p>
+<p>Well, finally we have closure!</p>
+<p>Last Friday, Grothendieck&#8217;s children donated the 30.000 Laserre pages to the <a href="https://www.bnf.fr/fr">Bibliotheque Nationale de France</a>.</p>
+<p>Via <a href="https://www.rtbf.be/article/des-manuscrits-inedits-du-genie-des-maths-grothendieck-entrent-a-la-bnf-11264549">Des manuscrits inédits du génie des maths Grothendieck entrent à la BnF</a> (and Google-translate):</p>
+<p>&#8220;The singularity of these manuscripts is that they &#8220;cover many areas at the same time&#8221; to form &#8220;a whole, a + cathedral work +, with undeniable literary qualities&#8221;, analyzes Jocelyn Monchamp, curator in the manuscripts department of the BnF.</p>
+<p>More than in “Récoltes et semailles”, very autobiographical, the author is “in a metaphysical retreat”, explains the curator, who has been going through the texts with passion for a month. A long-term task as the writing, in fountain pen, is dense and difficult to decipher. “I got used to it… And the advantage for us was that the author had methodically paginated and dated the texts.” One of the parts, entitled &#8220;Structures of the psyche&#8221;, a book of enigmatic diagrams translating psychology into algebraic language. In another, &#8220;The Problem of Evil&#8221;, he unfolds over 15,000 pages metaphysical meditations and thoughts on Satan. We sense a man &#8220;caught up by the ghosts of his past&#8221;, with an adolescence marked by the Shoah, underlines Johanna Grothendieck whose grandfather, a Russian Jew who fled Germany during the war, died at Auschwitz.</p>
+<p>The deciphering work will take a long time to understand everything this genius wanted to say.</p>
+<p>On Friday, the collection joined the manuscripts department of the Richelieu site, the historic cradle of the BnF, alongside the writings of Pierre and Marie Curie and Louis Pasteur. It will only be viewable by researchers.“This is a unique testimony in the history of science in the 20th century, of major importance for research,” believes Jocelyn Monchamp.</p>
+<p>During the ceremony, one of the volumes was placed in a glass case next to a manuscript by the ancient Greek mathematician Euclid.&#8221;</p>
+<p>Probably, the recent publication of <a href="https://www.gallimard.fr/Catalogue/GALLIMARD/Tel/Recoltes-et-Semailles-I-II">Récoltes et Semailles</a> clinched the deal.</p>
+<p>Also, it is unclear at this moment whether the <a href="https://igrothendieck.org/en/">Istituto Grothendieck</a>, which harbours <a href="https://igrothendieck.org/en/centre-for-grothendiecian-studies/">The centre for Grothendieck studies</a> coordinated by Mateo Carmona (see <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-5">this post</a>) played a role in the decision making, nor what role the Centre will play in the further studies of Grothendieck&#8217;s gribouillis.</p>
+<p>For other coverage on this, see <a href="https://phys.org/news/2023-09-hermit-eccentric-french-math-genius.html">Hermit &#8216;scribblings&#8217; of eccentric French math genius unveiled</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-6/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A question of loyalty</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 29 Sep 2023 09:51:24 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[epistemic]]></category>
+		<category><![CDATA[loyalty]]></category>
+		<category><![CDATA[modal]]></category>
+		<category><![CDATA[question]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11739</guid>
+
+					<description><![CDATA[On the island of two truths, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$). The King and Queen of the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>On the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths">island of two truths</a>, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$).</p>
+<p>The King and Queen of the island have an opinion on all statements which may differ from their actual truth-value. We say that the Queen <em>believes</em> a statement $p$ is she assigns value $Q$ to it, and that she <em>knows</em> $p$ is she believes $p$ and the actual truth-value of $p$ is indeed $Q$. Similarly for the King, replacing $Q$&#8217;s by $K$&#8217;s.</p>
+<p>All other inhabitants of the island are <em>loyal</em> to the Queen, or to the King, or to both. This means that they <em>agree</em> with the Queen (or King, or both) on all statements they have an opinion on. Two inhabitants are said to be <em>loyal</em> to each other if they agree on all statements they both have an opinion of.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths">Last time</a> we saw that Queen and King agree on all statements one of them believes to be false, as well as the negation of such statements. This raised the question:</p>
+<p><em>Are the King and Queen loyal to each other? That is, do Queen and King agree on all statements?</em></p>
+<p>We cannot resolve this issue without the information Oscar was able to extract from Pointex in <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a>&#8216;s post <a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a>:</p>
+<p>&#8220;Oscar was determined to get some more information. &#8220;Could you at least tell me whether the queen and the king know that they&#8217;re loyal to themselves?&#8221; he asked.<br />
+&#8220;Well, of course they know that!&#8221; replied Pointex.<br />
+&#8220;You said that a proposition can be Q-TRUE, K-TRUE or FALSE,&#8221; Oscar said.<br />
+&#8220;Yes, of course. What else!&#8221; replied Pointex as he threw the cap high up.<br />
+&#8220;Well, you also said that each native was loyal either to the queen or to the king. I was just wondering &#8230; Assume that A is loyal to the queen. Then what is the truth value of the statement: A is loyal to the queen?&#8221;<br />
+&#8220;Q, of course,&#8221; answered Pointex as he threw the cap up again.<br />
+&#8220;And what if A is not loyal to the queen? What is then the truth value of the statement: A is loyal to the queen?&#8221;<br />
+He barely finished his question as something fell over his face and covered his eyes. It was the funny cap.<br />
+&#8220;Thanx,&#8221; said Pointex as Oscar handed him the cap. &#8220;The value is 0, of course.&#8221;<br />
+&#8220;Can the truth value of the statement: &#8216;A is loyal to the queen&#8217; be K in any case?&#8221;<br />
+&#8220;Well, what do you think? Of course not! What a ridiculous thing to ask!&#8221; replied Pointex.&#8221;</p>
+<p><strong>Puzzle</strong> : Show that Queen and King are <em>not</em> loyal to each other, that is, there are statements on which they do not agree.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/loyalty.jpg" width=70%><br />
+</center></p>
+<p><strong>Solution</strong> : &#8216;The King is loyal to the Queen&#8217; must have actual truth-value $0$ or $Q$, and the sentence &#8216;The Queen is loyal to the King&#8217; must have actual truth-value $0$ or $K$. But both these sentences are the same as the sentence &#8216;The Queen and King are loyal to each other&#8217; and as this sentence can have only one truth-value, it must have value $0$ so the statement is false.</p>
+<p>Note that we didn&#8217;t produce a specific statement on which the Queen and King disagree. Can you find one?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the strange island of two truths</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 26 Sep 2023 14:57:07 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[island]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[strange]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[truths]]></category>
+		<category><![CDATA[two]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11699</guid>
+
+					<description><![CDATA[Last time we had a brief encounter with the island of two truths, invented by Karin Cvetko-Vah. See her posts: Oscar on the island of&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers">Last time</a> we had a brief encounter with the island of two truths, invented by <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a>. See her posts:</p>
+<ul>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">Oscar on the island of two truths</a></li>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a></li>
+</ul>
+<p>On this island, false statements have truth-value $0$ (as usual), but non-false statements are not necessarily true,  but can be given either truth-value $Q$ (statements which the Queen on the island prefers) or $K$ (preferred by the King).</p>
+<p>Think of the island as Trump&#8217;s paradise where nobody is ever able to say: <a href="https://en.wikipedia.org/wiki/Alternative_facts">&#8220;Look, alternative truths are not truths. They&#8217;re falsehoods.&#8221;</a></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2truths.png" width=70%><br />
+</center></p>
+<p>Even the presence of just one &#8216;alternative truth&#8217; has dramatic consequences on the rationality of your reasoning. If we know the truth-values of specific sentences, we can determine the truth-value of more complex sentences in which we use logical connectives such as $\vee$ (or), $\wedge$ (and), $\neg$ (not), and $\implies$ (then) via these truth tables:</p>
+<p>\[<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\bf{\wedge}~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+Q &#038; 0 &#038; Q &#038; Q \\<br />
+K &#038; 0 &#038; K &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\vee~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; Q &#038; K \\<br />
+Q &#038; Q &#038; Q &#038; K \\<br />
+K &#038; K &#038; Q &#038; K<br />
+\end{array} \]<br />
+\[<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\implies~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; Q &#038; Q &#038; K \\<br />
+Q &#038; 0 &#038; Q &#038; K \\<br />
+K &#038; 0 &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|c}<br />
+ \downarrow &#038; \neg~\downarrow \\<br />
+\hline<br />
+0 &#038; Q \\<br />
+Q &#038; 0 \\<br />
+K &#038; 0<br />
+\end{array}<br />
+\]</p>
+<p>Note that the truth-values $Q$ and $K$ are not completely on equal footing as we have to make a choice which one of them will stand for $\neg 0$.</p>
+<p>Common <a href="https://en.wikipedia.org/wiki/Tautology_(logic)">tautologies</a> are no longer valid on this island. The best we can have are $Q$-tautologies (giving value $Q$ whatever the values of the components) or $K$-tautologies.</p>
+<p>Here&#8217;s one $Q$-tautology (check!) : $(\neg p) \vee (\neg \neg p)$. Verify that $p \vee (\neg p)$ is neither a $Q$- nor a $K$-tautology.</p>
+<p>Can you find any $K$-tautology at all?</p>
+<p>Already this makes it incredibly difficult to adapt Smullyan-like <a href="https://en.wikipedia.org/wiki/Knights_and_Knaves">Knights and Knaves</a> puzzles to this skewed island. <a href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers">Last time</a> I gave one easy example.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2island2.png" width=70%><br />
+</center></p>
+<p><strong>Puzzle</strong> : On an island of two truths all inhabitants are either Knaves (saying only false statements), Q-Knights (saying only $Q$-valued statements) or K-Knights (who only say $K$-valued statements).</p>
+<p>The King came across three inhabitants, whom we will call $A$, $B$ and $C$. He asked $A$: &#8220;Are you one of my  Knights?&#8221; $A$ answered, but so indistinctly that the King could not understand what he said.</p>
+<p>He then asked $B$: &#8220;What did he say?&#8221; $B$ replies: &#8220;He said that he is a Knave.&#8221; At this point, $C$ piped up and said: &#8220;That&#8217;s not true!&#8221;</p>
+<p>Was $C$ a Knave, a Q-Knight or a K-Knight?</p>
+<p><strong>Solution</strong> : Q- and K-Knights can never claim to be a Knave. Neither can Knaves because they can only say false statements. So, no inhabitant on the island can ever claim to be a Knave. So, $B$ lies and is a Knave, so his stament has truth-value $0$. $C$ claims the negation of what $B$ says so the truth-value of his statement is $\neg 0 = Q$. $C$ must be a Q-Knight.</p>
+<p>As if this were not difficult enough, Karin likes to complicate things by letting the Queen and King assign their own truth-values to all sentences, which may coincide with their actual truth-value or not.</p>
+<p>Clearly, these two truth-assignments follow the logic of the island of two truths for composed sentences, and we impose one additional rule: if the Queen assigns value $0$ to a statement, then so does the King, and vice versa.</p>
+<p>I guess she wanted to set the stage for variations to the island of two truths of <a href="https://en.wikipedia.org/wiki/Epistemic_modal_logic">epistemic modal logical</a> puzzles as in Smullyan&#8217;s book <a href="https://raymondsmullyan.com/books/forever-undecided/">Forever Undecided</a> (for a quick summary, have a look at Smullyan&#8217;s paper <a href="http://www.tark.org/proceedings/tark_mar19_86/p341-smullyan.pdf">Logicians who reason about themselves</a>).</p>
+<p>A possible interpretation of the Queen&#8217;s truth-assignment is that she assigns value $Q$ to all statements she believes to be true, value $0$ to all statements she believes to be false, and value $K$ to all statements she has no fixed opinion on (she neither believes them to be true nor false). The King assigns value $K$ to all statements he believes to be true, $0$ to those he believes to be false, and $Q$ to those he has no fixed opinion on.</p>
+<p>For example, if the Queen has no fixed opinion on $p$ (so she assigns value $K$ to it), then the King can either believe $p$ (if he also assigns value $K$ to it) or can have no fixed opinion on $p$ (if he assigns value $Q$ to it), but he can never believe $p$ to be false.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2island3.png" width=70%><br />
+</center></p>
+<p><strong>Puzzle</strong> : We say that Queen and King &#8216;agree&#8217; on a statement $p$ if they both assign the same value to it. So, they agree on all statements one of them (and hence both) believe to be false. But there&#8217;s more:</p>
+<ul>
+<li>Show that Queen and King agree on the negation of all statements one of them believes to be false.</li>
+<li>Show that the King never believes the negation of whatever statement.</li>
+<li>Show that the Queen believes all negations of statements the King believes to be false.</li>
+</ul>
+<p><strong>Solution</strong> : If one of them believes $p$ to be false (s)he will assign value $0$ to $p$ (and so does the other), but then they both have to assign value $Q$ to $\neg p$, so they agree on this.</p>
+<p>The value of $\neg p$ can never be $K$, so the King does not believe $\neg p$.</p>
+<p>If the King believes $p$ to be false he assigns value $0$ to it, and so does the Queen, but then the value of $\neg p$ is $Q$ and so the Queen believes $\neg p$.</p>
+<p>We see that the Queen and King agree on a lot of statements, they agree on all statements one of them believes to be false, and they agree on the negation of such statements!</p>
+<p>Can you find any statement at all on which they do not agree?</p>
+<p>Well, that may be a little bit premature. We didn&#8217;t say which sentences about the island are allowed, and what the connection (if any) is between the Queen and King&#8217;s value-assignments and the actual truth values.</p>
+<p>For example, the Queen and King may agree on a classical ($0$ or $1$) truth-assignments to the atomic sentences for the island, and replace all $1$&#8217;s with $Q$. This will give a consistent assignment of truth-values, compatible with the island&#8217;s strange logic. (We cannot do the same trick replacing $1$&#8217;s by $K$ because $\neg 0 = Q$).</p>
+<p>Clearly, such a system may have no relation at all with the intended meaning of these sentences on the island (the actual truth-values).</p>
+<p>That&#8217;s why <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a> introduced the notions of &#8216;loyalty&#8217; and &#8216;sanity&#8217; for inhabitants of the island. That&#8217;s for next time, and perhaps then you&#8217;ll be able to answer the question whether Queen and King agree on all statements.</p>
+<p>(all images in this post are from Smullyan&#8217;s book <a href="https://www.amazon.com/Alice-Puzzle-Land-Carrollian-Children-Recreational/dp/0486482006">Alice in Puzzle-Land</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>some skew Smullyan stumpers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 21 Sep 2023 12:05:48 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[Hemelaer]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[skew]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[some]]></category>
+		<category><![CDATA[stumpers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11674</guid>
+
+					<description><![CDATA[Raymond Smullyan&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://static01.nyt.com/images/2017/02/12/us/12smullyan-obit/12smullyan-obit-superJumbo.jpg" width=100%></p>
+<p><a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s a classic example.</p>
+<p>&#8220;On the day of his arrival, the anthropologist Edgar Abercrombie came across three inhabitants, whom we will call $A$, $B$ and $C$. He asked $A$: &#8220;Are you a Knight or a Knave?&#8221; $A$ answered, but so indistinctly that Abercrombie could not understand what he said.</p>
+<p>He then asked $B$: &#8220;What did he say?&#8221; $B$ replies: &#8220;He said that he is a knave.&#8221; At this point, $C$ piped up and said: &#8220;Don&#8217;t believe that; it&#8217;s a lie!&#8221;</p>
+<p>Was $C$ a Knight or a Knave?&#8221;</p>
+<p>If you are stumped by this, try to figure out what kind of inhabitant can say &#8220;I am a Knave&#8221;.</p>
+<p>Some years ago, my friend and co-author <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a> wrote about a much stranger island, <a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">the island of two truths</a>.</p>
+<p>&#8220;The island was ruled by a queen and a king. It is important to stress that the queen was neither inferior nor superior to the king. Rather than as a married couple one should think of the queen and the king as two parallel powers, somewhat like the Queen of the Night and the King Sarastro in Mozart&#8217;s famous opera The Magic Flute. The queen and the king had their own castle each, each of them had their own court, their own advisers and servants, and most importantly each of them even had their own truth value.</p>
+<p>On the island, a proposition p is either FALSE, Q-TRUE or K-TRUE; in each of the cases we say that p has value 0, Q or K, respectively. The queen finds the truth value Q to be superior, while the king values the most the value K. The queen and the king have their opinions on all issues, while other residents typically have their opinions on some issues but not all.&#8221;</p>
+<p>The logic of the island of two truths is the easiest example of what Karin and I called a non-commutative frame or skew Heyting algebra (see <a href="https://arxiv.org/abs/1702.04949">here</a>), a notion we then used, jointly with <a href="https://jenshemelaer.com/">Jens Hemelaer</a>, to define the notion of a <a href="https://arxiv.org/abs/1705.02831">non-commutative topos</a>.</p>
+<p><img decoding="async" src="https://elle.metropolitan.si/media/cache/upload/Photo/2014/10/22/s43_40_cvetko-vah-karin_fbimage.jpg" width=100%></p>
+<p>If you take our general definitions, and take Q as the distinguished top-element, then the truth tables for the island of two truths are these ones (value of first term on the left, that of the second on top):</p>
+<p>\[<br />
+\begin{array}{c|ccc}<br />
+\wedge &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+Q &#038; 0 &#038; Q &#038; Q \\<br />
+K &#038; 0 &#038; K &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\vee &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; Q &#038; K \\<br />
+Q &#038; Q &#038; Q &#038; K \\<br />
+K &#038; K &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; Q &#038; Q &#038; K \\<br />
+Q &#038; 0 &#038; Q &#038; K \\<br />
+K &#038; 0 &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|c}<br />
+ &#038; \neg  \\<br />
+\hline<br />
+0 &#038; Q \\<br />
+Q &#038; 0 \\<br />
+K &#038; 0<br />
+\end{array}<br />
+\]</p>
+<p>Note that on this island the order of statements is important! That is, the truth value of $p \wedge q$ may differ from that of $q \wedge p$ (and similarly for $\vee$).</p>
+<p>Let&#8217;s reconsider Smullyan&#8217;s puzzle at the beginning of this post, but now on an island of two truths, where every inhabitant is either of Knave, or a Q-Knight (uttering only Q-valued statements), or a K-Knight (saying only K-valued statements).</p>
+<p>Again, can you determine what type $C$ is?</p>
+<p>Well, if you forget about the distinction between Q- and K-valued sentences, then we&#8217;re back to classical logic (or more generally, if you divide out Green&#8217;s equivalence relation from any skew Heyting algebra you obtain an ordinary Heyting algebra), and we have seen that then $B$ must be a Knave and $C$ a Knight, so in our new setting we know that $C$ is either a Q-Knight or a K-Knight, but which of the two?</p>
+<p>Now, $C$ claims the negation of what $B$ said, so the truth value is $\neg 0 = Q$, and therefore $C$ must be a Q-Knight.</p>
+<p>Recall that in <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a>&#8216;s island of two truths all sentences have a unique value which can be either $0$ (false) or one of the non-false values Q or K, and the value of combined statements is given by the truth tables above. The Queen and King both have an opinion on all statements, which may or may not coincide with the actual value of that statement. However, if the Queen assigns value $0$ to a statement, then so does the King, and conversely.</p>
+<p>Other inhabitants of the island have only their opinion about a subset of all statements (which may be empty). Two inhabitants <em>agree</em> on a statement if they both have an opinion on it and assign the same value to it.</p>
+<p>Now, each inhabitant is either <em>loyal</em> to the Queen or to the King (or both), meaning that they agree with the Queen (resp. King) on all statements they have an opinion of. An inhabitant loyal to the Queen is said to <em>believe</em> a sentence when she assigns value $Q$ to it (and symmetric for those loyal to the King), and <em>knows</em> the statement if she believes it and that value coincides with the actual value of that statement.</p>
+<p>Further, if A is loyal to the Queen, then the value of the statement &#8216;A is loyal to the Queen&#8217; is Q, and if A is not loyal to the Queen, then the value of the sentence &#8216;A is loyal to the Queen&#8217; is $0$ (and similarly for statements about loyalty to the King).</p>
+<p>These notions are enough for the first batch of ten puzzles in Karin&#8217;s posts</p>
+<ul>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">Oscar on the island of two truths</a></li>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a></li>
+</ul>
+<p>Just one example:</p>
+<p>Show that if anybody on the island knows that A is not loyal to the Queen, then everybody that has an opinion about the sentence &#8216;A is loyal to the Queen&#8217; knows that.</p>
+<p>After these two posts, Karin decided that it was more fun to blog about the use of non-commutative frames in data analysis.</p>
+<p>But, she once gave me a text containing many more puzzles (as well as all the answers), so perhaps I&#8217;ll share these in a follow-up post.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A projective plain (plane) of order ten</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 19 Sep 2023 15:01:19 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[(plane)]]></category>
+		<category><![CDATA[Lam]]></category>
+		<category><![CDATA[Odlyzko]]></category>
+		<category><![CDATA[order]]></category>
+		<category><![CDATA[plain]]></category>
+		<category><![CDATA[projective]]></category>
+		<category><![CDATA[Sloan]]></category>
+		<category><![CDATA[ten]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11638</guid>
+
+					<description><![CDATA[A projective plane of order $n$ is a collection of $n^2+n+1$ lines and $n^2+n+1$ points satisfying: every line contains exactly $n+1$ points every point lies&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A projective plane of order $n$ is a collection of $n^2+n+1$ lines and $n^2+n+1$ points satisfying:</p>
+<ul>
+<li>every line contains exactly $n+1$ points</li>
+<li>every point lies on exactly $n+1$ lines</li>
+<li>any two distinct lines meet at exactly one point</li>
+<li>any two distinct points lie on exactly one line</li>
+</ul>
+<p>Clearly, if $q=p^k$ is a pure prime power, then the projective plane over $\mathbb{F}_q$, $\mathbb{P}^2(\mathbb{F}_q)$ (that is, all nonzero triples of elements from the finite field $\mathbb{F}_q$ up to simultaneous multiplication with a non-zero element from $\mathbb{F}_q$) is a projective plane of order $q$.</p>
+<p>The easiest example being $\mathbb{P}^2(\mathbb{F}_2)$ consisting of seven points and lines</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/planeorder2.png" width=100%></p>
+<p>But, there are others. A triangle is a projective plane of order $1$, which is not of the above form, unless you believe in the field with one element $\mathbb{F}_1$&#8230;</p>
+<p>And, apart from $\mathbb{P}^2(\mathbb{F}_{3^2})$, there are three other, non-isomorphic, projective planes of order $9$.</p>
+<p>It is clear then that for all $n < 10$, except perhaps $n=6$, a projective plane of order $n$ exists.
+
+</p>
+<p>In 1938, <a href="https://en.wikipedia.org/wiki/Raj_Chandra_Bose">Raj Chandra Bose</a> showed that there is <strong>no</strong> plane of order $6$ as there cannot be $5$ mutually orthogonal Latin squares of order $6$, when even the problem of two orthogonal squares of order $6$ (see <a href="http://www.ams.org/publicoutreach/feature-column/fcarc-latinii1">Euler&#8217;s problem of the $36$ officers</a>) is impossible.</p>
+<p>Yeah yeah Bob,  I know it has a <a href="https://www.quantamagazine.org/eulers-243-year-old-impossible-puzzle-gets-a-quantum-solution-20220110/">quantum solution</a>.</p>
+<p>Anyway by May 1977, when Lenstra&#8217;s Festschrift &#8216;Een pak met een korte broek&#8217; (<a href="https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts">a suit with shorts</a>) was published, the existence of a projective plane of order $10$ was still wide open.</p>
+<p>That&#8217;s when <a href="https://en.wikipedia.org/wiki/Andrew_Odlyzko">Andrew Odlyzko</a> (probably known best for his numerical work on the Riemann zeta function) and <a href="https://en.wikipedia.org/wiki/Neil_Sloane">Neil Sloane</a> (probably best known as the creator of the <a href="https://en.wikipedia.org/wiki/On-Line_Encyclopedia_of_Integer_Sequences">On-Line Encyclopedia of Integer Sequences</a>) joined forces to publish in Lenstra&#8217;s festschrift a note claiming (jokingly) the existence of a projective plane of order ten, as they were able to find a finite field of ten elements.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Andrew_Odlyzko.jpg/440px-Andrew_Odlyzko.jpg" width=57%>  <img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/N._J._A._Sloane.jpg/440px-N._J._A._Sloane.jpg" width=39.5%><br />
+</center></p>
+<p>Here&#8217;s a transcript:</p>
+<p><strong>A PROJECTIVE PLAIN OF ORDER TEN</strong></p>
+<p><strong>A. M. Odlyzko and N.J.A. Sloane</strong></p>
+<p>This note settles in the affirmative the notorious question of the existence of a projective plain of order ten.</p>
+<p>It is well-known that if a finite field $F$ is given containing $n$ elements, then the projective plain of order $n$ can be immediately constructed (see M. Hall Jr., Combinatorial Theory, Blaisdell, Waltham, Mass. 1967 and D.R. Hughes and F.C. Piper, Projective Planes, Springer-Verlag, N.Y., 1970).</p>
+<p>For example, the points of the plane are represented by the nonzero triples $(\alpha,\beta,\gamma)$ of elements of $F$, with the convention that $(\alpha,\beta,\gamma)$ and $(r\alpha, r\beta, r\gamma)$ represent the same point, for all nonzero $r \in F$.</p>
+<p>Furthermore this plain even has the desirable property that Desargues&#8217; theorem holds there.</p>
+<p>What makes this note possible is our recent discovery of a field containing exactly ten elements: we call it the <strong>digital field</strong>.</p>
+<p>We first show that this field exists, and then give a childishly simple construction which the reader can easily verify.</p>
+<p><strong>The Existence Proof</strong></p>
+<p>Since every real number can be written in the decimal system we conclude that</p>
+<p>\[<br />
+\mathbb{R} = GF(10^{\omega}) \]</p>
+<p>Now $\omega = 1.\omega$, so $1$ divides $\omega$. Therefore by a standard theorem from field theory (e.g. B. L. van der Waerden, Modern Algebra, Ungar, N.Y., 1953, 2nd edition, Volume 1, p. 117) $\mathbb{R}$ contains a subfield $GF(10)$. This completes the proof.</p>
+<p><strong>The Construction</strong></p>
+<p>The elements of this digital field are shown in Fig. 1.</p>
+<p>They are labelled $Left_1, Left_2, \dots, Left_5, Right_1, \dots, Right_5$ in the natural ordering (reading from left to right).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/digital1.png" width=40%> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/digital2.png" width=50%><br />
+</center></p>
+<p>Addition is performed by counting, again in the natural way. An example is shown in Fig. 2, and for further details the reader can consult any kindergarten student.</p>
+<p>In all digital systems the rules for multiplication can be written down immediately once addition has been defined; for example $2 \times n = n+n$. The reader will easily verify the rest of the details.</p>
+<p>Since this field plainly contains ten elements (see Fig. 1) we conclude that there <strong>is</strong> a projective plain of order ten.</p>
+<p>So far, the transcript.</p>
+<p>More seriously now, the non-existence of a projective plane of order ten was only established in 1988, heavily depending on computer-calculations. A nice account is given in</p>
+<p>C. M. H. Lam, <a href="https://maa.org/sites/default/files/pdf/upload_library/22/Ford/Lam305-318.pdf">&#8220;The Search for a Finite Projective Plane of Order 10&#8221;.</a></p>
+<p>Now that recent iPhones nearly have the computing powers of former Cray&#8217;s, one might hope for easier proofs.</p>
+<p>Fortunately, such a proof now exists, see <a href="https://arxiv.org/abs/2012.04715">A SAT-based Resolution of Lam&#8217;s Problem</a> by Curtis Bright, Kevin K. H. Cheung, Brett Stevens, Ilias Kotsireas, Vijay Ganesh</p>
+<p>David Roberts, aka the HigherGeometer, did a nice post on this <a href="https://thehighergeometer.wordpress.com/2023/08/09/no-order-10-projective-planes-via-sat/"><br />
+No order-10 projective planes via SAT</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A suit with shorts</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 18 Sep 2023 14:32:01 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[personal]]></category>
+		<category><![CDATA[Lenstra]]></category>
+		<category><![CDATA[Mumford]]></category>
+		<category><![CDATA[shorts]]></category>
+		<category><![CDATA[suit]]></category>
+		<category><![CDATA[with]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11619</guid>
+
+					<description><![CDATA[I&#8217;m retiring in two weeks so I&#8217;m cleaning out my office. So far, I got rid of almost all paper-work and have split my book-collection&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m retiring in two weeks so I&#8217;m cleaning out my office.</p>
+<p>So far, I got rid of almost all paper-work and have split my book-collection in two: the books I want to take with me, and those anyone can grab away.</p>
+<p>Here&#8217;s the second batch (math/computer books in the middle, popular science to the right, thrillers to the left).</p>
+<p><center><br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/grotemagweg.jpg"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/magweg.jpg" width=100%></a><br />
+</center></p>
+<p>If you&#8217;re interested in some of these books (click for a larger image, if you want to zoom in) and are willing to pay the postage, leave a comment and I&#8217;ll try to send them if they survive the current &#8216;take-away&#8217; phase.</p>
+<p>Here are two books I definitely want to keep. On the left, an original mimeographed version of Mumford&#8217;s <a href="https://link.springer.com/book/10.1007/978-3-662-21581-4">&#8216;Red Book&#8217;</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/redbook.jpg" width=100%></p>
+<p>On the right, &#8216;Een pak met een korte broek&#8217; (&#8216;A suit with shorts&#8217;), a collection of papers by family and friends, presented to <a href="https://en.wikipedia.org/wiki/Hendrik_Lenstra">Hendrik Lenstra</a> on the occasion of the defence of his Ph.D. thesis on Euclidean number-fields, May 18th 1977.</p>
+<p>If the title intrigues you, a photo of young Hendrik in suit and shorts is included.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/lenstrakortebroek.jpg" width=100%></p>
+<p>This collection includes hilarious &#8216;papers&#8217; by famous people including</p>
+<ul>
+<li><a href="http://www.auemath.aichi-edu.ac.jp/teacher/kodani/lecture/zemi-r3/inukai2.pdf">&#8216;A headache-causing problem&#8217; by Conway (J.H.), Paterson (M.S.), and Moscow (U.S.S.R.)</a></li>
+<li>&#8216;A projective plain of order ten&#8217; by A.M. Odlyzko and N.J.A. Sloane</li>
+<li>&#8216;La chasse aux anneaux principaux non-Euclidiens dans l&#8217;enseignement&#8217; by Pierre Samuel</li>
+<li>&#8216;On time-like theorems&#8217; by Michiel Hazewinkel</li>
+<li>&#8216;She loves me, she loves me not&#8217; by Richard K. Guy</li>
+<li>&#8216;Theta invariants for affine root systems&#8217; by E.J.N. Looijenga</li>
+<li>&#8216;The prime of primes&#8217; by F. Lenstra and A.J. Oort</li>
+<li>(and many more, most of them in Dutch)</li>
+</ul>
+<p>Perhaps I can do a couple of posts on some of these papers. It might break this clean-up routine.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Grothendieck&#8217;s gribouillis (5)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-5/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-5/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 04 May 2023 14:12:36 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[(5)]]></category>
+		<category><![CDATA[Carmona]]></category>
+		<category><![CDATA[gribouillis]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[grothendieck’s]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11334</guid>
+
+					<description><![CDATA[After the death of Grothendieck in November 2014, about 30.000 pages of his writings were found in Lasserre. Since then I&#8217;ve been trying to follow&#8230;]]></description>
+										<content:encoded><![CDATA[<p>After the death of <a href="https://en.wikipedia.org/wiki/Alexander_Grothendieck">Grothendieck</a> in November 2014, about 30.000 pages of his writings were found in Lasserre.</p>
+<p><center><br />
+<img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/Boxes2.jpg" width=100%><br />
+</center></p>
+<p>Since then I&#8217;ve been trying to follow what happened to them:</p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/where-are-grothendiecks-writings">Where are Grothendieck&#8217;s writings?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/where-are-grothendiecks-writings-2">Where are Grothendieck&#8217;s writings? (2)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis">Grothendieck&#8217;s gribouillis</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-2">Grothendieck&#8217;s gribouillis (2)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-3">Grothendieck&#8217;s gribouillis (3)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-4">Grothendieck&#8217;s gribouillis (4)</a></li>
+</ul>
+<p>So, what&#8217;s new?</p>
+<p>In December last year, there was the official opening of the <a href="https://igrothendieck.org/en/">Istituto Grothendieck</a> in the little town of <a href="https://en.wikipedia.org/wiki/Mondov%C3%AC">Mondovi</a> in Northern Italy.The videos of the talks given at that meeting are <a href="https://www.youtube.com/channel/UCMvGIqDyRVWh9g0gWnQFobw">now online</a>.</p>
+<p>The Institute houses two centres, the <a href="https://igrothendieck.org/en/centre-for-topos-theory-and-its-applications/">Centre for topos theory and its applications</a> with mission statement:</p>
+<blockquote><p>The Centre for Topoi Theory and its Applications carries out highly innovative research in the field of Grothendieck’s topos theory, oriented towards the development of the unifying role of the concept of topos across different areas of mathematics.</p>
+<p>Particularly relevant to these aims is the theory of topos-theoretic ‘bridges’ of Olivia Caramello, coordinator of the Centre and principal investigator of the multi-year project “Topos theory and its applications”.</p></blockquote>
+<p>and the <a href="https://igrothendieck.org/en/centre-for-grothendiecian-studies/">Centre for Grothendiecian studies</a> with mission:</p>
+<blockquote><p>The Centre for Grothendiecian Studies is dedicated to honoring the memory of Alexander Grothendieck through extensive work to valorize his work and disseminate his ideas to the general public.</p>
+<p>In particular, the Centre aims to carry out historical/philosophical and editorial work to promote the publication of the unpublished works of A. Grothendieck, as well as to promote the production of translations of already published works in various languages.</p></blockquote>
+<p>No comment on the first. You can look up the Institute&#8217;s <a href="https://igrothendieck.org/en/governance/">Governance page</a>, contemplate recent <a href="https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town">IHES-events</a>, and conjure up your own story.</p>
+<p>More interesting is the Centre of Grothendiec(k)ian studies. Here&#8217;s the YouTube-clip of the statement made by Johanna Grothendieck (daughter of) at the opening.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/snwxeJOvD7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>She hopes for two things: to find money and interested persons to decrypt and digitalise Grothendieck&#8217;s Lasserre gribouillis, and to initiate the re-edition of the complete mathematical works of Grothendieck.</p>
+<p>So far, Grothendieck&#8217;s family was withholding access to the Lasserre writings. Now they seem to grant access to the Istituto Grothendieck and authorise it to digitalise the 30.000 pages.</p>
+<p>Further good news is that a few weeks ago <a href="https://igrothendieck.org/en/mateo-carmona-appointed-as-coordinator-of-csg/">Mateo Carmona was appointed as coordinator of the Centre of grothendieckian studies</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://igrothendieck.org/wp-content/uploads/2023/04/MateoCarmonaCoordinatorCSG-1536x2048.jpg" width=50%><br />
+</center></p>
+<p>You may know Mateo from his <a href="https://agrothendieck.github.io/">Grothendieck Github Archive</a>. A warning note on that page states: &#8220;This site no longer updates (since Feb. 2023) and has been archived. Please visit [Instituto Grothendieck] or write to Mateo Carmona at mateo.carmona@csg.igrothendieck.org&#8221;. So probably the site will be transferred to the Istituto.</p>
+<p>Mateo Carmona says:</p>
+<blockquote><p>As Coordinator of the CSG, I will work tirelessly to ensure that the Centre provides comprehensive resources for scholars, students, and enthusiasts interested in Grothendieck’s original works and modern scholarship. I look forward to using my expertise to coordinate and supervise the work of the international group of researchers and volunteers who will promote Grothendieck’s scientific and cultural heritage through the CSG.</p></blockquote>
+<p>It looks as if Grothendieck&#8217;s gribouillis are in good hands, at last.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-5/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A newish toy in town</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 28 Apr 2023 14:09:24 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Caramello]]></category>
+		<category><![CDATA[Clausen]]></category>
+		<category><![CDATA[condensed math]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[IHES]]></category>
+		<category><![CDATA[Lafforgue]]></category>
+		<category><![CDATA[newish]]></category>
+		<category><![CDATA[topos theory]]></category>
+		<category><![CDATA[town]]></category>
+		<category><![CDATA[toy]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11308</guid>
+
+					<description><![CDATA[In a recent post I recalled Claude Levy-Strauss&#8217; observation “In Paris, intellectuals need a new toy every 15 years”, and gave a couple of links&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In a <a href="https://lievenlebruyn.github.io/neverendingbooks/against-toposes">recent post</a> I recalled Claude Levy-Strauss&#8217; observation “In Paris, intellectuals need a new toy every 15 years”, and gave a couple of links showing that the most recent IHES-toy has been spreading to other Parisian intellectual circles in recent years.</p>
+<p>At the time (late sixties), Levy-Strauss was criticising the ongoing Foucault-hype. It appears that, since then, the frequency of <a href="https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea">a hype cycle</a> is getting substantially shorter.</p>
+<p>Ten days ago, the IHES announced that <a href="https://www.math.ku.dk/english/staff/?pure=en/persons/467008">Dustin Clausen</a> (of <a href="https://en.wikipedia.org/wiki/Condensed_mathematics">condensed math</a> fame) is now joining the IHES as <a href="https://www.ihes.fr/en/dustin-clausen-joins-ihes/">a permanent professor</a>.</p>
+<p>To me, this seems like a sensible decision, moving away from (too?) general topos theory towards explicit examples having potential applications to arithmetic geometry.</p>
+<p>On the relation between condensed sets and toposes, here&#8217;s Dustin Clausen talking about &#8220;Toposes generated by compact projectives, and the example of condensed sets&#8221;, at the &#8220;Toposes online&#8221; conference, organised by Alain Connes, Olivia Caramello and Laurent Lafforgue in 2021.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/76Yqur6VP1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Two days ago, Clausen gave another interesting (inaugural?) talk at the IHES on &#8220;A Conjectural Reciprocity Law for Realizations of Motives&#8221;.</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/NZrSgMz4TvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The forests of the unconscious</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-forests-of-the-unconscious/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-forests-of-the-unconscious/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 20 Apr 2023 09:37:44 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[cell complex]]></category>
+		<category><![CDATA[Dress]]></category>
+		<category><![CDATA[forests]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[injective hull]]></category>
+		<category><![CDATA[Isbell]]></category>
+		<category><![CDATA[phylogenetic]]></category>
+		<category><![CDATA[Sturmfels]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[tight span]]></category>
+		<category><![CDATA[unconscious]]></category>
+		<category><![CDATA[Willerton]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11265</guid>
+
+					<description><![CDATA[We start from a large data-set $V=\{ k,l,m,n,\dots \}$ (texts, events, DNA-samples, &#8230;) with a suitable distance-function ($d(m,n) \geq 0~d(k,l)+d(l,m) \geq d(k.m)$) which measures the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>We start from a large data-set $V=\{ k,l,m,n,\dots \}$ (texts, events, DNA-samples, &#8230;) with a suitable distance-function ($d(m,n) \geq 0~d(k,l)+d(l,m) \geq d(k.m)$) which measures the (dis)similarity between individual samples.</p>
+<p>We&#8217;re after a set of unknown events $\{ p,q,r,s,\dots \}$ to explain the distances between the observed data. An example: let&#8217;s assume we&#8217;ve sequenced the DNA of a set of species, and computed a Hamming-like distance to measures the differences between these sequences.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest2.jpg" width=100%><br />
+(From <a href="https://susan.su.domains/papers/june.pdf">Geometry of the space of phylogenetic trees</a> by Billera, Holmes and Vogtmann)<br />
+</center></p>
+<p>Biology explains these differences from the fact that certain species may have had more recent common ancestors than others. Ideally, the measured distances between DNA-samples are a <em>tree metric</em>. That is, if we can determine the full ancestor-tree of these species, there should be numbers between ancestor-nodes (measuring their difference in DNA) such that the distance between two existing species is the sum of distances over the edges of the unique path in this <a href="https://en.wikipedia.org/wiki/Phylogenetic_tree">phylogenetic tree</a> connecting the two species.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest">Last time</a> we&#8217;ve see that a necessary and sufficient condition for a tree-metric is that for every quadruple $k,l,m,n \in V$ we have that the maximum of the sum-distances</p>
+<p>$$\{ d(k,l)+d(m,n),~d(k,m)+d(l,n),~d(k,n)+d(l,m) \}$$</p>
+<p>is attained at least twice.</p>
+<p>In practice, it rarely happens that the measured distances between DNA-samples are a perfect fit to this condition, but still we would like to compute the most probable phylogenetic tree. In the above example, there will be two such likely trees:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest3.png" width=100%><br />
+(From <a href="https://susan.su.domains/papers/june.pdf">Geometry of the space of phylogenetic trees</a> by Billera, Holmes and Vogtmann)<br />
+</center></p>
+<p>How can we find them? And, if the distances in our data-set do not have such a direct biological explanation, is it still possible to find such trees of events (or perhaps, a forest of event-trees) explaining our distance function?</p>
+<p>Well, tracking back these ancestor nodes looks a lot like trying to construct colimits.</p>
+<p>By now, <a href="https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits">every child</a> knows that if their toy category $T$ does not allow them to construct all colimits, they can always beg for an upgrade to the presheaf topos $\widehat{T}$ of all contravariant functors from $T$ to $Sets$.</p>
+<p>But then, the child can cobble together too many crazy constructions, and the parents have to call in the Grothendieck police who will impose one of their topologies to keep things under control.</p>
+<p>Can we fall back on this standard topos philosophy in order to find these forests of the unconscious?</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forestview.jpg" width=100%><br />
+(<a href="https://symbolreader.net/2013/04/14/the-symbolism-of-the-forest/">Image credit</a>)<br />
+</center></p>
+<p>We have a data-set $V$ with a distance function $d$, and it is fashionable to call this setting a $[0,\infty]$-&#8216;enriched&#8217; category. This is a misnomer, there&#8217;s not much &#8216;category&#8217; in a $[0,\infty]$-enriched category. The only way to define an underlying category from it is to turn $V$ into a poset via $n \geq m$ iff $d(n,m)=0$.</p>
+<p>Still, we can define the set $\widehat{V}$ of $[0,\infty]$-enriched presheaves, consisting of all maps<br />
+$$p : V \rightarrow [0,\infty] \quad \text{satisfying} \quad \forall m,n \in V : d(m,n)+p(n) \geq p(m)$$<br />
+which is again a $[0,\infty]$-enriched category with distance function<br />
+$$\hat{d}(p,q) = \underset{m \in V}{max} (q(m) \overset{.}{-} p(m)) \quad \text{with} \quad a \overset{.}{-} b = max(a-b,0)$$<br />
+so $\widehat{V}$ is a poset via $p \geq q$ iff $\forall m \in V : p(m) \geq q(m)$.</p>
+<p>The good news is that $\widehat{V}$ contains all limits and colimits (because $[0,\infty]$ has sup&#8217;s and inf&#8217;s) and that $V$ embeds isometrically in $\widehat{V}$ via the Yoneda-map<br />
+$$m \mapsto y_m \quad \text{with} \quad y_m(n)=d(n,m)$$<br />
+The mental picture of a $[0,\infty]$-enriched presheaf $p$ is that of an additional &#8216;point&#8217; with $p(m)$ the distance from $y_m$ to $p$.</p>
+<p>But there&#8217;s hardly a subobject classifier to speak of, and so no Grothendieck topologies nor internal logic. So, how can we select from the abundance of enriched presheaves, the nodes of our event-forest?</p>
+<p>We can look for special properties of the ancestor-nodes in a phylogenetic tree.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest6.jpg" width=100%><br />
+</center></p>
+<p>For any ancestor node $p$ and any $m \in V$ there is a unique branch from $p$ having $m$ as a leaf (picture above,left). Take another branch in $p$ and a leaf vertex $n$ of it, then the combination of these two paths gives the unique path from $m$ to $n$ in the phylogenetic tree, and therefore<br />
+$$\hat{d}(y_m,y_n) = d(m,n) = p(m)+p(n) = \hat{d}(p,y_m) + \hat{d}(p,y_n)$$<br />
+In other words, for every $m \in V$ there is another $n \in V$ such that $p$ lies on the <em>geodesic</em> from $m$ to $n$ (identifying elements of $V$ with their Yoneda images in $\widehat{V}$).</p>
+<p>Compare this to <a href="https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt">Stephen Wolfram&#8217;s belief</a> that if we looked properly at “what ChatGPT is doing inside, we’d immediately see that ChatGPT is doing something “mathematical-physics-simple” like following geodesics&#8221;.</p>
+<p>Even if the distance on $V$ is symmetric, the extended distance function on $\widehat{V}$ is usually far from symmetric. But here, as we&#8217;re dealing with a tree-distance, we have for all ancestor-nodes $p$ and $q$ that $\hat{d}(p,q)=\hat{d}(q,p)$ as this is just the sum of the weights of the edges on the unique path from $p$ and $q$ (picture above, on the right).</p>
+<p>Right, now let&#8217;s look at a <em>non</em>-tree distance function on $V$, and let&#8217;s look at those elements in $\widehat{V}$ having similar properties as the ancestor-nodes:</p>
+<p>$$T_V = \{ p \in \widehat{V}~:~\forall n \in V~:~p(n) = \underset{m \in V}{max} (d(m,n) \overset{.}{-} p(m)) \}$$</p>
+<p>Then again, for every $p \in T_V$ and every $n \in V$ there is an $m \in V$ such that $p$ lies on a geodesic from $n$ to $m$.</p>
+<p>The simplest non-tree example is $V = \{ a,b,c,d \}$ with say</p>
+<p>$$d(a,c)+d(b,d) > max(d(a,b)+d(c,d),d(a,d)+d(b,c))$$</p>
+<p>In this case, $T_V$ was calculated by Andreas Dress in <a href="https://core.ac.uk/download/pdf/82215646.pdf">Trees, Tight Extensions of Metric Spaces, and the Cohomological Dimension of Certain Groups: A Note on Combinatorial Properties of Metric Spaces</a>. Note that Dress writes $mn$ for $d(m,n)$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest7.png" width=70%><br />
+</center></p>
+<p>If this were a tree-metric, $T_V$ would be the tree, but now we have a $2$-dimensional cell $T_0$ consisting of those presheaves lying on a geodesic between $a$ and $c$, and on the one between $b$ and $d$. Let&#8217;s denote this by $T_0 = \{ a&#8212;c,b&#8212;d \}$.</p>
+<p>$T_V$ has eight $1$-dimensional cells, and with the same notation we have</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest9.jpg" width=70%><br />
+</center></p>
+<p>Let&#8217;s say that $V= \{ a,b,c,d \}$ are four DNA-samples of species but failed to satisfy the tree-metric condition by an error in the measurements, how can we determine likely phylogenetic trees for them? Well, given the shape of the cell-complex $T_V$ there are four spanning trees (with root in $f_a,f_b,f_c$ or $f_d$) having the elements of $V$ as their only leaf-nodes. Which of these is most likely the ancestor-tree will depend on the precise distances.</p>
+<p>For an arbitrary data-set $V$, the structure of $T_V$ has been studied extensively, under a variety of names such as &#8216;Isbell&#8217;s injective hull&#8217;, &#8216;tight span&#8217; or &#8216;tropical convex hull&#8217;, in slightly different settings. So, in order to use results one sometimes have to intersect with some (un)bounded polyhedron.</p>
+<p>It is known that $T_V$ is always a cell-complex with dimension of the largest cell bounded by half the number of elements of $V$. In this generality it will no longer be the case that there is a rooted spanning tree of teh complex having the elements of $V$ as its only leaves, but we can opt for the best forest of rooted trees in the $1$-skeleton having all of $V$ as their leaf-nodes. Theses are the &#8216;forests of the unconscious&#8217; explaining the distance function on the data-set $V$.</p>
+<p>Apart from the Dress-paper mentioned above, I&#8217;ve found these papers informative:</p>
+<ul>
+<li><a href="https://www.math.uni-bielefeld.de/documenta/lsu/dress-huber-multon.pdf">Metric spaces in pure and applied mathematics</a> by Dress, Huber and Moulton</li>
+<li><a href="https://arxiv.org/abs/1006.2767">Computing the bounded subcomplex of an unbounded polyhedron</a> by Hermann, Joswig and Pfetsch</li>
+<li><a href="https://www.math.uni-bielefeld.de/documenta/vol-09/01.pdf">Tropical convexity</a> by Develin and Sturmfels</li>
+<li><a href="https://arxiv.org/abs/1302.4370">Tight spans, Isbell completions and semi-tropical modules</a> by Willerton</li>
+</ul>
+<p>So far, we started from a data-set $V$ with a symmetric distance function, but for applications in LLMs one might want to drop that condition. In that case, Willerton proved that there is a suitable replacement of $T_V$, which is now called the &#8216;directed tight span&#8217; and which coincides with the Isbell completion.</p>
+<p>Recently, <a href="http://www.simonwillerton.staff.shef.ac.uk/">Simon Willerton</a> gave a talk at the African Mathematical Seminar called &#8216;Looking at metric spaces as enriched categories&#8217;:</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/hRwcKpdwD5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Willerton also posts a series(?) on this at the n-category cafe, starting with <a href="https://golem.ph.utexas.edu/category/2023/04/metric_spaces_as_enriched_cate.html">Metric spaces as enriched categories I</a>.</p>
+<p>(tbc?)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">The super-vault of missing notes</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest">The tropical brain-forest</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-forests-of-the-unconscious/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

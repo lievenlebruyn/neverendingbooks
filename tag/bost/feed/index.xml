@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Bost &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/bost/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 30 Jan 2018 13:23:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The Langlands program and non-commutative geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 30 Jan 2018 13:23:34 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Artin]]></category>
+		<category><![CDATA[Bost]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Kisin]]></category>
+		<category><![CDATA[Langlands]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7930</guid>
+
+					<description><![CDATA[The Bulletin of the AMS just made this paper by Julia Mueller available online: &#8220;On the genesis of Robert P. Langlands&#8217; conjectures and his letter&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The Bulletin of the AMS just made this paper by Julia Mueller available online: <a href="http://www.ams.org/journals/bull/0000-000-00/S0273-0979-2018-01609-1/home.html">&#8220;On the genesis of Robert P. Langlands&#8217; conjectures and his letter to Andre Weil&#8221;</a> (hat tip <a href="https://plus.google.com/+ChandanDalawat/posts/gVzANZb2Vcv">+ChandanDalawat</a> and <a href="https://plus.google.com/+DavidRoberts/posts/Q8PR5m3sd5L">+DavidRoberts</a> on Google+).</p>
+<p>It recounts the story of the early years of <a href="https://www.google.be/search?q=robert+langlands&#038;oq=robert+langlands">Langlands</a> and the first years of his mathematical career (1960-1966)leading up to his letter to <a href="https://www.google.be/search?q=Andre+Weil&#038;oq=Andre+Weil">Andre Weil</a> in which he outlines his conjectures, which would become known as the <a href="https://en.wikipedia.org/wiki/Langlands_program">Langlands program</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/LanglandsWeil.jpg"></p>
+<p>Langlands letter to Weil is available <a href="https://publications.ias.edu/rpl/paper/43">from the IAS</a>.</p>
+<p>The Langlands program is a vast net of conjectures. For example, it conjectures that there is a correspondence between</p>
+<p>&#8211; $n$-dimensional representations of the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q})$, and</p>
+<p>&#8211; specific data coming from an <a href="https://en.wikipedia.org/wiki/Adele_ring#Example:_the_rational_adele_ring_'"`UNIQ--postMath-00000048-QINU`"'">adelic</a> quotient-space $GL_n(\mathbb{A}_{\mathbb{Q}})/GL_n(\mathbb{Q})$.</p>
+<p>For $n=1$ this is essentially <a href="https://en.wikipedia.org/wiki/Class_field_theory">class field theory</a> with the correspondence given by <a href="https://en.wikipedia.org/wiki/Artin_reciprocity_law">Artin&#8217;s reciprocity law</a>.</p>
+<p>Here we have on the one hand the characters of the abelianised absolute Galois group</p>
+<p>\[<br />
+Gal(\overline{\mathbb{Q}}/\mathbb{Q})^{ab} \simeq Gal(\mathbb{Q}(\pmb{\mu}_{\infty})/\mathbb{Q}) \simeq \widehat{\mathbb{Z}}^{\ast} \]</p>
+<p>and on the other hand the connected components of the idele class space</p>
+<p>\[<br />
+GL_1(\mathbb{A}_{\mathbb{Q}})/GL_1(\mathbb{Q}) = \mathbb{A}_{\mathbb{Q}}^{\ast} / \mathbb{Q}^{\ast} = \mathbb{R}_+^{\ast} \times \widehat{\mathbb{Z}}^{\ast} \]</p>
+<p>For $n=2$ it involves the study of Galois representations coming from elliptic curves. A gentle introduction to the general case is Mark Kisin&#8217;s paper <a href="http://www.ams.org/notices/200706/tx070600718p.pdf">What is &#8230; a Galois representation?</a>.</p>
+<p>One way to look at some of the quantum statistical systems studied via non-commutative geometry is that they try to understand the &#8220;bad&#8221; boundary of the Langlands space $GL_n(\mathbb{A}_{\mathbb{Q}})/GL_n(\mathbb{Q})$.</p>
+<p>Here, the Bost-Connes system corresponds to the $n=1$ case, the Connes-Marcolli system to the $n=2$ case.</p>
+<p>If $\mathbb{A}&#8217;_{\mathbb{Q}}$ is the subset of all adeles having almost all of its terms in $\widehat{\mathbb{Z}}_p^{\ast}$, then there is a well-defined map</p>
+<p>\[<br />
+\pi~:~\mathbb{A}&#8217;_{\mathbb{Q}}/\mathbb{Q}^{\ast} \rightarrow \mathbb{R}_+ \qquad (x_{\infty},x_2,x_2,\dots) \mapsto | x_{\infty} | \prod_p | x_p |_p \]</p>
+<p>The inverse image of $\pi$ over $\mathbb{R}_+^{\ast}$ are exactly the idele classes $\mathbb{A}_{\mathbb{Q}}^{\ast}/\mathbb{Q}^{\ast}$, so we can view them as the nice locus of the horrible complicated quotient of adele-classes $\mathbb{A}_{\mathbb{Q}}/\mathbb{Q}^*$. And we can view the adele-classes as a &#8216;closure&#8217; of the idele classes.</p>
+<p>But, the fiber $\pi^{-1}(0)$ has horrible topological properties because $\mathbb{Q}^*$ acts ergodically on it due to the fact that $log(p)/log(q)$ is irrational for distinct primes $p$ and $q$.</p>
+<p>This is why it is better to view the adele-classes not as an ordinary space (one with bad topological properties), but rather as a &#8216;non-commutative&#8217; space because it is controlled by a non-commutative algebra, the Bost-Connes algebra.</p>
+<p>For $n=2$ there&#8217;s a similar story with a &#8216;bad&#8217; quotient $M_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q})$, being the closure of an &#8216;open&#8217; nice piece which is the Langlands quotient space $GL_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q})$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A forgotten type and roots of unity (again)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 29 Jan 2018 15:13:56 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Bost]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Plazas]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7920</guid>
+
+					<description><![CDATA[The monstrous moonshine picture is the finite piece of Conway&#8217;s Big Picture needed to understand the 171 moonshine groups associated to conjugacy classes of the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally">monstrous moonshine picture</a> is the finite piece of Conway&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture">Big Picture</a> needed to understand the 171 moonshine groups associated to conjugacy classes of the monster.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally">Last time</a> I claimed that there were exactly 7 types of local behaviour, but I missed one. The forgotten type is centered at the number lattice $84$.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forgottentype.jpg"></p>
+<p>Locally around it the moonshine picture looks like this<br />
+\[<br />
+\xymatrix{42 \ar@{-}[dr] &#038; 28 \frac{1}{3} \ar@[red]@{-}[d] &#038; 41 \frac{1}{2} \ar@{-}[ld] \\ 28 \ar@[red]@{-}[r] &#038; \color{grey}{84} \ar@[red]@{-}[r] \ar@[red]@{-}[d] \ar@{-}[rd] &#038; 28 \frac{2}{3} \\ &#038; 252 &#038; 168} \]</p>
+<p>and it involves all square roots of unity ($42$, $42 \frac{1}{2}$ and $168$) and $3$-rd roots of unity ($28$, $28 \frac{1}{3}$, $28 \frac{2}{3}$ and $252$) centered at $84$.</p>
+<p>No, I&#8217;m not hallucinating, there are indeed $3$ square roots of unity and $4$ third roots of unity as they come <a href="https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture">in two families</a>, depending on which of the two canonical forms to express a lattice is chosen.</p>
+<p>In the &#8216;normal&#8217; expression $M \frac{g}{h}$ the two square roots are $42$ and $42 \frac{1}{2}$ and the three third roots are $28, 28 \frac{1}{3}$ and $28 \frac{2}{3}$. But in the &#8216;other&#8217; expression<br />
+\[<br />
+M \frac{g}{h} = (\frac{g&#8217;}{h},\frac{1}{h^2M}) \]<br />
+(with $g.g&#8217; \equiv 1~mod~h$) the families of $2$-nd and $3$-rd roots of unity are<br />
+\[<br />
+\{ 42 \frac{1}{2} = (\frac{1}{2},\frac{1}{168}), 168 = (0,\frac{1}{168}) \} \]<br />
+and<br />
+\[<br />
+\{ 28 \frac{1}{3} = (\frac{1}{3},\frac{1}{252}), 28 \frac{2}{3} = (\frac{2}{3},\frac{1}{252}), 252 = (0 , \frac{1}{252}) \} \]<br />
+As in the <a href="https://lievenlebruyn.github.io/neverendingbooks/a-tetrahedral-snake">tetrahedral snake post</a>, it is best to view the four $3$-rd roots of unity centered at $84$ as the vertices of a tetrahedron with center of gravity at $84$. Power maps in the first family correspond to rotations along the axis through $252$ and power maps in the second family are rotations along the axis through $28$.</p>
+<p>In the &#8216;normal&#8217; expression of lattices there&#8217;s then a total of 8 different local types, but two of them consist of just one number lattice: in $8$ the local picture contains all square, $4$-th and $8$-th roots of unity centered at $8$, and in $84$ the square and $3$-rd roots.</p>
+<p>Perhaps surprisingly, if we redo everything in the &#8216;other&#8217; expression (and use the other families of roots of unity), then the moonshine picture has only 7 types of local behaviour. The forgotten type $84$ appears to split into two occurrences of other types (one with only square roots of unity, and one with only $3$-rd roots).</p>
+<p>I wonder what all this has to do with the action of the Bost-Connes algebra on the big picture or with Plazas&#8217; approach to moonshine via <a href="https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine">non-commutative geometry</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Roots of unity and the Big Picture</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 14 Jan 2018 10:29:21 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Bost]]></category>
+		<category><![CDATA[Connes]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7694</guid>
+
+					<description><![CDATA[All lattices in the moonshine picture are number-like, that is of the form $M \frac{g}{h}$ with $M$ a positive integer and $0 \leq g <&#8230;]]></description>
+										<content:encoded><![CDATA[<p>All lattices in the moonshine picture are <em>number-like</em>, that is of the form $M \frac{g}{h}$ with $M$ a positive integer and $0 \leq g < h$ with $(g,h)=1$.
+
+To understand the <a href="https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine">action of the Bost-Connes algebra</a> on the Big Picture it is sometimes better to view the lattice $M \frac{g}{h}$ as a primitive $h$-th root of unity, centered at $hM$.</p>
+<p>The distance from $M$ to any of the lattices $M \frac{g}{h}$ is equal to $2 log(h)$, and the distances from $M$ and $M \frac{g}{h}$ to $hM$ are all equal to $log(h)$.</p>
+<p>For a prime value $h$, these $h$ lattices are among the $h+1$ lattices branching off at $hM$ in the $h$-adic tree (the remaining one being $h^2M$).</p>
+<p>For general $h$ the situation is more complex. Here&#8217;s the picture for $h=6$ with edges in the $2$-adic tree painted blue, those in the $3$-adic tree red.</p>
+<p>\[<br />
+\xymatrix{&#038; &#038; M \frac{1}{2} \ar@[blue]@{-}[d] &#038; \\<br />
+&#038; M \ar@[blue]@{-}[r] \ar@[red]@{-}[d] &#038; 2M \ar@[red]@{-}[d] &#038; M \frac{1}{6} \ar@[red]@{-}[d] \\<br />
+M \frac{1}{3} \ar@[red]@{-}[r] &#038; 3M \ar@[blue]@{-}[r] \ar@[red]@{-}[d] &#038; \boxed{6 M} \ar@[blue]@{-}[r] &#038; 3M \frac{1}{2} \ar@[red]@{-}[d]  \\ &#038; M \frac{2}{3} &#038; &#038; M \frac{5}{6}} \]</p>
+<p>To describe the moonshine group $(n|h)+e,f,\dots$ (an example was worked out in the <a href="https://lievenlebruyn.github.io/neverendingbooks/a-tetrahedral-snake">tetrahedral snake</a> post), we need to study the action of base-change with the matrix<br />
+\[<br />
+x = \begin{bmatrix} 1 &#038; \frac{1}{h} \\ 0 &#038; 1 \end{bmatrix} \]<br />
+which sends a lattice of the form $M \frac{g}{h}$ with $0 \leq g < h$ to $M \frac{g+M}{h}$, so is a rotation over $\frac{2 \pi M}{h}$ around $h M$.
+
+But, we also have to describe the base-change action with the matrix
+\[
+y = \begin{bmatrix} 1 &#038; 0 \\ n &#038; 1 \end{bmatrix} \]
+and for this we better use the second description of the lattice as $M \frac{g}{h}=(\frac{g'}{h},\frac{1}{h^2M})$ with $g'$ the multiplicative inverse of $g$ modulo $h$.
+
+Under the action by $y$, the second factor $\frac{1}{h^2M}$ will be fixed, so this time we have to look at all lattices of the form $(\frac{g}{h},\frac{1}{h^2M})$ with $0 \leq g < h$, which again can be considered as another set of $h$-th roots of unity, centered at $hM$.
+
+Here's this second interpretation for $h=6$:
+
+
+\[
+\xymatrix{M \frac{5}{6} \ar@[red]@{-}[d] &#038; &#038; 4M \frac{1}{3} \ar@[red]@{-}[d] &#038; \\
+3M \frac{1}{2} \ar@[blue]@{-}[r] \ar@[red]@{-}[d] &#038; \boxed{6M} \ar@[blue]@{-}[r] \ar@[red]@{-}[d] &#038; 12 M \ar@[red]@{-}[r] \ar@[red]@{-}[d] &#038; 4 M \frac{2}{3} \\
+M \frac{1}{6} &#038; 18 M \ar@[blue]@{-}[r] \ar@[blue]@{-}[d] &#038; 36 M &#038; \\
+&#038; 9M \frac{1}{2} &#038; &#038; }
+\]
+
+Under $x$ the first set of $h$-th roots of unity centered at $hM$ is permuted, whereas $y$ permutes the second set of $h$-th roots of unity.
+
+<br />These interpretations can be used to spot errors in computing the finite groups $\Gamma_0(n|h)/\Gamma_0(n.h)$.</p>
+<p>Here&#8217;s part of the calculation of the action of $y$ on the $(360|1)$-snake (which consists of $60$-lattices).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/606snake.png"></p>
+<p>First I got a group of order roughly $600.000$. After correcting some erroneous cycles, the order went down to 6912.</p>
+<p>Finally I spotted that I mis-numbered two lattices in the description of $x$ and $y$, and the order went down to $48$ as it should, because I knew it had to be equal to $C_2 \times C_2 \times A_4$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>nc-geometry and moonshine?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 12 Jan 2018 15:28:03 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Bost]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[Plazas]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7649</guid>
+
+					<description><![CDATA[A well-known link between Conway&#8217;s Big Picture and non-commutative geometry is given by the Bost-Connes system. This quantum statistical mechanical system encodes the arithmetic properties&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A well-known link between <a href="https://www.google.be/url?sa=t&#038;rct=j&#038;q=&#038;esrc=s&#038;source=web&#038;cd=1&#038;ved=0ahUKEwinqpa61NLYAhUKK1AKHdfyDoYQFggsMAA&#038;url=https%3A%2F%2Flievenlebruyn.github.io%2Fneverendingbooks%2Fconways-big-picture&#038;usg=AOvVaw1KUQS1klcoUcUa9xlKd7YP">Conway&#8217;s Big Picture</a> and non-commutative geometry is given by the <a href="https://en.wikipedia.org/wiki/Bost%E2%80%93Connes_system">Bost-Connes system</a>.</p>
+<p>This quantum statistical mechanical system encodes the arithmetic properties of cyclotomic extensions of $\mathbb{Q}$.</p>
+<p>The corresponding Bost-Connes algebra encodes the action by the power-maps on the roots of unity.</p>
+<p>It has generators $e_n$ and $e_n^*$ for every natural number $n$ and additional generators $e(\frac{g}{h})$ for every element in the additive group $\mathbb{Q}/\mathbb{Z}$ (which is of course isomorphic to the multiplicative group of roots of unity).</p>
+<p>The defining equations are<br />
+\[<br />
+\begin{cases}<br />
+e_n.e(\frac{g}{h}).e_n^* = \rho_n(e(\frac{g}{h})) \\<br />
+e_n^*.e(\frac{g}{h}) = \Psi^n(e(\frac{g}{h}).e_n^* \\<br />
+e(\frac{g}{h}).e_n = e_n.\Psi^n(e(\frac{g}{h})) \\<br />
+e_n.e_m=e_{nm} \\<br />
+e_n^*.e_m^* = e_{nm}^* \\<br />
+e_n.e_m^* = e_m^*.e_n~\quad~\text{if $(m,n)=1$}<br />
+\end{cases}<br />
+\]</p>
+<p>Here $\Psi^n$ are the power-maps, that is $\Psi^n(e(\frac{g}{h})) = e(\frac{ng}{h}~mod~1)$, and the maps $\rho_n$ are given by<br />
+\[<br />
+\rho_n(e(\frac{g}{h})) = \sum e(\frac{i}{j}) \]<br />
+where the sum is taken over all $\frac{i}{j} \in \mathbb{Q}/\mathbb{Z}$ such that $n.\frac{i}{j}=\frac{g}{h}$.</p>
+<p>Conway&#8217;s Big Picture has as its vertices the (equivalence classes of) lattices $M,\frac{g}{h}$ with $M \in \mathbb{Q}_+$ and $\frac{g}{h} \in \mathbb{Q}/\mathbb{Z}$.</p>
+<p>The Bost-Connes algebra acts on the vector-space with basis the vertices of the Big Picture. The action is given by:<br />
+\[<br />
+\begin{cases}<br />
+e_n \ast \frac{c}{d},\frac{g}{h} = \frac{nc}{d},\rho^m(\frac{g}{h})~\quad~\text{with $m=(n,d)$} \\<br />
+e_n^* \ast \frac{c}{d},\frac{g}{h} = (n,c) \times \frac{c}{nd},\Psi^{\frac{n}{m}}(\frac{g}{h})~\quad~\text{with $m=(n,c)$} \\<br />
+e(\frac{a}{b}) \ast \frac{c}{d},\frac{g}{h} = \frac{c}{d},\Psi^c(\frac{a}{b}) \frac{g}{h}<br />
+\end{cases}<br />
+\]</p>
+<p>This connection makes one wonder whether non-commutative geometry can shed a new light on monstrous moonshine?</p>
+<p>This question is taken up by <a href="http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001544588">Jorge Plazas</a> in his paper <a href="https://arxiv.org/abs/1303.5168">Non-commutative geometry of groups like $\Gamma_0(N)$</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/JorgePlazas.jpeg" width=100% ></p>
+<p>Plazas shows that the bigger Connes-Marcolli $GL_2$-system also acts on the Big Picture. An intriguing quote:</p>
+<p>&#8220;Our interest in the $GL_2$-system comes from the fact that its thermodynamic properties encode the arithmetic theory of modular functions to an extend which makes it possible for us to capture aspects of moonshine theory.&#8221;</p>
+<p>Looks like the right kind of paper to take along when I disappear next week for some time in the French mountains&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

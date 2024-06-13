@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Magdalena Atria &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/magdalena-atria/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 09 Jan 2018 09:07:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the monstrous moonshine picture &#8211; 1</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-monstrous-moonshine-picture-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-monstrous-moonshine-picture-1/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 09 Jan 2018 09:07:38 +0000</pubDate>
+				<category><![CDATA[art]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Magdalena Atria]]></category>
+		<category><![CDATA[monstrous moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7590</guid>
+
+					<description><![CDATA[We&#8217;re slowly closing in on the elusive moonshine picture, which is the subgraph of Conway&#8217;s Big Picture needed to describe all 171 moonshine groups. About&#8230;]]></description>
+										<content:encoded><![CDATA[<p>We&#8217;re slowly closing in on the elusive <strong>moonshine picture</strong>, which is the subgraph of <a href="https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that">Conway&#8217;s Big Picture</a> needed to describe all <a href="https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups">171 moonshine groups</a>.</p>
+<p>About nine years ago I had a <a href="https://lievenlebruyn.github.io/neverendingbooks/looking-for-the-moonshine-picture">first go</a> at it, drawing a tiny fraction of it, just enough to understand the 9 moonshine groups appearing in Duncan&#8217;s realization of McKay&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/e8-from-moonshine-groups">E(8)-observation</a>.</p>
+<p>Over the last weeks I&#8217;ve made enough doodles to feel confident that the full picture is within reach and is less unwieldy than I once feared it might be.</p>
+<p>The moonshine picture only involves <em>about</em> 212 lattices and there are <em>about</em> 97 snakes crawling into it, the dimension of the largest cell being 3.</p>
+<p>I write &#8216;about&#8217; on purpose as I may have forgotten a few, or counted some twice as is likely to happen in all projects involving a few hundreds of things. I&#8217;ll come back to it later.</p>
+<p>For now, I can only show you the <strong>monstrous moonshine painting</strong>, which is a work by the Chilean artist <a href="http://abstractioninaction.com/artists/magdalena-atria/">Magdalena Atria</a>.</p>
+<p>Here&#8217;s a close up:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/monstrousmoonshinepainting.jpg" width=100%></p>
+<p>It is a large scale painting made with plasticine,  directly attached to the wall of the <a href="https://alejandravonhartz.com/exhibition/magdalena-atria-monstrous-moonshine/">Alejandra Von Hartz gallery</a> where it was exhibited in 2010.</p>
+<p><img decoding="async" src="https://i.pinimg.com/originals/c9/32/8d/c9328df1c46c24b87cf8495330dd2d94.jpg"></p>
+<p>What does it have to do with monstrous moonshine?</p>
+<p>From the <a href="https://alejandravonhartz.com/wp-content/uploads/2016/04/Magdalena-Atria-Monstruous-moonshine.pdf">press release</a>:</p>
+<p>&#8220;In mathematics ‘monstrous moonshine’ is a term devised by John H. Conway and Simon P. Norton in 1979, used to describe the (then totally unexpected) connection between the monster group M and modular functions.</p>
+<p>The term ‘monstrous moonshine’ was picked to convey the feelings from the bizarre relations between seemingly unrelated structures. The same spirit of connecting apparently unrelated situations, at times revealing deeper links and at times constructing them, permeates through Atria’s work in this exhibition.&#8221;</p>
+<p>I was impressed by the first sentence until I read the Wikipedia article on <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a> which starts off with:</p>
+<p>&#8220;In mathematics, monstrous moonshine, or moonshine theory, is the unexpected connection between the monster group M and modular functions, in particular, the j function. The term was coined by John Conway and Simon P. Norton in 1979.&#8221;</p>
+<p>It appears that curators of art-exhibitions, and the intended public of their writings, are familiar with modular forms and functions, but fail to grasp the $j$-function.</p>
+<p>When they speak about &#8216;modular forms&#8217;, I fear they&#8217;re thinking of something entirely different.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-monstrous-moonshine-picture-1/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

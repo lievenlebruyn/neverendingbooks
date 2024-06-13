@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>stackexchange &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/stackexchange/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 27 Dec 2010 13:53:11 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Lists 2010 : StackExchange sites</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 27 Dec 2010 13:53:11 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[social networks]]></category>
+		<category><![CDATA[stackexchange]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3883</guid>
+
+					<description><![CDATA[One of the trends of 2010 was the proliferation of StackExchange sites. I guess by now most of us visit MathOverflow along with the arXiv&#8230;]]></description>
+										<content:encoded><![CDATA[<p>One of the trends of 2010 was the proliferation of <a href="http://en.wikipedia.org/wiki/Stack_Exchange">StackExchange</a> sites. I guess by now most of us visit <a href="http://mathoverflow.net/">MathOverflow</a> along with <a href="http://arxiv.org/">the arXiv</a> daily. But, there are plenty of other StackExchange sites around that may be of interest to the mathematics-community :</p>
+<ul>
+<li><a href="http://math.stackexchange.com/">Mathematics</a> somewhat less high-brow than MathO.  </li>
+<li><a href="http://physics.stackexchange.com/">Physics</a> still in the beta-phase (see below)  </li>
+<li><a href="http://cstheory.stackexchange.com/">Theoretical computer science</a>  </li>
+<li><a href="http://tex.stackexchange.com/">TeX</a> for TeX and LaTeX-lovers  </li>
+<li><a href="http://ipad4edu.com/">iPad 4 edu</a> for those who want to use their iPad in the classroom</li>
+<li>etc. etc.</li>
+</ul>
+<p>&#8220;Opening a StackExchange site is damn hard. First you have to find at least 60 people interested in the site. Then, when this limit is reached, a large amount of people (in the hundreds, but it really depends on the reputation of each participant) must commit and promise to create momentum for the site, adding questions and answers. When this amount is reached, the site is open and stays in closed beta for seven days. During this time, the committers have to enrich the site so that the public beta (which starts after the first seven days) gets enough hits and participants to show a self-sustained community.&#8221; (quote from ForTheScience&#8217;s <a href="http://forthescience.org/blog/2010/07/22/stackexchange-sites-proliferation/">StackExchange sites proliferation</a>, this post also contains a list of  StackExchange-projects in almost every corner of Life)</p>
+<p>The site keeping you up to date with StackExchange proposals and their progress is <a href="http://area51.stackexchange.com/">area51</a>. Perhaps, you want to commit to some of these proposals</p>
+<ul>
+<li><a href="http://area51.stackexchange.com/proposals/6633/high-energy-physics">High Energy Physics</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/23848/theoretical-physics">Theoretical Physics</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15787/mathematica">Mathematica</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/23788/math-errata-database">Math Errata Database</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15215/blogging-and-the-blogosphere">Blogging and the Blogosphere</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15811/cryptography">Cryptography</a></li>
+</ul>
+<p>or simply browse around <a href="http://area51.stackexchange.com/">area51</a> until you find the ideal community for you to belong to&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

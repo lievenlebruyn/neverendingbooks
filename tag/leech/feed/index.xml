@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Leech &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/leech/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 30 Apr 2021 10:35:55 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>a monstrous unimodular lattice</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 30 Apr 2021 10:35:55 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Carnahan]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[lattice]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Niemeier]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[vetex algebra]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9722</guid>
+
+					<description><![CDATA[An integral $n$-dimensional lattice $L$ is the set of all integral linear combinations \[ L = \mathbb{Z} \lambda_1 \oplus \dots \oplus \mathbb{Z} \lambda_n \] of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>An integral $n$-dimensional lattice $L$ is the set of all integral linear combinations<br />
+\[<br />
+L = \mathbb{Z} \lambda_1 \oplus \dots \oplus \mathbb{Z} \lambda_n \]<br />
+of base vectors $\{ \lambda_1,\dots,\lambda_n \}$ of $\mathbb{R}^n$, equipped with the usual (positive definite) inner product, satisfying<br />
+\[<br />
+(\lambda, \mu ) \in \mathbb{Z} \quad \text{for all $\lambda,\mu \in \mathbb{Z}$.} \]<br />
+But then, $L$ is contained in its dual lattice $L^* = Hom_{\mathbb{Z}}(L,\mathbb{Z})$, and if $L = L^*$ we say that $L$ is <em>unimodular</em>.</p>
+<p>If all $(\lambda,\lambda) \in 2 \mathbb{Z}$, we say that $L$ is an <em>even</em> lattice. Even unimodular lattices (such as the <a href="https://en.wikipedia.org/wiki/E8_lattice">$E_8$-lattice</a> or the $24$ <a href="https://en.wikipedia.org/wiki/Niemeier_lattice">Niemeier lattices</a>) are wonderful objects, but they can only live in dimensions $n$ which are multiples of $8$.</p>
+<p>Just like the <a href="https://en.wikipedia.org/wiki/Conway_group">Conway group</a> $Co_0 = .0$ is the group of rotations of the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> $\Lambda$, one might ask whether there is a very special lattice on which the <a href="https://en.wikipedia.org/wiki/Monster_group">Monster group</a> $\mathbb{M}$ acts faithfully by rotations. If such a lattice exists, it must live in dimension at least $196883$.</p>
+<p><center><br />
+<img decoding="async" src="https://i.guim.co.uk/img/media/bc95794cf65cea461c38998357310576053a8cf9/0_55_1024_614/master/1024.jpg?width=445&#038;quality=45&#038;auto=format&#038;fit=max&#038;dpr=2&#038;s=48bd9bddca846a7afae589fd4fea01a3" width=100%><br />
+Simon Norton (1952-2019) &#8211; <a href="https://www.theguardian.com/education/2019/feb/22/simon-norton-obituary">Photo Credit</a><br />
+</center></p>
+<p>A first hint of such a lattice is in Conway&#8217;s original paper <a href="https://eudml.org/doc/143210">A simple construction for the Fischer-Griess monster group</a> (but not in the corresponding chapter 29 of <a href="http://neilsloane.com/doc/splag.html">SPLAG</a>).</p>
+<p>Conway writes that <a href="https://en.wikipedia.org/wiki/Simon_P._Norton">Simon Norton</a> showed &#8216;by a very simple computations that does not even require knowledge of the conjugacy classes, that any $198883$-dimensional representation of the Monster must support an invariant algebra&#8217;, which, after adding an identity element $1$, we now know as the $196884$-dimensional <a href="https://en.wikipedia.org/wiki/Griess_algebra">Griess algebra</a>.</p>
+<p>Further, on page 529, Conway writes:</p>
+<blockquote><p>Norton has shown that the lattice $L$ spanned by vectors of the form $1,t,t \ast t&#8217;$, where $t$ and $t&#8217;$ are transposition vectors, is closed under the algebra multiplication and integral with respect to the doubled inner product $2(u,v)$. The dual quotient $L^*/L$ is cyclic of order some power of $4$, and we believe that in fact $L$ is unimodular.</p></blockquote>
+<p>Here, transposition vectors correspond to transpositions in $\mathbb{M}$, that is, elements of conjugacy class $2A$.</p>
+<p>I only learned about this lattice yesterday via the MathOverflow-post <a href="https://mathoverflow.net/questions/363373/a-lattice-with-monster-group-symmetries">A lattice with Monster group symmetries</a> by <a href="https://mathoverflow.net/users/39521/adam-p-goucher">Adam P. Goucher</a>.</p>
+<p>In his post, Adam considers the $196883$-dimensional lattice $L&#8217; = L \cap 1^{\perp}$ (which has $\mathbb{M}$ as its rotation symmetry group), and asks for the minimal norm (squared) of a lattice point, which he believes is $448$, and for the number of minimal vectors in the lattice, which might be<br />
+\[<br />
+2639459181687194563957260000000 = 9723946114200918600 \times 27143910000 \]<br />
+the number of oriented arcs in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">Monster graph</a>.</p>
+<p>Here, the Monster graph has as its vertices the elements of $\mathbb{M}$ in conjugacy class $2A$ (which has $9723946114200918600$ elements) and with an edge between two vertices if their product in $\mathbb{M}$ again belongs to class $2A$, so the valency of the graph must be $27143910000$, as explained in  that old post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">the monster graph and McKay&#8217;s observation</a>.</p>
+<p>When I asked Adam whether he had more information about his lattice, he kindly informed me that Borcherds told him that the Norton lattice $L$ didn&#8217;t turn out to be unimodular after all, but that a unimodular lattice with monstrous symmetry had been constructed by <a href="http://www.math.tsukuba.ac.jp/~carnahan/">Scott Carnahan</a> in the paper <a href="https://www.emis.de/journals/SIGMA/2019/030/sigma19-030.pdf">A Self-Dual Integral Form of the Moonshine Module</a>.</p>
+<p><center><br />
+<img decoding="async" src="http://www.math.tsukuba.ac.jp/~carnahan/board.jpeg" width=100%><br />
+Scott Carnahan &#8211; <a href="http://www.math.tsukuba.ac.jp/~carnahan/">Photo Credit</a><br />
+</center></p>
+<p>The major steps (or better, the little bit of it I could grasp in this short time) in the construction of this unimodular $196884$-dimensional monstrous lattice might put a smile on your face if you are an affine scheme aficionado.</p>
+<p>Already in his paper <a href="https://math.berkeley.edu/~reb/papers/va/va.pdf">Vertex algebras, Kac-Moody algebras, and the Monster</a>, Richard Borcherds described an integral form of any lattice vertex algebra. We&#8217;ll be interested in the lattice vertex algebra $V_{\Lambda}$ constructed from the Leech lattice $\Lambda$ and call its integral form $(V_{\Lambda})_{\mathbb{Z}}$.</p>
+<p>One constructs the <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine#The_monster_module">Moonshine module</a> $V^{\sharp}$ from $V_{\Lambda}$ by a process called &#8216;cyclic orbifolding&#8217;, a generalisation of the <a href="https://www.elsevier.com/books/vertex-operator-algebras-and-the-monster/frenkel/978-0-12-267065-7">original construction</a> by Frenkel, Lepowsky and Meurman. In fact, there are now no less than <a href="https://arxiv.org/abs/1707.02954">51 constructions of the moonshine module</a>.</p>
+<p>One starts with a fixed point free rotation $r_p$ of $\Lambda$ in $Co_0$ of prime order $p \in \{ 2,3,5,7,13 \}$, which one can lift to an automorphism $g_p$ of the vertex algebra $V_{\Lambda}$ of order $p$ giving an isomorphism $V_{\Lambda}/g_p \simeq V^{\sharp}$ of vertex operator algebras over $\mathbb{C}$.</p>
+<p>For two distinct primes $p,p&#8217; \in \{ 2,3,5,7,13 \}$ if $Co_0$ has an element of order $p.p&#8217;$ one can find one such $r_{pp&#8217;}$ such that $r_{pp&#8217;}^p=r_{p&#8217;}$ and $r_{pp&#8217;}^{p&#8217;}=r_p$, and one can lift $r_{pp&#8217;}$ to an automorphism $g_{pp&#8217;}$ of $V_{\Lambda}$ such that $V_{\Lambda}/g_{pp&#8217;} \simeq V_{\Lambda}$ as vertex operator algebras over $\mathbb{C}$.</p>
+<p>Problem is that these lifts of automorphisms and the isomorphisms are not compatible with the integral form $(V_{\Lambda})_{\mathbb{Z}}$ of $V_{\Lambda}$, but &#8216;essentially&#8217;, they can be performed on<br />
+\[<br />
+(V_{\Lambda})_{\mathbb{Z}} \otimes_{\mathbb{Z}} \mathbb{Z}[\frac{1}{pp&#8217;},\zeta_{2pp&#8217;}] \]<br />
+where $\zeta_{2pp&#8217;}$ is a primitive $2pp&#8217;$-th root of unity. These then give a $\mathbb{Z}[\tfrac{1}{pp&#8217;},\zeta_{2pp&#8217;}]$-form on $V^{\sharp}$.</p>
+<p>Next, one uses a lot of subgroup information about $\mathbb{M}$ to prove that these $\mathbb{Z}[\tfrac{1}{pp&#8217;},\zeta_{2pp&#8217;}]$-forms of $V^{\sharp}$ have $\mathbb{M}$ as their automorphism group.</p>
+<p>Then, using all his for different triples in $\{ 2,3,5,7,13 \}$ one can glue and use faithfully flat descent to get an integral form $V^{\sharp}_{\mathbb{Z}}$ of the moonshine module with monstrous symmetry and such that the inner product on $V^{\sharp}_{\mathbb{Z}}$ is positive definite.</p>
+<p>Finally, one looks at the weight $2$ subspace of $V^{\sharp}_{\mathbb{Z}}$ which gives us <del datetime="2021-04-30T15:00:49+00:00">our</del> <em>Carnahan&#8217;s</em> $196884$-dimensional unimodular lattice with monstrous symmetry!</p>
+<p>Beautiful as this is, I guess it will be a heck of a project to deduce even the simplest of facts about this wonderful lattice from running through this construction.</p>
+<p>For example, what is the minimal length of vectors? What is the number of minimal length vectors? And so on. All info you might have is very welcome.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Know thy neighbours</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/know-thy-neighbours/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/know-thy-neighbours/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 24 Mar 2021 14:24:25 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Kneser]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Niemeier]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9422</guid>
+
+					<description><![CDATA[Two lattices $L$ and $L&#8217;$ in the same vector space are called neighbours if their intersection $L \cap L&#8217;$ is of index two in both&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Two lattices $L$ and $L&#8217;$ in the same vector space are called <strong>neighbours</strong> if their intersection $L \cap L&#8217;$ is of index two in both $L$ and $L&#8217;$.</p>
+<p>In 1957, <a href="https://en.wikipedia.org/wiki/Martin_Kneser">Martin Kneser</a> gave a method to find all unimodular lattices (of the same dimension and signature) starting from one such unimodular lattice, finding all its neighbours, and repeating this with the new lattices obtained.</p>
+<p>In other words, <strong>Kneser&#8217;s neighbourhood graph</strong>, with vertices the unimodular lattices (of fixed dimension and signature) and edges between them whenever the lattices are neighbours, is connected.</p>
+<p><center><br />
+<img decoding="async" src="https://opc.mfo.de/photoNormal?id=19761" width=60%><br />
+Martin Kneser (1928-2004) &#8211; <a href="https://opc.mfo.de/detail?photo_id=19761">Photo Credit</a><br />
+</center></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour">Last time</a>, we&#8217;ve constructed the Niemeier lattice $(A_1^{24})^+$ from the binary Golay code $\mathcal{C}_{24}$<br />
+\[<br />
+L = (A_1^{24})^+ = \mathcal{C}_{24} \underset{\mathbb{F}_2}{\times} (A_1^{24})^* = \{ \tfrac{1}{\sqrt{2}} \vec{v} ~|~\vec{v} \in \mathbb{Z}^{\oplus 24},~v=\vec{v}~mod~2 \in \mathcal{C}_{24} \} \]<br />
+With hindsight, we know that $(A_1^{24})^+$ is the unique neighbour of the Leech lattice in the Kneser neighbourhood graph of the positive definite, even unimodular $24$-dimensional lattices, aka the <a href="https://en.wikipedia.org/wiki/Niemeier_lattice">Niemeier lattices</a>.</p>
+<p>Let&#8217;s try to construct the Leech lattice $\Lambda$ from $L=(A_1^{24})^+$ by Kneser&#8217;s neighbour-finding trick.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeighbourGraph24.jpg" width=60%><br />
+</center></p>
+<p>Sublattices of $L$ of index two are in one-to-one correspondence with non-zero elements in $L/2L$. Take $l \in L &#8211; 2L$ and $m \in L$ such that the inner product  $l.m$ is odd, then<br />
+\[<br />
+L_l = \{ x \in L~|~l.x~\text{is even} \} \]<br />
+is an index two sublattice because $L = L_l \sqcup (L_l+m)$. By definition $l.x$ is even for all $x \in L_l$ and therefore $\frac{l}{2} \in L_l^*$. We have this situation<br />
+\[<br />
+L_l \subsetneq L = L^* \subsetneq L_l^* \]<br />
+and $L_l^*/L_l \simeq \mathbb{F}_2 \oplus \mathbb{F}_2$, with the non-zero elements represented by $\{ \frac{l}{2}, m, \frac{l}{2}+m \}$. That is,<br />
+\[<br />
+L_l^* = L_l \sqcup (L_l+m) \sqcup (L_l+\frac{l}{2}) \sqcup (L_l+(\frac{l}{2}+m)) \]<br />
+This gives us three lattices<br />
+\[<br />
+\begin{cases}<br />
+M_1 &#038;= L_l \sqcup (L_l+m) = L \\<br />
+M_2 &#038;= L_l \sqcup (L_l+\frac{l}{2}) \\<br />
+M_3 &#038;= L_l \sqcup (L_l+(\frac{l}{2}+m))<br />
+\end{cases}<br />
+\]<br />
+and all three of them are unimodular because<br />
+\[<br />
+L_l \subsetneq M_i \subseteq M_i^* \subsetneq L_l^* \]<br />
+and $L_l$ is of index $4$ in $L_l^*$.</p>
+<p>Now, let&#8217;s assume the norm of $l$, that is, $l.l \in 4 \mathbb{Z}$. Then, either the norm of $\frac{l}{2}$ is odd (but then the norm of $\frac{l}{2}+m$ must be even), or the norm of $\frac{l}{2}$ is even, in which case the norm of $\frac{l}{2}+m$ is odd.</p>
+<p>That is, either $M_2$ or $M_3$ is an even unimodular lattice, the other one being an odd unimodular lattice.</p>
+<p>Let&#8217;s take for $l$ and $m$ the vectors $\lambda = \frac{1}{\sqrt{2}} (1,1,\dots,1) \in L &#8211; 2L$ and $\mu = \sqrt{2}(1,0,\dots,0) \in L$, then<br />
+\[<br />
+\lambda.\lambda = \frac{1}{2}\times 24 = 12 \quad \text{and} \quad \mu.\lambda = 1 \]<br />
+Because $\frac{\lambda}{2}.\frac{\lambda}{2} = \frac{12}{4}=3$ is odd, we have that<br />
+\[<br />
+\Lambda = L_{\lambda} \sqcup (L_{\lambda} + (\frac{\lambda}{2} + \mu)) \]<br />
+is an even unimodular lattice, which is the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a>, and<br />
+\[<br />
+\Lambda_{odd} = L_{\lambda} \sqcup (L_{\lambda} + \frac{\lambda}{2}) \]<br />
+is an odd unimodular lattice, called the <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/oddLeech.html">odd Leech lattice</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://mathshistory.st-andrews.ac.uk/Biographies/Leech/Leech.jpeg" width=50% ><br />
+John Leech (1926-1992) &#8211; <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Leech/pictdisplay/">Photo Credit</a><br />
+</center></p>
+<p>Let&#8217;s check that these are indeed the Leech lattices, meaning that they do not contain roots (vectors of norm two).</p>
+<p>The only roots in $L = (A_1^{24})^+$ are the $48$ roots of $A_1^{24}$ and they are of the form $\pm \sqrt{2} [ 1, 0^{23} ]$, but none of them lies in $L_{\lambda}$ as their inproduct with $\lambda$ is one. So, all non-zero vectors in $L_{\lambda}$ have norm $\geq 4$.</p>
+<p>As for the other part of $\Lambda$ and $\Lambda_{odd}$<br />
+\[<br />
+(L_{\lambda} + \frac{\lambda}{2}) \sqcup (L_{\lambda} + \mu + \frac{\lambda}{2}) = (L_{\lambda} \sqcup (L_{\lambda}+\mu))+\frac{\lambda}{2} = L + \frac{\lambda}{2} \]<br />
+From the description of $L=(A_1^{24})^+$ it follows that every coordinate of a vector in $L + \frac{\lambda}{2}$ is of the form<br />
+\[<br />
+\frac{1}{\sqrt{2}}(v+\frac{1}{2}) \quad \text{or} \quad \frac{1}{\sqrt{2}}(v+\frac{3}{2}) \]<br />
+with $v \in 2 \mathbb{Z}$, with the second case instances forming a codeword in $\mathcal{C}_{24}$. In either case, the square of each of the $24$ coordinates is $\geq \frac{1}{8}$, so the norm of such a vector must be $\geq 3$, showing that there are no roots in this region either.</p>
+<p>If one takes for $l$ a vector of the form $\frac{1}{\sqrt{2}} v = \frac{1}{\sqrt{2}}[1^a,0^{24-a}]$ where $a=8,12$ or $16$ and $v \in \mathcal{C}_{24}$, takes $m=\mu$ as before, and repeats the construction, one gets the other Niemeier-neighbours of $(A_1^{24})^+$, that is, the lattices $(A_2^{12})^+$, $(A_3^8)^+$ and $(D_4^6)^+$.</p>
+<p>For $a=12$ one needs a slightly different argument, see section 0.2 of <a href="https://math.berkeley.edu/~reb/papers/thesis/thesis.pdf">Richard Borcherds&#8217; Ph.D. thesis</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/know-thy-neighbours/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Leech lattice neighbour</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 23 Mar 2021 16:12:48 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Hamming]]></category>
+		<category><![CDATA[Kneser]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Niemeier]]></category>
+		<category><![CDATA[Pless]]></category>
+		<category><![CDATA[Sloan]]></category>
+		<category><![CDATA[Steiner]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9394</guid>
+
+					<description><![CDATA[Here&#8217;s the upper part of Kneser&#8216;s neighbourhood graph of the Niemeier lattices: The Leech lattice has a unique neighbour, that is, among the $23$ remaining&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s the upper part of <a href="https://en.wikipedia.org/wiki/Martin_Kneser">Kneser</a>&#8216;s neighbourhood graph of the <a href="https://en.wikipedia.org/wiki/Niemeier_lattice">Niemeier lattices</a>:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/A124Leech.jpg" width=80% ><br />
+</center></p>
+<p>The <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> has a unique neighbour, that is, among the $23$ remaining Niemeier lattices there is a unique one, $(A_1^{24})^+$, sharing an index two sub-lattice with the Leech.</p>
+<p>How would you try to construct $(A_1^{24})^+$, an even unimodular lattice having the same roots as $A_1^{24}$?</p>
+<p>The root lattice $A_1$ is $\sqrt{2} \mathbb{Z}$. It has two roots $\pm \sqrt{2}$, determinant $2$, its dual lattice is $A_1^* = \tfrac{1}{\sqrt{2}} \mathbb{Z}$ and we have $A_1^*/A_1 \simeq C_2 \simeq \mathbb{F}_2$.</p>
+<p>Thus, $A_1^{24}= \sqrt{2} \mathbb{Z}^{\oplus 24}$ has $48$ roots, determinant $2^{24}$, its dual lattice is $(A_1^{24})^* = \tfrac{1}{\sqrt{2}} \mathbb{Z}^{\oplus 24}$ and the quotient group $(A_1^{24})^*/A_1^{24}$ is $C_2^{24}$ isomorphic to the additive subgroup of $\mathbb{F}_2^{\oplus 24}$.</p>
+<p>A larger lattice $A_1^{24} \subseteq L$ of index $k$ gives for the dual lattices an extension $L^* \subseteq (A_1^{24})^*$, also of index $k$. If $L$ were unimodular, then the index has to be $2^{12}$ because we have the situation<br />
+\[<br />
+A_1^{24} \subseteq L = L^* \subseteq (A_1^{24})^* \]<br />
+So, Kneser&#8217;s glue vectors form a $12$-dimensional subspace $\mathcal{C}$ in $\mathbb{F}_2^{\oplus 24}$, that is,<br />
+\[<br />
+L = \mathcal{C} \underset{\mathbb{F}_2}{\times} (A_1^{24})^* = \{ \tfrac{1}{\sqrt{2}} \vec{v} ~|~\vec{v} \in \mathbb{Z}^{\oplus 24},~v=\vec{v}~mod~2 \in \mathcal{C} \} \]<br />
+Because $L = L^*$, the linear code $\mathcal{C}$ must be self-dual meaning that $v.w = 0$ (in $\mathbb{F}_2$) for all $v,w \in \mathcal{C}$. Further, we want that the roots of $A_1^{24}$ and $L$ are the same, so the minimal number of non-zero coordinates in $v \in \mathcal{C}$ must be $8$.</p>
+<p>That is, $\mathcal{C}$ must be a <a href="https://en.wikipedia.org/wiki/Dual_code#:~:text=A%20self%2Ddual%20code%20is,which%20are%20not%20doubly%20even.">self-dual</a> binary code of length $24$ with <a href="https://en.wikipedia.org/wiki/Hamming_distance">Hamming distance</a> $8$.</p>
+<p><center><br />
+<img decoding="async" src="https://www.tuencyclopedie.nl/images/thumb/b/b9/Lemma_71_Foto_1.jpg/300px-Lemma_71_Foto_1.jpg" width=80%><br />
+Marcel Golay (1902-1989) &#8211; <a href="https://www.tuencyclopedie.nl/index.php?title=Golay_M.J.E.">Photo Credit</a><br />
+</center></p>
+<p>We now know that there is a unique such code, the (extended) <a href="https://en.wikipedia.org/wiki/Binary_Golay_code#:~:text=In%20mathematics%20and%20electronics%20engineering,finite%20sporadic%20groups%20in%20mathematics.">binary Golay code</a>, $\mathcal{C}_{24}$, which has</p>
+<ul>
+<li>one vector of weight $0$</li>
+<li>$759$ vectors of weight $8$ (called &#8216;octads&#8217;)</li>
+<li>$2576$ vectors of weight $12$ (called &#8216;dodecads&#8217;)</li>
+<li>$759$ vectors of weight $16$</li>
+<li>one vector of weight $24$</li>
+</ul>
+<p>The $759$ octads form a <a href="https://en.wikipedia.org/wiki/Steiner_system#:~:text=A%20Steiner%20system%20with%20parameters,contained%20in%20exactly%20one%20block.">Steiner system</a> $S(5,8,24)$ (that is, for any $5$-subset $S$ of the $24$-coordinates there is a unique octad having its non-zero coordinates containing $S$).</p>
+<p>Witt constructed a Steiner system $S(5,8,24)$ in his 1938 paper &#8220;Die $5$-fach transitiven Gruppen von Mathieu&#8221;, so it is not unthinkable that he checked the subspace of $\mathbb{F}_2^{\oplus 24}$ spanned by his $759$ octads to be $12$-dimensional and self-dual, thereby constructing the Niemeier-lattice $(A_1^{24})^+$  <a href="https://lievenlebruyn.github.io/neverendingbooks/witt-and-his-niemeier-lattices">on that sunday in 1940</a>.</p>
+<p>John Conway classified all nine self-dual codes of length $24$ in which the weight<br />
+of every codeword is a multiple of $4$. Each one of these codes $\mathcal{C}$ gives a Niemeier lattice $\mathcal{C} \underset{\mathbb{F}_2}{\times} (A_1^{24})^*$, all but one of them having more roots than $A_1^{24}$.</p>
+<p><a href="https://en.wikipedia.org/wiki/Vera_Pless">Vera Pless</a> and <a href="https://en.wikipedia.org/wiki/Neil_Sloane">Neil Sloan</a> classified all $26$ <a href="https://www.researchgate.net/publication/251812065_Binary_self-dual_codes_of_length_24">binary self-dual codes of length $24$</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Witt and his Niemeier lattices</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/witt-and-his-niemeier-lattices/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/witt-and-his-niemeier-lattices/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 19 Mar 2021 15:01:34 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Dynkin]]></category>
+		<category><![CDATA[Kneser]]></category>
+		<category><![CDATA[lattices]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Lie]]></category>
+		<category><![CDATA[Niemeier]]></category>
+		<category><![CDATA[Weyl]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9280</guid>
+
+					<description><![CDATA[Sunday, January 28th 1940, Hamburg Ernst Witt wants to get two papers out of his system because he knows he&#8217;ll have to enter the Wehrmacht&#8230;]]></description>
+										<content:encoded><![CDATA[<p><strong>Sunday, January 28th 1940, Hamburg</strong></p>
+<p><a href="https://en.wikipedia.org/wiki/Ernst_Witt">Ernst Witt</a> wants to get two papers out of his system because he knows he&#8217;ll have to enter the Wehrmacht in February.</p>
+<p>The first one, <a href="https://www.semanticscholar.org/paper/Spiegelungsgruppen-und-Aufz%C3%A4hlung-halbeinfacher-Witt/165e95a3eabc637a3d0a8c909d02a7f38f52a333">&#8220;Spiegelungsgruppen und Aufzählung halbeinfacher Liescher Ringe&#8221;</a>, contains his own treatment of the root systems of semisimple Lie algebras and their reflexion groups, following up on previous work by Killing, Cartan, Weyl, van der Waerden and Coxeter.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/ErnstWitt_PaulBernays_etc_1932_MFO.jpg?1616138270884" width=100%><br />
+</center></p>
+<p>(Photo: Natascha Artin, Nikolausberg 1933): From left to right: Ernst Witt; Paul Bernays; Helene Weyl; <a href="https://en.wikipedia.org/wiki/Hermann_Weyl">Hermann Weyl</a>; Joachim Weyl, Emil Artin; Emmy Noether; Ernst Knauf; unknown woman; Chiuntze Tsen; Erna Bannow (later became wife of Ernst Witt)</p>
+<p>Important for our story is that this paper contains the result stating that integral lattices generated by norm 2 elements are direct sums of root systems of the simply laced Dynkin diagrans $A_n, D_n$ and $E_6,E_7$ or $E_8$ (Witt uses a slightly different notation).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DynkinDiagrams.jpg" width=50% ><br />
+</center></p>
+<p>In each case, Witt knows of course the number of roots and the determinant of the Gram matrix<br />
+\[<br />
+\begin{array}{c|cc}<br />
+&#038; \# \text{roots} &#038; \text{determinant} \\<br />
+\hline<br />
+A_n &#038; n^2+n &#038; n+1 \\<br />
+D_n &#038; 2n^2-2n &#038; 4 \\<br />
+E_6 &#038; 72 &#038; 3 \\<br />
+E_7 &#038; 126 &#038; 2 \\<br />
+E_8 &#038; 240 &#038; 1<br />
+\end{array}<br />
+\]<br />
+The second paper <a href="https://www.semanticscholar.org/paper/Eine-Identit%C3%A4t-zwischen-Modulformen-zweiten-Grades-Witt/ff9a4e216014bf433dc870eebf07baf6d9630a7c">&#8220;Eine Identität zwischen Modulformen zweiten Grades&#8221;</a> proves that there are just two positive definite even unimodular lattices (those in which every squared length is even, and which have one point per unit volume, that is, have determinant one) in dimension sixteen, $E_8 \oplus E_8$ and $D_{16}^+$. Previously, <a href=":https://en.wikipedia.org/wiki/Louis_J._Mordell">Louis Mordell</a> showed that the only unimodular even lattice in dimension $8$ is $E_8$.</p>
+<p>The connection with modular forms is via their theta series, listing the number of lattice points of each squared length<br />
+\[<br />
+\theta_L(q) = \sum_{m=0}^{\infty} \#\{ \lambda \in L : (\lambda,\lambda)=m \} q^{m} \]<br />
+which is a modular form of weight $n/2$ ($n$ being the dimension which must be divisible by $8$) in case $L$ is a positive definitive even unimodular lattice.</p>
+<p>The algebra of all modular forms is generated by the Eisenstein series $E_2$ and $E_3$ of weights $4$ and $6$, so in dimension $8$ we have just one possible theta series<br />
+\[<br />
+\theta_L(q) = E_2^2 = 1+480 q^2+ 61920 q^4+ 1050240 q^6+ \dots \]</p>
+<p>It is interesting to read Witt&#8217;s proof of his main result (Satz 3) in which he explains how he constructed the possible even unimodular lattices in dimension $16$.</p>
+<p>He knows that the sublattice of $L$ generated by the $480$ norm two elements must be a direct sum of root lattices. His knowledge of the number of roots in each case tells him there are only two possibilities<br />
+\[<br />
+E_8 \oplus E_8 \qquad \text{and} \qquad D_{16} \]<br />
+The determinant of the Gram matrix of $E_8 \oplus E_8$ is one, so this one is already unimodular. The remaining possibility<br />
+\[<br />
+D_{16} = \{ (x_1,\dots,x_{16}) \in \mathbb{Z}^{16}~|~x_1+ \dots + x_{16} \in 2 \mathbb{Z} \} \]<br />
+has determinant $4$ so he needs to add further lattice points (necessarily contained in the dual lattice $D_{16}^*$) to get it unimodular. He knows the coset representatives of $D_{16}^*/D_{16}$:<br />
+\[<br />
+\begin{cases}<br />
+[0]=(0, \dots,0) &#038;~\text{of norm $0$} \\<br />
+[1]=(\tfrac{1}{2},\dots,\tfrac{1}{2}) &#038;~\text{of norm $4$} \\<br />
+[2]=(0,\dots,0,1) &#038;~\text{of norm $1$} \\<br />
+[3]=(\tfrac{1}{2},\dots,\tfrac{1}{2},-\tfrac{1}{2}) &#038;~\text{of norm $4$}<br />
+\end{cases}<br />
+\]<br />
+and he verifies that the determinant of $D_{16}^+=D_{16}+([1]+D_{16})$ is indeed one (btw. adding coset $[3]$ gives an isomorphic lattice). Witt calls this procedure to arrive at the correct lattices forced (&#8216;zwangslaufig&#8217;).</p>
+<p>So, how do you think Witt would go about finding even unimodular lattices in dimension $24$?</p>
+<p>To me it is clear that he would start with a direct sum of root lattices whose dimensions add up to $24$, compute the determinant of the Gram matrix and, if necessary, add coset classes to arrive at a unimodular lattice.</p>
+<p>Today we would call this procedure &#8216;adding glue&#8217;, after <a href="https://en.wikipedia.org/wiki/Martin_Kneser">Martin Kneser</a>, who formalised this procedure in 1967.</p>
+<p>On January 28th 1940, Witt writes that he found more than $10$ different classes of even unimodular lattices in dimension $24$ (without giving any details) and mentioned that the determination of the total number of such lattices will not be entirely trivial (&#8216;scheint nicht ganz leicht zu sein&#8217;).</p>
+<p>The complete classification of all $24$ even unimodular lattices in dimension $24$ was achieved by <a href="https://en.wikipedia.org/wiki/Hans-Volker_Niemeier">Hans Volker Niemeier</a> in his <a href="https://www.mathgenealogy.org/id.php?id=57076">1968 Ph.D. thesis</a> &#8220;Definite quadratische Formen der Dimension 24 und Diskriminante 1&#8221;, under the direction of Martin Kneser. Naturally, these lattices are now known as the <a href="https://en.wikipedia.org/wiki/Niemeier_lattice">Niemeier lattices</a>.</p>
+<p><strong>Which of the Niemeier lattices were known to Witt in 1940?</strong></p>
+<p>There are three obvious certainties: $E_8 \oplus E_8 \oplus E_8$, $E_8 \oplus D_{16}^+$ (both already unimodular, the second by Witt&#8217;s work) and $D_{24}^+$ with a construction analogous to the one of $D_{16}^+$.</p>
+<p>To make an educated guess about the remaining Witt-Niemeier lattices we can do two things:</p>
+<ol>
+<li>use our knowledge of Niemeier lattices to figure out which of these Witt was most likely to stumble upon, and</li>
+<li>imagine how he would adapt his modular form approach in dimension $16$ to dimension $24$.</li>
+</ol>
+<p>Here&#8217;s Kneser&#8217;s neighbourhood graph of the Niemeier lattices. Its vertices are the $24$ Niemeiers and there&#8217;s an edge between $L$ and $M$ whenever the intersection $L \cap M$ is of index $2$ in both $L$ and $M$. In this case, $L$ and $M$ are called neighbours.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Neighborhood_graph_of_Niemeier_lattices.svg/1080px-Neighborhood_graph_of_Niemeier_lattices.svg.png" width=60% ><br />
+</center></p>
+<p>Although the theory of neighbours was not known to Witt, the graph may give an indication of how likely it is to dig up a new Niemeier lattice by poking into an already discovered one.<br />
+The three certainties are the three lattices at the bottom of the neighborhood graph, making it more likely for the lattices in the lower region to be among Witt&#8217;s list.</p>
+<p>For the other approach, the space of modular forms of weight $12$ is two dimensional, with a basis formed by the series<br />
+\[<br />
+\begin{cases}<br />
+E_6(q) = 1 + \tfrac{65520}{691}(q+2049 q^2 + 177148 q^3+4196353q^4+\dots \\<br />
+\Delta(q) = q-24 q^2+252q^3-1472q^4+ \dots<br />
+\end{cases}<br />
+ \]</p>
+<p>If you are at all with me, Witt would start with a lattice $R$ which is a direct sum of root lattices, so he would know the number of its roots (the norm $2$ vectors in $R$), let&#8217;s call this number $r$. Now, he wants to construct an even unimodular lattice $L$ containing $R$, so the theta series of both $L$ and $R$ must start off with $1 + r q^2 + \dots$. But, then he knows<br />
+\[<br />
+\theta_L(q) = E_6(q) + (r-\frac{65520}{691})\Delta(q) \]<br />
+and comparing coefficients of $\theta_L(q)$ with those of $\theta_R(q)$ will give him an idea what extra vectors he has to throw in.</p>
+<p>If we&#8217;re generous to Witt (and frankly, why shouldn&#8217;t we), we may believe that he used his vast knowledge of Steiner systems (a few years earlier he wrote the definite paper on the Mathieu groups, and a paper on Steiner systems) to construct in this way the lattices $(A_1^{24})^+$ and $(A_2^{12})^+$.</p>
+<p>The &#8216;glue&#8217; for $(A_1^{24})^+$ is coming from the <a href="https://en.wikipedia.org/wiki/Binary_Golay_code#:~:text=The%20extended%20binary%20Golay%20code,bit%20errors%20can%20be%20detected.">extended binary Golay code</a>, which itself uses the Steiner system $S(5,8,24)$. $(A_2^{12})^+$ is constructed using the <a href="https://en.wikipedia.org/wiki/Ternary_Golay_code#:~:text=The%20extended%20ternary%20Golay%20code,as%20the%20ternary%20Golay%20code.">extended ternary Golay code</a>, based on the Steiner system $S(5,6,12)$.</p>
+<p>The one thing that would never have crossed his mind that sunday in 1940 was to explore the possibility of an even unimodular 24-dimensional lattice $\Lambda$ without any roots!</p>
+<p>One with $r=0$, and thus with a theta series starting off as<br />
+\[<br />
+\theta_{\Lambda}(q) = 1 + 196560 q^4 + 16773120 q^6 + \dots \]<br />
+No, he did <strong>not</strong> find the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> that day.</p>
+<p>If he would have stumbled upon it, it would have simply blown his mind.</p>
+<p>It would have been so much against all his experiences and intuitions that he would have dropped everything on the spot to write a paper about it, or at least, he would have mentioned in his &#8216;more than $10$ lattices&#8217;-claim that, surprisingly, one of them was an even unimodular lattice without any roots.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/witt-and-his-niemeier-lattices/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Borcherds&#8217; favourite numbers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 02 Mar 2021 17:50:18 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Bruhat]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[de Jonquiere]]></category>
+		<category><![CDATA[Eisenbud]]></category>
+		<category><![CDATA[Fischer]]></category>
+		<category><![CDATA[Frenkel]]></category>
+		<category><![CDATA[Griess]]></category>
+		<category><![CDATA[Hardy]]></category>
+		<category><![CDATA[Harris]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Lepowski]]></category>
+		<category><![CDATA[Lie]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[McKay]]></category>
+		<category><![CDATA[Meurman]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[Ono]]></category>
+		<category><![CDATA[Ramanujan]]></category>
+		<category><![CDATA[Steiner]]></category>
+		<category><![CDATA[Stillwell]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8990</guid>
+
+					<description><![CDATA[Whenever I visit someone&#8217;s YouTube or Twitter profile page, I hope to see an interesting banner image. Here&#8217;s the one from Richard Borcherds&#8217; YouTube Channel.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Whenever I visit someone&#8217;s YouTube or Twitter profile page, I hope to see an interesting banner image. Here&#8217;s the one from <a href="https://www.youtube.com/channel/UCIyDqfi_cbkp-RU20aBF-MQ">Richard Borcherds&#8217; YouTube Channel</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BorcherdsNumbers.jpg" width=100% ></p>
+<p>Not too surprisingly for Borcherds, almost all of these numbers are related to the <a href="https://en.wikipedia.org/wiki/Monster_group">monster group</a> or its <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">moonshine</a>.</p>
+<p>Let&#8217;s try to decode them, in no particular order.</p>
+<p><strong>196884</strong></p>
+<p><a href="https://en.wikipedia.org/wiki/John_McKay_(mathematician)">John McKay&#8217;s</a> observation $196884 = 1 + 196883$ was the start of the whole &#8216;monstrous moonshine&#8217; industry. Here, $1$ and $196883$ are the dimensions of the two smallest irreducible representations of the monster simple group, and $196884$ is the first non-trivial coefficient in <a href="https://en.wikipedia.org/wiki/J-invariant">Klein&#8217;s j-function</a> in number theory.</p>
+<p>$196884$ is also the dimension of the space in which <a href="https://en.wikipedia.org/wiki/Robert_Griess">Robert Griess</a> constructed the Monster, following <a href="https://en.wikipedia.org/wiki/Simon_P._Norton">Simon Norton&#8217;s</a> lead that there should be an algebra structure on the monster-representation of that dimension. This algebra is now known as the <a href="https://en.wikipedia.org/wiki/Griess_algebra">Griess algebra</a>.</p>
+<p>Here&#8217;s a recent talk by Griess <a href="https://www.youtube.com/watch?v=Zynb7VKRr-U">&#8220;My life and times with the sporadic simple groups&#8221;</a> in which he tells about his construction of the monster (relevant part starting at 1:15:53 into the movie).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Zynb7VKRr-U?start=4553" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>1729</strong></p>
+<p>1729 is the second (and most famous) <a href="https://en.wikipedia.org/wiki/Taxicab_number">taxicab number</a>. A long time ago I did write a post about the classic Ramanujan-Hardy story <a href="https://en.wikipedia.org/wiki/Ken_Ono">the taxicab curve</a> (note to self: try to tidy up the layout of some old posts!).</p>
+<p>Recently, connections between Ramanujan&#8217;s observation and K3-surfaces were discovered. Emory University has an enticing press release about this: <a href="http://esciencecommons.blogspot.com/2015/10/mathematicians-find-magic-key-to-drive.html">Mathematicians find &#8216;magic key&#8217; to drive Ramanujan&#8217;s taxi-cab number</a>. The paper itself is <a href="https://arxiv.org/abs/1510.00735">here</a>.</p>
+<blockquote><p>“We’ve found that Ramanujan actually discovered a K3 surface more than 30 years before others started studying K3 surfaces and they were even named. It turns out that Ramanujan’s work anticipated deep structures that have become fundamental objects in arithmetic geometry, number theory and physics.&#8221;</p>
+<p><a href="https://en.wikipedia.org/wiki/Ken_Ono">Ken Ono</a></p></blockquote>
+<p><strong>24</strong></p>
+<p>There&#8217;s no other number like $24$ responsible for the existence of sporadic simple groups.</p>
+<p>24 is the length of the <a href="https://en.wikipedia.org/wiki/Binary_Golay_code#:~:text=In%20mathematics%20and%20electronics%20engineering,finite%20sporadic%20groups%20in%20mathematics.">binary Golay code</a>, with isomorphism group the sporadic <a href="https://en.wikipedia.org/wiki/Mathieu_group">Mathieu group</a> $M_24$ and hence all of the other Mathieu-groups as subgroups.</p>
+<p>24 is the dimension of the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a>, with isomorphism group the Conway group $Co_0 = .0$ (dotto), giving us modulo its center the sporadic group $Co_1=.1$ and the other <a href="https://en.wikipedia.org/wiki/Conway_group">Conway groups</a> $Co_2=.2, Co_3=.3$, and all other sporadics of the second generation in the <a href="https://en.wikipedia.org/wiki/Pariah_group">happy family</a> as subquotients (McL,HS,Suz and $HJ=J_2$)</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/SporadicGroups.svg/680px-SporadicGroups.svg.png" width=60% ><br />
+</center></p>
+<p>24 is the central charge of the <a href="https://en.wikipedia.org/wiki/Monster_vertex_algebra">Monster vertex algebra</a> constructed by Frenkel, Lepowski and Meurman. Most experts believe that the Monster&#8217;s reason of existence is that it is the symmetry group of this vertex algebra. John Conway was one among few others hoping for a nicer explanation, as he said in this <a href="https://www.youtube.com/watch?v=lbN8EMcOH5o">interview with Alex Ryba</a>.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/lbN8EMcOH5o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>24 is also an important number in <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a>, see for example the post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24">the defining property of 24</a>. There&#8217;s a lot more to say on this, but I&#8217;ll save it for another day.</p>
+<p><strong>60</strong></p>
+<p>60 is, of course, the order of the smallest non-Abelian simple group, $A_5$, the rotation symmetry group of the icosahedron. $A_5$ is the symmetry group of choice for most viruses <a href="https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19">but not the Corona-virus</a>.</p>
+<p><strong>3264</strong></p>
+<p>3264 is the correct solution to <a href="https://en.wikipedia.org/wiki/Steiner%27s_conic_problem">Steiner&#8217;s conic problem</a> asking for the number of conics in $\mathbb{P}^2_{\mathbb{C}}$ tangent to five given conics in general position.</p>
+<p><center><br />
+<img decoding="async" src="https://www.juliahomotopycontinuation.org/images/given_conics_example.png" width=60% ><br />
+</center></p>
+<p>Steiner himself claimed that there were $7776=6^5$ such conics, but realised later that he was wrong. The correct number was first given by <a href="https://en.wikipedia.org/wiki/Ernest_de_Jonqui%C3%A8res">Ernest de Jonquières</a> in 1859, but a rigorous proof had to await the advent of modern intersection theory.</p>
+<p>Eisenbud and Harris wrote a book on intersection theory in algebraic geometry, freely available online: <a href="https://scholar.harvard.edu/files/joeharris/files/000-final-3264.pdf">3264 and all that</a>.</p>
+<p><strong>248</strong></p>
+<p>248 is the dimension of the exceptional simple Lie group <a href="https://en.wikipedia.org/wiki/E8_(mathematics)">$E_8$</a>. $E_8$ is also connected to the monster group.</p>
+<p>If you take two Fischer involutions in the monster (elements of conjugacy class 2A) and multiply them, the resulting element surprisingly belongs to one of just 9 conjugacy classes:</p>
+<p>1A,2A,2B,3A,3C,4A,4B,5A or 6A</p>
+<p>The orders of these elements are exactly the dimensions of the fundamental root for the extended $E_8$ Dynkin diagram.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/e8monster.png"></p>
+<p>This is yet another moonshine observation by John McKay and I wrote a couple of posts about it and about Duncan&#8217;s solution: <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">the monster graph and McKay&#8217;s observation</a>, and <a href="https://lievenlebruyn.github.io/neverendingbooks/e8-from-moonshine-groups">$E_8$ from moonshine groups</a>.</p>
+<p><strong>163</strong></p>
+<p>163 is a remarkable number because of the &#8216;modular miracle&#8217;<br />
+\[<br />
+e^{\pi \sqrt{163}} = 262537412640768743.99999999999925&#8230; \]<br />
+This is somewhat related to moonshine, or at least to Klein&#8217;s j-function, which by a result of Kronecker&#8217;s detects the classnumber of imaginary quadratic fields $\mathbb{Q}(\sqrt{-D})$ and produces integers if the classnumber is one (as is the case for $\mathbb{Q}(\sqrt{-163})$).</p>
+<p>The details are in the post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-modular-miracle-of-163">the miracle of 163</a>, or in the paper by John Stillwell, <a href="https://www.jstor.org/stable/2695682?seq=1#metadata_info_tab_contents">Modular Miracles</a>, The American Mathematical Monthly, 108 (2001) 70-76.</p>
+<p>Richard Borcherds, the math-vlogger, has an entertaining video about this story: <a href="https://www.youtube.com/watch?v=a9k_QmZbwX8">MegaFavNumbers 262537412680768000</a></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/a9k_QmZbwX8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>His description of the $j$-function (at 4:13 in the movie) is simply hilarious!</p>
+<p>Borcherds connects $163$ to the monster moonshine via the $j$-function, but there&#8217;s another one.</p>
+<p>The monster group has $194$ conjugacy classes and monstrous moonshine assigns a &#8216;moonshine function&#8217; to each conjugacy class (the $j$-function is assigned to the identity element). However, these $194$ functions are not linearly independent and the space spanned by them has dimension exactly $163$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Richard Borcherds on Witt and the Leech lattice</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/richard-borcherds-on-witt-and-the-leech-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/richard-borcherds-on-witt-and-the-leech-lattice/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 10 Feb 2021 10:26:13 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Leech lattice]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8817</guid>
+
+					<description><![CDATA[A rare benefit of the Covid-situation is that Richard Borcherds decided to set up a YouTube channel with recordings of his online lectures. Plenty of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A rare benefit of the Covid-situation is that <a href="https://en.wikipedia.org/wiki/Richard_Borcherds">Richard Borcherds</a> decided to set up a <a href="https://www.youtube.com/channel/UCIyDqfi_cbkp-RU20aBF-MQ">YouTube channel</a> with recordings of his online lectures.</p>
+<p>Plenty of gems to be discovered there, including a talk on <a href="https://www.youtube.com/watch?v=5Mg25JK31wE&#038;t=1948s">Monstrous Moonshine</a>, and a talk he gave for the <a href="https://en.wikipedia.org/wiki/The_Archimedeans">Archimedeans</a> about the <a href="https://www.youtube.com/watch?v=D908X1JAowY">Sporadic Groups</a>.</p>
+<p>As part of his History of Science-course he addressed the question whether <a href="https://en.wikipedia.org/wiki/Ernst_Witt">Witt</a> discovered the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a>.</p>
+<p>A while ago I&#8217;ve blogged about that very same question here:</p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/who-discovered-the-leech-lattice">Who discovered the Leech lattice?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice">So, who discovered the Leech lattice?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/erna-bannow-octonions-and-the-leech">Erna Bannow, octonions and the Leech</a></li>
+</ul>
+<p>The summary of these posts being that I thought it was rather unlikely for Witt to have discovered the Leech lattice.</p>
+<p>However, using the same sources, Borcherds rates a more than 90% probability for Witt to have indeed discovered the Leech lattice in 1940.</p>
+<p>His evidence for this is:</p>
+<ul>
+<li>Witt said he discovered it.</li>
+<li>His construction (in his 1972 colloquium talk) is unlike any other construction of the Leech lattice.</li>
+<li>Witt was <strong>the</strong> expert on <a href="https://en.wikipedia.org/wiki/Steiner_system#:~:text=In%20combinatorial%20mathematics%2C%20a%20Steiner,1%20and%20t%20%E2%89%A5%202.">Steiner systems</a>, and the system S(5,8,24) is crucial in Leech&#8217;s construction of his lattice.</li>
+</ul>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/xI2miIBS5-s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/richard-borcherds-on-witt-and-the-leech-lattice/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

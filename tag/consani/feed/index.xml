@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Consani &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/consani/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 31 Dec 2021 10:50:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Do we need the sphere spectrum?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 31 Dec 2021 10:50:10 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Almkvist]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Consani]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9903</guid>
+
+					<description><![CDATA[Last time I mentioned the talk &#8220;From noncommutative geometry to the tropical geometry of the scaling site&#8221; by Alain Connes, culminating in the canonical isomorphism&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project">Last time</a> I mentioned the talk <a href="https://www.dropbox.com/s/vqksoc02ci4q7dz/ConnesSlides.pdf?dl=0">&#8220;From noncommutative geometry to the tropical geometry of the scaling site&#8221;</a> by Alain Connes, culminating in the canonical isomorphism (last slide of the talk)<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/Data3/wittsphere.png" width=75% \><br />
+</center></p>
+<p>Or rather, what is actually proved in his paper with Caterina Consani <a href="https://arxiv.org/abs/2112.08820">BC-system, absolute cyclotomy and the quantized calculus</a> (and which they conjectured previously to be the case in <a href="https://arxiv.org/abs/2004.08879">Segal&#8217;s Gamma rings and universal arithmetic</a>), is a canonical isomorphism between the $\lambda$-rings<br />
+\[<br />
+\mathbb{Z}[\mathbb{Q}/\mathbb{Z}] \simeq \mathbb{W}_0(\overline{\mathbb{S}}) \]<br />
+The left hand side is the integral groupring of the additive quotient-group $\mathbb{Q}/\mathbb{Z}$, or if you prefer, $\mathbb{Z}[\mathbf{\mu}_{\infty}]$ the integral groupring of the multiplicative group of all roots of unity $\mathbf{\mu}_{\infty}$.</p>
+<p>The power maps on $\mathbf{\mu}_{\infty}$ equip $\mathbb{Z}[\mathbf{\mu}_{\infty}]$ with a $\lambda$-ring structure, that is, a family of commuting endomorphisms $\sigma_n$ with $\sigma_n(\zeta) = \zeta^n$ for all $\zeta \in \mathbf{\mu}_{\infty}$, and a family of linear maps $\rho_n$ induced by requiring for all $\zeta \in \mathbf{\mu}_{\infty}$ that<br />
+\[<br />
+\rho_n(\zeta) = \sum_{\mu^n=\zeta} \mu \]<br />
+The maps $\sigma_n$ and $\rho_n$ are used to construct an integral version of the Bost-Connes algebra describing the <a href="https://en.wikipedia.org/wiki/Bost%E2%80%93Connes_system">Bost-Connes sytem</a>, a quantum statistical dynamical system.</p>
+<p>On the right hand side, $\mathbb{S}$ is the <a href="https://en.wikipedia.org/wiki/Sphere_spectrum">sphere spectrum</a> (an object from stable homotopy theory) and $\overline{\mathbb{S}}$ its &#8216;algebraic closure&#8217;, that is, adding all abstract roots of unity.</p>
+<p>The ring $\mathbb{W}_0(\overline{\mathbb{S}})$ is a generalisation to the world of spectra of the Almkvist-ring $\mathbb{W}_0(R)$ defined for any commutative ring $R$, constructed from pairs $(E,f)$ where $E$ is a projective $R$-module of finite rank and $f$ an $R$-endomorphism on it. Addition and multiplication are coming from direct sums and tensor products of such pairs, with zero element the pair $(0,0)$ and unit element the pair $(R,1_R)$. The ring $\mathbb{W}_0(R)$ is then the quotient-ring obtained by dividing out the ideal consisting of all zero-pairs $(E,0)$.</p>
+<p>The ring $\mathbb{W}_0(R)$ becomes a $\lambda$-ring via the Frobenius endomorphisms $F_n$ sending a pair $(E,f)$ to the pair $(E,f^n)$, and we also have a collection of linear maps on $\mathbb{W}_0(R)$, the &#8216;Verschiebung&#8217;-maps which send a pair $(E,f)$ to the pair $(E^{\oplus n},F)$ with<br />
+\[<br />
+F = \begin{bmatrix} 0 &#038; 0 &#038; 0 &#038; \cdots &#038; f \\<br />
+1 &#038; 0 &#038; 0 &#038; \cdots &#038; 0 \\<br />
+0 &#038; 1 &#038; 0 &#038; \cdots &#038; 0 \\<br />
+\vdots &#038; \vdots &#038; \vdots &#038; &#038; \vdots \\<br />
+0 &#038; 0 &#038; 0 &#038; \cdots &#038; 1 \end{bmatrix} \]<br />
+Connes and Consani define a notion of modules and their endomorphisms for $\mathbb{S}$ and $\overline{\mathbb{S}}$, allowing them to define in a similar way the rings $\mathbb{W}_0(\mathbb{S})$ and $\mathbb{W}_0(\overline{\mathbb{S}})$, with corresponding maps $F_n$ and $V_n$. They then establish an isomorphism with $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ such that the maps $(F_n,V_n)$ correspond to $(\sigma_n,\rho_n)$.</p>
+<p>But, do we really have the go to spectra to achieve this?</p>
+<p>All this reminds me of an old idea of <a href="https://en.wikipedia.org/wiki/Yuri_Manin">Yuri Manin</a> mentioned in the introduction of his paper <a href="https://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a>, and later elaborated in section two of his paper with Matilde Marcolli <a href="https://arxiv.org/abs/1806.10801">Homotopy types and geometries below $\mathbf{Spec}(\mathbb{Z})$</a>.</p>
+<p>Take a manifold $M$ with a diffeomorphism $f$ and consider the corresponding discrete dynamical system by iterating the diffeomorphism. In such situations it is important to investigate the periodic orbits, or the fix-points $Fix(M,f^n)$ for all $n$. If we are in a situation that the number of fixed points is finite we can package these numbers in the Artin-Mazur zeta function<br />
+\[<br />
+\zeta_{AM}(M,f) = exp(\sum_{n=1}^{\infty} \frac{\# Fix(M,f^n)}{n}t^n) \]<br />
+and investigate the properties of this function.</p>
+<p>To connect this type of problem to Almkvist-like rings, Manin considers the <a href="https://en.wikipedia.org/wiki/Morse%E2%80%93Smale_system">Morse-Smale dynamical systems</a>, a structural stable diffeomorphism $f$, having a finite number of non-wandering points on a compact manifold $M$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MorseSmale.png" width=75% /><br />
+From <a href="https://arxiv.org/abs/1710.08292">Topological classification of Morse-Smale diffeomorphisms on 3-manifolds</a><br />
+</center></p>
+<p>In such a situation $f_{\ast}$ acts on homology $H_k(M,\mathbb{Z})$, which are free $\mathbb{Z}$-modules of finite rank, as a matrix $M_f$ having only roots of unity as its eigenvalues.</p>
+<p>Manin argues that this action is similar to the action of the Frobenius on etale cohomology groups, in which case the eigenvalues are Weil numbers. That is, one might view roots of unity as Weil numbers in characteristic one.</p>
+<p>Clearly, all relevant data $(H_k(M,\mathbb{Z}),f_{\ast})$ belongs to the $\lambda$-subring of $\mathbb{W}_0(\mathbb{Z})$ generated by all pairs $(E,f)$ such that $M_f$ is diagonalisable and all its eigenvalues are either $0$ or roots of unity.</p>
+<p>If we denote for any ring $R$ by $\mathbb{W}_1(R)$ this $\lambda$-subring of $\mathbb{W}_0(R)$, probably one would obtain canonical isomorphisms</p>
+<p>&#8211; between $\mathbb{W}_1(\mathbb{Z})$ and the invariant part of the integral groupring $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ for the action of the group $Aut(\mathbb{Q}/\mathbb{Z}) = \widehat{\mathbb{Z}}^*$, and</p>
+<p>&#8211; between $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ and $\mathbb{W}_1(\mathbb{Z}(\mathbf{\mu}_{\infty}))$ where $\mathbb{Z}(\mathbf{\mu}_{\infty})$ is the ring obtained by adjoining to $\mathbb{Z}$ all roots of unity.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Alain Connes on his RH-project</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 29 Dec 2021 13:42:59 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[arithemtic site]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Consani]]></category>
+		<category><![CDATA[Riemann hypothesis]]></category>
+		<category><![CDATA[scaling site]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9879</guid>
+
+					<description><![CDATA[In recent months, my primary focus was on teaching and family matters, so I make advantage of this Christmas break to catch up with some&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In recent months, my primary focus was on <a href="https://lievenlebruyn.github.io/neverendingbooks/designer-maths">teaching</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/phase-transition">family matters</a>, so I make advantage of this Christmas break to catch up with some of the things I&#8217;ve missed.</p>
+<p><a href="https://www.math.columbia.edu/~woit/wordpress/?p=12584">Peter Woit&#8217;s blog</a> alerted me to the existence of the (virtual) Lake Como-conference, end of september: <a href="https://utge.lakecomoschool.org/programme/">Unifying themes in Geometry</a>.</p>
+<p>In Corona times, virtual conferences seem to sprout up out of nowhere, everywhere (zero costs), giving us an inflation of YouTubeD talks. I&#8217;m always grateful to the organisers of such events to provide the slides of the talks separately, as the generic YouTubeD-talk consists merely in reading off the slides.</p>
+<p>Allow me to point you to one of the rare exceptions to this rule.</p>
+<p>When I downloaded the slides of Alain Connes&#8217; talk at the conference <a href="https://www.dropbox.com/s/vqksoc02ci4q7dz/ConnesSlides.pdf?dl=0">From noncommutative geometry to the tropical geometry of the scaling site</a> I just saw a collage of graphics from his endless stream of papers with Katia Consani, and slides I&#8217;d seen before watching several of his YouTubeD-talks in recent years.</p>
+<p>Boy, am I glad I gave Alain 5 minutes to convince me <a href="https://www.youtube.com/watch?v=8UGwbUzj6iw">this talk</a> was different.</p>
+<p>For the better part of his talk, Alain didn&#8217;t just read off the slides, but rather tried to explain the thought processes that led him and Katia to move on from the results on this slide to those on the next one.</p>
+<p>If you&#8217;re pressed for time, perhaps you might join in at 49.34 into the talk, when he acknowledges the previous (tropical) approach ran out of steam as they were unable to define any $H^1$ properly, and how this led them to &#8216;absolute&#8217; algebraic geometry, meaning over the sphere spectrum $\mathbb{S}$.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/8UGwbUzj6iw?start=2974" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Sadly, for some reason Alain didn&#8217;t manage to get his final two slides on screen. So, in this case, the <a href="https://www.dropbox.com/s/vqksoc02ci4q7dz/ConnesSlides.pdf?dl=0">slides</a> actually add value to the talk&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Closing in on Gabriel&#8217;s topos?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/closing-in-on-gabriels-topos/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/closing-in-on-gabriels-topos/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 08 Jun 2018 13:35:09 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Consani]]></category>
+		<category><![CDATA[Riemann hypothesis]]></category>
+		<category><![CDATA[toposes]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8176</guid>
+
+					<description><![CDATA[&#8216;Gabriel&#8217;s topos&#8217; (see here) is the conjectural, but still elusive topos from which the validity of the Riemann hypothesis would follow. It is the latest&#8230;]]></description>
+										<content:encoded><![CDATA[<p>&#8216;Gabriel&#8217;s topos&#8217; (see <a href="https://lievenlebruyn.github.io/neverendingbooks/archangel-gabriel-will-make-you-a-topos">here</a>) is the conjectural, but still elusive topos from which the validity of the Riemann hypothesis would follow.</p>
+<p>It is the latest attempt in Alain Connes&#8217; 20 year long quest to tackle the RH (before, he tried the tools of <a href="http://www.alainconnes.org/docs/imufinal.pdf">noncommutative geometry</a> and later those offered by the <a href="http://www.alainconnes.org/docs/schemes.pdf">field with one element</a>).</p>
+<p>For the last 5 years he hopes that topos theory might provide the missing ingredient. Together with Katia Consani he introduced and studied <a href="https://arxiv.org/abs/1502.05580">the geometry of the Arithmetic site</a>, and later <a href="https://arxiv.org/abs/1603.03191">the geometry of the scaling site</a>.</p>
+<p>If you look at the points of these toposes you get horribly complicated &#8216;non-commutative&#8217; spaces, such as the finite adele classes $\mathbb{Q}^*_+ \backslash \mathbb{A}^f_{\mathbb{Q}} / \widehat{\mathbb{Z}}^{\ast}$ (in case of the arithmetic site) and the full adele classes $\mathbb{Q}^*_+ \backslash \mathbb{A}_{\mathbb{Q}} / \widehat{\mathbb{Z}}^{\ast}$ (for the scaling site).</p>
+<p>In Vienna, Connes gave a nice introduction to the arithmetic site in two lectures. The first part of the talk below also gives an historic overview of his work on the RH</p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BL3RPci3_cg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+<p>The second lecture can be watched <a href="https://www.youtube.com/watch?v=OfNVT2QHAA4">here</a>.</p>
+<p>However, not everyone is as optimistic about the topos-approach as he seems to be. Here&#8217;s an <a href="https://mathoverflow.net/questions/259263/what-is-precisely-still-missing-in-connes-approach-to-rh/259301#259301">insightful answer</a> on MathOverflow by Will Sawin to the question &#8220;What is precisely still missing in Connes&#8217; approach to RH?&#8221;.</p>
+<p>Other interesting MathOverflow threads related to the RH-approach via the field with one element are <a href="https://mathoverflow.net/questions/34699/approaches-to-riemann-hypothesis-using-methods-outside-number-theory">Approaches to Riemann hypothesis using methods outside number theory</a> and <a href="https://mathoverflow.net/questions/69389/riemann-hypothesis-via-absolute-geometry">Riemann hypothesis via absolute geometry</a>.</p>
+<p>About a month ago, from May 10th till 14th Alain Connes gave a series of <a href="https://math.osu.edu/events/department-event-alain-connes-0">lectures at Ohio State University</a> with title &#8220;The Riemann-Roch strategy, quantizing the Scaling Site&#8221;.</p>
+<p>The accompanying paper has now been arXived: <a href="https://arxiv.org/abs/1805.10501">The Riemann-Roch strategy, Complex lift of the Scaling Site</a> (joint with K. Consani).</p>
+<p>Especially interesting is section 2 &#8220;The geometry behind the zeros of $\zeta$&#8221; in which they explain how looking at the zeros locus inevitably leads to the space of adele classes and why one has to study this space with the tools from noncommutative geometry.</p>
+<p>Perhaps further developments will be disclosed in a few weeks time when Connes is one of the speakers at <a href="http://tcsc.lakecomoschool.org/">Toposes in Como</a>.</p>
+<p><center><br />
+<img decoding="async" src="http://swec.lakecomoschool.org/files/2016/01/vg2-1.jpg"><br />
+</center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/closing-in-on-gabriels-topos/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Connes-Consani for undergraduates (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/connes-consani-for-undergraduates-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/connes-consani-for-undergraduates-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 03 Oct 2008 12:00:25 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Consani]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=454</guid>
+
+					<description><![CDATA[A couple of weeks ago, Alain Connes and Katia Consani arXived their paper &#8220;On the notion of geometry over $\mathbb{F}_1 $&#8221;. Their subtle definition is&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A couple of weeks ago, <a href="http://www.alainconnes.org/en/">Alain Connes</a> and <a href="http://www.math.jhu.edu/~kc/">Katia Consani</a> arXived their <a href="http://arxiv.org/abs/0809.2926">paper</a> &#8220;On the notion of geometry over $\mathbb{F}_1 $&#8221;. Their subtle definition is phrased entirely in <a href="http://en.wikipedia.org/wiki/Alexander_Grothendieck">Grothendieck</a>&#8216;s scheme-theoretic language of representable functors and may be somewhat hard to get through if you only had a few years of mathematics.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/fun/DATA/Consani.jpg" style="float:right;margin-left:10px;"> I&#8217;ll try to give the essence of their definition of an <strong>affine scheme over $\mathbb{F}_1 $</strong> (and illustrate it with an example) in a couple of posts. All you need to know is what a finite Abelian group is (if you know what a cyclic group is that&#8217;ll be enough) and what a commutative algebra is. If you already know what a functor and a natural transformation is, that would be great, but we&#8217;ll deal with all that abstract nonsense when we&#8217;ll need it.</p>
+<p>So take two finite Abelian groups A and B, then a group-morphism is just a map $f~:~A \rightarrow B $ preserving the group-data. That is, f sends the unit element of A to that of B and<br />
+f sends a product of two elements in A to the product of their images in B. For example, if $A=C_n $ is a cyclic group of order n with generator g and $B=C_m $ is a cyclic group of order m with generator h, then every groupmorphism from A to B is entirely determined by the image of g let&#8217;s say that this image is $h^i $. But, as $g^n=1 $ and the conditions on a group-morphism we must have that $h^{in} = (h^i)^n = 1 $ and therefore m must divide i.n. This gives you all possible group-morphisms from A to B.</p>
+<p>They are plenty of finite abelian groups and many group-morphisms between any pair of them and all this stuff we put into one giant sack and label it $\mathbf{abelian} $. There is another, even bigger sack, which is even simpler to describe. It is labeled $\mathbf{sets} $ and contains all sets as well as all maps between two sets.</p>
+<p>Right! Now what might be a <strong>map</strong> $F~:~\mathbf{abelian} \rightarrow \mathbf{sets} $ between these two sacks? Well, F should map any abelian group A to a set F(A) and any group-morphism $f~:~A \rightarrow B $ to a map between the corresponding sets $F(f)~:~F(A) \rightarrow F(B) $ and do all of this nicely. That is, F should send compositions of group-morphisms to compositions of the corresponding maps, and so on. If you take a pen and a piece of paper, you&#8217;re bound to come up with the exact definition of a <strong>functor</strong> (that&#8217;s what F is called).</p>
+<p>You want an example? Well, lets take F to be the map sending an Abelian group A to its set of elements (also called A) and which sends a groupmorphism $A \rightarrow B $ to the same map from A to B. All F does is &#8216;forget&#8217; the extra group-conditions on the sets and maps. For this reason F is called the <strong>forgetful functor</strong>. We will denote this particular functor by $\underline{\mathbb{G}}_m $, merely to show off.</p>
+<p>Luckily, there are lots of other and more interesting examples of such functors. Our first class we will call <strong>maxi-functors</strong> and they are defined using a finitely generated $\mathbb{C} $-algebra R. That is, R can be written as the quotient of a polynomial algebra</p>
+<p>$R = \frac{\mathbb{C}[x_1,\ldots,x_d]}{(f_1,\ldots,f_e)} $</p>
+<p>by setting all the polynomials $f_i $ to be zero. For example, take R to be the ring of Laurant polynomials</p>
+<p>$R = \mathbb{C}[x,x^{-1}] = \frac{\mathbb{C}[x,y]}{(xy-1)} $</p>
+<p>Other, and easier, examples of $\mathbb{C} $-algebras is the <strong>group-algebra</strong> $\mathbb{C} A $ of a finite Abelian group A. This group-algebra is a finite dimensional vectorspace with basis $e_a $, one for each element $a \in A $ with multiplication rule induced by the relations $e_a.e_b = e_{a.b} $ where on the left-hand side the multiplication . is in the group-algebra whereas on the right hand side the multiplication in the index is that of the group A. By choosing a different basis one can show that the group-algebra is really just the direct sum of copies of $\mathbb{C} $ with component-wise addition and multiplication</p>
+<p>$\mathbb{C} A = \mathbb{C} \oplus \ldots \oplus \mathbb{C} $</p>
+<p>with as many copies as there are elements in the group A. For example, for the cyclic group $C_n $ we have</p>
+<p>$\mathbb{C} C_n = \frac{\mathbb{C}[x]}{(x^n-1)} = \frac{\mathbb{C}[x]}{(x-1)} \oplus \frac{\mathbb{C}[x]}{(x-\zeta)} \oplus \frac{\mathbb{C}[x]}{(x-\zeta^2)} \oplus \ldots \oplus \frac{\mathbb{C}[x]}{(x-\zeta^{n-1})} = \mathbb{C} \oplus \mathbb{C} \oplus \mathbb{C} \oplus \ldots \oplus \mathbb{C} $</p>
+<p>The <strong>maxi-functor</strong> asociated to a $\mathbb{C} $-algebra R is the functor</p>
+<p>$\mathbf{maxi}(R)~:~\mathbf{abelian} \rightarrow \mathbf{sets} $</p>
+<p>which assigns to a finite Abelian group A the set of all algebra-morphism $R \rightarrow \mathbb{C} A $ from R to the group-algebra of A. But wait, you say (i hope), we also needed a functor to do something on groupmorphisms $f~:~A \rightarrow B $. Exactly, so to f we have an algebra-morphism $f&#8217;~:~\mathbb{C} A \rightarrow \mathbb{C}B $ so the functor on morphisms is defined via composition</p>
+<p>$\mathbf{maxi}(R)(f)~:~\mathbf{maxi}(R)(A) \rightarrow \mathbf{maxi}(R)(B) \qquad \phi~:~R \rightarrow \mathbb{C} A \mapsto f&#8217; \circ \phi~:~R \rightarrow \mathbb{C} A \rightarrow \mathbb{C} B $</p>
+<p>So, what is the maxi-functor $\mathbf{maxi}(\mathbb{C}[x,x^{-1}] $? Well, any $\mathbb{C} $-algebra morphism $\mathbb{C}[x,x^{-1}] \rightarrow \mathbb{C} A $ is fully determined by the image of $x $ which must be a unit in $\mathbb{C} A = \mathbb{C} \oplus \ldots \oplus \mathbb{C} $. That is, all components of the image of $x $ must be non-zero complex numbers, that is</p>
+<p>$\mathbf{maxi}(\mathbb{C}[x,x^{-1}])(A) = \mathbb{C}^* \oplus \ldots \oplus \mathbb{C}^* $</p>
+<p>where there are as many components as there are elements in A. Thus, the sets $\mathbf{maxi}(R)(A) $ are typically huge which is the reason for the maxi-terminology.</p>
+<p>Next, let us turn to <strong>mini-functors</strong>. They are defined similarly but this time using finitely generated $\mathbb{Z} $-algebras such as $S=\mathbb{Z}[x,x^{-1}] $ and the integral group-rings $\mathbb{Z} A $ for finite Abelian groups A. The structure of these inegral group-rings is a lot more delicate than in the complex case. Let&#8217;s consider them for the smallest cyclic groups (the &#8216;isos&#8217; below are only approximations!)</p>
+<p>$\mathbb{Z} C_2 = \frac{\mathbb{Z}[x]}{(x^2-1)} = \frac{\mathbb{Z}[x]}{(x-1)} \oplus \frac{\mathbb{Z}[x]}{(x+1)} = \mathbb{Z} \oplus \mathbb{Z} $</p>
+<p>$\mathbb{Z} C_3 = \frac{\mathbb{Z}[x]}{(x^3-1)} = \frac{\mathbb{Z}[x]}{(x-1)} \oplus \frac{\mathbb{Z}[x]}{(x^2+x+1)} = \mathbb{Z} \oplus \mathbb{Z}[\rho] $</p>
+<p>$\mathbb{Z} C_4 = \frac{\mathbb{Z}[x]}{(x^4-1)} = \frac{\mathbb{Z}[x]}{(x-1)} \oplus \frac{\mathbb{Z}[x]}{(x+1)} \oplus \frac{\mathbb{Z}[x]}{(x^2+1)} = \mathbb{Z} \oplus \mathbb{Z} \oplus \mathbb{Z}[i] $</p>
+<p>For a $\mathbb{Z} $-algebra S we can define its <strong>mini-functor</strong> to be the functor</p>
+<p>$\mathbf{mini}(S)~:~\mathbf{abelian} \rightarrow \mathbf{sets} $</p>
+<p>which assigns to an Abelian group A the set of all $\mathbb{Z} $-algebra morphisms $S \rightarrow \mathbb{Z} A $. For example, for the algebra $\mathbb{Z}[x,x^{-1}] $ we have that</p>
+<p>$\mathbf{mini}(\mathbb{Z} [x,x^{-1}]~(A) = (\mathbb{Z} A)^* $</p>
+<p>the set of all invertible elements in the integral group-algebra. To study these sets one has to study the units of cyclotomic integers. From the above decompositions it is easy to verify that for the first few cyclic groups, the corresponding sets are $\pm C_2, \pm C_3 $ and $\pm C_4 $. However, in general this set doesn&#8217;t have to be finite. It is a well-known result that the group of units of an integral group-ring of a finite Abelian group is of the form</p>
+<p>$(\mathbb{Z} A)^* = \pm A \times \mathbb{Z}^{\oplus r} $</p>
+<p>where $r = \frac{1}{2}(o(A) + 1 + n_2 -2c) $ where $o(A) $ is the number of elements of A, $n_2 $ is the number of elements of order 2 and c is the number of cyclic subgroups of A. So, these sets can still be infinite but at least they are a lot more manageable, explaining the <strong>mini</strong>-terminology.</p>
+<p>Now, we would love to go one step deeper and define <strong>nano-functors</strong> by the same procedure, this time using finitely generated algebras over $\mathbb{F}_1 $, the <a href="http://en.wikipedia.org/wiki/Field_with_one_element">field with one element</a>. But as we do not really know what we might mean by this, we simply define a <strong>nano-functor</strong> to be a <strong>subfunctor</strong> of a <strong>mini-functor</strong>, that is, a nano-functor N has an associated mini-functor $\mathbf{mini}(S) $ such that for all finite Abelian groups A we have that $N(A) \subset \mathbf{mini}(S)(A) $.</p>
+<p>For example, the forgetful functor at the beginning, which we pompously denoted $\underline{\mathbb{G}}_m $ is a nano-functor as it is a subfunctor of the mini-functor $\mathbf{mini}(\mathbb{Z}[x,x^{-1}]) $.</p>
+<p>Now we are <strong>allmost</strong> done : an affine $\mathbb{F}_1 $-scheme in the sense of Connes and Consani is a pair consisting of a nano-functor N and a maxi-functor $\mathbf{maxi}(R) $ such that two rather strong conditions are satisfied :</p>
+<ul>
+<li>there is an <strong>evaluation</strong> &#8216;map&#8217; of functors $e~:~N \rightarrow \mathbf{maxi}(R) $  </li>
+<li>this pair determines uniquely a &#8216;minimal&#8217; mini-functor $\mathbf{mini}(S) $ of which N is a subfunctor  </li>
+</ul>
+<p>of course we still have to turn this into proper definitions but that will have to await another post. For now, suffice it to say that the pair $~(\underline{\mathbb{G}}_m,\mathbf{maxi}(\mathbb{C}[x,x^{-1}])) $ is a $\mathbb{F}_1 $-scheme with corresponding uniquely determined mini-functor $\mathbf{mini}(\mathbb{Z}[x,x^{-1}]) $, called the <strong>multiplicative group scheme</strong>.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-2.html">Continued here</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/connes-consani-for-undergraduates-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

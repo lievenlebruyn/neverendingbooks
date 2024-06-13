@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>brain &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/brain/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 06 Mar 2023 14:09:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Loading a second brain</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 06 Mar 2023 14:09:28 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Ahrens]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[Forte]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[graph]]></category>
+		<category><![CDATA[loading]]></category>
+		<category><![CDATA[LogSeq]]></category>
+		<category><![CDATA[mathjax]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[PKM]]></category>
+		<category><![CDATA[RoamResearch]]></category>
+		<category><![CDATA[second]]></category>
+		<category><![CDATA[SecondBrain]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11005</guid>
+
+					<description><![CDATA[Before ChatGPT, the hype among productivity boosters was a PKMs or Personal knowledge management system. It gained popularity through Tiago Forte&#8217;s book &#8216;Building a second&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Before ChatGPT, the hype among productivity boosters was a PKMs or <a href="https://en.wikipedia.org/wiki/Personal_knowledge_management">Personal knowledge management system</a>.</p>
+<p>It gained popularity through Tiago Forte&#8217;s book <a href="https://www.buildingasecondbrain.com/">&#8216;Building a second brain&#8217;</a>, and (for academics perhaps a more useful read) <a href="https://www.soenkeahrens.de/en/takesmartnotes">&#8216;How to take smart notes&#8217;</a> by Sönke Ahrens.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/412AXfNUJSL._SX313_BO1,204,203,200_.jpg" width=40%> <img decoding="async" src="https://m.media-amazon.com/images/I/41rkDzw+bSL._SX326_BO1,204,203,200_.jpg" width=41.7%><br />
+</center></p>
+<p>These books promote new techniques for note-taking (and for storing these notes) such as <a href="https://fortelabs.com/blog/para/">the PARA-method</a>, <a href="https://www.astar.studio/the-code-system/">the CODE-system</a>, and <a href="https://en.wikipedia.org/wiki/Zettelkasten">Zettelkasten</a>.</p>
+<p><a href="https://unmistakablecreative.com/category/second-brain/">Unmistakable Creative</a> has some posts on the principles behing the &#8216;second brain&#8217; approach.</p>
+<blockquote><p>
+Your brain isn’t like a hard drive or a dropbox, where information is stored in folders and subfolders. None of our thoughts or ideas exist in isolation. Information is organized in a series of non-linear associative networks in the brain.</p>
+<p>Networked thinking is not just a more efficient way to organize information. It frees your brain to do what it does best: Imagine, invent, innovate, and create. The less you have to remember where information is, the more you can use it to summarize that information and turn knowledge into action.
+</p></blockquote>
+<p>and</p>
+<blockquote><p>
+A network has no “correct” orientation and thus no bottom and no top. Each individual, or “node,” in a network functions autonomously, negotiating its own relationships and coalescing into groups. Examples of networks include a flock of birds, the World Wide Web, and the social ties in a neighborhood. Networks are inherently “bottom-up” in that the structure emerges organically from small interactions without direction from a central authority.</p>
+<p>-Tiago Forte, <a href="https://fortelabs.com/blog/a-complete-guide-to-tagging-for-personal-knowledge-management/">Tagging for Personal Knowledge Management</a>
+</p></blockquote>
+<p>There are several apps you can use to start building your second brain, the more popular seem to be <a href="https://roamresearch.com/">Roam Research</a>, <a href="https://logseq.com/">LogSeq</a>, and <a href="https://obsidian.md/">Obsidian</a>.</p>
+<p>These systems allow you to store, link and manipulate a large collection of notes, query them as a database, modify them in various ways via plugins or scripts, and navigate the network created via graph-views.</p>
+<p>Exactly the kind of things we need to modify the simple system from the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">shape of languages</a>-post into a proper topos of the unconscious.</p>
+<p>I&#8217;ve been playing around with <a href="https://obsidian.md/">Obsidian</a> which I like because it has good <a href="https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Mathjax+and+LaTeX+Plugins">LaTeX plugins</a>, powerful database tools via the <a href="https://blacksmithgu.github.io/obsidian-dataview/">Dataview plugin</a>, and one can execute codeblocks within notes in almost any programming language (python, haskell, lean, Mathematica, ruby, javascript, R, &#8230;).</p>
+<p>Most of all it has a vibrant community of users, an excellent <a href="https://forum.obsidian.md/">forum</a>, and a well-documented <a href="https://publish.obsidian.md/hub/%F0%9F%97%82%EF%B8%8F+hub">Obsidian hub</a>.</p>
+<p>There&#8217;s just one problem, I&#8217;m a terrible note-taker, so how can I begin to load my &#8216;second brain&#8217;?</p>
+<p>Obsidian has several plugins to import data, such as your Kindle highlights, your Twitter feed, your Readwise-data, and many others, but having been too lazy in the past, I cannot use any of them.</p>
+<p>In fact, the only useful collection of notes I have are my blog-posts. So, I&#8217;ve uploaded NeverEndingBooks into Obsidian, one note per post (admittedly, not very Zettelkasten-like), half a million words in total.</p>
+<p>Fortunately, I did tag most of these posts at the time. Together with other meta-data this results in the <a href="https://help.obsidian.md/Plugins/Graph+view">Graph view</a> below (under &#8216;Files&#8217; toggled tags, under &#8216;Groups&#8217; three tag-colours, and under &#8216;Display&#8217; toggled arrows). One can add colour-groups based on tags or other information (here, red dots are posts tagged &#8216;Grothendieck&#8217;, the blue ones are tagged &#8216;Conway&#8217;, the purple ones tagged &#8216;Connes&#8217;, just for the sake of illustration). In Obsidian you can zoom into this graph, place a pointer on a node to highlight the connecting dots, and much more.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBgraphview.png" width=100% ><br />
+</center></p>
+<p>Because I tend to forget such things, and as it may be useful to other people running a WordPress-blog making heavy use of MathJax, here&#8217;s the procedure I followed:</p>
+<p>1. Follow the instructions from <a href="https://daext.com/blog/convert-wordpress-articles-to-markdown/">Convert wordpress articles to markdown</a>.</p>
+<ul>
+<li>Export your WordPress posts to XML</li>
+<li>Install <a href="https://nodejs.org/en/">Node.js</a></li>
+<li>Run the <a href="https://github.com/lonekorean/wordpress-export-to-markdown">wordpress-export-to-markdown</a> script</li>
+</ul>
+<p>In the wizard I&#8217;ve opted to go only for yearly folders, to prefix posts with the date, and to save all images.</p>
+<p>2. This gives you a directory with one folder per year containing markdown versions of your posts, and in each year-folder a subfolder &#8216;img&#8217; containing all images.</p>
+<p>Turn this directory into an Obsidian-vault by opening Obsidian, click on the &#8216;open another vault&#8217; icon (third from bottom-left), select &#8216;Open folder as vault&#8217; and navigate to your directory.</p>
+<p>3. You will notice that most of your LaTeX cannot be parsed because during the markdown-process backslashes are treaded as special character, resulting in two backslashes for every LaTeX-command&#8230;</p>
+<p>A remark before trying to solve this: another option might be to use the <a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">wordpress-to-hugo-exporter</a>, resulting in clean LaTeX, but lacking the possibility to opt for yearly-folders (it dumps all posts into one folder), and it makes a mess of the image-files.</p>
+<p>4. So, we will need to do a lot of search&#038;replaces in all files, and need a convenient tool for this.</p>
+<p>First option was <a href="https://www.sublimetext.com/">the Sublime Text app</a>, which is free and does the search&#038;replaces quickly. The problem is that you have to save each of the files, one at a time! This may take hours.</p>
+<p>I&#8217;ve done it using the <a href="https://apps.apple.com/us/app/search-and-replace/id627484067?mt=12">Search and Replace app</a> (3$) which allows you to make several searches/replaces at the same time (I messed up LaTeX code in previous exports, so needed to do many more changes). It warns you that it is dangerous to replace strings in all files (which is the reason why Sublime Text makes it difficult), you can ignore it, but only after you put the &#8216;img&#8217; folders away in a safe place. Otherwise it will also try to make the changes to these files, recognise that they are not text-files, and drop them altogether&#8230;</p>
+<p>That&#8217;s it.</p>
+<p>I now have a backup network-version of this blog.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBzoom.png" width=100% ><br />
+</center></p>
+<p>As we mentioned in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">previous post</a> a first attempt to construct the &#8216;topos of the unconscious&#8217; might be to start with a collection of notes (the &#8216;conscious&#8217;) and work on the semantics of text-snippets to unravel (a part of) the unconscious underpinning of these notes. We also mentioned that the poset-structure in that post should be replaced by a more involved network structure.</p>
+<p>What interests me most is whether such an approach might be doable &#8216;in practice&#8217;, and Obsidian looks like the perfect tool to try this out.</p>
+<p>What we need is a sufficiently large set of notes, of independent interest, to inject into Obsidian. The more meta it is, the better&#8230;</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the future of this blog (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-future-of-this-blog-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-future-of-this-blog-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 14 Aug 2008 18:19:00 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=445</guid>
+
+					<description><![CDATA[is decided : I&#8217;ll keep maintaining this URL until new-year&#8217;s eve. At that time I&#8217;ll be blogging here for 5 years&#8230; The few encounters I&#8217;ve&#8230;]]></description>
+										<content:encoded><![CDATA[<p>is decided : I&#8217;ll keep maintaining this URL until new-year&#8217;s eve. At that time I&#8217;ll be blogging here for 5 years&#8230;</p>
+<p>The few encounters I&#8217;ve had with architects, taught me this basic lesson of life : the main function of several rooms in a house changes every 5 years (due to children and yourself getting older).</p>
+<p>So, from january 1st 2009, I&#8217;ll be moving out of here. I will leave the neverendingbooks-site intact for some time to come, so there is no need for you to start archiving it en masse, yet.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-future-of-this-blog.html">Previously</a> I promised to reconsider this blog&#8217;s future over a short vacation, but as vacation is looking to be as illusory as the 24-dimensional monster-manifold, I spend my time throwing up ideas into thin and, it seems, extremely  virtual air.</p>
+<p>Some of you will think this is a gimmick, aiming to attract more comments (there is no post getting more responses than an imminent-end-to-this-blog-post) but then I hope to have settled this already. Neverendingbooks will die on 31st of december 2008. The only remaining issue being : do I keep on blogging or do I look for another time-consumer such as growing tomatoes or, more probably, collecting single malts&#8230;</p>
+<p>For reasons I&#8217;ve stated before, I can see little future in anything but a <strong>conceptual-, group-</strong> blog. The first part I can deal with, but for the second I&#8217;ll be relying on others. So, all I can do is offer formats hoping that some of you are willing to take the jump and try it out together.</p>
+<p>Such as in the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/bloomsday-2-bistromath.html">bloomsday-post</a> where I sketched the <strong>BistroMath</strong> blog-concept. Perhaps you thought I was just kidding, hoping for people to commit themselves and them calling &#8220;Gotcha&#8230;&#8221;. Believe me, 30 years of doing mathematics have hardwired my brains such that I always genuinely believe in the things I write down at the moment I do (but equally, if someone offers me enough evidence to the contrary, I&#8217;ll drop any idea on the spot).</p>
+<p>I still think the BistroMath-project has the potential of leading to a bestseller but Ive stated I was not going to pursue the idea if not at least 5 people were willing to join and at least 1 publisher showed an interest. Ironically, I got 2 publishers interested but NO contributors&#8230; End of that idea.</p>
+<p>Today I offer another conceptual group-blog : <strong>the Noether-boys seminar</strong> (with tagline ; _the noncommutative experts&#8217; view on 21st century mathematics_). And to make it a bit more concrete Ive even designed a potential home-page :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/NBS.jpg"><br />
+</center></p>
+<p>So, what&#8217;s the deal? In the 1930-ties <a href="http://www-gap.dcs.st-and.ac.uk/~history/Biographies/Noether_Emmy.html">Emmy Noether</a> collected around her in Goettingen an exceptionally strong group of students and collaborators (among them : Deuring, Fitting, Levitski, Schilling, Tsen, Weber, Witt, VanderWaerden, Brauer, Artin, Hasse, MacLane, Bernays, Tausky, Alexandrov&#8230; to name a few).</p>
+<p>Collectively, they were know as the &#8220;Noether-boys&#8221; (or &#8220;Noether-Knaben&#8221; or &#8220;Trabanten&#8221; in German) and combined seminar with a hike to the nearby hills or late-night-overs at Emmy&#8217;s apartment. (Btw. there&#8217;s nothing sexist about Noether-<strong>boys</strong>. When she had to leave Germany for Bryn Mawr College, she replaced her boys to form a group of Noether-girls, and even in Goettingen there were several women in the crowd).</p>
+<p>They were the first generation of mathematicians going noncommutative and had to struggle a bit to get their ideas accepted.<br />
+I&#8217;d like to know what they might think about the current state of mathematics in which noncommutativity seems to be generally accepted, even demanded if you want to act fashionable.</p>
+<p>I&#8217;m certain half of the time they would curse intensely, and utter something like &#8216;steht shon alles bei Frau Noether&#8230;&#8217; (as Witt is witnessed to have done at least once), and about half the time they might get genuinely interested, and be willing to try and explain the events leading up to this to their fellow &#8220;Trabanten&#8221;. Either way, it would provide excellent blog-posts.</p>
+<p>So I&#8217;m looking for people willing to borrow the identity of one of the Noether-boys or -girls. That is, you have to be somewhat related to their research and history to offer a plausible reaction to recent results in either noncommutative algebra, noncommutative geometry or physics. Assuming their identity you will then blog to express your (that is, &#8216;their&#8217;) opinion and interact with your fellow Trabanten as might have been the case in the old days&#8230;</p>
+<p>I&#8217;d like to keep Emmy Noether for the admin-role of the blog but all other characters are free at this moment (except I&#8217;m hoping that no-one will choose my favourite role, which is probably the least expected of them anyway).</p>
+<p>So please, if you think this concept might lead to interesting blogging, contact me! If I don&#8217;t get any positives in this case either, I might think about yet another concept (or instead may give up entirely).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-future-of-this-blog-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Arnold’s trinities</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 17 Jun 2008 17:17:34 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=430</guid>
+
+					<description><![CDATA[Referring to the triple of exceptional Galois groups $L_2(5),L_2(7),L_2(11) $ and its connection to the Platonic solids I wrote : &#8220;It sure seems that surprises&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="http://www.fields.utoronto.ca/programs/scientific/96-97/arnold/arnold.jpg" hspace=10 style="float:left;margin-right:10px;" >Referring to the triple of exceptional Galois groups $L_2(5),L_2(7),L_2(11) $ and its connection to the Platonic solids I <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">wrote</a> : &#8220;It sure seems that surprises often come in triples…&#8221;. Briefly I considered replacing triples by trinities, but then, I didnt want to sound too mystic&#8230;</p>
+<p>David Corfield of the <a href="http://golem.ph.utexas.edu/category/2008/06/the_mathematical_sublime.html">n-category cafe</a> and <a href="http://dialinf.wordpress.com/2008/06/11/the-sublime/">a dialogue on infinity</a> (and perhaps other blogs I&#8217;m unaware of) pointed me to the paper <a href="http://www.pdmi.ras.ru/~arnsem/Arnold/arnlect2.ps.gz">Symplectization, complexification and mathematical trinities</a> by <a href="http://en.wikipedia.org/wiki/Vladimir_Arnold">Vladimir I. Arnold</a>. (Update : <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/ArnoldTrinities.pdf">here</a> is a PDF-conversion of the paper)</p>
+<p>The paper is a write-up of the second in a series of three lectures Arnold gave in june 1997 at the meeting in the <a href="http://www.fields.utoronto.ca/">Fields Institute</a> dedicated to his 60th birthday. The goal of that lecture was to explain some mathematical dreams he had.</p>
+<blockquote><p>The next dream I want to present is an even more fantastic set of theorems and conjectures. Here I also have no theory and actually the ideas form a kind of religion rather than mathematics.<br />
+The key observation is that in mathematics one encounters many trinities. I shall present a list of examples. The main dream (or conjecture) is that all these trinities are united by some rectangular &#8220;commutative diagrams&#8221;.<br />
+I mean the existence of some &#8220;functorial&#8221; constructions connecting different trinities. The knowledge of the existence of these diagrams provides some new conjectures which might turn to be true theorems.
+</p></blockquote>
+<p>Follows a list of 12 trinities, many taken from Arnold&#8217;s field of expertise being differential geometry. I&#8217;ll restrict to the more algebraically inclined ones.</p>
+<p><strong>1 :</strong> &#8220;The first trinity everyone knows is&#8221;</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity3.jpg"></p>
+<p>where $\mathbb{H} $ are the Hamiltonian <a href="http://en.wikipedia.org/wiki/Quaternion">quaternions</a>. The trinity on the left may be natural to differential geometers who see real and complex and hyper-Kaehler manifolds as distinct but related beasts, but I&#8217;m willing to bet that most algebraists would settle for the trinity on the right where $\mathbb{O} $ are the <a href="http://en.wikipedia.org/wiki/Octonion">octonions</a>.</p>
+<p><strong>2 :</strong> The next trinity is that of the exceptional Lie algebras <a href="http://en.wikipedia.org/wiki/E6_(mathematics)">E6</a>, <a href="http://en.wikipedia.org/wiki/E7_(mathematics)">E7</a> and <a href="http://en.wikipedia.org/wiki/E8_(mathematics)">E8</a>.</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity4.jpg"></p>
+<p>with corresponding Dynkin-Coxeter diagrams</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/dynkins.jpg"></p>
+<p>Arnold has this to say about the apparent ubiquity of Dynkin diagrams in mathematics.</p>
+<blockquote><p>Manin told me once that the reason why we always encounter this list in many different mathematical classifications is its presence in the hardware of our brain (which is thus unable to discover a more complicated scheme). <br />
+I still hope there exists a better reason that once should be discovered.</p></blockquote>
+<p>Amen to that. I&#8217;m quite hopeful human evolution will overcome the limitations of Manin&#8217;s brain&#8230;</p>
+<p><strong>3 :</strong> Next comes the Platonic trinity of the <a href="http://en.wikipedia.org/wiki/Tetrahedron">tetrahedron</a>, <a href="http://en.wikipedia.org/wiki/Cube">cube</a> and <a href="http://en.wikipedia.org/wiki/Dodecahedron">dodecahedron</a></p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity5.jpg"></p>
+<p><center><br />
+<img decoding="async" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tetrahedron.svg/240px-Tetrahedron.svg.png" width=200> <img decoding="async" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Hexahedron.svg/240px-Hexahedron.svg.png" width=200><img decoding="async" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/66/POV-Ray-Dodecahedron.svg/240px-POV-Ray-Dodecahedron.svg.png" width=200><br />
+</center></p>
+<p>Clearly one can argue against this trinity as follows : a tetrahedron is a bunch of triangles such that there are exactly 3 of them meeting in each vertex, a cube is a bunch of squares, again 3 meeting in every vertex, a dodecahedron is a bunch of pentagons 3 meeting in every vertex&#8230; and we can continue the pattern. What should be a bunch a hexagons such that in each vertex exactly 3 of them meet? Well, only one possibility : it must be the <a href="http://en.wikipedia.org/wiki/Hexagonal_tiling">hexagonal tiling</a> (on the left below). And in normal Euclidian space we cannot have a bunch of septagons such that three of them meet in every vertex, but in hyperbolic geometry this is still possible and leads to the <a href="http://math.ucr.edu/home/baez/klein.html">Klein quartic</a> (on the right). Check out this wonderful post by John Baez for more on this.</p>
+<p><center><br />
+<img decoding="async" src="http://math.ucr.edu/home/baez/KleinDualInsideOut.gif" width=300><br />
+</center></p>
+<p><strong>4 :</strong> The trinity of the rotation symmetry groups of the three Platonics</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity6.jpg"></p>
+<p>where $A_n $ is the <a href="http://en.wikipedia.org/wiki/Alternating_group">alternating group</a> on n letters and $S_n $ is the <a href="http://en.wikipedia.org/wiki/Symmetric_group">symmetric group</a>.</p>
+<p>Clearly, any rotation of a Platonic solid takes vertices to vertices, edges to edges and faces to faces. For the tetrahedron we can easily see the 4 of the group $A_4 $, say the 4 vertices. But what is the 4 of $S_4 $ in the case of a cube? Well, a cube has 4 body-diagonals and they are permuted under the rotational symmetries. The most difficult case is to see the $5 $ of $A_5 $ in the dodecahedron. Well, here&#8217;s the solution to this riddle</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cubedode.jpg"><br />
+</center></p>
+<p>there are exactly 5 inscribed cubes in a dodecahedron and they are permuted by the rotations in the same way as $A_5 $.</p>
+<p><strong>7 :</strong> The seventh trinity involves complex polynomials in one variable</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity7.jpg"></p>
+<p>the Laurant polynomials and the <strong>modular polynomials</strong> (that is, rational functions with three poles at 0,1 and $\infty $.</p>
+<p><strong>8 :</strong> The eight one is another beauty</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity8.jpg"></p>
+<p>Here &#8216;numbers&#8217; are the ordinary complex numbers $\mathbb{C} $, the &#8216;trigonometric numbers&#8217; are the quantum version of those (aka q-numbers) which is a one-parameter deformation and finally, the &#8216;elliptic numbers&#8217; are a two-dimensional deformation. If you ever encountered a Sklyanin algebra this will sound familiar.</p>
+<p>This trinity is based on a paper of Turaev and Frenkel and I must come back to it some time&#8230;</p>
+<p>The paper has some other nice trinities (such as those among Whitney, Chern and Pontryagin classes) but as I cannot add anything sensible to it, let us include a few more algebraic trinities. The first one attributed by Arnold to <a href="http://en.wikipedia.org/wiki/John_McKay_(mathematics)">John McKay</a></p>
+<p><strong>13 :</strong> A trinity parallel to the exceptional Lie algebra one is</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity9.jpg"></p>
+<p>between the 27 straight lines on a cubic surface, the 28 bitangents on a quartic plane curve and the 120 tritangent planes of a canonic sextic curve of genus 4.</p>
+<p><strong>14 :</strong> The exceptional Galois groups</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity10.jpg"></p>
+<p>explained <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">last time</a>.</p>
+<p><strong>15 :</strong> The associated curves with these groups as symmetry groups (as in the previous post)</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity11.jpg"></p>
+<p>where the ? refers to the mysterious genus 70 curve. I&#8217;ll check with one of the authors whether there is still an embargo on the content of this paper and if not come back to it in full detail.</p>
+<p><strong>16 :</strong> The three generations of <a href="http://en.wikipedia.org/wiki/Sporadic_group">sporadic groups</a></p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity12.jpg"></p>
+<p><strong>Do you have other trinities you&#8217;d like to worship?</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>wankers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/wankers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/wankers/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 10 Apr 2008 14:25:00 +0000</pubDate>
+				<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/wankers.html</guid>
+
+					<description><![CDATA[You may not have noticed, but I&#8217;m in a foul mood for weeks now because of comments and reactions to the last line of the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>You may not have noticed, but I&#8217;m in a foul mood for weeks now because of comments and reactions to the last line of the post on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/finding-moonshine.html">Finding Moonshine</a>. I wrote</p>
+<blockquote><p>Du Sautoy is a softy! I&#8217;d throw such students out of the window&#8230;</p></blockquote>
+<p>and got everyone against me for this (first floor) defenestration threat&#8230;</p>
+<p>That&#8217;s OK! I sometimes post what&#8217;s on my mind and if you don&#8217;t like it you are free to leave a comment, and, usually I won&#8217;t even bother to reply to it. But occasionally, stuff is bottling up un-healthily.</p>
+<p>So, I thought it was a good idea to have a prolonged easter-vacation, somewhere in the south of France. The weather, food, rest, drinks, company and all that were just gorgeous</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/treess.jpg" ></p>
+<p>but &#8230;</p>
+<p>A quick recap. Here&#8217;s the relevant section in duSautoy&#8217;s book again :</p>
+<blockquote><p>One of my graduate students has just left my office. He&#8217;s done some great work over the past three years and is starting to write up his doctorate, but he&#8217;s just confessed that he&#8217;s not sure that he wants to be a mathematician. I&#8217;m feeling quite sobered by this news. My graduate students are like my children. They are the future of the subject. Who&#8217;s going to read all the details of my papers if not my mathematical offspring? The subject feels so tribal that anyone who says they want out is almost a threat to everything the tribe stands for.<br />
+Anton has been working on a project very close to my current problem. There&#8217;s no denying that one can feel quite disillusioned by not finding a way into a problem. Last year one of my post-docs left for the City after attempting to scale this mountain with me. I&#8217;d already rescued him from being dragged off to the City once before. But after battling with our problem and seeing it become more and more complex, he felt that he wasn&#8217;t really cut out for it. <br />
+What is unsettling for me is that they both questioned the importance of what we are doing. They&#8217;ve asked that &#8216;What&#8217;s it all for?&#8217; question, and think they&#8217;ve seen the Emperor without any clothes.<br />
+Anton has questioned whether the problems we are working on are really important. I&#8217;ve explained why I think these are fundamental questions about basic objects in nature, but I can see that he isn&#8217;t convinced. I feel I am having to defend my whole existence. I&#8217;ve arranged for him to join me at a conference in Israel later this month, and I hope that seeing the rest of the tribe enthused and excited about these problems will re-inspire him. It will also show him that people are interested in what he is dedicating his time to.</p></blockquote>
+<p>For starters, I&#8217;m getting old so I&#8217;m from those long-forgotten days when you had to do a Ph.D. to prove that you could conduct research independently.</p>
+<p>A fortiori this meant that the topic of your thesis was your own choice and interest. The role of your Ph.D. advisor was to get you going and, occasionally, to warn you when you were straying too far afield but that was it.</p>
+<p>You, and only you, were responsible to get the thesis finished and defended.</p>
+<p>Today, the Ph.D. is just another item on the market to be consumed.</p>
+<p>Graduate students shop around looking for the advisor having the best sales-pitch, offers the best deal and, if possibly, the best after-phd service aka the promise of an academic career.</p>
+<p>Topic and main outline of the proofs are provided by the advisor and an exceptionally good student today means that (s)he proved a few results along the way on her/his own.</p>
+<p>University policy and the promotion-rat-race appear to make the Ph.D. more important to the advisor than to the defendent.</p>
+<p>Independence of research today means that after your PhD is obtained, you ditch your advisor and try to get into the slipstream of another more powerful guru, having better after-phd service prospects&#8230;</p>
+<p>For those who stick with their old advisor, the moment of truth comes when they fail to get a renewal of their grant or a permanent position.</p>
+<p>At that time one can hear complaints such as : &#8220;That persons&#8217; student got ranked ahead of me and I always thought you were better than that person?&#8221; or &#8220;The better ranked people for the position are all doing that topic instead of &#8216;ours&#8217;, so I guess your topic isn&#8217;t so important after all!&#8221;.  duSautoy&#8217;s captures it all in this one key sentence :</p>
+<p><strong>They&#8217;ve asked that &#8216;What&#8217;s it all for?&#8217; question, and think they&#8217;ve seen the Emperor without any clothes.</strong></p>
+<p>As if, failing to get a permanent position is the advisors fault, more than yours&#8230;</p>
+<p>Just for once, try to be honest to yourself : count the number of hours a day your brain-power gets you over 120 IQ. Substract from this the number of hours a day lost surfing the web idly, trying to read unreadable hep-th papers, socializing, kissing asses, socializing, doing fun things with you fellow graduate students, socializing, working on a relation, chatting, texing, emailing insults but softening it all with a closing smily  <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" />  , socializing, etc&#8230; (you know the daily-drill of a 20-30-something phd-student a lot better than I do)</p>
+<p>I&#8217;ll be damned if you get a positive outcome. But if you do, I&#8217;ll be happy to take you on as a PhD student&#8230;</p>
+<p>Well, it&#8217;s no threat, it&#8217;s a promise : the first ex-student who gets me into a &#8216;why was it all good for?&#8217; discussion will experience first floor defenestration! (provided I&#8217;ll get my window open in time)</p>
+<p>And, to soften it all, I&#8217;ll add the obligatory  <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/wankers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>yahoo pipes on iTouch</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/yahoo-pipes-on-itouch/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/yahoo-pipes-on-itouch/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 24 Jan 2008 19:54:38 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[GMD]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/yahoo-pipes-on-itouch.html</guid>
+
+					<description><![CDATA[The next thing on my tech-to-do-list : learn all about Yahoo Pipes : Pipes is a powerful composition tool to aggregate, manipulate, and mashup content&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The next thing on my tech-to-do-list : learn all about <a href="http://pipes.yahoo.com/pipes/">Yahoo Pipes</a> :</p>
+<blockquote><p>Pipes is a powerful composition tool to aggregate, manipulate, and mashup content from around the web. Like Unix pipes, simple commands can be combined together to create output that meets your needs. Here are a few popular ways the service can be used:<br />
+    &#8211;   create your ultimate custom feed by combining many feeds into one, then sorting, filtering and translating them.<br />
+    &#8211;   geocode your favorite feeds and browse the items on an interactive map.<br />
+    &#8211;   remix your favorite data sources and use the Pipe to power a new application.<br />
+    &#8211;   build custom vertical search pages that are impossible with ordinary search engines.<br />
+    &#8211;   power widgets/badges on your web site.<br />
+    &#8211;   consume the output of any Pipe in RSS, JSON, KML, and other formats.</p></blockquote>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/pipesviral2.jpg" style="float:left;margin-right:10px;" > I&#8217;ve posted before on setting up your own <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/my-lifestream.html">lifestream</a>, or your own <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/neverending-planet.html">planet</a>, or <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/my-first-scraper.html">scraping feeds</a>, or <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/subscribe-to-my-brain.html">subscribing to my brain</a>, or &#8230; whatever. The good news is : all these ideas are now superseded by Pipes!</p>
+<p>Pipes is a free online service that lets you remix popular feed types and create data mashups using a visual editor. You can use Pipes to run your own web projects, or publish and share your own web services without ever having to write a line of code. You make a Pipe by dragging pre-configured modules onto a canvas and wiring them together in the Pipes Editor. Once you&#8217;ve built a Pipe, you&#8217;ll be able save it on our server and then call it like you would any other feed. Pipes offers output in RSS 2.0, RSS 1.0 (RDF), JSON and Atom formats for maximum flexibility. You can also choose to publish your Pipe and share it with the world, allowing other users to clone it, add their own improvements, or use it as a subcomponent in their own creations.</p>
+<p>This is the essential message to get : <strong>yahoo-pipes allows you to remix the web, filtering out all noise!</strong> And the good news is</p>
+<ol>
+<li>There are plenty of public pipes around to get you going, and   </li>
+<li>Pipes has an <a href="http://blog.pipes.yahoo.com/2007/10/23/iphonepipesyahoocom-access-your-mashup-while-mobile/">iTouch-friendly interface</a> (see above left). All you have to do is to Safari to <a href="http://iphone.pipes.yahoo.com/">iphone.pipes.yahoo.com</a> and use them.  </li>
+</ol>
+<p>Here are a few public-pipes you can use out of the box!</p>
+<ul>
+<li><a href="http://pipes.yahoo.com/pipes/pipe.info?_id=TIvlRVZQ3BGMd5VUjknRlg">iPhone / iPod Touch: The Most Comprehensive Feed Ever!</a>, doing what it promises : giving you the best iTouch-posts without having to roam for them.  </li>
+<li><a href="http://pipes.yahoo.com/pipes/pipe.info?_id=qudHFl3z2xGTWsmGnkartA">JSON Geocoder</a>, returning lat/lon/address info from the the given address.  </li>
+<li><a href="http://pipes.yahoo.com/pipes/pipe.info?_id=EHx1LHi42xG4lmI1XqIxGw">Uber Blog Search</a>, Search all the blogosphere with one query. Hits Google, Ask, Technorati, and icerocket then returns the unique results. Below the web-interface giving the results for &#8216;noncommutative&#8217;&#8230;   </li>
+</ul>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/pipesnoncommutative.jpg" ></p>
+<ul>
+<li><a href="http://pipes.yahoo.com/seeminglee/metasearchalerts">Meta Search Alerts</a> if you want a less &#8216;neverendingbooks&#8217;-based reply   </li>
+</ul>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/pipesnoncommutative2.jpg" ></p>
+<p>and finally, one of my favorites, implementing to some extend the Lifestream-idea (iTouch-interface above left)</p>
+<ul>
+<li><a href="http://pipes.yahoo.com/pipes/pipe.info?_id=KnRADS3w2xGMBhkzlfXiAA">lifefeed &#8211; virable</a>, Easily Aggregate your social whereabouts great for blogs profiles and more! Aggregates Your Feeds From: -Digg -Last.fm -Twitter -Flickr -Del.icio.us and your very own blog Adopt and Improve, enjoy!  </li>
+</ul>
+<p>I&#8217;ll promise to spend some time soon to set up my very own pipes and make them available&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/yahoo-pipes-on-itouch/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>wednesday bookshelf</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/wednesday-bookshelf/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/wednesday-bookshelf/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 21 Feb 2007 11:07:44 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[monster]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=313</guid>
+
+					<description><![CDATA[The Newtonian Legacy is a free online book by Nick Evans. If you want a (somewhat over-positively) review about it, head here. For me, it&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" id="" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/newtonianlegacy.jpg" alt="" title="" style="float:left;margin-right:10px;" /></p>
+</p>
+<p><a href="http://www.hep.phys.soton.ac.uk/~evans/NL/bits.html">The Newtonian<br />
+Legacy</a> is a free online book by Nick Evans. If you want a (somewhat<br />
+over-positively) review about it, <a href="http://jonstraveladventures.blogspot.com/2007/02/newtonian-legacy-reviewed.html">head here</a>. For me, it just didn&#8217;t work but then I&#8217;m<br />
+an avid consumer of thrillers and like to be surprised. I read though to<br />
+page 80 (of 138) which is pretty good as I usually lay down an<br />
+unreadable book much sooner (most are lend from the public library, so<br />
+I&#8217;d rather start a new one as soon as it becomes tiresome). But then I<br />
+wanted to &#8216;learn about the frontier of particle physics within a fast<br />
+paced crime adventure&#8217;. One exchange is pretty telling though (p.<br />
+40-41)</p>
+<blockquote><p> &#8220;Rule is don&#8221;t get involved in popularising<br />
+science.&#8221;  &#8220;That&#8221;s a bit harsh. We have to tell people what we&#8221;re doing<br />
+if we want them to fund us,&#8221; said Carl.   &#8220;Yeah, but it&#8221;s all lies. The<br />
+theories are all mathematics, yet we say all words. That&#8221;s why  we get<br />
+these nut cases writing to us sometimes with &#8220;new theoriesiÃÇ. They&#8221;ve<br />
+just read a  popular science book and mistaken it for the core of<br />
+science. They change some words  and think they have a new theory. They<br />
+don&#8221;t understand that you have to get the  numbers right for every<br />
+experiment you can think of. It&#8221;s just misleading.&#8221;  &#8220;Well, OK,&#8221;conceded<br />
+Carl, &#8220;but you can make the point that you&#8221;re just reporting a<br />
+simplification and that if people want the real thing, they&#8221;d need<br />
+maths.&#8221;Everyone  sought inspiration in their pints again. </p></blockquote>
+<p>So, that&#8217;s why it is impossible to write about mathematics for a<br />
+general public! Anyway, a bit frustrated I went to my favorite bookshops<br />
+and read a blurb which sounded all too familiar.</p>
+<p><img decoding="async" id="" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/equinox.jpg" alt="" title="" style="float:left;margin-right:10px;" /></p>
+<blockquote><p> Oxford, 2006: a young woman is found brutally<br />
+murdered, her throat cut. Her heart has been removed and in its place<br />
+lies an apparently ancient gold coin. Twenty-four hours later, another<br />
+woman is found. The MO is identical, except that this time her brain has<br />
+been removed, and a silver coin lies glittering in the bowl of her<br />
+skull. The police are baffled but when police photographer, Philip<br />
+Bainbridge and his estranged lover, Laura Niven become involved, they<br />
+discover that these horrific, ritualistic murders are not confined to<br />
+the here and now. And a shocking story begins to emerge which<br />
+intertwines Sir Isaac Newton, one of seventeenth-century England&#8217;s most<br />
+powerful figures, with a deadly conspiracy which echoes down the years<br />
+to the present day, as lethal now as it was then. Before long those<br />
+closest to Laura are in danger, and she finds herself the one person who<br />
+can rewrite history; the only person who can stop the killer from<br />
+striking again&#8230; </p></blockquote>
+<p>The first half of <a href="http://www.amazon.co.uk/Equinox-Michael-White/dp/0099505231/sr=8-1/qid=1172085749/ref=pd_ka_1/203-3776750-7074362?ie=UTF8&amp;s=books">the<br />
+book</a> is rather promising (and at least its well written).<br />
+Mathematics even makes a short appearance as daugther Jo is studying<br />
+maths. Not that she contributes much of her talent to the story (apart<br />
+from contributing to solving one riddle) and in the end it seems to be<br />
+much more important to date the right boyfriend than to do math! The<br />
+book really becomes laughable when the couple is trapped in a maze 100<br />
+feat below the Bodleian library. Pure Indiana Jones-remake : expecting<br />
+pitfalls? here they come! what else do we remember of the movie?<br />
+arrow-traps! sure enough they appear. Oh, this must be that movie, so<br />
+whats next? well, sure enough (p. 343 &#8220;A massive block of stone crashed<br />
+down from the lintel of the archway, landing squarely with a thump on<br />
+the dusty floor. They were sealed in.&#8221; Presumably the authors<br />
+inspiration dried out!</p>
+<p>Mind you, I do not want to be negative on<br />
+principle. Sometimes (too rare) I do read an enjoyable, interesting,<br />
+intelligent thriller. The last one Ive  read was</p>
+<p><img decoding="async" id="" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/brothergrimm.jpg" alt="" title="" style="float:left;margin-right:10px;" /></p>
+<p><a href="http://www.amazon.co.uk/Brother-Grimm-Craig-Russell/dp/0099484226/sr=1-1/qid=1172085880/ref=sr_1_1/203-3776750-7074362?ie=UTF8&amp;s=books">Brother Grimm</a> by Craig Russell is a must read if you are into<br />
+serial-killer stories. Heres the synopsis</p>
+<blockquote><p> A girl&#8217;s<br />
+body lies, posed, on the pale sand of a Hamburg beach, a message<br />
+concealed in her hand. &#8216;I have been underground, and now it is<br />
+time for me to return home&#8230;&#8217; Jan Fabel, of the Hamburg murder<br />
+squad, struggles to interpret the twisted imagery of a dark and brutal<br />
+mind. Four days later, a man and a woman are found deep in woodland,<br />
+their throats slashed deep and wide, the names &#8216;Hansel&#8217; and<br />
+&#8216;Gretel&#8217;, in the same, tiny, obsessively neat writing, rolled<br />
+tight and pressed into their hands. As it becomes clear that each new<br />
+crime is a grisly reference to folk stories collected almost two hundred<br />
+years ago by the Brothers Grimm, the hunt is on for a serial killer who<br />
+is exploring our darkest, most fundamental fears &#8211; a predator who kills<br />
+and then disappears into the shadows. He is a monster we all learned to<br />
+fear in childhood.  </p></blockquote>
+<p>An original point of view, an<br />
+unorthodox setting (Hamburg!), interesting and real life personages what<br />
+more do you want? Oh, you want to learn something from reading a<br />
+bestseller? To me, this book was an eye-opener. Ever wondered why all<br />
+these serial-killer-books become bestsellers? Here&#8217;s the answer (p.<br />
+227)</p>
+<p>&lt;</p>
+<p>p>&#8221;Weiss toke a novel from the bookshell before him!! &#8216;Today<br />
+we continuously reinvent these tales. The same stories, new characters.<br />
+This is a bestseller &#8211; a story about the hunt for a serial killer who<br />
+ritually dismembers his victims. <strong>These are our fairy tales<br />
+today. These are our fables, our Maerchen. Instead of elves and kobolts<br />
+and hungry wolves lurking in the dark corners of the woods, we have<br />
+cannibals and dissectors and abductors lurking in the dark corners of<br />
+our cities.</strong> It is in our nature to guise our evil as something<br />
+extraordinary or something different: books and films about aliens,<br />
+sharks, vampires, ghosts, witches. The fact of the matter is that there<br />
+is one beast that is more dangerous, more predatory, tan any other in<br />
+the history of nature. Us.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/wednesday-bookshelf/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>bookmarks tuesday cleanup</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/bookmarks-tuesday-cleanup/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/bookmarks-tuesday-cleanup/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 20 Feb 2007 18:18:47 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[GTD]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=69</guid>
+
+					<description><![CDATA[Geeky Mom : Why am I blogging?. Been there before. Sooner or later all non-pseudonomenous bloggers are faced with the same dilemmas. There&#8217;s really no&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://geekymom.blogspot.com/2007/02/why-am-i-blogging.html"><br />
+Geeky Mom : Why am I blogging?</a>. Been there before. Sooner or later<br />
+all non-pseudonomenous bloggers are faced with the same dilemmas.<br />
+There&#8217;s really no answer or advice to give except : blog when you feel<br />
+like it, if not do something different, after all its just one of those<br />
+billion of blogs around.</p>
+</p>
+<p><a href="http://www.xm1math.net/texmaker/">Texmaker</a> : another<br />
+LaTeX-frontend, possibly having a few extras such as : a structure-pane<br />
+including labels you gave to formulas, theorems etc. (click on them<br />
+brings you to them). Intend to use it now as I&#8217;m in another rewrite of<br />
+<strong>the</strong> never-ending-book..</p>
+<p><a href="http://microformats.org/">Microformats</a> : &#8220;Designed for<br />
+humans first and machines second, microformats are a set of simple, open<br />
+data formats built upon existing and widely adopted standards.&#8221; May<br />
+have another look.</p>
+<p><a href="http://quicksilver.blacktree.com/">Quicksilver</a> : a recurring<br />
+link. At times when I feel learning key-strokes may save me a lot of<br />
+time I have (another) go at Quicksilver. Last week, Ive reinstalled this<br />
+blog more or less post by post and used keystrokes to send a line in the<br />
+SQL-file of the database dump of NEB as a clipping to Scrivener to<br />
+MultiMarkdown it further. I used the app <a href="http://www.macupdate.com/info.php/id/20192">Service Scrubber</a><br />
+to define my own key-strokes. Must have another go at Quicksilver soon.<br />
+Im sure it distinguishes ‚&#8221;power mac users&#8221; from the rest of<br />
+us.</p>
+<p><a href="http://wiki.jeffsandquist.com/default.aspx/GTD/GTDTools.html"><br />
+List of GTDTools</a> : a good list of GTD-software. I&#8217;m probably just<br />
+too chaotic for GTD to improve my workflow but somehow I cannot resist<br />
+trying some of these things out.</p>
+<p><a href="http://lifedev.net/">LifeDEV</a> : One of those sites that tells<br />
+me I should take GTD more seriously</p>
+<p><a href="http://www.jimmcgowan.net/Site/DoIt.html">DoIt</a> : One of<br />
+these GTD-tools. It is said to go well with Quicksilver, so maybe, one<br />
+day.</p>
+<p><a href="http://www.freeverse.com/think/">Think</a><br />
+: Here a little seemingly completely useless tool which works well (at<br />
+least for me). No, it does not make you think, but at least it helps you<br />
+while you are thinking (or doing anything a bit focussed). Install it<br />
+and enjoy! The principle is that it just blocks out all other open<br />
+windows (and there are keystrokes (yes, again) to get you quickly in<br />
+and out.) Besides, it looks great. It&#8217;s in my dock and this says it<br />
+all</p>
+<p><a href="http://thinkature.com/">Thinkature</a> :<br />
+a brainstorming tool. Dont know why I did bookmark this. Perhaps one<br />
+day, a few years from now</p>
+<p><a
+href="http://www.archive.org/details/lecture11461">Stafford Talk</a> :<br />
+a talk by Toby Stafford I came across by accident. Maybe there are other<br />
+interesting talks on the site?</p>
+<p><a
+href="http://scq.ubc.ca/sciencescouts/">Science Scouts</a> : a great<br />
+idea! Give yourself badges for how well you do science (or talk/write<br />
+about science). Have to collect my badges soon. I&#8217;m sure this only<br />
+works for people with a scouting-history, but who<br />
+knows?</p>
+<p><a
+href="http://www.macresearch.org/">MacResearch</a> : Here&#8217;s a site<br />
+that may become useful. MacResearch.org is an open and independent<br />
+community for scientists using Mac OS X and related hardware in their<br />
+research. It is the mission of this site to cultivate a knowledgeable<br />
+and vibrant community of researchers to exchange ideas and information,<br />
+and collectively escalate the prominence of Apple technologies in the<br />
+scientific research community. They have some interesting articles<br />
+and tutorials on e.g. DevonThink and BibDesk etc. Worth to<br />
+revisit.</p>
+<p><a
+href="http://www.nature.com/nature/journal/v445/n7129/full/445700a.html
+">Jennifer in love</a> : well‚ should I say something about this?<br />
+probably best not.</p>
+<p><a
+href="http://www.jnd.org/dn.mss/ui_breakthroughcomma.html"><br />
+Breakthrough CLI</a> : another pamphlet in favor of the Command Line! A<br />
+must read for those who perfer GUIs to CLIs.</p>
+<p>&lt;</p>
+<p>p><a
+href="http://blog.elinc.ca/rod/2007/02/17/dum-de-doo/">CLI &#8211; the<br />
+site</a> : Rod is working hard on CLI-20. Whenever he releases version<br />
+2.0, neverendingbooks will be among the first sites to run it. I still<br />
+love the idea.</p>
+<p><a
+href="http://golem.ph.utexas.edu/category/2007/02/why_do_i_bother.html\
+">Why do I bother?</a> : an n-category post I got briefly interested in,<br />
+but was somehow flooded by professional<br />
+math-philosophers</p>
+<p><a
+href="http://jonstraveladventures.blogspot.com/2007/02/newtonian-legacy
+-reviewed.html">Newton Legacy Reviewed</a> : just that, a first review<br />
+on the next bookmark.</p>
+<p><a
+href="http://www.hep.phys.soton.ac.uk/~evans/NL/bits.html">the Newton<br />
+Legacy</a> : a free online book, a murder mystery with a physics touch.<br />
+Perhaps this is the best investment of time/energy : write a popular<br />
+science book rather than another paper. Read half way through it (sorry<br />
+but not the best prose Ive read so far), may continue but was held up<br />
+reading a (real) murder mystery Equinox featuring also Newton and<br />
+alchemy (must be in the air somehow), also not the best mystery read<br />
+so far</p>
+<p><a
+href="http://skepchick.org/blog/?p=390">Stalking with Googleearth</a><br />
+: no comment</p>
+<p>(to be continued)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bookmarks-tuesday-cleanup/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>my lifestream</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/my-lifestream/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/my-lifestream/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2006 13:48:36 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=251</guid>
+
+					<description><![CDATA[The old concept of getting your brain subscribed to has a reincarnation into the lifestream idea : add a page to your blog listing all&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The old<br />
+concept of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=238">getting your<br />
+brain subscribed to</a> has a reincarnation into the<br />
+<strong>lifestream</strong> idea : add a page to your blog listing all<br />
+your timed actions on the web.    I stumbled upon it via the <a href="http://www.chrisjdavis.org/2006/11/26/lifestream-ala-wordpress/"><br />
+Lifestream &#8211; ala wordpress</a> post containing a link to the original <a href="http://adactio.com/journal/1202/">Streaming my life away</a><br />
+article by <a href="http://adactio.com/">Jeremy Keith</a>.    After far<br />
+too much time I managed to install Chris Davis&#8217; <a href="http://www.chrisjdavis.org/2006/11/26/lifestream-ala-wordpress/"><br />
+Lifestream wordpress plugin</a>. Here are some comments that may make it easier to install a<br />
+lifestream page yourself.    To begin, don&#8217;t download the plugin at the<br />
+top of the page, but rather scroll down to comment 886-59 by Gunnar<br />
+Hafdal and download via the link given there (or use <a href="http://gunnarhafdal.com/lifestream-gh.zip">this direct link</a>).<br />
+This version at least contains a readme file (even after reading through<br />
+all the php-code of the other version I didn&#8217;t have a clue as how to use<br />
+it, in the readme file I finally learned that you had to create a new<br />
+page and use Lifestream as a page-template&#8230;).    Next, I could&#8217;t<br />
+get it working until line 78 of <strong>stream.php</strong> was<br />
+commented out (the Copenhagen-time line). Also don&#8217;t use the<br />
+Dashboard-Manage-Lifestream page in the hope to change your<br />
+RSS-subsriptions, but rather hard-code them in the<br />
+<strong>life.php</strong> file. Bear in mind that not all RSS-data will<br />
+work with Lifestream. I&#8217;ve tried out all of the social bookmark sites of<br />
+which the logo is given at the bottom of a post, and found that only six<br />
+of them work without doing extra work : <a href="http://co.mments.com/">co.mments</a>, <a href="http://digg.com/">digg</a>,<br />
+<a href="http://digg.com/">ma.gnolia</a>, <a href="http://www.furl.net/">furl</a>, <a href="http://www.netvouz.com/">netvouz</a> and <a href="http://de.lirio.us/">de.lirio.us</a> (the last one modulo the fact<br />
+that it doesnt give the accurate time). At the moment I&#8217;ve added just<br />
+co.mments, digg, magnolia and netvouz to my lifestream but I may add<br />
+other streams later.    Of course one can solve problems with the other<br />
+RSS-feeds by scraping them and writing new feeds which Lifestream (or<br />
+rarther the underlying magpieRSS bundled with wordpress) can handle. I<br />
+assume this is the idea behind the <a href="http://elliottback.com/wp/archives/2006/12/14/lifestream-wp-plugin-for-wordpress/">other Lifestream plugin</a> by Elliot Black (I havent<br />
+tried this one out).    The last thing to do is then to change the<br />
+<strong>stream.php</strong> file so that it produces a page with more or<br />
+less the same look and feel of the rest of the blog. Apart from a few<br />
+things which I still have to remedy, I&#8217;m happy with my<br />
+Lifestream. Now it is time to have a serious go at some of these<br />
+social-bookmarking sites&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/my-lifestream/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>get your brain subscribed to</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/get-your-brain-subscribed-to/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/get-your-brain-subscribed-to/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 08 Feb 2006 08:10:30 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[foaf]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[tracks]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=286</guid>
+
+					<description><![CDATA[In the &#8216;subscribe to my brain&#8217; post I promised to blog on how-to get your own button up and running on your homepage. It seems&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In the<br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=238">&#8216;subscribe<br />
+to my brain&#8217; post</a> I promised to blog on how-to get your own </p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/brain.png"/></p>
+<p>button up and running on your homepage.  It seems rather unlikely<br />
+that I&#8217;ll ever keep that promise if I don&#8217;t do it right away. So, here<br />
+we go for a quick tour :</p>
+<p><strong>step 1 : set up a rudimentary<br />
+FoaF-file</strong> : read the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/foaf/">FoaF post</a> if<br />
+you dont know what it&#8217;s all about. The easiest way to get a simple<br />
+FoaF-file of your own is to go to the <a href="http://www.ldodds.com/foaf/foaf-a-matic.html">FoaF-a-matic<br />
+webpage</a> and fill in the details you feel like broadcasting over the<br />
+web, crucial is your name and email information (for later use) but<br />
+clearly the more details you fill out and the more Friends you add the<br />
+more useful your file becomes. Click on the &#8216;foaf-me&#8217; button and<br />
+copy the content created. Observe that there is no sign of my email<br />
+adress, it is encrypted in the _mbox_sha1sum_ data. Give this<br />
+file a name like _foaf.rdf_ or _myname.rdf_ and put it on<br />
+your webserver to make it accessible. Also copy your<br />
+_mbox_sha1sum_ info for later <a href="http://rdfweb.org/topic/Smushing">smushing</a>.</p>
+<p><strong>step 2 : subscribe to online services and modify your<br />
+online-life accordingly</strong> : probably you have already a few of<br />
+these accounts, but if not, take a free subscription just for fun and<br />
+(hopefully) later usage to the following sites :</p>
+<ul>
+<li><a href="http://del.icio.us/">del.icio.us</a> a social bookmarks manager
+</li>
+<li><a href="http://www.citeulike.org/">citeUlike</a> a service to<br />
+organise your academic papers  </li>
+<li><a href="http://www.connotea.org/">connotea</a> a reference management<br />
+service for scientists  </li>
+<li><a href="http://www.bloglines.com/">bloglines</a> a web-based personal news<br />
+aggregator  </li>
+<li><a href="http://www.43things.com/">43things</a> a<br />
+&#8216;What do you want to do with your life?&#8217; service  </li>
+<li><a href="http://www.audioscrobbler.net/">audioscrobbler</a> a database that<br />
+tracks listening habits and does wonderful things with statistics  </li>
+<li><a href="http://www.backpackit.com/">backpackit</a> a &#8216;be better organized&#8217; service (Update october 2017 : Tom Howard emails: &#8220;I thought I’d reach out because we’ve just updated our guide which reviews the best alternatives to Backpack. Here’s the <a href="https://blogging.im/backpack-alternatives">link</a>&#8221;   </li>
+<li><a href="http://www.flickr.com/">flickr</a> an online photo management and<br />
+sharing application  </li>
+<li><a href="http://www.technorati.com/">technorati</a> a Google-for-weblogs
+</li>
+<li><a href="http://upcoming.org/">upcoming</a> a social event<br />
+calendar  </li>
+<li><a href="http://webjay.org/">webjay</a> a playlist<br />
+community  </li>
+</ul>
+<p>So far, I&#8217;m addicted to del.icio.us and use<br />
+citeUlike but hardly any of the others (but I may come back to this<br />
+later). The great thing about these services is that you get more<br />
+value-information back if you feed more into the system. For example, if<br />
+you use del.icio.us as your &#8216;public&#8217; bookmarks-file you get to<br />
+know how many other people have bookmarked the same site and you can<br />
+access their full bookmarks which often is a far more sensible way to<br />
+get at the information you are after than mindless Googling. So, whereas<br />
+I was at first a bit opposed to the exhibisionist-character of these<br />
+services (after all, anyone with web-access can have a look at<br />
+&#8216;your&#8217; info), I&#8217;ve learned that the &#8216;social&#8217; feature of<br />
+these services can be beneficial to get the right information I want.<br />
+Hence, the hardest part is not to get an account with these services but<br />
+to adopt your surfing behavior in such a way that you maximize this<br />
+added value. And, as I mentioned before, I&#8217;m doing badly myself but hope<br />
+that things will improve&#8230;</p>
+<p><strong>step 3 : turn these<br />
+accounts into an OPML file</strong> : Knowing the URL of your foaf-file<br />
+and sha1-info (step 1) and your online accounts, go to the <a
+href="http://www.ldodds.com/foaf/online-account">FOAF Online Account<br />
+Description Generator</a> and feed it with your data. You will then get<br />
+another foaf-file back (save the source in a file such as<br />
+_accounts.rdf_ and put it on your webserver). Read the Lost Boy&#8217;s<br />
+posts <a href="http://www.ldodds.com/blog/archives/000217.html">Subscribe to my<br />
+brain</a> and <a href="http://www.ldodds.com/blog/archives/000218.html">foaf:<br />
+OnlineAccount Generator</a> for more background info. Then, use the <a href="http://www.ldodds.com/foaf/brain-subscribe">SubscribeToMyBrain-<br />
+form</a> to get an OPML-file out of the account.rdf file and your sha1.<br />
+Save the source as _mybrain.opml_.</p>
+<p><strong>step 4 :<br />
+add/delete information you want</strong> : The above method uses generic<br />
+schemes to deduce relevant RSS-data from an account name, which works<br />
+for some services, but doesn&#8217;t for all. So, if you happen to know the<br />
+URL of RSS-feeds for one of these services, you can always add it<br />
+manually to the OPML-file (or delete data you don&#8217;t want to<br />
+publish&#8230;). My own attitude is to make all public web-data<br />
+available and to leave it to the subscriber to unsubscribe those parts<br />
+of my brain (s)he is not interested in. I know there are people whoo are<br />
+mainly interested to find out whether I put another paper online, would<br />
+tolerate some weblog-posts but have no interest in my musical tast,<br />
+whereas there are others who would like me to post more on 43things,<br />
+flickr or upcoming and don&#8217;t give a damn about my mathematics&#8230;<br />
+Apart from these online subscriptions, it is also a good idea to include<br />
+additional RSS-feeds you produce, such as those of your weblog or use my<br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=239">Perl<br />
+script</a> to have your own arXiv-feeds.</p>
+<p><strong>step 5 : make<br />
+your &#8216;subscribe to my brain&#8217;-button</strong> : Now, put the<br />
+OPML-file on your webserver, put the button</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/brain.png"/></p>
+<p>on your<br />
+homepage and link it to the file. Also, add information on your site,<br />
+similar to the one I gave in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=238">my own<br />
+subscription post</a> so that your readers know what to do when do want<br />
+to subscribe to (parts of) your brain. Finally, (and optionally though<br />
+I&#8217;d wellcome it) send me an email with your URL so that I can subscribe<br />
+(next time you&#8217;re in Antwerp I&#8217;ll buy you a beer) and for the first few<br />
+who do so and are working in noncommutative geometry and/or<br />
+noncommutative algebra, I&#8217;ll send a copy of a <a href="http://www.lulu.com/neverendingbooks">neverending book</a>. Mind<br />
+you, this doesn&#8217;t apply to local people, I&#8217;m already subscribed to their<br />
+brain on a daily basis&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/get-your-brain-subscribed-to/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>added to MyBrain : arXiv</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/added-to-mybrain-arxiv/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/added-to-mybrain-arxiv/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 31 Jan 2006 12:55:13 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[foaf]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[OSX]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=239</guid>
+
+					<description><![CDATA[Clearly, someone who subscribed to your brain shouldn&#8217;t have to check the arXiv every morning only to find out that you still haven&#8217;t posted _the_&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Clearly, someone who <a
+href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=238" ><br />
+subscribed to your brain</a> shouldn&#8217;t have to check the <a href="http://www.arxiv.org/">arXiv</a> every morning only to find out<br />
+that you still haven&#8217;t posted _the_ paper s(h)e is expecting of<br />
+you, based on your recent BrainActivity&#8230; </p>
+<p>So why not<br />
+package this into your Brain subscription? It is easy enough to get all<br />
+posts by a specific author from the archive but, unfortunately, the<br />
+arXiv doesn&#8217;t provide RSS-feeds of this information (at least, not to my<br />
+knowledge). Still, it is possible to fix this with <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/arxivposts.pl">a tiny<br />
+Perl-script</a>.</p>
+<p>So copy the code and adjust it replacing MyInfo<br />
+by Yours (or sligthly safer, get the <a href="https://lievenlebruyn.github.io/neverendingbooks/SOURCES/arxivpost.pl">arxivpost.pl<br />
+</a> file as I had to add a few spaces to get it un-parsed) and safe it<br />
+somewhere on your system.</p>
+<p>So how to put this to use? Btw. I know<br />
+that all of you know this by heart and that I may have given you the<br />
+(false, i swear) illusion to be fairly knowledgeable writing a<br />
+Perl-script in half an hour, but believe me, in two months (and sooner<br />
+when it&#8217;s up to me) I will have completely eradicated all this<br />
+techie-stuff from MyBrain. Then, it will take me infinitely longer to<br />
+remember/reconstruct things than it will take me now to blog this here,<br />
+so please either bear with me or go somewhere more interesting.</p>
+<p>You&#8217;d better have Perl installed on your system, but then you have to<br />
+install extra modules from <a href="http://www.cpan.org/">CPAN</a> the<br />
+Comprehensive Perl Archive Network (this is to Perl what <a href="http://www.ctan.org/">CTAN</a> is to TeX for the mathematicians<br />
+among us). That&#8217;s pretty easy if you remember the correct commands. The<br />
+generic way to do this is by firing up your Terminal and typing things<br />
+like</p>
+<pre><code> iBookLieven:~ lieven$ sudo perl -MCPAN -e shell
+Password:  cpan shell -- CPAN exploration and modules installation
+(v1.83) ReadLine support enabled  cpan> install Template::Extract
+</code></pre>
+<p>and similarly for the other modules you&#8217;ll need,<br />
+LWP::Simple and XML::RSS. You may be asked questions but just go for the<br />
+default. If something goes wrong and you get a message that the module<br />
+failed to install, you have to go for a manual override&#8230;</p>
+<p>Go to <a href="http://www.cpan.org/">CPAN</a> and do a <a href="http://search.cpan.org/">search</a> on the module&#8217;s name. You&#8217;ll<br />
+be given a list op files to download, go for the one you need and<br />
+download the souce somewhere. Then, again in Terminal do the following<br />
+routine</p>
+<ul>
+<li>cd to the downloaded and extracted directory
+</li>
+<li>perl Makefile.PL  </li>
+<li>make  </li>
+<li>make test  </li>
+<li>sudo make install  </li>
+</ul>
+<p>Even if the test fails with<br />
+certain errors, just go ahead (it will not matter for the trivial uses<br />
+we have for these modules) and the last command is Mac OSX only (I&#8217;m<br />
+pretty certain that Linux-fanatics know what to do instead and for<br />
+Windows-diehards, well&#8230;.).</p>
+<p>Having all modules installed<br />
+you can execute the file with </p>
+<p><code> perl arxivpost.pl<br />
+</code></p>
+<p>(assuming you created the Directory in which the program<br />
+is supposed to safe the arxivXXX.rdf file and assuming you made it<br />
+writable). That&#8217;s it. You now have your own RSS feeds of all your papers<br />
+on the arXiv which you should make for of YourBrain subscription). </p>
+<p>Just one more thing you should do. Make this a <a href="http://www.unixgeeks.org/security/newbie/unix/cron-1.html">cron<br />
+job</a>. Check at what local time the arXiv puts online the new papers<br />
+of the day (assume it is 3am) then do a <strong>sudo crontab -e</strong><br />
+and then add a line to the file as</p>
+<p><code> 5 3 * * Mon-Fri perl<br />
+/pathtowhereitis/arxivpost.pl </code></p>
+<p>and your subscribers will<br />
+only have to wait 5 minutes to know whether you did it&#8230;(or not).<br />
+You can check it out either by subscribing to MyBrain or subscribing to<br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/FOAF/arxivLLB.rdf">http://www./<br />
+neverendingbooks.org/FOAF/arxivLLB.rdf</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/added-to-mybrain-arxiv/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

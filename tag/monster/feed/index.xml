@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>monster &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/monster/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 22 Jul 2019 11:47:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Monstrous dessins 1</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 22 Jul 2019 11:47:59 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[dessins d'enfant]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[McKay]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Ono]]></category>
+		<category><![CDATA[Stein]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8480</guid>
+
+					<description><![CDATA[Dedekind&#8217;s Psi-function $\Psi(n)= n \prod_{p &#124;n}(1 + \frac{1}{p})$ pops up in a number of topics: $\Psi(n)$ is the index of the congruence subgroup $\Gamma_0(n)$ in&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6">Dedekind&#8217;s Psi-function</a> $\Psi(n)= n \prod_{p |n}(1 + \frac{1}{p})$ pops up in a number of topics:</p>
+<ul>
+<li>$\Psi(n)$ is the index of the congruence subgroup $\Gamma_0(n)$ in the modular group $\Gamma=PSL_2(\mathbb{Z})$,</li>
+<li>$\Psi(n)$ is the number of points in the projective line $\mathbb{P}^1(\mathbb{Z}/n\mathbb{Z})$,</li>
+<li>$\Psi(n)$ is the number of classes of $2$-dimensional lattices $L_{M \frac{g}{h}}$ at hyperdistance $n$ in <a href="https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative">Conway&#8217;s big picture</a> from the standard lattice $L_1$,</li>
+<li>$\Psi(n)$ is the number of admissible maximal commuting sets of operators in the Pauli group of a single qudit.</li>
+</ul>
+<p>The first and third interpretation have obvious connections with <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">Monstrous Moonshine</a>.</p>
+<p>Conway&#8217;s big picture originated from the desire to better understand the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups">Moonshine groups</a>, and <a href="https://arxiv.org/pdf/1411.5354.pdf">Ogg&#8217;s Jack Daniels problem</a><br />
+asks for a conceptual interpretation of the fact that the prime numbers such that $\Gamma_0(p)^+$ is a genus zero group are exactly the prime divisors of the order of the Monster simple group.</p>
+<p>Here&#8217;s a nice talk by Ken Ono : <a href="https://www.youtube.com/watch?v=Jliw4bpefGU">Can&#8217;t you just feel the Moonshine?</a></p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jliw4bpefGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
+</center></p>
+<p>For this reason it might be worthwhile to make the connection between these two concepts and the number of points of $\mathbb{P}^1(\mathbb{Z}/n\mathbb{Z})$ as explicit as possible.</p>
+<p>Surely all of this is classical, but it is nicely summarised in the paper by Tatitscheff, He and McKay <a href="https://arxiv.org/abs/1812.11752">&#8220;Cusps, congruence groups and monstrous dessins&#8221;</a>.</p>
+<p>The &#8216;monstrous dessins&#8217; from their title refers to the fact that the lattices $L_{M \frac{g}{h}}$ at hyperdistance $n$ from $L_1$ are permuted by the action of the modular groups and so determine a <a href="https://en.wikipedia.org/wiki/Dessin_d%27enfant">Grothendieck&#8217;s dessin d&#8217;enfant</a>. In this paper they describe the dessins corresponding to the $15$ genus zero congruence subgroups $\Gamma_0(n)$, that is when $n=1,2,3,4,5,6,7,8,9,10,12,13,16,18$ or $25$.</p>
+<p>Here&#8217;s the &#8216;monstrous dessin&#8217; for $\Gamma_0(6)$</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/dessin6.jpg" width=50%><br />
+</center></p>
+<p>But, one can compute these dessins for arbitrary $n$, describing the ripples in Conway&#8217;s big picture, and try to figure out whether they are consistent with the Riemann hypothesis.</p>
+<p>We will get there eventually, but let&#8217;s start at an easy pace and try to describe <strong>the points of the projective line $\mathbb{P}^1(\mathbb{Z}/n \mathbb{Z})$</strong>.</p>
+<p>Over a field $k$ the points of $\mathbb{P}^1(k)$ correspond to the lines through the origin in the affine plane $\mathbb{A}^2(k)$ and they can represented by projective coordinates $[a:b]$ which are equivalence classes of couples $(a,b) \in k^2- \{ (0,0) \}$ under scalar multiplication with non-zero elements in $k$, so with points $[a:1]$ for all $a \in k$ together with the point at infinity $[1:0]$. When $n=p$ is a prime number we have $\# \mathbb{P}^1(\mathbb{Z}/p\mathbb{Z}) = p+1$. Here are the $8$ lines through the origin in $\mathbb{A}^2(\mathbb{Z}/7\mathbb{Z})$</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/projline7.png" width=60%><br />
+</center></p>
+<p>Over an arbitrary (commutative) ring $R$ the points of $\mathbb{P}^1(R)$ again represent equivalence classes, this time of pairs<br />
+\[<br />
+(a,b) \in R^2~:~aR+bR=R \]<br />
+with respect to scalar multiplication by units in $R$, that is<br />
+\[<br />
+(a,b) \sim (c,d)~\quad~\text{iff}~\qquad \exists \lambda \in R^*~:~a=\lambda c, b = \lambda d \]<br />
+For $\mathbb{P}^1(\mathbb{Z}/n \mathbb{Z})$ we have to find all pairs of integers $(a,b) \in \mathbb{Z}^2$ with $0 \leq a,b < n$ with $gcd(a,b)=1$ and use <a ref="https://homepages.warwick.ac.uk/staff/J.E.Cremona/papers/gamma1x.pdf">Cremona&#8217;s trick</a> to test for equivalence:<br />
+\[<br />
+(a,b) = (c,d) \in \mathbb{P}^1(\mathbb{Z}/n \mathbb{Z})~\quad \text{iff}~\quad ad-bc \equiv 0~mod~n \]<br />
+The problem is to find a canonical representative in each class in an efficient way because this is used a huge number of times in working with modular symbols.</p>
+<p>Perhaps the best algorithm, for large $n$, is sketched in pages 145-146 of Bill Stein&#8217;s <a href="https://wstein.org/books/modform/stein-modform.pdf">Modular forms: a computational approach</a>.</p>
+<p>For small $n$ the algorithm in $\S 1.3$ in the Tatitscheff, He and McKay paper suffices:</p>
+<ul>
+<li>Consider the action of $(\mathbb{Z}/n\mathbb{Z})^*$ on $\{ 0,1,&#8230;,n-1 \}=\mathbb{Z}/n\mathbb{Z}$ and let $D$ be the set of the smallest elements in each orbit,</li>
+<li>For each $d \in D$ compute the stabilizer subgroup $G_d$ for this action and let $C_d$ be the set of smallest elements in each $G_d$-orbit on the set of all elements in $\mathbb{Z}/n \mathbb{Z}$ coprime with $d$,</li>
+<li>Then $\mathbb{P}^1(\mathbb{Z}/n\mathbb{Z})= \{ [c:d]~|~d \in D, c \in C_d \}$.</li>
+</ul>
+<p>Let&#8217;s work this out for $n=12$ which will be our running example (the smallest non-squarefree non-primepower):</p>
+<ul>
+<li>$(\mathbb{Z}/12\mathbb{Z})^* = \{ 1,5,7,11 \} \simeq C_2 \times C_2$,</li>
+<li>The orbits on $\{ 0,1,&#8230;,11 \}$ are<br />
+\[<br />
+\{ 0 \}, \{ 1,5,7,11 \}, \{ 2,10 \}, \{ 3,9 \}, \{ 4,8 \}, \{ 6 \} \]<br />
+and $D=\{ 0,1,2,3,4,6 \}$,</li>
+<li>$G_0 = C_2 \times C_2$, $G_1 = \{ 1 \}$, $G_2 = \{ 1,7 \}$, $G_3 = \{ 1,5 \}$, $G_4=\{ 1,7 \}$ and $G_6=C_2 \times C_2$,</li>
+<li>$1$ is the only number coprime with $0$, giving us $[1:0]$,</li>
+<li>$\{ 0,1,&#8230;,11 \}$ are all coprime with $1$, and we have trivial stabilizer, giving us the points $[0:1],[1:1],&#8230;,[11:1]$,</li>
+<li>$\{ 1,3,5,7,9,11 \}$ are coprime with $2$ and under the action of $\{ 1,7 \}$ they split into the orbits<br />
+\[<br />
+\{ 1,7 \},~\{ 3,9 \},~\{ 5,11 \} \]<br />
+giving us the points $[1:2],[3:2]$ and $[5:2]$,</li>
+<li>$\{ 1,2,4,5,7,8,10,11 \}$ are coprime with $3$, the action of $\{ 1,5 \}$ gives us the orbits<br />
+\[<br />
+\{ 1,5 \},~\{ 2,10 \},~\{ 4,8 \},~\{ 7,11 \} \]<br />
+and additional points $[1:3],[2:3],[4:3]$ and $[7:3]$,</li>
+<li>$\{ 1,3,5,7,9,11 \}$ are coprime with $4$ and under the action of $\{ 1,7 \}$ we get orbits<br />
+\[<br />
+\{ 1,7 \},~\{ 3,9 \},~\{ 5,11 \} \]<br />
+and points $[1:4],[3:4]$ and $[5,4]$,</li>
+<li>Finally, $\{ 1,5,7,11 \}$ are the only coprimes with $6$ and they form a single orbit under $C_2 \times C_2$ giving us just one additional point $[1:6]$.</li>
+</ul>
+<p>This gives us all $24= \Psi(12)$ points of $\mathbb{P}^1(\mathbb{Z}/12 \mathbb{Z})$ (strangely, op page 43 of the T-H-M paper they use different representants).</p>
+<p>One way to see that $\# \mathbb{P}^1(\mathbb{Z}/n \mathbb{Z}) = \Psi(n)$ comes from a consequence of the Chinese Remainder Theorem that for the prime factorization $n = p_1^{e_1} &#8230; p_k^{e_k}$ we have<br />
+\[<br />
+\mathbb{P}^1(\mathbb{Z}/n \mathbb{Z}) = \mathbb{P}^1(\mathbb{Z}/p_1^{e_1} \mathbb{Z}) \times &#8230; \times \mathbb{P}^1(\mathbb{Z}/p_k^{e_k} \mathbb{Z}) \]<br />
+and for a prime power $p^k$ we have canonical representants for $\mathbb{P}^1(\mathbb{Z}/p^k \mathbb{Z})$<br />
+\[<br />
+[a:1]~\text{for}~a=0,1,&#8230;,p^k-1~\quad \text{and} \quad [1:b]~\text{for}~b=0,p,2p,3p,&#8230;,p^k-p \]<br />
+which shows that $\# \mathbb{P}^1(\mathbb{Z}/p^k \mathbb{Z}) = (p+1)p^{k-1}= \Psi(p^k)$.</p>
+<p>Next time, we&#8217;ll connect $\mathbb{P}^1(\mathbb{Z}/n \mathbb{Z})$ to Conway&#8217;s big picture and the congruence subgroup $\Gamma_0(n)$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the Riemann hypothesis and 5040</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 07 Jul 2019 10:27:01 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[Nicolas]]></category>
+		<category><![CDATA[Ramanujan]]></category>
+		<category><![CDATA[Riemann hypothesis]]></category>
+		<category><![CDATA[Robin]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8397</guid>
+
+					<description><![CDATA[Yesterday, there was an interesting post by John Baez at the n-category cafe: The Riemann Hypothesis Says 5040 is the Last. The 5040 in the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, there was an interesting post by John Baez at the n-category cafe: <a href="https://golem.ph.utexas.edu/category/2019/07/the_riemann_hypothesis_says_50.html">The Riemann Hypothesis Says 5040 is the Last</a>.</p>
+<p>The 5040 in the title refers to the largest known counterexample to a bound for the sum-of-divisors function<br />
+\[<br />
+\sigma(n) = \sum_{d | n} d = n \sum_{d | n} \frac{1}{d} \]</p>
+<p>In 1983, the french mathematician Guy Robin proved that the Riemann hypothesis is equivalent to<br />
+\[<br />
+\frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \]
+when $n > 5040$.</p>
+<p>The other known counterexamples to this bound are the numbers 3,4,5,6,8,9,10,12,16,18,20,24,30,36,48,60,72,84,120,180,240,360,720,840,2520.<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GuyRobin.jpg" width=50%><br />
+</center><br />
+In Baez&#8217; post there is a nice graph of this function made by Nicolas Tessore, with 5040 indicated with a grey line towards the right and the other counterexamples jumping over the bound 1.78107&#8230;<br />
+<center><br />
+<img decoding="async" src="http://math.ucr.edu/home/baez/mathematical/robin's_theorem_nicolas_tessore.png"><br />
+</center><br />
+Robin&#8217;s theorem has a remarkable history, starting in 1915 with good old Ramanujan writing a part of this thesis on &#8220;highly composite numbers&#8221; (numbers divisible by high powers of primes).</p>
+<p>His PhD. adviser Hardy liked his result but called them &#8220;in the backwaters of mathematics&#8221; and most of it was not published at the time of Ramanujan&#8217;s degree ceremony in 1916, due to paper shortage in WW1.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/RamanujanDegree.jpg" width=100% ><br />
+</center></p>
+<p>When Ramanujan&#8217;s paper &#8220;Highly Composite Numbers&#8221; was first published in 1988 in &#8216;The lost notebook and other unpublished papers&#8217; it became clear that Ramanujan had already part of Robin&#8217;s theorem.</p>
+<p>Ramanujan states that if the Riemann hypothesis is true, then for $n_0$ large enough we must have for all $n > n_0$ that<br />
+\[<br />
+\frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \]
+
+When Jean-Louis Nicolas, Robin's PhD. adviser, read Ramanujan's lost notes he noticed that there was a sign error in Ramanujan's formula which prevented him from seeing Robin's theorem.
+
+
+
+<p />
+<p>Nicolas: &#8220;Soon after discovering the hidden part, I read it and saw the difference between Ramanujan&#8217;s result and Robin&#8217;s one. Of course, I would have bet that the error was in Robin&#8217;s paper, but after recalculating it several times and asking Robin to check, it turned out that there was an error of sign in what Ramanujan had written.&#8221;</p>
+<p />
+<p>If you are interested in the full story, read the paper by Jean-Louis Nicolas and Jonathan Sondow: <a href="https://arxiv.org/abs/1211.6944">Ramanujan, Robin, Highly Composite Numbers, and the Riemann Hypothesis</a>.</p>
+<p />
+<p>What&#8217;s the latest on Robin&#8217;s inequality? An <a href="https://arxiv.org/search/math?query=Robin%27s+inequality&#038;searchtype=all&#038;abstracts=show&#038;order=-announced_date_first&#038;size=50">arXiv-search for Robin&#8217;s inequality</a> shows a flurry of activity.</p>
+<p />
+<p>For starters, it has been verified for all numbers smaller that $10^{10^{13}}$&#8230;</p>
+<p />
+<p>It has been verified, unconditionally, for certain classes of numbers:</p>
+<ul>
+<li>all odd integers $> 9$</li>
+<li>all numbers not divisible by a 25-th power of a prime</li>
+</ul>
+<p />
+<p>Rings a bell? Here&#8217;s another hint:</p>
+<p />
+According to Xiaolong Wu in <a href="https://arxiv.org/abs/1812.00987">A better method than t-free for Robin&#8217;s hypothesis</a> one can replace the condition of &#8216;not divisible by an N-th power of a prime&#8217; by &#8216;not divisible by an N-th power of 2&#8217;.</p>
+<p />
+Further, he claims to have an (as yet unpublished) argument that Robin&#8217;s inequality holds for all numbers not divisible by $2^{42}$.</p>
+<p />
+So, where should we look for counterexamples to the Riemann hypothesis?</p>
+<p />
+What about the orders of huge simple groups?</p>
+<p />
+The order of the Monster group is too small to be a counterexample (yet, it is divisible by $2^{46}$).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the monster dictates her picture</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-monster-dictates-her-picture/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-monster-dictates-her-picture/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 03 Feb 2018 16:05:51 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7991</guid>
+
+					<description><![CDATA[The monstrous moonshine picture is a sub-graph of Conway&#8217;s Big Picture on 218 vertices. These vertices are the classes of lattices needed in the construction&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally">monstrous moonshine picture</a> is a sub-graph of <a href="https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that">Conway&#8217;s Big Picture</a> on 218 vertices. These vertices are the classes of lattices needed in the construction of the 171 moonshine groups. That is, moonshine gives us the shape of the picture.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/monsterpicture.jpg"></p>
+<p>(image credit <a href="https://www.adventure-in-a-box.com/friendly-monster-watercolour-blow-art-with-straws/">Friendly Monsters</a>)</p>
+<p>But we can ask to reverse this process. Is the shape of the picture dictated by group-theoretic properties of the <a href="https://en.wikipedia.org/wiki/Monster_group">monster</a>?</p>
+<p>That is, can we reconstruct the 218 lattices and their edges starting from say the conjugacy classes of the monster and some simple rules?</p>
+<p>Look at the the <a href="https://www.gap-system.org/Manuals/doc/ref/chap73.html#X781FAA497E3B4D1A">power maps</a> for the monster. That is, the operation on conjugacy classes sending the class of $g$ to that of $g^k$ for all divisors $k$ of the order of $g$. Or, if you prefer, the $\lambda$-ring structure on the representation ring.</p>
+<p>Rejoice die-hard believers in <a href="https://en.wikipedia.org/wiki/Field_with_one_element">$\mathbb{F}_1$-theory</a>, rejoice!</p>
+<p>Here&#8217;s the game to play.</p>
+<p>Let $g$ be a monster element of order $n$ and take $d=gcd(n,24)$.</p>
+<p>(1) : If $d=8$ and a power map of $g$ gives class $8C$ add $(n|4)$ to your list.</p>
+<p>(2) : Otherwise, look at the smallest power of $g$ such that the class is one of $12J,8F,6F,4D, 3C,2B$ or $1A$ and add $(n|e)$ where $e$ is the order of that class, or, if $n > 24$ and $e$ is even add $(n | \frac{e}{2})$.</p>
+<p>A few examples:</p>
+<p>For class 20E, $d=4$ and the power maps give classes 4D and 2B, so we add $(20|2)$.</p>
+<p>For class 32B, $d=8$ but the power map gives 8E so we resort to rule (2). Here the power maps give 8E, 4C and 2B. So, the best class is 4C but as $32 > 24$ we add $(32|2)$.</p>
+<p>For class 93A, $d=3$ and the power map gives 3C and even though $93 > 24$ we add $(93|3)$.</p>
+<p>This gives us a list of instances $(n|e)$ with $n$ the order of a monster element. For $N=n \times e$ look at all divisors $h$ of $24$ such that $h^2$ divides $N$ and add to your list of lattices those of the form $M \frac{g}{h}$ with $g$ strictly smaller than $h$ and $(g,h)=1$ and $M$ a divisor of $\frac{N}{h^2}$.</p>
+<p>This gives us a list of lattices $M \frac{g}{h}$, which is an $h$-th root of unity centered as $L=M \times h$ (see <a href="https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally">this post</a>). If we do this for all lattices in the list we can partition the $L$&#8217;s in families according to which roots of unity are centered at $L$.</p>
+<p>This gives us the moonshine picture. (modulo mistakes I made)</p>
+<p>The operations we have to do after we have our list of instances $(n|e)$ is pretty straightforward from the rules we used to determine the lattices needed to describe a moonshine group.</p>
+<p>Perhaps the oddest part in the construction are the rules (1) and (2) and the prescribed conjugacy classes used in them.</p>
+<p>One way to look at this is that the classes $8C$ and $12J$ (or $24J$) are special. The other classes are just the power-maps of $12J$.</p>
+<p>Another &#8216;rationale&#8217; behind these classes may come from the notion of harmonics (see the original <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.3704&#038;rep=rep1&#038;type=pdf">Monstrous moonshine</a> paper page 312) of the identity element and the two classes of involutions, 2A (the Fischer involutions) and 2B (the Conway involutions).</p>
+<p>For 1A these are : 1A,3C</p>
+<p>For 2A these are : 2A,4B,8C</p>
+<p>For 2B these are : 2B,4D,6F,8F,12J,24J</p>
+<p>These are exactly the classes that we used in (1) and (2), if we add the power-classes of 8C.</p>
+<p>Perhaps I should take some time to write all this down more formally.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-monster-dictates-her-picture/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A forgotten type and roots of unity (again)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 29 Jan 2018 15:13:56 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Bost]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Plazas]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7920</guid>
+
+					<description><![CDATA[The monstrous moonshine picture is the finite piece of Conway&#8217;s Big Picture needed to understand the 171 moonshine groups associated to conjugacy classes of the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally">monstrous moonshine picture</a> is the finite piece of Conway&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture">Big Picture</a> needed to understand the 171 moonshine groups associated to conjugacy classes of the monster.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally">Last time</a> I claimed that there were exactly 7 types of local behaviour, but I missed one. The forgotten type is centered at the number lattice $84$.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forgottentype.jpg"></p>
+<p>Locally around it the moonshine picture looks like this<br />
+\[<br />
+\xymatrix{42 \ar@{-}[dr] &#038; 28 \frac{1}{3} \ar@[red]@{-}[d] &#038; 41 \frac{1}{2} \ar@{-}[ld] \\ 28 \ar@[red]@{-}[r] &#038; \color{grey}{84} \ar@[red]@{-}[r] \ar@[red]@{-}[d] \ar@{-}[rd] &#038; 28 \frac{2}{3} \\ &#038; 252 &#038; 168} \]</p>
+<p>and it involves all square roots of unity ($42$, $42 \frac{1}{2}$ and $168$) and $3$-rd roots of unity ($28$, $28 \frac{1}{3}$, $28 \frac{2}{3}$ and $252$) centered at $84$.</p>
+<p>No, I&#8217;m not hallucinating, there are indeed $3$ square roots of unity and $4$ third roots of unity as they come <a href="https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture">in two families</a>, depending on which of the two canonical forms to express a lattice is chosen.</p>
+<p>In the &#8216;normal&#8217; expression $M \frac{g}{h}$ the two square roots are $42$ and $42 \frac{1}{2}$ and the three third roots are $28, 28 \frac{1}{3}$ and $28 \frac{2}{3}$. But in the &#8216;other&#8217; expression<br />
+\[<br />
+M \frac{g}{h} = (\frac{g&#8217;}{h},\frac{1}{h^2M}) \]<br />
+(with $g.g&#8217; \equiv 1~mod~h$) the families of $2$-nd and $3$-rd roots of unity are<br />
+\[<br />
+\{ 42 \frac{1}{2} = (\frac{1}{2},\frac{1}{168}), 168 = (0,\frac{1}{168}) \} \]<br />
+and<br />
+\[<br />
+\{ 28 \frac{1}{3} = (\frac{1}{3},\frac{1}{252}), 28 \frac{2}{3} = (\frac{2}{3},\frac{1}{252}), 252 = (0 , \frac{1}{252}) \} \]<br />
+As in the <a href="https://lievenlebruyn.github.io/neverendingbooks/a-tetrahedral-snake">tetrahedral snake post</a>, it is best to view the four $3$-rd roots of unity centered at $84$ as the vertices of a tetrahedron with center of gravity at $84$. Power maps in the first family correspond to rotations along the axis through $252$ and power maps in the second family are rotations along the axis through $28$.</p>
+<p>In the &#8216;normal&#8217; expression of lattices there&#8217;s then a total of 8 different local types, but two of them consist of just one number lattice: in $8$ the local picture contains all square, $4$-th and $8$-th roots of unity centered at $8$, and in $84$ the square and $3$-rd roots.</p>
+<p>Perhaps surprisingly, if we redo everything in the &#8216;other&#8217; expression (and use the other families of roots of unity), then the moonshine picture has only 7 types of local behaviour. The forgotten type $84$ appears to split into two occurrences of other types (one with only square roots of unity, and one with only $3$-rd roots).</p>
+<p>I wonder what all this has to do with the action of the Bost-Connes algebra on the big picture or with Plazas&#8217; approach to moonshine via <a href="https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine">non-commutative geometry</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What we (don&#8217;t) know</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 26 Jan 2018 09:15:01 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Gannon]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[VOAs]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7847</guid>
+
+					<description><![CDATA[Do we know why the monster exists and why there&#8217;s moonshine around it? The answer depends on whether or not you believe that vertex operator&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Do we know why the <a href="https://en.wikipedia.org/wiki/Monster_group">monster</a> exists and why there&#8217;s <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">moonshine</a> around it?</p>
+<p>The answer depends on whether or not you believe that <a href="https://en.wikipedia.org/wiki/Vertex_operator_algebra">vertex operator algebras</a> are natural, elegant and inescapable objects.</p>
+<p><strong>the monster</strong></p>
+<p>Simple groups often arise from symmetries of exceptionally nice mathematical objects.</p>
+<p>The smallest of them all, $A_5$, gives us the rotation symmetries of the <a href="https://en.wikipedia.org/wiki/Icosahedron">icosahedron</a>. The next one, Klein&#8217;s simple group $L_2(7)$, comes from the <a href="https://en.wikipedia.org/wiki/Klein_quartic">Klein quartic</a>.</p>
+<p>The smallest sporadic groups, the <a href="https://en.wikipedia.org/wiki/Mathieu_group">Mathieu groups</a>, come from <a href="https://en.wikipedia.org/wiki/Steiner_system">Steiner systems</a>, and the <a href="https://en.wikipedia.org/wiki/Conway_group">Conway groups</a> from the 24-dimensional <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a>.</p>
+<p>What about the largest sporadic simple, the <a href="https://en.wikipedia.org/wiki/Monster_group">monster</a> $\mathbb{M}$?</p>
+<p>In his paper <a href="http://www.ams.org/notices/200209/what-is.pdf">What is &#8230; the monster?</a> Richard Borcherds writes (among other characterisations of $\mathbb{M}$):</p>
+<p>&#8220;3. It is the automorphism group of the <a href="https://en.wikipedia.org/wiki/Monster_vertex_algebra">monster vertex algebra</a>. (This is probably the best answer.)&#8221;</p>
+<p>But, even Borcherds adds:</p>
+<p>&#8220;Unfortunately none of these definitions is completely satisfactory. At the moment all constructions of the algebraic structures above seem artificial; they are constructed as sums of two or more apparently unrelated spaces, and it takes a lot of effort to define the algebraic structure on the sum of these spaces and to check that the monster acts on the resulting structure. <br /><strong>It is still an open problem to find a really simple and natural construction of the monster vertex algebra.</strong>&#8221;</p>
+<p>Here&#8217;s 2 minutes of John Conway on the &#8220;one thing&#8221; he really wants to know before he dies: why the monster group exists.</p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xOCe5HUObD4?start=420" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+<p><strong>moonshine</strong></p>
+<p>Moonshine started off with McKay&#8217;s observation that 196884 (the first coefficient in the normalized <a href="https://en.wikipedia.org/wiki/J-invariant">j-function</a>) is the sum 1+196883 of the dimensions of the two smallest simple representations of $\mathbb{M}$.</p>
+<p>Soon it was realised that every conjugacy class of the monster has a <a href="https://en.wikipedia.org/wiki/Modular_curve#Genus_zero">genus zero group</a> (or &#8216;moonshine group&#8217;) associated to it.</p>
+<p>Borcherds proved the &#8216;monstrous moonshine conjectures&#8217; asserting that the associated main modular function of such a group is the character series of the action of the element on the monster vertex algebra.</p>
+<p>Here&#8217;s Borcherds&#8217; ICM talk in Berlin on this: <a href="https://arxiv.org/pdf/math/9809110.pdf">What is &#8230; Moonshine?</a>.</p>
+<p>Once again, the monster vertex algebra appears to be the final answer.</p>
+<p>However, in characterising the 171 moonshine groups among all possible genus zero groups one has proved that <a href="https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups">they are all of the form</a>:</p>
+<p>(ii) : $(n|h)+e,g,\dots$</p>
+<p>In his book <a href="https://www.cambridge.org/core/books/moonshine-beyond-the-monster/CAD32EB4694E501D0B656696AE69EDFF">Moonshine beyond the Monster</a>, Terry Gannon writes:</p>
+<p>&#8220;We now understand the significance, in the <a href="https://en.wikipedia.org/wiki/Vertex_operator_algebra">VOA</a> or <a href="https://en.wikipedia.org/wiki/Conformal_field_theory">CFT</a> framework, of transformations in $SL_2(\mathbb{Z})$, but (ii) emphasises that many modular transformations relevant to Moonshine are more general (called the Atkin-Lehner involutions). <br /><strong>Monstrous moonshine will remain mysterious until we can understand its Atkin-Lehner symmetries.</strong>&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the moonshine picture &#8211; at last</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 23 Jan 2018 11:17:02 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Plazas]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7799</guid>
+
+					<description><![CDATA[The monstrous moonshine picture is the subgraph of Conway&#8217;s big picture consisting of all lattices needed to describe the 171 moonshine groups. It consists of:&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The monstrous moonshine picture is the subgraph of <a href="https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative">Conway&#8217;s big picture</a> consisting of all lattices needed to describe the 171 moonshine groups.</p>
+<p>It consists of:</p>
+<p>&#8211; exactly 218 vertices (that is, lattices), out of which</p>
+<p>&#8211; 97 are number-lattices (that is of the form $M$ with $M$ a positive integer), and</p>
+<p>&#8211; 121 are proper number-like lattices (that is of the form $M \frac{g}{h}$ with $M$ a positive integer, $h$ a divisor of $24$ and $1 \leq g \leq h$ with $(g,h)=1$).</p>
+<p>The $97$ number lattices are closed under  <a href="https://lievenlebruyn.github.io/neverendingbooks/chomp-and-the-moonshine-thread">taking divisors</a>, and the corresponding Hasse diagram has the following shape</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/colouredthread.png" width=100% ></p>
+<p>Here, number-lattices have the same colour if they have the same local structure in the moonshine picture (that is, have a similar neighbourhood of proper number-like lattices).</p>
+<p>There are 7 different types of local behaviour:</p>
+<p>The <strong>white</strong> numbered lattices have no proper number-like neighbours in the picture.</p>
+<p>The <strong>yellow</strong> number lattices (2,10,14,18,22,26,32,34,40,68,80,88,90,112,126,144,180,208 = 2M) have local structure</p>
+<p>\[<br />
+\xymatrix{M \ar@{-}[r] &#038; \color{yellow}{2M} \ar@{-}[r] &#038; M \frac{1}{2}} \]</p>
+<p>which involves all $2$-nd (square) <a href="https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture">roots of unity</a> centered at the lattice.</p>
+<p>The <strong>green</strong> number lattices (3,15,21,39,57,93,96,120 = 3M) have local structure</p>
+<p>\[<br />
+\xymatrix{&#038; M \ar@[red]@{-}[d] &#038; \\ M \frac{1}{3} \ar@[red]@{-}[r] &#038; \color{green}{3M} \ar@[red]@{-}[r] &#038; M \frac{2}{3}} \]</p>
+<p>which involve all $3$-rd roots of unity centered at the lattice.</p>
+<p>The <strong>blue</strong> number lattices (4,16,20,28,36,44,52,56,72,104 = 4M) have as local structure</p>
+<p>\[<br />
+\xymatrix{M \frac{1}{2} \ar@{-}[d] &#038; &#038; M \frac{1}{4} \ar@{-}[d] \\<br />
+2M \ar@{-}[r] &#038; \color{blue}{4M} \ar@{-}[r] &#038; 2M \frac{1}{2} \ar@{-}[d] \\<br />
+M \ar@{-}[u] &#038; &#038; M \frac{3}{4}} \]</p>
+<p>and involve the $2$-nd and $4$-th root of unity centered at the lattice.</p>
+<p>The <strong>purple</strong> number lattices (6,30,42,48,60 = 6M) have local structure</p>
+<p>\[<br />
+\xymatrix{&#038; M \frac{1}{3} \ar@[red]@{-}[d] &#038; 2M \frac{1}{3} &#038; M \frac{1}{6} \ar@[red]@{-}[d] &#038; \\<br />
+M \ar@[red]@{-}[r] &#038; 3M \ar@{-}[r] \ar@[red]@{-}[d] &#038; \color{purple}{6M} \ar@{-}[r] \ar@[red]@{-}[u] \ar@[red]@{-}[d] &#038; 3M \frac{1}{2} \ar@[red]@{-}[r] \ar@[red]@{-}[d] &#038; M \frac{5}{6} \\<br />
+&#038; M \frac{2}{3} &#038; 2M \frac{2}{3} &#038; M \frac{1}{2} &#038; } \]</p>
+<p>and involve all $2$-nd, $3$-rd and $6$-th roots of unity centered at the lattice.</p>
+<p>The unique <strong>brown</strong> number lattice 8 has local structure</p>
+<p>\[<br />
+\xymatrix{&#038; &#038; 1 \frac{1}{4} \ar@{-}[d] &#038; &#038; 1 \frac{1}{8} \ar@{-}[d] &#038; \\<br />
+&#038; 1 \frac{1}{2} \ar@{-}[d] &#038; 2 \frac{1}{2} \ar@{-}[r] \ar@{-}[d] &#038; 1 \frac{3}{4} &#038; 2 \frac{1}{4} \ar@{-}[r] &#038; 1 \frac{5}{8} \\<br />
+1 \ar@{-}[r] &#038; 2 \ar@{-}[r] &#038; 4 \ar@{-}[r] &#038; \color{brown}{8} \ar@{-}[r] &#038; 4 \frac{1}{2} \ar@{-}[d] \ar@{-}[u] &#038; \\<br />
+&#038; &#038; &#038; 1 \frac{7}{8} \ar@{-}[r] &#038; 2 \frac{3}{4} \ar@{-}[r] &#038; 1 \frac{3}{8}} \]</p>
+<p>which involves all $2$-nd, $4$-th and $8$-th roots of unity centered at $8$.</p>
+<p>Finally, the local structure for the central red lattices $12,24 = 12M$ is</p>
+<p>\[<br />
+\xymatrix{<br />
+M \frac{1}{12} \ar@[red]@{-}[dr] &#038; M \frac{5}{12} \ar@[red]@{-}[d] &#038; M \frac{3}{4} \ar@[red]@{-}[dl] &#038; &#038; M \frac{1}{6} \ar@[red]@{-}[dr] &#038; M \frac{1}{2} \ar@[red]@{-}[d] &#038; M \frac{5}{6} \ar@[red]@{-}[dl] \\<br />
+&#038; 3M \frac{1}{4} \ar@{-}[dr] &#038; 2M \frac{1}{6} \ar@[red]@{-}[d] &#038; 4M \frac{1}{3} \ar@[red]@{-}[d] &#038; 2M \frac{1}{3} \ar@[red]@{-}[d] &#038; 3M \frac{1}{2} \ar@{-}[dl] &#038; \\<br />
+&#038; 2M \frac{1}{2} \ar@[red]@{-}[r] &#038; 6M \frac{1}{2} \ar@{-}[dl] \ar@[red]@{-}[d] \ar@{-}[r] &#038; \color{red}{12M} \ar@[red]@{-}[d] \ar@{-}[r] &#038; 6M \ar@[red]@{-}[d] \ar@{-}[dr] \ar@[red]@{-}[r] &#038;  2M &#038;  \\<br />
+&#038; 3M \frac{3}{4} \ar@[red]@{-}[dl] \ar@[red]@{-}[d] \ar@[red]@{-}[dr] &#038; 2M \frac{5}{6} &#038; 4M \frac{2}{3} &#038; 2M \frac{2}{3} &#038; 3M \ar@[red]@{-}[dl] \ar@[red]@{-}[d] \ar@[red]@{-}[dr] &#038; \\<br />
+M \frac{1}{4} &#038; M \frac{7}{12} &#038; M \frac{11}{12} &#038; &#038; M \frac{1}{3} &#038; M \frac{2}{3} &#038; M}<br />
+\]</p>
+<p>It involves all $2$-nd, $3$-rd, $4$-th, $6$-th and $12$-th <a href="https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture">roots of unity</a> with center $12M$.</p>
+<p>No doubt this will be relevant in connecting moonshine with <a href="https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine">non-commutative geometry</a> and issues of replicability as in Plazas&#8217; paper <a href="https://arxiv.org/abs/1303.5168">Noncommutative Geometry of Groups like $\Gamma_0(N)$</a>.</p>
+<p>Another of my pet follow-up projects is to determine whether or not the monster group $\mathbb{M}$ dictates the shape of the moonshine picture.</p>
+<p>That is, can one recover the 97 number lattices and their partition in 7 families starting from the set of element orders of $\mathbb{M}$, applying some set of simple rules?</p>
+<p>One of these rules will follow from the two equivalent notations for lattices, and the <a href"https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture">two different sets of roots of unities</a> centered at a given lattice. This will imply that if a number lattice belongs to a given family, certain divisors and multiples of it must belong to related families.</p>
+<p>If this works out, it may be a first step towards a possibly new understanding of moonshine.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Moonshine&#8217;s green anaconda</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/moonshines-green-anaconda/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/moonshines-green-anaconda/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 18 Jan 2018 12:04:30 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7728</guid>
+
+					<description><![CDATA[The largest snake in the moonshine picture determines the moonshine group $(24&#124;12)$ and is associated to conjugacy class $24J$ of the monster. It contains $70$&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/List_of_largest_snakes">largest snake</a> in the moonshine picture determines the moonshine group $(24|12)$ and is associated to conjugacy class $24J$ of the monster.</p>
+<p>It contains $70$ lattices, about one third of the total number of lattices in the  <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monstrous-moonshine-picture-1">moonshine picture</a>.</p>
+<p>The anaconda&#8217;s backbone is the $(288|1)$ thread below (edges in the $2$-tree are black, those in the $3$-tree red and coloured numbers are symmetric with respect to the $(24|12)$-spine and have the same local snake-structure.</p>
+<p>\[<br />
+\xymatrix{9 \ar@{-}[r] \ar@[red]@{-}[d] &#038; \color{green}{18} \ar@{-}[r] \ar@[red]@{-}[d] &#038; \color{yellow}{36} \ar@{-}[r] \ar@[red]@{-}[d] &#038; \color{yellow}{72} \ar@{-}[r] \ar@[red]@{-}[d] &#038; \color{green}{144} \ar@{-}[r] \ar@[red]@{-}[d] &#038; 288 \ar@[red]@{-}[d] \\<br />
+3 \ar@{-}[r] \ar@[red]@{-}[d] &#038; \color{blue}{6} \ar@{-}[r] \ar@[red]@{-}[d] &#038; \color{red}{12} \ar@{-}[r] \ar@[red]@{-}[d] &#038; \color{red}{24} \ar@{-}[r] \ar@[red]@{-}[d] &#038; \color{blue}{48} \ar@{-}[r] \ar@[red]@{-}[d] &#038; 96 \ar@[red]@{-}[d] \\<br />
+1 \ar@{-}[r] &#038; \color{green}{2} \ar@{-}[r] &#038; \color{yellow}{4} \ar@{-}[r] &#038; \color{yellow}{8} \ar@{-}[r] &#038; \color{green}{16} \ar@{-}[r] &#038; 32 } \]</p>
+<p>These are the only number-lattices in the anaconda. The remaining lattices are number-like, that is of the form $M \frac{g}{h}$ with $M$ an integer and $1 \leq g < h$ with $(g,h)=1$.
+
+<br />There are</p>
+<p>&#8211; $12$ with $h=2$ and $M$ a divisor of $72$.</p>
+<p>&#8211; $12$ with $h=3$ and $M$ a divisor of $32$.</p>
+<p>&#8211; $12$ with $h=4$ and $M$ a divisor of $18$.</p>
+<p>&#8211; $8$ with $h=6$ and $M$ a divisor of $8$.</p>
+<p>&#8211; $8$ with $h=12$ and $M=1,2$.</p>
+<p>The non-number lattices in the snake are locally in the coloured numbers:</p>
+<p>In $2,16,18,144=2M$</p>
+<p>\[<br />
+\xymatrix{&#038; \color{green}{2M} \ar@{-}[r] &#038; M \frac{1}{2}} \]</p>
+<p>In $4,8,36,72=4M$</p>
+<p>\[<br />
+\xymatrix{M \frac{1}{2} \ar@{-}[d] &#038; &#038; M \frac{1}{4} \ar@{-}[d] \\<br />
+2M \ar@{-}[r] &#038; \color{yellow}{4M} \ar@{-}[r] &#038; 2M \frac{1}{2} \ar@{-}[d] \\<br />
+&#038; &#038; M \frac{3}{4}} \]</p>
+<p>In $6,48=6M$</p>
+<p>\[<br />
+\xymatrix{M \frac{1}{3} \ar@[red]@{-}[d] &#038; 2M \frac{1}{3} &#038; M \frac{1}{6} \ar@[red]@{-}[d] &#038; \\<br />
+3M \ar@{-}[r] \ar@[red]@{-}[d] &#038; \color{blue}{6M} \ar@{-}[r] \ar@[red]@{-}[u] \ar@[red]@{-}[d] &#038; 3M \frac{1}{2} \ar@[red]@{-}[r] \ar@[red]@{-}[d] &#038; M \frac{5}{6} \\<br />
+M \frac{2}{3} &#038; 2M \frac{2}{3} &#038; M \frac{1}{2} &#038; } \]</p>
+<p>In $12,24=12M$ the local structure looks like</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/anaconda.jpg"></p>
+<p>Here, we used the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative">commutation relations</a> to reach all lattices at distance $log(6)$ and $log(12)$ by first walking the $2$-adic tree and postpone the last step for the $3$-tree.</p>
+<p>Perhaps this is also a good strategy to get a grip on the full <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monstrous-moonshine-picture-1">moonshine picture</a>:</p>
+<p>First determine subsets of the <a href="https://lievenlebruyn.github.io/neverendingbooks/chomp-and-the-moonshine-thread">moonshine thread</a> with the same local structure, and then determine for each class this local structure.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/moonshines-green-anaconda/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the 171 moonshine groups</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 06 Jan 2018 12:02:42 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[arithmetic groups]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Ferenbaugh]]></category>
+		<category><![CDATA[McKay]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[Sebbar]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7556</guid>
+
+					<description><![CDATA[Monstrous moonshine associates to every element of order $n$ of the monster group $\mathbb{M}$ an arithmetic group of the form \[ (n&#124;h)+e,f,\dots \] where $h$&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Monstrous moonshine associates to every element of order $n$ of the monster group $\mathbb{M}$ an arithmetic group of the form<br />
+\[<br />
+(n|h)+e,f,\dots \]<br />
+where $h$ is a divisor of $24$ and of $n$ and where $e,f,\dots$ are divisors of $\frac{n}{h}$ coprime with its quotient.</p>
+<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that">snakes, spines, and all that</a> we&#8217;ve constructed the arithmetic group<br />
+\[<br />
+\Gamma_0(n|h)+e,f,\dots \]<br />
+which normalizes $\Gamma_0(N)$ for $N=h.n$. If $h=1$ then this group is the moonshine group $(n|h)+e,f,\dots$, but for $h > 1$ the moonshine group is a specific subgroup of index $h$ in $\Gamma_0(n|h)+e,f,\dots$.</p>
+<p>I&#8217;m sure one can describe this subgroup explicitly in each case by analysing the action of the finite group $(\Gamma_0(n|h)+e,f,\dots)/\Gamma_0(N)$ on the $(N|1)$-snake. Some examples were worked out by John Duncan in his paper <a href="https://arxiv.org/abs/0810.1465">Arithmetic groups and the affine E8 Dynkin diagram</a>.</p>
+<p>But at the moment I don&#8217;t understand the general construction given by Conway, McKay and Sebbar in <a href="http://www.ams.org/journals/proc/2004-132-08/S0002-9939-04-07421-0/S0002-9939-04-07421-0.pdf">On the discrete groups of moonshine</a>. I&#8217;m stuck at the last sentence of (2) in section 3. Nothing a copy of Charles Ferenbaugh Ph. D. thesis cannot fix.</p>
+<p>The correspondence between the conjugacy classes of the Monster and these arithmetic groups takes up 3 pages in Conway &#038; Norton&#8217;s <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.3704&#038;rep=rep1&#038;type=pdf">Monstrous Moonshine</a>. Here&#8217;s the beginning of it.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/moonshinegroups.png" width=100% ></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Snakes, spines, threads and all that</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 05 Jan 2018 11:03:27 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Atkin]]></category>
+		<category><![CDATA[congruence subgroup]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Lehner]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7524</guid>
+
+					<description><![CDATA[Conway introduced his Big Picture to make it easier to understand and name the groups appearing in Monstrous Moonshine. For $M \in \mathbb{Q}_+$ and $0&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Conway introduced his <a href="https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative">Big Picture</a> to make it easier to understand and name the groups appearing in <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">Monstrous Moonshine</a>.</p>
+<p>For $M \in \mathbb{Q}_+$ and $0 \leq \frac{g}{h} < 1$, $M,\frac{g}{h}$ denotes (the projective equivalence class of) the lattice
+\[
+\mathbb{Z} (M \vec{e}_1 + \frac{g}{h} \vec{e}_2) \oplus \mathbb{Z} \vec{e}_2 \]
+which we also like to represent by the $2 \times 2$ matrix
+\[
+\alpha_{M,\frac{g}{h}} = \begin{bmatrix} M &#038; \frac{g}{h} \\ 0 &#038; 1 \end{bmatrix} \]
+A subgroup $G$ of $GL_2(\mathbb{Q})$ is said to <em>fix</em> $M,\frac{g}{h}$ if<br />
+\[<br />
+\alpha_{M,\frac{g}{h}}.G.\alpha_{M,\frac{g}{h}}^{-1} \subset SL_2(\mathbb{Z}) \]<br />
+The full group of all elements fixing $M,\frac{g}{h}$ is the conjugate<br />
+\[<br />
+\alpha_{M,\frac{g}{h}}^{-1}.SL_2(\mathbb{Z}).\alpha_{M,\frac{g}{h}} \]<br />
+For a <em>number lattice</em> $N=N,0$ the elements of this group are all of the form<br />
+\[<br />
+\begin{bmatrix} a &#038; \frac{b}{N} \\ cN &#038; d \end{bmatrix} \qquad \text{with} \qquad \begin{bmatrix} a &#038; b \\ c &#038; d \end{bmatrix} \in SL_2(\mathbb{Z}) \]<br />
+and the intersection with $SL_2(\mathbb{Z})$ (which is the group of all elements fixing the lattice $1=1,0$) is the congruence subgroup<br />
+\[<br />
+\Gamma_0(N) = \{ \begin{bmatrix} a &#038; b \\ cN &#038; d \end{bmatrix}~|~ad-Nbc = 1 \} \]<br />
+Conway argues that this is the real way to think of $\Gamma_0(N)$, as the joint stabilizer of the two lattices $N$ and $1$!</p>
+<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24">defining definition of 24</a> tells us that $\Gamma_0(N)$ fixes more lattices. In fact, it fixes exactly the latices $M \frac{g}{h}$ such that<br />
+\[<br />
+1~|~M~|~\frac{N}{h^2} \quad \text{with} \quad h^2~|~N \quad \text{and} \quad h~|~24 \]<br />
+Conway calls the sub-graph of the Big Picture on these lattices the <strong>snake</strong> of $(N|1)$.</p>
+<p>Here&#8217;s the $(60|1)$-snake (note that $60=2^2.3.5$ so $h=1$ or $h=2$ and edges corresponding to the prime $2$ are coloured red, those for $3$ green and for $5$ blue).</p>
+<p>\[<br />
+\xymatrix{&#038; &#038; &#038; 15 \frac{1}{2} \ar@[red]@{-}[dd] &#038; &#038; \\<br />
+&#038; &#038; 5 \frac{1}{2} \ar@[red]@{-}[dd] &#038; &#038; &#038; \\<br />
+&#038; 15 \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 30 \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 60 \ar@[blue]@{-}[dd] \\<br />
+5 \ar@[green]@{-}[ru] \ar@[blue]@{-}[dd] \ar@[red]@{-}[rr] &#038; &#038; 10 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 20 \ar@[green]@{-}[ru] \ar@[blue]@{-}[dd] &#038; \\<br />
+&#038; 3 \ar@[red]@{-}[rr] &#038; &#038; 6 \ar@[red]@{-}[rr] \ar@[red]@{-}[dd] &#038; &#038; 12 \\<br />
+1 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr] &#038; &#038; 2 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr] \ar@[red]@{-}[dd] &#038; &#038; 4 \ar@[green]@{-}[ru] &#038; \\<br />
+&#038; &#038; &#038; 3\frac{1}{2} &#038; &#038; \\<br />
+&#038; &#038; 1 \frac{1}{2} &#038; &#038; &#038;} \]</p>
+<p>The sub-graph of lattices fixed by $\Gamma_0(N)$ for $h=1$, that is all number-lattices $M=M,0$ for $M$ a divisor of $N$ is called the <strong>thread</strong> of $(N|1)$. Here&#8217;s the $(60|1)$-thread</p>
+<p>\[<br />
+\xymatrix{<br />
+&#038; 15 \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 30 \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 60 \ar@[blue]@{-}[dd] \\<br />
+5 \ar@[green]@{-}[ru] \ar@[blue]@{-}[dd] \ar@[red]@{-}[rr] &#038; &#038; 10 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 20 \ar@[green]@{-}[ru] \ar@[blue]@{-}[dd] &#038; \\<br />
+&#038; 3 \ar@[red]@{-}[rr] &#038; &#038; 6 \ar@[red]@{-}[rr]  &#038; &#038; 12 \\<br />
+1 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr] &#038; &#038; 2 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr]  &#038; &#038; 4 \ar@[green]@{-}[ru] &#038;<br />
+} \]</p>
+<p>If $N$ factors as $N = p_1^{e_1} p_2^{e_2} \dots p_k^{e_k}$ then the $(N|1)$-thread is the product of the $(p_i^{e_i}|1)$-threads and has a symmetry group of order $2^k$.</p>
+<p>It is generated by $k$ involutions, each one the reflexion in one $(p_i^{e_i}|1)$-thread and the identity on the other $(p_j^{e_j}|1)$-threads.<br />
+In the $(60|1)$-thread these are the reflexions in the three mirrors of the figure.</p>
+<p>So, there is one involution for every divisor $e$ of $N$ such that $(e,\frac{N}{e})=1$. For such an $e$ there are matrices, with $a,b,c,d \in \mathbb{Z}$, of the form<br />
+\[<br />
+W_e = \begin{bmatrix} ae &#038; b \\ cN &#038; de \end{bmatrix} \quad \text{with} \quad ade^2-bcN=e \]<br />
+Think of <a href="https://en.wikipedia.org/wiki/B%C3%A9zout%27s_identity">Bezout</a> and use that $(e,\frac{N}{e})=1$.</p>
+<p>Such $W_e$ normalizes $\Gamma_0(N)$, that is, for any $A \in \Gamma_0(N)$ we have that $W_e.A.W_e^{-1} \in \Gamma_0(N)$. Also, the determinant of $W_e^e$ is equal to $e^2$ so we can write $W_e^2 = e A$ for some $A \in \Gamma_0(N)$.</p>
+<p>That is, the transformation $W_e$ (left-multiplication) sends any lattice in the thread or snake of $(N|1)$ to another such lattice (up to projective equivalence) and if we apply $W_e^2$ if fixes each such lattice (again, up to projective equivalence), so it is the desired reflexion corresponding with $e$.</p>
+<p>Consider the subgroup of $GL_2(\mathbb{Q})$ generated by $\Gamma_0(N)$ and some of these matrices $W_e,W_f,\dots$ and denote by $\Gamma_0(N)+e,f,\dots$ the quotient modulo positive scalar matrices, then<br />
+\[<br />
+\Gamma_0(N) \qquad \text{is a normal subgroup of} \qquad \Gamma_0(N)+e,f,\dots \]<br />
+with quotient isomorphic to some $(\mathbb{Z}/2\mathbb{Z})^l$ isomorphic to the subgroup generated by the involutions corresponding to $e,f,\dots$.</p>
+<p>More generally, consider the $(n|h)$-thread for number lattices $n=n,0$ and $h=h,0$ such that $h | n$ as the sub-graph on all number lattices $l=l,0$ such that $h | l | n$. If we denote with $\Gamma_0(n|h)$ the point-wise stabilizer of $n$ and $h$, then we have that<br />
+\[<br />
+\Gamma(n|h) = \begin{bmatrix} h &#038; 0 \\ 0 &#038; 1 \end{bmatrix}^{-1}.\Gamma_0(\frac{n}{h}).\begin{bmatrix} h &#038; 0 \\ 0 &#038; 1 \end{bmatrix} \]<br />
+and we can then denote with<br />
+\[<br />
+\Gamma_0(n|h)+e,f,\dots \]<br />
+the conjugate of the corresponding group $\Gamma_0(\frac{n}{h})+e,f,\dots$.</p>
+<p>If $h$ is the largest divisor of $24$ such that $h^2$ divides $N$, then Conway calls the <strong>spine</strong> of the $(N|1)$-snake the subgraph on all lattices of the snake whose distance from its periphery is exactly $log(h)$.</p>
+<p>For $N=60$, $h=2$ and so the spine of the $(60|1)$-snake is the central piece connected with double black edges</p>
+<p>\[<br />
+\xymatrix{&#038; &#038; &#038; 15 \frac{1}{2} \ar@[red]@{-}[dd] &#038; &#038; \\<br />
+&#038; &#038; 5 \frac{1}{2} \ar@[red]@{-}[dd] &#038; &#038; &#038; \\<br />
+&#038; 15 \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 30 \ar@[red]@{-}[rr] \ar@[black]@{=}[dd] &#038; &#038; 60 \ar@[blue]@{-}[dd] \\<br />
+5 \ar@[green]@{-}[ru] \ar@[blue]@{-}[dd] \ar@[red]@{-}[rr] &#038; &#038; 10 \ar@[black]@{=}[ru] \ar@[red]@{-}[rr] \ar@[black]@{=}[dd] &#038; &#038; 20 \ar@[green]@{-}[ru] \ar@[blue]@{-}[dd] &#038; \\<br />
+&#038; 3 \ar@[red]@{-}[rr] &#038; &#038; 6 \ar@[red]@{-}[rr] \ar@[red]@{-}[dd] &#038; &#038; 12 \\<br />
+1 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr] &#038; &#038; 2 \ar@[black]@{=}[ru] \ar@[red]@{-}[rr] \ar@[red]@{-}[dd] &#038; &#038; 4 \ar@[green]@{-}[ru] &#038; \\<br />
+&#038; &#038; &#038; 3\frac{1}{2} &#038; &#038; \\<br />
+&#038; &#038; 1 \frac{1}{2} &#038; &#038; &#038;} \]</p>
+<p>which is the $(30|2)$-thread.</p>
+<p>The upshot of all this is to have a visual proof of the <strong>Atkin-Lehner theorem</strong> which says that the full normalizer of $\Gamma_0(N)$ is the group $\Gamma_0(\frac{N}{h}|h)+$ (that is, adding all involutions) where $h$ is the largest divisor of $24$ for which $h^2|N$.</p>
+<p>Any element of this normalizer must take every lattice in the $(N|1)$-snake fixed by $\Gamma_0(N)$ to another such lattice. Thus it follows that it must take the snake to itself.<br />
+Conversely, an element that takes the snake to itself must conjugate into itself the group of all matrices that fix every point of the snake, that is to say, must normalize $\Gamma_0(N)$.</p>
+<p>But the elements that take the snake to itself are precisely those that take the spine to itself, and since this spine is just the $(\frac{N}{h}|h)$-thread, this group is just $\Gamma_0(\frac{N}{h}|h)+$.</p>
+<p><strong>Reference</strong>: J.H. Conway, &#8220;Understanding groups like $\Gamma_0(N)$&#8221;, in &#8220;Groups, Difference Sets, and the Monster&#8221;, Walter de Gruyter-Berlin-New York, 1996</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The defining property of 24</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 02 Jan 2018 13:17:03 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Norton]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7453</guid>
+
+					<description><![CDATA[From Wikipedia on 24: &#8220;$24$ is the only number whose divisors, namely $1, 2, 3, 4, 6, 8, 12, 24$, are exactly those numbers $n$&#8230;]]></description>
+										<content:encoded><![CDATA[<p>From <a href="https://en.wikipedia.org/wiki/24_(number)">Wikipedia on 24</a>:</p>
+<p>&#8220;$24$ is the only number whose divisors, namely $1, 2, 3, 4, 6, 8, 12, 24$, are exactly those numbers $n$ for which every invertible element of the commutative ring $\mathbb{Z}/n\mathbb{Z}$ is a square root of $1$. It follows that the multiplicative group $(\mathbb{Z}/24\mathbb{Z})^* = \{ \pm 1, \pm 5, \pm 7, \pm 11 \}$ is isomorphic to the additive group $(\mathbb{Z}/2\mathbb{Z})^3$. This fact plays a role in <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a>.&#8221;</p>
+<p>Where did that come from?</p>
+<p>In the original <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.3704&#038;rep=rep1&#038;type=pdf">&#8220;Monstrous Moonshine&#8221; paper by John Conway and Simon Norton</a>, section 3 starts with:</p>
+<p>&#8220;It is a curious fact that the divisors $h$ of $24$ are precisely those numbers $h$ for which $x.y \equiv 1~(mod~h)$ implies $x \equiv y~(mod~h)$.&#8221;</p>
+<p>and a bit further they even call this fact:</p>
+<p> &#8220;our &#8216;defining property of $24$'&#8221;.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/ConwayPicture.jpg"></p>
+<p>The proof is pretty straightforward.</p>
+<p>We want all $h$ such that every unit in $\mathbb{Z}/h \mathbb{Z}$ has order two.</p>
+<p>By the Chinese remainder theorem we only have to check this for prime powers dividing $h$.</p>
+<p>$5$ is a unit of order $4$ in $\mathbb{Z}/16 \mathbb{Z}$.</p>
+<p>$2$ is a unit of order $6$ in $\mathbb{Z}/ 9 \mathbb{Z}$.</p>
+<p>A generator of the cyclic group $(\mathbb{Z}/p\mathbb{Z})^*$ is a unit of order $p-1 > 2$ in $\mathbb{Z}/p \mathbb{Z}$, for any prime number $p \geq 5$.</p>
+<p>This only leaves those $h$ dividing $2^3.3=24$.</p>
+<p>But, what does it have to do with monstrous moonshine?</p>
+<p>Moonshine assigns to elements of the <a href="https://en.wikipedia.org/wiki/Monster_group">Monster group</a> $\mathbb{M}$ a specific subgroup of $SL_2(\mathbb{Q})$ containing a cofinite congruence subgroup</p>
+<p>\[<br />
+\Gamma_0(N) = \{ \begin{bmatrix} a &#038; b \\ cN &#038; d \end{bmatrix}~|~a,b,c,d \in \mathbb{Z}, ad-Nbc = 1 \} \]</p>
+<p>for some natural number $N = h.n$ where $n$ is the order of the monster-element, $h^2$ divides $N$ and &#8230; $h$ is a divisor of $24$.</p>
+<p>To begin to understand how the defining property of $24$ is relevant in this, take any strictly positive rational number $M$ and any pair of coprime natural numbers $g < h$ and associate to $M \frac{g}{h}$ the matrix
+
+\[
+\alpha_{M\frac{g}{h}} = \begin{bmatrix} M &#038; \frac{g}{h} \\ 0 &#038; 1 \end{bmatrix} \]
+
+We say that $\Gamma_0(N)$ <strong>fixes</strong> $M \frac{g}{h}$ if we have that<br />
+\[<br />
+\alpha_{M\frac{g}{h}} \Gamma_0(N) \alpha_{M\frac{g}{h}}^{-1} \subset SL_2(\mathbb{Z}) \]</p>
+<p>For those in the know, $M \frac{g}{h}$ stands for the $2$-dimensional integral lattice<br />
+\[<br />
+\mathbb{Z} (M \vec{e}_1 + \frac{g}{h} \vec{e}_2) \oplus \mathbb{Z} \vec{e}_2 \]<br />
+and the condition tells that $\Gamma_0(N)$ preserves this lattice under base-change (right-multiplication).</p>
+<p>In &#8220;Understanding groups like $\Gamma_0(N)$&#8221; Conway describes the groups appearing in monstrous moonshine as preserving specific finite sets of these lattices.</p>
+<p>For this, it is crucial to determine all $M\frac{g}{h}$ fixed by $\Gamma_0(N)$.</p>
+<p>\[<br />
+\alpha_{M\frac{g}{h}}.\begin{bmatrix} 1 &#038; 1 \\ 0 &#038; 1 \end{bmatrix}.\alpha_{M\frac{g}{h}}^{-1} = \begin{bmatrix} 1 &#038; M \\ 0 &#038; 1 \end{bmatrix} \]</p>
+<p>so we must have that $M$ is a natural number, or that $M\frac{g}{h}$ is a number-like lattice, in Conway-speak.</p>
+<p>\[<br />
+\alpha_{M\frac{g}{h}}.\begin{bmatrix} 1 &#038; 0 \\ N &#038; 1 \end{bmatrix}.\alpha_{M\frac{g}{h}}^{-1} = \begin{bmatrix} 1 + \frac{Ng}{Mh} &#038; &#8211; \frac{Ng^2}{Mh^2} \\ \frac{N}{M} &#038; 1 &#8211; \frac{Ng}{Mh} \end{bmatrix} \]</p>
+<p>so $M$ divides $N$, $Mh$ divides $Ng$ and $Mh^2$ divides $Ng^2$. As $g$ and $h$ are coprime it follows that $Mh^2$ must divide $N$.</p>
+<p>Now, for an arbitrary element of $\Gamma_0(N)$ we have</p>
+<p>\[<br />
+\alpha_{M\frac{g}{h}}.\begin{bmatrix} a &#038; b \\ cN &#038; d \end{bmatrix}.\alpha_{M\frac{g}{h}}^{-1} = \begin{bmatrix} a + c \frac{Ng}{Mh} &#038; Mb &#8211; c \frac{Ng^2}{Mh^2} &#8211; (a-d) \frac{g}{h} \\ c \frac{N}{M} &#038; d &#8211; c \frac{Ng}{Mh} \end{bmatrix} \]<br />
+and using our divisibility requirements it follows that this matrix belongs to $SL_2(\mathbb{Z})$ if $a-d$ is divisible by $h$, that is if $a \equiv d~(mod~h)$.</p>
+<p>We know that $ad-Nbc=1$ and that $h$ divides $N$, so $a.d \equiv 1~(mod~h)$, which implies $a \equiv d~(mod~h)$ if $h$ satisfies the defining property of $24$, that is, if $h$ divides $24$.</p>
+<p>Concluding, $\Gamma_0(N)$ preserves exactly those lattices $M\frac{g}{h}$ for which<br />
+\[<br />
+1~|~M~|~\frac{N}{h^2}~\quad~\text{and}~\quad~h~|~24 \]</p>
+<p>A first step towards figuring out the <a href="https://lievenlebruyn.github.io/neverendingbooks/looking-for-the-moonshine-picture">Moonshine Picture</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

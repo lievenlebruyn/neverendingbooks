@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>dessin d&#8217;enfant &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/dessin-denfant/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 08 Dec 2018 10:41:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>RH and the Ishango bone</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/rh-and-the-ishango-bone/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/rh-and-the-ishango-bone/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 08 Dec 2018 10:41:20 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[dessin d'enfant]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[noncommutative geometry]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8250</guid>
+
+					<description><![CDATA[&#8220;She simply walked into the pond in Kensington Gardens Sunday morning and drowned herself in three feet of water.&#8221; This is the opening sentence of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>&#8220;She simply walked into the pond in Kensington Gardens Sunday morning and drowned herself in three feet of water.&#8221;</p>
+<p>This is the opening sentence of <a href="http://kasmana.people.cofc.edu/MATHFICT/mfview.php?callnumber=mf1120">The Ishango Bone</a>, a novel by Paul Hastings Wilson. It (re)tells the story of a young mathematician at Cambridge, Amiele, who (dis)proves the Riemann Hypothesis at the age of 26, is denied the Fields medal, and commits suicide.</p>
+<p>In his <a href="http://kasmana.people.cofc.edu/MATHFICT/mfview.php?callnumber=mf1120">review of the novel on MathFiction</a>, Alex Kasman casts he story in the 1970ties, based on the admission of the first female students to Trinity.</p>
+<p>More likely, the correct time frame is in the first decade of this century. On page 121 Amiele meets Alain Connes, said to be a &#8220;past winner of the Crafoord Prize&#8221;, which Alain obtained in 2001. In fact, noncommutative geometry and its interaction with quantum physics plays a crucial role in her &#8216;proof&#8217;.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/ishangobone.jpg" width=70% ><br />
+</center></p>
+<p>The <a href="https://en.wikipedia.org/wiki/Ishango_bone">Ishango artefact</a> only appears in the Coda to the book. There are a number of theories on the nature and grouping of the scorings on the bone. In one column some people recognise the numbers 11, 13, 17 and 19 (the primes between 10 and 20).</p>
+<p>In the book, Amiele remarks that the total number of lines scored on the bone (168) &#8220;happened to be the exact total of all the primes between 1 and 1000&#8221; and &#8220;if she multiplied 60, the total number of lines in one side column, by 168, the grand total of lines, she&#8217;d get 10080,&#8230;,not such a far guess from 9592, the actual total of primes between 1 and 100000.&#8221; (page 139-140)</p>
+<p>The bone is believed to be more than 20000 years old, prime numbers were probably not understood until about 500 BC&#8230;</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/ishango4.gif" ><br />
+</center></p>
+<p>More interesting than these speculations on the nature of the Ishango bone is the description of the tools Amiele thinks to need to tackle the Riemann Hypothesis:</p>
+<p>&#8220;These included algebraic geometry (which combines commutative algebra with the language and problems of geometry); noncommutative geometry (concerned with the geometric approach to associative algebras, in which multiplication is not commutative, that is, for which $x$ times $y$ does not always equal $y$ times $x$); quantum field theory on noncommutative spacetime, and mathematical aspects of quantum models of consciousness, to name a few.&#8221; (page 115)</p>
+<p>The breakthrough came two years later when Amiele was giving a lecture on Grothendieck&#8217;s <a href="https://en.wikipedia.org/wiki/Dessin_d%27enfant">dessins d&#8217;enfant</a>.</p>
+<p>&#8220;Dessin d&#8217;enfant, or &#8216;child&#8217;s drawing&#8217;, which Amiele had discovered in Grothendieck&#8217;s work, is a type of graph drawing that seemed technically simple, but had a very strong impression on her, partly due to the familiar nature of the objects considered. (&#8230;) Amiele found subtle arithmetic invariants associated with these dessins, which were completely transformed, again, as soon as another stroke was added.&#8221; (page 116)</p>
+<p>Amiele&#8217;s &#8216;disproof&#8217; of RH is outlined on pages 122-124 of &#8220;The Ishango Bone&#8221; and is a mixture of recognisable concepts and ill-defined terms.</p>
+<p>&#8220;Her final result proved that Riemann&#8217;s Hypothesis was false, a zero must fall to the east of Riemann&#8217;s critical line whenever the zeta function of point $q$ with momentum $p$ approached the aelotropic state-vector (this is a simplification, of course).&#8221; (page 123)</p>
+<p>More details are given in a footnote:</p>
+<p>&#8220;(&#8230;) a zero must fall to the east of Riemann&#8217;s critical line whenever:</p>
+<p>\[<br />
+\zeta(q_p) = \frac{( | \uparrow \rangle + \Psi) + \frac{1}{2}(1+cos(\Theta))\frac{\hbar}{\pi}}{\int(\Delta_p)} \]</p>
+<p>(&#8230;) The intrepid are invited to try the equation for themselves.&#8221; (page 124)</p>
+<p>Wilson&#8217;s &#8220;The Ishango Bone&#8221; was published in 2012. A fair number of topics covered (the Ishango bone, dessin d&#8217;enfant, Riemann hypothesis, quantum theory) also play a prominent role in the 2015 paper/story by Michel Planat <a href="https://arxiv.org/abs/1503.02677">&#8220;A moonshine dialogue in mathematical physics&#8221;</a>, but this time with additional story-line: <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a>&#8230;</p>
+<p>Such a paper surely deserves a separate post.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/moonshinedialogue.gif"><br />
+</center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/rh-and-the-ishango-bone/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

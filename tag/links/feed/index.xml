@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>links &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/links/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 15 Jan 2011 14:44:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the Reddit (after)effect</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 15 Jan 2011 14:44:31 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[analytics]]></category>
+		<category><![CDATA[blogs]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[links]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[Reddit]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[Wikipedia]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4130</guid>
+
+					<description><![CDATA[Sunday january 2nd around 18hr NeB-stats went crazy. Referrals clarified that the post &#8216;What is the knot associated to a prime?&#8217; was picked up at&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Sunday january 2nd around 18hr NeB-stats went crazy.</p>
+<p>Referrals clarified that the post <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/what-is-the-knot-associated-to-a-prime.html">&#8216;What is the knot associated to a prime?&#8217;</a> was picked up at <a href="http://www.reddit.com/r/math/">Reddit/math</a> and remained nr.1 for about a day.</p>
+<p>Now, the dust has settled, so let&#8217;s learn from the experience.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddit1.jpg"></p>
+<p>A Reddit-mention is to a blog what doping is to a sporter.</p>
+<p>You get an immediate boost in the most competitive of all blog-stats, the number of unique vistors (blue graph), but is doesn&#8217;t result in a long-term effect, and, it may even be harmful to more essential blog-stats, such as the average time visitors spend on your site (yellow graph).</p>
+<p>For NeB the unique vistors/day fluctuate normally around 300, but peaked to 1295 and 1733 on the &#8216;Reddit-days&#8217;. In contrast, the avg. time on site is normally around 3 minutes, but dropped the same days to 44 and 30 seconds!</p>
+<p>Whereas some of the Reddits spend enough time to read the post and <a href="http://www.reddit.com/r/math/comments/ev1gq/what_is_the_knot_associated_to_a_prime/">comment on it</a>, the vast majority zap from one link to the next. Having monitored the <a href="http://www.reddit.com/r/math/">Reddit/math</a> page for two weeks, I&#8217;m convinced that post only made it because it was visually pretty good. The average Reddit/math-er is a viewer more than a reader&#8230;</p>
+<p>So, should I go for shorter, snappier, more visual posts?</p>
+<p>Let&#8217;s compare Reddits to those coming from the three sites giving NeB most referrals : Google search, MathOverflow and Wikipedia.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddit2.jpg"></p>
+<p>This is the traffic coming from Reddit/math, as always the blue graph are the unique visitors, the yellow graph their average time on site, blue-scales to the left, yellow-scales to the right.</p>
+<p>Here&#8217;s the same graph for <a href="http://www.google.com/">Google search</a>. The unique visitors/day fluctuate around 50 and their average time on site about 2 minutes.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/google2.jpg"></p>
+<p>The math-related search terms most used were this month : &#8216;functor of point approach&#8217;, &#8216;profinite integers&#8217; and &#8216;bost-connes sytem&#8217;.</p>
+<p>More rewarding to me are referrals from <a href="http://mathoverflow.net/">MathOverflow</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mathO1.jpg"></p>
+<p>The number of visitors depends on whether the MathO-questions made it to the front-page (for example, the 80 visits on december 15, came from the <a href="http://mathoverflow.net/questions/1909/what-are-dessins-denfants">What are dessins d’enfants?-topic</a> getting an extra comment that very day, and having two references to NeB-posts : <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-best-rejected-proposal-ever.html">The best rejected proposal ever</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/kleins-dessins-denfant-and-the-buckyball.html">Klein’s dessins d’enfant and the buckyball</a>), but even older MathO-topics give a few referrals a day, and these people sure take their time reading the posts (+ 5 minutes).</p>
+<p>Other MathO-topics giving referrals this month were <a href="http://mathoverflow.net//questions/49151/most-intricate-and-most-beautiful-structures-in-mathematics">Most intricate and most beautiful structures in mathematics</a> (linking to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/looking-for-f_un.html">Looking for F-un</a>), <a href="http://mathoverflow.net///questions/28496/what-should-be-learned-in-a-first-serious-schemes-course">What should be learned in a first serious schemes course?</a> (linking to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mumfords-treasure-map.html">Mumford’s treasure map</a> (btw. one of the most visited NeB-posts ever)), <a href="http://mathoverflow.net/questions/14468/how-much-of-scheme-theory-can-you-visualize">How much of scheme theory can you visualize?</a> (linking again to Mumford&#8217;s treasure map) and <a href="http://mathoverflow.net/questions/34699/approaches-to-riemann-hypothesis-using-methods-outside-number-theory">Approaches to Riemann hypothesis using methods outside number theory</a> (linking to the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bost-connes-coset-space.html">Bost-Connes series</a>).</p>
+<p>Finally, there&#8217;s <a href="http://em.wikipedia.org/">Wikipedia</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wikipedia1.jpg"></p>
+<p>giving 5 to 10 referrals a day, with a pretty good time-on-site average (around 4 minutes, peaking to 12 minutes). It is rewarding to see NeB-posts referred to in as diverse Wikipedia-topics as &#8216;Fifteen puzzle&#8217;, &#8216;Field with one element&#8217;, &#8216;Evariste Galois&#8217;, &#8216;ADE classification&#8217;, &#8216;Monster group&#8217;, &#8216;Arithmetic topology&#8217;, &#8216;Dessin d&#8217;enfant&#8217;, &#8216;Groupoid&#8217;, &#8216;Belyi&#8217;s theorem&#8217;, &#8216;Modular group&#8217;, &#8216;Cubic surface&#8217;, &#8216;Esquisse d&#8217;un programme&#8217;, &#8216;N-puzzle&#8217;, &#8216;Shabat polynomial&#8217; and &#8216;Mathieu group&#8217;.</p>
+<p>What lesson should be learned from all this data? Should I go for shorter, snappier and more visual posts, or should I focus on the small group of visitors taking their time reading through a longer post, and don&#8217;t care about the appallingly high <a href="http://en.wikipedia.org/wiki/Bounce_rate">bounce rate</a> the others cause?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

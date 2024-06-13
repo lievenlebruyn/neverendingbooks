@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Oulipo &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/oulipo/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 17 Jul 2014 15:05:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Oulipo&#8217;s use of the Tohoku paper</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/oulipos-use-of-the-tohoku-paper/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/oulipos-use-of-the-tohoku-paper/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 17 Jul 2014 15:05:04 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Oulipo]]></category>
+		<category><![CDATA[Roubaud]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=6030</guid>
+
+					<description><![CDATA[Many identify the &#8216;Tohoku Mathematical Journal&#8217; with just one paper published in it, affectionately called the Tohoku paper: &#8220;Sur quelques points d’algèbre homologique&#8221; by Alexander&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Many identify the &#8216;Tohoku Mathematical Journal&#8217; with just one paper published in it, affectionately called <a href="http://ncatlab.org/nlab/show/Tohoku">the Tohoku paper</a>: &#8220;Sur quelques points d’algèbre homologique&#8221; by Alexander Grothendieck.</p>
+<p>In this paper, Grothendieck reshaped homological algebra for Abelian categories, extending the setting of Cartan-Eilenberg (their book and the paper both appeared in 1957). While working on the Tohoku paper in Kansas, Grothendieck did not have access to the manuscript of the 1956 book of Cartan-Eilenberg, about which he heard from his correspondence with Serre.</p>
+<p>Concerning the title, an interesting suggestion was made by Mathieu Bélanger in his thesis <a href="https://papyrus.bib.umontreal.ca/xmlui/handle/1866/4759">&#8220;Grothendieck et les topos: rupture et continuité dans les modes d&#8217;analyse du concept d&#8217;espace topologique&#8221;</a>, (footnote 18 on page 164):</p>
+<p>&#8220;There is a striking resemblance between the title of the Grothendieck&#8217;s article &#8220;Sur quelques points d’algèbre homologique&#8221;, and that of <a href="http://en.wikipedia.org/wiki/Maurice_Ren%C3%A9_Fr%C3%A9chet">Fréchet</a>&#8216;s thesis &#8220;Sur quelques points d’analyse fonctionelle&#8221;. Why? Grothendieck remains silent about it. Perhaps he saw a methodological similarity between the introduction, by Fréchet, of abstract spaces in order to develop the foundations of functional calculus and that of the Abelian categories he needed to clarify the homological theory. Compared with categories of sets, groups, topological spaces, etc. that were used until then, Abelian categories are in effect abstract categories.&#8221;</p>
+<p>But, what does this have to do with the literary group <a href="http://oulipo.net/">OuLiPo</a> (ouvroir de littérature potentielle, &#8216;workshop of potential literature&#8217;)?</p>
+<p><a href="http://en.wikipedia.org/wiki/Oulipo">Oulipo</a> was founded in 1960 by <a href="http://en.wikipedia.org/wiki/Raymond_Queneau">Raymond Queneau</a> and <a href="http://en.wikipedia.org/wiki/Fran%C3%A7ois_Le_Lionnais">François Le Lionnais</a>. Other notable members have included novelists Georges Perec and Italo Calvino, poets Oskar Pastior, Jean Lescure and poet/mathematician Jacques Roubaud.</p>
+<p>Several members of Oulipo were either active mathematicians or at least had an interest in mathematics. Sometimes, Oulipo is said to be the literary answer to Bourbaki. The group explored new ways to create literature, often with methods coming from mathematics or programming.</p>
+<p>One such method is described in &#8220;Chimères&#8221; by Le Lionnais:</p>
+<p>One takes a source text A. One &#8217;empties&#8217; it, that is, one deletes all nouns, adjectives and verbs, but marks where they were in the text. In this way we have &#8216;prepared&#8217; the text.</p>
+<p>Next we take three target texts and make lists of words from them, K the list of nouns of the first, L the list of adjectives of the second and M the list of verbs of the third. Finally, we fill the empty spaces in the source text by words from the target lists, in the order that they appeared in the target texts.</p>
+<p>In the example Le Lionnais gives, the liste M is the list of all verbs appearing in the Tohoku paper.</p>
+<p><center><br />
+<img decoding="async" alt="" src="http://matrix.cmi.ua.ac.be/DATA3/OulipoLists.jpg" /></center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/oulipos-use-of-the-tohoku-paper/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

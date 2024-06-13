@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>arxiv &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/arxiv/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 16 May 2011 12:17:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Who dreamed up the primes=knots analogy?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 16 May 2011 12:17:45 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[knots]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[Mazur]]></category>
+		<category><![CDATA[Mumford]]></category>
+		<category><![CDATA[nonsense]]></category>
+		<category><![CDATA[primes]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4906</guid>
+
+					<description><![CDATA[One of the more surprising analogies around is that prime numbers can be viewed as knots in the 3-sphere $S^3$. The motivation behind it is&#8230;]]></description>
+										<content:encoded><![CDATA[<p>One of the more surprising analogies around is that prime numbers can be viewed as knots in the 3-sphere $S^3$. The motivation behind it is that the (etale) fundamental group of $\pmb{spec}(\mathbb{Z}/(p))$ is equal to (the completion) of the fundamental group of a circle $S^1$ and that the embedding</p>
+<p>$\pmb{spec}(\mathbb{Z}/(p)) \subset \pmb{spec}(\mathbb{Z})$</p>
+<p>embeds this circle as a knot in a 3-dimensional simply connected manifold which, after Perelman, has to be $S^3$. For more see the <a href="https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime">what is the knot associated to a prime?-post</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/primescircles.jpg"></p>
+<p>In recent months new evidence has come to light allowing us to settle the genesis of this marvelous idea.</p>
+<p><strong>1. The former consensus</strong></p>
+<p>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BarryMazur85.jpg" align=left hspace=10 > Until now, the generally accepted view (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mazurs-dictionary.html">the &#8216;Mazur-dictionary-post&#8217;</a> or <a href="http://arxiv.org/abs/0904.3399">Morishita&#8217;s expository paper</a>) was that the analogy between knots and primes was first pointed out by <a href="http://en.wikipedia.org/wiki/Barry_Mazur">Barry Mazur</a> in the middle of the 1960&#8217;s when preparing for his lectures at the Summer Conference on Algebraic Geometry, at Bowdoin, in 1966. The lecture notes where later published in 1973 in the Annales of the ENS as &#8216;Notes on etale cohomology of number fields&#8217;.</p>
+<p>For further use in this series of posts, please note the acknowledgement at the bottom of the first page, reproduced below : &#8220;It gives me pleasure to thank J.-P. Serre for his vigorous editing and his suggestions and corrections, which led to this revised version.&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Mazur1973.jpg"></p>
+<p>Independently, <a href="http://en.wikipedia.org/wiki/Yuri_I._Manin">Yuri I. Manin</a> spotted the same analogy at around the same time. However, this point of view was quickly forgotten in favor of the more classical one of viewing number fields as analogous to algebraic function fields of one variable. Subsequently, in the mid 1990&#8217;s <a href="http://www.math.toronto.edu/kapranov/">Mikhail Kapranov</a> and <a href="http://books.google.com/books?id=nLaWI8Rc9RYC&amp;dq=Alexander+Reznikov&amp;printsec=frontcover&amp;source=bl&amp;ots=GoAknn2TfZ&amp;sig=eHgN5X04za1PgSfIq2_zhM-D-LQ&amp;hl=en&amp;sa=X&amp;oi=book_result&amp;resnum=3&amp;ct=result">Alexander Reznikov</a> took up the analogy between number fields and 3-manifolds again, and called the resulting study <a href="http://en.wikipedia.org/wiki/Arithmetic_topology">arithmetic topology</a>.</p>
+<p><strong>2. The new evidence</strong></p>
+<p>On december 13th 2010, <a href="http://mathoverflow.net/users/10909/david-feldman">David Feldman</a> posted a MathOverflow-question <a href="http://mathoverflow.net/questions/49303/mazurs-unpublished-manuscript-on-primes-and-knots">Mazur’s unpublished manuscript on primes and knots?</a>. He wrote : &#8220;The story of the analogy between knots and primes, which now has a literature, started with an unpublished note by Barry Mazur. I&#8217;m not absolutely sure this is the one I mean, but in his paper, Analogies between group actions on 3-manifolds and number fields, Adam Sikora cites <strong>B. Mazur, Remarks on the Alexander polynomial, unpublished notes.</strong>&#8220;</p>
+<p>Two months later, on february 15th David Feldman suddenly found the missing preprint in his mail-box and made it <a href="http://ifile.it/rodc5is/mazur.pdf">available</a>. The preprint is now also available from Barry Mazur&#8217;s <a href="http://www.math.harvard.edu/~mazur/">website</a>. Mazur adds the following comment :</p>
+<p>&#8220;In 1963 or 1964 I wrote an article <a href="http://www.math.harvard.edu/~mazur/papers/alexander_polynomial.pdf">Remarks on the Alexander Polynomial [PDF]</a> about the analogy between knots in the three-dimensional sphere and prime numbers (and, correspondingly, the relationship between the Alexander polynomial and Iwasawa Theory). I distributed some copies of my article but never published it, and I misplaced my own copy. In subsequent years I have had many requests for my article and would often try to search through my files to find it, but never did. A few weeks ago Minh-Tri Do asked me for my article, and when I said I had none, he very kindly went on the web and magically found a scanned copy of it. I&#8217;m extremely grateful to Minh-Tri Do for his efforts (and many thanks, too, to David Feldman who provided the lead).&#8221;</p>
+<p>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DavidMumford.jpg" align=right hspace=10 ><br />
+The opening paragraph of this unpublished preprint contains a major surprise!</p>
+<p> Mazur points to <a href="http://en.wikipedia.org/wiki/David_Mumford">David Mumford</a> as the originator of the &#8216;primes-are-knots&#8217; idea : &#8220;Mumford has suggested a most elegant model as a geometric interpretation of the above situation : $\pmb{spec}(\mathbb{Z}/p\mathbb{Z})$ is like a one-dimensional knot in $\pmb{spec}(\mathbb{Z})$ which is like a simply connected three-manifold.&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MazurPreprint.jpg"></p>
+<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy"> a later post</a> we will show that one can even pinpoint the time and place when and where this analogy was first dreamed-up to within a few days and a couple of miles.</p>
+<p>For the impatient among you, have a sneak preview of the cradle of birth of the primes=knots idea&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/quizz1.jpg"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Art and the absolute point (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 13 May 2011 13:41:51 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[paintings]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5001</guid>
+
+					<description><![CDATA[Last time we did recall Manin&#8217;s comparisons between some approaches to geometry over the absolute point $\pmb{spec}(\mathbb{F}_1)$ and trends in the history of art. In&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/absolutpoint.jpg" align=left hspace=10> <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/art-and-the-absolute-point.html">Last time</a> we did recall Manin&#8217;s comparisons between some approaches to geometry over the absolute point $\pmb{spec}(\mathbb{F}_1)$ and trends in the history of art.</p>
+<p>In the comments to that post, <a href="http://www.ucl.ac.uk/~ucahjlo/">Javier Lopez-Pena</a> wrote that he and <a href="http://www.sci.ccny.cuny.edu/~lorscheid/">Oliver Lorscheid</a> briefly contemplated the idea of extending Manin&#8217;s artsy-dictionary to all approaches they did draw on their <a href="http://arxiv.org/abs/0909.0069">Map of $\mathbb{F}_1$-land</a>. </p>
+<p>So this time, we will include here Javier&#8217;s and Oliver&#8217;s insights on the colored pieces below in their map : CC=Connes-Consani, Generalized torified schemes=Lopez Pena-Lorscheid, Generalized schemes with 0=Durov and, this time, $\Lambda$=Manin-Marcolli.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/F1land2.jpg"></p>
+<p><strong>Durov : romanticism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/romanticism.jpg"></p>
+<p>In his 568 page long Ph.D. thesis <a href="http://arxiv.org/abs/0704.2030">New Approach to Arakelov Geometry</a> Nikolai Durov introduces a vast generalization of classical algebraic geometry in which both Arakelov geometry and a more exotic geometry over $\mathbb{F}_1$ fit naturally. Because there were great hopes and expectations it would lead to a big extension of algebraic geometry, Javier and Oliver associate this approach to <a href="http://en.wikipedia.org/wiki/Romanticism">romantism</a>. From wikipedia : &#8220;The modern sense of a romantic character may be expressed in Byronic ideals of a gifted, perhaps misunderstood loner, creatively following the dictates of his inspiration rather than the standard ways of contemporary society.&#8221;</p>
+<p><strong>Manin and Marcolli : impressionism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/impressionism.jpg"></p>
+<p>Yuri I. Manin in <a href="http://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a> and Matilde Marcolli in <a href="http://arxiv.org/abs/0901.3167">Cyclotomy and endomotives</a> develop a theory of analytic geometry over $\mathbb{F}_1$ based on analytic functions &#8216;leaking out of roots of unity&#8217;. Javier and Oliver depict such functions as &#8216;thin, but visible brush strokes at roots of 1&#8217; and therefore associate this approach to <a href="http://en.wikipedia.org/wiki/Impressionism">impressionism</a>. Frow wikipedia : &#8216;Characteristics of Impressionist paintings include: relatively small, thin, yet visible brush strokes; open composition; emphasis on accurate depiction of light in its changing qualities (often accentuating the effects of the passage of time); common, ordinary subject matter; the inclusion of movement as a crucial element of human perception and experience; and unusual visual angles.&#8217;</p>
+<p><strong>Connes and Consani : cubism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cubism.jpg"></p>
+<p>In <a href="http://arxiv.org/abs/0809.2926">On the notion of geometry over $\mathbb{F}_1$</a> Alain Connes and Katia Consani develop their extension of Soule&#8217;s approach. A while ago I&#8217;ve done a couple of posts on this <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-1.html">here</a>, <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-2.html">here</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-3.html">here</a>. Javier and Oliver associate this approach to <a href="http://en.wikipedia.org/wiki/Cubism">cubism</a> (a.o. Pablo Picasso and Georges Braque) because of the weird juxtapositions of the simple monoidal pieces in this approach.</p>
+<p><strong>Lopez-Pena and Lorscheid : deconstructivism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/deconstructivism.jpg"></p>
+<p>Torified varieties and schemes were introduced by Javier Lopez-Pena and Oliver Lorscheid in <a href="http://arxiv.org/abs/0903.2173">Torified varieties and their geometries over $\mathbb{F}_1$</a> to get lots of examples of varieties over the absolute point in the sense of both Soule and Connes-Consani. Because they were fragmenting schemes into their &#8220;fundamental pieces&#8221; they associate their approach to <a href="http://en.wikipedia.org/wiki/Deconstructivism">deconstructivism</a>.</p>
+<p>Another time I&#8217;ll sketch my own arty-farty take on all this.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Art and the absolute point</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 12 May 2011 13:41:34 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Borger]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[lambda rings]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4952</guid>
+
+					<description><![CDATA[In his paper Cyclotomy and analytic geometry over $\mathbb{F}_1$ Yuri I. Manin sketches and compares four approaches to the definition of a geometry over $\mathbb{F}_1$,&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/absolutpoint.jpg" align=left hspace=10> In his paper <a href="http://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a> Yuri I. Manin sketches and compares four approaches to the definition of a geometry over $\mathbb{F}_1$, the elusive field with one element.</p>
+<p>He writes : &#8220;Preparing a colloquium talk in Paris, I have succumbed to the temptation to associate them with some dominant trends in the history of art.&#8221;</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/looking-for-f_un.html">Remember</a>  that the search for the absolute point $\pmb{spec}(\mathbb{F}_1)$ originates from the observation that $\pmb{spec}(\mathbb{Z})$, the set of all prime numbers together with $0$, is too large to serve as the terminal object in Grothendieck&#8217;s theory of commutative schemes. The last couple of years have seen a booming industry of proposals, to the extent that Javier Lopez Pena and Oliver Lorscheid decided they had to draw a <a href="http://arxiv.org/abs/0909.0069">map of $\mathbb{F}_1$-land</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/F1land.jpg"></p>
+<p>Manin only discusses the colored proposals (TV=Toen-Vaquie, M=Deitmar, S=Soule and $\Lambda$=Borger) and compares them to these art-history trends.</p>
+<p><strong>Toen and Vaquie : Abstract Expressionism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/abstactexpressionism.jpg"></p>
+<p>In <a href="http://arxiv.org/abs/math/0509684">Under $\pmb{spec}(\mathbb{Z})$</a> Bertrand Toen and Michel Vaquie argue that geometry over $\mathbb{F}_1$ is a special case of algebraic geometry over a symmetric monoidal category, taking the simplest example namely sets and direct products. Probably because of its richness and abstract nature, Manin associates this approach to <a href="http://en.wikipedia.org/wiki/Abstract_expressionism">Abstract Expressionism</a> (a.o. Karel Appel, Jackson Pollock, Mark Rothko, Willem de Kooning).</p>
+<p><strong>Deitmar : Minimalism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/minimalism.jpg"></p>
+<p>Because monoids are the &#8216;commutative algebras&#8217; in sets with direct products, an equivalent proposal is that of Anton Deitmar in <a href="http://arxiv.org/abs/math/0404185">Schemes over $\mathbb{F}_1$</a> in which the basic affine building blocks are spectra of monoids, topological spaces whose points are submonoids satisfying a primeness property. Because Deitmar himself calls this approach a &#8216;minimalistic&#8217; one it is only natural to associate to it <a href="http://en.wikipedia.org/wiki/Minimalism">Minimalism</a> where the work is stripped down to its most fundamental features. Prominent artists associated with this movement include Donald Judd, John McLaughlin, Agnes Martin, Dan Flavin, Robert Morris, Anne Truitt, and Frank Stella.</p>
+<p><strong>Soule : Critical Realism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/realism.jpg"></p>
+<p>in <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/library/Soule2004.pdf">Les varietes sur le corps a un element</a> Christophe Soule defines varieties over $\mathbb{F}_1$ to be specific schemes $X$ over $\mathbb{Z}$ together with a form of &#8216;descent data&#8217; as well as an additional $\mathbb{C}$-algebra, morally the algebra of functions on the real place. Because of this Manin associates to it <a href="http://en.wikipedia.org/wiki/Critical_realism">Critical Realism</a> in philosophy. There are also &#8216;realism&#8217; movements in art such as <a href="http://en.wikipedia.org/wiki/American_realism">American Realism</a> (o.a. Edward Hopper and John Sloan).</p>
+<p><strong>Borger : Futurism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/futurism.jpg"></p>
+<p>James Borger&#8217;s paper <a href="http://arxiv.org/abs/0906.3146">Lambda-rings and the field with one element</a> offers a totally new conception of the descent data from $\mathbb{Z}$ to $\mathbb{F}_1$, namely that of a $\lambda$-ring in the sense of Grothendieck. Because Manin expects this approach to lead to progress in the field, he connects it to <a href="http://en.wikipedia.org/wiki/Futurism">Futurism</a>, an artistic and social movement that originated in Italy in the early 20th century.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lists 2010 : StackExchange sites</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 27 Dec 2010 13:53:11 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[social networks]]></category>
+		<category><![CDATA[stackexchange]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3883</guid>
+
+					<description><![CDATA[One of the trends of 2010 was the proliferation of StackExchange sites. I guess by now most of us visit MathOverflow along with the arXiv&#8230;]]></description>
+										<content:encoded><![CDATA[<p>One of the trends of 2010 was the proliferation of <a href="http://en.wikipedia.org/wiki/Stack_Exchange">StackExchange</a> sites. I guess by now most of us visit <a href="http://mathoverflow.net/">MathOverflow</a> along with <a href="http://arxiv.org/">the arXiv</a> daily. But, there are plenty of other StackExchange sites around that may be of interest to the mathematics-community :</p>
+<ul>
+<li><a href="http://math.stackexchange.com/">Mathematics</a> somewhat less high-brow than MathO.  </li>
+<li><a href="http://physics.stackexchange.com/">Physics</a> still in the beta-phase (see below)  </li>
+<li><a href="http://cstheory.stackexchange.com/">Theoretical computer science</a>  </li>
+<li><a href="http://tex.stackexchange.com/">TeX</a> for TeX and LaTeX-lovers  </li>
+<li><a href="http://ipad4edu.com/">iPad 4 edu</a> for those who want to use their iPad in the classroom</li>
+<li>etc. etc.</li>
+</ul>
+<p>&#8220;Opening a StackExchange site is damn hard. First you have to find at least 60 people interested in the site. Then, when this limit is reached, a large amount of people (in the hundreds, but it really depends on the reputation of each participant) must commit and promise to create momentum for the site, adding questions and answers. When this amount is reached, the site is open and stays in closed beta for seven days. During this time, the committers have to enrich the site so that the public beta (which starts after the first seven days) gets enough hits and participants to show a self-sustained community.&#8221; (quote from ForTheScience&#8217;s <a href="http://forthescience.org/blog/2010/07/22/stackexchange-sites-proliferation/">StackExchange sites proliferation</a>, this post also contains a list of  StackExchange-projects in almost every corner of Life)</p>
+<p>The site keeping you up to date with StackExchange proposals and their progress is <a href="http://area51.stackexchange.com/">area51</a>. Perhaps, you want to commit to some of these proposals</p>
+<ul>
+<li><a href="http://area51.stackexchange.com/proposals/6633/high-energy-physics">High Energy Physics</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/23848/theoretical-physics">Theoretical Physics</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15787/mathematica">Mathematica</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/23788/math-errata-database">Math Errata Database</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15215/blogging-and-the-blogosphere">Blogging and the Blogosphere</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15811/cryptography">Cryptography</a></li>
+</ul>
+<p>or simply browse around <a href="http://area51.stackexchange.com/">area51</a> until you find the ideal community for you to belong to&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>math &#038; manic-depression, a Faustian bargain</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/math-manic-depression-a-faustian-bargain/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/math-manic-depression-a-faustian-bargain/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 15 Jul 2010 15:06:33 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3242</guid>
+
+					<description><![CDATA[In the wake of a colleague&#8217;s suicide and the suicide of three students, Matilde Marcolli gave an interesting and courageous talk at Caltech in April&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In the wake of a colleague&#8217;s suicide and the suicide of three students, <a href="http://www.its.caltech.edu/~matilde/">Matilde Marcolli</a> gave an interesting and courageous talk at Caltech in April : <a href="http://www.its.caltech.edu/~matilde/DarkBrightness.pdf">The dark heart of our brightness: bipolar disorder and scientific creativity</a>. Although these slides give a pretty good picture of the talk, if you can please take the time to <a href="http://win-dms-ms1.caltech.edu/five/Viewer/?peid=f88652a3673f4a9d922714151552b44e">watch it</a> (the talk starts 44 minutes into the video).</p>
+<p>Courageous because as the talk progresses, she gives more and more examples from her own experiences, thereby breaking the taboo surrounding the topic of bipolar mood disorder among scientists. Interesting because she raises a couple of valid points, well worth repeating.</p>
+<p><strong>We <strike>didn&#8217;t</strike> can see it coming</strong></p>
+<p>We are always baffled when someone we know commits suicide, especially if that person is extremely successful in his/her work. &#8216;(S)he was so full of activity!&#8217;, &#8216;We did not see it coming!&#8217; etc. etc.</p>
+<p>Matilde argues that if a person suffers from bipolar mood disorder (from mild forms to full-blown manic-depression), a condition quite common among scientists and certainly mathematicians, we <strong>can</strong> see it coming, if we look for the proper signals!</p>
+<p>We, active scientists, are pretty good at hiding a down-period. We have collected an arsenal of tricks not to send off signals when we feel depressed, simply because it&#8217;s not considered cool behavior. On the other hand, in our manic phases, we are quite transparent because we like to show off our activity and creativity!</p>
+<p>Matilde tells us to watch out for people behaving orders-of-magnitude out of their normal-mode behavior. Say, someone who normally posts one or two papers a year on the arXiv, suddenly posting 5 papers in one month. Or, someone going rarely to a conference, now spending a summer flying from one conference to the next. Or, someone not blogging for months, suddenly flooding you with new posts&#8230;</p>
+<p>As scientists we are good at spotting such order-of-magnitude-out-behavior. So we can detect friends and colleagues going through a manic-phase and hence should always take such a person serious (and try to offer help) when they send out signals of distress.</p>
+<p><strong>Mood disorder, a Faustian bargain</strong></p>
+<p>The <a href="http://en.wikipedia.org/wiki/Faust">Faust legend</a> :<br />
+&#8220;Despite his scholarly eminence, Faust is bored and disappointed. He decides to call on the Devil for further knowledge and magic powers with which to indulge all the pleasures of the world. In response, the Devil&#8217;s representative Mephistopheles appears. He makes a bargain with Faust: Mephistopheles will serve Faust with his magic powers for a term of years, but at the end of the term, the Devil will claim Faust&#8217;s soul and Faust will be eternally damned.&#8221;</p>
+<p>Mathematicians suffering from mood disorder seldom see their condition as a menace, but rather as an advantage. They know they do their best and most creative work in short spells of intense activity during their manic phase and take the down-phase merely as a side effect. We fear that if we seek treatment, we may as well loose our creativity.</p>
+<p>That is, like Faust, we indulge the pleasures of our magic powers during a manic-phase, knowing only too well that the devilish depression-phase may one day claim our life or mental sanity&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/math-manic-depression-a-faustian-bargain/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Return to LaTeX</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 12 Feb 2010 20:20:29 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2965</guid>
+
+					<description><![CDATA[To most mathematicians, a good LaTeX-frontend (such as TeXShop for Mac-users) is the crucial tool to get the work done. We use it to draft&#8230;]]></description>
+										<content:encoded><![CDATA[<p><p>
+To most mathematicians, a good LaTeX-frontend (such as <a href="http://www.uoregon.edu/~koch/texshop/">TeXShop</a> for Mac-users) is the crucial tool to get the work done. We use it to draft ideas, write papers and courses, or even to take notes during lectures.</p>
+<p>
+However, after six years of blogging, my own LaTeX-routine became rusty. I rarely open a new tex-document, and when I do, I’d rather copy-paste the long preamble from an old file than to start from scratch with a minimal list of packages and definitions needed for the job at hand. The few times I put a paper on the arXiv, the resulting text resembles a blog-post more than a mathematical paper, here’s <a href="http://arxiv.org/abs/0803.3601">an example</a>.</p>
+<p>
+As I desperately need to get some math-writing done, I need to pull myself away from the lure of an ever-open <a href="http://wordpress.org/">WordPress</a> admin browser-screen and reacquaint myself with the far more efficient LaTeX-environment.</p>
+<p>
+Perhaps even my blogging will benefit from the change. Whereas I used to keep on adding to most of my tex-files in order to keep them up-to-date, I rarely edit a blog-post after hitting the ’publish’ button. If I really want to turn some of my better posts into a book, I need them in a format suitable for neverending polishing, without annoying the many RSS-feed aggregators out there.</p>
+<p>
+Who better than Terry Tao to teach me a more proficient way of blogging? A few days ago, Terry <a href="http://terrytao.wordpress.com/2010/02/07/an-epsilon-of-room-pages-from-year-three-of-a-mathematical-blog/">announced</a> he will soon have his 5th (!!) book out, after three years of blogging&#8230;</p>
+<p>
+How does he manage to do this? Well, as far as I know, Terry blogs in LaTeX and then uses a python-script called <a href="http://lucatrevisan.wordpress.com/latex-to-wordpress/">LaTeX2WP</a> ’a program that converts a LaTeX file into something that is ready to be cut and pasted into WordPress. This way, you can write, and preview, your post in LaTeX, then run LaTeX2WP, and post into WordPress whatever comes out.’ More importantly, one retains a pure-tex-file of the post on which one can keep on editing to get it into a (book)-publishable form, eventually.</p>
+<p>
+Nice, but one can do even better, as Eric from <a href="http://curiousreasoning.wordpress.com/tag/latex/">Curious Reasoning</a> worked out. He suggests to install two useful python-packages : <a href="http://www.blackbirdblog.it/programmazione/progetti/28#english">WordPressLib</a> &#8220;with this library you can control remotely a WordPress installation. Use of library is very simple, you can write a small scripts or full applications that allows you to automate publishing of articles on your blog/site powered by WordPress&#8221; and <a href="http://plastex.sourceforge.net/">plasTeX</a> &#8220;plasTeX is a LaTeX document processing framework written entirely in Python. It currently comes bundled with an XHTML renderer (including multiple themes), as well as a way to simply dump the document to a generic form of XML&#8221;. Installation is easy : download and extract the files somewhere, go there and issue a **sudo python setup.py install** to add the packages to your python.</p>
+<p>
+Finally, get Eric’s own <a href="http://curiousreasoning.wordpress.com/2010/01/30/overview-of-wplatex-4/">wplatex</a> package and install it as explained there. WpLaTeX has all the features of LaTeX2WP and much more : one can add titles, tags and categories automatically and publish the post from the command-line without ever having to enter the taboo WordPress-admin page! Here’s what I’ve written by now in TeXShop</p>
+<p><p align=center> <img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/Return2Latex.jpg" /> </p>
+<p>
+I’ve added the screenshot and the script will know where to find it online for the blog-version as well as on my hard-disk for the tex-version. Very handy is the iftex &#8230; fi versus ifblog &#8230; fi alternative which allows you to add pure HTML to get the desired effect, when needed. Remains only to go into Terminal and issue the command</p>
+<p>
+wplpost -x https://lievenlebruyn.github.io/neverendingbooks/xmlrpc.php ReturnToLatex.tex</p>
+<p>
+(if your blog is on WordPress.com it even suffices to give its name, rather than this work-around for stand-alone wordpress blogs). The script asks for my username and password and will convert the tex-file and post it automatic.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The odd knights of the round table</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 28 Jan 2010 20:48:59 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[ONAG]]></category>
+		<category><![CDATA[ordinals]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2768</guid>
+
+					<description><![CDATA[Here&#8217;s a tiny problem illustrating our limited knowledge of finite fields : &#8220;Imagine an infinite queue of Knights $&#123; K_1,K_2,K_3,\ldots &#125; $, waiting to be&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s a tiny problem illustrating our limited knowledge of finite fields : &#8220;Imagine an infinite queue of Knights $&#123; K_1,K_2,K_3,\ldots &#125; $, waiting to be seated at the unit-circular table. The master of ceremony (that is, you) must give Knights $K_a $ and $K_b $ a place at an odd root of unity, say $\omega_a $ and $\omega_b $, such that the seat at the odd root of unity $\omega_a \times \omega_b $ must be given to the Knight $K_{a \otimes b} $, where $a \otimes b $ is the Nim-multiplication of $a $ and $b $. Which place would you offer to Knight $K_{16} $, or Knight $K_n $,  or, if you&#8217;re into ordinals, Knight $K_{\omega} $?&#8221;</p>
+<p>What does this have to do with finite fields? Well, consider the simplest of all finite field $\mathbb{F}_2 = &#123; 0,1 &#125; $ and consider its algebraic closure $\overline{\mathbb{F}_2} $. Last year, we&#8217;ve run a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/on2-transfinite-number-hacking.html">series starting here</a>, identifying the field $\overline{\mathbb{F}_2} $, following John H. Conway in <a href="http://en.wikipedia.org/wiki/On_Numbers_and_Games">ONAG</a>, with the set of all ordinals smaller than $\omega^{\omega^{\omega}} $, given the Nim addition and multiplication. I know that ordinal numbers may be intimidating at first, so let&#8217;s just restrict to ordinary natural numbers for now. The Nim-addition of two numbers $n \oplus m $ can be calculated by writing the numbers n and m in binary form and add them without carrying. For example, $9 \oplus 1 = 1001+1 = 1000 = 8 $. Nim-multiplication is slightly more complicated and is best expressed using the so-called Fermat-powers $F_n = 2^{2^n} $. We then demand that $F_n \otimes m = F_n \times m $ whenever $m &lt; F_n $ and $F_n \otimes F_n = \frac{3}{2}F_n $. Distributivity wrt. $\oplus $ can then be used to calculate arbitrary Nim-products. For example, $8 \otimes 3 = (4 \otimes 2) \otimes (2 \oplus 1) = (4 \otimes 3) \oplus (4 \otimes 2) = 12 \oplus 8 = 4 $. Conway&#8217;s remarkable result asserts that the ordinal numbers, equipped with Nim addition and multiplication, form an algebraically closed field of characteristic two. The closure $\overline{\mathbb{F}_2} $ is identified with the subfield of all ordinals smaller than $\omega^{\omega^{\omega}} $. For those of you who don&#8217;t feel like going transfinite, the subfield $~(\mathbb{N},\oplus,\otimes) $ is identified with the quadratic closure of $\mathbb{F}_2 $.</p>
+<p>The connection between $\overline{\mathbb{F}_2} $ and the odd roots of unity has been advocated by Alain Connes in his talk before a general public at the IHES : “L’ange de la géométrie, le diable de l’algèbre et le corps à un élément” (the angel of geometry, the devil of algebra and the field with one element). He describes its content briefly in this YouTube-video</p>
+<p><object width="340" height="209"><param name="movie" value="http://www.youtube.com/v/obEi7BkR3V0&#038;hl=en&#038;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/obEi7BkR3V0&#038;hl=en&#038;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="340" height="209"></embed></object></p>
+<p>At first it was unclear to me which &#8216;coupling-problem&#8217; Alain meant, but this has been clarified in his paper together with Caterina Consani <a href="http://arxiv.org/abs/0911.3537">Characteristic one, entropy and the absolute point</a>. The non-zero elements of $\overline{\mathbb{F}_2} $ can be identified with the set of all odd roots of unity. For, if x is such a unit, it belongs to a finite subfield of the form $\mathbb{F}_{2^n} $ for some n, and, as the group of units of any finite field is cyclic, x is an element of order $2^n-1 $. Hence, $\mathbb{F}_{2^n}- &#123; 0 &#125; $ can be identified with the set of $2^n-1 $-roots of unity, with $e^{2 \pi i/n} $ corresponding to a generator of the unit-group. So, all elements of $\overline{\mathbb{F}_2} $ correspond to an odd root of unity. The observation that we get indeed all odd roots of unity may take you a couple of seconds (( If m is odd, then (2,m)=1 and so 2 is a unit in the finite cyclic group $~(\mathbb{Z}/m\mathbb{Z})^* $ whence $2^n = 1 (mod~m) $, so the m-roots of unity lie within those of order $2^n-1 $ )).</p>
+<p>Assuming we succeed in fixing a one-to-one correspondence between the non-zero elements of $\overline{\mathbb{F}_2} $ and the odd roots of unity $\mu_{odd} $ respecting multiplication, how can we recover the addition on $\overline{\mathbb{F}_2} $? Well, here&#8217;s Alain&#8217;s coupling function, he ties up an element x of the algebraic closure to the element s(x)=x+1 (and as we are in characteristic two, this is an involution, so also the element tied up to x+1 is s(x+1)=(x+1)+1=x. The clue being that multiplication together with the coupling map s allows us to compute any sum of two elements as $x+y=x \times s(\frac{y}{x}) = x \times (\frac{y}{x}+1) $.<br />
+For example, all information about the finite field $\mathbb{F}_{2^4} $ is encoded in this identification with the 15-th roots of unity, together with the pairing s depicted as</p>
+<p>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/16field1.jpg" style="float:center;">
+</p>
+<p>Okay, we now have two identifications of the algebraic closure $\overline{\mathbb{F}_2} $ : the smaller ordinals equipped with Nim addition and Nim multiplication and the odd roots of unity with complex-multiplication and the Connes-coupling s. The question we started from asks for a general recipe to identify these two approaches.</p>
+<p>To those of you who are convinced that finite fields (LOL, even characteristic two!) are objects far too trivial to bother thinking about : as far as I know, NOBODY knows how to do this explicitly, even restricting the ordinals to merely the natural numbers!</p>
+<p>Please feel challenged! To get you started, I&#8217;ll show you how to place the first 15 Knights and give you a  procedure (though far from explicit) to continue. Here&#8217;s the Nim-picture compatible with that above</p>
+<p>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/16field2.jpg" style="float:center;">
+</p>
+<p>To verify this, and to illustrate the general strategy, I&#8217;d better hand you the Nim-tables of the first 16 numbers. Here they are</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/nimaddition.jpg" style="float:center;"> </p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/nimmultiplication.jpg" style="float:center;"> </p>
+<p>It is known that the finite subfields of $~(\mathbb{N},\oplus,\otimes) $ are precisely the sets of numbers smaller than the Fermat-powers $F_n $. So, the first one is all numbers smaller than $F_1=4 $ (check!). The smallest generator of the multiplicative group (of order 3) is 2, so we take this to correspond to the unit-root $e^{2 \pi i/3} $. The next subfield are all numbers smaller than $F_2 = 16 $ and its multiplicative group has order 15. Now, choose the smallest integer k which generates this group, compatible with the condition that $k^{\otimes 5}=2 $. Verify that this number is 4 and that this forces the identification and coupling given above.</p>
+<p>The next finite subfield would consist of all natural numbers smaller than $F_3=256 $. Hence, in this field we are looking for the smallest number k generating the multiplicative group of order 255 satisfying the extra condition that $k^{\otimes 17}=4 $ which would fix an identification at that level. Then, the next level would be all numbers smaller than $F_4=65536 $ and again we would like to find the smallest number generating the multiplicative group and such that the appropriate power is equal to the aforementioned k, etc. etc.</p>
+<p>Can you give explicit (even inductive) formulae to achieve this? I guess even the problem of placing Knight 16 will give you a couple of hours to think about&#8230; (to be continued).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Pollock your own noncommutative space</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 19 May 2009 16:56:50 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[paintings]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1839</guid>
+
+					<description><![CDATA[I really like Matilde Marcolli&#8217;s idea to use some of Jackson Pollock&#8217;s paintings as metaphors for noncommutative spaces. In her talk she used this painting&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I really like Matilde Marcolli&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/views-of-noncommutative-spaces.html">idea</a> to use some of Jackson Pollock&#8217;s paintings as metaphors for noncommutative spaces. In her talk she used this painting</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PollockNCG.jpg"><br />
+</center></p>
+<p>and refered to it (as did I in my post) as : Jackson Pollock “Untitled N.3”. Before someone writes a post &#8216;The Pollock noncommutative space hoax&#8217; (similar to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-scottish-solids-hoax.html">my own</a> post) let me point out that I am well aware of the controversy surrounding this painting.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PollockContreversy.jpg" style="float:right;margin-left:10px;" hspace=10>This painting is among 32 works recently discovered and initially attributed to Pollock.<br />
+In fact, I&#8217;ve already told part of the story in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/doodles-worth-millions-or-not.html">Doodles worth millions (or not)?</a> (thanks to <a href="http://www.gittte.be/">PD1</a>). The story involves the people on the right : from left to right, Jackson Pollock, his wife Lee Krasner, Mercedes Matter and her son Alex Matter.</p>
+<p>Alex Matter, whose father, Herbert, and mother, Mercedes, were artists and friends of Jackson Pollock, discovered after his mother died a group of small drip paintings in a storage locker in Wainscott, N.Y. which he believed to be authentic Pollocks.</p>
+<p>Read the post mentioned above if you want to know how mathematics screwed up his plan, or much better, reed the article <a href="http://blog.cleveland.com/pdextra/2007/10/anatomy_of_the_jackson_pollock.html">Anatomy of the Jackson Pollock controversy</a> by Stephen Litt.</p>
+<p>So, perhaps the painting above was not the smartest choice, but we could take any other genuine Pollock &#8216;drip-painting&#8217;, a technique he taught himself towards the end of 1946 to make an image by splashing, pouring, sloshing colors onto the canvas. Typically, such a painting consists of blops of paint, connected via thin drip-lines.</p>
+<p>What does this have to do with noncommutative geometry? Well, consider the blops as &#8216;points&#8217;. In commutative geometry, distinct points cannot share tangent information ((technically : a commutative semi-local ring splits as the direct sum of local rings and this does no longer hold for a noncommutative semi-local ring)). In the noncommutative world though, they can!, or if you want to phrase it like this, noncommutative points &#8216;can talk to each other&#8217;. And, that&#8217;s what we cherish in those drip-lines.</p>
+<p>But then, if two points share common tangent informations, they must be awfully close to each other&#8230; so one might imagine these Pollock-lines to be strings holding these points together. Hence, it would make more sense to consider the &#8216;Pollock-quotient-painting&#8217;, that is, the space one gets after dividing out the relation &#8216;connected by drip-lines&#8217; ((my guess is that Matilde thinks of the lines as the action of a group on the points giving a topological horrible quotient space, and thats precisely where noncommutative geometry shines)).</p>
+<p>For this reason, my own mental picture of a genuinely noncommutative space  ((that is, the variety corresponding to a huge noncommutative algebra such as free algebras, group algebras of arithmetic groups or fundamental groups)) looks more like the picture below</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/LeBruynNCG.jpg"><br />
+</center></p>
+<p>The colored blops you see are really sets of points which you might view as, say, a  FacebookGroup ((technically, think of them as the connected components of isomorphism classes of finite dimensional simple representations of your favorite noncommutative algebra)). Some chatter may occur between two distinct FacebookGroups, the more chatter the thicker the connection depicted ((technically, the size of the connection is the dimension of the ext-group between generic simples in the components)). Now, there are some tiny isolated spots (say blue ones in the upper right-hand quadrant). These should really be looked at as remote clusters of noncommutative points (sharing no (tangent) information whatsoever with the blops in the foregound). If we would zoom into them beyond the Planck scale (if I&#8217;m allowed to say a bollock-word in a Pollock-post) they might reveal again a whole universe similar to the interconnected blops upfront.</p>
+<p>The picture was produced using the fabulous <a href="http://www.jacksonpollock.org/">Pollock engine</a>. Just use your mouse to draw and click to change colors in order to produce your very own noncommutative space!</p>
+<p>For the mathematicians still around, this may sound like a lot of Pollock-bollocks but can be made precise. See my note <a href="http://arxiv.org/abs/0805.2377">Noncommutative geometry and dual coalgebras</a> for a very terse reading. Now that coalgebras are <a href="http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html">gaining popularity</a>, I really should write a more readable account of it, including some fanshi-wanshi examples&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>E(8) from moonshine groups</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/e8-from-moonshine-groups/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/e8-from-moonshine-groups/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 15 May 2009 09:00:37 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1777</guid>
+
+					<description><![CDATA[Are the valencies of the 171 moonshine groups are compatible, that is, can one construct a (disconnected) graph on the 171 vertices such that in&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Are the valencies of the 171 moonshine groups are compatible, that is, can one construct a (disconnected) graph on the 171 vertices such that in every vertex (determined by a moonshine group G) the vertex-valency coincides with the valency of the corresponding group?  Duncan describes a subset of 9 moonshine groups for which the valencies are compatible. These 9 groups are characterized as those moonshine groups G<br />
+ having width 1 at the cusp and such that their intersection with the modular group  is big.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/JohnDuncan.jpg" style="float:right;margin-left:10px;" hspace=10>Time to wrap up this series on <a href="http://www.math.harvard.edu/~jfd/">John Duncan</a>&#8216;s paper <a href="http://arxiv.org/abs/0810.1465">Arithmetic groups and the affine E8 Dynkin diagram</a> in which he gives a realization of the extended E(8)-Dynkin diagram (together with its isotropic root vector) from the moonshine groups, compatible with <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-monster-graph-and-mckays-observation.html">McKay&#8217;s E(8)-observation</a>.</p>
+<p>In the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/looking-for-the-moonshine-picture.html">previous post</a> we have described all 171 moonshine groups using <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/conways-big-picture.html">Conway&#8217;s big picture</a>. This description will allow us to associate two numbers to a moonshine group $G \subset PSL_2(\mathbb{R}) $.<br />
+Recall that for any such group we have a positive integer $N $ such that</p>
+<p>$\Gamma_0(N) \subset G \subset \Gamma_0(h,\frac{N}{h})+ $</p>
+<p>where $h $ is the largest divisor of 24 such that $h^2 | N $. Let us call $n_G=\frac{N}{h} $ the <strong>dimension</strong> of $G $ (Duncan calls this number the &#8216;normalized level&#8217;) as it will give us the dimension component at the vertex determined by $G $.</p>
+<p>We have also seen last time that any moonshine group is of the form $G = \Gamma_0(n_G || h)+e,f,g $, that is, $G/\Gamma_0(n_G ||h) $ is an elementary abelian group $~(\mathbb{Z}/2\mathbb{Z})^m $ generated by Atkin-Lehner involutions. Let&#8217;s call $v_G=m+1 $ the <strong>valency</strong> of the group $G $ as it will give s the valency of the vertex determined by $G $.</p>
+<p>It would be nice to know whether the valencies of the 171 moonshine groups are compatible, that is, whether one can construct a (disconnected) graph on the 171 vertices such that in each vertex (determined by a moonshine group $G $) the vertex-valency coincides with the valency of the corresponding group.</p>
+<p>Duncan describes a subset of 9 moonshine groups for which the valencies <strong>are</strong> compatible. These 9 groups are characterized as those moonshine groups $G $<br />
+ having width 1 at the cusp and such that their intersection with the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is big, more precisely the index $[\Gamma : \Gamma \cap G] \leq 12 $ and $[\Gamma : \Gamma \cap G]/[G : \Gamma \cap G] \leq 3 $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/duncanpicture.jpg" style="float:right;margin-left:10px;" hspace=10>They can be described using the mini-moonshine picture on the right. They are :</p>
+<p>The modular group itself $1=\Gamma $, being the stabilizer of the lattice 1. This group has clearly dimension and valency equal to one.</p>
+<p>The modular subgroup $2=\Gamma_0(2) $ being the point-wise stabilizer of the lattices 1 and 2 (so it has valency one and dimension two, and, its normalizer $2+ =\Gamma_0(2)+ $ which is the set-wise stabilizer of the lattices 1 and 2 and the one Atkin-Lehner involution interchanges both. So, this group has valency two (as we added one involution) as well as dimension two.</p>
+<p>Likewise, the groups $3+=\Gamma_0(3)+ $ and $5+=\Gamma_0(5)+ $ are the stabilzer subgroups of the red 1-cell (1,3) resp. the green 1-cell (1,5) and hence have valency two (as we add one involution) and dimensions 3 resp. 5.</p>
+<p>The group $4+=\Gamma_0(4)+ $ stabilizes the (1|4)-thread and as we add one involution must have valency 2 and dimension 4.</p>
+<p>On the other hand, the group $6+=\Gamma_0(6)+ $ stabilizes the unique 2-cell in the picture (having lattices 1,2,3,6) so this time we will add three involutions (horizontal and vertical switches and their product the antipodal involution). Hence, for this group the valency is three and its dimension is equal to six.</p>
+<p>Remain the two groups connected to the <strong>mini-snakes</strong> in the picture. The red mini-snake (top left hand) is the ball with center 3 and hyperdistance 3 and determines the group $3||3=\Gamma_0(3||3) $ which has valency one (we add no involutions) and dimension 3. The blue mini-snake (the extended D(5)-Dynkin in the lower right corner) determines the group $4||2+=\Gamma(4||2)+ $ which has valency two and dimension 4.</p>
+<p>The valencies of these 9 moonshine groups are compatible and they can be arranged in the extended E(8) diagram depicted below</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/duncan1.jpg"><br />
+</center></p>
+<p>Moreover, the dimensions of the groups give the exact dimension-components of the isotropic root of the extended E(8)-diagram. Further, the dimension of the group is equal to the order of the elements making up the conjugacy class of the <a href="http://en.wikipedia.org/wiki/Monster_group">monster</a> to which exactly the given groups correspond via <a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a> and hence compatible with <a href="http://en.wikipedia.org/wiki/John_McKay_(mathematician)">John McKay</a>&#8216;s original E(8)-observation!</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/duncan2.jpg"><br />
+</center></p>
+<p>Once again, I would love to hear when someone has more information on the cell-decomposition of the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/looking-for-the-moonshine-picture.html">moonshine picture</a> or if someone can extend the moonshine E(8)-graph, possibly to include all 171 moonshine groups.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/e8-from-moonshine-groups/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the monster graph and McKay’s observation</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2009 17:39:47 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1541</guid>
+
+					<description><![CDATA[While the verdict on a neolithic Scottish icosahedron is still open, let us recall Kostant&#8217;s group-theoretic construction of the icosahedron from its rotation-symmetry group $A_5&#8230;]]></description>
+										<content:encoded><![CDATA[<p>While the verdict on a neolithic Scottish icosahedron is <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-scottish-solids-hoax.html">still open</a>, let us <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-buckyball-symmetries.html">recall</a> Kostant&#8217;s group-theoretic construction of the icosahedron from its rotation-symmetry group $A_5 $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/KostantIcosahedronSmall.jpg" style="float:right;margin-left:10px;" hspace=10>The alternating group $A_5 $ has two conjugacy classes of order 5 elements, both consisting of exactly 12 elements. Fix one of these conjugacy classes, say $C $ and construct a graph with vertices the 12 elements of $C $ and an edge between two $u,v \in C $ if and only if the group-product $u.v \in C $ still belongs to the same conjugacy class.</p>
+<p>Observe that this relation is symmetric as from $u.v = w \in C $ it follows that $v.u=u^{-1}.u.v.u = u^{-1}.w.u \in C $. The graph obtained is the icosahedron, depicted on the right with vertices written as words in two adjacent elements u and v from $C $, as indicated.</p>
+<p>Kostant writes : &#8220;Normally it is not a common practice in group theory to consider whether or not the product of two elements in a conjugacy class is again an element in that conjugacy class. However such a consideration here turns out to be quite productive.&#8221;</p>
+<p>Still, similar constructions have been used in other groups as well, in particular in the study of the largest sporadic group, the <a href="http://en.wikipedia.org/wiki/Monster_group">monster group</a> $\mathbb{M} $.</p>
+<p>There is one important catch. Whereas it is quite trivial to multiply two permutations and verify whether the result is among 12 given ones, for most of us mortals it is impossible to do actual calculations in the monster. So, we&#8217;d better have an alternative way to get at the icosahedral graph using only $A_5 $-data that is also available for the monster group, such as its <a href="http://en.wikipedia.org/wiki/Character_table">character table</a>.</p>
+<p>Let $G $ be any finite group and consider three of its conjugacy classes $C(i),C(j) $ and $C(k) $. For any element $w \in C(k) $ we can compute from the character table of $G $ the number of different products $u.v = w $ such that $u \in C(i) $ and $v \in C(j) $. This number is given by the formula</p>
+<p>$\frac{|G|}{|C_G(g_i)||C_G(g_j)|} \sum_{\chi} \frac{\chi(g_i) \chi(g_j) \overline{\chi(g_k)}}{\chi(1)} $</p>
+<p>where the sum is taken over all irreducible characters $\chi $ and where $g_i \in C(i),g_j \in C(j) $ and $g_k \in C(k) $. Note also that $|C_G(g)| $ is the number of $G $-elements commuting with $g $ and that this number is the order of $G $ divided by the number of elements in the conjugacy class of $g $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/chartableA5.jpg" style="float:left;margin-right:10px;" hspace=10>The character table of $A_5 $ is given on the left : the five columns correspond to the different conjugacy classes of elements of order resp. 1,2,3,5 and 5 and the rows are the character functions of the 5 irreducible representations of dimensions 1,3,3,4 and 5.</p>
+<p>Let us fix the 4th conjugacy class, that is 5a, as our class $C $. By the general formula, for a fixed $w \in C $ the number of different products $u.v=w $ with $u,v \in C $ is equal to</p>
+<p>$\frac{60}{25}(\frac{1}{1} + \frac{(\frac{1+\sqrt{5}}{2})^3}{3} + \frac{(\frac{1-\sqrt{5}}{2})^3}{3} &#8211; \frac{1}{4} + \frac{0}{5}) = \frac{60}{25}(1 + \frac{4}{3} &#8211; \frac{1}{4}) = 5 $</p>
+<p>Because for each $x \in C $ also its inverse $x^{-1} \in C $, this can be rephrased by saying that there are exactly 5 different products $w^{-1}.u \in C $, or equivalently, that the valency of every vertex $w^{-1} \in C $ in the graph is exactly 5.</p>
+<p>That is, our graph has 12 vertices, each with exactly 5 neighbors, and with a bit of extra work one can show it to be the icosahedral graph.</p>
+<p>For the monster group, the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M/">Atlas</a> tells us that it has exactly 194 irreducible representations (and hence also 194 conjugacy classes). Of these conjugacy classes, the involutions (that is the elements of order 2) are of particular importance.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/BFischer.jpg" style="float:right;margin-left:10px;" hspace=10>There are exactly 2 conjugacy classes of involutions, usually denoted 2A and 2B. Involutions in class 2A are called &#8220;Fischer-involutions&#8221;, after <a href="http://en.wikipedia.org/wiki/Bernd_Fischer">Bernd Fischer</a>, because their centralizer subgroup is an extension of Fischer&#8217;s <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/B/">baby Monster sporadic group</a>.</p>
+<p>Likewise, involutions in class 2B are usually called &#8220;Conway-involutions&#8221; because their centralizer subgroup is an extension of the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co1/">largest Conway sporadic group</a>.</p>
+<p>Let us define the <strong>monster graph</strong> to be the graph having as its vertices the Fischer-involutions and with an edge between two of them $u,v \in 2A $ if and only if their product $u.v $ is again a Fischer-involution.</p>
+<p>Because the centralizer subgroup is $2.\mathbb{B} $, the number of vertices is equal to $97239461142009186000 = 2^4 * 3^7 * 5^3 * 7^4 * 11 * 13^2 * 29 * 41 * 59 * 71 $.</p>
+<p>From the general result recalled before we have that the valency in all vertices is equal and to determine it we have to use the character table of the monster and the formula. Fortunately <a href="http://www-gap.mcs.st-and.ac.uk/Manuals/doc/htm/ref/chapters.htm">GAP</a> provides the function <a href="http://www-gap.mcs.st-and.ac.uk/Manuals/doc/htm/ref/CHAP069.htm">ClassMultiplicationCoefficient</a> to do this without making errors.</p>
+<p><code><br />
+gap> table:=CharacterTable("M");<br />
+CharacterTable( "M" ) <br />
+gap> ClassMultiplicationCoefficient(table,2,2,2); <br />
+27143910000 <br />
+</code></p>
+<p>Perhaps noticeable is the fact that the prime decomposition of the valency $27143910000 = 2^4 * 3^4 * 5^4 * 23 * 31 * 47 $ is symmetric in the three smallest and three largest prime factors of the baby monster order.</p>
+<p>Robert Griess proved that one can recover the monster group $\mathbb{M} $ from the monster graph as its automorphism group!</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/JohnMcKay.jpg" style="float:left;margin-right:10px;" hspace=10>As in the case of the icosahedral graph, the number of vertices and their common valency does not determine the monster graph uniquely. To gain more insight, we would like to know more about the sizes of minimal circuits in the graph, the number of such minimal circuits going through a fixed vertex, and so on.</p>
+<p>Such an investigation quickly leads to a careful analysis which other elements can be obtained from products $u.v $ of two Fischer involutions $u,v \in 2A $. We are in for a major surprise, first observed by <a href="http://cjournal.concordia.ca/journalarchives/2006-07/apr_19/009196.shtml">John McKay</a>:</p>
+<p>Printing out the number of products of two Fischer-involutions giving an element in the i-th conjugacy class of the monster,<br />
+where i runs over all 194 possible classes, we get the following string of numbers :</p>
+<p><code><br />
+97239461142009186000, 27143910000, 196560, 920808, 0, 3, 1104, 4, 0, 0, 5, 0,<br />
+6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0<br />
+</code></p>
+<p>That is, the elements of only 9 conjugacy classes can be written as products of two Fischer-involutions! These classes are :</p>
+<ul>
+<li>1A = { 1 } written in 97239461142009186000 different ways (after all involutions have order two)  </li>
+<li>2A, each element of which can be written in exactly 27143910000 different ways (the valency)  </li>
+<li>2B, each element of which can be written in exactly 196560 different ways. Observe that this is the kissing number of the <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> leading to a <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/2Co1G1-p196560B0">permutation representation</a> of $2.Co_1 $.  </li>
+<li>3A, each element of which can be written in exactly 920808 ways. Note that this number gives a <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/Mmax3G0-p920808B0">permutation representation</a> of the maximal monster subgroup $3.Fi_{24}&#8217; $.  </li>
+<li>3C, each element of which can be written in exactly 3 ways.  </li>
+<li>4A, each element of which can be written in exactly 1104 ways.  </li>
+<li>4B, each element of which can be written in exactly 4 ways.  </li>
+<li>5A, each element of which can be written in exactly 5 ways.  </li>
+<li>6A, each element of which can be written in exactly 6 ways.  </li>
+</ul>
+<p>Let us forget about the actual numbers for the moment and concentrate on the orders of these 9 conjugacy classes : 1,2,2,3,3,4,4,5,6. These are precisely the components of the fundamental root of the <a href="http://www-math.mit.edu/~lesha/dynkin-diagrams.html">extended Dynkin diagram</a> $\tilde{E_8} $!</p>
+<p>This is the content of <strong>John McKay&#8217;s E(8)-observation</strong> : there should be a precise relation between the nodes of the extended Dynkin diagram and these 9 conjugacy classes in such a way that the order of the class corresponds to the component of the fundamental root. More precisely, one conjectures the following correspondence</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/e8monster.jpg" ><br />
+</center></p>
+<p>This is similar to the classical <a href="http://math.ucr.edu/home/baez/ADE.html">McKay correspondence</a> between finite subgroups of $SU(2) $ and extended Dynkin diagrams (the binary icosahedral group corresponding to extended E(8)). In that correspondence, the nodes of the Dynkin diagram correspond to irreducible representations of the group and the edges are determined by the decompositions of tensor-products with the fundamental 2-dimensional representation.</p>
+<p>Here, however, the nodes have to correspond to conjugacy classes (rather than representations) and we have to look for another procedure to arrive at the required edges! An exciting proposal has been put forward recently by <a href="http://www.math.harvard.edu/~jfd/">John Duncan</a> in his paper <a href="http://arxiv.org/abs/0810.1465">Arithmetic groups and the affine E8 Dynkin diagram</a>.</p>
+<p>It will take us a couple of posts to get there, but for now, let&#8217;s give the gist of it : <a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a> gives a correspondence between conjugacy classes of the monster and certain arithmetic subgroups of $PSL_2(\mathbb{R}) $ commensurable with the modular group $\Gamma = PSL_2(\mathbb{Z}) $. The edges of the extended Dynkin E(8) diagram are then given by the configuration of the arithmetic groups corresponding to the indicated 9 conjugacy classes!  (to be continued&#8230;)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

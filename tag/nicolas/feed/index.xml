@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Nicolas &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/nicolas/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 14 Jul 2019 16:39:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the Riemann hypothesis and Psi</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 14 Jul 2019 16:39:40 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[Nicolas]]></category>
+		<category><![CDATA[Pauli]]></category>
+		<category><![CDATA[Planat]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[Sole]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8430</guid>
+
+					<description><![CDATA[Last time we revisited Robin&#8217;s theorem saying that 5040 being the largest counterexample to the bound \[ \frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \] is equivalent&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040">Last time</a> we revisited Robin&#8217;s theorem saying that 5040 being the largest counterexample to the bound<br />
+\[<br />
+\frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \]
+is equivalent to the Riemann hypothesis.
+
+
+
+<p />
+There&#8217;s an industry of similar results using other arithmetic functions. Today, we&#8217;ll focus on <a href="https://en.wikipedia.org/wiki/Dedekind_psi_function">Dedekind&#8217;s Psi function</a><br />
+\[<br />
+\Psi(n) = n \prod_{p | n}(1 + \frac{1}{p}) \]<br />
+where $p$ runs over the prime divisors of $n$. It is series <a href="https://oeis.org/A001615">A001615</a> in the online encyclopedia of integer sequences and it starts off with</p>
+<p>1, 3, 4, 6, 6, 12, 8, 12, 12, 18, 12, 24, 14, 24, 24, 24, 18, 36, 20, 36, 32, 36, 24, 48, 30, 42, 36, 48, 30, 72, 32, 48, 48, 54, 48, &#8230;</p>
+<p>and here&#8217;s a plot of its first 1000 values</p>
+<p><center><br />
+<img decoding="async" width=100% src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DedekindPsi.jpeg"><br />
+</center></p>
+<p>To understand this behaviour it is best to focus on the &#8216;slopes&#8217; $\frac{\Psi(n)}{n}=\prod_{p|n}(1+\frac{1}{p})$.</p>
+<p />
+So, the red dots of minimal &#8216;slope&#8217; $\approx 1$ correspond to the prime numbers, and the &#8216;outliers&#8217; have a maximal number of distinct small prime divisors. Look at $210 = 2 \times 3 \times 5 \times 7$ and its multiples $420,630$ and $840$ in the picture.</p>
+<p />For this reason the <a href="https://en.wikipedia.org/wiki/Primorial">primorial numbers</a>, which are the products of the fist $k$ prime numbers, play a special role. This is series <a href="https://oeis.org/A002110">A002110</a> starting off with</p>
+<p>1, 2, 6, 30, 210, 2310, 30030, 510510, 9699690, 223092870,&#8230;</p>
+<p>In Patrick Solé and  Michel Planat <a href="https://arxiv.org/abs/1011.1825">Extreme values of the Dedekind $\Psi$ function</a>, it is shown that the primorials play a similar role for Dedekind&#8217;s Psi as the <a href="https://en.wikipedia.org/wiki/Superabundant_number">superabundant numbers</a> play for the sum-of-divisors function $\sigma(n)$.</p>
+<p />
+That is, if $N_k$ is the $k$-th primorial, then for all $n < N_k$ we have that the 'slope' at $n$ is strictly below that of $N_k$
+\[
+\frac{\Psi(n)}{n} < \frac{\Psi(N_k)}{N_k} \]
+which follows immediately from the fact that any $n < N_k$ can have at most $k-1$ distinct prime factors and $p \mapsto 1 + \frac{1}{p}$ is a strictly decreasing function.
+
+
+
+<p />
+Another easy, but nice, observation is that for all $n$ we have the inequalities<br />
+\[<br />
+n^2 > \phi(n) \times \psi(n) > \frac{n^2}{\zeta(2)} \]<br />
+where $\phi(n)$ is <a href="https://en.wikipedia.org/wiki/Euler%27s_totient_function">Euler&#8217;s totient function</a><br />
+\[<br />
+\phi(n) = n \prod_{p | n}(1 &#8211; \frac{1}{p}) \]<br />
+This follows as once from the definitions of $\phi(n)$ and $\Psi(n)$<br />
+\[<br />
+\phi(n) \times \Psi(n) = n^2 \prod_{p|n}(1 &#8211; \frac{1}{p^2}) < n^2 \prod_{p~\text{prime}} (1 - \frac{1}{p^2}) = \frac{n^2}{\zeta(2)} \]
+But now it starts getting interesting.
+
+
+
+<p />
+In the proof of his theorem, Guy Robin used a result of his Ph.D. advisor Jean-Louis Nicolas</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Nicolas.jpg" width=50%><br />
+</center></p>
+<p>known as Nicolas&#8217; criterion for the Riemann hypothesis: RH is true if and only if for all $k$ we have the inequality for the $k$-th primorial number $N_k$<br />
+\[<br />
+\frac{N_k}{\phi(N_k)~log(log(N_k))} > e^{\gamma} \]<br />
+From the above lower bound on $\phi(n) \times \Psi(n)$ we have for $n=N_k$ that<br />
+\[<br />
+\frac{\Psi(N_k)}{N_k} > \frac{N_k}{\phi(N_k) \zeta(2)} \]<br />
+and combining this with Nicolas&#8217; criterion we get<br />
+\[<br />
+\frac{\Psi(N_k)}{N_k~log(log(N_k))} > \frac{N_k}{\phi(N_k)~log(log(N_k)) \zeta(2)} > \frac{e^{\gamma}}{\zeta(2)} \approx 1.08&#8230; \]<br />
+In fact, Patrick Solé and  Michel Planat prove in their paper <a href="https://arxiv.org/abs/1011.1825">Extreme values of the Dedekind $\Psi$ function</a> that RH is equivalent to the lower bound<br />
+\[<br />
+\frac{\Psi(N_k)}{N_k~log(log(N_k))} > \frac{e^{\gamma}}{\zeta(2)} \]<br />
+holding for all $k \geq 3$.</p>
+<p />Dedekind&#8217;s Psi function pops up in lots of interesting mathematics.</p>
+<p />In the theory of modular forms, Dedekind himself used it to describe the index of the congruence subgroup $\Gamma_0(n)$ in the full modular group $\Gamma$.</p>
+<p>In other words, it gives us the number of tiles needed in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-dedekind-tessellation">Dedekind tessellation</a> to describe the fundamental domain of the action of $\Gamma_0(n)$ on the upper half-plane by Moebius transformations.</p>
+<p><img decoding="async" width=100% src="https://ethz.ch/services/en/news-and-events/internal-news/archive/2017/11/when-richard-dedekind-invented-real-numbers-at-eth-zurich/_jcr_content/news_content/fullwidthimage/image.imageformat.lightbox.2134429438.jpg"></p>
+<p>When $n=6$ we have $\Psi(6)=12$ and we can view its fundamental domain via these <a href="http://www.sagemath.org/">Sage</a> commands:</p>
+<p><code><br />
+G=Gamma0(6)<br />
+FareySymbol(G).fundamental_domain()<br />
+</code></p>
+<p>giving us the 24 back or white tiles (note that these tiles are each fundamental domains of the extended modular group, so we have twice as many of them as for subgroups of the modular group)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Gamma0(6).jpg"><br />
+</center></p>
+<p>But, there are plenty of other, seemingly unrelated, topics where $\Psi(n)$ appears. To name just a few:</p>
+<ul>
+<li>The number of points on the projective line $\mathbb{P}^1(\mathbb{Z}/n\mathbb{Z})$.</li>
+<li>The number of lattices at hyperdistance $n$ in <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture">Conway&#8217;s big picture</a>.</li>
+<li>The number of admissible maximal commuting sets of operators in the Pauli group for the $n$ qudit.</li>
+</ul>
+<p>and there are explicit natural one-to-one correspondences between all these manifestations of $\Psi(n)$, tbc.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the Riemann hypothesis and 5040</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 07 Jul 2019 10:27:01 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[Nicolas]]></category>
+		<category><![CDATA[Ramanujan]]></category>
+		<category><![CDATA[Riemann hypothesis]]></category>
+		<category><![CDATA[Robin]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8397</guid>
+
+					<description><![CDATA[Yesterday, there was an interesting post by John Baez at the n-category cafe: The Riemann Hypothesis Says 5040 is the Last. The 5040 in the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, there was an interesting post by John Baez at the n-category cafe: <a href="https://golem.ph.utexas.edu/category/2019/07/the_riemann_hypothesis_says_50.html">The Riemann Hypothesis Says 5040 is the Last</a>.</p>
+<p>The 5040 in the title refers to the largest known counterexample to a bound for the sum-of-divisors function<br />
+\[<br />
+\sigma(n) = \sum_{d | n} d = n \sum_{d | n} \frac{1}{d} \]</p>
+<p>In 1983, the french mathematician Guy Robin proved that the Riemann hypothesis is equivalent to<br />
+\[<br />
+\frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \]
+when $n > 5040$.</p>
+<p>The other known counterexamples to this bound are the numbers 3,4,5,6,8,9,10,12,16,18,20,24,30,36,48,60,72,84,120,180,240,360,720,840,2520.<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GuyRobin.jpg" width=50%><br />
+</center><br />
+In Baez&#8217; post there is a nice graph of this function made by Nicolas Tessore, with 5040 indicated with a grey line towards the right and the other counterexamples jumping over the bound 1.78107&#8230;<br />
+<center><br />
+<img decoding="async" src="http://math.ucr.edu/home/baez/mathematical/robin's_theorem_nicolas_tessore.png"><br />
+</center><br />
+Robin&#8217;s theorem has a remarkable history, starting in 1915 with good old Ramanujan writing a part of this thesis on &#8220;highly composite numbers&#8221; (numbers divisible by high powers of primes).</p>
+<p>His PhD. adviser Hardy liked his result but called them &#8220;in the backwaters of mathematics&#8221; and most of it was not published at the time of Ramanujan&#8217;s degree ceremony in 1916, due to paper shortage in WW1.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/RamanujanDegree.jpg" width=100% ><br />
+</center></p>
+<p>When Ramanujan&#8217;s paper &#8220;Highly Composite Numbers&#8221; was first published in 1988 in &#8216;The lost notebook and other unpublished papers&#8217; it became clear that Ramanujan had already part of Robin&#8217;s theorem.</p>
+<p>Ramanujan states that if the Riemann hypothesis is true, then for $n_0$ large enough we must have for all $n > n_0$ that<br />
+\[<br />
+\frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \]
+
+When Jean-Louis Nicolas, Robin's PhD. adviser, read Ramanujan's lost notes he noticed that there was a sign error in Ramanujan's formula which prevented him from seeing Robin's theorem.
+
+
+
+<p />
+<p>Nicolas: &#8220;Soon after discovering the hidden part, I read it and saw the difference between Ramanujan&#8217;s result and Robin&#8217;s one. Of course, I would have bet that the error was in Robin&#8217;s paper, but after recalculating it several times and asking Robin to check, it turned out that there was an error of sign in what Ramanujan had written.&#8221;</p>
+<p />
+<p>If you are interested in the full story, read the paper by Jean-Louis Nicolas and Jonathan Sondow: <a href="https://arxiv.org/abs/1211.6944">Ramanujan, Robin, Highly Composite Numbers, and the Riemann Hypothesis</a>.</p>
+<p />
+<p>What&#8217;s the latest on Robin&#8217;s inequality? An <a href="https://arxiv.org/search/math?query=Robin%27s+inequality&#038;searchtype=all&#038;abstracts=show&#038;order=-announced_date_first&#038;size=50">arXiv-search for Robin&#8217;s inequality</a> shows a flurry of activity.</p>
+<p />
+<p>For starters, it has been verified for all numbers smaller that $10^{10^{13}}$&#8230;</p>
+<p />
+<p>It has been verified, unconditionally, for certain classes of numbers:</p>
+<ul>
+<li>all odd integers $> 9$</li>
+<li>all numbers not divisible by a 25-th power of a prime</li>
+</ul>
+<p />
+<p>Rings a bell? Here&#8217;s another hint:</p>
+<p />
+According to Xiaolong Wu in <a href="https://arxiv.org/abs/1812.00987">A better method than t-free for Robin&#8217;s hypothesis</a> one can replace the condition of &#8216;not divisible by an N-th power of a prime&#8217; by &#8216;not divisible by an N-th power of 2&#8217;.</p>
+<p />
+Further, he claims to have an (as yet unpublished) argument that Robin&#8217;s inequality holds for all numbers not divisible by $2^{42}$.</p>
+<p />
+So, where should we look for counterexamples to the Riemann hypothesis?</p>
+<p />
+What about the orders of huge simple groups?</p>
+<p />
+The order of the Monster group is too small to be a counterexample (yet, it is divisible by $2^{46}$).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Verdier &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/verdier/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 26 May 2011 10:07:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the birthday of the primes=knots analogy</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 26 May 2011 10:07:22 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Artin]]></category>
+		<category><![CDATA[etale cohomology]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[knots]]></category>
+		<category><![CDATA[Mumford]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[Verdier]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5127</guid>
+
+					<description><![CDATA[Last time we discovered that the mental picture to view prime numbers as knots in $S^3$ was first dreamed up by David Mumford. Today, we&#8217;ll&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/who-dreamed-up-the-primesknots-analogy.html">Last time</a> we discovered  that the mental picture to view <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/what-is-the-knot-associated-to-a-prime.html">prime numbers as knots</a> in $S^3$ was first dreamed up by David Mumford. Today, we&#8217;ll focus on where and when this happened.</p>
+<p><strong>3. When did Mazur write his unpublished preprint?</strong></p>
+<p>According to his own <a href="http://www.math.harvard.edu/~mazur/">website</a>, Barry Mazur did write the paper <a href="http://www.math.harvard.edu/~mazur/papers/alexander_polynomial.pdf">Remarks on the Alexander polynomial</a> in 1963 or 1964. A quick look at the references gives us a coarse lower- and upper-estimate.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/refMazur.jpg"></p>
+<p>Apart from a paper by Iwasawa and one by Milnor, all references predate 1962 giving us a lower-bound. More interesting is reference (14) to David Mumford&#8217;s <a href="http://en.wikipedia.org/wiki/Geometric_invariant_theory">Geometric Invariant Theory (GIT)</a> which was first published in 1965 and is referred to as &#8216;in preparation&#8217;, so the paper was written no later than 1965. If we look a bit closer we see than some GIT-references are very precise</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/refGIT.jpg"></p>
+<p>indicating that Mazur must have had the final version of GIT to consult, making it rather difficult to believe that the preprint was written late 1963 or early 1964.</p>
+<p>Mazur&#8217;s dating of the preprint is probably based on this penciled note on the frontpage of the only surviving copy of the preprint</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MazurDate.jpg"></p>
+<p>It reads : &#8220;Date from about 63/64, H.R. Morton&#8221;. <a href="http://www.liv.ac.uk/~su14/">Hugh Morton</a> of Liverpool University confirms that it is indeed his writing on the preprint.</p>
+<p>Further, he told me that early 64 <a href="http://en.wikipedia.org/wiki/Christopher_Zeeman">Christopher Zeeman</a> held a Topology Symposium in Cambridge UK, where Hugh was a graduate student at the time and, as far as he could recall, Mazur attended that conference and gave him the preprint on that occasion, whence the 63/64 dating. Hugh kindly offered to double-check this with <a href="http://en.wikipedia.org/wiki/C._T._C._Wall">Terry Wall</a> who cannot remember Mazur attending that particular conference.</p>
+<p>In fact, we will see that a more correct dating of the Mazur-preprint will be : late 1964 or early 1965.</p>
+<p><strong>4. The birthday : July 10th 1964</strong></p>
+<p>Clearly, Mumford&#8217;s insight predates the Mazur-preprint. In the first section, Mazur mentions &#8216;Grothendieck cohomology groups&#8217; rather than &#8216;Etale cohomology groups&#8217;.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MazurPreprint.jpg"></p>
+<p>At the time, Artin&#8217;s seminar notes on <a href="http://www.math.ubc.ca/~gor/Artin-GT.pdf">Grothendieck topologies</a> (spring 1962) were widely distributed, and Artin and Grothendieck were in the process of developing etale cohomology in their Paris 1963/64 seminar <a href="http://en.wikipedia.org/wiki/Séminaire_de_Géométrie_Algébrique_du_Bois_Marie">SGA 4</a>, while Mumford was working on GIT in Harvard.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/JLVerdier.jpg" align=left hspace=10> Mike Artin,  David Mumford and <a href="http://en.wikipedia.org/wiki/Jean-Louis_Verdier">Jean-Louis Verdier</a> all attended the Woods Hole conference from july 6 till july 31 1964, famous for producing the <a href="http://en.wikipedia.org/wiki/Atiyah–Bott_fixed-point_theorem">Atiyah-Bott fixed point theorem</a> (according to Fulton first proved by Verdier at the conference).</p>
+<p>Etale cohomology was a hot topic at that conference. On july 10th there were three talks, Artin spoke on &#8216;Etale cohomology of schemes&#8217;, Verdier on &#8216;A duality theorem in the etale cohomology of schemes&#8217; and <a href="http://en.wikipedia.org/wiki/John_Tate">John Tate</a> on &#8216;Etale cohomology over number fields&#8217;.</p>
+<p>After a first week of talks, more informal seminars were organized, including the Atiyah-Bott seminar leading to the &#8216;Woods hole duality theorem&#8217; and one by Lubin-Tate and Serre on elliptic curves and formal groups. Two seminars adressed Etale Cohomology.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/semdualityWoodsHole.jpg"></p>
+<p>Artin and Verdier ran a seminar on the etale cohomology of number fields leading to their duality result, and, three young turks : <a href="http://en.wikipedia.org/wiki/Daniel_Quillen">Daniel Quillen</a>, <a href="http://www-math.mit.edu/people/profile?pid=134">Steve Kleiman</a> and <a href="http://en.wikipedia.org/wiki/Robin_Hartshorne">Robin Hartshorne</a> ran a Baby Seminar on Etale cohomology</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/sembabyWoodsHole.jpg"></p>
+<p>Probably it is safe to say that the talks by Artin, Verdier and Tate on July 10th sparked the primes=knots idea, and if not then, a couple of days later.</p>
+<p><strong>5. The birthplace : the Whitney Estate</strong></p>
+<p>The &#8216;Woods Hole&#8217; conference took place at the Whitney Estate and all the lectures took place in the rustic rooms of the main building and the participants (and their families) were housed in rented cottages in the neighborhood, for the duration of the summer.</p>
+<p>The only picture i managed to find from the Whitney house comes from a rather surprising source : <a href="http://www.woodsholemuseum.org/woodspages/sprtsl/v19n2-Garden.pdf">Gardeners and Caretakers ofWoods Hole</a>. Anyway, here it is :</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mysteryhouse.jpg"></p>
+<p>Probably, the knots=primes analogy was first dreamed up inside, or in the immediate neighborhood, on a walk to or from the cottages, overlooking the harbor.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

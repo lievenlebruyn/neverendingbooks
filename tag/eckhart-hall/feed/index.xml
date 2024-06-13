@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Eckhart Hall &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/eckhart-hall/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 11 Aug 2022 18:09:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The birthplace of schemes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-birthplace-of-schemes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-birthplace-of-schemes/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 11 Aug 2022 18:09:45 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[birthplace]]></category>
+		<category><![CDATA[Borel]]></category>
+		<category><![CDATA[Chevalley]]></category>
+		<category><![CDATA[Chicago]]></category>
+		<category><![CDATA[Dieudonne]]></category>
+		<category><![CDATA[Eckhart Hall]]></category>
+		<category><![CDATA[Lang]]></category>
+		<category><![CDATA[Samuel]]></category>
+		<category><![CDATA[schemes]]></category>
+		<category><![CDATA[tbc]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10798</guid>
+
+					<description><![CDATA[Wikipedia claims: &#8220;The word scheme was first used in the 1956 Chevalley Seminar, in which Chevalley was pursuing Zariski&#8217;s ideas.&#8221; and refers to the lecture&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Scheme_(mathematics)">Wikipedia</a> claims:</p>
+<p>&#8220;The word scheme was first used in the 1956 Chevalley Seminar, in which Chevalley was pursuing Zariski&#8217;s ideas.&#8221;</p>
+<p>and refers to the <a href="http://www.numdam.org/item/SHC_1955-1956__8__A5_0.pdf">lecture by Chevalley &#8216;Les schemas&#8217;</a>, given on December 12th, 1955 at the <a href="https://www.ens.psl.eu/en">ENS</a>-based <a href="http://www.numdam.org/actas/SHC/">&#8216;Seminaire Henri Cartan&#8217;</a> (in fact, that year it was called the Cartan-Chevalley seminar, and the next year Chevalley set up his <a href="http://www.numdam.org/actas/SCC/">own seminar</a> at the ENS).</p>
+<p><a href="http://archives-bourbaki.ahp-numerique.fr/items/browse?search=&#038;advanced[0][joiner]=or&#038;advanced[0][element_id]=38&#038;advanced[0][type]=contains&#038;advanced[0][terms]=1940-1953&#038;advanced[1][joiner]=or&#038;advanced[1][element_id]=38&#038;advanced[1][type]=contains&#038;advanced[1][terms]=1953-1960&#038;range=&#038;collection=&#038;type=&#038;user=&#038;tags=&#038;public=&#038;featured=&#038;geolocation-address=&#038;geolocation-latitude=&#038;geolocation-longitude=&#038;geolocation-radius=&#038;exhibit=&#038;item_relations_property_id=&#038;item_relations_comment=&#038;item_relations_clause_part=all&#038;submit_search=Recherches+de+contenus">Items</a> recently <a href="https://lievenlebruyn.github.io/neverendingbooks/the-somewhat-less-secret-bourbaki-archive">added</a> to the online <a href="http://archives-bourbaki.ahp-numerique.fr/">Bourbaki Archive</a> give us new information on time and place of the birth of the concept of schemes.</p>
+<p>From May 30th till June 2nd 1955 the &#8216;second caucus des Illinois&#8217; Bourbaki-congress was held in &#8216;le grand salon d&#8217;Eckhart Hall&#8217; at the University of Chicago (Weil&#8217;s place at that time).</p>
+<p><img decoding="async" src="https://www.lib.uchicago.edu/media/images/Eckhart_hall_sketch_front.original.jpg" width=100% ></p>
+<p>Only six of the Bourbaki members were present:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Jean_Dieudonn%C3%A9">Jean Dieudonne</a> (then 49), the scribe of the Bourbaki-gang.</li>
+<li><a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a> (then 49), called &#8216;Le Pape de Chicago&#8217; in La Tribu, and responsible for his <a href=-"https://www.ams.org/notices/199908/fea-raynaud.pdf">&#8216;Foundations of Algebraic Geometry&#8217;</a>.</li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Chevalley">Claude Chevalley</a> (then 46), who wanted a better, more workable version of algebraic geometry. He was just nominated professor at the Sorbonne, and was prepping for his seminar on algebraic geometry (with Cartan) in the fall.</li>
+<li><a href="https://en.wikipedia.org/wiki/Pierre_Samuel">Pierre Samuel</a> (then 34), who studied in France but got his Ph.D. in 1949 from Princeton under the supervision of <a href="https://en.wikipedia.org/wiki/Oscar_Zariski">Oscar Zariski</a>. He was a Bourbaki-guinea pig in 1945, and from 1947 attended most Bourbaki congresses. He just got his book <a href="https://www.worldcat.org/title/methodes-dalgebre-abstraite-en-geometrie-algebrique/oclc/875388887">Methodes d&#8217;algebre abstraite en geometrie algebrique</a> published.</li>
+<li><a href="https://en.wikipedia.org/wiki/Armand_Borel">Armand Borel</a> (then 32), a Swiss mathematician who was in Paris from 1949 and obtained his Ph.D. under <a href="https://en.wikipedia.org/wiki/Jean_Leray">Jean Leray</a> before moving on to the IAS in 1957. He was present at 9 of the Bourbaki congresses between 1955 and 1960.</li>
+<li><a href="https://en.wikipedia.org/wiki/Serge_Lang">Serge Lang</a> (then 28), a French-American mathematician who got his Ph.D. in 1951 from Princeton under <a href="https://en.wikipedia.org/wiki/Emil_Artin">Emil Artin</a>. In 1955, he just got a position at the University of Chicago, which he held until 1971. He attended 7 Bourbaki congresses between 1955 and 1960.</li>
+</ul>
+<p>The <a href="http://archives-bourbaki.ahp-numerique.fr/items/show/866#?c=0&#038;m=0&#038;s=0&#038;cv=0">issue of La Tribu</a> of the Eckhart-Hall congress is entirely devoted to algebraic geometry, and starts off with a bang:</p>
+<p>&#8220;The Caucus did not judge the plan of La Ciotat above all reproaches, and proposed a completely different plan.</p>
+<p>I &#8211; Schemes<br />
+II &#8211; Theory of multiplicities for schemes<br />
+III &#8211; Varieties<br />
+IV &#8211; Calculation of cycles<br />
+V &#8211; Divisors<br />
+VI &#8211; Projective geometry<br />
+etc.&#8221;</p>
+<p>In the spring of that year (February 27th &#8211; March 6th, 1955) a Bourbaki congress was held <a href="https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-la-ciotat-2">&#8216;Chez Patrice&#8217; at La Ciotat</a>, hosting a different group of Bourbaki members (Samuel was the singleton intersection) : <a href="https://en.wikipedia.org/wiki/Henri_Cartan">Henri Cartan</a> (then 51), <a href="https://en.wikipedia.org/wiki/Jacques_Dixmier">Jacques Dixmier</a> (then 31), <a href="https://en.wikipedia.org/wiki/Jean-Louis_Koszul">Jean-Louis Koszul</a> (then 34), and <a href="https://en.wikipedia.org/wiki/Jean-Pierre_Serre">Jean-Pierre Serre</a> (then 29, and fresh Fields medaillist).</p>
+<p>In the <a href="http://archives-bourbaki.ahp-numerique.fr/files/original/fe0a74e7fa0906cce661b9f2a96895e2.pdf">La Ciotat-Tribu,nr. 35</a> there are also a great number of pages (page 14 &#8211; 25) used to explain a general plan to deal with algebraic geometry. Their summary (page 3-4):</p>
+<p>&#8220;Algebraic Geometry : She has a very nice face.</p>
+<p>Chap I : Algebraic varieties<br />
+Chap II : The rest of Chap. I<br />
+Chap III : Divisors<br />
+Chap IV : Intersections&#8221;</p>
+<p>There&#8217;s much more to say comparing these two plans, but that&#8217;ll be for another day.</p>
+<p>We&#8217;ve just read the word &#8216;schemes&#8217; for the first (?) time. That unnumbered La Tribu continues on page 3 with &#8220;where one explains what a scheme is&#8221;:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tribu36.jpg" width=100%></p>
+<p>So, what was their first idea of a scheme?</p>
+<p>Well, you had your favourite Dedekind domain $D$, and you considered all rings of finite type over $D$. Sorry, not all rings, just all domains because such a ring $R$ had to have a field of fractions $K$ which was of finite type over $k$ the field of fractions of your Dedekind domain $D$.</p>
+<p>They say that Dedekind domains are the algebraic geometrical equivalent of fields. Yeah well, as they only consider $D$-rings the geometric object associated to $D$ is the terminal object, much like a point if $D$ is an algebraically closed field.</p>
+<p>But then, what is this geometric object associated to a domain $R$?</p>
+<p>In this stage, still under the influence of Weil&#8217;s focus on valuations and their specialisations, they (Chevalley?) take as the geometric object $\mathbf{Spec}(R)$, the set of all &#8216;spots&#8217; (taches), that is, local rings in $K$ which are the localisations of $R$ at prime ideals. So, instead of taking the set of all prime ideals, they prefer to take the set of all stalks of the (coming) structure sheaf.</p>
+<p>But then, speaking about sheaves is rather futile as there is no trace of any topology on this set, then. Also, they make a big fuss about not wanting to define a general schema by gluing together these &#8216;affine&#8217; schemes, but then they introduce a notion of &#8216;apparentement&#8217; of spots which basically means the same thing.</p>
+<p>It is still very early days, and there&#8217;s a lot more to say on this, but if no further documents come to light, I&#8217;d say that the birthplace of &#8216;schemes&#8217;, that is , the place where the first time there was a documented consensus on the notion, is Eckhart Hall in Chicago.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-birthplace-of-schemes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

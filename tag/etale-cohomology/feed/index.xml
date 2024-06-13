@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>etale cohomology &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/etale-cohomology/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 26 May 2011 10:07:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the birthday of the primes=knots analogy</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 26 May 2011 10:07:22 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Artin]]></category>
+		<category><![CDATA[etale cohomology]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[knots]]></category>
+		<category><![CDATA[Mumford]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[Verdier]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5127</guid>
+
+					<description><![CDATA[Last time we discovered that the mental picture to view prime numbers as knots in $S^3$ was first dreamed up by David Mumford. Today, we&#8217;ll&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/who-dreamed-up-the-primesknots-analogy.html">Last time</a> we discovered  that the mental picture to view <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/what-is-the-knot-associated-to-a-prime.html">prime numbers as knots</a> in $S^3$ was first dreamed up by David Mumford. Today, we&#8217;ll focus on where and when this happened.</p>
+<p><strong>3. When did Mazur write his unpublished preprint?</strong></p>
+<p>According to his own <a href="http://www.math.harvard.edu/~mazur/">website</a>, Barry Mazur did write the paper <a href="http://www.math.harvard.edu/~mazur/papers/alexander_polynomial.pdf">Remarks on the Alexander polynomial</a> in 1963 or 1964. A quick look at the references gives us a coarse lower- and upper-estimate.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/refMazur.jpg"></p>
+<p>Apart from a paper by Iwasawa and one by Milnor, all references predate 1962 giving us a lower-bound. More interesting is reference (14) to David Mumford&#8217;s <a href="http://en.wikipedia.org/wiki/Geometric_invariant_theory">Geometric Invariant Theory (GIT)</a> which was first published in 1965 and is referred to as &#8216;in preparation&#8217;, so the paper was written no later than 1965. If we look a bit closer we see than some GIT-references are very precise</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/refGIT.jpg"></p>
+<p>indicating that Mazur must have had the final version of GIT to consult, making it rather difficult to believe that the preprint was written late 1963 or early 1964.</p>
+<p>Mazur&#8217;s dating of the preprint is probably based on this penciled note on the frontpage of the only surviving copy of the preprint</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MazurDate.jpg"></p>
+<p>It reads : &#8220;Date from about 63/64, H.R. Morton&#8221;. <a href="http://www.liv.ac.uk/~su14/">Hugh Morton</a> of Liverpool University confirms that it is indeed his writing on the preprint.</p>
+<p>Further, he told me that early 64 <a href="http://en.wikipedia.org/wiki/Christopher_Zeeman">Christopher Zeeman</a> held a Topology Symposium in Cambridge UK, where Hugh was a graduate student at the time and, as far as he could recall, Mazur attended that conference and gave him the preprint on that occasion, whence the 63/64 dating. Hugh kindly offered to double-check this with <a href="http://en.wikipedia.org/wiki/C._T._C._Wall">Terry Wall</a> who cannot remember Mazur attending that particular conference.</p>
+<p>In fact, we will see that a more correct dating of the Mazur-preprint will be : late 1964 or early 1965.</p>
+<p><strong>4. The birthday : July 10th 1964</strong></p>
+<p>Clearly, Mumford&#8217;s insight predates the Mazur-preprint. In the first section, Mazur mentions &#8216;Grothendieck cohomology groups&#8217; rather than &#8216;Etale cohomology groups&#8217;.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MazurPreprint.jpg"></p>
+<p>At the time, Artin&#8217;s seminar notes on <a href="http://www.math.ubc.ca/~gor/Artin-GT.pdf">Grothendieck topologies</a> (spring 1962) were widely distributed, and Artin and Grothendieck were in the process of developing etale cohomology in their Paris 1963/64 seminar <a href="http://en.wikipedia.org/wiki/Séminaire_de_Géométrie_Algébrique_du_Bois_Marie">SGA 4</a>, while Mumford was working on GIT in Harvard.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/JLVerdier.jpg" align=left hspace=10> Mike Artin,  David Mumford and <a href="http://en.wikipedia.org/wiki/Jean-Louis_Verdier">Jean-Louis Verdier</a> all attended the Woods Hole conference from july 6 till july 31 1964, famous for producing the <a href="http://en.wikipedia.org/wiki/Atiyah–Bott_fixed-point_theorem">Atiyah-Bott fixed point theorem</a> (according to Fulton first proved by Verdier at the conference).</p>
+<p>Etale cohomology was a hot topic at that conference. On july 10th there were three talks, Artin spoke on &#8216;Etale cohomology of schemes&#8217;, Verdier on &#8216;A duality theorem in the etale cohomology of schemes&#8217; and <a href="http://en.wikipedia.org/wiki/John_Tate">John Tate</a> on &#8216;Etale cohomology over number fields&#8217;.</p>
+<p>After a first week of talks, more informal seminars were organized, including the Atiyah-Bott seminar leading to the &#8216;Woods hole duality theorem&#8217; and one by Lubin-Tate and Serre on elliptic curves and formal groups. Two seminars adressed Etale Cohomology.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/semdualityWoodsHole.jpg"></p>
+<p>Artin and Verdier ran a seminar on the etale cohomology of number fields leading to their duality result, and, three young turks : <a href="http://en.wikipedia.org/wiki/Daniel_Quillen">Daniel Quillen</a>, <a href="http://www-math.mit.edu/people/profile?pid=134">Steve Kleiman</a> and <a href="http://en.wikipedia.org/wiki/Robin_Hartshorne">Robin Hartshorne</a> ran a Baby Seminar on Etale cohomology</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/sembabyWoodsHole.jpg"></p>
+<p>Probably it is safe to say that the talks by Artin, Verdier and Tate on July 10th sparked the primes=knots idea, and if not then, a couple of days later.</p>
+<p><strong>5. The birthplace : the Whitney Estate</strong></p>
+<p>The &#8216;Woods Hole&#8217; conference took place at the Whitney Estate and all the lectures took place in the rustic rooms of the main building and the participants (and their families) were housed in rented cottages in the neighborhood, for the duration of the summer.</p>
+<p>The only picture i managed to find from the Whitney house comes from a rather surprising source : <a href="http://www.woodsholemuseum.org/woodspages/sprtsl/v19n2-Garden.pdf">Gardeners and Caretakers ofWoods Hole</a>. Anyway, here it is :</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mysteryhouse.jpg"></p>
+<p>Probably, the knots=primes analogy was first dreamed up inside, or in the immediate neighborhood, on a walk to or from the cottages, overlooking the harbor.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What is the knot associated to a prime?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 02 Jan 2011 10:57:35 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arithmetic topology]]></category>
+		<category><![CDATA[etale cohomology]]></category>
+		<category><![CDATA[fundamental group]]></category>
+		<category><![CDATA[knots]]></category>
+		<category><![CDATA[prime numbers]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[reciprocity laws]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3975</guid>
+
+					<description><![CDATA[Sometimes a MathOverflow question gets deleted before I can post a reply&#8230; Yesterday (New-Year) PD1&#38;2 were visiting, so I merely bookmarked the What is the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Sometimes a MathOverflow question gets <a href="http://meta.mathoverflow.net/discussion/792/deleted-questions-with-possibly-substantive-answers/#Item_0">deleted</a> before I can post a reply&#8230;</p>
+<p>Yesterday (New-Year) PD1&amp;2 were visiting, so I merely bookmarked the <a href="http://meta.mathoverflow.net/discussion/873/question-what-is-the-knot-associated-to-a-prime-disappeared/#Item_0">What is the knot associated to a prime?</a>-topic, promising myself to reply to it this morning, only to find out that the page no longer exists.</p>
+<p>From what I recall, the OP interpreted one of my slides of the April 1st-Alumni talk</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/knots23.jpg"></p>
+<p>as indicating that there might be a procedure to assign to a prime number a specific knot. Here&#8217;s the little I know about this :</p>
+<p>Artin-Verdier duality in etale cohomology suggests that $Spec(\mathbb{Z}) $ is a 3-dimensional manifold, as Barry Mazur pointed out in <a href="http://www.numdam.org/numdam-bin/fitem?id=ASENS_1973_4_6_4_521_0">this paper</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/ArtinVerdier.jpg"></p>
+<p>The theory of discriminants shows that there are no non-trivial global etale extensions of $Spec(\mathbb{Z}) $, whence its (algebraic) fundamental group should be trivial. By Poincare-Perelman this then implies that one should view $Spec(\mathbb{Z}) $ as the three-sphere $S^3 $. Note that there is no ambiguity in this direction. However, as there are other rings of integers in number fields having trivial fundamental group, the correspondence is not perfect.</p>
+<p>Okay, but then primes should correspond to certain submanifolds of $S^3 $ and as the algebraic fundamental group of $Spec(\mathbb{F}_p) $ is the profinite completion of $\mathbb{Z} $, the first option that comes to mind are circles</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/primescircles.jpg"></p>
+<p>Hence, primes might be viewed as circles embedded in $S^3 $, that is, as knots! But which knots? Well, as far as I know, nobody has a procedure to assign a knot to a prime number, let alone one having p crossings. What <strong>is</strong> known, however, is that different primes must correspond to different knots</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/differentprimes.jpg"></p>
+<p>because the algebraic fundamental groups of $Spec(\mathbb{Z})- &#123; p &#125; $ differ for distinct primes. This was the statement I wanted to illustrate in the first slide.</p>
+<p>But, the story goes a lot further. Knots may be linked and one can detect this by calculating the link-number, which is symmetric in the two knots. In number theory, the Legendre symbol, plays a similar role thanks to quadratic reciprocity</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Legendre.jpg"></p>
+<p>and hence we can view the Legendre symbol as indicating whether the knots corresponding to different primes are linked or not. Whereas it is natural in knot theory to investigate whether collections of 3, 4 or 27 knots are intricately linked (or not), few people would consider the problem whether one collection of 27 primes differs from another set of 27 primes worthy of investigation.</p>
+<p>There&#8217;s one noteworthy exception, the <a href="http://digitalcommons.mcmaster.ca/dissertations/AAINR36051/">Redei symbol</a> which we can now view as giving information about the link-behavior of the knots associated to three different primes. For example, one can hunt for prime-triples whose knots link as the Borromean rings</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Redei.jpg"></p>
+<p>(note that the knots corresponding to the three primes are not the unknot but more complicated). Here&#8217;s where the story gets interesting : in number-theory one would like to discover &#8216;higher reciprocity laws&#8217; (for collections of n prime numbers) by imitating higher-link invariants in knot-theory. This should be done by trying to correspond filtrations on the fundamental group of the knot-complement to that of the algebraic fundamental group of $Spec(\mathbb{Z})-&#123; p &#125; $ This project is called <a href="http://en.wikipedia.org/wiki/Arithmetic_topology">arithmetic topology</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/arithmetictopology.jpg"></p>
+<p>Perhaps I should make a pod- or vod-cast of that 20 minute talk, one day&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

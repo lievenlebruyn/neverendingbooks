@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Larson &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/larson/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 27 Jan 2018 12:36:18 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>From the Da Vinci code to Galois</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 27 Jan 2018 12:36:18 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Brown]]></category>
+		<category><![CDATA[Da Vinci]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Hopf]]></category>
+		<category><![CDATA[Larson]]></category>
+		<category><![CDATA[Taft]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7868</guid>
+
+					<description><![CDATA[In The Da Vinci Code, Dan Brown feels he need to bring in a French cryptologist, Sophie Neveu, to explain the mystery behind this series&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://en.wikipedia.org/wiki/The_Da_Vinci_Code">The Da Vinci Code</a>, Dan Brown feels he need to bring in a French cryptologist, Sophie Neveu, to explain the mystery behind this series of numbers:</p>
+<p>13 – 3 – 2 – 21 – 1 – 1 – 8 – 5</p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t33TPCi4pIQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+<p>The <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci sequence</a>, 1-1-2-3-5-8-13-21-34-55-89-144-&#8230; is such that any number in it is the sum of the two previous numbers.</p>
+<p>It is the most famous of all <strong>integral linear recursive sequences</strong>, that is, a sequence of integers</p>
+<p>\[<br />
+a = (a_0,a_1,a_2,a_3,\dots) \]</p>
+<p>such that there is a monic polynomial with integral coefficients of a certain degree $n$</p>
+<p>\[<br />
+f(x) = x^n + b_1 x^{n-1} + b_2 x^{n-2} + \dots + b_{n-1} x + b_n \]</p>
+<p>such that for every integer $m$ we have that</p>
+<p>\[<br />
+a_{m+n} + b_1 a_{m+n-1} + b_2 a_{m+n-2} + \dots + b_{n-1} a_{m+1} + a_m = 0 \]</p>
+<p>For the Fibonacci series $F=(F_0,F_1,F_2,\dots)$, this polynomial can be taken to be $x^2-x-1$  because<br />
+\[<br />
+F_{m+2} = F_{m+1}+F_m \]</p>
+<p>The set of <strong>all</strong> integral linear recursive sequences, let&#8217;s call it $\Re(\mathbb{Z})$, is a beautiful object of great complexity.</p>
+<p>For starters, it is a <strong>ring</strong>. That is, we can add and multiply such sequences. If</p>
+<p>\[<br />
+a=(a_0,a_1,a_2,\dots),~\quad \text{and}~\quad a&#8217;=(a&#8217;_0,a&#8217;_1,a&#8217;_2,\dots)~\quad \in \Re(\mathbb{Z}) \]</p>
+<p>then the sequences</p>
+<p>\[<br />
+a+a&#8217; = (a_0+a&#8217;_0,a_1+a&#8217;_1,a_2+a&#8217;_2,\dots) \quad \text{and} \quad a \times a&#8217; = (a_0.a&#8217;_0,a_1.a&#8217;_1,a_2.a&#8217;_2,\dots) \]</p>
+<p>are again linear recursive. The zero and unit in this ring are the constant sequences $0=(0,0,\dots)$ and $1=(1,1,\dots)$.</p>
+<p>So far, nothing terribly difficult or exciting.</p>
+<p>It follows that $\Re(\mathbb{Z})$ has a <strong>co-unit</strong>, that is, a ring morphism</p>
+<p>\[<br />
+\epsilon~:~\Re(\mathbb{Z}) \rightarrow \mathbb{Z} \]</p>
+<p>sending a sequence $a = (a_0,a_1,\dots)$ to its first entry $a_0$.</p>
+<p>It&#8217;s a bit more difficult to see that $\Re(\mathbb{Z})$ also has a <a href="https://en.wikipedia.org/wiki/Coalgebra"><strong>co-multiplication</strong></a></p>
+<p>\[<br />
+\Delta~:~\Re(\mathbb{Z}) \rightarrow \Re(\mathbb{Z}) \otimes_{\mathbb{Z}} \Re(\mathbb{Z}) \]<br />
+with properties dual to those of usual multiplication.</p>
+<p>To describe this co-multiplication in general will have to await another post. For now, we will describe it on the easier ring $\Re(\mathbb{Q})$ of all <strong>rational</strong> linear recursive sequences.</p>
+<p>For such a sequence $q = (q_0,q_1,q_2,\dots) \in \Re(\mathbb{Q})$ we consider its <a href="https://en.wikipedia.org/wiki/Hankel_matrix">Hankel matrix</a>. From the sequence $q$ we can form symmetric $k \times k$ matrices such that the opposite $i+1$-th diagonal consists of entries all equal to $q_i$<br />
+\[<br />
+H_k(q) = \begin{bmatrix} q_0 &#038; q_1 &#038; q_2 &#038; \dots  &#038; q_{k-1} \\<br />
+q_1 &#038; q_2 &#038; &#038; &#038; q_k \\<br />
+q_2 &#038; &#038; &#038; &#038; q_{k+1} \\<br />
+\vdots &#038; &#038; &#038; &#038; \vdots \\<br />
+q_{k-1} &#038; q_k &#038; q_{k+1} &#038; \dots &#038; q_{2k-2} \end{bmatrix} \]<br />
+The Hankel matrix of $q$, $H(q)$ is $H_k(q)$ where $k$ is maximal such that $det~H_k(q) \not= 0$, that is, $H_k(q) \in GL_k(\mathbb{Q})$.</p>
+<p>Let  $S(q)=(s_{ij})$ be the inverse of $H(q)$, then the co-multiplication map<br />
+\[<br />
+\Delta~:~\Re(\mathbb{Q}) \rightarrow \Re(\mathbb{Q}) \otimes \Re(\mathbb{Q}) \]<br />
+sends the sequence $q = (q_0,q_1,\dots)$ to<br />
+\[<br />
+\Delta(q) = \sum_{i,j=0}^{k-1} s_{ij} (D^i q) \otimes (D^j q) \]<br />
+where $D$ is the shift operator on sequence<br />
+\[<br />
+D(a_0,a_1,a_2,\dots) = (a_1,a_2,\dots) \]</p>
+<p>If $a \in \Re(\mathbb{Z})$ is such that $H(a) \in GL_k(\mathbb{Z})$ then the same formula gives $\Delta(a)$ in $\Re(\mathbb{Z})$.</p>
+<p>For the Fibonacci sequences $F$ the Hankel matrix is<br />
+\[<br />
+H(F) = \begin{bmatrix} 1 &#038; 1 \\ 1&#038; 2 \end{bmatrix} \in GL_2(\mathbb{Z}) \quad \text{with inverse} \quad S(F) = \begin{bmatrix} 2 &#038; -1 \\ -1 &#038; 1 \end{bmatrix} \]<br />
+and therefore<br />
+\[<br />
+\Delta(F) = 2 F \otimes ~F &#8211; DF \otimes F &#8211; F \otimes DF + DF \otimes DF \]<br />
+There&#8217;s a lot of number theoretic and Galois-information encoded into the co-multiplication on $\Re(\mathbb{Q})$.</p>
+<p>To see this we will describe the co-multiplication on $\Re(\overline{\mathbb{Q}})$ where $\overline{\mathbb{Q}}$ is the field of all algebraic numbers. One can show that</p>
+<p>\[<br />
+\Re(\overline{\mathbb{Q}}) \simeq (\overline{\mathbb{Q}}[ \overline{\mathbb{Q}}_{\times}^{\ast}] \otimes \overline{\mathbb{Q}}[d]) \oplus \sum_{i=0}^{\infty} \overline{\mathbb{Q}} S_i \]</p>
+<p>Here, $\overline{\mathbb{Q}}[ \overline{\mathbb{Q}}_{\times}^{\ast}]$ is the group-algebra of the multiplicative group of non-zero elements $x \in \overline{\mathbb{Q}}^{\ast}_{\times}$ and each $x$, which corresponds to the geometric sequence $x=(1,x,x^2,x^3,\dots)$, is a group-like element<br />
+\[<br />
+\Delta(x) = x \otimes x \quad \text{and} \quad \epsilon(x) = 1 \]</p>
+<p>$\overline{\mathbb{Q}}[d]$ is the universal Lie algebra of the $1$-dimensional Lie algebra on the primitive element $d = (0,1,2,3,\dots)$, that is<br />
+\[<br />
+\Delta(d) = d \otimes 1 + 1 \otimes d \quad \text{and} \quad \epsilon(d) = 0 \]</p>
+<p>Finally, the co-algebra maps on the elements $S_i$ are given by<br />
+\[<br />
+\Delta(S_i) = \sum_{j=0}^i S_j \otimes S_{i-j} \quad \text{and} \quad \epsilon(S_i) = \delta_{0i} \]</p>
+<p>That is, the co-multiplication on $\Re(\overline{\mathbb{Q}})$ is completely known. To deduce from it the co-multiplication on $\Re(\mathbb{Q})$ we have to consider the invariants under the action of the <a href="https://en.wikipedia.org/wiki/Absolute_Galois_group">absolute Galois group</a> $Gal(\overline{\mathbb{Q}}/\mathbb{Q})$ as<br />
+\[<br />
+\Re(\overline{\mathbb{Q}})^{Gal(\overline{\mathbb{Q}}/\mathbb{Q})} \simeq \Re(\mathbb{Q}) \]</p>
+<p>Unlike the Fibonacci sequence, not every integral linear recursive sequence has an Hankel matrix with determinant $\pm 1$, so to determine the co-multiplication on $\Re(\mathbb{Z})$ is even a lot harder, as we will see another time.</p>
+<p><strong>Reference</strong>: Richard G. Larson, Earl J. Taft, <a href="https://link.springer.com/article/10.1007/BF02764615">&#8216;The algebraic structure of linearly recursive sequences under Hadamard product&#8217;</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

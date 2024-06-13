@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title>Deep learning and toposes &#8211; neverendingbooks</title>
+<meta name="robots" content="max-image-preview:large">
+
+<script>MathJax = {
+  tex: {
+    inlineMath: [['$','$'],['\\(','\\)']], 
+    processEscapes: true
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore|editor-rich-text'
+  }
+};</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="template" content="Founder 1.55">
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="neverendingbooks &raquo; Feed" href="https://lievenlebruyn.github.io/neverendingbooks/feed/">
+<link rel="alternate" type="application/rss+xml" title="neverendingbooks &raquo; Comments Feed" href="https://lievenlebruyn.github.io/neverendingbooks/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="neverendingbooks &raquo; Deep learning and toposes Comments Feed" href="https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/lievenlb.local\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.4"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://lievenlebruyn.github.io/neverendingbooks/wp-includes/css/dist/block-library/style.min.css?ver=6.5.4" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 11px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--regular: 16px;--wp--preset--font-size--larger: 36px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="ct-founder-google-fonts-css" href="//fonts.googleapis.com/css?family=Noto+Sans%3A400%2C700%2C400i&#038;display=swap&#038;subset=latin%2Clatin-ext&#038;ver=6.5.4" type="text/css" media="all">
+<link rel="stylesheet" id="ct-founder-font-awesome-css" href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/themes/founder/assets/font-awesome/css/all.min.css?ver=6.5.4" type="text/css" media="all">
+<link rel="stylesheet" id="ct-founder-style-css" href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/themes/founder/style.css?ver=6.5.4" type="text/css" media="all">
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<!--[if IE 8]>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/themes/founder/js/build/html5shiv.min.js?ver=6.5.4" id="ct-founder-html5-shiv-js"></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="https://lievenlebruyn.github.io/neverendingbooks/wp-json/">
+<link rel="alternate" type="application/json" href="https://lievenlebruyn.github.io/neverendingbooks/wp-json/wp/v2/posts/10027">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://lievenlebruyn.github.io/neverendingbooks/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.5.4">
+<link rel="canonical" href="https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes/">
+<link rel="shortlink" href="https://lievenlebruyn.github.io/neverendingbooks/?p=10027">
+<link rel="alternate" type="application/json+oembed" href="https://lievenlebruyn.github.io/neverendingbooks/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps%3A%2F%2Flievenlebruyn.github.io%2Fneverendingbooks%2Fdeep-learning-and-toposes%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://lievenlebruyn.github.io/neverendingbooks/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps%3A%2F%2Flievenlebruyn.github.io%2Fneverendingbooks%2Fdeep-learning-and-toposes%2F#038;format=xml">
+</head>
+
+<body id="founder" class="post-template-default single single-post postid-10027 single-format-standard full-post singular singular-post singular-post-10027">
+			<a class="skip-content" href="#main">Skip to content &rarr;</a>
+	<div id="overflow-container" class="overflow-container">
+		<div id="max-width" class="max-width">
+									<header class="site-header" id="site-header" role="banner">
+				<div id="title-container" class="title-container">
+					<div id="site-title" class="site-title"><a href="https://lievenlebruyn.github.io/neverendingbooks/">neverendingbooks</a></div>									</div>
+				<button id="toggle-navigation" class="toggle-navigation" name="toggle-navigation" aria-expanded="false">
+					<span class="screen-reader-text">open menu</span>
+					<i class="fas fa-bars" title="primary menu icon" aria-hidden="true"></i>
+				</button>
+				<div id="menu-primary-container" class="menu-primary-container">
+					<div id="menu-primary" class="menu-container menu-primary" role="navigation">
+	<div class="menu-unset"></div>
+</div>
+					<ul class="social-media-icons">                    <li>
+                        <a class="twitter" target="_blank" href="http://x.com/lievenlb/with_replies" aria-label="twitter">
+                            <i class="fab fa-twitter-square" title="twitter"></i>
+                            <span class="screen-reader-text">twitter</span>
+                        </a>
+                    </li>
+                    						<li>
+							<a class="email" target="_blank" href="mailto:lie&#118;&#101;&#110;&#46;le&#98;&#114;uyn&#64;uan&#116;&#119;er&#112;en&#46;&#98;&#101;" aria-label="email lie&#118;&#101;&#110;&#46;le&#98;&#114;uyn&#64;uan&#116;&#119;er&#112;en&#46;&#98;&#101;">
+								<i class="fas fa-envelope" title="email"></i>
+								<span class="screen-reader-text">email</span>
+							</a>
+						</li>
+					</ul>									</div>
+			</header>
+										<aside class="sidebar sidebar-primary" id="sidebar-primary" role="complementary">
+		<h1 class="screen-reader-text">Sidebar</h1>
+		<button id="toggle-sidebar" class="toggle-sidebar" name="toggle-sidebar" aria-expanded="false">
+			<span class="screen-reader-text">open sidebar</span>
+			<i class="fas fa-angle-down" title="sidebar icon" aria-hidden="true"></i>
+		</button>
+		<div id="sidebar-primary-content" class="sidebar-primary-content">
+			<div id="sidebar-primary-widgets" class="sidebar-primary-widgets active-3">
+				<section id="block-2" class="widget widget_block widget_search"><form role="search" method="get" action="https://lievenlebruyn.github.io/neverendingbooks/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search">
+<label class="wp-block-search__label" for="wp-block-search__input-1">Search</label><div class="wp-block-search__inside-wrapper ">
+<input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="" value="" type="search" name="s" required><button aria-label="Search" class="wp-block-search__button wp-element-button" type="submit">Search</button>
+</div>
+</form></section><section id="block-3" class="widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading">Recent Posts</h2>
+<ul class="wp-block-latest-posts__list wp-block-latest-posts">
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/">Vialism versus Weilism</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/">What about  Simone Weil?</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/">Clancy and Nancago</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/">Bourbaki and Dema, two remarks</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/closure/">Closure</a></li>
+</ul>
+</div></div></section><section id="block-4" class="widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading">Recent Comments</h2>
+<ol class="wp-block-latest-comments">
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">Shane</span> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-173">Clancy and Nancago</a></footer></article></li>
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">Shane</span> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-172">Clancy and Nancago</a></footer></article></li>
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><a class="wp-block-latest-comments__comment-author" href="http://www.neverendingbooks.org/">lievenlb</a> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-171">Clancy and Nancago</a></footer></article></li>
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">Shane</span> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-170">Clancy and Nancago</a></footer></article></li>
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">Party Poison</span> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-169">Clancy and Nancago</a></footer></article></li>
+</ol>
+</div></div></section>			</div>
+		</div>
+	</aside>
+
+						<section id="main" class="main" role="main">
+				
+<div id="loop-container" class="loop-container">
+	<div class="post-10027 post type-post status-publish format-standard hentry category-geometry category-math tag-belfiore tag-bennequin tag-fong tag-locale tag-neural-networks tag-poset tag-spivak tag-toposes entry">
+		<article>
+		<div class="post-header">
+			<h1 class="post-title">Deep learning and toposes</h1>
+			
+<div class="post-meta">
+	<p>
+		Published January 16, 2022 by lieven	</p>
+</div>		</div>
+				<div class="post-content">
+						<p>Judging from <a href="https://arxiv.org/abs/2101.11487">this</a> and <a href="https://arxiv.org/abs/2007.12213">that</a> paper, <a href="https://en.wikipedia.org/wiki/Deep_learning">deep learning</a> is the string theory of the 2020s for geometers and representation theorists.</p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">String theory is the 90s answer to the tears of algebraic geometers worldwide trying to write the &quot;Applications&quot; part of their grant proposals. <a href="https://t.co/AboZ5WkPtc">https://t.co/AboZ5WkPtc</a></p>
+<p>&mdash; algebraic geometer BLM (@BarbaraFantechi) <a href="https://twitter.com/BarbaraFantechi/status/1471804656712134659?ref_src=twsrc%5Etfw">December 17, 2021</a></p>
+</blockquote>
+<p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>If you want to know quickly what neural networks <em>really</em> are, I can recommend the post <a href="https://bdtechtalks.com/2021/01/28/deep-learning-explainer/">demystifying deep learning</a>.</p>
+<p>The typical layout of a deep neural network has an <em>input layer</em> $L_0$ allowing you to feed $N_0$ numbers to the system (a vector $\vec{v_0} \in \mathbb{R}^{N_0}$), an <em>output layer</em> $L_p$ spitting $N_p$ numbers back (a vector $\vec{v_p} \in \mathbb{R}^{N_p}$), and $p-1$ <em>hidden layers</em> $L_1,\dots,L_{p-1}$ where all the magic happens. The hidden layer $L_i$ has $N_i$ <em>virtual neurons</em>, their states giving a vector $\vec{v_i} \in \mathbb{R}^{N_i}$.</p>
+<p></p>
+<center>
+<br>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DNN.jpg" width="100%"><br>
+Picture taken from <a href="https://arxiv.org/abs/2108.04751">Logical informations cells I</a><br>
+</center>
+<p>For simplicity let&#8217;s assume all neurons in layer $L_i$ are wired to every neuron in layer $L_{i+1}$, the relevance of these connections given by a matrix of <em>weights</em> $W_i \in M_{N_{i+1} \times N_i}(\mathbb{R})$.</p>
+<p>If at any given moment the &#8216;state&#8217; of the neural network is described by the state-vectors $\vec{v_1},\dots,\vec{v_{p-1}}$ and the weight-matrices $W_0,\dots,W_p$, then an input $\vec{v_0}$ will typically result in new states of the neurons in layer $L_1$ given by</p>
+<p>\[<br>
+\vec{v_1}&#8217; = c_0(W_0.\vec{v_0}+\vec{v_1}) \]</p>
+<p>which will then give new states in layer $L_2$</p>
+<p>\[<br>
+\vec{v_2}&#8217; = c_1(W_1.\vec{v_1}&#8217;+\vec{v_2}) \]</p>
+<p>and so on, rippling through the network, until we get as the output</p>
+<p>\[<br>
+\vec{v_p} = c_{p-1}(W_{p-1}.\vec{v_{p-1}}&#8217;) \]</p>
+<p>where all the $c_i$ are fixed smooth <em>activation functions</em> $c_i : \mathbb{R}^{N_{i+1}} \rightarrow \mathbb{R}^{N_{i+1}}$.</p>
+<p>This is just the dynamic, or forward working of the network.</p>
+<p>The <em>learning</em> happens by comparing the computed output with the expected output, and working backwards through the network to alter slightly the state-vectors in all layers, and the weight-matrices between them. This process is called <a href="https://en.wikipedia.org/wiki/Backpropagation"><em>back-propagation</em></a>, and involves the <em>gradient descent</em> procedure.</p>
+<p>Even from this (over)simplified picture it seems doubtful that <em>set valued (!)</em> toposes are suitable to describe deep neural networks, as the <a href="https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory">Paris-Huawei-topos-team</a> claims in their recent paper <a href="https://arxiv.org/abs/2106.14587">Topos and Stacks of Deep Neural Networks</a>.</p>
+<p>Still, there is a vast generalisation of neural networks: <em>learners</em>, developed by <a href="http://www.brendanfong.com/">Brendan Fong</a>, <a href="https://math.mit.edu/~dspivak/">David Spivak</a> and <a href="http://www.normalesup.org/~tuyeras/">Remy Tuyeras</a> in their paper <a href="https://arxiv.org/abs/1711.10455">Backprop as Functor: A compositional perspective on supervised learning</a> (which btw is an excellent introduction for mathematicians to neural networks).</p>
+<p>For any two sets $A$ and $B$, a <em>learner</em> $A \rightarrow B$ is a tuple $(P,I,U,R)$ where</p>
+<ul>
+<li>$P$ is a set, a <em>parameter space</em> of some functions from $A$ to $B$.</li>
+<li>$I$ is the <em>interpretation map</em> $I : P \times A \rightarrow B$ describing the functions in $P$.</li>
+<li>$U$ is the <em>update map</em> $U : P \times A \times B \rightarrow P$, part of the learning procedure. The idea is that $U(p,a,b)$ is a map which sends $a$ closer to $b$ than the map $p$ did.</li>
+<li>$R$ is the <em>request map</em> $R : P \times A \times B \rightarrow A$, the other part of the learning procedure. The idea is that the new element $R(p,a,b)=a&#8217;$ in $A$ is such that $p(a&#8217;)$ will be closer to $b$ than $p(a)$ was.</li>
+</ul>
+<p>The request map is also crucial is defining the <em>composition</em> of two learners $A \rightarrow B$ and $B \rightarrow C$. $\mathbf{Learn}$ is the (symmetric, monoidal) category with objects all sets and morphisms equivalence classes of learners (defined in the natural way).</p>
+<p>In this way we can view a deep neural network with $p$ layers as before to be the composition of $p$ learners<br>
+\[<br>
+\mathbb{R}^{N_0} \rightarrow \mathbb{R}^{N_1} \rightarrow \mathbb{R}^{N_2} \rightarrow \dots \rightarrow \mathbb{R}^{N_p} \]<br>
+where the learner describing the transition from the $i$-th to the $i+1$-th layer is given by the equivalence class of data $(A_i,B_i,P_i,I_i,U_i,R_i)$ with<br>
+\[<br>
+A_i = \mathbb{R}^{N_i},~B_i = \mathbb{R}^{N_{i+1}},~P_i = M_{N_{i+1} \times N_i}(\mathbb{R}) \times \mathbb{R}^{N_{i+1}} \]<br>
+and interpretation map for $p = (W_i,\vec{v}_{i+1}) \in P_i$<br>
+\[<br>
+I_i(p,\vec{v_i}) = c_i(W_i.\vec{v_i}+\vec{v}_{i+1}) \]<br>
+The update and request maps (encoding back-propagation and gradient-descent in this case) are explicitly given in theorem III.2 of the paper, and they behave functorial (whence the title of the paper).</p>
+<p>More generally, we will now associate objects of a topos (actually just sheaves over a simple topological space) to a network op $p$ learners<br>
+\[<br>
+A_0 \rightarrow A_1 \rightarrow A_2 \rightarrow \dots \rightarrow A_p \]<br>
+inspired by section I.2 of <a href="https://arxiv.org/abs/2106.14587">Topos and Stacks of Deep Neural Networks</a>.</p>
+<p>The underlying category will be the poset-category (the opposite of the ordering of the layers)<br>
+\[<br>
+0 \leftarrow 1 \leftarrow 2 \leftarrow \dots \leftarrow p \]<br>
+The presheaf on a poset is a locale and in this case even the topos of sheaves on the topological space with $p+1$ nested open sets.<br>
+\[<br>
+X = U_0 \supseteq U_1 \supseteq U_2 \supseteq \dots \supseteq U_p = \emptyset \]<br>
+If the learner $A_i \rightarrow A_{i+1}$ is (the equivalence class) of the tuple $(A_i,A_{i+1},P_i,I_i,U_i,R_i)$ we will now describe two sheaves $\mathcal{W}$ and $\mathcal{X}$ on the topological space $X$.</p>
+<p>$\mathcal{W}$ has as sections $\Gamma(\mathcal{W},U_i) = \prod_{j=i}^{p-1} P_i$ and the obvious projection maps as the restriction maps.</p>
+<p>$\mathcal{X}$ has as sections $\Gamma(\mathcal{X},U_i) = A_i \times \Gamma(\mathcal{W},U_i)$ and restriction map to the next smaller open<br>
+\[<br>
+\rho^i_{i+1}~:~\Gamma(\mathcal{X},U_i) \rightarrow \Gamma(\mathcal{X},U_{i+1}) \qquad (a_i,(p_i,p&#8217;)) \mapsto (p_i(a_i),p&#8217;) \]<br>
+and other retriction maps by composition.</p>
+<p>A major result in <a href="https://arxiv.org/abs/2106.14587">Topos and Stacks of Deep Neural Networks</a> is that back-propagation is a natural transformation, that is, a sheaf-morphism $\mathcal{X} \rightarrow \mathcal{X}$.</p>
+<p>In this general setting of layered learners we can always define a map on the sections of $\mathcal{X}$ (for every open $U_i$), $\Gamma(\mathcal{X},U_i) \rightarrow \Gamma(\mathcal{X},U_i)$<br>
+\[<br>
+(a_,(p_i,p&#8217;)) \mapsto (R(p_i,a_i,p_i(a_i)),(U(p_i,a_i,p_i(a_i)),p&#8217;) \]<br>
+But, in order for this to define a sheaf-morphism, compatible with the restrictions, we will have to impose restrictions on the update and restriction maps of the learners, in general.</p>
+<p>Still, in the special case of deep neural networks, this compatibility follows from the functoriality property of <a href="https://arxiv.org/abs/1711.10455">Backprop as Functor: A compositional perspective on supervised learning</a>.</p>
+<p>To be continued.</p>
+					</div>
+		<div class="post-after">
+						<p class="post-categories"><span>Published in </span><a href="https://lievenlebruyn.github.io/neverendingbooks/category/geometry/" title="View all posts in geometry">geometry</a> <a href="https://lievenlebruyn.github.io/neverendingbooks/category/math/" title="View all posts in math">math</a></p>			<div class="post-tags">
+<span>Tagged in</span><ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/tag/belfiore/" title="View all posts tagged Belfiore">Belfiore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/tag/bennequin/" title="View all posts tagged Bennequin">Bennequin</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/tag/fong/" title="View all posts tagged Fong">Fong</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/tag/locale/" title="View all posts tagged locale">locale</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/tag/neural-networks/" title="View all posts tagged neural networks">neural networks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/tag/poset/" title="View all posts tagged poset">poset</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/tag/spivak/" title="View all posts tagged Spivak">Spivak</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/tag/toposes/" title="View all posts tagged toposes">toposes</a></li>
+</ul>
+</div>			<nav class="further-reading">
+	<div class="previous">
+		<span>Previous Post</span>
+		<a href="https://lievenlebruyn.github.io/neverendingbooks/grothendieck-talks/">Grothendieck talks</a>
+	</div>
+	<div class="next">
+		<span>Next Post</span>
+		<a href="https://lievenlebruyn.github.io/neverendingbooks/smirnov-on-mathbbf_1-and-the-rh/">Smirnov on $\mathbb{F}_1$ and the RH</a>
+	</div>
+</nav>		</div>
+	</article>
+	
+	<section id="comments" class="comments">
+		<div class="comments-number">
+			<h2>
+				One Comment			</h2>
+		</div>
+		<ol class="comment-list">
+					<li class="comment even thread-even depth-1" id="li-comment-130">
+		<article id="comment-130" class="comment">
+			<div class="comment-author">
+				<img alt="Shiva" src="http://2.gravatar.com/avatar/2bf74d6f1acee752bf6820bf2c425350?s=36&#038;d=mm&#038;r=g" srcset="http://2.gravatar.com/avatar/2bf74d6f1acee752bf6820bf2c425350?s=72&#038;d=mm&#038;r=g 2x" class="avatar avatar-36 photo" height="36" width="36" decoding="async">				<span class="author-name">Shiva</span>
+			</div>
+			<div class="comment-content">
+								<p>Hi Mr. Bruyn,<br>
+I really enjoy reading your blog as an aspiring mathematician currently pursuing a Masters.<br>
+Here is another paper that may interest you: <a href="https://arxiv.org/abs/2006.15136" rel="nofollow ugc">https://arxiv.org/abs/2006.15136</a>: Homotopy Theoretic and Categorical Models of Neural Information Networks by Manin-Marcolli.<br>
+Entropy seems to pop up a lot in all of this. So I thought I might mentione some highly unlikely places where it crops up.</p>
+<p>It appears in the work on Connes-Consani&#8217;s approach to the &#8220;Field with one element&#8221; :<a href="https://arxiv.org/abs/0911.3537-" rel="nofollow ugc">https://arxiv.org/abs/0911.3537-</a>  Characteristic one, entropy, and the absolute point</p>
+<p>It also occurs in constructing real analogs of P-adic period rings of P-adic Hodge theory: <a href="https://arxiv.org/abs/1202.4377" rel="nofollow ugc">https://arxiv.org/abs/1202.4377</a><br>
+The universal thickening of the field of real numbers</p>
+<p>This latter one seems to be related to the condensed mathematics of Scholze and Clausen. Scholze talks about it in both the Condensed mathematics and Analytic Geometry lecture notes, as well here: <a href="https://www.ams.org/journals/notices/202007/rnoti-p1010.pdf" rel="nofollow ugc">https://www.ams.org/journals/notices/202007/rnoti-p1010.pdf</a> &#8211; This one is a tribute to Fontiane</p>
+<p>It might have connections to a geometry below Spec(Z) is what Scholze seems to be saying.</p>
+<p>Hope you find all of this interesting and worth writing about.</p>
+			</div>
+			<div class="comment-footer">
+				<span class="comment-date">January 18, 2022</span>
+				<a rel="nofollow" class="comment-reply-link" href="https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes/?replytocom=130#respond" data-commentid="130" data-postid="10027" data-belowelement="comment-130" data-respondelement="respond" data-replyto="Reply to Shiva" aria-label="Reply to Shiva">Reply</a>							</div>
+		</article>
+		</li>
+<!-- #comment-## -->
+		</ol>
+					<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes/#respond" style="display:none;">Cancel reply</a></small>
+</h3>
+<form action="https://lievenlebruyn.github.io/neverendingbooks/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p>
+<p class="comment-form-comment">
+	            <label for="comment">Comment</label>
+	            <textarea required id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+	        </p>
+<p class="comment-form-author">
+	            <label for="author">Name*</label>
+	            <input id="author" name="author" type="text" value="" size="30" aria-required="true">
+	        </p>
+<p class="comment-form-email">
+	            <label for="email">Email*</label>
+	            <input id="email" name="email" type="email" value="" size="30" aria-required="true">
+	        </p>
+<p class="comment-form-url">
+	            <label for="url">Website</label>
+	            <input id="url" name="url" type="url" value="" size="30">
+	            </p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="10027" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>
+</form>	</div>
+<!-- #respond -->
+		</section>
+	</div>
+</div>
+
+</section><!-- .main -->
+
+<footer id="site-footer" class="site-footer" role="contentinfo">
+		<span>
+        <a href="https://www.competethemes.com/founder/" rel="nofollow">Founder WordPress Theme</a> by Compete Themes.    </span>
+</footer>
+
+</div>
+</div>
+<!-- .overflow-container -->
+
+
+        <span class="ssp-id" style="display:none">10027</span>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js?ver=6.5.4" id="mathjax-js"></script>
+<script type="text/javascript" id="ct-founder-js-js-extra">
+/* <![CDATA[ */
+var ct_founder_objectL10n = {"openMenu":"open menu","closeMenu":"close menu","openSidebar":"open sidebar","closeSidebar":"close sidebar"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/themes/founder/js/build/production.min.js?ver=6.5.4" id="ct-founder-js-js"></script>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-includes/js/comment-reply.min.js?ver=6.5.4" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<!--[if IE 8]>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/themes/founder/js/build/respond.min.js?ver=6.5.4" id="ct-founder-respond-js"></script>
+<![endif]-->
+
+</body>
+</html>

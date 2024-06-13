@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>LaTeX &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/latex/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 05 Sep 2011 14:35:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>wp-latex&#8217; sweet revenge : wp+MathJax-&gt; ePub</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/wp-latex-sweet-revenge-wpmathjax-epub/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/wp-latex-sweet-revenge-wpmathjax-epub/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 05 Sep 2011 14:35:56 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[epub]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<guid isPermaLink="false">http://192.168.0.163/?p=5742</guid>
+
+					<description><![CDATA[In the early days of math-blogging, one was happy to get LaTeXRender working. Some years later, the majority of math-blogs were using the, more user-friendly,&#8230;]]></description>
+										<content:encoded><![CDATA[<p> In the early days of math-blogging, one was happy to get <a href="http://www.mayer.dial.pipex.com/tex.htm">LaTeXRender</a> working. Some years later, the majority of math-blogs were using the, more user-friendly, <a href="http://wordpress.org/extend/plugins/wp-latex/">wp-latex plugin</a> to turn LaTeX-code into png-images. Today, everyone uses <a href="http://www.mathjax.org/">MathJax</a> which works with modern CSS and web fonts instead of equation images, so equations scale with surrounding text at all zoom levels.</p>
+<p> However, MathJax has one downside : it doesn&#8217;t parse in ePub-readers. Peter Krautzberger wrote a post <a href="http://peter.krautzberger.info/2011/07/Epub-and-mathematics">Epub and mathematics</a> in which he suggested two methods to turn MathJax into ePub, but after dozens of experiments I still fail to reproduce these.</p>
+<p> No doubt, someone will soon come up with a working alternative, but for the impatient here&#8217;s a quick but dirty method to turn your MathJax powered wordpress post into ePub :</p>
+<h2>the tools</h2>
+<ul>
+<li>download and install the <a href="http://wordpress.org/extend/plugins/epub-export/">ePub export plugin</a>. It automatically creates an ePub file when a post or page is published or updated. The ePubs are stored in the uploads directory (to be found in the wp-contents directory).  </li>
+<li>download and install the <a href="http://wordpress.org/extend/plugins/wp-latex/">wp-latex plugin</a>. MathJax uses the normal \$ tex-delimeters whereas wp-latex requires \$latex, so this plugin doesn&#8217;t interfere with the default use of MathJax.  </li>
+<li>download the <a href="http://lucatrevisan.wordpress.com/2009/03/01/latex2wp-update/">wp2latex python script</a>. It converts a standard LaTeX file into a format that is ready to be copied into WordPress.  </li>
+</ul>
+<h2>the routine</h2>
+<ul>
+<li>Edit the post you want to convert to ePub. Copy the contents of the post box to a file say post1.tex and save this in the same directory containing the latex2wp.py script.  </li>
+<li>In Terminal go to that directory and type the command &#8216;python latex2wp.py post1.tex&#8217;. It will produce a new file post1  in the same directory.  </li>
+<li>Copy the contents of post1  into the post box of your WordPress-post and press the update button. This time the TeX-commands in your post will be rendered using wp-latex and the ePub export-plugin will have created an ePub-version of it.  </li>
+<li>Locate this newly created ePub file in the relevant wp-contents/uploads/ folder (file has a number.epub name) and, if wanted, change its name into something easier to recognize and copy it somewhere outside the uploads directory. This will be your desired ePub-version of the post.  </li>
+<li>Replace the contents of the post box of your WordPress-post with the contents of the post1.tex file and hit the &#8216;Update&#8217; button, to restore your original post (powered by MathJax).  </li>
+<li>Email your ePub-file to your iPad and open it with iBooks. Not quite as nice as MathJax-parsed TeX but a lot better than reading unparsed TeX-commands.</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/wp-latex-sweet-revenge-wpmathjax-epub/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>From WordPress to ePublishing (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 11 Jul 2011 12:01:46 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[epub]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5577</guid>
+
+					<description><![CDATA[Perhaps, the tips and tricks I did receive to turn a selection of wordpress-posts into a proper ePub-file may be of use to others, so&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Perhaps, the tips and tricks I did receive to turn a selection of wordpress-posts into a proper <a href="http://en.wikipedia.org/wiki/EPUB">ePub</a>-file may be of use to others, so I will describe the procedure here in some detail.</p>
+<p>It makes a difference whether or not some of the posts contain TeX. This time, I&#8217;ll sketch the process for non-LaTeX posts and hence we will turn the Bourbaki-code posts into ePub-format to read on your iPad, rather than merely into a pdf-file as <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/ebook-the-bourbaki-code-v1-0.html">last time</a>. Next time, I&#8217;ll add some tricks to repeat this when some of your posts do contain LaTeX.</p>
+<p><strong>1. Install the ePub export plugin</strong></p>
+<p>Get the <a href="http://wordpress.org/extend/plugins/epub-export/">epub export</a> wordpress plugin, install and activate it in the usual way. ePub Export automatically creates an ePub file when a post or page is published or updated. The ePubs are stored in the uploads directory. For later use, remember that your uploads directories are located under BLOGHOME/wp-content/uploads.</p>
+<p><strong>2. Update the posts you want to include</strong></p>
+<p>Decide which posts you want to include in your eBook, edit them (or not) and press for each one of them the update-button. This will populate today&#8217;s uploads-directory with a number of epub-files. Transfer them all, for example using <a href="http://www.panic.com/transmit/">Transmit</a>, to a directory on your home-computer, named say MyFirstEBook.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/epub1.jpg"><br />
+</center></p>
+<p><strong>3. Unpack the epub-files</strong></p>
+<p>The crucial fact to remember about epub-files is that they are really zipped archives containing xhtml-, css- and other files and directories. As we want to edit some of those, we first have to unpack the directories. So, change the .epub extensions to .zip and double-click on them to create the directories.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/epub2.jpg"><br />
+</center></p>
+<p>The crucial files in each directory are preface.xhtml (containing title author and blog-name), text.html (containing the blog-post) and the images-directory (containing copies of all the images used in the post).</p>
+<p><strong>4. Rename the directories user-friendly</strong></p>
+<p>As all the posts will be chapters in our eBook in some specific order, we will rename the numbers of the directories to something more user-friendly such as shortened blog-titles. To do this, double-click in each of the directories on the preface.xhtml file. This will open Safari and will show the title of the blog-post. Use it to rename that directory. For convenience let us call the directory corresponding to the first chapter in our book MasterDirectory</p>
+<p><strong>5. Move all images to the master directory</strong></p>
+<p>For each of the other chapter-directories, drag all the files contained in the images-subdirectory to MasterDirectory/images.</p>
+<p><strong>6. Edit the MasterDirectory/text.xhtml file</strong></p>
+<p>Because we will have to open and copy-paste all the text.xhtml files of the different directories, it is perhaps best to rename momentarily the MasterDirectory/text.xhtml file to something like master.xhtml.</p>
+<p>Now, open this file with a text-processor such as <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a>. Edit it to remove unwanted html-code (such as links to other posts at the start if you are using the series-plugin, or previous/next post links at the end). Also add the title of the blog-post between h1-tags (and if you want to include a table of contents later, give it an anchor-name).</p>
+<p>Go to the directory of your second chapter, open that text.xhtml file and copy/paste only the post-content over to the master-xhtml file at the appropriate place. As before, add title/anchor before the copied post-content.</p>
+<p>Repeat this procedure, in order, for all the chapters of your eBook.</p>
+<p>Once finished, doubleclick the master.xhtml file and correct remaining errors (as it is an xhtml-file, it is rather picky about opening and closing tags) and see whether all your images are included. If you&#8217;re satisfied with it, rename the master.xhtml to text.xhtml (don&#8217;t forget this!).</p>
+<p><strong>7. Edit the MasterDirectory/preface.xhtml file</strong></p>
+<p>Open the preface.xhtml file and change the first blogpost-title to the title of your booklet, alter your name (by default it uses your wp-nick) and add a frontipiece-picture if you so desire.</p>
+<p><strong>8. Re-package the directory into an epub-file</strong></p>
+<p>This is the (only) tricky part. E-book readers require that the mimetype file is the first one in the zip document. What&#8217;s more, to be fully compliant, this file should start at a very specific point &#8211; a 30-byte offset from the beginning of the zip file (so that the mimetype text itself starts at byte 38).</p>
+<p>Here&#8217;s how to do this on a Mac (Linux-users being the geeks they are will have given up on reading this post a while ago and as to Windows-users, yeah well &#8230;). Open Terminal.app and cd to your MasterDirectory. Now type:</p>
+<p>zip -X MyFirstEBook.epub mimetype</p>
+<p>Next, type:</p>
+<p>zip -rg MyFirstEBook.epub * -x &#42;.DS_Store</p>
+<p>(of course you&#8217;ll have to change your book-title to whatever you want). If you want to know more about these 2 magical commands, read <a href="http://www.webvivant.com/zipping-epub-files.html">this post</a>.</p>
+<p><strong>9. Edit metadata</strong></p>
+<p>Get <a href="http://calibre-ebook.com/">Calibre</a> and add the MyFirstEBook.epub to Calibre by clicking on the &#8216;Add Books&#8217; button.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/epub3.jpg"><br />
+</center></p>
+<p>You can preview your eBook by clicking on the &#8216;View&#8217;-button. Next, click the &#8216;Edit metadata&#8217;-button and alter the title and author entries (and whatever else you want to include) and click the OK button. Then click &#8216;Save to disk&#8217;.</p>
+<p><strong>10. Read your eBook on your iPad</strong></p>
+<p>Finally, we want to see how it looks on the iPad. Mail MyFirstEBook.epub to yourself as attachement, open it with iBooks and enjoy!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>eBook &#8211; ePub : comments</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/ebook-the-bourbaki-code-v1-0/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/ebook-the-bourbaki-code-v1-0/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 09 Jul 2011 12:56:22 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Bourbaki code]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[tracks]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5545</guid>
+
+					<description><![CDATA[There were some great comments by Peter before this post was taken offline. So, here they are, once again.]]></description>
+										<content:encoded><![CDATA[<p>There were some great comments by Peter before this post was taken offline. So, here they are, once again.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/ebook-the-bourbaki-code-v1-0/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>eBook &#8216;geometry and the absolute point&#8217; v0.1</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 08 Jul 2011 11:32:32 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5503</guid>
+
+					<description><![CDATA[In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217; I&#8217;ve converted about 30 posts to LaTeX, centering loosely around the topics students have asked me to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/absolutegeometry.jpg" align=left hspace=10><br />
+In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217; I&#8217;ve converted about 30 posts to LaTeX, centering loosely around the topics students have asked me to cover : noncommutative geometry, the absolute point (aka the field with one element), and their relation to the Riemann hypothesis.</p>
+<p>The idea being to edit these posts thoroughly, add much more detail (and proofs) and also add some extra sections on Borger&#8217;s work and Witt rings (and possibly other stuff).</p>
+<p>For those of you who prefer to (re)read these posts on paper or on a tablet rather than perusing this blog, you can now download the very first version (minimally edited) of the eBook <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/ncg.pdf">&#8216;geometry and the absolute point&#8217;</a>. All comments and suggestions are, of course, very welcome. I hope to post a more definite version by mid-september.</p>
+<p>I&#8217;ve used the thesis-documentclass to keep the same look-and-feel of my other course-notes, but I would appreciate advice about turning LaTeX-files into &#8216;proper&#8217; eBooks. I am aware of the fact that the memoir-class has an ebook option, and that one can use the geometry-package to control paper-sizes and margins.</p>
+<p>Soon, I will be releasing a LaTeX-ed &#8216;eBook&#8217; containing the Bourbaki-related posts. Later I might also try it on the games- and groups-related posts&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Penrose tilings and noncommutative geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 18 May 2011 09:36:49 +0000</pubDate>
+				<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Smith]]></category>
+		<category><![CDATA[tilings]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5206</guid>
+
+					<description><![CDATA[Penrose tilings are aperiodic tilings of the plane, made from 2 sort of tiles : kites and darts. It is well known (see for example&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/penrosetiling.jpg"></p>
+<p><a href="http://en.wikipedia.org/wiki/Penrose_tiling">Penrose tilings</a> are aperiodic tilings of the plane, made from 2 sort of tiles : kites and darts. It is well known (see for example the standard textbook <a href="http://www.amazon.co.uk/Tilings-Patterns-Branko-Grunbaum/dp/0486469816/">tilings and patterns</a> section 10.5) that one can describe a Penrose tiling around a given point in the plane as an infinite sequence of 0&#8217;s and 1&#8217;s, subject to the condition that no two consecutive 1&#8217;s appear in the sequence. Conversely, any such sequence is the sequence of a Penrose tiling together with a point. Moreover, if two such sequences are eventually the same (that is, they only differ in the first so many terms) then these sequences belong to two points in the same tiling,</p>
+<p>Another remarkable feature of Penrose tilings is their local isomorphism : fix a finite region around a point in one tiling, then in any other Penrose tiling one can find a point having an isomorphic region around it. For this reason, the space of all Penrose tilings has horrible topological properties (all points lie in each others closure) and is therefore a prime test-example for the techniques of <a href="http://en.wikipedia.org/wiki/Noncommutative_geometry">noncommutative geometry</a>.</p>
+<p>In his old testament, <a href="http://www.amazon.co.uk/Noncommutative-Geometry-Alain-Connes/dp/012185860X/">Noncommutative Geometry</a>, Alain Connes associates to this space a $C^*$-algebra $Fib$ (because it is constructed from the <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci series</a> $F_0,F_1,F_2,&#8230;$) which is the direct limit of sums of two full matrix-algebras $S_n$, with connecting morphisms</p>
+<p>$S_n = M_{F_n}(\mathbb{C}) \oplus M_{F_{n-1}}(\mathbb{C}) \rightarrow S_{n+1} = M_{F_{n+1}}(\mathbb{C}) \oplus M_{F_n}(\mathbb{C}) \qquad (a,b) \mapsto ( \begin{matrix} a &#038; 0 \\ 0 &#038; b \end{matrix}, a)$</p>
+<p>As such $Fib$ is an AF-algebra (for approximately finite) and hence formally smooth. That is, $Fib$ would be the coordinate ring of a smooth variety in the noncommutative sense, if only $Fib$ were finitely generated. However, $Fib$ is far from finitely generated and has other undesirable properties (at least for a noncommutative algebraic geometer) such as being simple and hence in particular $Fib$ has no finite dimensional representations&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/PaulS.jpg" align=left hspace=10> A couple of weeks ago, <a href="http://www.math.washington.edu/~smith/">Paul Smith</a> discovered a surprising connection between the noncommutative space of Penrose tilings and an <strong>affine</strong> algebra in the paper <a href="http://arxiv.org/abs/1104.3811">The space of Penrose tilings and the non-commutative curve with homogeneous coordinate ring $\mathbb{C} \langle x,y \rangle/(y^2)$</a>.</p>
+<p>Giving $x$ and $y$ degree 1, the algebra $P = \mathbb{C} \langle x,y \rangle/(y^2)$ is obviously graded and noncommutative projective algebraic geometers like to associate to such algebras their &#8216;proj&#8217; which is the quotient category of the category of all graded modules in which two objects become isomorphisc iff their &#8216;tails&#8217; (that is forgetting the first few homogeneous components) are isomorphic.</p>
+<p>The first type of objects NAGers try to describe are the <strong>point modules</strong>, which correspond to graded modules in which every homogeneous component is 1-dimensional, that is, they are of the form</p>
+<p>$\mathbb{C} e_0 \oplus \mathbb{C} e_1 \oplus \mathbb{C} e_2 \oplus \cdots \oplus \mathbb{C} e_n \oplus \mathbb{C} e_{n+1} \oplus \cdots$</p>
+<p>with $e_i$ an element of degree $i$. The reason for this is that point-modules correspond to the points of the (usual, commutative) projective variety when the affine graded algebra is commutative.</p>
+<p>Now, assume that a Penrose tiling has been given by a sequence of 0&#8217;s and 1&#8217;s, say $(z_0,z_1,z_2,\cdots)$, then it is easy to associate to it a graded vectorspace with action given by</p>
+<p>$x.e_i = e_{i+1}$ and $y.e_i = z_i e_{i+1}$</p>
+<p>Because the sequence has no two consecutive ones, it is clear that this defines a graded module for the algebra $P$ and determines a  point module in $\pmb{proj}(P)$. By the equivalence relation on Penrose sequences and the tails-equivalence on graded modules it follows that two sequences define the same Penrose tiling if and only if they determine the same point module in $\pmb{proj}(P)$.  Phrased differently, the noncommutative space of Penrose tilings embeds in $\pmb{proj}(P)$ as a subset of the point-modules for $P$.</p>
+<p>The only such point-module invariant under the shift-functor is the one corresponding to the 0-sequence, that is, corresponds to the <a href="http://www.spsu.edu/math/tile/aperiodic/cartwheel/cartwheel1.htm">cartwheel tiling</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cartwheel.jpg"></p>
+<p>Another nice consequence is that we can now explain the local isomorphism property of Penrose tilings geometrically as a consequence of the fact that the $Ext^1$ between any two such point-modules is non-zero, that is, these noncommutative points lie &#8216;infinitely close&#8217; to each other.</p>
+<p>This is the easy part of Paul&#8217;s paper.</p>
+<p>The truly, truly amazing part is that he is able to recover Connes&#8217; AF-algebra $Fib$ from $\pmb{proj}(P)$ as the algebra of global sections! More precisely, he proves that there is an equivalence of categories between $\pmb{proj}(P)$ and the category of all $Fib$-modules $\pmb{mod}(Fib)$!</p>
+<p>In other words, the noncommutative projective scheme $\pmb{proj}(P)$ is actually isomorphic to an affine scheme and as its coordinate ring is formally smooth $\pmb{proj}(P)$ is a noncommutative smooth variety. It would be interesting to construct more such examples of interesting AF-algebras appearing as local rings of sections of proj-es of affine graded algebras.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>changes (ahead)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/changes-ahead/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/changes-ahead/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 19 Jan 2011 13:43:43 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4645</guid>
+
+					<description><![CDATA[In view or recents events &#38; comments, some changes have been made or will be made shortly : categories : Sanitized the plethora of wordpress-categories&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In view or recents events &amp; comments, some changes have been made or will be made shortly :</p>
+<p><strong>categories</strong> :  Sanitized the plethora of wordpress-categories to which posts belong. At the moment there are just 5 categories : &#8216;stories&#8217; and &#8216;web&#8217; (for all posts with low math-content) and three categories &#8216;level1&#8217;, &#8216;level2&#8217; and &#8216;level3&#8217;, loosely indicating the math-difficulty of a post.</p>
+<p><strong>MathJax</strong>  : After years of using LatexRender and WP-Latex, we&#8217;ll change to MathJax from now on. I&#8217;ll try to convert older posts as soon as possible. (Update : did a global search and replace. &#8216;Most&#8217; LaTeX works, major exceptions being matrices and xymatrix commands. I&#8217;ll try to fix those later with LatexRender.)</p>
+<p><strong>theme</strong> : The next couple of days, the layout of this site may change randomly as I&#8217;ll be trying out things with the <a href="http://swiftthemes.com/">Swift wordpress theme</a>. Hopefully, this will converge to a new design by next week.</p>
+<p><strong>name</strong> : Neverendingbooks will be renamed to something more math-related. Clearly, the new name will depend on the topics to be covered. On the main <a href="https://lievenlebruyn.github.io/neverendingbooks/">index page</a> a pop-up poll will appear in the lower right-hand corner after 10 seconds. Please fill in the topics you&#8217;d like us to cover (no name or email required).</p>
+<p>This poll will close on friday 21st at 12 CET and its outcome will influence name/direction of this blog. Use it also if you have a killer newname-suggestion. Among the responses so far, a funnier one : &#8220;An intro to, or motivation for non-commutative geometry, aimed at undergraduates. As a rule, I&#8217;d take what you think would be just right for undergrads, and then trim it down a little more.&#8221;</p>
+<p><strong>guest-posts</strong> : If you&#8217;d like to be a guest-blogger here at irregular times, please contact me. The first guest-post will be on noncommutative topology and the interpretation of quantum physics, and will appear soon. So, stay tuned&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/changes-ahead/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lists 2010 : StackExchange sites</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 27 Dec 2010 13:53:11 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[social networks]]></category>
+		<category><![CDATA[stackexchange]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3883</guid>
+
+					<description><![CDATA[One of the trends of 2010 was the proliferation of StackExchange sites. I guess by now most of us visit MathOverflow along with the arXiv&#8230;]]></description>
+										<content:encoded><![CDATA[<p>One of the trends of 2010 was the proliferation of <a href="http://en.wikipedia.org/wiki/Stack_Exchange">StackExchange</a> sites. I guess by now most of us visit <a href="http://mathoverflow.net/">MathOverflow</a> along with <a href="http://arxiv.org/">the arXiv</a> daily. But, there are plenty of other StackExchange sites around that may be of interest to the mathematics-community :</p>
+<ul>
+<li><a href="http://math.stackexchange.com/">Mathematics</a> somewhat less high-brow than MathO.  </li>
+<li><a href="http://physics.stackexchange.com/">Physics</a> still in the beta-phase (see below)  </li>
+<li><a href="http://cstheory.stackexchange.com/">Theoretical computer science</a>  </li>
+<li><a href="http://tex.stackexchange.com/">TeX</a> for TeX and LaTeX-lovers  </li>
+<li><a href="http://ipad4edu.com/">iPad 4 edu</a> for those who want to use their iPad in the classroom</li>
+<li>etc. etc.</li>
+</ul>
+<p>&#8220;Opening a StackExchange site is damn hard. First you have to find at least 60 people interested in the site. Then, when this limit is reached, a large amount of people (in the hundreds, but it really depends on the reputation of each participant) must commit and promise to create momentum for the site, adding questions and answers. When this amount is reached, the site is open and stays in closed beta for seven days. During this time, the committers have to enrich the site so that the public beta (which starts after the first seven days) gets enough hits and participants to show a self-sustained community.&#8221; (quote from ForTheScience&#8217;s <a href="http://forthescience.org/blog/2010/07/22/stackexchange-sites-proliferation/">StackExchange sites proliferation</a>, this post also contains a list of  StackExchange-projects in almost every corner of Life)</p>
+<p>The site keeping you up to date with StackExchange proposals and their progress is <a href="http://area51.stackexchange.com/">area51</a>. Perhaps, you want to commit to some of these proposals</p>
+<ul>
+<li><a href="http://area51.stackexchange.com/proposals/6633/high-energy-physics">High Energy Physics</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/23848/theoretical-physics">Theoretical Physics</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15787/mathematica">Mathematica</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/23788/math-errata-database">Math Errata Database</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15215/blogging-and-the-blogosphere">Blogging and the Blogosphere</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15811/cryptography">Cryptography</a></li>
+</ul>
+<p>or simply browse around <a href="http://area51.stackexchange.com/">area51</a> until you find the ideal community for you to belong to&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Link problems : Markdown versus latex2wp.py</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/link-problems-markdown-versus-latex2wp-py/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/link-problems-markdown-versus-latex2wp-py/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 07 Dec 2010 08:22:00 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3413</guid>
+
+					<description><![CDATA[As John Baez (and hopefully others) noticed most links here on NeB are now screwed up. For years I&#8217;ve used the Markdown syntax to include&#8230;]]></description>
+										<content:encoded><![CDATA[<p>As <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/arnolds-trinities-version-20.html/comment-page-1#comment-9435">John Baez</a> (and hopefully others) noticed most links here on NeB are now screwed up.</p>
+<p>For years I&#8217;ve used <a href="http://daringfireball.net/projects/markdown/syntax">the Markdown syntax</a> to include links in posts (that is something like [this is what you see](and here is the URL)). NeB used an older version ( Version 1.0.1k) of <a href="http://michelf.com/projects/php-markdown/">php Markdown</a> to convert these to proper links (as I did have problems with the newer version).</p>
+<p>Ever since the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/return-to-latex.html">Return to LaTeX</a> post, I&#8217;m trying to re-educate myself to write posts in LaTeX and convert them into wp-format using the <a href="http://lucatrevisan.wordpress.com/latex-to-wordpress/">Latex2WP python script</a>.</p>
+<p>Unfortunately this script doesn&#8217;t go together nicely with the Markdown-syntax, forcing me to go over the converted latex-file almost line by line fixing errors in order to be able to post. Not the time-saver I had in mind&#8230;</p>
+<p>I hope to post a lot of new material once the semester finishes and therefore disabled the Markdown-plugin. This causes all links to remain in Markdown-format, which is a nuisance but, if you really want to follow the link it is still there for you to copy-paste. Depending on how exciting the christmas-break will be I&#8217;ll try to hard-code the links in some of the more popular posts.</p>
+<p>If someone knows of an elegant solution, such as a micro-markdown wp-plugin only parsing links, please drop a comment.</p>
+<p>UPDATE : I have downloaded the <a href="http://wordpress.org/extend/plugins/markdown-quicktags/">Markdown quicktags</a> plugin. It replaces the standard HTML-editor of WordPress with a Markdown-editor. There is an option &#8220;Render&#8221; which transforms Markdown to HTML and then updating the post will save the HTML-version. This looks like a relative quick way to get my old post-links back. So far, I&#8217;ve rescued the posts of the last year, more later. Hopefully, this causes no overload in your RSS-aggregator&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/link-problems-markdown-versus-latex2wp-py/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Who was ‘le P. Adique’?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/who-was-le-p-adique/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/who-was-le-p-adique/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 08 Jul 2010 11:45:35 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Chevalley]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[geo]]></category>
+		<category><![CDATA[Hasse]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3108</guid>
+
+					<description><![CDATA[Last year we managed to solve the first few riddles of the Bourbaki code, but several mysteries still remain. For example, who was the priest&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Last year we managed to solve the first few riddles of the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-wedding-invitation-that-nearly-killed-andre-weil.html">Bourbaki code</a>, but several mysteries still remain. For example, who was the priest performing the Bourbaki-Petard wedding ceremony? The &#8216;faire part&#8217; identifies him as &#8216;le P. Adique, de l&#8217;Ordre des Diophantiens&#8217;.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PAdiqueFP.jpg"></p>
+<p>As with many of these Bourbaki-jokes, this riddle too has several layers. There is the first straightforward mathematical interpretation of the <a href="http://en.wikipedia.org/wiki/P-adic_number">p-adic numbers</a> $latex \hat{\mathbb{Z}}_p$ being used in the study of Diophantine problems.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Hasse.jpg" align=right style="margin-left: 10px;"> For example, the local-global, or <a href="http://en.wikipedia.org/wiki/Hasse_principle">Hasse principle</a>, asserting that an integral quadratic form has a solution if and only if there are solutions over all p-adic numbers. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Hasse.html">Helmut Hasse</a> was a German number theorist, held in high esteem by the Bourbaki group.</p>
+<p>After graduating from the ENS in 1929, <a href="http://en.wikipedia.org/wiki/Claude_Chevalley">Claude Chevalley</a> spent some time at the University of Marburg, studying under Helmut Hasse. Hasse had come to Marburg when <a href="http://en.wikipedia.org/wiki/Kurt_Hensel">Kurt Hensel</a> (who invented the p-adic numbers in 1902) retired in 1930.</p>
+<p>Hasse picked up a question from E. Artin&#8217;s dissertation about the zeta function of an algebraic curve over a finite field and achieved the first breakthrough establishing the conjectured property for zeta functions of elliptic curves (genus one).</p>
+<p>Extending this result to higher genus was the principal problem Andre Weil was working on at the time of the wedding-card-joke. In 1940 he would be able to settle the general case. What we now know as the Hasse-Weil theorem implies that the number N(p) of rational points of an elliptic curve over the finite field Z/pZ, where p is a prime, can differ from the mean value p+1 by at most twice the square root of p.</p>
+<p>So, Helmut Hasse is a passable candidate for the first-level, mathematical, decoding of &#8216;le P. adique&#8217;.</p>
+<p>However, there is often a deeper and more subtle reading of a Bourbaki-joke, intended to be understood only by the select inner circle of &#8216;normaliens&#8217; (graduates of the <a href="http://www.ens.fr/?lang=fr">Ecole Normale Superieure</a>). Usually, this second-level interpretation  requires knowledge of events or locations within the <a href="http://en.wikipedia.org/wiki/5th_arrondissement_of_Paris">5-th arrondissement of Paris</a>, the large neighborhood of the ENS.</p>
+<p>For an outsider (both non-Parisian and non-normalien) decoding this hidden message is substantially harder and requires a good deal of luck.</p>
+<p>As it happens, I&#8217;m going through a &#8216;Weil-phase&#8217; and just started reading the three main Weil-biographies : <a href="http://www.amazon.fr/Andre-Weil-Apprenticeship-Mathematician/dp/3764326506/">Andre Weil the Apprenticeship of a Mathematician</a>, <a href="http://www.amazon.fr/Chez-Weil-André-Simone-Sylvie/dp/2283023696/">Chez les Weil : André et Simone</a> by Sylvie Weil and <a href="http://www.amazon.fr/vie-Simone-Weil-Pétrement/dp/2213599920/">La vie de Simone Weil</a> by Simone Petrement.</p>
+<p><center><br />
+[abp:3764326506]  [abp:2283023696] [abp:2213599920]<br />
+</center></p>
+<p>From page 35 of &#8216;Chez les Weil&#8217; : &#8220;Après la guerre, pas tout de suite mais en 1948, toute la famille avait fini par revenir à Paris, rue Auguste-Comte, en face des jardins du Luxembourg.&#8221; Sylvie talks about the Parisian apartment of her grandparents (father and mother of Andre and Simone) and I wanted to know its exact location.</p>
+<p>More details are given on page 103 of &#8216;La vie de Simone Weil&#8217;. The apartment consists of the 6th and 7th floor of a building on the Montagne Sainte-Geneviève. The Weils bought it before it was even built and when they moved in, in may 1929, it was still unfinished. Compensating this, the apartment offered a splendid view of the Sacre-Coeur, the Eiffel-tower, la Sorbonne, Invalides, l&#8217;Arc de Triomphe, Pantheon, the roofs of the Louvre, le tout Paris quoi&#8230;</p>
+<p>As to its location : &#8220;Juste au-dessous de l&#8217;appartement se trouvent l&#8217;Ecole des mines et les serres du Luxembourg, avec la belle maison ancienne où mourut Leconte de Lisle.&#8221; This and a bit of <a href="http://www.a-paris.net/A-paris-balade-jardin-du-luxembourg.htm">googling</a> allows one to deduce that the Weils lived at 3, rue Auguste-Comte (the W on the map below).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/lEpee.jpg" align=left style="margin-right:10px;">  Crossing the boulevard Saint-Michel, one enters the 5-th arrondissement via the &#8230; rue de l&#8217;Abbe de l&#8217;Epee&#8230;<br />
+We did deduce <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/where-was-the-bourbaki-wedding.html">before</a> that the priest might be an abbot (&#8216;from the order of the Diophantines&#8217;) and l&#8217;Epee is just &#8216;le P.&#8217; pronounced in French (cheating one egue).</p>
+<p><a href="http://en.wikipedia.org/wiki/Charles-Michel_de_l'Épée">Abbé Charles-Michel de l&#8217;Épée</a> lived in the 18th century and has become known as the &#8220;Father of the Deaf&#8221; (compare this to Diophantus who is called &#8220;Father of Algebra&#8221;). Épée turned his attention toward charitable services for the poor, and he had a chance encounter with two young deaf sisters who communicated using a sign language. Épée decided to dedicate himself to the education and salvation of the deaf, and, in 1760, he founded a school which became in 1791 l&#8217;Institution Nationale des Sourds-Muets à Paris.  It was later renamed the Institut St. Jacques (compare Rue St. Jacques) and then renamed again to its present name: <a href="http://www.injs-paris.fr/">Institut National de Jeunes Sourds de Paris</a> located at 254, rue Saint-Jacques (the A in the map below) just one block away from the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/seriously-now-where-was-the-bourbaki-wedding.html">Schola Cantorum</a> at 269, rue St. Jacques, where the Bourbaki-Petard wedding took place (the S in the map).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PAdique.jpg"></p>
+<p>Completing the map with the location of the Ecole Normale (the E) I was baffled by the result. If the Weil apartment stands for West, the Ecole for East and the Schola for South, surely there must be an N (for N.Bourbaki?) representing North. Suggestions anyone?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/who-was-le-p-adique/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Return to LaTeX</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 12 Feb 2010 20:20:29 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2965</guid>
+
+					<description><![CDATA[To most mathematicians, a good LaTeX-frontend (such as TeXShop for Mac-users) is the crucial tool to get the work done. We use it to draft&#8230;]]></description>
+										<content:encoded><![CDATA[<p><p>
+To most mathematicians, a good LaTeX-frontend (such as <a href="http://www.uoregon.edu/~koch/texshop/">TeXShop</a> for Mac-users) is the crucial tool to get the work done. We use it to draft ideas, write papers and courses, or even to take notes during lectures.</p>
+<p>
+However, after six years of blogging, my own LaTeX-routine became rusty. I rarely open a new tex-document, and when I do, I’d rather copy-paste the long preamble from an old file than to start from scratch with a minimal list of packages and definitions needed for the job at hand. The few times I put a paper on the arXiv, the resulting text resembles a blog-post more than a mathematical paper, here’s <a href="http://arxiv.org/abs/0803.3601">an example</a>.</p>
+<p>
+As I desperately need to get some math-writing done, I need to pull myself away from the lure of an ever-open <a href="http://wordpress.org/">WordPress</a> admin browser-screen and reacquaint myself with the far more efficient LaTeX-environment.</p>
+<p>
+Perhaps even my blogging will benefit from the change. Whereas I used to keep on adding to most of my tex-files in order to keep them up-to-date, I rarely edit a blog-post after hitting the ’publish’ button. If I really want to turn some of my better posts into a book, I need them in a format suitable for neverending polishing, without annoying the many RSS-feed aggregators out there.</p>
+<p>
+Who better than Terry Tao to teach me a more proficient way of blogging? A few days ago, Terry <a href="http://terrytao.wordpress.com/2010/02/07/an-epsilon-of-room-pages-from-year-three-of-a-mathematical-blog/">announced</a> he will soon have his 5th (!!) book out, after three years of blogging&#8230;</p>
+<p>
+How does he manage to do this? Well, as far as I know, Terry blogs in LaTeX and then uses a python-script called <a href="http://lucatrevisan.wordpress.com/latex-to-wordpress/">LaTeX2WP</a> ’a program that converts a LaTeX file into something that is ready to be cut and pasted into WordPress. This way, you can write, and preview, your post in LaTeX, then run LaTeX2WP, and post into WordPress whatever comes out.’ More importantly, one retains a pure-tex-file of the post on which one can keep on editing to get it into a (book)-publishable form, eventually.</p>
+<p>
+Nice, but one can do even better, as Eric from <a href="http://curiousreasoning.wordpress.com/tag/latex/">Curious Reasoning</a> worked out. He suggests to install two useful python-packages : <a href="http://www.blackbirdblog.it/programmazione/progetti/28#english">WordPressLib</a> &#8220;with this library you can control remotely a WordPress installation. Use of library is very simple, you can write a small scripts or full applications that allows you to automate publishing of articles on your blog/site powered by WordPress&#8221; and <a href="http://plastex.sourceforge.net/">plasTeX</a> &#8220;plasTeX is a LaTeX document processing framework written entirely in Python. It currently comes bundled with an XHTML renderer (including multiple themes), as well as a way to simply dump the document to a generic form of XML&#8221;. Installation is easy : download and extract the files somewhere, go there and issue a **sudo python setup.py install** to add the packages to your python.</p>
+<p>
+Finally, get Eric’s own <a href="http://curiousreasoning.wordpress.com/2010/01/30/overview-of-wplatex-4/">wplatex</a> package and install it as explained there. WpLaTeX has all the features of LaTeX2WP and much more : one can add titles, tags and categories automatically and publish the post from the command-line without ever having to enter the taboo WordPress-admin page! Here’s what I’ve written by now in TeXShop</p>
+<p><p align=center> <img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/Return2Latex.jpg" /> </p>
+<p>
+I’ve added the screenshot and the script will know where to find it online for the blog-version as well as on my hard-disk for the tex-version. Very handy is the iftex &#8230; fi versus ifblog &#8230; fi alternative which allows you to add pure HTML to get the desired effect, when needed. Remains only to go into Terminal and issue the command</p>
+<p>
+wplpost -x https://lievenlebruyn.github.io/neverendingbooks/xmlrpc.php ReturnToLatex.tex</p>
+<p>
+(if your blog is on WordPress.com it even suffices to give its name, rather than this work-around for stand-alone wordpress blogs). The script asks for my username and password and will convert the tex-file and post it automatic.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Witt &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/witt/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 31 Dec 2021 10:50:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Do we need the sphere spectrum?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 31 Dec 2021 10:50:10 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Almkvist]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Consani]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9903</guid>
+
+					<description><![CDATA[Last time I mentioned the talk &#8220;From noncommutative geometry to the tropical geometry of the scaling site&#8221; by Alain Connes, culminating in the canonical isomorphism&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project">Last time</a> I mentioned the talk <a href="https://www.dropbox.com/s/vqksoc02ci4q7dz/ConnesSlides.pdf?dl=0">&#8220;From noncommutative geometry to the tropical geometry of the scaling site&#8221;</a> by Alain Connes, culminating in the canonical isomorphism (last slide of the talk)<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/Data3/wittsphere.png" width=75% \><br />
+</center></p>
+<p>Or rather, what is actually proved in his paper with Caterina Consani <a href="https://arxiv.org/abs/2112.08820">BC-system, absolute cyclotomy and the quantized calculus</a> (and which they conjectured previously to be the case in <a href="https://arxiv.org/abs/2004.08879">Segal&#8217;s Gamma rings and universal arithmetic</a>), is a canonical isomorphism between the $\lambda$-rings<br />
+\[<br />
+\mathbb{Z}[\mathbb{Q}/\mathbb{Z}] \simeq \mathbb{W}_0(\overline{\mathbb{S}}) \]<br />
+The left hand side is the integral groupring of the additive quotient-group $\mathbb{Q}/\mathbb{Z}$, or if you prefer, $\mathbb{Z}[\mathbf{\mu}_{\infty}]$ the integral groupring of the multiplicative group of all roots of unity $\mathbf{\mu}_{\infty}$.</p>
+<p>The power maps on $\mathbf{\mu}_{\infty}$ equip $\mathbb{Z}[\mathbf{\mu}_{\infty}]$ with a $\lambda$-ring structure, that is, a family of commuting endomorphisms $\sigma_n$ with $\sigma_n(\zeta) = \zeta^n$ for all $\zeta \in \mathbf{\mu}_{\infty}$, and a family of linear maps $\rho_n$ induced by requiring for all $\zeta \in \mathbf{\mu}_{\infty}$ that<br />
+\[<br />
+\rho_n(\zeta) = \sum_{\mu^n=\zeta} \mu \]<br />
+The maps $\sigma_n$ and $\rho_n$ are used to construct an integral version of the Bost-Connes algebra describing the <a href="https://en.wikipedia.org/wiki/Bost%E2%80%93Connes_system">Bost-Connes sytem</a>, a quantum statistical dynamical system.</p>
+<p>On the right hand side, $\mathbb{S}$ is the <a href="https://en.wikipedia.org/wiki/Sphere_spectrum">sphere spectrum</a> (an object from stable homotopy theory) and $\overline{\mathbb{S}}$ its &#8216;algebraic closure&#8217;, that is, adding all abstract roots of unity.</p>
+<p>The ring $\mathbb{W}_0(\overline{\mathbb{S}})$ is a generalisation to the world of spectra of the Almkvist-ring $\mathbb{W}_0(R)$ defined for any commutative ring $R$, constructed from pairs $(E,f)$ where $E$ is a projective $R$-module of finite rank and $f$ an $R$-endomorphism on it. Addition and multiplication are coming from direct sums and tensor products of such pairs, with zero element the pair $(0,0)$ and unit element the pair $(R,1_R)$. The ring $\mathbb{W}_0(R)$ is then the quotient-ring obtained by dividing out the ideal consisting of all zero-pairs $(E,0)$.</p>
+<p>The ring $\mathbb{W}_0(R)$ becomes a $\lambda$-ring via the Frobenius endomorphisms $F_n$ sending a pair $(E,f)$ to the pair $(E,f^n)$, and we also have a collection of linear maps on $\mathbb{W}_0(R)$, the &#8216;Verschiebung&#8217;-maps which send a pair $(E,f)$ to the pair $(E^{\oplus n},F)$ with<br />
+\[<br />
+F = \begin{bmatrix} 0 &#038; 0 &#038; 0 &#038; \cdots &#038; f \\<br />
+1 &#038; 0 &#038; 0 &#038; \cdots &#038; 0 \\<br />
+0 &#038; 1 &#038; 0 &#038; \cdots &#038; 0 \\<br />
+\vdots &#038; \vdots &#038; \vdots &#038; &#038; \vdots \\<br />
+0 &#038; 0 &#038; 0 &#038; \cdots &#038; 1 \end{bmatrix} \]<br />
+Connes and Consani define a notion of modules and their endomorphisms for $\mathbb{S}$ and $\overline{\mathbb{S}}$, allowing them to define in a similar way the rings $\mathbb{W}_0(\mathbb{S})$ and $\mathbb{W}_0(\overline{\mathbb{S}})$, with corresponding maps $F_n$ and $V_n$. They then establish an isomorphism with $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ such that the maps $(F_n,V_n)$ correspond to $(\sigma_n,\rho_n)$.</p>
+<p>But, do we really have the go to spectra to achieve this?</p>
+<p>All this reminds me of an old idea of <a href="https://en.wikipedia.org/wiki/Yuri_Manin">Yuri Manin</a> mentioned in the introduction of his paper <a href="https://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a>, and later elaborated in section two of his paper with Matilde Marcolli <a href="https://arxiv.org/abs/1806.10801">Homotopy types and geometries below $\mathbf{Spec}(\mathbb{Z})$</a>.</p>
+<p>Take a manifold $M$ with a diffeomorphism $f$ and consider the corresponding discrete dynamical system by iterating the diffeomorphism. In such situations it is important to investigate the periodic orbits, or the fix-points $Fix(M,f^n)$ for all $n$. If we are in a situation that the number of fixed points is finite we can package these numbers in the Artin-Mazur zeta function<br />
+\[<br />
+\zeta_{AM}(M,f) = exp(\sum_{n=1}^{\infty} \frac{\# Fix(M,f^n)}{n}t^n) \]<br />
+and investigate the properties of this function.</p>
+<p>To connect this type of problem to Almkvist-like rings, Manin considers the <a href="https://en.wikipedia.org/wiki/Morse%E2%80%93Smale_system">Morse-Smale dynamical systems</a>, a structural stable diffeomorphism $f$, having a finite number of non-wandering points on a compact manifold $M$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MorseSmale.png" width=75% /><br />
+From <a href="https://arxiv.org/abs/1710.08292">Topological classification of Morse-Smale diffeomorphisms on 3-manifolds</a><br />
+</center></p>
+<p>In such a situation $f_{\ast}$ acts on homology $H_k(M,\mathbb{Z})$, which are free $\mathbb{Z}$-modules of finite rank, as a matrix $M_f$ having only roots of unity as its eigenvalues.</p>
+<p>Manin argues that this action is similar to the action of the Frobenius on etale cohomology groups, in which case the eigenvalues are Weil numbers. That is, one might view roots of unity as Weil numbers in characteristic one.</p>
+<p>Clearly, all relevant data $(H_k(M,\mathbb{Z}),f_{\ast})$ belongs to the $\lambda$-subring of $\mathbb{W}_0(\mathbb{Z})$ generated by all pairs $(E,f)$ such that $M_f$ is diagonalisable and all its eigenvalues are either $0$ or roots of unity.</p>
+<p>If we denote for any ring $R$ by $\mathbb{W}_1(R)$ this $\lambda$-subring of $\mathbb{W}_0(R)$, probably one would obtain canonical isomorphisms</p>
+<p>&#8211; between $\mathbb{W}_1(\mathbb{Z})$ and the invariant part of the integral groupring $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ for the action of the group $Aut(\mathbb{Q}/\mathbb{Z}) = \widehat{\mathbb{Z}}^*$, and</p>
+<p>&#8211; between $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ and $\mathbb{W}_1(\mathbb{Z}(\mathbf{\mu}_{\infty}))$ where $\mathbb{Z}(\mathbf{\mu}_{\infty})$ is the ring obtained by adjoining to $\mathbb{Z}$ all roots of unity.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Leech lattice neighbour</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 23 Mar 2021 16:12:48 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Hamming]]></category>
+		<category><![CDATA[Kneser]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Niemeier]]></category>
+		<category><![CDATA[Pless]]></category>
+		<category><![CDATA[Sloan]]></category>
+		<category><![CDATA[Steiner]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9394</guid>
+
+					<description><![CDATA[Here&#8217;s the upper part of Kneser&#8216;s neighbourhood graph of the Niemeier lattices: The Leech lattice has a unique neighbour, that is, among the $23$ remaining&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s the upper part of <a href="https://en.wikipedia.org/wiki/Martin_Kneser">Kneser</a>&#8216;s neighbourhood graph of the <a href="https://en.wikipedia.org/wiki/Niemeier_lattice">Niemeier lattices</a>:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/A124Leech.jpg" width=80% ><br />
+</center></p>
+<p>The <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> has a unique neighbour, that is, among the $23$ remaining Niemeier lattices there is a unique one, $(A_1^{24})^+$, sharing an index two sub-lattice with the Leech.</p>
+<p>How would you try to construct $(A_1^{24})^+$, an even unimodular lattice having the same roots as $A_1^{24}$?</p>
+<p>The root lattice $A_1$ is $\sqrt{2} \mathbb{Z}$. It has two roots $\pm \sqrt{2}$, determinant $2$, its dual lattice is $A_1^* = \tfrac{1}{\sqrt{2}} \mathbb{Z}$ and we have $A_1^*/A_1 \simeq C_2 \simeq \mathbb{F}_2$.</p>
+<p>Thus, $A_1^{24}= \sqrt{2} \mathbb{Z}^{\oplus 24}$ has $48$ roots, determinant $2^{24}$, its dual lattice is $(A_1^{24})^* = \tfrac{1}{\sqrt{2}} \mathbb{Z}^{\oplus 24}$ and the quotient group $(A_1^{24})^*/A_1^{24}$ is $C_2^{24}$ isomorphic to the additive subgroup of $\mathbb{F}_2^{\oplus 24}$.</p>
+<p>A larger lattice $A_1^{24} \subseteq L$ of index $k$ gives for the dual lattices an extension $L^* \subseteq (A_1^{24})^*$, also of index $k$. If $L$ were unimodular, then the index has to be $2^{12}$ because we have the situation<br />
+\[<br />
+A_1^{24} \subseteq L = L^* \subseteq (A_1^{24})^* \]<br />
+So, Kneser&#8217;s glue vectors form a $12$-dimensional subspace $\mathcal{C}$ in $\mathbb{F}_2^{\oplus 24}$, that is,<br />
+\[<br />
+L = \mathcal{C} \underset{\mathbb{F}_2}{\times} (A_1^{24})^* = \{ \tfrac{1}{\sqrt{2}} \vec{v} ~|~\vec{v} \in \mathbb{Z}^{\oplus 24},~v=\vec{v}~mod~2 \in \mathcal{C} \} \]<br />
+Because $L = L^*$, the linear code $\mathcal{C}$ must be self-dual meaning that $v.w = 0$ (in $\mathbb{F}_2$) for all $v,w \in \mathcal{C}$. Further, we want that the roots of $A_1^{24}$ and $L$ are the same, so the minimal number of non-zero coordinates in $v \in \mathcal{C}$ must be $8$.</p>
+<p>That is, $\mathcal{C}$ must be a <a href="https://en.wikipedia.org/wiki/Dual_code#:~:text=A%20self%2Ddual%20code%20is,which%20are%20not%20doubly%20even.">self-dual</a> binary code of length $24$ with <a href="https://en.wikipedia.org/wiki/Hamming_distance">Hamming distance</a> $8$.</p>
+<p><center><br />
+<img decoding="async" src="https://www.tuencyclopedie.nl/images/thumb/b/b9/Lemma_71_Foto_1.jpg/300px-Lemma_71_Foto_1.jpg" width=80%><br />
+Marcel Golay (1902-1989) &#8211; <a href="https://www.tuencyclopedie.nl/index.php?title=Golay_M.J.E.">Photo Credit</a><br />
+</center></p>
+<p>We now know that there is a unique such code, the (extended) <a href="https://en.wikipedia.org/wiki/Binary_Golay_code#:~:text=In%20mathematics%20and%20electronics%20engineering,finite%20sporadic%20groups%20in%20mathematics.">binary Golay code</a>, $\mathcal{C}_{24}$, which has</p>
+<ul>
+<li>one vector of weight $0$</li>
+<li>$759$ vectors of weight $8$ (called &#8216;octads&#8217;)</li>
+<li>$2576$ vectors of weight $12$ (called &#8216;dodecads&#8217;)</li>
+<li>$759$ vectors of weight $16$</li>
+<li>one vector of weight $24$</li>
+</ul>
+<p>The $759$ octads form a <a href="https://en.wikipedia.org/wiki/Steiner_system#:~:text=A%20Steiner%20system%20with%20parameters,contained%20in%20exactly%20one%20block.">Steiner system</a> $S(5,8,24)$ (that is, for any $5$-subset $S$ of the $24$-coordinates there is a unique octad having its non-zero coordinates containing $S$).</p>
+<p>Witt constructed a Steiner system $S(5,8,24)$ in his 1938 paper &#8220;Die $5$-fach transitiven Gruppen von Mathieu&#8221;, so it is not unthinkable that he checked the subspace of $\mathbb{F}_2^{\oplus 24}$ spanned by his $759$ octads to be $12$-dimensional and self-dual, thereby constructing the Niemeier-lattice $(A_1^{24})^+$  <a href="https://lievenlebruyn.github.io/neverendingbooks/witt-and-his-niemeier-lattices">on that sunday in 1940</a>.</p>
+<p>John Conway classified all nine self-dual codes of length $24$ in which the weight<br />
+of every codeword is a multiple of $4$. Each one of these codes $\mathcal{C}$ gives a Niemeier lattice $\mathcal{C} \underset{\mathbb{F}_2}{\times} (A_1^{24})^*$, all but one of them having more roots than $A_1^{24}$.</p>
+<p><a href="https://en.wikipedia.org/wiki/Vera_Pless">Vera Pless</a> and <a href="https://en.wikipedia.org/wiki/Neil_Sloane">Neil Sloan</a> classified all $26$ <a href="https://www.researchgate.net/publication/251812065_Binary_self-dual_codes_of_length_24">binary self-dual codes of length $24$</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Witt and his Niemeier lattices</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/witt-and-his-niemeier-lattices/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/witt-and-his-niemeier-lattices/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 19 Mar 2021 15:01:34 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Dynkin]]></category>
+		<category><![CDATA[Kneser]]></category>
+		<category><![CDATA[lattices]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Lie]]></category>
+		<category><![CDATA[Niemeier]]></category>
+		<category><![CDATA[Weyl]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9280</guid>
+
+					<description><![CDATA[Sunday, January 28th 1940, Hamburg Ernst Witt wants to get two papers out of his system because he knows he&#8217;ll have to enter the Wehrmacht&#8230;]]></description>
+										<content:encoded><![CDATA[<p><strong>Sunday, January 28th 1940, Hamburg</strong></p>
+<p><a href="https://en.wikipedia.org/wiki/Ernst_Witt">Ernst Witt</a> wants to get two papers out of his system because he knows he&#8217;ll have to enter the Wehrmacht in February.</p>
+<p>The first one, <a href="https://www.semanticscholar.org/paper/Spiegelungsgruppen-und-Aufz%C3%A4hlung-halbeinfacher-Witt/165e95a3eabc637a3d0a8c909d02a7f38f52a333">&#8220;Spiegelungsgruppen und Aufzählung halbeinfacher Liescher Ringe&#8221;</a>, contains his own treatment of the root systems of semisimple Lie algebras and their reflexion groups, following up on previous work by Killing, Cartan, Weyl, van der Waerden and Coxeter.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/ErnstWitt_PaulBernays_etc_1932_MFO.jpg?1616138270884" width=100%><br />
+</center></p>
+<p>(Photo: Natascha Artin, Nikolausberg 1933): From left to right: Ernst Witt; Paul Bernays; Helene Weyl; <a href="https://en.wikipedia.org/wiki/Hermann_Weyl">Hermann Weyl</a>; Joachim Weyl, Emil Artin; Emmy Noether; Ernst Knauf; unknown woman; Chiuntze Tsen; Erna Bannow (later became wife of Ernst Witt)</p>
+<p>Important for our story is that this paper contains the result stating that integral lattices generated by norm 2 elements are direct sums of root systems of the simply laced Dynkin diagrans $A_n, D_n$ and $E_6,E_7$ or $E_8$ (Witt uses a slightly different notation).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DynkinDiagrams.jpg" width=50% ><br />
+</center></p>
+<p>In each case, Witt knows of course the number of roots and the determinant of the Gram matrix<br />
+\[<br />
+\begin{array}{c|cc}<br />
+&#038; \# \text{roots} &#038; \text{determinant} \\<br />
+\hline<br />
+A_n &#038; n^2+n &#038; n+1 \\<br />
+D_n &#038; 2n^2-2n &#038; 4 \\<br />
+E_6 &#038; 72 &#038; 3 \\<br />
+E_7 &#038; 126 &#038; 2 \\<br />
+E_8 &#038; 240 &#038; 1<br />
+\end{array}<br />
+\]<br />
+The second paper <a href="https://www.semanticscholar.org/paper/Eine-Identit%C3%A4t-zwischen-Modulformen-zweiten-Grades-Witt/ff9a4e216014bf433dc870eebf07baf6d9630a7c">&#8220;Eine Identität zwischen Modulformen zweiten Grades&#8221;</a> proves that there are just two positive definite even unimodular lattices (those in which every squared length is even, and which have one point per unit volume, that is, have determinant one) in dimension sixteen, $E_8 \oplus E_8$ and $D_{16}^+$. Previously, <a href=":https://en.wikipedia.org/wiki/Louis_J._Mordell">Louis Mordell</a> showed that the only unimodular even lattice in dimension $8$ is $E_8$.</p>
+<p>The connection with modular forms is via their theta series, listing the number of lattice points of each squared length<br />
+\[<br />
+\theta_L(q) = \sum_{m=0}^{\infty} \#\{ \lambda \in L : (\lambda,\lambda)=m \} q^{m} \]<br />
+which is a modular form of weight $n/2$ ($n$ being the dimension which must be divisible by $8$) in case $L$ is a positive definitive even unimodular lattice.</p>
+<p>The algebra of all modular forms is generated by the Eisenstein series $E_2$ and $E_3$ of weights $4$ and $6$, so in dimension $8$ we have just one possible theta series<br />
+\[<br />
+\theta_L(q) = E_2^2 = 1+480 q^2+ 61920 q^4+ 1050240 q^6+ \dots \]</p>
+<p>It is interesting to read Witt&#8217;s proof of his main result (Satz 3) in which he explains how he constructed the possible even unimodular lattices in dimension $16$.</p>
+<p>He knows that the sublattice of $L$ generated by the $480$ norm two elements must be a direct sum of root lattices. His knowledge of the number of roots in each case tells him there are only two possibilities<br />
+\[<br />
+E_8 \oplus E_8 \qquad \text{and} \qquad D_{16} \]<br />
+The determinant of the Gram matrix of $E_8 \oplus E_8$ is one, so this one is already unimodular. The remaining possibility<br />
+\[<br />
+D_{16} = \{ (x_1,\dots,x_{16}) \in \mathbb{Z}^{16}~|~x_1+ \dots + x_{16} \in 2 \mathbb{Z} \} \]<br />
+has determinant $4$ so he needs to add further lattice points (necessarily contained in the dual lattice $D_{16}^*$) to get it unimodular. He knows the coset representatives of $D_{16}^*/D_{16}$:<br />
+\[<br />
+\begin{cases}<br />
+[0]=(0, \dots,0) &#038;~\text{of norm $0$} \\<br />
+[1]=(\tfrac{1}{2},\dots,\tfrac{1}{2}) &#038;~\text{of norm $4$} \\<br />
+[2]=(0,\dots,0,1) &#038;~\text{of norm $1$} \\<br />
+[3]=(\tfrac{1}{2},\dots,\tfrac{1}{2},-\tfrac{1}{2}) &#038;~\text{of norm $4$}<br />
+\end{cases}<br />
+\]<br />
+and he verifies that the determinant of $D_{16}^+=D_{16}+([1]+D_{16})$ is indeed one (btw. adding coset $[3]$ gives an isomorphic lattice). Witt calls this procedure to arrive at the correct lattices forced (&#8216;zwangslaufig&#8217;).</p>
+<p>So, how do you think Witt would go about finding even unimodular lattices in dimension $24$?</p>
+<p>To me it is clear that he would start with a direct sum of root lattices whose dimensions add up to $24$, compute the determinant of the Gram matrix and, if necessary, add coset classes to arrive at a unimodular lattice.</p>
+<p>Today we would call this procedure &#8216;adding glue&#8217;, after <a href="https://en.wikipedia.org/wiki/Martin_Kneser">Martin Kneser</a>, who formalised this procedure in 1967.</p>
+<p>On January 28th 1940, Witt writes that he found more than $10$ different classes of even unimodular lattices in dimension $24$ (without giving any details) and mentioned that the determination of the total number of such lattices will not be entirely trivial (&#8216;scheint nicht ganz leicht zu sein&#8217;).</p>
+<p>The complete classification of all $24$ even unimodular lattices in dimension $24$ was achieved by <a href="https://en.wikipedia.org/wiki/Hans-Volker_Niemeier">Hans Volker Niemeier</a> in his <a href="https://www.mathgenealogy.org/id.php?id=57076">1968 Ph.D. thesis</a> &#8220;Definite quadratische Formen der Dimension 24 und Diskriminante 1&#8221;, under the direction of Martin Kneser. Naturally, these lattices are now known as the <a href="https://en.wikipedia.org/wiki/Niemeier_lattice">Niemeier lattices</a>.</p>
+<p><strong>Which of the Niemeier lattices were known to Witt in 1940?</strong></p>
+<p>There are three obvious certainties: $E_8 \oplus E_8 \oplus E_8$, $E_8 \oplus D_{16}^+$ (both already unimodular, the second by Witt&#8217;s work) and $D_{24}^+$ with a construction analogous to the one of $D_{16}^+$.</p>
+<p>To make an educated guess about the remaining Witt-Niemeier lattices we can do two things:</p>
+<ol>
+<li>use our knowledge of Niemeier lattices to figure out which of these Witt was most likely to stumble upon, and</li>
+<li>imagine how he would adapt his modular form approach in dimension $16$ to dimension $24$.</li>
+</ol>
+<p>Here&#8217;s Kneser&#8217;s neighbourhood graph of the Niemeier lattices. Its vertices are the $24$ Niemeiers and there&#8217;s an edge between $L$ and $M$ whenever the intersection $L \cap M$ is of index $2$ in both $L$ and $M$. In this case, $L$ and $M$ are called neighbours.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Neighborhood_graph_of_Niemeier_lattices.svg/1080px-Neighborhood_graph_of_Niemeier_lattices.svg.png" width=60% ><br />
+</center></p>
+<p>Although the theory of neighbours was not known to Witt, the graph may give an indication of how likely it is to dig up a new Niemeier lattice by poking into an already discovered one.<br />
+The three certainties are the three lattices at the bottom of the neighborhood graph, making it more likely for the lattices in the lower region to be among Witt&#8217;s list.</p>
+<p>For the other approach, the space of modular forms of weight $12$ is two dimensional, with a basis formed by the series<br />
+\[<br />
+\begin{cases}<br />
+E_6(q) = 1 + \tfrac{65520}{691}(q+2049 q^2 + 177148 q^3+4196353q^4+\dots \\<br />
+\Delta(q) = q-24 q^2+252q^3-1472q^4+ \dots<br />
+\end{cases}<br />
+ \]</p>
+<p>If you are at all with me, Witt would start with a lattice $R$ which is a direct sum of root lattices, so he would know the number of its roots (the norm $2$ vectors in $R$), let&#8217;s call this number $r$. Now, he wants to construct an even unimodular lattice $L$ containing $R$, so the theta series of both $L$ and $R$ must start off with $1 + r q^2 + \dots$. But, then he knows<br />
+\[<br />
+\theta_L(q) = E_6(q) + (r-\frac{65520}{691})\Delta(q) \]<br />
+and comparing coefficients of $\theta_L(q)$ with those of $\theta_R(q)$ will give him an idea what extra vectors he has to throw in.</p>
+<p>If we&#8217;re generous to Witt (and frankly, why shouldn&#8217;t we), we may believe that he used his vast knowledge of Steiner systems (a few years earlier he wrote the definite paper on the Mathieu groups, and a paper on Steiner systems) to construct in this way the lattices $(A_1^{24})^+$ and $(A_2^{12})^+$.</p>
+<p>The &#8216;glue&#8217; for $(A_1^{24})^+$ is coming from the <a href="https://en.wikipedia.org/wiki/Binary_Golay_code#:~:text=The%20extended%20binary%20Golay%20code,bit%20errors%20can%20be%20detected.">extended binary Golay code</a>, which itself uses the Steiner system $S(5,8,24)$. $(A_2^{12})^+$ is constructed using the <a href="https://en.wikipedia.org/wiki/Ternary_Golay_code#:~:text=The%20extended%20ternary%20Golay%20code,as%20the%20ternary%20Golay%20code.">extended ternary Golay code</a>, based on the Steiner system $S(5,6,12)$.</p>
+<p>The one thing that would never have crossed his mind that sunday in 1940 was to explore the possibility of an even unimodular 24-dimensional lattice $\Lambda$ without any roots!</p>
+<p>One with $r=0$, and thus with a theta series starting off as<br />
+\[<br />
+\theta_{\Lambda}(q) = 1 + 196560 q^4 + 16773120 q^6 + \dots \]<br />
+No, he did <strong>not</strong> find the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> that day.</p>
+<p>If he would have stumbled upon it, it would have simply blown his mind.</p>
+<p>It would have been so much against all his experiences and intuitions that he would have dropped everything on the spot to write a paper about it, or at least, he would have mentioned in his &#8216;more than $10$ lattices&#8217;-claim that, surprisingly, one of them was an even unimodular lattice without any roots.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/witt-and-his-niemeier-lattices/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Richard Borcherds on Witt and the Leech lattice</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/richard-borcherds-on-witt-and-the-leech-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/richard-borcherds-on-witt-and-the-leech-lattice/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 10 Feb 2021 10:26:13 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Leech lattice]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8817</guid>
+
+					<description><![CDATA[A rare benefit of the Covid-situation is that Richard Borcherds decided to set up a YouTube channel with recordings of his online lectures. Plenty of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A rare benefit of the Covid-situation is that <a href="https://en.wikipedia.org/wiki/Richard_Borcherds">Richard Borcherds</a> decided to set up a <a href="https://www.youtube.com/channel/UCIyDqfi_cbkp-RU20aBF-MQ">YouTube channel</a> with recordings of his online lectures.</p>
+<p>Plenty of gems to be discovered there, including a talk on <a href="https://www.youtube.com/watch?v=5Mg25JK31wE&#038;t=1948s">Monstrous Moonshine</a>, and a talk he gave for the <a href="https://en.wikipedia.org/wiki/The_Archimedeans">Archimedeans</a> about the <a href="https://www.youtube.com/watch?v=D908X1JAowY">Sporadic Groups</a>.</p>
+<p>As part of his History of Science-course he addressed the question whether <a href="https://en.wikipedia.org/wiki/Ernst_Witt">Witt</a> discovered the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a>.</p>
+<p>A while ago I&#8217;ve blogged about that very same question here:</p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/who-discovered-the-leech-lattice">Who discovered the Leech lattice?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice">So, who discovered the Leech lattice?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/erna-bannow-octonions-and-the-leech">Erna Bannow, octonions and the Leech</a></li>
+</ul>
+<p>The summary of these posts being that I thought it was rather unlikely for Witt to have discovered the Leech lattice.</p>
+<p>However, using the same sources, Borcherds rates a more than 90% probability for Witt to have indeed discovered the Leech lattice in 1940.</p>
+<p>His evidence for this is:</p>
+<ul>
+<li>Witt said he discovered it.</li>
+<li>His construction (in his 1972 colloquium talk) is unlike any other construction of the Leech lattice.</li>
+<li>Witt was <strong>the</strong> expert on <a href="https://en.wikipedia.org/wiki/Steiner_system#:~:text=In%20combinatorial%20mathematics%2C%20a%20Steiner,1%20and%20t%20%E2%89%A5%202.">Steiner systems</a>, and the system S(5,8,24) is crucial in Leech&#8217;s construction of his lattice.</li>
+</ul>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/xI2miIBS5-s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/richard-borcherds-on-witt-and-the-leech-lattice/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>So, who did discover the Leech lattice?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 20 Dec 2010 10:58:03 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Artin]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[Golay code]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[history]]></category>
+		<category><![CDATA[lattices]]></category>
+		<category><![CDATA[Leech lattice]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Noether]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3717</guid>
+
+					<description><![CDATA[For the better part of the 30ties, Ernst Witt (1) did hang out with the rest of the &#8216;Noetherknaben&#8217;, the group of young mathematicians around&#8230;]]></description>
+										<content:encoded><![CDATA[<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/noetherWitt.png"></p>
+<p>
+For the better part of the 30ties, <a href="http://en.wikipedia.org/wiki/Ernst_Witt">Ernst Witt</a> (1) did hang out with the rest of the &#8216;Noetherknaben&#8217;, the group of young mathematicians around <a href="http://en.wikipedia.org/wiki/Emmy_Noether">Emmy Noether</a> (3) in Gottingen.</p>
+<p>
+In 1934 Witt became <a href="http://en.wikipedia.org/wiki/Helmut_Hasse">Helmut Hasse</a>&#8216;s assistent in Gottingen, where he qualified as a university lecturer in 1936. By 1938 he has made enough of a name for himself to be offered a lecturer position in Hamburg and soon became an associate professor, the down-graded position held by <a href="http://en.wikipedia.org/wiki/Emil_Artin">Emil Artin</a> (2) until he was forced to emigrate in 1937.</p>
+<p>
+A former fellow student of him in Gottingen, Erna Bannow (4), had gone earlier to Hamburg to work with Artin. She continued her studies with Witt and finished her Ph.D. in 1939. In 1940 Erna Bannow and Witt married.</p>
+<p>
+So, life was smiling on Ernst Witt that sunday january 28th 1940, both professionally and personally. There was just one cloud on the horizon, and a rather menacing one. He was called up by the Wehrmacht and knew he had to enter service in february. For all he knew, he was spending the last week-end with his future wife&#8230; (later in february 1940, Blaschke helped him to defer his military service by one year).</p>
+<p>
+Still, he desperately wanted to finish his paper before entering the army, so he spend most of that week-end going through the final version and submitted it on monday, as the published paper shows.</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wittpaperend.png"></p>
+<p>
+In the 70ties, Witt suddenly claimed he did discover the <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> $ {\Lambda} $ that sunday. <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/who-discovered-the-leech-lattice.html">Last time</a> we have seen that the only written evidence for Witt&#8217;s claim is one sentence in his 1941-paper Eine Identit&auml;t zwischen Modulformen zweiten Grades. &#8220;Bei dem Versuch, eine Form aus einer solchen Klassen wirklich anzugeben, fand ich mehr als 10 verschiedene Klassen in $ {\Gamma_{24}} $.&#8221;</p>
+<p>
+But then, why didn&#8217;t Witt include more details of this sensational lattice in his paper?</p>
+<p>
+Ina Kersten recalls on page 328 of Witt&#8217;s collected papers : &#8220;In his colloquium talk &#8220;Gitter und Mathieu-Gruppen&#8221; in Hamburg on January 27, 1970, Witt said that in 1938, he had found nine lattices in $ {\Gamma_{24}} $ and that later on January 28, 1940, while studying the Steiner system $ {S(5,8,24)} $, he had found two additional lattices $ {M} $ and $ {\Lambda} $ in $ {\Gamma_{24}} $. He continued saying that he had then given up the tedious investigation of $ {\Gamma_{24}} $ because of the surprisingly low contribution</p>
+<p><p align=center>$ \displaystyle | Aut(\Lambda) |^{-1} &lt; 10^{-18} $</p>
+<p>
+to the Minkowski density and that he had consented himself with a short note on page 324 in his 1941 paper.&#8221;</p>
+<p>
+In the last sentence he refers to the fact that the sum of the inverse orders of the automorphism groups of all even unimodular lattices of a given dimension is a fixed rational number, the Minkowski-Siegel mass constant. In dimension 24 this constant is</p>
+<p><p align=center>$ \displaystyle \sum_{L} \frac{1}{| Aut(L) |} = \frac {1027637932586061520960267}{129477933340026851560636148613120000000} \approx 7.937 \times 10^{-15} $</p>
+<p>
+That is, Witt was disappointed by the low contribution of the Leech lattice to the total constant and concluded that there might be thousands of new even 24-dimensional unimodular lattices out there, and dropped the problem.</p>
+<p>
+If true, the story gets even better : not only claims Witt to have found the lattices $ {A_1^{24}=M} $ and $ {\Lambda} $, but also enough information on the Leech lattice in order to compute the order of its automorphism group $ {Aut(\Lambda)} $, aka the <a href="http://en.wikipedia.org/wiki/Conway_group">Conway group</a> $ {Co_0 = .0} $ the dotto-group!</p>
+<p>
+Is this possible? Well fortunately, the difficulties one encounters when trying to compute the order of the automorphism group of the Leech lattice from scratch, is one of the better documented mathematical stories around.</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/weekendCambridge.png"></p>
+<p>
+The books <a href="http://www.amazon.co.uk/Error-Correcting-through-Packings-Mathematical-Monographs/dp/0883850370/">From Error-Correcting Codes through Sphere Packings to Simple Groups</a> by Thomas Thompson, <a href="http://www.amazon.co.uk/Symmetry-Monster-greatest-quests-mathematics/dp/0192807234/">Symmetry and the monster</a> by Mark Ronan, and <a href="http://www.amazon.co.uk/Finding-Moonshine-Mathematicians-Journey-Symmetry/dp/0007214626/">Finding moonshine</a> by Marcus du Sautoy tell the story in minute detail.</p>
+<p>
+It took <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> 12 hours on a 1968 saturday in Cambridge to compute the order of the dotto group, using the knowledge of Leech and McKay on the properties of the Leech lattice and with considerable help offered by <a href="http://en.wikipedia.org/wiki/John_G._Thompson">John Thompson</a> via telephone.</p>
+<p>
+But then, John Conway is one of the fastest mathematicians the world has known. The prologue of his book <a href="http://www.amazon.co.uk/Numbers-Games-John-H-Conway/dp/1568811276/">On numbers and games</a> begins with : &#8220;Just over a quarter of a century ago, for seven consecutive days I sat down and typed from 8:30 am until midnight, with just an hour for lunch, and ever since have described this book as &#8220;having been written in a week&#8221;.&#8221;</p>
+<p>
+Conway may have written a book in one week, Ernst Witt did complete his entire Ph.D. in just one week! In a letter of August 1933, his sister told her parents : &#8220;He did not have a thesis topic until July 1, and the thesis was to be submitted by July 7. He did not want to have a topic assigned to him, and when he finally had the idea, he started working day and night, and eventually managed to finish in time.&#8221;</p>
+<p>
+So, if someone might have beaten John Conway in fast-computing the dottos order, it may very well have been Witt. Sadly enough, there is a lot of circumstantial evidence to make Witt&#8217;s claim highly unlikely.</p>
+<p>
+For starters, psychology. Would you spend your last week-end together with your wife to be before going to war performing an horrendous calculation?</p>
+<p>
+Secondly, mathematical breakthroughs often arise from newly found insight. At that time, Witt was also working on his paper on root lattices &#8220;Spiegelungsgrupen and Aufz&auml;hling halbeinfacher Liescher Ringe&#8221; which he eventually submitted in january 1941. Contained in that paper is what we know as Witt&#8217;s lemma which tells us that for any integral lattice the sublattice generated by vectors of norms 1 and 2 is a direct sum of root lattices.</p>
+<p>
+This leads to the trick of trying to construct unimodular lattices by starting with a direct sum of root lattices and &#8216;adding glue&#8217;. Although this gluing-method was introduced by Kneser as late as 1967, Witt must have been aware of it as his 16-dimensional lattice $ {D_{16}^+} $ is constructed this way.</p>
+<p>
+If Witt wanted to construct new 24-dimensional even unimodular lattices in 1940, it would be natural for him to start off with direct sums of root lattices and trying to add vectors to them until he got what he was after. Now, all of the Niemeier-lattices are constructed this way, except for the Leech lattice!</p>
+<p><p align=center><img decoding="async"  width=300 src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GlueLattices.jpg"></p>
+<p>
+I&#8217;m far from an expert on the Niemeier lattices but I would say that Witt definitely knew of the existence of $ {D_{24}^+} $, $ {E_8^3} $ and $ {A_{24}^+} $ and that it is quite likely he also constructed $ {(D_{16}E_8)^+, (D_{12}^2)^+, (A_{12}^2)^+, (D_8^3)^+} $ and possibly $ {(A_{17}E_7)^+} $ and $ {(A_{15}D_9)^+} $. I&#8217;d rate it far more likely Witt constructed another two such lattices on sunday january 28th 1940, rather than discovering the Leech lattice.</p>
+<p>
+Finally, wouldn&#8217;t it be natural for him to include a remark, in his 1941 paper on root lattices, that not every even unimodular lattices can be obtained from sums of root lattices by adding glue, the Leech lattice being the minimal counter-example?</p>
+<p>
+If it is true he was playing around with the Steiner systems that sunday, it would still be a pretty good story he discovered the lattices $ {(A_2^{12})^+} $ and $ {(A_1^{24})^+} $, for this would mean he discovered the Golay codes in the process!</p>
+<p>
+Which brings us to our next question : who discovered the Golay code?</p>
+<p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Who discovered the Leech lattice?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/who-discovered-the-leech-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/who-discovered-the-leech-lattice/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 30 Nov 2010 12:50:10 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[Leech lattice]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[Niemeier]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3373</guid>
+
+					<description><![CDATA[The Leech lattice was, according to wikipedia, &#8216;originally discovered by Ernst Witt in 1940, but he did not publish his discovery&#8217; and it &#8216;was later&#8230;]]></description>
+										<content:encoded><![CDATA[<p>
+The Leech lattice was, according to <a href="http://en.wikipedia.org/wiki/Leech_lattice">wikipedia</a>, &#8216;originally discovered by Ernst Witt in 1940, but he did not publish his discovery&#8217; and it &#8216;was later re-discovered in 1965 by John Leech&#8217;. However, there is very little evidence to support this claim.</p>
+<p>
+<p><b> The facts </b></p>
+<p><p>
+What is certain is that <a href="http://en.wikipedia.org/wiki/John_Leech_(mathematician)">John Leech</a> discovered in 1965 an amazingly dense 24-dimensional lattice $ {\Lambda} $ having the property that unit balls around the lattice points touch, each one of them having exactly 196560 neighbors. The paper &#8216;Notes on sphere packings&#8217; appeared in 1967 in the Canad. J. Math. 19, 251-267.</p>
+<p>
+Compare this to the optimal method to place pennies on a table, leading to the <a href="http://en.wikipedia.org/wiki/Hexagonal_tiling">hexagonal tiling</a>, each penny touching exactly 6 others. Similarly, in dimension 8 the densest packing is the <a href="http://en.wikipedia.org/wiki/E8_lattice">E8 lattice</a> in which every unit ball has exactly 240 neighbors.</p>
+<p>
+The <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> $ {\Lambda} $ can be characterized as the unique unimodular positive definite even lattice such that the length of any non-zero vector is at least two.</p>
+<p>
+The list of all positive definite even unimodular lattices, $ {\Gamma_{24}} $, in dimension 24 was classified later by <a href="http://en.wikipedia.org/wiki/Hans-Volker_Niemeier">Hans-Volker Niemeier</a> and are now known as the 24 <a href="http://en.wikipedia.org/wiki/Niemeier_lattice">Niemeier lattices</a>.</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Niemeier.png"></p>
+<p>
+For the chronology below it is perhaps useful to note that, whereas Niemeier&#8217;s paper did appear in 1973, it was <a href="http://bit.ly/eDxv7p">submitted</a> april 5th 1971 and is just a minor rewrite of Niemeier&#8217;s <a href="http://genealogy.math.ndsu.nodak.edu/id.php?id=57076">Ph.D.</a> &#8220;Definite quadratische Formen der Dimension 24 und Diskriminante 1&#8221; obtained in 1968 from the University of G&ouml;ttingen with advisor <a href="http://genealogy.math.ndsu.nodak.edu/id.php?id=21259">Martin Kneser</a>.</p>
+<p>
+<p><b> The claim </b></p>
+<p><p>
+On page 328 of <a href="http://www.amazon.co.uk/Collected-Papers-Abhandlungen-Ernst-Witt/dp/3540570616/">Ernst Witt&#8217;s Collected Papers</a> Ina Kersten recalls that Witt gave a colloquium talk on January 27, 1970 in Hamburg entitled &#8220;Gitter und Mathieu-Gruppen&#8221; (Lattices and Mathieu-groups). In this talk Witt claimed to have found nine lattices in $ {\Gamma_{24}} $ as far back as 1938 and that on January 28, 1940 he found two additional lattices $ {M} $ and $ {\Lambda} $ while studying the <a href="http://en.wikipedia.org/wiki/Steiner_system">Steiner system</a> $ {S(5,8,24)} $.</p>
+<p>
+On page 329 of the collected papers is a scan of the abstract Witt wrote in the colloquium book in Bielefeld where he gave a talk &#8220;Uber einige unimodularen Gitter&#8221; (On certain unimodular lattices) on January 28, 1972</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wittclaim.jpg"></p>
+<p>
+Here, Witt claims that he found three new lattices in $ {\Gamma_{24}} $ on January 28, 1940 as the lattices $ {M} $, $ {M&#8217;} $ and $ {\Lambda} $ &#8216;feiern heute ihren 32sten Gebursttag!&#8217; (celebrate today their 32nd birthday).</p>
+<p>
+He goes on telling that the lattices $ {M} $ and $ {\Lambda} $ were number 10 and 11 in his list of lattices in $ {\Gamma_{24}} $ in his paper &#8220;Eine Identit&auml;t zwischen Modulformen zweiten Grades&#8221; in the Abh. Math. Sem. Univ. Hamburg 14 (1941) 323-337 and he refers in particular to page 324 of that paper.</p>
+<p>
+He further claims that he computed the orders of their automorphism groups and writes that $ {\Lambda} $ &#8216;wurde 1967 von Leech wieder-entdeckt&#8217; (was re-discovered by Leech in 1967) and that its automorphism group $ {G(\Lambda)} $ was studied by John Conway. Recall that Conway&#8217;s investigations of the automorphism group of the Leech lattice led to the discovery of three new sporadic groups, the <a href="http://en.wikipedia.org/wiki/Conway_group">Conway groups</a> $ {Co_1,Co_2} $ and $ {Co_3} $.</p>
+<p>
+However, Witt&#8217;s 1941-paper does not contain a numbered list of 24-dimensional lattices. In fact, apart from $ {E_8+E_8+E_8} $ is does not contain a single lattice in $ {\Gamma_{24}} $. The only relevant paragraph is indeed on page 324</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wittclaim2.png"></p>
+<p>
+He observes that Mordell already proved that there is just one lattice in $ {\Gamma_8} $ (the $ {E_8} $-lattice) and that the main result of his paper is to prove that there are precisely two even unimodular 16-dimensional lattices : $ {E_8+E_8} $ and another lattice, now usually called the 16-dimensional Witt-lattice.</p>
+<p>
+He then goes on to observe that Schoeneberg knew that $ {\# \Gamma_{24} &gt; 1} $ and so there must be more lattices than $ {E_8+E_8+E_8} $ in $ {\Gamma_{24}} $. Witt concludes with : &#8220;In my attempt to find such a lattice, I discovered more than 10 lattices in $ {\Gamma_{24}} $. The determination of $ {\# \Gamma_{24}} $ does not seem to be entirely trivial.&#8221;</p>
+<p>
+Hence, it is fair to assume that by 1940 Ernst Witt had discovered at least 11 of the 24 Niemeier lattices. Whether the Leech lattice was indeed lattice 11 on the list is anybody&#8217;s guess.</p>
+<p>
+Next time we will look more closely into the historical context of Witt&#8217;s 1941 paper.</p>
+<p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/who-discovered-the-leech-lattice/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>big Witt vectors for everyone (1/2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/big-witt-vectors-for-everyone-12/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/big-witt-vectors-for-everyone-12/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 02 Feb 2010 13:00:30 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[lambda rings]]></category>
+		<category><![CDATA[Lenstra]]></category>
+		<category><![CDATA[numbers]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2811</guid>
+
+					<description><![CDATA[Next time you visit your math-library, please have a look whether these books are still on the shelves : Michiel Hazewinkel&#8216;s Formal groups and applications,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Next time you visit your math-library, please have a look whether these books are still on the shelves : <a href="http://homepages.cwi.nl/~mich/">Michiel Hazewinkel</a>&#8216;s <a href="http://books.google.com/books?id=f_s0-lTw7EIC&amp;pg=PR8&amp;lpg=PR8&amp;dq=Formal+groups+and+applications&amp;source=bl&amp;ots=HO1WUf1C8T&amp;sig=6E2h4g8Nc8-WrpZIfgZVzj8ffac&amp;hl=en&amp;ei=5htkS_bqAsfc-QbtytCqBw&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=1&amp;ved=0CA4Q6AEwAA#v=onepage&amp;q=&amp;f=false">Formal groups and applications</a>, William Fulton&#8217;s and Serge Lange&#8217;s <a href="http://books.google.com/books?id=OD3q3C-Wi-oC&amp;printsec=frontcover&amp;dq=Riemann-Roch+algebra&amp;source=bl&amp;ots=XsbxX6BTOh&amp;sig=Z1-EDxUrxPNRV-2gtiF-An_X_bY&amp;hl=en&amp;ei=NhxkS_vkBYPI-QbOsNSjBw&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=1&amp;ved=0CAkQ6AEwAA#v=onepage&amp;q=&amp;f=false">Riemann-Roch algebra</a> and Donald Knutson&#8217;s <a href="http://www.flipkart.com/lambda-rings-representation-theory-symmetric/3540061843-abz3f99zlb">lambda-rings and the representation theory of the symmetric group</a>.</p>
+<p>I wouldn&#8217;t be surprised if one or more of these books are borrowed out, probably all of them to the same person. I&#8217;m afraid I&#8217;m that person in Antwerp&#8230;</p>
+<p>Lately, there&#8217;s been a renewed interest in $\lambda $-rings and the endo-functor W assigning to a commutative algebra its ring of big Witt vectors, following Borger&#8217;s new proposal for a geometry over the absolute point.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Lenstrapic.jpg" style='float:left; margin-right:10px;' >However, as <a href="http://www.math.leidenuniv.nl/~hwl/">Hendrik Lenstra</a> writes in his 2002 course-notes on the subject <a href="http://math.berkeley.edu/~hwl/papers/witt.pdf">Construction of the ring of Witt vectors</a> : &#8220;The literature on the functor W is in a somewhat unsatisfactory state: nobody seems to have any interest in Witt vectors beyond applying them for a purpose, and they are often treated in appendices to papers devoting to something else; also, the construction usually depends on a set of implicit or unintelligible formulae. Apparently, anybody who wishes to understand Witt vectors needs to construct them personally. That is what is now happening to myself.&#8221;</p>
+<p>Before doing a series on Borger&#8217;s paper, we&#8217;d better run through Lenstra&#8217;s elegant construction in a couple of posts. Let A be a commutative ring and consider the multiplicative group of all &#8216;one-power series&#8217; over it $\Lambda(A)=1+t A[[t]] $. Our aim is to define a commutative ring structure on $\Lambda(A) $ taking as its ADDITION the MULTIPLICATION of power series.</p>
+<p>That is, if $u(t),v(t) \in \Lambda(A) $, then we define our addition $u(t) \oplus v(t) = u(t) \times v(t) $. This may be slightly confusing  as the ZERO-element in $\Lambda(A),\oplus $ will then turn be the constant power series 1&#8230;</p>
+<p>We are now going to define a multiplication $\otimes $ on $\Lambda(A) $ which is distributively with respect to $\oplus $ and turns $\Lambda(A) $ into a commutative ring with ONE-element the series $~(1-t)^{-1}=1+t+t^2+t^3+\ldots $.</p>
+<p>We will do this inductively, so consider $\Lambda_n(A) $ the (classes of) one-power series truncated at term n, that is, the kernel of the natural augmentation map between the multiplicative group-units $~A[t]/(t^{n+1})^* \rightarrow A^* $.<br />
+Again, taking multiplication in $A[t]/(t^{n+1}) $ as a new addition rule $\oplus $, we see that $~(\Lambda_n(A),\oplus) $ is an Abelian group, whence a $\mathbb{Z} $-module.</p>
+<p>For all elements $a \in A $ we have a scaling operator $\phi_a $ (sending $t \rightarrow at $) which is an A-ring endomorphism of $A[t]/(t^{n+1}) $, in particular multiplicative wrt. $\times $. But then, $\phi_a $ is an additive endomorphism of $~(\Lambda_n(A),\oplus) $, so is an element of the endomorphism-RING $End_{\mathbb{Z}}(\Lambda_n(A)) $. Because composition (being the multiplication in this endomorphism ring) of scaling operators is clearly commutative ($\phi_a \circ \phi_b = \phi_{ab} $) we can define a commutative RING $E $ being the subring of $End_{\mathbb{Z}}(\Lambda_n(A)) $ generated by the operators $\phi_a $.</p>
+<p>The action turns $~(\Lambda_n(A),\oplus) $ into an E-module and we define an E-module morphism $E \rightarrow \Lambda_n(A) $ by $\phi_a \mapsto \phi_a((1-t)^{-1}) = (1-at)^{-a} $.</p>
+<p>All of this looks pretty harmless, but the upshot is that we have now equipped the image of this E-module morphism, say  $L_n(A) $ (which is the additive subgroup of $~(\Lambda_n(A),\oplus) $ generated by the elements $~(1-at)^{-1} $) with a commutative multiplication $\otimes $ induced by the rule $~(1-at)^{-1} \otimes (1-bt)^{-1} = (1-abt)^{-1} $.</p>
+<p>Explicitly, $L_n(A) $ is the set of one-truncated polynomials $u(t) $ with coefficients in $A $ such that one can find elements $a_1,\ldots,a_k \in A $ such that $u(t) \equiv (1-a_1t)^{-1} \times \ldots \times (1-a_k)^{-1}~mod~t^{n+1} $. We multiply $u(t) $ with another such truncated one-polynomial $v(t) $ (taking elements $b_1,b_2,\ldots,b_l \in A $) via</p>
+<p>$u(t) \otimes v(t) = ((1-a_1t)^{-1} \oplus \ldots \oplus (1-a_k)^{-1}) \otimes ((1-b_1t)^{-1} \oplus \ldots \oplus (1-b_l)^{-1}) $</p>
+<p>and using distributivity and the multiplication rule this gives the element $\prod_{i,j} (1-a_ib_jt)^{-1}~mod~t^{n+1} \in L_n(A) $.<br />
+Being a ring-qutient of $E $ we have that $~(L_n(A),\oplus,\otimes) $ is a commutative ring, and, from the construction it is clear that  $L_n $ behaves functorially.</p>
+<p>For rings $A $ such that $L_n(A)=\Lambda_n(A) $ we are done, but in general $L_n(A) $ may be strictly smaller. The idea is to use functoriality and do the relevant calculations in a larger ring $A \subset B $ where we can multiply the two truncated one-polynomials and observe that the resulting truncated polynomial still has all its coefficients in $A $.</p>
+<p>Here&#8217;s how we would do this over $\mathbb{Z} $ : take two irreducible one-polynomials u(t) and v(t) of degrees r resp. s smaller or equal to n. Then over the complex numbers we have<br />
+$u(t)=(1-\alpha_1t) \ldots (1-\alpha_rt) $ and $v(t)=(1-\beta_1) \ldots (1-\beta_st) $. Then, over the field $K=\mathbb{Q}(\alpha_1,\ldots,\alpha_r,\beta_1,\ldots,\beta_s) $ we have that $u(t),v(t) \in L_n(K) $ and hence we can compute their product $u(t) \otimes v(t) $ as before to be $\prod_{i,j}(1-\alpha_i\beta_jt)^{-1}~mod~t^{n+1} $. But then, all coefficients of this truncated K-polynomial are invariant under all permutations of the roots $\alpha_i $ and the roots $\beta_j $ and so is invariant under all elements of the Galois group. But then, these coefficients are algebraic numbers in $\mathbb{Q} $ whence integers. That is, $u(t) \otimes v(t) \in \Lambda_n(\mathbb{Z}) $. It should already be clear from this that the rings $\Lambda_n(\mathbb{Z}) $ contain a lot of arithmetic information!</p>
+<p>For a general commutative ring $A $ we will copy this argument by considering a free overring $A^{(\infty)} $ (with 1 as one of the base elements) by formally adjoining roots. At level 1, consider $M_0 $ to be the set of all non-constant one-polynomials over $A $ and consider the ring</p>
+<p>$A^{(1)} = \bigotimes_{f \in M_0} A[X]/(f) = A[X_f, f \in M_0]/(f(X_f) , f \in M_0) $</p>
+<p>The idea being that every one-polynomial $f \in M_0 $ now has one root, namely $\alpha_f = \overline{X_f} $ in $A^{(1)} $. Further, $A^{(1)} $ is a free A-module with basis elements all $\alpha_f^i $ with $0 \leq i &lt; deg(f) $.</p>
+<p>Good! We now have at least one root, but we can continue this process. At level 2, $M_1 $ will be the set of all non-constant one-polynomials over $A^{(1)} $ and we use them to construct the free overring $A^{(2)} $ (which now has the property that every $f \in M_0 $ has at least two roots in $A^{(2)} $). And, again, we repeat this process and obtain in succession the rings $A^{(3)},A^{(4)},\ldots $. Finally, we define $A^{(\infty)} = \underset{\rightarrow}{lim}~A^{(i)} $ having the property that every one-polynomial over A splits entirely in linear factors over $A^{(\infty)} $.</p>
+<p>But then, for all $u(t),v(t) \in \Lambda_n(A) $ we can compute $u(t) \otimes v(t) \in \Lambda_n(A^{(\infty)}) $. Remains to show that the resulting truncated one-polynomial has all its entries in A. The ring $A^{(\infty)} \otimes_A A^{(\infty)} $ contains two copies of $A^{(\infty)} $ namely $A^{(\infty)} \otimes 1 $ and $1 \otimes A^{(\infty)} $ and the intersection of these two rings in exactly $A $ (here we use the freeness property and the additional fact that 1 is one of the base elements). But then, by functoriality of $L_n $, the element<br />
+$u(t) \otimes v(t) \in L_n(A^{(\infty)} \otimes_A A^{(\infty)}) $ lies in the intersection $\Lambda_n(A^{(\infty)} \otimes 1) \cap \Lambda_n(1 \otimes A^{(\infty)})=\Lambda_n(A) $. Done!</p>
+<p>Hence, we have endo-functors $\Lambda_n $ in the category of all commutative rings, for every number n. Reviewing the construction of $L_n $ one observes that there are natural transformations $L_{n+1} \rightarrow L_n $ and therefore also natural transformations $\Lambda_{n+1} \rightarrow \Lambda_n $. Taking the inverse limits $\Lambda(A) = \underset{\leftarrow}{lim} \Lambda_n(A) $ we therefore have the &#8216;one-power series&#8217; endo-functor<br />
+$\Lambda~:~\mathbf{comm} \rightarrow \mathbf{comm} $<br />
+which is &#8216;almost&#8217; the functor W of big Witt vectors. Next time we&#8217;ll take you through the identification using &#8216;ghost variables&#8217; and how the functor $\Lambda $ can be used to define the category of $\lambda $-rings.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/big-witt-vectors-for-everyone-12/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

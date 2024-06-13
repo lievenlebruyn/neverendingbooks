@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Almkvist &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/almkvist/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 31 Dec 2021 10:50:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Do we need the sphere spectrum?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 31 Dec 2021 10:50:10 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Almkvist]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Consani]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9903</guid>
+
+					<description><![CDATA[Last time I mentioned the talk &#8220;From noncommutative geometry to the tropical geometry of the scaling site&#8221; by Alain Connes, culminating in the canonical isomorphism&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project">Last time</a> I mentioned the talk <a href="https://www.dropbox.com/s/vqksoc02ci4q7dz/ConnesSlides.pdf?dl=0">&#8220;From noncommutative geometry to the tropical geometry of the scaling site&#8221;</a> by Alain Connes, culminating in the canonical isomorphism (last slide of the talk)<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/Data3/wittsphere.png" width=75% \><br />
+</center></p>
+<p>Or rather, what is actually proved in his paper with Caterina Consani <a href="https://arxiv.org/abs/2112.08820">BC-system, absolute cyclotomy and the quantized calculus</a> (and which they conjectured previously to be the case in <a href="https://arxiv.org/abs/2004.08879">Segal&#8217;s Gamma rings and universal arithmetic</a>), is a canonical isomorphism between the $\lambda$-rings<br />
+\[<br />
+\mathbb{Z}[\mathbb{Q}/\mathbb{Z}] \simeq \mathbb{W}_0(\overline{\mathbb{S}}) \]<br />
+The left hand side is the integral groupring of the additive quotient-group $\mathbb{Q}/\mathbb{Z}$, or if you prefer, $\mathbb{Z}[\mathbf{\mu}_{\infty}]$ the integral groupring of the multiplicative group of all roots of unity $\mathbf{\mu}_{\infty}$.</p>
+<p>The power maps on $\mathbf{\mu}_{\infty}$ equip $\mathbb{Z}[\mathbf{\mu}_{\infty}]$ with a $\lambda$-ring structure, that is, a family of commuting endomorphisms $\sigma_n$ with $\sigma_n(\zeta) = \zeta^n$ for all $\zeta \in \mathbf{\mu}_{\infty}$, and a family of linear maps $\rho_n$ induced by requiring for all $\zeta \in \mathbf{\mu}_{\infty}$ that<br />
+\[<br />
+\rho_n(\zeta) = \sum_{\mu^n=\zeta} \mu \]<br />
+The maps $\sigma_n$ and $\rho_n$ are used to construct an integral version of the Bost-Connes algebra describing the <a href="https://en.wikipedia.org/wiki/Bost%E2%80%93Connes_system">Bost-Connes sytem</a>, a quantum statistical dynamical system.</p>
+<p>On the right hand side, $\mathbb{S}$ is the <a href="https://en.wikipedia.org/wiki/Sphere_spectrum">sphere spectrum</a> (an object from stable homotopy theory) and $\overline{\mathbb{S}}$ its &#8216;algebraic closure&#8217;, that is, adding all abstract roots of unity.</p>
+<p>The ring $\mathbb{W}_0(\overline{\mathbb{S}})$ is a generalisation to the world of spectra of the Almkvist-ring $\mathbb{W}_0(R)$ defined for any commutative ring $R$, constructed from pairs $(E,f)$ where $E$ is a projective $R$-module of finite rank and $f$ an $R$-endomorphism on it. Addition and multiplication are coming from direct sums and tensor products of such pairs, with zero element the pair $(0,0)$ and unit element the pair $(R,1_R)$. The ring $\mathbb{W}_0(R)$ is then the quotient-ring obtained by dividing out the ideal consisting of all zero-pairs $(E,0)$.</p>
+<p>The ring $\mathbb{W}_0(R)$ becomes a $\lambda$-ring via the Frobenius endomorphisms $F_n$ sending a pair $(E,f)$ to the pair $(E,f^n)$, and we also have a collection of linear maps on $\mathbb{W}_0(R)$, the &#8216;Verschiebung&#8217;-maps which send a pair $(E,f)$ to the pair $(E^{\oplus n},F)$ with<br />
+\[<br />
+F = \begin{bmatrix} 0 &#038; 0 &#038; 0 &#038; \cdots &#038; f \\<br />
+1 &#038; 0 &#038; 0 &#038; \cdots &#038; 0 \\<br />
+0 &#038; 1 &#038; 0 &#038; \cdots &#038; 0 \\<br />
+\vdots &#038; \vdots &#038; \vdots &#038; &#038; \vdots \\<br />
+0 &#038; 0 &#038; 0 &#038; \cdots &#038; 1 \end{bmatrix} \]<br />
+Connes and Consani define a notion of modules and their endomorphisms for $\mathbb{S}$ and $\overline{\mathbb{S}}$, allowing them to define in a similar way the rings $\mathbb{W}_0(\mathbb{S})$ and $\mathbb{W}_0(\overline{\mathbb{S}})$, with corresponding maps $F_n$ and $V_n$. They then establish an isomorphism with $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ such that the maps $(F_n,V_n)$ correspond to $(\sigma_n,\rho_n)$.</p>
+<p>But, do we really have the go to spectra to achieve this?</p>
+<p>All this reminds me of an old idea of <a href="https://en.wikipedia.org/wiki/Yuri_Manin">Yuri Manin</a> mentioned in the introduction of his paper <a href="https://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a>, and later elaborated in section two of his paper with Matilde Marcolli <a href="https://arxiv.org/abs/1806.10801">Homotopy types and geometries below $\mathbf{Spec}(\mathbb{Z})$</a>.</p>
+<p>Take a manifold $M$ with a diffeomorphism $f$ and consider the corresponding discrete dynamical system by iterating the diffeomorphism. In such situations it is important to investigate the periodic orbits, or the fix-points $Fix(M,f^n)$ for all $n$. If we are in a situation that the number of fixed points is finite we can package these numbers in the Artin-Mazur zeta function<br />
+\[<br />
+\zeta_{AM}(M,f) = exp(\sum_{n=1}^{\infty} \frac{\# Fix(M,f^n)}{n}t^n) \]<br />
+and investigate the properties of this function.</p>
+<p>To connect this type of problem to Almkvist-like rings, Manin considers the <a href="https://en.wikipedia.org/wiki/Morse%E2%80%93Smale_system">Morse-Smale dynamical systems</a>, a structural stable diffeomorphism $f$, having a finite number of non-wandering points on a compact manifold $M$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MorseSmale.png" width=75% /><br />
+From <a href="https://arxiv.org/abs/1710.08292">Topological classification of Morse-Smale diffeomorphisms on 3-manifolds</a><br />
+</center></p>
+<p>In such a situation $f_{\ast}$ acts on homology $H_k(M,\mathbb{Z})$, which are free $\mathbb{Z}$-modules of finite rank, as a matrix $M_f$ having only roots of unity as its eigenvalues.</p>
+<p>Manin argues that this action is similar to the action of the Frobenius on etale cohomology groups, in which case the eigenvalues are Weil numbers. That is, one might view roots of unity as Weil numbers in characteristic one.</p>
+<p>Clearly, all relevant data $(H_k(M,\mathbb{Z}),f_{\ast})$ belongs to the $\lambda$-subring of $\mathbb{W}_0(\mathbb{Z})$ generated by all pairs $(E,f)$ such that $M_f$ is diagonalisable and all its eigenvalues are either $0$ or roots of unity.</p>
+<p>If we denote for any ring $R$ by $\mathbb{W}_1(R)$ this $\lambda$-subring of $\mathbb{W}_0(R)$, probably one would obtain canonical isomorphisms</p>
+<p>&#8211; between $\mathbb{W}_1(\mathbb{Z})$ and the invariant part of the integral groupring $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ for the action of the group $Aut(\mathbb{Q}/\mathbb{Z}) = \widehat{\mathbb{Z}}^*$, and</p>
+<p>&#8211; between $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ and $\mathbb{W}_1(\mathbb{Z}(\mathbf{\mu}_{\infty}))$ where $\mathbb{Z}(\mathbf{\mu}_{\infty})$ is the ring obtained by adjoining to $\mathbb{Z}$ all roots of unity.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>geo &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/geo/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 08 Jul 2010 11:45:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Who was ‘le P. Adique’?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/who-was-le-p-adique/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/who-was-le-p-adique/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 08 Jul 2010 11:45:35 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Chevalley]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[geo]]></category>
+		<category><![CDATA[Hasse]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3108</guid>
+
+					<description><![CDATA[Last year we managed to solve the first few riddles of the Bourbaki code, but several mysteries still remain. For example, who was the priest&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Last year we managed to solve the first few riddles of the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-wedding-invitation-that-nearly-killed-andre-weil.html">Bourbaki code</a>, but several mysteries still remain. For example, who was the priest performing the Bourbaki-Petard wedding ceremony? The &#8216;faire part&#8217; identifies him as &#8216;le P. Adique, de l&#8217;Ordre des Diophantiens&#8217;.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PAdiqueFP.jpg"></p>
+<p>As with many of these Bourbaki-jokes, this riddle too has several layers. There is the first straightforward mathematical interpretation of the <a href="http://en.wikipedia.org/wiki/P-adic_number">p-adic numbers</a> $latex \hat{\mathbb{Z}}_p$ being used in the study of Diophantine problems.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Hasse.jpg" align=right style="margin-left: 10px;"> For example, the local-global, or <a href="http://en.wikipedia.org/wiki/Hasse_principle">Hasse principle</a>, asserting that an integral quadratic form has a solution if and only if there are solutions over all p-adic numbers. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Hasse.html">Helmut Hasse</a> was a German number theorist, held in high esteem by the Bourbaki group.</p>
+<p>After graduating from the ENS in 1929, <a href="http://en.wikipedia.org/wiki/Claude_Chevalley">Claude Chevalley</a> spent some time at the University of Marburg, studying under Helmut Hasse. Hasse had come to Marburg when <a href="http://en.wikipedia.org/wiki/Kurt_Hensel">Kurt Hensel</a> (who invented the p-adic numbers in 1902) retired in 1930.</p>
+<p>Hasse picked up a question from E. Artin&#8217;s dissertation about the zeta function of an algebraic curve over a finite field and achieved the first breakthrough establishing the conjectured property for zeta functions of elliptic curves (genus one).</p>
+<p>Extending this result to higher genus was the principal problem Andre Weil was working on at the time of the wedding-card-joke. In 1940 he would be able to settle the general case. What we now know as the Hasse-Weil theorem implies that the number N(p) of rational points of an elliptic curve over the finite field Z/pZ, where p is a prime, can differ from the mean value p+1 by at most twice the square root of p.</p>
+<p>So, Helmut Hasse is a passable candidate for the first-level, mathematical, decoding of &#8216;le P. adique&#8217;.</p>
+<p>However, there is often a deeper and more subtle reading of a Bourbaki-joke, intended to be understood only by the select inner circle of &#8216;normaliens&#8217; (graduates of the <a href="http://www.ens.fr/?lang=fr">Ecole Normale Superieure</a>). Usually, this second-level interpretation  requires knowledge of events or locations within the <a href="http://en.wikipedia.org/wiki/5th_arrondissement_of_Paris">5-th arrondissement of Paris</a>, the large neighborhood of the ENS.</p>
+<p>For an outsider (both non-Parisian and non-normalien) decoding this hidden message is substantially harder and requires a good deal of luck.</p>
+<p>As it happens, I&#8217;m going through a &#8216;Weil-phase&#8217; and just started reading the three main Weil-biographies : <a href="http://www.amazon.fr/Andre-Weil-Apprenticeship-Mathematician/dp/3764326506/">Andre Weil the Apprenticeship of a Mathematician</a>, <a href="http://www.amazon.fr/Chez-Weil-André-Simone-Sylvie/dp/2283023696/">Chez les Weil : André et Simone</a> by Sylvie Weil and <a href="http://www.amazon.fr/vie-Simone-Weil-Pétrement/dp/2213599920/">La vie de Simone Weil</a> by Simone Petrement.</p>
+<p><center><br />
+[abp:3764326506]  [abp:2283023696] [abp:2213599920]<br />
+</center></p>
+<p>From page 35 of &#8216;Chez les Weil&#8217; : &#8220;Après la guerre, pas tout de suite mais en 1948, toute la famille avait fini par revenir à Paris, rue Auguste-Comte, en face des jardins du Luxembourg.&#8221; Sylvie talks about the Parisian apartment of her grandparents (father and mother of Andre and Simone) and I wanted to know its exact location.</p>
+<p>More details are given on page 103 of &#8216;La vie de Simone Weil&#8217;. The apartment consists of the 6th and 7th floor of a building on the Montagne Sainte-Geneviève. The Weils bought it before it was even built and when they moved in, in may 1929, it was still unfinished. Compensating this, the apartment offered a splendid view of the Sacre-Coeur, the Eiffel-tower, la Sorbonne, Invalides, l&#8217;Arc de Triomphe, Pantheon, the roofs of the Louvre, le tout Paris quoi&#8230;</p>
+<p>As to its location : &#8220;Juste au-dessous de l&#8217;appartement se trouvent l&#8217;Ecole des mines et les serres du Luxembourg, avec la belle maison ancienne où mourut Leconte de Lisle.&#8221; This and a bit of <a href="http://www.a-paris.net/A-paris-balade-jardin-du-luxembourg.htm">googling</a> allows one to deduce that the Weils lived at 3, rue Auguste-Comte (the W on the map below).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/lEpee.jpg" align=left style="margin-right:10px;">  Crossing the boulevard Saint-Michel, one enters the 5-th arrondissement via the &#8230; rue de l&#8217;Abbe de l&#8217;Epee&#8230;<br />
+We did deduce <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/where-was-the-bourbaki-wedding.html">before</a> that the priest might be an abbot (&#8216;from the order of the Diophantines&#8217;) and l&#8217;Epee is just &#8216;le P.&#8217; pronounced in French (cheating one egue).</p>
+<p><a href="http://en.wikipedia.org/wiki/Charles-Michel_de_l'Épée">Abbé Charles-Michel de l&#8217;Épée</a> lived in the 18th century and has become known as the &#8220;Father of the Deaf&#8221; (compare this to Diophantus who is called &#8220;Father of Algebra&#8221;). Épée turned his attention toward charitable services for the poor, and he had a chance encounter with two young deaf sisters who communicated using a sign language. Épée decided to dedicate himself to the education and salvation of the deaf, and, in 1760, he founded a school which became in 1791 l&#8217;Institution Nationale des Sourds-Muets à Paris.  It was later renamed the Institut St. Jacques (compare Rue St. Jacques) and then renamed again to its present name: <a href="http://www.injs-paris.fr/">Institut National de Jeunes Sourds de Paris</a> located at 254, rue Saint-Jacques (the A in the map below) just one block away from the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/seriously-now-where-was-the-bourbaki-wedding.html">Schola Cantorum</a> at 269, rue St. Jacques, where the Bourbaki-Petard wedding took place (the S in the map).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PAdique.jpg"></p>
+<p>Completing the map with the location of the Ecole Normale (the E) I was baffled by the result. If the Weil apartment stands for West, the Ecole for East and the Schola for South, surely there must be an N (for N.Bourbaki?) representing North. Suggestions anyone?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/who-was-le-p-adique/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Where’s Bourbaki’s Escorial?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-escorial/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-escorial/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 08 Feb 2010 14:30:59 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[geo]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google earth]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2565</guid>
+
+					<description><![CDATA[Early 1936, Andre Weil and Evelyne Gillet made a pre-honeymooning trip to Spain and visited El Escorial. Weil was so taken by the place that&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Early 1936, Andre Weil and Evelyne Gillet made a pre-honeymooning trip to Spain and visited <a href="http://en.wikipedia.org/wiki/El_Escorial">El Escorial</a>. Weil was so taken by the place that he planned the next Bourbaki-conference to be held in a nearby college. However, the Bourbakis never made it to to Spain that summer as the <a href="http://en.wikipedia.org/wiki/Spanish_Civil_War">Spanish Civil War</a> broke out July 17th, a few weeks before the intended conference. Can we GEO-tag the exact location of Bourbaki&#8217;s &#8220;Escorial&#8221;?</p>
+<p>As explained in the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bumpy-road-to-the-first-bourbaki-congress.html">bumpy-road-post</a>, <a href="http://en.wikipedia.org/wiki/André_Weil">Andre Weil</a> and Evelyne Gillet became involved sometime in 1935.<br />
+Early 1936, they made a pre-honeymooning trip to Spain and visited <a href="http://en.wikipedia.org/wiki/El_Escorial">El Escorial</a>. Weil was so taken by the place that he planned the next Bourbaki-conference to be held in a nearby college.</p>
+<p>However, the Bourbakis never made it to to Spain that summer as the <a href="http://en.wikipedia.org/wiki/Spanish_Civil_War">Spanish Civil War</a> broke out July 17th, a few weeks before the intended conference. Still, the second Bourbaki-meeting remains often referred to as the &#8216;Escorial conference&#8217;. Can we GEO-tag the exact location of Bourbaki&#8217;s &#8220;Escorial&#8221;?</p>
+<p><a href="http://en.wikipedia.org/wiki/Claude_Chevalley">Claude Chevalley</a> came up with a Plan-B and suggested they would use his parents&#8217; place in <a href="http://www.chancay.org/">Chançay</a> as their venue. Chevalley&#8217;s father was a French diplomat and his house sure did possess a matching &#8216;grandeur&#8217; as can be seen from the famous picture below, taken at the (second) Chançay meeting in 1937 (Weil to the left, Chevalley to the right and Weil&#8217;s sister Simonne standing).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/chancay2.jpg"><br />
+</center></p>
+<p>Thanks to the <a href="http://portail.mathdoc.fr/archives-bourbaki/">Bourbaki archives</a> we know that the meeting took place from september 16th to 28th, that each of them had to pay 16 francs for full pension and had to bring along their own sheets and towels.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/ChancayPrix.jpg" ><br />
+</center></p>
+<p>But where exactly is this beautiful house? Jacques Borowczyk has written a nice paper <a href="http://academie-de-touraine.ifrance.com/pages/T2007/bourbaki.pdf">Bourbaki et la touraine</a> in which he describes the Bourbaki congresses of 1936 and 1937 at the Chevalley-house in Chançay and further those held in 1956, 1957 and 1959 in &#8216;hôtel de la Brèche&#8217; in Amboise.</p>
+<p>Borowczyk places the Chevalley house in the little hamlet of Chançay, called &#8220;La Massoterie&#8221;. The village files assert that in 1931 three people were living at La Massoterie : father Abel Chevalley, who took residence there after his retirement in 1931, his wife Marguerite and their son Claude. But, at the time of the Bourbaki congres in 1936, Marguerite remained the only permanent inhabitant. Sadly,<br />
+Abel Chevalley, who together with Marguerite compiled the <a href="http://catalogue.nla.gov.au/Record/3645807?lookfor=subject:%22French%20language%20-%20Dictionaries%20-%20English.%22&amp;offset=6&amp;max=252">The concise Oxford French dictionary</a>, died in 1934.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/44-322829n-4-050861e.html">Usually</a> when you know the name of the hamlet, of the village and add just to be certain  &#8216;France&#8217;, <a href="http://maps.google.com/">Google Maps</a> takes you there within metres. So, this was going to be a quick post, for a change&#8230; Well, much to my surprise, typing &#8216;La Massoterie, Chançay, France&#8217; only produced the answer &#8220;We could not understand the location La Massoterie, Chançay, France&#8221;.</p>
+<p>Did I spell it wrong? Or, did the name change over times? No, Googling for it <a href="http://www.chancay.org/plan2.htm">the first hit</a> gives you the map of a 10km walk around Chançay passing through la Massoterie!</p>
+<p>Now what? Fortunately Borowczyk included in his paper an old map, from Napoleonic times, showing the exact location of La Massoterie (just above the flash-sign), facing the castle of Volmer. If you compare it with the picture below from present day Chançay (via Google earth) it is surprising how many of the landmarks have survived the changes over two centuries.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/chancaiNapoleon.jpg"><br />
+</center></p>
+<p />
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/chancaiGoogle.jpg"><br />
+</center></p>
+<p>It is now easy to pinpoint the exact location and zoom into the Chavalley-house, and, you&#8217;re in for a small surprise : the place is called <a href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=La+Massotterie,+37210+Chan%C3%A7ay,+France&amp;sll=37.0625,-95.677068&amp;sspn=32.38984,63.896484&amp;ie=UTF8&amp;hq=&amp;hnear=La+Massotterie,+37210+Chan%C3%A7ay,+Indre-et-Loire,+Centre,+France&amp;ll=47.459952,0.876809&amp;spn=0.001687,0.0039&amp;t=h&amp;z=18">La Massotterie</a> with 2 t&#8217;s&#8230;</p>
+<p>Probably, Googles database is more reliable than the information provided by the village of Chançay, or the paper by Borowczyk as it is the same spelling as on the old Napoleonic map. Anyway, feel free to have a peek at Bourbaki&#8217;s Escorial yourself!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-escorial/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Seriously now, where was the Bourbaki wedding?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 25 Nov 2009 11:15:59 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Cartan]]></category>
+		<category><![CDATA[geo]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[nonsense]]></category>
+		<category><![CDATA[teaching]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2569</guid>
+
+					<description><![CDATA[A few days before Halloween, Norbert Dufourcq (who died december 17th 1990&#8230;), sent me a comment, containing lots of useful information, hinting I did get&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A few days before Halloween, <a href="http://fr.wikipedia.org/wiki/Norbert_Dufourcq">Norbert Dufourcq</a> (who died december 17th 1990&#8230;), sent me a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/where-was-the-bourbaki-wedding.html/comment-page-1#comment-8463">comment</a>, containing lots of useful information, hinting I did get it wrong about the church of the Bourbali wedding in the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/where-was-the-bourbaki-wedding.html/">previous post</a>.</p>
+<p>Norbert Dufourcq, an organist and student of <a href="http://fr.wikipedia.org/wiki/André_Marchal">Andre Machall</a>, the organist-in-charge at the Saint-Germain-des-Prés church in 1939, the place where <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/where-was-the-bourbaki-wedding.html/">I speculated</a> the Bourbaki wedding took place, concluded his comment with :</p>
+<p><strong>&#8220;P.S. Lieven, you _do_ know about the Schola Cantorum, now, don&#8217;t you?!?&#8221;</strong>.</p>
+<p> Euh&#8230; actually &#8230; no, I did not &#8230;</p>
+<p><img decoding="async" style="float:right; margin-left:10px;" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/ScholaCantorum.jpg"><a href="http://en.wikipedia.org/wiki/Schola_Cantorum">La Schola Cantorum</a> is a private music school in Paris. It was founded in 1894 by Charles Bordes, Alexandre Guilmant and Vincent d&#8217;Indy as a counterbalance to the Paris Conservatoire&#8217;s emphasis on opera. Its alumni include many significant figures in 20th century music, such as <a href="http://en.wikipedia.org/wiki/Erik_Satie">Erik Satie</a> and <a href="http://en.wikipedia.org/wiki/Cole_Porter">Cole Porter</a>.</p>
+<p><a href="http://www.schola-cantorum.com/">Schola Cantorum</a> is situated 69, rue Saint Jacques, Paris, just around the corner of the <a href="http://www.ens.fr/?lang=fr">Ecole Normal Superieure</a>, home base to the Bourbakis. In fact, closer investigation reveals striking similarities and very close connections between the circle of artists at la Schola and the Bourbaki group.</p>
+<p>In december 1934, the exact month the Bourbaki group was formed, a radical reorganisation took place at the Schola, when Nestor Lejeune became the new director. He invited several young musicians, many from the famous Dukas-class, to take up teaching positions at the Schola.</p>
+<p>Here&#8217;s a picture of part of the <a href="http://en.wikipedia.org/wiki/File:Classe-dukas.jpg">Dukas class of 1929</a>, several of its members will play a role in the upcoming events :<br />
+from left to right next to the piano : Pierre Maillard-Verger, Elsa Barraine, Yvonne Desportes, Tony Aubin, Pierre Revel, Georges Favre, Paul Dukas, René Duclos, Georges Hugon, Maurice Duruflé. Seated on the right : Claude Arrieu, Olivier Messiaen.</p>
+<p />
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/ClasseDukas.jpg"><br />
+</center></p>
+<p>The mid-1930s in Paris saw the emergence of two closely-related groups with a membership which overlapped : <a href="http://books.google.com/books?id=UgGBXwpHTe8C&amp;pg=PA142&amp;lpg=PA142&amp;dq=la+spirale+Georges+Migot&amp;source=bl&amp;ots=UgEENf63Am&amp;sig=vU2ac8Lu3Rbtb5zWEDSa7dA9yNY&amp;hl=en&amp;ei=R04ES5qEFs_B-QaLiKXKCg&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=3&amp;ved=0CBIQ6AEwAg#v=onepage&amp;q=la%20spirale%20Georges%20Migot&amp;f=false">La Spirale</a> and <a href="http://www.britannica.com/EBchecked/topic/303331/La-Jeune-France">La Jeune France</a>. La Spirale was founded in 1935 under the leadership of Georges Migot; its other committee members were Paul Le Flem, his pupil André Jolivet, Edouard Sciortino, Claire Delbos, her husband <a href="http://en.wikipedia.org/wiki/Olivier_Messiaen">Olivier Messiaen</a>, Daniel-Lesur and Jules Le Febvre. The common link between almost all of these musicians was their connection with the Schola Cantorum.</p>
+<p><img decoding="async" style="float:left;margin-right:10px;" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/JeuneFrance.jpg">On the left : Les Jeunes Musiciens Français : André Jolivet on the Piano. Standing from left to right :<br />
+Olivier Messiaen, Yves Baudrier, Daniel-Lesur.</p>
+<p>Nigel Simeone wrote <a href="http://www.musicaltimes.co.uk/archive/0203/simeone.html">this</a> about Messiaen and La Jeune France :<br />
+&#8220;The extremely original and independent-minded Messiaen had already shown himself to be a rather unexpected enthusiast for joining groups: in December 1932 he wrote to his friend Claude Arrieu about a letter from another musician, Jacques Porte, outlining plans for a new society to be called Les Jeunes Musiciens Français.<br />
+Messiaen agreed to become its vice-president, but nothing seems to have come of the project. Six months later, in June 1933, he had a frustrating meeting with Roger Désormière on behalf of the composers he described to Arrieu as ‘les quatre’, all of them Dukas pupils: Elsa Barraine, <strong>the recently-deceased Jean Cartan</strong>, Arrieu and Messiaen himself; during the early 1930s Messiaen and Arrieu organised concerts featuring all four composers.&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Cartanfamily.jpg" style="float:right;margin-left:10px;" hspace=10>Finally, we&#8217;re getting a connection with the Bourbaki group! Norbert Dufourcq mentioned it already in his comment &#8220;Messiaen was also a good friend of Jean Cartan (himself a composer, and Henri’s brother)&#8221;. <a href="http://en.wikipedia.org/wiki/Henri_Cartan">Henri Cartan</a> was one of the first Bourbakis and an excellent piano player himself.</p>
+<p>The Cartan family picture on the right : standing from left to right, father <a href="http://en.wikipedia.org/wiki/Élie_Cartan">Elie Cartan</a> (one of the few older French mathematicians respected by the Bourbakis), Henri and his mother Marie-Louise. Seated, the younger children, from left to right : Louis, Helene (who later became a mathematician, herself) and the composer Jean Cartan, who sadly died very young from tuberculoses in 1932&#8230;</p>
+<p>The december 1934 revolution in French music at the Schola Cantorum, instigated by Messiaen and followers, was the culmination of a process that started a few years before when Jean Cartan was among the circle of revolutionados. Because Messiaen was a fiend of the Cartan family, they surely must have been aware of the events at the Schola (or because it was merely a block away from the ENS), and, the musicians&#8217; revolt may very well have been an example to follow for the first Bourbakis&#8230;(?!)</p>
+<p>Anyway, we now know the intended meaning of the line &#8220;with lemmas sung by the Scholia Cartanorum&#8221; on the wedding-invitation. Cartanorum is NOT (as I <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/where-was-the-bourbaki-wedding.html">claimed last time</a>) bad Latin for &#8216;Cartesiorum&#8217;, leading to Descartes and the Saint-Germain-des-Pres church, but is in fact passable Latin (plur. gen.) of CARTAN(us), whence the translation &#8220;with lemmas sung by the school of the Cartans&#8221;. There&#8217;s possibly a double pun intended here : first, a reference to (father) <a href="http://www.joensuu.fi/matematiikka/kurssit/complex/luku10.pdf">Cartan&#8217;s lemma</a> and, of course, to La Schola where the musical Cartan-family felt at home.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/valdeGrace1.jpg" style="float:left;margin-right:10px;" hspace=10> Fine, but does this brings us any closer to the intended place of the Bourbaki-Petard wedding? Well, let&#8217;s reconsider the hidden &#8216;clues&#8217; we discovered last time : the phrase &#8220;They will receive the trivial isomorphism from P. Adic, of the Order of the Diophantines&#8221; might suggest that the church belongs to a a religious order and is perhaps an abbey- or convent-church and the phrase &#8220;the organ will be played by Monsieur Modulo&#8221; requires us to identify this mysterious Mister Modulo, because Norbert Dufourcq rightfully observed :</p>
+<p>&#8220;note however that in 1939, it wasn’t as common to have a friend-organist perform at a wedding as it is today: the appointed organists, especially at prestigious Paris positions, were much less likely to accept someone play in their stead.&#8221;</p>
+<p>The <a href="http://www.schola-cantorum.com/histoire.php">history</a> of La Schola Cantorum reveals something that might have amused Frank Smithies (<a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/when-was-the-bourbaki-wedding.html">remember</a> he was one of the wedding-invitation-composers) : the Schola is located in the Convent(!) of the Brittish  Benedictines&#8230;</p>
+<p>In 1640 some Benedictine monks, on the run after the religious schism in Britain, found safety in Paris under the protection of <a href="http://en.wikipedia.org/wiki/Cardinal_Richelieu">Cardinal Richelieu</a> and <a href="http://en.wikipedia.org/wiki/Anne_of_Austria">Anne of Austria</a> at <a href="http://en.wikipedia.org/wiki/Val-de-Grâce">Val-de-Grace</a>, where the Schola is now housed.</p>
+<p>As is the case with most convents, the convent of the Brittish Benedictines did have its own convent church, now called <a href="http://perso.magic.fr/desarbre/pages/page3.html">l&#8217;église royale Notre-Dame du Val-de-Grâce</a> (remember that one of the possible interpretations for &#8220;of the universal variety&#8221; was that the name of the church would be &#8220;Notre-Dame&#8221;&#8230;).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/valdeGrace2.jpg" style="float:right;margin-left:10px;" hspace=10> This church is presently used as the concert hall of La Schola and is famous for its &#8230; <a href="http://www.valdegrace.org/pages/page4.html">musical organ</a> : &#8220;In 1853, <a href="http://en.wikipedia.org/wiki/Aristide_Cavaillé-Coll">Aristide Cavaillé-Coll</a> installed a new organ in the Church of Sainte-geneviève which had been restored in its rôle as a place of worship by Prince President Louis-Napoléon. In 1885, upon the decision of President Jules Grévy, this church once again became the Pantheon and, six years later, according to an understanding between the War and Public Works Departments, the organ was transferred to the Val-de-Grâce, under the supervision of the organ builder Merklin. Beforehand, the last time it was heard in the Pantheon must have been for the funeral service of Victor Hugo.<br />
+In 1927, a raising was carried out by the builder Paul-Marie Koenig, and the inaugural concert was given by André Marchal and Achille Philippe, the church’s organist. Added to the register of historic monument in 1979, Val-de-Grâce’s “ little great organ ”, as Cavaillé-Coll called it, was restored in 1993 by the organ builders François Delangue and Bernard Hurvy.<br />
+The organ of Val-de-Grâce is one the rare parisian surviving witnesses of the art of Aristide Cavaillé-Coll, an instrument that escaped abusive and definitive transformations or modernizations. This explain why, in spite of its relatively modest scale, this organ enjoys quite a reputation, and this, as far as the United States.&#8221;</p>
+<p>By why would the Val-de-Grace organiste at the time <a href="http://fr.wikipedia.org/wiki/Achille_Philip">Achille Philip</a>, &#8220;organiste titulaire du Val-de-Grâce de 1903 à 1950 et professeur d&#8217;orgue et d&#8217;harmonie à la Schola Cantorum de 1904 à 1950&#8221;, be called &#8216;Mister Modulo&#8217; in the wedding-invitations line &#8220;L&#8217;orgue sera tenu par Monsieur Modulo&#8221;???</p>
+<p>Again, the late Norbert Dufourcq comes to our rescue, proposing a good candidate for &#8216;Monsieur Modulo&#8217; : &#8220;As for “modulo”, note that the organist at Notre-Dame at that time, Léonce de Saint-Martin, was also the composer of a “Suite Cyclique”, though I admit that this is just wordplay: there is nothing “modular” about this work. Maybe a more serious candidate would be <a href="http://en.wikipedia.org/wiki/Olivier_Messiaen">Olivier Messiaen</a> (who was organist at the Église de la Trinité): his “modes à transposition limitée” are really about Z/12Z→Z/3Z and Z/12Z→Z/4Z. &#8220;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messi.jpg" style="float:left;margin-right:10px;" hspace=10> Messiaen&#8217;s <a href="http://en.wikipedia.org/wiki/Modes_of_limited_transposition">&#8216;Modes of limited transposition&#8217;</a> were compiled in his book &#8216;Technique de mon langage musical&#8217;. This book was published in Paris by  Leduc, as late as 1944, 5 years after the wedding-invitation.</p>
+<p>Still, several earlier works of Messiaen used these schemes, most notably <a href="http://en.wikipedia.org/wiki/La_Nativité_du_Seigneur">La Nativité du Seigneur</a>, composed in 1935 : &#8220;The work is one of the earliest to feature elements that were to become key to Messiaen&#8217;s later compositions, such as the extensive use of the composer&#8217;s own modes of limited transposition, as well as influence from birdsong, and the meters and rhythms of Ancient Greek and traditional Indian music.&#8221;</p>
+<p>More details on Messiaen&#8217;s modes and their connection to modular arithmetic can be found in the study <a href="http://www.vjmanzo.com/clients/vincemanzo/scores/Implementing%20Modality%20in%20Algorithmic%20Composition.pdf">Implementing Modality in Algorithmic Composition</a> by Vincent Joseph Manzo.</p>
+<p>Hence, Messiaen is a suitable candidate for the title &#8216;Monsieur Modulo&#8217;, but would he be able to play the Val-de-Grace organ while not being the resident organist?</p>
+<p>Remember, the Val-de-Grace church was the concert hall of La Schola, and its musical organ the instrument of choice for the relevant courses. Now &#8230; Olivier Messiaen <a href="http://www.encyclopedia.com/topic/Olivier_Messiaen.aspx">taught</a> at the Schola Cantorum and the École Normale de Musique  from 1936 till 1939. So, at the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/when-was-the-bourbaki-wedding.html">time of the Bourbaki-Petard wedding</a> he would certainly be allowed to play the  Cavaillé-Coll organ.</p>
+<p>Perhaps we got it right, the second time around : <strong>the Bourbaki-Pétard wedding was held on June 3rd 1939 in the church &#8216;l&#8217;église royale Notre-Dame du Val-de-Grâce&#8217; at 12h</strong>?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Where was the Bourbaki wedding?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/where-was-the-bourbaki-wedding/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/where-was-the-bourbaki-wedding/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 26 Oct 2009 19:36:20 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[geo]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2359</guid>
+
+					<description><![CDATA[I&#8217;m pretty certain I got the intended date &#38; time of the Bourbaki-Pétard wedding right : June 3rd 1939 at 12h. Finding the exact location&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m pretty certain I got the intended <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/when-was-the-bourbaki-wedding.html">date &amp; time</a> of the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-wedding-invitation-that-nearly-killed-andre-weil.html">Bourbaki-Pétard wedding</a> right : June 3rd 1939 at 12h.<br />
+Finding the exact location of the wedding-ceremony is an entirely different matter. And, quite probably, we are reading way too much in these pranks of the Weil-clan.</p>
+<p>Still, it&#8217;s fun trying to find an elegant answer, based on the (intended or imagined) clues in the text and the little we know about the early Bourbaki-days. Here, the translation of the relevant part of the wedding announcement :</p>
+<p><strong><br />
+&#8220;They will receive the trivial isomorphism from P. Adic, of the Order of the Diophantines, in the Principal Cohomology of the Universal Variety, on the third of Cartember, year VI, at the usual hour. <br />
+The organ will be played by Monsieur Modulo, Assintant Simplex of the Grassmannian (with lemmas sung by the Scholia Cartanorum). The collection will be donated in full to the retirement home for Poor Abstracts. Convergence will be guaranteed.&#8221;</strong></p>
+<p><strong>First solution :</strong> Perhaps one might read &#8220;in the Principal Cohomology of the Universal Variety&#8221; as : &#8220;in the Principal Church of the generic type/name&#8221;. In many French cities the main church is the Cathedral and an awful lot of them are called Notre Dame, so it might mean : in the Notre Dame Cathedral. But even then, we have to choose between these two</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/NDParis.jpg"><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/NDNanc.jpg"><br />
+</center></p>
+<p />
+<p>On the left, the <a href="http://en.wikipedia.org/wiki/Notre_Dame_de_Paris">Notre Dame Cathedral in Paris</a>. On the right the <a href="http://en.wikipedia.org/wiki/Nancy_Cathedral">Cathédrale Notre-Dame-de-l&#8217;Annonciation in Nancy</a>. As the invitation promises guests to be entertained after the ceremony by Monsieur et Madame Bourbaki at their &#8216;Fundamental Domains&#8217;, the choice depends on the location of the Bourbaki-household in June 1939.</p>
+<p>&#8216;Bourbaki&#8217; made two applications to become an AMS-member. The first, in 1948, tells us that Bourbaki is a scientific advisor to the Hermann Publishing Co. in Paris since 1934, and, the second in 1950, that he is &#8216;Directeur Libre de Recherches a l&#8217;Université de Nancy&#8217;.<br />
+I couldn&#8217;t find out when exactly Nicolas did change cities, and even Liliane Beaulieu&#8217;s talk <a href="http://www.iecn.u-nancy.fr/Le-Laboratoire-Et-La-Recherche/100ansdemath/IECN2003-031-042.pdf">Bourbaki a Nancy</a> does not provide an answer.</p>
+<p><strong>Second solution :</strong> Or, one can read that sentence as a mathematical, perhaps proto-motivic, statement, and, hunt for clues elsewhere in the text. But then, what are these clues?</p>
+<ul>
+<li>Mass is celebrated by &#8220;P. Adic, of the Order of the Diophantines&#8221;. This suggests that the church itself belongs to a monastic order, and is perhaps a convent-church.  </li>
+<li>Hymns are &#8220;sung by the Scholia Cartanorum&#8221;. Scholia Cartanorum is Latin of sorts and refers perhaps to the Paris&#8217; Latin Quarter, <a href="http://en.wikipedia.org/wiki/Latin_Quarter,_Paris">le Quartier Latin</a>.  </li>
+<li>The collection is donated to the &#8220;retirement home for Poor Abstracts&#8221;.   Perhaps the church is connected to a saint for the poor. </li>
+</ul>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/DescartesTomb.jpg" style="float:right;margin-left:10px;" hspace=10>Let&#8217;s consider &#8220;Scholia Cartanorum&#8221; more closely. It may be Latin, admittedly very bad Latin, for &#8216;the Scholiums of Cartesius&#8217;, that is, &#8216;of <a href="http://en.wikipedia.org/wiki/René_Descartes">Descartes</a>&#8216;.</p>
+<p>One of the more famous &#8216;Scholia&#8217; in scientific history is <a href="http://www.isaacnewton.ca/gen_scholium/General_Scholium-Commentary.pdf">Newton&#8217;s general scholium to the Principia</a>, which is a prime example of Descartes-bashing. Newton attacks Descartes on his vortical theory of planetary motion, his aeter to explain gravity, his God-axiom (unlike Descartes, Newton induced God from nature, rather than starting with God as an axiom) and his hypothetico-deductive method. So, there is a link between Descartes and &#8216;Scholium&#8217;, although the genitive form &#8216;Cartesiorum&#8217; might be fairly inappropriate&#8230;</p>
+<p>But then, Descartes died on 11 February 1650 in Stockholm (Sweden) where he was buried, so there won&#8217;t be a connection to a French or Parisian church, right? Well, not quite. The fate of Descartes&#8217; remains is a rather <a href="http://groups.google.com/group/humanities.classics/browse_thread/thread/069af5e98f10242d">strange story</a> : &#8220;In 1666, sixteen years after his death, the bones of René Descartes<br />
+were dug up in the middle of the night and transported from Sweden to<br />
+France under the watchful eye of the French Ambassador. This was only<br />
+the beginning of the journey for Descartes&#8217; bones, which, over the<br />
+next 350 years, were fought over, stolen, sold, revered as relics,<br />
+studied by scientists, used in séances, and passed surreptitiously<br />
+from hand to hand. &#8221;  For example, during the French Revolution, his remains were disinterred for burial<br />
+in the Pantheon in Paris among the great French thinkers. But today, his ashes are burried in&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/saintgermaindespres.jpg" style="float:left;margin-right:10px;" hspace=10>the abbay church of <a href="http://en.wikipedia.org/wiki/Abbey_of_Saint-Germain-des-Prés">Saint-Germain-des-Prés</a>, located in the Quartier Latin, within walking distance of the Bourbaki-café <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bumpy-road-to-the-first-bourbaki-congress.html">Capoulade</a> and the <a href="http://en.wikipedia.org/wiki/École_Normale_Supérieure">Ecole Normal Superieure</a>.</p>
+<p>Now all the hints fall handsomely in place. St-Germain-des-Prés is the oldest church in Paris. Parts of it date to the 6th century, when a <a href="http://en.wikipedia.org/wiki/Benedictine">Benedictine</a> abbey was founded on the site by Childebert, son of Clovis. Hence the sentence &#8216;in the Principal Cohomology of the Universal Variety&#8217; might simply mean &#8216;in the first church, ever&#8217;. In medieval times, the Left Bank of Paris was prone to flooding from the Seine, so much of the land could not be built upon and the Abbey stood in the middle of fields, or prés in French, thereby explaining its appellation.</p>
+<p>The other part of its name, Saint Germain, comes from <a href="http://en.wikipedia.org/wiki/Germain_of_Paris">Saint Germanus of Paris</a>, also known as the &#8216;father of the poor&#8217; (!). His remains were interred in St. Symphorien&#8217;s chapel in the vestibule of St. Vincent&#8217;s church, but in 754, when he was canonized, his relics were solemnly removed into the body of the church, in the presence of Pepin and his son, Charlemagne, then a child of seven, and the church was reconsecrated as Saint-Germain-des-Prés. That is, also the remains of the &#8216;father of the poor&#8217; are buried  in this church.</p>
+<p>Here&#8217;s my best guess : <strong>the Bourbaki-Pétard wedding was held on June 3rd 1939 in the church Saint-Germain-des-Prés at 12h</strong>. Genuine aficionados of <a href="http://en.wikipedia.org/wiki/The_Da_Vinci_Code">the Da Vinci code</a> may regret it wasn&#8217;t held in the neighboring <a href="http://en.wikipedia.org/wiki/Church_of_Saint-Sulpice">Saint-Sulpice church</a>, but then, perhaps someone can bend the clues accordingly&#8230;</p>
+<p>Remains this problem : who was the organist, Monsieur Modulo?  Suggestions anyone?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/where-was-the-bourbaki-wedding/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

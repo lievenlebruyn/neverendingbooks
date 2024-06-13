@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Audin &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/audin/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 09 Jan 2015 13:53:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Map of the Parisian mathematical scene 1933-39</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/map-of-the-parisian-mathematical-scene-1933-39/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/map-of-the-parisian-mathematical-scene-1933-39/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 09 Jan 2015 13:53:05 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Audin]]></category>
+		<category><![CDATA[Beaulieu]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[geotag]]></category>
+		<category><![CDATA[IHP]]></category>
+		<category><![CDATA[Julia]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=6167</guid>
+
+					<description><![CDATA[[put_wpgm id=1] . Michele Audin has written a book on the history of the Julia seminar (hat tip +Chandan Dalawat via Google+). The &#8220;Julia Seminar&#8221;&#8230;]]></description>
+										<content:encoded><![CDATA[<p>[put_wpgm id=1]</p>
+<p>
+.
+</p>
+<p><a href="http://www-irma.u-strasbg.fr/~maudin/">Michele Audin</a> has written a book on the history of the Julia seminar (hat tip +Chandan Dalawat via Google+).</p>
+<p>The &#8220;Julia Seminar&#8221; was organised between 1933 and 1939, on monday afternoons, in the Darboux lecture hall of the <a href="http://en.wikipedia.org/wiki/Institut_Henri_Poincar%C3%A9">Institut Henri Poincare</a>.</p>
+<p>After good German tradition, the talks were followed by tea, &#8220;aimablement servi par Mmes Dubreil et Chevalley&#8221;.</p>
+<p>A perhaps surprising discovery Audin made is that the public was expected to pay an attendance fee of 50 Frs. (approx. 32 Euros, today), per year. Fortunately, this included tea&#8230;</p>
+<p>The annex of the book contains the lists of all people who have paid their dues, together with their home addresses.</p>
+<p>The map above contains most of these people, provided they had a Parisian address. For example, Julia himself lived in Versailles, so is not included.</p>
+<p>As are several of the first generation Bourbakis: Dieudonne lived in Rennes, Henri Cartan and Andre Weil in Strasbourg, Delsarte in Nancy, etc.</p>
+<p>Still, the lists are a treasure trove of addresses of &#8220;les vedettes&#8221; (the professors and the people in the Bourbaki-circle) which have green markers on the map, and &#8220;les figurants&#8221; (often PhD students, or foreign visitors of the IHP), the blue markers.</p>
+<p>Several PhD-students gave the <a href="http://www.ens.fr/?lang=en">Ecole Normale Superieure</a> (btw. note the &#8216;je suis Charlie&#8217;-frontpage of the ENS today jan.9th) in the rue d&#8217;Ulm as their address, so after a few of them I gave up adding others.</p>
+<p>Further, some people changed houses over this period. I will add these addresses later on.</p>
+<p>The southern cluster of markers on Boulevard Jourdan follows from the fact that the university had a number of apartment blocks there for professors and visitors (hat tip Liliane Beaulieu).</p>
+<p>A Who&#8217;s Who at the Julia seminar can be found in Audin&#8217;s book (pages 154-167).</p>
+<p><strong>Reference:</strong></p>
+<p>Michele Audin : <a href="http://books.cedram.org/MALSM/MALSM1.pdf">&#8220;Le seminaire de mathematiques 1933-1939, premiere partie: l&#8217;histoire&#8221;</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/map-of-the-parisian-mathematical-scene-1933-39/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

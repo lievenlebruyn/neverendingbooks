@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>rationality &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/rationality/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 26 Oct 2010 08:54:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Langlands versus Connes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 26 Oct 2010 08:54:28 +0000</pubDate>
+				<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3312</guid>
+
+					<description><![CDATA[This is a belated response to a Math-Overflow exchange between Thomas Riepe and Chandan Singh Dalawat asking for a possible connection between Connes&#8217; noncommutative geometry&#8230;]]></description>
+										<content:encoded><![CDATA[<p>This is a belated response to a Math-Overflow <a href="http://mathoverflow.net/questions/41296/lun-des-problemes-fondamentaux-de-la-theorie-des-nombres">exchange</a> between Thomas Riepe and Chandan Singh Dalawat asking for a possible connection between Connes&#8217; noncommutative geometry approach to the Riemann hypothesis and the Langlands program.</p>
+<p>Here&#8217;s the punchline : a large chunk of the Connes-Marcolli book <a href="http://www.alainconnes.org/docs/bookwebfinal.pdf">Noncommutative Geometry, Quantum Fields and Motives</a> can be read as an exploration of the noncommutative boundary to the Langlands program (at least for $GL_1 $ and $GL_2 $ over the rationals $\mathbb{Q} $).</p>
+<p>Recall that Langlands for $GL_1 $ over the rationals is the correspondence, given by the Artin reciprocity law, between on the one hand the abelianized absolute Galois group</p>
+<p>$Gal(\overline{\mathbb{Q}}/\mathbb{Q})^{ab} = Gal(\mathbb{Q}(\mu_{\infty})/\mathbb{Q}) \simeq \hat{\mathbb{Z}}^* $</p>
+<p>and on the other hand the connected components of the idele classes</p>
+<p>$\mathbb{A}^{\ast}_{\mathbb{Q}}/\mathbb{Q}^{\ast} = \mathbb{R}^{\ast}_{+} \times \hat{\mathbb{Z}}^{\ast} $</p>
+<p>The locally compact Abelian group of idele classes can be viewed as the nice locus of the horrible quotient space of adele classes $\mathbb{A}_{\mathbb{Q}}/\mathbb{Q}^{\ast} $. There is a well-defined map</p>
+<p>$\mathbb{A}_{\mathbb{Q}}&#8217;/\mathbb{Q}^{\ast} \rightarrow \mathbb{R}_{+} \qquad (x_{\infty},x_2,x_3,\ldots) \mapsto | x_{\infty} | \prod | x_p |_p $</p>
+<p>from the subset $\mathbb{A}_{\mathbb{Q}}&#8217; $ consisting of adeles of which almost all terms belong to $\mathbb{Z}_p^{\ast} $. The inverse image of this map over $\mathbb{R}_+^{\ast} $ are precisely the idele classes $\mathbb{A}^{\ast}_{\mathbb{Q}}/\mathbb{Q}^{\ast} $. In this way one can view the adele classes as a closure, or &#8216;compactification&#8217;, of the idele classes.</p>
+<p>This is somewhat reminiscent of extending the nice action of the modular group on the upper-half plane to its badly behaved action on the boundary as in the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-manin-marcolli-cave.html">Manin-Marcolli cave post</a>.</p>
+<p>The topological properties of the fiber over zero, and indeed of the total space of adele classes, are horrible in the sense that the discrete group $\mathbb{Q}^* $ acts ergodically on it, due to the irrationality of $log(p_1)/log(p_2) $ for primes $p_i $. All this is explained well (in the semi-local case, that is using $\mathbb{A}_Q&#8217; $ above) in the Connes-Marcolli book (section 2.7).</p>
+<p>In much the same spirit as non-free actions of reductive groups on algebraic varieties are best handled using stacks, such ergodic actions are best handled by the tools of noncommutative geometry. That is, one tries to get at the geometry of $\mathbb{A}_{\mathbb{Q}}/\mathbb{Q}^{\ast} $ by studying an associated non-commutative algebra, the skew-ring extension of the group-ring of the adeles by the action of $\mathbb{Q}^* $ on it. This algebra is known to be Morita equivalent to the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bost-connes-hecke-algebra.html">Bost-Connes algebra</a> which is the algebra featuring in Connes&#8217; approach to the Riemann hypothesis.</p>
+<p>It shouldn&#8217;t thus come as a major surprise that one is able to recover the other side of the Langlands correspondence, that is the Galois group $Gal(\mathbb{Q}(\mu_{\infty})/\mathbb{Q}) $, from the Bost-Connes algebra as the symmetries of certain states.</p>
+<p>In a similar vein one can read the Connes-Marcolli $GL_2 $-system (section 3.7 of their book) as an exploration of the noncommutative closure of the Langlands-space $GL_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q}) $.</p>
+<p>At the moment I&#8217;m running a master-seminar noncommutative geometry trying to explain this connection in detail. But, we&#8217;re still in the early phases, struggling with the topology of ideles and adeles, reciprocity laws, L-functions and the lot. Still, if someone is interested I might attempt to post some lecture notes here.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the crypto lattice</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-crypto-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-crypto-lattice/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 12 Jan 2008 11:07:14 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[rationality]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/the-crypto-lattice.html</guid>
+
+					<description><![CDATA[Last time we have seen that tori are dual (via their group of characters) to lattices with a Galois action. In particular, the Weil descent&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Last time we have seen that <strong>tori</strong> are dual (via their group of characters) to <strong>lattices with a Galois action</strong>. In particular, the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/weil-descent.html">Weil descent</a> torus $R_n=R^1_{\mathbb{F}_{p^n}/\mathbb{F}_p} \mathbb{G}_m $ corresponds to the <strong>permutation</strong> lattices $R_n^* = \mathbb{Z}[x]/(x^n-1) $. The action of the generator $\sigma $ (the Frobenius) of the Galois group $Gal(\mathbb{F}_{p^n}/\mathbb{F}_p) $ acts on the lattice by multiplication with $x $.</p>
+<p>An old result of Masuda (1955), using an even older lemma by Speiser (1919), asserts than whenever the character-lattice $T^* $ of a torus $T $ is a permutation-lattice, the torus is <strong>rational</strong>, that is, the function-field<br />
+of the torus $\mathbb{F}_p(T) $ is purely trancendental</p>
+<p>$\mathbb{F}_p(y_1,\ldots,y_d) = \mathbb{F}_p(T) = (\mathbb{F}_{q^n}(T^*))^{Gal} $</p>
+<p>(recall from last time that the field on the right-hand side is the field of fractions of the $Gal $-invariants of the group-algebra of the free Abelian group $T^* = \mathbb{Z} \oplus \ldots \oplus \mathbb{Z} $ where the rank is equal to the dimension $d $ of the torus).</p>
+<p>The basic observation made by Rubin and Silverberg was that the known results on crypto-compression could be reformulated in the language of algebraic tori as : <strong>the tori $T_2 $ (LUC-system) and $T_6 $ (CEILIDH-system) are rational!</strong> So, what about the next cryptographic challenges? Are the tori $T_{30} $, $T_{210} $ etc. also rational varieties?</p>
+<p>Recall that as a group, the $\mathbb{F}_p $-points of the torus $T_n $, is the subgroup of $\mathbb{F}_{p^n}^* $ corresponding to the most crypto-challenging cyclic subgroup of order $\Phi_n(p) $ where $\Phi_n(x) $ is the n-th <a href="http://en.wikipedia.org/wiki/Root_of_unity#Cyclotomic_polynomials">cyclotomic polynomial</a>. The character-lattice of this crypto-torus $T_n $ we call the <strong>crypto-lattice</strong> and it is</p>
+<p>$T_n^* = \mathbb{Z}[x]/(\Phi_n(x)) $</p>
+<p>(again the action of the Frobenius is given by multiplication with $x $) and hence has rank $\phi(n) $, explaining that the torus $T_n $ has dimension $\phi(n) $ and hence that we can at best expect a compression from $n $-pits to $\phi(n) $-pits. Note that the lattice $T_n^* $ is no longer a permutation lattice, so we cannot use the Masuda-Speiser result to prove rationality of $T_n $.</p>
+<p>What have mathematicians proved on $T_n $ before it became a hot topic? Well, there is an old conjecture by V. E. Voskresenskii asserting that all $T_n $ should be rational! Unfortunately, he could prove this only when $n $ is a prime power. Further, he proved that for all $n $, the lattice $T_n $ is at least <strong>stably-rational</strong> meaning that it is rational <strong>upto adding free parameters</strong>, that is</p>
+<p>$\mathbb{F}_p(T_n)(z_1,\ldots,z_l) = \mathbb{F}_p(y_1,\ldots,y_{d+l}) $</p>
+<p>which, sadly, is only of cryptographic-use if $l $ is small (see below). A true rationality result on $T_n $ was proved by A.A. Klyashko : $T_n $ is rational whenever $n=p^a.q^b $ a product of two prime powers.But then, $30=2 \times 3 \times 5 $ the first unknown case&#8230;</p>
+<p>At Crypto 2004, Marten van Dijk and David Woodruff were able to use an explicit form of Voskresenskii stable rationality result to get an asymptotic optimal crypto-compression rate of $n/\phi(n) $, but their method was of little practical use in the $T_{30} $, for what their method gave was a rational map</p>
+<p>$T_{30} \times \mathbb{A}^{32}_{\mathbb{F}_p} \rightarrow \mathbb{A}^{40}_{\mathbb{F}_p} $</p>
+<p>and the number of added parameters (32) is way too big to be of use.</p>
+<p>But then, one can use century-old results on cyclotomic polynomials to get a much better bound, as was shown in the paper <a href="http://mirror.cr.yp.to/eprint.iacr.org/2004/352.pdf">Practical cryptography in high dimensional tori</a> by the collective group of all people working (openly) on tori-cryptography. The idea is that whenever q is a prime and a is an integer not divisible by q, then on the level of cyclotomic polynomials we have the identity</p>
+<p>$\Phi_{aq}(x) \Phi_a(x) = \Phi_a(x^q) $</p>
+<p>On the level of tori this equality implies (via the character-lattices) an ismorphism (with same assumptions)</p>
+<p>$T_{aq}(\mathbb{F}_p) \times T_a(\mathbb{F}_p) \simeq (R^1_{\mathbb{F}_{p^q}/\mathbb{F}_p} T_a)(\mathbb{F}_p) = T_a(\mathbb{F}_{p^q}) $</p>
+<p>whenever aq is not divisible by p. Apply this to the special case when $q=5,a=6 $ then we get</p>
+<p>$T_{30}(\mathbb{F}_p) \times T_6(\mathbb{F}_p) \simeq R^1_{\mathbb{F}_{p^5}/\mathbb{F}_p} T_6(\mathbb{F}_p) $</p>
+<p>and because we know that $T_6 $ is a 2-dimensional rational torus we get, using Weil descent, a rational map</p>
+<p>$T_{30} \times \mathbb{A}^2_{\mathbb{F}_p} \rightarrow  \mathbb{A}^{10}_{\mathbb{F}_p} $</p>
+<p>which can be used to get better crypto-compression than the CEILIDH-system!</p>
+<p>This concludes what I know of the OPEN state of affairs in tori-cryptography. I&#8217;m sure &#8216;people in hiding&#8217; know a lot more at the moment and, if not, I have a couple of ideas I&#8217;d love to check out. So, when I seem to have disappeared, you know what happened&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-crypto-lattice/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>tori &#038; crypto : Diffie-Hellman or GCHQ?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/tori-crypto-diffie-hellman/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/tori-crypto-diffie-hellman/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 03 Jan 2008 15:50:39 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[rationality]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=240</guid>
+
+					<description><![CDATA[Boris Kunyavskii arXived the paper Algebraic tori &#8211; thirty years after dedicated to the 80th anniversary of V. E. Voskresenskii. The goal is to give&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.cs.biu.ac.il/~kunyav/">Boris Kunyavskii</a> arXived the paper <a href="http://arxiv.org/abs/0712.4061">Algebraic tori &#8211; thirty years after</a> dedicated to the 80th anniversary of V. E. Voskresenskii.  The goal is to give an overview of results of V. E. Voskresenskii on arithmetic and birational properties of algebraic tori which culminated in his monograph &#8220;Algebraic Tori&#8221; published in Russian 30 years ago. As Ive worked on this stuff a long time ago I glanced through the paper and it contains a nice summary of the work of V.E. Voskresenskii, and later of Jean-Louis Colliot-Thelene, Jean-Jacques Sansuc and David Saltman. To my surprise I also made a guest-appearance and even seem to have a conjecture (??!!). Fortunately the &#8216;conjecture&#8217; turned out to be correct as was <a href="http://arxiv.org/abs/math/9907168">proved</a> by Nicole Lemire and Martin Lorenz. But a much bigger surprise (at least to me) is contained in the final section of the paper where applications of (stable) rationality of certain tori are given to primality testing and public key cryptography!</p>
+<blockquote><p>In [GPS]<br />
+the authors propose to use a similar idea of compression for using tori<br />
+in an even more recent cryptographic protocol (so-called pairing-based<br />
+cryptography). It is interesting to note that the efficiency (compression factor) of the above mentioned cryptosystems heavily depends on<br />
+rationality of tori under consideration (more precisely, on an explicit<br />
+rational parameterization of the underlying variety). As the tori used<br />
+by Rubin and Silverberg are known to be stably rational, the seemingly abstract question on rationality of a given stably rational torus<br />
+is moving to the area of applied mathematics. The first challenging<br />
+problem here is to obtain an explicit rational parameterization of the<br />
+8-dimensional torus $T_{30} $ , deïfined over a finite field k and splitting over<br />
+its cyclic extension L of degree 30. </p>
+<p>This is a particular case of a problem posed by Voskresenskii [Vo77,<br />
+Problem 5.12] 30 years ago. Let us hope that we will not have to wait<br />
+another 30 years for answering this question on a degree 30 extension.</p></blockquote>
+<p>That&#8217;s all it takes to get me seriously side-tracked&#8230; so the last couple of hours I&#8217;ve been reading up on this connection between tori and cryptography. I will spend a couple of posts on these beautiful results. The latest seems to be that, while rationality of $T_{30} $ is still unknown, one can use an explicit stable-rationality description of it to get a better bound than the XTR-system (the system corresponding to the torus $T_{6} $) which in turn is better than the LUC-system (corresponding to $T_2 $), which is turn is twice as efficient as the <a href="http://en.wikipedia.org/wiki/Diffie-Hellman">Diffie-Hellman key exchange system</a>&#8230; So let us start gently with the latter one&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/diffiehellman.jpg" style="float:left;margin-right:10px;" > Whitfield Diffie (r.) and Martin Hellman (m.) published in 1976 their public key-exchange system. Take a large prime power $q=p^N $, make it public and consider the finite field $\mathbb{F}_q $ which is known to have a cyclic group of units $\mathbb{F}^*_q $ of order $q-1 $. Now, take $g $ to be an element in it of large order (preferable a generator but that isnt necessary) and also make this element public.</p>
+<p>Now choose a random integer $a $ (your <strong>hidden secret</strong>) and compute the element $g^a \in \mathbb{F}_q $ and publicize this element. Suppose someone else published his/her element $g^b $ constructed from his/her secret integer $b $ then both you and this other person can compute from the published data and their secret numbers the element (the <strong>shared key</strong>)</p>
+<p>$g^{ab}=(g^b)^a = (g^a)^b $</p>
+<p>(because you know $a $ and the published $g^b $ and your correspondent knows $b $ and the published $g^a $) but <strong>nobody else can compute it</strong> from the public-available data only because discrete logarithms cannot be feasibly computed in the group $\mathbb{F}_q^* $. Hellman suggests to call this system the Diffie-Hellman-Merkl key-exchange (via <a href="http://www.livinginternet.com/i/is_crypt_pkc_inv.htm">this link</a>)</p>
+<blockquote><p>The first researchers to discover and publish the concepts of PKC were Whitfield Diffie and Martin Hellman from Stanford University, and Ralph Merkle from the University of California at Berkeley. As so often happens in the scientific world, the two groups were working independently on the same problem &#8212; Diffie and Hellman on public key cryptography and Merkle on public key distribution &#8212; when they became aware of each other&#8217;s work and realized there was synergy in their approaches. In Hellman&#8217;s words: &#8220;We each had a key part of the puzzle and while it&#8217;s true one of us first said X, and another of us first said Y, and so on, it was the combination and the back and forth between us that allowed the discovery.&#8221;</p></blockquote>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/williamson.jpg" style="float:right;margin-left:10px;" > And that was the full story until 1997. In December, 1997, it was revealed that researchers at the <a href="http://www.gchq.gov.uk/">GCHQ</a> organization did some work in the early 1970&#8217;s in the field of &#8220;non-secret encryption&#8221;. The people involved are <a href="http://en.wikipedia.org/wiki/James_H._Ellis">James Ellis</a>, <a href="http://en.wikipedia.org/wiki/Clifford_Cocks">Clifford Cocks</a> and <a href="http://en.wikipedia.org/wiki/Malcolm_Williamson_%28cryptographer%29">Malcolm Williamson (r.)</a>.</p>
+<p><a href="http://www.cesg.gov.uk/site/publications/media/ellis.pdf">Here</a> is a note by Ellis on his recollection of the history of &#8216;Non-secret encryption&#8221; :</p>
+<blockquote><p>Cryptography is a most unusual science. Most professional scientists aim to be the first to publish their work,<br />
+because it is through dissemination that the work realises its value. In contrast, the fullest value of cryptography<br />
+is realised by minimising the information available to potential adversaries. Thus professional cryptographers<br />
+normally work in closed communities to provide sufficient professional interaction to ensure quality while<br />
+maintaining secrecy from outsiders. Revelation of these secrets is normally only sanctioned in the interests<br />
+of historical accuracy after it has been demonstrated clearly that no further benefit can be obtained from<br />
+continued secrecy. <br />
+In keeping with this tradition it is now appropriate to tell the story of the invention and development within<br />
+CESG of non-secret encryption (NSE) which was our original name for what is now called PKC. The task of writing<br />
+this paper has devolved on me because NSE was my idea and I can therefore describe these early developments from<br />
+personal experience. No techniques not already public knowledge, or specific applications of NSE will be mentioned&#8230;</p></blockquote>
+<p>The once secret notes of Williamson are also available. <a href="http://www.mirrors.wiretapped.net/security/info/reference/cesg-publications/History/secenc.pdf">NON-SECRET ENCRYPTION USING A FINITE FIELD<br />
+by M J Williamson, 21 January 1974</a> and <a href="http://www.fi.muni.cz/usr/matyas/lecture/paper3.pdf">THOUGHTS ON CHEAPER NON-SECRET ENCRYPTION<br />
+M J Williamson, 10 August 1976</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/tori-crypto-diffie-hellman/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>neverendingbooks-geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 12 Jun 2007 12:01:04 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Jacobian]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://localhost/?p=5</guid>
+
+					<description><![CDATA[Here a list of saved pdf-files of previous NeverEndingBooks-posts on geometry in reverse chronological order. The rationality problem The Manin-Marcolli cave The taxicab curve Anabelian&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here a list of saved pdf-files of previous NeverEndingBooks-posts on geometry in reverse chronological order.</p>
+<p><span id="more-12051"></span></p>
+<p><a href="NEBPDFS/318.pdf">The rationality problem</a></p>
+<p><a href="NEBPDFS/313.pdf">The Manin-Marcolli cave</a></p>
+<p><a href="NEBPDFS/312.pdf">The taxicab curve</a></p>
+<p><a href="NEBPDFS/305.pdf">Anabelian geometry</a></p>
+<p><a href="NEBPDFS/307.pdf">Noncommutative curves and their manifolds</a></p>
+<p><a href="NEBPDFS/306.pdf">The noncommutative manifold of a Riemann surface</a></p>
+<p><a href="NEBPDFS/295.pdf">The best rejected proposal ever</a></p>
+<p><a href="NEBPDFS/296.pdf">Noncommutative geometry &#8211; a medieval science?</a></p>
+<p><a href="NEBPDFS/239.pdf">Master class 2007</a></p>
+<p><a href="NEBPDFS/228.pdf">2006 paper nominees</a></p>
+<p><a href="NEBPDFS/212.pdf">Coalgebras and non-geometry 3</a></p>
+<p><a href="NEBPDFS/210.pdf">Coalgebras and non-geometry 2</a></p>
+<p><a href="NEBPDFS/201.pdf">Coalgebras and non-geometry 1</a></p>
+<p><a href="NEBPDFS/208.pdf">Krull and Paris</a></p>
+<p><a href="NEBPDFS/207.pdf">Noncommutative at Newton</a></p>
+<p><a href="NEBPDFS/200.pdf">Noncommutative Fourier transforms</a></p>
+<p><a href="NEBPDFS/199.pdf">Non-(commutative) geometry</a></p>
+<p><a href="NEBPDFS/197.pdf">Non-geometry</a></p>
+<p><a href="NEBPDFS/195.pdf">A good day at the arXiv</a></p>
+<p><a href="NEBPDFS/184.pdf">Noncommutative geometry master class</a></p>
+<p><a href="NEBPDFS/174.pdf">Noncommutative complete intersections</a></p>
+<p><a href="NEBPDFS/167.pdf">Master program 2006</a></p>
+<p><a href="NEBPDFS/165.pdf">Noncommutative topology 4</a></p>
+<p><a href="NEBPDFS/161.pdf">Noncommutative topology 3</a></p>
+<p><a href="NEBPDFS/160.pdf">Noncommutative topology 2</a></p>
+<p><a href="NEBPDFS/157.pdf">Noncommutative topology 1</a></p>
+<p><a href="NEBPDFS/140.pdf">Alain Connes on &#8230; everything</a></p>
+<p><a href="NEBPDFS/18.pdf">Jacobian conjecture remains open</a></p>
+<p><a href="NEBPDFS/68.pdf">The Klein stack</a></p>
+<p><a href="NEBPDFS/66.pdf">Sexing-up curves</a></p>
+<p><a href="NEBPDFS/56.pdf">Why nag? 3</a></p>
+<p><a href="NEBPDFS/283.pdf">Granada Notes</a></p>
+<p><a href="NEBPDFS/55.pdf">Why nag? 2</a></p>
+<p><a href="NEBPDFS/54.pdf">Why nag? 1</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>down with determinants</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 18 May 2007 17:14:51 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=177</guid>
+
+					<description><![CDATA[The categorical cafe has a guest post by Tom Leinster Linear Algebra Done Right on the book with the same title by Sheldon Axler. I&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="http://golem.ph.utexas.edu/category/">categorical cafe</a> has a guest post by Tom Leinster <a href="http://golem.ph.utexas.edu/category/2007/05/linear_algebra_done_right.html">Linear Algebra Done Right</a> on the book with the same title by <a href="http://www.axler.net/LADR.html">Sheldon Axler</a>. I haven&#8217;t read the book but glanced through his online paper <a href="http://www.axler.net/DwD.html">Down with determinants!</a>. Here is &#8216;his&#8217; proof of the fact that any n by n matrix A has at least one eigenvector. Take a vector $v \in \mathbb{C}^n $, then as the collection of vectors ${ v,A.v,A^2.v,\ldots,A^n.v } $ must be linearly dependent, there are complex numbers $a&#95;i \in \mathbb{C} $ such that $~(a&#95;0 + a&#95;1 A + a&#95;2 A^2 + \ldots + a&#95;n A^n).v = \vec{0} \in \mathbb{C}^n $ But then as $\mathbb{C} $ is algebraically closed the polynomial on the left factors into linear factors $a&#95;0 + a&#95;1 x + a&#95;2 x^2 + \ldots + a&#95;n x^n = c (x-r&#95;1)(x-r&#95;2) \ldots (x-r&#95;n) $ and therefore as $c(A-r&#95;1I&#95;n)(A-r&#95;2I&#95;n) \ldots (A-r&#95;nI&#95;n).v = \vec{0} $ from which it follows that at least one of the linear transformations $A-r&#95;j I&#95;n $ has a non-trivial kernel, whence A has an eigenvector with eigenvalue $r_j $. Okay, fine, nice even, but does this simple minded observation warrant the extreme conclusion of his paper (on page 18) ?</p>
+<blockquote>
+<p>As mathematicians, we often read a nice new proof of a known theorem, enjoy the different approach, but continue to derive our internal understanding from the method we originally learned. This paper aims to change drastically the way mathematicians think about and teach crucial aspects of linear algebra.</p>
+<p>The simple proof of the existence of eigenvalues given in Theorem 2.1 should be the one imprinted in our minds, written on our blackboards, and published in our textbooks. Generalized eigenvectors should become a central tool for the understanding of linear operators. As we have seen, their use leads to natural definitions of multiplicity and the characteristic polynomial. Every mathematician and every linear algebra student should at least remember that the generalized eigenvectors of an operator always span the domain (Proposition 3.4)‚Äîthis crucial result leads to easy proofs of upper-triangular form (Theorem 6.2) and the Spectral Theorem (Theorems 7.5 and 8.3).</p>
+<p>Determinants appear in many proofs not discussed here. If you scrutinize such proofs, you‚Äôll often discover better alternatives without determinants. Down with Determinants!
+  </p></blockquote>
+<p>I welcome all new proofs of known results as they allow instructors to choose the one best suited to their students (and preferable giving more than one proof showing that there is no such thing as &#8216;the best way&#8217; to prove a mathematical result). What worries me is Axler&#8217;s attitude shared by extremists and dogmatics world-wide : they are so blinded by their own right that they impoverish their own lifes (and if they had their way, also that of others) by not willing to consider other alternatives. A few other comments :</p>
+<ol>
+<li>
+<p>I would be far more impressed if he had given a short argument for the one line he skates over in his proof, that of $\mathbb{C} $ being algebraically closed. Does anyone give a proof of this fact anymore or is this one of the few facts we expect first year students to accept on faith?</p>
+<ol>
+<li>
+<p>I dont understand this aversity to the determinant (probably because of its nonlinear character) but at the same time not having any problems with successive powers of matrices. Surely he knows that the determinant is a fixed $~\mathbb{Q}~ $-polynomial in the traces (which are linear!) of powers of the matrix.</p>
+</li>
+<li>
+<p>The essense of linear algebra is that by choosing a basis cleverly one can express a linear operator in a extremely nice matrix form (a canonical form) so that all computations become much more easy. This crucial idea of considering different bases and their basechange seems to be missing from Axler&#8217;s approach. Moreover, I would have thought that everyone would know these days that &#8216;linear algebra done right&#8217; is a well developed topic called &#8216;representation theory of quivers&#8217; but I realize this might be viewed as a dogmatic statement. Fortunately someone else is giving the basic linear algebra courses here in Antwerp so students are spared my private obsessions (at least the first few years&#8230;). In &#91;his post&#93;(http://golem.ph.utexas.edu/category/2007/05/ linear&#95;algebra&#95;done_right.html) Leistner askes &#8220;What are determinants good for?&#8221; I cannot resist mentioning a trivial observation I made last week when thinking once again about <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=318">THE rationality problem</a> and which may be well known to others. Recall from the previous post that rationality of the quotient variety of matrix-couples $~(A,B) \in M&#95;n(\mathbb{C}) \oplus M&#95;n(\mathbb{C}) / GL&#95;n $ under &#95;simultaneous conjugation_ is a very hard problem. On the other hand, the &#8216;near miss&#8217; problem of the quotient variety of matrix-couples $ { (A,B)~|~det(A)=0~} / GL&#95;n $ is completely trivial. It is rational for all n. Here is a one-line proof. Consider the quiver $\xymatrix{\vtx{} \ar@/^2ex/[rr] &amp; &amp; \vtx{} \ar@(ur,dr) \ar@/^2ex/[ll]} $ then the dimension vector (n-1,n) is a Schur root and the first fundamental theorem of $GL&#95;n $ (see for example Hanspeter Krafts excellent book on invariant theory) asserts that the corresponding quotient variety is the one above. The result then follows from Aidan Schofield&#8217;s paper <a href="http://www.arxiv.org/abs/math/9911014">Birational classification of moduli spaces of representations of quivers</a>. Btw. in this special case one does not have to use the full force of Aidan&#8217;s result. <a href="http://www.math.ubc.ca/~reichst/">Zinovy Reichstein</a>, who keeps me updated on events in <a href="http://www.mathcs.emory.edu/~skip/conf/Home.html">Atlanta</a>, emailed the following elegant short proof Here is an outline of a geometric proof. Let $X = {(A, B) : det(A) = 0} &#92;subset M&#95;n^2 $ and $Y = \mathbb{P}^{n-1} &#92;times M&#95;n $. Applying the no-name lemma to the $PGL&#95;n $-equivariant dominant rational map $~X \rightarrow Y $ given by $~(A, B) &#92;rightarrow (Ker(A), B) $ (which makes X into a vector bundle over a dense open $PGL&#95;n $-invariant subset of Y), we see that $X//PGL&#95;n $ is rational over $Y//PGL&#95;n $ On the other hand, $Y//PGLn = M&#95;n//PGL&#95;n $ is an affine space. Thus $X//PGL_n $ is rational. The moment I read this I knew how to do this quiver-wise and that it is just another Brauer-Severi type argument so completely inadequate to help settling the genuine matrix-problem. Update on the <a href="http://www.arxiv.org/abs/0704.3450">paper by Esther Beneish</a> : Esther did submit the paper in february.</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>THE rationality problem</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-rationality-problem/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-rationality-problem/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 27 Apr 2007 08:27:50 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=300</guid>
+
+					<description><![CDATA[This morning, Esther Beneish arxived the paper The center of the generic algebra of degree p that may contain the most significant advance in my&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/estherbeneish.jpg" align="left" hspace="10" /> This morning, <a href="http://www.cst.cmich.edu/units/mth/gradinfo/Pp/MthBENEISH.html">Esther Beneish</a><br />
+arxived the paper <a href="http://www.arxiv.org/abs/0704.3450">The center of the generic algebra of degree p</a> that may contain the most<br />
+significant advance in my favourite problem for over 15 years! In it she<br />
+claims to prove that the center of the generic division algebra of<br />
+degree p is stably rational for all prime values p.   Let me begin by<br />
+briefly explaining what the problem is all about. Consider one n by n<br />
+matrix A which is sufficiently general, then it will have all its<br />
+eigenvalues distinct, but then it is via the <a href="http://en.wikipedia.org/wiki/Jordan_normal_form">Jordan normal form theorem</a> uniquely<br />
+determined upto conjugation (that is, base change) by its<br />
+<a href="http://en.wikipedia.org/wiki/Characteristic_polynomial">characteristic polynomial</a>. In<br />
+other words, the conjugacy class of a sufficiently general n by n matrix<br />
+depends freely on the coefficients of the characteristic polynomial<br />
+(which are the n elementary symmetric functions in the eigenvalues of<br />
+the matrix).   Now what about <strong>couples</strong> of n by n matrices (A,B) under<br />
+<strong>simultaneous conjugation</strong> (that is all couples of the form $~(g A<br />
+g^{-1}, g B g^{-1}) $ for some invertible n by n matrix g) ??? So,<br />
+does there exist a sort of Jordan normal form for couples of n by n<br />
+matrices which are sufficiently general? That is, are there a set of<br />
+invariants for such couples which determine it is freely upto<br />
+simultaneous conjugation?</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/claudioprocesi.jpg" align="left" hspace="10" /> For couples of 2 by 2 matrices, <a href="http://www.mat.uniroma1.it/~procesi/">Claudio Procesi</a> rediscovered an old<br />
+result due to <a href="http://en.wikipedia.org/wiki/James_Joseph_Sylvester">James Sylvester</a> saying<br />
+that this is indeed the case and that the set of invariants consists of<br />
+the five invariants Tr(A),Tr(B),Det(A),Det(B) and Tr(AB). Now, Claudio<br />
+did a lot more in his paper. He showed that if you could prove this for<br />
+couples of matrices, you can also do it for triples, quadruples even any<br />
+k-tuples of n by n matrices under simultaneous conjugation. He also<br />
+related this problem to the center of the generic division algebra of<br />
+degree n (which was introduced earlier by <a href="http://siba2.unile.it/bib1index/10000814.IDX">Shimshon Amitsur</a> in a rather<br />
+cryptic manner and for a while he simply refused to believe Claudio&#8217;s<br />
+description of this division algebra as the one generated by two<br />
+_generic_ n by n matrices, that is matrices filled with independent<br />
+variables). Claudio also gave the description of the center of this<br />
+algebra as a field of lattice-invariants (over the symmetric group S(n)<br />
+) which was crucial in subsequent investigations. If you are interested<br />
+in the history of this problem, its connections with Brauer group<br />
+problems and invariant theory and a short description of the tricks used<br />
+in proving the results I&#8217;ll mention below, you might have a look at the<br />
+talk <a href="http://www.math.ua.ac.be/~lebruyn/paper/lebruyn1990c_pp.pdf">Centers of Generic Division Algebras, the rationality problem 1965-1990</a><br />
+I gave in Chicago in 1990.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/edformanek.jpg" align="left" hspace="10" /> The case of couples of 3 by 3 matrices was finally<br />
+settled in 1979 by <a href="http://www.chessgames.com/perl/chessplayer?pid=18832">Ed Formanek</a> and a<br />
+year later he was able to solve also the case of couples of 4 by 4<br />
+matrices in a fabulous paper. In it, he used solvability of S(4) in an<br />
+essential way thereby hinting at the possibility that the problem might<br />
+no longer have an affirmative answer for larger values of n. When I read<br />
+his 4&#215;4 paper I believed that someone able to prove such a result must<br />
+have an awesome insight in the inner workings of matrices and decided to<br />
+dedicate myself to this problem the moment I would get a permanent<br />
+job&#8230; . But even then it is a reckless thing to do. Spending all of<br />
+your time to such a difficult problem can be frustrating as there is no<br />
+guarantee you&#8217;ll ever write a paper. Sure, you can find translations of<br />
+the problem and as all good problems it will have connections with other<br />
+subjects such as moduli spaces of vectorbundles and of quiver<br />
+representations, but to do the &#8216;next number&#8217; is another matter.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/christinebessenrodt.jpg" align="left" hspace="10" /> Fortunately, early 1990, together with<br />
+<a href="http://www.iazd.uni-hannover.de/~bessen/">Christine Bessenrodt</a> we were<br />
+able to do the next two &#8216;prime cases&#8217; : couples of 5 by 5 and couples of<br />
+7 by 7 matrices (Katsylo and Aidan Schofield had already proved that if<br />
+you could do it for couples of k by k and l by l matrices and if k and l<br />
+were coprime then you could also do it for couples of kl by kl matrices,<br />
+so the n=6 case was already done). Or did we? Well not quite, our<br />
+methods only allowed us to prove that the center is <strong>stably rational</strong><br />
+that is, it becomes rational by freely adjoining extra variables. There<br />
+are examples known of stably rational fields which are NOT rational, but<br />
+I guess most experts believe that in the case of matrix-invariants<br />
+stable rationality will imply rationality. After this paper both<br />
+Christine and myself decided to do other things as we believed we had<br />
+reached the limits of what the lattice-method could do and we thought a<br />
+new idea was required to go further.  If today&#8217;s paper by Esther turns<br />
+out to be correct, we were wrong. The next couple of days/weeks I&#8217;ll<br />
+have a go at her paper but as my lattice-tricks are pretty rusty this<br />
+may take longer than expected. Still, I see that in a couple of weeks<br />
+there will be a meeting in<br />
+<a href="http://www.mathcs.emory.edu/~skip/conf/Home.html">Atlanta</a> were Esther<br />
+and all experts in the field will be present (among them David Saltman<br />
+and Jean-Louis Colliot-Thelene) so we will know one way or the other<br />
+pretty soon. I sincerely hope Esther&#8217;s proof will stand the test as she<br />
+was the only one courageous enough to devote herself entirely to the<br />
+problem, regardless of slow progress.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-rationality-problem/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>noncommutative topology (4)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-topology-4/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-topology-4/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 09 Feb 2006 08:13:47 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=287</guid>
+
+					<description><![CDATA[For a qurve (aka formally smooth algebra) A a *block* is a (possibly infinite dimensional over the basefield) left A-module X such that its endomorphism&#8230;]]></description>
+										<content:encoded><![CDATA[<p>For a<br />
+qurve (aka formally smooth algebra) A a *block* is a (possibly infinite<br />
+dimensional over the basefield) left A-module X such that its<br />
+endomorphism algebra $D = End_A(X)$ is a division algebra and X<br />
+(considered as a right D-module) is finite dimensional over D. If a<br />
+block X is finite dimensional over the basefield, we call it a *brick*<br />
+(aka a *Schur representation*). We want to endow the set of all blocks<br />
+with a topology and look at the induced topology on the subset of<br />
+bricks.  It is an old result due to <a href="http://www.mathematik.uni-bielefeld.de/~ringel/">Claus Ringel</a><br />
+that there is a natural one-to-one correspondence between blocks of A<br />
+and algebra epimorphisms (in the categorical sense meaning that identify<br />
+equality of morphisms to another algebra) $A \rightarrow M_n(D) =<br />
+End_D(X_D)$. This result is important as it allows us to define a<br />
+partial order on teh set of all A-blocks via the notion of<br />
+*specialization*.  If X and Y are two A-blocks with corresponding<br />
+epimorphisms $A \rightarrow M_n(D),~A \rightarrow M_m(E)$ we say that Y<br />
+is a specialization of X and we denote $X \leq Y$ provided there is an<br />
+epimorphism $A \rightarrow B$ making the diagram below commute</p>
+<p>$\xymatrix{&#038; M_n(D) \\\ A \ar[ru] \ar[r] \ar[rd] &#038; B \ar[u]^i<br />
+\ar[d]^p \\\ &#038; M_m(E)} $</p>
+<p>where i is an inclusion and p is a<br />
+onto. This partial ordering was studied by <a href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Cohn.html">Paul Cohn</a>, <a href="http://math.berkeley.edu/~gbergman/">George Bergman</a> and<br />
+<a href="http://www.maths.bris.ac.uk/~maahs/">Aidan Schofield</a> who use<br />
+the partial order to define the _closed subsets_ of blocks to be<br />
+those closed under specialization.</p>
+<p>   There are two important<br />
+constructions of A-blocks for a qurve A. One is Aidan&#8217;s construction of<br />
+a universal localization wrt. a *Sylvester rank function* (and which<br />
+should be of use in noncommutative rationality problems), the other<br />
+comes from invariant theory and is related to Markus Reineke&#8217;s monoid in<br />
+the special case when A is the path algebra of a quiver. Let X be a<br />
+GL(n)-closed irreducible subvariety of an irreducible component of<br />
+n-dimensional A-representations such that X contains a brick (and hence<br />
+a Zariski open subset of bricks), then taking PGL(n)-equivariant maps<br />
+from X to $M_n(\mathbb{C})$ determines a block (by inverting all central<br />
+elements).  Now, take a *sensible* topology on the set of all A-bricks.<br />
+I would go for defining as the open wrt. a block X, the set of all<br />
+A-bricks which become simples after extending by the epimorphism<br />
+determined by a block Y such that $Y \leq X$. (note that this seems to<br />
+be different from the topology coming from the partial ordering&#8230;).<br />
+Still, wrt. this topology one can then again define a *noncommutative<br />
+topology* on the Abelian category  $\mathbf{rep}~A$ of all finite<br />
+dimensional A-representations<br />
+but this time using filtrations with successive quotients being bricks<br />
+rather than simples.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-topology-4/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>noncommutative topology (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-topology-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-topology-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 03 Feb 2006 15:20:53 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/noncommutative-topology-3.html</guid>
+
+					<description><![CDATA[For finite dimensional hereditary algebras, one can describe its noncommutative topology (as developed in part 2) explicitly, using results of Markus Reineke in The monoid&#8230;]]></description>
+										<content:encoded><![CDATA[<p>For<br />
+finite dimensional hereditary algebras, one can describe its<br />
+noncommutative topology (as developed in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=346">part 2</a>)<br />
+explicitly, using results of <a href="http://www.math.uni-muenster.de/reine/u/reinekem/">Markus<br />
+Reineke</a> in <a href="http://arxiv.org/abs/math.RA/0105121">The monoid<br />
+of families of quiver representations</a>. Consider a concrete example,<br />
+say</p>
+<p>   $A = \begin{bmatrix} \mathbb{C} &#038; V \\ 0 &#038; \mathbb{C}<br />
+\end{bmatrix}$  where $V$ is an n-dimensional complex vectorspace, or<br />
+equivalently, A is the path algebra of the two point, n arrow quiver<br />
+$\xymatrix{\vtx{} \ar@/^/[r] \ar[r] \ar@/_/[r] &#038; \vtx{}} $<br />
+Then, A has just 2 simple representations S and T (the vertex reps) of<br />
+dimension vectors s=(1,0) and t=(0,1). If w is a word in S and T we can<br />
+consider the set $\mathbf{r}_w$ of all A-representations having a<br />
+Jordan-Holder series with factors the terms in w (read from left to<br />
+right) so $\mathbf{r}_w \subset \mathbf{rep}_{(a,b)}~A$ when there are a<br />
+S-terms and b T-terms in w. Clearly all these subsets can be given the<br />
+structure of a monoid induced by concatenation of words, that is<br />
+$\mathbf{r}_w \star \mathbf{r}_{w&#8217;} = \mathbf{r}_{ww&#8217;}$  which is<br />
+Reineke&#8217;s *composition monoid*. In this case it is generated by<br />
+$\mathbf{r}_s$ and $\mathbf{r}_t$ and in the composition monoid the<br />
+following relations hold among these two generators<br />
+$\mathbf{r}_t^{\star n+1} \star \mathbf{r}_s = \mathbf{r}_t^{\star n}<br />
+\star \mathbf{r}_s \star \mathbf{r}_t \quad \text{and} \quad<br />
+\mathbf{r}_t \star \mathbf{r}_s^{\star n+1} = \mathbf{r}_s \star<br />
+\mathbf{r}_t \star \mathbf{r}_s^{\star n}$  With these notations we can<br />
+now see that the left basic open set in the noncommutative topology<br />
+(associated to a noncommutative word w in S and T) is of the form<br />
+$\mathcal{O}^l_w = \bigcup_{w&#8217;} \mathbf{r}_{w&#8217;}$  where the union is<br />
+taken over all words w&#8217; in S and T such that in the composition monoid<br />
+the relation holds $\mathbf{r}_{w&#8217;} = \mathbf{r}_w \star \mathbf{r}_{u}$<br />
+for another word u. Hence, each op these basic opens hits a large number<br />
+of $~\mathbf{rep}_{\alpha}$, in fact far too many for our purposes&#8230;.<br />
+So, what do we want? We want to define a noncommutative notion of<br />
+birationality and clearly we want that if two algebras A and B are<br />
+birational that this is the same as saying that some open subsets of<br />
+their resp. $\mathbf{rep}$&#8217;s are homeomorphic. But, what do we<br />
+understand by *noncommutative birationality*?  Clearly, if A and B are<br />
+prime Noethrian, this is clear. Both have a ring of fractions and we<br />
+demand them to be isomorphic (as in the commutative case). For this<br />
+special subclass the above noncommutative topology based on the Zariski<br />
+topology on the simples may be fine.  </p>
+<p>However, most qurves don&#8217;t have<br />
+a canonical &#8216;ring of fractions&#8217;. Usually they will have infinitely<br />
+many simple Artinian algebras which should be thought of as being<br />
+_a_ ring of fractions. For example, in the finite dimensional<br />
+example A above, if follows from <a href="http://www.maths.bris.ac.uk/~maahs/">Aidan Schofield</a>&#8216;s work <a href="http://www.amazon.com/gp/product/0521278538/102-5714622-6578538?v=glance&amp;n=283155">Representations of rings over skew fields</a> that<br />
+there is one such for every (a,b) with gcd(a,b)=1 and (a,b) satisfying<br />
+$a^2+b^2-n a b &lt; 1$ (an indivisible Shur root for A).</p>
+<p>And<br />
+what is the _noncommutative birationality result_ we are aiming<br />
+for in each of these cases? Well, the inspiration for this comes from<br />
+another result by Aidan (although it is not stated as such in the<br />
+paper&#8230;) <a href="http://www.arxiv.org/abs/math.AG/9911014">Birational<br />
+classification of moduli spaces of representations of quivers</a>. In<br />
+this paper Aidan proves that if you take one of these indivisible Schur<br />
+roots (a,b) above, and if you look at $\alpha_n = n(a,b)$ that then the<br />
+moduli space of semi-stable quiver representations for this multiplied<br />
+dimension vector is birational to the quotient variety of<br />
+$1-(a^2+b^2-nab)$-tuples of $ n \times n $-matrices under simultaneous<br />
+conjugation.</p>
+<p>   So, *morally speaking* this should be stated as the<br />
+fact that A is (along the ray determined by (a,b)) noncommutative<br />
+birational to the free algebra in $1-(a^2+b^2-nab)$ variables. And we<br />
+want a noncommutative topology on $\mathbf{rep}~A$ to encode all these<br />
+facts&#8230; As mentioned before, this can be done by replacing simples with<br />
+bricks (or if you want Schur representations) but that will have to wait<br />
+until next week. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-topology-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>noncommutative topology (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-topology-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-topology-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 29 Jan 2006 11:55:36 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=67</guid>
+
+					<description><![CDATA[A couple of days ago Ars Mathematica had a post Cuntz on noncommutative topology pointing to a (new, for me) paper by Joachim Cuntz A&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A couple of days ago <a href="http://www.arsmathematica.net/">Ars Mathematica</a> had a post <a href="http://www.arsmathematica.net/archives/2006/01/26/noncommutative-geometry/">Cuntz on noncommutative topology</a> pointing to a (new, for me) <a href="http://www.ams.org/notices/200108/fea-cuntz.pdf">paper</a> by <a href="http://wwwmath.uni-muenster.de/u/cuntz/cuntz.html">Joachim Cuntz</a> </p>
+<blockquote><p>
+A couple of years ago, the Notices of the AMS featured an article on noncommutative geometry a la Connes: Quantum Spaces and Their Noncommutative Topology by Joachim Cuntz. The hallmark of this approach is the heavy reliance on K theory. The first few pages of the article are fairly elementary (and full of intriguing pictures), before the K theory takes over.
+</p></blockquote>
+<p>A few comments are in order. To begin, the paper is **not** really about noncommutative geometry a la Connes, but rather about noncommutative geometry a la Cuntz&#038;Quillen (based on quasi-free algebras) or, equivalently, a la Kontsevich (formally smooth algebras) or if I may be so bold a la moi (qurves).</p>
+<p>About the **intruiging pictures** : it seems to be a recent trend in noncommutative geometry research papers to include meaningless pictures to lure the attention of the reader. But, unlike aberrations such as the recent <a href="http://en.wikipedia.org/wiki/Pastiche">pastiche</a> by Alain Connes and Mathilde Marcolli <a href="http://arxiv.org/abs/math.QA/0601054">A Walk in the Noncommutative Garden</a>, Cuntz is honest about their true meaning</p>
+<blockquote><p>
+I am indebted to my sons, Nicolas and Michael,<br />
+for the illustrations to the examples above. Since<br />
+these pictures have no technical meaning, they<br />
+are only meant to provide a kind of suggestive<br />
+visualization of the corresponding quantum spaces.
+</p></blockquote>
+<p>As one of these pictures made it to the cover of the **Notices** an explanation was included by the cover-editor</p>
+<blockquote><p>
+About the Cover : </p>
+<p>The image on this month&#8217;s cover arose from<br />
+Joachim Cuntz&#8217;s effort to render into visible art<br />
+his own internal vision of a noncommutative<br />
+torus, an object otherwise quite abstract. His<br />
+original idea was then implemented by his son<br />
+Michael in a program written in Pascal.  More<br />
+explicitly, he says that the construction started<br />
+out with a triangle in a square, then translated<br />
+the triangle by integers times a unit along a line<br />
+with irrational slope; plotted the images thus<br />
+obtained in a periodic manner;  and stopped<br />
+just before the figure started to seem cluttered. <br />
+Many mathematicians carry around inside<br />
+their heads mental images of the abstractions<br />
+they work with, and manipulate these objects<br />
+somehow in conformity with their mental imagery. They probably also make aesthetic judgements of the value of their work according to<br />
+the visual qualities of the images. These presumably common phenomena remain a rarely<br />
+explored domain in either art or psychology. </p>
+<p>—Bill Casselman(covers@ams.org)
+</p></blockquote>
+<p>There can be no technical meaning to the pictures as in the Connes and Cuntz&amp;Quillen approach there is only a noncommutative algebra and _not_ an underlying geometric space, so there is no topology, let alone a noncommutative topology. Of course, I do understand why Cuntz&amp;others name it as such. They view the noncommutative algebra as the ring of functions on some virtual noncommutative space and they compute topological invariants (such as K-groups) of the algebras and interprete them as information about the noncommutative topology of these virtual and unspecified spaces.</p>
+<p>Still, it is perfectly possible to associate to a qurve (aka quasi-free algebra or formally smooth algebra) a genuine noncommutative topological space. In this series of posts I&#8217;ll explain the little I know of the history of this topic, the thing I posted about it a couple of years ago, why I abandoned the project and the changes I made to it since and the applications I have in mind, both to new problems (such as the birational_classification of qurves) as well as classical problems (such as rationality problems for $PGL_n $ quotient spaces).</p>
+<p>Although others have tried to define noncommutative topologies before, I learned about them from <a href="http://www.math.ua.ac.be/algebra/member.php?who=freddy.van.oystaeyen">Fred Van Oystaeyen</a>. Fred spend the better part of his career constructing structure sheaves associated to noncommutative algebras, mainly to prime Noetherian algebras (the algebras of preference for the majority of non-commutative algebraists). So, suppose you have an ordinary (meaning, the usual commutative definition) topological space X associated to this algebra R, he wants to define an algebra of sections on every open subset $X(\sigma) $ by taking a suitable localization of the algebra $Q_{\sigma}(R) $. This localization is taken with respect to a suitable filter of left ideals $\mathcal{L}(\sigma) $ of R and is defined to be the subalgebra of the classiocal quotient ring $Q(R) $ (which exists because $R$ is prime Noetherian in which case it is a simple Artinian algebra)</p>
+<p>$Q_{\sigma}(R) = { q \in Q(R)~|~\exists L \in \mathcal{L}(\sigma)~:~L q \subset R } $</p>
+<p>(so these localizations are generalizations of the usual Ore-type rings of fractions). But now we come to an essential point : if we want to glue this rings of sections together on an intersection $X(\sigma) \cap X(\tau) $ we want to do this by &#8216;localizing further&#8217;. However, there are two ways to do this, either considering $~Q_{\sigma}(Q_{\tau}(R)) $ or considering $Q_{\tau}(Q_{\sigma}(R)) $ and these two algebras are only the same if we impose fairly heavy restrictions on the filters (or on the algebra) such as being compatible.</p>
+<p>As this gluing property is essential to get a sheaf of noncommutative algebras we seem to get stuck in the general (non compatible) case. Fred&#8217;s way out was to make a distinction between the intersection $X_{\sigma} \cap X_{\tau} $ (on which he put the former ring as its ring of sections) and the intersection $X_{\tau} \cap X_{\sigma} $ (on which he puts the latter one). So, the crucial new ingredient in a noncommutative topology is that the order of intersections of opens matter !!!</p>
+<p>Of course, this is just the germ of an idea. He then went on to properly define what a noncommutative topology (and even more generally a noncommutative Grothendieck topology) should be by using this localization-example as guidance. I will not state the precise definition here (as I will have to change it slightly later on) but early version of it can be found in the Antwerp Ph.D. thesis by Luc Willaert (1995) and in Fred&#8217;s book <a href="http://www.amazon.com/gp/product/082470424X/102-5714622-6578538?v=glance&amp;n=283155">Algebraic geometry for associative algebras</a>.</p>
+<p>Although _qurves_ are decidedly non-Noetherian (apart from trivial cases), one can use Fred&#8217;s idea to associate a noncommutative topological space to a qurve as I will explain next time. The quick and impatient may already sneak at my old note <a href="http://www.arxiv.org/abs/math.RA/0307138">a non-commutative topology on rep A</a> but please bear in mind that I changed my mind since on several issues&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-topology-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>25 years monstrous moonshine</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/25-years-monstrous-moonshine/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/25-years-monstrous-moonshine/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 21 Apr 2004 09:08:58 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[rationality]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=151</guid>
+
+					<description><![CDATA[Writing a survey paper is a highly underestimated task. I once tried it out with \&#8217;Centers of generic division algebras : the rationality problem 1965-1990\&#8217;&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/themonster.jpg" style="float:left;margin-right:10px;" />  Writing a survey paper is a highly underestimated task. I once<br />
+tried it out with \&#8217;Centers of generic division algebras : the<br />
+rationality problem 1965-1990\&#8217; and it took me a lot of time and that<br />
+was on a topic with only 10 to 15 key papers to consider&#8230; The task of<br />
+writing a survey paper on a topic with any breadth must be much more<br />
+difficult. Last week, <a href="http://www.math.ualberta.ca/~tgannon/" target="_blank" rel="noopener">Terry Gannon</a> posted a survey paper on the arXiv :<br />
+<a href="http://www.arxiv.org/abs/math.QA/0402345" target="_blank" rel="noopener">Monstrous Moonshine : The first twenty-five years</a><br />
+which gives a very readable introduction to this exciting topic. It has<br />
+a marvelous opening line : </p>
+<blockquote><p>It has been approximately<br />
+twenty-five years since John McKay remarked that</p>
+<pre>196 884 = 196 883 +
+ 1</pre>
+</blockquote>
+<p>Anyone who is puzzled by this line (&#8220;So what?&#8221;)<br />
+should definitely have a go at this paper! Still not convinced? Here is<br />
+the second sentence :</p>
+<blockquote><p>That time has seen the discovery of<br />
+important structures, the establishment of another deep connection<br />
+between number theory and algebra, and a reinforcement of a new era of<br />
+cooperation between pure mathematics and mathematical<br />
+physics.</p></blockquote>
+<p>For the remaining sentences (quite a few, the paper<br />
+is 33 pages long) I happily refer you to the paper.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/25-years-monstrous-moonshine/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

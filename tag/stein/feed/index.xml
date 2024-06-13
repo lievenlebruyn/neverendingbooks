@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Stein &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/stein/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 22 Jul 2019 11:47:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Monstrous dessins 1</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 22 Jul 2019 11:47:59 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[dessins d'enfant]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[McKay]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Ono]]></category>
+		<category><![CDATA[Stein]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8480</guid>
+
+					<description><![CDATA[Dedekind&#8217;s Psi-function $\Psi(n)= n \prod_{p &#124;n}(1 + \frac{1}{p})$ pops up in a number of topics: $\Psi(n)$ is the index of the congruence subgroup $\Gamma_0(n)$ in&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6">Dedekind&#8217;s Psi-function</a> $\Psi(n)= n \prod_{p |n}(1 + \frac{1}{p})$ pops up in a number of topics:</p>
+<ul>
+<li>$\Psi(n)$ is the index of the congruence subgroup $\Gamma_0(n)$ in the modular group $\Gamma=PSL_2(\mathbb{Z})$,</li>
+<li>$\Psi(n)$ is the number of points in the projective line $\mathbb{P}^1(\mathbb{Z}/n\mathbb{Z})$,</li>
+<li>$\Psi(n)$ is the number of classes of $2$-dimensional lattices $L_{M \frac{g}{h}}$ at hyperdistance $n$ in <a href="https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative">Conway&#8217;s big picture</a> from the standard lattice $L_1$,</li>
+<li>$\Psi(n)$ is the number of admissible maximal commuting sets of operators in the Pauli group of a single qudit.</li>
+</ul>
+<p>The first and third interpretation have obvious connections with <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">Monstrous Moonshine</a>.</p>
+<p>Conway&#8217;s big picture originated from the desire to better understand the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups">Moonshine groups</a>, and <a href="https://arxiv.org/pdf/1411.5354.pdf">Ogg&#8217;s Jack Daniels problem</a><br />
+asks for a conceptual interpretation of the fact that the prime numbers such that $\Gamma_0(p)^+$ is a genus zero group are exactly the prime divisors of the order of the Monster simple group.</p>
+<p>Here&#8217;s a nice talk by Ken Ono : <a href="https://www.youtube.com/watch?v=Jliw4bpefGU">Can&#8217;t you just feel the Moonshine?</a></p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jliw4bpefGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
+</center></p>
+<p>For this reason it might be worthwhile to make the connection between these two concepts and the number of points of $\mathbb{P}^1(\mathbb{Z}/n\mathbb{Z})$ as explicit as possible.</p>
+<p>Surely all of this is classical, but it is nicely summarised in the paper by Tatitscheff, He and McKay <a href="https://arxiv.org/abs/1812.11752">&#8220;Cusps, congruence groups and monstrous dessins&#8221;</a>.</p>
+<p>The &#8216;monstrous dessins&#8217; from their title refers to the fact that the lattices $L_{M \frac{g}{h}}$ at hyperdistance $n$ from $L_1$ are permuted by the action of the modular groups and so determine a <a href="https://en.wikipedia.org/wiki/Dessin_d%27enfant">Grothendieck&#8217;s dessin d&#8217;enfant</a>. In this paper they describe the dessins corresponding to the $15$ genus zero congruence subgroups $\Gamma_0(n)$, that is when $n=1,2,3,4,5,6,7,8,9,10,12,13,16,18$ or $25$.</p>
+<p>Here&#8217;s the &#8216;monstrous dessin&#8217; for $\Gamma_0(6)$</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/dessin6.jpg" width=50%><br />
+</center></p>
+<p>But, one can compute these dessins for arbitrary $n$, describing the ripples in Conway&#8217;s big picture, and try to figure out whether they are consistent with the Riemann hypothesis.</p>
+<p>We will get there eventually, but let&#8217;s start at an easy pace and try to describe <strong>the points of the projective line $\mathbb{P}^1(\mathbb{Z}/n \mathbb{Z})$</strong>.</p>
+<p>Over a field $k$ the points of $\mathbb{P}^1(k)$ correspond to the lines through the origin in the affine plane $\mathbb{A}^2(k)$ and they can represented by projective coordinates $[a:b]$ which are equivalence classes of couples $(a,b) \in k^2- \{ (0,0) \}$ under scalar multiplication with non-zero elements in $k$, so with points $[a:1]$ for all $a \in k$ together with the point at infinity $[1:0]$. When $n=p$ is a prime number we have $\# \mathbb{P}^1(\mathbb{Z}/p\mathbb{Z}) = p+1$. Here are the $8$ lines through the origin in $\mathbb{A}^2(\mathbb{Z}/7\mathbb{Z})$</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/projline7.png" width=60%><br />
+</center></p>
+<p>Over an arbitrary (commutative) ring $R$ the points of $\mathbb{P}^1(R)$ again represent equivalence classes, this time of pairs<br />
+\[<br />
+(a,b) \in R^2~:~aR+bR=R \]<br />
+with respect to scalar multiplication by units in $R$, that is<br />
+\[<br />
+(a,b) \sim (c,d)~\quad~\text{iff}~\qquad \exists \lambda \in R^*~:~a=\lambda c, b = \lambda d \]<br />
+For $\mathbb{P}^1(\mathbb{Z}/n \mathbb{Z})$ we have to find all pairs of integers $(a,b) \in \mathbb{Z}^2$ with $0 \leq a,b < n$ with $gcd(a,b)=1$ and use <a ref="https://homepages.warwick.ac.uk/staff/J.E.Cremona/papers/gamma1x.pdf">Cremona&#8217;s trick</a> to test for equivalence:<br />
+\[<br />
+(a,b) = (c,d) \in \mathbb{P}^1(\mathbb{Z}/n \mathbb{Z})~\quad \text{iff}~\quad ad-bc \equiv 0~mod~n \]<br />
+The problem is to find a canonical representative in each class in an efficient way because this is used a huge number of times in working with modular symbols.</p>
+<p>Perhaps the best algorithm, for large $n$, is sketched in pages 145-146 of Bill Stein&#8217;s <a href="https://wstein.org/books/modform/stein-modform.pdf">Modular forms: a computational approach</a>.</p>
+<p>For small $n$ the algorithm in $\S 1.3$ in the Tatitscheff, He and McKay paper suffices:</p>
+<ul>
+<li>Consider the action of $(\mathbb{Z}/n\mathbb{Z})^*$ on $\{ 0,1,&#8230;,n-1 \}=\mathbb{Z}/n\mathbb{Z}$ and let $D$ be the set of the smallest elements in each orbit,</li>
+<li>For each $d \in D$ compute the stabilizer subgroup $G_d$ for this action and let $C_d$ be the set of smallest elements in each $G_d$-orbit on the set of all elements in $\mathbb{Z}/n \mathbb{Z}$ coprime with $d$,</li>
+<li>Then $\mathbb{P}^1(\mathbb{Z}/n\mathbb{Z})= \{ [c:d]~|~d \in D, c \in C_d \}$.</li>
+</ul>
+<p>Let&#8217;s work this out for $n=12$ which will be our running example (the smallest non-squarefree non-primepower):</p>
+<ul>
+<li>$(\mathbb{Z}/12\mathbb{Z})^* = \{ 1,5,7,11 \} \simeq C_2 \times C_2$,</li>
+<li>The orbits on $\{ 0,1,&#8230;,11 \}$ are<br />
+\[<br />
+\{ 0 \}, \{ 1,5,7,11 \}, \{ 2,10 \}, \{ 3,9 \}, \{ 4,8 \}, \{ 6 \} \]<br />
+and $D=\{ 0,1,2,3,4,6 \}$,</li>
+<li>$G_0 = C_2 \times C_2$, $G_1 = \{ 1 \}$, $G_2 = \{ 1,7 \}$, $G_3 = \{ 1,5 \}$, $G_4=\{ 1,7 \}$ and $G_6=C_2 \times C_2$,</li>
+<li>$1$ is the only number coprime with $0$, giving us $[1:0]$,</li>
+<li>$\{ 0,1,&#8230;,11 \}$ are all coprime with $1$, and we have trivial stabilizer, giving us the points $[0:1],[1:1],&#8230;,[11:1]$,</li>
+<li>$\{ 1,3,5,7,9,11 \}$ are coprime with $2$ and under the action of $\{ 1,7 \}$ they split into the orbits<br />
+\[<br />
+\{ 1,7 \},~\{ 3,9 \},~\{ 5,11 \} \]<br />
+giving us the points $[1:2],[3:2]$ and $[5:2]$,</li>
+<li>$\{ 1,2,4,5,7,8,10,11 \}$ are coprime with $3$, the action of $\{ 1,5 \}$ gives us the orbits<br />
+\[<br />
+\{ 1,5 \},~\{ 2,10 \},~\{ 4,8 \},~\{ 7,11 \} \]<br />
+and additional points $[1:3],[2:3],[4:3]$ and $[7:3]$,</li>
+<li>$\{ 1,3,5,7,9,11 \}$ are coprime with $4$ and under the action of $\{ 1,7 \}$ we get orbits<br />
+\[<br />
+\{ 1,7 \},~\{ 3,9 \},~\{ 5,11 \} \]<br />
+and points $[1:4],[3:4]$ and $[5,4]$,</li>
+<li>Finally, $\{ 1,5,7,11 \}$ are the only coprimes with $6$ and they form a single orbit under $C_2 \times C_2$ giving us just one additional point $[1:6]$.</li>
+</ul>
+<p>This gives us all $24= \Psi(12)$ points of $\mathbb{P}^1(\mathbb{Z}/12 \mathbb{Z})$ (strangely, op page 43 of the T-H-M paper they use different representants).</p>
+<p>One way to see that $\# \mathbb{P}^1(\mathbb{Z}/n \mathbb{Z}) = \Psi(n)$ comes from a consequence of the Chinese Remainder Theorem that for the prime factorization $n = p_1^{e_1} &#8230; p_k^{e_k}$ we have<br />
+\[<br />
+\mathbb{P}^1(\mathbb{Z}/n \mathbb{Z}) = \mathbb{P}^1(\mathbb{Z}/p_1^{e_1} \mathbb{Z}) \times &#8230; \times \mathbb{P}^1(\mathbb{Z}/p_k^{e_k} \mathbb{Z}) \]<br />
+and for a prime power $p^k$ we have canonical representants for $\mathbb{P}^1(\mathbb{Z}/p^k \mathbb{Z})$<br />
+\[<br />
+[a:1]~\text{for}~a=0,1,&#8230;,p^k-1~\quad \text{and} \quad [1:b]~\text{for}~b=0,p,2p,3p,&#8230;,p^k-p \]<br />
+which shows that $\# \mathbb{P}^1(\mathbb{Z}/p^k \mathbb{Z}) = (p+1)p^{k-1}= \Psi(p^k)$.</p>
+<p>Next time, we&#8217;ll connect $\mathbb{P}^1(\mathbb{Z}/n \mathbb{Z})$ to Conway&#8217;s big picture and the congruence subgroup $\Gamma_0(n)$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

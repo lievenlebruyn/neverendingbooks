@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Alain Connes on his RH-project	</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project/</link>
+	<description></description>
+	<lastBuildDate>Wed, 29 Dec 2021 18:05:58 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>
+		By: Ts		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project/#comment-126</link>
+
+		<dc:creator><![CDATA[Ts]]></dc:creator>
+		<pubDate>Wed, 29 Dec 2021 18:05:58 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9879#comment-126</guid>
+
+					<description><![CDATA[A quick glance at the recent arXiv:2112.08820 and the earlier arXiv:2106.01715 seems to show that they have managed to get several coherent results around the characterization of the critical zeros of zeta, but that there are still several subtleties involved before really getting near RH.
+
+Another topic which you once followed is the work of Mochizuki. Have you seen the recent complementary work arXiv:2111.04890 and arXiv:2111.06771 of Joshi? It seems entirely based in conventional math (the Fargues-Fontaine curve and Berkovich geometry), yet able to confirm some of the claims of Mochizuki (and rebuking some of the identifications of Scholze and Stix).]]></description>
+			<content:encoded><![CDATA[<p>A quick glance at the recent arXiv:2112.08820 and the earlier arXiv:2106.01715 seems to show that they have managed to get several coherent results around the characterization of the critical zeros of zeta, but that there are still several subtleties involved before really getting near RH.</p>
+<p>Another topic which you once followed is the work of Mochizuki. Have you seen the recent complementary work arXiv:2111.04890 and arXiv:2111.06771 of Joshi? It seems entirely based in conventional math (the Fargues-Fontaine curve and Berkovich geometry), yet able to confirm some of the claims of Mochizuki (and rebuking some of the identifications of Scholze and Stix).</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

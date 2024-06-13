@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>2004 &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/2004/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 31 Dec 2003 17:04:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>a blogging 2004</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-blogging-2004/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-blogging-2004/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 31 Dec 2003 17:04:59 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[2004]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[OSX]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=68</guid>
+
+					<description><![CDATA[As it is probably better to run years behind than to stand eternally still, I&#8217;ll try out how much of a blogger I am in&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/RebeccaBlood.jpg" style="float:left;margin-right:10px;" /><br />
+As it is probably better to run years behind than to stand eternally still, I&#8217;ll try out how much of a <em>blogger</em> I am in 2004. If you want to read more about blogging, <a href="http://www.rebeccablood.net/index.html">Rebecca&#8217;s pocket</a> is a good place to start. She has written an <a href="http://www.rebeccablood.net/essays/weblog_history.html">essay on the early days of<br />
+the weblog</a>, an article on <a href="http://www.rebeccablood.net/handbook/excerpts/weblog_ethics.html">weblog ethics</a> and a couple of (pretty obvious) <a href="http://www.rebeccablood.net/essays/ten_tips.html">tips</a> for a better<br />
+weblog.</p>
+<p>But let us not talk about &#8216;better&#8217; or &#8216;ethical&#8217; at this moment, I&#8217;m just starting out. Give me a couple of weeks/months to develop my own style and topics and I&#8217;ll change the layout accordingly.</p>
+<p>For now, I&#8217;ve taken the free blog-tool <a href="http://www.pmachine.com/">pMachine</a> which uses only PHP and MySQL on the server-side so I should be able to get the layout suited to my own mood shortly. A major advantage of a weblog over a homepage is that you can feed it to programs called <em>news aggregators</em> by subscribing.</p>
+<p>The program can then be tuned so that it ventures out on the net at regular intervals checking whether any of the blogs it is subscribed to has new material and reports back with the running title and opening lines.</p>
+<p> If more people would turn their homepages into weblogs, the frustrating job of checking (usually in vain) whether their pages has been updated could be left to the aggregator. For now, I&#8217;m using <a href="http://ranchero.com/netnewswire/">Rancheros&#8217;s NetNewsWire</a> as my Mac OSX news<br />
+aggregator.</p>
+<p>Okay, now it is time to make some final preparations for endyear, but tomorrow I&#8217;ll wake up to become a <em>blogger</em>&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-blogging-2004/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title>On2 : extending Lenstra’s list &#8211; neverendingbooks</title>
+<meta name="robots" content="max-image-preview:large">
+
+<script>MathJax = {
+  tex: {
+    inlineMath: [['$','$'],['\\(','\\)']], 
+    processEscapes: true
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore|editor-rich-text'
+  }
+};</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="template" content="Founder 1.55">
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="neverendingbooks &raquo; Feed" href="https://lievenlebruyn.github.io/neverendingbooks/feed/">
+<link rel="alternate" type="application/rss+xml" title="neverendingbooks &raquo; Comments Feed" href="https://lievenlebruyn.github.io/neverendingbooks/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="neverendingbooks &raquo; On2 : extending Lenstra’s list Comments Feed" href="https://lievenlebruyn.github.io/neverendingbooks/on2-extending-lenstras-list/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/lievenlb.local\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.4"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://lievenlebruyn.github.io/neverendingbooks/wp-includes/css/dist/block-library/style.min.css?ver=6.5.4" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 11px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--regular: 16px;--wp--preset--font-size--larger: 36px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="ct-founder-google-fonts-css" href="//fonts.googleapis.com/css?family=Noto+Sans%3A400%2C700%2C400i&#038;display=swap&#038;subset=latin%2Clatin-ext&#038;ver=6.5.4" type="text/css" media="all">
+<link rel="stylesheet" id="ct-founder-font-awesome-css" href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/themes/founder/assets/font-awesome/css/all.min.css?ver=6.5.4" type="text/css" media="all">
+<link rel="stylesheet" id="ct-founder-style-css" href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/themes/founder/style.css?ver=6.5.4" type="text/css" media="all">
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<!--[if IE 8]>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/themes/founder/js/build/html5shiv.min.js?ver=6.5.4" id="ct-founder-html5-shiv-js"></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="https://lievenlebruyn.github.io/neverendingbooks/wp-json/">
+<link rel="alternate" type="application/json" href="https://lievenlebruyn.github.io/neverendingbooks/wp-json/wp/v2/posts/1017">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://lievenlebruyn.github.io/neverendingbooks/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.5.4">
+<link rel="canonical" href="https://lievenlebruyn.github.io/neverendingbooks/on2-extending-lenstras-list/">
+<link rel="shortlink" href="https://lievenlebruyn.github.io/neverendingbooks/?p=1017">
+<link rel="alternate" type="application/json+oembed" href="https://lievenlebruyn.github.io/neverendingbooks/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps%3A%2F%2Flievenlebruyn.github.io%2Fneverendingbooks%2Fon2-extending-lenstras-list%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://lievenlebruyn.github.io/neverendingbooks/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps%3A%2F%2Flievenlebruyn.github.io%2Fneverendingbooks%2Fon2-extending-lenstras-list%2F#038;format=xml">
+</head>
+
+<body id="founder" class="post-template-default single single-post postid-1017 single-format-standard full-post singular singular-post singular-post-1017">
+			<a class="skip-content" href="#main">Skip to content &rarr;</a>
+	<div id="overflow-container" class="overflow-container">
+		<div id="max-width" class="max-width">
+									<header class="site-header" id="site-header" role="banner">
+				<div id="title-container" class="title-container">
+					<div id="site-title" class="site-title"><a href="https://lievenlebruyn.github.io/neverendingbooks/">neverendingbooks</a></div>									</div>
+				<button id="toggle-navigation" class="toggle-navigation" name="toggle-navigation" aria-expanded="false">
+					<span class="screen-reader-text">open menu</span>
+					<i class="fas fa-bars" title="primary menu icon" aria-hidden="true"></i>
+				</button>
+				<div id="menu-primary-container" class="menu-primary-container">
+					<div id="menu-primary" class="menu-container menu-primary" role="navigation">
+	<div class="menu-unset"></div>
+</div>
+					<ul class="social-media-icons">                    <li>
+                        <a class="twitter" target="_blank" href="http://x.com/lievenlb/with_replies" aria-label="twitter">
+                            <i class="fab fa-twitter-square" title="twitter"></i>
+                            <span class="screen-reader-text">twitter</span>
+                        </a>
+                    </li>
+                    						<li>
+							<a class="email" target="_blank" href="mailto:&#108;ieve&#110;&#46;leb&#114;&#117;y&#110;&#64;&#117;a&#110;twe&#114;&#112;&#101;&#110;&#46;be" aria-label="email &#108;ieve&#110;&#46;leb&#114;&#117;y&#110;&#64;&#117;a&#110;twe&#114;&#112;&#101;&#110;&#46;be">
+								<i class="fas fa-envelope" title="email"></i>
+								<span class="screen-reader-text">email</span>
+							</a>
+						</li>
+					</ul>									</div>
+			</header>
+										<aside class="sidebar sidebar-primary" id="sidebar-primary" role="complementary">
+		<h1 class="screen-reader-text">Sidebar</h1>
+		<button id="toggle-sidebar" class="toggle-sidebar" name="toggle-sidebar" aria-expanded="false">
+			<span class="screen-reader-text">open sidebar</span>
+			<i class="fas fa-angle-down" title="sidebar icon" aria-hidden="true"></i>
+		</button>
+		<div id="sidebar-primary-content" class="sidebar-primary-content">
+			<div id="sidebar-primary-widgets" class="sidebar-primary-widgets active-3">
+				<section id="block-2" class="widget widget_block widget_search"><form role="search" method="get" action="https://lievenlebruyn.github.io/neverendingbooks/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search">
+<label class="wp-block-search__label" for="wp-block-search__input-1">Search</label><div class="wp-block-search__inside-wrapper ">
+<input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="" value="" type="search" name="s" required><button aria-label="Search" class="wp-block-search__button wp-element-button" type="submit">Search</button>
+</div>
+</form></section><section id="block-3" class="widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading">Recent Posts</h2>
+<ul class="wp-block-latest-posts__list wp-block-latest-posts">
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/">Vialism versus Weilism</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/">What about  Simone Weil?</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/">Clancy and Nancago</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/">Bourbaki and Dema, two remarks</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/closure/">Closure</a></li>
+</ul>
+</div></div></section><section id="block-4" class="widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading">Recent Comments</h2>
+<ol class="wp-block-latest-comments">
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">Shane</span> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-173">Clancy and Nancago</a></footer></article></li>
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">Shane</span> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-172">Clancy and Nancago</a></footer></article></li>
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><a class="wp-block-latest-comments__comment-author" href="http://www.neverendingbooks.org/">lievenlb</a> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-171">Clancy and Nancago</a></footer></article></li>
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">Shane</span> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-170">Clancy and Nancago</a></footer></article></li>
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">Party Poison</span> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-169">Clancy and Nancago</a></footer></article></li>
+</ol>
+</div></div></section>			</div>
+		</div>
+	</aside>
+
+						<section id="main" class="main" role="main">
+				
+<div id="loop-container" class="loop-container">
+	<div class="post-1017 post type-post status-publish format-standard hentry category-games category-number-theory tag-conway tag-lenstra entry">
+		<article>
+		<div class="post-header">
+			<h1 class="post-title">On2 : extending Lenstra’s list</h1>
+			
+<div class="post-meta">
+	<p>
+		Published January 27, 2009 by lieven	</p>
+</div>		</div>
+				<div class="post-content">
+						<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Lenstra1P.jpg" style="float:right;margin-left:10px;">We <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/on2-conways-nim-arithmetics.html">have seen</a> that John Conway defined a nim-addition and nim-multiplication on the ordinal numbers in such a way that the subfield $[\omega^{\omega^{\omega}}] \simeq \overline{\mathbb{F}}_2 $ is the algebraic closure of the field on two elements. We&#8217;ve also seen how to do actual calculations in that field provided we can determine the mystery elements $\alpha_p $, which are the smallest ordinals not being a p-th power of ordinals lesser than $[\omega^{\omega^{k-1}}] $ if $p $ is the $k+1 $-th prime number.</p>
+<p><a href="http://en.wikipedia.org/wiki/Hendrik_Lenstra">Hendrik Lenstra</a> came up with an effective method to compute these elements $\alpha_p $ requiring a few computations in certain finite fields. I&#8217;ll give a rundown of his method and refer to his 1977-paper <a href="https://www.openaccess.leidenuniv.nl/bitstream/1887/3796/1/346_026.pdf">&#8220;On the algebraic closure of two&#8221;</a> for full details.</p>
+<p>For any ordinal $\alpha &lt; \omega^{\omega^{\omega}} $ define its degree $d(\alpha) $ to be the degree of minimal polynomial for $\alpha $ over $\mathbb{F}_2 = [2] $ and for each prime number $p $ let $f(p) $ be the smallest number $h $ such that $p $ is a divisor of $2^h-1 $ (clearly $f(p) $ is a divisor of $p-1 $).</p>
+<p>In the previous post we have already defined ordinals $\kappa_{p^k}=[\omega^{\omega^{k-1}.p^{n-1}}] $ for prime-power indices, but we now need to extend this definition to allow for all indices. So. let $h $ be a natural number, $p $ the smallest prime number dividing $h $ and $q $ the highest power of $p $ dividing $h $. Let $g=[h/q] $, then Lenstra defines</p>
+<p>$\kappa_h = \begin{cases} \kappa_q~\text{if q divides}~d(\kappa_q)~\text{ and} \\ \kappa_g + \kappa_q = [\kappa_g + \kappa_q]~\text{otherwise} \end{cases} $</p>
+<p>With these notations, the main result asserts the existence of natural numbers $m,m&#8217; $ such that</p>
+<p>$\alpha_p = [\kappa_{f(p)} + m] = [\kappa_{f(p)}] + m&#8217; $</p>
+<p>Now, assume by induction that we have already determined the mystery numbers $\alpha_r $ for all odd primes $r &lt; p $, then by teh argument of last time we can effectively compute in the field $[\kappa_p] $. In particular, we can compute for every element its multiplicative order $ord(\beta) $ and therefore also its degree $d(\beta) $ which has to be the smallest number $h $ such that $ord(\beta) $ divides $[2^h-1] $.</p>
+<p>Then, by the main result we only have to determine the smallest number m such that $\beta = [\kappa_{f(p)} +m] $ is not a p-th power in $\kappa_p $ which is equivalent to the condition that</p>
+<p>$\beta^{(2^{d(\beta)}-1)/p} \not= 1 $ if $p $ divides $[2^{d(\beta)}-1] $</p>
+<p>All these conditions can be verified within suitable finite fields and hence are effective. In this manner, Lenstra could extend Conway&#8217;s calculations (probably using a home-made finite field program running on a slow 1977 machine) :</p>
+<p>[tex]\begin{array}{c|c|c} p &amp; f(p) &amp; \alpha_p \\ \hline  3 &amp; 2 &amp; [2] \\ 5 &amp; 4 &amp; [4] \\ 7 &amp; 3 &amp; [\omega]+1 \\ 11 &amp; 10 &amp; [\omega^{\omega}]+1 \\ 13 &amp; 12 &amp; [\omega]+4 \\ 17 &amp; 8 &amp; [16] \\ 19 &amp; 18 &amp; [\omega^3]+4 \\ 23 &amp; 11 &amp; [\omega^{\omega^3}]+1 \\ 29 &amp; 28 &amp; [\omega^{\omega^2}]+4 \\ 31 &amp; 5 &amp; [\omega^{\omega}]+1 \\ 37 &amp; 36 &amp; [\omega^3]+4 \\ 41 &amp; 20 &amp; [\omega^{\omega}]+1 \\ 43 &amp; 14 &amp; [\omega^{\omega^2}]+ 1 \end{array}[/tex]</p>
+<p>Right, so let&#8217;s try the case $p=47 $. To begin, $f(47)=23 $ whence we have to determine the smallest field containg $\kappa_{23} $. By induction (Lenstra&#8217;s tabel) we know already that</p>
+<p>$\kappa_{23}^{23} = \kappa_{11} + 1 = [\omega^{\omega^3}]+1 $ and $\kappa_{11}^{11} = \kappa_5 + 1 = [\omega^{\omega}]+1 $ and $\kappa_5^5=[4] $</p>
+<p>Because the smallest field containg $4 $ is $[16]=\mathbb{F}_{2^4} $ we have that $\mathbb{F}_2(4,\kappa_5,\kappa_{11}) \simeq \mathbb{F}_{2^{220}} $. We can construct this finite field, together with a generator $a $ of its multiplicative group in <a href="http://www.sagemath.org/">Sage</a> via</p>
+<p><code><br>
+sage: f1.&lt; a &#62;=GF(2^220)<br>
+</code></p>
+<p>In this field we have to pinpoint the elements $4,\kappa_5 $ and $\kappa_{11} $. As $4 $ has order $15 $ in $\mathbb{F}_{2^4} $ we know that $\kappa_5 $ has order $75 $. Hence we can take $\kappa_5 = a^{(2^{220}-1)/75} $ and then $4=\kappa_5^5 $.</p>
+<p>If we denote $\kappa_5 $ by x5 we can obtain $\kappa_{11} $ as x11 by the following sage-commands</p>
+<p><code><br>
+sage: c=x5+1</code></p>
+<p>sage: x11=c.nth_root(11)<br>
+</p>
+<p>It takes about 7 minutes to find x11 on a 2.4 GHz MacBook. Next, we have to set up the field extension determined by $\kappa_{23} $ (which we will call x in sage). This is done as follows</p>
+<p><code><br>
+sage: p1.<x>=PolynomialRing(f1)</x></code></p>
+<p>sage: f=x^23-x11-1</p>
+<p>sage: F2=f1.extension(f,'u')<br>
+</p>
+<p>The MacBook needed 8 minutes to set up this field which is isomorphic to $\mathbb{F}_{2^{5060}} $. The relevant number is therefore $n=\frac{2^{5060}-1}{47} $ which is the gruesome</p>
+<p>34648162040462867047623719793206539850507437636617898959901744136581&lt;br/><br>
+259144476645069239839415478030722644334257066691823210120548345667203443&lt;br/><br>
+317743531975748823386990680394012962375061822291120459167399032726669613<br>
+&lt;br/><br>
+442804392429947890878007964213600720766879334103454250982141991553270171<br>
+<br>
+938532417844211304203805934829097913753132491802446697429102630902307815<br>
+<br>
+301045433019807776921086247690468136447620036910689177286910624860871748<br>
+<br>
+150613285530830034500671245400628768674394130880959338197158054296625733<br>
+<br>
+206509650361461537510912269982522844517989399782602216622257291361930850<br>
+<br>
+885916974186835958466930689748400561295128553674118498999873244045842040<br>
+<br>
+080195019701984054428846798610542372150816780493166669821114184374697446<br>
+<br>
+637066566831036116390063418916814141753876530004881539570659100352197393<br>
+<br>
+997895251223633176404672792711603439161147155163219282934597310848529360<br>
+<br>
+118189507461132290706604796116111868096099527077437183219418195396666836<br>
+<br>
+014856037176421475300935193266597196833361131333604528218621261753883518<br>
+<br>
+667866835204501888103795022437662796445008236823338104580840186181111557<br>
+<br>
+498232520943552183185687638366809541685702608288630073248626226874916669<br>
+<br>
+186372183233071573318563658579214650042598011275864591248749957431967297<br>
+<br>
+975078011358342282941831582626985121760847852546207377440873367589369439<br>
+<br>
+085660784239080183415569559585998884824991911321095149718147110882474280<br>
+<br>
+968166266224151511519773175933506503369761671964823112231808283557885030<br>
+<br>
+984081329986188655169245595411930535264918359325712373064120338963742590<br>
+<br>
+76555755141425</p>
+<p>Remains &#8216;only&#8217; to take x,x+1,etc. to the n-th power and verify which is the first to be unequal to 1. For this it is best to implement the usual powering trick (via digital expression of the exponent) in the field F2, something like</p>
+<p><code><br>
+sage: def power(e,n):<br>
+   ...:         le=n.bits()<br>
+   ...:     v=n.digits()<br>
+   ...:     mn=F2(e)<br>
+   ...:     out=F2(1)<br>
+   ...:     i=0<br>
+   ...:     while i&lt; le :<br>
+   ...:              if v[i]==1 : out=F2(out_mn)<br>
+   ...:          m=F2(mn_mn)<br>
+   ...:          mn=F2(m)<br>
+   ...:          i=i+1<br>
+   ...:     return(out)<br>
+   ...: <br>
+</code></p>
+<p>then it takes about 20 seconds to verify that power(x,n)=1 but that power(x+1,n) is NOT! That is, we just checked that $\alpha_{47}=\kappa_{11}+1 $.</p>
+<p>It turns out that 47 is the hardest nut to crack, the following primes are easier. Here&#8217;s the data (if I didn&#8217;t make mistakes&#8230;)</p>
+<p>[tex]\begin{array}{c|c|c} p &amp; f(p) &amp; \alpha_p \\ \hline  47 &amp; 23 &amp; [\omega^{\omega^{7}}]+1 \\ 53 &amp; 52 &amp; [\omega^{\omega^4}]+1 \\ 59 &amp; 58 &amp; [\omega^{\omega^8}]+1 \\ 61 &amp; 60 &amp; [\omega^{\omega}]+[\omega] \\ 67 &amp; 66 &amp; [\omega^{\omega^3}]+[\omega] \end{array}[/tex]</p>
+<p>It seems that <a href="http://magma.maths.usyd.edu.au/magma/">Magma</a> is substantially better at finite field arithmetic, so if you are lucky enough to have it you&#8217;ll have no problem finding $\alpha_p $ for all primes less than 100 by the end of the day. If you do, please drop a comment with the results&#8230;</p>
+					</div>
+		<div class="post-after">
+						<p class="post-categories"><span>Published in </span><a href="https://lievenlebruyn.github.io/neverendingbooks/category/games/" title="View all posts in games">games</a> <a href="https://lievenlebruyn.github.io/neverendingbooks/category/number-theory/" title="View all posts in number theory">number theory</a></p>			<div class="post-tags">
+<span>Tagged in</span><ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/tag/conway/" title="View all posts tagged Conway">Conway</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/tag/lenstra/" title="View all posts tagged Lenstra">Lenstra</a></li>
+</ul>
+</div>			<nav class="further-reading">
+	<div class="previous">
+		<span>Previous Post</span>
+		<a href="https://lievenlebruyn.github.io/neverendingbooks/on2-conways-nim-arithmetics/">On2 : Conway’s nim-arithmetics</a>
+	</div>
+	<div class="next">
+		<span>Next Post</span>
+		<a href="https://lievenlebruyn.github.io/neverendingbooks/yet-another-math20-proposal/">yet another math2.0 proposal</a>
+	</div>
+</nav>		</div>
+	</article>
+	
+	<section id="comments" class="comments">
+		<div class="comments-number">
+			<h2>
+				Comments			</h2>
+		</div>
+		<ol class="comment-list">
+					</ol>
+					<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://lievenlebruyn.github.io/neverendingbooks/on2-extending-lenstras-list/#respond" style="display:none;">Cancel reply</a></small>
+</h3>
+<form action="https://lievenlebruyn.github.io/neverendingbooks/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p>
+<p class="comment-form-comment">
+	            <label for="comment">Comment</label>
+	            <textarea required id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+	        </p>
+<p class="comment-form-author">
+	            <label for="author">Name*</label>
+	            <input id="author" name="author" type="text" value="" size="30" aria-required="true">
+	        </p>
+<p class="comment-form-email">
+	            <label for="email">Email*</label>
+	            <input id="email" name="email" type="email" value="" size="30" aria-required="true">
+	        </p>
+<p class="comment-form-url">
+	            <label for="url">Website</label>
+	            <input id="url" name="url" type="url" value="" size="30">
+	            </p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="1017" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>
+</form>	</div>
+<!-- #respond -->
+		</section>
+	</div>
+</div>
+
+</section><!-- .main -->
+
+<footer id="site-footer" class="site-footer" role="contentinfo">
+		<span>
+        <a href="https://www.competethemes.com/founder/" rel="nofollow">Founder WordPress Theme</a> by Compete Themes.    </span>
+</footer>
+
+</div>
+</div>
+<!-- .overflow-container -->
+
+
+        <span class="ssp-id" style="display:none">1017</span>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js?ver=6.5.4" id="mathjax-js"></script>
+<script type="text/javascript" id="ct-founder-js-js-extra">
+/* <![CDATA[ */
+var ct_founder_objectL10n = {"openMenu":"open menu","closeMenu":"close menu","openSidebar":"open sidebar","closeSidebar":"close sidebar"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/themes/founder/js/build/production.min.js?ver=6.5.4" id="ct-founder-js-js"></script>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-includes/js/comment-reply.min.js?ver=6.5.4" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<!--[if IE 8]>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/themes/founder/js/build/respond.min.js?ver=6.5.4" id="ct-founder-respond-js"></script>
+<![endif]-->
+
+</body>
+</html>

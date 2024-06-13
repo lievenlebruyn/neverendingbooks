@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>profinite &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/profinite/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 15 Jan 2011 14:44:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the Reddit (after)effect</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 15 Jan 2011 14:44:31 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[analytics]]></category>
+		<category><![CDATA[blogs]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[links]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[Reddit]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[Wikipedia]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4130</guid>
+
+					<description><![CDATA[Sunday january 2nd around 18hr NeB-stats went crazy. Referrals clarified that the post &#8216;What is the knot associated to a prime?&#8217; was picked up at&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Sunday january 2nd around 18hr NeB-stats went crazy.</p>
+<p>Referrals clarified that the post <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/what-is-the-knot-associated-to-a-prime.html">&#8216;What is the knot associated to a prime?&#8217;</a> was picked up at <a href="http://www.reddit.com/r/math/">Reddit/math</a> and remained nr.1 for about a day.</p>
+<p>Now, the dust has settled, so let&#8217;s learn from the experience.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddit1.jpg"></p>
+<p>A Reddit-mention is to a blog what doping is to a sporter.</p>
+<p>You get an immediate boost in the most competitive of all blog-stats, the number of unique vistors (blue graph), but is doesn&#8217;t result in a long-term effect, and, it may even be harmful to more essential blog-stats, such as the average time visitors spend on your site (yellow graph).</p>
+<p>For NeB the unique vistors/day fluctuate normally around 300, but peaked to 1295 and 1733 on the &#8216;Reddit-days&#8217;. In contrast, the avg. time on site is normally around 3 minutes, but dropped the same days to 44 and 30 seconds!</p>
+<p>Whereas some of the Reddits spend enough time to read the post and <a href="http://www.reddit.com/r/math/comments/ev1gq/what_is_the_knot_associated_to_a_prime/">comment on it</a>, the vast majority zap from one link to the next. Having monitored the <a href="http://www.reddit.com/r/math/">Reddit/math</a> page for two weeks, I&#8217;m convinced that post only made it because it was visually pretty good. The average Reddit/math-er is a viewer more than a reader&#8230;</p>
+<p>So, should I go for shorter, snappier, more visual posts?</p>
+<p>Let&#8217;s compare Reddits to those coming from the three sites giving NeB most referrals : Google search, MathOverflow and Wikipedia.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddit2.jpg"></p>
+<p>This is the traffic coming from Reddit/math, as always the blue graph are the unique visitors, the yellow graph their average time on site, blue-scales to the left, yellow-scales to the right.</p>
+<p>Here&#8217;s the same graph for <a href="http://www.google.com/">Google search</a>. The unique visitors/day fluctuate around 50 and their average time on site about 2 minutes.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/google2.jpg"></p>
+<p>The math-related search terms most used were this month : &#8216;functor of point approach&#8217;, &#8216;profinite integers&#8217; and &#8216;bost-connes sytem&#8217;.</p>
+<p>More rewarding to me are referrals from <a href="http://mathoverflow.net/">MathOverflow</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mathO1.jpg"></p>
+<p>The number of visitors depends on whether the MathO-questions made it to the front-page (for example, the 80 visits on december 15, came from the <a href="http://mathoverflow.net/questions/1909/what-are-dessins-denfants">What are dessins d’enfants?-topic</a> getting an extra comment that very day, and having two references to NeB-posts : <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-best-rejected-proposal-ever.html">The best rejected proposal ever</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/kleins-dessins-denfant-and-the-buckyball.html">Klein’s dessins d’enfant and the buckyball</a>), but even older MathO-topics give a few referrals a day, and these people sure take their time reading the posts (+ 5 minutes).</p>
+<p>Other MathO-topics giving referrals this month were <a href="http://mathoverflow.net//questions/49151/most-intricate-and-most-beautiful-structures-in-mathematics">Most intricate and most beautiful structures in mathematics</a> (linking to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/looking-for-f_un.html">Looking for F-un</a>), <a href="http://mathoverflow.net///questions/28496/what-should-be-learned-in-a-first-serious-schemes-course">What should be learned in a first serious schemes course?</a> (linking to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mumfords-treasure-map.html">Mumford’s treasure map</a> (btw. one of the most visited NeB-posts ever)), <a href="http://mathoverflow.net/questions/14468/how-much-of-scheme-theory-can-you-visualize">How much of scheme theory can you visualize?</a> (linking again to Mumford&#8217;s treasure map) and <a href="http://mathoverflow.net/questions/34699/approaches-to-riemann-hypothesis-using-methods-outside-number-theory">Approaches to Riemann hypothesis using methods outside number theory</a> (linking to the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bost-connes-coset-space.html">Bost-Connes series</a>).</p>
+<p>Finally, there&#8217;s <a href="http://em.wikipedia.org/">Wikipedia</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wikipedia1.jpg"></p>
+<p>giving 5 to 10 referrals a day, with a pretty good time-on-site average (around 4 minutes, peaking to 12 minutes). It is rewarding to see NeB-posts referred to in as diverse Wikipedia-topics as &#8216;Fifteen puzzle&#8217;, &#8216;Field with one element&#8217;, &#8216;Evariste Galois&#8217;, &#8216;ADE classification&#8217;, &#8216;Monster group&#8217;, &#8216;Arithmetic topology&#8217;, &#8216;Dessin d&#8217;enfant&#8217;, &#8216;Groupoid&#8217;, &#8216;Belyi&#8217;s theorem&#8217;, &#8216;Modular group&#8217;, &#8216;Cubic surface&#8217;, &#8216;Esquisse d&#8217;un programme&#8217;, &#8216;N-puzzle&#8217;, &#8216;Shabat polynomial&#8217; and &#8216;Mathieu group&#8217;.</p>
+<p>What lesson should be learned from all this data? Should I go for shorter, snappier and more visual posts, or should I focus on the small group of visitors taking their time reading through a longer post, and don&#8217;t care about the appallingly high <a href="http://en.wikipedia.org/wiki/Bounce_rate">bounce rate</a> the others cause?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What is the knot associated to a prime?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 02 Jan 2011 10:57:35 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arithmetic topology]]></category>
+		<category><![CDATA[etale cohomology]]></category>
+		<category><![CDATA[fundamental group]]></category>
+		<category><![CDATA[knots]]></category>
+		<category><![CDATA[prime numbers]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[reciprocity laws]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3975</guid>
+
+					<description><![CDATA[Sometimes a MathOverflow question gets deleted before I can post a reply&#8230; Yesterday (New-Year) PD1&#38;2 were visiting, so I merely bookmarked the What is the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Sometimes a MathOverflow question gets <a href="http://meta.mathoverflow.net/discussion/792/deleted-questions-with-possibly-substantive-answers/#Item_0">deleted</a> before I can post a reply&#8230;</p>
+<p>Yesterday (New-Year) PD1&amp;2 were visiting, so I merely bookmarked the <a href="http://meta.mathoverflow.net/discussion/873/question-what-is-the-knot-associated-to-a-prime-disappeared/#Item_0">What is the knot associated to a prime?</a>-topic, promising myself to reply to it this morning, only to find out that the page no longer exists.</p>
+<p>From what I recall, the OP interpreted one of my slides of the April 1st-Alumni talk</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/knots23.jpg"></p>
+<p>as indicating that there might be a procedure to assign to a prime number a specific knot. Here&#8217;s the little I know about this :</p>
+<p>Artin-Verdier duality in etale cohomology suggests that $Spec(\mathbb{Z}) $ is a 3-dimensional manifold, as Barry Mazur pointed out in <a href="http://www.numdam.org/numdam-bin/fitem?id=ASENS_1973_4_6_4_521_0">this paper</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/ArtinVerdier.jpg"></p>
+<p>The theory of discriminants shows that there are no non-trivial global etale extensions of $Spec(\mathbb{Z}) $, whence its (algebraic) fundamental group should be trivial. By Poincare-Perelman this then implies that one should view $Spec(\mathbb{Z}) $ as the three-sphere $S^3 $. Note that there is no ambiguity in this direction. However, as there are other rings of integers in number fields having trivial fundamental group, the correspondence is not perfect.</p>
+<p>Okay, but then primes should correspond to certain submanifolds of $S^3 $ and as the algebraic fundamental group of $Spec(\mathbb{F}_p) $ is the profinite completion of $\mathbb{Z} $, the first option that comes to mind are circles</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/primescircles.jpg"></p>
+<p>Hence, primes might be viewed as circles embedded in $S^3 $, that is, as knots! But which knots? Well, as far as I know, nobody has a procedure to assign a knot to a prime number, let alone one having p crossings. What <strong>is</strong> known, however, is that different primes must correspond to different knots</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/differentprimes.jpg"></p>
+<p>because the algebraic fundamental groups of $Spec(\mathbb{Z})- &#123; p &#125; $ differ for distinct primes. This was the statement I wanted to illustrate in the first slide.</p>
+<p>But, the story goes a lot further. Knots may be linked and one can detect this by calculating the link-number, which is symmetric in the two knots. In number theory, the Legendre symbol, plays a similar role thanks to quadratic reciprocity</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Legendre.jpg"></p>
+<p>and hence we can view the Legendre symbol as indicating whether the knots corresponding to different primes are linked or not. Whereas it is natural in knot theory to investigate whether collections of 3, 4 or 27 knots are intricately linked (or not), few people would consider the problem whether one collection of 27 primes differs from another set of 27 primes worthy of investigation.</p>
+<p>There&#8217;s one noteworthy exception, the <a href="http://digitalcommons.mcmaster.ca/dissertations/AAINR36051/">Redei symbol</a> which we can now view as giving information about the link-behavior of the knots associated to three different primes. For example, one can hunt for prime-triples whose knots link as the Borromean rings</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Redei.jpg"></p>
+<p>(note that the knots corresponding to the three primes are not the unknot but more complicated). Here&#8217;s where the story gets interesting : in number-theory one would like to discover &#8216;higher reciprocity laws&#8217; (for collections of n prime numbers) by imitating higher-link invariants in knot-theory. This should be done by trying to correspond filtrations on the fundamental group of the knot-complement to that of the algebraic fundamental group of $Spec(\mathbb{Z})-&#123; p &#125; $ This project is called <a href="http://en.wikipedia.org/wiki/Arithmetic_topology">arithmetic topology</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/arithmetictopology.jpg"></p>
+<p>Perhaps I should make a pod- or vod-cast of that 20 minute talk, one day&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mazur’s knotty dictionary</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 27 Dec 2008 11:24:09 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=468</guid>
+
+					<description><![CDATA[The algebraic fundamental group of a scheme gives the Mazur-Kapranov-Reznikov dictionary between primes in number fields and knots in 3-manifolds.]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/MazurP.jpg" style="float:right;margin-left:10px;">In the previous posts, we have depicted the &#8216;arithmetic line&#8217;, that is the prime numbers, as a &#8216;line&#8217; and individual primes as &#8216;points&#8217;.</p>
+<p>However, sometime in the roaring 60-ties, <a href="http://en.wikipedia.org/wiki/Barry_Mazur">Barry Mazur</a> launched the crazy idea of viewing the affine spectrum of the integers, $\mathbf{spec}(\mathbb{Z}) $, as a 3-dimensional manifold and prime numbers themselves as knots in this 3-manifold&#8230;</p>
+<p>After a long silence, this idea was taken up recently by <a href="http://www.math.toronto.edu/kapranov/">Mikhail Kapranov</a> and <a href="http://books.google.com/books?id=nLaWI8Rc9RYC&amp;dq=Alexander+Reznikov&amp;printsec=frontcover&amp;source=bl&amp;ots=GoAknn2TfZ&amp;sig=eHgN5X04za1PgSfIq2_zhM-D-LQ&amp;hl=en&amp;sa=X&amp;oi=book_result&amp;resnum=3&amp;ct=result">Alexander Reznikov</a> (1960-2003) in a talk at the MPI-Bonn in august 1996. <a href="http://guests.mpim-bonn.mpg.de/moree/">Pieter Moree</a> tells the story in his recollections about Alexander (Sacha) Reznikov in <a href="http://books.google.com/books?id=nLaWI8Rc9RYC&amp;dq=Alexander+Reznikov&amp;printsec=frontcover&amp;source=bl&amp;ots=GoAknn2TfZ&amp;sig=eHgN5X04za1PgSfIq2_zhM-D-LQ&amp;hl=en&amp;sa=X&amp;oi=book_result&amp;resnum=3&amp;ct=result#PPR24,M1">Sipping Tea with Sacha</a> : &#8220;Sasha&#8217;s paper is closely related to his paper where the analogy of covers of three-manifolds and class field theory plays a big role (an analogy that was apparently first noticed by B. Mazur). Sasha and Mikhail Kapranov (at the time also at the institute) were both very interested in this analogy. Eventually, in August 1996, Kapranov and Reznikov both lectured on this (and I explained in about 10 minutes my contribution to Reznikov&#8217;s proof). I was pleased to learn some time ago that this lecture series even made it into the literature, see Morishita&#8217;s &#8216;On certain analogies between knots and primes&#8217; J. reine angew. Math 550 (2002) 141-167.&#8221;</p>
+<p>Here&#8217;s a part of what is now called the <strong>Kapranov-Reznikov-Mazur dictionary</strong> :</p>
+<p><center><br />
+<img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/mazurdictionary.jpg" ><br />
+</center></p>
+<p>What is the rationale behind this dictionary? Well, it all has to do with trying to make sense of the (algebraic) fundamental group $\pi_1^{alg}(X) $ of a general scheme $X $. Recall that for a manifold $M $ there are two different ways to define its fundamental group $\pi_1(M) $ : either as the closed loops in a given basepoint upto homotopy or as the automorphism group of the universal cover $\tilde{M} $ of $M $.</p>
+<p>For an arbitrary scheme the first definition doesn&#8217;t make sense but we can use the second one as we have a good notion of a (finite) cover : an <a href="http://en.wikipedia.org/wiki/Étale_morphism">etale morphism</a> $Y \rightarrow X $ of the scheme $X $. As they form an inverse system, we can take their finite automorphism groups $Aut_X(Y) $ and take their projective limit along the system and call this the algebraic fundamental group $\pi^{alg}_1(X) $.</p>
+<p><a href="http://www.math.leidenuniv.nl/~hwl/">Hendrik Lenstra</a> has written beautiful <a href="http://websites.math.leidenuniv.nl/algebra/GSchemes.pdf">course notes on &#8216;Galois theory for schemes&#8217;</a> on all of this starting from scratch. Besides, there are also two video-lectures available on this at the MSRI-website : <a href="http://www.msri.org/publications/ln/msri/1999/vonneumann/lenstra/1/">Etale fundamental groups 1 by H.W. Lenstra</a> and <a href="http://www.msri.org/communications/ln/msri/1999/vonneumann/pop/1/index.html">Etale fundamental groups 2 by F. Pop</a>.</p>
+<p>But, what is the connection with the &#8216;usual&#8217; fundamental group in case both of them can be defined? Well, by construction the algebraic fundamental group is always a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/profinite-groups-survival-guide.html">profinite group</a> and in the case of manifolds it coincides with the profinite completion of the standard fundamental group, that is,<br />
+$\pi^{alg}_1(M) \simeq \widehat{\pi_1(M)} $ (recall that the cofinite completion is the projective limit of all finite group quotients).</p>
+<p>Right, so all we have to do to find a topological equivalent of an algebraic scheme is to compute its algebraic fundamental group and find an existing topological space of which the profinite completion of its standard fundamental group coincides with our algebraic fundamental group. An example : a prime number $p $ (as a &#8216;point&#8217; in $\mathbf{spec}(\mathbb{Z}) $) is the closed subscheme $\mathbf{spec}(\mathbb{F}_p) $ corresponding to the finite field $\mathbb{F}_p = \mathbb{Z}/p\mathbb{Z} $. For any affine scheme of a field $K $, the algebraic fundamental group coincides with the absolute Galois group $Gal(\overline{K}/K) $. In the case of $\mathbb{F}_p $ we all know that this abslute Galois group is isomorphic with the profinite integers $\hat{\mathbb{Z}} $. Now, what is the first topological space coming to mind having the integers as its fundamental group? Right, the circle $S^1 $. Hence, in <a href="http://sbseminar.wordpress.com/2007/06/21/more-talks-gukov-on-arithmetic-topology-and-gauge-theory/">arithmetic topology</a> we view prime numbers as topological circles, that is, as knots in some bigger space.</p>
+<p>But then, what is this bigger space? That is, what is the topological equivalent of $\mathbf{spec}(\mathbb{Z}) $? For this we have to go back to Mazur&#8217;s original paper <a href="http://www.numdam.org/numdam-bin/fitem?id=ASENS_1973_4_6_4_521_0">Notes on etale cohomology of number fields</a> in which he gives an Artin-Verdier type duality theorem for the affine spectrum $X=\mathbf{spec}(D) $ of the ring of integers $D $ in a number field. More precisely, there is a non-degenerate pairing $H^r_{et}(X,F) \times Ext^{3-r}_X(F, \mathbb{G}_m) \rightarrow H^3_{et}(X,F) \simeq \mathbb{Q}/\mathbb{Z} $ for any constructible abelian sheaf $F $. This may not tell you much, but it is a &#8216;sort of&#8217; Poincare-duality result one would have for a compact three dimensional manifold.</p>
+<p>Ok, so in particular $\mathbf{spec}(\mathbb{Z}) $ should be thought of as a 3-dimensional compact manifold, but which one? For this we have to compute the algebraic fundamental group. Fortunately, this group is trivial as there are no (non-split) etale covers of $\mathbf{spec}(\mathbb{Z}) $, so the corresponding 3-manifold should be simple connected&#8230; but wenow know that this has to imply that the manifold must be $S^3 $, the 3-sphere! Summarizing : in arithmetic topology, prime numbers are knots in the 3-sphere!</p>
+<p>More generally (by the same arguments) the affine spectrum $\mathbf{spec}(D) $ of a ring of integers can be thought of as corresponding to a closed oriented 3-dimensional manifold $M $ (which is a cover of $S^3 $) and a prime ideal $\mathfrak{p} \triangleleft D $ corresponds to a knot in $M $.</p>
+<p>But then, what is an ideal $\mathfrak{a} \triangleleft D $? Well, we have unique factorization of ideals in $D $, that is, $\mathfrak{a} = \mathfrak{p}_1^{n_1} \ldots \mathfrak{p}_k^{n_k} $ and therefore $\mathfrak{a} $ corresponds to a link in $M $ of which the constituent knots are the ones corresponding to the prime ideals $\mathfrak{p}_i $.</p>
+<p>And we can go on like this. What should be an element $w \in D $? Well, it will be an embedded surface $S \rightarrow M $, possibly with a boundary, the boundary being the link corresponding to the ideal $\mathfrak{a} = Dw $ and <a href="http://en.wikipedia.org/wiki/Seifert_surface">Seifert&#8217;s algorithm</a> tells us how we can produce surfaces having any prescribed link as its boundary. But then, in particular, a unit $w \in D^* $ should correspond to a closed surface in $M $.</p>
+<p>And all these analogies carry much further : for example the <a href="http://en.wikipedia.org/wiki/Ideal_class_group">class group</a> of the ring of integers $Cl(D) $ then corresponds to the torsion part $H_1(M,\mathbb{Z})_{tor} $ because principal ideals $Dw $ are trivial in the class group, just as boundaries of surfaces $\partial S $ vanish in $H_1(M,\mathbb{Z}) $. Similarly, one may identify the unit group $D^* $ with $H_2(M,\mathbb{Z}) $&#8230; and so on, and on, and on&#8230;</p>
+<p>More links to papers on arithmetic topology can be found in <a href="http://math.ucr.edu/home/baez/week257.html">John Baez&#8217; week 257</a> or <a href="http://golem.ph.utexas.edu/category/2007/10/this_weeks_finds_in_mathematic_18.html">via here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>noncommutative F_un geometry (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 13 Oct 2008 12:09:36 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=458</guid>
+
+					<description><![CDATA[We propose to extend the Connes-Consani definition to noncommuntative F_un varieties.]]></description>
+										<content:encoded><![CDATA[<p>It is perhaps surprising that Alain Connes and Katia Consani, two icons of noncommutative geometry, restrict themselves to define <strong>commutative</strong> algebraic geometry over $\mathbb{F}_1 $, the field with one element.</p>
+<p>My guess of why they stop there is as good as anyone&#8217;s. Perhaps they felt that there is already enough noncommutativity in Soule&#8217;s gadget-approach (the algebra $\mathcal{A}_X $ as in <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/gadgets-a-la-soule.html">this post</a> may very well be noncommutative). Perhaps they were only interested in the Bost-Connes system which can be entirely encoded in their commutative $\mathbb{F}_1 $-geometry. Perhaps they felt unsure as to what the noncommutative scheme of an affine noncommutative algebra might be. Perhaps &#8230;</p>
+<p>Remains the fact that their approach screams for a noncommutative extension. Their basic object is a covariant functor</p>
+<p>$N~:~\mathbf{abelian} \rightarrow \mathbf{sets} \qquad A \mapsto N(A) $</p>
+<p>from finite abelian groups to sets, together with additional data to the effect that there is a unique minimal integral scheme associated to $N $. In a series of posts on the Connes-Consani paper (starting <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-1.html">here</a>) I took some care of getting rid of all scheme-lingo and rephrasing everything entirely into algebras. But then, this set-up can be extended verbatim to noncommuative $\mathbb{F}_1 $-geometry, which should start from a covariant functor</p>
+<p>$N~:~\mathbf{groups} \rightarrow \mathbf{sets} $</p>
+<p>from all finite groups to sets. Let&#8217;s recall quickly what the additional info should be making this functor a noncommutative (affine) F&#95;un scheme :</p>
+<p>There should be a finitely generated $\mathbb{C} $-algebra $R $ together with a natural transformation (the &#8216;evaluation&#8217;)</p>
+<p>$e~:~N \rightarrow \mathbf{maxi}(R) \qquad N(G) \mapsto Hom_{\mathbb{C}-alg}(R, \mathbb{C} G) $</p>
+<p>(both $R $ and the group-algebra $\mathbb{C} G $ may be noncommutative). The pair $(N, \mathbf{maxi}(R)) $ is then called a gadget and there is an obvious notion of &#8216;morphism&#8217; between gadgets.</p>
+<p>The crucial extra ingredient is an affine $\mathbb{Z} $-algebra (possibly noncommutative) $S $<br />
+such that $N $ is a subfunctor of $\mathbf{mini}(S)~:~G \mapsto Hom_{\mathbb{Z}-alg}(S,\mathbb{Z} G) $ together with the following universal property :</p>
+<p>any affine $\mathbb{Z} $-algebra $T $ having a gadget-morphism $~(N,\mathbf{maxi}(R)) \rightarrow (\mathbf{mini}(T),\mathbf{maxi}(T \otimes_{\mathbb{Z}} \mathbb{C})) $ comes from a $\mathbb{Z} $-algebra morphism $T \rightarrow S $. (If this sounds too cryptic for you, please read the series on C-C mentioned before).</p>
+<p>So, there is no problem in defining noncommutative affine F&#95;un-schemes. However, as with any generalization, this only makes sense provided (a) we get something new and (b) we have interesting examples, not covered by the restricted theory.</p>
+<p>At first sight we do not get something new as in the only example we did in the C-C-series (the forgetful functor) it is easy to prove (using the same proof as given in <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-3.html">this post</a>) that the forgetful-functor $\mathbf{groups} \rightarrow \mathbf{sets} $ still has as its integral form the integral torus $\mathbb{Z}[x,x^{-1}] $. However, both theories quickly diverge beyond this example.</p>
+<p>For example, consider the functor</p>
+<p>$\mathbf{groups} \rightarrow \mathbf{sets} \qquad G \mapsto G \times G $</p>
+<p>Then, if we restrict to abelian finite groups $\mathbf{abelian} $ it is easy to see (again by a similar argument) that the two-dimensional integer torus $\mathbb{Z}[x,y,x^{-1},y^{-1}] $ is the correct integral form. However, this algebra cannot be the correct form for the functor on the category of all finite groups as any $\mathbb{Z} $-algebra map $\phi~:~\mathbb{Z}[x,y,x^{-1},y^{-1}] \rightarrow \mathbb{Z} G $ determines (and is determined by) a pair of <strong>commuting</strong> units in $\mathbb{Z} G $, so the above functor can not be a subfunctor if we allow non-Abelian groups.</p>
+<p>But then, perhaps there isn&#8217;t a minimal integral $\mathbb{Z} $-form for this functor? Well, yes there is. Take the <strong>free group</strong> in two letters (that is, all words in noncommuting $x,y,x^{-1} $ and $y^{-1} $ satisfying only the trivial cancellation laws between a letter and its inverse), then the corresponding integral group-algebra $\mathbb{Z} \mathcal{F}_2 $ does the trick.</p>
+<p>Again, the proof-strategy is the same. Given a gadget-morphism we have an algebra map $f~:~T \mapsto \mathbb{C} \mathcal{F}_2 $ and we have to show, using the universal property that the image of $T $ is contained in the integral group-algebra $\mathbb{Z} \mathcal{F}_2 $. Take a generator<br />
+$z $ of $T $ then the degree of the image $f(z) $ is bounded say by $d $ and we can always find a subgroup $H \subset \mathcal{F}_2 $ such that $\mathcal{F}_2/H $ is a fnite group and the quotient map $\mathbb{C} \mathcal{F}_2 \rightarrow \mathbb{C} \mathcal{F}_2/H $ is injective on the subspace spanned by all words of degree strictly less than $d+1 $. Then, the usual diagram-chase finishes the proof.</p>
+<p>What makes this work is that the free group $\mathcal{F}_2 $ has &#8216;enough&#8217; subgroups of finite index, a property it shares with many interesting discrete groups. Whence the blurb-message :</p>
+<p><strong>if the integers $\mathbb{Z} $ see a discrete group $\Gamma $, then the field $\mathbb{F}_1 $ sees its profinite completion $\hat{\Gamma} = \underset{\leftarrow}{lim}~\Gamma/ H $</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/fun/DATA/grothendieckserre.jpg" style="float:left;margin-right:10px;" > So, yes, we get something new by extending the Connes-Consani approach to the noncommutative world, but do we have interesting examples? As &#8220;interesting&#8221; is a subjective qualification, we&#8217;d better invoke the authority-argument.</p>
+<p><a href="http://en.wikipedia.org/wiki/Alexander_Grothendieck">Alexander Grothendieck</a> (sitting on the right, manifestly <strong>not</strong> disputing a vacant chair with Jean-Pierre Serre, drinking on the left (a marvelous picture taken by F. Hirzebruch in 1958)) was pushing the idea that profinite completions of arithmetical groups were useful in the study of the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q}) $, via his theory of <a href="http://en.wikipedia.org/wiki/Dessin_d'enfant">dessins d&#8217;enfants</a> (children;s drawings).</p>
+<p>In a previous life, I&#8217;ve written a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-best-rejected-proposal-ever.html">series of posts</a> on dessins d&#8217;enfants, so I&#8217;ll restrict here to the basics. A smooth projective $\overline{\mathbb{Q}} $-curve $X $ has a Belyi-map $X \rightarrow \mathbb{P}^1_{\overline{\mathbb{Q}}} $ ramified only in three points $&#123; 0,1,\infty &#125; $. The &#8220;drawing&#8221; corresponding to $X $ is a bipartite graph, drawn on the Riemann surface $X_{\mathbb{C}} $ obtained by lifting the unit interval $[0,1] $ to $X $. As the absolute Galois group acts on all such curves (and hence on their corresponding drawings), the action of it on these dessins d&#8217;enfants may give us a way into the multiple mysteries of the absolute Galois group.</p>
+<p>In his <a href="http://www.math.jussieu.fr/~leila/grothendieckcircle/EsquisseFr.pdf">&#8220;Esquisse d&#8217;un programme&#8221;</a> (<a href="http://www.math.jussieu.fr/~leila/grothendieckcircle/EsquisseEng.pdf">Sketch of a program</a> if you prefer to read it in English) he writes :</p>
+<p>&#8220;C&#8217;est ainsi que mon attention s&#8217;est portée vers ce que j&#8217;ai appelé depuis la <strong>&#8220;géométrie algêbrique anabélienne&#8221;</strong>, dont le point de départ est justement une étude (pour le moment limitée à la caractéristique zéro) de l&#8217;action de groupe de Galois &#8220;absolus&#8221; (notamment les groupes $Gal(\overline{K}/K) $, ou $K $ est une extension de type fini du corps premier) sur des groupes fondamentaux géométriques (profinis) de variétés algébriques (définies sur $K $), et plus particulièrement (rompant avec une tradition bien enracinée) des groupes fondamentaux qui sont trés éloignés des groupes abéliens (et que pour cette raison je nomme &#8220;anabéliens&#8221;). Parmi ces groupes, et trés proche du groupe $\hat{\pi}_{0,3} $, il y a le compactifié profini du groupe modulaire $SL_2(\mathbb{Z}) $, dont le quotient par le centre $\pm 1 $ contient le précédent comme sous-groupe de congruence mod 2, et peut s&#8217;interpréter d&#8217;ailleurs comme groupe &#8220;cartographique&#8221; orienté, savoir celui qui classifie les cartes orientées triangulées (i.e. celles dont les faces des triangles ou des monogones).&#8221;</p>
+<p>and a bit further, he writes :</p>
+<p>&#8220;L&#8217;élément de structure de $SL_2(\mathbb{Z}) $ qui me fascine avant tout, est bien sur l&#8217;action extérieure du groupe de Galois $Gal(\overline{\mathbb{Q}}/\mathbb{Q}) $ sur le compactifié profini. Par le théorème de Bielyi, prenant les compactifiés profinis de sous-groupes d&#8217;indice fini de $SL_2(\mathbb{Z}) $, et l&#8217;action extérieure induite (quitte à passer également à un sous-groupe overt de $Gal(\overline{\mathbb{Q}},\mathbb{Q}) $),  on trouve essentiellement les groupes fondamentaux de toutes les courbes algébriques définis sur des corps de nombres $K $, et l&#8217;action extérieure de $Gal(\overline{K}/K) $ dessus.&#8221;</p>
+<p>So, is there a noncommutative affine variety over $\mathbb{F}_1 $ of which the unique minimal integral model is the integral group algebra of the modular group $\mathbb{Z} \Gamma $ (with $\Gamma = PSL_2(\mathbb{Z}) $? Yes, here it is</p>
+<p>$N_{\Gamma}~:~\mathbf{groups} \rightarrow \mathbf{sets} \qquad G \mapsto G_2 \times G_3 $</p>
+<p>where $G_n $ is the set of all elements of order $n $ in $G $. The reason behind this is that the modular group is the free group product $C_2 \ast C_3 $.</p>
+<p>Fine, you may say, but all this is just algebra. Where is the noncommutative complex variety or the noncommutative integral scheme in all this? Well, we can introduce them too but as this post is already 1300 words long, I&#8217;ll better leave this for <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/noncommutative-f_un-geometry-2.html">another time</a>. In case you cannot stop thinking about it, here&#8217;s the short answer.</p>
+<p>The complex noncommutative variety has as its &#8216;points&#8217; all finite dimensional simple complex representations of the modular group, and the &#8216;points&#8217; of the noncommutative $\mathbb{F}_1 $-scheme are exactly the (modular) dessins d&#8217;enfants&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Connes-Consani for undergraduates (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/connes-consani-for-undergraduates-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/connes-consani-for-undergraduates-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 10 Oct 2008 12:04:58 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[profinite]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=456</guid>
+
+					<description><![CDATA[A quick recap of last time. We are trying to make sense of affine varieties over the elusive field with one element $\mathbb{F}_1 $, which&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A quick recap of <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-2.html">last time</a>. We are trying to make sense of affine varieties over the elusive field with one element $\mathbb{F}_1 $, which by Grothendieck&#8217;s scheme-philosophy should determine a functor</p>
+<p>$\mathbf{nano}(N)~:~\mathbf{abelian} \rightarrow \mathbf{sets} \qquad A \mapsto N(A) $</p>
+<p>from finite Abelian groups to sets, typically giving pretty small sets $N(A) $. Using the F_un mantra that $\mathbb{Z} $ should be an algebra over $\mathbb{F}_1 $ any $\mathbb{F}_1 $-variety determines an integral scheme by extension of scalars, as well as a complex variety (by extending further to $\mathbb{C} $). We have already connected the complex variety with the original functor into a <strong>gadget</strong> that is a couple $~(\mathbf{nano}(N),\mathbf{maxi}(R)) $ where $R $ is the coordinate ring of a complex affine variety $X_R $ having the property that every element of $N(A) $ can be realized as a $\mathbb{C} A $-point of $X_R $. Ringtheoretically this simply means that to every element $x \in N(A) $ there is an algebra map $N_x~:~R \rightarrow \mathbb{C} A $.</p>
+<p>Today we will determine which gadgets determine an integral scheme, and do so uniquely, and call them the sought for affine schemes over $\mathbb{F}_1 $.</p>
+<p>Let&#8217;s begin with our example : $\mathbf{nano}(N) = \underline{\mathbb{G}}_m $ being the forgetful functor, that is $N(A)=A $ for every finite Abelian group, then the complex algebra $R= \mathbb{C}[x,x^{-1}] $ partners up to form a gadget because to every element $a \in N(A)=A $ there is a natural algebra map $N_a~:~\mathbb{C}[x,x^{-1}] \rightarrow \mathbb{C} A $ defined by sending $x \mapsto e_a $. Clearly, there is an obvious integral form of this complex algebra, namely $\mathbb{Z}[x,x^{-1}] $ but we have already seen that this algebra represents the mini-functor</p>
+<p>$\mathbf{min}(\mathbb{Z}[x,x^{-1}])~:~\mathbf{abelian} \rightarrow \mathbf{sets} \qquad A \mapsto (\mathbb{Z} A)^* $</p>
+<p>and that the group of units $(\mathbb{Z} A)^* $ of the integral group ring $\mathbb{Z} A $ usually is a lot bigger than $N(A)=A $. So, perhaps there is another less obvious $\mathbb{Z} $-algebra $S $ doing a much better job at approximating $N $? That is, if we can formulate this more precisely&#8230;</p>
+<p>In general, every $\mathbb{Z} $-algebra $S $ defines a gadget $\mathbf{gadget}(S) = (\mathbf{mini}(S),\mathbf{maxi}(S \otimes_{\mathbb{Z}} \mathbb{C})) $ with the obvious (that is, extension of scalars) evaluation map</p>
+<p>$\mathbf{mini}(S)(A) = Hom_{\mathbb{Z}-alg}(S, \mathbb{Z} A) \rightarrow Hom_{\mathbb{C}-alg}(S \otimes_{\mathbb{Z}} \mathbb{C}, \mathbb{C} A) = \mathbf{maxi}(S \otimes_{\mathbb{Z}} \mathbb{C})(A) $</p>
+<p>Right, so how might one express the fact that the integral affine scheme $X_T $ with integral algebra $T $ is the &#8216;best&#8217; integral approximation of a gadget $~(\mathbf{nano}(N),\mathbf{maxi}(R)) $. Well, to begin its representing functor should at least contain the information given by $N $, that is, $\mathbf{nano}(N) $ is a <strong>sub-functor</strong> of $\mathbf{mini}(T) $ (meaning that for every finite Abelian group $A $ we have a natural inclusion $N(A) \subset Hom_{\mathbb{Z}-alg}(T, \mathbb{Z} A) $). As to the &#8220;best&#8221;-part, we must express that all other candidates factor through $T $. That is, suppose we have an integral algebra $S $ and a morphism of gadgets (as defined last time)</p>
+<p>$f~:~(\mathbf{nano}(N),\mathbf{maxi}(R)) \rightarrow \mathbf{gadget}(S) = (\mathbf{mini}(S),\mathbf{maxi}(S \otimes_{\mathbb{Z}} \mathbb{C})) $</p>
+<p>then there ought to be $\mathbb{Z} $-algebra morphism $T \rightarrow S $ such that the above map $f $ factors through an induced gadget-map $\mathbf{gadget}(T) \rightarrow \mathbf{gadget}(S) $.</p>
+<p>Fine, but is this definition good enough in our trivial example? In other words, is the &#8220;obvious&#8221; integral ring $\mathbb{Z}[x,x^{-1}] $ the best integral choice for approximating the forgetful functor $N=\underline{\mathbb{G}}_m $? Well, take any finitely generated integral algebra $S $, then saying that there is a morphism of gadgets from $~(\underline{\mathbb{G}}_m,\mathbf{maxi}(\mathbb{C}[x,x^{-1}]) $ to $\mathbf{gadget}(S) $ means that there is a $\mathbb{C} $-algebra map $\psi~:~S \otimes_{\mathbb{Z}} \mathbb{C} \rightarrow \mathbb{C}[x,x^{-1}] $ such that for every finite Abelian group $A $ we have a commuting diagram</p>
+<p>$\xymatrix{A \ar[rr] \ar[d]_e &amp; &amp; Hom_{\mathbb{Z}-alg}(S, \mathbb{Z} A) \ar[d] \\<br />
+Hom_{\mathbb{C}-alg}(\mathbb{C}[x,x^{-1}],\mathbb{C} A) \ar[rr]^{- \circ \psi} &amp; &amp; Hom_{\mathbb{C}-alg}(S \otimes_{\mathbb{Z}} \mathbb{C}, \mathbb{C} A)} $</p>
+<p>Here, $e $ is the natural evaluation map defined before sending a group-element $a \in A $ to the algebra map defined by $x \mapsto e_a $ and the vertical map on the right-hand side is extensions by scalars. From this data we must be able to show that the image of the algebra map</p>
+<p>$\xymatrix{S \ar[r]^{i} &amp; S \otimes_{\mathbb{Z}} \mathbb{C} \ar[r]^{\psi} &amp; \mathbb{C}[x,x^{-1}]} $</p>
+<p>is contained in the integral subalgebra $\mathbb{Z}[x,x^{-1}] $. So, take any generator $z $ of $S $ then its image $\psi(z) \in \mathbb{C}[x,x^{-1}] $ is a Laurent polynomial of degree say $d $ (that is, $\psi(z) = c_{-d} x^{-d} + \ldots c_{-1} x^{-1} + c_0 + c_1 x + \ldots + c_d x^d $ with all coefficients a priori in $\mathbb{C} $ and we need to talk them into $\mathbb{Z} $).</p>
+<p>Now comes the basic <strong>trick</strong> : take a cyclic group $A=C_N $ of order $N > d $, then the above commuting diagram applied to the generator of $C_N $ (the evaluation of which is the natural projection map $\pi~:~\mathbb{C}[x.x^{-1}] \rightarrow \mathbb{C}[x,x^{-1}]/(x^N-1) = \mathbb{C} C_N $) gives us the commuting diagram</p>
+<p>$\xymatrix{S \ar[r] \ar[d] &amp; S \otimes_{\mathbb{Z}} \mathbb{C} \ar[r]^{\psi} &amp; \mathbb{C}[x,x^{-1}] \ar[d]^{\pi} \\<br />
+\mathbb{Z} C_n = \frac{\mathbb{Z}[x,x^{-1}]}{(x^N-1)} \ar[rr]^j &amp; &amp; \frac{\mathbb{C}[x,x^{-1}]}{(x^N-1)}} $</p>
+<p>where the horizontal map $j $ is the natural inclusion map. Tracing $z \in S $ along the diagram we see that indeed all coefficients of $\psi(z) $ have to be integers! Applying the same argument to the other generators of $S $ (possibly for varying values of N) we see that , indeed, $\psi(S) \subset \mathbb{Z}[x,x^{-1}] $ and hence that $\mathbb{Z}[x,x^{-1}] $ is the best integral approximation for $\underline{\mathbb{G}}_m $.</p>
+<p>That is, we have our first example of an affine variety over the field with one element $\mathbb{F}_1 $ :  $~(\underline{\mathbb{G}}_m,\mathbf{maxi}(\mathbb{C}[x,x^{-1}]) \rightarrow \mathbf{gadget}(\mathbb{Z}[x,x^{-1}]) $.</p>
+<p>What makes this example work is that the infinite group $\mathbb{Z} $ (of which the complex group-algebra is the algebra $\mathbb{C}[x,x^{-1}] $) has enough finite Abelian group-quotients. In other words, $\mathbb{F}_1 $ doesn&#8217;t see $\mathbb{Z} $ but rather its profinite completion $\hat{\mathbb{Z}} = \underset{\leftarrow} \mathbb{Z}/N\mathbb{Z} $&#8230; (to be continued when we&#8217;ll consider noncommutative $\mathbb{F}_1 $-schemes)</p>
+<p>In general, an affine $\mathbb{F}_1 $-scheme is a gadget with morphism of gadgets<br />
+$~(\mathbf{nano}(N),\mathbf{maxi}(R)) \rightarrow \mathbf{gadget}(S) $ provided that the integral algebra $S $ is the best integral approximation in the sense made explicit before. This rounds up our first attempt to understand the Connes-Consani approach to define geometry over $\mathbb{F}_1 $ apart from one important omission : we have only considered functors to $\mathbf{sets} $, whereas it is crucial in the Connes-Consani paper to consider more generally functors to <strong>graded</strong> sets. In the final part of this series we&#8217;ll explain what that&#8217;s all about.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/connes-consani-for-undergraduates-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>F_un and braid groups</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/f_un-and-braid-groups/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/f_un-and-braid-groups/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 15 Jun 2008 16:51:01 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=429</guid>
+
+					<description><![CDATA[Recall that an n-braid consists of n strictly descending elastic strings connecting n inputs at the top (named 1,2,&#8230;,n) to n outputs at the bottom&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-1.jpg" hspace=10 style="float:left;margin-right:10px;" > Recall that an n-braid consists of n strictly descending elastic strings connecting n inputs at the top (named 1,2,&#8230;,n) to n outputs at the bottom (labeled 1,2,&#8230;,n) upto isotopy (meaning that we may pull and rearrange the strings in any way possible within 3-dimensional space). We can always change the braid slightly such that we can divide the interval between in- and output in a number of subintervals such that in each of those there is at most one crossing.</p>
+<p>n-braids can be multiplied by putting them on top of each other and connecting the outputs of the first braid trivially to the inputs of the second. For example the 5-braid on the left can be written as $B=B_1.B_2 $ with $B_1 $ the braid on the top 3 subintervals and $B_2 $ the braid on the lower 5 subintervals.</p>
+<p>In this way (and using our claim that there can be at most 1 crossing in each subinterval) we can write any n-braid as a word in the generators $\sigma_i $ (with $1 \leq i &lt; n $) being the overcrossing between inputs i and i+1. Observe that the undercrossing is then the inverse $\sigma_i^{-1} $. For example, the braid on the left corresponds to the word</p>
+<p>$\sigma_1^{-1}.\sigma_2^{-1}.\sigma_1^{-1}.\sigma_2.\sigma_3^{-1}.\sigma_4^{-1}.\sigma_3^{-1}.\sigma_4 $</p>
+<p>Clearly there are relations among words in the generators. The easiest one we have already used implicitly namely that $\sigma_i.\sigma_i^{-1} $ is the trivial braid. <a href="http://en.wikipedia.org/wiki/Emil_Artin">Emil Artin</a> proved in the 1930-ies that all such relations are consequences of two sets of &#8216;obvious&#8217; relations. The first being commutation relations between crossings when the strings are far enough from each other. That is we have</p>
+<p>$\sigma_i . \sigma_j = \sigma_j . \sigma_i $ whenever $|i-j| \geq 2 $</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/braidcomm1.jpg"> = <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/braidcomm2.jpg"><br />
+</center></p>
+<p>The second basic set of relations involves crossings using a common string</p>
+<p>$\sigma_i.\sigma_{i+1}.\sigma_i = \sigma_{i+1}.\sigma_i.\sigma_{i+1} $</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/braidYB1.jpg">=<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/braidYB2.jpg"><br />
+</center></p>
+<p>Starting with the 5-braid at the top, we can use these relations to reduce it to a simpler form. At each step we have outlined to region where the relations are applied</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-2.jpg" width=150 > =<br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-3.jpg" width=150 > =<br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-4.jpg" width=150 > =<br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-5.jpg" width=150 ><br />
+</center></p>
+<p>These beautiful braid-pictures were produced using the <strong>braid-metapost</strong> program written by <a href="http://stijnsymens.wordpress.com/2008/03/18/drawing-braids-using-metapost/">Stijn Symens</a>.</p>
+<p>Tracing a string from an input to an output assigns to an n-braid a permutation on n letters. In the above example, the permutation is $~(1,2,4,5,3) $. As this permutation doesn&#8217;t change under applying basic reduction, this gives a group-morphism</p>
+<p>$\mathbb{B}_n \rightarrow S_n $</p>
+<p>from the <strong>braid group on n strings</strong> $\mathbb{B}_n $ to the symmetric group. We have seen <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-f_un-folklore.html">before</a> that the symmetric group $S_n $ has a F-un interpretation as the linear group $GL_n(\mathbb{F}_1) $ over the field with one element. Hence, we can ask whether there is also a F-un interpretation of the n-string braid group and of the above group-morphism.</p>
+<p>Kapranov and Smirnov suggest in <a href="https://lievenlebruyn.github.io/neverendingbooks/KapranovSmirnov.pdf">their paper</a> that the n-string braid group $\mathbb{B}_n \simeq GL_n(\mathbb{F}_1[t]) $ is the general linear group over the polynomial ring $\mathbb{F}_1[t] $ over the field with one element and that the evaluation morphism (setting t=0)</p>
+<p>$GL_n(\mathbb{F}_1[t]) \rightarrow GL_n(\mathbb{F}1) $ gives the groupmorphism $\mathbb{B}_n \rightarrow S_n $</p>
+<p>The rationale behind this analogy is a theorem of <a href="http://en.wikipedia.org/wiki/Vladimir_Drinfeld">Drinfeld</a>&#8216;s saying that over a finite field $\mathbb{F}_q $, the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/profinite-groups-survival-guide.html">profinite completion</a> of $GL_n(\mathbb{F}_q[t]) $ is embedded in the fundamental group of the space of q-polynomials of degree n in much the same way as the n-string braid group $\mathbb{B}_n $ is the fundamental group of the space of complex polynomials of degree n without multiple roots.</p>
+<p>And, now that we know the basics of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/absolute-linear-algebra.html">absolute linear algebra</a>, we can give an absolute braid-group representation</p>
+<p>$\mathbb{B}_n = GL_n(\mathbb{F}_1[t]) \rightarrow GL_n(\mathbb{F}_{1^n}) $</p>
+<p>obtained by sending each generator $\sigma_i $ to the matrix over $\mathbb{F}_{1^n} $ (remember that $\mathbb{F}_{1^n} = (\mu_n)^{\bullet} $ where $\mu_n = \langle \epsilon_n \rangle $ are the n-th roots of unity)</p>
+<p>$\sigma_i \mapsto \begin{bmatrix}<br />
+1_{i-1} &amp; &amp; &amp; \\<br />
+&amp; 0 &amp; \epsilon_n &amp; \\<br />
+&amp; \epsilon_n^{-1} &amp; 0 &amp; \\<br />
+&amp; &amp; &amp; 1_{n-1-i} \end{bmatrix} $</p>
+<p>and it is easy to see that these matrices do indeed satisfy Artin&#8217;s defining relations for $\mathbb{B}_n $.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/f_un-and-braid-groups/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bost-Connes for ringtheorists</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/bost-connes-for-ringtheorists/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/bost-connes-for-ringtheorists/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 23 Jan 2008 15:52:58 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[profinite]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/bost-connes-for-ringtheorists.html</guid>
+
+					<description><![CDATA[Over the last days I&#8217;ve been staring at the Bost-Connes algebra to find a ringtheoretic way into it. Ive had some chats about it with&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Over the last days I&#8217;ve been staring at the Bost-Connes algebra to find a ringtheoretic way into it. Ive had some chats about it with the resident graded-guru but all we came up with so far is that it seems to be an extension of Fred&#8217;s definition of a &#8216;crystalline&#8217; graded algebra. Knowing that several excellent ringtheorists keep an eye on my stumblings here, let me launch an appeal for help :</p>
+<p><strong>What is the most elegant ringtheoretic framework in which the Bost-Connes Hecke algebra is a motivating example?</strong></p>
+<p>Let us review what we know so far and extend upon it with a couple of observations that may (or may not) be helpful to you. The algebra $\mathcal{H} $ is the algebra of $\mathbb{Q} $-valued functions (under the convolution product) on the double coset-space $\Gamma_0 \backslash \Gamma / \Gamma_0 $ where</p>
+<p>$\Gamma = &#123; \begin{bmatrix} 1 &amp; b \\ 0 &amp; a \end{bmatrix}~:~a,b \in \mathbb{Q}, a > 0 &#125; $ and $\Gamma_0 = &#123; \begin{bmatrix} 1 &amp; n \\ 0 &amp; 1 \end{bmatrix}~:~n \in \mathbb{N}_+ &#125; $</p>
+<p>We have seen that a $\mathbb{Q} $-basis is given by the characteristic functions $X_{\gamma} $ (that is, such that $X_{\gamma}(\gamma&#8217;) = \delta_{\gamma,\gamma&#8217;} $) with $\gamma $ a rational point represented by the couple $~(a,b) $ (the entries in the matrix definition of a representant of $\gamma $ in $\Gamma $) lying in the fractal comb</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/bostconnesspace.jpg" width=500 ></p>
+<p>defined by the rule that $b &lt; \frac{1}{n} $ if $a = \frac{m}{n} $ with $m,n \in \mathbb{N}, (m,n)=1 $. Last time we have seen that the algebra $\mathcal{H} $ is generated as a $\mathbb{Q} $-algebra by the following elements (changing notation)</p>
+<p>$\begin{cases}X_m=X_{\alpha_m} &amp; \text{with } \alpha_m = \begin{bmatrix} 1 &amp; 0 \\ 0 &amp; m \end{bmatrix}~\forall m \in \mathbb{N}_+ \\<br />
+X_n^*=X_{\beta_n} &amp; \text{with } \beta_n = \begin{bmatrix} 1 &amp; 0 \\ 0 &amp; \frac{1}{n} \end{bmatrix}~\forall n \in \mathbb{N}_+ \\<br />
+Y_{\gamma} = X_{\gamma} &amp; \text{with } \gamma = \begin{bmatrix} 1 &amp; \gamma \\ 0 &amp; 1 \end{bmatrix}~\forall \lambda \in \mathbb{Q}/\mathbb{Z} \end{cases} $</p>
+<p>Using the tricks of last time (that is, figuring out what functions convolution products represent, knowing all double-cosets) it is not too difficult to prove the <strong>defining relations among these generators</strong> to be the following (( if someone wants the details, tell me and I&#8217;ll include a &#8216;technical post&#8217; or consult the <a href="http://www.alainconnes.org/docs/bostconnesscan.pdf">Bost-Connes original paper</a> but note that this scanned version needs 26.8Mb ))</p>
+<p>(1) : $X_n^* X_n = 1, \forall n \in \mathbb{N}_+$</p>
+<p>(2) : $X_n X_m = X_{nm}, \forall m,n \in \mathbb{N}_+$</p>
+<p>(3) : $X_n X_m^* = X_m^* X_n, \text{whenever } (m,n)=1$</p>
+<p>(4) : $Y_{\gamma} Y_{\mu} = Y_{\gamma+\mu}, \forall \gamma,mu \in \mathbb{Q}/\mathbb{Z}$</p>
+<p>(5) : $Y_{\gamma}X_n = X_n Y_{n \gamma},~\forall n \in \mathbb{N}_+, \gamma \in \mathbb{Q}/\mathbb{Z}$</p>
+<p>(6) : $X_n Y_{\lambda} X_n^* = \frac{1}{n} \sum_{n \delta = \gamma} Y_{\delta},~\forall n \in \mathbb{N}_+, \gamma \in \mathbb{Q}/\mathbb{Z}$</p>
+<p>Simple as these equations may seem, they bring us into rather uncharted ringtheoretic territories. Here a few fairly obvious ringtheoretic ingredients of the Bost-Connes Hecke algebra $\mathcal{H} $</p>
+<p><strong>the group-algebra of $\mathbb{Q}/\mathbb{Z} $</strong></p>
+<p>The equations (4) can be rephrased by saying that the subalgebra generated by the $Y_{\gamma} $ is the rational groupalgebra $\mathbb{Q}[\mathbb{Q}/\mathbb{Z}] $ of the (additive) group $\mathbb{Q}/\mathbb{Z} $. Note however that $\mathbb{Q}/\mathbb{Z} $ is a torsion group (that is, for all $\gamma = \frac{m}{n} $ we have that $n.\gamma = (\gamma+\gamma+ \ldots + \gamma) = 0 $). Hence, the groupalgebra has LOTS of zero-divisors. In fact, this group-algebra doesn&#8217;t have any good ringtheoretic properties except for the fact that it can be realized as a limit of finite groupalgebras (semi-simple algebras)</p>
+<p>$\mathbb{Q}[\mathbb{Q}/\mathbb{Z}] = \underset{\rightarrow}{lim}~\mathbb{Q}[\mathbb{Z}/n \mathbb{Z}] $</p>
+<p>and hence is a quasi-free (or formally smooth) algebra, BUT far from being finitely generated&#8230;</p>
+<p><strong>the grading group $\mathbb{Q}^+_{\times} $</strong></p>
+<p>The multiplicative group of all positive rational numbers $\mathbb{Q}^+_{\times} $ is a torsion-free Abelian ordered group and it follows from the above defining relations that $\mathcal{H} $ is graded by this group if we give</p>
+<p>$deg(Y_{\gamma})=1,~deg(X_m)=m,~deg(X_n^*) = \frac{1}{n} $</p>
+<p>Now, graded algebras have been studied extensively in case the grading group is torsion-free abelian ordered AND finitely generated, HOWEVER $\mathbb{Q}^+_{\times} $ is infinitely generated and not much is known about such graded algebras. Still, the ordering should allow us to use some tricks such as taking leading coefficients etc.</p>
+<p><strong>the endomorphisms of $\mathbb{Q}[\mathbb{Q}/\mathbb{Z}] $</strong></p>
+<p>We would like to view the equations (5) and (6) (the latter after multiplying both sides on the left with $X_n^* $ and using (1)) as saying that $X_n $ and $X_n^* $ are normalizing elements. Unfortunately, the algebra morphisms they induce on the group algebra $\mathbb{Q}[\mathbb{Q}/\mathbb{Z}] $ are NOT isomorphisms, BUT endomorphisms. One source of algebra morphisms on the group-algebra comes from group-morphisms from $\mathbb{Q}/\mathbb{Z} $ to itself. Now, it is known that</p>
+<p>$Hom_{grp}(\mathbb{Q}/\mathbb{Z},\mathbb{Q}/\mathbb{Z}) \simeq \hat{\mathbb{Z}} $, the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/profinite-groups-survival-guide.html">profinite completion</a> of $\mathbb{Z} $. A class of group-morphisms of interest to us are the maps given by multiplication by n on $\mathbb{Q}/\mathbb{Z} $. Observe that these maps are <strong>epimorphisms</strong> with a cyclic order n kernel. On the group-algebra level they give us the epimorphisms</p>
+<p>$\mathbb{Q}[\mathbb{Q}/\mathbb{Z}] \longrightarrow^{\phi_n} \mathbb{Q}[\mathbb{Q}/\mathbb{Z}] $ such that $\phi_n(Y_{\lambda}) = Y_{n \lambda} $ whence equation (5) can be rewritten as $Y_{\lambda} X_n = X_n \phi_n(Y_{\lambda}) $, which looks good until you think that $\phi_n $ is not an automorphism&#8230;</p>
+<p>There are even other (non-unital) algebra endomorphisms such as the map $\mathbb{Q}[\mathbb{Q}/\mathbb{Z}] \rightarrow^{\psi_n} R_n $ defined by $\psi_n(Y_{\lambda}) = \frac{1}{n}(Y_{\frac{\lambda}{n}} + Y_{\frac{\lambda + 1}{n}} + \ldots + Y_{\frac{\lambda + n-1}{n}}) $ and then, we can rewrite equation (6) as $Y_{\lambda} X_n^* = X_n^* \psi_n(Y_{\lambda}) $, but again, note that $\psi_n $ is NOT an automorphism.</p>
+<p><strong>almost strongly graded, but not quite&#8230;</strong></p>
+<p>Recall from  last time that the characteristic function $X_a $ for any double-coset-class $a \in \Gamma_0 \backslash \Gamma / \Gamma_0 $ represented by the matrix $a=\begin{bmatrix} 1 &amp; \lambda \\ 0 &amp; \frac{m}{n} \end{bmatrix} $ could be written in the Hecke algebra as $X_a = n X_m Y_{n \lambda} X_n^* = n Y_{\lambda} X_m X_n^* $. That is, we can write the Bost-Connes Hecke algebra as</p>
+<p>$\mathcal{H} = \oplus_{\frac{m}{n} \in \mathbb{Q}^+_{\times}}~\mathbb{Q}[\mathbb{Q}/\mathbb{Z}] X_mX_n^* $</p>
+<p>Hence, if only the morphisms $\phi_n $ and $\psi_m $ would be automorphisms, this would say that $\mathcal{H} $ is a strongly $\mathbb{Q}^+_{\times} $-algebra with part of degree one the groupalgebra of $\mathbb{Q}/\mathbb{Z} $.</p>
+<p>However, they are not. But there is an extension of the notion of strongly graded algebras which Fred has dubbed <strong>crystalline graded algebras</strong> in which it is sufficient that the algebra maps are all epimorphisms. (maybe I&#8217;ll post about these algebras, another time). However, this is not the case for the $\psi_m $&#8230;</p>
+<p>So, what is the most elegant ringtheoretic framework in which the algebra $\mathcal{H} $ fits??? Surely, you can do better than <strong>generalized crystalline graded algebra</strong>&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bost-connes-for-ringtheorists/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Anabelian &#038; Noncommutative Geometry 2</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/anabelian-noncommutative-geometry-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/anabelian-noncommutative-geometry-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 19 Dec 2007 20:20:14 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=56</guid>
+
+					<description><![CDATA[Last time (possibly with help from the survival guide) we have seen that the universal map from the modular group $\Gamma = PSL_2(\mathbb{Z}) $ to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=53">Last time</a> (possibly with help from the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=54">survival guide</a>) we have seen that the universal map from the modular group $\Gamma = PSL_2(\mathbb{Z}) $ to its profinite completion $\hat{\Gamma} = \underset{\leftarrow}{lim}~PSL_2(\mathbb{Z})/N $ (limit over all finite index normal subgroups $N $) gives an embedding of the sets of (continuous) simple finite dimensional representations</p>
+<p>$\mathbf{simp}_c~\hat{\Gamma} \subset \mathbf{simp}~\Gamma $</p>
+<p>and based on the example $\mu_{\infty} = \mathbf{simp}_c~\hat{\mathbb{Z}} \subset \mathbf{simp}~\mathbb{Z} = \mathbb{C}^{\ast} $ we would like the above embedding to be dense in some kind of noncommutative analogon of the <a href="http://en.wikipedia.org/wiki/Zariski_topology">Zariski topology</a> on $\mathbf{simp}~\Gamma $.</p>
+<p>We use the Zariski topology on $\mathbf{simp}~\mathbb{C} \Gamma $ as in <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=38">these</a> <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=39">two</a> <strong>M-geometry</strong> posts (( already, I regret terminology, I should have just called it noncommutative geometry )). So, what&#8217;s this idea in this special case? Let $\mathfrak{g} $ be the vectorspace with basis the conjugacy classes of elements of $\Gamma $ (that is, the space of class functions). As explained <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=39">here</a> it is a consequence of the Artin-Procesi theorem that the linear functions $\mathfrak{g}^{\ast} $ separate finite dimensional (semi)simple representations of $\Gamma $. That is we have an embedding</p>
+<p>$\mathbf{simp}~\Gamma \subset \mathfrak{g}^{\ast} $</p>
+<p>and we can define <strong>closed</strong> subsets of $\mathbf{simp}~\Gamma $ as subsets of simple representations on which a set of class-functions vanish. With this definition of Zariski topology it is immediately clear that the image of $\mathbf{simp}_c~\hat{\Gamma} $ is dense. For, suppose it would be contained in a proper closed subset then there would be a class-function vanishing on all simples of $\hat{\Gamma} $ so, in particular, there should be a bound on the number of simples of finite quotients $\Gamma/N $ which clearly is not the case (just look at the quotients $PSL_2(\mathbb{F}_p) $).</p>
+<p>But then, the same holds if we replace &#8216;simples of $\hat{\Gamma} $&#8217; by &#8216;simple components of permutation representations of $\Gamma $&#8217;. This is the importance of <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=21">Farey symbols</a> to the representation problem of the modular group. They give us a manageable subset of simples which is nevertheless dense in the whole space. To utilize this a natural idea might be to ask what such a permutation representation <strong>can see</strong> of the modular group, or in geometric terms, what the <strong>tangent space</strong> is to $\mathbf{simp}~\Gamma $ in a permutation representation (( more precisely, in the &#8216;cluster&#8217; of points making up the simple components of the representation representation )). We will call this the <strong>modular content</strong> of the permutation representation and to understand it we will have to compute the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=37">tangent quiver</a> $\vec{t}~\mathbb{C} \Gamma $.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/anabelian-noncommutative-geometry-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>profinite groups survival guide</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/profinite-groups-survival-guide/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/profinite-groups-survival-guide/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 14 Dec 2007 10:39:10 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=54</guid>
+
+					<description><![CDATA[Even if you don&#8217;t know the formal definition of a profinte group, you know at least one example which explains the concept : the Galois&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/galois2.jpg" style="float:left;margin-right:10px;"> Even if you don&#8217;t know the formal definition of a profinte group, you know at least one example which explains the concept : the <a href="http://en.wikipedia.org/wiki/Évariste_Galois">Galois</a> group of the algebraic numbers $Gal = Gal(\overline{\mathbb{Q}}/\mathbb{Q}) $ aka the absolute Galois group. By definition it is the group of all $\mathbb{Q} $-isomorphisms of the algebraic closure $\overline{\mathbb{Q}} $. Clearly, it is an object of fundamental importance for mathematics but in spite of this very little is known about it. For example, it obviously is an infinite group but, apart from the complex conjugation, try to give one (1!) other nontrivial element&#8230; On the other hand we know lots of finite <strong>quotients</strong> of $Gal $. For, take any finite Galois extension $\mathbb{Q} \subset K $, then its Galois group $G_K = Gal(K/\mathbb{Q}) $ is a finite group and there is a natural onto morphism $\pi_K~:~Gal \rightarrow G_K $ obtained by dividing out all $K $-automorphisms of $\overline{\mathbb{Q}} $. Moreover, all these projections fit together nicely. If we take a larger Galois extension $K \subset L $ then classical Galois theory tells us that there is a projection $\pi_{LK}~:~G_L \rightarrow G_K $ by dividing out the normal subgroup of all $K $-automorphisms of $L $ and these finite maps are compatible with those from the absolute Galois group, that is, for all such finite Galois extensions, the diagram below is commutative</p>
+<p>[tex]\xymatrix{Gal \ar[rr]^{\pi_L} \ar[rd]_{\pi_K} &amp; &amp; G_L \ar[ld]^{\pi_{LK}} \\<br />
+&amp; G_K &amp;}[/tex]</p>
+<p>By going to larger and larger finite Galois extensions $L $ we get closer and closer to the algebraic closure $\overline{Q} $ and hence a better and better finite approximation $G_L $ of the absolute Galois group $Gal $. Still with me? Congratulations, you just rediscovered the notion of a profinite group! Indeed, the Galois group is the projective limit</p>
+<p>$Gal = \underset{\leftarrow}{lim}~G_L $</p>
+<p>over all finite Galois extensions $L/\mathbb{Q} $. If the term &#8216;projective limit&#8217; scares you off, it just means that all the projections $\pi_{KL} $ coming from finite Galois theory are compatible with those coming from the big Galois group as before. That&#8217;s it : profinite groups are just <strong>pro</strong>jective limits of <strong>finite</strong> groups.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/krull.jpg" style="float:right;margin-left:10px;"> These groups come equipped with a natural topology : the <a href="http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Krull.html">Krull</a> topology. Again, this notion is best clarified by considering the absolute Galois group. Now that we have $Gal $ we would like to extend the classical Galois correspondence between subgroups and subfields $\mathbb{Q} \subset K \subset \overline{\mathbb{Q}} $ and between normal subgroups and Galois subfields. For each finite Galois extension $K/\mathbb{Q} $ we have a normal subgroup of finite index, the kernel  $U_K=Ker(\pi_K) $ of the projection map above. Let us take the set of all $U_K $ as a fundamental system of neighborhoods of the identity element in $Gal $.  This defines a topology on $Gal $ and this is the Krull topology. As every open subgroup has finite index it is clear that this turns $Gal $ into a compact topological group. Its purpose is that we can now extend the finite Galois correspondence to <strong>Krull&#8217;s Galois theorem</strong> :</p>
+<blockquote><p>There is a bijective lattice inverting Galois correspondence between the set of all <strong>closed</strong> subgroups of $Gal $ and the set of all subfields $\mathbb{Q} \subset F \subset \overline{\mathbb{Q}} $. Finite field extensions correspond in this bijection to <strong>open</strong> subgroups and the usual normal subgroup and factor group correspondences hold!</p></blockquote>
+<p>So far we had a mysterious group such as $Gal $ and reconstructed it from all its finite quotients as a projective limit. Now we can reverse the situation : suppose we have a wellknown group such as the modular group $\Gamma = PSL_2(\mathbb{Z}) $, then we can look at the set of all its normal subgroups $U $ of finite index. For each of those we have a quotient map to a finite group $\pi_U~:~\Gamma \rightarrow G_U $ and clearly if $U \subset V $ we have a quotient map of finite groups $\pi_{UV}~:~G_U \rightarrow G_V $ compatible with the quotient maps from $\Gamma $</p>
+<p>[tex]\xymatrix{\Gamma \ar[rr]^{\pi_U} \ar[rd]_{\pi_V} &amp; &amp; G_U \ar[ld]^{\pi_{UV}} \\<br />
+&amp; G_V &amp;}[/tex]</p>
+<p>For the family of finite groups $G_U $ and groupmorphisms $\pi_{UV} $ we can ask for the &#8216;best&#8217; group mapping to each of the $G_U $ compatible with the groupmaps $G_{UV} $. By &#8216;best&#8217; we mean that any other group with this property will have a morphism to the best-one such that all quotient maps are compatible. This &#8216;best-one&#8217; is called the projective limit</p>
+<p>$\hat{\Gamma} = \underset{\leftarrow}{lim}~G_U $</p>
+<p>and as a profinite group it has again a Krull topology making it into a compact group. Because the modular group $\Gamma $ had quotient maps to all the $G_U $ we know that there must be a groupmorphism to the best-one<br />
+$\phi~:~\Gamma \rightarrow \hat{\Gamma} $ and therefore we call $\hat{\Gamma} $ the <strong>profinite compactification</strong> (or profinite completion) of the modular group.</p>
+<p>A final remark about finite dimensional representations. Every <strong>continuous</strong> complex representation of a profinite group like the absolute Galois group $Gal \rightarrow GL_n(\mathbb{C}) $ has finite image and this is why they are of little use for people studying the Galois group as it conjecturally reduces the study of these representations to &#8216;just&#8217; all representations of all finite groups. Instead they consider representations to other topological fields such as p-adic numbers $Gal \rightarrow GL_n(\mathbb{Q}_p) $ and call these <strong>Galois representations</strong>.</p>
+<p>For people interested in Grothendieck&#8217;s dessins d&#8217;enfants, however, continuous complex representations of the profinite compactification $\hat{\Gamma} $ is exactly their object of study and via the universal map $\phi~:~\Gamma \rightarrow \hat{\Gamma} $ above we have an embedding</p>
+<p>$\mathbf{rep}_c~\hat{\Gamma} \rightarrow \mathbf{rep}~\Gamma $</p>
+<p>of them in all finite dimensional representations of the modular group (<br />
+and we have a similar map restricted to simple representations). I hope this clarifies a bit obscure terms in the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=53">previous post</a>. If not, drop a comment.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/profinite-groups-survival-guide/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Anabelian vs. Noncommutative Geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/anabelian-vs-noncommutative-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/anabelian-vs-noncommutative-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 12 Dec 2007 20:33:29 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=53</guid>
+
+					<description><![CDATA[This is how my attention was drawn to what I have since termed anabelian algebraic geometry, whose starting point was exactly a study (limited for&#8230;]]></description>
+										<content:encoded><![CDATA[<blockquote><p>This is how my attention was drawn to what I have since termed<br />
+<strong>anabelian algebraic geometry</strong>, whose starting point was exactly a study<br />
+(limited for the moment to characteristic zero) of the action of absolute<br />
+Galois groups (particularly the groups $Gal(\overline{K}/K) $, where K is an extension of finite type of the prime field) on (profinite) geometric fundamental<br />
+groups of algebraic varieties (defined over K), and more particularly (breaking with a well-established tradition) fundamental groups which are very far<br />
+from abelian groups (and which for this reason I call <strong>anabelian</strong>). Among<br />
+these groups, and very close to the group $\hat{\pi}_{0,3} $ , there is the profinite compactification of the modular group $SL_2(\mathbb{Z}) $, whose quotient by its centre<br />
+$\{ \pm 1 \} $ contains the former as congruence subgroup mod 2, and can also be<br />
+interpreted as an oriented cartographic group, namely the one classifying triangulated oriented maps (i.e. those whose faces are all triangles or<br />
+monogons).
+</p></blockquote>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/agzen.jpg" style="float:left;margin-right:10px;"> The above text is taken from <a href="http://en.wikipedia.org/wiki/Alexander_Grothendieck">Alexander Grothendieck</a>&#8216;s visionary text <a href="http://www.math.jussieu.fr/~leila/grothendieckcircle/EsquisseEng.pdf">Sketch of a Programme</a>. He was interested in the permutation representations of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ as they correspond via Belyi-maps and his own notion of <a href="http://en.wikipedia.org/wiki/Dessin_d'enfant">dessins d&#8217;enfants</a> to smooth projective curves defined over $\overline{\mathbb{Q}} $. One can now study the action of the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q}) $ on these curves and their associated dessins. Because every permutation representation of $\Gamma $ factors over a finite quotient this gives an action of the absolute Galois group as automorphisms on the profinite compactification</p>
+<p>$\hat{\Gamma} = \underset{\leftarrow}{lim}~\Gamma/N $</p>
+<p>where the limit is taken over all finite index normal subgroups $N \triangleleft PSL_2(\mathbb{Z}) $. In this way one realizes the absolute Galois group as a subgroup of the outer automorphism group of the profinite group $\hat{\Gamma} $. As a profinite group is a compact topological group one should study its <strong>continuous</strong> finite dimensional representations which are precisely those factoring through a finite quotient. In the case of $\hat{\Gamma} $ the <strong>simple continuous representations</strong> $\mathbf{simp}_c~\hat{\Gamma} $ are precisely the components of the permutation representations of the modular group. So in a sense, anabelian geometry is the study of these continuous simples together wirth the action of the absolute Galois group on it.</p>
+<p>In <strong>noncommutative geometry</strong> we are interested in a related representation theoretic problem. We would love to know the simple finite dimensional representations $\mathbf{simp}~\Gamma $ of the modular group as this would give us all simples of the three string braid group $B_3 $. So a natural question presents itself : how are these two &#8216;geometrical&#8217; objects $\mathbf{simp}_c~\hat{\Gamma} $ (anabelian) and $\mathbf{simp}~\Gamma $ (noncommutative) related and can we use one to get information about the other?</p>
+<p>This is all rather vague  so far, so let us work out a trivial case to get some intuition. Consider the profinite completion of the infinite Abelian group</p>
+<p>$\hat{\mathbb{Z}} = \underset{\leftarrow}{lim}~\mathbb{Z}/n\mathbb{Z} = \prod_p \hat{\mathbb{Z}}_p $</p>
+<p>As all simple representations of an Abelian group are one-dimensional and because all continuous ones factor through a finite quotient $\mathbb{Z}/n\mathbb{Z} $ we see that in this case</p>
+<p>$\mathbf{simp}_c~\hat{\mathbb{Z}} = \mu_{\infty} $</p>
+<p>is the set of all roots of unity. On the other hand, the simple representations of $\mathbb{Z} $ are also one-dimensional and are determined by the image of the generator so</p>
+<p>$\mathbf{simp}~\mathbb{Z} = \mathbb{C} &#8211; &#123; 0 &#125; = \mathbb{C}^* $</p>
+<p>Clearly we have an embedding $\mu_{\infty} \subset \mathbb{C}^* $ and the roots of unity are even <strong>dense</strong> in the Zariski topology. This might look a bit strange at first because clearly all roots of unity lie on the unit circle which &#8216;should be&#8217; their closure in the complex plane, but that&#8217;s because we have a real-analytic intuition. Remember that the Zariski topology of $\mathbb{C}^*$ is just the cofinite topology, so any closed set containing the infinitely many roots of unity should be the whole space!</p>
+<p>Let me give a pedantic alternative proof of this (but one which makes it almost trivial that a similar result should be true for most profinite completions&#8230;). If $c $ is the generator of $\mathbb{Z} $ then the different conjugacy classes are precisely the singletons $c^n $. Now suppose that there is a polynomial $a_0+a_1x+\ldots+a_mx^m $ vanishing on all the continuous simples of $\hat{\mathbb{Z}} $ then this means that the dimensions of the character-spaces of all finite quotients $\mathbb{Z}/n\mathbb{Z} $ should be bounded by $m $ (for consider $x $ as the character of $c $), which is clearly absurd.</p>
+<p>Hence, whenever we have a finitely generated group $G $ for which there is no bound on the number of irreducibles for finite quotients, then <strong>morally</strong> the continuous simple space for the profinite completion</p>
+<p>$\mathbf{simp}_c~\hat{G} \subset \mathbf{simp}~G $</p>
+<p>should be dense in the Zariski topology on the noncommutative space of simple finite dimensional representations of $G $. In particular, this should be the case for the modular group $PSL_2(\mathbb{Z}) $.</p>
+<p>There is just one tiny problem : unlike the case of $\mathbb{Z} $ for which this space is an ordinary (ie. commutative) affine variety $\mathbb{C}^* $, what do we mean by the &#8220;Zariski topology&#8221; on the noncommutative space $\mathbf{simp}~PSL_2(\mathbb{Z}) $ ? Next time we will clarify what this might be and show that indeed in this case the subset</p>
+<p>$\mathbf{simp}_c~\hat{\Gamma} \subset \mathbf{simp}~\Gamma $</p>
+<p>will be a Zariski closed subset!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/anabelian-vs-noncommutative-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Wolfram &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/wolfram/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 04 Apr 2023 12:05:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Stephen Wolfram on ChatGPT</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 04 Apr 2023 12:05:44 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[GPT-2]]></category>
+		<category><![CDATA[logic]]></category>
+		<category><![CDATA[Mathematica]]></category>
+		<category><![CDATA[stephen]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[Wolfram]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11193</guid>
+
+					<description><![CDATA[A month ago, Stephen Wolfram put out a little booklet (140 pages) What Is ChatGPT Doing &#8230; and Why Does It Work?. It gives a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A month ago, <a href="https://en.wikipedia.org/wiki/Stephen_Wolfram">Stephen Wolfram</a> put out a little booklet (140 pages) <a href="https://www.amazon.com/What-ChatGPT-Doing-Does-Work-ebook/dp/B0BY59PT5Z/">What Is ChatGPT Doing &#8230; and Why Does It Work?</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/71Ve3AUJO+L.jpg" width=40%><br />
+</center></p>
+<p>It gives a gentle introduction to large language models and the architecture and training of neural networks.</p>
+<p>The entire book is freely available:</p>
+<ul>
+<li><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/">What Is ChatGPT Doing … and Why Does It Work?</a></li>
+<li><a href="https://writings.stephenwolfram.com/2023/01/wolframalpha-as-the-way-to-bring-computational-knowledge-superpowers-to-chatgpt/">Wolfram|Alpha as the Way to Bring Computational Knowledge Superpowers to ChatGPT</a></li>
+</ul>
+<p>The advantage of these online texts is that you can click on any of the images, copy their content into a Mathematica notebook, and play with the code.</p>
+<p>This really gives a good idea of how an extremely simplified version of ChatGPT (based on GPT-2) works.</p>
+<p>Downloading the model (within Mathematica) uses about 500Mb, but afterwards you can complete any prompt quickly, and see how the results change if you turn up the &#8216;temperature&#8217;.</p>
+<p>You should&#8217;t expect too much from this model. Here&#8217;s what it came up with from the prompt &#8220;The major results obtained by non-commutative geometry include &#8230;&#8221; after 20 steps, at temperature 0.8:</p>
+<p><code><br />
+NestList[StringJoin[#, model[#, {"RandomSample", "Temperature" -> 0.8}]] &,<br />
+ "The major results obtained by non-commutative geometry include ", 20]</p>
+<p>The major results obtained by non-commutative geometry include vernacular accuracy of math and arithmetic, a stable balance between simplicity and complexity and a relatively low level of violence.<br />
+</code></p>
+<p>Lol.</p>
+<p>In the more philosophical sections of the book, Wolfram speculates about the secret rules of language that ChatGPT must have found if we want to explain its apparent succes. One of these rules, he argues, must be the &#8216;logic&#8217; of languages:</p>
+<blockquote><p>
+But is there a general way to tell if a sentence is meaningful? There’s no traditional overall theory for that. But it’s something that one can think of ChatGPT as having implicitly “developed a theory for” after being trained with billions of (presumably meaningful) sentences from the web, etc.</p>
+<p>What might this theory be like? Well, there’s one tiny corner that’s basically been known for two millennia, and that’s logic. And certainly in the syllogistic form in which Aristotle discovered it, logic is basically a way of saying that sentences that follow certain patterns are reasonable, while others are not.
+</p></blockquote>
+<p>Something else ChatGPT may have discovered are language&#8217;s &#8216;semantic laws of motion&#8217;, being able to complete sentences by following &#8216;geodesics&#8217;:</p>
+<blockquote><p>
+And, yes, this seems like a mess—and doesn’t do anything to particularly encourage the idea that one can expect to identify “mathematical-physics-like” “semantic laws of motion” by empirically studying “what ChatGPT is doing inside”. But perhaps we’re just looking at the “wrong variables” (or wrong coordinate system) and if only we looked at the right one, we’d immediately see that ChatGPT is doing something “mathematical-physics-simple” like following geodesics. But as of now, we’re not ready to “empirically decode” from its “internal behavior” what ChatGPT has “discovered” about how human language is “put together”.
+</p></blockquote>
+<p>So, the &#8216;hidden secret&#8217; of successful large language models may very well be a combination of logic and geometry. Does this sound <a href="https://lievenlebruyn.github.io/neverendingbooks/category/gbrain">familiar</a>?</p>
+<p>If you prefer watching YouTube over reading a book, or if you want to see the examples in action, here&#8217;s a video by Stephen Wolfram. The stream starts about 10 minutes into the clip, and the whole lecture is pretty long, well over 3 hours (about as long as it takes to read <a href="https://www.amazon.com/What-ChatGPT-Doing-Does-Work-ebook/dp/B0BY59PT5Z/">What Is ChatGPT Doing &#8230; and Why Does It Work?</a>).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/flXrLGPY3SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

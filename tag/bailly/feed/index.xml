@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Bailly &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/bailly/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 14 May 2022 09:00:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the topos of unconsciousness</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 14 May 2022 09:00:12 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[france]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Bailly]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[Greenshield]]></category>
+		<category><![CDATA[Lacan]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10531</guid>
+
+					<description><![CDATA[Since wednesday, as mentioned last time, the book by Alain Connes and Patrick Gauthier-Lafaye: &#8220;A l&#8217;ombre de Grothendieck et de Lacan, un topos sur l&#8217;inconscient&#8221;&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Since wednesday, as mentioned <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan">last time</a>, the book by Alain Connes and Patrick Gauthier-Lafaye: <a href="https://www.odilejacob.fr/catalogue/psychologie/psychiatrie/a-lombre-de-grothendieck-et-de-lacan_9782415002381.php">&#8220;A l&#8217;ombre de Grothendieck et de Lacan, un topos sur l&#8217;inconscient&#8221;</a> is available in the better bookshops.</p>
+<p><center><br />
+<img decoding="async" src="https://s1.odilejacob.fr/couvertures/9782415002381.jpg" width=60% /><br />
+</center></p>
+<p>There&#8217;s no need to introduce Alain Connes <a href="https://lievenlebruyn.github.io/neverendingbooks/tag/connes">on this blog</a>. <a href="https://www.fnac.com/ia4645504/Patrick-Gauthier-Lafaye">Patrick Gauthier-Lafaye</a> is a French psychiatrist and psycho-analyst, working in Strassbourg.</p>
+<p>The book is a lengthy dialogue in which the authors try to find a use for topos theory in <a href="https://en.wikipedia.org/wiki/Jacques_Lacan">Jaques Lacan&#8217;s</a> psycho-analytical view of the unconscious.</p>
+<p>If you are a complete Lacanian virgin, it may be helpful to browse through <a href="https://ia800709.us.archive.org/23/items/lionel-bailly-lacan-a-beginners-guide/lionel-bailly-lacan-a-beginners-guide.pdf">&#8220;Lacan, a beginners guide&#8221;</a> (by Lionel Bailly) first.</p>
+<p><center><br />
+<img decoding="async" src="https://static.fnac-static.com/multimedia/0/Images/BE/NR/31/e0/68/6873137/1507-1/tsp20150505170821/Lacan-Oneworld-Beginner-s-Guide.jpg" width=60% /><br />
+</center></p>
+<p>If this left you bewildered, for example by Lacan&#8217;s strange (ab)use of mathematics, rest assured, you&#8217;re not alone.</p>
+<p>It is no coincidence that Lacan&#8217;s works are the first case-study in the book <a href="https://en.wikipedia.org/wiki/Fashionable_Nonsense">&#8220;Fashionable Nonsense: Postmodern Intellectuals&#8217; Abuse of Science&#8221;</a> by Alan Sokal (the one of the <a href="https://en.wikipedia.org/wiki/Sokal_affair">hoax</a>) and Jean Bricmont. You can download the book from <a href="https://monoskop.org/images/5/53/Sokal_Alan_Bricmont_Jean_Fashionable_Nonsense.pdf">this link</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://media.s-bol.com/BlnrYDOm5BN/550x820.jpg" width=60% /><br />
+</center></p>
+<p>If now you feel that Sokal and Bricmont are way too harsh on Lacan, I urge you to have a go at the book <a href="https://www.academia.edu/32004206/Writing_the_Structures_of_the_Subject_Lacan_and_Topology">&#8220;Writing the structures of the subject, Lacan and topology&#8221;</a> by Will Greenshields.</p>
+<p><center><br />
+<img decoding="async" src="https://images-na.ssl-images-amazon.com/images/I/31PQmXX0rDL._SX350_BO1,204,203,200_.jpg" width=60% /><br />
+</center></p>
+<p>If you don&#8217;t have the time or energy for this, let me give you one illustrative example: the topological explanation of <a href="http://art3idea.psu.edu/locus/fantasy_formula.pdf">Lacan&#8217;s formula of fantasy</a>:</p>
+<p>\[<br />
+\$~\diamond~a \]</p>
+<p>Loosely speaking this formula says “the barred subject stands within a circular relationship to the <a href="https://en.wikipedia.org/wiki/Objet_petit_a">objet petit a</a> (the object of desire), one part of which is determined by alienation, the other by separation”.</p>
+<p>Lacan was obsessed with the immersion of the projective plane $\mathbb{P}^2(\mathbb{R})$ into $\mathbb{R}^3$ as the cross-cap. Here&#8217;s an image of it from his 1966-67 seminar on <a href="http://staferla.free.fr/S14/S14%20LOGIQUE.pdf">&#8216;Logique du fantasme&#8217;</a> (213 pages).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/crosscap1.png" width=60% /><br />
+</center></p>
+<p>This image includes the position of the objet petit $a$ as the end point of the self-intersection curve, which itself is referred to as the &#8216;castration&#8217;, or the &#8216;phallus&#8217;, or whatever.</p>
+<p>Brace yourself for the &#8216;explanation&#8217; of $\$~\diamond~a$: if you walk <em>twice</em> around $a$ this divides the cross-cap into a disk and a Mobius-strip!</p>
+<p>The mathematics is correct but I fail to see how this helps the psycho-analyst in her therapy. But hey, everyone will tell you I have absolutely no therapeutic talent.</p>
+<p>Let&#8217;s return to the brand new book by Alain Connes and Patrick Gauthier-Lafaye: <a href="https://www.odilejacob.fr/catalogue/psychologie/psychiatrie/a-lombre-de-grothendieck-et-de-lacan_9782415002381.php">&#8220;A l&#8217;ombre de Grothendieck et de Lacan, un topos sur l&#8217;inconscient&#8221;</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://s1.odilejacob.fr/couvertures/9782415002381.jpg" width=60% /><br />
+</center></p>
+<p>It was to be expected that they would defend Lacan&#8217;s exploitation of (surface) topology by saying that he was just unfortunate not to have the more general notion of toposes available, as well as their much subtler logic. Perhaps someone should write a fictional parody on Greenshields book: &#8220;Lacan and the topos&#8221;&#8230;</p>
+<p>Connes&#8217; first attempt to construct the topos of unconsciousness was also not much of a surprise. According to Lacan the unconscious is &#8216;structured like a language&#8217;.</p>
+<p>So, a natural approach might be to start with a &#8216;dictionary&#8217;-category (words and relations between them) or any other known use of a category in linguistics. A good starting point to read up on this is the blog post <a href="https://blog.juliosong.com/linguistics/mathematics/a-new-application-of-category-theory-in-linguistics-part-1/">A new application of category theory in linguistics</a>.</p>
+<p>Eventually they settled for a much more ambitious project. To Connes and Gauthier-Lafaye every individual has her own topos and corresponding logic.</p>
+<p>They don&#8217;t specify how to construct these individual toposes, but postulate that they are all connected to a <a href="https://www.oliviacaramello.com/Teaching/CambridgeToposTheoryCourseLectures21and22.pdf">classifying topos</a>, which is their incarnation of the world of &#8216;myths&#8217; and &#8216;fantasies&#8217;.</p>
+<p>Surely an idea Lacan would have liked. Underlying the unconscious must be, according to Connes and Gauthier-Lafaye, a <a href="https://ncatlab.org/nlab/show/geometric+theory">geometric theory</a>! That is, it can be fully described by first order sentences.</p>
+<p>Lacan himself used already some first order sequences in his teachings, such as in his <a href="https://nosubject.com/Logic_of_Sexuation">logic of sexuation</a>:</p>
+<p>\[<br />
+\forall x~(\Phi~x)~\quad \text{but also} \quad \exists x~\neg~(\Phi~x) \]</p>
+<p>where $\Phi~x$ is the <a href="https://thedangerousmaybe.medium.com/lacans-concept-of-the-phallus-498743c95270">phallic function</a>. Quoting from Greenshield&#8217;s book:</p>
+<p>&#8220;While all (the sons) are subject to ($\forall x$) the law of castration ($\Phi~x$), we also learn that this law nevertheless resides upon an exception: there exists a subject ($\exists x$) that is not subject to this law ($\neg \Phi~x$). This exception is embodied by the despotic father who, not being subject to the phallic function, experiences an impossible mode of totalised jouissance (he enjoys all the women). He is, quite simply, the exception that proves the law a necessary beyond that enables the law’s geometric bounds to be defined.&#8221;</p>
+<p>It will be quite hard (but probably great fun for psycho-analysts) to turn the whole of Lacanian theory on the unconscious into a coherent geometric theory, construct its classifying topos, and apply the Joyal-Reyes theorem to get at the individual cases/toposes.</p>
+<p>I&#8217;m sure there are much deeper insights to be gained from Connes&#8217; and Gauthier-Lafaye&#8217;s book, but this is what i got from a first, fast, cursory reading of it.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

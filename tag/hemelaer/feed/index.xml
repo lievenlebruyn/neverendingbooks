@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hemelaer &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/hemelaer/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 21 Sep 2023 12:05:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>some skew Smullyan stumpers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 21 Sep 2023 12:05:48 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[Hemelaer]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[skew]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[some]]></category>
+		<category><![CDATA[stumpers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11674</guid>
+
+					<description><![CDATA[Raymond Smullyan&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://static01.nyt.com/images/2017/02/12/us/12smullyan-obit/12smullyan-obit-superJumbo.jpg" width=100%></p>
+<p><a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s a classic example.</p>
+<p>&#8220;On the day of his arrival, the anthropologist Edgar Abercrombie came across three inhabitants, whom we will call $A$, $B$ and $C$. He asked $A$: &#8220;Are you a Knight or a Knave?&#8221; $A$ answered, but so indistinctly that Abercrombie could not understand what he said.</p>
+<p>He then asked $B$: &#8220;What did he say?&#8221; $B$ replies: &#8220;He said that he is a knave.&#8221; At this point, $C$ piped up and said: &#8220;Don&#8217;t believe that; it&#8217;s a lie!&#8221;</p>
+<p>Was $C$ a Knight or a Knave?&#8221;</p>
+<p>If you are stumped by this, try to figure out what kind of inhabitant can say &#8220;I am a Knave&#8221;.</p>
+<p>Some years ago, my friend and co-author <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a> wrote about a much stranger island, <a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">the island of two truths</a>.</p>
+<p>&#8220;The island was ruled by a queen and a king. It is important to stress that the queen was neither inferior nor superior to the king. Rather than as a married couple one should think of the queen and the king as two parallel powers, somewhat like the Queen of the Night and the King Sarastro in Mozart&#8217;s famous opera The Magic Flute. The queen and the king had their own castle each, each of them had their own court, their own advisers and servants, and most importantly each of them even had their own truth value.</p>
+<p>On the island, a proposition p is either FALSE, Q-TRUE or K-TRUE; in each of the cases we say that p has value 0, Q or K, respectively. The queen finds the truth value Q to be superior, while the king values the most the value K. The queen and the king have their opinions on all issues, while other residents typically have their opinions on some issues but not all.&#8221;</p>
+<p>The logic of the island of two truths is the easiest example of what Karin and I called a non-commutative frame or skew Heyting algebra (see <a href="https://arxiv.org/abs/1702.04949">here</a>), a notion we then used, jointly with <a href="https://jenshemelaer.com/">Jens Hemelaer</a>, to define the notion of a <a href="https://arxiv.org/abs/1705.02831">non-commutative topos</a>.</p>
+<p><img decoding="async" src="https://elle.metropolitan.si/media/cache/upload/Photo/2014/10/22/s43_40_cvetko-vah-karin_fbimage.jpg" width=100%></p>
+<p>If you take our general definitions, and take Q as the distinguished top-element, then the truth tables for the island of two truths are these ones (value of first term on the left, that of the second on top):</p>
+<p>\[<br />
+\begin{array}{c|ccc}<br />
+\wedge &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+Q &#038; 0 &#038; Q &#038; Q \\<br />
+K &#038; 0 &#038; K &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\vee &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; Q &#038; K \\<br />
+Q &#038; Q &#038; Q &#038; K \\<br />
+K &#038; K &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; Q &#038; Q &#038; K \\<br />
+Q &#038; 0 &#038; Q &#038; K \\<br />
+K &#038; 0 &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|c}<br />
+ &#038; \neg  \\<br />
+\hline<br />
+0 &#038; Q \\<br />
+Q &#038; 0 \\<br />
+K &#038; 0<br />
+\end{array}<br />
+\]</p>
+<p>Note that on this island the order of statements is important! That is, the truth value of $p \wedge q$ may differ from that of $q \wedge p$ (and similarly for $\vee$).</p>
+<p>Let&#8217;s reconsider Smullyan&#8217;s puzzle at the beginning of this post, but now on an island of two truths, where every inhabitant is either of Knave, or a Q-Knight (uttering only Q-valued statements), or a K-Knight (saying only K-valued statements).</p>
+<p>Again, can you determine what type $C$ is?</p>
+<p>Well, if you forget about the distinction between Q- and K-valued sentences, then we&#8217;re back to classical logic (or more generally, if you divide out Green&#8217;s equivalence relation from any skew Heyting algebra you obtain an ordinary Heyting algebra), and we have seen that then $B$ must be a Knave and $C$ a Knight, so in our new setting we know that $C$ is either a Q-Knight or a K-Knight, but which of the two?</p>
+<p>Now, $C$ claims the negation of what $B$ said, so the truth value is $\neg 0 = Q$, and therefore $C$ must be a Q-Knight.</p>
+<p>Recall that in <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a>&#8216;s island of two truths all sentences have a unique value which can be either $0$ (false) or one of the non-false values Q or K, and the value of combined statements is given by the truth tables above. The Queen and King both have an opinion on all statements, which may or may not coincide with the actual value of that statement. However, if the Queen assigns value $0$ to a statement, then so does the King, and conversely.</p>
+<p>Other inhabitants of the island have only their opinion about a subset of all statements (which may be empty). Two inhabitants <em>agree</em> on a statement if they both have an opinion on it and assign the same value to it.</p>
+<p>Now, each inhabitant is either <em>loyal</em> to the Queen or to the King (or both), meaning that they agree with the Queen (resp. King) on all statements they have an opinion of. An inhabitant loyal to the Queen is said to <em>believe</em> a sentence when she assigns value $Q$ to it (and symmetric for those loyal to the King), and <em>knows</em> the statement if she believes it and that value coincides with the actual value of that statement.</p>
+<p>Further, if A is loyal to the Queen, then the value of the statement &#8216;A is loyal to the Queen&#8217; is Q, and if A is not loyal to the Queen, then the value of the sentence &#8216;A is loyal to the Queen&#8217; is $0$ (and similarly for statements about loyalty to the King).</p>
+<p>These notions are enough for the first batch of ten puzzles in Karin&#8217;s posts</p>
+<ul>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">Oscar on the island of two truths</a></li>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a></li>
+</ul>
+<p>Just one example:</p>
+<p>Show that if anybody on the island knows that A is not loyal to the Queen, then everybody that has an opinion about the sentence &#8216;A is loyal to the Queen&#8217; knows that.</p>
+<p>After these two posts, Karin decided that it was more fun to blog about the use of non-commutative frames in data analysis.</p>
+<p>But, she once gave me a text containing many more puzzles (as well as all the answers), so perhaps I&#8217;ll share these in a follow-up post.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

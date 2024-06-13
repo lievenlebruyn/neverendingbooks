@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Nun &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/nun/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 20 Aug 2022 13:14:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Leila Schneps on Grothendieck</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/leila-schneps-on-grothendieck/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/leila-schneps-on-grothendieck/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 20 Aug 2022 13:14:52 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Nun]]></category>
+		<category><![CDATA[Schneps]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10872</guid>
+
+					<description><![CDATA[If you have neither the time nor energy to watch more than one interview or talk about Grothendieck&#8217;s life and mathematics, may I suggest to&#8230;]]></description>
+										<content:encoded><![CDATA[<p>If you have neither the time nor energy to watch more than one interview or talk about Grothendieck&#8217;s life and mathematics, may I suggest to spare that privilege for  <a href="https://en.wikipedia.org/wiki/Leila_Schneps">Leila Schneps&#8217;</a> talk on  &#8216;Le génie de Grothendieck&#8217; in the &#8216;Thé &#038; Sciences&#8217; series at the <a href="https://www.salon-nun.fr/">Salon Nun in Paris</a>.</p>
+<p>I was going to add some &#8216;relevant&#8217; time slots after the embedded YouTube-clip below, but I really think it is better to watch Leila&#8217;s interview in its entirety. Enjoy!</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/V8BbFTEyvIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/leila-schneps-on-grothendieck/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

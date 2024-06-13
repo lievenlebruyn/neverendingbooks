@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>the &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/the/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 26 Sep 2023 14:57:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the strange island of two truths</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 26 Sep 2023 14:57:07 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[island]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[strange]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[truths]]></category>
+		<category><![CDATA[two]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11699</guid>
+
+					<description><![CDATA[Last time we had a brief encounter with the island of two truths, invented by Karin Cvetko-Vah. See her posts: Oscar on the island of&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers">Last time</a> we had a brief encounter with the island of two truths, invented by <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a>. See her posts:</p>
+<ul>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">Oscar on the island of two truths</a></li>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a></li>
+</ul>
+<p>On this island, false statements have truth-value $0$ (as usual), but non-false statements are not necessarily true,  but can be given either truth-value $Q$ (statements which the Queen on the island prefers) or $K$ (preferred by the King).</p>
+<p>Think of the island as Trump&#8217;s paradise where nobody is ever able to say: <a href="https://en.wikipedia.org/wiki/Alternative_facts">&#8220;Look, alternative truths are not truths. They&#8217;re falsehoods.&#8221;</a></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2truths.png" width=70%><br />
+</center></p>
+<p>Even the presence of just one &#8216;alternative truth&#8217; has dramatic consequences on the rationality of your reasoning. If we know the truth-values of specific sentences, we can determine the truth-value of more complex sentences in which we use logical connectives such as $\vee$ (or), $\wedge$ (and), $\neg$ (not), and $\implies$ (then) via these truth tables:</p>
+<p>\[<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\bf{\wedge}~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+Q &#038; 0 &#038; Q &#038; Q \\<br />
+K &#038; 0 &#038; K &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\vee~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; Q &#038; K \\<br />
+Q &#038; Q &#038; Q &#038; K \\<br />
+K &#038; K &#038; Q &#038; K<br />
+\end{array} \]<br />
+\[<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\implies~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; Q &#038; Q &#038; K \\<br />
+Q &#038; 0 &#038; Q &#038; K \\<br />
+K &#038; 0 &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|c}<br />
+ \downarrow &#038; \neg~\downarrow \\<br />
+\hline<br />
+0 &#038; Q \\<br />
+Q &#038; 0 \\<br />
+K &#038; 0<br />
+\end{array}<br />
+\]</p>
+<p>Note that the truth-values $Q$ and $K$ are not completely on equal footing as we have to make a choice which one of them will stand for $\neg 0$.</p>
+<p>Common <a href="https://en.wikipedia.org/wiki/Tautology_(logic)">tautologies</a> are no longer valid on this island. The best we can have are $Q$-tautologies (giving value $Q$ whatever the values of the components) or $K$-tautologies.</p>
+<p>Here&#8217;s one $Q$-tautology (check!) : $(\neg p) \vee (\neg \neg p)$. Verify that $p \vee (\neg p)$ is neither a $Q$- nor a $K$-tautology.</p>
+<p>Can you find any $K$-tautology at all?</p>
+<p>Already this makes it incredibly difficult to adapt Smullyan-like <a href="https://en.wikipedia.org/wiki/Knights_and_Knaves">Knights and Knaves</a> puzzles to this skewed island. <a href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers">Last time</a> I gave one easy example.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2island2.png" width=70%><br />
+</center></p>
+<p><strong>Puzzle</strong> : On an island of two truths all inhabitants are either Knaves (saying only false statements), Q-Knights (saying only $Q$-valued statements) or K-Knights (who only say $K$-valued statements).</p>
+<p>The King came across three inhabitants, whom we will call $A$, $B$ and $C$. He asked $A$: &#8220;Are you one of my  Knights?&#8221; $A$ answered, but so indistinctly that the King could not understand what he said.</p>
+<p>He then asked $B$: &#8220;What did he say?&#8221; $B$ replies: &#8220;He said that he is a Knave.&#8221; At this point, $C$ piped up and said: &#8220;That&#8217;s not true!&#8221;</p>
+<p>Was $C$ a Knave, a Q-Knight or a K-Knight?</p>
+<p><strong>Solution</strong> : Q- and K-Knights can never claim to be a Knave. Neither can Knaves because they can only say false statements. So, no inhabitant on the island can ever claim to be a Knave. So, $B$ lies and is a Knave, so his stament has truth-value $0$. $C$ claims the negation of what $B$ says so the truth-value of his statement is $\neg 0 = Q$. $C$ must be a Q-Knight.</p>
+<p>As if this were not difficult enough, Karin likes to complicate things by letting the Queen and King assign their own truth-values to all sentences, which may coincide with their actual truth-value or not.</p>
+<p>Clearly, these two truth-assignments follow the logic of the island of two truths for composed sentences, and we impose one additional rule: if the Queen assigns value $0$ to a statement, then so does the King, and vice versa.</p>
+<p>I guess she wanted to set the stage for variations to the island of two truths of <a href="https://en.wikipedia.org/wiki/Epistemic_modal_logic">epistemic modal logical</a> puzzles as in Smullyan&#8217;s book <a href="https://raymondsmullyan.com/books/forever-undecided/">Forever Undecided</a> (for a quick summary, have a look at Smullyan&#8217;s paper <a href="http://www.tark.org/proceedings/tark_mar19_86/p341-smullyan.pdf">Logicians who reason about themselves</a>).</p>
+<p>A possible interpretation of the Queen&#8217;s truth-assignment is that she assigns value $Q$ to all statements she believes to be true, value $0$ to all statements she believes to be false, and value $K$ to all statements she has no fixed opinion on (she neither believes them to be true nor false). The King assigns value $K$ to all statements he believes to be true, $0$ to those he believes to be false, and $Q$ to those he has no fixed opinion on.</p>
+<p>For example, if the Queen has no fixed opinion on $p$ (so she assigns value $K$ to it), then the King can either believe $p$ (if he also assigns value $K$ to it) or can have no fixed opinion on $p$ (if he assigns value $Q$ to it), but he can never believe $p$ to be false.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2island3.png" width=70%><br />
+</center></p>
+<p><strong>Puzzle</strong> : We say that Queen and King &#8216;agree&#8217; on a statement $p$ if they both assign the same value to it. So, they agree on all statements one of them (and hence both) believe to be false. But there&#8217;s more:</p>
+<ul>
+<li>Show that Queen and King agree on the negation of all statements one of them believes to be false.</li>
+<li>Show that the King never believes the negation of whatever statement.</li>
+<li>Show that the Queen believes all negations of statements the King believes to be false.</li>
+</ul>
+<p><strong>Solution</strong> : If one of them believes $p$ to be false (s)he will assign value $0$ to $p$ (and so does the other), but then they both have to assign value $Q$ to $\neg p$, so they agree on this.</p>
+<p>The value of $\neg p$ can never be $K$, so the King does not believe $\neg p$.</p>
+<p>If the King believes $p$ to be false he assigns value $0$ to it, and so does the Queen, but then the value of $\neg p$ is $Q$ and so the Queen believes $\neg p$.</p>
+<p>We see that the Queen and King agree on a lot of statements, they agree on all statements one of them believes to be false, and they agree on the negation of such statements!</p>
+<p>Can you find any statement at all on which they do not agree?</p>
+<p>Well, that may be a little bit premature. We didn&#8217;t say which sentences about the island are allowed, and what the connection (if any) is between the Queen and King&#8217;s value-assignments and the actual truth values.</p>
+<p>For example, the Queen and King may agree on a classical ($0$ or $1$) truth-assignments to the atomic sentences for the island, and replace all $1$&#8217;s with $Q$. This will give a consistent assignment of truth-values, compatible with the island&#8217;s strange logic. (We cannot do the same trick replacing $1$&#8217;s by $K$ because $\neg 0 = Q$).</p>
+<p>Clearly, such a system may have no relation at all with the intended meaning of these sentences on the island (the actual truth-values).</p>
+<p>That&#8217;s why <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a> introduced the notions of &#8216;loyalty&#8217; and &#8216;sanity&#8217; for inhabitants of the island. That&#8217;s for next time, and perhaps then you&#8217;ll be able to answer the question whether Queen and King agree on all statements.</p>
+<p>(all images in this post are from Smullyan&#8217;s book <a href="https://www.amazon.com/Alice-Puzzle-Land-Carrollian-Children-Recreational/dp/0486482006">Alice in Puzzle-Land</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the L-game</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 17 Sep 2023 11:38:33 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[DesignerMaths]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[de Bono]]></category>
+		<category><![CDATA[designermaths]]></category>
+		<category><![CDATA[L-game]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[winning ways]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11320</guid>
+
+					<description><![CDATA[In 1982, the BBC ran a series of 10 weekly programmes entitled de Bono&#8217;s Thinking Course. In the book accompanying the series Edward de Bono&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In 1982, the BBC ran a series of 10 weekly programmes entitled <a href="https://ia902600.us.archive.org/0/items/pdfy-RP-OuErwuZWp4xkk/deBonos_thinking_course_text.pdf">de Bono&#8217;s Thinking Course</a>. In the book accompanying the series <a href="https://en.wikipedia.org/wiki/Edward_de_Bono">Edward de Bono</a> recalls the origin of his &#8216;L-Game&#8217;:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamebegin.png" width=30%><br />
+</center></p>
+<blockquote><p>Many years ago I was sitting next to the famous mathematician, <a href="https://en.wikipedia.org/wiki/John_Edensor_Littlewood">Professor Littlewood</a>, at dinner in Trinity College. We were talking about getting computers to play chess. We agreed that chess was difficult because of the large number of pieces and different moves. It seemed an interesting challenge to design a game that was as simple as possible and yet could be played with a degree of skill.</p>
+<p>As a result of that challenge I designed the <a href="https://en.wikipedia.org/wiki/L_game">&#8216;L-Game&#8217;</a>, in which each player has only one piece (the L-shape piece). In turn he moves this to any new vacant position (lifting up, turning over, moving across the board to a vacant position, etc.). After moving his L-piece he can &#8211; if he wishes &#8211; move either one of the small neutral pieces to any new position. The object of the game is to block your opponent&#8217;s L-shape so that no move is open to it.
+</p></blockquote>
+<p>It is a pleasant exercise in symmetry to calculate the number of possible L-game positions.</p>
+<p>The $4 \times 4$ grid has $8$ symmetries, making up the dihedral group $D_8$: $4$ rotations and $4$ reflections.</p>
+<p>An L-piece breaks all these symmetries, that is, it changes in form under each of these eight operations. That is, using the symmetries of the $4 \times 4$-grid we can put one of the L-pieces (say the Red one) on the grid as a genuine L, and there are exactly 6 possibilities to do so.</p>
+<p>For each of these six positions one can then determine the number of possible placings of the Blue L-piece. This is best done separately for each of the 8 different shapes of that L-piece.</p>
+<p>Here are the numbers when the red L is placed in the left bottom corner:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamenumber1.png" width=85%><br />
+</center></p>
+<p>In total there are thus 24 possibilities to place the Blue L-piece in that case. We can repeat the same procedure for the remaining Red L-positions. Here are the number of possibilities for Blue in each case:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamenumber2.png" width=85%><br />
+</center></p>
+<p>That is, there are 82 possibilities to place the two L-pieces if the Red one stands as a genuine L on the board.</p>
+<p>But then, the L-game has exactly $18368 = 8 \times 82 \times 28$ different positions, where the factor</p>
+<ul>
+<li>$8$ gives the number of symmetries of the square $4 \times 4$ grid.</li>
+<li>Using these symmetries we can put the Red L-piece on the grid as a genuine $L$ and we just saw that this leaves $82$ possibilities for the Blue L-piece.</li>
+<li>This leaves $8$ empty squares and so $28 = \binom{8}{2}$ different choices to place the remaining two neutral pieces.</li>
+</ul>
+<p>The $2296 = 82 \times 28$ positions in which the red L-piece is placed as a genuine L can then be analysed by computer and the outcome is summarised in <a href="https://www.amazon.com/Winning-Ways-Your-Mathematical-Plays/dp/1138427578">Winning Ways 2</a> pages 384-386 (with extras on pages 408-409).</p>
+<p>Of the $2296$ positions only $29$ are $\mathcal{P}$-positions, meaning that the next player (Red) will loose. Here are these winning positions for Blue</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Ppositions1.png" width=70%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Ppositions2.png" width=70%><br />
+</center></p>
+<p>Here, neutral piece(s) should be put on the yellow square(s). A (potential) remaining neutral piece should be placed on one of the coloured squares. The different colours indicate the <em>remoteness</em> of the $\mathcal{P}$-position:</p>
+<ul>
+<li>Pink means remoteness $0$, that is, Red has no move whatsoever, so mate in $0$.</li>
+<li>Orange means remoteness $2$: Red still has a move, but will be mated after Blue&#8217;s next move.</li>
+<li>Purple stands for remoteness $4$, that is, Blue mates Red in $4$ moves, Red starting.</li>
+<li>Violet means remoteness $6$, so Blue has a mate in $6$ with Red starting</li>
+<li>Olive stands for remoteness $8$: Blue mates within eight moves.</li>
+</ul>
+<p>Memorising these gives you a method to spot winning opportunities. After Red&#8217;s move image a board symmetry such that Red&#8217;s piece is a genuine L, check whether you can place your Blue piece and one of the yellow pieces to obtain one of the 29 $\mathcal{P}$-positions, and apply the reverse symmetry to place your piece.</p>
+<p>If you don&#8217;t know this, you can run into trouble very quickly. From the starting position, Red has five options to place his L-piece before moving one of the two yellow counters.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen.png" width=85% ><br />
+</center></p>
+<p>All possible positions of the first option loose immediately.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen1.png" width=100% ><br />
+</center></p>
+<p>For example in positions $a,b,c,d,f$ and $l$, Blue wins by playing</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamewin.png" width=25%><br />
+</center></p>
+<p>Here&#8217;s my first attempt at an opening repertoire for the L-game. Question mark means immediate loss, question mark with a number means mate after that number of moves, x means your opponent plays a sensible strategy.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen2.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen3.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen4.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen5b.png" width=100% ><br />
+</center></p>
+<p>Surely I missed cases, and made errors in others. Please leave corrections in the comments and I&#8217;ll try to update the positions.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The forests of the unconscious</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-forests-of-the-unconscious/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-forests-of-the-unconscious/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 20 Apr 2023 09:37:44 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[cell complex]]></category>
+		<category><![CDATA[Dress]]></category>
+		<category><![CDATA[forests]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[injective hull]]></category>
+		<category><![CDATA[Isbell]]></category>
+		<category><![CDATA[phylogenetic]]></category>
+		<category><![CDATA[Sturmfels]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[tight span]]></category>
+		<category><![CDATA[unconscious]]></category>
+		<category><![CDATA[Willerton]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11265</guid>
+
+					<description><![CDATA[We start from a large data-set $V=\{ k,l,m,n,\dots \}$ (texts, events, DNA-samples, &#8230;) with a suitable distance-function ($d(m,n) \geq 0~d(k,l)+d(l,m) \geq d(k.m)$) which measures the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>We start from a large data-set $V=\{ k,l,m,n,\dots \}$ (texts, events, DNA-samples, &#8230;) with a suitable distance-function ($d(m,n) \geq 0~d(k,l)+d(l,m) \geq d(k.m)$) which measures the (dis)similarity between individual samples.</p>
+<p>We&#8217;re after a set of unknown events $\{ p,q,r,s,\dots \}$ to explain the distances between the observed data. An example: let&#8217;s assume we&#8217;ve sequenced the DNA of a set of species, and computed a Hamming-like distance to measures the differences between these sequences.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest2.jpg" width=100%><br />
+(From <a href="https://susan.su.domains/papers/june.pdf">Geometry of the space of phylogenetic trees</a> by Billera, Holmes and Vogtmann)<br />
+</center></p>
+<p>Biology explains these differences from the fact that certain species may have had more recent common ancestors than others. Ideally, the measured distances between DNA-samples are a <em>tree metric</em>. That is, if we can determine the full ancestor-tree of these species, there should be numbers between ancestor-nodes (measuring their difference in DNA) such that the distance between two existing species is the sum of distances over the edges of the unique path in this <a href="https://en.wikipedia.org/wiki/Phylogenetic_tree">phylogenetic tree</a> connecting the two species.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest">Last time</a> we&#8217;ve see that a necessary and sufficient condition for a tree-metric is that for every quadruple $k,l,m,n \in V$ we have that the maximum of the sum-distances</p>
+<p>$$\{ d(k,l)+d(m,n),~d(k,m)+d(l,n),~d(k,n)+d(l,m) \}$$</p>
+<p>is attained at least twice.</p>
+<p>In practice, it rarely happens that the measured distances between DNA-samples are a perfect fit to this condition, but still we would like to compute the most probable phylogenetic tree. In the above example, there will be two such likely trees:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest3.png" width=100%><br />
+(From <a href="https://susan.su.domains/papers/june.pdf">Geometry of the space of phylogenetic trees</a> by Billera, Holmes and Vogtmann)<br />
+</center></p>
+<p>How can we find them? And, if the distances in our data-set do not have such a direct biological explanation, is it still possible to find such trees of events (or perhaps, a forest of event-trees) explaining our distance function?</p>
+<p>Well, tracking back these ancestor nodes looks a lot like trying to construct colimits.</p>
+<p>By now, <a href="https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits">every child</a> knows that if their toy category $T$ does not allow them to construct all colimits, they can always beg for an upgrade to the presheaf topos $\widehat{T}$ of all contravariant functors from $T$ to $Sets$.</p>
+<p>But then, the child can cobble together too many crazy constructions, and the parents have to call in the Grothendieck police who will impose one of their topologies to keep things under control.</p>
+<p>Can we fall back on this standard topos philosophy in order to find these forests of the unconscious?</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forestview.jpg" width=100%><br />
+(<a href="https://symbolreader.net/2013/04/14/the-symbolism-of-the-forest/">Image credit</a>)<br />
+</center></p>
+<p>We have a data-set $V$ with a distance function $d$, and it is fashionable to call this setting a $[0,\infty]$-&#8216;enriched&#8217; category. This is a misnomer, there&#8217;s not much &#8216;category&#8217; in a $[0,\infty]$-enriched category. The only way to define an underlying category from it is to turn $V$ into a poset via $n \geq m$ iff $d(n,m)=0$.</p>
+<p>Still, we can define the set $\widehat{V}$ of $[0,\infty]$-enriched presheaves, consisting of all maps<br />
+$$p : V \rightarrow [0,\infty] \quad \text{satisfying} \quad \forall m,n \in V : d(m,n)+p(n) \geq p(m)$$<br />
+which is again a $[0,\infty]$-enriched category with distance function<br />
+$$\hat{d}(p,q) = \underset{m \in V}{max} (q(m) \overset{.}{-} p(m)) \quad \text{with} \quad a \overset{.}{-} b = max(a-b,0)$$<br />
+so $\widehat{V}$ is a poset via $p \geq q$ iff $\forall m \in V : p(m) \geq q(m)$.</p>
+<p>The good news is that $\widehat{V}$ contains all limits and colimits (because $[0,\infty]$ has sup&#8217;s and inf&#8217;s) and that $V$ embeds isometrically in $\widehat{V}$ via the Yoneda-map<br />
+$$m \mapsto y_m \quad \text{with} \quad y_m(n)=d(n,m)$$<br />
+The mental picture of a $[0,\infty]$-enriched presheaf $p$ is that of an additional &#8216;point&#8217; with $p(m)$ the distance from $y_m$ to $p$.</p>
+<p>But there&#8217;s hardly a subobject classifier to speak of, and so no Grothendieck topologies nor internal logic. So, how can we select from the abundance of enriched presheaves, the nodes of our event-forest?</p>
+<p>We can look for special properties of the ancestor-nodes in a phylogenetic tree.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest6.jpg" width=100%><br />
+</center></p>
+<p>For any ancestor node $p$ and any $m \in V$ there is a unique branch from $p$ having $m$ as a leaf (picture above,left). Take another branch in $p$ and a leaf vertex $n$ of it, then the combination of these two paths gives the unique path from $m$ to $n$ in the phylogenetic tree, and therefore<br />
+$$\hat{d}(y_m,y_n) = d(m,n) = p(m)+p(n) = \hat{d}(p,y_m) + \hat{d}(p,y_n)$$<br />
+In other words, for every $m \in V$ there is another $n \in V$ such that $p$ lies on the <em>geodesic</em> from $m$ to $n$ (identifying elements of $V$ with their Yoneda images in $\widehat{V}$).</p>
+<p>Compare this to <a href="https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt">Stephen Wolfram&#8217;s belief</a> that if we looked properly at “what ChatGPT is doing inside, we’d immediately see that ChatGPT is doing something “mathematical-physics-simple” like following geodesics&#8221;.</p>
+<p>Even if the distance on $V$ is symmetric, the extended distance function on $\widehat{V}$ is usually far from symmetric. But here, as we&#8217;re dealing with a tree-distance, we have for all ancestor-nodes $p$ and $q$ that $\hat{d}(p,q)=\hat{d}(q,p)$ as this is just the sum of the weights of the edges on the unique path from $p$ and $q$ (picture above, on the right).</p>
+<p>Right, now let&#8217;s look at a <em>non</em>-tree distance function on $V$, and let&#8217;s look at those elements in $\widehat{V}$ having similar properties as the ancestor-nodes:</p>
+<p>$$T_V = \{ p \in \widehat{V}~:~\forall n \in V~:~p(n) = \underset{m \in V}{max} (d(m,n) \overset{.}{-} p(m)) \}$$</p>
+<p>Then again, for every $p \in T_V$ and every $n \in V$ there is an $m \in V$ such that $p$ lies on a geodesic from $n$ to $m$.</p>
+<p>The simplest non-tree example is $V = \{ a,b,c,d \}$ with say</p>
+<p>$$d(a,c)+d(b,d) > max(d(a,b)+d(c,d),d(a,d)+d(b,c))$$</p>
+<p>In this case, $T_V$ was calculated by Andreas Dress in <a href="https://core.ac.uk/download/pdf/82215646.pdf">Trees, Tight Extensions of Metric Spaces, and the Cohomological Dimension of Certain Groups: A Note on Combinatorial Properties of Metric Spaces</a>. Note that Dress writes $mn$ for $d(m,n)$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest7.png" width=70%><br />
+</center></p>
+<p>If this were a tree-metric, $T_V$ would be the tree, but now we have a $2$-dimensional cell $T_0$ consisting of those presheaves lying on a geodesic between $a$ and $c$, and on the one between $b$ and $d$. Let&#8217;s denote this by $T_0 = \{ a&#8212;c,b&#8212;d \}$.</p>
+<p>$T_V$ has eight $1$-dimensional cells, and with the same notation we have</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest9.jpg" width=70%><br />
+</center></p>
+<p>Let&#8217;s say that $V= \{ a,b,c,d \}$ are four DNA-samples of species but failed to satisfy the tree-metric condition by an error in the measurements, how can we determine likely phylogenetic trees for them? Well, given the shape of the cell-complex $T_V$ there are four spanning trees (with root in $f_a,f_b,f_c$ or $f_d$) having the elements of $V$ as their only leaf-nodes. Which of these is most likely the ancestor-tree will depend on the precise distances.</p>
+<p>For an arbitrary data-set $V$, the structure of $T_V$ has been studied extensively, under a variety of names such as &#8216;Isbell&#8217;s injective hull&#8217;, &#8216;tight span&#8217; or &#8216;tropical convex hull&#8217;, in slightly different settings. So, in order to use results one sometimes have to intersect with some (un)bounded polyhedron.</p>
+<p>It is known that $T_V$ is always a cell-complex with dimension of the largest cell bounded by half the number of elements of $V$. In this generality it will no longer be the case that there is a rooted spanning tree of teh complex having the elements of $V$ as its only leaves, but we can opt for the best forest of rooted trees in the $1$-skeleton having all of $V$ as their leaf-nodes. Theses are the &#8216;forests of the unconscious&#8217; explaining the distance function on the data-set $V$.</p>
+<p>Apart from the Dress-paper mentioned above, I&#8217;ve found these papers informative:</p>
+<ul>
+<li><a href="https://www.math.uni-bielefeld.de/documenta/lsu/dress-huber-multon.pdf">Metric spaces in pure and applied mathematics</a> by Dress, Huber and Moulton</li>
+<li><a href="https://arxiv.org/abs/1006.2767">Computing the bounded subcomplex of an unbounded polyhedron</a> by Hermann, Joswig and Pfetsch</li>
+<li><a href="https://www.math.uni-bielefeld.de/documenta/vol-09/01.pdf">Tropical convexity</a> by Develin and Sturmfels</li>
+<li><a href="https://arxiv.org/abs/1302.4370">Tight spans, Isbell completions and semi-tropical modules</a> by Willerton</li>
+</ul>
+<p>So far, we started from a data-set $V$ with a symmetric distance function, but for applications in LLMs one might want to drop that condition. In that case, Willerton proved that there is a suitable replacement of $T_V$, which is now called the &#8216;directed tight span&#8217; and which coincides with the Isbell completion.</p>
+<p>Recently, <a href="http://www.simonwillerton.staff.shef.ac.uk/">Simon Willerton</a> gave a talk at the African Mathematical Seminar called &#8216;Looking at metric spaces as enriched categories&#8217;:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/hRwcKpdwD5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Willerton also posts a series(?) on this at the n-category cafe, starting with <a href="https://golem.ph.utexas.edu/category/2023/04/metric_spaces_as_enriched_cate.html">Metric spaces as enriched categories I</a>.</p>
+<p>(tbc?)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">The super-vault of missing notes</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest">The tropical brain-forest</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-forests-of-the-unconscious/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The tropical brain-forest</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 10 Apr 2023 13:34:31 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Billera]]></category>
+		<category><![CDATA[brain-forest]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[Holmes]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[phylogenetic]]></category>
+		<category><![CDATA[Speyer]]></category>
+		<category><![CDATA[Sturmfels]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[tropical]]></category>
+		<category><![CDATA[tropical geometry]]></category>
+		<category><![CDATA[Vogtmann]]></category>
+		<category><![CDATA[Willerton]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11220</guid>
+
+					<description><![CDATA[If machine learning, AI, and large language models are here to stay, there&#8217;s this inevitable conclusion: Millennials are the last generation to grow up without&#8230;]]></description>
+										<content:encoded><![CDATA[<p>If machine learning, AI, and large language models are here to stay, there&#8217;s this inevitable conclusion:</p>
+<p><center></p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">Millennials are the last generation to grow up without tropical geometry</p>
+<p>&mdash; Dave Jensen (@DaveJensenMath) <a href="https://twitter.com/DaveJensenMath/status/1643958509019512833?ref_src=twsrc%5Etfw">April 6, 2023</a></p></blockquote>
+<p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+</center></p>
+<p>At the start of <a href="https://lievenlebruyn.github.io/neverendingbooks/category/gbrain">this series</a>, the hope was to find the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">topos of the unconscious</a>. Pretty soon, attention turned to the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">shape of languages</a> and LLMs.</p>
+<p>In <a href="https://en.wikipedia.org/wiki/Large_language_model">large language models</a> all syntactic and semantic information is encoded is huge arrays of numbers and weights. It seems unlikely that $\mathbf{Set}$-valued presheaves will be useful in machine learning, but surely <a href="https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory">Huawei</a> will <a href="https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes">prove</a> me wrong.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">$[0,\infty]$-enriched categories</a> (aka generalised metric spaces) and associated <a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">$[0,\infty]$-enriched presheaves</a> may be better suited to understand existing models.</p>
+<p>But, as with ordinary presheaves, there are just too many $[0,\infty]$-enriched ones, So, how can we weed out the irrelevant ones?</p>
+<p>For inspiration, let&#8217;s turn to <a href="https://en.wikipedia.org/wiki/Evolutionary_biology">evolutionary biology</a> and their theory of <a href="https://en.wikipedia.org/wiki/Phylogenetic_tree">phylogenetic trees</a>. They want to trace back common (extinguished) ancestors of existing species by studying overlaps in the DNA.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tree_of_life_SVG.svg/1280px-Tree_of_life_SVG.svg.png" width=75%><br />
+(A  tree of life, based on completely sequenced genomes, from <a href="https://en.wikipedia.org/wiki/Phylogenetic_tree">Wikipedia</a>)<br />
+</center></p>
+<p>The connection between phylogenetic trees and tropical geometry is nicely explained in the paper <a href="https://math.berkeley.edu/~bernd/mathmag.pdf">Tropical mathematics</a> by David Speyer and Bernd Sturmfels.</p>
+<p>The tropical semi-ring is the set $(-\infty,\infty]$, equipped with a new addition $\oplus$ and multiplication $\odot$</p>
+<p>$$a \oplus b = min(a,b), \quad \text{and} \quad a \odot b = a+b$$</p>
+<p>Because tropical multiplication is ordinary addition, a tropical monomial in $n$ variables</p>
+<p>$$\underbrace{x_1 \odot \dots \odot x_1}_{j_1} \odot \underbrace{x_2 \odot \dots \odot x_2}_{j_2} \odot \dots$$</p>
+<p>corresponds to the linear polynomial $j_1 x_1 + j_2 x_2 + \dots \in \mathbb{Z}[x_1,\dots,x_n]$. But then, a tropical polynomial in $n$ variables</p>
+<p>$$p(x_1,\dots,x_n)=a \odot x_1^{i_1}\dots x_n^{i_n} \oplus b \odot x_1^{j_1} \dots x_n^{j_n} \oplus \dots$$</p>
+<p>gives the piece-wise linear function on $p : \mathbb{R}^n \rightarrow \mathbb{R}$</p>
+<p>$$p(x_1,\dots,x_n)=min(a+i_1 x_1 + \dots + i_n x_n,b+j_1 x_1 + \dots + j_n x_n, \dots)$$</p>
+<p>The tropical hypersurface $\mathcal{H}(p)$ then consists of all points of $v \in \mathbb{R}^n$ where $p$ is not linear, that is, the value of $p(v)$ is attained in at least two linear terms in the description of $p$.</p>
+<p>Now, for the relation to phylogenetic trees: let&#8217;s sequence the genomes of human, mouse, rat and chicken and compute the values of a suitable (necessarily symmetric) distance function between them:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/brainforest2.png" width=60%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/brainforest3.png" width=30%><br />
+</center></p>
+<p>From these distances we want to trace back common ancestors and their difference in DNA-profile in a consistent manner, that is, such that the distance between two nodes in the tree is the sum of the distances of the edges connecting them.</p>
+<p>In this example, such a tree is easily found (only the weights of the two edges leaving the root can be different, with sum $0.8$):</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/brainforest4.png" width=50%><br />
+</center></p>
+<p>In general, let&#8217;s sequence the genomes of $n$ species and determine their distance matrix $D=(d_{ij})_{i,j}$. Biology asserts that this distance must be a tree-distance, and those can be characterised by the condition that for all $1 \leq i,j,k,l \leq n$, among the three numbers</p>
+<p>$$d_{ij}+d_{kl},~d_{ik}+d_{jl},~d_{il}+d_{jk}$$</p>
+<p>the <em>maximum</em> is attained at least twice.</p>
+<p>What has this to do with tropical geometry? Well, $D$ is a tree distance if and only if $-D$ is a point in the tropical Grassmannian $Gr(2,n)$.</p>
+<p>Here&#8217;s why: let $e_{ij}=-d_{ij}$ then the above condition is that the <em>minimum</em> of</p>
+<p>$$e_{ij}+e_{kl},~e_{ik}+e_{jl},~e_{il}+e_{jk}$$</p>
+<p>is attained at least twice, or that $(e_{ij})_{i,j}$ is a point of the tropical hypersurface</p>
+<p>$$\mathcal{H}(x_{ij} \odot x_{kl} \oplus x_{ik} \odot x_{jl} \oplus x_{il} \odot x_{jk})$$</p>
+<p>and we recognise this as one of the defining quadratic Plucker relations of the Grassmannian $Gr(2,n)$.</p>
+<p>More on this can be found in another paper by Speyer and Sturmfels <a href="https://arxiv.org/abs/math/0304218">The tropical Grassmannian</a>, and the paper <a href="https://susan.su.domains/papers/june.pdf">Geometry of the space of phylogenetic trees</a> by Louis Billera, Susan Holmes and Karen Vogtmann.</p>
+<p>What&#8217;s the connection with $[0,\infty]$-enriched presheaves?</p>
+<p>The set of all species $V=\{ m,n,\dots \}$ , together with the distance function $d(m,n)$ between their DNA-sequences is a $[0,\infty]$-category. Recall that a $[0,\infty]$-enriched presheaf on $V$ is a function $p : V \rightarrow [0,\infty]$ satisfying for all $m,n \in V$</p>
+<p>$$d(m,n)+p(n) \geq p(m)$$</p>
+<p>For an ancestor node $p$ we can take for every $m \in V$ as $p(m)$ the tree distance from $p$ to $m$, so every ancestor is a $[0,\infty]$-enriched presheaf.</p>
+<p>We also <a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">defined the distance</a> between such $[0,\infty]$-enriched presheaves $p$ and $q$ to be</p>
+<p>$$\hat{d}(p,q) = sup_{m \in V}~max(q(m)-p(m),0)$$</p>
+<p>and this distance coincides with the tree distance between the nodes.</p>
+<p>So, all ancestors nodes in a phylogenetic tree are very special $[0,\infty]$-enriched presheaves, optimal for the connection with the underlying $[0,\infty]$-enriched category (the species and their differences in genome).</p>
+<p>We would like to garden out such exceptional $[0,\infty]$-enriched presheaves in general, but clearly the underlying distance of a generalised metric space, even when it is symmetric, is not a tree metric.</p>
+<p>Still, there might be regions in the space where we can do the above. So, in general we might expect not one tree, but a forest of trees formed by the $[0,\infty]$-enriched presheaves, optimal for the metric we&#8217;re exploring.</p>
+<p>If we think of the underlying $[0,\infty]$-category as the conscious manifestations, then this forest of presheaves are the underlying brain-states (or, if you want, the unconscious) leading up to these.</p>
+<p>That&#8217;s why I like to call this mental picture the <em>tropical brain-forest</em>.</p>
+<p><center><br />
+<img decoding="async" src="https://s7i9m6k4.rocketcdn.me/wp-content/uploads/2017/06/Delirium-Tremens.jpg" width=80%><br />
+(<a href="https://blog.cognifit.com/synapses-how-brain-communicates/">Image credit</a>)<br />
+</center></p>
+<p>Where&#8217;s the <em>tropical</em> coming from?</p>
+<p>Well, I think that in order to pinpoint these &#8216;optimal&#8217; $[0,\infty]$-enriched presheaves a tropical-like structure on these, already mentioned by Simon Willerton in <a href="https://arxiv.org/abs/1302.4370">Tight spans, Isbell completions and semi-tropical modules</a>, will be relevant.</p>
+<p>For any two $[0,\infty]$-enriched presheaves we can take $p \oplus q = p \wedge q$, and for every $s \in [0,\infty]$ we can define</p>
+<p>$$s \odot p : V \rightarrow [0,\infty] \qquad m \mapsto max(p(m)-s,0)$$</p>
+<p>and check that this is again a $[0,\infty]$-presheaf. The mental idea of $s \odot p$ is that of a fat point centered at $p$ with size $s$.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">The super-vault of missing notes</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The super-vault of missing notes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 23 Mar 2023 14:44:37 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[missing]]></category>
+		<category><![CDATA[notes]]></category>
+		<category><![CDATA[super-vault]]></category>
+		<category><![CDATA[the]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11102</guid>
+
+					<description><![CDATA[Last time we&#8217;ve constructed a wide variety of Jaccard-like distance functions $d(m,n)$ on the set of all notes in our vault $V = \{ k,l,m,n,\dots&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">Last time</a> we&#8217;ve constructed a wide variety of Jaccard-like distance functions $d(m,n)$ on the set of all notes in our vault $V = \{ k,l,m,n,\dots \}$. That is, $d(m,n) \geq 0$ and for each triple of notes we have a triangle inequality</p>
+<p>$$d(k,l)+d(l,m) \geq d(k,m)$$</p>
+<p>By construction we had $d(m,n)=d(n,m)$, but we can modify any of these distances by setting $d'(m,n)= \infty$ if there is no path of internal links from note $m$ to note $n$, and $d'(m,n)=d(m,n)$ otherwise. This new generalised distance is no longer symmetric, but still satisfies the triangle inequality, and turns $V$ into a <a href="https://en.wikipedia.org/wiki/Metric_space#Pseudoquasimetrics">Lawvere space</a>.</p>
+<p>$V$ becomes an <a href="https://en.wikipedia.org/wiki/Enriched_category">enriched category</a> over the monoidal category $[0,\infty]=\mathbb{R}_+ \cup \{ \infty \}$ (the poset-category for the <em>reverse</em> ordering ($a \rightarrow b$ iff $a \geq b$) with $+$ as &#8216;tensor product&#8217; and $0$ as unit). The &#8216;enrichment&#8217; is the map</p>
+<p>$$V \times V \rightarrow [0,\infty] \qquad (m,n) \mapsto d(m,n)$$</p>
+<p>Writers (just like children) <a href="https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits">have always loved colimits</a>. They want to morph their notes into a compelling story. Sadly, such colimits do not always exist yet in our vault category. They are among too many notes still missing from it.</p>
+<p><center><br />
+<img decoding="async" src="https://www.eleanorkonik.com/content/images/size/w1460/wp-content/uploads/2021/02/tracy-adams-TEemXOpR3cQ-unsplash-scaled-e1612551232426.jpg" width=80%><br />
+(<a href="https://www.eleanorkonik.com/obsidian-for-writing/">Image credit</a>)<br />
+</center></p>
+<p>For ordinary categories, the way forward is to &#8216;upgrade&#8217; your category to the presheaf category. In it, &#8216;the child can cobble together crazy constructions to his heart’s content&#8217;. For our &#8216;enriched&#8217; vault $V_d$ we should look at the (enriched) category of enriched presheaves $\widehat{V_d}$. In it, the writer will find inspiration on how to cobble together her texts.</p>
+<p>An enriched presheaf is a map $p : V \rightarrow [0,\infty]$ such that for all notes $m,n \in V$ we have</p>
+<p>$$d(m,n) + p(n) \geq p(m)$$</p>
+<p>Think of $p(n)$ as the distance (or similarity) of the virtual note $p$ to the existing note $n$, then this condition is just an extension of the triangle inequality. The lower the value of $p(n)$ the closer $p$ resembles $n$.</p>
+<p>Each note $n \in V$ determines its Yoneda presheaf $y_n : V \rightarrow [0,\infty]$ by $m \mapsto d(m,n)$. By the triangle inequality this is indeed an enriched presheaf in $\widehat{V_d}$.</p>
+<p>The set of all enriched presheaves $\widehat{V_d}$ has a lot of extra structure. It is a poset</p>
+<p>$$p \leq q \qquad \text{iff} \qquad \forall n \in V : p(n) \leq q(n)$$</p>
+<p>with minimal element $0 : \forall n \in V, 0(n)=0$, and maximal element $1 : \forall n \in V, 1(n)=\infty$.</p>
+<p>It is even a lattice with $p \vee q(n) = max(p(n),q(n))$ and $p \wedge q(n)=min(p(n),q(n))$. It is easy to check that $p \wedge q$ and $p \vee q$ are again enriched presheaves.</p>
+<p>Here&#8217;s $\widehat{V_d}$ when the vault consists of just two notes $V=\{ m,n \}$ of non-zero distance to each other (whether symmetric or not) as a subset of $[0,\infty] \times [0,\infty]$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enriched1corr.png" width=60%><br />
+</center></p>
+<p>This vault $\widehat{V_d}$ of all missing (and existing) notes is again enriched over $[0,\infty]$ via</p>
+<p>$$\widehat{d} : \widehat{V_d} \times \widehat{V_d} \rightarrow [0,\infty] \qquad \widehat{d}(p,q) = max(0,\underset{n \in V}{sup} (q(n)-p(n)))$$</p>
+<p>The triangle inequality follows because the definition of $\widehat{d}(p,q)$ is equivalent to $\forall m \in V : \widehat{d}(p,q)+p(m) \geq q(m)$. Even if we start from a symmetric distance function $d$ on $V$, it is clear that this extended distance $\widehat{d}$ on $\widehat{V_d}$ is far from symmetric. The Yoneda map</p>
+<p>$$y : V_d \rightarrow \widehat{V_d} \qquad n \mapsto y_n$$</p>
+<p>is an isometry and the enriched version of the Yoneda lemma says that for all $p \in \widehat{V_d}$</p>
+<p>$$p(n) = \widehat{d}(y_n,p)$$</p>
+<p>Indeed, taking $m=n$ in $\widehat{d}(y_n,f)+y_n(m) \geq p(m)$ gives $\widehat{d}(y_n,p) \geq p(n)$. Conversely,<br />
+from the presheaf condition $d(m,n)+p(n) \geq p(m)$ for all $m,n$ follows</p>
+<p>$$p(n) \geq max(0,\underset{m \in V}{sup}(p(m)-d(m,n)) = \widehat{d}(y_n,p)$$</p>
+<p>In his paper <a href="https://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf">Taking categories seriously</a>, <a href="https://en.wikipedia.org/wiki/William_Lawvere">Bill Lawvere</a> suggested to consider enriched presheaves $p \in \widehat{V_d}$ as &#8216;refined&#8217; closed set of the vault-space $V_d$.</p>
+<p>For every subset of notes $X \subset V$ we can consider the presheaf (use triangle inequality)</p>
+<p>$$p_X : V \rightarrow [0,\infty] \qquad m \mapsto \underset{n \in X}{inf}~d(m,n)$$</p>
+<p>then its <em>zero set</em> $Z(p_X) = \{ m \in V~:~p_X(m)=0 \}$ can be thought of as the closure of $X$, and the collection of all such closed subsets define a topology on $V$.</p>
+<p>In our simple example of the two note vault $V=\{ m,n \}$ this is just the discrete topology, but we can get more interesting spaces. If $d(n,m)=0$ but $d(m,n) > 0$</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enriched3corr.png" width=50%><br />
+</center></p>
+<p>we get the <a href="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_space">Sierpinski space</a>: $n$ is the only closed point, and lies in the closure of $m$. Of course, if your vault contains thousands of notes, you might get more interesting topologies.</p>
+<p>In the special case when $V_d$ is a poset-category, as was the case in <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">the shape of languages</a> post, this topology is the down-set (or up-set) topology.</p>
+<p>Now, what is this topology when you start with the Lawvere-space $\widehat{V_d}$? From the definitions we see that</p>
+<p>$$\widehat{d}(p,q) = 0 \quad \text{iff} \quad \forall n \in V~:~p(n) \geq q(n) \quad \text{iff} \quad p \geq q$$</p>
+<p>So, all presheaves in the up-set $\uparrow_p$ lie in the closure of $p$, and $p$ lies in the closure of all everything in the down-set $\downarrow_p$ of $p$. So, this time the topology has as its closed sets all down-sets of the poset $\widehat{V_d}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enriched2corr.png" width=47%><br />
+</center></p>
+<p>What&#8217;s missing is a good definition for the implication $p \Rightarrow q$ between two enriched presheaves $p,q \in \widehat{V_d}$. In <a href="https://arxiv.org/abs/2106.07890">An enriched category theory of language: from syntax to semantics</a> it is said that this should be, perhaps only to be used in their special poset situation (with adapted notations)</p>
+<p>$$p \Rightarrow q : V \rightarrow [0,\infty] \qquad \text{where} \quad (p \Rightarrow q)(n) = \widehat{d}(y_n \wedge p,q)$$</p>
+<p>but I can&#8217;t even show that this is a presheaf. I may be horribly wrong, but in their proof of this (lemma 5) they seem to use their lemma 4, but with the two factors swapped.</p>
+<p>If you have suggestions, please let me know. And if you trow Kelly&#8217;s <a href="http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf">Basic concepts of enriched category theory</a> at me, please add some guidelines on how to use it. I&#8217;m just a passer-by.</p>
+<p>Probably, I should also read up on <a href="https://ncatlab.org/nlab/show/Isbell+duality">Isbell duality</a>, as suggested by Lawvere in his paper <a href="https://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf">Taking categories seriously</a>, and worked out by Simon Willerton in <a href="https://arxiv.org/abs/1302.4370">Tight spans, Isbell completions and semi-tropical modules</a>&#8230;</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></li>
+</ul>
+<p><strong>Next</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest">The tropical brain forest</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The enriched vault</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 10 Mar 2023 08:42:29 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[Bradley]]></category>
+		<category><![CDATA[brat]]></category>
+		<category><![CDATA[enriched]]></category>
+		<category><![CDATA[enriched category]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[graph analysis]]></category>
+		<category><![CDATA[Jaccard]]></category>
+		<category><![CDATA[language]]></category>
+		<category><![CDATA[Lawvere]]></category>
+		<category><![CDATA[metric]]></category>
+		<category><![CDATA[Terilla]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[vault]]></category>
+		<category><![CDATA[Vlassopoulos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11059</guid>
+
+					<description><![CDATA[In the shape of languages we started from a collection of notes, made a poset of text-snippets from them, and turned this into an enriched&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">the shape of languages</a> we started from a collection of notes, made a poset of text-snippets from them, and turned this into an <a href="https://en.wikipedia.org/wiki/Enriched_category">enriched category</a> over the unit interval $[0,1]$, following the paper paper <a href="https://arxiv.org/abs/2106.07890">An enriched category theory of language: from syntax to semantics</a> by Tai-Danae Bradley, John Terilla and Yiannis Vlassopoulos.</p>
+<p>This allowed us to view the text-snippets as points in a Lawvere <a href="https://en.wikipedia.org/wiki/Metric_space#Pseudoquasimetrics">pseudoquasi metric space</a>, and to define a &#8216;topos&#8217; of enriched presheaves on it, including the Yoneda-presheaves containing semantic information of the snippets.</p>
+<p>In the <a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">previous post</a> we looked at &#8216;building a second brain&#8217; apps, such as <a href="https://logseq.com/">LogSeq</a> and <a href="https://obsidian.md/">Obsidian</a>, and hoped to use them to test the conjectured <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">&#8216;topos of the unconscious&#8217;</a>.</p>
+<p>In <a href="https://obsidian.md/">Obsidian</a>, a <em>vault</em> is a collection of notes (with their tags and other meta-data), together with all links between them.</p>
+<p>The vault of the language-poset will have one note for every text-snipped, and have a link from note $n$ to note $m$ if $m$ is a text-fragment in $n$.</p>
+<p>In their paper, Bradley, Terilla and Vlassopoulos use the enrichment structure where $\mu(n,m) \in [0,1]$ is the conditional probablity of the fragment $m$ to be extended to the larger text $n$.</p>
+<p>Most Obsidian vaults are a lot more complicated, possibly having oriented cycles in their internal link structure.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Gbrain1.png" width=100% ><br />
+</center></p>
+<p>Still, it is always possible to turn the notes of the vault into a category enriched over $[0,1]$, in multiple ways, depending on whether we want to focus on the internal link-structure or rather on the semantic similarity between notes, or any combination of these.</p>
+<p>Let $X$ be a set of searchable data from your vault. Elements of $X$ may be</p>
+<ul>
+<li>words contained in notes</li>
+<li>in- or out-going links between notes</li>
+<li>tags used</li>
+<li><a href="https://help.obsidian.md/Editing+and+formatting/Metadata">YAML-frontmatter</a></li>
+<li>&#8230;</li>
+</ul>
+<p>Assign a positive real number $r_x \geq 0$ to every $x \in X$. We see $r_x$ as the &#8216;relevance&#8217; we attach to the search term $x$. So, it is possible to emphasise certain key-words or tags, find certain links more important than others, and so on.</p>
+<p>For this relevance function $r : X \rightarrow \mathbb{R}_+$, we have a function defined on all subsets $Y$ of $X$</p>
+<p>$$f_r~:~\mathcal{P}(X) \rightarrow \mathbb{R}_+ \qquad Y \mapsto f_r(Y) = \sum_{x \in Y} r_x$$</p>
+<p>Take a note $n$ from the vault $V$ and let $X_n$ be the set of search terms from $X$ contained in $n$.</p>
+<p>We can then define a (generalised) <a href="https://en.wikipedia.org/wiki/Jaccard_index">Jaccard distance</a> for any pair of notes $n$ and $m$ in $V$:</p>
+<p>$$ d_r(n,m) = \begin{cases}<br />
+0~\text{if $f_r(X_n \cup X_m)=0$} \\ 1-\frac{f_r(X_n \cap X_m)}{f_r(X_n \cup X_m)}~\text{otherwise} \end{cases}$$</p>
+<p>This distance is symmetric, $d_r(n,n)=0$ for all notes $n$, and the crucial property is that it satisfies the triangle inequality, that is, for all triples of notes $l$, $m$ and $n$ we have</p>
+<p>$$d_r(l,n) \leq d_r(l,m)+d_r(m,n)$$</p>
+<p>For a proof in this generality see the paper <a href="https://arxiv.org/abs/1612.02696">A note on the triangle inequality for the Jaccard distance</a> by Sven Kosub.</p>
+<p>How does this help to make the vault $V$ into a category enriched over $[0,1]$?</p>
+<p>The poset $([0,1],\leq)$ is the category with objects all numbers $a \in [0,1]$, and a unique morphism $a \rightarrow b$ between two numbers iff $a \leq b$. This category has limits (infs) and colimits (sups), has a monoidal structure $a \otimes b = a \times b$ with unit object $1$, and an internal hom</p>
+<p>$$Hom_{[0,1]}(a,b) = (a,b) = \begin{cases} \frac{b}{a}~\text{if $b \leq a$} \\ 1~\text{otherwise} \end{cases}$$</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enrichedvault.png" width=100% ><br />
+</center></p>
+<p>We say that the vault is an <em>enriched category</em> over $[0,1]$ if for every pair of notes $n$ and $m$ we have a number $\mu(n,m) \in [0,1]$ satisfying for all notes $n$</p>
+<p>$$\mu(n,n)=1~\quad~\text{and}~\quad~\mu(m,l) \times \mu(n,m) \leq \mu(n,l)$$</p>
+<p>for all triples of notes $l,m$ and $n$.</p>
+<p>Starting from any relevance function $r : X \rightarrow \mathbb{R}_+$ we define for every pair $n$ and $m$ of notes the distance function $d_r(m,n)$ satisfying the triangle inequality. If we now take</p>
+<p>$$\mu_r(m,n) = e^{-d_r(m,n)}$$</p>
+<p>then the triangle inequality translates for every triple of notes $l,m$ and $n$ into</p>
+<p>$$\mu_r(m,l) \times \mu_r(n,m) \leq \mu_r(n,l)$$</p>
+<p>That is, every relevance function makes $V$ into a category enriched over $[0,1]$.</p>
+<p>Two simple relevance functions, and their corresponding distance and enrichment functions are available from Obsidian&#8217;s <a href="https://github.com/SkepticMystic/graph-analysis">Graph Analysis</a> community plugin.</p>
+<p>To get structural information on the link-structure take as $X$ the set of all incoming and outgoing links in your vault, with relevance function the constant function $1$.</p>
+<p>&#8216;Jaccard&#8217; in Graph Analysis computes for the current note $n$ the value of $1-d_r(n,m)$ for all notes $m$, so if this value is $a \in [0,1]$, then the corresponding enrichment value is $\mu_r(m,n)=e^{a-1}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/jaccardG.png" width=60% ><br />
+</center></p>
+<p>To get semantic information on the similarity between notes, let $X$ be the set of all words in all notes and take again as relevance function the constant function $1$.</p>
+<p>To access &#8216;BoW&#8217; (Bags of Words) in Graph Analysis, you must first install the (non-community) <a href="https://github.com/SkepticMystic/nlp">NLP</a> plugin which enables various types of natural language processing in the vault. The install is best done via the <a href="https://github.com/TfTHacker/obsidian42-brat">BRAT plugin</a> (perhaps I&#8217;ll do a couple of posts on Obsidian someday).</p>
+<p>If it gives for the current note $n$ the value $a$ for a note $m$, then again we can take as the enrichment structure $\mu_r(n,m)=e^{a-1}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BoWG.png" width=60%><br />
+</center></p>
+<p>Graph Analysis offers more functionality, and a good introduction is given in this clip:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Id4ynVqP3Uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Calculating the enrichment data for custom designed relevance functions takes a lot more work, but is doable. Perhaps I&#8217;ll return to this later.</p>
+<p>Mathematically, it is probably more interesting to start with a given enrichment structure $\mu$ on the vault $V$, describe the category of all enriched presheaves $\widehat{V_{\mu}}$ and find out what we can do with it.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">The super-vault of missing notes</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The shape of languages</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 03 Mar 2023 14:54:50 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[category theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[hier-Lafaye]]></category>
+		<category><![CDATA[languages]]></category>
+		<category><![CDATA[Lawvere]]></category>
+		<category><![CDATA[shape]]></category>
+		<category><![CDATA[Sibony]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10968</guid>
+
+					<description><![CDATA[In the topology of dreams we looked at Sibony&#8217;s idea to view dream-interpretations as sections in a fibered space. The &#8216;points&#8217; in the base-space and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">the topology of dreams</a> we looked at Sibony&#8217;s idea to view dream-interpretations as sections in a fibered space.</p>
+<p>The &#8216;points&#8217; in the base-space and fibers consisting of chunks of text, perhaps connected by links. The topology and shape of this fibered space is still shrouded in mystery.</p>
+<p>Let&#8217;s look at a simple approach to turn a large number of texts into a topos, and define a loose metric on it.</p>
+<p>There&#8217;s this paper <a href="https://arxiv.org/abs/2106.07890">An enriched category theory of language: from syntax to semantics</a> by Tai-Danae Bradley, John Terilla and Yiannis Vlassopoulos.</p>
+<p><a href="https://www.math3ma.com/about">Tai-Danae Bradley</a> is an excellent communicator of everything category related, so probably it is more fun to read her own blogposts on this paper:</p>
+<ul>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-1">Language, Statistics, &#038; Category Theory, Part 1</a></li>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-2">Language, Statistics, &#038; Category Theory, Part 2</a></li>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-3">Language, Statistics, &#038; Category Theory, Part 3</a></li>
+</ul>
+<p>or to watch her Categories for AI talk: &#8216;Category Theory Inspired by LLMs&#8217;:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/_LgWD3UTKfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Let&#8217;s start with a collection of notes. In the paper, they consider all possible texts written in some language, but it may be a set of webpages to train a language model, or a set of recollections by someone.</p>
+<p>Next, shred these notes into chunks of text, and point one of these to all the texts obtained by deleting some words at the start and/or end of it. For example, the note &#8216;a red rose&#8217; will point to &#8216;a red&#8217;, &#8216;red rose&#8217;, &#8216;a&#8217;, &#8216;red&#8217; and &#8216;rose&#8217; (but not to &#8216;a rose&#8217;).</p>
+<p>You may call this a category, to me it is just as a poset $(\mathcal{L},\leq)$. The maximal elements are the individual words, the minimal elements are the notes, or websites, we started from.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/languageposet.png" width=60%><br />
+</center></p>
+<p>A down-set $A$ of this poset $(\mathcal{L},\leq)$ is a subset of $\mathcal{L}$ closed under taking smaller elements, that is, if $a \in A$ and $b \leq a$, then $b \in A$.</p>
+<p>The intersection of two down-sets is again a down-set (or empty), and the union of down-sets is again a downset. That is, down-sets define a topology on our collection of text-snippets, or if you want, on language-fragments.</p>
+<p>For example, the open determined by the word &#8216;red&#8217; is the collection of all text-fragments containing this word.</p>
+<p>The corresponding presheaf topos $\widehat{\mathcal{L}}$ is then just the category of all (set-valued) presheaves on this topological space.<br />
+As an example, the Yoneda-presheaf $\mathcal{Y}(p)$ of a text-snippet $p$ is the contra-variant functor</p>
+<p>$$(\mathcal{L},\leq) \rightarrow \mathbf{Sets}$$</p>
+<p>sending any $q \leq p$ to the unique map $\ast$ from $q$ to $p$, and if $q \not\leq p$ then we map it to $\emptyset$. If $A$ is a down-set (an open of over topological space) then the sections of $\mathcal{Y}(p)$ over $A$ are $\{ \ast \}$ if for all $a \in A$ we have $a \leq p$, and $\emptyset$ otherwise.</p>
+<p>The presheaf $\mathcal{Y}(p)$ already contains some semantic information about the snippet $p$ as it gives all contexts in which $p$ appears.</p>
+<p>Perhaps interesting is that the &#8216;points&#8217; of the topos $\widehat{\mathcal{L}}$ are the notes we started from.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">Recall</a> that Connes and Gauthier-Lafaey want to construct a topos describing someone&#8217;s unconscious, and points of that topos should be the connection with that person&#8217;s consciousness.</p>
+<p>Suppose you want to unravel your unconscious. You start by writing down a large set of notes containing all relevant facts of your life. Then you construct from these notes the above collection of snippets and its corresponding pre-sheaf topos. Clearly, you wrote your notes consciously, but probably the exact phrasing of these notes, or recurrent themes in them, or some text-combinations are ruled by your unconscious.</p>
+<p>Ok, it&#8217;s not much, but perhaps it&#8217;s a germ of an potential approach&#8230;</p>
+<p><center><br />
+<img decoding="async" src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.spiritofchange.org/content/uploads/data-import/b9645d25/brain.jpg" width=60%><br />
+(<a href="https://www.spiritofchange.org/automatic-brain-the-magic-of-the-unconscious-mind/">Image credit</a>)<br />
+</center></p>
+<p>Now we come to the interesting part of the paper, the &#8216;enrichment&#8217; of this poset.</p>
+<p>Surely, some of these text-snippets will occur more frequently than others. For example, in your starting notes the snippet &#8216;red rose&#8217; may appear ten time more than the snippet &#8216;red dwarf&#8217;, but this is not visible in the poset-structure. So how can we bring in this extra information?</p>
+<p>If we have two text-snippets $p$ and $q$ and $q \leq p$, that is, $p$ is a connected sub-string of $q$. We can compute the conditional probability $\pi(q|p)$ which tells us how likely it is that if we spot an occurrence of $p$ in our starting notes, it is part of the larger sentence $q$. These numbers can be easily computed and from the rules of probability we get that for snippets $r \leq q \leq p$ we have that</p>
+<p>$$\pi(r|p) = \pi(r|q) \times \pi(q|r)$$</p>
+<p>so these numbers (all between $0$ and $1$) behave multiplicative along paths in the poset.</p>
+<p>Nice in theory, but it requires an awful lot of computation. From the paper:</p>
+<blockquote><p>
+The reader might think of these probabilities $\pi(q|p)$ as being most well defined when $q$ is a short extension of $p$. While one may be skeptical about assigning a probability distribution on the set of all possible texts, it’s reasonable to say there is a nonzero probability that cat food will follow I am going to the store to buy a can of and, practically speaking, that probability can be estimated.</p>
+<p>Indeed, existing <a href="https://en.wikipedia.org/wiki/Wikipedia:Large_language_models#:~:text=Large%20language%20models%20(LLMs)%20are,new%20or%20modify%20existing%20text.">LLMs</a> successfully learn these conditional probabilities $\pi(q|p)$ using standard machine learning tools trained on large corpora of texts, which may be viewed as providing a wealth of samples drawn from these conditional probability distributions.
+</p></blockquote>
+<p>It may be easier to have an estimate $\mu(q|p)$ of this conditional probability for immediate successors (that is, if $q$ is obtained from $p$ by adding one word at the beginning or end of it), and then extend this measure to all arrows in the poset by taking the maximum of products along paths. In this way we have for all $r \leq q \leq p$ that</p>
+<p>$$\mu(r|p) \geq \mu(r|q) \times \mu(q|p)$$</p>
+<p>The upshot is that this measure $\mu$ turns our poset (or category) $(\mathcal{L},\leq)$ into a category &#8216;enriched&#8217; over the unit interval $[ 0,1 ]$ (suitably made into a monoidal category).</p>
+<p>I&#8217;ll spare you the details, just want to flash out the corresponding notion of &#8216;enriched presheaves&#8217; which are the objects of the <em>semantic category</em> $\widehat{\mathcal{L}}^s$ in the paper, which is the enriched version of the presheaf category $\widehat{\mathcal{L}}$.</p>
+<p>An enriched presheaf is a <em>function</em> (not functor)</p>
+<p>$$F~:~\mathcal{L} \rightarrow [0,1]$$</p>
+<p>satisfying the condition that for all text-snippets $r,q \in \mathcal{L}$ we have that</p>
+<p>$$\mu(r|q) \leq [F(q),F(r)] = \begin{cases} \frac{F(r)}{F(q)}~\text{if $F(r) \leq F(q)$} \\ 1~\text{otherwise} \end{cases}$$</p>
+<p>Note that the enriched (or semantic) Yoneda presheaf $\mathcal{Y}^s(p)(q) = \mu(q|p)$ satisfies this condition, and now this data not only records the contexts in which $p$ appears, but also measures how likely it is for $p$ to appear in a certain context.</p>
+<p>Another cute application of the condition on the measure $\mu$ is that it allows us to define a &#8216;distance function&#8217; (satisfying the triangle inequality) on all text-snippets in $\mathcal{L}$ by</p>
+<p>$$d(q,p) = \begin{cases} -ln(\mu(q|p))~\text{if $q \leq p$} \\<br />
+ \infty~\text{otherwise} \end{cases}$$</p>
+<p>So, the higher $\mu(q|p)$ the closer $q$ lies to $p$, and now the snippet $p$ (example &#8216;red&#8217;) not only defines the open set in $\mathcal{L}$ of all texts containing $p$, but now we can structure the snippets in this open set with respect to this &#8216;distance&#8217;.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddistance.png" width=60%><br />
+</center></p>
+<p>In this way we can turn any language, or a collection of texts in a given language, into what <a href="https://en.wikipedia.org/wiki/William_Lawvere">Lawvere</a> called a &#8216;generalized metric space&#8217;.</p>
+<p>It looks as if we are progressing slowly in our, probably futile, attempt to understand Alain Connes&#8217; and Patrick Gauthier-Lafaye&#8217;s claim that &#8216;the unconscious is structured like a topos&#8217;.</p>
+<p>Even if we accept the fact that we can start from a collection of notes, there are a number of changes we need to make to the above approach:</p>
+<ul>
+<li>there will be contextual links between these notes</li>
+<li>we only want to retain the relevant snippets, not all of them</li>
+<li>between these &#8216;highlights&#8217; there may also be contextual links</li>
+<li>texts can be related without having to be concatenations</li>
+<li>we need to implement changes when new notes are added</li>
+<li>&#8230; (much more)</li>
+</ul>
+<p>Perhaps, we should try to work on a specific &#8216;case&#8217;, and explore all technical tools that may help us to make progress.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The topology of dreams</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 27 Feb 2023 14:41:39 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[dreams]]></category>
+		<category><![CDATA[fiber]]></category>
+		<category><![CDATA[Freud]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Lacan]]></category>
+		<category><![CDATA[sheaf]]></category>
+		<category><![CDATA[Sibony]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10937</guid>
+
+					<description><![CDATA[Last May, the meeting Lacan et Grothendieck, l’impossible rencontre? took place in Paris (see this post). Video&#8217;s of that meeting are now available online. Here&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Last May, the meeting <a href="https://sites.google.com/site/dugowsonrecherche/coordinations-colloques/LG">Lacan et Grothendieck, l’impossible rencontre?</a> took place in Paris (see <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan">this post</a>). Video&#8217;s of that meeting are now available online.</p>
+<p>Here&#8217;s the talk by Alain Connes and Patrick Gauthier-Lafaye on their book <a href="https://www.mollat.com/livres/2624527/alain-connes-a-l-ombre-de-grothendieck-et-de-lacan-un-topos-sur-l-inconscient#"> A l&#8217;ombre de Grothendieck et de Lacan : un topos sur l&#8217;inconscient ?</a> (see <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">this post</a> ).</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/yiXPvueGbsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Let&#8217;s quickly recall their main ideas:</p>
+<p>1. The unconscious is structured as a topos (<a href="https://en.wikipedia.org/wiki/Jacques_Lacan">Jacques Lacan</a> argued it was structured as a language), because we need a framework allowing logic without the law of the excluded middle for Lacan&#8217;s <a href="https://nosubject.com/Sexual_relationship">formulas of sexuation</a> to make some sense at all.</p>
+<p>2. This topos may differs from person to person, so we do not all share the same rules of logic (as observed in real life).</p>
+<p>3. Consciousness is related to the points of the topos (they are not precise on this, neither in the talk, nor the book).</p>
+<p>4. All these individual toposes are ruled by a classifying topos, and they see Lacan&#8217;s work as the very first steps towards trying to describe the unconscious by a geometrical theory (though his formulas are not first order).</p>
+<p>Surely these are intriguing ideas, if only we would know how to construct the topos of someone&#8217;s unconscious.</p>
+<p>Let&#8217;s go looking for clues.</p>
+<p>At the same meeting, there was a talk by <a href="https://fr.wikipedia.org/wiki/Daniel_Sibony">Daniel Sibony</a>: &#8220;Mathématiques et inconscient&#8221;</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/xzYiReWsGVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Sibony started out as mathematician, then turned to psychiatry in the early 70ties. He was acquainted with both Grothendieck and Lacan, and even brought them together once, over lunch, some day in 1973. He makes a one-line appearance in Grothendieck&#8217;s <a href="https://fr.wikipedia.org/wiki/R%C3%A9coltes_et_Semailles">Récoltes et Semailles</a>, when G discribes his friends in <a href="https://fr.wikipedia.org/wiki/Survivre_et_vivre">&#8216;Survivre et Vivre&#8217;</a>:</p>
+<blockquote><p>
+&#8220;Daniel Sibony (who stayed away from this group, while pursuing its evolution out of the corner of a semi-disdainful, smirking eye)&#8221;
+</p></blockquote>
+<p>In his talk, Sibony said he had a similar idea, 50 years before Connes and Gauthier-Lafaye (3.04 into the clip):</p>
+<blockquote><p>
+&#8220;At the same time (early 70ties) I did a seminar in Vincennes, where I was a math professor, on the topology of dreams. At the time I didn&#8217;t have categories at my disposal, but I used fibered spaces instead. I showed how we could interpret dreams with a fibered space. This is consistent with the Freudian idea, except that Freud says we should take the list of words from the story of the dream and look for associations. For me, these associations were in the fibers, and these thoughts on fibers and sheaves have always followed me. And now, after 50 years I find this pretty book by Alain Connes and Patrick Gauthier-Lafaye on toposes, and see that my thoughts on dreams as sheaves and fibered spaces are but a special case of theirs.&#8221;
+</p></blockquote>
+<p>This looks interesting. After all, Freud called dream interpretation the &#8216;royal road&#8217; to the unconscious. &#8220;It is the &#8216;King&#8217;s highway&#8217; along which everyone can travel to discover the truth of unconscious processes for themselves.&#8221;</p>
+<p>Sibony clarifies his idea in the interview <a href="https://www.cairn.info/revue-le-journal-des-psychologues-2015-2-page-49.htm">L&#8217;utilisation des rêves en psychothérapie</a> with Maryse Siksou.</p>
+<blockquote><p>
+&#8220;The dream brings blocks of words, of “compacted” meanings, and we question, according to the good old method, each of these blocks, each of these points and which we associate around (we “unblock” around…), we let each point unfold according to the &#8220;fiber&#8221; which is its own.</p>
+<p>I introduced this notion of the dream as fibered space in an article in the review Scilicet in 1972, and in a seminar that I gave at the University of Vincennes in 1973 under the title &#8220;Topologie et interpretation des rêves&#8221;, to which Jacques Lacan and his close retinue attended throughout the year.</p>
+<p>The idea is that the dream is a sheaf, a bundle of fibers, each of which is associated with a &#8220;word&#8221; of the dream; interpretation makes the fibers appear, and one can pick an element from each, which is of course &#8220;displaced&#8221; in relation to the word that &#8220;produced&#8221; the fiber, and these elements are articulated with other elements taken in other fibers, to finally create a message which, once again, does not necessarily say the meaning of the dream because a dream has as many meanings as recipients to whom it is told, but which produces a strong statement, a relevant statement, which can restart the work.&#8221;
+</p></blockquote>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/dream.png" width=60% ><br />
+</center></p>
+<p>Key images in the dream (the &#8216;points&#8217; of the base-space) can stand for entirely different situations in someone&#8217;s life (the points in the &#8216;fiber&#8217; over an image). The therapist&#8217;s job is to find a suitable &#8216;section&#8217; in this &#8216;sheaf&#8217; to further the theraphy.</p>
+<p>It&#8217;s a bit like translating a sentence from one language to another. Every word (point of the base-space) can have several possible translations with subtle differences (the points in the fiber over the word). It&#8217;s the translator&#8217;s job to find the best &#8216;section&#8217; in this sheaf of possibilities.</p>
+<p>This translation-analogy is used by Daniel Sibony in his paper <a href="https://www.erudit.org/fr/revues/ttr/1998-v11-n2-ttr1489/037336ar.pdf">Traduire la passe</a>:</p>
+<blockquote><p>
+&#8220;It therefore operates just like the dream through articulated choices, from one fiber to another, in a bundle of speaking fibers; it articulates them by seeking the optimal section. In fact, the translation takes place between two fiber bundles, each in a language, but in the starting bundle the choice seems fixed by the initial text. However, more or less consciously, the translator &#8220;bursts&#8221; each word into a larger fiber, he therefore has a bundle of fibers where the given text seems after the fact a singular choice, which will produce another choice in the bundle of the other language.&#8221;
+</p></blockquote>
+<p>This paper also contains a pre-ChatGPT story (we&#8217;re in 1998), in which the language model fails because it has far too few alternatives in its fibers:</p>
+<blockquote><p>
+I felt it during a &#8220;humor festival&#8221; where I was approached by someone (who seemed to have some humor) and who was a robot. We had a brief conversation, very acceptable, beyond the conventional witticisms and knowing sighs he uttered from time to time to complain about the lack of atmosphere, repeating that after all we are not robots.</p>
+<p>I thought at first that it must be a walking walkie-talkie and that in fact I was talking to a guy who was remote control from his cabin. But the object was programmed; the unforeseen effects of meaning were all the more striking. To my question: &#8220;Who created you?&#8221; he answered with a strange word, a kind of technical god.</p>
+<p>I went on to ask him who he thought created me; his answer was immediate: “Oedipus”. (He knew, having questioned me, that I was a psychoanalyst.) The piquancy of his answer pleased me (without Oedipus, at least on a first level, no analyst). These bursts of meaning that we know in children, psychotics, to whom we attribute divinatory gifts — when they only exist, save their skin, questioning us about our being to defend theirs — , these random strokes of meaning shed light on the classic aftermaths where when a tile arrives, we hook it up to other tiles from the past, it ties up the pain by chaining the meaning.</p>
+<p>Anyway, the conversation continuing, the robot asked me to psychoanalyse him; I asked him what he was suffering from. His answer was immediate: “Oedipus”.</p>
+<p>Disappointing and enlightening: it shows that with each &#8220;word&#8221; of the interlocutor, the robot makes correspond a signifying constellation, a fiber of elements; choosing a word in each fiber, he then articulates the whole with obvious sequence constraints: a bit of readability and a certain phrasal push that leaves open the game of exchange. And now, in the fiber concerning the “psy” field, chance or constraint had fixed him on the same word, “Oedipus”, which, by repeating itself, closed the scene heavily.
+</p></blockquote>
+<p>Okay, we have a first potential approximation to Connes and Gauthier-Lafaye&#8217;s elusive topos, a sheaf of possible interpretation of base-words in a language.</p>
+<p>But, the base-space is still rather discrete, or at best linearly ordered. And also in the fibers, and among the sections, there&#8217;s not much of a topology at work.</p>
+<p>Perhaps, we should have a look at applications of topology and/or topos theory in <a href="https://en.wikipedia.org/wiki/Wikipedia:Large_language_models">large language models</a>?</p>
+<p>(tbc)</p>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The birthplace of schemes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-birthplace-of-schemes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-birthplace-of-schemes/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 11 Aug 2022 18:09:45 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[birthplace]]></category>
+		<category><![CDATA[Borel]]></category>
+		<category><![CDATA[Chevalley]]></category>
+		<category><![CDATA[Chicago]]></category>
+		<category><![CDATA[Dieudonne]]></category>
+		<category><![CDATA[Eckhart Hall]]></category>
+		<category><![CDATA[Lang]]></category>
+		<category><![CDATA[Samuel]]></category>
+		<category><![CDATA[schemes]]></category>
+		<category><![CDATA[tbc]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10798</guid>
+
+					<description><![CDATA[Wikipedia claims: &#8220;The word scheme was first used in the 1956 Chevalley Seminar, in which Chevalley was pursuing Zariski&#8217;s ideas.&#8221; and refers to the lecture&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Scheme_(mathematics)">Wikipedia</a> claims:</p>
+<p>&#8220;The word scheme was first used in the 1956 Chevalley Seminar, in which Chevalley was pursuing Zariski&#8217;s ideas.&#8221;</p>
+<p>and refers to the <a href="http://www.numdam.org/item/SHC_1955-1956__8__A5_0.pdf">lecture by Chevalley &#8216;Les schemas&#8217;</a>, given on December 12th, 1955 at the <a href="https://www.ens.psl.eu/en">ENS</a>-based <a href="http://www.numdam.org/actas/SHC/">&#8216;Seminaire Henri Cartan&#8217;</a> (in fact, that year it was called the Cartan-Chevalley seminar, and the next year Chevalley set up his <a href="http://www.numdam.org/actas/SCC/">own seminar</a> at the ENS).</p>
+<p><a href="http://archives-bourbaki.ahp-numerique.fr/items/browse?search=&#038;advanced[0][joiner]=or&#038;advanced[0][element_id]=38&#038;advanced[0][type]=contains&#038;advanced[0][terms]=1940-1953&#038;advanced[1][joiner]=or&#038;advanced[1][element_id]=38&#038;advanced[1][type]=contains&#038;advanced[1][terms]=1953-1960&#038;range=&#038;collection=&#038;type=&#038;user=&#038;tags=&#038;public=&#038;featured=&#038;geolocation-address=&#038;geolocation-latitude=&#038;geolocation-longitude=&#038;geolocation-radius=&#038;exhibit=&#038;item_relations_property_id=&#038;item_relations_comment=&#038;item_relations_clause_part=all&#038;submit_search=Recherches+de+contenus">Items</a> recently <a href="https://lievenlebruyn.github.io/neverendingbooks/the-somewhat-less-secret-bourbaki-archive">added</a> to the online <a href="http://archives-bourbaki.ahp-numerique.fr/">Bourbaki Archive</a> give us new information on time and place of the birth of the concept of schemes.</p>
+<p>From May 30th till June 2nd 1955 the &#8216;second caucus des Illinois&#8217; Bourbaki-congress was held in &#8216;le grand salon d&#8217;Eckhart Hall&#8217; at the University of Chicago (Weil&#8217;s place at that time).</p>
+<p><img decoding="async" src="https://www.lib.uchicago.edu/media/images/Eckhart_hall_sketch_front.original.jpg" width=100% ></p>
+<p>Only six of the Bourbaki members were present:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Jean_Dieudonn%C3%A9">Jean Dieudonne</a> (then 49), the scribe of the Bourbaki-gang.</li>
+<li><a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a> (then 49), called &#8216;Le Pape de Chicago&#8217; in La Tribu, and responsible for his <a href=-"https://www.ams.org/notices/199908/fea-raynaud.pdf">&#8216;Foundations of Algebraic Geometry&#8217;</a>.</li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Chevalley">Claude Chevalley</a> (then 46), who wanted a better, more workable version of algebraic geometry. He was just nominated professor at the Sorbonne, and was prepping for his seminar on algebraic geometry (with Cartan) in the fall.</li>
+<li><a href="https://en.wikipedia.org/wiki/Pierre_Samuel">Pierre Samuel</a> (then 34), who studied in France but got his Ph.D. in 1949 from Princeton under the supervision of <a href="https://en.wikipedia.org/wiki/Oscar_Zariski">Oscar Zariski</a>. He was a Bourbaki-guinea pig in 1945, and from 1947 attended most Bourbaki congresses. He just got his book <a href="https://www.worldcat.org/title/methodes-dalgebre-abstraite-en-geometrie-algebrique/oclc/875388887">Methodes d&#8217;algebre abstraite en geometrie algebrique</a> published.</li>
+<li><a href="https://en.wikipedia.org/wiki/Armand_Borel">Armand Borel</a> (then 32), a Swiss mathematician who was in Paris from 1949 and obtained his Ph.D. under <a href="https://en.wikipedia.org/wiki/Jean_Leray">Jean Leray</a> before moving on to the IAS in 1957. He was present at 9 of the Bourbaki congresses between 1955 and 1960.</li>
+<li><a href="https://en.wikipedia.org/wiki/Serge_Lang">Serge Lang</a> (then 28), a French-American mathematician who got his Ph.D. in 1951 from Princeton under <a href="https://en.wikipedia.org/wiki/Emil_Artin">Emil Artin</a>. In 1955, he just got a position at the University of Chicago, which he held until 1971. He attended 7 Bourbaki congresses between 1955 and 1960.</li>
+</ul>
+<p>The <a href="http://archives-bourbaki.ahp-numerique.fr/items/show/866#?c=0&#038;m=0&#038;s=0&#038;cv=0">issue of La Tribu</a> of the Eckhart-Hall congress is entirely devoted to algebraic geometry, and starts off with a bang:</p>
+<p>&#8220;The Caucus did not judge the plan of La Ciotat above all reproaches, and proposed a completely different plan.</p>
+<p>I &#8211; Schemes<br />
+II &#8211; Theory of multiplicities for schemes<br />
+III &#8211; Varieties<br />
+IV &#8211; Calculation of cycles<br />
+V &#8211; Divisors<br />
+VI &#8211; Projective geometry<br />
+etc.&#8221;</p>
+<p>In the spring of that year (February 27th &#8211; March 6th, 1955) a Bourbaki congress was held <a href="https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-la-ciotat-2">&#8216;Chez Patrice&#8217; at La Ciotat</a>, hosting a different group of Bourbaki members (Samuel was the singleton intersection) : <a href="https://en.wikipedia.org/wiki/Henri_Cartan">Henri Cartan</a> (then 51), <a href="https://en.wikipedia.org/wiki/Jacques_Dixmier">Jacques Dixmier</a> (then 31), <a href="https://en.wikipedia.org/wiki/Jean-Louis_Koszul">Jean-Louis Koszul</a> (then 34), and <a href="https://en.wikipedia.org/wiki/Jean-Pierre_Serre">Jean-Pierre Serre</a> (then 29, and fresh Fields medaillist).</p>
+<p>In the <a href="http://archives-bourbaki.ahp-numerique.fr/files/original/fe0a74e7fa0906cce661b9f2a96895e2.pdf">La Ciotat-Tribu,nr. 35</a> there are also a great number of pages (page 14 &#8211; 25) used to explain a general plan to deal with algebraic geometry. Their summary (page 3-4):</p>
+<p>&#8220;Algebraic Geometry : She has a very nice face.</p>
+<p>Chap I : Algebraic varieties<br />
+Chap II : The rest of Chap. I<br />
+Chap III : Divisors<br />
+Chap IV : Intersections&#8221;</p>
+<p>There&#8217;s much more to say comparing these two plans, but that&#8217;ll be for another day.</p>
+<p>We&#8217;ve just read the word &#8216;schemes&#8217; for the first (?) time. That unnumbered La Tribu continues on page 3 with &#8220;where one explains what a scheme is&#8221;:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tribu36.jpg" width=100%></p>
+<p>So, what was their first idea of a scheme?</p>
+<p>Well, you had your favourite Dedekind domain $D$, and you considered all rings of finite type over $D$. Sorry, not all rings, just all domains because such a ring $R$ had to have a field of fractions $K$ which was of finite type over $k$ the field of fractions of your Dedekind domain $D$.</p>
+<p>They say that Dedekind domains are the algebraic geometrical equivalent of fields. Yeah well, as they only consider $D$-rings the geometric object associated to $D$ is the terminal object, much like a point if $D$ is an algebraically closed field.</p>
+<p>But then, what is this geometric object associated to a domain $R$?</p>
+<p>In this stage, still under the influence of Weil&#8217;s focus on valuations and their specialisations, they (Chevalley?) take as the geometric object $\mathbf{Spec}(R)$, the set of all &#8216;spots&#8217; (taches), that is, local rings in $K$ which are the localisations of $R$ at prime ideals. So, instead of taking the set of all prime ideals, they prefer to take the set of all stalks of the (coming) structure sheaf.</p>
+<p>But then, speaking about sheaves is rather futile as there is no trace of any topology on this set, then. Also, they make a big fuss about not wanting to define a general schema by gluing together these &#8216;affine&#8217; schemes, but then they introduce a notion of &#8216;apparentement&#8217; of spots which basically means the same thing.</p>
+<p>It is still very early days, and there&#8217;s a lot more to say on this, but if no further documents come to light, I&#8217;d say that the birthplace of &#8216;schemes&#8217;, that is , the place where the first time there was a documented consensus on the notion, is Eckhart Hall in Chicago.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-birthplace-of-schemes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

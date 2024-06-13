@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Riemann &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/riemann/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 14 Jul 2019 16:39:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the Riemann hypothesis and Psi</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 14 Jul 2019 16:39:40 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[Nicolas]]></category>
+		<category><![CDATA[Pauli]]></category>
+		<category><![CDATA[Planat]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[Sole]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8430</guid>
+
+					<description><![CDATA[Last time we revisited Robin&#8217;s theorem saying that 5040 being the largest counterexample to the bound \[ \frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \] is equivalent&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040">Last time</a> we revisited Robin&#8217;s theorem saying that 5040 being the largest counterexample to the bound<br />
+\[<br />
+\frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \]
+is equivalent to the Riemann hypothesis.
+
+
+
+<p />
+There&#8217;s an industry of similar results using other arithmetic functions. Today, we&#8217;ll focus on <a href="https://en.wikipedia.org/wiki/Dedekind_psi_function">Dedekind&#8217;s Psi function</a><br />
+\[<br />
+\Psi(n) = n \prod_{p | n}(1 + \frac{1}{p}) \]<br />
+where $p$ runs over the prime divisors of $n$. It is series <a href="https://oeis.org/A001615">A001615</a> in the online encyclopedia of integer sequences and it starts off with</p>
+<p>1, 3, 4, 6, 6, 12, 8, 12, 12, 18, 12, 24, 14, 24, 24, 24, 18, 36, 20, 36, 32, 36, 24, 48, 30, 42, 36, 48, 30, 72, 32, 48, 48, 54, 48, &#8230;</p>
+<p>and here&#8217;s a plot of its first 1000 values</p>
+<p><center><br />
+<img decoding="async" width=100% src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DedekindPsi.jpeg"><br />
+</center></p>
+<p>To understand this behaviour it is best to focus on the &#8216;slopes&#8217; $\frac{\Psi(n)}{n}=\prod_{p|n}(1+\frac{1}{p})$.</p>
+<p />
+So, the red dots of minimal &#8216;slope&#8217; $\approx 1$ correspond to the prime numbers, and the &#8216;outliers&#8217; have a maximal number of distinct small prime divisors. Look at $210 = 2 \times 3 \times 5 \times 7$ and its multiples $420,630$ and $840$ in the picture.</p>
+<p />For this reason the <a href="https://en.wikipedia.org/wiki/Primorial">primorial numbers</a>, which are the products of the fist $k$ prime numbers, play a special role. This is series <a href="https://oeis.org/A002110">A002110</a> starting off with</p>
+<p>1, 2, 6, 30, 210, 2310, 30030, 510510, 9699690, 223092870,&#8230;</p>
+<p>In Patrick Solé and  Michel Planat <a href="https://arxiv.org/abs/1011.1825">Extreme values of the Dedekind $\Psi$ function</a>, it is shown that the primorials play a similar role for Dedekind&#8217;s Psi as the <a href="https://en.wikipedia.org/wiki/Superabundant_number">superabundant numbers</a> play for the sum-of-divisors function $\sigma(n)$.</p>
+<p />
+That is, if $N_k$ is the $k$-th primorial, then for all $n < N_k$ we have that the 'slope' at $n$ is strictly below that of $N_k$
+\[
+\frac{\Psi(n)}{n} < \frac{\Psi(N_k)}{N_k} \]
+which follows immediately from the fact that any $n < N_k$ can have at most $k-1$ distinct prime factors and $p \mapsto 1 + \frac{1}{p}$ is a strictly decreasing function.
+
+
+
+<p />
+Another easy, but nice, observation is that for all $n$ we have the inequalities<br />
+\[<br />
+n^2 > \phi(n) \times \psi(n) > \frac{n^2}{\zeta(2)} \]<br />
+where $\phi(n)$ is <a href="https://en.wikipedia.org/wiki/Euler%27s_totient_function">Euler&#8217;s totient function</a><br />
+\[<br />
+\phi(n) = n \prod_{p | n}(1 &#8211; \frac{1}{p}) \]<br />
+This follows as once from the definitions of $\phi(n)$ and $\Psi(n)$<br />
+\[<br />
+\phi(n) \times \Psi(n) = n^2 \prod_{p|n}(1 &#8211; \frac{1}{p^2}) < n^2 \prod_{p~\text{prime}} (1 - \frac{1}{p^2}) = \frac{n^2}{\zeta(2)} \]
+But now it starts getting interesting.
+
+
+
+<p />
+In the proof of his theorem, Guy Robin used a result of his Ph.D. advisor Jean-Louis Nicolas</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Nicolas.jpg" width=50%><br />
+</center></p>
+<p>known as Nicolas&#8217; criterion for the Riemann hypothesis: RH is true if and only if for all $k$ we have the inequality for the $k$-th primorial number $N_k$<br />
+\[<br />
+\frac{N_k}{\phi(N_k)~log(log(N_k))} > e^{\gamma} \]<br />
+From the above lower bound on $\phi(n) \times \Psi(n)$ we have for $n=N_k$ that<br />
+\[<br />
+\frac{\Psi(N_k)}{N_k} > \frac{N_k}{\phi(N_k) \zeta(2)} \]<br />
+and combining this with Nicolas&#8217; criterion we get<br />
+\[<br />
+\frac{\Psi(N_k)}{N_k~log(log(N_k))} > \frac{N_k}{\phi(N_k)~log(log(N_k)) \zeta(2)} > \frac{e^{\gamma}}{\zeta(2)} \approx 1.08&#8230; \]<br />
+In fact, Patrick Solé and  Michel Planat prove in their paper <a href="https://arxiv.org/abs/1011.1825">Extreme values of the Dedekind $\Psi$ function</a> that RH is equivalent to the lower bound<br />
+\[<br />
+\frac{\Psi(N_k)}{N_k~log(log(N_k))} > \frac{e^{\gamma}}{\zeta(2)} \]<br />
+holding for all $k \geq 3$.</p>
+<p />Dedekind&#8217;s Psi function pops up in lots of interesting mathematics.</p>
+<p />In the theory of modular forms, Dedekind himself used it to describe the index of the congruence subgroup $\Gamma_0(n)$ in the full modular group $\Gamma$.</p>
+<p>In other words, it gives us the number of tiles needed in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-dedekind-tessellation">Dedekind tessellation</a> to describe the fundamental domain of the action of $\Gamma_0(n)$ on the upper half-plane by Moebius transformations.</p>
+<p><img decoding="async" width=100% src="https://ethz.ch/services/en/news-and-events/internal-news/archive/2017/11/when-richard-dedekind-invented-real-numbers-at-eth-zurich/_jcr_content/news_content/fullwidthimage/image.imageformat.lightbox.2134429438.jpg"></p>
+<p>When $n=6$ we have $\Psi(6)=12$ and we can view its fundamental domain via these <a href="http://www.sagemath.org/">Sage</a> commands:</p>
+<p><code><br />
+G=Gamma0(6)<br />
+FareySymbol(G).fundamental_domain()<br />
+</code></p>
+<p>giving us the 24 back or white tiles (note that these tiles are each fundamental domains of the extended modular group, so we have twice as many of them as for subgroups of the modular group)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Gamma0(6).jpg"><br />
+</center></p>
+<p>But, there are plenty of other, seemingly unrelated, topics where $\Psi(n)$ appears. To name just a few:</p>
+<ul>
+<li>The number of points on the projective line $\mathbb{P}^1(\mathbb{Z}/n\mathbb{Z})$.</li>
+<li>The number of lattices at hyperdistance $n$ in <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture">Conway&#8217;s big picture</a>.</li>
+<li>The number of admissible maximal commuting sets of operators in the Pauli group for the $n$ qudit.</li>
+</ul>
+<p>and there are explicit natural one-to-one correspondences between all these manifestations of $\Psi(n)$, tbc.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>RH and the Ishango bone</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/rh-and-the-ishango-bone/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/rh-and-the-ishango-bone/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 08 Dec 2018 10:41:20 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[dessin d'enfant]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[noncommutative geometry]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8250</guid>
+
+					<description><![CDATA[&#8220;She simply walked into the pond in Kensington Gardens Sunday morning and drowned herself in three feet of water.&#8221; This is the opening sentence of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>&#8220;She simply walked into the pond in Kensington Gardens Sunday morning and drowned herself in three feet of water.&#8221;</p>
+<p>This is the opening sentence of <a href="http://kasmana.people.cofc.edu/MATHFICT/mfview.php?callnumber=mf1120">The Ishango Bone</a>, a novel by Paul Hastings Wilson. It (re)tells the story of a young mathematician at Cambridge, Amiele, who (dis)proves the Riemann Hypothesis at the age of 26, is denied the Fields medal, and commits suicide.</p>
+<p>In his <a href="http://kasmana.people.cofc.edu/MATHFICT/mfview.php?callnumber=mf1120">review of the novel on MathFiction</a>, Alex Kasman casts he story in the 1970ties, based on the admission of the first female students to Trinity.</p>
+<p>More likely, the correct time frame is in the first decade of this century. On page 121 Amiele meets Alain Connes, said to be a &#8220;past winner of the Crafoord Prize&#8221;, which Alain obtained in 2001. In fact, noncommutative geometry and its interaction with quantum physics plays a crucial role in her &#8216;proof&#8217;.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/ishangobone.jpg" width=70% ><br />
+</center></p>
+<p>The <a href="https://en.wikipedia.org/wiki/Ishango_bone">Ishango artefact</a> only appears in the Coda to the book. There are a number of theories on the nature and grouping of the scorings on the bone. In one column some people recognise the numbers 11, 13, 17 and 19 (the primes between 10 and 20).</p>
+<p>In the book, Amiele remarks that the total number of lines scored on the bone (168) &#8220;happened to be the exact total of all the primes between 1 and 1000&#8221; and &#8220;if she multiplied 60, the total number of lines in one side column, by 168, the grand total of lines, she&#8217;d get 10080,&#8230;,not such a far guess from 9592, the actual total of primes between 1 and 100000.&#8221; (page 139-140)</p>
+<p>The bone is believed to be more than 20000 years old, prime numbers were probably not understood until about 500 BC&#8230;</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/ishango4.gif" ><br />
+</center></p>
+<p>More interesting than these speculations on the nature of the Ishango bone is the description of the tools Amiele thinks to need to tackle the Riemann Hypothesis:</p>
+<p>&#8220;These included algebraic geometry (which combines commutative algebra with the language and problems of geometry); noncommutative geometry (concerned with the geometric approach to associative algebras, in which multiplication is not commutative, that is, for which $x$ times $y$ does not always equal $y$ times $x$); quantum field theory on noncommutative spacetime, and mathematical aspects of quantum models of consciousness, to name a few.&#8221; (page 115)</p>
+<p>The breakthrough came two years later when Amiele was giving a lecture on Grothendieck&#8217;s <a href="https://en.wikipedia.org/wiki/Dessin_d%27enfant">dessins d&#8217;enfant</a>.</p>
+<p>&#8220;Dessin d&#8217;enfant, or &#8216;child&#8217;s drawing&#8217;, which Amiele had discovered in Grothendieck&#8217;s work, is a type of graph drawing that seemed technically simple, but had a very strong impression on her, partly due to the familiar nature of the objects considered. (&#8230;) Amiele found subtle arithmetic invariants associated with these dessins, which were completely transformed, again, as soon as another stroke was added.&#8221; (page 116)</p>
+<p>Amiele&#8217;s &#8216;disproof&#8217; of RH is outlined on pages 122-124 of &#8220;The Ishango Bone&#8221; and is a mixture of recognisable concepts and ill-defined terms.</p>
+<p>&#8220;Her final result proved that Riemann&#8217;s Hypothesis was false, a zero must fall to the east of Riemann&#8217;s critical line whenever the zeta function of point $q$ with momentum $p$ approached the aelotropic state-vector (this is a simplification, of course).&#8221; (page 123)</p>
+<p>More details are given in a footnote:</p>
+<p>&#8220;(&#8230;) a zero must fall to the east of Riemann&#8217;s critical line whenever:</p>
+<p>\[<br />
+\zeta(q_p) = \frac{( | \uparrow \rangle + \Psi) + \frac{1}{2}(1+cos(\Theta))\frac{\hbar}{\pi}}{\int(\Delta_p)} \]</p>
+<p>(&#8230;) The intrepid are invited to try the equation for themselves.&#8221; (page 124)</p>
+<p>Wilson&#8217;s &#8220;The Ishango Bone&#8221; was published in 2012. A fair number of topics covered (the Ishango bone, dessin d&#8217;enfant, Riemann hypothesis, quantum theory) also play a prominent role in the 2015 paper/story by Michel Planat <a href="https://arxiv.org/abs/1503.02677">&#8220;A moonshine dialogue in mathematical physics&#8221;</a>, but this time with additional story-line: <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a>&#8230;</p>
+<p>Such a paper surely deserves a separate post.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/moonshinedialogue.gif"><br />
+</center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/rh-and-the-ishango-bone/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>eBook &#8216;geometry and the absolute point&#8217; v0.1</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 08 Jul 2011 11:32:32 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5503</guid>
+
+					<description><![CDATA[In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217; I&#8217;ve converted about 30 posts to LaTeX, centering loosely around the topics students have asked me to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/absolutegeometry.jpg" align=left hspace=10><br />
+In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217; I&#8217;ve converted about 30 posts to LaTeX, centering loosely around the topics students have asked me to cover : noncommutative geometry, the absolute point (aka the field with one element), and their relation to the Riemann hypothesis.</p>
+<p>The idea being to edit these posts thoroughly, add much more detail (and proofs) and also add some extra sections on Borger&#8217;s work and Witt rings (and possibly other stuff).</p>
+<p>For those of you who prefer to (re)read these posts on paper or on a tablet rather than perusing this blog, you can now download the very first version (minimally edited) of the eBook <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/ncg.pdf">&#8216;geometry and the absolute point&#8217;</a>. All comments and suggestions are, of course, very welcome. I hope to post a more definite version by mid-september.</p>
+<p>I&#8217;ve used the thesis-documentclass to keep the same look-and-feel of my other course-notes, but I would appreciate advice about turning LaTeX-files into &#8216;proper&#8217; eBooks. I am aware of the fact that the memoir-class has an ebook option, and that one can use the geometry-package to control paper-sizes and margins.</p>
+<p>Soon, I will be releasing a LaTeX-ed &#8216;eBook&#8217; containing the Bourbaki-related posts. Later I might also try it on the games- and groups-related posts&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Art and the absolute point (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 19 May 2011 13:24:19 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[nonsense]]></category>
+		<category><![CDATA[paintings]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5112</guid>
+
+					<description><![CDATA[Previously, we have recalled comparisons between approaches to define a geometry over the absolute point and art-historical movements, first those due to Yuri I. Manin,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Previously, we have recalled comparisons between approaches to define a geometry over the absolute point and art-historical movements, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/art-and-the-absolute-point.html">first</a> those due to Yuri I. Manin, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/art-and-the-absolute-point-2.html">subsequently</a> some extra ones due to Javier Lopez Pena and Oliver Lorscheid.</p>
+<p>In these comparisons, the art trend appears to have been  chosen more to illustrate a key feature of the approach or an appreciation of its importance, rather than giving a visual illustration of the varieties over $\mathbb{F}_1$ the approach proposes.</p>
+<p>Some time ago, we&#8217;ve had a couple of posts trying to depict noncommutative varieties, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/views-of-noncommutative-spaces.html">first</a> the illustrations used by Shahn Majid and Matilde Marcolli, and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/pollock-your-own-noncommutative-space.html">next</a> my own mental picture of it.</p>
+<p>In this post, we&#8217;ll try to do something similar for affine varieties over the absolute point. To simplify things drastically, I&#8217;ll divide the islands in the Lopez Pena-Lorscheid <a href="http://arxiv.org/abs/0909.0069">map of $\mathbb{F}_1$ land</a> in two subsets : the <strong>former approaches</strong> (all but the $\Lambda$-schemes) and the <strong>current approach</strong> (the $\Lambda$-scheme <a href="http://arxiv.org/abs/0906.3146">approach</a> due to James Borger).</p>
+<p><strong>The former approaches : Francis Bacon &#8220;The Pope&#8221; (1953)</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BaconPope.jpg"></p>
+<p>The general consensus here was that in going from $\mathbb{Z}$ to $\mathbb{F}_1$ one looses the additive structure and retains only the multiplicative one. Hence, &#8216;commutative algebras&#8217; over $\mathbb{F}_1$ are (commutative) monoids, and mimicking Grothendieck&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/grothendiecks-functor-of-points.html">functor of points</a> approach to algebraic geometry, a scheme over $\mathbb{F}_1$ would then correspond to a functor</p>
+<p>$h_Z~:~\mathbf{monoids} \longrightarrow \mathbf{sets}$</p>
+<p>Such functors are described largely by combinatorial data (see for example the recent <a href="http://arxiv.org/abs/1103.1745">blueprint-paper</a> by Oliver Lorscheid), and, if the story would stop here, any <a href="http://www.google.com/search?q=Rothko&amp;hl=en&amp;client=safari&amp;rls=en&amp;prmd=ivns&amp;source=lnms&amp;tbm=isch&amp;ei=yNDUTcTcDIyVOuK7xIIM&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;cd=2&amp;ved=0CBsQ_AUoAQ&amp;biw=1362&amp;bih=734">Rothko painting</a> could be used as illustration.</p>
+<p>Most of the former approaches add something though (buzzwords include &#8216;Arakelov&#8217;, &#8216;completion at $\infty$&#8217;, &#8216;real place&#8217; etc.) in order to connect the virtual geometric object over $\mathbb{F}_1$ with existing real, complex or integral schemes. For example, one can make the virtual object visible via an evaluation map $h_Z \rightarrow h_X$ which is a natural transformation, where $X$ is a complex variety with its usual functor of points $h_X$ and to connect both we associate to a monoid $M$ its complex monoid-algebra $\mathbb{C} M$. An integral scheme $Y$ can then be said to be &#8216;defined over $\mathbb{F}_1$&#8217;, if $h_Z$ becomes a subfunctor of its usual functor of points $h_Y$ (again, assigning to a monoid its integral monoid algebra $\mathbb{Z} M$) and $Y$ is the &#8216;best&#8217; integral scheme approximation of the complex evaluation map.</p>
+<p>To illustrate this, consider the painting <a href="http://en.wikipedia.org/wiki/Study_after_Velázquez's_Portrait_of_Pope_Innocent_X">Study after Velázquez&#8217;s Portrait of Pope Innocent X</a> by <a href="http://en.wikipedia.org/wiki/Francis_Bacon_(painter)">Francis Bacon</a> (right-hand painting above) which is  a distorded version of the left-hand painting <a href="http://en.wikipedia.org/wiki/Portrait_of_Innocent_X">Portrait of Innocent X</a> by <a href="http://en.wikipedia.org/wiki/Diego_Velázquez">Diego Velázquez</a>.</p>
+<p>Here, Velázquez&#8217; painting plays the role of the complex variety which makes the combinatorial gadget $h_Z$ visible, and, Bacon&#8217;s painting depicts the integral scheme, build up from this combinatorial data, which approximates the evaluation map best.</p>
+<p>All of the former approaches more or less give the same very small list of integral schemes defined over $\mathbb{F}_1$, none of them motivically interesting.</p>
+<p><strong>The current approach : Jackson Pollock &#8220;No. 8&#8221; (1949)</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Pollock8.jpg"></p>
+<p>An entirely different approach was proposed by James Borger in <a href="http://arxiv.org/abs/0906.3146">$\Lambda$-rings and the field with one element</a>. He proposes another definition for commutative $\mathbb{F}_1$-algebras, namely $\lambda$-rings (in the sense of Grothendieck&#8217;s Riemann-Roch) and he argues that the $\lambda$-ring structure (which amounts in the sensible cases to a family of endomorphisms of the integral ring lifting the Frobenius morphisms) can be viewed as descent data from $\mathbb{Z}$ to $\mathbb{F}_1$.</p>
+<p>The list of integral schemes of finite type with a $\lambda$-structure coincides roughly with the list of integral schemes defined over $\mathbb{F}_1$ in the other approaches, but Borger&#8217;s theory really shines in that it proposes long sought for mystery-objects such as $\mathbf{spec}(\mathbb{Z}) \times_{\mathbf{spec}(\mathbb{F}_1)} \mathbf{spec}(\mathbb{Z})$. If one accepts Borger&#8217;s premise, then this object should be the geometric object corresponding to the Witt-ring $W(\mathbb{Z})$. Recall that the role of Witt-rings in $\mathbb{F}_1$-geometry was anticipated by Manin in <a href="http://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a>.</p>
+<p>But, Witt-rings and their associated Witt-spaces are huge objects, so one needs to extend arithmetic geometry drastically to include such &#8216;integral schemes of infinite type&#8217;. Borger has made a couple of steps in this direction in <a href="http://arxiv.org/abs/1006.0092">The basic geometry of Witt vectors, II: Spaces</a>.</p>
+<p>To depict these new infinite dimensional geometric objects I&#8217;ve chosen for <a href="http://en.wikipedia.org/wiki/Jackson_Pollock">Jackson Pollock</a>&#8216;s painting No. 8. It is no coincidence that Pollock-paintings also appeared in the depiction of noncommutative spaces. In fact, Matilde Marcolli has made the connection between $\lambda$-rings and noncommutative geometry in <a href="http://arxiv.org/abs/0901.3167">Cyclotomy and endomotives</a> by showing that the Bost-Connes endomotives are universal for $\lambda$-rings.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the Reddit (after)effect</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 15 Jan 2011 14:44:31 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[analytics]]></category>
+		<category><![CDATA[blogs]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[links]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[Reddit]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[Wikipedia]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4130</guid>
+
+					<description><![CDATA[Sunday january 2nd around 18hr NeB-stats went crazy. Referrals clarified that the post &#8216;What is the knot associated to a prime?&#8217; was picked up at&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Sunday january 2nd around 18hr NeB-stats went crazy.</p>
+<p>Referrals clarified that the post <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/what-is-the-knot-associated-to-a-prime.html">&#8216;What is the knot associated to a prime?&#8217;</a> was picked up at <a href="http://www.reddit.com/r/math/">Reddit/math</a> and remained nr.1 for about a day.</p>
+<p>Now, the dust has settled, so let&#8217;s learn from the experience.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddit1.jpg"></p>
+<p>A Reddit-mention is to a blog what doping is to a sporter.</p>
+<p>You get an immediate boost in the most competitive of all blog-stats, the number of unique vistors (blue graph), but is doesn&#8217;t result in a long-term effect, and, it may even be harmful to more essential blog-stats, such as the average time visitors spend on your site (yellow graph).</p>
+<p>For NeB the unique vistors/day fluctuate normally around 300, but peaked to 1295 and 1733 on the &#8216;Reddit-days&#8217;. In contrast, the avg. time on site is normally around 3 minutes, but dropped the same days to 44 and 30 seconds!</p>
+<p>Whereas some of the Reddits spend enough time to read the post and <a href="http://www.reddit.com/r/math/comments/ev1gq/what_is_the_knot_associated_to_a_prime/">comment on it</a>, the vast majority zap from one link to the next. Having monitored the <a href="http://www.reddit.com/r/math/">Reddit/math</a> page for two weeks, I&#8217;m convinced that post only made it because it was visually pretty good. The average Reddit/math-er is a viewer more than a reader&#8230;</p>
+<p>So, should I go for shorter, snappier, more visual posts?</p>
+<p>Let&#8217;s compare Reddits to those coming from the three sites giving NeB most referrals : Google search, MathOverflow and Wikipedia.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddit2.jpg"></p>
+<p>This is the traffic coming from Reddit/math, as always the blue graph are the unique visitors, the yellow graph their average time on site, blue-scales to the left, yellow-scales to the right.</p>
+<p>Here&#8217;s the same graph for <a href="http://www.google.com/">Google search</a>. The unique visitors/day fluctuate around 50 and their average time on site about 2 minutes.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/google2.jpg"></p>
+<p>The math-related search terms most used were this month : &#8216;functor of point approach&#8217;, &#8216;profinite integers&#8217; and &#8216;bost-connes sytem&#8217;.</p>
+<p>More rewarding to me are referrals from <a href="http://mathoverflow.net/">MathOverflow</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mathO1.jpg"></p>
+<p>The number of visitors depends on whether the MathO-questions made it to the front-page (for example, the 80 visits on december 15, came from the <a href="http://mathoverflow.net/questions/1909/what-are-dessins-denfants">What are dessins d’enfants?-topic</a> getting an extra comment that very day, and having two references to NeB-posts : <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-best-rejected-proposal-ever.html">The best rejected proposal ever</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/kleins-dessins-denfant-and-the-buckyball.html">Klein’s dessins d’enfant and the buckyball</a>), but even older MathO-topics give a few referrals a day, and these people sure take their time reading the posts (+ 5 minutes).</p>
+<p>Other MathO-topics giving referrals this month were <a href="http://mathoverflow.net//questions/49151/most-intricate-and-most-beautiful-structures-in-mathematics">Most intricate and most beautiful structures in mathematics</a> (linking to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/looking-for-f_un.html">Looking for F-un</a>), <a href="http://mathoverflow.net///questions/28496/what-should-be-learned-in-a-first-serious-schemes-course">What should be learned in a first serious schemes course?</a> (linking to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mumfords-treasure-map.html">Mumford’s treasure map</a> (btw. one of the most visited NeB-posts ever)), <a href="http://mathoverflow.net/questions/14468/how-much-of-scheme-theory-can-you-visualize">How much of scheme theory can you visualize?</a> (linking again to Mumford&#8217;s treasure map) and <a href="http://mathoverflow.net/questions/34699/approaches-to-riemann-hypothesis-using-methods-outside-number-theory">Approaches to Riemann hypothesis using methods outside number theory</a> (linking to the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bost-connes-coset-space.html">Bost-Connes series</a>).</p>
+<p>Finally, there&#8217;s <a href="http://em.wikipedia.org/">Wikipedia</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wikipedia1.jpg"></p>
+<p>giving 5 to 10 referrals a day, with a pretty good time-on-site average (around 4 minutes, peaking to 12 minutes). It is rewarding to see NeB-posts referred to in as diverse Wikipedia-topics as &#8216;Fifteen puzzle&#8217;, &#8216;Field with one element&#8217;, &#8216;Evariste Galois&#8217;, &#8216;ADE classification&#8217;, &#8216;Monster group&#8217;, &#8216;Arithmetic topology&#8217;, &#8216;Dessin d&#8217;enfant&#8217;, &#8216;Groupoid&#8217;, &#8216;Belyi&#8217;s theorem&#8217;, &#8216;Modular group&#8217;, &#8216;Cubic surface&#8217;, &#8216;Esquisse d&#8217;un programme&#8217;, &#8216;N-puzzle&#8217;, &#8216;Shabat polynomial&#8217; and &#8216;Mathieu group&#8217;.</p>
+<p>What lesson should be learned from all this data? Should I go for shorter, snappier and more visual posts, or should I focus on the small group of visitors taking their time reading through a longer post, and don&#8217;t care about the appallingly high <a href="http://en.wikipedia.org/wiki/Bounce_rate">bounce rate</a> the others cause?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NeB : 7 years and now an iPad App</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 31 Dec 2010 17:05:32 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[iPad]]></category>
+		<category><![CDATA[iPad App]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3943</guid>
+
+					<description><![CDATA[Exactly 7 years ago I wrote my first post. This blog wasn&#8217;t called NeB yet and it used pMachine, a then free blogging tool (later&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Exactly 7 years ago I wrote my <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/a-blogging-2004.html">first post</a>. This blog wasn&#8217;t called NeB yet and it used pMachine, a then free blogging tool (later transformed into <a href="http://expressionengine.com/">expression engine</a>), rather than WordPress.</p>
+<p>Over the years NeB survived three hardware-upgrades of &#8216;the Matrix&#8217; (the webserver hosting it), more themes than I care to remember, and a couple of dramatic closure announcements&#8230;</p>
+<p>But then we&#8217;re still here, soldiering on, still uncertain whether there&#8217;s a point to it, but grateful for tiny tokens of appreciation.</p>
+<p>Such as this morning&#8217;s story: <a href="http://mathoverflow.net/users/2821/chandan-singh-dalawat">Chandan</a> deemed it necessary to correct two spelling mistakes in a 2 year old Fun-math post on <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/andre-weil-on-the-rh.html">Weil and the Riemann hypothesis</a> (also reposted on Neb <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/andre-weil-on-the-riemann-hypothesis.html">here</a>). Often there&#8217;s a story behind such sudden comments, and a quick check of MathOverflow revealed <a href="http://mathoverflow.net/questions/50776/did-andre-weil-predict-that-the-riemann-hypothesis-would-be-settled-by-prime-numb/50795#50795">this answer</a> and the comments following it.</p>
+<p>I thank <a href="http://mathoverflow.net/users/4137/ed-dean">Ed Dean</a> for linking to the Fun-post, Chandan for correcting the misspellings and Georges for the kind words. I agree with Georges that a cut&amp;copy of a blogpost-quoted text does not require a link to that post (though it is always much appreciated). It is rewarding to see such old posts getting a second chance&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mobilevisits.jpg"></p>
+<p>Above the Google Analytics graph of the visitors coming here via a mobile device (at most 5 on a good day&#8230;). Anticipating much more iPads around after tonights presents-session I&#8217;ve made NeB more accessible for iPods, iPhones, iPads and other mobile devices.</p>
+<p>The first time you get here via your Mac-device of choice you&#8217;ll be given the option of saving NeB as an App. It has its own icon (lowest row middle, also the favicon of NeB) and flashy start-up screen.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBApp1.jpg"></p>
+<p>Of course, the whole point trying to make NeB more readable for Mobile users you get an overview of the latest posts together with links to categories and tags and the number of comments. Sliding through you can read the post, optimized for the device.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBApp2.jpg"></p>
+<p>I do hope you will use the two buttons at the end of each post, the first to share or save it and the second to leave a comment.</p>
+<p>I wish you all a lot of mathematical (and other) fun in 2011 :: lieven.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Langlands versus Connes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 26 Oct 2010 08:54:28 +0000</pubDate>
+				<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3312</guid>
+
+					<description><![CDATA[This is a belated response to a Math-Overflow exchange between Thomas Riepe and Chandan Singh Dalawat asking for a possible connection between Connes&#8217; noncommutative geometry&#8230;]]></description>
+										<content:encoded><![CDATA[<p>This is a belated response to a Math-Overflow <a href="http://mathoverflow.net/questions/41296/lun-des-problemes-fondamentaux-de-la-theorie-des-nombres">exchange</a> between Thomas Riepe and Chandan Singh Dalawat asking for a possible connection between Connes&#8217; noncommutative geometry approach to the Riemann hypothesis and the Langlands program.</p>
+<p>Here&#8217;s the punchline : a large chunk of the Connes-Marcolli book <a href="http://www.alainconnes.org/docs/bookwebfinal.pdf">Noncommutative Geometry, Quantum Fields and Motives</a> can be read as an exploration of the noncommutative boundary to the Langlands program (at least for $GL_1 $ and $GL_2 $ over the rationals $\mathbb{Q} $).</p>
+<p>Recall that Langlands for $GL_1 $ over the rationals is the correspondence, given by the Artin reciprocity law, between on the one hand the abelianized absolute Galois group</p>
+<p>$Gal(\overline{\mathbb{Q}}/\mathbb{Q})^{ab} = Gal(\mathbb{Q}(\mu_{\infty})/\mathbb{Q}) \simeq \hat{\mathbb{Z}}^* $</p>
+<p>and on the other hand the connected components of the idele classes</p>
+<p>$\mathbb{A}^{\ast}_{\mathbb{Q}}/\mathbb{Q}^{\ast} = \mathbb{R}^{\ast}_{+} \times \hat{\mathbb{Z}}^{\ast} $</p>
+<p>The locally compact Abelian group of idele classes can be viewed as the nice locus of the horrible quotient space of adele classes $\mathbb{A}_{\mathbb{Q}}/\mathbb{Q}^{\ast} $. There is a well-defined map</p>
+<p>$\mathbb{A}_{\mathbb{Q}}&#8217;/\mathbb{Q}^{\ast} \rightarrow \mathbb{R}_{+} \qquad (x_{\infty},x_2,x_3,\ldots) \mapsto | x_{\infty} | \prod | x_p |_p $</p>
+<p>from the subset $\mathbb{A}_{\mathbb{Q}}&#8217; $ consisting of adeles of which almost all terms belong to $\mathbb{Z}_p^{\ast} $. The inverse image of this map over $\mathbb{R}_+^{\ast} $ are precisely the idele classes $\mathbb{A}^{\ast}_{\mathbb{Q}}/\mathbb{Q}^{\ast} $. In this way one can view the adele classes as a closure, or &#8216;compactification&#8217;, of the idele classes.</p>
+<p>This is somewhat reminiscent of extending the nice action of the modular group on the upper-half plane to its badly behaved action on the boundary as in the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-manin-marcolli-cave.html">Manin-Marcolli cave post</a>.</p>
+<p>The topological properties of the fiber over zero, and indeed of the total space of adele classes, are horrible in the sense that the discrete group $\mathbb{Q}^* $ acts ergodically on it, due to the irrationality of $log(p_1)/log(p_2) $ for primes $p_i $. All this is explained well (in the semi-local case, that is using $\mathbb{A}_Q&#8217; $ above) in the Connes-Marcolli book (section 2.7).</p>
+<p>In much the same spirit as non-free actions of reductive groups on algebraic varieties are best handled using stacks, such ergodic actions are best handled by the tools of noncommutative geometry. That is, one tries to get at the geometry of $\mathbb{A}_{\mathbb{Q}}/\mathbb{Q}^{\ast} $ by studying an associated non-commutative algebra, the skew-ring extension of the group-ring of the adeles by the action of $\mathbb{Q}^* $ on it. This algebra is known to be Morita equivalent to the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bost-connes-hecke-algebra.html">Bost-Connes algebra</a> which is the algebra featuring in Connes&#8217; approach to the Riemann hypothesis.</p>
+<p>It shouldn&#8217;t thus come as a major surprise that one is able to recover the other side of the Langlands correspondence, that is the Galois group $Gal(\mathbb{Q}(\mu_{\infty})/\mathbb{Q}) $, from the Bost-Connes algebra as the symmetries of certain states.</p>
+<p>In a similar vein one can read the Connes-Marcolli $GL_2 $-system (section 3.7 of their book) as an exploration of the noncommutative closure of the Langlands-space $GL_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q}) $.</p>
+<p>At the moment I&#8217;m running a master-seminar noncommutative geometry trying to explain this connection in detail. But, we&#8217;re still in the early phases, struggling with the topology of ideles and adeles, reciprocity laws, L-functions and the lot. Still, if someone is interested I might attempt to post some lecture notes here.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>big Witt vectors for everyone (1/2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/big-witt-vectors-for-everyone-12/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/big-witt-vectors-for-everyone-12/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 02 Feb 2010 13:00:30 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[lambda rings]]></category>
+		<category><![CDATA[Lenstra]]></category>
+		<category><![CDATA[numbers]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2811</guid>
+
+					<description><![CDATA[Next time you visit your math-library, please have a look whether these books are still on the shelves : Michiel Hazewinkel&#8216;s Formal groups and applications,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Next time you visit your math-library, please have a look whether these books are still on the shelves : <a href="http://homepages.cwi.nl/~mich/">Michiel Hazewinkel</a>&#8216;s <a href="http://books.google.com/books?id=f_s0-lTw7EIC&amp;pg=PR8&amp;lpg=PR8&amp;dq=Formal+groups+and+applications&amp;source=bl&amp;ots=HO1WUf1C8T&amp;sig=6E2h4g8Nc8-WrpZIfgZVzj8ffac&amp;hl=en&amp;ei=5htkS_bqAsfc-QbtytCqBw&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=1&amp;ved=0CA4Q6AEwAA#v=onepage&amp;q=&amp;f=false">Formal groups and applications</a>, William Fulton&#8217;s and Serge Lange&#8217;s <a href="http://books.google.com/books?id=OD3q3C-Wi-oC&amp;printsec=frontcover&amp;dq=Riemann-Roch+algebra&amp;source=bl&amp;ots=XsbxX6BTOh&amp;sig=Z1-EDxUrxPNRV-2gtiF-An_X_bY&amp;hl=en&amp;ei=NhxkS_vkBYPI-QbOsNSjBw&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=1&amp;ved=0CAkQ6AEwAA#v=onepage&amp;q=&amp;f=false">Riemann-Roch algebra</a> and Donald Knutson&#8217;s <a href="http://www.flipkart.com/lambda-rings-representation-theory-symmetric/3540061843-abz3f99zlb">lambda-rings and the representation theory of the symmetric group</a>.</p>
+<p>I wouldn&#8217;t be surprised if one or more of these books are borrowed out, probably all of them to the same person. I&#8217;m afraid I&#8217;m that person in Antwerp&#8230;</p>
+<p>Lately, there&#8217;s been a renewed interest in $\lambda $-rings and the endo-functor W assigning to a commutative algebra its ring of big Witt vectors, following Borger&#8217;s new proposal for a geometry over the absolute point.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Lenstrapic.jpg" style='float:left; margin-right:10px;' >However, as <a href="http://www.math.leidenuniv.nl/~hwl/">Hendrik Lenstra</a> writes in his 2002 course-notes on the subject <a href="http://math.berkeley.edu/~hwl/papers/witt.pdf">Construction of the ring of Witt vectors</a> : &#8220;The literature on the functor W is in a somewhat unsatisfactory state: nobody seems to have any interest in Witt vectors beyond applying them for a purpose, and they are often treated in appendices to papers devoting to something else; also, the construction usually depends on a set of implicit or unintelligible formulae. Apparently, anybody who wishes to understand Witt vectors needs to construct them personally. That is what is now happening to myself.&#8221;</p>
+<p>Before doing a series on Borger&#8217;s paper, we&#8217;d better run through Lenstra&#8217;s elegant construction in a couple of posts. Let A be a commutative ring and consider the multiplicative group of all &#8216;one-power series&#8217; over it $\Lambda(A)=1+t A[[t]] $. Our aim is to define a commutative ring structure on $\Lambda(A) $ taking as its ADDITION the MULTIPLICATION of power series.</p>
+<p>That is, if $u(t),v(t) \in \Lambda(A) $, then we define our addition $u(t) \oplus v(t) = u(t) \times v(t) $. This may be slightly confusing  as the ZERO-element in $\Lambda(A),\oplus $ will then turn be the constant power series 1&#8230;</p>
+<p>We are now going to define a multiplication $\otimes $ on $\Lambda(A) $ which is distributively with respect to $\oplus $ and turns $\Lambda(A) $ into a commutative ring with ONE-element the series $~(1-t)^{-1}=1+t+t^2+t^3+\ldots $.</p>
+<p>We will do this inductively, so consider $\Lambda_n(A) $ the (classes of) one-power series truncated at term n, that is, the kernel of the natural augmentation map between the multiplicative group-units $~A[t]/(t^{n+1})^* \rightarrow A^* $.<br />
+Again, taking multiplication in $A[t]/(t^{n+1}) $ as a new addition rule $\oplus $, we see that $~(\Lambda_n(A),\oplus) $ is an Abelian group, whence a $\mathbb{Z} $-module.</p>
+<p>For all elements $a \in A $ we have a scaling operator $\phi_a $ (sending $t \rightarrow at $) which is an A-ring endomorphism of $A[t]/(t^{n+1}) $, in particular multiplicative wrt. $\times $. But then, $\phi_a $ is an additive endomorphism of $~(\Lambda_n(A),\oplus) $, so is an element of the endomorphism-RING $End_{\mathbb{Z}}(\Lambda_n(A)) $. Because composition (being the multiplication in this endomorphism ring) of scaling operators is clearly commutative ($\phi_a \circ \phi_b = \phi_{ab} $) we can define a commutative RING $E $ being the subring of $End_{\mathbb{Z}}(\Lambda_n(A)) $ generated by the operators $\phi_a $.</p>
+<p>The action turns $~(\Lambda_n(A),\oplus) $ into an E-module and we define an E-module morphism $E \rightarrow \Lambda_n(A) $ by $\phi_a \mapsto \phi_a((1-t)^{-1}) = (1-at)^{-a} $.</p>
+<p>All of this looks pretty harmless, but the upshot is that we have now equipped the image of this E-module morphism, say  $L_n(A) $ (which is the additive subgroup of $~(\Lambda_n(A),\oplus) $ generated by the elements $~(1-at)^{-1} $) with a commutative multiplication $\otimes $ induced by the rule $~(1-at)^{-1} \otimes (1-bt)^{-1} = (1-abt)^{-1} $.</p>
+<p>Explicitly, $L_n(A) $ is the set of one-truncated polynomials $u(t) $ with coefficients in $A $ such that one can find elements $a_1,\ldots,a_k \in A $ such that $u(t) \equiv (1-a_1t)^{-1} \times \ldots \times (1-a_k)^{-1}~mod~t^{n+1} $. We multiply $u(t) $ with another such truncated one-polynomial $v(t) $ (taking elements $b_1,b_2,\ldots,b_l \in A $) via</p>
+<p>$u(t) \otimes v(t) = ((1-a_1t)^{-1} \oplus \ldots \oplus (1-a_k)^{-1}) \otimes ((1-b_1t)^{-1} \oplus \ldots \oplus (1-b_l)^{-1}) $</p>
+<p>and using distributivity and the multiplication rule this gives the element $\prod_{i,j} (1-a_ib_jt)^{-1}~mod~t^{n+1} \in L_n(A) $.<br />
+Being a ring-qutient of $E $ we have that $~(L_n(A),\oplus,\otimes) $ is a commutative ring, and, from the construction it is clear that  $L_n $ behaves functorially.</p>
+<p>For rings $A $ such that $L_n(A)=\Lambda_n(A) $ we are done, but in general $L_n(A) $ may be strictly smaller. The idea is to use functoriality and do the relevant calculations in a larger ring $A \subset B $ where we can multiply the two truncated one-polynomials and observe that the resulting truncated polynomial still has all its coefficients in $A $.</p>
+<p>Here&#8217;s how we would do this over $\mathbb{Z} $ : take two irreducible one-polynomials u(t) and v(t) of degrees r resp. s smaller or equal to n. Then over the complex numbers we have<br />
+$u(t)=(1-\alpha_1t) \ldots (1-\alpha_rt) $ and $v(t)=(1-\beta_1) \ldots (1-\beta_st) $. Then, over the field $K=\mathbb{Q}(\alpha_1,\ldots,\alpha_r,\beta_1,\ldots,\beta_s) $ we have that $u(t),v(t) \in L_n(K) $ and hence we can compute their product $u(t) \otimes v(t) $ as before to be $\prod_{i,j}(1-\alpha_i\beta_jt)^{-1}~mod~t^{n+1} $. But then, all coefficients of this truncated K-polynomial are invariant under all permutations of the roots $\alpha_i $ and the roots $\beta_j $ and so is invariant under all elements of the Galois group. But then, these coefficients are algebraic numbers in $\mathbb{Q} $ whence integers. That is, $u(t) \otimes v(t) \in \Lambda_n(\mathbb{Z}) $. It should already be clear from this that the rings $\Lambda_n(\mathbb{Z}) $ contain a lot of arithmetic information!</p>
+<p>For a general commutative ring $A $ we will copy this argument by considering a free overring $A^{(\infty)} $ (with 1 as one of the base elements) by formally adjoining roots. At level 1, consider $M_0 $ to be the set of all non-constant one-polynomials over $A $ and consider the ring</p>
+<p>$A^{(1)} = \bigotimes_{f \in M_0} A[X]/(f) = A[X_f, f \in M_0]/(f(X_f) , f \in M_0) $</p>
+<p>The idea being that every one-polynomial $f \in M_0 $ now has one root, namely $\alpha_f = \overline{X_f} $ in $A^{(1)} $. Further, $A^{(1)} $ is a free A-module with basis elements all $\alpha_f^i $ with $0 \leq i &lt; deg(f) $.</p>
+<p>Good! We now have at least one root, but we can continue this process. At level 2, $M_1 $ will be the set of all non-constant one-polynomials over $A^{(1)} $ and we use them to construct the free overring $A^{(2)} $ (which now has the property that every $f \in M_0 $ has at least two roots in $A^{(2)} $). And, again, we repeat this process and obtain in succession the rings $A^{(3)},A^{(4)},\ldots $. Finally, we define $A^{(\infty)} = \underset{\rightarrow}{lim}~A^{(i)} $ having the property that every one-polynomial over A splits entirely in linear factors over $A^{(\infty)} $.</p>
+<p>But then, for all $u(t),v(t) \in \Lambda_n(A) $ we can compute $u(t) \otimes v(t) \in \Lambda_n(A^{(\infty)}) $. Remains to show that the resulting truncated one-polynomial has all its entries in A. The ring $A^{(\infty)} \otimes_A A^{(\infty)} $ contains two copies of $A^{(\infty)} $ namely $A^{(\infty)} \otimes 1 $ and $1 \otimes A^{(\infty)} $ and the intersection of these two rings in exactly $A $ (here we use the freeness property and the additional fact that 1 is one of the base elements). But then, by functoriality of $L_n $, the element<br />
+$u(t) \otimes v(t) \in L_n(A^{(\infty)} \otimes_A A^{(\infty)}) $ lies in the intersection $\Lambda_n(A^{(\infty)} \otimes 1) \cap \Lambda_n(1 \otimes A^{(\infty)})=\Lambda_n(A) $. Done!</p>
+<p>Hence, we have endo-functors $\Lambda_n $ in the category of all commutative rings, for every number n. Reviewing the construction of $L_n $ one observes that there are natural transformations $L_{n+1} \rightarrow L_n $ and therefore also natural transformations $\Lambda_{n+1} \rightarrow \Lambda_n $. Taking the inverse limits $\Lambda(A) = \underset{\leftarrow}{lim} \Lambda_n(A) $ we therefore have the &#8216;one-power series&#8217; endo-functor<br />
+$\Lambda~:~\mathbf{comm} \rightarrow \mathbf{comm} $<br />
+which is &#8216;almost&#8217; the functor W of big Witt vectors. Next time we&#8217;ll take you through the identification using &#8216;ghost variables&#8217; and how the functor $\Lambda $ can be used to define the category of $\lambda $-rings.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/big-witt-vectors-for-everyone-12/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>looking for the moonshine picture</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/looking-for-the-moonshine-picture/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/looking-for-the-moonshine-picture/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 11 May 2009 12:39:35 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1728</guid>
+
+					<description><![CDATA[We have seen that Conway&#8217;s big picture helps us to determine all arithmetic subgroups of $PSL&#95;2(\mathbb{R}) $ commensurable with the modular group $PSL&#95;2(\mathbb{Z}) $, including&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/duncanpicture.jpg" style="float:right;margin-left:10px;" hspace=10>We have seen that <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture">Conway&#8217;s big picture</a> helps us to determine all arithmetic subgroups of $PSL&#95;2(\mathbb{R}) $ commensurable with the modular group $PSL&#95;2(\mathbb{Z}) $, including all groups of <a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a>.</p>
+<p>As there are exactly 171 such moonshine groups, they are determined by a finite subgraph of Conway&#8217;s picture and we call the minimal such subgraph the <strong>moonshine picture</strong>. Clearly, we would like to determine its structure.</p>
+<p>On the left a depiction of a very small part of it. It is the minimal subgraph of Conway&#8217;s picture needed to describe the 9 moonshine groups appearing in Duncan&#8217;s realization of McKay&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">E(8)-observation</a>. Here, only three primes are relevant : 2 (blue lines), 3 (reds) and 5 (green). All lattices are number-like (recall that $M \frac{g}{h} $ stands for the lattice $\langle M e&#95;1 + \frac{g}{h} e&#95;2, e_2 \rangle $).</p>
+<p>We observe that a large part of this mini-moonshine picture consists of the three <strong>p-tree</strong> subgraphs (the blue, red and green tree starting at the 1-lattice $1 = \langle e&#95;1,e&#95;2 \rangle $. Whereas Conway&#8217;s big picture is the product over all p-trees with p running over all prime numbers, we observe that the mini-moonshine picture is a very small subgraph of the product of these three subtrees. In fact, there is just one 2-cell (the square 1,2,6,3).</p>
+<p>Hence, it seems like a good idea to start our investigation of the full moonshine picture with the determination of the p-subtrees contained in it, and subsequently, worry about higher dimensional cells constructed from them. Surely it will be no major surprise that the prime numbers p that appear in the moonshine picture are exactly the prime divisors of the order of the <a href="http://en.wikipedia.org/wiki/Monster_group">monster group</a>, that is p=2,3,5,7,11,13,17,19,23,29,31,41,47,59 or 71. Before we can try to determine these 15 p-trees, we need to know more about the 171 moonshine groups.</p>
+<p>Recall that the proper way to view the modular subgroup $\Gamma&#95;0(N) $ is as the subgroup fixing the two lattices $L&#95;1 $ and $L&#95;N $, whence we will write $\Gamma&#95;0(N)=\Gamma&#95;0(N|1) $, and, by extension we will denote with $\Gamma&#95;0(X|Y) $ the subgroup fixing the two lattices $L&#95;X $ and $L&#95;Y $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/2001thread.jpg" style="float:left;margin-right:10px;" hspace=10> As $\Gamma&#95;0(N) $ fixes $L&#95;1 $ and $L_N $ it also fixes all lattices in the <strong>(N|1)-thread</strong>, that is all lattices occurring in a shortest path from $L&#95;1 $ to $L&#95;N $ (on the left a picture of the (200|1)-thread).</p>
+<p>If $N=p&#95;1^{a&#95;1} p&#95;2^{a&#95;2} \ldots p&#95;k^{a&#95;k} $, then the (N|1)-thread has $2^k $ involutions as symmetries, called the <strong>Atkin-Lehner involutions</strong>. For every exact divisor $e || N $ (that is, $e|N $ and $gcd(e,\frac{N}{e})=1 $ we have an involution $W&#95;e $ which acts by sending each point in the thread-cell corresponding to the prime divisors of $e $ to its antipodal cell-point and acts as the identity on the other prime-axes. For example, in the (200|1)-thread on the left, $W&#95;8 $ is the left-right reflexion, $W&#95;{25} $ the top-bottom reflexion and $W&#95;{200} $ the antipodal reflexion. The set of all exact divisors of N becomes the group $~(\mathbb{Z}/2\mathbb{Z})^k $ under the operation $e \ast f = \frac{e \times f}{gcd(e,f)^2} $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/discreteMoonshine.jpg" style="float:right;margin-left:10px;" hspace=10> Most of the moonshine groups are of the form $\Gamma&#95;0(n|h)+e,f,g,&#8230; $ for some $N=h.n $ such that $h | 24 $ and $h^2 | N $. The group $\Gamma&#95;0(n|h) $ is then conjugate to the modular subgroup $\Gamma&#95;0(\frac{n}{h}) $ by the element $\begin{bmatrix} h &amp; 0 &#92; 0 &amp; 1 \end{bmatrix} $. With $\Gamma&#95;0(n|h)+e,f,g,&#8230; $ we mean that the group $\Gamma&#95;0(n|h) $ is extended with the involutions $W&#95;e,W&#95;f,W&#95;g,&#8230; $. If we simply add all Atkin-Lehner involutions we write $\Gamma_0(n|h)+ $ for the resulting group.</p>
+<p>Finally, whenever $h \not= 1 $ there is a subgroup $\Gamma&#95;0(n||h)+e,f,g,&#8230; $ which is the kernel of a character $\lambda $ being trivial on $\Gamma&#95;0(N) $ and on all involutions $W_e $ for which every prime dividing $e $ also divides $\frac{n}{h} $, evaluating to $e^{\frac{2\pi i}{h}} $ on all cosets containing $\begin{bmatrix} 1 &amp; \frac{1}{h} &#92; 0 &amp; 1 \end{bmatrix} $ and to $e^{\pm \frac{2 \pi i }{h}} $ for cosets containing $\begin{bmatrix} 1 &amp; 0 &#92; n &amp; 0 \end{bmatrix} $ (with a + sign if $\begin{bmatrix} 0 &amp; -1 &#92; N &amp; 0 \end{bmatrix} $ is present and a &#8211; sign otherwise). Btw. it is not evident at all that this is a character, but hard work shows it is!</p>
+<p>Clearly there are heavy restrictions on the numbers that actually occur in moonshine. In the paper <a href="http://www.mathstat.uottawa.ca/~asebbar/publi/proc2.pdf">On the discrete groups of moonshine</a>, John Conway, John McKay and <a href="http://www.mathstat.uottawa.ca/~asebbar/">Abdellah Sebbar</a> characterized the 171 arithmetic subgroups of $PSL_2(\mathbb{R}) $ occuring in <a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a> as those of the form $G = \Gamma_0(n || h)+e,f,g,&#8230; $ which are</p>
+<ul>
+<li>(a) of genus zero, meaning that the quotient of the upper-half plane by the action of $G \subset PSL_2(\mathbb{R}) $ by Moebius-transformations gives a Riemann surface of genus zero, </li>
+<li>(b) the quotient group $G/\Gamma_0(nh) $ is a group of exponent 2 (generated by some Atkin-Lehner involutions), and </li>
+<li>(c) every cusp can be mapped to $\infty $ by an element of $PSL&#95;2(\mathbb{R}) $ which conjugates the group to one containing $\Gamma&#95;0(nh) $. </li>
+</ul>
+<p>Now, if $\Gamma&#95;0(n || h)+e,f,g,&#8230; $ is of genus zero, so is the larger group $\Gamma&#95;0(n | h)+e,f,g,&#8230; $, which in turn, is conjugated to the group $\Gamma&#95;0(\frac{n}{h})+e,f,g,&#8230; $. Therefore, we need a list of all groups of the form $\Gamma&#95;0(\frac{n}{h})+e,f,g,&#8230; $ which are of genus zero. There are exactly 123 of them, listed on the right.</p>
+<p>How does this help to determine the structure of the p-subtree of the moonshine picture for the fifteen monster-primes p? Look for the largest p-power $p^k $ such that $p^k+e,f,g&#8230; $ appears in the list. That is for p=2,3,5,7,11,13,17,19,23,29,31,41,47,59,71 these powers are resp. 5,3,2,2,1,1,1,1,1,1,1,1,1,1,1. Next, look for the largest p-power $p^l $ dividing 24 (that is, 3 for p=2, 1 for p=3 and 0 for all other primes). Then, these relevant moonshine groups contain the modular subgroup $\Gamma&#95;0(p^{k+2l}) $ and are contained in its normalizer in $PSL&#95;2(\mathbb{R}) $ which by the Atkin-Lehner theorem is precisely the group $\Gamma_0(p^{k+l}|p^l)+ $.</p>
+<p>Right, now the lattices fixed by $\Gamma_0(p^{k+2l}) $ (and permuted by its normalizer), that is the lattices in our p-subtree, are those that form the $~(p^{k+2l}|1) $-<strong>snake</strong> in Conway-speak. That is, the lattices whose hyper-distance to the $~(p^{k+l}|p^l) $-thread divides 24. So for all primes larger than 2 or 3, the p-tree is just the $~(p^l|1) $-thread.</p>
+<p>For p=3 the 3-tree is the (243|1)-snake having the (81|3)-thread as its spine. It contains the following lattices, all of which are number-like.</p>
+<p><center><br />
+  <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/243snake.jpg" /><br />
+</center></p>
+<p>Depicting the 2-tree, which is the (2048|1)-snake may take a bit longer&#8230; Perhaps someone should spend some time figuring out which cells of the product of these fifteen trees make up the <strong>moonshine picture</strong>!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/looking-for-the-moonshine-picture/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>best of 2008 (2) : big theorems</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/best-of-2008-2-big-theorems/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/best-of-2008-2-big-theorems/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 03 Jan 2009 18:56:27 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://matrix.cmi.ua.ac.be/?p=854</guid>
+
+					<description><![CDATA[A comment to Charles Siegel's 'big theorems'-series got me checking my stats.]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/ChSiegelP.jpg" style="float:right;margin-left:10px;"><a href="http://www.math.upenn.edu/~siegelch/">Charles Siegel</a> of <a href="http://rigtriv.wordpress.com/author/rigtriv/">Rigorous Trivialities</a> ran a great series on <a href="http://wordpress.com/tag/big-theorems/">big theorems</a>.</p>
+<p>The series started january 10th 2008 with a post on <a href="http://rigtriv.wordpress.com/2008/01/10/bezouts-theorem/">Bezout&#8217;s theorem</a>, followed by posts on Chow&#8217;s lemma, Serre duality, Riemann-Roch, Bertini, Nakayama&#8217;s lemma, Groebner bases, Hurwitz to end just before christmas with a post on <a href="http://rigtriv.wordpress.com/2008/12/23/kontsevichs-formula/">Kontsevich&#8217;s formula</a>.</p>
+<p>Also at other blogs, 2008 was the year of series of long posts containing substantial pure mathematics.</p>
+<p>Out of many, just two examples : Chris Schommer-Pries ran a three part series on TQFTs via planar algebras starting <a href="http://sbseminar.wordpress.com/2008/12/05/tqfts-via-planar-algebras/">here</a>, at the <a href="http://sbseminar.wordpress.com/">secret blogging seminar</a>.<br />
+And, Peter Woit of <a href="http://www.math.columbia.edu/~woit/wordpress/">Not Even Wrong</a> has an ungoing series of posts called Notes on BRST, starting <a href="http://www.math.columbia.edu/~woit/wordpress/?p=1076">here</a>. At the moment he is at episode <a href="http://www.math.columbia.edu/~woit/wordpress/?p=1439">nine</a>.</p>
+<p>It suffices to have a quick look at the length of any of these posts, to see that a great deal of work was put into these series (and numerous similar ones, elsewhere). Is this amount of time well spend? Or, should we focus on shorter, easier digestible math-posts?</p>
+<p>What got me thinking was this merciless comment Charles got after a great series of posts leading up to Kontsevich&#8217;s formula :</p>
+<p>&#8220;Perhaps you should make a New Years commitment to not be so obscurantist, like John Armstrong, and instead promote the public understanding of math!&#8221;</p>
+<p>Well, if this doesn&#8217;t put you off blogging for a while, what will?</p>
+<p>So, are we really writing the wrong sort of posts? Do math-blog readers only want short, flashy, easy reading posts these days? Or, is anyone out there taking notice of the hard work it takes to write such a technical post, let alone a series of them?</p>
+<p>At first I was rather pessimistic about the probable answer to all these questions, but, fortunately we have <a href="http://www.google.com/analytics/">Google Analytics</a> to quantify things a bit.</p>
+<p>Clearly I can only rely on the statistics for my own site, so I&#8217;ll treat the case of a recent post here : <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mumfords-treasure-map.html">Mumford&#8217;s treasure map</a> which tried to explain the notion of a generic point and how one might depict an affine scheme.</p>
+<p>Here&#8217;s some of the Google Analytics data :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/GAMumford.jpg"><br />
+</center></p>
+<p>The yellow function gives the number of pageviews for that post, the value ranges between 0 and 600 (the number to the right of the picture). In total this post was viewed 2470 times, up till now.</p>
+<p>The blue function tells the average time a visitor spend reading that post, the numbers range between 0 and 8 minutes (the times to the left of the picture). On average the time-on-page was 2.24 minutes, so in all people spend well over 92 hours reading this one post! This seems like a good return for the time it took me to write it&#8230;</p>
+<p>Some other things can be learned from this data. Whereas the number of page-views has two peaks early on (one the day it was posted, the second one when Peter Woit <a href="http://www.math.columbia.edu/~woit/wordpress/?p=1389">linked</a> to it) and is now steadily decreasing, the time-on-page for the later visitors is substantially longer than the early readers.</p>
+<p>Some of this may be explained (see comment below) by returning visits. Here is a more detailed picture (orange = new visits, green=returning visits, blue=&#8217;total&#8217; whatever this means).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/returningMumford.jpg"><br />
+</center></p>
+<p>All in all good news : there is indeed a market for longer technical math-posts and people (eventually) take time to read the post in detail.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/best-of-2008-2-big-theorems/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>hexagonal &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/hexagonal/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 30 Nov 2010 12:50:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Who discovered the Leech lattice?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/who-discovered-the-leech-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/who-discovered-the-leech-lattice/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 30 Nov 2010 12:50:10 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[Leech lattice]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[Niemeier]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3373</guid>
+
+					<description><![CDATA[The Leech lattice was, according to wikipedia, &#8216;originally discovered by Ernst Witt in 1940, but he did not publish his discovery&#8217; and it &#8216;was later&#8230;]]></description>
+										<content:encoded><![CDATA[<p>
+The Leech lattice was, according to <a href="http://en.wikipedia.org/wiki/Leech_lattice">wikipedia</a>, &#8216;originally discovered by Ernst Witt in 1940, but he did not publish his discovery&#8217; and it &#8216;was later re-discovered in 1965 by John Leech&#8217;. However, there is very little evidence to support this claim.</p>
+<p>
+<p><b> The facts </b></p>
+<p><p>
+What is certain is that <a href="http://en.wikipedia.org/wiki/John_Leech_(mathematician)">John Leech</a> discovered in 1965 an amazingly dense 24-dimensional lattice $ {\Lambda} $ having the property that unit balls around the lattice points touch, each one of them having exactly 196560 neighbors. The paper &#8216;Notes on sphere packings&#8217; appeared in 1967 in the Canad. J. Math. 19, 251-267.</p>
+<p>
+Compare this to the optimal method to place pennies on a table, leading to the <a href="http://en.wikipedia.org/wiki/Hexagonal_tiling">hexagonal tiling</a>, each penny touching exactly 6 others. Similarly, in dimension 8 the densest packing is the <a href="http://en.wikipedia.org/wiki/E8_lattice">E8 lattice</a> in which every unit ball has exactly 240 neighbors.</p>
+<p>
+The <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> $ {\Lambda} $ can be characterized as the unique unimodular positive definite even lattice such that the length of any non-zero vector is at least two.</p>
+<p>
+The list of all positive definite even unimodular lattices, $ {\Gamma_{24}} $, in dimension 24 was classified later by <a href="http://en.wikipedia.org/wiki/Hans-Volker_Niemeier">Hans-Volker Niemeier</a> and are now known as the 24 <a href="http://en.wikipedia.org/wiki/Niemeier_lattice">Niemeier lattices</a>.</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Niemeier.png"></p>
+<p>
+For the chronology below it is perhaps useful to note that, whereas Niemeier&#8217;s paper did appear in 1973, it was <a href="http://bit.ly/eDxv7p">submitted</a> april 5th 1971 and is just a minor rewrite of Niemeier&#8217;s <a href="http://genealogy.math.ndsu.nodak.edu/id.php?id=57076">Ph.D.</a> &#8220;Definite quadratische Formen der Dimension 24 und Diskriminante 1&#8221; obtained in 1968 from the University of G&ouml;ttingen with advisor <a href="http://genealogy.math.ndsu.nodak.edu/id.php?id=21259">Martin Kneser</a>.</p>
+<p>
+<p><b> The claim </b></p>
+<p><p>
+On page 328 of <a href="http://www.amazon.co.uk/Collected-Papers-Abhandlungen-Ernst-Witt/dp/3540570616/">Ernst Witt&#8217;s Collected Papers</a> Ina Kersten recalls that Witt gave a colloquium talk on January 27, 1970 in Hamburg entitled &#8220;Gitter und Mathieu-Gruppen&#8221; (Lattices and Mathieu-groups). In this talk Witt claimed to have found nine lattices in $ {\Gamma_{24}} $ as far back as 1938 and that on January 28, 1940 he found two additional lattices $ {M} $ and $ {\Lambda} $ while studying the <a href="http://en.wikipedia.org/wiki/Steiner_system">Steiner system</a> $ {S(5,8,24)} $.</p>
+<p>
+On page 329 of the collected papers is a scan of the abstract Witt wrote in the colloquium book in Bielefeld where he gave a talk &#8220;Uber einige unimodularen Gitter&#8221; (On certain unimodular lattices) on January 28, 1972</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wittclaim.jpg"></p>
+<p>
+Here, Witt claims that he found three new lattices in $ {\Gamma_{24}} $ on January 28, 1940 as the lattices $ {M} $, $ {M&#8217;} $ and $ {\Lambda} $ &#8216;feiern heute ihren 32sten Gebursttag!&#8217; (celebrate today their 32nd birthday).</p>
+<p>
+He goes on telling that the lattices $ {M} $ and $ {\Lambda} $ were number 10 and 11 in his list of lattices in $ {\Gamma_{24}} $ in his paper &#8220;Eine Identit&auml;t zwischen Modulformen zweiten Grades&#8221; in the Abh. Math. Sem. Univ. Hamburg 14 (1941) 323-337 and he refers in particular to page 324 of that paper.</p>
+<p>
+He further claims that he computed the orders of their automorphism groups and writes that $ {\Lambda} $ &#8216;wurde 1967 von Leech wieder-entdeckt&#8217; (was re-discovered by Leech in 1967) and that its automorphism group $ {G(\Lambda)} $ was studied by John Conway. Recall that Conway&#8217;s investigations of the automorphism group of the Leech lattice led to the discovery of three new sporadic groups, the <a href="http://en.wikipedia.org/wiki/Conway_group">Conway groups</a> $ {Co_1,Co_2} $ and $ {Co_3} $.</p>
+<p>
+However, Witt&#8217;s 1941-paper does not contain a numbered list of 24-dimensional lattices. In fact, apart from $ {E_8+E_8+E_8} $ is does not contain a single lattice in $ {\Gamma_{24}} $. The only relevant paragraph is indeed on page 324</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wittclaim2.png"></p>
+<p>
+He observes that Mordell already proved that there is just one lattice in $ {\Gamma_8} $ (the $ {E_8} $-lattice) and that the main result of his paper is to prove that there are precisely two even unimodular 16-dimensional lattices : $ {E_8+E_8} $ and another lattice, now usually called the 16-dimensional Witt-lattice.</p>
+<p>
+He then goes on to observe that Schoeneberg knew that $ {\# \Gamma_{24} &gt; 1} $ and so there must be more lattices than $ {E_8+E_8+E_8} $ in $ {\Gamma_{24}} $. Witt concludes with : &#8220;In my attempt to find such a lattice, I discovered more than 10 lattices in $ {\Gamma_{24}} $. The determination of $ {\# \Gamma_{24}} $ does not seem to be entirely trivial.&#8221;</p>
+<p>
+Hence, it is fair to assume that by 1940 Ernst Witt had discovered at least 11 of the 24 Niemeier lattices. Whether the Leech lattice was indeed lattice 11 on the list is anybody&#8217;s guess.</p>
+<p>
+Next time we will look more closely into the historical context of Witt&#8217;s 1941 paper.</p>
+<p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/who-discovered-the-leech-lattice/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Klein’s dessins d’enfant and the buckyball</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/kleins-dessins-denfant-and-the-buckyball/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/kleins-dessins-denfant-and-the-buckyball/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 30 Jun 2008 06:37:20 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=434</guid>
+
+					<description><![CDATA[We saw that the icosahedron can be constructed from the alternating group $A_5 $ by considering the elements of a conjugacy class of order 5&#8230;]]></description>
+										<content:encoded><![CDATA[<p>We saw that the icosahedron can be <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-buckyball-symmetries.html">constructed</a> from the alternating group $A_5 $ by considering the elements of a conjugacy class of order 5 elements as the vertices and edges between two vertices if their product is still in the conjugacy class.</p>
+<p>This description is so nice that one would like to have a similar construction for the <a href="http://en.wikipedia.org/wiki/Fullerene">buckyball</a>. But, the buckyball has 60 vertices, so they surely cannot correspond to the elements of a conjugacy class of $A_5 $. But, perhaps there is a larger group, somewhat naturally containing $A_5 $, having a conjugacy class of 60 elements?</p>
+<p>This is precisely the statement contained in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">Galois&#8217; last letter</a>. He showed that 11 is the largest prime p such that the group $L_2(p)=PSL_2(\mathbb{F}_p) $ has a (transitive) permutation presentation on p elements. For, p=11 the group $L_2(11) $ is of order 660, so it permuting 11 elements means that this set must be of the form $X=L_2(11)/A $ with $A \subset L_2(11) $ a subgroup of 60 elements&#8230; and it turns out that $A \simeq A_5 $&#8230;</p>
+<p>Actually there are TWO conjugacy classes of subgroups isomorphic to $A_5 $ in $L_2(11) $ and we have already <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">seen</a> one description of these using the <strong>biplane geometry</strong> (one class is the stabilizer subgroup of a &#8216;line&#8217;, the other the stabilizer subgroup of a point).</p>
+<p>Here, we will give yet another description of these two classes of $A_5 $ in $L_2(11) $, showing among other things that the theory of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/recycled-dessins.html">dessins d&#8217;enfant</a> predates <a href="http://en.wikipedia.org/wiki/Alexander_Grothendieck">Grothendieck</a> by 100 years.</p>
+<p>In the very same paper containing the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/dedekind-or-klein.html">first depiction</a> of the Dedekind tessellation, Klein found that there should be a degree 11 cover $\mathbb{P}^1_{\mathbb{C}} \rightarrow \mathbb{P}^1_{\mathbb{C}} $ with monodromy group $L_2(11) $, ramified only in the three points $&#123; 0,1,\infty &#125; $ such that there is just one point lying over $\infty $, seven over 1 of which four points where two sheets come together and finally 5 points lying over 0 of which three where three sheets come together. In 1879 he wanted to determine this cover explicitly in the paper &#8220;Ueber die Transformationen elfter Ordnung der elliptischen Funktionen&#8221; (Math. Annalen) by describing all Riemann surfaces with this ramification data and pick out those with the correct monodromy group.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleindessins2.jpg"><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleindessins3.jpg"><br />
+</center></p>
+<p>He manages to do so by associating to all these covers their &#8216;dessins d&#8217;enfants&#8217; (which he calls <strong>Linienzuges</strong>), that is the pre-image of the interval [0,1] in which he marks the preimages of 0 by a bullet and those of 1 by a +, such as in the innermost darker graph on the right above. He even has these two wonderful pictures explaining how the dessin determines how the 11 sheets fit together. (More examples of dessins and the correspondences of sheets were drawn in the 1878 paper.)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleindessins.jpg" style="float:left;margin-right:10px;" > The ramification data translates to the following statements about the Linienzuge : (a) it must be a tree ($\infty $ has one preimage), (b) there are exactly 11 (half)edges (the degree of the cover),<br />
+(c) there are 7 +-vertices and 5 o-vertices (preimages of 0 and 1) and (d) there are 3 trivalent o-vertices and 4 bivalent +-vertices (the sheet-information).</p>
+<p>Klein finds that there are exactly 10 such dessins and lists them in his Fig. 2 (left). Then, he claims that one the two dessins of type I give the correct monodromy group. Recall that the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/permutation-representations-of-monodromy-groups.html">monodromy group</a> is found by giving each of the half-edges a number from 1 to 11 and looking at the permutation $\tau $ of order two pairing the half-edges adjacent to a +-vertex and the order three permutation $\sigma $ listing the half-edges by cycling counter-clockwise around a o-vertex. The monodromy group is the group generated by these two elements.</p>
+<p>Fpr example, if we label the type V-dessin by the numbers of the white regions bordering the half-edges (as in the picture Fig. 3 on the right above) we get<br />
+$\sigma = (7,10,9)(5,11,6)(1,4,2) $ and $\tau=(8,9)(7,11)(1,5)(3,4) $.</p>
+<p>Nowadays, it is a matter of a few seconds to determine the monodromy group using <a href="http://www-gap.mcs.st-and.ac.uk/">GAP</a> and we verify that this group is $A_{11} $.</p>
+<p>Of course, Klein didn&#8217;t have GAP at his disposal, so he had to rule out all these cases by hand.</p>
+<blockquote><p>gap> g:=Group((7,10,9)(5,11,6)(1,4,2),(8,9)(7,11)(1,5)(3,4));<br />
+Group([ (1,4,2)(5,11,6)(7,10,9), (1,5)(3,4)(7,11)(8,9) ])<br />
+gap> Size(g);<br />
+19958400<br />
+gap> IsSimpleGroup(g);<br />
+true</p></blockquote>
+<p>Klein used the fact that $L_2(11) $ only has elements of orders 1,2,3,5,6 and 11. So, in each of the remaining cases he had to find an element of a different order. For example, in type V he verified that the element $\tau.(\sigma.\tau)^3 $ is equal to the permutation (1,8)(2,10,11,9,6,4,5)(3,7) and consequently is of order 14.</p>
+<p>Perhaps Klein knew this but GAP tells us that the monodromy group of all the remaining 8 cases is isomorphic to the alternating group $A_{11} $ and in the two type I cases is indeed $L_2(11) $. Anyway, the two dessins of type I correspond to the two conjugacy classes of subgroups $A_5 $ in the group $L_2(11) $.</p>
+<p>But, back to the buckyball! The upshot of all this is that we have the group $L_2(11) $ containing two classes of subgroups isomorphic to $A_5 $ and the larger group $L_2(11) $ does indeed have two conjugacy classes of order 11 elements containing exactly 60 elements (compare this to the two conjugacy classes of order 5 elements in $A_5 $ in the icosahedral construction). Can we construct the buckyball out of such a conjugacy class?</p>
+<p>To start, we can identify the 12 pentagons of the buckyball from a conjugacy class C of order 11 elements. If $x \in C $, then so do $x^3,x^4,x^5 $ and $x^9 $, whereas the powers $&#123; x^2,x^6,x^7,x^8,x^{10} &#125; $ belong to the other conjugacy class. Hence, we can divide our 60 elements in 12 subsets of 5 elements and taking an element x in each of these, the vertices of a pentagon correspond (in order) to $~(x,x^3,x^9,x^5,x^4) $.</p>
+<p>Group-theoretically this follows from the fact that the factorgroup of the normalizer of x modulo the centralizer of x is cyclic of order 5 and this group acts naturally on the conjugacy class of x with orbits of size 5.</p>
+<p>Finding out how these pentagons fit together using hexagons is a lot subtler&#8230; and in <a href="http://www.ams.org/notices/199509/kostant.pdf">The graph of the truncated icosahedron and the last letter of Galois</a> Bertram Kostant shows how to do this.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/buckyconstruction.jpg" ><br />
+</center></p>
+<p>Fix a subgroup isomorphic to $A_5 $ and let D be the set of all its order 2 elements (recall that they form a full conjugacy class in this $A_5 $ and that there are precisely 15 of them). Now, the startling observation made by Kostant is that for our order 11 element $x $ in C there is a <strong>unique</strong> element $a \in D $ such that the commutator$~b=[x,a]=x^{-1}a^{-1}xa $ belongs again to D. The unique hexagonal side having vertex x connects it to the element $b.x $which belongs again to C as $b.x=(ax)^{-1}.x.(ax) $.</p>
+<p>Concluding, if C is a conjugacy class of order 11 elements in $L_2(11) $, then its 60 elements can be viewed as corresponding to the vertices of the buckyball. Any element $x \in C $ is connected by two pentagonal sides to the elements $x^{3} $ and $x^4 $ and one hexagonal side connecting it to $\tau x = b.x $.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/kleins-dessins-denfant-and-the-buckyball/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Arnold’s trinities</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 17 Jun 2008 17:17:34 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=430</guid>
+
+					<description><![CDATA[Referring to the triple of exceptional Galois groups $L_2(5),L_2(7),L_2(11) $ and its connection to the Platonic solids I wrote : &#8220;It sure seems that surprises&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="http://www.fields.utoronto.ca/programs/scientific/96-97/arnold/arnold.jpg" hspace=10 style="float:left;margin-right:10px;" >Referring to the triple of exceptional Galois groups $L_2(5),L_2(7),L_2(11) $ and its connection to the Platonic solids I <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">wrote</a> : &#8220;It sure seems that surprises often come in triples…&#8221;. Briefly I considered replacing triples by trinities, but then, I didnt want to sound too mystic&#8230;</p>
+<p>David Corfield of the <a href="http://golem.ph.utexas.edu/category/2008/06/the_mathematical_sublime.html">n-category cafe</a> and <a href="http://dialinf.wordpress.com/2008/06/11/the-sublime/">a dialogue on infinity</a> (and perhaps other blogs I&#8217;m unaware of) pointed me to the paper <a href="http://www.pdmi.ras.ru/~arnsem/Arnold/arnlect2.ps.gz">Symplectization, complexification and mathematical trinities</a> by <a href="http://en.wikipedia.org/wiki/Vladimir_Arnold">Vladimir I. Arnold</a>. (Update : <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/ArnoldTrinities.pdf">here</a> is a PDF-conversion of the paper)</p>
+<p>The paper is a write-up of the second in a series of three lectures Arnold gave in june 1997 at the meeting in the <a href="http://www.fields.utoronto.ca/">Fields Institute</a> dedicated to his 60th birthday. The goal of that lecture was to explain some mathematical dreams he had.</p>
+<blockquote><p>The next dream I want to present is an even more fantastic set of theorems and conjectures. Here I also have no theory and actually the ideas form a kind of religion rather than mathematics.<br />
+The key observation is that in mathematics one encounters many trinities. I shall present a list of examples. The main dream (or conjecture) is that all these trinities are united by some rectangular &#8220;commutative diagrams&#8221;.<br />
+I mean the existence of some &#8220;functorial&#8221; constructions connecting different trinities. The knowledge of the existence of these diagrams provides some new conjectures which might turn to be true theorems.
+</p></blockquote>
+<p>Follows a list of 12 trinities, many taken from Arnold&#8217;s field of expertise being differential geometry. I&#8217;ll restrict to the more algebraically inclined ones.</p>
+<p><strong>1 :</strong> &#8220;The first trinity everyone knows is&#8221;</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity3.jpg"></p>
+<p>where $\mathbb{H} $ are the Hamiltonian <a href="http://en.wikipedia.org/wiki/Quaternion">quaternions</a>. The trinity on the left may be natural to differential geometers who see real and complex and hyper-Kaehler manifolds as distinct but related beasts, but I&#8217;m willing to bet that most algebraists would settle for the trinity on the right where $\mathbb{O} $ are the <a href="http://en.wikipedia.org/wiki/Octonion">octonions</a>.</p>
+<p><strong>2 :</strong> The next trinity is that of the exceptional Lie algebras <a href="http://en.wikipedia.org/wiki/E6_(mathematics)">E6</a>, <a href="http://en.wikipedia.org/wiki/E7_(mathematics)">E7</a> and <a href="http://en.wikipedia.org/wiki/E8_(mathematics)">E8</a>.</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity4.jpg"></p>
+<p>with corresponding Dynkin-Coxeter diagrams</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/dynkins.jpg"></p>
+<p>Arnold has this to say about the apparent ubiquity of Dynkin diagrams in mathematics.</p>
+<blockquote><p>Manin told me once that the reason why we always encounter this list in many different mathematical classifications is its presence in the hardware of our brain (which is thus unable to discover a more complicated scheme). <br />
+I still hope there exists a better reason that once should be discovered.</p></blockquote>
+<p>Amen to that. I&#8217;m quite hopeful human evolution will overcome the limitations of Manin&#8217;s brain&#8230;</p>
+<p><strong>3 :</strong> Next comes the Platonic trinity of the <a href="http://en.wikipedia.org/wiki/Tetrahedron">tetrahedron</a>, <a href="http://en.wikipedia.org/wiki/Cube">cube</a> and <a href="http://en.wikipedia.org/wiki/Dodecahedron">dodecahedron</a></p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity5.jpg"></p>
+<p><center><br />
+<img decoding="async" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tetrahedron.svg/240px-Tetrahedron.svg.png" width=200> <img decoding="async" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Hexahedron.svg/240px-Hexahedron.svg.png" width=200><img decoding="async" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/66/POV-Ray-Dodecahedron.svg/240px-POV-Ray-Dodecahedron.svg.png" width=200><br />
+</center></p>
+<p>Clearly one can argue against this trinity as follows : a tetrahedron is a bunch of triangles such that there are exactly 3 of them meeting in each vertex, a cube is a bunch of squares, again 3 meeting in every vertex, a dodecahedron is a bunch of pentagons 3 meeting in every vertex&#8230; and we can continue the pattern. What should be a bunch a hexagons such that in each vertex exactly 3 of them meet? Well, only one possibility : it must be the <a href="http://en.wikipedia.org/wiki/Hexagonal_tiling">hexagonal tiling</a> (on the left below). And in normal Euclidian space we cannot have a bunch of septagons such that three of them meet in every vertex, but in hyperbolic geometry this is still possible and leads to the <a href="http://math.ucr.edu/home/baez/klein.html">Klein quartic</a> (on the right). Check out this wonderful post by John Baez for more on this.</p>
+<p><center><br />
+<img decoding="async" src="http://math.ucr.edu/home/baez/KleinDualInsideOut.gif" width=300><br />
+</center></p>
+<p><strong>4 :</strong> The trinity of the rotation symmetry groups of the three Platonics</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity6.jpg"></p>
+<p>where $A_n $ is the <a href="http://en.wikipedia.org/wiki/Alternating_group">alternating group</a> on n letters and $S_n $ is the <a href="http://en.wikipedia.org/wiki/Symmetric_group">symmetric group</a>.</p>
+<p>Clearly, any rotation of a Platonic solid takes vertices to vertices, edges to edges and faces to faces. For the tetrahedron we can easily see the 4 of the group $A_4 $, say the 4 vertices. But what is the 4 of $S_4 $ in the case of a cube? Well, a cube has 4 body-diagonals and they are permuted under the rotational symmetries. The most difficult case is to see the $5 $ of $A_5 $ in the dodecahedron. Well, here&#8217;s the solution to this riddle</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cubedode.jpg"><br />
+</center></p>
+<p>there are exactly 5 inscribed cubes in a dodecahedron and they are permuted by the rotations in the same way as $A_5 $.</p>
+<p><strong>7 :</strong> The seventh trinity involves complex polynomials in one variable</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity7.jpg"></p>
+<p>the Laurant polynomials and the <strong>modular polynomials</strong> (that is, rational functions with three poles at 0,1 and $\infty $.</p>
+<p><strong>8 :</strong> The eight one is another beauty</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity8.jpg"></p>
+<p>Here &#8216;numbers&#8217; are the ordinary complex numbers $\mathbb{C} $, the &#8216;trigonometric numbers&#8217; are the quantum version of those (aka q-numbers) which is a one-parameter deformation and finally, the &#8216;elliptic numbers&#8217; are a two-dimensional deformation. If you ever encountered a Sklyanin algebra this will sound familiar.</p>
+<p>This trinity is based on a paper of Turaev and Frenkel and I must come back to it some time&#8230;</p>
+<p>The paper has some other nice trinities (such as those among Whitney, Chern and Pontryagin classes) but as I cannot add anything sensible to it, let us include a few more algebraic trinities. The first one attributed by Arnold to <a href="http://en.wikipedia.org/wiki/John_McKay_(mathematics)">John McKay</a></p>
+<p><strong>13 :</strong> A trinity parallel to the exceptional Lie algebra one is</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity9.jpg"></p>
+<p>between the 27 straight lines on a cubic surface, the 28 bitangents on a quartic plane curve and the 120 tritangent planes of a canonic sextic curve of genus 4.</p>
+<p><strong>14 :</strong> The exceptional Galois groups</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity10.jpg"></p>
+<p>explained <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">last time</a>.</p>
+<p><strong>15 :</strong> The associated curves with these groups as symmetry groups (as in the previous post)</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity11.jpg"></p>
+<p>where the ? refers to the mysterious genus 70 curve. I&#8217;ll check with one of the authors whether there is still an embargo on the content of this paper and if not come back to it in full detail.</p>
+<p><strong>16 :</strong> The three generations of <a href="http://en.wikipedia.org/wiki/Sporadic_group">sporadic groups</a></p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity12.jpg"></p>
+<p><strong>Do you have other trinities you&#8217;d like to worship?</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hexagonal Moonshine (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 13 Jul 2007 10:24:36 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=24</guid>
+
+					<description><![CDATA[Hexagons keep on popping up in the representation theory of the modular group and its close associates. We have seen before that singularities in 2-dimensional&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Hexagons keep on popping up in the representation theory of the modular group and its close associates. We have seen <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=15">before</a> that singularities in 2-dimensional representation varieties of the three string braid group $B_3 $ are &#8216;clanned together&#8217; in hexagons and <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=22">last time</a> Ive mentioned (in passing) that the representation theory of the modular group is controlled by the double quiver of the extended Dynkin diagram $\tilde{A_5} $, which is an hexagon&#8230;</p>
+<p>Today we&#8217;re off to find representations of the extended modular group $\tilde{\Gamma} = PGL_2(\mathbb{Z}) $, which is obtained by adding to the modular group (see <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=23">this post</a> for a proof of generation)</p>
+<p>$\Gamma = \langle U=\begin{bmatrix} 0 &amp; -1 \\\ 1 &amp; 0 \end{bmatrix},V=\begin{bmatrix} 0 &amp; 1 \\\ -1 &amp; 1 \end{bmatrix} \rangle $ the matrix $R=\begin{bmatrix} 0 &amp; 1 \\\ 1 &amp; 0 \end{bmatrix} $</p>
+<p>In terms of generators and relations, one easily verfifies that</p>
+<p>$\tilde{\Gamma} = \langle~U,V,R~|~U^2=R^2=V^3=(RU)^2=(RV)^2=1~\rangle $</p>
+<p>and therefore $\tilde{\Gamma} $ is the <a href="http://unapologetic.wordpress.com/2007/03/03/amalgamated-free-products/">amalgamated free product</a> of the <a href="http://en.wikipedia.org/wiki/Dihedral_group">dihedral groups</a> $D_2 $ and $D_3 $ over their common subgroup $C_2 = \langle~R~\rangle $, that is</p>
+<p>$\tilde{\Gamma} = \langle U,R | U^2=R^2=(RU)^2=1 \rangle \ast_{\langle R | R^2=1 \rangle} \langle V,R | V^3=R^2=(RV)^2=1 \rangle = D_2 \ast_{C_2} D_3 $</p>
+<p>From this description it is easy to find all n-dimensional $\tilde{\Gamma} $-representations $V $ and relate them to quiver-representations. $D_2 = C_2 \times C_2 $ and hence has 4 1-dimensonal simples $S_1,S_2,S_3,S_4 $. Restricting $V\downarrow_{D_2} $ to the subgroup $D_2 $ it decomposes as</p>
+<p>$V \downarrow_{D_2} \simeq S_1^{\oplus a_1} \oplus S_2^{\oplus a_2} \oplus S_3^{\oplus a_3} \oplus S_4^{\oplus a_4} $ with $a_1+a_2+a_3+a_4=n $</p>
+<p>Similarly, because $D_3=S_3 $ has two one-dimensional representations $T,S $ (the trivial and the sign representation) and one simple 2-dimensional representation $W $, restricting $V $ to this subgroup gives a decomposition</p>
+<p>$V \downarrow_{D_3} \simeq T^{b_1} \oplus S^{\oplus b_2} \oplus W^{\oplus b_3} $, this time with $b_1+b_2+2b_3=n $</p>
+<p>Restricting both decompositions further down to the common subgroup $C_2 $ one obtains a $C_2 $-isomorphism $V \downarrow_{D_2} \rightarrow^{\phi} V \downarrow_{D_3} $ which implies also that the above numbers must be chosen such that $a_1+a_3=b_1+b_3 $ and $a_2+a_4=b_2+b_3 $. We can summarize all this info about $V $ in a representation of the quiver</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quivertilde.gif" style="float:left;margin-right:10px;"> Here, the vertex spaces on the left are the iso-typical factors of $V \downarrow_{D_2} $ and those on the right those of $V \downarrow_{D_3} $ and the arrows give the block-components of the $C_2 $-isomorphism $\phi $. The nice things is that one can also reverse this process to get all $\tilde{\Gamma} $-representations from $\theta $-semistable representations of this quiver (having the additional condition that the square matrix made of the arrows is invertible) and isomorphisms of group-representation correspond to those of quiver-representations!</p>
+<p>This proves that for all n the varieties of n-dimensional representations $\mathbf{rep}_n~\tilde{\Gamma} $ are smooth (but have several components corresponding to the different dimension vectors $~(a_1,a_2,a_3,a_4;b_1,b_2,b_3) $ such that $\sum a_i = n = b_1+b_2+2b_3 $.</p>
+<p>The basic principle of _M-geometry_ is that a lot of the representation theory follows from the &#8216;clan&#8217; (see <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=15">this post</a>) determined by the simples of smallest dimensions. In the case of the extended modular group $\tilde{\Gamma} $ it follows that there are exactly 4 one-dimensional simples and exactly 4 2-dimensional simples, corresponding to the dimension vectors</p>
+<p>$\begin{cases} a=(0,0,0,1;0,1,0) \\\ b=(0,1,0,0;0,1,0) \\\ c=(1,0,0,0;1,0,0) \\\ d=(0,0,1,0;1,0,0) \end{cases} $ resp. $\begin{cases} e=(0,1,1,0;0,0,1) \\\ f=(1,0,0,1;0,0,1) \\\ g=(0,0,1,1;0,0,1) \\\ h=(1,1,0,0;0,0,1) \end{cases} $</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/onequivertilde.gif" style="float:left;margin-right:10px;"> If one calculates the &#8216;clan&#8217; of these 8 simples one obtains the double quiver of the graph on the left. Note that a and b appear twice, so one should glue the left and right hand sides together as a Moebius-strip. That is, the clan determining the representation theory of the extended modular group is a Moebius strip made of two hexagons!</p>
+<p>However, one should not focuss too much on the hexagons (that is, the extended Dynkin diagram $\tilde{A_5} $) here. The two &#8216;backbones&#8217; (e&#8211;f and g&#8211;h) have their vertices corresponding to 2-dimensional simples whereas the topand bottom vertices correspond to one-dimensional simples. Hence, the correct way to look at this clan is as two copies of the double quiver of the extended Dynkin diagram $\tilde{D_5} $ glued over their leaf vertices to form a Moebius strip. Remark that the components of the sotropic root of $\tilde{D_5} $ give the dimensions of the corresponding $\tilde{\Gamma} $ simples.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/doubleD5.gif" align=center></p>
+<p>The remarkable ubiquity of (extended) Dynkins never ceases to amaze!</p>
+<p><span id="more-24"></span></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hexagonal Moonshine (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 11 Jul 2007 11:37:09 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=22</guid>
+
+					<description><![CDATA[Delving into finite dimensional representations of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ it is perhaps not too surprising to discover numerical connections with modular&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Delving into finite dimensional representations of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ it is perhaps not too surprising to discover numerical connections with modular functions. Here, one such strange observation and a possible explanation.</p>
+<p>Using the _fact_ that the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is the free group product $C_2 \ast C_3 $ it is fairly easy to see that the variety of all n-dimensional representations $\mathbf{rep}_n~\Gamma $ is smooth (though it contains several connected components). Some of these components will contain simple representations, some will not. Anyway, we are not interested in all n-dimensional representations but in the <strong>isomorphism classes</strong> of such representations. The best algebraic approximation to this problem is by studying the quotient varieties</p>
+<p>$\mathbf{iss}_n~\Gamma = \mathbf{rep}_n~\Gamma // GL(n) $</p>
+<p>under the action of $GL(n) $ by basechange. Geometric invariant theory tells us that the points of this quotient variety correspond to isoclasses of <strong>semi-simple</strong> n-dimensional representations (whence the notation $\mathbf{iss}_n $). Again, these quotient varieties split into several connected components, some of which will have an open subset of points corresponding to <strong>simple</strong> representations.</p>
+<p>It is a natural idea to compute the <strong>codimension</strong> of subvariety of proper semi-simples in the component of maximal dimension containing simple representations. _M-geometry_ allows you to reduce such calculation to quiver-problems. Anyway, if one does this for small values of n one obtains the following sequence of codimension-numbers (starting with $n=1 $</p>
+<p>0,1,1,1,1,3,1,3,3,3,3,5,3,5,5,5,5,7,5,7,&#8230;</p>
+<p>which doesnt seem too exciting before you feed it to <a href="http://www.research.att.com/~njas/sequences/">Sloan&#8217;s integer sequences encyclopedia</a> when one discovers that it is precisely sequence <a href="http://www.research.att.com/~njas/sequences/A063195">A063195</a> which gives the dimensions of weight 2n _cuspidal newforms_<br />
+ for $\Gamma_0(6) $&#8230;</p>
+<p>The optimistic &#8220;moonshine&#8221;-interpretation of this might be that these newforms can be viewed somehow as functions on the varieties of finite dimensional $\Gamma $-representations having the property that they pick out generic simple representations as their non-zeroes.</p>
+<p>Be that as it may (one never knows in these matters), here a more down-to-earth explanation. The sequence <a href="http://www.research.att.com/~njas/sequences/A063195">A063195</a> obviously has a 6-periodicity behaviour so it suffices to understand why the codimension-sequence should have a similar feature (modulo computing the first few terms of it and observing the coincidence with the first few terms of A063195).</p>
+<p>The modular group has exactly 6 one-dimensional representations and if one calculates their clan as in <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=15">hexagonal moonshine (1)</a> one obtains the hexagonal quiver</p>
+<p>[tex]\xymatrix{&amp; \vtx{S_1}  \ar@/^/[dl] \ar@/^/[dr] &amp; \\ \vtx{S_6}  \ar@/^/[ur] \ar@/^/[d] &amp; &amp; \vtx{S_2}  \ar@/^/[ul] \ar@/^/[d] \\  \vtx{S_5}  \ar@/^/[u] \ar@/^/[dr] &amp; &amp; \vtx{S_3}  \ar@/^/[u] \ar@/^/[dl] \\ &amp; \vtx{S_4}  \ar@/^/[ur] \ar@/^/[ul] &amp; }[/tex]</p>
+<p>M-geometry tells us that this clan contains enough information to determine the components of $\mathbf{rep}_n~\Gamma $ that contain simple representations. They correspond to dimension-vectors of this hexagonal quiver, say</p>
+<p>$~(a_1,a_2,a_3,a_4,a_5,a_6) $</p>
+<p>such that $a_i \leq a_{i-1}+a_{i+1} $. Moreover, the component is of maximal dimension if the components $a_i $ are evenly spread over the six vertices.<br />
+This then explains that the codimension sequence we are interested in must satisfy 6-periodicity.</p>
+<p><strong>Reference</strong></p>
+<p>This post corrects the erroneous statement made in <a href="http://www.arxiv.org/abs/math/0610587">math.AG/0610587</a> that the codimension sequence are the dimensions of weight 2n modular forms. The day the paper hit the arXiv I informed the author of the mistakes he made and told him how they could be corrected. Having waited 9 months I&#8217;ve given up hope that a revision/correction is imminent.</p>
+<p><span id="more-22"></span></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hexagonal Moonshine (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 18 Jun 2007 17:15:37 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=15</guid>
+
+					<description><![CDATA[Over at the Arcadian Functor, Kea is continuing her series of blog posts on M-theory (the M is supposed to mean either Monad or Motif).&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Over at the <a href="http://kea-monad.blogspot.com/index.html">Arcadian Functor</a>, Kea is continuing her series of blog posts on M-theory (the M is supposed to mean either Monad or Motif). A recurrent motif in them is the <a href="http://en.wikipedia.org/wiki/Hexagon">hexagon</a> and now I notice hexagons popping up everywhere. I will explain some of these observations here in detail, hoping that someone, more in tune with recent technology, may have a use for them.</p>
+<p>The three string <a href="http://en.wikipedia.org/wiki/Braid_group">braid group</a> $B_3 $ is expected to play a crucial role in understanding <a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a> so we should know more about it, for example about its finite dimensional representations. Now, _M geometry_ is pretty good at classifying finite dimensional representations provided the algebra is &#8220;smooth&#8221; which imples that for every natural number n the variety $\mathbf{rep}_n~A $ of n-dimensional representations of A is a manifold. Unfortunately, the group algebra $A=\mathbb{C} B_3 $ of the three string braid group is singular as we will see in a moment and the hunt for singularities in low dimensional representation varieties will reveal hexagons.</p>
+<p><span id="more-15"></span></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/emilartin.jpg" style="float:left;margin-right:10px;" hspace=20 /> <a href="http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Artin.html">Emil Artin&#8217;s</a> three string braid group has two generators $\sigma_1 $ and $\sigma_2 $ (corresponding to one crossing of the first (resp. last) two strings) and one defining equation</p>
+<p>$\sigma_1 \sigma_2 \sigma_1 = \sigma_2 \sigma_1 \sigma_2 $</p>
+<p>To make the connection with the modular group, it is better to change the generators to $u = \sigma_1 \sigma_2 \sigma_1 $ and $v = \sigma_1 \sigma_2 $ in which case the defining equation becomes $u^2 = v^3 $. Therefore, the variety of all n-dimensional representations of $B_3 $ consists of all pairs of invertible n by n matrices</p>
+<p>$~(A,B) \in GL_n(\mathbb{C}) \times GL_n(\mathbb{C})~:~A^2 = B^3 $</p>
+<p>which is pretty horrible to work out except for small values of n. For example, when n=1 we get the plane cusp curve $a^2=b^3 $ and while this curve has a unique singular point at (0,0), this point does not correspond to a one-dimensional representation of $B_3 $. Hence, $\mathbf{rep}_1~B_3 $ is the Riemann sphere minus two points $&#123; 0,\infty &#125; $ and is therefore a manifold. In M-geometry we are not just interested in these representations as points but also in the different ways in which these points can &#8216;talk to each other&#8217;, or more technical, whether these representations can have non-trivial extensions. Recall that an <strong>extension</strong> of a representation S by a representation S&#8217; is a representation M having S&#8217; as a subrepresentation with quotient-representation S, the trivial extension is the one corresponding to the obvious choice of taking the direct sum of both representations.</p>
+<p>Let us work out these extensions for $S=(a,b) $ and $S&#8217;=(a&#8217;,b&#8217;) $ both one-dimensional representations of $B_3 $. An extension of S by S&#8217; must be two-dimensional and is represented by 2&#215;2 matrices of the form</p>
+<p>$A = \begin{bmatrix} a &amp; \alpha \\\ 0 &amp; a&#8217; \end{bmatrix}~\quad \text{and} \quad~B=\begin{bmatrix} b &amp; \beta \\\ 0 &amp; b&#8217; \end{bmatrix} $</p>
+<p>with $\alpha,\beta \in \mathbb{C} $. Working out the condition that $A^2=B^3 $ leads to the set of equation (using the fact that $a^2=b^3 $ and $~(a&#8217;)^2=(b&#8217;)^3 $</p>
+<p>$ \alpha (a + a&#8217;) =  \beta (b^2+bb&#8217;+(b&#8217;)^2) $</p>
+<p>This leads to one linear relation between $\alpha $ and $\beta $ unless both coefficients are zero. Further, we have to determine when an extension determined by $~(\alpha,\beta) $ is trivial, that is, isomorphic to $S \oplus S&#8217; $. This translates into matrix-terms to the condition whether $~(A,B) = (L_{\lambda}A_0L_{\lambda}^{-1},L_{\lambda}B_0L_{\lambda}^{-1}) $ for the matrices</p>
+<p>$A_0 = \begin{bmatrix} a &amp; 0 \\\ 0 &amp; a&#8217; \end{bmatrix},~\quad B=\begin{bmatrix} b &amp; 0 \\\ 0 &amp; b&#8217; \end{bmatrix}~\quad \text{and} \quad L_{\lambda} = \begin{bmatrix} 1 &amp; \lambda \\\ 0 &amp; 1 \end{bmatrix} $</p>
+<p>for some $\lambda \in \mathbb{C} $. This leads to the additional equations $\alpha = \lambda(a&#8217;-a) $ and $\beta = \lambda(b&#8217;-b) $.</p>
+<p>Summarizing we have that there are NO extensions of S by S&#8217; unless either S=S&#8217; (in which case the isomorphism condition gives no extra condition and hence there is a one-dimensional family of self-extensions of S by itself for every S) or $S \not= S&#8217; $ and the two coefficients of the linear relation between $\alpha $ and $\beta $ are both zero (in which case there is again a one-dimensional family of extensions of S by S&#8217;). The condition on S and S&#8217; for both coefficients to vanish is that</p>
+<p>$a&#8217;=-a $ and either $b&#8217;=\zeta b $ or $b&#8217; = \zeta^2 b $</p>
+<p>for $\zeta $ a third root of unity. Therefore, each one-dimensional $B_3 $-representation $S_1=(a,b) $ (a point on the Riemann sphere minus $0,\infty $) belongs to a unique clan of six one-dimensional representations, having as the other members the representations</p>
+<p>$S_2 = (-a,\zeta b),~S_3=(a,\zeta^2 b),~S_4=(-a,b),~S_5=(a,\zeta b),~S_6=(-a,\zeta^2 b) $</p>
+<p>Different clans don&#8217;t talk to each other and within a clan the lines of communication (the spaces of extensions) can be depicted by the following hexagonal quiver</p>
+<p>[tex]\xymatrix{&amp; \vtx{S_1} \ar@(ul,ur) \ar@/^/[dl] \ar@/^/[dr] &amp; \\\ \vtx{S_6} \ar@(dl,ul) \ar@/^/[ur] \ar@/^/[d] &amp; &amp; \vtx{S_2} \ar@(ur,dr) \ar@/^/[ul] \ar@/^/[d] \\\  \vtx{S_5} \ar@(dl,ul) \ar@/^/[u] \ar@/^/[dr] &amp; &amp; \vtx{S_3} \ar@(ur,dr) \ar@/^/[u] \ar@/^/[dl] \\\ &amp; \vtx{S_4} \ar@(dr,dl) \ar@/^/[ur] \ar@/^/[ul] &amp; }[/tex]</p>
+<p>Having fully analyzed the one-dimensional situation, let&#8217;s turn to $\mathbf{rep}_2~B_3 $ and see that it has singularities and hence that $B_3 $ is not smooth in M-geometry. The three string braid group has a 2-parameter family of simple 2-dimensional representation, whence the component of the representation variety $\mathbf{rep}_2~B_3 $ containing the simples is 5-dimensional. Hence, if this component would be a manifold, the tangent space in every point should be of dimension 5. If M is a semi-simple n-dimensional representation, then the tangent space in M to $\mathbf{rep}_n~B_3 $ is known to be of dimension $n^2 &#8211; dim~Aut(M) + dim~Ext(M,M) $ where $Ext(M,M) $ is the space of self-extensions and $Aut(M) $ is the automorphism group of M.</p>
+<p>Apply this to a semi-simple 2-dimenional representation $M=S \oplus S&#8217; $ where S and S&#8217; determine an edge of an hexagon in a clan. Then,</p>
+<p>$Ext(M,M) = Ext(S,S) \oplus Ext(S,S&#8217;) \oplus Ext(S&#8217;,S) \oplus Ext(S&#8217;,S&#8217;) $</p>
+<p>which by the above calculations is a 4-dimensional space. Further, S being non-isomorphic to S&#8217; it follows from Schur&#8217;s lemma that the automorphism group of M is two-dimensional, totting up to a 6-dimensional tangent space&#8230; so M must be a singularity!</p>
+<p>In fact, one can show that the points in the irreducible component of two-dimensional $B_3 $ representations containing the simples are singular if and only if the representation is semi-simple $M = S \oplus S&#8217; $ with the components either <strong>a vertex of a hexagon (that is S=S&#8217;) or an edge of an hexagon</strong>. In this way, the strange hexagonal clans of one-dimensional braid-representations are the source of singularities for $B_3 $.</p>
+<p>In _another post_ we will see that the hexagonal pattern also pops up in studying representations of the modular group $PSL_2(\mathbb{Z}) $ and the extended modular group $PGL_2(\mathbb{Z}) $. The latter case is pretty interesting as we will encounter a Moebius band made of two hexagons&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>football representation theory</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/football-representation-theory/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/football-representation-theory/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 09 Jun 2006 08:44:07 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=304</guid>
+
+					<description><![CDATA[Unless you never touched a football in your life (that&#8217;s a _soccer-ball_ for those of you with an edu account) you will know that the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Unless<br />
+you never touched a football in your life (that&#8217;s a _soccer-ball_<br />
+for those of you with an edu account) you will know that the world<br />
+championship in Germany starts tonight. In the wake of it, the field of<br />
+&#8216;football-science&#8217; is booming. The BBC runs its <a href="http://www.bbc.co.uk/science/hottopics/football/ball.shtml">The<br />
+Science of Football-site</a> and did you know the following?</p>
+<blockquote><p> Research indicates that watching such a phenomenon is not<br />
+only exciting, it can be good for our health too. The Scottish<br />
+researchers found that there were 14% fewer psychiatric admissions in<br />
+the weeks after one World Cup than before it started. </p></blockquote>
+<p>But, would you believe that some of the best people in the field<br />
+(Kostant and Sternberg to name a few) have written papers on the<br />
+representation theory of a football? Perhaps this becomes more plausible<br />
+when you realize that a football has the same shape as the <a href="http://www.psyclops.com/bucky.shtml">buckyball</a> aka Carbon60.<br />
+Because the football (or buckyball) is a truncated icosahedron, its<br />
+symmetry group is $A_5$, the smallest of all simple groups and its<br />
+representations explain some physical properties of the buckyball. Some<br />
+of these papers are freely available and are an excellent read. In fact,<br />
+I&#8217;m thinking of using them in my course on representations of finite<br />
+groups, nxt year.    <a href="http://www.cs.ucsd.edu/users/fan/research/papers/mathematic_and_buckyball.pdf">Mathematics and the Buckyball</a> by Fan<br />
+Chung and Schlomo Sternberg is a marvelous introduction to<br />
+representation theory. Among other things they explain how Schur&#8217;s<br />
+lemma, Frobenius reciprocity and Maschke&#8217;s theorem are used to count the<br />
+number of lines in the infra red buckyball spectrum!    <a href="http://www.ams.org/notices/199509/kostant.pdf">The Graph of the<br />
+Truncated Icosahedron and the Last Letter of Galois</a> by Bertram<br />
+Kostant explains the observation, first made by Galois in his last<br />
+letter to Chevalier, that $A_{5} = PSL_2(\mathbb{F}_5)$ embeds into<br />
+$PSL_{2}(\mathbb{F}_{11})$ and applies this to the buckyball.</p>
+<blockquote><p> In effect, the model we are proposing for C60is such that<br />
+each carbon atom can be labeled by an element of order 11 in PSl(2,11)<br />
+in such a fashion that the carbon bonds can be expressed in terms of the<br />
+group structure of PSl(2,11). It  will be seen that the twelve pentagons<br />
+are exactly the intersections of M with the twelve Borel sub- groups of<br />
+PSl(2,11). (A Borel subgroup is any subgroup which is conjugate to the<br />
+group PSl(2,11) defined in (2).) In particular the pentagons are the<br />
+maximal sets of commuting elements in M. The most subtle point is the<br />
+natural existence of the hexagonal bonds. This will arise from a group<br />
+theoretic linkage of any element of order 11 in one Borel subgroup with<br />
+a uniquely defined element of order 11 in another Borel subgroup.
+</p></blockquote>
+<p>   These authors consequently joined forces to write <a href="http://www.math.ucsd.edu/~fan/wp/groupb.pdf">Groups and the<br />
+Buckyball</a> in which they give further applications of the Galois<br />
+embeddings to the electronic spectrum of the buckyball.    Another<br />
+account can be found in the Master Thesis by Joris Mooij called <a href="http://www.math.ru.nl/medewerkers/heckman/Scriptie.pdf">The<br />
+vibrational spectrum of Buckminsterfullerene &#8211; An application of<br />
+symmetry reduction and computer algebra</a>.    Plenty to read should<br />
+tonight&#8217;s match Germany-Costa Rica turn out to be boring&#8230; </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/football-representation-theory/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>dvonn (1) mobility</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/dvonn-1-mobility/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/dvonn-1-mobility/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 07 Jan 2006 10:17:01 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[dvonn]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=309</guid>
+
+					<description><![CDATA[[Dvonn](http://www.gipf.com/dvonn $ is the fourth game in the [Gipf Project](http://www.gipf.com/project_gipf/index.html) and the most mathematical of all six. It is a very fast (but subtle) game&#8230;]]></description>
+										<content:encoded><![CDATA[<p>[Dvonn](http://www.gipf.com/dvonn $ is<br />
+the fourth game in the [Gipf Project](http://www.gipf.com/project_gipf/index.html) and the most<br />
+mathematical of all six. It is a very fast (but subtle) game with a<br />
+simple [set of rules](http://www.gipf.com/dvonn/rules/rules.html). Here<br />
+is a short version  </p>
+<blockquote><p> DVONN is a stacking game. It is played<br />
+on an elongated hexagonal board, with 23 white, 23 black and 3 red<br />
+DVONN-pieces. In the beginning the board is empty. The players first<br />
+place the DVONN-pieces on the board and next their own pieces. Then they<br />
+start stacking pieces on top of each other. A single piece may be moved<br />
+1 space in any direction, a stack of two pieces may be moved two spaces,<br />
+etc. A stack must always be moved as a whole and a move must always end<br />
+on top of another piece or stack. If pieces or stacks lose contact with<br />
+the DVONN pieces, they must be removed from the board. The game ends<br />
+when no more moves can be made. The players put the stacks they control<br />
+on top of each other and the one with the highest stack is the winner.<br />
+That&#8217;s all!  </p></blockquote>
+<p>  All this will become clearer once we fix a<br />
+specific end-game, for example</p>
+<p>$\xymatrix@=.3cm @!C @R=.7cm{ &#038; &#038;<br />
+\Black{2} \connS &#038; &#038; \bull{d}{5} \conn &#038; &#038; \bull{e}{5} \conn &#038; &#038;<br />
+\bull{f}{5} \conn &#038; &#038; \bull{g}{5} \conn  &#038; &#038; \bull{h}{5} \conn &#038; &#038;<br />
+\SWhite \connS &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \conneS &#038; &#038;  \\ &#038;<br />
+\bull{b}{4} \conn &#038; &#038; \SBlack \connS &#038; &#038; \Black{6} \connS &#038; &#038;<br />
+\bull{e}{4} \conn&#038; &#038; \bull{f}{4} \conn &#038; &#038; \bull{g}{4} \conn  &#038; &#038;<br />
+\bull{h}{4} \conn &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \connS &#038; &#038; \SWhite<br />
+\conneS  &#038;  \\ \SBlack \connbeginS &#038; &#038; \SBlack \connS &#038; &#038; \BDvonn{7}<br />
+\connS &#038; &#038; \bull{d}{3} \conn &#038; &#038; \SBlack \connS &#038; &#038; \BDvonn{6} \connS &#038;<br />
+&#038; \bull{g}{3} \conn  &#038; &#038; \bull{h}{3} \conn &#038; &#038; \Dvonn \connS &#038; &#038; \SWhite<br />
+\connS &#038; &#038; \SWhite \connendS  \\ &#038; \Black{5} \connbeginS &#038; &#038;<br />
+\bull{b}{2} \conn &#038; &#038; \SBlack \connS &#038; &#038; \bull{d}{2} \conn &#038; &#038;<br />
+\bull{e}{2} \conn &#038; &#038; \bull{f}{2} \conn &#038; &#038; \bull{g}{2} \conn &#038; &#038;<br />
+\bull{h}{2} \conn &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \connendS &#038; \\ &#038; &#038;<br />
+\bull{a}{1} \con &#038; &#038; \bull{b}{1} \con &#038; &#038; \Black{5} \conS &#038; &#038;<br />
+\bull{d}{1} \con &#038; &#038; \bull{e}{1} \con &#038; &#038; \bull{f}{1} \con &#038; &#038;<br />
+\bull{g}{1} \con &#038; &#038; \bull{h}{1} \con &#038; &#038; \White{2} &#038; &#038;} $</p>
+<p>with<br />
+White to move. Some comments about notation : the left-slanted columns<br />
+are denoted by letters from a (left) to k (right) and the rows are<br />
+labeled 1 to 5 from bottom to top (surprisingly this &#8216;standard&#8217;<br />
+webgame-notation differs from the numbering on my Dvonn-board where the<br />
+rows are labeled from top to bottom&#8230;). So, for example, the three<br />
+spots on the upper right are k3,k4 and k5 (there are no k1 or k2 spots).<br />
+The three Dvonn pieces are colored red and in the course of the game a<br />
+stack may land on a Dvonn piece and so stacks containing a Dvonn piece<br />
+are denoted with a red halo. For example, the symbol on spot f3 stands<br />
+for for a stack of 6 pieces, one of which is a red Dvonn piece, under<br />
+the control of Black (that is, the top-piece is Black).  Further note<br />
+that a piece or stack can only move if it is not surrounded by 6 other<br />
+pieces or stacks (so the White pieces on j3 and j4 cannot (yet) move). A<br />
+piece can only move by one step in either line-direction provided there<br />
+is another piece or stack on that position. The same applies for stacks<br />
+: an height 3 stack for example can move in each lin-direction by<br />
+exactly 3 steps provided there is a piece or stack to jump onto. For<br />
+example, the height 6 stack on d4 can only move to j4 whereas the height<br />
+6 stack on f3 cannot move at all! Similarly, the two black height 5<br />
+stacks are immobile. At the moment black has all its stacks defended,<br />
+that is, if White should be able to jump onto one of them (which White<br />
+cannot at the moment), Black can use one of its neighbouring pieces to<br />
+take the stack back under its control.   So, any computer program would<br />
+&#8216;evaluate&#8217; the position as favourable for Black : Black has stacks of<br />
+total height 34 safely under control (there are no immediate threats to<br />
+be seen : the [horizon effect](http://www.comp.lancs.ac.uk/computing/research/aai-aied/people/paulb/old243prolog/subsection3_7_5.html) in such programs) whereas White<br />
+can only claim  potential stacks of total height 13&#8230;   Still, Black<br />
+has already lost the game. White has more pieces which are quite mobile<br />
+as opposed to the immobile black stacks, so Black will soon run out of<br />
+moves to make and his end position will have some large stacks on the<br />
+third row. All white has to do is to let Black run out of moves and then<br />
+continue (Dvonn forces each player to make a move if they still can and<br />
+to pass the move otherwise, so the most mobile player can still continue<br />
+long after the other player was forced to stop) to build a White stack<br />
+of the appropriate height on the third row to jump on the highest Black<br />
+stack with its last move!  Here is how the play continued :  1) j2-k3 ;<br />
+a3-b3   2) i1-k3 ; c5-c3   3) i2-i3  ; c2-c3   4) i3-k3 ; d4-j4   5)<br />
+j3-j4  ; e3-f3     6) i4-j4  ; c4-b3    to arrive at the position where<br />
+Black is no longer able to make any moves at all</p>
+<p>$\xymatrix@=.3cm<br />
+@!C @R=.7cm{ &#038; &#038; \bull{c}{5} \conn &#038; &#038; \bull{d}{5} \conn &#038; &#038; \bull{e}{5}<br />
+\conn &#038; &#038; \bull{f}{5} \conn &#038; &#038; \bull{g}{5} \conn  &#038; &#038; \bull{h}{5} \conn<br />
+&#038; &#038; \SWhite \connS &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \conneS &#038; &#038;  \\ &#038;<br />
+\bull{b}{4} \conn &#038; &#038; \bull{c}{4} \conn &#038; &#038; \bull{d}{4} \conn &#038; &#038;<br />
+\bull{e}{4} \conn&#038; &#038; \bull{f}{4} \conn &#038; &#038; \bull{g}{4} \conn  &#038; &#038;<br />
+\bull{h}{4} \conn &#038; &#038; \bull{i}{4} \connS &#038; &#038; \White{9} \connS &#038; &#038;<br />
+\SWhite \conneS  &#038;  \\ \bull{a}{3} \connbegin &#038; &#038; \Black{3} \connS &#038; &#038;<br />
+\BDvonn{10} \connS &#038; &#038; \bull{d}{3} \conn &#038; &#038; \bull{e}{3} \conn &#038; &#038;<br />
+\BDvonn{7} \connS &#038; &#038; \bull{g}{3} \conn  &#038; &#038; \bull{h}{3} \conn &#038; &#038;<br />
+\bull{i}{3} \conn &#038; &#038; \bull{j}{3} \conn &#038; &#038; \WDvonn{6} \connendS  \\ &#038;<br />
+\Black{5} \connbeginS &#038; &#038; \bull{b}{2} \conn &#038; &#038; \bull{c}{2} \conn &#038; &#038;<br />
+\bull{d}{2} \conn &#038; &#038; \bull{e}{2} \conn &#038; &#038; \bull{f}{2} \conn &#038; &#038;<br />
+\bull{g}{2} \conn &#038; &#038; \bull{h}{2} \conn &#038; &#038; \bull{i}{2} \conn &#038; &#038;<br />
+\bull{j}{2} \connend &#038; \\ &#038; &#038; \bull{a}{1} \con &#038; &#038; \bull{b}{1} \con &#038; &#038;<br />
+\bull{c}{1} \con &#038; &#038; \bull{d}{1} \con &#038; &#038; \bull{e}{1} \con &#038; &#038;<br />
+\bull{f}{1} \con &#038; &#038; \bull{g}{1} \con &#038; &#038; \bull{h}{1} \con &#038; &#038;<br />
+\bull{i}{1} &#038; &#038;} $</p>
+<p>Note that all pieces and stacks no longer<br />
+connected to a Dvonn piece must be removed. So, for example, after the<br />
+third move by Black, the Black height 5 stacks on c1 was removed. All<br />
+white now has to do is to built an height 8 stack on k3 and jump onto<br />
+the height 10 Black stack on c3 to win the game. The (only) way to do<br />
+this is by 7. j5-k5 and 8. k5-k3 to finish with 9. k3-c3 with final<br />
+position (note again that the White right-hand pieces and stacks are no<br />
+longer connected to a Dvonn piece and are hence removed)</p>
+<p>$\xymatrix@=.3cm @!C @R=.7cm{ &#038; &#038; \bull{c}{5} \conn &#038; &#038; \bull{d}{5}<br />
+\conn &#038; &#038; \bull{e}{5} \conn &#038; &#038; \bull{f}{5} \conn &#038; &#038; \bull{g}{5} \conn<br />
+&#038; &#038; \bull{h}{5} \conn &#038; &#038; \bull{i}{5} \conn &#038; &#038; \bull{j}{5} \conn &#038; &#038;<br />
+\bull{k}{5} \conne &#038; &#038;  \\\ &#038; \bull{b}{4} \conn &#038; &#038; \bull{c}{4} \conn &#038;<br />
+&#038; \bull{d}{4} \conn &#038; &#038; \bull{e}{4} \conn&#038; &#038; \bull{f}{4} \conn &#038; &#038;<br />
+\bull{g}{4} \conn  &#038; &#038; \bull{h}{4} \conn &#038; &#038; \bull{i}{4} \conn &#038; &#038;<br />
+\bull{j}{4} \conn &#038; &#038; \bull{k}{4} \conne  &#038;  \\\ \bull{a}{3} \connbegin<br />
+&#038; &#038; \Black{3} \connS &#038; &#038; \WDvonn{18} \connS &#038; &#038; \bull{d}{3} \conn &#038; &#038;<br />
+\bull{e}{3} \conn &#038; &#038; \BDvonn{7} \connS &#038; &#038; \bull{g}{3} \conn  &#038; &#038;<br />
+\bull{h}{3} \conn &#038; &#038; \bull{i}{3} \conn &#038; &#038; \bull{j}{3} \conn &#038; &#038;<br />
+\bull{k}{3} \connend  \\\ &#038; \Black{5} \connbeginS &#038; &#038; \bull{b}{2} \conn<br />
+&#038; &#038; \bull{c}{2} \conn &#038; &#038; \bull{d}{2} \conn &#038; &#038; \bull{e}{2} \conn &#038; &#038;<br />
+\bull{f}{2} \conn &#038; &#038; \bull{g}{2} \conn &#038; &#038; \bull{h}{2} \conn &#038; &#038;<br />
+\bull{i}{2} \conn &#038; &#038; \bull{j}{2} \connend &#038; \\\ &#038; &#038; \bull{a}{1} \con &#038;<br />
+&#038; \bull{b}{1} \con &#038; &#038; \bull{c}{1} \con &#038; &#038; \bull{d}{1} \con &#038; &#038;<br />
+\bull{e}{1} \con &#038; &#038; \bull{f}{1} \con &#038; &#038; \bull{g}{1} \con &#038; &#038;<br />
+\bull{h}{1} \con &#038; &#038; \bull{i}{1} &#038; &#038;  } $</p>
+<p>So White wins with 18 to<br />
+Black&#8217;s 15. This shows that it is important to maintain mobility and<br />
+also that it is possible to win a Dvonn-game from computers. In fact,<br />
+the above end-game was played against a computer-program (Black). The<br />
+entire game can be found<br />
+[here](http://www.littlegolem.net/jsp/game/game.jsp?gid=426457&#038;nmove=91)<br />
+.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/dvonn-1-mobility/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

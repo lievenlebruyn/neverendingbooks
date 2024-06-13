@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>representations &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/category/representations/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 08 Jan 2022 08:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The $\mathbb{F}_1$ World Seminar</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 08 Jan 2022 08:21:22 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9986</guid>
+
+					<description><![CDATA[For some time I knew it was in the making, now they are ready to launch it: The $\mathbb{F}_1$ World Seminar, an online seminar dedicated&#8230;]]></description>
+										<content:encoded><![CDATA[<p>For some time I knew it was in the making, now they are ready to launch it:</p>
+<p><a href="https://funworldseminar.wordpress.com/">The $\mathbb{F}_1$ World Seminar</a>, an online seminar dedicated to the <a href="https://en.wikipedia.org/wiki/Field_with_one_element">&#8220;field with one element&#8221;</a>, and its many connections to areas in mathematics such as arithmetic, geometry, representation theory and combinatorics. The organisers are <a href="https://scholar.google.com/citations?user=3g_Z1vEAAAAJ&#038;hl=en">Jaiung Jun</a>, <a href="https://orcid.org/0000-0003-4670-2211">Oliver Lorscheid</a>, <a href="https://en.wikipedia.org/wiki/Yuri_Manin">Yuri Manin</a>, <a href="http://math.bu.edu/people/szczesny/">Matt Szczesny</a>, <a href="https://cage.ugent.be/~kthas/">Koen Thas</a> and <a href="https://sites.google.com/site/youngmatthewb/">Matt Young</a>.</p>
+<p>From the announcement:</p>
+<p>&#8220;While the origins of the “$\mathbb{F}_1$-story” go back to attempts to transfer Weil’s proof of the Riemann Hypothesis from the function field case to that of number fields on one hand, and Tits’s Dream of realizing Weyl groups as the $\mathbb{F}_1$ points of algebraic groups on the other, the “$\mathbb{F}_1$” moniker has come to encompass a wide variety of phenomena and analogies spanning algebraic geometry, algebraic topology, arithmetic, combinatorics, representation theory, non-commutative geometry etc. It is therefore impossible to compile an exhaustive list of topics that might be discussed. The following is but a small sample of topics that may be covered:</p>
+<p>Algebraic geometry in non-additive contexts &#8211; monoid schemes, lambda-schemes, blue schemes, semiring and hyperfield schemes, etc.<br />
+Arithmetic &#8211; connections with motives, non-archimedean and analytic geometry<br />
+Tropical geometry and geometric matroid theory<br />
+Algebraic topology &#8211; K-theory of monoid and other “non-additive” schemes/categories, higher Segal spaces<br />
+Representation theory &#8211; Hall algebras, degenerations of quantum groups, quivers<br />
+Combinatorics &#8211; finite field and incidence geometry, and various generalizations&#8221;</p>
+<p>The seminar takes place on alternating Wednesdays from 15:00 PM – 16:00 PM European Standard Time (=GMT+1). There will be room for mathematical discussion after each lecture.</p>
+<p>The first meeting takes place Wednesday, January 19th 2022. If you want to receive abstracts of the talks and their Zoom-links, you should sign up for the <a href="https://sympa.usu.edu/wws/info/f1worldseminar">mailing list</a>.</p>
+<p>Perhaps I&#8217;ll start posting about $\mathbb{F}_1$ again, either here, or on the dormant <a href="http://cage.ugent.be/~kthas/Fun/">$\mathbb{F}_1$ mathematics blog</a>. (see <a href="https://lievenlebruyn.github.io/neverendingbooks/3-related-new-math-sites">this post</a> for its history).</p>
+<p><a href="http://cage.ugent.be/~kthas/Fun/"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/fun.jpg" width=100% \></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>de Bruijn&#8217;s pentagrids (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 17 Mar 2021 09:38:39 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[GoV]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[D5]]></category>
+		<category><![CDATA[de Bruijn]]></category>
+		<category><![CDATA[hyperoctahedral group]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[pentagrid]]></category>
+		<category><![CDATA[Young]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9284</guid>
+
+					<description><![CDATA[Last time we&#8217;ve seen that de Bruijn&#8217;s pentagrids determined the vertices of Penrose&#8217;s P3-aperiodic tilings. These vertices can also be obtained by projecting a window&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids">Last time</a> we&#8217;ve seen that de Bruijn&#8217;s pentagrids determined the vertices of Penrose&#8217;s P3-aperiodic tilings.</p>
+<p>These vertices can also be obtained by projecting a window of the standard hypercubic lattice $\mathbb{Z}^5$ by the <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences-2">cut-and-project</a>-method.</p>
+<p>We&#8217;ll bring in representation theory by forcing this projection to be compatible with a $D_5$-subgroup of the symmetries of $\mathbb{Z}^5$, which explains why Penrose tilings have a local $D_5$-symmetry.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/D5region.jpg" width=70% ><br />
+</center></p>
+<p>The symmetry group of the standard $n$-dimensional hypercubic lattice<br />
+\[<br />
+\mathbb{Z} \vec{e}_1 + \dots + \mathbb{Z} \vec{e}_n \subset \mathbb{R}^n \]<br />
+is the <a href="https://en.wikipedia.org/wiki/Hyperoctahedral_group">hyperoctahedral group</a> of all signed $n \times n$ permutation matrices<br />
+\[<br />
+B_n = C_2^n \rtimes S_n \]<br />
+in which all $n$-permutations $S_n$ act on the group $C_2^n = \{ 1,-1 \}^n$ of all signs. The signed permutation $n \times n$ matrix corresponding to an element $(\vec{a},\pi) \in B_n$ is given by<br />
+\[<br />
+T_{ij} = T(\vec{a},\pi)_{ij} = a_j \delta_{i,\pi(j)} \]<br />
+The represenation theory of $B_n$ was worked out in 1930 by the British mathematician and clergyman <a href="https://en.wikipedia.org/wiki/Alfred_Young">Alfred Young</a><br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Young.jpg" width=40% ><br />
+</center><br />
+We want to do explicit calculations in $B_n$ using a computational system such as <a href="https://www.gap-system.org/">GAP</a>, so it is best to describe $B_n$ as a permutation subgroup of $S_{2n}$ via the morphism<br />
+\[<br />
+ \tau((\vec{a},\pi))(k) = \begin{cases} \pi(k)+n \delta_{-1,a_k}~\text{if $1 \leq k \leq n$} \\<br />
+\pi(k-n)+n(1-\delta_{-1,a_{k-n}})~\text{if $n+1 \leq k \leq 2n$} \end{cases} \]<br />
+the image is generated by the permutations<br />
+\[<br />
+\begin{cases}<br />
+\alpha = (1,2)(n+1,n+2), \\<br />
+\beta=(1,2,\dots,n)(n+1,n+2,\dots,2n), \\<br />
+\gamma=(n,2n)<br />
+\end{cases}<br />
+ \]<br />
+and to a permutation $\sigma \in \tau(B_n) \subset S_{2n}$ we assign the signed permutation $n \times n$ matrix $T_{\sigma}=T(\tau^{-1}(\pi))$.</p>
+<p>We use GAP to set up $B_5$ from these generators and determine all its conjugacy classes of subgroups. It turns out that $B_5$ has no less than $953$ different conjugacy classes of subgroups.<br />
+<verbatim><br />
+gap> B5:=Group((1,2)(6,7),(1,2,3,4,5)(6,7,8,9,10),(5,10));<br />
+Group([ (1,2)(6,7), (1,2,3,4,5)(6,7,8,9,10), (5,10) ])<br />
+gap> Size(B5);<br />
+3840<br />
+gap> C:=ConjugacyClassesSubgroups(B5);;<br />
+gap> Length(C);<br />
+953<br />
+</verbatim><br />
+But we are only interested in the subgroups isomorphic to $D_5$. So, first we make a sublist of all conjugacy classes of subgroups of order $10$, and then we go through this list one-by-one and look for an explicit isomorphism between $D_5 = \langle x,y~|~x^5=e=y^2,~xyx=y \rangle$ and a representative of the class (or get a &#8216;fail&#8217; is this subgroup is not isomorphic to $D_5$).<br />
+<verbatim><br />
+gap> C10:=Filtered(C,x->Size(Representative(x))=10);;<br />
+gap> Length(C10);<br />
+3<br />
+gap> s10:=List(C10,Representative);<br />
+[ Group([ (2,5)(3,4)(7,10)(8,9), (1,5,4,3,2)(6,10,9,8,7) ]),<br />
+  Group([ (1,6)(2,5)(3,4)(7,10)(8,9), (1,10,9,3,2)(4,8,7,6,5) ]),<br />
+  Group([ (1,6)(2,7)(3,8)(4,9)(5,10), (1,2,8,4,10)(3,9,5,6,7) ]) ]<br />
+gap> D:=DihedralGroup(10);
+<pc group of size 10 with 2 generators>
+gap> IsomorphismGroups(D,s10[1]);<br />
+[ f1, f2 ] -> [ (2,5)(3,4)(7,10)(8,9), (1,5,4,3,2)(6,10,9,8,7) ]<br />
+gap> IsomorphismGroups(D,s10[2]);<br />
+[ f1, f2 ] -> [ (1,6)(2,5)(3,4)(7,10)(8,9), (1,10,9,3,2)(4,8,7,6,5) ]<br />
+gap> IsomorphismGroups(D,s10[3]);<br />
+fail<br />
+gap> IsCyclic(s10[3]);<br />
+true<br />
+</verbatim><br />
+Of the three (conjugacy classes of) subgroups of order $10$, two are isomorphic to $D_5$, and the third one to $C_{10}$. Next, we have to transform the generating permutations into signed $5 \times 5$ permutation matrices using the bijection $\tau^{-1}$.<br />
+\[<br />
+\begin{array}{c|c}<br />
+\sigma &#038; (\vec{a},\pi) \\<br />
+\hline<br />
+(2,5)(3,4)(7,10)(8,9) &#038; ((1,1,1,1,1),(2,5)(3,4)) \\<br />
+(1,5,4,3,2)(6,10,9,8,7) &#038; ((1,1,1,1,1)(1,5,4,3,2)) \\<br />
+(1,6)(2,5)(3,4)(7,10)(8,9) &#038; ((-1,1,1,1,1),(2,5)(3,4)) \\<br />
+(1,10,9,3,2)(4,8,7,6,5) &#038; ((-1,1,1,-1,1),(1,5,4,3,2))<br />
+\end{array}<br />
+\]<br />
+giving the signed permutation matrices<br />
+\[<br />
+\begin{array}{c|cc}<br />
+&#038; x &#038; y \\<br />
+\hline<br />
+A &#038; \begin{bmatrix}<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 1 \\<br />
+1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \end{bmatrix} &#038;<br />
+\begin{bmatrix} 1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 1 \\<br />
+0 &#038; 0 &#038; 0 &#038; 1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \end{bmatrix}  \\<br />
+\hline<br />
+B &#038; \begin{bmatrix}<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; -1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 1 \\<br />
+-1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \end{bmatrix} &#038;<br />
+\begin{bmatrix}<br />
+-1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 1 \\<br />
+0 &#038; 0 &#038; 0 &#038; 1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \end{bmatrix}<br />
+\end{array}<br />
+\]<br />
+$D_5$ has $4$ conjugacy classes with representatives $e,y,x$ and $x^2$. the<br />
+<strong>character table</strong> of $D_5$ is<br />
+\[<br />
+\begin{array}{c|cccc}<br />
+&#038; (1) &#038; (2) &#038; (2) &#038; (5) \\<br />
+&#038; 1_a &#038; 5_1 &#038; 5_2 &#038; 2_a \\<br />
+D_5 &#038; e &#038; x &#038; x^2 &#038; y \\<br />
+\hline<br />
+T &#038; 1 &#038; 1 &#038; 1 &#038; 1 \\<br />
+V &#038; 1 &#038; 1 &#038; 1 &#038; -1 \\<br />
+W_1 &#038; 2 &#038; \tfrac{-1+ \sqrt{5}}{2} &#038; \tfrac{-1 -\sqrt{5}}{2} &#038; 0 \\<br />
+W_2 &#038; 2 &#038; \tfrac{-1 -\sqrt{5}}{2} &#038; \tfrac{-1+\sqrt{5}}{2}  &#038; 0<br />
+\end{array}<br />
+\]<br />
+Using the signed permutation matrices it is easy to determine the characters of the $5$-dimensional representations $A$ and $B$<br />
+\[<br />
+\begin{array}{c|cccc}<br />
+D_5 &#038; e &#038; x &#038; x^2 &#038; y \\<br />
+\hline<br />
+A &#038; 5 &#038; 0 &#038; 0 &#038; 1 \\<br />
+B &#038; 5 &#038; 0 &#038; 0 &#038; -1<br />
+\end{array}<br />
+\]<br />
+decomosing into $D_5$-irreducibles as<br />
+\[<br />
+A \simeq T \oplus W_1 \oplus W_2 \quad \text{and} \quad B \simeq V \oplus W_1 \oplus W_2 \]<br />
+Representation $A$ realises $D_5$ as a rotation symmetry group of the hypercube lattice $\mathbb{Z}^5$ in $\mathbb{R}^5$, and next we have to find a $D_5$-projection $\mathbb{R}^5=A \rightarrow W_1 = \mathbb{R}^2$.</p>
+<p>As a complex representation $A \downarrow_{C_5}$ decomposes as a direct sum of $1$-dimensional representations<br />
+\[<br />
+A \downarrow_{C_5} = V_1 \oplus V_{\zeta} \oplus V_{\zeta^2} \oplus V_{\zeta^3} \oplus V_{\zeta^4} \]<br />
+where $\zeta = e^{2 \pi i /5}$ and where the action of $x$ on $V_{\zeta^i}=\mathbb{C} v_i$ is given by $x.v_i = \zeta^i v_i$. The $x$-eigenvectors in $\mathbb{C}^5$ are<br />
+\[<br />
+\begin{cases}<br />
+v_0 = (1,1,1,1,1) \\<br />
+v_1 = (1,\zeta,\zeta^2,\zeta^3,\zeta^4) \\<br />
+v_2 =(1,\zeta^2,\zeta^4,\zeta,\zeta^3) \\<br />
+v_3 = (1,\zeta^3,\zeta,\zeta^4,\zeta^2) \\<br />
+v_4 = (1,\zeta^4,\zeta^3,\zeta^2,\zeta)<br />
+\end{cases}<br />
+\]<br />
+The action of $y$ on these vectors is given by $y.v_i = v_{5-i}$ because<br />
+\[<br />
+x.(y.v_i) = (xy).v_i=(yx^{-1}).v_i=y.(x^{-1}.v_i) = y.(\zeta^{-i} v_i) = \zeta^{-1} (y.v_i) \]<br />
+and therefore $y.v_i$ is an $x$-eigenvector with eigenvalue $\zeta^{5-i}$. As a complex $D_5$-representation, the factors of $A$ are therefore<br />
+\[<br />
+T = \mathbb{C} v_0, \quad W_1 = \mathbb{C} v_1 + \mathbb{C} v_4, \quad \text{and} \quad W_2 = \mathbb{C} v_2 + \mathbb{C} v_3 \]<br />
+But we want to consider $A$ as a real representation. As $\zeta^j = cos(\tfrac{2 \pi j}{5})+i~sin(\tfrac{2 \pi j}{5}) = c_j + i s_j$ hebben we can take the vectors in $\mathbb{R}^5$<br />
+\[<br />
+\begin{cases}<br />
+\frac{1}{2}(v_1+v_4) =  (1,c_1,c_2,c_3,c_4)= u_1 \\<br />
+-\frac{1}{2}i(v_1-v_4) = (0,s_1,s_2,s_3,s_4) = u_2 \\<br />
+\frac{1}{2}(v_2+v_3) =  (1,c_2,c_4,c1,c3)= w_1 \\<br />
+-\frac{1}{2}i(v_2-v_3) = (0,s_2,s_4,s_1,s_3)= w_2<br />
+\end{cases}<br />
+\]<br />
+and $A$ decomposes as a real $D_5$-representation with<br />
+\[<br />
+T = \mathbb{R} v_0, \quad W_1 = \mathbb{R} u_1 + \mathbb{R} u_2, \quad \text{and} \quad W_2 = \mathbb{R} w_1 + \mathbb{R} w_2 \]<br />
+and if we identify $\mathbb{C}$ with $\mathbb{R}^2$ via $z \leftrightarrow (Re(z),Im(z))$ we can describe the $D_5$-projection morphism $\pi_{W_1}~:~\mathbb{R}^5=A \rightarrow W_1=\mathbb{R}^2$ via<br />
+\[  (y_0,y_1,y_2,y_3,y_4) \mapsto y_0+y_1 \zeta + y_2 \zeta^2 + y_3 \zeta^3 + y_4 \zeta^4 = \sum_{i=0}^4 y_i (c_i,s_i) \]<br />
+Note also that $W_1$ is the orthogonal complement of $T \oplus W_2$, so is equal to the linear subspace in $\mathbb{R}^5$ determined by the three linear equations<br />
+\[<br />
+\begin{cases}<br />
+\sum_{i=0}^4 x_i = 0 \\<br />
+\sum_{i=0}^4 c_{2i} x_i = 0 \\<br />
+\sum_{i=0}^4 s_{2i} x_i = 0<br />
+\end{cases}<br />
+\]<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/pentagrid2.jpg" width=55% ><br />
+</center></p>
+<p />
+Okay, now take the Rhombic tiling corresponding to the regular pentagrid defined by $\gamma_0, \dots, \gamma_4$ satisfying $\sum_{i=0}^4 \gamma_i = 0$. Let $\vec{k}=(k_0,\dots,k_4) \in \mathbb{Z}^5$ and define the <strong>open hypercube</strong> $H_{\vec{k}}$ corresponding to $\vec{k}$ as the set of points<br />
+\[<br />
+(x_0,\dots,x_4) \in \mathbb{R}^5~:~\forall 0 \leq i \leq 4~:~k_i &#8211; 1 < x_i < k_i \]
+From the vector $\vec{\gamma} = (\gamma_0,\dots,\gamma_4)$ determining the Rhombic tiling we define the $2$-dimensional plane $P_{\vec{\gamma}}$ in $\mathbb{R}^5$ given by the equations
+\[
+\begin{cases}
+\sum_{i=0}^4 x_i = 0 \\
+\sum_{i=0}^4 c_{2i} (x_i - \gamma_i) = 0 \\
+\sum_{i=0}^4 s_{2i} (x_i - \gamma_i) = 0
+\end{cases}
+\]
+The point being that $P_{\vec{\gamma}}$ is the linear plane $W_1$ in $\mathbb{R}^5$ translated over the vector $\vec{\gamma}$, so it is parallel to $W_1$. Here's the punchline:
+
+
+
+<p />
+<strong>de Bruijn&#8217;s theorem</strong>: The vertices of the Rhombic tiling produced by the regular pentagrid with parameters $\vec{\gamma}=(\gamma_0,\dots,\gamma_4)$ are the points<br />
+\[<br />
+\sum_{i=0}^4 k_i (c_i,s_i) \]<br />
+with $\vec{k}=(k_0,\dots,k_4) \in \mathbb{Z}^5$ such that $H_{\vec{k}} \cap P_{\vec{\gamma}} \not= \emptyset$.</p>
+<p />
+To see this, let $\vec{x} = (x_0,\dots,x_4) \in P_{\vec{\gamma}}$, then $\vec{x}-\vec{\gamma} \in W_1$, but then there is a vector $\vec{y} \in \mathbb{R}^2$ such that<br />
+\[<br />
+x_j &#8211; \gamma_j = \vec{y}.\vec{v}_j \quad \forall~0 \leq j \leq 4 \]<br />
+But then, with $k_j=\lceil \vec{y}.\vec{v}_j + \gamma_j \rceil$ we have that $\vec{x} \in H_{\vec{k}}$ and we note that $V(\vec{y}) = \sum_{i=0}^4 k_i \vec{v}_i$ is a vetex of the Rhombic tiling associated to the regular pentagrid parameters $\vec{\gamma}=(\gamma_0,\dots,\gamma_4)$.</p>
+<p />Here we used regularity of the pentagrid in order to have that $k_j=\vec{y}.\vec{v}_j + \gamma_j$ can happen for at most two $j$&#8217;s, so we can manage to vary $\vec{y}$ a little in order to have $\vec{x}$ in the open hypercube.</p>
+<p />
+Here&#8217;s what we did so far: we have identified $D_5$ as a group of rotations in $\mathbb{R}^5$, preserving the hypercube-lattice $\mathbb{Z}^5$ in $\mathbb{R}^5$. If the $2$-plane $P_{\vec{\gamma}}$ is left stable under these rotations, then because rotations preserve distances, also the subset of lattice-points<br />
+\[<br />
+S_{\vec{\gamma}} = \{ (k_0,\dots,k_4)~|~H_{\vec{k}} \cap P_{\vec{\gamma}} \not= \emptyset \}  \subset \mathbb{Z}^5 \]<br />
+is left stable under the $D_5$-action. But, because the map<br />
+\[<br />
+(k_0,\dots,k_4) \mapsto \sum_{i=0}^4 k_i (c_i,s_i) \]<br />
+is the $D_5$-projection map $\pi : A \rightarrow W_1$, the vertices of the associated Rhombic tiling must be stable under the $D_5$-action on $W_1$, meaning that the Rhombic tiling should have a global $D_5$-symmetry.</p>
+<p />
+Sadly, the only plane $P_{\vec{\gamma}}$ left stable under all rotations of $D_5$ is when $\vec{\gamma} = \vec{0}$, which is an <strong>exceptionally singular</strong> pentagrid. If we project this situation we do indeed get an image with global $D_5$-symmetry<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/projectionexcepsingular.jpg" width=80% ><br />
+</center><br />
+but it is <strong>not</strong> a Rhombic tiling. What&#8217;s going on?</p>
+<p />
+Because this post is already dragging on for far too long (TL;DR), we&#8217;ll save the investigation of projections of singular pentagrids, how they differ from the regular situation, and how they determine multiple Rhombic tilings, for another time.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kasha-eating dragons</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/kasha-eating-dragons/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/kasha-eating-dragons/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 15 Mar 2021 08:55:10 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[personal]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Dotsenko]]></category>
+		<category><![CDATA[Khovanova]]></category>
+		<category><![CDATA[Kirillov]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9263</guid>
+
+					<description><![CDATA[This semester I&#8217;m teaching a first course in representation theory. On campus, IRL! It&#8217;s a bit strange, using a big lecture room for a handful&#8230;]]></description>
+										<content:encoded><![CDATA[<p>This semester I&#8217;m teaching a first course in representation theory. <strong>On campus, IRL!</strong> It&#8217;s a bit strange, using a big lecture room for a handful of students, everyone wearing masks, keeping distances, etc.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/rt2021.jpg" width=100% ><br />
+</center></p>
+<p>So far, this is their only course on campus, so it has primarily a social function. The breaks in between are infinitely more important than the lectures themselves. I&#8217;d guess breaks take up more than one third of the four hours scheduled.</p>
+<p>At first, I hoped to make groups and their representations relevant by connecting to the crisis at hand, whence the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19">the symmetries of Covid-19</a> post, and the <a href="https://lievenlebruyn.github.io/neverendingbooks/category/gov">Geometry of Viruses</a> series of posts.</p>
+<p>Not a great idea. I guess most of us are by now over-saturated with Corona-related news, and if students are allowed to come to campus just one afternoon per week, the last thing they want to hear about is, right, Covid.</p>
+<p>So I need to change tactics. By now we&#8217;ve reached the computation of character tables, and googling around I found this MathOverflow-topic:  <a href="https://mathoverflow.net/questions/11784/fun-applications-of-representations-of-finite-groups">Fun applications of representations of finite groups</a>.</p>
+<p>The highest rated answer, by Vladimir Dotsenko, suggests a problem attributed to Kirillov:</p>
+<blockquote><p>An example from Kirillov&#8217;s book on representation theory: write numbers 1,2,3,4,5,6 on the faces of a cube, and keep replacing (simultaneously) each number by the average of its neighbours. Describe (approximately) the numbers on the faces after many iterations.</p></blockquote>
+<p>A bit further down the list, the <a href="https://math.berkeley.edu/~serganov/math252/notes1.pdf">Lecture notes on representation theory</a> by Vera Serganova are mentioned. They start off with a variation of Kirillov&#8217;s question (and an extension of it to the dodecahedron):</p>
+<blockquote><p><strong>Hungry knights.</strong> There are n hungry knights at a round table. Each of them has a plate with certain amount of food. Instead of eating every minute each knight takes one half of his neighbors servings. They start at 10 in the evening. What can you tell about food distribution in the morning?</p>
+<p><strong>Breakfast at Mars.</strong> It is well known that marsians have four arms, a standard family has 6 persons and a breakfast table has a form of a cube with each person occupying a face on a cube. Do the analog of round table problem for the family of marsians.</p>
+<p><strong>Supper at Venus.</strong> They have five arms there, 12 persons in a family and sit on the faces of a dodecahedron (a regular polyhedron whose faces are pentagons).</p></blockquote>
+<p>Perhaps the nicest exposition of the problem (and its solution!) is in the paper <a href="https://arxiv.org/pdf/1602.08488.pdf">Dragons eating kasha</a> by Tanya Khovanova.</p>
+<blockquote><p>Suppose a four-armed dragon is sitting on every face of a cube. Each dragon has a bowl of kasha in front of him. Dragons are very greedy, so instead of eating their own kasha, they try to steal kasha from their neighbors. Every minute every dragon extends four arms to the four neighboring faces on the cube and tries to get the kasha from the bowls there. As four arms are fighting for every bowl of<br />
+kasha, each arm manages to steal one-fourth of what is in the bowl. Thus each<br />
+dragon steals one-fourth of the kasha of each of his neighbors, while at the same<br />
+time all of his own kasha is stolen. Given the initial amounts of kasha in every<br />
+bowl, what is the asymptotic behavior of the amounts of kasha?
+</p></blockquote>
+<p>I can give them quick hints to reach the solution:</p>
+<ul>
+<li>the amounts of kasha on each face gives a vector in $\mathbb{R}^6$, which is an $S_4$-representation,</li>
+<li>calculate the character of this kasha-representation,</li>
+<li>use the character table of $S_4$ to decompose the representation into irreducibles,</li>
+<li>identify each of the irreducible factors as instances in the kasha-representation,</li>
+<li>check that the food-grabbing operation is an $S_4$-morphism,</li>
+<li>remember Schur&#8217;s lemma, and compute the scaling factors on each irreducible component,</li>
+<li>conclude!</li>
+</ul>
+<p>But, I can never explain it better than Khovanova&#8217;s <a href="https://arxiv.org/pdf/1602.08488.pdf">treatment</a> of the kasha-eating dragons problem.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/kasha-eating-dragons/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>GoV 2 : Viruses and quasi-crystals</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 26 Feb 2021 11:14:00 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[GoV]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[de Bruijn]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[quasicrystal]]></category>
+		<category><![CDATA[Twarock]]></category>
+		<category><![CDATA[Zappa]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8940</guid>
+
+					<description><![CDATA[If you look around for mathematical theories of the structure of viruses, you quickly end up with the work of Raidun Twarock and her group&#8230;]]></description>
+										<content:encoded><![CDATA[<p>If you look around for mathematical theories of the structure of viruses, you quickly end up with the work of <a href="https://www.york.ac.uk/maths/staff/reidun-twarock/">Raidun Twarock</a> and her group at the University of York.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/virustiling1.jpg" width=70%><br />
+</center></p>
+<p>We&#8217;ve <a href="https://lievenlebruyn.github.io/neverendingbooks/gov-1-geometry-of-viruses">seen</a> her proposal to extend the Caspar-Klug classification of viruses. Her novel idea to distribute proteins on the viral capsid along Penrose-like tilings shouldn&#8217;t be taken too literally. The inherent aperiodic nature of <a href="https://en.wikipedia.org/wiki/Penrose_tiling">Penrose tiles</a> doesn&#8217;t go together well with perfect tilings of the sphere.</p>
+<p>Instead, the observation that these capsid tilings resemble somewhat Penrose tilings is a side-effect of another great idea of the York group. Recently, they borrowed techniques from the theory of <a href="https://en.wikipedia.org/wiki/Quasicrystal">quasicrystals</a> to gain insight in the inner structure of viruses, in particular on the interaction of the capsid with the genome.</p>
+<p>By the <a href="https://en.wikipedia.org/wiki/Crystallographic_restriction_theorem#:~:text=The%20crystallographic%20restriction%20theorem%20in,fold%2C%20and%206%2Dfold.&#038;text=Crystals%20are%20modeled%20as%20discrete,finite%20translations%20(Coxeter%201989).">crystallographic restriction theorem</a> no $3$-dimensional lattice can have icosahedral symmetry. But, we can construct aperiodic structures (quasicrystals) which have local icosahedral structure, much like Penrose tilings have local $D_5$-symmetry</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/PenroseTiling1.jpg" width=100% ></p>
+<p>This is best explained by <a href="https://en.wikipedia.org/wiki/Nicolaas_Govert_de_Bruijn">de Bruijn</a>&#8216;s theory of pentagrids (more on that another time). Here I&#8217;ll just mention the representation-theoretic idea.</p>
+<p>The isometry group of the standard $5$-dimensional lattice $\mathbb{Z}^5$ is the group of all signed permutation $5 \times 5$ matrices $B_5$ (Young&#8217;s <a href="https://en.wikipedia.org/wiki/Hyperoctahedral_group">hyperoctahedral group</a>). There are two distinct conjugacy classes of subgroups in $B_5$ isomorphic to $D_5$, one such subgroup generated by the permutation matrices<br />
+\[<br />
+x= \begin{bmatrix}<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 1 \\<br />
+1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \end{bmatrix} \qquad \text{and} \qquad<br />
+y = \begin{bmatrix} 1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 1 \\<br />
+0 &#038; 0 &#038; 0 &#038; 1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \end{bmatrix}  \]<br />
+The traces of $x,x^2$ and $y$, together with the <a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/1/D5.html">character table of $D_5$</a> tell us that this $5$-dimensional $D_5$-representation splits as the direct sum of the trivial representation and of the two irreducible $2$-dimensional representations.<br />
+\[<br />
+\mathbb{R}^5 = A \simeq T \oplus W_1 \oplus W_2 \]<br />
+with $T = \mathbb{R} d$, $W_1 = \mathbb{R} u_1 + \mathbb{R} u_2$ and $W_2 = \mathbb{R} w_1 + \mathbb{R} w_2$ where<br />
+\[<br />
+\begin{cases}<br />
+(1,1,1,1,1)=d \\<br />
+(1,c_1,c_2,c_3,c_4)= u_1 \\<br />
+(0,s_1,s_2,s_3,s_4) = u_2 \\<br />
+(1,c_2,c_4,c1,c3)= w_1 \\<br />
+(0,s_2,s_4,s_1,s_3)= w_2<br />
+\end{cases}<br />
+\]<br />
+and $c_j=cos(2\pi j/5)$ and $s_j=sin(2 \pi/5)$. We have a $D_5$-projection<br />
+\[<br />
+\pi : A \rightarrow W_1 \quad (y_0,\dots,y_4) \mapsto \sum_{i=0}^4 y_i(c_i u_1+s_i u_2) \]<br />
+The projection maps the vertices of the $5$-dimensional hypercube to a planar configuration with $D_5$-symmetry.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/5cube.jpg" width=50% ><br />
+</center></p>
+<p>de Bruijn&#8217;s results say that if we take suitable &#8216;windows&#8217; of lattice-points in $\mathbb{Z}^5$ and project them via the $D_5$-equivariant map $\pi$ onto the plane, then the images of these lattice points become the vertices of a <a href="https://en.wikipedia.org/wiki/Penrose_tiling#Rhombus_tiling_(P3)">rhombic Penrose tiling</a> (and we get all such tilings by choosing our window carefully).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Penrosetiling.jpg" width=80% ><br />
+</center></p>
+<p>This explains why Penrose tilings have a local $D_5$-symmetry. I&#8217;ll try to come back to de Bruijn&#8217;s papers in future posts.</p>
+<p>But, let&#8217;s go back to viruses and the work of Twarock&#8217;s group using methods from quasicrystals. Such aperiodic structures with a local icosahedral symmetry can be constructed along similar lines. This time one starts with the standard $6$-dimensional lattice $\mathbb{Z^6}$ with isometry group $B_6$ (signed $6 \times 6$ permutation matrices).</p>
+<p>This group has three conjugacy classes of subgroups isomorphic to $A_5$, but for only one of them this $6$-dimensional representation decomposes as the direct sum of the two irreducible $3$-dimensional <a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/1/A5.html">representations of $A_5$</a> (the decompositions in the two other cases contain an irreducible of dimension $4$ or $5$ together with trivial factor(s)). A representant of the crystallographic relevant case is given by the signed permutation matrices<br />
+\[<br />
+x= \begin{bmatrix}<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; -1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; -1 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; -1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 0 &#038; -1<br />
+\end{bmatrix} \qquad \text{and} \qquad y=<br />
+\begin{bmatrix}<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \\<br />
+1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; -1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 0 &#038; 1  \\<br />
+0 &#038; 0 &#038; 0 &#038; -1 &#038; 0 &#038; 0<br />
+\end{bmatrix} \]</p>
+<p>Again, using suitable windows of $\mathbb{Z}^6$-lattice points and using the $A_5$-equivariant projection to one of the two $3$-dimensional components, one obtains quasicrystals with local $A_5$-symmetry.</p>
+<p>In this $3$-dimensional case the replacements of the thick and thin rhombi are these four parallellepipeda, known as the Amman blocks<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/AmmanTiles.jpg" width=60% ><br />
+</center></p>
+<p>which must be stacked together obeying the gluing condition that dots of the same colour must be adjacent.</p>
+<p>Has anyone looked at a possible connection between the four Amman blocks (which come in pairs) and the four (paired) nucleotides in DNA? Just an idle thought&#8230;</p>
+<p>These blocks grow into quasicrystals with local icosahedral symmetry.<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tiling3D2.jpg" width=80% ><br />
+</center></p>
+<p>The faces on the boundary of such a sphere-like quasicrystal then look a lot like a Penrose tiling.</p>
+<p>How can we connect these group and representation-theoretic ideas to the structure of viruses? Here&#8217;s another thought-provoking proposal coming from the York group.</p>
+<p>Take the $A_5$ subgroup of the hyperoctahedral group in six dimensiona $B_6$ generated by the above two matrices (giving a good $A_5$-equivariant projection $\pi$ to three dimensional space) and consider an intermediate group<br />
+\[<br />
+A_5 \subsetneq G \subseteq B_6 \]<br />
+Take a point in $\mathbb{R}^6$ and look at its orbit under the isometries of $G$, then all these points have the same distance from the origin in $\mathbb{R}^6$. Now, project this orbit under $\pi$ to get a collection of points in $\mathbb{R}^3$.</p>
+<p>As $\pi$ is only $A_5$-equivariant (and not $G$-equivariant) the image points may lie in different shells from the origin. We can try to relate these shells of points to observational data on the inner structures of viruses.</p>
+<p>Here&#8217;s a pretty convincing instance of such a correlation, taken from the thesis by Emilio Zappa <a href="http://etheses.whiterose.ac.uk/10124/1/Zappa%20PhD%20Thesis%20NEW.pdf">&#8220;New group theoretical methods for applications in virology and quasicrystals&#8221;</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/hepatitis.jpg" width=80% ><br />
+</center></p>
+<p>This is the inner structure of the Hepatitis B virus, showing the envelope (purple), capsid protein (cream) and genome (light blue). The coloured dots are the image points in the different shells around the origin.</p>
+<p>Do viruses invade us from the sixth dimension??</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The symmetries of Covid-19</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 18 Feb 2021 10:31:34 +0000</pubDate>
+				<category><![CDATA[GoV]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[corona]]></category>
+		<category><![CDATA[icosahedron]]></category>
+		<category><![CDATA[octahedron]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8827</guid>
+
+					<description><![CDATA[A natural question these days might be: &#8220;what are the rotational symmetries of the Covid-19 virus?&#8221; Most illustrations show a highly symmetric object, suggesting it&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A natural question these days might be: &#8220;what are the rotational symmetries of the <a href="https://en.wikipedia.org/wiki/Coronavirus">Covid-19 virus</a>?&#8221;</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/corona2.jpg" width=50%><br />
+</center></p>
+<p>Most illustrations show a highly symmetric object, suggesting it might have icosahedral symmetry. In fact, many viruses do have icosahedral symmetry as a result of the <a href="https://www.pnas.org/content/101/44/15556#:~:text=Icosahedral%20symmetry%20is%20ubiquitous%20among%20spherical%20viruses%20(1).&#038;text=The%20capsid%20has%206%205,contain%20six%20subunits%20(hexamers).">&#8216;genetic economy principle&#8217;</a> proposed by Watson and Crick in 1956, resulting in the <a href="https://viralzone.expasy.org/8577#:~:text=The%20Caspar%2DKlug%20Theory%20(CK,center%20of%20each%20triangular%20face.">Caspar-Klug classification</a> of viral capsids.</p>
+<p>But then, perhaps this icosahedral illusion is a result of design decisions illustrators made turning scientific data into pictures. Veronica Falconieri Hays wrote a beautiful article describing the effort going into this: <a href="https://www.scientificamerican.com/article/how-i-built-a-3-d-model-of-the-coronavirus-for-scientific-american/">How I built a 3d-model of the coronavirus for Scientific American</a>. Here&#8217;s her final picture</p>
+<p><center><br />
+<img decoding="async" src="https://static.scientificamerican.com/sciam/assets/Image/20037_SARSCoV2_RenderColorGuide.jpg" width=80%><br />
+</center></p>
+<p>And yes, icosahedral symmetry was one of her design decisions:</p>
+<blockquote><p>The M proteins form pairs, and it is estimated that there are 16–25 M proteins per spike on the surface of the virus. I ended up modeling 10 M protein pairs (so 20 M proteins) per spike in my model.  Some researchers hypothesize that the M proteins form a lattice within the envelope (interacting with an underlying lattice of N proteins; see below). <strong>I decided to use an icosahedral sphere</strong> to create a regular distribution of the M protein dimers to hint at this hypothesis. </p></blockquote>
+<p>The spikes (or S-proteins) are the tentacles in these pictures, and one of the few hard figures on Corona is that <a href="https://en.wikipedia.org/wiki/Coronavirus">&#8216;on average&#8217;</a> there are 74 of them.</p>
+<p>This fact is enough to rule out <a href="https://en.wikipedia.org/wiki/Icosahedral_symmetry">icosahedral symmetry</a>.</p>
+<p>If the icosahedral rotation group (of order $60$, isomorphic to $A_5$) acts on the $74$ spikes, then each orbit consists of $60$ spikes unless that spike lies on a twofold, threefold or fivefold rotation axis, in which cases the number of spikes in its orbit are respectively $30$, $20$ or $12$. So, we can&#8217;t get a total number of $74$ spikes!</p>
+<p>However, just looking at the number of spikes we cannot rule out <a href="https://en.wikipedia.org/wiki/Octahedral_symmetry#:~:text=8%20External%20links-,Details,of%20the%20cubic%20crystal%20system.">octahedral symmetry</a>!</p>
+<p>The octahedral rotation group (of order $24$, isomorphic to $S_4$) will have orbits of size $24$ unless the spike lies on a twofold, threefold or fourfold rotation axis, giving orbits of size $12$, $8$ and $6$ respectively (the midpoints of edges, the vertices and the midpoints of faces of the octahedron), and</p>
+<p>\[<br />
+74 = 24+24+12+8+6 \]</p>
+<p>The most symmetric arrangement of spikes would be to subdivide each of the $8$ triangular faces of the octahedron into $6$ triangles with vertices the midpoint of the face, a vertex and a midpoint of an edge, and then to position the spikes on the axis through the vertices and midpoints of these smaller triangles.</p>
+<p>Googling around I found very few references to symmetries of Covid-19, probably because it has an helical RNA-coil, which seems not to go well with Caspar-Klug type polyhedral viral capsids.</p>
+<p>Here&#8217;s an exception: <a href="https://arxiv.org/pdf/2005.12165.pdf">A structural model for the Coronavirus nucleocapsid</a> by Federico Coscio, Alejandro D. Nadra, and Diego U. Ferreiro.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/truncatedoctahedron.jpg" width=80% ><br />
+</center></p>
+<p>They propose a truncated octahedron as capsid (in transparent brown) with interior a continuous coil packing of blue and cyan helices. The virus membrane with the spikes and M proteins is drawn in blue.</p>
+<p>If you have better info or references on the (conjectural) symmetries of Covid-19, please leave a comment.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Extending McKay&#8217;s E8 graph?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/extending-mckays-e8-graph/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/extending-mckays-e8-graph/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 25 Jan 2018 14:01:43 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Duncan]]></category>
+		<category><![CDATA[E8]]></category>
+		<category><![CDATA[McKay]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7837</guid>
+
+					<description><![CDATA[If you take two Fischer involutions in the monster (elements of conjugacy class 2A) and multiply them, the resulting element surprisingly belongs to one of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>If you take two Fischer involutions in the monster (elements of conjugacy class 2A) and multiply them, the resulting element surprisingly belongs to one of just 9 conjugacy classes:</p>
+<p>1A,2A,2B,3A,3C,4A,4B,5A or 6A</p>
+<p>The orders of these elements are exactly the dimensions of the fundamental root for the extended $E_8$ Dynkin diagram.</p>
+<p>This is the content of <a href="https://lievenlebruyn.github.io/neverendingbooks/e8-from-moonshine-groups">John McKay&#8217;s E(8)-observation</a> : there should be a precise relation between the nodes of the extended Dynkin diagram and these 9 conjugacy classes in such a way that the order of the class corresponds to the component of the fundamental root. More precisely, one conjectures the following correspondence:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/e8monster.png"></p>
+<p>John Duncan found such a connection by considering carefully the corresponding moonshine groups and their inter-relation. For more on this, look at the old post <a href="https://lievenlebruyn.github.io/neverendingbooks/e8-from-moonshine-groups">E8 from moonshine groups</a>. The extended Dynkin diagram with these moonshine groups as vertices is:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Duncan1.png"></p>
+<p>Duncan does this by assigning numbers to moonshine groups: the <em>dimension</em> is the order of the corresponding monster element and the <em>valency</em> is one more than the copies of $C_2$ generated by the Atkin-Lehner involutions in the moonshine group.</p>
+<p>One might ask whether there is a graph on all 171 moonshine groups, compatible with the valencies of every vertex.</p>
+<p>Now, even for the 9 groups in McKay&#8217;s question, the valencies do not determine the graph uniquely and Duncan proceeds with an ad hoc condition on the edges.</p>
+<p>There is a partition on the 9 groups by the property whether or not the index of the intersection with $\Gamma_0(2)$ is at most two. Then Duncan declares that there cannot be an edge between two groups belonging to the same class.</p>
+<p>His motivation for this property comes from classical McKay-correspondence for the binary icosahedral group (where the vertices correspond to simple representations $S$, and the edges from $S$ to factors of $S \otimes V_2$, where $V_2$ is the restriction of the standard $2$-dimensional simple for $SU(2)$).</p>
+<p>Of the $9$ simples there are only $4$ faithful ones, $5$ come from simples of $A_5$. Because $\Gamma_0(2)$ is a subgroup of the modular group of index 2, he then views $\Gamma_0(2)$ as similar to the subgroup $A_5$ in the binary icosahedral group, and declares a moonshine group to be <em>faithful</em> if its index in the intersection with $\Gamma_0(2)$ is at most two.</p>
+<p>One might ask whether there is another, more natural, definition for having an edge (or multiple ones) between <em>arbitrary</em> moonshine groups.</p>
+<p>And, what is the full graph on the 171 groups?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/extending-mckays-e8-graph/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Moonshine for everyone</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/moonshine-for-everyone/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/moonshine-for-everyone/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 18 Jul 2017 18:57:36 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7114</guid>
+
+					<description><![CDATA[Today, Samuel Dehority, Xavier Gonzalez, Neekon Vafa and Roger Van Peski arXived their paper Moonshine for all finite groups. Originally, Moonshine was thought to be&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Today, Samuel Dehority, Xavier Gonzalez, Neekon Vafa and Roger Van Peski arXived their paper <a href="https://arxiv.org/abs/1707.05249">Moonshine for all finite groups</a>.</p>
+<p>Originally, <a href="https://lievenlebruyn.github.io/neverendingbooks/the-mckay-thompson-series">Moonshine</a> was thought to be connected to the <a href="https://en.wikipedia.org/wiki/Monster_group">Monster group</a>. McKay and Thompson observed that the first coefficients of the normalized elliptic modular invariant</p>
+<p>\[<br />
+J(\tau) = q^{-1} + 196884 q + 21493760 q^2 + 864229970 q^3 + \ldots<br />
+\]</p>
+<p>could be written as sums of dimensions of the first few irreducible representations of the monster group:</p>
+<p>\[<br />
+1=1,~\quad 196884=196883+1,~\quad 21493760=1+196883+21296876,~\quad &#8230; \]</p>
+<p>Soon it transpired that there ought to be an infinite dimensional graded vectorspace, the moonshine module</p>
+<p>\[<br />
+V^{\sharp} = \bigoplus_{n=-1}^{\infty}~V^{\sharp}_n \]</p>
+<p>with every component $V^{\sharp}_n$ being a representation of the monster group $\mathbb{M}$ of which the dimension coincides with the coefficient of $q^n$ in $J(\tau)$.</p>
+<p>It only got better, for any conjugacy class $[ g ]$ of the monster, if you took the character series</p>
+<p>\[<br />
+T_g(\tau) = \sum_{n=-1}^{\infty} Tr(g | V^{\sharp}_n) q^n \]</p>
+<p>you get a function invariant under the action of the subgroup</p>
+<p>\[<br />
+\Gamma_0(n) = \{ \begin{bmatrix} a &#038; b \\ c &#038; d \end{bmatrix}~:~c = 0~mod~n \} \]</p>
+<p>acting via transformations $\tau \mapsto \frac{a \tau + b}{c \tau + d}$ on the upper half plane where $n$ is the order of $g$ (or, for the experts, almost).</p>
+<p>Soon, further instances of &#8216;moonshine&#8217; were discovered for other simple groups, the unifying feature being that one associates to a group $G$ a graded representation $V$ such that the character series of this representation for an element $g \in G$ is an invariant modular function with respect to the subgroup $\Gamma_0(n)$ of the modular group, with $n$ being the order of $g$.</p>
+<p>Today, this group of people proved that there is &#8216;moonshine&#8217; for any finite group whatsoever.</p>
+<p>They changed the definition of moonshine slightly to introduce the notion of moonshine of depth $d$ which meant that they want the dimension sequence of their graded module to be equal to $J(\tau)$ under the action of the normalized $d$-th Hecke operator, which means equal to</p>
+<p>\[<br />
+\sum_{ac=d,0 \leq b &lt; c} J(\frac{a \tau + b}{c}) \]<br />
+as they are interested in the asymptotic behaviour of the components $V_n$ with respect to the regular representation of $G$.</p>
+<p><break /></p>
+<p>What baffled me was their much weaker observation (remark 2) saying that you get &#8216;moonshine&#8217; in the form described above, that is, a graded representation $V$ such that for every $g \in G$ you get a character series which is invariant under $\Gamma_0(n)$ with $n=ord(g)$ (and no smaller divisor of $n$), for every finite group $G$.</p>
+<p>And, more importantly, you can explain this to any student taking a first course in group theory as all you need is <a href="https://en.wikipedia.org/wiki/Cayley%27s_theorem">Cayley&#8217;s theorem</a> stating that any finite group is a subgroup of some symmetric group $S_n$.</p>
+<p>Here&#8217;s the idea: take the original monster-moonshine module $V^{\sharp}$ but forget all about the action of $\mathbb{M}$ (that is, consider it as a plain vectorspace) and consider the graded representation</p>
+<p>\[<br />
+V = (V^{\sharp})^{\otimes n} \]</p>
+<p>with the natural action of $S_n$ on the tensor product.</p>
+<p>Now, embed a la Cayley $G$ into $S_n$ then you know that the order of $g \in G$ is the least common multiple of the cycle lengths of the permutation it it send to. Now, it is fairly trivial to see that the character series of $V$ with respect to $g$ (having cycle lengths $(k_1,k_2,\dots,k_l)$, including cycles of length one) is equal to the product</p>
+<p>\[<br />
+J(k_1 \tau) J(k_2 \tau) \dots J(k_l \tau) \]</p>
+<p>which is invariant under $\Gamma_0(n)$ with $n = lcm(k_i)$ (but no $\Gamma_0(m)$ with $m$ a proper divisor of $n$).</p>
+<p>For example, for $G=S_4$ we have as character series of $(V^{\sharp})^{\otimes 4}$</p>
+<p>\[<br />
+(1)(2)(3)(4) \mapsto J(\tau)^4 \]</p>
+<p>\[<br />
+(12)(3)(4) \mapsto J(2 \tau) J(\tau)^2 \]</p>
+<p>\[<br />
+(12)(34) \mapsto J(2 \tau)^2 \]</p>
+<p>\[<br />
+(123)(4) \mapsto J(3 \tau) J(\tau) \]</p>
+<p>\[<br />
+(1234) \mapsto J(4 \tau) \]</p>
+<p>Clearly, the main results of the paper are much more subtle, but I&#8217;m already happy with this version of &#8216;moonshine for everyone&#8217;!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/moonshine-for-everyone/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Stirring a cup of coffee</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/stirring-a-cup-of-coffee/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/stirring-a-cup-of-coffee/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 23 Dec 2016 20:10:25 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[personal]]></category>
+		<category><![CDATA[rants]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=6998</guid>
+
+					<description><![CDATA[Please allow for a couple of end-of-semester bluesy ramblings. I just finished grading the final test of the last of five courses I lectured this&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Please allow for a couple of end-of-semester bluesy ramblings. I just finished grading the final test of the last of five courses I lectured this semester.</p>
+<p>Most of them went, I believe, rather well.</p>
+<p>As always, it was fun to teach an introductory group theory course to second year physics students.</p>
+<p>Personally, I did enjoy our Lie theory course the most, given for a mixed public of both mathematics and physics students. We did the spin-group $SU(2)$ and its connection with $SO_3(\mathbb{R})$ in gruesome detail, introduced the other classical groups, and proved complete reducibility of representations. The funnier part was applying this to the $U(1) \times SU(2) \times SU(3)$-representation of the standard model and its extension to the $SU(5)$ GUT.</p>
+<p>Ok, but with a sad undertone, was the second year course on representations of finite groups. Sad, because it was the last time I&#8217;m allowed to teach it. My younger colleagues decided there&#8217;s no place for RT on the new curriculum.</p>
+<p>Soit.</p>
+<p>The final lecture is often an eye-opener, or at least, I hope it is/was.</p>
+<p>Here&#8217;s the idea: someone whispers in your ear that there might be a simple group of order $60$. Armed with only the Sylow-theorems and what we did in this course we will determine all its conjugacy classes, its full character table, and finish proving that this mysterious group is none other than $A_5$.</p>
+<p>Right now I&#8217;m just a tad disappointed only a handful of students came close to solving the same problem for order $168$ this afternoon.</p>
+<p>Clearly, I gave them ample extra information: the group only has elements of order $1,2,3,4$ and $7$ and the centralizer of one order $2$ element is the dihedral group of order $8$. They had to determine the number of distinct irreducible representations, that is, the number of conjugacy classes. Try it yourself (Solution at the end of this post).</p>
+<p>For months I felt completely deflated on Tuesday nights, for I had to teach the remaining two courses on that day.</p>
+<p>There&#8217;s this first year Linear Algebra course. After teaching for over 30 years it was a first timer for me, and probably for the better. I guess 15 years ago I would have been arrogant enough to insist that the only way to teach linear algebra properly was to do representations of quivers&#8230;</p>
+<p>Now, I realise that linear algebra is perhaps the only algebra course the majority of math-students will need in their further career, so it is best to tune its contents to the desires of the other colleagues: inproducts, determinants as volumes, Markov-processes and the like.</p>
+<p>There are thousands of linear algebra textbooks, the one feature they all seem to lack is conciseness. What kept me going throughout this course was trying to come up with the shortest proofs ever for standard results. No doubt, next year the course will grow on me.</p>
+<p>Then, there was a master course on algebraic geometry (which was supposed to be on scheme theory, moduli problems such as the classification of fat points (as in the <a href="https://lievenlebruyn.github.io/neverendingbooks/car-crashes-in-scheme-theory">car crash post</a>, etale topology and the like) which had a bumpy start because class was less prepared on varieties and morphisms than I had hoped for.</p>
+<p>Still, judging on the quality of the papers students are beginning to hand in (today I received one doing serious stuff with stacks) we managed to cover a lot of material in the end.</p>
+<p>I&#8217;m determined to teach that first course on algebraic geometry myself next year.</p>
+<p>Which brought me wondering about the ideal content of such a course.</p>
+<p>Half a decade ago I wrote a couple of posts such as <a href="https://lievenlebruyn.github.io/neverendingbooks/mumfords-treasure-map">Mumford&#8217;s treasure map</a>, <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-functor-of-points">Grothendieck&#8217;s functor of points</a>, <a href="https://lievenlebruyn.github.io/neverendingbooks/manins-geometric-axis">Manin&#8217;s geometric axis</a> and the like, which are still quite readable.</p>
+<p>In the functor of points-post I referred to a comment thread <a href="https://sbseminar.wordpress.com/2009/08/06/algebraic-geometry-without-prime-ideals/">Algebraic geometry without prime ideals</a> at the Secret Blogging Seminar.</p>
+<p>As I had to oversee a test this afternoon, I printed out all comments (a full 29 pages!) and had a good time reading them. At the time I favoured the POV advocated by David Ben-Zvi and Jim Borger (functor of points instead of locally ringed schemes).</p>
+<p>Clearly they are right, but then so was I when I thought the &#8216;right&#8217; way to teach linear algebra was via quiver-representations&#8230;</p>
+<p>We&#8217;ll see what I&#8217;ll try out next year.</p>
+<p>You may have wondered about the title of this post. It&#8217;s derived from a paper Raf Bocklandt (of the Korteweg-de Vries Institute in Amsterdam) arXived some days ago: <a href="https://arxiv.org/abs/1612.06820">Reflections in a cup of coffee</a>, which is an extended version of a Brouwer-lecture he gave. Raf has this to say about the Brouwer fixed-point theorem.</p>
+<p>&#8220;The theorem is usually explained in worldly terms by looking at a cup of coffee. In this setting it states that no matter how you stir your cup, there will always be a point in the liquid that did not change position and if you try to move that part by further stirring you will inevitably move some other part back into its original position. Legend even has it that Brouwer came up with the idea while stirring in a real cup, but whether this is true we’ll never know. What is true however is that Brouwers refections on the topic had a profound impact on mathematics and would lead to lots of new developments in geometry.&#8221;</p>
+<p>I wish you all a pleasant end of 2016 and a much better 2017.</p>
+<p>&#8212;</p>
+<p>As to the 168-solution: Sylow says there are 8 7-Sylows giving 48 elements of order 7. The centralizer of each of them must be $C_7$ (given the restriction on the order of elements) so two conjugacy classes of them. Similarly each conjugacy class of an order 3 element must contain 56 elements. There is one conjugacy class of an order 2 element having 21 elements (because the centralizer is $D_4$) giving also a conjugacy class of an order 4 element consisting of 42 elements. Together with the identity these add up to 168 so there are 6 irreducible representations.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/stirring-a-cup-of-coffee/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>let&#8217;s spend 3K on (math)books</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lets-spend-3k-on-mathbooks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lets-spend-3k-on-mathbooks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 08 Dec 2016 09:28:31 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=6909</guid>
+
+					<description><![CDATA[Santa gave me 3000 Euros to spend on books. One downside: I have to give him my wish-list before monday. So, I&#8217;d better get started.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Santa gave me 3000 Euros to spend on books. One downside: I have to give him my wish-list before monday. So, I&#8217;d better get started. Clearly, any further suggestions you might have will be much appreciated, either in the comments below or more directly via email.</p>
+<p>Today I&#8217;ll focus on my own interests: algebraic geometry, non-commutative geometry and representation theory. I do own a fair amount of books already which accounts for the obvious omissions in the lists below (such as Hartshorne, Mumford or Eisenbud-Harris in AG, Fulton-Harris in RT or the &#8216;bibles&#8217; in NCG).</p>
+<p>[section_title text=&#8221;Algebraic geometry&#8221;]</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/alggeobookspng.png"></p>
+<p>Here, I base myself on (and use quotes from) the excellent answer by Javier Alvarez to the MathOverflow post <a href="http://mathoverflow.net/questions/2446/best-algebraic-geometry-text-book-other-than-hartshorne">Best Algebraic Geometry text book? (other than Hartshorne)</a>.</p>
+<p>In no particular order:</p>
+<p><a href="https://www.amazon.com/Lectures-Projective-Varieties-Textbooks-Mathematics/dp/3037190647">Lectures on Curves, Surfaces and Projective Varieties</a> by Ettore Carletti, Dionisio Gallarati, and Giacomo Monti Bragadin and Mauro C. Beltrametti.<br />
+&#8220;which starts from the very beginning with a classical geometric style. Very complete (proves Riemann-Roch for curves in an easy language) and concrete in classic constructions needed to understand the reasons about why things are done the way they are in advanced purely algebraic books. There are very few books like this and they should be a must to start learning the subject. (Check out <a href="http://www.dima.unige.it/~beltrame/Math.Rev.pdf">Dolgachev&#8217;s review</a>.)&#8221;</p>
+<p><a href="https://www.amazon.com/Royal-Road-Algebraic-Geometry/dp/3642192246">A Royal Road to Algebraic Geometry</a> by  Audun Holme. &#8220;This new title is wonderful: it starts by introducing algebraic affine and projective curves and varieties and builds the theory up in the first half of the book as the perfect introduction to Hartshorne&#8217;s chapter I. The second half then jumps into a categorical introduction to schemes, bits of cohomology and even glimpses of intersection theory.&#8221;</p>
+<p><a href="https://www.amazon.com/Algebraic-Geometry-Arithmetic-Graduate-Mathematics/dp/0199202494">Liu Qing &#8211; &#8220;Algebraic Geometry and Arithmetic Curves&#8221;</a>. &#8220;It is a very complete book even introducing some needed commutative algebra and preparing the reader to learn arithmetic geometry like Mordell&#8217;s conjecture, Faltings&#8217; or even Fermat-Wiles Theorem.&#8221;</p>
+<p><a href="https://www.amazon.com/Algebraic-Geometry-Schemes-Exercises-Mathematics/dp/3834806765">Görtz; Wedhorn &#8211; Algebraic Geometry I, Schemes with Examples and Exercises</a>. labeled &#8216;the best on schemes&#8217; by Alvarez. &#8220;Tons of stuff on schemes; more complete than Mumford&#8217;s Red Book. It does a great job complementing Hartshorne&#8217;s treatment of schemes, above all because of the more solvable exercises.&#8221;</p>
+<p><a href="https://www.amazon.com/Lectures-Resolution-Singularities-Mathematics-Studies/dp/0691129231">Kollár &#8211; Lectures on Resolution of Singularities</a>. &#8220;Great exposition, useful contents and examples on topics one has to deal with sooner or later.&#8221;</p>
+<p><a href="https://www.amazon.com/Birational-Algebraic-Varieties-Cambridge-Mathematics/dp/0521060222">Kollár; Mori &#8211; Birational Geometry of Algebraic Varieties</a>. &#8220;Considered as harder to learn from by some students, it has become the standard reference on birational geometry.&#8221;</p>
+<p>And further, as a follow-up on their previous book on the computational side of AG:</p>
+<p><a href="https://www.amazon.com/dp/0387207333/?tag=stackoverfl08-20">Using Algebraic Geometry</a> by Cox, Little and O&#8217;Shea.</p>
+<p>[section_title text=&#8221;Non-commutative geometry&#8221;]</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2016/12/ncgbookspng.png"><img fetchpriority="high" decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2016/12/ncgbookspng.png" alt="ncgbookspng" width="1217" height="313" class="alignnone size-full wp-image-6923" srcset="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2016/12/ncgbookspng.png 1217w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2016/12/ncgbookspng-300x77.png 300w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2016/12/ncgbookspng-1024x263.png 1024w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2016/12/ncgbookspng-768x198.png 768w" sizes="(max-width: 1217px) 100vw, 1217px" /></a></p>
+<p><a href="https://www.amazon.com/Noncommutative-Geometry-Particle-Physics-Mathematical/dp/9401791619">Noncommutative Geometry and Particle Physics</a> by Walter van Suijlekom. Blurb: &#8220;This book provides an introduction to noncommutative geometry and presents a number of its recent applications to particle physics. It is intended for graduate students in mathematics/theoretical physics who are new to the field of noncommutative geometry, as well as for researchers in mathematics/theoretical physics with an interest in the physical applications of noncommutative geometry. In the first part, we introduce the main concepts and techniques by studying finite noncommutative spaces, providing a “light” approach to noncommutative geometry. We then proceed with the general framework by defining and analyzing noncommutative spin manifolds and deriving some main results on them, such as the local index formula. In the second part, we show how noncommutative spin manifolds naturally give rise to gauge theories, applying this principle to specific examples. We subsequently geometrically derive abelian and non-abelian Yang-Mills gauge theories, and eventually the full Standard Model of particle physics, and conclude by explaining how noncommutative geometry might indicate how to proceed beyond the Standard Model.&#8221;</p>
+<p><a href="https://www.amazon.com/Invitation-Noncommutative-Geometry-Matilde-Marcolli/dp/9812707794">An Invitation To Noncommutative Geometry </a> by Matilde Marcolli. Blurb: &#8220;This is the first existing volume that collects lectures on this important and fast developing subject in mathematics. The lectures are given by leading experts in the field and the range of topics is kept as broad as possible by including both the algebraic and the differential aspects of noncommutative geometry as well as recent applications to theoretical physics and number theory.&#8221;</p>
+<p><a href="https://www.amazon.com/Noncommutative-Geometry-Physics-Renormalisation-Mathematics/dp/3037190086">Noncommutative Geometry and Physics: Renormalisation, Motives, Index Theory</a>. Blurb: &#8220;This collection of expository articles grew out of the workshop &#8220;Number Theory and Physics&#8221; held in March 2009 at The Erwin Schrödinger International Institute for Mathematical Physics, Vienna. The common theme of the articles is the influence of ideas from noncommutative geometry (NCG) on subjects ranging from number theory to Lie algebras, index theory, and mathematical physics. Matilde Marcolli&#8217;s article gives a survey of relevant aspects of NCG in number theory, building on an introduction to motives for beginners by Jorge Plazas and Sujatha Ramdorai.&#8221;</p>
+<p><a href="https://www.amazon.com/Feynman-Motives-Matilde-Marcolli/dp/9814271209">Feynman Motives</a> by Matilde Marcolli. Blurb: &#8220;This book presents recent and ongoing research work aimed at understanding the mysterious relation between the computations of Feynman integrals in perturbative quantum field theory and the theory of motives of algebraic varieties and their periods. One of the main questions in the field is understanding when the residues of Feynman integrals in perturbative quantum field theory evaluate to periods of mixed Tate motives.&#8221; But then, check out Matilde&#8217;s recent <a href="https://www.facebook.com/matilde.marcolli/posts/10202334709845648">FaceBook status-update</a>.</p>
+<p>[section_title text=&#8221;Representation theory&#8221;]</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2016/12/repthybookspng.png"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2016/12/repthybookspng.png" alt="repthybookspng" width="1218" height="317" class="alignnone size-full wp-image-6927" srcset="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2016/12/repthybookspng.png 1218w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2016/12/repthybookspng-300x78.png 300w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2016/12/repthybookspng-1024x267.png 1024w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2016/12/repthybookspng-768x200.png 768w" sizes="(max-width: 1218px) 100vw, 1218px" /></a></p>
+<p><a href="https://www.amazon.com/dp/0817632115/?tag=stackoverfl08-20">An Introduction to the Langlands Program</a> by J. Bernstein (editor). Blurb: &#8220;This book presents a broad, user-friendly introduction to the Langlands program, that is, the theory of automorphic forms and its connection with the theory of L-functions and other fields of mathematics. Each of the twelve chapters focuses on a particular topic devoted to special cases of the program. The book is suitable for graduate students and researchers.&#8221;</p>
+<p><a href="https://www.amazon.com/Representation-Theory-Finite-Groups-Introductory/dp/1461407753">Representation Theory of Finite Groups: An Introductory Approach</a> by Benjamin Steinberg.</p>
+<p><a href="http://www.springer.com/us/book/9783319439303">Representation Theory of Finite Monoids</a> by Benjamin Steinberg. Blurb: &#8220;This first text on the subject provides a comprehensive introduction to the representation theory of finite monoids. Carefully worked examples and exercises provide the bells and whistles for graduate accessibility, bringing a broad range of advanced readers to the forefront of research in the area. Highlights of the text include applications to probability theory, symbolic dynamics, and automata theory. Comfort with module theory, a familiarity with ordinary group representation theory,  and the basics of Wedderburn theory, are prerequisites for advanced graduate level study.&#8221;</p>
+<p>How am I doing? 914 dollars&#8230;</p>
+<p>Way to go, same exercise tomorrow. Again, suggestions/warnings welcome!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lets-spend-3k-on-mathbooks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Quiver Grassmannians can be anything</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quiver-grassmannians-can-be-anything/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quiver-grassmannians-can-be-anything/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 02 May 2013 14:52:52 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Grassmann]]></category>
+		<category><![CDATA[Reineke]]></category>
+		<guid isPermaLink="false">http://192.168.0.163/?p=5768</guid>
+
+					<description><![CDATA[A standard Grassmannian $Gr(m,V)$ is the manifold having as its points all possible $m$-dimensional subspaces of a given vectorspace $V$. As an example, $Gr(1,V)$ is&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/grassmann.jpg" align=right>A standard <a href="http://en.wikipedia.org/wiki/Grassmannian">Grassmannian</a> $Gr(m,V)$ is the manifold having as its points all possible $m$-dimensional subspaces of a given vectorspace $V$. As an example, $Gr(1,V)$ is the set of lines through the origin in $V$ and therefore is the projective space $\mathbb{P}(V)$.  Grassmannians are among the nicest projective varieties, they are smooth and allow a cell decomposition.</p>
+<p>A quiver $Q$ is just an oriented graph. Here&#8217;s an example</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/quiver1.gif"><br />
+</center></p>
+<p>A representation $V$ of a quiver assigns a vector-space to each vertex and a linear map between these vertex-spaces to every arrow. As an example, a representation $V$ of the quiver $Q$ consists of a triple of vector-spaces $(V_1,V_2,V_3)$ together with linear maps $f_a~:~V_2 \rightarrow V_1$ and $f_b,f_c~:~V_2 \rightarrow V_3$.</p>
+<p>A sub-representation $W \subset V$ consists of subspaces of the vertex-spaces of $V$ and linear maps between them compatible with the maps of $V$. The dimension-vector of $W$ is the vector with components the dimensions of the vertex-spaces of $W$.</p>
+<p>This means in the example that we require $f_a(W_2) \subset W_1$ and $f_b(W_2)$ and $f_c(W_2)$ to be subspaces of $W_3$. If the dimension of $W_i$ is $m_i$ then $m=(m_1,m_2,m_3)$ is the dimension vector of $W$.</p>
+<p>The quiver-analogon of the Grassmannian $Gr(m,V)$ is the <strong>Quiver Grassmannian</strong> $QGr(m,V)$ where $V$ is a quiver-representation and $QGr(m,V)$ is the collection of all possible sub-representations $W \subset V$ with fixed dimension-vector $m$. One might expect these quiver Grassmannians to be rather nice projective varieties.</p>
+<p>However, last week <a href="http://wmaz.math.uni-wuppertal.de/reineke/">Markus Reineke</a> posted a 2-page note on the arXiv proving that <a href="http://arxiv.org/abs/1204.5730">every projective variety is a quiver Grassmannian</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/elliptic.jpg" align=left> Let&#8217;s illustrate the argument by finding a quiver Grassmannian $QGr(m,V)$ isomorphic to the <a href="http://en.wikipedia.org/wiki/Elliptic_curve">elliptic curve</a> in $\mathbb{P}^2$ with homogeneous equation $Y^2Z=X^3+Z^3$.</p>
+<p>Consider the <a href="http://en.wikipedia.org/wiki/Veronese_surface">Veronese embedding</a> $\mathbb{P}^2 \rightarrow \mathbb{P}^9$ obtained by sending a point $(x:y:z)$ to the point</p>
+<p>\[ (x^3:x^2y:x^2z:xy^2:xyz:xz^2:y^3:y^2z:yz^2:z^3) \]</p>
+<p>The upshot being that the elliptic curve is now realized as the intersection of the image of $\mathbb{P}^2$ with the hyper-plane $\mathbb{V}(X_0-X_7+X_9)$ in the standard projective coordinates $(x_0:x_1:\cdots:x_9)$ for $\mathbb{P}^9$.</p>
+<p>To describe the equations of the image of $\mathbb{P}^2$ in $\mathbb{P}^9$ consider the $6 \times 3$ matrix with the rows corresponding to $(x^2,xy,xz,y^2,yz,z^2)$ and the columns  to $(x,y,z)$ and the entries being the multiplications, that is</p>
+<p>$$\begin{bmatrix} x^3 &#038; x^2y &#038; x^2z \\ x^2y &#038; xy^2 &#038; xyz \\ x^2z &#038; xyz &#038; xz^2 \\ xy^2 &#038; y^3 &#038; y^2z \\ xyz &#038; y^2z &#038; yz^2 \\ xz^2 &#038; yz^2 &#038; z^3 \end{bmatrix} = \begin{bmatrix} x_0 &#038; x_1 &#038; x_2 \\ x_1 &#038; x_3 &#038; x_4 \\ x_2 &#038; x_4 &#038; x_5 \\ x_3 &#038; x_6 &#038; x_7 \\ x_4 &#038; x_7 &#038; x_8 \\ x_5 &#038; x_8 &#038; x_9 \end{bmatrix}$$</p>
+<p>But then, a point $(x_0:x_1: \cdots : x_9)$ belongs to the image of $\mathbb{P}^2$ if (and only if) the matrix on the right-hand side has rank $1$ (that is, all its $2 \times 2$ minors vanish).  Next, consider the quiver</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/quiver2.gif"><br />
+</center></p>
+<p>and consider the representation $V=(V_1,V_2,V_3)$ with vertex-spaces $V_1=\mathbb{C}$, $V_2 = \mathbb{C}^{10}$ and $V_2 = \mathbb{C}^6$. The linear maps $x,y$ and $z$ correspond to the columns of the matrix above, that is</p>
+<p>$$(x_0,x_1,x_2,x_3,x_4,x_5,x_6,x_7,x_8,x_9) \begin{cases} \rightarrow^x~(x_0,x_1,x_2,x_3,x_4,x_5) \\ \rightarrow^y~(x_1,x_3,x_4,x_6,x_7,x_8) \\ \rightarrow^z~(x_2,x_4,x_5,x_7,x_8,x_9) \end{cases}$$</p>
+<p>The linear map $h~:~\mathbb{C}^{10} \rightarrow \mathbb{C}$ encodes the equation of the hyper-plane, that is $h=x_0-x_7+x_9$.</p>
+<p>Now consider the quiver Grassmannian $QGr(m,V)$ for the dimension vector $m=(0,1,1)$. A base-vector $p=(x_0,\cdots,x_9)$ of $W_2 = \mathbb{C}p$ of a subrepresentation $W=(0,W_2,W_3) \subset V$ must be such that $h(x)=0$, that is, $p$ determines a point of the hyper-plane.</p>
+<p>Likewise the vectors $x(p),y(p)$ and $z(p)$ must all lie in the one-dimensional space $W_3 = \mathbb{C}$, that is, the right-hand side matrix above must have rank one and hence $p$ is a point in the image of $\mathbb{P}^2$ under the Veronese.</p>
+<p>That is, $Gr(m,V)$ is isomorphic to the intersection of this image with the hyper-plane and hence is isomorphic to the elliptic curve.</p>
+<p>The general case is similar as one can view any projective subvariety $X \rightarrow \mathbb{P}^n$ as isomorphic to the intersection of the image of a specific $d$-uple Veronese embedding $\mathbb{P}^n \rightarrow \mathbb{P}^N$ with a number of hyper-planes in $\mathbb{P}^N$.</p>
+<p><strong>ADDED</strong> For those desperate to read the original comments-section, here&#8217;s the <a href="http://web.archive.org/web/20120918072747/https://lievenlebruyn.github.io/neverendingbooks/index.php/quiver-grassmannians-can-be-anything.html">link</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quiver-grassmannians-can-be-anything/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

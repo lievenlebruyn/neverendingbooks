@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Obsidian &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/obsidian/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 23 Mar 2023 14:44:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The super-vault of missing notes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 23 Mar 2023 14:44:37 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[missing]]></category>
+		<category><![CDATA[notes]]></category>
+		<category><![CDATA[super-vault]]></category>
+		<category><![CDATA[the]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11102</guid>
+
+					<description><![CDATA[Last time we&#8217;ve constructed a wide variety of Jaccard-like distance functions $d(m,n)$ on the set of all notes in our vault $V = \{ k,l,m,n,\dots&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">Last time</a> we&#8217;ve constructed a wide variety of Jaccard-like distance functions $d(m,n)$ on the set of all notes in our vault $V = \{ k,l,m,n,\dots \}$. That is, $d(m,n) \geq 0$ and for each triple of notes we have a triangle inequality</p>
+<p>$$d(k,l)+d(l,m) \geq d(k,m)$$</p>
+<p>By construction we had $d(m,n)=d(n,m)$, but we can modify any of these distances by setting $d'(m,n)= \infty$ if there is no path of internal links from note $m$ to note $n$, and $d'(m,n)=d(m,n)$ otherwise. This new generalised distance is no longer symmetric, but still satisfies the triangle inequality, and turns $V$ into a <a href="https://en.wikipedia.org/wiki/Metric_space#Pseudoquasimetrics">Lawvere space</a>.</p>
+<p>$V$ becomes an <a href="https://en.wikipedia.org/wiki/Enriched_category">enriched category</a> over the monoidal category $[0,\infty]=\mathbb{R}_+ \cup \{ \infty \}$ (the poset-category for the <em>reverse</em> ordering ($a \rightarrow b$ iff $a \geq b$) with $+$ as &#8216;tensor product&#8217; and $0$ as unit). The &#8216;enrichment&#8217; is the map</p>
+<p>$$V \times V \rightarrow [0,\infty] \qquad (m,n) \mapsto d(m,n)$$</p>
+<p>Writers (just like children) <a href="https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits">have always loved colimits</a>. They want to morph their notes into a compelling story. Sadly, such colimits do not always exist yet in our vault category. They are among too many notes still missing from it.</p>
+<p><center><br />
+<img decoding="async" src="https://www.eleanorkonik.com/content/images/size/w1460/wp-content/uploads/2021/02/tracy-adams-TEemXOpR3cQ-unsplash-scaled-e1612551232426.jpg" width=80%><br />
+(<a href="https://www.eleanorkonik.com/obsidian-for-writing/">Image credit</a>)<br />
+</center></p>
+<p>For ordinary categories, the way forward is to &#8216;upgrade&#8217; your category to the presheaf category. In it, &#8216;the child can cobble together crazy constructions to his heart’s content&#8217;. For our &#8216;enriched&#8217; vault $V_d$ we should look at the (enriched) category of enriched presheaves $\widehat{V_d}$. In it, the writer will find inspiration on how to cobble together her texts.</p>
+<p>An enriched presheaf is a map $p : V \rightarrow [0,\infty]$ such that for all notes $m,n \in V$ we have</p>
+<p>$$d(m,n) + p(n) \geq p(m)$$</p>
+<p>Think of $p(n)$ as the distance (or similarity) of the virtual note $p$ to the existing note $n$, then this condition is just an extension of the triangle inequality. The lower the value of $p(n)$ the closer $p$ resembles $n$.</p>
+<p>Each note $n \in V$ determines its Yoneda presheaf $y_n : V \rightarrow [0,\infty]$ by $m \mapsto d(m,n)$. By the triangle inequality this is indeed an enriched presheaf in $\widehat{V_d}$.</p>
+<p>The set of all enriched presheaves $\widehat{V_d}$ has a lot of extra structure. It is a poset</p>
+<p>$$p \leq q \qquad \text{iff} \qquad \forall n \in V : p(n) \leq q(n)$$</p>
+<p>with minimal element $0 : \forall n \in V, 0(n)=0$, and maximal element $1 : \forall n \in V, 1(n)=\infty$.</p>
+<p>It is even a lattice with $p \vee q(n) = max(p(n),q(n))$ and $p \wedge q(n)=min(p(n),q(n))$. It is easy to check that $p \wedge q$ and $p \vee q$ are again enriched presheaves.</p>
+<p>Here&#8217;s $\widehat{V_d}$ when the vault consists of just two notes $V=\{ m,n \}$ of non-zero distance to each other (whether symmetric or not) as a subset of $[0,\infty] \times [0,\infty]$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enriched1corr.png" width=60%><br />
+</center></p>
+<p>This vault $\widehat{V_d}$ of all missing (and existing) notes is again enriched over $[0,\infty]$ via</p>
+<p>$$\widehat{d} : \widehat{V_d} \times \widehat{V_d} \rightarrow [0,\infty] \qquad \widehat{d}(p,q) = max(0,\underset{n \in V}{sup} (q(n)-p(n)))$$</p>
+<p>The triangle inequality follows because the definition of $\widehat{d}(p,q)$ is equivalent to $\forall m \in V : \widehat{d}(p,q)+p(m) \geq q(m)$. Even if we start from a symmetric distance function $d$ on $V$, it is clear that this extended distance $\widehat{d}$ on $\widehat{V_d}$ is far from symmetric. The Yoneda map</p>
+<p>$$y : V_d \rightarrow \widehat{V_d} \qquad n \mapsto y_n$$</p>
+<p>is an isometry and the enriched version of the Yoneda lemma says that for all $p \in \widehat{V_d}$</p>
+<p>$$p(n) = \widehat{d}(y_n,p)$$</p>
+<p>Indeed, taking $m=n$ in $\widehat{d}(y_n,f)+y_n(m) \geq p(m)$ gives $\widehat{d}(y_n,p) \geq p(n)$. Conversely,<br />
+from the presheaf condition $d(m,n)+p(n) \geq p(m)$ for all $m,n$ follows</p>
+<p>$$p(n) \geq max(0,\underset{m \in V}{sup}(p(m)-d(m,n)) = \widehat{d}(y_n,p)$$</p>
+<p>In his paper <a href="https://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf">Taking categories seriously</a>, <a href="https://en.wikipedia.org/wiki/William_Lawvere">Bill Lawvere</a> suggested to consider enriched presheaves $p \in \widehat{V_d}$ as &#8216;refined&#8217; closed set of the vault-space $V_d$.</p>
+<p>For every subset of notes $X \subset V$ we can consider the presheaf (use triangle inequality)</p>
+<p>$$p_X : V \rightarrow [0,\infty] \qquad m \mapsto \underset{n \in X}{inf}~d(m,n)$$</p>
+<p>then its <em>zero set</em> $Z(p_X) = \{ m \in V~:~p_X(m)=0 \}$ can be thought of as the closure of $X$, and the collection of all such closed subsets define a topology on $V$.</p>
+<p>In our simple example of the two note vault $V=\{ m,n \}$ this is just the discrete topology, but we can get more interesting spaces. If $d(n,m)=0$ but $d(m,n) > 0$</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enriched3corr.png" width=50%><br />
+</center></p>
+<p>we get the <a href="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_space">Sierpinski space</a>: $n$ is the only closed point, and lies in the closure of $m$. Of course, if your vault contains thousands of notes, you might get more interesting topologies.</p>
+<p>In the special case when $V_d$ is a poset-category, as was the case in <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">the shape of languages</a> post, this topology is the down-set (or up-set) topology.</p>
+<p>Now, what is this topology when you start with the Lawvere-space $\widehat{V_d}$? From the definitions we see that</p>
+<p>$$\widehat{d}(p,q) = 0 \quad \text{iff} \quad \forall n \in V~:~p(n) \geq q(n) \quad \text{iff} \quad p \geq q$$</p>
+<p>So, all presheaves in the up-set $\uparrow_p$ lie in the closure of $p$, and $p$ lies in the closure of all everything in the down-set $\downarrow_p$ of $p$. So, this time the topology has as its closed sets all down-sets of the poset $\widehat{V_d}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enriched2corr.png" width=47%><br />
+</center></p>
+<p>What&#8217;s missing is a good definition for the implication $p \Rightarrow q$ between two enriched presheaves $p,q \in \widehat{V_d}$. In <a href="https://arxiv.org/abs/2106.07890">An enriched category theory of language: from syntax to semantics</a> it is said that this should be, perhaps only to be used in their special poset situation (with adapted notations)</p>
+<p>$$p \Rightarrow q : V \rightarrow [0,\infty] \qquad \text{where} \quad (p \Rightarrow q)(n) = \widehat{d}(y_n \wedge p,q)$$</p>
+<p>but I can&#8217;t even show that this is a presheaf. I may be horribly wrong, but in their proof of this (lemma 5) they seem to use their lemma 4, but with the two factors swapped.</p>
+<p>If you have suggestions, please let me know. And if you trow Kelly&#8217;s <a href="http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf">Basic concepts of enriched category theory</a> at me, please add some guidelines on how to use it. I&#8217;m just a passer-by.</p>
+<p>Probably, I should also read up on <a href="https://ncatlab.org/nlab/show/Isbell+duality">Isbell duality</a>, as suggested by Lawvere in his paper <a href="https://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf">Taking categories seriously</a>, and worked out by Simon Willerton in <a href="https://arxiv.org/abs/1302.4370">Tight spans, Isbell completions and semi-tropical modules</a>&#8230;</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></li>
+</ul>
+<p><strong>Next</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest">The tropical brain forest</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The enriched vault</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 10 Mar 2023 08:42:29 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[Bradley]]></category>
+		<category><![CDATA[brat]]></category>
+		<category><![CDATA[enriched]]></category>
+		<category><![CDATA[enriched category]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[graph analysis]]></category>
+		<category><![CDATA[Jaccard]]></category>
+		<category><![CDATA[language]]></category>
+		<category><![CDATA[Lawvere]]></category>
+		<category><![CDATA[metric]]></category>
+		<category><![CDATA[Terilla]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[vault]]></category>
+		<category><![CDATA[Vlassopoulos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11059</guid>
+
+					<description><![CDATA[In the shape of languages we started from a collection of notes, made a poset of text-snippets from them, and turned this into an enriched&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">the shape of languages</a> we started from a collection of notes, made a poset of text-snippets from them, and turned this into an <a href="https://en.wikipedia.org/wiki/Enriched_category">enriched category</a> over the unit interval $[0,1]$, following the paper paper <a href="https://arxiv.org/abs/2106.07890">An enriched category theory of language: from syntax to semantics</a> by Tai-Danae Bradley, John Terilla and Yiannis Vlassopoulos.</p>
+<p>This allowed us to view the text-snippets as points in a Lawvere <a href="https://en.wikipedia.org/wiki/Metric_space#Pseudoquasimetrics">pseudoquasi metric space</a>, and to define a &#8216;topos&#8217; of enriched presheaves on it, including the Yoneda-presheaves containing semantic information of the snippets.</p>
+<p>In the <a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">previous post</a> we looked at &#8216;building a second brain&#8217; apps, such as <a href="https://logseq.com/">LogSeq</a> and <a href="https://obsidian.md/">Obsidian</a>, and hoped to use them to test the conjectured <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">&#8216;topos of the unconscious&#8217;</a>.</p>
+<p>In <a href="https://obsidian.md/">Obsidian</a>, a <em>vault</em> is a collection of notes (with their tags and other meta-data), together with all links between them.</p>
+<p>The vault of the language-poset will have one note for every text-snipped, and have a link from note $n$ to note $m$ if $m$ is a text-fragment in $n$.</p>
+<p>In their paper, Bradley, Terilla and Vlassopoulos use the enrichment structure where $\mu(n,m) \in [0,1]$ is the conditional probablity of the fragment $m$ to be extended to the larger text $n$.</p>
+<p>Most Obsidian vaults are a lot more complicated, possibly having oriented cycles in their internal link structure.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Gbrain1.png" width=100% ><br />
+</center></p>
+<p>Still, it is always possible to turn the notes of the vault into a category enriched over $[0,1]$, in multiple ways, depending on whether we want to focus on the internal link-structure or rather on the semantic similarity between notes, or any combination of these.</p>
+<p>Let $X$ be a set of searchable data from your vault. Elements of $X$ may be</p>
+<ul>
+<li>words contained in notes</li>
+<li>in- or out-going links between notes</li>
+<li>tags used</li>
+<li><a href="https://help.obsidian.md/Editing+and+formatting/Metadata">YAML-frontmatter</a></li>
+<li>&#8230;</li>
+</ul>
+<p>Assign a positive real number $r_x \geq 0$ to every $x \in X$. We see $r_x$ as the &#8216;relevance&#8217; we attach to the search term $x$. So, it is possible to emphasise certain key-words or tags, find certain links more important than others, and so on.</p>
+<p>For this relevance function $r : X \rightarrow \mathbb{R}_+$, we have a function defined on all subsets $Y$ of $X$</p>
+<p>$$f_r~:~\mathcal{P}(X) \rightarrow \mathbb{R}_+ \qquad Y \mapsto f_r(Y) = \sum_{x \in Y} r_x$$</p>
+<p>Take a note $n$ from the vault $V$ and let $X_n$ be the set of search terms from $X$ contained in $n$.</p>
+<p>We can then define a (generalised) <a href="https://en.wikipedia.org/wiki/Jaccard_index">Jaccard distance</a> for any pair of notes $n$ and $m$ in $V$:</p>
+<p>$$ d_r(n,m) = \begin{cases}<br />
+0~\text{if $f_r(X_n \cup X_m)=0$} \\ 1-\frac{f_r(X_n \cap X_m)}{f_r(X_n \cup X_m)}~\text{otherwise} \end{cases}$$</p>
+<p>This distance is symmetric, $d_r(n,n)=0$ for all notes $n$, and the crucial property is that it satisfies the triangle inequality, that is, for all triples of notes $l$, $m$ and $n$ we have</p>
+<p>$$d_r(l,n) \leq d_r(l,m)+d_r(m,n)$$</p>
+<p>For a proof in this generality see the paper <a href="https://arxiv.org/abs/1612.02696">A note on the triangle inequality for the Jaccard distance</a> by Sven Kosub.</p>
+<p>How does this help to make the vault $V$ into a category enriched over $[0,1]$?</p>
+<p>The poset $([0,1],\leq)$ is the category with objects all numbers $a \in [0,1]$, and a unique morphism $a \rightarrow b$ between two numbers iff $a \leq b$. This category has limits (infs) and colimits (sups), has a monoidal structure $a \otimes b = a \times b$ with unit object $1$, and an internal hom</p>
+<p>$$Hom_{[0,1]}(a,b) = (a,b) = \begin{cases} \frac{b}{a}~\text{if $b \leq a$} \\ 1~\text{otherwise} \end{cases}$$</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enrichedvault.png" width=100% ><br />
+</center></p>
+<p>We say that the vault is an <em>enriched category</em> over $[0,1]$ if for every pair of notes $n$ and $m$ we have a number $\mu(n,m) \in [0,1]$ satisfying for all notes $n$</p>
+<p>$$\mu(n,n)=1~\quad~\text{and}~\quad~\mu(m,l) \times \mu(n,m) \leq \mu(n,l)$$</p>
+<p>for all triples of notes $l,m$ and $n$.</p>
+<p>Starting from any relevance function $r : X \rightarrow \mathbb{R}_+$ we define for every pair $n$ and $m$ of notes the distance function $d_r(m,n)$ satisfying the triangle inequality. If we now take</p>
+<p>$$\mu_r(m,n) = e^{-d_r(m,n)}$$</p>
+<p>then the triangle inequality translates for every triple of notes $l,m$ and $n$ into</p>
+<p>$$\mu_r(m,l) \times \mu_r(n,m) \leq \mu_r(n,l)$$</p>
+<p>That is, every relevance function makes $V$ into a category enriched over $[0,1]$.</p>
+<p>Two simple relevance functions, and their corresponding distance and enrichment functions are available from Obsidian&#8217;s <a href="https://github.com/SkepticMystic/graph-analysis">Graph Analysis</a> community plugin.</p>
+<p>To get structural information on the link-structure take as $X$ the set of all incoming and outgoing links in your vault, with relevance function the constant function $1$.</p>
+<p>&#8216;Jaccard&#8217; in Graph Analysis computes for the current note $n$ the value of $1-d_r(n,m)$ for all notes $m$, so if this value is $a \in [0,1]$, then the corresponding enrichment value is $\mu_r(m,n)=e^{a-1}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/jaccardG.png" width=60% ><br />
+</center></p>
+<p>To get semantic information on the similarity between notes, let $X$ be the set of all words in all notes and take again as relevance function the constant function $1$.</p>
+<p>To access &#8216;BoW&#8217; (Bags of Words) in Graph Analysis, you must first install the (non-community) <a href="https://github.com/SkepticMystic/nlp">NLP</a> plugin which enables various types of natural language processing in the vault. The install is best done via the <a href="https://github.com/TfTHacker/obsidian42-brat">BRAT plugin</a> (perhaps I&#8217;ll do a couple of posts on Obsidian someday).</p>
+<p>If it gives for the current note $n$ the value $a$ for a note $m$, then again we can take as the enrichment structure $\mu_r(n,m)=e^{a-1}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BoWG.png" width=60%><br />
+</center></p>
+<p>Graph Analysis offers more functionality, and a good introduction is given in this clip:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Id4ynVqP3Uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Calculating the enrichment data for custom designed relevance functions takes a lot more work, but is doable. Perhaps I&#8217;ll return to this later.</p>
+<p>Mathematically, it is probably more interesting to start with a given enrichment structure $\mu$ on the vault $V$, describe the category of all enriched presheaves $\widehat{V_{\mu}}$ and find out what we can do with it.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">The super-vault of missing notes</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Loading a second brain</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 06 Mar 2023 14:09:28 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Ahrens]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[Forte]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[graph]]></category>
+		<category><![CDATA[loading]]></category>
+		<category><![CDATA[LogSeq]]></category>
+		<category><![CDATA[mathjax]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[PKM]]></category>
+		<category><![CDATA[RoamResearch]]></category>
+		<category><![CDATA[second]]></category>
+		<category><![CDATA[SecondBrain]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11005</guid>
+
+					<description><![CDATA[Before ChatGPT, the hype among productivity boosters was a PKMs or Personal knowledge management system. It gained popularity through Tiago Forte&#8217;s book &#8216;Building a second&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Before ChatGPT, the hype among productivity boosters was a PKMs or <a href="https://en.wikipedia.org/wiki/Personal_knowledge_management">Personal knowledge management system</a>.</p>
+<p>It gained popularity through Tiago Forte&#8217;s book <a href="https://www.buildingasecondbrain.com/">&#8216;Building a second brain&#8217;</a>, and (for academics perhaps a more useful read) <a href="https://www.soenkeahrens.de/en/takesmartnotes">&#8216;How to take smart notes&#8217;</a> by Sönke Ahrens.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/412AXfNUJSL._SX313_BO1,204,203,200_.jpg" width=40%> <img decoding="async" src="https://m.media-amazon.com/images/I/41rkDzw+bSL._SX326_BO1,204,203,200_.jpg" width=41.7%><br />
+</center></p>
+<p>These books promote new techniques for note-taking (and for storing these notes) such as <a href="https://fortelabs.com/blog/para/">the PARA-method</a>, <a href="https://www.astar.studio/the-code-system/">the CODE-system</a>, and <a href="https://en.wikipedia.org/wiki/Zettelkasten">Zettelkasten</a>.</p>
+<p><a href="https://unmistakablecreative.com/category/second-brain/">Unmistakable Creative</a> has some posts on the principles behing the &#8216;second brain&#8217; approach.</p>
+<blockquote><p>
+Your brain isn’t like a hard drive or a dropbox, where information is stored in folders and subfolders. None of our thoughts or ideas exist in isolation. Information is organized in a series of non-linear associative networks in the brain.</p>
+<p>Networked thinking is not just a more efficient way to organize information. It frees your brain to do what it does best: Imagine, invent, innovate, and create. The less you have to remember where information is, the more you can use it to summarize that information and turn knowledge into action.
+</p></blockquote>
+<p>and</p>
+<blockquote><p>
+A network has no “correct” orientation and thus no bottom and no top. Each individual, or “node,” in a network functions autonomously, negotiating its own relationships and coalescing into groups. Examples of networks include a flock of birds, the World Wide Web, and the social ties in a neighborhood. Networks are inherently “bottom-up” in that the structure emerges organically from small interactions without direction from a central authority.</p>
+<p>-Tiago Forte, <a href="https://fortelabs.com/blog/a-complete-guide-to-tagging-for-personal-knowledge-management/">Tagging for Personal Knowledge Management</a>
+</p></blockquote>
+<p>There are several apps you can use to start building your second brain, the more popular seem to be <a href="https://roamresearch.com/">Roam Research</a>, <a href="https://logseq.com/">LogSeq</a>, and <a href="https://obsidian.md/">Obsidian</a>.</p>
+<p>These systems allow you to store, link and manipulate a large collection of notes, query them as a database, modify them in various ways via plugins or scripts, and navigate the network created via graph-views.</p>
+<p>Exactly the kind of things we need to modify the simple system from the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">shape of languages</a>-post into a proper topos of the unconscious.</p>
+<p>I&#8217;ve been playing around with <a href="https://obsidian.md/">Obsidian</a> which I like because it has good <a href="https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Mathjax+and+LaTeX+Plugins">LaTeX plugins</a>, powerful database tools via the <a href="https://blacksmithgu.github.io/obsidian-dataview/">Dataview plugin</a>, and one can execute codeblocks within notes in almost any programming language (python, haskell, lean, Mathematica, ruby, javascript, R, &#8230;).</p>
+<p>Most of all it has a vibrant community of users, an excellent <a href="https://forum.obsidian.md/">forum</a>, and a well-documented <a href="https://publish.obsidian.md/hub/%F0%9F%97%82%EF%B8%8F+hub">Obsidian hub</a>.</p>
+<p>There&#8217;s just one problem, I&#8217;m a terrible note-taker, so how can I begin to load my &#8216;second brain&#8217;?</p>
+<p>Obsidian has several plugins to import data, such as your Kindle highlights, your Twitter feed, your Readwise-data, and many others, but having been too lazy in the past, I cannot use any of them.</p>
+<p>In fact, the only useful collection of notes I have are my blog-posts. So, I&#8217;ve uploaded NeverEndingBooks into Obsidian, one note per post (admittedly, not very Zettelkasten-like), half a million words in total.</p>
+<p>Fortunately, I did tag most of these posts at the time. Together with other meta-data this results in the <a href="https://help.obsidian.md/Plugins/Graph+view">Graph view</a> below (under &#8216;Files&#8217; toggled tags, under &#8216;Groups&#8217; three tag-colours, and under &#8216;Display&#8217; toggled arrows). One can add colour-groups based on tags or other information (here, red dots are posts tagged &#8216;Grothendieck&#8217;, the blue ones are tagged &#8216;Conway&#8217;, the purple ones tagged &#8216;Connes&#8217;, just for the sake of illustration). In Obsidian you can zoom into this graph, place a pointer on a node to highlight the connecting dots, and much more.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBgraphview.png" width=100% ><br />
+</center></p>
+<p>Because I tend to forget such things, and as it may be useful to other people running a WordPress-blog making heavy use of MathJax, here&#8217;s the procedure I followed:</p>
+<p>1. Follow the instructions from <a href="https://daext.com/blog/convert-wordpress-articles-to-markdown/">Convert wordpress articles to markdown</a>.</p>
+<ul>
+<li>Export your WordPress posts to XML</li>
+<li>Install <a href="https://nodejs.org/en/">Node.js</a></li>
+<li>Run the <a href="https://github.com/lonekorean/wordpress-export-to-markdown">wordpress-export-to-markdown</a> script</li>
+</ul>
+<p>In the wizard I&#8217;ve opted to go only for yearly folders, to prefix posts with the date, and to save all images.</p>
+<p>2. This gives you a directory with one folder per year containing markdown versions of your posts, and in each year-folder a subfolder &#8216;img&#8217; containing all images.</p>
+<p>Turn this directory into an Obsidian-vault by opening Obsidian, click on the &#8216;open another vault&#8217; icon (third from bottom-left), select &#8216;Open folder as vault&#8217; and navigate to your directory.</p>
+<p>3. You will notice that most of your LaTeX cannot be parsed because during the markdown-process backslashes are treaded as special character, resulting in two backslashes for every LaTeX-command&#8230;</p>
+<p>A remark before trying to solve this: another option might be to use the <a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">wordpress-to-hugo-exporter</a>, resulting in clean LaTeX, but lacking the possibility to opt for yearly-folders (it dumps all posts into one folder), and it makes a mess of the image-files.</p>
+<p>4. So, we will need to do a lot of search&#038;replaces in all files, and need a convenient tool for this.</p>
+<p>First option was <a href="https://www.sublimetext.com/">the Sublime Text app</a>, which is free and does the search&#038;replaces quickly. The problem is that you have to save each of the files, one at a time! This may take hours.</p>
+<p>I&#8217;ve done it using the <a href="https://apps.apple.com/us/app/search-and-replace/id627484067?mt=12">Search and Replace app</a> (3$) which allows you to make several searches/replaces at the same time (I messed up LaTeX code in previous exports, so needed to do many more changes). It warns you that it is dangerous to replace strings in all files (which is the reason why Sublime Text makes it difficult), you can ignore it, but only after you put the &#8216;img&#8217; folders away in a safe place. Otherwise it will also try to make the changes to these files, recognise that they are not text-files, and drop them altogether&#8230;</p>
+<p>That&#8217;s it.</p>
+<p>I now have a backup network-version of this blog.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBzoom.png" width=100% ><br />
+</center></p>
+<p>As we mentioned in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">previous post</a> a first attempt to construct the &#8216;topos of the unconscious&#8217; might be to start with a collection of notes (the &#8216;conscious&#8217;) and work on the semantics of text-snippets to unravel (a part of) the unconscious underpinning of these notes. We also mentioned that the poset-structure in that post should be replaced by a more involved network structure.</p>
+<p>What interests me most is whether such an approach might be doable &#8216;in practice&#8217;, and Obsidian looks like the perfect tool to try this out.</p>
+<p>What we need is a sufficiently large set of notes, of independent interest, to inject into Obsidian. The more meta it is, the better&#8230;</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

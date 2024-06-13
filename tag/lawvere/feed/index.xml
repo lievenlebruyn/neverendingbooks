@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Lawvere &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/lawvere/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 10 Mar 2023 08:42:29 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The enriched vault</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 10 Mar 2023 08:42:29 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[Bradley]]></category>
+		<category><![CDATA[brat]]></category>
+		<category><![CDATA[enriched]]></category>
+		<category><![CDATA[enriched category]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[graph analysis]]></category>
+		<category><![CDATA[Jaccard]]></category>
+		<category><![CDATA[language]]></category>
+		<category><![CDATA[Lawvere]]></category>
+		<category><![CDATA[metric]]></category>
+		<category><![CDATA[Terilla]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[vault]]></category>
+		<category><![CDATA[Vlassopoulos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11059</guid>
+
+					<description><![CDATA[In the shape of languages we started from a collection of notes, made a poset of text-snippets from them, and turned this into an enriched&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">the shape of languages</a> we started from a collection of notes, made a poset of text-snippets from them, and turned this into an <a href="https://en.wikipedia.org/wiki/Enriched_category">enriched category</a> over the unit interval $[0,1]$, following the paper paper <a href="https://arxiv.org/abs/2106.07890">An enriched category theory of language: from syntax to semantics</a> by Tai-Danae Bradley, John Terilla and Yiannis Vlassopoulos.</p>
+<p>This allowed us to view the text-snippets as points in a Lawvere <a href="https://en.wikipedia.org/wiki/Metric_space#Pseudoquasimetrics">pseudoquasi metric space</a>, and to define a &#8216;topos&#8217; of enriched presheaves on it, including the Yoneda-presheaves containing semantic information of the snippets.</p>
+<p>In the <a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">previous post</a> we looked at &#8216;building a second brain&#8217; apps, such as <a href="https://logseq.com/">LogSeq</a> and <a href="https://obsidian.md/">Obsidian</a>, and hoped to use them to test the conjectured <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">&#8216;topos of the unconscious&#8217;</a>.</p>
+<p>In <a href="https://obsidian.md/">Obsidian</a>, a <em>vault</em> is a collection of notes (with their tags and other meta-data), together with all links between them.</p>
+<p>The vault of the language-poset will have one note for every text-snipped, and have a link from note $n$ to note $m$ if $m$ is a text-fragment in $n$.</p>
+<p>In their paper, Bradley, Terilla and Vlassopoulos use the enrichment structure where $\mu(n,m) \in [0,1]$ is the conditional probablity of the fragment $m$ to be extended to the larger text $n$.</p>
+<p>Most Obsidian vaults are a lot more complicated, possibly having oriented cycles in their internal link structure.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Gbrain1.png" width=100% ><br />
+</center></p>
+<p>Still, it is always possible to turn the notes of the vault into a category enriched over $[0,1]$, in multiple ways, depending on whether we want to focus on the internal link-structure or rather on the semantic similarity between notes, or any combination of these.</p>
+<p>Let $X$ be a set of searchable data from your vault. Elements of $X$ may be</p>
+<ul>
+<li>words contained in notes</li>
+<li>in- or out-going links between notes</li>
+<li>tags used</li>
+<li><a href="https://help.obsidian.md/Editing+and+formatting/Metadata">YAML-frontmatter</a></li>
+<li>&#8230;</li>
+</ul>
+<p>Assign a positive real number $r_x \geq 0$ to every $x \in X$. We see $r_x$ as the &#8216;relevance&#8217; we attach to the search term $x$. So, it is possible to emphasise certain key-words or tags, find certain links more important than others, and so on.</p>
+<p>For this relevance function $r : X \rightarrow \mathbb{R}_+$, we have a function defined on all subsets $Y$ of $X$</p>
+<p>$$f_r~:~\mathcal{P}(X) \rightarrow \mathbb{R}_+ \qquad Y \mapsto f_r(Y) = \sum_{x \in Y} r_x$$</p>
+<p>Take a note $n$ from the vault $V$ and let $X_n$ be the set of search terms from $X$ contained in $n$.</p>
+<p>We can then define a (generalised) <a href="https://en.wikipedia.org/wiki/Jaccard_index">Jaccard distance</a> for any pair of notes $n$ and $m$ in $V$:</p>
+<p>$$ d_r(n,m) = \begin{cases}<br />
+0~\text{if $f_r(X_n \cup X_m)=0$} \\ 1-\frac{f_r(X_n \cap X_m)}{f_r(X_n \cup X_m)}~\text{otherwise} \end{cases}$$</p>
+<p>This distance is symmetric, $d_r(n,n)=0$ for all notes $n$, and the crucial property is that it satisfies the triangle inequality, that is, for all triples of notes $l$, $m$ and $n$ we have</p>
+<p>$$d_r(l,n) \leq d_r(l,m)+d_r(m,n)$$</p>
+<p>For a proof in this generality see the paper <a href="https://arxiv.org/abs/1612.02696">A note on the triangle inequality for the Jaccard distance</a> by Sven Kosub.</p>
+<p>How does this help to make the vault $V$ into a category enriched over $[0,1]$?</p>
+<p>The poset $([0,1],\leq)$ is the category with objects all numbers $a \in [0,1]$, and a unique morphism $a \rightarrow b$ between two numbers iff $a \leq b$. This category has limits (infs) and colimits (sups), has a monoidal structure $a \otimes b = a \times b$ with unit object $1$, and an internal hom</p>
+<p>$$Hom_{[0,1]}(a,b) = (a,b) = \begin{cases} \frac{b}{a}~\text{if $b \leq a$} \\ 1~\text{otherwise} \end{cases}$$</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enrichedvault.png" width=100% ><br />
+</center></p>
+<p>We say that the vault is an <em>enriched category</em> over $[0,1]$ if for every pair of notes $n$ and $m$ we have a number $\mu(n,m) \in [0,1]$ satisfying for all notes $n$</p>
+<p>$$\mu(n,n)=1~\quad~\text{and}~\quad~\mu(m,l) \times \mu(n,m) \leq \mu(n,l)$$</p>
+<p>for all triples of notes $l,m$ and $n$.</p>
+<p>Starting from any relevance function $r : X \rightarrow \mathbb{R}_+$ we define for every pair $n$ and $m$ of notes the distance function $d_r(m,n)$ satisfying the triangle inequality. If we now take</p>
+<p>$$\mu_r(m,n) = e^{-d_r(m,n)}$$</p>
+<p>then the triangle inequality translates for every triple of notes $l,m$ and $n$ into</p>
+<p>$$\mu_r(m,l) \times \mu_r(n,m) \leq \mu_r(n,l)$$</p>
+<p>That is, every relevance function makes $V$ into a category enriched over $[0,1]$.</p>
+<p>Two simple relevance functions, and their corresponding distance and enrichment functions are available from Obsidian&#8217;s <a href="https://github.com/SkepticMystic/graph-analysis">Graph Analysis</a> community plugin.</p>
+<p>To get structural information on the link-structure take as $X$ the set of all incoming and outgoing links in your vault, with relevance function the constant function $1$.</p>
+<p>&#8216;Jaccard&#8217; in Graph Analysis computes for the current note $n$ the value of $1-d_r(n,m)$ for all notes $m$, so if this value is $a \in [0,1]$, then the corresponding enrichment value is $\mu_r(m,n)=e^{a-1}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/jaccardG.png" width=60% ><br />
+</center></p>
+<p>To get semantic information on the similarity between notes, let $X$ be the set of all words in all notes and take again as relevance function the constant function $1$.</p>
+<p>To access &#8216;BoW&#8217; (Bags of Words) in Graph Analysis, you must first install the (non-community) <a href="https://github.com/SkepticMystic/nlp">NLP</a> plugin which enables various types of natural language processing in the vault. The install is best done via the <a href="https://github.com/TfTHacker/obsidian42-brat">BRAT plugin</a> (perhaps I&#8217;ll do a couple of posts on Obsidian someday).</p>
+<p>If it gives for the current note $n$ the value $a$ for a note $m$, then again we can take as the enrichment structure $\mu_r(n,m)=e^{a-1}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BoWG.png" width=60%><br />
+</center></p>
+<p>Graph Analysis offers more functionality, and a good introduction is given in this clip:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Id4ynVqP3Uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Calculating the enrichment data for custom designed relevance functions takes a lot more work, but is doable. Perhaps I&#8217;ll return to this later.</p>
+<p>Mathematically, it is probably more interesting to start with a given enrichment structure $\mu$ on the vault $V$, describe the category of all enriched presheaves $\widehat{V_{\mu}}$ and find out what we can do with it.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">The super-vault of missing notes</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The shape of languages</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 03 Mar 2023 14:54:50 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[category theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[hier-Lafaye]]></category>
+		<category><![CDATA[languages]]></category>
+		<category><![CDATA[Lawvere]]></category>
+		<category><![CDATA[shape]]></category>
+		<category><![CDATA[Sibony]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10968</guid>
+
+					<description><![CDATA[In the topology of dreams we looked at Sibony&#8217;s idea to view dream-interpretations as sections in a fibered space. The &#8216;points&#8217; in the base-space and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">the topology of dreams</a> we looked at Sibony&#8217;s idea to view dream-interpretations as sections in a fibered space.</p>
+<p>The &#8216;points&#8217; in the base-space and fibers consisting of chunks of text, perhaps connected by links. The topology and shape of this fibered space is still shrouded in mystery.</p>
+<p>Let&#8217;s look at a simple approach to turn a large number of texts into a topos, and define a loose metric on it.</p>
+<p>There&#8217;s this paper <a href="https://arxiv.org/abs/2106.07890">An enriched category theory of language: from syntax to semantics</a> by Tai-Danae Bradley, John Terilla and Yiannis Vlassopoulos.</p>
+<p><a href="https://www.math3ma.com/about">Tai-Danae Bradley</a> is an excellent communicator of everything category related, so probably it is more fun to read her own blogposts on this paper:</p>
+<ul>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-1">Language, Statistics, &#038; Category Theory, Part 1</a></li>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-2">Language, Statistics, &#038; Category Theory, Part 2</a></li>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-3">Language, Statistics, &#038; Category Theory, Part 3</a></li>
+</ul>
+<p>or to watch her Categories for AI talk: &#8216;Category Theory Inspired by LLMs&#8217;:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/_LgWD3UTKfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Let&#8217;s start with a collection of notes. In the paper, they consider all possible texts written in some language, but it may be a set of webpages to train a language model, or a set of recollections by someone.</p>
+<p>Next, shred these notes into chunks of text, and point one of these to all the texts obtained by deleting some words at the start and/or end of it. For example, the note &#8216;a red rose&#8217; will point to &#8216;a red&#8217;, &#8216;red rose&#8217;, &#8216;a&#8217;, &#8216;red&#8217; and &#8216;rose&#8217; (but not to &#8216;a rose&#8217;).</p>
+<p>You may call this a category, to me it is just as a poset $(\mathcal{L},\leq)$. The maximal elements are the individual words, the minimal elements are the notes, or websites, we started from.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/languageposet.png" width=60%><br />
+</center></p>
+<p>A down-set $A$ of this poset $(\mathcal{L},\leq)$ is a subset of $\mathcal{L}$ closed under taking smaller elements, that is, if $a \in A$ and $b \leq a$, then $b \in A$.</p>
+<p>The intersection of two down-sets is again a down-set (or empty), and the union of down-sets is again a downset. That is, down-sets define a topology on our collection of text-snippets, or if you want, on language-fragments.</p>
+<p>For example, the open determined by the word &#8216;red&#8217; is the collection of all text-fragments containing this word.</p>
+<p>The corresponding presheaf topos $\widehat{\mathcal{L}}$ is then just the category of all (set-valued) presheaves on this topological space.<br />
+As an example, the Yoneda-presheaf $\mathcal{Y}(p)$ of a text-snippet $p$ is the contra-variant functor</p>
+<p>$$(\mathcal{L},\leq) \rightarrow \mathbf{Sets}$$</p>
+<p>sending any $q \leq p$ to the unique map $\ast$ from $q$ to $p$, and if $q \not\leq p$ then we map it to $\emptyset$. If $A$ is a down-set (an open of over topological space) then the sections of $\mathcal{Y}(p)$ over $A$ are $\{ \ast \}$ if for all $a \in A$ we have $a \leq p$, and $\emptyset$ otherwise.</p>
+<p>The presheaf $\mathcal{Y}(p)$ already contains some semantic information about the snippet $p$ as it gives all contexts in which $p$ appears.</p>
+<p>Perhaps interesting is that the &#8216;points&#8217; of the topos $\widehat{\mathcal{L}}$ are the notes we started from.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">Recall</a> that Connes and Gauthier-Lafaey want to construct a topos describing someone&#8217;s unconscious, and points of that topos should be the connection with that person&#8217;s consciousness.</p>
+<p>Suppose you want to unravel your unconscious. You start by writing down a large set of notes containing all relevant facts of your life. Then you construct from these notes the above collection of snippets and its corresponding pre-sheaf topos. Clearly, you wrote your notes consciously, but probably the exact phrasing of these notes, or recurrent themes in them, or some text-combinations are ruled by your unconscious.</p>
+<p>Ok, it&#8217;s not much, but perhaps it&#8217;s a germ of an potential approach&#8230;</p>
+<p><center><br />
+<img decoding="async" src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.spiritofchange.org/content/uploads/data-import/b9645d25/brain.jpg" width=60%><br />
+(<a href="https://www.spiritofchange.org/automatic-brain-the-magic-of-the-unconscious-mind/">Image credit</a>)<br />
+</center></p>
+<p>Now we come to the interesting part of the paper, the &#8216;enrichment&#8217; of this poset.</p>
+<p>Surely, some of these text-snippets will occur more frequently than others. For example, in your starting notes the snippet &#8216;red rose&#8217; may appear ten time more than the snippet &#8216;red dwarf&#8217;, but this is not visible in the poset-structure. So how can we bring in this extra information?</p>
+<p>If we have two text-snippets $p$ and $q$ and $q \leq p$, that is, $p$ is a connected sub-string of $q$. We can compute the conditional probability $\pi(q|p)$ which tells us how likely it is that if we spot an occurrence of $p$ in our starting notes, it is part of the larger sentence $q$. These numbers can be easily computed and from the rules of probability we get that for snippets $r \leq q \leq p$ we have that</p>
+<p>$$\pi(r|p) = \pi(r|q) \times \pi(q|r)$$</p>
+<p>so these numbers (all between $0$ and $1$) behave multiplicative along paths in the poset.</p>
+<p>Nice in theory, but it requires an awful lot of computation. From the paper:</p>
+<blockquote><p>
+The reader might think of these probabilities $\pi(q|p)$ as being most well defined when $q$ is a short extension of $p$. While one may be skeptical about assigning a probability distribution on the set of all possible texts, it’s reasonable to say there is a nonzero probability that cat food will follow I am going to the store to buy a can of and, practically speaking, that probability can be estimated.</p>
+<p>Indeed, existing <a href="https://en.wikipedia.org/wiki/Wikipedia:Large_language_models#:~:text=Large%20language%20models%20(LLMs)%20are,new%20or%20modify%20existing%20text.">LLMs</a> successfully learn these conditional probabilities $\pi(q|p)$ using standard machine learning tools trained on large corpora of texts, which may be viewed as providing a wealth of samples drawn from these conditional probability distributions.
+</p></blockquote>
+<p>It may be easier to have an estimate $\mu(q|p)$ of this conditional probability for immediate successors (that is, if $q$ is obtained from $p$ by adding one word at the beginning or end of it), and then extend this measure to all arrows in the poset by taking the maximum of products along paths. In this way we have for all $r \leq q \leq p$ that</p>
+<p>$$\mu(r|p) \geq \mu(r|q) \times \mu(q|p)$$</p>
+<p>The upshot is that this measure $\mu$ turns our poset (or category) $(\mathcal{L},\leq)$ into a category &#8216;enriched&#8217; over the unit interval $[ 0,1 ]$ (suitably made into a monoidal category).</p>
+<p>I&#8217;ll spare you the details, just want to flash out the corresponding notion of &#8216;enriched presheaves&#8217; which are the objects of the <em>semantic category</em> $\widehat{\mathcal{L}}^s$ in the paper, which is the enriched version of the presheaf category $\widehat{\mathcal{L}}$.</p>
+<p>An enriched presheaf is a <em>function</em> (not functor)</p>
+<p>$$F~:~\mathcal{L} \rightarrow [0,1]$$</p>
+<p>satisfying the condition that for all text-snippets $r,q \in \mathcal{L}$ we have that</p>
+<p>$$\mu(r|q) \leq [F(q),F(r)] = \begin{cases} \frac{F(r)}{F(q)}~\text{if $F(r) \leq F(q)$} \\ 1~\text{otherwise} \end{cases}$$</p>
+<p>Note that the enriched (or semantic) Yoneda presheaf $\mathcal{Y}^s(p)(q) = \mu(q|p)$ satisfies this condition, and now this data not only records the contexts in which $p$ appears, but also measures how likely it is for $p$ to appear in a certain context.</p>
+<p>Another cute application of the condition on the measure $\mu$ is that it allows us to define a &#8216;distance function&#8217; (satisfying the triangle inequality) on all text-snippets in $\mathcal{L}$ by</p>
+<p>$$d(q,p) = \begin{cases} -ln(\mu(q|p))~\text{if $q \leq p$} \\<br />
+ \infty~\text{otherwise} \end{cases}$$</p>
+<p>So, the higher $\mu(q|p)$ the closer $q$ lies to $p$, and now the snippet $p$ (example &#8216;red&#8217;) not only defines the open set in $\mathcal{L}$ of all texts containing $p$, but now we can structure the snippets in this open set with respect to this &#8216;distance&#8217;.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddistance.png" width=60%><br />
+</center></p>
+<p>In this way we can turn any language, or a collection of texts in a given language, into what <a href="https://en.wikipedia.org/wiki/William_Lawvere">Lawvere</a> called a &#8216;generalized metric space&#8217;.</p>
+<p>It looks as if we are progressing slowly in our, probably futile, attempt to understand Alain Connes&#8217; and Patrick Gauthier-Lafaye&#8217;s claim that &#8216;the unconscious is structured like a topos&#8217;.</p>
+<p>Even if we accept the fact that we can start from a collection of notes, there are a number of changes we need to make to the above approach:</p>
+<ul>
+<li>there will be contextual links between these notes</li>
+<li>we only want to retain the relevant snippets, not all of them</li>
+<li>between these &#8216;highlights&#8217; there may also be contextual links</li>
+<li>texts can be related without having to be concatenations</li>
+<li>we need to implement changes when new notes are added</li>
+<li>&#8230; (much more)</li>
+</ul>
+<p>Perhaps, we should try to work on a specific &#8216;case&#8217;, and explore all technical tools that may help us to make progress.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Grothendieck talks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-talks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-talks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 10 Jan 2022 13:31:42 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Caramello]]></category>
+		<category><![CDATA[Duskin]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Lawvere]]></category>
+		<category><![CDATA[McLarty]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9996</guid>
+
+					<description><![CDATA[In 2017-18, the seminar Lectures grothendieckiennes took place at the ENS in Paris. Among the speakers were Alain Connes, Pierre Cartier, Laurent Lafforgue and Georges&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In 2017-18, the seminar <a href="https://www.ens.psl.eu/agenda/lectures-grothendieckiennes/2018-06-05t160000">Lectures grothendieckiennes</a> took place at the ENS in Paris. Among the speakers were Alain Connes, Pierre Cartier, Laurent Lafforgue and <a href="https://webusers.imj-prg.fr/~georges.maltsiniotis/">Georges Maltsiniotis</a>.</p>
+<p>Olivia Caramello, who also contributed to the seminar, posts on her blog <a href="https://aroundtoposes.com/lectures-grothendieckiennes/">Around Toposes</a> that the proceedings of this lectures series is now available <a href="https://smf.emath.fr/publications/lectures-grothendieckiennes">from the SMF</a>.</p>
+<p>Olivia&#8217;s blogpost links also to the <a href="https://www.youtube.com/playlist?list=PLt6rik8WDbuRC4pwgKQOnb7NPGG1oJ4Fo">YouTube channel of the seminar</a>. Several of these talks are well worth your time watching.</p>
+<p>If you are at all interested in toposes and their history, and if you have 90 minutes to kill, I strongly recommend watching <a href="https://en.wikipedia.org/wiki/Colin_McLarty">Colin McLarthy&#8217;s</a> talk <a href="https://www.youtube.com/watch?v=5AR55ZsHmKI&#038;list=PLt6rik8WDbuRC4pwgKQOnb7NPGG1oJ4Fo&#038;index=9">Grothendieck&#8217;s 1973 topos lectures</a>:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/5AR55ZsHmKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>In 1973, Grothendieck gave three lectures series at the Department of Mathematics of SUNY at Buffalo, the first on &#8216;Algebraic Geometry&#8217;, the second on &#8216;The Theory of Algebraic Groups&#8217; and the third one on &#8216;Topos Theory&#8217;.</p>
+<p>All of these Grothendieck talks were audio(!)-taped by <a href="http://nlab-pages.s3.us-east-2.amazonaws.com/nlab/show/John+Duskin">John (Jack) Duskin</a>, who kept and preserved them with the help of <a href="https://en.wikipedia.org/wiki/William_Lawvere">William Lawvere</a>. They constitute more than 100 hours of rare <a href="https://mathoverflow.net/questions/2596/are-there-any-recordings-of-grothendieck-online">recordings of Grothendieck</a>.</p>
+<p>This MathOverflow (soft) question links to <a href="https://v1.archmathsci.org/catalogue/general-chronology-of-recordings-since-1973/chronology-of-recordings-1973-1980/1973-recordings/">this page</a> stating:</p>
+<p>&#8220;The copyright of all these recordings is that of the Department of Mathematics of  SUNY at Buffalo to whose representatives, in particular Professors Emeritus Jack DUSKIN and Bill LAWVERE exceptional thanks are due both for the preservation and transmission of this historic archive,  the only substantial archive of recordings of courses given by one of the greatest mathematicians of all time,  whose work and ideas exercised arguably the most profound influence of any individual figure in shaping the mathematics of the second half od the 20th Century. The material which it is proposed to make available here, with their agreement, will form a mirror site to the principal site entitled “Grothendieck at Buffalo” (url:   ).&#8221;</p>
+<p>Sadly, the URL is still missing.</p>
+<p>Fortunately, another answer links to the Grothendieck project <a href="https://agrothendieck.github.io/">Thèmes pour une Harmonie</a> by <a href="https://carmonamateo.github.io/">Mateo Carmona</a>. If you scroll down to the 1973-section, you&#8217;ll find there all of the recordings of these three Grothendieck series of talks!</p>
+<p>To whet your appetite, here&#8217;s the first part of his talk on topos theory on April 4th, 1973:</p>
+<p><audio controls><source src="horse.ogg" type="audio/ogg"><source src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GrothTopos1.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></p>
+<p>For all subsequent recordings of his talks in the Topos Theory series on May 11th, May 18th, May 25th, May 30th, June 4th, June 6th, June 20th, June 27th, July 2nd, July 10th, July 11th and July 12th, please consult Mateo&#8217;s <a href="https://agrothendieck.github.io/">website</a> (under section 1973).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-talks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

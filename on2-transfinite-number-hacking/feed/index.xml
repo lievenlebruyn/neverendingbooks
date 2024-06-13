@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: On2 : transfinite number hacking	</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/on2-transfinite-number-hacking/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/on2-transfinite-number-hacking/</link>
+	<description></description>
+	<lastBuildDate>Fri, 05 Jan 2018 21:21:47 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>
+		By: Billy		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/on2-transfinite-number-hacking/#comment-23</link>
+
+		<dc:creator><![CDATA[Billy]]></dc:creator>
+		<pubDate>Fri, 05 Jan 2018 21:21:47 +0000</pubDate>
+		<guid isPermaLink="false">http://matrix.cmi.ua.ac.be/?p=895#comment-23</guid>
+
+					<description><![CDATA[Great article! I have a question (that I will think about): does this let you operate with elements in the algebraic closure of F_2? Take a polynomial with coefficients in F_2. Is there a way of computing the ordinals corresponding to the roots of the polynomial?]]></description>
+			<content:encoded><![CDATA[<p>Great article! I have a question (that I will think about): does this let you operate with elements in the algebraic closure of F_2? Take a polynomial with coefficients in F_2. Is there a way of computing the ordinals corresponding to the roots of the polynomial?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

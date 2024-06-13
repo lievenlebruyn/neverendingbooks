@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>question &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/question/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 29 Sep 2023 09:51:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>A question of loyalty</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 29 Sep 2023 09:51:24 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[epistemic]]></category>
+		<category><![CDATA[loyalty]]></category>
+		<category><![CDATA[modal]]></category>
+		<category><![CDATA[question]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11739</guid>
+
+					<description><![CDATA[On the island of two truths, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$). The King and Queen of the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>On the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths">island of two truths</a>, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$).</p>
+<p>The King and Queen of the island have an opinion on all statements which may differ from their actual truth-value. We say that the Queen <em>believes</em> a statement $p$ is she assigns value $Q$ to it, and that she <em>knows</em> $p$ is she believes $p$ and the actual truth-value of $p$ is indeed $Q$. Similarly for the King, replacing $Q$&#8217;s by $K$&#8217;s.</p>
+<p>All other inhabitants of the island are <em>loyal</em> to the Queen, or to the King, or to both. This means that they <em>agree</em> with the Queen (or King, or both) on all statements they have an opinion on. Two inhabitants are said to be <em>loyal</em> to each other if they agree on all statements they both have an opinion of.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths">Last time</a> we saw that Queen and King agree on all statements one of them believes to be false, as well as the negation of such statements. This raised the question:</p>
+<p><em>Are the King and Queen loyal to each other? That is, do Queen and King agree on all statements?</em></p>
+<p>We cannot resolve this issue without the information Oscar was able to extract from Pointex in <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a>&#8216;s post <a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a>:</p>
+<p>&#8220;Oscar was determined to get some more information. &#8220;Could you at least tell me whether the queen and the king know that they&#8217;re loyal to themselves?&#8221; he asked.<br />
+&#8220;Well, of course they know that!&#8221; replied Pointex.<br />
+&#8220;You said that a proposition can be Q-TRUE, K-TRUE or FALSE,&#8221; Oscar said.<br />
+&#8220;Yes, of course. What else!&#8221; replied Pointex as he threw the cap high up.<br />
+&#8220;Well, you also said that each native was loyal either to the queen or to the king. I was just wondering &#8230; Assume that A is loyal to the queen. Then what is the truth value of the statement: A is loyal to the queen?&#8221;<br />
+&#8220;Q, of course,&#8221; answered Pointex as he threw the cap up again.<br />
+&#8220;And what if A is not loyal to the queen? What is then the truth value of the statement: A is loyal to the queen?&#8221;<br />
+He barely finished his question as something fell over his face and covered his eyes. It was the funny cap.<br />
+&#8220;Thanx,&#8221; said Pointex as Oscar handed him the cap. &#8220;The value is 0, of course.&#8221;<br />
+&#8220;Can the truth value of the statement: &#8216;A is loyal to the queen&#8217; be K in any case?&#8221;<br />
+&#8220;Well, what do you think? Of course not! What a ridiculous thing to ask!&#8221; replied Pointex.&#8221;</p>
+<p><strong>Puzzle</strong> : Show that Queen and King are <em>not</em> loyal to each other, that is, there are statements on which they do not agree.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/loyalty.jpg" width=70%><br />
+</center></p>
+<p><strong>Solution</strong> : &#8216;The King is loyal to the Queen&#8217; must have actual truth-value $0$ or $Q$, and the sentence &#8216;The Queen is loyal to the King&#8217; must have actual truth-value $0$ or $K$. But both these sentences are the same as the sentence &#8216;The Queen and King are loyal to each other&#8217; and as this sentence can have only one truth-value, it must have value $0$ so the statement is false.</p>
+<p>Note that we didn&#8217;t produce a specific statement on which the Queen and King disagree. Can you find one?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

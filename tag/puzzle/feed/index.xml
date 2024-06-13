@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>puzzle &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/puzzle/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 15 Jan 2011 14:44:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the Reddit (after)effect</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 15 Jan 2011 14:44:31 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[analytics]]></category>
+		<category><![CDATA[blogs]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[links]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[Reddit]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[Wikipedia]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4130</guid>
+
+					<description><![CDATA[Sunday january 2nd around 18hr NeB-stats went crazy. Referrals clarified that the post &#8216;What is the knot associated to a prime?&#8217; was picked up at&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Sunday january 2nd around 18hr NeB-stats went crazy.</p>
+<p>Referrals clarified that the post <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/what-is-the-knot-associated-to-a-prime.html">&#8216;What is the knot associated to a prime?&#8217;</a> was picked up at <a href="http://www.reddit.com/r/math/">Reddit/math</a> and remained nr.1 for about a day.</p>
+<p>Now, the dust has settled, so let&#8217;s learn from the experience.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddit1.jpg"></p>
+<p>A Reddit-mention is to a blog what doping is to a sporter.</p>
+<p>You get an immediate boost in the most competitive of all blog-stats, the number of unique vistors (blue graph), but is doesn&#8217;t result in a long-term effect, and, it may even be harmful to more essential blog-stats, such as the average time visitors spend on your site (yellow graph).</p>
+<p>For NeB the unique vistors/day fluctuate normally around 300, but peaked to 1295 and 1733 on the &#8216;Reddit-days&#8217;. In contrast, the avg. time on site is normally around 3 minutes, but dropped the same days to 44 and 30 seconds!</p>
+<p>Whereas some of the Reddits spend enough time to read the post and <a href="http://www.reddit.com/r/math/comments/ev1gq/what_is_the_knot_associated_to_a_prime/">comment on it</a>, the vast majority zap from one link to the next. Having monitored the <a href="http://www.reddit.com/r/math/">Reddit/math</a> page for two weeks, I&#8217;m convinced that post only made it because it was visually pretty good. The average Reddit/math-er is a viewer more than a reader&#8230;</p>
+<p>So, should I go for shorter, snappier, more visual posts?</p>
+<p>Let&#8217;s compare Reddits to those coming from the three sites giving NeB most referrals : Google search, MathOverflow and Wikipedia.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddit2.jpg"></p>
+<p>This is the traffic coming from Reddit/math, as always the blue graph are the unique visitors, the yellow graph their average time on site, blue-scales to the left, yellow-scales to the right.</p>
+<p>Here&#8217;s the same graph for <a href="http://www.google.com/">Google search</a>. The unique visitors/day fluctuate around 50 and their average time on site about 2 minutes.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/google2.jpg"></p>
+<p>The math-related search terms most used were this month : &#8216;functor of point approach&#8217;, &#8216;profinite integers&#8217; and &#8216;bost-connes sytem&#8217;.</p>
+<p>More rewarding to me are referrals from <a href="http://mathoverflow.net/">MathOverflow</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mathO1.jpg"></p>
+<p>The number of visitors depends on whether the MathO-questions made it to the front-page (for example, the 80 visits on december 15, came from the <a href="http://mathoverflow.net/questions/1909/what-are-dessins-denfants">What are dessins d’enfants?-topic</a> getting an extra comment that very day, and having two references to NeB-posts : <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-best-rejected-proposal-ever.html">The best rejected proposal ever</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/kleins-dessins-denfant-and-the-buckyball.html">Klein’s dessins d’enfant and the buckyball</a>), but even older MathO-topics give a few referrals a day, and these people sure take their time reading the posts (+ 5 minutes).</p>
+<p>Other MathO-topics giving referrals this month were <a href="http://mathoverflow.net//questions/49151/most-intricate-and-most-beautiful-structures-in-mathematics">Most intricate and most beautiful structures in mathematics</a> (linking to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/looking-for-f_un.html">Looking for F-un</a>), <a href="http://mathoverflow.net///questions/28496/what-should-be-learned-in-a-first-serious-schemes-course">What should be learned in a first serious schemes course?</a> (linking to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mumfords-treasure-map.html">Mumford’s treasure map</a> (btw. one of the most visited NeB-posts ever)), <a href="http://mathoverflow.net/questions/14468/how-much-of-scheme-theory-can-you-visualize">How much of scheme theory can you visualize?</a> (linking again to Mumford&#8217;s treasure map) and <a href="http://mathoverflow.net/questions/34699/approaches-to-riemann-hypothesis-using-methods-outside-number-theory">Approaches to Riemann hypothesis using methods outside number theory</a> (linking to the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bost-connes-coset-space.html">Bost-Connes series</a>).</p>
+<p>Finally, there&#8217;s <a href="http://em.wikipedia.org/">Wikipedia</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wikipedia1.jpg"></p>
+<p>giving 5 to 10 referrals a day, with a pretty good time-on-site average (around 4 minutes, peaking to 12 minutes). It is rewarding to see NeB-posts referred to in as diverse Wikipedia-topics as &#8216;Fifteen puzzle&#8217;, &#8216;Field with one element&#8217;, &#8216;Evariste Galois&#8217;, &#8216;ADE classification&#8217;, &#8216;Monster group&#8217;, &#8216;Arithmetic topology&#8217;, &#8216;Dessin d&#8217;enfant&#8217;, &#8216;Groupoid&#8217;, &#8216;Belyi&#8217;s theorem&#8217;, &#8216;Modular group&#8217;, &#8216;Cubic surface&#8217;, &#8216;Esquisse d&#8217;un programme&#8217;, &#8216;N-puzzle&#8217;, &#8216;Shabat polynomial&#8217; and &#8216;Mathieu group&#8217;.</p>
+<p>What lesson should be learned from all this data? Should I go for shorter, snappier and more visual posts, or should I focus on the small group of visitors taking their time reading through a longer post, and don&#8217;t care about the appallingly high <a href="http://en.wikipedia.org/wiki/Bounce_rate">bounce rate</a> the others cause?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Olivier Messiaen &#038; Mathieu 12</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/olivier-messiaen-mathieu-12/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/olivier-messiaen-mathieu-12/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2009 10:27:55 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[simple groups]]></category>
+		<category><![CDATA[sporadic groups]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2691</guid>
+
+					<description><![CDATA[To mark the end of 2009 and 6 years of blogging, two musical compositions with a mathematical touch to them. I wish you all a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>To mark the end of 2009 and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/a-blogging-2004.html">6 years</a> of blogging, two musical compositions with a mathematical touch to them. I wish you all a better 2010!</p>
+<p>Remember from <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/seriously-now-where-was-the-bourbaki-wedding.html">last time</a> that we identified <a href="http://en.wikipedia.org/wiki/Olivier_Messiaen">Olivier Messiaen</a> as the &#8216;Monsieur Modulo&#8217; playing the musical organ at the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/when-was-the-bourbaki-wedding.html">Bourbaki wedding</a>. This was based on the fact that his “modes à transposition limitée” are really about epimorphisms between modulo rings Z/12Z→Z/3Z and Z/12Z→Z/4Z.</p>
+<p>However, Messiaen had more serious mathematical tricks up his sleeve. In two of his compositions he did discover (or at least used) one of the smaller <a href="http://en.wikipedia.org/wiki/Sporadic_group">sporadic groups</a>, the Mathieu group $M_{12} $ of order 95040 on which we have based a whole series of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/conways-puzzle-m13.html">Mathieu games</a> two and a half years ago.</p>
+<p>Messiaen&#8217;s &#8216;Ile de fey 2&#8217; composition for piano (part of Quatre études de rythme (&#8220;Four studies in rhythm&#8221;), piano (1949–50)) is based on two concurrent permutations. The first is shown below, with the underlying motive rotational permutation shown.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messiM12a.jpg"><br />
+</center></p>
+<p>This gives the permutation (1,7,10,2,6,4,5,9,11,12)(3,8). A second concurrent permutation is based on the permutation (1,6,9,2,7,3,5,4,8,10,11) and both of them generate the Mathieu group $M_{12} $. This can be seen by realizing the two permutations as the rotational permutations</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messiM12b.jpg"><br />
+</center></p>
+<p>and identifying them with the <a href="http://en.wikipedia.org/wiki/Shuffling#Mongean_shuffle">Mongean shuffles</a>  generating $M_{12} $. See for example, Dave Benson&#8217;s book &#8220;Music: A Mathematical Offering&#8221;, freely available <a href="http://www.maths.abdn.ac.uk/~bensondj/html/music.pdf">online</a>.</p>
+<p>Clearly, Messiaen doesn&#8217;t use all of its 95040 permutations in his piece! Here&#8217;s how it sounds. The piece starts 2 minutes into the clip.</p>
+<p><center><object width="375" height="304"><param name="movie" value="http://www.youtube.com/v/6UrpeXcrG2c&#038;hl=en_US&#038;fs=1&#038;"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/6UrpeXcrG2c&#038;hl=en_US&#038;fs=1&#038;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="375" height="304"></embed></object></center></p>
+<p>The second piece is &#8220;Les Yeux dans les Roues&#8221; (The Eyes in the Wheels), sixth piece from the &#8220;Livre d&#8217;Orgue&#8221; (1950/51).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messiM12c.jpg"><br />
+</center></p>
+<p>According to <a href="http://hauptwerk.blogspot.com/2008/10/olivier-messiaen-les-yeux-dans-les.html">Hauptwerk</a>, the piece consists of a melody/theme in the pedal, accompanied by two fast-paced homorhythmic lines in the manuals. The pedal presents a sons-durées theme which is repeated six times, in different permutations. Initially it is presented in its natural form. Afterwards, it is presented alternatively picking notes from each end of the original form. Similar transformations are applied each time until the sixth, which is the retrograde of the first. The entire twelve-tone analysis (pitch only, not rhythm) of the pedal is shown below:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messiM12d.jpg"><br />
+</center></p>
+<p>That is we get the following five permutations which again generate Mathieu 12 :</p>
+<ul>
+<li>a=(2,3,5,9,8,10,6,11,4,7,12)</li>
+<li>b=(1,2,4,8,9,7,11,3,6,12)(5,10)=e*a</li>
+<li>c=(1,12,11,9,5,4,6,2,10,7)(3,8)=e*d</li>
+<li>d=(1,11,10,8,4,5,3,7,2,9,6)</li>
+<li>e=(1,12)(2,11)(3,10)(4,9)(5,8)(6,7)</li>
+</ul>
+<p>Here&#8217;s the piece performed on organ :</p>
+<p><object style="display:block; margin:0px auto 10px; text-align:center;" height="304" width="375"><param name="movie" value="http://www.youtube.com/v/rbNKxRims1s&amp;hl=en&amp;fs=1"><param name="allowFullScreen" value="true"><embed src="http://www.youtube.com/v/rbNKxRims1s&amp;hl=en&amp;fs=1" type="application/x-shockwave-flash" allowfullscreen="true" height="304" width="375"></embed></object></p>
+<p>Considering the permutations $X=d.a^{-1} $ and $Y=(a.d^2.a.d^3)^{-1} $ one obtains canonical generators of $M_{12} $, that is, generators satisfying the defining equations of this sporadic group</p>
+<p>$X^2=Y^3=(XY)^{11}=[X,Y]^6=(XYXYXY^{-1})^6=1 $</p>
+<p>I leave you to work out the corresponding <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monsieur-mathieu.html">dessin d&#8217;enfant</a> tonight after a couple of glasses of champagne! It sure has a nice form. Once again, a better 2010!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/olivier-messiaen-mathieu-12/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>When was the Bourbaki wedding?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/when-was-the-bourbaki-wedding/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/when-was-the-bourbaki-wedding/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 07 Oct 2009 19:38:56 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[Boas]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[Smithies]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2216</guid>
+
+					<description><![CDATA[It&#8217;s great fun trying to decode some of the puns contained in Betti Bourbaki&#8217;s wedding invitation. Below a photograph, taken on May 13th 1939, of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It&#8217;s great fun trying to decode some of the puns contained in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-wedding-invitation-that-nearly-killed-andre-weil.html">Betti Bourbaki&#8217;s wedding invitation</a>. Below a photograph, taken on May 13th 1939, of three of the practical jokers (from left to right : <a href="http://en.wikipedia.org/wiki/Ralph_P._Boas,_Jr.">Ralph Boas</a>, <a href="http://www.gap-system.org/~history/Biographies/Smithies.html">Frank Smithies</a> and <a href="http://en.wikipedia.org/wiki/André_Weil">Andre Weil</a>), the others were <a href="http://www.numbertheory.org/obituaries/OTHERS/chabauty/chabauty2.html">Claude Chabauty</a>, Weil&#8217;s wife Eveline and Louis Bouckaert (from Louvain).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/RedLion.jpg"><br />
+</center></p>
+<p>Part of this picture is on the front cover of the book <a href="http://www.amazon.co.uk/Lion-Hunting-Other-Mathematical-Pursuits/dp/088385323X/">Lion Hunting &amp; other Mathematical Pursuits</a>. This book clarifies the &#8216;Secrétaire de l&#8217;Oevre du Sou du Lion&#8217;-phrase as well as some of the names on the card.</p>
+<p>Inspired by the Bourbaki-hoax, a group of postdoctoral fellows visiting Princeton University in 1937-1938 (Boas, Smithies and John Tuckey) published their inventions, allegedly devised by Hector Pétard (aka &#8216;H(oist) W(ith) O(wn) Petard&#8217; after the Shakespeare line &#8220;For &#8217;tis the sport to have the engineer, hoist with his own petard&#8230;&#8221; Hamlet act III scene IV) who was writing under the pseudonym of E.S. Pondiczery. Pétard&#8217;s existence was asserted in the paper &#8220;A Contribution to the Mathematical Theory of Big-Game Hunting&#8221;  Amer. Math. Monthly 45 (1938) 446-447.</p>
+<p>Smithies recalls the spring 1939 period in Cambridge as follows : &#8220;The climax of the academic year, as far as we were concerned, came in the Easter term. André Weil, Claude Chabauty, and Louis Bouckaert (from Louvain) were all in Cambridge, and the proposal was mooted that a marriage should be arranged between Bourbaki&#8217;s daughter Betti and Hector Pétard; the marriage announcement was duly printed in the canonical French style &#8211; on it Pétard was described as the ward of Ersatz Stanislas Pondiczery &#8211; and it was circulated to the friends of both parties. A couple of weeks later the Weils, Louis Bouckaert, Max Krook (a South African astrophysicist), Ralph and myself made a river excursion to Grantchester by punt and canoe to have tea at the Red Lion; there is a photograph of Ralph and myself, with our triumphantly captured lion between us and André Weil looking benevolently on.&#8221;</p>
+<p>From this and the date of the photograph (May 13th 1939) one can conclude that the marriage-card was drawn up around mid april 1939. As weddings tend to follow their announcement by a couple of months, this contradicts the following passage from <a href="http://portail.mathdoc.fr/archives-bourbaki/PDF/hcms_004.pdf">Notice sur la Vie et l &#8216;oeuvre de Nicolas Bourbaki</a> by an unidentified author :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/wedding1938.jpg"><br />
+</center></p>
+<p>&#8220;Nominated as Privat-Dozent at the University of Dorpat in 1913, he (that is, N. Bourbaki) married two years later; a single girl, Betti, married in 1938 to the Lion hunter H. Pétard, was born out of this marriage.&#8221;</p>
+<p>But then, when was the Bourbaki-Pétard wedding scheduled? Surely, a wedding announcement should provide that information. Here&#8217;s the relevant part :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/weddingdate.jpg"><br />
+</center></p>
+<p>&#8220;The trivial isomorphism (aka the sacrament of matrimony) will be given to them by P. Adic, of the Diophantine Order, at the Principal Cohomology of the Universal Variety, <strong>the 3 Cartember, year VI, at the usual hour</strong>.&#8221;</p>
+<p>Here&#8217;s my guess : the first Bourbaki-meeting took place  December 10th 1934. Actually, it was a &#8216;proto-Bourbaki-meeting&#8217;, but nevertheless founding members such as [<a href="http://www.gap-system.org/~history/Biographies/Delsarte.html">Jean Delsarte</a> counted 1934 as the first Bourbaki year as is clear from the &#8216;Remarque&#8217; at the top of his <a href="http://portail.mathdoc.fr/archives-bourbaki/PDF/delta_001.pdf">notes of the first meeting</a> : 34+25=59, trying to figure out when the 25-year festivity was going to be held &#8230;</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/firstBourbaki.jpg"><br />
+</center></p>
+<p>Thus, if 1934 is year 1 of the Bourbaki-calender, year VI should be 1939. The notules also give a hint of &#8216;the usual hour&#8217;. In the 1934-1940 period, the Bourbakis met twice a month before the monday-afternoon seminar, at 12 o&#8217;clock sharp, the &#8216;sacred hour&#8217;, for a meeting over lunch.</p>
+<p>Remains the &#8216;Cartembre&#8217;-puzzle. We know &#8216;Septembre (7), Novembre (9), Decembre (10)&#8217; so if &#8216;Cart&#8217; is short for &#8216;Quatre&#8217; (4), Cartembre might be June. I guess the wedding was scheduled to be held on <strong>June 3rd, 1939 at 12h</strong>.</p>
+<p>It fits with the date the announcement was drawn up and June 3rd, 1939 sure enough was a saturday, the &#8216;canonical&#8217; day for a wedding. Remains the problem of the wedding <strong>place</strong>. Suggestions anyone?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/when-was-the-bourbaki-wedding/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>can -oids save group-theory 101?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/can-oids-save-group-theory-101/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/can-oids-save-group-theory-101/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 15 Feb 2009 10:31:39 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1208</guid>
+
+					<description><![CDATA[Can one base a group-theory 101 course on the notion of groupoids?]]></description>
+										<content:encoded><![CDATA[<p>Two questions from my last group-theory 101 exam:</p>
+<p>(a) : What are the Jordan-Holder components of the Abelian group $\mathbb{Z}/20 \mathbb{Z} $?</p>
+<p>(b) : Determine the number of order 7 elements in a simple group of order 168.</p>
+<p>Give these to any group of working mathematicians, and, I guess all of them will solve (a), whereas the number of correct solutions to (b) will be (substantially) smaller.</p>
+<p>Guess what? All(!) my students solved (b) correctly, whereas almost none of them had anything sensible to say about (a). A partial explanation is that they had more drill-exercises applying the Sylow-theorems than ones concerning the Jordan-Holder theorem.</p>
+<p>A more fundamental explanation is that (b) has to do with sub-structures whereas (a) concerns quotients. Over the years I&#8217;ve tried numerous methods to convey the quotient-idea : putting things in bags, dividing a big group-table into smaller squares, additional lessons on relations, counting modulo numbers &#8230; No method appears to have an effect, lasting until the examination.</p>
+<p>At the moment I&#8217;m seriously considering to rewrite the entire course, ditching quotients and using them only in disguise via <a href="http://en.wikipedia.org/wiki/Groupoid">groupoids</a>. Before you start bombarding me with comments, I&#8217;m well aware of the problems inherent in this approach.</p>
+<p>Before you do groupoids, students have to know some basic category theory. But that&#8217;s ok with me. Since last year it has been decided that I should sacrifice the first three weeks of the course telling students the basics of sets, maps and relations. After this, the formal definition of a category will appear more natural to them than the definition of a group, not? Besides, most puzzle-problems I use to introduce groups are actually examples of groupoids&#8230;</p>
+<p>But then, what are the main theorems on finite groupoids? Well, I can see the <a href="http://ncatlab.org/nlab/show/groupoid+cardinality">groupoid cardinality</a> result, giving you in one stroke <a href="http://en.wikipedia.org/wiki/Lagrange_theorem_(group_theory)">Lagrange&#8217;s theorem</a> as well as the orbit-counting method. From this one can then prove the remaining classical group-results such as Cauchy and the Sylows, but perhaps there are more elegant approaches?</p>
+<p>Have you seen a first-year group-theory course starting off with groupoids? Do you know an elegant way to prove a classical group-result using groupoids?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/can-oids-save-group-theory-101/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>sporadic simple games</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/sporadic-simple-games/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/sporadic-simple-games/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 13 Jul 2008 11:10:20 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[blackjack]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=439</guid>
+
+					<description><![CDATA[About a year ago I did a series of posts on games associated to the Mathieu sporadic group $M_{12} $, starting with a post on&#8230;]]></description>
+										<content:encoded><![CDATA[<p>About a year ago I did a series of posts on games associated to the Mathieu sporadic group $M_{12} $, starting with a post on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/conways-puzzle-m13.html">Conway&#8217;s puzzle M(13)</a>, and, continuing with a discussion of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mathieus-blackjack-1.html">mathematical blackjack</a>. The idea at the time was to write a book for a general audience, as discussed at the start of the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/conways-puzzle-m13.html">M(13)-post</a>, ending with a series of new challenging mathematical games. I asked : &#8220;What kind of puzzles should we promote for mathematical thinking to have a fighting chance to survive in the near future?&#8221;</p>
+<p>Now, Scientific American has (no doubt independently) taken up this lead. Their July 2008 issue features the article <a href="http://www.sciam.com/article.cfm?id=simple-groups-at-play">Rubik&#8217;s Cube Inspired Puzzles Demonstrate Math&#8217;s &#8220;Simple Groups&#8221;</a> written by Igor Kriz and Paul Siegel.</p>
+<p>By far the nicest thing about this article is that it comes with <a href="http://www.sciam.com/article.cfm?id=puzzles-simple-groups-at-play">three online games</a> based on the sporadic simple groups, the Mathieu groups $M_{12} $, $M_{24} $ and the Conway group $.0 $.</p>
+<p><strong>the M(12) game</strong></p>
+<p>Scrambles to an arbitrary permutation in $M_{12} $ and need to use the two generators $INVERT=(1,12)(2,11)(3,10)(4,9)(5,8)(6,7) $ and $MERGE=(2,12,7,4,11,6,10,8,9,5,3) $ to return to starting position.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m12game.jpg"><br />
+</center></p>
+<p>Here is the help-screen :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m12gamehelp.jpg" width=650 ><br />
+</center></p>
+<p>They promise the solution by july 27th, but a few-line GAP-program cracks the puzzle instantly.</p>
+<p><strong>the M(24) game</strong></p>
+<p>Similar in nature, again using two generators of $M_{24} $. GAP-solution as before.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m24game.jpg"><br />
+</center></p>
+<p>This time, they offer this help-screen :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m24gamehelp.jpg"><br />
+</center></p>
+<p><strong>the .0 game</strong></p>
+<p>Their most original game is based on Conway&#8217;s $.0 $ (dotto) group. Unfortunately, they offer only a Windows-executable version, so I had to install <a href="http://www.apple.com/macosx/features/bootcamp.html">Bootcamp</a> and struggle a bit with taking screenshots on a MacBook to show you the game&#8217;s starting position :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dottogame.jpg"><br />
+</center></p>
+<blockquote><p>
+Dotto: </p>
+<p />
+Dotto, our final puzzle, represents the Conway group Co0, published in 1968 by mathematician John H. Conway of Princeton University. Co0 contains the sporadic simple group Co1 and has exactly twice as many members as Co1. Conway is too modest to name Co0 after himself, so he denotes the group “.0” (hence the pronunciation “dotto”).</p>
+<p />
+<p>In Dotto, there are four moves. This puzzle includes the M24 puzzle. Look at the yellow/blue row in the bottom. This is, in fact, M24, but the numbers are arranged in a row instead of a circle. The R move is the &#8220;circle rotation to the right&#8221;: the column above the number 0 stays put, but the column above the number 1 moves to the column over the number 2 etc. up to the column over the number 23, which moves to the column over the number 1. You may also click on a column number and then on another column number in the bottom row, and the &#8220;circle rotation&#8221; moving the first column to the second occurs. The M move is the switch, in each group of 4 columns separated by vertical lines (called tetrads) the &#8220;yellow&#8221; columns switch and the &#8220;blue&#8221; columns switch. The sign change move (S) changes signs of the first 8 columns (first two tetrads). The tetrad move (T) is the most complicated: Subtract in each row from each tetrad 1/2 times the sum of the numbers in that tetrad. Then in addition to that, reverse the signs of the columns in the first tetrad.</p>
+<p />
+<p>Strategy hints: Notice that the sum of squares of the numbers in each row doesn&#8217;t change. (This sum of squares is 64 in the first row, 32 in every other row.) If you manage to get an &#8220;8&#8221;in the first row, you have almost reduced the game to M24 except those signs. To have the original position, signs of all numbers on the diagonal must be +. Hint on signs: if the only thing wrong are signs on the diagonal, and only 8 signs are wrong, those 8 columns can be moved to the first 8 columns by using only the M24 moves (M,R).
+</p></blockquote>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/sporadic-simple-games/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the buckyball symmetries</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-buckyball-symmetries/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-buckyball-symmetries/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 27 Jun 2008 07:04:36 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=435</guid>
+
+					<description><![CDATA[The buckyball is without doubt the hottest mahematical object at the moment (at least in Europe). Recall that the buckyball (middle) is a mixed form&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="http://en.wikipedia.org/wiki/Truncated_icosahedron">buckyball</a> is without doubt the <a href="http://www.euro2008.uefa.com/">hottest mahematical object</a> at the moment (at least in Europe). Recall that the buckyball (middle) is a mixed form of two Platonic solids</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/bucky1.jpg" ><br />
+</center></p>
+<p>the <a href="http://en.wikipedia.org/wiki/Icosahedron">Icosahedron</a> on the left and the <a href="http://en.wikipedia.org/wiki/Dodecahedron">Dodecahedron</a> on the right.</p>
+<p>For those of you who don&#8217;t know anything about football, it is that other ball-game, best described via a quote from the English player <a href="http://en.wikipedia.org/wiki/Gary_Lineker">Gary Lineker</a></p>
+<blockquote><p>&#8220;Football is a game for 22 people that run around, play the ball, and one referee who makes a slew of mistakes, and in the end Germany always wins.&#8221;</p></blockquote>
+<p>We still have a few days left hoping for a better ending&#8230; Let&#8217;s do some bucky-maths : what is the rotation symmetry group of the buckyball?</p>
+<p>For starters, dodeca- and icosahedron are <strong>dual solids</strong>, meaning that if you take the center of every face of a dodecahedron and connect these points by edges when the corresponding faces share an edge, you&#8217;ll end up with the icosahedron (and conversely). Therefore, both solids (as well as their mixture, the buckyball) will have the same group of rotational symmetries. Can we at least determine the number of these symmetries?</p>
+<p>Take the dodecahedron and fix a face. It is easy to find a rotation taking this face to anyone of its five adjacent faces. In group-slang : the rotation automorphism group acts <strong>transitively</strong> on the 12 faces of the dodecohedron. Now, how many of them fix a given face? These can only be rotations with axis through the center of the face and there are exactly 5 of them preserving the pentagonal face. So, in all we have $12 \times 5 = 60 $ rotations preserving any of the three solids above. By composing two of its elements, we get another rotational symmetry, so they form a <strong>group</strong> and we would like to determine what that group is.</p>
+<p>There is one group that springs to mind $A_5 $, the subgroup of all <strong>even</strong> permutations on 5 elements. In general, the <a href="http://en.wikipedia.org/wiki/Alternating_group">alternating group</a> has half as many elements as the full permutation group $S_n $, that is $\frac{1}{2} n! $ (for multiplying with the involution (1,2) gives a bijection between even and odd permutations). So, for $A_5 $ we get 60 elements and we can list them :</p>
+<ul>
+<li>the trivial permutation$~() $, being the identity.  </li>
+<li>permutations of order two with cycle-decompostion $~(i_1,i_2)(i_3,i_4) $, and there are exactly 15 of them around when all numbers are between 1 and 5.  </li>
+<li>permutations of order three with cycle-form $~(i_1,i_2,i_3) $ of which there are exactly 20.  </li>
+<li>permutations of order 5 which have to form one full cycle $~(i_1,i_2,i_3,i_4,i_5) $. There are 24 of those.  </li>
+</ul>
+<p>Can we at least view these sets of elements as rotations of the buckyball? Well, a dodecahedron has 12 pentagobal faces. So there are 4 nontrivial rotations of order 5 for every 2 opposite faces and hence the dodecaheder (and therefore also the buckyball) has indeed 6&#215;4=24 order 5 rotational symmetries.</p>
+<p>The icosahedron has twenty triangles as faces, so any of the 10 pairs of opposite faces is responsible for two non-trivial rotations of order three, giving us 10&#215;2=20 order 3 rotational symmetries of the buckyball.</p>
+<p>The order two elements are slightly harder to see. The icosahedron has 30 edges and there is a plane going through each of the 15 pairs of opposite edges splitting the icosahedron in two. Hence rotating to interchange these two edges gives one rotational symmetry of order 2 for each of the 15 pairs.</p>
+<p>And as 24+20+15+1(identity) = 60 we have found all the rotational symmetries and we see that they pair up nicely with the elements of $A_5 $. But do they form isomorphic groups? In other words, can the buckyball see the <strong>5</strong> in the group $A_5 $.</p>
+<p>In a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/arnolds-trinities.html">previous post</a> I&#8217;ve shown that one way to see this 5 is as the number of inscribed cubes in the dodecahedron. But, there is another way to see the five based on the order 2 elements described before.</p>
+<p>If you look at pairs of opposite edges of the icosahedron you will find that they really come in triples such that the planes determined by each pair are mutually orthogonal (it is best to feel this on ac actual icosahedron). Hence there are 15/3 = 5 such triples of mutually orthogonal symmetry planes of the icosahedron and of course any rotation permutes these triples. It takes a bit of more work to really check that this action is indeed the natural permutation action of $A_5 $ on 5 elements.</p>
+<p>Having convinced ourselves that the group of rotations of the buckyball is indeed the alternating group $A_5 $, we can reverse the problem : can the alternating group $A_5 $ <strong>see</strong> the buckyball???</p>
+<p>Well, for starters, it can &#8216;see&#8217; the icosahedron in a truly amazing way. Look at the conjugacy classes of $A_5 $. We all know that in the full symmetric group $S_n $ elements belong to the same conjugacy class if and only if they have the same cycle decomposition and this is proved using the fact that the conjugation f a cycle $~(i_1,i_2,\ldots,i_k) $ under a permutation $\sigma \in S_n $ is equal to the cycle $~(\sigma(i_1),\sigma(i_2),\ldots,\sigma(i_k)) $ (and this gives us also the candidate needed to conjugate two partitions into each other).</p>
+<p>Using this trick it is easy to see that all the 15 order 2 elements of $A_5 $ form one conjugacy class, as do the 20 order 3 elements. However, the 24 order 5 elements split up in two conjugacy classes of 12 elements as the permutation needed to conjugate $~(1,2,3,4,5) $ to $~(1,2,3,5,4) $ is $~(4,5) $ but this is <strong>not</strong> an element of $A_5 $.</p>
+<p>Okay, now take one of these two conjugacy classes of order 5 elements, say that of $~(1,2,3,4,5) $. It consists of 12 elements, 12 being also the number of <strong>vertices</strong> of the icosahedron. So, is there a way to identify the elements in the conjugacy class to the vertices in such a way that we can describe the edges also in terms of group-computations in $A_5 $?</p>
+<p>Surprisingly, this is indeed the case as is demonstrated in a marvelous paper by Kostant <a href="http://www.ams.org/notices/199509/kostant.pdf">“The graph of the truncated icosahedron and the last letter of Galois”</a>.</p>
+<blockquote><p>Two elements $a,b $ in the conjugacy class C share an edge if and only if their product $a.b \in A_5 $ still belongs to the conjugacy class C!
+</p></blockquote>
+<p>So, for example $~(1,2,3,4,5).(2,1,4,3,5) = (2,5,4) $ so there is no edge between these elements, but on the other hand $~(1,2,3,4,5).(5,3,4,1,2)=(1,5,2,4,3) $ so there is an edge between these! It is no coincidence that $~(5,3,4,1,2)=(2,1,4,3,5)^{-1} $ as inverse elements correspond in the bijection to opposite vertices and for any pair of non-opposite vertices of an icosahedron it is true that either they are neighbors or any one of them is the neighbor of the opposite vertex of the other element.</p>
+<p>If we take $u=(1,2,3,4,5) $ and $v=(5,3,4,1,2) $ (or any two elements of the conjugacy class such that u.v is again in the conjugacy class), then one can describe all the vertices of the icosahedron group-theoretically as follows</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/conjA5.jpg" ><br />
+</center></p>
+<p>Isn&#8217;t that nice? Well yes, you may say, but that is just the icosahedron. Can the group $A_5 $ also see the buckyball?</p>
+<p>Well, let&#8217;s try a similar strategy : the buckyball has 60 vertices, exactly as many as there are elements in the group $A_5 $. Is there a way to connect certain elements in a group according to fixed rules? Yes, there is such a way and it is called the <a href="http://en.wikipedia.org/wiki/Cayley_graph">Cayley Graph</a> of a group. It goes like this : take a set of generators $&#123; g_1,\ldots,g_k &#125; $ of a group G, then connect two group element $a,b \in G $ with an edge if and only if $a = g_i.b $ or $b = g_i.a $ for some of the generators.</p>
+<p>Back to the alternating group $A_5 $. There are several sets of generators, one of them being the elements $&#123; (1,2,3,4,5),(2,3)(4,5) &#125; $. In the paper mentioned before, Kostant gives an impressive group-theoretic proof of the fact that the Cayley-graph of $A_5 $ with respect to these two generators is indeed the buckyball!</p>
+<p>Let us allow to be lazy for once and let <a href="http://modular.math.washington.edu/sage/">SAGE</a> do the hard work for us,  and let us just watch the outcome. Here&#8217;s how that&#8217;s done</p>
+<blockquote><p>A=PermutationGroup([&#8216;(1,2,3,4,5)&#8217;,'(2,3)(4,5)&#8217;]) <br />
+B=A.cayley_graph() <br />
+B.show3d()</p></blockquote>
+<p>The outcone is a nice 3-dimensional picture of the buckyball. Below you can see a still, and, if you click on it you will get a 3-dimensional model of it (first click the &#8216;here&#8217; link in the new window and then you&#8217;d better control-click and set the zoom to 200% before you rotate it)</p>
+<p><center><br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/jmoldata/bucky2.html" target="_blank" rel="noopener"><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/bucky2.jpg"><br />
+</a><br />
+</center></p>
+<p>Hence, viewing this Cayley graph from different points we have convinced ourselves that it is indeed the buckyball. In fact, most (truncated) Platonic solids appear as Cayley graphs of groups with respect to specific sets of generators. For later use here is a (partial) survey (taken from <a href="http://www.geocities.com/jaapsch/puzzles/cayley.htm">Jaap&#8217;s puzzle page</a>)</p>
+<p><center><br />
+<img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/jaap1.jpg" ><br />
+</center></p>
+<p><strong>Tetrahedron :</strong> $C_2 \times C_2,[(12)(34),(13)(24),(14)(23)] $ <br />
+<strong>Cube :</strong> $D_4,[(1234),(13)] $<br />
+<strong>Octahedron :</strong> $S_3,[(123),(12),(23)] $<br />
+<strong>Dodecahedron :</strong>  <strong>IMPOSSIBLE</strong><br />
+<strong>Icosahedron :</strong> $A_4,[(123),(234),(13)(24)] $</p>
+<p><center><br />
+<img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/jaap2.jpg" ><br />
+</center></p>
+<p><strong>Truncated tetrahedron :</strong> $A_4,[(123),(12)(34)] $<br />
+<strong>Cuboctahedron :</strong> $A_4,[(123),(234)] $<br />
+<strong>Truncated cube :</strong> $S_4,[(123),(34)] $<br />
+<strong>Truncated octahedron :</strong> $S_4,[(1234),(12)] $<br />
+<strong>Rhombicubotahedron :</strong> $S_4,[(1234),(123)] $<br />
+<strong>Rhombitruncated cuboctahedron :</strong> <strong>IMPOSSIBLE</strong><br />
+<strong>Snub cuboctahedron :</strong> $S_4,[(1234),(123),(34)] $</p>
+<p><center><br />
+<img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/jaap3.jpg" ><br />
+</center></p>
+<p><strong>Icosidodecahedron :</strong> <strong>IMPOSSIBLE</strong><br />
+<strong>Truncated dodecahedron :</strong> $A_5,[(124),(23)(45)] $<br />
+<strong>Truncated icosahedron :</strong> $A_5,[(12345),(23)(45)] $<br />
+<strong>Rhombicosidodecahedron :</strong> $A_5,[(12345),(124)] $<br />
+<strong>Rhombitruncated icosidodecahedron :</strong> <strong>IMPOSSIBLE</strong><br />
+<strong>Snub Icosidodecahedron :</strong> $A_5,[(12345),(124),(23)(45)] $</p>
+<p>Again, all these statements can be easily verified using SAGE via the method described before. Next time we will go further into the Kostant&#8217;s group-theoretic proof that the buckyball is the Cayley graph of $A_5 $ with respect to (2,5)-generators as this calculation will be crucial in the description of the <strong>buckyball curve</strong>, the genus 70 Riemann surface discovered by <a href="http://www.personal.soton.ac.uk/ds1/">David Singerman</a> and<br />
+Pablo Martin which completes the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/arnolds-trinities.html">trinity</a> corresponding to the Galois trinity</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/buckybb1.jpg" width=100% ></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-buckyball-symmetries/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>exotic chess positions (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/exotic-chess-positions-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/exotic-chess-positions-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 04 Mar 2008 13:21:40 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/exotic-chess-positions-1.html</guid>
+
+					<description><![CDATA[Ever tried a chess problem like : White to move, mate in two! Of course you have, and these are pretty easy to solve :&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Ever tried a chess problem like : <strong>White to move, mate in two!</strong> Of course you have, and these are pretty easy to solve : you only have to work through the finite list of white first moves and decide whether or not black has a move left preventing mate on the next white move. This is even a (non-optimal) fool-proof algorithm to find the solution to this kind of chess problems. Right?</p>
+<p>Wrong! There exist concrete positions, provable mate in two in which it is NOT possible to determine the winning first move for white! So, what&#8217;s wrong with the argument above? We did assume that, given the position, it is possible to determine all legal moves for the two players. So?</p>
+<p>Well, some moves are legal only depending on the <strong>history</strong> of the game. For example, you are only allowed to do a <a href="http://en.wikipedia.org/wiki/Castling">castling</a> if your king nor your rook made a prior move. Further, you can only make an <a href="http://en.wikipedia.org/wiki/En_passant">en-passant-capture</a> on the next move.</p>
+<p>But surely all this is just theoretical? No-one ever constructed a provable 2-mate with impossible winning move. Wrong again. The logician <a href="http://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a> did precisely that in his retro-chess puzzle book <a href="http://en.wikipedia.org/wiki/Special:Booksources/0394737571">Chess mysteries of Sherlock Holmes</a>. Here&#8217;s the position :</p>
+<p />
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/smullyan.jpg" ><br />
+</center></p>
+<p>Presumably every chess player goes for the mate : <strong>1. Kf5-e6  2. g7-g8D</strong> But what if black counters your first move with a castling <strong>1. &#8230; 0-0-0</strong> ? Surely he isnt allowed to do this. Why not, is there any clue in the position to prove that either the king or the rook must have moved before?</p>
+<p>Well, what was black previous move then? It cannot be the pawn move <strong>e6-e5</strong> as before that move the white King would be in check, so what was it? Just one possibility left : it must have been <strong>e7-e5</strong>.</p>
+<p>This offers then another winning strategy for white, as white can capture en-passant. <strong>1. d5xe6 e.p.</strong> and then if black castles <strong>1. &#8230; 0.0.0, 2. b6-b7</strong> or is black does any other move : <strong>2. g7-g8</strong>.</p>
+<p>Hence, whatever the games&#8217; history, white has a mate in two! However, looking ONLY at the given position, it is impossible for him to judge whether <strong>Kf5-e6</strong> will do the trick!</p>
+<p>Anyone seen similar constructions?</p>
+<p><strong>UPDATE</strong></p>
+<p>According to the wikipedia page on <a href="http://en.wikipedia.org/wiki/Retrograde_analysis">Retrograde chess analysis</a>, the Smullyan-idea is an adaptation of a much older problem due to W. Langstaff in the Chess Amateur of 1922. Here&#8217;s the situation (the solution is the same as above)</p>
+<p />
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/langstaff.jpg" ><br />
+</center></p>
+<p />
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/exotic-chess-positions-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the King’s problem on MUBs</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-kings-problem-on-mubs/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-kings-problem-on-mubs/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 28 Feb 2008 14:46:42 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blackjack]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/the-kings-problem-on-mubs.html</guid>
+
+					<description><![CDATA[MUBs (for Mutually Unbiased Bases) are quite popular at the moment. Kea is running a mini-series Mutual Unbias as is Carl Brannen. Further, the Perimeter&#8230;]]></description>
+										<content:encoded><![CDATA[<p><strong>MUBs</strong> (for <strong>M</strong>utually <strong>U</strong>nbiased <strong>B</strong>ases) are quite popular at the moment. Kea is running a mini-series <a href="http://kea-monad.blogspot.com/2008/02/mutual-unbias-vi.html">Mutual Unbias</a> as is <a href="http://carlbrannen.wordpress.com/2008/02/13/koide-formulas-and-qubit-qutrit-mubs/">Carl Brannen</a>. Further, the <a href="http://www.perimeterinstitute.ca/index.php?lang=en">Perimeter Institute</a> has a good website for its <a href="http://www.perimeterinstitute.ca/en/Scientific/Seminars/Series/">seminars</a> where they offer streaming video (I like their MacromediaFlash format giving video and slides/blackboard shots simultaneously, in distinct windows) including a <a href="http://www.perimeterinstitute.ca/index.php?option=com_content&amp;task=view&amp;id=50&amp;Itemid=83&amp;lecture_id=6421">talk on MUBs</a> (as well as an <a href="http://streamer.perimeterinstitute.ca/Flash/c18cea9b-6ebe-4a55-bc5f-9e493697f7fb/index.html">old talk</a> by Wootters).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/wootters.jpg" align=center ></p>
+<p>So what are MUBs to mathematicians? Recall that a d-state quantum system is just the vectorspace $\mathbb{C}^d $ equipped with the usual Hermitian inproduct $\vec{v}.\vec{w} = \sum \overline{v_i} w_i $. An observable $E $ is a choice of orthonormal basis $&#123; \vec{e_i} &#125; $ consisting of eigenvectors of the self-adjoint matrix $E $. $E $ together with another observable $F $ (with orthonormal basis $&#123; \vec{f_j} &#125; $) are said to be mutally unbiased if the norms of all inproducts $\vec{f_j}.\vec{e_i} $ are equal to $1/\sqrt{d} $. This definition extends to a collection of pairwise mutually unbiased observables. In a d-state quantum system there can be at most d+1 mutually unbiased bases and such a collection of observables is then called a MUB of the system. Using properties of finite fields one has shown that MUBs exists whenever d is a prime-power. On the other hand, existence of a MUB for d=6 still seems to be open&#8230;</p>
+<p>The <strong>King&#8217;s Problem</strong> (( actually a misnomer, it&#8217;s more the poor physicists&#8217; problem&#8230; )) is the following : A physicist is trapped on an island ruled by a mean<br />
+king who promises to set her free if she can give him the answer to the following puzzle. The<br />
+physicist is asked to prepare a d−state quantum system in any state of her choosing and give it<br />
+to the king, who measures one of several mutually unbiased observables on it. Following this, the physicist is allowed to make a control measurement<br />
+on the system, as well as any other systems it may have been coupled to in the preparation<br />
+phase. The king then reveals which observable he measured and the physicist is required<br />
+to predict correctly all the eigenvalues he found.</p>
+<p>The <a href="http://arxiv.org/pdf/quant-ph/0210007v6">Solution to the King&#8217;s problem in prime power dimension</a> by P. K. Aravind, say for $d=p^k $, consists in taking a system of k object qupits (when $p=2l+1 $ one qupit is a spin l particle) which she will give to the King together with k ancilla qupits that she retains in her possession. These 2k qupits are diligently entangled and prepared is a well chosen state. The final step in finding a suitable state is the solution to a pure combinatorial problem :</p>
+<p>She must use the numbers 1 to d to form $d^2 $ ordered sets of d+1 numbers each, with repetitions of numbers within a set allowed, such that any two sets have exactly one identical number in the same place in both. Here&#8217;s an example of 16 such strings for d=4 :</p>
+<p>11432, 12341, 13214, 14123, 21324, 22413, 23142, 24231, 31243, 32134, 33421, 34312, 41111, 42222, 43333, 44444</p>
+<p>Here again, finite fields are used in the solution. When $d=p^k $, identify the elements of $\mathbb{F}_{p^k} $ with the numbers from 1 to d in some fixed way. Then, the $d^2 $ of number-strings are found as follows : let $k_0,k_1 \in \mathbb{F}_{p^k} $ and take as the first 2 numbers the ones corresponding to these field-elements. The remaning d-2 numbers in the string are those corresponding to the field element $k_m $ (with $2 \leq m \leq d $) determined from $k_0,k_1 $ by the equation</p>
+<p>$k_m = l_{m} * k_0+k_1 $</p>
+<p>where $l_i $ is the field-element corresponding to the integer i ($l_1 $ corresponds to the zero element). It is easy to see that these $d^2 $ strings satisfy the conditions of the combinatorial problem. Indeed, any two of its digits determine $k_0,k_1 $ (and hence the whole string) as it follows from<br />
+$k_m = l_m k_0 + k_1 $ and $k_r = l_r k_0 + k_1 $ that $k_0 = \frac{k_m-k_r}{l_m-l_r} $.</p>
+<p>In the special case when d=3 (that is, one spin 1 particle is given to the King), we recover the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mathieus-blackjack-1.html">tetracode</a> : the nine codewords</p>
+<p>0000, 0+++, 0&#8212;, +0+-, ++-0, +-0+, -0-+, -+0-, &#8211;+0</p>
+<p>encode the strings (with +=1,-=2,0=3)</p>
+<p>3333, 3111, 3222, 1312, 1123, 1231, 2321, 2132, 2213</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-kings-problem-on-mubs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Archimedes’ stomachion</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/archimedes-stomachion/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/archimedes-stomachion/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 11 Feb 2008 19:24:00 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/archimedes-stomachion.html</guid>
+
+					<description><![CDATA[The Archimedes codex is a good read, especially when you are (like me) a failed archeologist. The palimpsest (Greek for &#8216;scraped again&#8217;) is the worlds&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/vacation-reading-2.html">Archimedes codex</a> is a good read, especially when you are (like me) a failed archeologist. The palimpsest (Greek for &#8216;scraped again&#8217;) is the worlds first Kyoto-approved &#8216;sustainable writing&#8217;. Isn&#8217;t it great to realize that one of the few surviving texts by Archimedes only made it because some monks recycled an old medieval parchment by scraping off most of the text, cutting the pages in half, rebinding them and writing a song-book on them&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/palimpsest.jpg" align = center ></p>
+<p>The Archimedes-text is barely visible as vertical lines running through the song-lyrics. There is a great <a href="http://www.archimedespalimpsest.org/index.html">website</a> telling the story in all its detail.</p>
+<p>Contrary to what the books claims I don&#8217;t think we will have to rewrite maths history. Didn&#8217;t we already know that the Greek were able to compute areas and volumes by approximating them with polygons resp. polytopes? Of course one might view this as a precursor to integral calculus&#8230; And then the claim that Archimedes invented ordinal calculus. Sure the Greek knew that there were &#8216;as many&#8217; even integers than integers&#8230; No, for me the major surprise was their theory about the genesis of mathematical notation.</p>
+<p>The Greek were pure <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/ascii-math.html">ASCII mathematicians</a> : they wrote their proofs out in full text. Now, here&#8217;s an interesting theory how symbols got into maths&#8230; pure laziness of the medieval monks transcribing the old works! Copying a text was a dull undertaking so instead of repeating &#8216;has the same ratio as&#8217; for the 1001th time, these monks introduced abbreviations like $\Sigma $ instead&#8230; and from then on things got slightly out of hand.</p>
+<p>Another great chapter is on the <a href="http://www.barbecuejoe.com/stomachion.htm">stomachion</a>, perhaps the oldest mathematical puzzle. Just a few pages made in into the palimpsest so we do not really know what (if anything) Archimedes had to say about it, but the conjecture is that he was after the number of different ways one could make a square with the following 14 pieces</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/stomacion.jpg" align=center ></p>
+<p>People used computers to show that the total number is $17152=2^8 \times 67 $. The 2-power is hardly surprising in view of symmetries of the square (giving $8 $) and the fact that one can flip one of the two vertical or diagonal parts in the alternative description of the square</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/stomachion2.jpg" align=center ></p>
+<p>but I sure would like to know where the factor 67 is coming from&#8230; <a href="http://enterprise.maa.org/editorial/mathgames/mathgames_11_17_03.html">The MAA</a> and <a href="http://math.ucsd.edu/~fan/stomach/tour/stomach.html">UCSD</a> have some good pages related to the stomachion puzzle. Finally, the book also views the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/problema-bovinum.html">problema bovinum</a> as an authentic Archimedes, so maybe I should stick to my promise to blog about it, after all&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/archimedes-stomachion/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>censured post : bloggers’ block</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/censured-post-bloggers-block/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/censured-post-bloggers-block/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 06 Feb 2008 10:48:26 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/censured-post-bloggers-block.html</guid>
+
+					<description><![CDATA[Below an up-till-now hidden post, written november last year, trying to explain the long blog-silence at neverendingbooks during october-november 2007&#8230; A couple of months ago&#8230;]]></description>
+										<content:encoded><![CDATA[<p><strong>Below an up-till-now hidden post, written november last year, trying to explain the long blog-silence at neverendingbooks during october-november 2007&#8230;</strong></p>
+<hr />
+<p>A couple of months ago a publisher approached me, out of the blue, to consider writing a book about mathematics for the general audience (in Dutch (?!)). Okay, I  brought this  on myself hinting at the possibility in <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">this post</a></p>
+<blockquote><p>Recently, I&#8217;ve been playing with the idea of writing a book for the general public. Its title is still unclear to me (though an idea might be &#8220;The disposable science&#8221;, better suggestions are of course wellcome) but I&#8217;ve fixed the subtitle as &#8220;Mathematics&#8217; puzzling fall from grace&#8221;. The book&#8217;s concept is simple : I would consider the mathematical puzzles creating an hype over the last three centuries : the 14-15 puzzle for the 19th century, Rubik&#8217;s cube for the 20th century and, of course, Sudoku for the present century.</p>
+<p>For each puzzle, I would describe its origin, the mathematics involved and how it can be used to solve the puzzle and, finally, what the differing quality of these puzzles tells us about mathematics&#8217; changing standing in society over the period. Needless to say, the subtitle already gives away my point of view. The final part of the book would then be more optimistic. What kind of puzzles should we promote for mathematical thinking to have a fighting chance to survive in the near future?</p></blockquote>
+<p>While I still like the idea and am considering the proposal, chances are low this book ever materializes : the blog-title says it all&#8230;</p>
+<p>Then, about a month ago I got some incoming links from a variety of Flemish blogs. From their posts I learned that the leading Science-magazine for the low countries, <a href="http://www.nwtonline.nl/index.lasso?">Natuur, Wetenschap &amp; Techniek</a> (Nature, Science &amp; Technology), featured an article on Flemish science-blogs and that this blog might be among the ones covered. It sure would explain the publisher&#8217;s sudden interest. Of course, by that time the relevant volume of NW&amp;T was out of circulation so I had to order a backcopy to find out what was going on. Here&#8217;s the relevant section, written by their editor <a href="http://www.nanoforum.org/nf06~modul~showresearcher~sent~35~.html">Erick Vermeulen</a> (as well as an attempt to translate it)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/nwt.jpg" width=500 ></p>
+<blockquote><p><strong>Sliding puzzle</strong> For those who want more scientific depth (( their interpretation, not mine )), there is the English blog by Antwerp professor algebra &#038; geometry Lieven Le Bruyn, MoonshineMath (( indicates when the article was written&#8230; )). Le Bruyn offers a number of mathematical descriptions, most of them relating to group theory and in particular the so called monster-group and monstrous moonshine. He mentions some puzzles in passing such as the well known sliding puzzle with 15 pieces sliding horizontally and vertically in a 4 by 4 matrix. Le Bruyn argues that this  &#8217;15-puzzle (( <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=14">The 15-puzzle groupoid</a> ))&#8217; was the hype of the 19th century as was the Rubik cube for the 20th and is Sudoku for the 21st century. <br />
+Interesting is Le Bruyn&#8217;s mathematical description of the M(13)-puzzle (( <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">Conway&#8217;s M(13)-puzzle</a> )) developed by John Conway. It has 13 points on a circle, twelve of them carrying a numbered counter. Every point is connected via lines to all others (( a slight simplification )). Whenever a counter jumps to the empty spot, two others exchange places. Le Bruyn promises the blog-visitor new variants to come (( did I? )). We are curious. <br />
+Of course, the genuine puzzler can leave all this theory for what it is, use the Java-applet (( <a href="http://www.sebastian-egner.net/m13/">Egner&#8217;s M(13)-applet</a> )) and painfully try to move the counters around the circle according to the rules of the game.</p></blockquote>
+<p>Some people crave for this kind of media-attention. On me it merely has a blocking-effect. Still, as the end of my first-semester courses comes within sight, I might try to shake it off&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/censured-post-bloggers-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

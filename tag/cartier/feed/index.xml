@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Cartier &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/cartier/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 04 Jan 2022 19:42:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Huawei and French mathematics</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 19:42:59 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Broue]]></category>
+		<category><![CDATA[Cartier]]></category>
+		<category><![CDATA[Figalli]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[Lafforgue]]></category>
+		<category><![CDATA[Lions]]></category>
+		<category><![CDATA[Schapira]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9943</guid>
+
+					<description><![CDATA[Huawei, the Chinese telecom giant, appears to support (and divide) the French mathematical community. I was surprised to see that Laurent Lafforgue&#8217;s affiliation recently changed&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Huawei, the Chinese telecom giant, appears to support (and divide) the French mathematical community.</p>
+<p>I was surprised to see that <a href="https://en.wikipedia.org/wiki/Laurent_Lafforgue">Laurent Lafforgue&#8217;s</a> affiliation recently changed from &#8216;IHES&#8217; to &#8216;Huawei&#8217;, for example <a href="https://utge.lakecomoschool.org/">here</a> as one of the organisers of the Lake Como conference on &#8216;Unifying themes in geometry&#8217;.</p>
+<p>Judging from this short Huawei-clip (in French) he thoroughly enjoys his new position.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/EqrNLuN5Bfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Huawei <a href="https://inf.news/en/science/0b03792c7ee5879f723ea9ffaa608e60.html">claims</a> that &#8216;Three more winners of the highest mathematics award have now joined Huawei&#8217;:</p>
+<p>&#8211; <a href="https://en.wikipedia.org/wiki/Maxim_Kontsevich">Maxim Kontsevich</a>, (IHES) Fields medal 1998</p>
+<p>&#8211; <a href="https://en.wikipedia.org/wiki/Pierre-Louis_Lions">Pierre-Louis Lions</a> (College de France) Fields medal 1994</p>
+<p>&#8211; <a href="https://en.wikipedia.org/wiki/Alessio_Figalli">Alessio Figalli</a> (ETH) Fields medal 2018</p>
+<p>These news-stories seem to have been G-translated from the Chinese, resulting in misspellings and perhaps other inaccuracies. Maxim&#8217;s research field is described as &#8216;kink theory&#8217; (LoL).</p>
+<p>Apart from luring away Fields medallist, Huawei set up last year the brand new <a href="https://www.huawei.com/fr/news/fr/2020/centre-lagrange">Huawei Lagrange Research Center</a> in the posh 7th arrondissement de Paris. (This &#8216;Lagrange Center&#8217; is different from the <a href="http://ilp.upmc.fr/">Lagrange Institute in Paris</a> devoted to astronomy and physics.)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/LagrangeCenter.jpg" width=100% \><br />
+</center></p>
+<p>It aims to host about 30 researchers in mathematics and computer science, giving them the opportunity to live in the &#8216;unique eco-system of Paris, having the largest group of mathematicians in the world, as well as the best universities&#8217;.</p>
+<p>Last May, <a href="https://en.wikipedia.org/wiki/Michel_Brou%C3%A9">Michel Broué</a> authored an open letter to the French mathematical community <a href="https://blogs.mediapart.fr/michel-broue/blog/180521/dans-un-hotel-particulier-du-7eme-arrondissement-de-paris">Dans un hotel particulier du 7eme arrondissement de Paris</a> (in French). A G-translation of the final part of this open letter:</p>
+<p>&#8220;In the context of a very insufficient research and development effort in France, and bleak prospects for our young researchers, it is tempting to welcome the creation of the Lagrange center. We welcome the rise of Chinese mathematics to the highest level, and we are obviously in favour of scientific cooperation with our Chinese colleagues.</p>
+<p>But in view of the role played by Huawei in the repression in Xinjiang and potentially everywhere in China, we call on mathematicians and computer scientists already engaged to withdraw from this project. We ask all researchers not to participate in the activities of this center, as we ourselves are committed to doing.&#8221;</p>
+<p>Among the mathematicians signing the letter are <a href="https://en.wikipedia.org/wiki/Pierre_Cartier_(mathematician)">Pierre Cartier</a> and <a href="https://en.wikipedia.org/wiki/Pierre_Schapira_(mathematician)">Pierre Schapira</a>.</p>
+<p>To be continued.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bourbaki and Grothendieck-Serre</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-grothendieck-serre/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-grothendieck-serre/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 16 Apr 2021 13:37:25 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Cartier]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Dixmier]]></category>
+		<category><![CDATA[Serre]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9664</guid>
+
+					<description><![CDATA[This time of year I&#8217;m usually in France, or at least I was before Covid. This might explain for my recent obsession with French math&#8230;]]></description>
+										<content:encoded><![CDATA[<p>This time of year I&#8217;m usually in France, or at least I was before Covid. This might explain for my recent obsession with French math YouTube interviews.</p>
+<p>Today&#8217;s first one is about Bourbaki&#8217;s golden years, the period between WW2 and 1975. Alain Connes is trying to get some anecdotes from <a href="https://en.wikipedia.org/wiki/Jean-Pierre_Serre">Jean-Pierre Serre</a>, <a href="https://en.wikipedia.org/wiki/Pierre_Cartier_(mathematician)">Pierre Cartier</a>, and <a href="https://en.wikipedia.org/wiki/Jacques_Dixmier">Jacques Dixmier</a>.</p>
+<p>If you don&#8217;t have the time to sit through the whole thing, perhaps you might have a look at the discussion on whether or not to include categories in Bourbaki (starting at 51.40 into the clip).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/QqR459KxDVU?start=3100" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Here are some other time-slots (typed on a qwerty keyboard, mes excuses) with some links.</p>
+<ul>
+<li>8.59 : Canular stupide (<a href="https://lievenlebruyn.github.io/neverendingbooks/according-to-groth-iv-22">mort de Bourbaki</a>)</li>
+<li>15.45 : recrutement de <a href="https://en.wikipedia.org/wiki/Jean-Louis_Koszul">Koszul</a></li>
+<li>17.45 : recrutement de Grothendieck</li>
+<li>26.15 : influence de Serre</li>
+<li>28.05 : importance des ultra filtres</li>
+<li>35.35 : <a href="https://en.wikipedia.org/wiki/Yves_Meyer">Meyer</a></li>
+<li>37.20 : faisceaux</li>
+<li>51.00 : Grothendieck</li>
+<li>51.40 : des categories, <a href="https://www.elsevier.com/books/introduction-to-algebraic-geometry-and-algebraic-groups/demazure/978-0-444-85443-8">Gabriel-Demazure</a></li>
+<li>57.50 : lemme de Serre, theoreme de Weil</li>
+<li>1.03.20 : Chevalley vs. Godement</li>
+<li>1.05.26 : retraite Dieudonne</li>
+<li>1.07.05 : retraite</li>
+<li>1.10.00 : Weil vs. Serre-Borel</li>
+<li>1.13.50 : hierarchie Bourbaki</li>
+<li>1.20.22 : categories</li>
+<li>1.21.30 : Bourbaki, une secte?</li>
+<li>1.22.15 : <a href="https://lievenlebruyn.github.io/neverendingbooks/the-best-rejected-proposal-ever">Grothendieck C.N.R.S. 1984</a></li>
+</ul>
+<p>The second one is an interview conducted by Alain Connes with Jean-Pierre Serre on the <a href="https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Letters/GS.pdf">Grothendieck-Serre correspondence</a>.</p>
+<p>Again, if you don&#8217;t have the energy to sit through it all, perhaps I can tempt you with Serre&#8217;s reaction to Connes bringing up the subject of toposes (starting at 14.36 into the clip).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/pOv-ygSynRI?start=875" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<ul>
+<li>2.10 : 2e these de Grothendieck: des faisceaux</li>
+<li>3.50 : Grothendieck -> Bourbaki</li>
+<li>6.46 : Tohoku</li>
+<li>8.00 : categorie des diagrammes</li>
+<li>9.10 : <a href="https://lievenlebruyn.github.io/neverendingbooks/krull-paris">schemas et Krull</a></li>
+<li>10.50 : motifs</li>
+<li>11.50 : cohomologie etale</li>
+<li>14.05 : Weil</li>
+<li>14.36 : topos</li>
+<li>16.30 : Langlands</li>
+<li>19.40 : Grothendieck, <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-3">cours d&#8217;ecologie</a></li>
+<li>24.20 : Dwork</li>
+<li>25.45 : Riemann-Roch</li>
+<li>29.30 : influence de Serre</li>
+<li>30.50 : fin de correspondence</li>
+<li>32.05 : pourquoi?</li>
+<li>33.10 : SGA 5</li>
+<li>34.50 : methode G. vs. theorie des nombres</li>
+<li>37.00 : paranoia</li>
+<li>37.15 : Grothendieck = centrale nucleaire</li>
+<li>38.30 : <a href="http://cm2vivi2002.free.fr/AG-biblio/AG-clesonges.pdf">Clef des songes</a></li>
+<li>42.35 : <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-4">30.000 pages, probleme du mal</a></li>
+<li>44.25 : Ribenboim</li>
+<li>45.20 : Grothendieck a Paris, publication <a href="https://fr.wikipedia.org/wiki/R%C3%A9coltes_et_Semailles">R et S</a></li>
+<li>48.00 : 50 ans IHES, lettre a Bourguignon</li>
+<li>50.46 : Laurant Lafforgue</li>
+<li>51.35 : <a href="https://lievenlebruyn.github.io/neverendingbooks/g-spots-saint-girons">Lasserre</a></li>
+<li>53.10 : l&#8217;humour</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-grothendieck-serre/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Grothendieck&#8217;s Café</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-cafe/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-cafe/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 01 Jul 2014 08:46:26 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Cartier]]></category>
+		<category><![CDATA[Catan]]></category>
+		<category><![CDATA[Chevalley]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[McLarty]]></category>
+		<category><![CDATA[Roubaud]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=6277</guid>
+
+					<description><![CDATA[&#8220;A story says that in a Paris café around 1955 Grothendieck asked his friends &#8220;what is a scheme?&#8221;. At the time only an undefined idea&#8230;]]></description>
+										<content:encoded><![CDATA[<p>&#8220;A story says that in a Paris café around 1955 Grothendieck asked his friends &#8220;what is a scheme?&#8221;. At the time only an undefined idea of &#8220;schéma&#8221; was current in Paris, meaning more or less whatever would improve on Weil&#8217;s foundations.&#8221; (McLarty in <a href="http://www.cwru.edu/artsci/phil/RisingSea.pdf">The Rising Sea</a>)</p>
+<p>Finding that particular café in Paris, presumably in the 5th arrondissement, seemed like looking for a needle in a haystack.</p>
+<p>Until now.</p>
+<p>In trying to solve the next riddle in <a href="http://noncommutative.org/announcement-bourbakis-death/">Bourbaki&#8217;s death announcement</a>:</p>
+<p><span style="text-decoration: underline;">A reception will be held at the Bar &#8216;The Direct Products&#8217;, at the crossroads of the Projective Resolutions (formerly Koszul square)</span></p>
+<p>I&#8217;ve been reading <a href="http://www.amazon.com/Mathematics-Jacques-Roubaud/dp/B00FY5U416">Mathematics, a novel</a> by Jacques Roubaud (the guy responsible for the announcement) on Parisian math-life in the 50ties and 60ties.</p>
+<p>It turns out that the poor Bourbakistas had very little choice if they wanted to have a beer (or coffee) after attending a seminar at the IHP.</p>
+<p>On page 114, Roubaud writes:</p>
+<p>&#8220;Père Plantin presided over his bar, which presided over the Lhomond/Ulm street corner. It is an obvious choice. rue Pierre-et-Marie-Curie had no bars; rue d&#8217;Ulm had no bars in eyeshot either. If we emerged, as we did, on this side of the Institut Henri Poincaré (for doing so on the other side would have meant fraternizing with the Spanish and Geography students in the cafés on rue Saint-Jacques, which was out of the question), we had no choice. <strong>Café Plantin had a hegemony</strong>.&#8221;</p>
+<p>It is unclear to me whether <strong>Plantin</strong> was once actually the name of the café, or that it&#8217;s just Roubaud&#8217;s code-word for it. At other places in the book, e.g. on pages 82 and 113, he consistently writes &#8220;Plantin&#8221;, between quotes.</p>
+<p>Today, the café on the crossroads of rue d&#8217;Ulm (where the Ecole Normal Superieure is located) and de rue Lhomond is the <a href="http://interlude-cafe.xooit.com/index.php">Interlude Café</a></p>
+<p> <img decoding="async" width=100% src="http://matrix.cmi.ua.ac.be/DATA3/PlantinInterlude.jpg" alt="" /></p>
+<p>and here&#8217;s what Roubaud has to say about it, or rather about the situation in 1997, when the French version of his book was published:</p>
+<p>&#8220;<span style="text-decoration: underline;">the thing</span> that would currently be found at the very same corner of rues Lhomond/Ulm would not be what I am here terming &#8220;Plantin&#8221;.&#8221;</p>
+<p>So, we can only hope that the <span style="text-decoration: underline;">Café &#8216;Aux Produits Directs&#8217;</span> was a lot cosier, way back then.</p>
+<p>But let us return to Grothendieck&#8217;s &#8220;What is a scheme?&#8221; story.</p>
+<p>Now that we have a fair idea of location, what about a possible date? Here&#8217;s a suggestion: this happened on monday december 12th, 1955, and, one of the friends present must have been Cartier.</p>
+<p>Here&#8217;s why.</p>
+<p>The very first time the word &#8220;schéma&#8221; was uttered, in Paris, at an official seminar talk, was during the <a href="http://www.numdam.org/numdam-bin/browse?id=SHC_1955-1956__8_">Cartan seminar of 1955/56</a> on algebraic geometry.</p>
+<p>The lecturer was Claude Chevalley, and the date was december 12th 1955.</p>
+<p><center><br />
+<img decoding="async" width=100% alt="" src="http://matrix.cmi.ua.ac.be/DATA3/ChevalleySchemes.jpg" /></center></p>
+<p>I&#8217;m fairly certain Grothendieck and Cartier attended and that Cartier was either briefed before or understood the stuff at once (btw. he gave <a href="http://archive.numdam.org/ARCHIVE/SCC/SCC_1956-1958__1_/SCC_1956-1958__1__A2_0/SCC_1956-1958__1__A2_0.pdf">another talk on schemes</a>, a year later at the Chevalley seminar).</p>
+<p>A couple of days later, on december 15th, Grothendieck sends a letter to his pal Serre (who must have been out of Paris for otherwise they&#8217;d phone each other) ending with:</p>
+<p><center><br />
+<img decoding="async" width=100% alt="" src="http://matrix.cmi.ua.ac.be/DATA3/GrothSerre1.jpg" /><br />
+</center></p>
+<p>Note the phrase: <strong>I am exploiting him most profitably</strong>. Yes, by asking him daft questions over a pint at <strong>Café &#8220;Plantin&#8221;</strong>&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-cafe/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

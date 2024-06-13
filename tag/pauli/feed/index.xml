@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pauli &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/pauli/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 14 Jul 2019 16:39:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the Riemann hypothesis and Psi</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 14 Jul 2019 16:39:40 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[Nicolas]]></category>
+		<category><![CDATA[Pauli]]></category>
+		<category><![CDATA[Planat]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[Sole]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8430</guid>
+
+					<description><![CDATA[Last time we revisited Robin&#8217;s theorem saying that 5040 being the largest counterexample to the bound \[ \frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \] is equivalent&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040">Last time</a> we revisited Robin&#8217;s theorem saying that 5040 being the largest counterexample to the bound<br />
+\[<br />
+\frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \]
+is equivalent to the Riemann hypothesis.
+
+
+
+<p />
+There&#8217;s an industry of similar results using other arithmetic functions. Today, we&#8217;ll focus on <a href="https://en.wikipedia.org/wiki/Dedekind_psi_function">Dedekind&#8217;s Psi function</a><br />
+\[<br />
+\Psi(n) = n \prod_{p | n}(1 + \frac{1}{p}) \]<br />
+where $p$ runs over the prime divisors of $n$. It is series <a href="https://oeis.org/A001615">A001615</a> in the online encyclopedia of integer sequences and it starts off with</p>
+<p>1, 3, 4, 6, 6, 12, 8, 12, 12, 18, 12, 24, 14, 24, 24, 24, 18, 36, 20, 36, 32, 36, 24, 48, 30, 42, 36, 48, 30, 72, 32, 48, 48, 54, 48, &#8230;</p>
+<p>and here&#8217;s a plot of its first 1000 values</p>
+<p><center><br />
+<img decoding="async" width=100% src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DedekindPsi.jpeg"><br />
+</center></p>
+<p>To understand this behaviour it is best to focus on the &#8216;slopes&#8217; $\frac{\Psi(n)}{n}=\prod_{p|n}(1+\frac{1}{p})$.</p>
+<p />
+So, the red dots of minimal &#8216;slope&#8217; $\approx 1$ correspond to the prime numbers, and the &#8216;outliers&#8217; have a maximal number of distinct small prime divisors. Look at $210 = 2 \times 3 \times 5 \times 7$ and its multiples $420,630$ and $840$ in the picture.</p>
+<p />For this reason the <a href="https://en.wikipedia.org/wiki/Primorial">primorial numbers</a>, which are the products of the fist $k$ prime numbers, play a special role. This is series <a href="https://oeis.org/A002110">A002110</a> starting off with</p>
+<p>1, 2, 6, 30, 210, 2310, 30030, 510510, 9699690, 223092870,&#8230;</p>
+<p>In Patrick Solé and  Michel Planat <a href="https://arxiv.org/abs/1011.1825">Extreme values of the Dedekind $\Psi$ function</a>, it is shown that the primorials play a similar role for Dedekind&#8217;s Psi as the <a href="https://en.wikipedia.org/wiki/Superabundant_number">superabundant numbers</a> play for the sum-of-divisors function $\sigma(n)$.</p>
+<p />
+That is, if $N_k$ is the $k$-th primorial, then for all $n < N_k$ we have that the 'slope' at $n$ is strictly below that of $N_k$
+\[
+\frac{\Psi(n)}{n} < \frac{\Psi(N_k)}{N_k} \]
+which follows immediately from the fact that any $n < N_k$ can have at most $k-1$ distinct prime factors and $p \mapsto 1 + \frac{1}{p}$ is a strictly decreasing function.
+
+
+
+<p />
+Another easy, but nice, observation is that for all $n$ we have the inequalities<br />
+\[<br />
+n^2 > \phi(n) \times \psi(n) > \frac{n^2}{\zeta(2)} \]<br />
+where $\phi(n)$ is <a href="https://en.wikipedia.org/wiki/Euler%27s_totient_function">Euler&#8217;s totient function</a><br />
+\[<br />
+\phi(n) = n \prod_{p | n}(1 &#8211; \frac{1}{p}) \]<br />
+This follows as once from the definitions of $\phi(n)$ and $\Psi(n)$<br />
+\[<br />
+\phi(n) \times \Psi(n) = n^2 \prod_{p|n}(1 &#8211; \frac{1}{p^2}) < n^2 \prod_{p~\text{prime}} (1 - \frac{1}{p^2}) = \frac{n^2}{\zeta(2)} \]
+But now it starts getting interesting.
+
+
+
+<p />
+In the proof of his theorem, Guy Robin used a result of his Ph.D. advisor Jean-Louis Nicolas</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Nicolas.jpg" width=50%><br />
+</center></p>
+<p>known as Nicolas&#8217; criterion for the Riemann hypothesis: RH is true if and only if for all $k$ we have the inequality for the $k$-th primorial number $N_k$<br />
+\[<br />
+\frac{N_k}{\phi(N_k)~log(log(N_k))} > e^{\gamma} \]<br />
+From the above lower bound on $\phi(n) \times \Psi(n)$ we have for $n=N_k$ that<br />
+\[<br />
+\frac{\Psi(N_k)}{N_k} > \frac{N_k}{\phi(N_k) \zeta(2)} \]<br />
+and combining this with Nicolas&#8217; criterion we get<br />
+\[<br />
+\frac{\Psi(N_k)}{N_k~log(log(N_k))} > \frac{N_k}{\phi(N_k)~log(log(N_k)) \zeta(2)} > \frac{e^{\gamma}}{\zeta(2)} \approx 1.08&#8230; \]<br />
+In fact, Patrick Solé and  Michel Planat prove in their paper <a href="https://arxiv.org/abs/1011.1825">Extreme values of the Dedekind $\Psi$ function</a> that RH is equivalent to the lower bound<br />
+\[<br />
+\frac{\Psi(N_k)}{N_k~log(log(N_k))} > \frac{e^{\gamma}}{\zeta(2)} \]<br />
+holding for all $k \geq 3$.</p>
+<p />Dedekind&#8217;s Psi function pops up in lots of interesting mathematics.</p>
+<p />In the theory of modular forms, Dedekind himself used it to describe the index of the congruence subgroup $\Gamma_0(n)$ in the full modular group $\Gamma$.</p>
+<p>In other words, it gives us the number of tiles needed in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-dedekind-tessellation">Dedekind tessellation</a> to describe the fundamental domain of the action of $\Gamma_0(n)$ on the upper half-plane by Moebius transformations.</p>
+<p><img decoding="async" width=100% src="https://ethz.ch/services/en/news-and-events/internal-news/archive/2017/11/when-richard-dedekind-invented-real-numbers-at-eth-zurich/_jcr_content/news_content/fullwidthimage/image.imageformat.lightbox.2134429438.jpg"></p>
+<p>When $n=6$ we have $\Psi(6)=12$ and we can view its fundamental domain via these <a href="http://www.sagemath.org/">Sage</a> commands:</p>
+<p><code><br />
+G=Gamma0(6)<br />
+FareySymbol(G).fundamental_domain()<br />
+</code></p>
+<p>giving us the 24 back or white tiles (note that these tiles are each fundamental domains of the extended modular group, so we have twice as many of them as for subgroups of the modular group)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Gamma0(6).jpg"><br />
+</center></p>
+<p>But, there are plenty of other, seemingly unrelated, topics where $\Psi(n)$ appears. To name just a few:</p>
+<ul>
+<li>The number of points on the projective line $\mathbb{P}^1(\mathbb{Z}/n\mathbb{Z})$.</li>
+<li>The number of lattices at hyperdistance $n$ in <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture">Conway&#8217;s big picture</a>.</li>
+<li>The number of admissible maximal commuting sets of operators in the Pauli group for the $n$ qudit.</li>
+</ul>
+<p>and there are explicit natural one-to-one correspondences between all these manifestations of $\Psi(n)$, tbc.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

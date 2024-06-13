@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Sturmfels &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/sturmfels/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 20 Apr 2023 09:37:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The forests of the unconscious</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-forests-of-the-unconscious/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-forests-of-the-unconscious/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 20 Apr 2023 09:37:44 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[cell complex]]></category>
+		<category><![CDATA[Dress]]></category>
+		<category><![CDATA[forests]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[injective hull]]></category>
+		<category><![CDATA[Isbell]]></category>
+		<category><![CDATA[phylogenetic]]></category>
+		<category><![CDATA[Sturmfels]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[tight span]]></category>
+		<category><![CDATA[unconscious]]></category>
+		<category><![CDATA[Willerton]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11265</guid>
+
+					<description><![CDATA[We start from a large data-set $V=\{ k,l,m,n,\dots \}$ (texts, events, DNA-samples, &#8230;) with a suitable distance-function ($d(m,n) \geq 0~d(k,l)+d(l,m) \geq d(k.m)$) which measures the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>We start from a large data-set $V=\{ k,l,m,n,\dots \}$ (texts, events, DNA-samples, &#8230;) with a suitable distance-function ($d(m,n) \geq 0~d(k,l)+d(l,m) \geq d(k.m)$) which measures the (dis)similarity between individual samples.</p>
+<p>We&#8217;re after a set of unknown events $\{ p,q,r,s,\dots \}$ to explain the distances between the observed data. An example: let&#8217;s assume we&#8217;ve sequenced the DNA of a set of species, and computed a Hamming-like distance to measures the differences between these sequences.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest2.jpg" width=100%><br />
+(From <a href="https://susan.su.domains/papers/june.pdf">Geometry of the space of phylogenetic trees</a> by Billera, Holmes and Vogtmann)<br />
+</center></p>
+<p>Biology explains these differences from the fact that certain species may have had more recent common ancestors than others. Ideally, the measured distances between DNA-samples are a <em>tree metric</em>. That is, if we can determine the full ancestor-tree of these species, there should be numbers between ancestor-nodes (measuring their difference in DNA) such that the distance between two existing species is the sum of distances over the edges of the unique path in this <a href="https://en.wikipedia.org/wiki/Phylogenetic_tree">phylogenetic tree</a> connecting the two species.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest">Last time</a> we&#8217;ve see that a necessary and sufficient condition for a tree-metric is that for every quadruple $k,l,m,n \in V$ we have that the maximum of the sum-distances</p>
+<p>$$\{ d(k,l)+d(m,n),~d(k,m)+d(l,n),~d(k,n)+d(l,m) \}$$</p>
+<p>is attained at least twice.</p>
+<p>In practice, it rarely happens that the measured distances between DNA-samples are a perfect fit to this condition, but still we would like to compute the most probable phylogenetic tree. In the above example, there will be two such likely trees:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest3.png" width=100%><br />
+(From <a href="https://susan.su.domains/papers/june.pdf">Geometry of the space of phylogenetic trees</a> by Billera, Holmes and Vogtmann)<br />
+</center></p>
+<p>How can we find them? And, if the distances in our data-set do not have such a direct biological explanation, is it still possible to find such trees of events (or perhaps, a forest of event-trees) explaining our distance function?</p>
+<p>Well, tracking back these ancestor nodes looks a lot like trying to construct colimits.</p>
+<p>By now, <a href="https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits">every child</a> knows that if their toy category $T$ does not allow them to construct all colimits, they can always beg for an upgrade to the presheaf topos $\widehat{T}$ of all contravariant functors from $T$ to $Sets$.</p>
+<p>But then, the child can cobble together too many crazy constructions, and the parents have to call in the Grothendieck police who will impose one of their topologies to keep things under control.</p>
+<p>Can we fall back on this standard topos philosophy in order to find these forests of the unconscious?</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forestview.jpg" width=100%><br />
+(<a href="https://symbolreader.net/2013/04/14/the-symbolism-of-the-forest/">Image credit</a>)<br />
+</center></p>
+<p>We have a data-set $V$ with a distance function $d$, and it is fashionable to call this setting a $[0,\infty]$-&#8216;enriched&#8217; category. This is a misnomer, there&#8217;s not much &#8216;category&#8217; in a $[0,\infty]$-enriched category. The only way to define an underlying category from it is to turn $V$ into a poset via $n \geq m$ iff $d(n,m)=0$.</p>
+<p>Still, we can define the set $\widehat{V}$ of $[0,\infty]$-enriched presheaves, consisting of all maps<br />
+$$p : V \rightarrow [0,\infty] \quad \text{satisfying} \quad \forall m,n \in V : d(m,n)+p(n) \geq p(m)$$<br />
+which is again a $[0,\infty]$-enriched category with distance function<br />
+$$\hat{d}(p,q) = \underset{m \in V}{max} (q(m) \overset{.}{-} p(m)) \quad \text{with} \quad a \overset{.}{-} b = max(a-b,0)$$<br />
+so $\widehat{V}$ is a poset via $p \geq q$ iff $\forall m \in V : p(m) \geq q(m)$.</p>
+<p>The good news is that $\widehat{V}$ contains all limits and colimits (because $[0,\infty]$ has sup&#8217;s and inf&#8217;s) and that $V$ embeds isometrically in $\widehat{V}$ via the Yoneda-map<br />
+$$m \mapsto y_m \quad \text{with} \quad y_m(n)=d(n,m)$$<br />
+The mental picture of a $[0,\infty]$-enriched presheaf $p$ is that of an additional &#8216;point&#8217; with $p(m)$ the distance from $y_m$ to $p$.</p>
+<p>But there&#8217;s hardly a subobject classifier to speak of, and so no Grothendieck topologies nor internal logic. So, how can we select from the abundance of enriched presheaves, the nodes of our event-forest?</p>
+<p>We can look for special properties of the ancestor-nodes in a phylogenetic tree.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest6.jpg" width=100%><br />
+</center></p>
+<p>For any ancestor node $p$ and any $m \in V$ there is a unique branch from $p$ having $m$ as a leaf (picture above,left). Take another branch in $p$ and a leaf vertex $n$ of it, then the combination of these two paths gives the unique path from $m$ to $n$ in the phylogenetic tree, and therefore<br />
+$$\hat{d}(y_m,y_n) = d(m,n) = p(m)+p(n) = \hat{d}(p,y_m) + \hat{d}(p,y_n)$$<br />
+In other words, for every $m \in V$ there is another $n \in V$ such that $p$ lies on the <em>geodesic</em> from $m$ to $n$ (identifying elements of $V$ with their Yoneda images in $\widehat{V}$).</p>
+<p>Compare this to <a href="https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt">Stephen Wolfram&#8217;s belief</a> that if we looked properly at “what ChatGPT is doing inside, we’d immediately see that ChatGPT is doing something “mathematical-physics-simple” like following geodesics&#8221;.</p>
+<p>Even if the distance on $V$ is symmetric, the extended distance function on $\widehat{V}$ is usually far from symmetric. But here, as we&#8217;re dealing with a tree-distance, we have for all ancestor-nodes $p$ and $q$ that $\hat{d}(p,q)=\hat{d}(q,p)$ as this is just the sum of the weights of the edges on the unique path from $p$ and $q$ (picture above, on the right).</p>
+<p>Right, now let&#8217;s look at a <em>non</em>-tree distance function on $V$, and let&#8217;s look at those elements in $\widehat{V}$ having similar properties as the ancestor-nodes:</p>
+<p>$$T_V = \{ p \in \widehat{V}~:~\forall n \in V~:~p(n) = \underset{m \in V}{max} (d(m,n) \overset{.}{-} p(m)) \}$$</p>
+<p>Then again, for every $p \in T_V$ and every $n \in V$ there is an $m \in V$ such that $p$ lies on a geodesic from $n$ to $m$.</p>
+<p>The simplest non-tree example is $V = \{ a,b,c,d \}$ with say</p>
+<p>$$d(a,c)+d(b,d) > max(d(a,b)+d(c,d),d(a,d)+d(b,c))$$</p>
+<p>In this case, $T_V$ was calculated by Andreas Dress in <a href="https://core.ac.uk/download/pdf/82215646.pdf">Trees, Tight Extensions of Metric Spaces, and the Cohomological Dimension of Certain Groups: A Note on Combinatorial Properties of Metric Spaces</a>. Note that Dress writes $mn$ for $d(m,n)$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest7.png" width=70%><br />
+</center></p>
+<p>If this were a tree-metric, $T_V$ would be the tree, but now we have a $2$-dimensional cell $T_0$ consisting of those presheaves lying on a geodesic between $a$ and $c$, and on the one between $b$ and $d$. Let&#8217;s denote this by $T_0 = \{ a&#8212;c,b&#8212;d \}$.</p>
+<p>$T_V$ has eight $1$-dimensional cells, and with the same notation we have</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forest9.jpg" width=70%><br />
+</center></p>
+<p>Let&#8217;s say that $V= \{ a,b,c,d \}$ are four DNA-samples of species but failed to satisfy the tree-metric condition by an error in the measurements, how can we determine likely phylogenetic trees for them? Well, given the shape of the cell-complex $T_V$ there are four spanning trees (with root in $f_a,f_b,f_c$ or $f_d$) having the elements of $V$ as their only leaf-nodes. Which of these is most likely the ancestor-tree will depend on the precise distances.</p>
+<p>For an arbitrary data-set $V$, the structure of $T_V$ has been studied extensively, under a variety of names such as &#8216;Isbell&#8217;s injective hull&#8217;, &#8216;tight span&#8217; or &#8216;tropical convex hull&#8217;, in slightly different settings. So, in order to use results one sometimes have to intersect with some (un)bounded polyhedron.</p>
+<p>It is known that $T_V$ is always a cell-complex with dimension of the largest cell bounded by half the number of elements of $V$. In this generality it will no longer be the case that there is a rooted spanning tree of teh complex having the elements of $V$ as its only leaves, but we can opt for the best forest of rooted trees in the $1$-skeleton having all of $V$ as their leaf-nodes. Theses are the &#8216;forests of the unconscious&#8217; explaining the distance function on the data-set $V$.</p>
+<p>Apart from the Dress-paper mentioned above, I&#8217;ve found these papers informative:</p>
+<ul>
+<li><a href="https://www.math.uni-bielefeld.de/documenta/lsu/dress-huber-multon.pdf">Metric spaces in pure and applied mathematics</a> by Dress, Huber and Moulton</li>
+<li><a href="https://arxiv.org/abs/1006.2767">Computing the bounded subcomplex of an unbounded polyhedron</a> by Hermann, Joswig and Pfetsch</li>
+<li><a href="https://www.math.uni-bielefeld.de/documenta/vol-09/01.pdf">Tropical convexity</a> by Develin and Sturmfels</li>
+<li><a href="https://arxiv.org/abs/1302.4370">Tight spans, Isbell completions and semi-tropical modules</a> by Willerton</li>
+</ul>
+<p>So far, we started from a data-set $V$ with a symmetric distance function, but for applications in LLMs one might want to drop that condition. In that case, Willerton proved that there is a suitable replacement of $T_V$, which is now called the &#8216;directed tight span&#8217; and which coincides with the Isbell completion.</p>
+<p>Recently, <a href="http://www.simonwillerton.staff.shef.ac.uk/">Simon Willerton</a> gave a talk at the African Mathematical Seminar called &#8216;Looking at metric spaces as enriched categories&#8217;:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/hRwcKpdwD5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Willerton also posts a series(?) on this at the n-category cafe, starting with <a href="https://golem.ph.utexas.edu/category/2023/04/metric_spaces_as_enriched_cate.html">Metric spaces as enriched categories I</a>.</p>
+<p>(tbc?)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">The super-vault of missing notes</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest">The tropical brain-forest</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-forests-of-the-unconscious/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The tropical brain-forest</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 10 Apr 2023 13:34:31 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Billera]]></category>
+		<category><![CDATA[brain-forest]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[Holmes]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[phylogenetic]]></category>
+		<category><![CDATA[Speyer]]></category>
+		<category><![CDATA[Sturmfels]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[tropical]]></category>
+		<category><![CDATA[tropical geometry]]></category>
+		<category><![CDATA[Vogtmann]]></category>
+		<category><![CDATA[Willerton]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11220</guid>
+
+					<description><![CDATA[If machine learning, AI, and large language models are here to stay, there&#8217;s this inevitable conclusion: Millennials are the last generation to grow up without&#8230;]]></description>
+										<content:encoded><![CDATA[<p>If machine learning, AI, and large language models are here to stay, there&#8217;s this inevitable conclusion:</p>
+<p><center></p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">Millennials are the last generation to grow up without tropical geometry</p>
+<p>&mdash; Dave Jensen (@DaveJensenMath) <a href="https://twitter.com/DaveJensenMath/status/1643958509019512833?ref_src=twsrc%5Etfw">April 6, 2023</a></p></blockquote>
+<p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+</center></p>
+<p>At the start of <a href="https://lievenlebruyn.github.io/neverendingbooks/category/gbrain">this series</a>, the hope was to find the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">topos of the unconscious</a>. Pretty soon, attention turned to the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">shape of languages</a> and LLMs.</p>
+<p>In <a href="https://en.wikipedia.org/wiki/Large_language_model">large language models</a> all syntactic and semantic information is encoded is huge arrays of numbers and weights. It seems unlikely that $\mathbf{Set}$-valued presheaves will be useful in machine learning, but surely <a href="https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory">Huawei</a> will <a href="https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes">prove</a> me wrong.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">$[0,\infty]$-enriched categories</a> (aka generalised metric spaces) and associated <a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">$[0,\infty]$-enriched presheaves</a> may be better suited to understand existing models.</p>
+<p>But, as with ordinary presheaves, there are just too many $[0,\infty]$-enriched ones, So, how can we weed out the irrelevant ones?</p>
+<p>For inspiration, let&#8217;s turn to <a href="https://en.wikipedia.org/wiki/Evolutionary_biology">evolutionary biology</a> and their theory of <a href="https://en.wikipedia.org/wiki/Phylogenetic_tree">phylogenetic trees</a>. They want to trace back common (extinguished) ancestors of existing species by studying overlaps in the DNA.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tree_of_life_SVG.svg/1280px-Tree_of_life_SVG.svg.png" width=75%><br />
+(A  tree of life, based on completely sequenced genomes, from <a href="https://en.wikipedia.org/wiki/Phylogenetic_tree">Wikipedia</a>)<br />
+</center></p>
+<p>The connection between phylogenetic trees and tropical geometry is nicely explained in the paper <a href="https://math.berkeley.edu/~bernd/mathmag.pdf">Tropical mathematics</a> by David Speyer and Bernd Sturmfels.</p>
+<p>The tropical semi-ring is the set $(-\infty,\infty]$, equipped with a new addition $\oplus$ and multiplication $\odot$</p>
+<p>$$a \oplus b = min(a,b), \quad \text{and} \quad a \odot b = a+b$$</p>
+<p>Because tropical multiplication is ordinary addition, a tropical monomial in $n$ variables</p>
+<p>$$\underbrace{x_1 \odot \dots \odot x_1}_{j_1} \odot \underbrace{x_2 \odot \dots \odot x_2}_{j_2} \odot \dots$$</p>
+<p>corresponds to the linear polynomial $j_1 x_1 + j_2 x_2 + \dots \in \mathbb{Z}[x_1,\dots,x_n]$. But then, a tropical polynomial in $n$ variables</p>
+<p>$$p(x_1,\dots,x_n)=a \odot x_1^{i_1}\dots x_n^{i_n} \oplus b \odot x_1^{j_1} \dots x_n^{j_n} \oplus \dots$$</p>
+<p>gives the piece-wise linear function on $p : \mathbb{R}^n \rightarrow \mathbb{R}$</p>
+<p>$$p(x_1,\dots,x_n)=min(a+i_1 x_1 + \dots + i_n x_n,b+j_1 x_1 + \dots + j_n x_n, \dots)$$</p>
+<p>The tropical hypersurface $\mathcal{H}(p)$ then consists of all points of $v \in \mathbb{R}^n$ where $p$ is not linear, that is, the value of $p(v)$ is attained in at least two linear terms in the description of $p$.</p>
+<p>Now, for the relation to phylogenetic trees: let&#8217;s sequence the genomes of human, mouse, rat and chicken and compute the values of a suitable (necessarily symmetric) distance function between them:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/brainforest2.png" width=60%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/brainforest3.png" width=30%><br />
+</center></p>
+<p>From these distances we want to trace back common ancestors and their difference in DNA-profile in a consistent manner, that is, such that the distance between two nodes in the tree is the sum of the distances of the edges connecting them.</p>
+<p>In this example, such a tree is easily found (only the weights of the two edges leaving the root can be different, with sum $0.8$):</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/brainforest4.png" width=50%><br />
+</center></p>
+<p>In general, let&#8217;s sequence the genomes of $n$ species and determine their distance matrix $D=(d_{ij})_{i,j}$. Biology asserts that this distance must be a tree-distance, and those can be characterised by the condition that for all $1 \leq i,j,k,l \leq n$, among the three numbers</p>
+<p>$$d_{ij}+d_{kl},~d_{ik}+d_{jl},~d_{il}+d_{jk}$$</p>
+<p>the <em>maximum</em> is attained at least twice.</p>
+<p>What has this to do with tropical geometry? Well, $D$ is a tree distance if and only if $-D$ is a point in the tropical Grassmannian $Gr(2,n)$.</p>
+<p>Here&#8217;s why: let $e_{ij}=-d_{ij}$ then the above condition is that the <em>minimum</em> of</p>
+<p>$$e_{ij}+e_{kl},~e_{ik}+e_{jl},~e_{il}+e_{jk}$$</p>
+<p>is attained at least twice, or that $(e_{ij})_{i,j}$ is a point of the tropical hypersurface</p>
+<p>$$\mathcal{H}(x_{ij} \odot x_{kl} \oplus x_{ik} \odot x_{jl} \oplus x_{il} \odot x_{jk})$$</p>
+<p>and we recognise this as one of the defining quadratic Plucker relations of the Grassmannian $Gr(2,n)$.</p>
+<p>More on this can be found in another paper by Speyer and Sturmfels <a href="https://arxiv.org/abs/math/0304218">The tropical Grassmannian</a>, and the paper <a href="https://susan.su.domains/papers/june.pdf">Geometry of the space of phylogenetic trees</a> by Louis Billera, Susan Holmes and Karen Vogtmann.</p>
+<p>What&#8217;s the connection with $[0,\infty]$-enriched presheaves?</p>
+<p>The set of all species $V=\{ m,n,\dots \}$ , together with the distance function $d(m,n)$ between their DNA-sequences is a $[0,\infty]$-category. Recall that a $[0,\infty]$-enriched presheaf on $V$ is a function $p : V \rightarrow [0,\infty]$ satisfying for all $m,n \in V$</p>
+<p>$$d(m,n)+p(n) \geq p(m)$$</p>
+<p>For an ancestor node $p$ we can take for every $m \in V$ as $p(m)$ the tree distance from $p$ to $m$, so every ancestor is a $[0,\infty]$-enriched presheaf.</p>
+<p>We also <a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">defined the distance</a> between such $[0,\infty]$-enriched presheaves $p$ and $q$ to be</p>
+<p>$$\hat{d}(p,q) = sup_{m \in V}~max(q(m)-p(m),0)$$</p>
+<p>and this distance coincides with the tree distance between the nodes.</p>
+<p>So, all ancestors nodes in a phylogenetic tree are very special $[0,\infty]$-enriched presheaves, optimal for the connection with the underlying $[0,\infty]$-enriched category (the species and their differences in genome).</p>
+<p>We would like to garden out such exceptional $[0,\infty]$-enriched presheaves in general, but clearly the underlying distance of a generalised metric space, even when it is symmetric, is not a tree metric.</p>
+<p>Still, there might be regions in the space where we can do the above. So, in general we might expect not one tree, but a forest of trees formed by the $[0,\infty]$-enriched presheaves, optimal for the metric we&#8217;re exploring.</p>
+<p>If we think of the underlying $[0,\infty]$-category as the conscious manifestations, then this forest of presheaves are the underlying brain-states (or, if you want, the unconscious) leading up to these.</p>
+<p>That&#8217;s why I like to call this mental picture the <em>tropical brain-forest</em>.</p>
+<p><center><br />
+<img decoding="async" src="https://s7i9m6k4.rocketcdn.me/wp-content/uploads/2017/06/Delirium-Tremens.jpg" width=80%><br />
+(<a href="https://blog.cognifit.com/synapses-how-brain-communicates/">Image credit</a>)<br />
+</center></p>
+<p>Where&#8217;s the <em>tropical</em> coming from?</p>
+<p>Well, I think that in order to pinpoint these &#8216;optimal&#8217; $[0,\infty]$-enriched presheaves a tropical-like structure on these, already mentioned by Simon Willerton in <a href="https://arxiv.org/abs/1302.4370">Tight spans, Isbell completions and semi-tropical modules</a>, will be relevant.</p>
+<p>For any two $[0,\infty]$-enriched presheaves we can take $p \oplus q = p \wedge q$, and for every $s \in [0,\infty]$ we can define</p>
+<p>$$s \odot p : V \rightarrow [0,\infty] \qquad m \mapsto max(p(m)-s,0)$$</p>
+<p>and check that this is again a $[0,\infty]$-presheaf. The mental idea of $s \odot p$ is that of a fat point centered at $p$ with size $s$.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">The super-vault of missing notes</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

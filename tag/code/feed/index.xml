@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>code &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/code/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 08 Jul 2010 11:45:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Who was ‘le P. Adique’?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/who-was-le-p-adique/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/who-was-le-p-adique/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 08 Jul 2010 11:45:35 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Chevalley]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[geo]]></category>
+		<category><![CDATA[Hasse]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3108</guid>
+
+					<description><![CDATA[Last year we managed to solve the first few riddles of the Bourbaki code, but several mysteries still remain. For example, who was the priest&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Last year we managed to solve the first few riddles of the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-wedding-invitation-that-nearly-killed-andre-weil.html">Bourbaki code</a>, but several mysteries still remain. For example, who was the priest performing the Bourbaki-Petard wedding ceremony? The &#8216;faire part&#8217; identifies him as &#8216;le P. Adique, de l&#8217;Ordre des Diophantiens&#8217;.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PAdiqueFP.jpg"></p>
+<p>As with many of these Bourbaki-jokes, this riddle too has several layers. There is the first straightforward mathematical interpretation of the <a href="http://en.wikipedia.org/wiki/P-adic_number">p-adic numbers</a> $latex \hat{\mathbb{Z}}_p$ being used in the study of Diophantine problems.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Hasse.jpg" align=right style="margin-left: 10px;"> For example, the local-global, or <a href="http://en.wikipedia.org/wiki/Hasse_principle">Hasse principle</a>, asserting that an integral quadratic form has a solution if and only if there are solutions over all p-adic numbers. <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Hasse.html">Helmut Hasse</a> was a German number theorist, held in high esteem by the Bourbaki group.</p>
+<p>After graduating from the ENS in 1929, <a href="http://en.wikipedia.org/wiki/Claude_Chevalley">Claude Chevalley</a> spent some time at the University of Marburg, studying under Helmut Hasse. Hasse had come to Marburg when <a href="http://en.wikipedia.org/wiki/Kurt_Hensel">Kurt Hensel</a> (who invented the p-adic numbers in 1902) retired in 1930.</p>
+<p>Hasse picked up a question from E. Artin&#8217;s dissertation about the zeta function of an algebraic curve over a finite field and achieved the first breakthrough establishing the conjectured property for zeta functions of elliptic curves (genus one).</p>
+<p>Extending this result to higher genus was the principal problem Andre Weil was working on at the time of the wedding-card-joke. In 1940 he would be able to settle the general case. What we now know as the Hasse-Weil theorem implies that the number N(p) of rational points of an elliptic curve over the finite field Z/pZ, where p is a prime, can differ from the mean value p+1 by at most twice the square root of p.</p>
+<p>So, Helmut Hasse is a passable candidate for the first-level, mathematical, decoding of &#8216;le P. adique&#8217;.</p>
+<p>However, there is often a deeper and more subtle reading of a Bourbaki-joke, intended to be understood only by the select inner circle of &#8216;normaliens&#8217; (graduates of the <a href="http://www.ens.fr/?lang=fr">Ecole Normale Superieure</a>). Usually, this second-level interpretation  requires knowledge of events or locations within the <a href="http://en.wikipedia.org/wiki/5th_arrondissement_of_Paris">5-th arrondissement of Paris</a>, the large neighborhood of the ENS.</p>
+<p>For an outsider (both non-Parisian and non-normalien) decoding this hidden message is substantially harder and requires a good deal of luck.</p>
+<p>As it happens, I&#8217;m going through a &#8216;Weil-phase&#8217; and just started reading the three main Weil-biographies : <a href="http://www.amazon.fr/Andre-Weil-Apprenticeship-Mathematician/dp/3764326506/">Andre Weil the Apprenticeship of a Mathematician</a>, <a href="http://www.amazon.fr/Chez-Weil-André-Simone-Sylvie/dp/2283023696/">Chez les Weil : André et Simone</a> by Sylvie Weil and <a href="http://www.amazon.fr/vie-Simone-Weil-Pétrement/dp/2213599920/">La vie de Simone Weil</a> by Simone Petrement.</p>
+<p><center><br />
+[abp:3764326506]  [abp:2283023696] [abp:2213599920]<br />
+</center></p>
+<p>From page 35 of &#8216;Chez les Weil&#8217; : &#8220;Après la guerre, pas tout de suite mais en 1948, toute la famille avait fini par revenir à Paris, rue Auguste-Comte, en face des jardins du Luxembourg.&#8221; Sylvie talks about the Parisian apartment of her grandparents (father and mother of Andre and Simone) and I wanted to know its exact location.</p>
+<p>More details are given on page 103 of &#8216;La vie de Simone Weil&#8217;. The apartment consists of the 6th and 7th floor of a building on the Montagne Sainte-Geneviève. The Weils bought it before it was even built and when they moved in, in may 1929, it was still unfinished. Compensating this, the apartment offered a splendid view of the Sacre-Coeur, the Eiffel-tower, la Sorbonne, Invalides, l&#8217;Arc de Triomphe, Pantheon, the roofs of the Louvre, le tout Paris quoi&#8230;</p>
+<p>As to its location : &#8220;Juste au-dessous de l&#8217;appartement se trouvent l&#8217;Ecole des mines et les serres du Luxembourg, avec la belle maison ancienne où mourut Leconte de Lisle.&#8221; This and a bit of <a href="http://www.a-paris.net/A-paris-balade-jardin-du-luxembourg.htm">googling</a> allows one to deduce that the Weils lived at 3, rue Auguste-Comte (the W on the map below).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/lEpee.jpg" align=left style="margin-right:10px;">  Crossing the boulevard Saint-Michel, one enters the 5-th arrondissement via the &#8230; rue de l&#8217;Abbe de l&#8217;Epee&#8230;<br />
+We did deduce <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/where-was-the-bourbaki-wedding.html">before</a> that the priest might be an abbot (&#8216;from the order of the Diophantines&#8217;) and l&#8217;Epee is just &#8216;le P.&#8217; pronounced in French (cheating one egue).</p>
+<p><a href="http://en.wikipedia.org/wiki/Charles-Michel_de_l'Épée">Abbé Charles-Michel de l&#8217;Épée</a> lived in the 18th century and has become known as the &#8220;Father of the Deaf&#8221; (compare this to Diophantus who is called &#8220;Father of Algebra&#8221;). Épée turned his attention toward charitable services for the poor, and he had a chance encounter with two young deaf sisters who communicated using a sign language. Épée decided to dedicate himself to the education and salvation of the deaf, and, in 1760, he founded a school which became in 1791 l&#8217;Institution Nationale des Sourds-Muets à Paris.  It was later renamed the Institut St. Jacques (compare Rue St. Jacques) and then renamed again to its present name: <a href="http://www.injs-paris.fr/">Institut National de Jeunes Sourds de Paris</a> located at 254, rue Saint-Jacques (the A in the map below) just one block away from the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/seriously-now-where-was-the-bourbaki-wedding.html">Schola Cantorum</a> at 269, rue St. Jacques, where the Bourbaki-Petard wedding took place (the S in the map).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PAdique.jpg"></p>
+<p>Completing the map with the location of the Ecole Normale (the E) I was baffled by the result. If the Weil apartment stands for West, the Ecole for East and the Schola for South, surely there must be an N (for N.Bourbaki?) representing North. Suggestions anyone?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/who-was-le-p-adique/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

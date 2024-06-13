@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Plazas &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/plazas/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 29 Jan 2018 15:13:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>A forgotten type and roots of unity (again)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 29 Jan 2018 15:13:56 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Bost]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Plazas]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7920</guid>
+
+					<description><![CDATA[The monstrous moonshine picture is the finite piece of Conway&#8217;s Big Picture needed to understand the 171 moonshine groups associated to conjugacy classes of the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally">monstrous moonshine picture</a> is the finite piece of Conway&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture">Big Picture</a> needed to understand the 171 moonshine groups associated to conjugacy classes of the monster.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally">Last time</a> I claimed that there were exactly 7 types of local behaviour, but I missed one. The forgotten type is centered at the number lattice $84$.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/forgottentype.jpg"></p>
+<p>Locally around it the moonshine picture looks like this<br />
+\[<br />
+\xymatrix{42 \ar@{-}[dr] &#038; 28 \frac{1}{3} \ar@[red]@{-}[d] &#038; 41 \frac{1}{2} \ar@{-}[ld] \\ 28 \ar@[red]@{-}[r] &#038; \color{grey}{84} \ar@[red]@{-}[r] \ar@[red]@{-}[d] \ar@{-}[rd] &#038; 28 \frac{2}{3} \\ &#038; 252 &#038; 168} \]</p>
+<p>and it involves all square roots of unity ($42$, $42 \frac{1}{2}$ and $168$) and $3$-rd roots of unity ($28$, $28 \frac{1}{3}$, $28 \frac{2}{3}$ and $252$) centered at $84$.</p>
+<p>No, I&#8217;m not hallucinating, there are indeed $3$ square roots of unity and $4$ third roots of unity as they come <a href="https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture">in two families</a>, depending on which of the two canonical forms to express a lattice is chosen.</p>
+<p>In the &#8216;normal&#8217; expression $M \frac{g}{h}$ the two square roots are $42$ and $42 \frac{1}{2}$ and the three third roots are $28, 28 \frac{1}{3}$ and $28 \frac{2}{3}$. But in the &#8216;other&#8217; expression<br />
+\[<br />
+M \frac{g}{h} = (\frac{g&#8217;}{h},\frac{1}{h^2M}) \]<br />
+(with $g.g&#8217; \equiv 1~mod~h$) the families of $2$-nd and $3$-rd roots of unity are<br />
+\[<br />
+\{ 42 \frac{1}{2} = (\frac{1}{2},\frac{1}{168}), 168 = (0,\frac{1}{168}) \} \]<br />
+and<br />
+\[<br />
+\{ 28 \frac{1}{3} = (\frac{1}{3},\frac{1}{252}), 28 \frac{2}{3} = (\frac{2}{3},\frac{1}{252}), 252 = (0 , \frac{1}{252}) \} \]<br />
+As in the <a href="https://lievenlebruyn.github.io/neverendingbooks/a-tetrahedral-snake">tetrahedral snake post</a>, it is best to view the four $3$-rd roots of unity centered at $84$ as the vertices of a tetrahedron with center of gravity at $84$. Power maps in the first family correspond to rotations along the axis through $252$ and power maps in the second family are rotations along the axis through $28$.</p>
+<p>In the &#8216;normal&#8217; expression of lattices there&#8217;s then a total of 8 different local types, but two of them consist of just one number lattice: in $8$ the local picture contains all square, $4$-th and $8$-th roots of unity centered at $8$, and in $84$ the square and $3$-rd roots.</p>
+<p>Perhaps surprisingly, if we redo everything in the &#8216;other&#8217; expression (and use the other families of roots of unity), then the moonshine picture has only 7 types of local behaviour. The forgotten type $84$ appears to split into two occurrences of other types (one with only square roots of unity, and one with only $3$-rd roots).</p>
+<p>I wonder what all this has to do with the action of the Bost-Connes algebra on the big picture or with Plazas&#8217; approach to moonshine via <a href="https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine">non-commutative geometry</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the moonshine picture &#8211; at last</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 23 Jan 2018 11:17:02 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Plazas]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7799</guid>
+
+					<description><![CDATA[The monstrous moonshine picture is the subgraph of Conway&#8217;s big picture consisting of all lattices needed to describe the 171 moonshine groups. It consists of:&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The monstrous moonshine picture is the subgraph of <a href="https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative">Conway&#8217;s big picture</a> consisting of all lattices needed to describe the 171 moonshine groups.</p>
+<p>It consists of:</p>
+<p>&#8211; exactly 218 vertices (that is, lattices), out of which</p>
+<p>&#8211; 97 are number-lattices (that is of the form $M$ with $M$ a positive integer), and</p>
+<p>&#8211; 121 are proper number-like lattices (that is of the form $M \frac{g}{h}$ with $M$ a positive integer, $h$ a divisor of $24$ and $1 \leq g \leq h$ with $(g,h)=1$).</p>
+<p>The $97$ number lattices are closed under  <a href="https://lievenlebruyn.github.io/neverendingbooks/chomp-and-the-moonshine-thread">taking divisors</a>, and the corresponding Hasse diagram has the following shape</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/colouredthread.png" width=100% ></p>
+<p>Here, number-lattices have the same colour if they have the same local structure in the moonshine picture (that is, have a similar neighbourhood of proper number-like lattices).</p>
+<p>There are 7 different types of local behaviour:</p>
+<p>The <strong>white</strong> numbered lattices have no proper number-like neighbours in the picture.</p>
+<p>The <strong>yellow</strong> number lattices (2,10,14,18,22,26,32,34,40,68,80,88,90,112,126,144,180,208 = 2M) have local structure</p>
+<p>\[<br />
+\xymatrix{M \ar@{-}[r] &#038; \color{yellow}{2M} \ar@{-}[r] &#038; M \frac{1}{2}} \]</p>
+<p>which involves all $2$-nd (square) <a href="https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture">roots of unity</a> centered at the lattice.</p>
+<p>The <strong>green</strong> number lattices (3,15,21,39,57,93,96,120 = 3M) have local structure</p>
+<p>\[<br />
+\xymatrix{&#038; M \ar@[red]@{-}[d] &#038; \\ M \frac{1}{3} \ar@[red]@{-}[r] &#038; \color{green}{3M} \ar@[red]@{-}[r] &#038; M \frac{2}{3}} \]</p>
+<p>which involve all $3$-rd roots of unity centered at the lattice.</p>
+<p>The <strong>blue</strong> number lattices (4,16,20,28,36,44,52,56,72,104 = 4M) have as local structure</p>
+<p>\[<br />
+\xymatrix{M \frac{1}{2} \ar@{-}[d] &#038; &#038; M \frac{1}{4} \ar@{-}[d] \\<br />
+2M \ar@{-}[r] &#038; \color{blue}{4M} \ar@{-}[r] &#038; 2M \frac{1}{2} \ar@{-}[d] \\<br />
+M \ar@{-}[u] &#038; &#038; M \frac{3}{4}} \]</p>
+<p>and involve the $2$-nd and $4$-th root of unity centered at the lattice.</p>
+<p>The <strong>purple</strong> number lattices (6,30,42,48,60 = 6M) have local structure</p>
+<p>\[<br />
+\xymatrix{&#038; M \frac{1}{3} \ar@[red]@{-}[d] &#038; 2M \frac{1}{3} &#038; M \frac{1}{6} \ar@[red]@{-}[d] &#038; \\<br />
+M \ar@[red]@{-}[r] &#038; 3M \ar@{-}[r] \ar@[red]@{-}[d] &#038; \color{purple}{6M} \ar@{-}[r] \ar@[red]@{-}[u] \ar@[red]@{-}[d] &#038; 3M \frac{1}{2} \ar@[red]@{-}[r] \ar@[red]@{-}[d] &#038; M \frac{5}{6} \\<br />
+&#038; M \frac{2}{3} &#038; 2M \frac{2}{3} &#038; M \frac{1}{2} &#038; } \]</p>
+<p>and involve all $2$-nd, $3$-rd and $6$-th roots of unity centered at the lattice.</p>
+<p>The unique <strong>brown</strong> number lattice 8 has local structure</p>
+<p>\[<br />
+\xymatrix{&#038; &#038; 1 \frac{1}{4} \ar@{-}[d] &#038; &#038; 1 \frac{1}{8} \ar@{-}[d] &#038; \\<br />
+&#038; 1 \frac{1}{2} \ar@{-}[d] &#038; 2 \frac{1}{2} \ar@{-}[r] \ar@{-}[d] &#038; 1 \frac{3}{4} &#038; 2 \frac{1}{4} \ar@{-}[r] &#038; 1 \frac{5}{8} \\<br />
+1 \ar@{-}[r] &#038; 2 \ar@{-}[r] &#038; 4 \ar@{-}[r] &#038; \color{brown}{8} \ar@{-}[r] &#038; 4 \frac{1}{2} \ar@{-}[d] \ar@{-}[u] &#038; \\<br />
+&#038; &#038; &#038; 1 \frac{7}{8} \ar@{-}[r] &#038; 2 \frac{3}{4} \ar@{-}[r] &#038; 1 \frac{3}{8}} \]</p>
+<p>which involves all $2$-nd, $4$-th and $8$-th roots of unity centered at $8$.</p>
+<p>Finally, the local structure for the central red lattices $12,24 = 12M$ is</p>
+<p>\[<br />
+\xymatrix{<br />
+M \frac{1}{12} \ar@[red]@{-}[dr] &#038; M \frac{5}{12} \ar@[red]@{-}[d] &#038; M \frac{3}{4} \ar@[red]@{-}[dl] &#038; &#038; M \frac{1}{6} \ar@[red]@{-}[dr] &#038; M \frac{1}{2} \ar@[red]@{-}[d] &#038; M \frac{5}{6} \ar@[red]@{-}[dl] \\<br />
+&#038; 3M \frac{1}{4} \ar@{-}[dr] &#038; 2M \frac{1}{6} \ar@[red]@{-}[d] &#038; 4M \frac{1}{3} \ar@[red]@{-}[d] &#038; 2M \frac{1}{3} \ar@[red]@{-}[d] &#038; 3M \frac{1}{2} \ar@{-}[dl] &#038; \\<br />
+&#038; 2M \frac{1}{2} \ar@[red]@{-}[r] &#038; 6M \frac{1}{2} \ar@{-}[dl] \ar@[red]@{-}[d] \ar@{-}[r] &#038; \color{red}{12M} \ar@[red]@{-}[d] \ar@{-}[r] &#038; 6M \ar@[red]@{-}[d] \ar@{-}[dr] \ar@[red]@{-}[r] &#038;  2M &#038;  \\<br />
+&#038; 3M \frac{3}{4} \ar@[red]@{-}[dl] \ar@[red]@{-}[d] \ar@[red]@{-}[dr] &#038; 2M \frac{5}{6} &#038; 4M \frac{2}{3} &#038; 2M \frac{2}{3} &#038; 3M \ar@[red]@{-}[dl] \ar@[red]@{-}[d] \ar@[red]@{-}[dr] &#038; \\<br />
+M \frac{1}{4} &#038; M \frac{7}{12} &#038; M \frac{11}{12} &#038; &#038; M \frac{1}{3} &#038; M \frac{2}{3} &#038; M}<br />
+\]</p>
+<p>It involves all $2$-nd, $3$-rd, $4$-th, $6$-th and $12$-th <a href="https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture">roots of unity</a> with center $12M$.</p>
+<p>No doubt this will be relevant in connecting moonshine with <a href="https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine">non-commutative geometry</a> and issues of replicability as in Plazas&#8217; paper <a href="https://arxiv.org/abs/1303.5168">Noncommutative Geometry of Groups like $\Gamma_0(N)$</a>.</p>
+<p>Another of my pet follow-up projects is to determine whether or not the monster group $\mathbb{M}$ dictates the shape of the moonshine picture.</p>
+<p>That is, can one recover the 97 number lattices and their partition in 7 families starting from the set of element orders of $\mathbb{M}$, applying some set of simple rules?</p>
+<p>One of these rules will follow from the two equivalent notations for lattices, and the <a href"https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture">two different sets of roots of unities</a> centered at a given lattice. This will imply that if a number lattice belongs to a given family, certain divisors and multiples of it must belong to related families.</p>
+<p>If this works out, it may be a first step towards a possibly new understanding of moonshine.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>a non-commutative Jack Daniels problem</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 20 Jan 2018 13:56:06 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Duncan]]></category>
+		<category><![CDATA[Jack Daniels]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[Ogg]]></category>
+		<category><![CDATA[Ono]]></category>
+		<category><![CDATA[Pizer]]></category>
+		<category><![CDATA[Plazas]]></category>
+		<category><![CDATA[Ricard]]></category>
+		<category><![CDATA[Tits]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7776</guid>
+
+					<description><![CDATA[At a seminar at the College de France in 1975, Tits wrote down the order of the monster group \[ \# \mathbb{M} = 2^{46}.3^{20}.5^9.7^6.11^2.13^3.17·19·23·29·31·41·47·59·71 \]&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/jackdanielsMoonshine.jpg"></p>
+<p>At a seminar at the College de France in 1975, Tits wrote down the order of the monster group</p>
+<p>\[<br />
+\# \mathbb{M} = 2^{46}.3^{20}.5^9.7^6.11^2.13^3.17·19·23·29·31·41·47·59·71 \]</p>
+<p><a href="https://en.wikipedia.org/wiki/Andrew_Ogg">Andrew Ogg</a>, who attended the talk, noticed that the prime divisors are precisely the primes $p$ for which the characteristic $p$ super-singular $j$-invariants are all defined over $\mathbb{F}_p$.</p>
+<p>Here&#8217;s Ogg&#8217;s paper on this: <a href="http://www.numdam.org/article/SDPP_1974-1975__16_1_A4_0.pdf">Automorphismes de courbes modulaires</a>,  Séminaire Delange-Pisot-Poitou. Théorie des nombres, tome 16, no 1 (1974-1975).</p>
+<p>Ogg offered a bottle of Jack Daniels for an explanation of this coincidence.</p>
+<p>Even <a href="https://en.wikipedia.org/wiki/Richard_Borcherds">Richard Borcherds</a> didn&#8217;t claim the bottle of Jack Daniels, though his proof of the monstrous moonshine conjecture is believed to be the best explanation, at present.</p>
+<p>A few years ago, John Duncan and Ken Ono posted a paper <a href="https://arxiv.org/abs/1411.5354">&#8220;The Jack Daniels Problem&#8221;</a>, in which they prove that monstrous moonshine implies that if $p$ is not one of Ogg&#8217;s primes it cannot be a divisor of $\# \mathbb{M}$. However, the other implication remains mysterious.</p>
+<p>Duncan and Ono say:</p>
+<p>&#8220;This discussion does not prove that every $p ∈ \text{Ogg}$ divides $\# \mathbb{M}$. It merely explains how the first principles of moonshine suggest this implication. Monstrous moonshine is the proof. Does this then provide a completely satisfactory solution to Ogg’s problem? Maybe or maybe not. Perhaps someone will one day furnish a map from the characteristic $p$ supersingular $j$-invariants to elements of order $p$ where the group structure of $\mathbb{M}$ is apparent.&#8221;</p>
+<p>I don&#8217;t know whether they claimed the bottle, anyway.</p>
+<p>But then, what is the <strong>non-commutative Jack Daniels Problem</strong>?</p>
+<p>A footnote on the first page of Conway and Norton&#8217;s &#8216;Monstrous Moonshine&#8217; paper says:</p>
+<p>&#8220;Very recently, A. Pizer has shown these primes are the only ones that satisfy a certain conjecture of Hecke from 1936 relating modular forms of weight $2$ to quaternion algebra theta-series.&#8221;</p>
+<p>Pizer&#8217;s paper is <a href="https://msp.org/pjm/1978/79-2/pjm-v79-n2-p16-s.pdf">&#8220;A note on a conjecture of Hecke&#8221;</a>.</p>
+<p>Maybe there&#8217;s a connection between monstrous moonshine and the arithmetic of integral quaternion algebras. Some hints:</p>
+<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative">commutation relations in the Big Picture</a> are reminiscent of the <a href="http://www.m-hikari.com/imf/imf-2012/41-44-2012/perngIMF41-44-2012.pdf">meta-commutation relations for Hurwitz quaternions</a>, originally due to Conway in his booklet on Quaternions and Octonions.</p>
+<p>The fact that the $p$-tree in the Big Picture has valency $p+1$ comes from the fact that the Brauer-Severi of $M_2(\mathbb{F}_p)$ is $\mathbb{P}^1_{\mathbb{F}_p}$. In fact, the Big Picture should be related to the Brauer-Severi scheme of $M_2(\mathbb{Z})$.</p>
+<p>Then, there&#8217;s Jorge Plazas claiming that Connes-Marcolli&#8217;s $GL_2$-system <a href="https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine">might be related to moonshine</a>.</p>
+<p>One of the first things I&#8217;ll do when I return is to run to the library and get our copy of Shimura&#8217;s &#8216;Introduction to the arithmetic theory of automorphic functions&#8217;.</p>
+<p>Btw. the bottle in the title image is not a Jack Daniels but the remains of a bottle of Ricard, because I&#8217;m still in the French mountains.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>nc-geometry and moonshine?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 12 Jan 2018 15:28:03 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Bost]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[Plazas]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7649</guid>
+
+					<description><![CDATA[A well-known link between Conway&#8217;s Big Picture and non-commutative geometry is given by the Bost-Connes system. This quantum statistical mechanical system encodes the arithmetic properties&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A well-known link between <a href="https://www.google.be/url?sa=t&#038;rct=j&#038;q=&#038;esrc=s&#038;source=web&#038;cd=1&#038;ved=0ahUKEwinqpa61NLYAhUKK1AKHdfyDoYQFggsMAA&#038;url=https%3A%2F%2Flievenlebruyn.github.io%2Fneverendingbooks%2Fconways-big-picture&#038;usg=AOvVaw1KUQS1klcoUcUa9xlKd7YP">Conway&#8217;s Big Picture</a> and non-commutative geometry is given by the <a href="https://en.wikipedia.org/wiki/Bost%E2%80%93Connes_system">Bost-Connes system</a>.</p>
+<p>This quantum statistical mechanical system encodes the arithmetic properties of cyclotomic extensions of $\mathbb{Q}$.</p>
+<p>The corresponding Bost-Connes algebra encodes the action by the power-maps on the roots of unity.</p>
+<p>It has generators $e_n$ and $e_n^*$ for every natural number $n$ and additional generators $e(\frac{g}{h})$ for every element in the additive group $\mathbb{Q}/\mathbb{Z}$ (which is of course isomorphic to the multiplicative group of roots of unity).</p>
+<p>The defining equations are<br />
+\[<br />
+\begin{cases}<br />
+e_n.e(\frac{g}{h}).e_n^* = \rho_n(e(\frac{g}{h})) \\<br />
+e_n^*.e(\frac{g}{h}) = \Psi^n(e(\frac{g}{h}).e_n^* \\<br />
+e(\frac{g}{h}).e_n = e_n.\Psi^n(e(\frac{g}{h})) \\<br />
+e_n.e_m=e_{nm} \\<br />
+e_n^*.e_m^* = e_{nm}^* \\<br />
+e_n.e_m^* = e_m^*.e_n~\quad~\text{if $(m,n)=1$}<br />
+\end{cases}<br />
+\]</p>
+<p>Here $\Psi^n$ are the power-maps, that is $\Psi^n(e(\frac{g}{h})) = e(\frac{ng}{h}~mod~1)$, and the maps $\rho_n$ are given by<br />
+\[<br />
+\rho_n(e(\frac{g}{h})) = \sum e(\frac{i}{j}) \]<br />
+where the sum is taken over all $\frac{i}{j} \in \mathbb{Q}/\mathbb{Z}$ such that $n.\frac{i}{j}=\frac{g}{h}$.</p>
+<p>Conway&#8217;s Big Picture has as its vertices the (equivalence classes of) lattices $M,\frac{g}{h}$ with $M \in \mathbb{Q}_+$ and $\frac{g}{h} \in \mathbb{Q}/\mathbb{Z}$.</p>
+<p>The Bost-Connes algebra acts on the vector-space with basis the vertices of the Big Picture. The action is given by:<br />
+\[<br />
+\begin{cases}<br />
+e_n \ast \frac{c}{d},\frac{g}{h} = \frac{nc}{d},\rho^m(\frac{g}{h})~\quad~\text{with $m=(n,d)$} \\<br />
+e_n^* \ast \frac{c}{d},\frac{g}{h} = (n,c) \times \frac{c}{nd},\Psi^{\frac{n}{m}}(\frac{g}{h})~\quad~\text{with $m=(n,c)$} \\<br />
+e(\frac{a}{b}) \ast \frac{c}{d},\frac{g}{h} = \frac{c}{d},\Psi^c(\frac{a}{b}) \frac{g}{h}<br />
+\end{cases}<br />
+\]</p>
+<p>This connection makes one wonder whether non-commutative geometry can shed a new light on monstrous moonshine?</p>
+<p>This question is taken up by <a href="http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001544588">Jorge Plazas</a> in his paper <a href="https://arxiv.org/abs/1303.5168">Non-commutative geometry of groups like $\Gamma_0(N)$</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/JorgePlazas.jpeg" width=100% ></p>
+<p>Plazas shows that the bigger Connes-Marcolli $GL_2$-system also acts on the Big Picture. An intriguing quote:</p>
+<p>&#8220;Our interest in the $GL_2$-system comes from the fact that its thermodynamic properties encode the arithmetic theory of modular functions to an extend which makes it possible for us to capture aspects of moonshine theory.&#8221;</p>
+<p>Looks like the right kind of paper to take along when I disappear next week for some time in the French mountains&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

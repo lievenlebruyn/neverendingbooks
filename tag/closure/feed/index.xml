@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>closure &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/closure/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 31 Dec 2023 08:26:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Closure</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/closure/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/closure/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 31 Dec 2023 08:26:10 +0000</pubDate>
+				<category><![CDATA[personal]]></category>
+		<category><![CDATA[closure]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11841</guid>
+
+					<description><![CDATA[Exactly 20 years ago I wrote my first blogpost, &#8216;a blogging 2004&#8217;. I wasn&#8217;t using WordPress yet (but something called pMachine), and this blog was&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Exactly 20 years ago I wrote my first blogpost, <a href="https://lievenlebruyn.github.io/neverendingbooks/a-blogging-2004">&#8216;a blogging 2004&#8217;</a>. I wasn&#8217;t using WordPress yet (but something called pMachine), and this blog was not called &#8216;neverendingbooks&#8217;, but &#8216;lievenlb.local&#8217; (the URL of the mac still running this blog).</p>
+<p>At the time I wanted to find out whether blogging was something for me. &#8220;I’m just starting out. Give me a couple of weeks/months to develop my own style and topics and I’ll change the layout accordingly.&#8221;</p>
+<p>Well, after 20 years I know what I can, and more important, what I cannot do within this framework. Time to move on.</p>
+<p>There are other reasons why this might be the right time to pull the plug.</p>
+<p>&#8211; I&#8217;m on retirement since October 1st and soon I&#8217;ll have to vacate my office, containing the webserver on which NeB runs.</p>
+<p>&#8211; My days are filled with more activities now, and I don&#8217;t think you want to read here for example about my struggles with chestnut-farming.</p>
+<p>&#8211; I like to explore other channels to talk about mathematics. This may happen on <a href="https://mathstodon.xyz/@lievenlebruyn/with_replies">Mathstodon</a>, <a href="https://mathoverflow.net/users/2275/lieven-lebruyn">MathOverflow</a> or <a href="https://www.youtube.com/channel/UCoO-GhK4TUFhFDenILglrhg">YouTube</a>. Or it might be through teaching or writing a book, perhaps even a children&#8217;s book.</p>
+<p>NeB will remain reachable until mid 2024. I&#8217;ll check out options to preserve its content after that (suggestions are welcome).</p>
+<p>I wish you a better 2024.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/travers.jpg" width=100%></p>
+<p>WBM</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/closure/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

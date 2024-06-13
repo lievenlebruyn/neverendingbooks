@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Dugowson &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/dugowson/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 12 Apr 2023 08:41:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Against toposes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/against-toposes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/against-toposes/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 12 Apr 2023 08:41:46 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[france]]></category>
+		<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[against]]></category>
+		<category><![CDATA[Dugowson]]></category>
+		<category><![CDATA[Levi-Strauss]]></category>
+		<category><![CDATA[topos theory]]></category>
+		<category><![CDATA[toposes]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11076</guid>
+
+					<description><![CDATA[The French anthropologist and ethnologist Claude Levi-Strauss once observed &#8220;In Paris, intellectuals need a new toy every 15 years.&#8221; Some pointers to applications of their&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The French anthropologist and ethnologist <a href="https://en.wikipedia.org/wiki/Claude_L%C3%A9vi-Strauss">Claude Levi-Strauss</a> once observed</p>
+<blockquote><p>
+&#8220;In Paris, intellectuals need a new toy every 15 years.&#8221;
+</p></blockquote>
+<p>Some pointers to applications of their toy of choice for the past ten years:</p>
+<ul>
+<li>Langlands correspondence (see <a href="https://www.laurentlafforgue.org/math/TheorieCaramello.pdf">here</a>)</li>
+<li>Riemann hypothesis (see <a href="https://arxiv.org/pdf/1509.05576.pdf">here</a>)</li>
+<li>Machine learning (see <a href="https://arxiv.org/abs/2106.14587">here</a>)</li>
+<li>Literature (see <a href="https://lievenlebruyn.github.io/neverendingbooks/archangel-gabriel-will-make-you-a-topos">here</a>)</li>
+<li>Psycho-analysis (see <a href="https://sites.google.com/site/dugowsonrecherche/coordinations-colloques/LG">here</a>)</li>
+<li>Design theory (see <a href="https://theory.designsociety.org/11/15TH+SIG+DESIGN+THEORY+PARIS+WORKSHOP+%2831ST+JANUARY+-+1ST+FEBRUARY+2022%2C+PARIS%2C+FRANCE%29">here</a>)</li>
+<li><a href="https://en.wikipedia.org/wiki/Haute_cuisine">Haute cuisine</a> (see <a href="https://www.cambridge.org/core/journals/proceedings-of-the-international-conference-on-engineering-design/article/innovative-design-within-tradition-injecting-topos-structures-in-ck-theory-to-model-culinary-creation-heritage/CFA7A8ED527F8DEF4D05E33BF858CEC6">here</a>)</li>
+<li>6G (see <a href="http://r.huaweistatic.com/s/sedata/v1/semantic-workshop-2023.html">here</a>)</li>
+<li>&#8230;</li>
+</ul>
+<p>How do Parisian mathematicians with a lifelong interest in topos theory react to this hype?</p>
+<p>With humour!</p>
+<p>Here&#8217;s an &#8216;exposé parodique&#8217; (parodical lecture) by <a href="https://sites.google.com/site/dugowsonrecherche">Stéphane Dugowson</a> on &#8220;Contre les topos&#8221; (against toposes).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ZdoLiIfmJ7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/against-toposes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Grothendieck meets Lacan</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 21 Apr 2022 09:34:42 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Dugowson]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Lacan]]></category>
+		<category><![CDATA[Sibony]]></category>
+		<category><![CDATA[topos theory]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10501</guid>
+
+					<description><![CDATA[Next month, a weekend-meeting is organised in Paris on Lacan et Grothendieck, l&#8217;impossible rencontre?. Photo from Remembering my father, Jacques Lacan Jacques Lacan was a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Next month, a weekend-meeting is organised in Paris on <a href="https://sites.google.com/site/dugowsonrecherche/accueil/LG">Lacan et Grothendieck, l&#8217;impossible rencontre?</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://s26162.pcdn.co/wp-content/uploads/2019/06/838_jacques-lacan3.jpg" width=100% \><br />
+Photo from <a href="https://lithub.com/remembering-my-father-jacques-lacan/">Remembering my father, Jacques Lacan</a><br />
+</center></p>
+<p><a href="https://en.wikipedia.org/wiki/Jacques_Lacan">Jacques Lacan</a> was a French psychoanalyst and psychiatrist who has been called &#8220;the most controversial psycho-analyst since Freud&#8221;.</p>
+<p>What&#8217;s the connection between Lacan and Grothendieck? Here&#8217;s <a href="https://sites.google.com/site/dugowsonrecherche/accueil">Stephane Dugowson</a>&#8216;s take (G-translated):</p>
+<p>&#8220;As we know, Lacan was passionate about certain mathematics, notably temporal logic and the theory of knots, where he thought he found material for advancing the theory of psychoanalysis. For his part, Grothendieck testifies in his non-strictly mathematical writings to his passion for the psyche, as shown by many pages of his <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendieck-stuff">Récoltes et Semailles</a> just published by Gallimard (in January 2022), or even, among the tens of <a href="https://lievenlebruyn.github.io/neverendingbooks/where-are-grothendiecks-writings-2">thousands of pages discovered at his death</a> and of which we know almost nothing, the 3700 pages of mathematics grouped under the title &#8216;Structure of the Psyche&#8217;.</p>
+<p>One might therefore be surprised that the two geniuses never met. In fact, a lunch did take place in the early 1970s organized by the mathematician and psychoanalyst <a href="https://fr.wikipedia.org/wiki/Daniel_Sibony">Daniel Sibony</a>. But a lunch does not necessarily make a meeting, and it seems that this one unfortunately did not happen.&#8221;</p>
+<p>As it is &#8216;bon ton&#8217; these days in Parisian circles to utter the word &#8216;topos&#8217;, several titles of the talks given at the meeting contain that word.</p>
+<p>There&#8217;s <a href="https://sites.google.com/site/dugowsonrecherche/accueil">Stephane Dugowson</a>&#8216;s talk on &#8220;Logique du topos borroméen et autres logiques à trois points&#8221;.</p>
+<p>Lacan used the <a href="https://en.wikipedia.org/wiki/Borromean_rings">Borromean link</a> to illustrate his concepts of the Real, Symbolic, and Imaginary (RSI). For more on this, please read chapter 6 of Lionel Baily&#8217;s excellent introduction to Lacan&#8217;s work <a href="https://ia800709.us.archive.org/23/items/lionel-bailly-lacan-a-beginners-guide/lionel-bailly-lacan-a-beginners-guide.pdf">Lacan, A Beginner’s Guide</a>.</p>
+<p>The Borromean topos is an example of Dugowson&#8217;s toposes associated to his &#8216;connectivity spaces&#8217;. From his paper <a href="https://hal.archives-ouvertes.fr/hal-01381304">Définition du topos d&#8217;un espace connectif</a> I gather that the objects in the Borromean topos consist of a triple of set-maps from a set $A$ (the global sections) to sets $A_x,A_y$ and $A_z$ (the restrictions to three disconnected &#8216;opens&#8217;).</p>
+<p>\[<br />
+\xymatrix{&#038; A \ar[rd] \ar[d] \ar[ld] &#038; \\ A_x &#038; A_y &#038; A_z} \]</p>
+<p>This seems to be a topos with a Boolean logic, but perhaps there are other 3-point connectivity spaces with a non-Boolean Heyting subobject classifier.</p>
+<p>There&#8217;s <a href="https://fr.wikipedia.org/wiki/Daniel_Sibony">Daniel Sibony</a>&#8216;s talk on &#8220;Mathématiques et inconscient&#8221;. Sibony is a French mathematician, turned philosopher and psychoanalyst, <a href="https://fr.wikipedia.org/wiki/Sujet_de_l%27inconscient">l&#8217;inconscient</a> is an important concept in Lacan&#8217;s work.</p>
+<p>Here&#8217;s a nice conversation between Daniel Sibony and Alain Connes on the notions of &#8216;time&#8217; and &#8216;truth&#8217;.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/SWgASHHanLU?start=3449" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>In the second part (starting around 57.30) Connes brings up toposes whose underlying logic is much subtler than brute &#8216;true&#8217; or &#8216;false&#8217; statements. He discusses the presheaf topos on the additive monoid $\mathbb{N}_+$ which leads to statements which are &#8216;one step from the truth&#8217;, &#8216;two steps from the truth&#8217; and so on. It is also the example Connes used in his talk <a href="https://www.youtube.com/watch?v=LFV4FpfdwEw">Un topo sur les topos</a>.</p>
+<p>Alain Connes himself will also give a talk at the meeting, together with Patrick Gauthier-Lafaye, on &#8220;Un topos sur l&#8217;inconscient&#8221;.</p>
+<p>It appears that Connes and Gauthier-Lafaye have written a book on the subject, <a href="https://www.mollat.com/livres/2624527/alain-connes-a-l-ombre-de-grothendieck-et-de-lacan-un-topos-sur-l-inconscient#">A l&#8217;ombre de Grothendieck et de Lacan : un topos sur l&#8217;inconscient</a>. Here&#8217;s the summary (G-translated):</p>
+<p>&#8220;The authors present the relevance of the mathematical concept of topos, introduced by A. Grothendieck at the end of the 1950s, in the exploration of the structure of the unconscious.&#8221;</p>
+<p>The book will be released on May 11th.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

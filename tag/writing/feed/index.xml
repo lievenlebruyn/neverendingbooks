@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>writing &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/writing/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 04 Feb 2018 11:01:29 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>taking stock</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/taking-stock/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/taking-stock/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 04 Feb 2018 11:01:29 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[personal]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Neale]]></category>
+		<category><![CDATA[writing]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8012</guid>
+
+					<description><![CDATA[The one thing harder than to start blogging after a long period of silence is to stop when you think you&#8217;re still in the flow.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The one thing harder than to start blogging after a long period of silence is to stop when you think you&#8217;re still in the flow.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/takingstock.jpg"></p>
+<p>(image credit <a href="https://putnam-consulting.com/philanthropy-411-blog/the-power-of-taking-stock-5-reasons-to-conduct-evaluations/">Putnam Consulting</a>)</p>
+<p>The Januari 1st post <a href="https://lievenlebruyn.github.io/neverendingbooks/a-matharty-2018">a math(arty) 2018</a> was an accident. I only wanted to share this picture, of a garage-door with an uncommon definition of prime numbers, i saw the night before.</p>
+<p>I had been working on a better understanding of Conway&#8217;s Big Picture so I had material for a few follow-up posts.</p>
+<p>It was never my intention to start blogging on a daily basis.</p>
+<p>I had other writing plans for 2018.</p>
+<p>For years I&#8217;m trying to write a math-book for a larger audience, or at least to give it an honest try.</p>
+<p>My pet peeve with such books is that most of them are either devoid of proper mathematical content, or focus too much on the personal lives of the mathematicians involved.</p>
+<p>An inspiring counter-example is <a href="https://global.oup.com/academic/product/closing-the-gap-9780198788287?cc=be&#038;lang=en&#038;">&#8216;Closing the gap&#8217;</a> by Vicky Neal.</p>
+<p>From the excellent review by Colin Beveridge on the <a href="http://aperiodical.com/2018/02/review-closing-the-gap-by-vicky-neale/">Aperiodical Blog</a>:</p>
+<p>&#8220;Here’s a clever way to structure a maths book (I have taken copious notes): follow the development of a difficult idea or discovery chronologically, but intersperse the action with background that puts the discovery in context. That’s not a new structure – but it’s tricky to pull off: you have to keep the difficult idea from getting too difficult, and keep the background at a level where an interested reader can follow along and either say “yes, that’s plausible” or better “wait, let me get a pen!”. This is where Closing The Gap excels.&#8221;</p>
+<p>So it is possible to publish a math-book worth writing. Or at least, some people can pull it off.</p>
+<p>Problem was I needed to kick myself into writing mode. Feeling forced to post something daily wouldn&#8217;t hurt.</p>
+<p>Anyway, I was sure this would have to stop soon. I had plans to disappear for 10 days into the French mountains. Our place there suffers from frequent power- and cellphone-cuts, which can last for days.</p>
+<p>Thank you <a href="https://boutique.orange.fr/tablette-et-cle/coffret-pret-a-surfer-internet-prepaye-4G">Orange.fr</a> for upgrading your network to the remotest of places. At times, it felt like I was working from home.</p>
+<p>I kept on blogging.</p>
+<p>Even now, there&#8217;s material lying around.</p>
+<p>I&#8217;d love to understand the claim that non-commutative geometry may offer <a href="https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine">some help</a> in explaining moonshine. There was an interesting question on an older post on nimber-arithmetic I feel I should be following up. I&#8217;ve given a <a href="https://thefunseminarsghent.wordpress.com/">couple of talks</a> recently on $\mathbb{F}_1$-material, parts of which may be postable. And so on.</p>
+<p>Problem is, I would stick to the same (rather dense) writing style.</p>
+<p>Perhaps it would make more sense to aim for a weekly (or even monthly) post over at <a href="https://medium.com/">Medium</a>.</p>
+<p>Medium offers no MathJax support forcing me to write differently about maths, and for a broader potential audience.</p>
+<p>I may continue to blog here (or not), stick to the current style (or try something differently). I have not the foggiest idea right now.</p>
+<p>If you have suggestions or advice, please leave a comment or email me.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/taking-stock/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

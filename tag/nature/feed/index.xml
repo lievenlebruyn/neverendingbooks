@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Nature &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/nature/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 05 Jan 2015 18:47:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Can one explain schemes to hipsters?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/can-one-explain-schemes-to-hipsters/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/can-one-explain-schemes-to-hipsters/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 05 Jan 2015 18:47:17 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Mumford]]></category>
+		<category><![CDATA[Nature]]></category>
+		<category><![CDATA[sga4hipsters]]></category>
+		<category><![CDATA[Tate]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=6124</guid>
+
+					<description><![CDATA[Nature (the journal) asked David Mumford and John Tate (of Fields and Abel fame) to write an obituary for Alexander Grothendieck. Probably, it was their&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Nature (the journal) asked David Mumford and John Tate (of Fields and Abel fame) to write an obituary for Alexander Grothendieck.</p>
+<p>Probably, it was their first experience ever to get a paper&#8230; rejected!</p>
+<p>What was their plan?</p>
+<p>How did they carry it out?</p>
+<p>What went wrong?</p>
+<p>And, can we learn from this?</p>
+<p><strong>the plan</strong></p>
+<p>Mumford and Tate set themselves an ambitious goal. Although Nature would have been happiest with a purely biographical note, they seized the opportunity to explain three &#8216;simple&#8217; things to a wider audience: (1) schemes, (2) category theory, and, (3) cohomology&#8230;</p>
+<p>&#8220;Since the readership of Nature were more or less entirely made up of non-mathematicians, it seemed as though our challenge was to try to make some key parts of Grothendieck&#8217;s work accessible to such an audience. Obviously the very definition of a scheme is central to nearly all his work, and we also wanted to say something genuine about categories and cohomology.&#8221;</p>
+<p><strong>1. Schemes </strong></p>
+<p>Here, the basic stumbling block, as Mumford acknowledged afterwards, is of course that most people don&#8217;t know what a commutative ring is. If you&#8217;ve never encountered a scheme before in broad daylight, I&#8217;m not certain this paragraph tells you how to recognise one:</p>
+<p>&#8220;&#8230; In simplest terms, he proposed attaching to any commutative ring (any set of things for which addition, subtraction and a commutative multiplication are defined, like the set of integers, or the set of polynomials in variables x,y,z with complex number coefficients) a geometric object, called the Spec of the ring (short for spectrum) or an affine scheme, and patching or gluing together these objects to form the scheme. &#8230;&#8221;</p>
+<p><strong>2. Categories</strong></p>
+<p>Here they do a pretty good job, I think. They want to explain Grothendieck&#8217;s &#8216;functor of points&#8217; and the analogy they used with several measuring experiments is neat:</p>
+<p>&#8220;&#8230; Grothendieck used the web of associated maps &#8212; called morphisms &#8212; from a variable scheme to a fixed one to describe schemes as functors and noted that many functors that were not obviously schemes at all arose in algebraic geometry.</p>
+<p>This is similar in science to having many experiments measuring some object from which the unknown real thing is pieced together or even finding something unexpected from its influence on known things&#8230;.&#8221;</p>
+<p><strong>3. Cohomology</strong></p>
+<p>Here, Mumford &#8220;hoped that the inclusion of the unit 3-sphere in $\mathbb{C}^2- \{ (0,0) \}$ would be fairly clear to most scientists and so could be used to explain the Mike Artin&#8217;s breakthrough that $H^3_{et}(\mathbb{A}^2 &#8211; \{ (0,0) \}) \not= 0$.&#8221;</p>
+<p>I&#8217;d love to know the fractional odds an experienced bookmaker would set in case someone (not me!) wants to bet on them successfully getting this message across.</p>
+<p>&#8220;&#8230; Using complex coordinates (z,w), a plane has four real dimensions and taking out a point, what&#8217;s left is topologically a three dimensional sphere. Following the inspired suggestions of Grothendieck, Artin was able to show how with algebra alone that a suitably defined third cohomology group of this space has one generator, that is the sphere lives algebraically too. Together they developed what is called étale cohomology at a famous IHES seminar. &#8230;&#8221;</p>
+<p><strong>the aftermath</strong></p>
+<p>The good news is that Nature will still publish the Tate-Mumford obit, is some form or another, next week, on januari 15th. According to Mumford they managed to sneak in three examples of commutative rings in passing: polynomials, dual numbers and finite fields.</p>
+<p><strong>what went wrong?</strong></p>
+<p>The usual?</p>
+<p>We mathematicians are obsessed with getting definitions right. We truly believe that no-one can begin to understand the implications of an idea if we don&#8217;t teach them the nitty gritty details of our treasured definitions first.</p>
+<p>It appears that we are alone on this.</p>
+<p>Did physicists smack us in the face with the full standard-model Lagrangian, demanding us to digest the minute details of it first, before they could tell us they had discovered the Higgs boson?</p>
+<p>No, most scientists know how to get a message across. You need 3 things:</p>
+<p>&#8211; a catchy name (the &#8216;God Particle&#8217;)</p>
+<p>&#8211; good graphics (machines at CERN, collision pictures)</p>
+<p>&#8211; a killer analogy (the most popular, in relation to the Higgs particle, seems to be <a href="http://www.telegraph.co.uk/news/science/large-hadron-collider/8954519/Higgs-boson-what-Margaret-Thatcher-and-the-God-Particle-have-in-common.html" target="_blank" rel="noopener">&#8220;like Maggie Tatcher walking into a room&#8221;</a>&#8230;)</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/maggietatcher.jpg" width=100%"></p>
+<p><strong>can we learn from this?</strong></p>
+<p>Of course we can.</p>
+<p>And frankly, I&#8217;m somewhat surprised Mumford missed this chance.</p>
+<p>After all, he dreamed up <a href="https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy" title="Mumford primes=knots" target="_blank" rel="noopener">the graphics and the killer analogy</a>&#8230;</p>
+<p><strong>Further reading</strong></p>
+<p>&#8211; Mumford&#8217;s original rant : <a href="http://www.dam.brown.edu/people/mumford/blog/2014/Grothendieck.html" target="_blank" rel="noopener">Can one explain schemes to biologists?</a></p>
+<p>&#8211; John Baez&#8217; follow-up post : <a href="https://golem.ph.utexas.edu/category/2014/12/can_one_explain_schemes_to_a_b.html" target="_blank" rel="noopener">Can one explain schemes to biologists?</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/can-one-explain-schemes-to-hipsters/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Mil &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/mil/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 15 Mar 2023 17:20:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Mil (13-3-2023) &#038; Gust (7-5-2021)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mil-13-3-2023-gust-7-5-2021/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mil-13-3-2023-gust-7-5-2021/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 15 Mar 2023 17:20:39 +0000</pubDate>
+				<category><![CDATA[personal]]></category>
+		<category><![CDATA[(13-3-2023)]]></category>
+		<category><![CDATA[(7-5-2021)]]></category>
+		<category><![CDATA[Gust]]></category>
+		<category><![CDATA[Mil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11089</guid>
+
+					<description><![CDATA[(birth announcement card)]]></description>
+										<content:encoded><![CDATA[<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/gust&#038;mil.gif" width=70%><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mil.png" width=70%><br />
+(<a href="http://gittte.be/">birth announcement card</a>)<br />
+</center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mil-13-3-2023-gust-7-5-2021/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

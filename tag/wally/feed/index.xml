@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Wally &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/wally/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 05 Mar 2021 09:15:32 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The strange logic of subways</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 05 Mar 2021 09:15:32 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Boole]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[logic]]></category>
+		<category><![CDATA[Reyes]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[subway]]></category>
+		<category><![CDATA[Wally]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9129</guid>
+
+					<description><![CDATA[&#8220;A subway is just a hole in the ground, and that hole is a maze.&#8221; &#8220;The map is the last vestige of the old system.&#8230;]]></description>
+										<content:encoded><![CDATA[<blockquote><p>&#8220;A subway is just a hole in the ground, and that hole is a maze.&#8221;</p>
+<p>&#8220;The map is the last vestige of the old system. If you can’t read the map, you can’t use the subway.&#8221;</p>
+<p>Eddie Jabbour in <a href="https://www.nytimes.com/2007/04/22/nyregion/thecity/22map.html?ex=1334894400&#038;en=9dca907b8de19651&#038;ei=5124&#038;partner=permalink&#038;exprod=permalink">Can he get there from here? (NYT)</a>
+</p></blockquote>
+<p>Sometimes, lines between adjacent stations can be uni-directional (as in the Paris Metro map below in the right upper corner, 7bis). So, it is best to view a subway map as a <strong>directed</strong> graph, with vertices the different stations, and directed arrows when there&#8217;s a service connecting two adjacent stations.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/met5.jpg" width=100%><br />
+</center></p>
+<p>Aha! But, directed graphs form a presheaf <a href="https://en.wikipedia.org/wiki/Topos">topos</a>. So, each and every every subway in the world comes with its own logic, its own bi-<a href="https://en.wikipedia.org/wiki/Heyting_algebra">Heyting</a> algebra!</p>
+<p>Come again&#8230;?</p>
+<p>Let&#8217;s say <a href="https://en.wikipedia.org/wiki/Where%27s_Wally%3F">Wally</a> (or Waldo, or <a href="https://fr.wikipedia.org/wiki/O%C3%B9_est_Charlie_%3F">Charlie</a>) is somewhere in the Paris metro, and we want to find him. One can make statements like:</p>
+<p>$P$ = &#8220;Wally is on line 3bis from Gambetta to Porte des Lilas.&#8221;, or</p>
+<p>$Q$ = &#8220;Wally is traveling along line 11.&#8221;</p>
+<p>Each sentence pinpoints Wally&#8217;s location to some directed <strong>subgraph</strong> of the full Paris metro digraph, let&#8217;s call this subgraph the <strong>&#8216;scope&#8217;</strong> of the sentence.</p>
+<p>We can connect such sentences with logical connectives $\vee$ or $\wedge$ and the scope will then be the union or intersection of the respective scopes.</p>
+<p>The scope of $P \vee Q$ is the directed subgraph of line 11 (in both directions) together with the directed subgraph of line 3bis from Gambetta to Porte des Lilas.</p>
+<p>The scope of $P \wedge Q$ is just the vertex corresponding to <a href="https://en.wikipedia.org/wiki/Porte_des_Lilas_(Paris_M%C3%A9tro)">Porte des Lilas</a>.</p>
+<p>The scope of the negation $\neg R$ of a sentence $R$ is the subgraph complement of the scope of $R$, so it is the full metro graph minus all vertices and directed edges in $R$-scope, together with all directed edges starting or ending in one of the deleted vertices.</p>
+<p>For example, the scope of $\neg P$ does not contain directed edges along 3bis in the reverse direction, nor the edges connecting Gambetta to Pere Lachaise, and so on.</p>
+<p>In the Paris metro logic the <a href="https://en.wikipedia.org/wiki/Double_negation#:~:text=In%20propositional%20logic%2C%20double%20negation,sign%20%E2%89%A1%20expresses%20logical%20equivalence">law of double negation</a> does not hold.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/met5.jpg" width=100%><br />
+</center></p>
+<p>$\neg \neg P \not= P$ as both statements have different scopes. For example, the reverse direction of line 3bis is part of the scope of $\neg \neg P$, but not of $P$.</p>
+<p>So, although the scope of $P \wedge \neg P$ is empty, that of $P \vee \neg P$ is <strong>not</strong> the full digraph.</p>
+<p>The logical operations $\vee$, $\wedge$ and $\neg$ do not turn the partially ordered set of all directed subgraphs of the Paris metro into  a <a href="https://en.wikipedia.org/wiki/Boolean_algebra">Boolean algebra</a> structure, but rather a <a href="https://en.wikipedia.org/wiki/Heyting_algebra">Heyting algebra</a>.</p>
+<p>Perhaps we were too drastic in removing all &#8220;problematic edges&#8221; from the scope of $\neg R$ (those with a source or target station belonging to the scope of $R$)?</p>
+<p>We might have kept all problematic edges, and added the missing source and/or target stations to get the scope of another negation of $R$: $\sim R$.</p>
+<p>Whereas the scope of $\neg \neg R$ always contains that of $R$, the scope of $\sim \sim R$ is contained in $R$&#8217;s scope.</p>
+<p>The scope of $R \vee \sim R$ will indeed be the whole graph, but now $R \wedge \sim R$ does no longer have to be empty. For example, $P \wedge \sim P$ has as its scope all stations on line 3bis.</p>
+<p>In general $R \wedge \sim R$ will be called the &#8216;boundary&#8217; $\partial(R)$ of $R$. It consists of all stations within $R$&#8217;s scope that are connected to the outside of $R$&#8217;s scope.</p>
+<p>The logical operations $\vee$, $\wedge$, $\neg$ and $\sim$ make the partially ordered set of all directed subgraphs of the Paris metro into a <a href="https://ncatlab.org/nlab/show/co-Heyting+algebra">bi-Heyting algebra</a>.</p>
+<p>There&#8217;s plenty more to say about all of this (and I may come back to it later). For the impatient, there&#8217;s the paper by Reyes and Zolfaghari: <a href="https://www.jstor.org/stable/30227088?seq=1#metadata_info_tab_contents">Bi-Heyting Algebras, Toposes and Modalities</a>.</p>
+<p>Right now, I&#8217;m more into exploring whether this setting can be used to revive an old project of mine: <a href="https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems">Heyting Smullyanesque problems</a> (btw. the algebra in that post is <strong>not</strong> Heyting, oops!).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

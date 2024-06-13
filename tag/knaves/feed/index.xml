@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Knaves &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/knaves/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Mar 2021 14:27:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Boolean and Heyting islands</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/boolean-and-heyting-islands/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/boolean-and-heyting-islands/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 26 Mar 2021 14:27:43 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[Boole]]></category>
+		<category><![CDATA[Carson]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[Knaves]]></category>
+		<category><![CDATA[Knights]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9455</guid>
+
+					<description><![CDATA[Raymond Smullyan&#8216;s logic puzzles frequently involve Knights (who always tell the truth) and Knaves (who always lie). In his book Logical Labyrinths (really a first&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s logic puzzles frequently involve Knights (who always tell the truth) and Knaves (who always lie).</p>
+<p>In his book <a href="http://logic-books.info/sites/default/files/logical_labirints.pdf">Logical Labyrinths</a> (really a first course in propositional logic) he introduced islands where the lying or truth-telling habits can vary from day to day—that is, an inhabitant might lie on some days and tell the truth on other days, but on any given day, he or she lies the entire day or tells the truth the entire day.</p>
+<p>An island is said to be <a href="https://en.wikipedia.org/wiki/Boolean_algebra">Boolean</a> if is satisfies the following conditions:</p>
+<ul>
+<li>$\mathbf{N}$ : For any inhabitant $A$ there is an inhabitant who tells the truth on all and only those days on which $A$ lies.</li>
+<li>$\mathbf{M}$ : For any inhabitants $A$ and $B$ there is an inhabitant $C$ who tells the truth on all and only those days on which $A$ and $B$ both tell the truth.</li>
+<li>$\mathbf{J}$ : For any inhabitants $A$ and $B$ there is an inhabitant $C$ who tells the truth on all and only those days on which either $A$ tells the truth or $B$ tells the truth (or both). (In other words, $C$ lies on those and only those days on which $A$ and $B$ both lie.)</li>
+</ul>
+<p>On any given day there are only Knights and Knaves on the island, but these two populations may vary from one day to the other. The subsets (of all days) for which there is an inhabitant who is a Knight then and a Knave on all other days form a Boolean algebra with operations $\wedge = \cap$ ($\mathbf{M}$eet), $\vee= \cup$ ($\mathbf{J}$oin) and $\neg=$ set-complement ($\mathbf{N}$egation).</p>
+<p>Here&#8217;s a nice puzzle from Smullyan&#8217;s book:</p>
+<p>Solomon’s Island also turned out to be quite interesting. When Craig arrived on it, he had the following conversation with the resident sociologist:<br />
+<verbatim><br />
+Craig : Is this island a Boolean island?<br />
+Sociologist : No.<br />
+Craig : Can you tell me something about the lying and truth-telling habits of the residents here?<br />
+Sociologist : For any inhabitants $A$ and $B$, there is an inhabitant $C$ who tells the truth on all and only those days on which either $A$ lies or $B$ lies (or both).<br />
+</verbatim></p>
+<p>Show that the sociologist didn&#8217;t <a href="https://en.wiktionary.org/wiki/go_native">go native</a>, and that his research is lousy.<br />
+(My wording, not Smullyan&#8217;s)</p>
+<p>Smullyan&#8217;s version: This interview puzzled inspector Craig; he felt that something was wrong. After a while he realized for sure that something was wrong, the sociologist was either lying or mistaken!</p>
+<p>Extending Smullyan&#8217;s idea, we can say that an island is <a href="https://en.wikipedia.org/wiki/Heyting_algebra#:~:text=In%20mathematics%2C%20a%20Heyting%20algebra,%E2%89%A4%20(a%20%E2%86%92%20b).">Heyting</a> if, in addition to $\mathbf{M}$ and $\mathbf{J}$ is satisfies the following rules</p>
+<ul>
+<li>$\mathbf{T}$ : at least one inhabitant tells the truth on all days.</li>
+<li>$\mathbf{F}$ : at least one inhabitant lies on all days.</li>
+<li>$\mathbf{I}$ : For any inhabitants $A$ and $B$ there is an inhabitant $C$ sharing Knight-days with $A$ only when $B$ tells the truth, and there are no inhabitants doing this while telling the truth on more days than $C$.</li>
+</ul>
+<p>Let&#8217;s give an example of an Heyting island which is not Boolean.</p>
+<p>On Three-island there are only three kinds of people: Knights, Knaves and Alternates, who can neither lie nor tell the truth two days in a row. All Alternates tell the truth on the same days.</p>
+<p>Here&#8217;s a riddle:</p>
+<p>You meet John, who is a Knight, James, an Alternate, and William, a Knave. You don&#8217;t know who is who. You can only ask one question containing at most four words, giving you a Yes or No answer, to just one of the three. The answer must tell you whether that person is James or not.</p>
+<p>You may like to watch Smullyan on the Carson show for a hint.</p>
+<p>Or, you might just watch it reminiscing long forgotten times, when talkshow-hosts still listened to their guests, and could think for themselves&#8230;</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/E27v83WWiGo?start=366" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/boolean-and-heyting-islands/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

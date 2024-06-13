@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Sibony &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/sibony/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 03 Mar 2023 14:54:50 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The shape of languages</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 03 Mar 2023 14:54:50 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[category theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[hier-Lafaye]]></category>
+		<category><![CDATA[languages]]></category>
+		<category><![CDATA[Lawvere]]></category>
+		<category><![CDATA[shape]]></category>
+		<category><![CDATA[Sibony]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10968</guid>
+
+					<description><![CDATA[In the topology of dreams we looked at Sibony&#8217;s idea to view dream-interpretations as sections in a fibered space. The &#8216;points&#8217; in the base-space and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">the topology of dreams</a> we looked at Sibony&#8217;s idea to view dream-interpretations as sections in a fibered space.</p>
+<p>The &#8216;points&#8217; in the base-space and fibers consisting of chunks of text, perhaps connected by links. The topology and shape of this fibered space is still shrouded in mystery.</p>
+<p>Let&#8217;s look at a simple approach to turn a large number of texts into a topos, and define a loose metric on it.</p>
+<p>There&#8217;s this paper <a href="https://arxiv.org/abs/2106.07890">An enriched category theory of language: from syntax to semantics</a> by Tai-Danae Bradley, John Terilla and Yiannis Vlassopoulos.</p>
+<p><a href="https://www.math3ma.com/about">Tai-Danae Bradley</a> is an excellent communicator of everything category related, so probably it is more fun to read her own blogposts on this paper:</p>
+<ul>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-1">Language, Statistics, &#038; Category Theory, Part 1</a></li>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-2">Language, Statistics, &#038; Category Theory, Part 2</a></li>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-3">Language, Statistics, &#038; Category Theory, Part 3</a></li>
+</ul>
+<p>or to watch her Categories for AI talk: &#8216;Category Theory Inspired by LLMs&#8217;:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/_LgWD3UTKfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Let&#8217;s start with a collection of notes. In the paper, they consider all possible texts written in some language, but it may be a set of webpages to train a language model, or a set of recollections by someone.</p>
+<p>Next, shred these notes into chunks of text, and point one of these to all the texts obtained by deleting some words at the start and/or end of it. For example, the note &#8216;a red rose&#8217; will point to &#8216;a red&#8217;, &#8216;red rose&#8217;, &#8216;a&#8217;, &#8216;red&#8217; and &#8216;rose&#8217; (but not to &#8216;a rose&#8217;).</p>
+<p>You may call this a category, to me it is just as a poset $(\mathcal{L},\leq)$. The maximal elements are the individual words, the minimal elements are the notes, or websites, we started from.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/languageposet.png" width=60%><br />
+</center></p>
+<p>A down-set $A$ of this poset $(\mathcal{L},\leq)$ is a subset of $\mathcal{L}$ closed under taking smaller elements, that is, if $a \in A$ and $b \leq a$, then $b \in A$.</p>
+<p>The intersection of two down-sets is again a down-set (or empty), and the union of down-sets is again a downset. That is, down-sets define a topology on our collection of text-snippets, or if you want, on language-fragments.</p>
+<p>For example, the open determined by the word &#8216;red&#8217; is the collection of all text-fragments containing this word.</p>
+<p>The corresponding presheaf topos $\widehat{\mathcal{L}}$ is then just the category of all (set-valued) presheaves on this topological space.<br />
+As an example, the Yoneda-presheaf $\mathcal{Y}(p)$ of a text-snippet $p$ is the contra-variant functor</p>
+<p>$$(\mathcal{L},\leq) \rightarrow \mathbf{Sets}$$</p>
+<p>sending any $q \leq p$ to the unique map $\ast$ from $q$ to $p$, and if $q \not\leq p$ then we map it to $\emptyset$. If $A$ is a down-set (an open of over topological space) then the sections of $\mathcal{Y}(p)$ over $A$ are $\{ \ast \}$ if for all $a \in A$ we have $a \leq p$, and $\emptyset$ otherwise.</p>
+<p>The presheaf $\mathcal{Y}(p)$ already contains some semantic information about the snippet $p$ as it gives all contexts in which $p$ appears.</p>
+<p>Perhaps interesting is that the &#8216;points&#8217; of the topos $\widehat{\mathcal{L}}$ are the notes we started from.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">Recall</a> that Connes and Gauthier-Lafaey want to construct a topos describing someone&#8217;s unconscious, and points of that topos should be the connection with that person&#8217;s consciousness.</p>
+<p>Suppose you want to unravel your unconscious. You start by writing down a large set of notes containing all relevant facts of your life. Then you construct from these notes the above collection of snippets and its corresponding pre-sheaf topos. Clearly, you wrote your notes consciously, but probably the exact phrasing of these notes, or recurrent themes in them, or some text-combinations are ruled by your unconscious.</p>
+<p>Ok, it&#8217;s not much, but perhaps it&#8217;s a germ of an potential approach&#8230;</p>
+<p><center><br />
+<img decoding="async" src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.spiritofchange.org/content/uploads/data-import/b9645d25/brain.jpg" width=60%><br />
+(<a href="https://www.spiritofchange.org/automatic-brain-the-magic-of-the-unconscious-mind/">Image credit</a>)<br />
+</center></p>
+<p>Now we come to the interesting part of the paper, the &#8216;enrichment&#8217; of this poset.</p>
+<p>Surely, some of these text-snippets will occur more frequently than others. For example, in your starting notes the snippet &#8216;red rose&#8217; may appear ten time more than the snippet &#8216;red dwarf&#8217;, but this is not visible in the poset-structure. So how can we bring in this extra information?</p>
+<p>If we have two text-snippets $p$ and $q$ and $q \leq p$, that is, $p$ is a connected sub-string of $q$. We can compute the conditional probability $\pi(q|p)$ which tells us how likely it is that if we spot an occurrence of $p$ in our starting notes, it is part of the larger sentence $q$. These numbers can be easily computed and from the rules of probability we get that for snippets $r \leq q \leq p$ we have that</p>
+<p>$$\pi(r|p) = \pi(r|q) \times \pi(q|r)$$</p>
+<p>so these numbers (all between $0$ and $1$) behave multiplicative along paths in the poset.</p>
+<p>Nice in theory, but it requires an awful lot of computation. From the paper:</p>
+<blockquote><p>
+The reader might think of these probabilities $\pi(q|p)$ as being most well defined when $q$ is a short extension of $p$. While one may be skeptical about assigning a probability distribution on the set of all possible texts, it’s reasonable to say there is a nonzero probability that cat food will follow I am going to the store to buy a can of and, practically speaking, that probability can be estimated.</p>
+<p>Indeed, existing <a href="https://en.wikipedia.org/wiki/Wikipedia:Large_language_models#:~:text=Large%20language%20models%20(LLMs)%20are,new%20or%20modify%20existing%20text.">LLMs</a> successfully learn these conditional probabilities $\pi(q|p)$ using standard machine learning tools trained on large corpora of texts, which may be viewed as providing a wealth of samples drawn from these conditional probability distributions.
+</p></blockquote>
+<p>It may be easier to have an estimate $\mu(q|p)$ of this conditional probability for immediate successors (that is, if $q$ is obtained from $p$ by adding one word at the beginning or end of it), and then extend this measure to all arrows in the poset by taking the maximum of products along paths. In this way we have for all $r \leq q \leq p$ that</p>
+<p>$$\mu(r|p) \geq \mu(r|q) \times \mu(q|p)$$</p>
+<p>The upshot is that this measure $\mu$ turns our poset (or category) $(\mathcal{L},\leq)$ into a category &#8216;enriched&#8217; over the unit interval $[ 0,1 ]$ (suitably made into a monoidal category).</p>
+<p>I&#8217;ll spare you the details, just want to flash out the corresponding notion of &#8216;enriched presheaves&#8217; which are the objects of the <em>semantic category</em> $\widehat{\mathcal{L}}^s$ in the paper, which is the enriched version of the presheaf category $\widehat{\mathcal{L}}$.</p>
+<p>An enriched presheaf is a <em>function</em> (not functor)</p>
+<p>$$F~:~\mathcal{L} \rightarrow [0,1]$$</p>
+<p>satisfying the condition that for all text-snippets $r,q \in \mathcal{L}$ we have that</p>
+<p>$$\mu(r|q) \leq [F(q),F(r)] = \begin{cases} \frac{F(r)}{F(q)}~\text{if $F(r) \leq F(q)$} \\ 1~\text{otherwise} \end{cases}$$</p>
+<p>Note that the enriched (or semantic) Yoneda presheaf $\mathcal{Y}^s(p)(q) = \mu(q|p)$ satisfies this condition, and now this data not only records the contexts in which $p$ appears, but also measures how likely it is for $p$ to appear in a certain context.</p>
+<p>Another cute application of the condition on the measure $\mu$ is that it allows us to define a &#8216;distance function&#8217; (satisfying the triangle inequality) on all text-snippets in $\mathcal{L}$ by</p>
+<p>$$d(q,p) = \begin{cases} -ln(\mu(q|p))~\text{if $q \leq p$} \\<br />
+ \infty~\text{otherwise} \end{cases}$$</p>
+<p>So, the higher $\mu(q|p)$ the closer $q$ lies to $p$, and now the snippet $p$ (example &#8216;red&#8217;) not only defines the open set in $\mathcal{L}$ of all texts containing $p$, but now we can structure the snippets in this open set with respect to this &#8216;distance&#8217;.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddistance.png" width=60%><br />
+</center></p>
+<p>In this way we can turn any language, or a collection of texts in a given language, into what <a href="https://en.wikipedia.org/wiki/William_Lawvere">Lawvere</a> called a &#8216;generalized metric space&#8217;.</p>
+<p>It looks as if we are progressing slowly in our, probably futile, attempt to understand Alain Connes&#8217; and Patrick Gauthier-Lafaye&#8217;s claim that &#8216;the unconscious is structured like a topos&#8217;.</p>
+<p>Even if we accept the fact that we can start from a collection of notes, there are a number of changes we need to make to the above approach:</p>
+<ul>
+<li>there will be contextual links between these notes</li>
+<li>we only want to retain the relevant snippets, not all of them</li>
+<li>between these &#8216;highlights&#8217; there may also be contextual links</li>
+<li>texts can be related without having to be concatenations</li>
+<li>we need to implement changes when new notes are added</li>
+<li>&#8230; (much more)</li>
+</ul>
+<p>Perhaps, we should try to work on a specific &#8216;case&#8217;, and explore all technical tools that may help us to make progress.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The topology of dreams</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 27 Feb 2023 14:41:39 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[dreams]]></category>
+		<category><![CDATA[fiber]]></category>
+		<category><![CDATA[Freud]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Lacan]]></category>
+		<category><![CDATA[sheaf]]></category>
+		<category><![CDATA[Sibony]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10937</guid>
+
+					<description><![CDATA[Last May, the meeting Lacan et Grothendieck, l’impossible rencontre? took place in Paris (see this post). Video&#8217;s of that meeting are now available online. Here&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Last May, the meeting <a href="https://sites.google.com/site/dugowsonrecherche/coordinations-colloques/LG">Lacan et Grothendieck, l’impossible rencontre?</a> took place in Paris (see <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan">this post</a>). Video&#8217;s of that meeting are now available online.</p>
+<p>Here&#8217;s the talk by Alain Connes and Patrick Gauthier-Lafaye on their book <a href="https://www.mollat.com/livres/2624527/alain-connes-a-l-ombre-de-grothendieck-et-de-lacan-un-topos-sur-l-inconscient#"> A l&#8217;ombre de Grothendieck et de Lacan : un topos sur l&#8217;inconscient ?</a> (see <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">this post</a> ).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/yiXPvueGbsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Let&#8217;s quickly recall their main ideas:</p>
+<p>1. The unconscious is structured as a topos (<a href="https://en.wikipedia.org/wiki/Jacques_Lacan">Jacques Lacan</a> argued it was structured as a language), because we need a framework allowing logic without the law of the excluded middle for Lacan&#8217;s <a href="https://nosubject.com/Sexual_relationship">formulas of sexuation</a> to make some sense at all.</p>
+<p>2. This topos may differs from person to person, so we do not all share the same rules of logic (as observed in real life).</p>
+<p>3. Consciousness is related to the points of the topos (they are not precise on this, neither in the talk, nor the book).</p>
+<p>4. All these individual toposes are ruled by a classifying topos, and they see Lacan&#8217;s work as the very first steps towards trying to describe the unconscious by a geometrical theory (though his formulas are not first order).</p>
+<p>Surely these are intriguing ideas, if only we would know how to construct the topos of someone&#8217;s unconscious.</p>
+<p>Let&#8217;s go looking for clues.</p>
+<p>At the same meeting, there was a talk by <a href="https://fr.wikipedia.org/wiki/Daniel_Sibony">Daniel Sibony</a>: &#8220;Mathématiques et inconscient&#8221;</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/xzYiReWsGVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Sibony started out as mathematician, then turned to psychiatry in the early 70ties. He was acquainted with both Grothendieck and Lacan, and even brought them together once, over lunch, some day in 1973. He makes a one-line appearance in Grothendieck&#8217;s <a href="https://fr.wikipedia.org/wiki/R%C3%A9coltes_et_Semailles">Récoltes et Semailles</a>, when G discribes his friends in <a href="https://fr.wikipedia.org/wiki/Survivre_et_vivre">&#8216;Survivre et Vivre&#8217;</a>:</p>
+<blockquote><p>
+&#8220;Daniel Sibony (who stayed away from this group, while pursuing its evolution out of the corner of a semi-disdainful, smirking eye)&#8221;
+</p></blockquote>
+<p>In his talk, Sibony said he had a similar idea, 50 years before Connes and Gauthier-Lafaye (3.04 into the clip):</p>
+<blockquote><p>
+&#8220;At the same time (early 70ties) I did a seminar in Vincennes, where I was a math professor, on the topology of dreams. At the time I didn&#8217;t have categories at my disposal, but I used fibered spaces instead. I showed how we could interpret dreams with a fibered space. This is consistent with the Freudian idea, except that Freud says we should take the list of words from the story of the dream and look for associations. For me, these associations were in the fibers, and these thoughts on fibers and sheaves have always followed me. And now, after 50 years I find this pretty book by Alain Connes and Patrick Gauthier-Lafaye on toposes, and see that my thoughts on dreams as sheaves and fibered spaces are but a special case of theirs.&#8221;
+</p></blockquote>
+<p>This looks interesting. After all, Freud called dream interpretation the &#8216;royal road&#8217; to the unconscious. &#8220;It is the &#8216;King&#8217;s highway&#8217; along which everyone can travel to discover the truth of unconscious processes for themselves.&#8221;</p>
+<p>Sibony clarifies his idea in the interview <a href="https://www.cairn.info/revue-le-journal-des-psychologues-2015-2-page-49.htm">L&#8217;utilisation des rêves en psychothérapie</a> with Maryse Siksou.</p>
+<blockquote><p>
+&#8220;The dream brings blocks of words, of “compacted” meanings, and we question, according to the good old method, each of these blocks, each of these points and which we associate around (we “unblock” around…), we let each point unfold according to the &#8220;fiber&#8221; which is its own.</p>
+<p>I introduced this notion of the dream as fibered space in an article in the review Scilicet in 1972, and in a seminar that I gave at the University of Vincennes in 1973 under the title &#8220;Topologie et interpretation des rêves&#8221;, to which Jacques Lacan and his close retinue attended throughout the year.</p>
+<p>The idea is that the dream is a sheaf, a bundle of fibers, each of which is associated with a &#8220;word&#8221; of the dream; interpretation makes the fibers appear, and one can pick an element from each, which is of course &#8220;displaced&#8221; in relation to the word that &#8220;produced&#8221; the fiber, and these elements are articulated with other elements taken in other fibers, to finally create a message which, once again, does not necessarily say the meaning of the dream because a dream has as many meanings as recipients to whom it is told, but which produces a strong statement, a relevant statement, which can restart the work.&#8221;
+</p></blockquote>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/dream.png" width=60% ><br />
+</center></p>
+<p>Key images in the dream (the &#8216;points&#8217; of the base-space) can stand for entirely different situations in someone&#8217;s life (the points in the &#8216;fiber&#8217; over an image). The therapist&#8217;s job is to find a suitable &#8216;section&#8217; in this &#8216;sheaf&#8217; to further the theraphy.</p>
+<p>It&#8217;s a bit like translating a sentence from one language to another. Every word (point of the base-space) can have several possible translations with subtle differences (the points in the fiber over the word). It&#8217;s the translator&#8217;s job to find the best &#8216;section&#8217; in this sheaf of possibilities.</p>
+<p>This translation-analogy is used by Daniel Sibony in his paper <a href="https://www.erudit.org/fr/revues/ttr/1998-v11-n2-ttr1489/037336ar.pdf">Traduire la passe</a>:</p>
+<blockquote><p>
+&#8220;It therefore operates just like the dream through articulated choices, from one fiber to another, in a bundle of speaking fibers; it articulates them by seeking the optimal section. In fact, the translation takes place between two fiber bundles, each in a language, but in the starting bundle the choice seems fixed by the initial text. However, more or less consciously, the translator &#8220;bursts&#8221; each word into a larger fiber, he therefore has a bundle of fibers where the given text seems after the fact a singular choice, which will produce another choice in the bundle of the other language.&#8221;
+</p></blockquote>
+<p>This paper also contains a pre-ChatGPT story (we&#8217;re in 1998), in which the language model fails because it has far too few alternatives in its fibers:</p>
+<blockquote><p>
+I felt it during a &#8220;humor festival&#8221; where I was approached by someone (who seemed to have some humor) and who was a robot. We had a brief conversation, very acceptable, beyond the conventional witticisms and knowing sighs he uttered from time to time to complain about the lack of atmosphere, repeating that after all we are not robots.</p>
+<p>I thought at first that it must be a walking walkie-talkie and that in fact I was talking to a guy who was remote control from his cabin. But the object was programmed; the unforeseen effects of meaning were all the more striking. To my question: &#8220;Who created you?&#8221; he answered with a strange word, a kind of technical god.</p>
+<p>I went on to ask him who he thought created me; his answer was immediate: “Oedipus”. (He knew, having questioned me, that I was a psychoanalyst.) The piquancy of his answer pleased me (without Oedipus, at least on a first level, no analyst). These bursts of meaning that we know in children, psychotics, to whom we attribute divinatory gifts — when they only exist, save their skin, questioning us about our being to defend theirs — , these random strokes of meaning shed light on the classic aftermaths where when a tile arrives, we hook it up to other tiles from the past, it ties up the pain by chaining the meaning.</p>
+<p>Anyway, the conversation continuing, the robot asked me to psychoanalyse him; I asked him what he was suffering from. His answer was immediate: “Oedipus”.</p>
+<p>Disappointing and enlightening: it shows that with each &#8220;word&#8221; of the interlocutor, the robot makes correspond a signifying constellation, a fiber of elements; choosing a word in each fiber, he then articulates the whole with obvious sequence constraints: a bit of readability and a certain phrasal push that leaves open the game of exchange. And now, in the fiber concerning the “psy” field, chance or constraint had fixed him on the same word, “Oedipus”, which, by repeating itself, closed the scene heavily.
+</p></blockquote>
+<p>Okay, we have a first potential approximation to Connes and Gauthier-Lafaye&#8217;s elusive topos, a sheaf of possible interpretation of base-words in a language.</p>
+<p>But, the base-space is still rather discrete, or at best linearly ordered. And also in the fibers, and among the sections, there&#8217;s not much of a topology at work.</p>
+<p>Perhaps, we should have a look at applications of topology and/or topos theory in <a href="https://en.wikipedia.org/wiki/Wikipedia:Large_language_models">large language models</a>?</p>
+<p>(tbc)</p>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Grothendieck meets Lacan</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 21 Apr 2022 09:34:42 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Dugowson]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Lacan]]></category>
+		<category><![CDATA[Sibony]]></category>
+		<category><![CDATA[topos theory]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10501</guid>
+
+					<description><![CDATA[Next month, a weekend-meeting is organised in Paris on Lacan et Grothendieck, l&#8217;impossible rencontre?. Photo from Remembering my father, Jacques Lacan Jacques Lacan was a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Next month, a weekend-meeting is organised in Paris on <a href="https://sites.google.com/site/dugowsonrecherche/accueil/LG">Lacan et Grothendieck, l&#8217;impossible rencontre?</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://s26162.pcdn.co/wp-content/uploads/2019/06/838_jacques-lacan3.jpg" width=100% \><br />
+Photo from <a href="https://lithub.com/remembering-my-father-jacques-lacan/">Remembering my father, Jacques Lacan</a><br />
+</center></p>
+<p><a href="https://en.wikipedia.org/wiki/Jacques_Lacan">Jacques Lacan</a> was a French psychoanalyst and psychiatrist who has been called &#8220;the most controversial psycho-analyst since Freud&#8221;.</p>
+<p>What&#8217;s the connection between Lacan and Grothendieck? Here&#8217;s <a href="https://sites.google.com/site/dugowsonrecherche/accueil">Stephane Dugowson</a>&#8216;s take (G-translated):</p>
+<p>&#8220;As we know, Lacan was passionate about certain mathematics, notably temporal logic and the theory of knots, where he thought he found material for advancing the theory of psychoanalysis. For his part, Grothendieck testifies in his non-strictly mathematical writings to his passion for the psyche, as shown by many pages of his <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendieck-stuff">Récoltes et Semailles</a> just published by Gallimard (in January 2022), or even, among the tens of <a href="https://lievenlebruyn.github.io/neverendingbooks/where-are-grothendiecks-writings-2">thousands of pages discovered at his death</a> and of which we know almost nothing, the 3700 pages of mathematics grouped under the title &#8216;Structure of the Psyche&#8217;.</p>
+<p>One might therefore be surprised that the two geniuses never met. In fact, a lunch did take place in the early 1970s organized by the mathematician and psychoanalyst <a href="https://fr.wikipedia.org/wiki/Daniel_Sibony">Daniel Sibony</a>. But a lunch does not necessarily make a meeting, and it seems that this one unfortunately did not happen.&#8221;</p>
+<p>As it is &#8216;bon ton&#8217; these days in Parisian circles to utter the word &#8216;topos&#8217;, several titles of the talks given at the meeting contain that word.</p>
+<p>There&#8217;s <a href="https://sites.google.com/site/dugowsonrecherche/accueil">Stephane Dugowson</a>&#8216;s talk on &#8220;Logique du topos borroméen et autres logiques à trois points&#8221;.</p>
+<p>Lacan used the <a href="https://en.wikipedia.org/wiki/Borromean_rings">Borromean link</a> to illustrate his concepts of the Real, Symbolic, and Imaginary (RSI). For more on this, please read chapter 6 of Lionel Baily&#8217;s excellent introduction to Lacan&#8217;s work <a href="https://ia800709.us.archive.org/23/items/lionel-bailly-lacan-a-beginners-guide/lionel-bailly-lacan-a-beginners-guide.pdf">Lacan, A Beginner’s Guide</a>.</p>
+<p>The Borromean topos is an example of Dugowson&#8217;s toposes associated to his &#8216;connectivity spaces&#8217;. From his paper <a href="https://hal.archives-ouvertes.fr/hal-01381304">Définition du topos d&#8217;un espace connectif</a> I gather that the objects in the Borromean topos consist of a triple of set-maps from a set $A$ (the global sections) to sets $A_x,A_y$ and $A_z$ (the restrictions to three disconnected &#8216;opens&#8217;).</p>
+<p>\[<br />
+\xymatrix{&#038; A \ar[rd] \ar[d] \ar[ld] &#038; \\ A_x &#038; A_y &#038; A_z} \]</p>
+<p>This seems to be a topos with a Boolean logic, but perhaps there are other 3-point connectivity spaces with a non-Boolean Heyting subobject classifier.</p>
+<p>There&#8217;s <a href="https://fr.wikipedia.org/wiki/Daniel_Sibony">Daniel Sibony</a>&#8216;s talk on &#8220;Mathématiques et inconscient&#8221;. Sibony is a French mathematician, turned philosopher and psychoanalyst, <a href="https://fr.wikipedia.org/wiki/Sujet_de_l%27inconscient">l&#8217;inconscient</a> is an important concept in Lacan&#8217;s work.</p>
+<p>Here&#8217;s a nice conversation between Daniel Sibony and Alain Connes on the notions of &#8216;time&#8217; and &#8216;truth&#8217;.</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/SWgASHHanLU?start=3449" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>In the second part (starting around 57.30) Connes brings up toposes whose underlying logic is much subtler than brute &#8216;true&#8217; or &#8216;false&#8217; statements. He discusses the presheaf topos on the additive monoid $\mathbb{N}_+$ which leads to statements which are &#8216;one step from the truth&#8217;, &#8216;two steps from the truth&#8217; and so on. It is also the example Connes used in his talk <a href="https://www.youtube.com/watch?v=LFV4FpfdwEw">Un topo sur les topos</a>.</p>
+<p>Alain Connes himself will also give a talk at the meeting, together with Patrick Gauthier-Lafaye, on &#8220;Un topos sur l&#8217;inconscient&#8221;.</p>
+<p>It appears that Connes and Gauthier-Lafaye have written a book on the subject, <a href="https://www.mollat.com/livres/2624527/alain-connes-a-l-ombre-de-grothendieck-et-de-lacan-un-topos-sur-l-inconscient#">A l&#8217;ombre de Grothendieck et de Lacan : un topos sur l&#8217;inconscient</a>. Here&#8217;s the summary (G-translated):</p>
+<p>&#8220;The authors present the relevance of the mathematical concept of topos, introduced by A. Grothendieck at the end of the 1950s, in the exploration of the structure of the unconscious.&#8221;</p>
+<p>The book will be released on May 11th.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

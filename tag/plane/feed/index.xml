@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>(plane) &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/plane/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 19 Sep 2023 15:01:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>A projective plain (plane) of order ten</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 19 Sep 2023 15:01:19 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[(plane)]]></category>
+		<category><![CDATA[Lam]]></category>
+		<category><![CDATA[Odlyzko]]></category>
+		<category><![CDATA[order]]></category>
+		<category><![CDATA[plain]]></category>
+		<category><![CDATA[projective]]></category>
+		<category><![CDATA[Sloan]]></category>
+		<category><![CDATA[ten]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11638</guid>
+
+					<description><![CDATA[A projective plane of order $n$ is a collection of $n^2+n+1$ lines and $n^2+n+1$ points satisfying: every line contains exactly $n+1$ points every point lies&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A projective plane of order $n$ is a collection of $n^2+n+1$ lines and $n^2+n+1$ points satisfying:</p>
+<ul>
+<li>every line contains exactly $n+1$ points</li>
+<li>every point lies on exactly $n+1$ lines</li>
+<li>any two distinct lines meet at exactly one point</li>
+<li>any two distinct points lie on exactly one line</li>
+</ul>
+<p>Clearly, if $q=p^k$ is a pure prime power, then the projective plane over $\mathbb{F}_q$, $\mathbb{P}^2(\mathbb{F}_q)$ (that is, all nonzero triples of elements from the finite field $\mathbb{F}_q$ up to simultaneous multiplication with a non-zero element from $\mathbb{F}_q$) is a projective plane of order $q$.</p>
+<p>The easiest example being $\mathbb{P}^2(\mathbb{F}_2)$ consisting of seven points and lines</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/planeorder2.png" width=100%></p>
+<p>But, there are others. A triangle is a projective plane of order $1$, which is not of the above form, unless you believe in the field with one element $\mathbb{F}_1$&#8230;</p>
+<p>And, apart from $\mathbb{P}^2(\mathbb{F}_{3^2})$, there are three other, non-isomorphic, projective planes of order $9$.</p>
+<p>It is clear then that for all $n < 10$, except perhaps $n=6$, a projective plane of order $n$ exists.
+
+</p>
+<p>In 1938, <a href="https://en.wikipedia.org/wiki/Raj_Chandra_Bose">Raj Chandra Bose</a> showed that there is <strong>no</strong> plane of order $6$ as there cannot be $5$ mutually orthogonal Latin squares of order $6$, when even the problem of two orthogonal squares of order $6$ (see <a href="http://www.ams.org/publicoutreach/feature-column/fcarc-latinii1">Euler&#8217;s problem of the $36$ officers</a>) is impossible.</p>
+<p>Yeah yeah Bob,  I know it has a <a href="https://www.quantamagazine.org/eulers-243-year-old-impossible-puzzle-gets-a-quantum-solution-20220110/">quantum solution</a>.</p>
+<p>Anyway by May 1977, when Lenstra&#8217;s Festschrift &#8216;Een pak met een korte broek&#8217; (<a href="https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts">a suit with shorts</a>) was published, the existence of a projective plane of order $10$ was still wide open.</p>
+<p>That&#8217;s when <a href="https://en.wikipedia.org/wiki/Andrew_Odlyzko">Andrew Odlyzko</a> (probably known best for his numerical work on the Riemann zeta function) and <a href="https://en.wikipedia.org/wiki/Neil_Sloane">Neil Sloane</a> (probably best known as the creator of the <a href="https://en.wikipedia.org/wiki/On-Line_Encyclopedia_of_Integer_Sequences">On-Line Encyclopedia of Integer Sequences</a>) joined forces to publish in Lenstra&#8217;s festschrift a note claiming (jokingly) the existence of a projective plane of order ten, as they were able to find a finite field of ten elements.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Andrew_Odlyzko.jpg/440px-Andrew_Odlyzko.jpg" width=57%>  <img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/N._J._A._Sloane.jpg/440px-N._J._A._Sloane.jpg" width=39.5%><br />
+</center></p>
+<p>Here&#8217;s a transcript:</p>
+<p><strong>A PROJECTIVE PLAIN OF ORDER TEN</strong></p>
+<p><strong>A. M. Odlyzko and N.J.A. Sloane</strong></p>
+<p>This note settles in the affirmative the notorious question of the existence of a projective plain of order ten.</p>
+<p>It is well-known that if a finite field $F$ is given containing $n$ elements, then the projective plain of order $n$ can be immediately constructed (see M. Hall Jr., Combinatorial Theory, Blaisdell, Waltham, Mass. 1967 and D.R. Hughes and F.C. Piper, Projective Planes, Springer-Verlag, N.Y., 1970).</p>
+<p>For example, the points of the plane are represented by the nonzero triples $(\alpha,\beta,\gamma)$ of elements of $F$, with the convention that $(\alpha,\beta,\gamma)$ and $(r\alpha, r\beta, r\gamma)$ represent the same point, for all nonzero $r \in F$.</p>
+<p>Furthermore this plain even has the desirable property that Desargues&#8217; theorem holds there.</p>
+<p>What makes this note possible is our recent discovery of a field containing exactly ten elements: we call it the <strong>digital field</strong>.</p>
+<p>We first show that this field exists, and then give a childishly simple construction which the reader can easily verify.</p>
+<p><strong>The Existence Proof</strong></p>
+<p>Since every real number can be written in the decimal system we conclude that</p>
+<p>\[<br />
+\mathbb{R} = GF(10^{\omega}) \]</p>
+<p>Now $\omega = 1.\omega$, so $1$ divides $\omega$. Therefore by a standard theorem from field theory (e.g. B. L. van der Waerden, Modern Algebra, Ungar, N.Y., 1953, 2nd edition, Volume 1, p. 117) $\mathbb{R}$ contains a subfield $GF(10)$. This completes the proof.</p>
+<p><strong>The Construction</strong></p>
+<p>The elements of this digital field are shown in Fig. 1.</p>
+<p>They are labelled $Left_1, Left_2, \dots, Left_5, Right_1, \dots, Right_5$ in the natural ordering (reading from left to right).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/digital1.png" width=40%> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/digital2.png" width=50%><br />
+</center></p>
+<p>Addition is performed by counting, again in the natural way. An example is shown in Fig. 2, and for further details the reader can consult any kindergarten student.</p>
+<p>In all digital systems the rules for multiplication can be written down immediately once addition has been defined; for example $2 \times n = n+n$. The reader will easily verify the rest of the details.</p>
+<p>Since this field plainly contains ten elements (see Fig. 1) we conclude that there <strong>is</strong> a projective plain of order ten.</p>
+<p>So far, the transcript.</p>
+<p>More seriously now, the non-existence of a projective plane of order ten was only established in 1988, heavily depending on computer-calculations. A nice account is given in</p>
+<p>C. M. H. Lam, <a href="https://maa.org/sites/default/files/pdf/upload_library/22/Ford/Lam305-318.pdf">&#8220;The Search for a Finite Projective Plane of Order 10&#8221;.</a></p>
+<p>Now that recent iPhones nearly have the computing powers of former Cray&#8217;s, one might hope for easier proofs.</p>
+<p>Fortunately, such a proof now exists, see <a href="https://arxiv.org/abs/2012.04715">A SAT-based Resolution of Lam&#8217;s Problem</a> by Curtis Bright, Kevin K. H. Cheung, Brett Stevens, Ilias Kotsireas, Vijay Ganesh</p>
+<p>David Roberts, aka the HigherGeometer, did a nice post on this <a href="https://thehighergeometer.wordpress.com/2023/08/09/no-order-10-projective-planes-via-sat/"><br />
+No order-10 projective planes via SAT</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

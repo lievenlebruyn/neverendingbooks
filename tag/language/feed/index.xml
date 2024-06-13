@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>language &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/language/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 10 Mar 2023 08:42:29 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The enriched vault</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 10 Mar 2023 08:42:29 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[Bradley]]></category>
+		<category><![CDATA[brat]]></category>
+		<category><![CDATA[enriched]]></category>
+		<category><![CDATA[enriched category]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[graph analysis]]></category>
+		<category><![CDATA[Jaccard]]></category>
+		<category><![CDATA[language]]></category>
+		<category><![CDATA[Lawvere]]></category>
+		<category><![CDATA[metric]]></category>
+		<category><![CDATA[Terilla]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[vault]]></category>
+		<category><![CDATA[Vlassopoulos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11059</guid>
+
+					<description><![CDATA[In the shape of languages we started from a collection of notes, made a poset of text-snippets from them, and turned this into an enriched&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">the shape of languages</a> we started from a collection of notes, made a poset of text-snippets from them, and turned this into an <a href="https://en.wikipedia.org/wiki/Enriched_category">enriched category</a> over the unit interval $[0,1]$, following the paper paper <a href="https://arxiv.org/abs/2106.07890">An enriched category theory of language: from syntax to semantics</a> by Tai-Danae Bradley, John Terilla and Yiannis Vlassopoulos.</p>
+<p>This allowed us to view the text-snippets as points in a Lawvere <a href="https://en.wikipedia.org/wiki/Metric_space#Pseudoquasimetrics">pseudoquasi metric space</a>, and to define a &#8216;topos&#8217; of enriched presheaves on it, including the Yoneda-presheaves containing semantic information of the snippets.</p>
+<p>In the <a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">previous post</a> we looked at &#8216;building a second brain&#8217; apps, such as <a href="https://logseq.com/">LogSeq</a> and <a href="https://obsidian.md/">Obsidian</a>, and hoped to use them to test the conjectured <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">&#8216;topos of the unconscious&#8217;</a>.</p>
+<p>In <a href="https://obsidian.md/">Obsidian</a>, a <em>vault</em> is a collection of notes (with their tags and other meta-data), together with all links between them.</p>
+<p>The vault of the language-poset will have one note for every text-snipped, and have a link from note $n$ to note $m$ if $m$ is a text-fragment in $n$.</p>
+<p>In their paper, Bradley, Terilla and Vlassopoulos use the enrichment structure where $\mu(n,m) \in [0,1]$ is the conditional probablity of the fragment $m$ to be extended to the larger text $n$.</p>
+<p>Most Obsidian vaults are a lot more complicated, possibly having oriented cycles in their internal link structure.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Gbrain1.png" width=100% ><br />
+</center></p>
+<p>Still, it is always possible to turn the notes of the vault into a category enriched over $[0,1]$, in multiple ways, depending on whether we want to focus on the internal link-structure or rather on the semantic similarity between notes, or any combination of these.</p>
+<p>Let $X$ be a set of searchable data from your vault. Elements of $X$ may be</p>
+<ul>
+<li>words contained in notes</li>
+<li>in- or out-going links between notes</li>
+<li>tags used</li>
+<li><a href="https://help.obsidian.md/Editing+and+formatting/Metadata">YAML-frontmatter</a></li>
+<li>&#8230;</li>
+</ul>
+<p>Assign a positive real number $r_x \geq 0$ to every $x \in X$. We see $r_x$ as the &#8216;relevance&#8217; we attach to the search term $x$. So, it is possible to emphasise certain key-words or tags, find certain links more important than others, and so on.</p>
+<p>For this relevance function $r : X \rightarrow \mathbb{R}_+$, we have a function defined on all subsets $Y$ of $X$</p>
+<p>$$f_r~:~\mathcal{P}(X) \rightarrow \mathbb{R}_+ \qquad Y \mapsto f_r(Y) = \sum_{x \in Y} r_x$$</p>
+<p>Take a note $n$ from the vault $V$ and let $X_n$ be the set of search terms from $X$ contained in $n$.</p>
+<p>We can then define a (generalised) <a href="https://en.wikipedia.org/wiki/Jaccard_index">Jaccard distance</a> for any pair of notes $n$ and $m$ in $V$:</p>
+<p>$$ d_r(n,m) = \begin{cases}<br />
+0~\text{if $f_r(X_n \cup X_m)=0$} \\ 1-\frac{f_r(X_n \cap X_m)}{f_r(X_n \cup X_m)}~\text{otherwise} \end{cases}$$</p>
+<p>This distance is symmetric, $d_r(n,n)=0$ for all notes $n$, and the crucial property is that it satisfies the triangle inequality, that is, for all triples of notes $l$, $m$ and $n$ we have</p>
+<p>$$d_r(l,n) \leq d_r(l,m)+d_r(m,n)$$</p>
+<p>For a proof in this generality see the paper <a href="https://arxiv.org/abs/1612.02696">A note on the triangle inequality for the Jaccard distance</a> by Sven Kosub.</p>
+<p>How does this help to make the vault $V$ into a category enriched over $[0,1]$?</p>
+<p>The poset $([0,1],\leq)$ is the category with objects all numbers $a \in [0,1]$, and a unique morphism $a \rightarrow b$ between two numbers iff $a \leq b$. This category has limits (infs) and colimits (sups), has a monoidal structure $a \otimes b = a \times b$ with unit object $1$, and an internal hom</p>
+<p>$$Hom_{[0,1]}(a,b) = (a,b) = \begin{cases} \frac{b}{a}~\text{if $b \leq a$} \\ 1~\text{otherwise} \end{cases}$$</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enrichedvault.png" width=100% ><br />
+</center></p>
+<p>We say that the vault is an <em>enriched category</em> over $[0,1]$ if for every pair of notes $n$ and $m$ we have a number $\mu(n,m) \in [0,1]$ satisfying for all notes $n$</p>
+<p>$$\mu(n,n)=1~\quad~\text{and}~\quad~\mu(m,l) \times \mu(n,m) \leq \mu(n,l)$$</p>
+<p>for all triples of notes $l,m$ and $n$.</p>
+<p>Starting from any relevance function $r : X \rightarrow \mathbb{R}_+$ we define for every pair $n$ and $m$ of notes the distance function $d_r(m,n)$ satisfying the triangle inequality. If we now take</p>
+<p>$$\mu_r(m,n) = e^{-d_r(m,n)}$$</p>
+<p>then the triangle inequality translates for every triple of notes $l,m$ and $n$ into</p>
+<p>$$\mu_r(m,l) \times \mu_r(n,m) \leq \mu_r(n,l)$$</p>
+<p>That is, every relevance function makes $V$ into a category enriched over $[0,1]$.</p>
+<p>Two simple relevance functions, and their corresponding distance and enrichment functions are available from Obsidian&#8217;s <a href="https://github.com/SkepticMystic/graph-analysis">Graph Analysis</a> community plugin.</p>
+<p>To get structural information on the link-structure take as $X$ the set of all incoming and outgoing links in your vault, with relevance function the constant function $1$.</p>
+<p>&#8216;Jaccard&#8217; in Graph Analysis computes for the current note $n$ the value of $1-d_r(n,m)$ for all notes $m$, so if this value is $a \in [0,1]$, then the corresponding enrichment value is $\mu_r(m,n)=e^{a-1}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/jaccardG.png" width=60% ><br />
+</center></p>
+<p>To get semantic information on the similarity between notes, let $X$ be the set of all words in all notes and take again as relevance function the constant function $1$.</p>
+<p>To access &#8216;BoW&#8217; (Bags of Words) in Graph Analysis, you must first install the (non-community) <a href="https://github.com/SkepticMystic/nlp">NLP</a> plugin which enables various types of natural language processing in the vault. The install is best done via the <a href="https://github.com/TfTHacker/obsidian42-brat">BRAT plugin</a> (perhaps I&#8217;ll do a couple of posts on Obsidian someday).</p>
+<p>If it gives for the current note $n$ the value $a$ for a note $m$, then again we can take as the enrichment structure $\mu_r(n,m)=e^{a-1}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BoWG.png" width=60%><br />
+</center></p>
+<p>Graph Analysis offers more functionality, and a good introduction is given in this clip:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Id4ynVqP3Uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Calculating the enrichment data for custom designed relevance functions takes a lot more work, but is doable. Perhaps I&#8217;ll return to this later.</p>
+<p>Mathematically, it is probably more interesting to start with a given enrichment structure $\mu$ on the vault $V$, describe the category of all enriched presheaves $\widehat{V_{\mu}}$ and find out what we can do with it.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">The super-vault of missing notes</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

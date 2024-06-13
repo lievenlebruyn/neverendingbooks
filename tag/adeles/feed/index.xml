@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Adeles &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/adeles/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 31 Jul 2014 13:29:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>$\mathbf{Ext}(\mathbb{Q},\mathbb{Z})$ and the solenoid $\widehat{\mathbb{Q}}$</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mathbfextmathbbqmathbbz-and-the-solenoid-widehatmathbbq/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mathbfextmathbbqmathbbz-and-the-solenoid-widehatmathbbq/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 31 Jul 2014 13:29:38 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Adeles]]></category>
+		<category><![CDATA[Morava]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5846</guid>
+
+					<description><![CDATA[Note to self: check Jack Morava&#8217;s arXiv notes on a more regular basis! It started with the G+-post below by +David Roberts: Suddenly I realised&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Note to self: check <a href="http://arxiv.org/find/math/1/au:+Morava_J/0/1/0/all/0/1">Jack Morava&#8217;s arXiv notes</a> on a more regular basis!</p>
+<p>It started with the G+-post below by <a href="https://plus.google.com/+DavidRoberts/posts">+David Roberts</a>:</p>
+<p><!-- Place this tag where you want the widget to render. --></p>
+<div class="g-post" data-href="https://plus.google.com/103404025783539237119/posts/GEig7Q4qSV6"></div>
+<p>Suddenly I realised I hadn&#8217;t checked out <a href="http://en.wikipedia.org/wiki/Jack_Morava">Morava</a>&#8216;s &#8220;short preprints with ambitious ideas, but no proofs&#8221; lately.</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/Morava.jpg" /></p>
+<p>A couple of years ago I had a brief email exchange with him on the Habiro topology on the roots of unity, and, in the process he send me a 3 page draft with ideas on how this could be relevant to higher dimensional topological QFT (If my memory doesn&#8217;t fail me, I can&#8217;t find anything remotely related in the arXiv-list).</p>
+<p>Being in a number-theory phase lately (yes, I also have to give next year, for the first time, in the second semester, a master-course on Number Theory) the paper <a href="http://arxiv.org/abs/1310.3488">A topological group of extensions of $\mathbb{Q}$ by $\mathbb{Z}$</a> caught my eyes.</p>
+<p>The extension group $Ext(\mathbb{Q},\mathbb{Z})$ classifies all short exact sequences of Abelian groups</p>
+<p>$0 \rightarrow \mathbb{Z} \rightarrow A \rightarrow \mathbb{Q} \rightarrow 0$</p>
+<p>upto equivalence, that is commuting sequences with end-maps being identities.</p>
+<p>The note by Boardman <a href="http://math.jhu.edu/~jmb/note/torext.pdf">Some Common Tor and Ext Groups</a> hs a subsection on this group/rational vector space, starting out like this:</p>
+<p>&#8220;This subsection is strictly optional. The group $Ext(\mathbb{Q}, \mathbb{Z})$ is much more difficult to determine. It is easy to see that it is a rational vector space, simply from the presence of $\mathbb{Q}$, but harder to see what its dimension is. This group is not as mysterious as is sometimes claimed, but is related to adèle groups familiar to number theorists.&#8221;</p>
+<p>Boardman goes on to show that this extension group can be identified with $\mathbb{A}^f_{\mathbb{Q}}/\mathbb{Q}$ where $\mathbb{A}^f_{\mathbb{Q}}$ is the ring of finite adèles, that is, sequence $(x_2,x_3,x_5,&#8230;)$ of $p$-adic numbers $x_p \in \widehat{\mathbb{Q}}_p$ with all but finitely many $x_p \in \widehat{\mathbb{Z}}_p$, and $\mathbb{Q}$ is the additive subgroup of constant sequences $(x,x,x,&#8230;)$.</p>
+<p>Usually though, one considers the full adèle ring $\mathbb{A}_{\mathbb{Q}} = \mathbb{R} \times \mathbb{A}^f_{\mathbb{Q}}$ and one might ask for a similar interpretation of the adèle class-group $\mathbb{A}_{\mathbb{Q}}/\mathbb{Q}$.</p>
+<p>This group is known to be isomorphic to the character group (or Pontrtrjagin dual) of the rational numbers, that is, to $\widehat{\mathbb{Q}}$ which are all group-morphisms $\mathbb{Q} \rightarrow S^1$ from the rational numbers to the unit circle. This group is sometimes called the &#8216;solenoid&#8217; $\Sigma$, it is connected but not path connected and the path-component of the identity $\Sigma_0 = \mathbb{R}$.</p>
+<p>A very nice and accessible account of the solenoid is given in the paper <a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/characterQ.pdf">The character group of $\mathbb{Q}$</a> by Keith Conrad.</p>
+<p>The point of Morava&#8217;s note is that he identifies the solenoid $\mathbb{A}_{\mathbb{Q}}/\mathbb{Q}$ with a larger group of &#8216;rigidified&#8217; extensions $Ext_{\mathbb{Z}_0}(\mathbb{Q},\mathbb{Z})$.That is, one starts with a usual extension in $Ext_{\mathbb{Z}}(\mathbb{Q},\mathbb{Z})$ as above, but in addition, one fixes a splitting of the induced sequence</p>
+<p>$0 \rightarrow \mathbb{Q} \otimes_{\mathbb{Z}} \mathbb{R} \rightarrow A \otimes_{\mathbb{Z}} \mathbb{R} \rightarrow \mathbb{Z} \otimes_{\mathbb{Z}} \mathbb{R} \rightarrow 0$</p>
+<p>Forgetting the splitting this gives the exact sequence</p>
+<p>$0 \rightarrow \mathbb{R} \rightarrow Ext_{\mathbb{Z}_0}(\mathbb{Q},\mathbb{Z}) \rightarrow Ext_{\mathbb{Z}}(\mathbb{Q},\mathbb{Z}) \rightarrow 0$</p>
+<p>which is isomorphic to the sequence involving the path-component of the solenoid!</p>
+<p>$0 \rightarrow \Sigma_0 = \mathbb{R} \rightarrow \Sigma=\widehat{Q} \rightarrow \mathbb{A}^f_{\mathbb{Q}}/\mathbb{Q} \rightarrow 0$</p>
+<p>Morava ends with: &#8220;I suppose the proposition above has a natural reformulation<br />
+in Arakelov geometry; but I don’t know anything about Arakelov geometry&#8221;&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mathbfextmathbbqmathbbz-and-the-solenoid-widehatmathbbq/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

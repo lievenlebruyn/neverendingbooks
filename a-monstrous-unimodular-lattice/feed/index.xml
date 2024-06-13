@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: a monstrous unimodular lattice	</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/</link>
+	<description></description>
+	<lastBuildDate>Fri, 30 Apr 2021 14:37:20 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>
+		By: Theo Johnson-Freyd		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/#comment-121</link>
+
+		<dc:creator><![CDATA[Theo Johnson-Freyd]]></dc:creator>
+		<pubDate>Fri, 30 Apr 2021 14:37:20 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9722#comment-121</guid>
+
+					<description><![CDATA[If I have a lattice defined away from some primes, to what extent can you talk about minimal-norm vectors? Maybe &quot;norm&quot; has to be in some p-adic sense? What I really should mean is to write down the full &quot;spectrum&quot; of the lattice. Then maybe the p-local spectrums glue to the integral spectrum?
+
+Clearly this obliquely-described 196884-dimensional unimodular lattice should be called the &quot;Carnahan lattice&quot;.]]></description>
+			<content:encoded><![CDATA[<p>If I have a lattice defined away from some primes, to what extent can you talk about minimal-norm vectors? Maybe &#8220;norm&#8221; has to be in some p-adic sense? What I really should mean is to write down the full &#8220;spectrum&#8221; of the lattice. Then maybe the p-local spectrums glue to the integral spectrum?</p>
+<p>Clearly this obliquely-described 196884-dimensional unimodular lattice should be called the &#8220;Carnahan lattice&#8221;.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tBC &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/category/tbc/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 02 Jun 2024 13:16:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Vialism versus Weilism</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 02 Jun 2024 13:16:25 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[21pilots]]></category>
+		<category><![CDATA[Andre Weil]]></category>
+		<category><![CDATA[Clancy]]></category>
+		<category><![CDATA[Dema]]></category>
+		<category><![CDATA[Felix Hausdorff]]></category>
+		<category><![CDATA[Georg Cantor]]></category>
+		<category><![CDATA[Simone Weil]]></category>
+		<category><![CDATA[Trench]]></category>
+		<category><![CDATA[Vialism]]></category>
+		<category><![CDATA[Weilism]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=12100</guid>
+
+					<description><![CDATA[Here&#8217;s how 21 pilots themselves define Vialism, the &#8216;religion&#8217; of Dema, in the &#8216;I am Clancy&#8217; video: Their authority comes from two things: a miraculous&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s how <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">21 pilots</a> themselves define Vialism, the &#8216;religion&#8217; of Dema, in the <a href="https://www.youtube.com/watch?v=ozlHHR_eSxc">&#8216;I am Clancy&#8217;</a> video:</p>
+<blockquote><p>
+Their authority comes from two things: a miraculous power and a hijacked religion. One feeds the other. A cycle. It&#8217;s called <strong>Vialism</strong>, and all you really need to know is that it teaches that self-destruction is the only way to paradise.
+</p></blockquote>
+<p><center><br />
+<img decoding="async" src="https://64.media.tumblr.com/3526a07ffc5e4cf634a2ca0cf800624c/6947d9505b59d292-c4/s2048x3072/a5df0a346718fbb87a4c3541fc6827f96658adca.jpg" width=100% ><br />
+</center></p>
+<p>Some people think that <a href="https://www.reddit.com/r/twentyonepilots/comments/1bq1jme/we_figured_out_vialism_its_weilism/">Vialism means Weilism</a>, after the Weil siblings Andre and Simone.</p>
+<p><a href="https://en.wikipedia.org/wiki/Simone_Weil">Simone Weil</a> (1909-1943) was a French philosopher and political activist. In her later years she became increasingly religious and inclined towards mysticism.</p>
+<p><a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a> (1906-1998) was a French mathematician and founding member of the <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki">Bourbaki group</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://s1.elespanol.com/2023/10/27/el-cultural/ciencia/entre_2_aguas/805179590_237138548_1024x576.jpg" width=100% ><br />
+</center></p>
+<p>They enter the lore via a picture on Tyler Joseph&#8217;s desktop in the <a href="https://www.youtube.com/watch?v=s4CLo1gpHyQ">Zane Lowe interview in 2018</a>, which is an overlay of two photographs of Bourbaki meetings in 1937 and 1938 featuring Andre and Simone.</p>
+<p>For Simone this is the crucial period in her conversion to Catholicism, for Andre these meetings led to a reformulation of the foundations of TOPology, and discussions on Bourbaki&#8217;s version of Set theory which would lead to Bourbaki&#8217;s first book, published in 1939.</p>
+<p>Both topics left a lasting impression on Simone Weil, as she wrote in 1942:</p>
+<blockquote><p>
+One field of mathematics that deals with all the diverse sorts of orders (set theory and general topology) is a treasure-house that holds an infinity of valuable expressions that show supernatural truth.
+</p></blockquote>
+<p>Now, Simone was fairly generous in her use of the adjective &#8216;supernatural&#8217;. Here&#8217;s another quote:</p>
+<blockquote><p>
+“The supernatural greatness of Christianity lies in the fact that it does not seek a supernatural remedy for suffering but a supernatural use for it.”
+</p></blockquote>
+<p><strong>This suggests that if Vialism really is Weilism, then the &#8216;miraculous power&#8217; might be mathematics (or at least the topics of set theory and topology), and the &#8216;hijacked religion&#8217; might be the (ab)use of mathematics in theology.</strong></p>
+<p>Roughly speaking, axiomatic <a href="https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory">Zermelo-Fraenkel set theory</a> gives a precise list of instructions to construct all sets out of two given sets, the empty set $\emptyset$ (the set containing nothing) being one of them.</p>
+<p>Emptiness, or the void, is important in Simone Weil&#8217;s theology, see for example her book <a href="https://www.amazon.com/Love-Void-Spiritual-Backpack-Classics/dp/0874868300">Love in the void: where God finds us</a></p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/71+l4Snw9WL._SL1500_.jpg" width=50% ><br />
+</center></p>
+<p>or consider this quote by her:</p>
+<blockquote><p>
+God stripped himself of his godhood and became empty, and fulfilled us with false godhood. Let us strip off this false godhood and become empty. This very act is the ultimate purpose to creating us.
+</p></blockquote>
+<p>which sounds a lot like Vialism, becoming an &#8217;empty vessel&#8217; for the Bishops (or God) to fill.</p>
+<p>Also in 21 pilots&#8217; iconography, the empty set $\emptyset$ is important.</p>
+<p><center><br />
+<img decoding="async" src="https://towardsthemorningson.wordpress.com/wp-content/uploads/2018/10/large.jpg" width=100% ><br />
+</center></p>
+<p>Btw. the symbol $\emptyset$ for the empty set was first used by Andre Weil who remembered the Norwegian &#8216;eu&#8217; from his studies of nordic languages preparing for his &#8216;Finnish fugue&#8217; in 1939.</p>
+<p>The other pre-given set challenges the Gods and theology. The <a href="https://en.wikipedia.org/wiki/Axiom_of_infinity">Axiom of Infinity</a> in the Zermelo-Fraenkel system asserts the existence of an infinite set, usually denoted $\omega$ and interpreted as the set of all finite numbers $\{ 0,1,2,3,4,5,6,\dots \}$.</p>
+<p>In other words, mathematical set theory contains an object which is <a href="https://en.wikipedia.org/wiki/Actual_infinity">actual infinity</a>!</p>
+<p>From the ancient Greeks on to early modern times, philosophers adhered to the motto &#8220;Infinitum actu non datur&#8221;, there is only a <em>potential infinity</em> (the idea of infinity) but <em>actual infinity</em> belongs to the realm of the Gods (infinite power, infinite wisdom,&#8230;).</p>
+<p>As if this was not heretic enough, in comes <a href="https://en.wikipedia.org/wiki/Georg_Cantor">Georg Cantor</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://lh3.googleusercontent.com/proxy/sysTL8PHIUfMuuRpjC_WsilSCPvbL5BupQau1-jevMtts2AElShoojvnYVMmJfiXvmjtxwDiWvRuNoRfbOAspQhtBtI" width=100%><br />
+</center></p>
+<p>Georg Cantor (1845-1918) might very well be another Clancy.</p>
+<p>He was a German mathematician, discoverer of the secrets of infinity, which brought him in conflict with several influential mathematicians in his time (notably Kronecker and Poincare), and inventor of <em>Cardinal</em> numbers (compare Bishops).</p>
+<p>He suffered from depression and mental illness, was often admitted to the Halle nerve clinic. In between he was a founding member of the DEutscher MAthematiker Vereinigung (DeMa) of which he was the first president (Nico), he suffered from malnourishment during WW1 (compare Simone Weil in WW2) and died of a heart attack in the sanatorium where he had spent the last year of his life.</p>
+<p>Cantor showed that the only distinguishing feature between two sets is their <em>Cardinality</em> (Bishopy power), roughly speaking the number of things they contain. He then showed that for every set of a certain Bishopy power, there&#8217;s one of even higher power!</p>
+<p>For example, there exists a set with higher cardinality than $\omega$, that is, a set we cannot enumerate. An example is described in these lines from <a href="https://en.wikipedia.org/wiki/Morph_(song)">Morph</a></p>
+<blockquote><p>
+Lights they blink to me, transmitting things to me<br />
+Ones and zeroes, ergo this symphony<br />
+Anybody listening? Ones and zeroes<br />
+Count to infinity, ones and zeroes
+</p></blockquote>
+<p>They&#8217;re talking about all possible infinite series of $0$&#8217;s and $1$&#8217;s and one quickly proves that these cannot be enumerated using <a href="https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument">Cantor&#8217;s diagonal argument</a>.</p>
+<p>When applied to theology this says that Gods cannot have any actual infinity power, for there&#8217;s always an entity posessing higher powers.</p>
+<p>That&#8217;s why Cantor resolved to God being <a href="https://en.wikipedia.org/wiki/Absolute_infinite">&#8216;absolute infinity&#8217;</a>, the Bishopy power of the <em>class</em> of all cardinal numbers (emphasis only important for mathematicians).</p>
+<p>Much more on the interplay between Cantor&#8217;s mathematical results on infinities and his theological writings can be found in the paper <a href="https://dev.kath.ruhr-uni-bochum.de/mam/ph-th/downloads/tapp_a24_2014_absolute_friedman_2auf1.pdf">Absolute Infinity:  A Bridge Between Mathematics and Theology?</a> by Christian Tapp.</p>
+<p>The compassionate God of Christianity has presented theologians for centuries with the following paradox: how can a God having infinite power suffer because humans suffer?</p>
+<p>In comes TOPology and one of its founding fathers <a href="https://en.wikipedia.org/wiki/Felix_Hausdorff">Felix Hausdorff</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://ynet-pic1.yit.co.il/picserver5/crop_images/2024/02/09/r1skmiQoT/r1skmiQoT_0_0_580_290_0_large.jpg" width=100% ><br />
+</center></p>
+<p>Felix Hausdorff (1868-1942) might very well be another Clancy.</p>
+<p>He was a German mathematician who made substantial contributions to topology as well as set theory. For years he felt opposition because he was Jewish.</p>
+<p>After the Kristallnacht in 1938 he tried to escape Nazi-Germany (DeMa) but couldn&#8217;t obtain a position in the US. On 26 January 1942, Felix Hausdorff, along with his wife and his sister-in-law, died by suicide, rather than comply with German orders to move to the Endenich camp.</p>
+<p>He was also a philosopher and writer under the pseudonym Paul Mongré. In 1900 he wrote a book of poems, Ecstasy, of which the first poem is <a href="https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1711&#038;context=jhm">“Den Ungeflügelten” (To The Wingless Ones)</a>. Am I the only one to think immediately of <a href="https://genius.com/Twenty-one-pilots-isle-of-flightless-birds-lyrics">The isle of the flightless birds</a>?</p>
+<p>Anyway, as to how the <a href="https://en.wikipedia.org/wiki/Topology">topology</a> of Weilism solves the contradiction of the suffering God of Christianity is explained in the paper <a href="https://jpars.org/online/wp-content/uploads/2012/04/RSJ-1-OCHIAI.pdf">The Theology of Simone Weil and the Topology of Andre Weil</a> by Ochiai Hitoshi, professor of &#8216;Mathematical Theology&#8217; at Doshisha University, Kyoto.</p>
+<p>He has a follow-up post <a href="https://apeironcentre.org/incarnation-and-reincarnation/">Incarnation and Reincarnation</a> on the <a href="https://apeironcentre.org/">Apeiron Centre</a> (where he also has a post on the <a href="https://apeironcentre.org/theology-of-georg-cantor/">Theology of Georg Cantor</a>). Here&#8217;s a summary of his thesis:</p>
+<blockquote><p>
+God is Open<br />
+Incarnation is Compactified God<br />
+The soul is Open<br />
+Reincarnation is Compactified Soul<br />
+God and the Soul are Homeomorphic<br />
+God is without Boundaries<br />
+The soul is with Boundaries<br />
+God and the Soul are not Diffeomorphic
+</p></blockquote>
+<p>This succinctly sums up Weilism for you.</p>
+<p>I now understand why so many people in the <a href="https://www.reddit.com/r/twentyonepilots/">21 pilots sub-Reddit</a> thought at the beginning of the Trench-era that Bourbaki was a group of mathematicians trying to prove the existence of God.</p>
+<p>In the paper <a href="https://jpars.org/online/wp-content/uploads/2012/04/RSJ-1-OCHIAI.pdf">The Theology of Simone Weil and the Topology of Andre Weil</a> the next quote is falsely attributed to Bourbaki</p>
+<blockquote><p>
+God is the <a href="https://en.wikipedia.org/wiki/Alexandroff_extension">Alexandroff compactification</a> of the universe.
+</p></blockquote>
+<p>If you are interested in the history behind this quote you may read my post <a href="https://lievenlebruyn.github.io/neverendingbooks/according-to-groth-iv-22">According to Groth. IV.22</a>.</p>
+<p>If you want an alternative explanation of Vialism, you may read my post <a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where&#8217;s Bourbaki&#8217;s Dema?</a>.</p>
+<p>Btw. I forgot to mention in that post the &#8220;Annual Assemblage of the Glorified&#8221;. Since 1918 this takes place November 11th, on <a href="https://en.wikipedia.org/wiki/Armistice_Day">Armistice Day</a>.</p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil">What about Simone Weil?</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What about  Simone Weil?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 13 May 2024 09:22:22 +0000</pubDate>
+				<category><![CDATA[art]]></category>
+		<category><![CDATA[books]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[Andre Weil]]></category>
+		<category><![CDATA[Dema]]></category>
+		<category><![CDATA[Simone Weil]]></category>
+		<category><![CDATA[tØp]]></category>
+		<category><![CDATA[Trench]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11966</guid>
+
+					<description><![CDATA[In recent weeks, a theory that Simone Weil is the key to Dema-lore is getting a lot of traction. Image credit In two words, this&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In recent weeks, a theory that <a href="https://en.wikipedia.org/wiki/Simone_Weil">Simone Weil</a> is the key to Dema-lore is getting a lot of traction.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/weilism1.jpeg" width=80%><br />
+<a href="https://twitter.com/nickcidental/status/1788539204223246784">Image credit</a><br />
+</center></p>
+<p>In two words, this theory is based on the assumption that Vialism=Weilism and on textual similarities between the writings of Simone Weil and the lyrics of <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">21 pilots</a> and the <a href="http://dmaorg.info/found/15398642_14/clancy.html">Clancy letters</a>.</p>
+<p>The <a href="https://www.youtube.com/@KEONSEAST">Keons YouTube channel</a> explains this in great detail.</p>
+<p>Until now, I thought that <a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a> was crucial to the story, and that Simone&#8217;s role was merely to have a boy/girl archetypical situation.</p>
+<p>There&#8217;s this iconic photograph of them from 1922, taken weeks before Andre entered the <a href="https://fr.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_(Paris)">ENS</a>:</p>
+<p><center><br />
+<img decoding="async" src="https://pbs.twimg.com/media/DU4BfakW4AE-JdO.jpg" width=80%><br />
+</center></p>
+<p>The same setting, boy on the left, girl to the right was used in the <a href="https://www.youtube.com/watch?v=hMAPyGoqQVw&#038;t=234s">Nico and the niners-video</a>, when they are young and in Dema</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/SimoneAndreWeil.jpg" width=80%><br />
+</center></p>
+<p>and when they are a quite a bit older, and in Trench, at the end of the <a href="https://www.youtube.com/watch?v=eNcvblM8-_o&#038;t=389s">Outside-video</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/SimoneAndreWeil2.jpg" width=80%><br />
+</center></p>
+<p>These scenes may support my theory that Dema was the ENS (both Andre and Simone studied there) as is explained in the post <a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where&#8217;s Bourbaki&#8217;s Dema?</a>, and when they were both a bit older, and at the Bourbaki meetings in Chancay and Dieulefit, that they were banditos operating in Trench, as explained in the post <a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos</a>.</p>
+<p>There are two excellent books to read if you want to know more about the complex relationship between Andre and Simone Weil.</p>
+<p>The first one is <a href="https://www.amazon.com/Weil-Conjectures-Math-Pursuit/dp/0374287619">The Weil Conjectures: On Math and the Pursuit of the Unknown</a> by Karen Olsson.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/910oHRmppvL._SL1500_.jpg" width=60%><br />
+</center></p>
+<p>From it we get the impression that, at times, Simone felt intellectually inferior to Andre, who was three years older. She often asked him to explain what he was working on. Famous is his letter to her written in 1940 when he was jailed. Here&#8217;s a nice Quanta-article on it, <a href="https://www.quantamagazine.org/a-rosetta-stone-for-mathematics-20240506/">A Rosetta stone for mathematics</a>. This was also the reason why she wanted to attend some Bourbaki-meetings in order to get a better understanding of what mathematics was all about and how mathematicians think.</p>
+<p>She was then very critical about mathematics because all that thinking about illusory objects had no immediate effect in real life. Well Simone, that&#8217;s the difference between mathematics and philosophy.</p>
+<p>The second one is <a href="https://www.amazon.com/Chez-Weil-Andr%C3%A9-Simone-Sylvie/dp/2283023696/">Chez les Weil, Andre et Simone</a> written by Andre&#8217;s eldest daughter Sylvie.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/71zj2NZ2CaS._SL1000_.jpg" width=60%><br />
+</center></p>
+<p>From it we get another impression, namely that Andre may have been burdened by the fact that, after Simone&#8217;s death, his parents life centered exclusively around the preservation of her legacy, ignorant of the fact that their remaining child was one of the best mathematicians of his generation.</p>
+<p>Poor Andre, on their family apartment in the Rue Auguste-Comte (which Andre used until late in his life when he was in Paris) is now this commemorative plaque</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/AugusteComte.jpg" width=100%><br />
+</center></p>
+<p>Well Andre, that&#8217;s the difference between a mathematician and a philosopher.</p>
+<p>Let&#8217;s return to the role Simone Weil may play in Dema-lore. For starters, how did she appear in it?</p>
+<p>She makes her appearance through a picture on Tyler&#8217;s desktop at the start of the Trench-era. This picture is a combination of two photographs from <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki">Bourbaki</a> meetings, and Simone Weil features in both of them.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/superimposed.jpg" width=100%><br />
+</center></p>
+<p>The photograph on the left is from the september 1937 meeting in <a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-escorial">Chancay</a>, that on the right is from the september 1938 meeting in <a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-the-miracle-of-silence">Dieulefit</a>.</p>
+<p>These are exactly the years crucial in Simone&#8217;s conversion to catholicism.</p>
+<p>In the spring of 1937 she experienced a religious ecstasy in the <a href="https://en.wikipedia.org/wiki/Papal_Basilica_of_Saint_Mary_of_the_Angels_in_Assisi">Basilica of Santa Maria degli Angeli in Assisi</a>.</p>
+<p>Over Easter is 1938, Simone and her mother attended Holy Week services at the <a href="https://en.wikipedia.org/wiki/Solesmes_Abbey">Solesmes Abbey</a> where she had a mystic experience in which &#8220;Christ himself came down and took possession of me&#8221;.</p>
+<p>One might ask whether there&#8217;s any connection between these religious experiences and her desire to attend these upcoming Bourbaki meetings. So, what was discussed during these conferences?</p>
+<p>Mathematically, the 1938 meeting was not very exciting. Hardly any work was done, as they were preoccupied with all news of the Nazis invading Czechoslovakia. During the conference, Simone and Alain even escaped to Switzerland because they were convinced war was imminent. After a couple of days the <a href="https://en.wikipedia.org/wiki/Munich_Agreement">Munich Treaty</a> was signed, and Alain returned to Dieulefit, whereas Simone stayed in Switzerland, before returning to Paris.</p>
+<p>On the other hand, the Chancay meeting was revolutionary as the foundations of <a href="https://en.wikipedia.org/wiki/Topology">topology</a> were rewritten there with the introduction of the <a href="https://en.wikipedia.org/wiki/Filter_(mathematics)#:~:text=Any%20point%20x%20in%20the,such%20that%20N%20%E2%8A%86%20S.">filter</a> concept, dreamed up on the spot by Henri Cartan (the guy in the deckchair), while the others were taking a walk.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/chancay1937photo2.jpg" width=100%><br />
+</center></p>
+<p>Simone was pretty impressed by the power of TOPology. In 1942 she wrote in her &#8216;Cahiers&#8217;:</p>
+<blockquote><p>
+One field of mathematics that deals with all the diverse sorts of orders (set theory and general topology) is a treasure-house that holds an infinity of valuable expressions that show supernatural truth.
+</p></blockquote>
+<p>Interestingly, she mentions the two math-subjects closest to the pilots&#8217; universe: <a href="https://en.wikipedia.org/wiki/Set_theory">set theory</a> studies all objects you can make starting from the empty set $\emptyset$, and <a href="https://en.wikipedia.org/wiki/Topology">topology</a> studies the properties of objects and figures that remain unchanged even when you<br />
+<a href="https://en.wikipedia.org/wiki/Morph_(song)">morph</a> them.</p>
+<p>We&#8217;ll have to say more about this in a next post when we look into the Vialism=Weilism assumption.</p>
+<p>Another appearance of Simone Weil in the lore might be through the cropped image you can find on the dmaorg-website.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Se_elf.jpg" width=55%> <img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Weil.jpg" width=40%><br />
+</center></p>
+<p>The consensus opinion is that this is a picture of the young Clancy, next to one of the Bishops (Keons? Andre? Nico?).</p>
+<p>In fact, the &#8216;little boy&#8217; is actually a girl and her identity is unresolved as far as I know. But, given the date of the photograph (1956) the girl might be (mistakingly) taken for Andre&#8217;s daughter Sylvie.</p>
+<p>Now, almost everyone, in particular her grandparents and Andre himself, found that Sylvie was a spitting image (almost a &#8216;copy&#8217;) of Simone Weil.</p>
+<p><center><br />
+<img decoding="async" src="https://www.clarion-journal.com/.a/6a00d834890c3553ef014e86da0ea4970d-600wi" width=80% ><br />
+</center></p>
+<p>There are further indications that Simone Weil might be a Clancy.</p>
+<p><strong>Morph</strong></p>
+<p>In <a href="https://en.wikipedia.org/wiki/Morph_(song)">Morph</a> there are these lines</p>
+<blockquote><p>
+He&#8217;ll always try to stop me, that Nicolas Bourbaki<br />
+He&#8217;s got no friends close, but those who know him most know<br />
+He goes by Nico<br />
+He told me I&#8217;m a copy<br />
+When I&#8217;d hear him mock me, that&#8217;s almost stopped me
+</p></blockquote>
+<p>During the meetings she attended, the other Bourbakis mocked Simone that she was a copy of het brother. From Karen Olsson&#8217;s book mentioned above:</p>
+<blockquote><p>
+To the others it&#8217;s startling to see his same glasses, his same face attached to this body clothed in an. unstylish dress and an off-kilter brown beret, carrying on in that odd monotone as she argues, via the chateau&#8217;s telephone, with the editors who publish her political articles.
+</p></blockquote>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/andresimone.jpg" width=80% ><br />
+</center></p>
+<p>Early in her career, Simone Weil was far from an original thinker. For her end-essay on Descartes she got the lowest score possible in order to pass from the ENS. Even Andre urged her to have a work-plan to develop her own ideas, rather than copying ideas from philosophers from the past.</p>
+<p><strong>Jumpsuit</strong></p>
+<p>Whereas Andre tried everything to avoid the draft, Simone was more of a warrior. In 1935 she volunteered to fight on the Republican side in the Spanish civil war, until a kitchen accident forced her to return to France.</p>
+<p><center><br />
+<img decoding="async" src="https://images.jacobinmag.com/wp-content/uploads/2023/01/02112432/GettyImages-89869077-e1672673110685.jpg" width=80% ><br />
+</center></p>
+<p>Later in 1943 she left New-York to return to England and enlist in the French troupes of General de Gaulle, hoping to be <strong>parachuted</strong> behind enemy lines. Given her physical state, the military command decided against it. Upset by this refusal, she felt she had no other option than to deny herself food in empathy with the starving French.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/simonelaissez.jpg" width=80% ><br />
+</center></p>
+<p>She didn&#8217;t succeed in crossing Paladin Strait, sorry the Channel.</p>
+<p><strong>Overcompensate</strong></p>
+<p>Can this be Simone Weil?</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/overcompensateSimone.jpg" width=80% ><br />
+</center></p>
+<p>.</p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Clancy and Nancago</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 03 May 2024 08:56:53 +0000</pubDate>
+				<category><![CDATA[art]]></category>
+		<category><![CDATA[france]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[21pilots]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Clancy]]></category>
+		<category><![CDATA[Dema]]></category>
+		<category><![CDATA[Trench]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11924</guid>
+
+					<description><![CDATA[Later this month, 21 pilots&#8216; next album, &#8220;Clancy&#8221;, will be released, promising to give definite answers to all remaining open questions in Dema-lore. By then&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Later this month, <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">21 pilots</a>&#8216; next album, <a href="https://en.wikipedia.org/wiki/Clancy_(album)">&#8220;Clancy&#8221;</a>, will be released, promising to give definite answers to all remaining open questions in <a href="https://www.reddit.com/r/twentyonepilots/comments/1cfi97t/official_twenty_one_pilots_clancy_lore_megathread/">Dema-lore</a>.</p>
+<p>By then we will have been told why <a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a> and the <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki">Bourbaki group</a> show up in the Trench/Dema tale.</p>
+<p>This leaves me a couple of weeks to pursue this series of posts (see links below) in which I try to find the best match possible between the factual history of the Bourbaki group and elements from the Dema-storyline.</p>
+<p>Two well-known Bourbaki-photographs seem important to the pilots. The first one is from the september 1938 Dieulefit/Beauvallon Bourbaki congress:</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bourbaki_congress1938.png/440px-Bourbaki_congress1938.png" width=70%><br />
+</center></p>
+<p>At the time, Bourbaki still had to publish their first text, they were rebelling against the powers that be in French mathematics, and were just kicked out of the Julia seminar.</p>
+<p>In clikkies parlance: at that moment the Bourbakistas are Banditos, operating in Trench.</p>
+<p>The second photograph, below on the left, is part of a famous picture of Andre Weil, supposedly taken in the summer of 1956.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Se_elf.jpg" width=55%> <img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Weil.jpg" width=40%><br />
+</center></p>
+<p>At that time, Bourbaki was at its peak of influence over French mathematics, suffocating enthusiastic math-students with their dry doctrinal courses, and forcing other math-subjects (group theory, logic, applied math, etc.) to a virtual standstill.</p>
+<p>In clique-speech: at that moment the Bourbakistas are Bishops, ruling Dema.</p>
+<p>Let me recall the story of one word, associated to the Bourbaki=Bishops era which lasted roughly twenty years, from the early 50ties till Bourbaki&#8217;s &#8216;death&#8217; in 1968 : <strong>Nancago</strong>.</p>
+<p>From the 50ties, Nicolas Bourbaki signed the prefaces of &#8216;his&#8217; books from the University of Nancago.</p>
+<p>Between 1951 and 1975, Weil and Diedonne directed a series of texts, published by Hermann, under the heading &#8220;Publications de l’Institut mathematique de l’Universite de Nancago&#8221;.</p>
+<p>Bourbaki&#8217;s death announcement mentioned that he &#8220;piously passed away on November 11, 1968  at his home in Nancago&#8221;.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/nancago1.jpg" width=100% ><br />
+</center></p>
+<p>Nancago was the name of a villa, owned by Dieudonne, near Nice. Etc. etc.</p>
+<p>But then, what is <strong>Nancago</strong>?</p>
+<p>Well, NANCAGO is a tale of two cities: NANcy and ChiCAGO.</p>
+<p>The French city of <a href="https://en.wikipedia.org/wiki/Nancy,_France">Nancy</a> because from the very first Bourbaki meetings, the secretarial headquarters of Bourbaki, led by Jean Delsarte, was housed in the mathematical Institute in Nancy.</p>
+<p><center><br />
+<img decoding="async" src="https://cdn-s-www.estrepublicain.fr/images/0947EBD8-54B8-4ED4-A804-8B1EF3DCC251/NW_detail/l-institut-de-mathematiques-et-l-institut-de-physique-de-l-universite-de-nancy-au-temps-de-delsarte-1595324341.jpg" width=100%><br />
+</center></p>
+<p>Chicago because that&#8217;s where Andre Weil was based after WW2 until 1958 when he moved to Princeton.</p>
+<p>Much more on the history of Nancago can be found in the newspaper article by Bourbaki scholar par excellance Liliane Beaulieu: <a href="https://www.estrepublicain.fr/education/2011/06/15/quand-nancy-s-appelait-nancago">Quand Nancy s&#8217;appelait Nancago</a> (When Nancy was called Nancago).</p>
+<p>Right, but then, if Nancago is the codeword of the Bourbaki=Bishops era, what would be the corresponding codeword for the Bourbaki=Banditos era?</p>
+<p>As mentioned above, from 1935 till 1968 Bourbaki&#8217;s headquarters was based in Nancy, so even in 1938  Nancy should be one of the two cities mentioned. But what is the other one?</p>
+<p>In 1938, Bourbaki&#8217;s founding members were scattered over several places, <a href="https://en.wikipedia.org/wiki/Jean_Delsarte">Jean Delsarte</a> and <a href="https://fr.wikipedia.org/wiki/Jean_Dieudonn%C3%A9">Jean Dieudonne</a> in Nancy, <a href="https://en.wikipedia.org/wiki/Szolem_Mandelbrojt">Szolem Mandelbrojt</a> and <a href="https://en.wikipedia.org/wiki/Ren%C3%A9_de_Possel">Rene de Possel</a> in <a href="https://en.wikipedia.org/wiki/Clermont-Ferrand">Clermont-Ferrand</a>, and Andre Weil and <a href="https://en.wikipedia.org/wiki/Henri_Cartan">Henri Cartan</a> in <a href="https://en.wikipedia.org/wiki/Strasbourg">Strasbourg</a>. <a href="https://en.wikipedia.org/wiki/Claude_Chevalley">Claude Chevalley</a> was on a research stay in Princeton.</p>
+<p>Remember the Bourbaki photograph at the Beauvallon meeting above? Well, it was taken in september 1938 when the <a href="https://en.wikipedia.org/wiki/Munich_Agreement">Munich Agreement</a> was reached.</p>
+<p>Why is this relevent? Well, because Strasbourg was too close to the German border, right after the Munich agreement the Strasbourg Institute was ordered to withdraw to the University of Clermont-Ferrand.</p>
+<p>Clermont-Ferrand lies a bit south of Vichy and remained in WW2 in the &#8216;free zone&#8217; of France, whereas Strasbourg was immediately annexed by Germany.</p>
+<p><center><br />
+<img decoding="async" src="https://archives-bourbaki.ahp-numerique.fr/files/original/france-occupee-1940-1942.jpg" width=80%><br />
+</center></p>
+<p>For more on the importance of Clermont-Ferrand for Bourbaki during 1940-1942 see the article by Christophe Eckes and Gatien Ricotier <a href="https://archives-bourbaki.ahp-numerique.fr/congres-clermont-ferrand-1940-1941-1942">Les congrès de Clermont-Ferrand de 1940, 1941 et 1942</a>.</p>
+<p>That is, all Bourbaki members where then either affiliated to Nancy or to Clermont-Ferrand.</p>
+<p>A catchy codeword for the Bourbaki=Banditos era, similar to Nancago as the tale of two cities, might then be:</p>
+<p><strong>CL</strong>ermont-Ferrand + n<strong>ANCY</strong> = <strong>CLANCY</strong>.</p>
+<p>[For clikkies: rest assured, I&#8217;m well aware of the <a href="https://www.reddit.com/r/twentyonepilots/comments/1ce78im/did_everyone_forget_the_origin_of_the_name_clancy/">consensus opinion on the origins of Clancy&#8217;s name</a>. But in this series of posts I&#8217;m not going for the consensus or even intended meanings, but rather for a joyful interplay between historical facts about the Bourbaki group and elements from Dema-lore.]</p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bourbaki and Dema, two remarks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 26 Feb 2024 15:08:04 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Dema]]></category>
+		<category><![CDATA[Trench]]></category>
+		<category><![CDATA[TwentyOnePilots]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11862</guid>
+
+					<description><![CDATA[While this blog is still online, I might as well correct, and add to, previous posts. Later this week new Twenty One Pilots material is&#8230;]]></description>
+										<content:encoded><![CDATA[<p>While this blog is still online, I might as well correct, and add to, previous posts.</p>
+<p>Later this week new <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">Twenty One Pilots</a> material is expected, so this might be a good time to add some remarks to a series of posts I ran last summer, trying to find a connection between <a href="https://twentyonepilots.fandom.com/wiki/Dmaorg.info">Dema-lore</a> and the actual history of the Bourbaki group. Here are links to these posts:</p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+</ul>
+<p>In the post <a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">&#8220;9 Bourbaki founding members, really?&#8221;</a> I questioned <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki#:~:text=Nicolas%20Bourbaki%20(French%3A%20%5Bnik%C9%94la,a%">Wikipedia&#8217;s assertion</a> that there were exactly nine founding members of Nicolas Bourbaki:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Henri_Cartan">Henri Cartan</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Chevalley">Claude Chevalley</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Jean_Coulomb">Jean Coulomb</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Jean_Coulomb">Jean Delsarte</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Jean_Dieudonn%C3%A9">Jean Dieudonne</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Charles_Ehresmann">Charles Ehresmann</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Szolem_Mandelbrojt">Szolem Mandelbrojt</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ren%C3%A9_de_Possel">Rene de Possel</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a></li>
+</ul>
+<p>I still stand by the arguments given in that post, but my opinion on this is completely irrelevant. What matters is who the Bourbaki-gang themself deemed worthy to attach their names to their first publication &#8216;Theorie des Ensembles&#8217; (1939).</p>
+<p>But wait, wasn&#8217;t the whole point of choosing the name Nicolas Bourbaki for their collective that the actual authors of the books should remain anonymous?</p>
+<p>Right, but then I found this strange document in the <a href="http://sites.mathdoc.fr/archives-bourbaki/">Bourbaki Archives</a> : <a href="http://sites.mathdoc.fr/archives-bourbaki/consulter.php?id=awms_001">awms_001</a>, a preliminary version of the first two chapters of &#8216;Theorie des Ensembles&#8217; written by Andre Weil and annotated by Rene de Possel. Here&#8217;s the title page:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/TitlePageTdE.jpg" width=100% ></p>
+<p>Next to N. Bourbaki we see nine capital letters: M.D.D.D.E.C.C.C.W corresponding to nine AW-approved founding members of Bourbaki: Mandelbrojt, Delsarte, De Possel, Dieudonne, Ehresmann, Chevalley, Coulomb, Cartan and Weil!</p>
+<p>What may freak out the <a href="https://www.reddit.com/r/twentyonepilots/?f=flair_name%3A%22Theory%22">Clique</a> is the similarity between the diagram to the left of the title, and the canonical depiction of the nine Bishops of Dema (at the center of the map of Dema) or the cover of the Blurryface album:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Bourbaki9.png" width=40%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Bishops9.png" width=95%><br />
+</center></p>
+<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">the Photoshop mysteries post</a> I explained why Mandelbrojt and Weil might have been drawn in opposition to each other, but I am unaware of a similar conflict between either of the three C&#8217;s (Cartan, Coulomb and Chevalley) and the three D&#8217;s (Delsarte, De Possel and Dieudonne).</p>
+<p>So, I&#8217;ll have to leave the identification of the nine Bourbaki founding members with the nine Dema Bishops as a riddle for another post.</p>
+<p>The second remark concerns the post <a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a>.</p>
+<p>In that post I briefly suggested that DEMA might stand for DEutscher MAthematiker (German Mathematicians), and hinted at the group of people around <a href="https://en.wikipedia.org/wiki/David_Hilbert">David Hilbert</a>, <a href="https://en.wikipedia.org/wiki/Emil_Artin">Emil Artin</a> and <a href="https://en.wikipedia.org/wiki/Emmy_Noether">Emmy Noether</a>, but discarded this as &#8220;one can hardly argue that there was a self-destructive attitude (like Vialism) present among that group, quite the opposite&#8221;.</p>
+<p>At the time, I didn&#8217;t know about <a href="https://en.wikipedia.org/wiki/Deutsche_Mathematik">Deutsche Mathematik</a>, a mathematics journal founded in 1936 by <a href="https://en.wikipedia.org/wiki/Ludwig_Bieberbach">Ludwig Bieberbach</a> and <a href="https://en.wikipedia.org/wiki/Theodor_Vahlen">Theodor Vahlen</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DeuMath1936_1.jpg/400px-DeuMath1936_1.jpg" width=80%><br />
+</center></p>
+<p>Deutsche Mathematik is also the name of a movement closely associated with the journal whose aim was to promote &#8220;German mathematics&#8221; and eliminate &#8220;Jewish influence&#8221; in mathematics. More about Deutsche Mathematik can be found on <a href="https://www5.in.tum.de/lehre/seminare/math_nszeit/SS03/vortraege/de-math/">this page</a>, where these eight mathematicians are mentioned in connection with it:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Ludwig_Bieberbach">Ludwig Bieberbach</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Theodor_Vahlen">Theodor Vahlen</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Oswald_Teichm%C3%BCller">Oswald Teichmuller</a></li>
+<li><a href="https://de.wikipedia.org/wiki/Erhard_Tornier">Erhard Tornier</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Helmut_Hasse">Helmut Hasse</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wilhelm_S%C3%BCss">Wilhelm Suss</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Helmut_Wielandt">Helmut Wielandt</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gustav_Doetsch">Gustav Doetsch</a></li>
+</ul>
+<p>Perhaps one can add to this list:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Erich_Kahler">Erich Kahler</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gerhard_Gentzen">Gerhard Gentzen</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wilhelm_Blaschke">Wilhelm Blaschke</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Heinrich_Brandt">Heinrich Brandt</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ernst_Witt">Ernst Witt</a></li>
+</ul>
+<p>Whether DEutsche MAthematik stands for DEMA, and which of these German mathematicians were its nine bishops might be the topic of another post. First I&#8217;ll have to read through Sanford Segal&#8217;s <a href="https://press.princeton.edu/books/paperback/9780691164632/mathematicians-under-the-nazis">Mathematicians under the Nazis</a>.</p>
+<p><strong>Added February 29th:</strong></p>
+<p>The long awaited new song has now surfaced:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/53tgVlXBZVg?si=UwaRjXUafwTKLgBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>I&#8217;ve only watched it once, but couldn&#8217;t miss the line &#8220;I fly by the <a href="https://en.wikipedia.org/wiki/Bourbaki_dangerous_bend_symbol">dangerous bend symbol</a>&#8220;.</p>
+<p>Didn&#8217;t we all fly by them in our first readings of Bourbaki&#8230;</p>
+<p>(Fortunately the clique already <a href="https://twitter.com/DiscordClique/status/1763270261623648562">spotted that reference</a>).</p>
+<p>No intention to freak out clikkies any further, but in the aforementioned Weil draft of &#8216;Theorie des Ensembles&#8217; they still used this precursor to the dangerous bend symbol</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/dangerousprecursor.jpg" width=100%></p>
+<p>Skeletons anyone?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>9 Bourbaki founding members, really?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 21 Aug 2023 09:54:04 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Cartan]]></category>
+		<category><![CDATA[Chevalley]]></category>
+		<category><![CDATA[Coulomb]]></category>
+		<category><![CDATA[de Possel]]></category>
+		<category><![CDATA[Delsarte]]></category>
+		<category><![CDATA[Dieudonne]]></category>
+		<category><![CDATA[Dubreil]]></category>
+		<category><![CDATA[Ehresmann]]></category>
+		<category><![CDATA[founding]]></category>
+		<category><![CDATA[Leray]]></category>
+		<category><![CDATA[Mandelbrojt]]></category>
+		<category><![CDATA[members,]]></category>
+		<category><![CDATA[really?]]></category>
+		<category><![CDATA[tbc]]></category>
+		<category><![CDATA[tØp]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11574</guid>
+
+					<description><![CDATA[The Clique (Twenty Øne Piløts fanatic fanbase) is convinced that the nine Bishops of Dema were modelled after the Bourbaki-group. It is therefore of no&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://twentyonepilots.fandom.com/wiki/Skeleton_Clique">The Clique</a> (<a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">Twenty Øne Piløts</a> fanatic fanbase) is convinced that the nine Bishops of Dema were modelled after the Bourbaki-group.</p>
+<p>It is therefore of no surprise to see a Photoshopped version circulating of this classic picture of some youthful Bourbaki-members (note Jean-Pierre Serre poster-boying for Elon Musk&#8217;s site),</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BourbakiHeads.png" width=100%></p>
+<p>replacing some of them with much older photos of other members. Crucial seems to be that there are just nine of them.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/9Bourbakis.jpg" width=100%></p>
+<p>I don&#8217;t know whether the Clique hijacked Bourbaki&#8217;s Wikipedia page, or whether they were inspired by its content to select those people, but if you look at that <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki">Wikipedia page</a> you&#8217;ll see in the right hand column:</p>
+<p><strong>Founders</strong></p>
+<ul>
+<li>Henri Cartan</li>
+<li>Claude Chevalley</li>
+<li>Jean Coulomb</li>
+<li>Jean Delsarte</li>
+<li>Jean Dieudonné</li>
+<li>Charles Ehresmann</li>
+<li>René de Possel</li>
+<li>André Weil</li>
+</ul>
+<p>Really? Come on.</p>
+<p>We know for a fact that Charles Ehresmann was brought in to replace Jean Leray, and Jean Coulomb to replace Paul Dubreil. Surely, replacements can&#8217;t be founders, can they?</p>
+<p>Well, unfortunately it is not quite that simple. There&#8217;s this silly semantic discussion: from what moment on can you call someone a Bourbaki-member&#8230;</p>
+<p>The collective name &#8216;Nicolas Bourbaki&#8217; was adopted only at the <a href="https://lievenlebruyn.github.io/neverendingbooks/where-is-the-royal-poldavian-academy">Bourbaki-congress in Besse</a> in July 1935 (see also <a href="https://lievenlebruyn.github.io/neverendingbooks/the-bumpy-road-to-the-first-bourbaki-congress">this post</a>).</p>
+<p>But, before the Besse-meeting there were ten &#8216;proto-Bourbaki&#8217; meetings, the first one on December 10th, 1934 in Cafe Capoulade. These meetings have been described masterly by Liliane Beaulieu in <a href="https://www.yumpu.com/en/document/view/4320353/karen-v-h-parshall-a-parisian-cafe-and-ten-proto-bourbaki-">A Parisian Cafe and Ten Proto-Bourbaki Meetings (1934-35)</a> (btw. if you know a direct link to the pdf, please drop it in the comments).</p>
+<p>During these early meetings, the group called itself &#8216;The Committee for the Treatise on Analysis&#8217;, and <em>not yet</em> Bourbaki, whence the confusion.</p>
+<p>Do we take the Capoulade-1934 meeting as the origin of the Bourbaki group (in which case the founding-members would be Cartan, Chevalley, De Possel, Delsarte, Dieudonne, and Weil), or was the Bourbaki-group founded at the Besse-congress in 1935 (when Cartan, Chevalley, Coulomb, De Possel, Dieudonne, Mandelbrojt, and Weil were present)?</p>
+<p>Here&#8217;s a summary of which people were present at all meetings from December 1934 until the second Chancay-congress in September 1939, taken from <a href="https://theses.hal.science/tel-03434735v2/document">Gatien Ricotier ‘Projets collectifs et personnels autour de Bourbaki dans les années 1930 à 1950&#8242;</a>:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/9Bourbakis2.jpg" width=100%></p>
+<p>07-1935 is the Besse-congress, 09-1936 is the &#8216;Escorial&#8217;-congress (or Chancay 1) and 09-1937 is the second Chancay-congress. The ten dates prior to July 1935 are the proto-Bourbaki meetings.</p>
+<p>Even though Delsarte was not present at the Besse-1935 congress, and De Possel moved to Algiers and left Bourbaki in 1941, I assume most people would agree that the six people present at the first Capoulade-meeting (Cartan, Chevalley, De Possel, Delsarte, Dieudonne, and Weil) should certainly be counted among the Bourbaki founding members.</p>
+<p>What about the others?</p>
+<p>We can safely eliminate Dubreil: he was present at just one proto-Bourbaki meeting and left the group in April 1935.</p>
+<p>Also Leray&#8217;s case is straightforward: he was even excluded from the Besse-meeting as he didn&#8217;t contribute much to the group, and later he vehemently opposed Bourbaki, as <a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">we&#8217;ve seen</a>.</p>
+<p>Coulomb&#8217;s role seems to restrict to securing a venue for the Besse-meeting as he was &#8216;physicien-adjoint&#8217; at the &#8216;Observatoire Physique du Globe du Puy-de-Dome&#8217;.</p>
+<p><center><br />
+<img decoding="async" src="https://www.archivesdepartementales.puy-de-dome.fr/img/thumbnails/497_688/ill_2_559fi2597bis_3.jpg?1508419869" width=50%><br />
+</center></p>
+<p>Because of this he could rarely attend the Julia-seminar or Bourbaki-meetings, and his interest in mathematical physics was a bit far from the themes pursued in the seminar or by Bourbaki. It seems he only contributed one small text, in the form of a letter. Due to his limited attendance, even after officially been asked to replace Dubreil, he can hardly be counted as a founding member.</p>
+<p>This leaves Szolem Mandelbrojt and Charles Ehresmann.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">We&#8217;ve already described</a> Mandelbrojt as the odd-man-out among the early Bourbakis. According to the Bourbaki archive he only contributed one text. On the other hand, he also played a role in organising the Besse-meeting and in providing financial support for Bourbaki. Because he was present already early on (from the second proto-Bourbaki meeting) until the Chancay-1937 meeting, some people will count him among the founding members.</p>
+<p>Personally I wouldn&#8217;t call Charles Ehresmann a Bourbaki founding member because he joined too late in the process (March 1936). Still, purists (those who argue that Bourbaki was founded at Besse) will say that at that meeting he was put forward to replace Jean Leray, and later contributed actively to Bourbaki&#8217;s meetings and work, and for that reason should be included among the founding members.</p>
+<p>What do you think?</p>
+<p>How many Bourbaki founding members are there? Six (the Capoulade-gang), seven (+Mandelbrojt), eight (+Mandelbrojt and Ehresmann), or do you still think there were nine of them?</p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>TØP PhotoShop mysteries</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 11 Aug 2023 15:34:36 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Cartan]]></category>
+		<category><![CDATA[Chevalley]]></category>
+		<category><![CDATA[Dema]]></category>
+		<category><![CDATA[Mandelbrojt]]></category>
+		<category><![CDATA[mysteries]]></category>
+		<category><![CDATA[photoshop]]></category>
+		<category><![CDATA[tbc]]></category>
+		<category><![CDATA[tØp]]></category>
+		<category><![CDATA[Trench]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11513</guid>
+
+					<description><![CDATA[Suppose you&#8217;re writing a book, and for the duration of that project you keep a certain photo as your desktop-background. I guess we might assume&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Suppose you&#8217;re writing a book, and for the duration of that project you keep a certain photo as your desktop-background. I guess we might assume that picture to be inspirational for your writing process.</p>
+<p>If you PhotoShopped it to add specific elements, might we assume these extra bits to play a crucial role in your story?</p>
+<p>Now, let&#8217;s turn to <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">Twenty One Pilots</a> and the creation process of their album <a href="https://en.wikipedia.org/wiki/Trench_(album)">Trench</a>, released on October 5, 2018</p>
+<p>We know from <a href="https://twitter.com/tylerrjoseph/status/1030991703203897345?s=20">this tweet</a> (from August 19th, 2018) that Tyler Joseph&#8217;s desktop-background picture was a photoshopped version of the classic Bourbaki-1938 photo on the left below, given it Trench-yellow, and added a bearded man in the doorway (photo on the right)</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bourbaki_congress1938.png/440px-Bourbaki_congress1938.png" width=45%> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BeauvallonTop.png" width=45%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BeavallonDesktop.png" width=45%><br />
+</center></p>
+<p>And we know from <a href="https://www.youtube.com/watch?v=s4CLo1gpHyQ&#038;t=13s">this interview</a> (from September 5th, 2018) that, apart from the bearded man, he also replaced in the lower left corner the empty chair by a sitting person (lower photo).</p>
+<p>The original photo features on <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki">the Wikipedia page on Nicolas Bourbaki</a>, and as Tyler Joseph has revealed that <a href="https://en.wikipedia.org/wiki/Blurryface">Blurryface</a>&#8216;s real name is Nicolas Bourbaki (for whatever reason), and that he appears in the lyrics of <a href="https://genius.com/Twenty-one-pilots-morph-lyrics">Morph</a> on Trench, this may make some sense.</p>
+<p>But, of the seven people in the picture only three were founding members of Bourbaki: Weil, Diedonne and Delsarte. Ehresmann entered later, replacing Jean Leray, and Pison and Chabauty were only guinea pigs at that moment (they later entered Bourbaki, Chabauty briefly and Pison until 1950), and finally, Simonne Weil never was a member.</p>
+<p>There&#8217;s another strange thing about the original picture. All of them, but Andre and Simone Weil, look straight into the camera, the Weil&#8217;s seem to be more focussed on something happening to the right.</p>
+<p>Now, TØP has something with the number 9. There are nine circles on the cover of Blurryface (each representing one of a person&#8217;s insecurities, it seems), there are nine towers in the City of Dema, nine Bishops, etc.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/en/7/7d/Blurryface_by_Twenty_One_Pilots.png" width=50%><br />
+</center></p>
+<p>So, from their perspective it makes sense to Photoshop two extra people in, and looking at the original there are two obvious places to place them: in the empty doorway, and on the empty chair.</p>
+<p>But, who are they, and what is their significance?</p>
+<p><strong>1. The bearded man in the doorway</strong></p>
+<p><img decoding="async" src="https://pbs.twimg.com/media/Dk7RfAKW0AAjQ_-?format=jpg&#038;name=large" width=100%></p>
+<p>As far as I know, nobody knows who he is. From a Bourbaki point of view it can only be one person: <a href="https://en.wikipedia.org/wiki/%C3%89lie_Cartan">Elie Cartan</a>.</p>
+<p>We know he was present at the 1938 Bourbaki Dieulefit/Beauvallon meeting, and that he was kind of a father figure to Bourbaki. Among older French mathematicians he was one of few (perhaps the only one) respected by all of Bourbaki.</p>
+<p>But, bearded man is definitely <em>not</em> Elie Cartan&#8230;</p>
+<p>If bearded man exists and has a Wikipedia page, the photo should be on that page. So, if you find him, please leave a comment.</p>
+<p>Previous in this series <a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">I made a conjecture about him</a>, but I&#8217;m not at all sure.</p>
+<p><strong>2. Why, of all people, Szolem Mandelbrojt?</strong></p>
+<p>We know from this <a href="https://www.reddit.com/r/twentyonepilots/comments/m28f43/i_found_one_of_the_people_shopped_into_tylers/?utm_source=embedv2&#038;utm_medium=post_embed&#038;utm_content=post_title&#038;embed_host_url=https%3A%2F%2Flievenlebruyn.github.io%2Fneverendingbooks%2Fbourbaki-bishops-or-banditos">Twentyonepilots subReddit post</a> that the man sitting on the previously empty chair in none other than Bourbaki founding member <a href="https://en.wikipedia.org/wiki/Szolem_Mandelbrojt">Szolem Mandelbrojt</a>, shopped in from this other iconic early Bourbaki-photo from the 1937 Chancay-meeting.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/chancay2.jpg" width=100%></p>
+<p>Let me tell you why this surprises me.</p>
+<p>Szolem Mandelbrojt was atypical among the first Bourbaki-gang in many ways: he was the only one who didn&#8217;t graduate from the ENS, he was a bit older than the rest, he was the only one who was a full Professor (at Clermont-Ferrand) whereas the others were &#8216;maitre de conference&#8217;, he was the only one who didn&#8217;t contribute actively in the Julia seminar (the proto-Bourbaki seminar) nor much to the Bourbaki-congresses either for that matter, etc. etc.</p>
+<p>Most of all, I don&#8217;t think he would feel particularly welcome at the 1938 congress. Here&#8217;s why.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/0/01/Hadamard_retouched.jpg" width=50%> <img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/LebesgueH.gif" width=40%><br />
+(<a href="https://en.wikipedia.org/wiki/Jacques_Hadamard">Jacques Hadamard</a> (left), and <a href="https://en.wikipedia.org/wiki/Henri_Lebesgue">Henri Lebesgue</a> (right))<br />
+</center></p>
+<p>From <a href="https://www.ams.org/notices/199904/rev-varadarajan.pdf">Andre Weil&#8217;s autobiography</a> (page 120):</p>
+<blockquote><p>
+Hadamard&#8217;s retirement left his position open. I thought myself not unworthy of succeeding him; my friends, especially Cartan and Delsarte, encouraged me to a candidate. It seemed to me that Lebesgue, who was the only mathematician left at the College de France, did not find my candidacy out of place. He even let me know that it was time to begin my &#8216;campaign visits&#8217;.
+</p></blockquote>
+<p>But the Bourbaki-campaign against a hierarchy of scientific prizes instituted by Jean Perrin (the so called &#8216;war of the medals&#8217;) interfered with his personal campaign. (Perhaps more important was that Mandelbrojt did his Ph.D. under Hadamard&#8230;)</p>
+<p>Again from Weil&#8217;s autobiography (page 121):</p>
+<blockquote><p>
+Finally Lebesque put an end to my visits by telling me that he had decided on Mandelbrojt. It seemed to me that my friends were more disappointed than I at this outcome.</p></blockquote>
+<p>In the spring of 1938, Mandelbrojt succeeded Hadamard at the College de France.</p>
+<p>There&#8217;s photographic evidence that Mandelbrojt was present at the 1935 Besse-congress and clearly at the 1937-Chancay meeting, but I don&#8217;t know that he was even present at Chancay-1936. (Edit May 2024: He was present in 1936)</p>
+<p>The only picture I know of that meeting is the one below. Standing on bench: Chevalley&#8217;s nephews, seated Andre Weil and Chevalley&#8217;s mother; standing, left to right: Ninette Ehresmann, Rene de Possel, Claude Chavalley, Jacqueline Chavalley, Mirles, Jean Delsarte and Charles Ehresmann.</p>
+<p><img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxTqVeTTAmeRRbsgIM1T8Z02UpJYttzxzljqZr2sV9Wii1MT9KfyAPPxszaJIGvPqFT6c&#038;usqp=CAU" width=100%></p>
+<p>Of all possible people, Szolem Mandelbrojt would be <em>the</em> miscast at the 1938-meeting. So, why did they shop him in?</p>
+<p>&#8211; convenience: they had an empty chair in the original picture, another Bourbaki-photo with a guy sitting on such a chair, so why not shop him in?</p>
+<p>&#8211; mistaken identity: in the subReddit post the sitting guy was mistakenly identified as Claude Chevalley. Now, there is a lot to say about wishing to add Chevalley to the original. He is by far the most likeable of all Bourbakis, so if these nine were ever supposed to be the nine Bishops of Dema, he most certainly would be Keons. But, Chevalley was already in the US at that time, and was advised by the French consul to remain there in view of the situation in Europe. As a result, Chevalley could not obtain a French professorship before the early 50ties.</p>
+<p>&#8211; a deep hidden clue: remember all that nonsense about Josh Dun&#8217;s &#8216;alma mater&#8217; being that Ukrainian building where Nico and the niners was shot? Well, Szolem Mandelbrojt&#8217;s alma mater was the <a href="https://en.wikipedia.org/wiki/National_University_of_Kharkiv">University of Kharkiv</a> in Ukraine. See <a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">this post</a> for more details.</p>
+<p><strong>3. Is it all about Simone Weil?</strong></p>
+<p>If you super-impose the two photographs, pinning Mandelbrojt in both, the left border of the original 1938-picture is an almost perfect mirror for both appearances of Simone Weil. Can she be more important in all of this than we think?</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/superimposed.jpg" width=100%></p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Dema2Trench, AND REpeat</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 04 Aug 2023 12:38:24 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[and]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Dema]]></category>
+		<category><![CDATA[dema2trench,]]></category>
+		<category><![CDATA[Julia]]></category>
+		<category><![CDATA[Leray]]></category>
+		<category><![CDATA[repeat]]></category>
+		<category><![CDATA[tbc]]></category>
+		<category><![CDATA[tØp]]></category>
+		<category><![CDATA[Trench]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11526</guid>
+
+					<description><![CDATA[There&#8217;s this band Twenty One Pilots and they&#8217;ve woven a complicated story around some of their albums, notably Blurryface, Trench, and Scaled and Icy. Since&#8230;]]></description>
+										<content:encoded><![CDATA[<p>There&#8217;s this band <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">Twenty One Pilots</a> and they&#8217;ve woven a complicated story around some of their albums, notably <a href="https://en.wikipedia.org/wiki/Blurryface">Blurryface</a>, <a href="https://en.wikipedia.org/wiki/Trench_(album)">Trench</a>, and <a href="https://en.wikipedia.org/wiki/Scaled_and_Icy">Scaled and Icy</a>.</p>
+<p>Since Trench, an important component of that story is the <a href="https://fr.wikipedia.org/wiki/Nicolas_Bourbaki">Bourbaki group</a>, so I&#8217;m just curious whether the few things I know about them can help to clarify parts in the TØP- storyline.</p>
+<p>Pretty pointless, I know, as no artistic project will follow blindly historical facts. But hey, as long as I discover new things I&#8217;ll keep going.</p>
+<p>The story&#8217;s about a City of Dema, ruled by nine Bishops installing a terror regime called Vialism, and a land outside the city walls, called Trench, to which citizens would like to escape.</p>
+<p>Think of Dema as an extremely toxic environment from which you need to escape to a safe place, let&#8217;s call it Trench.</p>
+<p>Sadly, too often survivors from abusive settings later on create their own toxic environment, abusive to others.</p>
+<p>So, Dema-escapees to Trench should always be wary of the danger of creating a new Dema for others.</p>
+<p>It is very hard to break these Dema2Trench cycles of violence. That&#8217;s probably why the map of the City of Dema is circular.</p>
+<p>Let&#8217;s start with these two photos not (yet) in the Dema-lore:</p>
+<p><center><br />
+<img decoding="async" src="https://mathshistory.st-andrews.ac.uk/Biographies/Julia/Julia_4.jpeg" width=40%> <img decoding="async" src="https://mathshistory.st-andrews.ac.uk/Biographies/Julia/Julia_5.jpeg" width=40%><br />
+</center></p>
+<p>Both pictures are of the French mathematician <a href="https://en.wikipedia.org/wiki/Gaston_Julia">Gaston Julia</a>.</p>
+<p>Julia graduated from the ENS in 1914, so was among the worst victims of <a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">the military regime Lavisse installed at the ENS</a>. He was mobilised but hadn&#8217;t yet completed his second year of military training. That was shortened to just 5 months, after which we has send as a second lieutenant to the war.</p>
+<p>In January 1915 he was seriously wounded in his face, had to undergo a series of operations and for the rest of his life he resigned himself to wearing a leather strap around the area where his nose had been.</p>
+<p>He ran a weekly seminar from 1933 till 1939, the <a href="http://www.numdam.org/actas/SMJ/">Seminaire Julia</a>, to which the Bourbaki core members contributed a vast number of lectures.</p>
+<p>Until 1937-38 (so just before the Dieulefit Bourbaki congress) the Bourbakis felt happy citizens of Julia&#8217;s Seminar/Dema. But then they discovered his political agenda and were expelled from it, or escaped from it depending on the version.</p>
+<p><a href="https://fr.wikipedia.org/wiki/Jean_Leray">Jean Leray</a> convinced Julia that it was a terrible mistake to let his seminar run by Bourbaki, and that things would go much better if he ran it. Julia expelled Bourbaki from the seminar, changed its name to &#8216; Cercle mathématique de l’École normale supérieure&#8217; and moved the venue from the IHP to the ENS. The attendants of this seminar were younger and less international that in the preceding years, hence more malleable to his political ideas.</p>
+<p>Another reason for the break-up between Bourbaki and Julia was that they reproached him of attending in June 1937 the festivities of the bicentennial of the University of Gottingen, which were seen as pure propaganda for the Nazi-regime.</p>
+<p>During WW2, Julia collaborated with the occupying Nazi-regime in that he tried to find French mathematicians to contribute to the Zentralblatt. After the war he was briefly suspended for this.</p>
+<p>Much more on the Julia seminar and the break-up with Bourbaki can be read in the thesis by Gatien Ricotier <a href="https://theses.hal.science/tel-03434735v2/document">&#8216;Projets collectifs et personnels autour de Bourbaki dans les années 1930 à 1950&#8217;</a>, and Michele Audin&#8217;s book on the Julia Seminar.</p>
+<p>Let us compare Julia&#8217;s photographs to these two in Dema-lore:</p>
+<p><center><br />
+<img decoding="async" src="https://64.media.tumblr.com/b154da52cc7d8aca1c62f1e525ae1730/tumblr_pbtn184LKJ1s58hjm_500.png" width=57%> <img decoding="async" src="https://preview.redd.it/gim7kpwkrjc81.png?width=587&#038;format=png&#038;auto=webp&#038;s=962490e50b2203eea31087acfd56813adedb14c2" width=38%><br />
+</center></p>
+<p>Is it a coincidence that Clancy in Trench has a scar on his nose? Is it a coincidence that the black paint on some of the Bishop&#8217;s faces looks a lot like Julia&#8217;s mask?</p>
+<p>Can it be that victims of one Dema-era become Bishops in a next era?</p>
+<p>This repetitiveness of Dema-environments also indicates the importance of Bishop Andre. Recall that all the Bishops&#8217; names (except for Nico) come from concatenations of word-parts in the lyrics of the songs on the Blurryface album.</p>
+<p>ANDRE comes from &#8216;..AND REpeat&#8217; in Fairly local:</p>
+<blockquote><p>
+Tomorrow I&#8217;ll keep a beat<br />
+And repeat yesterday&#8217;s dance
+</p></blockquote>
+<p>In view of this, let&#8217;s have another look at the two Bourbaki-related photographs that appeared in the run up to the Trench-album:</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bourbaki_congress1938.png/440px-Bourbaki_congress1938.png" width=52%> <img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Weil.jpg" width=40%><br />
+</center></p>
+<p>On the left is the photo of the Dieulefit/Beauvallon 1938 meeting, which is on the Bourbaki Wikipedia page, and was on the <a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">desktop of Tyler Joseph</a>.</p>
+<p>On the right a photo of Andre Weil together with a girl, according to Wikipedia the picture dates from 1956. I&#8217;m pretty certain it was taken in the summer of 1957, and that the girl is Mireille Cartan, the second youngest daughter of Henri Cartan. Not that any of this matters, TØP-wise. A clipping of the girl was among the material originally posted at the dmaorg.info site.</p>
+<p>In 1938, Andre Weil was a victim of <a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Lavisse&#8217;s Dema</a>. His year was the last one getting a military training to become reserve officers in the French infantry/artillery (as were Cartan, Dieudonne and Delsarte).</p>
+<p>When France would mobilise they were forced to return to Dema (military service) and lead their bataljons as second lieutenants into war. All of them, except for Weil, did this.<br />
+Weil escaped to Trench (Finland), and was taken back to Dema, and imprisonment.</p>
+<p>In 1957, Bourbaki dominated much of French mathematical life, and certainly its influence in Paris was suffocating for aspiring math-students. A good read on this is Jacques Roubaud&#8217;s <a href="https://www.amazon.com/Mathematics-French-Literature-Jacques-Roubaud/dp/1564786838">Mathematique</a>.</p>
+<p>Bourbaki has turned French mathematics (and beyond) into its own Dema, and Andre Weil certainly was one of the more important Bishops of it.</p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Weil photos used in Dema-lore</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 26 Jul 2023 13:00:43 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[Dema]]></category>
+		<category><![CDATA[dema-lore]]></category>
+		<category><![CDATA[Lavisse]]></category>
+		<category><![CDATA[photos]]></category>
+		<category><![CDATA[tbc]]></category>
+		<category><![CDATA[Trench]]></category>
+		<category><![CDATA[TwentyOnePilots]]></category>
+		<category><![CDATA[used]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11484</guid>
+
+					<description><![CDATA[On April 20th of 2018, twenty one pilots updated their store page to include a video with a hidden message at the end of it.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>On April 20th of 2018, <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">twenty one pilots</a> updated their store page to include a video with a hidden message at the end of it.</p>
+<p><img decoding="async" src="https://images.genius.com/81b0c7216340b50cb464ca8b7db7ea71.811x401x1.png" width=100%></p>
+<p>and with a bit of sleuthing it led to <a href="https://www.dmaorg.site/original/found/15398642_14/clancy.html">a page on the dmaorg.info site</a> containing:</p>
+<ul>
+<li>a <a href="https://www.dmaorg.site/original/found/15398642_14/img/6629097cc6e3/_ti_su_p.png">map of the City of Dema</a></li>
+<li>a picture of <a href="https://www.dmaorg.site/original/found/15398642_14/img/61066cd46530/unnamed-(1).jpg">21 vultures</a> sitting on the rim of a <a href="https://en.wikipedia.org/wiki/Tower_of_Silence">tower of silence</a></li>
+<li>a <a href="https://www.dmaorg.site/original/found/15398642_14/img/c72347067926/ba_dge.jpg">&#8216;failed perimeter escape&#8217; message</a></li>
+<li>the first <a href="https://www.dmaorg.site/original/found/15398642_14/img/ff1e640a042d/cla_ncy-988-06MOON_18_-1.jpg">letter of someone named Clancy</a>, a citizen of Dema, starting with &#8220;The perplexities of the Dema horizon didn&#8217;t occur to me until my ninth year.&#8221;</li>
+<li>the <a href="https://www.dmaorg.site/original/found/15398642_14/img/b5c55b910823/se__elf.jpg">blurred photo</a> on the left below:</li>
+</ul>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Se_elf.jpg" width=55%> <img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Weil.jpg" width=40%><br />
+</center></p>
+<p>This was immediately identified as part of the photo on the right, which is on the <a href="https://fr.wikipedia.org/wiki/Andr%C3%A9_Weil">French Wikipedia page for Andre Weil</a>.</p>
+<p>The photo is clipped in such a way one cannot be certain whether the child is a boy or girl, so a logical explanation is that this is supposed to be the nine year old Clancy, shielding his eyes from the violence (vialism) he just discovered in Dema.</p>
+<p>The full picture suggests that Clancy&#8217;s struggles might mirror some in Andre Weil&#8217;s life.</p>
+<p><a href="https://fr.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a> was born May 6th, 1906, so &#8216;in his ninth year&#8217; World War 1 breaks out in 1914.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Last time</a> we&#8217;ve seen that Bourbaki&#8217;s Dema = Ecole Normal Superieure in Paris during WW1, Vialism = militant patriotism sending ENS-graduates as trained reserve second lieutenants in the infantry to the trenches, and there getting killed &#8216;pour la patrie&#8217; and the glory of the ENS and its director <a href="https://fr.wikipedia.org/wiki/Ernest_Lavisse">Ernest Lavisse</a>, &#8220;L&#8217;instituteur national&#8221;.</p>
+<p>Here&#8217;s a G-translation of his letter to the young French, published September 23rd 1914:</p>
+<blockquote><p>
+Dear children of France, You will be old one day, and, like the old, you will like to remember times past. There will come evenings when your little children, seeing you dreaming, will say to you: Tell us, grandfather. And you will tell. It will be a few episodes of the war, a long march, an alert, a bayonet assault, a cavalry charge, the feat of a battery of 75, the strewn enemy dead on the plain, or else, in the streets of a city, the serried ranks of corpses left standing for lack of room to fall; and then the death of comrades, the terrible losses of your company and your regiment, your wounds received in Belgium, in Champagne, on the banks of the Rhine, beyond the Rhine; but the joy of victories, the poles knocked down on too narrow frontiers, triumphal entries.</p>
+<p>On those evenings, after the amazed children have gone to sleep, you will open a drawer where you will have collected precious objects, a bullet extracted from a wound, a piece of shell, a cloth where your blood will have turned pale, a cross of honour, I hope, or a military medal, at the very least a medal from the 1914 war, on the ribbon of which the silver clasps will bear the names of immortal battles. And whatever your life, happy or unhappy, you will be able to say: I lived great days such as the history of men had not yet seen. And you will be right to be proud of your youth, because you are sublime young people!</p>
+<p>I have read your letters; I have spoken with the wounded. Through you, I know what heroism is. I had heard a lot about it, being a historian by profession, but now I see it, I touch it, and how beautiful your heroism is, embellished with grace and smiling in the French way! Young soldiers if you were given one chevron per battle, your march would not be enough to accommodate them, because at the end of the war you would count more chevrons than years;</p>
+<p>Young soldiers you are glorious old warriors.</p>
+<p>Oh! Thanks thanks! Thank you for the beautiful end of life that you give to the elderly who, for forty-four years have suffered so much from the abasement of the fatherland.
+</p></blockquote>
+<p>The 44 years refers to the <a href="https://en.wikipedia.org/wiki/Franco-Prussian_War">Franco-Prussian war of 1870</a> in which Bourbaki (the general) played a dramatic role.</p>
+<p>The next cycle of militant patriotism occurred in the years leading up to the second world war. Here, Andre Weil&#8217;s experiences mirror those of Clancy. He tried several times to escape, first from military action (although he too was a reserve officer in the French army), then from France itself. He was captured in Finland, brought back to France to face trial and imprisonment, was released on the condition that he did active military duty, escaped with the French army to England, there demobilised he refused to join de Gaulle&#8217;s troops, left England on a boat to Marseille, from where he escaped to the US.</p>
+<p>All this, and much more, you can read in his autobiography <a href="https://link.springer.com/book/10.1007/978-3-0348-8634-5">The Apprenticeship of a Mathematician</a>, especially Chapter VI, The War and I: A Comic Opera in Six Acts.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/61dIRQ8r3YL._AC_UF1000,1000_QL80_.jpg" width=70%><br />
+</center></p>
+<p>(for TØP-ers, note the Bishop-red cover&#8230;)</p>
+<p>Comic or not, the book tries to &#8216;explain&#8217; his actions in those years, but failed to convince the French from offering him a professorship at a French university after the war.</p>
+<p>Perhaps it may be worth looking into a comparison between Weil&#8217;s autobiography and the collected <a href="https://genius.com/Twenty-one-pilots-dmaorginfo-transcriptions-annotated">Clancy letters</a>.</p>
+<p>I guess that&#8217;s the best I can do to explain the use of that Weil photo by TØP. Surely they didn&#8217;t search any deeper as to where and when this picture was taken, or who the girl was next to Weil.</p>
+<p>In case anyone might be interested, I&#8217;ll be happy to explain my own theory about this in another post.</p>
+<p>I&#8217;m sure the full photograph ended up in the &#8216;Trench-bible&#8217;, given to the director of their clip-movies. The scenery is used at the end of the <a href="https://www.youtube.com/watch?v=UOUBW8bkjQ4&#038;t=282s">Jumpsuit video</a> when &#8216;Clancy&#8217; takes out a jumpsuit from the burning car and walks away along a road very similar to that in the photo.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/WeilRoad.jpg" width=70%><br />
+</center></p>
+<p>The boy/girl shielding his/her eyes for the violence, should have been used at about minute one into the <a href="https://www.youtube.com/watch?v=eNcvblM8-_o&#038;t=55s">Outside video</a></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/WeilShieldinEyes.jpg" width=70%><br />
+</center></p>
+<p>Now, there&#8217;s another Weil (or rather Bourbaki) photograph <a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">we know did inspire Twenty One Pilots</a>, the classic picture at the Dieulefit/Beauvallon 1938 Bourbaki-congress</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bourbaki_congress1938.png/440px-Bourbaki_congress1938.png" width=70%><br />
+</center></p>
+<p>which was photoshopped in order to get Szolem Mandelbrojt in from the Chancay (quite similar to Clancy now that i type this) 1937 Bourbaki congress</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/chancay2.jpg" width=70%><br />
+</center></p>
+<p>Now, these were the only two Bourbaki-meetings <a href="https://en.wikipedia.org/wiki/Simone_Weil">Simone Weil</a> (Andre&#8217;s sister) attended, and she features prominently in both pictures.</p>
+<p>Probably this brother/sister thing struct a chord with Twenty One Pilots. But then, you quickly end up with this iconic picture of both of them, taken in the summer of 1922, just before Andre entered the Ecole Normale (he entered the ENS at age 16&#8230;)</p>
+<p><center><br />
+<img decoding="async" src="https://pbs.twimg.com/media/DU4BfakW4AE-JdO.jpg" width=70%><br />
+</center></p>
+<p>I&#8217;d love to be send a copy of the &#8216;Trench bible&#8217; because I&#8217;m fairly certain also this photograph is in it. At the end of the <a href="https://www.youtube.com/watch?v=hMAPyGoqQVw&#038;t=234s">Nico and the niners-video</a> you see this boy and girl (who may be around age 9 and discover the truth about Dema)  finding a jumpsuit with the Bishops approaching</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/SimoneAndreWeil.jpg" width=70%><br />
+</center></p>
+<p>and they reappear a bit older at the end of the <a href="https://www.youtube.com/watch?v=eNcvblM8-_o&#038;t=389s">Outside-video</a>, with a burning Dema in the background.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/SimoneAndreWeil2.jpg" width=70%><br />
+</center></p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Where&#8217;s Bourbaki&#8217;s Dema?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 15 Jul 2023 15:17:52 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[bourbaki’s]]></category>
+		<category><![CDATA[Dema]]></category>
+		<category><![CDATA[Lavisse]]></category>
+		<category><![CDATA[tbc]]></category>
+		<category><![CDATA[tØp]]></category>
+		<category><![CDATA[where’s]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11443</guid>
+
+					<description><![CDATA[In this series I&#8217;m trying to figure out why the Bourbaki-group was an inspiration for the storyline of Trench, the fifth studio album by American&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In this series I&#8217;m trying to figure out why the Bourbaki-group was an inspiration for the storyline of <a href="https://en.wikipedia.org/wiki/Trench_(album)">Trench</a>, the fifth studio album by American musical duo <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">Twenty One Pilots</a> (or TØP).</p>
+<p><img decoding="async" src="https://topmasterdoc.carrd.co/assets/images/image21.jpg?v=c02a4a30" width=100% ></p>
+<p>Trench-lore centers around the city of Dema, ruled by nine Bishops enforcing Vialism (a fake religion asking people to take their own lives to glorify Dema).</p>
+<p><img decoding="async" src="https://topmasterdoc.carrd.co/assets/images/image22.jpg?v=c02a4a30" width=100% ></p>
+<p>It is an unfortunate coincidence that the city of Dema in the movie-clip of <a href="https://www.youtube.com/watch?v=hMAPyGoqQVw">Nico and the Niners</a> was inspired, and shot in Kyiv and Charkiv, Ukraine (the clip is from 2018).</p>
+<blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="500"><p>      <a href="https://www.reddit.com/r/twentyonepilots/comments/9279qo/ive_just_found_out_that_dema_is_situated_in_my/">I&#8217;ve just found out that Dema is situated in my country&#8230; (NATN was made in Kyiv and Charkiv, Ukraine)</a><br /> by      <a href="https://www.reddit.com/user/Sasha0503">u/Sasha0503</a> in      <a href="https://www.reddit.com/r/twentyonepilots/">twentyonepilots</a>    </p></blockquote>
+<p><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script></p>
+<p>Here&#8217;s the corresponding &#8216;beyond the movie&#8217;-clip, from which we learn (or rather are told) that the movie&#8217;s &#8216;city of Dema&#8217; was shot in &#8216;the former Ukranian high-school&#8217; of <a href="https://en.wikipedia.org/wiki/Josh_Dun">Josh Dun</a> (he even calls it his &#8216;Alma Mater&#8217;), all in quotes because I don&#8217;t buy any of it, but take it as a desperate hint to identify Dema.</p>
+<p>In the Trench movie-clips, Josh Dun is always cast as a Bandito, and last time we saw that also the Bourbaki-gang is likely to be close to the Banditos. Dema is supposed to be the Alma Mater of (at least some of) the Banditos. Hold that thought.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/teIy4u1pqgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>As for the connection between the City of Dema and the Bourbaki-group, we only have one piece of solid information:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DemaBeforeBourbaki.jpg" width=100%></p>
+<p>That the Bourbaki-group named themselves after Nico=Nicolas Bourbaki clearly resonates with Twenty Øne Pilots who got their name from the 1947 play <a href="https://en.wikipedia.org/wiki/All_My_Sons">&#8216;All My Sons&#8217;</a> by American playwright Arthur Miller.</p>
+<p>But the crucial info is: &#8220;The story of Dema happened before them&#8221;, so the story of Dema with the Bishops and Vialism happened before the Bourbaki-group. An extra piece of evidence that there is no way the Bourbaki-group are the nine Bishops of Dema.</p>
+<p>So, what happened before the Bourbaki-group?</p>
+<p>Mathematically, their direct predecessors were David Hilbert, Emil Artin, Emmy Noether and her boys, in short German mathematicians from the 1920&#8217;s and early 1930&#8217;s.</p>
+<p>Several of the Bourbaki founding members studied in Germany (Weil in Gottingen in 1927, Chevalley in Hamburg in 1931 and Marburg in 1932, and Ehresmann in Gottingen in 1930).</p>
+<p>They were inspired by <a href="https://en.wikipedia.org/wiki/Hilbert%27s_program">Hilbert&#8217;s program</a> (<a href="https://plus.maths.org/content/we-must-know-we-will-know">We must know, we will know</a>), and set out to introduce the German style of writing and doing mathematics in France.</p>
+<p><img decoding="async" src="https://mhedsson.files.wordpress.com/2018/03/group5869200031456766156.jpg" width=100%></p>
+<p>So, a first candidate (also given the <a href="https://www.thespruce.com/what-is-bauhaus-architecture-4784133">Bauhaus-like architecture</a> of Dema) might be &#8216;German Mathematicians&#8217;, or in German, DEutscher MAthematiker = DEMA.</p>
+<p>But one can hardly argue that there was a self-destructive attitude (like Vialism) present among that group, quite the opposite.</p>
+<p>Still, one can ask why German mathematics was that strong in the 1920&#8217;s, compared to the French. France and Germany took different approaches with their intelligentsia during WW1: while Germany protected its young students and scientists, France instead committed them to the front, owing to the French culture of egalitarianism.</p>
+<p>Remember that the album is called <a href="https://en.wikipedia.org/wiki/Trench_(album)">Trench</a>, and the dirtiest <a href="https://en.wikipedia.org/wiki/Trench_warfare">trench-war</a> in all of human history was WW1. Hold that thought.</p>
+<p>But, how does this help us in identifying Dema.</p>
+<p>A few months before the release of Trench, a website was launched containing letters (from a character named Clancy) and some photos (including part of a photo of Andre Weil). That website&#8217;s URL still is <a href="http://dmaorg.info/">dmaorg.info</a>.</p>
+<p>On the rear of the boat in the movie-clip <a href="https://www.youtube.com/watch?v=FiXVRdotCEk">Saturday</a>, we see &#8216;030904 DMA ORG&#8217; (the 030904 is simplistic code for CID, believed to mean &#8216;Clancy Is Dead&#8217;).</p>
+<p><img decoding="async" src="https://preview.redd.it/rk4di7wol0a71.jpg?auto=webp&#038;s=38e6c5b1aee8daa2495b8b1f0547aa0efc1c03e2" width=100%></p>
+<p>Compare this to the official email address of the <a href="https://www.bourbaki.fr/">&#8216;Association des collaborateurs de Nicolas Bourbaki&#8217;</a> which is: <strong>bourbaki@dma.ens.fr</strong>.</p>
+<p>Here, &#8216;dma&#8217; stands for <a href="https://www.math.ens.psl.eu/en/welcome/">&#8216;Département de mathématiques et applications&#8217;</a>, one of the fifteen departments of the ENS, the <a href="https://fr.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_(Paris)">Ecole Normal Superieure</a> in Paris, Rue d&#8217;Ulm.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Remember</a> the inspirational, photoshopped photo of the Bourbaki 1938 congress in Dieulefit/Deauvallon:</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bourbaki_congress1938.png/440px-Bourbaki_congress1938.png" width=45%> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BeauvallonTop.png" width=45%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BeavallonDesktop.png" width=45%><br />
+</center></p>
+<p>All seven people in the original picture are &#8216;normaliens&#8217;, that is, their &#8216;Alma Mater&#8217; is the Ecole Normale Superieure&#8217;. All but Simone Weil graduated from the DEpartement de MAthematiques=DEMA, as DMA was called then.</p>
+<p>Whence the hypothesis: <strong>Bourbaki&#8217;s Dema = ENS before and during WW1</strong></p>
+<p><img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Cour_aux_Ernests_sous_la_neige.jpg/1280px-Cour_aux_Ernests_sous_la_neige.jpg" width=100%></p>
+<p>It is a conglomerate of buildings and its central courtyard forms a kind of secular cloister around its basin. This space is called &#8220;la Cour aux Ernests&#8221; in reference to a former director, Ernest Bersot. He had placed red (!) fish (=the Ernests in ENS-slang) in the basin, which have become one of the symbols of the school.</p>
+<p>More important to us is that the pond of the Ernests is reached by crossing the &#8220;aquarium&#8221;, where the ENS war memorial is located, commemorating the 239 (former) ENS-students killed in WW1 on a tatal of about 1400 of them drafted&#8230;</p>
+<p><img decoding="async" src="https://2.bp.blogspot.com/--qFBZ0RWTo8/U4hVu8B-5AI/AAAAAAAAcf0/LfkMNvv6fXA/s1600/2+(Custom)+(Large).JPG" width=100%></p>
+<p>From the Wikipedia-page on Nicolas Bourbaki:</p>
+<p>&#8220;The deaths of ENS students resulted in a lost generation in the French mathematical community; the estimated proportion of ENS mathematics students (and French students generally) who died in the war ranges from one-quarter to one-half, depending on the intervals of time (c. 1900–1918, especially 1910–1916) and populations considered.&#8221;</p>
+<p>A chilling, and very detailed account of the circumstances that lead to the deaths of about 50% of ENS-student from the period 1910-1913 can be found in the paper <a href="https://www.cairn.info/revue-pole-sud-2012-1-page-9.htm">Pourquoi les normaliens sont-ils morts en masse en 1914-1918 ? Une explication structurale</a> (Why the normaliens suffered mass-death in 1914-18, a structural explanation) by <a href="https://fr.wikipedia.org/wiki/Nicolas_Mariot">Nicolas (!) Mariot</a>. Here&#8217;s the abstract:</p>
+<p>&#8220;The École Normale Supérieure d’Ulm is always mentioned when historians summarize the ravages of World War I in France: the institution embodies the commitment of intellectuals at the front. The article offers an interpretation of mortality rates of the School which allows to understand why it is primarily students during schooling (Classes 1910-1913) that are heavily affected. Rather than basing the interpretation on the single assumption of sacrifice, it puts forward arguments pertaining to the history of the school in the immediate pre-war, including the institution of military training after the reform service in 1905, competition with the École Polytechnique to retain the best scientific students, and finally the forced commitment of the ENS students in the infantry.&#8221;</p>
+<p>Crucial in this is the role of <a href="https://en.wikipedia.org/wiki/Ernest_Lavisse">Ernest Lavisse</a> who was the director of the ENS from 1903 till 1919.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Ernest_Lavisse%2C_1913.jpg/520px-Ernest_Lavisse%2C_1913.jpg" width=50%><br />
+</center></p>
+<p>Before, normaliens had to serve 12 months in the army, just like all other students. In 1905 the law changed, and under Lavisse&#8217;s influence ENS-students were given a heavy military training. From the paper:</p>
+<p>&#8220;From now on, normalien students, like those of other major military schools, are subject to a two-year service: a first year before their actual entry into rue d&#8217;Ulm, which they had to perform in an infantry regiment; a second on leaving, which they can finish as a reserve second lieutenant, but always in the infantry, if they pass the tests. And there is more: because between these two years, the students also follow a fairly heavy military preparation, including theoretical and physical exercises, even on Sundays, organised by two officers seconded full-time for this mission within the walls of the School.&#8221;</p>
+<p>He also instilled in the ENS-student a radical sense of patriotism, and was a fervent propagandist for <a href="https://fr.wikipedia.org/wiki/Union_sacr%C3%A9e_(mouvement)">l&#8217;Union sacrée</a>. From the paper:</p>
+<p>&#8220;Intellectual mobilisation crystallised in the figures of Lavisse and <a href="https://fr.wikipedia.org/wiki/%C3%89mile_Durkheim">Durkheim</a> via their famous Letters to all French people distributed in millions of copies across the country. In the fall of 1914, the two founded and took control, respectively as director and secretary of the Committee for Studies and Documents on the War, a propaganda organ for the country&#8217;s executives.</p>
+<p>Alongside them, eight of the nine other members of the Committee are former students of the School who have become professors at the Sorbonne (<a href="https://fr.wikipedia.org/wiki/Charles_Andler">Charles Andler</a>, <a href="https://fr.wikipedia.org/wiki/Charles_Seignobos">Charles Seignobos</a>, <a href="https://fr.wikipedia.org/wiki/%C3%89mile_Boutroux">Émile Boutroux</a>, <a href="https://fr.wikipedia.org/wiki/Ernest_Denis">Ernest Denis</a>, <a href="https://fr.wikipedia.org/wiki/Gustave_Lanson">Gustave Lanson</a>) or at the Collège de France (<a href="https://fr.wikipedia.org/wiki/Joseph_B%C3%A9dier">Joseph Bédier</a>, <a href="https://fr.wikipedia.org/wiki/Henri_Bergson">Henri Bergson</a>, <a href="https://fr.wikipedia.org/wiki/Jacques_Hadamard">Jacques Hadamard</a>), without even mentioning the role of editorial secretary held by <a href="https://en.wikipedia.org/wiki/Lucien_Herr">Lucien Herr</a>, legendary counterpart of <a href="https://fr.wikipedia.org/wiki/Paul_Dupuy_(ENS)">Paul Dupuy</a> at the Rue d&#8217;Ulm library.&#8221;</p>
+<p>I would have liked that there were only nine members of the committee, but there were eleven of them&#8230;</p>
+<p>Anyway, Lavisse and his eight professors created an extremely patriotic environment at the ENS during WW1, encouraging students to go to (the) Trench(es) and give their life for France and the glory of the Ecole. The ENS-monument is the equivalent of the Neon Gravestones in Dema-lore.</p>
+<p>Did you spot it too? LAVIsse is almost a perfect anagram for VIALism.</p>
+<p><a href="https://fr.wiktionary.org/wiki/se_non_%C3%A8_vero_%C3%A8_bene_trovato">Se non e vero&#8230;</a></p>
+<p>Concluding, the best theory I can come up with in order to include the Bourbaki-group in Dema-lore is that their Dema is the ENS in WW1 and preceding years, and that Vialism is the regime installed by Lavisse and the other members from the committee.</p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bourbaki = Bishops or Banditos?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 05 Jul 2023 15:58:41 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[banditos?]]></category>
+		<category><![CDATA[Beauvallon]]></category>
+		<category><![CDATA[bishops]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[tbc]]></category>
+		<category><![CDATA[tØp]]></category>
+		<category><![CDATA[Trench]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11400</guid>
+
+					<description><![CDATA[In this series I&#8217;m trying to make sense of the inclusion of Nicolas Bourbaki in the storyline of Trench, the fifth studio album by American&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In this series I&#8217;m trying to make sense of the inclusion of <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki">Nicolas Bourbaki</a> in the storyline of <a href="https://en.wikipedia.org/wiki/Trench_(album)">Trench</a>, the fifth studio album by American musical duo <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">Twenty One Pilots</a> (or TØP).</p>
+<p>That story is about the walled city of Dema, ruled by nine bishops dressed in red cloaks. They enforce their religion, called Vialism, on the inhabitants of Dema. The end-goal in Vialism is that you take your own life, having maximal impact (think: suicide bombers).</p>
+<p><center><br />
+<img decoding="async" src="https://topmasterdoc.carrd.co/assets/images/image23.jpg?v=c02a4a30" width=100%><br />
+</center></p>
+<p>Outside the walls of Dema is the land of Trench, where a group of fighters (the Banditos) set up camp. They are dressed in grey trenchcoats adorned with yellow ribbons, and their goal is to help people escape from Dema, via its east side.</p>
+<p>What on earth has the Bourbaki group to do with any of this?</p>
+<p>We know from a <a href="https://twitter.com/tylerrjoseph/status/1030991703203897345">tweet by Tyler Joseph</a> that one Bourbaki-photograph (or at least a PhotoShopped version of it) played an important role in the creative process, as he used it as the background image on his Mac while producing the album.</p>
+<p>It can also be seen, blurred in the background, in the opening seconds of his interview with Zane Lowe on Apple Music:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/s4CLo1gpHyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Here are the three versions: the original photo, overlayed with the tweet-image, and a screenshot from the interview:</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bourbaki_congress1938.png/440px-Bourbaki_congress1938.png" width=45%> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BeauvallonTop.png" width=45%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BeavallonDesktop.png" width=45%><br />
+</center></p>
+<p>In the original photo, taken at the <a href="http://archives-bourbaki.ahp-numerique.fr/items/show/651#?c=0&#038;m=0&#038;s=0&#038;cv=0">1938 Dieulefit Bourbaki congress</a>, we see seven people, from left to right</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Simone_Weil">Simone Weil</a> (not Bourbaki, sister of Andre Weil)</li>
+<li><a href="https://en.wikipedia.org/wiki/Charles_Pisot">Charles Pisot</a> (chrysalide, <a href="http://archives-bourbaki.ahp-numerique.fr/items/browse?advanced[0][element_id]=87&#038;advanced[0][type]=is+exactly&#038;advanced[0][terms]=Pisot%2C+Charles">Bourbaki member after WW2</a>)</li>
+<li><a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a>, partially hidden (Bourbaki founding member)</li>
+<li><a href="https://en.wikipedia.org/wiki/Jean_Dieudonn%C3%A9">Jean Dieudonne</a>, sitting (Bourbaki founding member)</li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Chabauty">Claude Chabauty</a> (chrysalide, <a href="http://archives-bourbaki.ahp-numerique.fr/items/browse?advanced[0][element_id]=87&#038;advanced[0][type]=is+exactly&#038;advanced[0][terms]=Chabauty%2C+Claude">Bourbaki member during and after WW2</a>)</li>
+<li><a href="https://en.wikipedia.org/wiki/Charles_Ehresmann">Charles Ehresmann</a> (Bourbaki founding member)</li>
+<li><a href="https://en.wikipedia.org/wiki/Jean_Delsarte">Jean Delsarte</a> (Bourbaki founding member)</li>
+</ul>
+<p>In the overlayed image an additional eight person, a bearded man, is PhotoShopped in the doorway, and in the screenshot we see that apart from this mystery man the empty chair in the lower left corner is replaced by a ninth person.</p>
+<p>Common belief among the &#8216;clique&#8217; (TØP&#8217;s fanbase name) is that the nine people in the desktop image are the nine bishops of Dema, with the bearded man being Nico (the head-bishop), Andre Weil bishop Andre, and Simone Weil bishop Sacarver (the only known female bishop).</p>
+<p>But who are these two additional persons?</p>
+<p>In a remarkable tour de force, Reddit user &#8216;banditosleepers&#8217; was able to find the man sitting in the lower left corner (though he identified him wrongly)</p>
+<blockquote class="reddit-embed-bq" style="height:316px" data-embed-height="316"><p>      <a href="https://www.reddit.com/r/twentyonepilots/comments/m28f43/i_found_one_of_the_people_shopped_into_tylers/">I found one of the people shopped into Tyler&#8217;s desktop (2018)</a><br /> by      <a href="https://www.reddit.com/user/banditosleepers">u/banditosleepers</a> in      <a href="https://www.reddit.com/r/twentyonepilots/">twentyonepilots</a>    </p></blockquote>
+<p><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script></p>
+<p>There&#8217;s this other famous pre-WW2 photo of a Bourbaki congress, this time the 1937 congress in <a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-escorial">Chancay</a>:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/chancay2.jpg" width=100%></p>
+<p>Here we see, from left to right:</p>
+<ul>
+<li>Andre Weil</li>
+<li>Simone Weil (standing)</li>
+<li><a href="https://en.wikipedia.org/wiki/Henri_Cartan">Henri Cartan</a> (Bourbaki founding member)</li>
+<li><a href="https://fr.wikipedia.org/wiki/Szolem_Mandelbrojt">Szolem Mandelbrojt</a> (Bourbaki founding member)</li>
+<li><a href="">Claude Chevalley</a> (sitting on the bank, Bourbaki founding member)</li>
+<li>Jean Delsarte (partially hidded)</li>
+</ul>
+<p>That is, the ninth person, sitting in the left lower corner of the screenshot is Szolem Mandelbrojt (and not Claude Chevalley, as claimed in the Reddit-post).</p>
+<p>There&#8217;s another photo, taken at about the same moment, showing that also Jean Dieudonne (sitting on the bank in front next to Andre Weil) and Charles Ehresmann (sitting on the bank on the right, next to Jean Delsarte and Claude Chevalley) were present.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/chancay1937photo2.jpg" width=100%></p>
+<p>Several people (myself included) have wasted too many hours trying to identify the bearded man in the doorway, starting from the assumption that he too might have some connection with Bourbaki (either the group or <a href="https://fr.wikipedia.org/wiki/Charles_Denis_Bourbaki">the general</a>), without success.</p>
+<p>There&#8217;s one problem with the &#8216;bearded man = Nico&#8217; hypothesis. Nico is supposed to be the tallest of the bishops, and bearded man&#8217;s head is level with Andre Weil&#8217;s head, who stand on the first step, so bearded man must at least be 15cm smaller than Andre, who was already rather short.</p>
+<p>Here&#8217;s a theory.</p>
+<p>The original Dieulefit 1938 photo is the first one on the Wikipedia page for <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki">Nicolas Bourbaki</a>, and if you click on it you get a link to one of my own blogposts <a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-the-miracle-of-silence">Bourbaki and the miracle of silence</a>.</p>
+<p>In that post (from 2010) I found the exact location where that photo was taken: the <a href="https://fr.wikipedia.org/wiki/%C3%89cole_de_Beauvallon">Ecole de Beauvallon</a>, founded in 1929 by <a href="https://fr.wikipedia.org/wiki/Marguerite_Soubeyran">Marguerite Soubeyran</a> and Catherine Krafft, which was the first ‘modern’ boarding school in France for both boys and girls having behavioural problems. From 1936 on the school’s director was Simone Monnier.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/evidence1.jpg" width=100%></p>
+<p>The lower picture is taken at the Ecole de Beauvallon in 1943, the woman in the middle is Marguerite Soubeyran.</p>
+<p>From 1936 on, about 20 refugees from the Spanish civil war found a home at the school, and in the ‘pension’, next to the school. When WW2 started, about 1500 people were hidden from the German occupation in Dieulefit (having a total population of 3500) : Jewish children, intellectuals, artists, trade union leaders, many in the Ecole and the Pension. None were betrayed to the Germans, and this is called <a href="https://www.slate.fr/story/98797/dieulefit-occupation">Le miracle de silence à Dieulefit</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://www.rebelle-sante.com/wp-content/uploads/rs-222-rencontre-coline-3.jpg" width=50%><br />
+</center></p>
+<p>Given this historical context, there is only one possible way to include this Bourbaki-photo in the Trench-storyline: the Ecole de Beauvallon is the equivalent of the Bandito-camp, and the Bourbakis are Banditos (or at the very least, refugees having found a safe place in the camp).</p>
+<p>In hindsight this was already given away by Tyler Joseph in that he gave the photo the color yellow, specifically Bandito-yellow 0xFCE300, which the bishops are unable to see (they see it as grey).</p>
+<p>How does this help in identifying the bearded man in the doorway?</p>
+<p>Standing in the doorway, he&#8217;s the one feeling at home there, gathering around him his guests or fellow fighters. My conjecture is that he is the leader of the bandito-camp, as seen at 2.12 in the movieclip of Levitate.</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/uv_1AKKKJnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Granted, it is not a perfect match. I think &#8216;bearded man&#8217; is how Tyler Joseph envisioned the camp-leader, and included his picture in the &#8216;Trench Bible&#8217;, the 60 page booklet given to the movie-director, who did the casting some months later.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/bearded2.jpg" width=40%> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/bearded1.jpg" width=40%><br />
+</center></p>
+<p>Next time we will try to find City of Dema, or at least what it should be if you take the inclusion of Bourbaki in the Trench storyline seriously.</p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

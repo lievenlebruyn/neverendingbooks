@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Mathieu &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/mathieu/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 02 Mar 2021 17:50:18 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Borcherds&#8217; favourite numbers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 02 Mar 2021 17:50:18 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Bruhat]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[de Jonquiere]]></category>
+		<category><![CDATA[Eisenbud]]></category>
+		<category><![CDATA[Fischer]]></category>
+		<category><![CDATA[Frenkel]]></category>
+		<category><![CDATA[Griess]]></category>
+		<category><![CDATA[Hardy]]></category>
+		<category><![CDATA[Harris]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Lepowski]]></category>
+		<category><![CDATA[Lie]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[McKay]]></category>
+		<category><![CDATA[Meurman]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[Ono]]></category>
+		<category><![CDATA[Ramanujan]]></category>
+		<category><![CDATA[Steiner]]></category>
+		<category><![CDATA[Stillwell]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8990</guid>
+
+					<description><![CDATA[Whenever I visit someone&#8217;s YouTube or Twitter profile page, I hope to see an interesting banner image. Here&#8217;s the one from Richard Borcherds&#8217; YouTube Channel.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Whenever I visit someone&#8217;s YouTube or Twitter profile page, I hope to see an interesting banner image. Here&#8217;s the one from <a href="https://www.youtube.com/channel/UCIyDqfi_cbkp-RU20aBF-MQ">Richard Borcherds&#8217; YouTube Channel</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BorcherdsNumbers.jpg" width=100% ></p>
+<p>Not too surprisingly for Borcherds, almost all of these numbers are related to the <a href="https://en.wikipedia.org/wiki/Monster_group">monster group</a> or its <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">moonshine</a>.</p>
+<p>Let&#8217;s try to decode them, in no particular order.</p>
+<p><strong>196884</strong></p>
+<p><a href="https://en.wikipedia.org/wiki/John_McKay_(mathematician)">John McKay&#8217;s</a> observation $196884 = 1 + 196883$ was the start of the whole &#8216;monstrous moonshine&#8217; industry. Here, $1$ and $196883$ are the dimensions of the two smallest irreducible representations of the monster simple group, and $196884$ is the first non-trivial coefficient in <a href="https://en.wikipedia.org/wiki/J-invariant">Klein&#8217;s j-function</a> in number theory.</p>
+<p>$196884$ is also the dimension of the space in which <a href="https://en.wikipedia.org/wiki/Robert_Griess">Robert Griess</a> constructed the Monster, following <a href="https://en.wikipedia.org/wiki/Simon_P._Norton">Simon Norton&#8217;s</a> lead that there should be an algebra structure on the monster-representation of that dimension. This algebra is now known as the <a href="https://en.wikipedia.org/wiki/Griess_algebra">Griess algebra</a>.</p>
+<p>Here&#8217;s a recent talk by Griess <a href="https://www.youtube.com/watch?v=Zynb7VKRr-U">&#8220;My life and times with the sporadic simple groups&#8221;</a> in which he tells about his construction of the monster (relevant part starting at 1:15:53 into the movie).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Zynb7VKRr-U?start=4553" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>1729</strong></p>
+<p>1729 is the second (and most famous) <a href="https://en.wikipedia.org/wiki/Taxicab_number">taxicab number</a>. A long time ago I did write a post about the classic Ramanujan-Hardy story <a href="https://en.wikipedia.org/wiki/Ken_Ono">the taxicab curve</a> (note to self: try to tidy up the layout of some old posts!).</p>
+<p>Recently, connections between Ramanujan&#8217;s observation and K3-surfaces were discovered. Emory University has an enticing press release about this: <a href="http://esciencecommons.blogspot.com/2015/10/mathematicians-find-magic-key-to-drive.html">Mathematicians find &#8216;magic key&#8217; to drive Ramanujan&#8217;s taxi-cab number</a>. The paper itself is <a href="https://arxiv.org/abs/1510.00735">here</a>.</p>
+<blockquote><p>“We’ve found that Ramanujan actually discovered a K3 surface more than 30 years before others started studying K3 surfaces and they were even named. It turns out that Ramanujan’s work anticipated deep structures that have become fundamental objects in arithmetic geometry, number theory and physics.&#8221;</p>
+<p><a href="https://en.wikipedia.org/wiki/Ken_Ono">Ken Ono</a></p></blockquote>
+<p><strong>24</strong></p>
+<p>There&#8217;s no other number like $24$ responsible for the existence of sporadic simple groups.</p>
+<p>24 is the length of the <a href="https://en.wikipedia.org/wiki/Binary_Golay_code#:~:text=In%20mathematics%20and%20electronics%20engineering,finite%20sporadic%20groups%20in%20mathematics.">binary Golay code</a>, with isomorphism group the sporadic <a href="https://en.wikipedia.org/wiki/Mathieu_group">Mathieu group</a> $M_24$ and hence all of the other Mathieu-groups as subgroups.</p>
+<p>24 is the dimension of the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a>, with isomorphism group the Conway group $Co_0 = .0$ (dotto), giving us modulo its center the sporadic group $Co_1=.1$ and the other <a href="https://en.wikipedia.org/wiki/Conway_group">Conway groups</a> $Co_2=.2, Co_3=.3$, and all other sporadics of the second generation in the <a href="https://en.wikipedia.org/wiki/Pariah_group">happy family</a> as subquotients (McL,HS,Suz and $HJ=J_2$)</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/SporadicGroups.svg/680px-SporadicGroups.svg.png" width=60% ><br />
+</center></p>
+<p>24 is the central charge of the <a href="https://en.wikipedia.org/wiki/Monster_vertex_algebra">Monster vertex algebra</a> constructed by Frenkel, Lepowski and Meurman. Most experts believe that the Monster&#8217;s reason of existence is that it is the symmetry group of this vertex algebra. John Conway was one among few others hoping for a nicer explanation, as he said in this <a href="https://www.youtube.com/watch?v=lbN8EMcOH5o">interview with Alex Ryba</a>.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/lbN8EMcOH5o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>24 is also an important number in <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a>, see for example the post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24">the defining property of 24</a>. There&#8217;s a lot more to say on this, but I&#8217;ll save it for another day.</p>
+<p><strong>60</strong></p>
+<p>60 is, of course, the order of the smallest non-Abelian simple group, $A_5$, the rotation symmetry group of the icosahedron. $A_5$ is the symmetry group of choice for most viruses <a href="https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19">but not the Corona-virus</a>.</p>
+<p><strong>3264</strong></p>
+<p>3264 is the correct solution to <a href="https://en.wikipedia.org/wiki/Steiner%27s_conic_problem">Steiner&#8217;s conic problem</a> asking for the number of conics in $\mathbb{P}^2_{\mathbb{C}}$ tangent to five given conics in general position.</p>
+<p><center><br />
+<img decoding="async" src="https://www.juliahomotopycontinuation.org/images/given_conics_example.png" width=60% ><br />
+</center></p>
+<p>Steiner himself claimed that there were $7776=6^5$ such conics, but realised later that he was wrong. The correct number was first given by <a href="https://en.wikipedia.org/wiki/Ernest_de_Jonqui%C3%A8res">Ernest de Jonquières</a> in 1859, but a rigorous proof had to await the advent of modern intersection theory.</p>
+<p>Eisenbud and Harris wrote a book on intersection theory in algebraic geometry, freely available online: <a href="https://scholar.harvard.edu/files/joeharris/files/000-final-3264.pdf">3264 and all that</a>.</p>
+<p><strong>248</strong></p>
+<p>248 is the dimension of the exceptional simple Lie group <a href="https://en.wikipedia.org/wiki/E8_(mathematics)">$E_8$</a>. $E_8$ is also connected to the monster group.</p>
+<p>If you take two Fischer involutions in the monster (elements of conjugacy class 2A) and multiply them, the resulting element surprisingly belongs to one of just 9 conjugacy classes:</p>
+<p>1A,2A,2B,3A,3C,4A,4B,5A or 6A</p>
+<p>The orders of these elements are exactly the dimensions of the fundamental root for the extended $E_8$ Dynkin diagram.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/e8monster.png"></p>
+<p>This is yet another moonshine observation by John McKay and I wrote a couple of posts about it and about Duncan&#8217;s solution: <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">the monster graph and McKay&#8217;s observation</a>, and <a href="https://lievenlebruyn.github.io/neverendingbooks/e8-from-moonshine-groups">$E_8$ from moonshine groups</a>.</p>
+<p><strong>163</strong></p>
+<p>163 is a remarkable number because of the &#8216;modular miracle&#8217;<br />
+\[<br />
+e^{\pi \sqrt{163}} = 262537412640768743.99999999999925&#8230; \]<br />
+This is somewhat related to moonshine, or at least to Klein&#8217;s j-function, which by a result of Kronecker&#8217;s detects the classnumber of imaginary quadratic fields $\mathbb{Q}(\sqrt{-D})$ and produces integers if the classnumber is one (as is the case for $\mathbb{Q}(\sqrt{-163})$).</p>
+<p>The details are in the post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-modular-miracle-of-163">the miracle of 163</a>, or in the paper by John Stillwell, <a href="https://www.jstor.org/stable/2695682?seq=1#metadata_info_tab_contents">Modular Miracles</a>, The American Mathematical Monthly, 108 (2001) 70-76.</p>
+<p>Richard Borcherds, the math-vlogger, has an entertaining video about this story: <a href="https://www.youtube.com/watch?v=a9k_QmZbwX8">MegaFavNumbers 262537412680768000</a></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/a9k_QmZbwX8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>His description of the $j$-function (at 4:13 in the movie) is simply hilarious!</p>
+<p>Borcherds connects $163$ to the monster moonshine via the $j$-function, but there&#8217;s another one.</p>
+<p>The monster group has $194$ conjugacy classes and monstrous moonshine assigns a &#8216;moonshine function&#8217; to each conjugacy class (the $j$-function is assigned to the identity element). However, these $194$ functions are not linearly independent and the space spanned by them has dimension exactly $163$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mathblogging and poll-results</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 21 Jan 2011 19:42:24 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[mathblogging]]></category>
+		<category><![CDATA[mathblogs]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[poll]]></category>
+		<category><![CDATA[rss feeds]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4733</guid>
+
+					<description><![CDATA[Mathblogging.org is a recent initiative and may well become the default starting place to check on the status of the mathematical blogosphere. Handy, if you&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://matrix.cmi.ua.ac.be/DATA3/mathblogging.jpg"><img loading="lazy" decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/mathblogging.jpg" alt="" title="mathblogging" width="255" height="128" class="alignleft size-full wp-image-4747" /></a> <a href="http://www.mathblogging.org/">Mathblogging.org</a> is a recent initiative and may well become the default starting place to check on the status of the mathematical blogosphere.</p>
+</p>
+<p>Handy, if you want to (re)populate your RSS-aggregator with interesting mathematical blogs, is their graphical presentation of (nearly) all math-blogs <a href="http://www.mathblogging.org/bytype">ordered by type</a> : group blogs, individual researchers, teachers and educators, journalistic writers, communities, institutions and microblogging (twitter). Links to the last 7 posts are given so you can easily determine whether that particular blog is of interest to you.</p>
+<p>The three people behind the project, <a href="http://www.felixbreuer.net/">Felix Breuer</a>, <a href="http://ta.twi.tudelft.nl/wst/users/heymann/">Frederik von Heymann</a> and <a href="http://peter.krautzberger.info/">Peter Krautzberger</a>, welcome you to send them links to (micro)blogs they&#8217;ve missed. Surely, there must be a lot more mathematicians with a twitter-account than the few ones listed so far&#8230;</p>
+<p>Even more convenient is their <a href="http://www.mathblogging.org/bydate">list of latest posts</a> from their collection, ordered by date. I&#8217;ve put that page in my Bookmarks Bar the moment I discovered it! It would be nice, if they could provide an RSS-feed of this list, so that people could place it in their sidebar, replacing old-fashioned and useless blogrolls. The site does provide two feeds, but they are completely useless as they click through to empty pages&#8230;</p>
+<p>While we&#8217;re on the topic of math-blogging, the results of the &#8216;What should we write about next?&#8217;-poll that ran <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/changes-ahead.html">the previous two days</a> on the entry page. Of all people visiting that page, 2.6% left suggestions.</p>
+<p>The vast majority (67%) wants more posts on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/tag/noncommutative">noncommutative geometry</a>. Most of you are craving for introductions (and motivation) accessible to undergraduates (as &#8216;it&#8217;s hard to find quality, updated information on this&#8217;). In particular, you want posts giving applications in mathematics (especially number theory), or explaining relationships between different approaches. One person knew exactly how I should go about to achieve the hoped-for accessibility : &#8220;As a rule, I&#8217;d take what you think would be just right for undergrads, and then trim it down a little more.&#8221;</p>
+<p>Others want rather specialized posts, such as on &#8216;connection and parallel transport in noncommutative geometry&#8217; or on &#8216;trees (per J-L. Loday, M. Aguiar, Connes/Kreimer renormalization (aka Butcher group)), or something completely other tree-related&#8217;.</p>
+<p>Fortunately, some of you told me it was fine to write about &#8216;combinatorial games and cool nim stuff, finite simple groups, mathematical history, number theory, arithmetic geometry&#8217;, pushed me to go for &#8216;anything monstrous and moonshiney&#8217; (as if I would know the secrets of the &#8216;connection between the Mathieu group M24 and the elliptic genus of K3&#8217;&#8230;) or wrote that &#8216;various algebraic geometry related posts are always welcome: posts like <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mumfords-treasure-map.html">Mumford&#8217;s treasure map</a>&#8216;.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the Reddit (after)effect</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 15 Jan 2011 14:44:31 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[analytics]]></category>
+		<category><![CDATA[blogs]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[links]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[Reddit]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[Wikipedia]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4130</guid>
+
+					<description><![CDATA[Sunday january 2nd around 18hr NeB-stats went crazy. Referrals clarified that the post &#8216;What is the knot associated to a prime?&#8217; was picked up at&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Sunday january 2nd around 18hr NeB-stats went crazy.</p>
+<p>Referrals clarified that the post <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/what-is-the-knot-associated-to-a-prime.html">&#8216;What is the knot associated to a prime?&#8217;</a> was picked up at <a href="http://www.reddit.com/r/math/">Reddit/math</a> and remained nr.1 for about a day.</p>
+<p>Now, the dust has settled, so let&#8217;s learn from the experience.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddit1.jpg"></p>
+<p>A Reddit-mention is to a blog what doping is to a sporter.</p>
+<p>You get an immediate boost in the most competitive of all blog-stats, the number of unique vistors (blue graph), but is doesn&#8217;t result in a long-term effect, and, it may even be harmful to more essential blog-stats, such as the average time visitors spend on your site (yellow graph).</p>
+<p>For NeB the unique vistors/day fluctuate normally around 300, but peaked to 1295 and 1733 on the &#8216;Reddit-days&#8217;. In contrast, the avg. time on site is normally around 3 minutes, but dropped the same days to 44 and 30 seconds!</p>
+<p>Whereas some of the Reddits spend enough time to read the post and <a href="http://www.reddit.com/r/math/comments/ev1gq/what_is_the_knot_associated_to_a_prime/">comment on it</a>, the vast majority zap from one link to the next. Having monitored the <a href="http://www.reddit.com/r/math/">Reddit/math</a> page for two weeks, I&#8217;m convinced that post only made it because it was visually pretty good. The average Reddit/math-er is a viewer more than a reader&#8230;</p>
+<p>So, should I go for shorter, snappier, more visual posts?</p>
+<p>Let&#8217;s compare Reddits to those coming from the three sites giving NeB most referrals : Google search, MathOverflow and Wikipedia.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddit2.jpg"></p>
+<p>This is the traffic coming from Reddit/math, as always the blue graph are the unique visitors, the yellow graph their average time on site, blue-scales to the left, yellow-scales to the right.</p>
+<p>Here&#8217;s the same graph for <a href="http://www.google.com/">Google search</a>. The unique visitors/day fluctuate around 50 and their average time on site about 2 minutes.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/google2.jpg"></p>
+<p>The math-related search terms most used were this month : &#8216;functor of point approach&#8217;, &#8216;profinite integers&#8217; and &#8216;bost-connes sytem&#8217;.</p>
+<p>More rewarding to me are referrals from <a href="http://mathoverflow.net/">MathOverflow</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mathO1.jpg"></p>
+<p>The number of visitors depends on whether the MathO-questions made it to the front-page (for example, the 80 visits on december 15, came from the <a href="http://mathoverflow.net/questions/1909/what-are-dessins-denfants">What are dessins d’enfants?-topic</a> getting an extra comment that very day, and having two references to NeB-posts : <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-best-rejected-proposal-ever.html">The best rejected proposal ever</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/kleins-dessins-denfant-and-the-buckyball.html">Klein’s dessins d’enfant and the buckyball</a>), but even older MathO-topics give a few referrals a day, and these people sure take their time reading the posts (+ 5 minutes).</p>
+<p>Other MathO-topics giving referrals this month were <a href="http://mathoverflow.net//questions/49151/most-intricate-and-most-beautiful-structures-in-mathematics">Most intricate and most beautiful structures in mathematics</a> (linking to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/looking-for-f_un.html">Looking for F-un</a>), <a href="http://mathoverflow.net///questions/28496/what-should-be-learned-in-a-first-serious-schemes-course">What should be learned in a first serious schemes course?</a> (linking to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mumfords-treasure-map.html">Mumford’s treasure map</a> (btw. one of the most visited NeB-posts ever)), <a href="http://mathoverflow.net/questions/14468/how-much-of-scheme-theory-can-you-visualize">How much of scheme theory can you visualize?</a> (linking again to Mumford&#8217;s treasure map) and <a href="http://mathoverflow.net/questions/34699/approaches-to-riemann-hypothesis-using-methods-outside-number-theory">Approaches to Riemann hypothesis using methods outside number theory</a> (linking to the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bost-connes-coset-space.html">Bost-Connes series</a>).</p>
+<p>Finally, there&#8217;s <a href="http://em.wikipedia.org/">Wikipedia</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wikipedia1.jpg"></p>
+<p>giving 5 to 10 referrals a day, with a pretty good time-on-site average (around 4 minutes, peaking to 12 minutes). It is rewarding to see NeB-posts referred to in as diverse Wikipedia-topics as &#8216;Fifteen puzzle&#8217;, &#8216;Field with one element&#8217;, &#8216;Evariste Galois&#8217;, &#8216;ADE classification&#8217;, &#8216;Monster group&#8217;, &#8216;Arithmetic topology&#8217;, &#8216;Dessin d&#8217;enfant&#8217;, &#8216;Groupoid&#8217;, &#8216;Belyi&#8217;s theorem&#8217;, &#8216;Modular group&#8217;, &#8216;Cubic surface&#8217;, &#8216;Esquisse d&#8217;un programme&#8217;, &#8216;N-puzzle&#8217;, &#8216;Shabat polynomial&#8217; and &#8216;Mathieu group&#8217;.</p>
+<p>What lesson should be learned from all this data? Should I go for shorter, snappier and more visual posts, or should I focus on the small group of visitors taking their time reading through a longer post, and don&#8217;t care about the appallingly high <a href="http://en.wikipedia.org/wiki/Bounce_rate">bounce rate</a> the others cause?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>So, who did discover the Leech lattice?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 20 Dec 2010 10:58:03 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Artin]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[Golay code]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[history]]></category>
+		<category><![CDATA[lattices]]></category>
+		<category><![CDATA[Leech lattice]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Noether]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3717</guid>
+
+					<description><![CDATA[For the better part of the 30ties, Ernst Witt (1) did hang out with the rest of the &#8216;Noetherknaben&#8217;, the group of young mathematicians around&#8230;]]></description>
+										<content:encoded><![CDATA[<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/noetherWitt.png"></p>
+<p>
+For the better part of the 30ties, <a href="http://en.wikipedia.org/wiki/Ernst_Witt">Ernst Witt</a> (1) did hang out with the rest of the &#8216;Noetherknaben&#8217;, the group of young mathematicians around <a href="http://en.wikipedia.org/wiki/Emmy_Noether">Emmy Noether</a> (3) in Gottingen.</p>
+<p>
+In 1934 Witt became <a href="http://en.wikipedia.org/wiki/Helmut_Hasse">Helmut Hasse</a>&#8216;s assistent in Gottingen, where he qualified as a university lecturer in 1936. By 1938 he has made enough of a name for himself to be offered a lecturer position in Hamburg and soon became an associate professor, the down-graded position held by <a href="http://en.wikipedia.org/wiki/Emil_Artin">Emil Artin</a> (2) until he was forced to emigrate in 1937.</p>
+<p>
+A former fellow student of him in Gottingen, Erna Bannow (4), had gone earlier to Hamburg to work with Artin. She continued her studies with Witt and finished her Ph.D. in 1939. In 1940 Erna Bannow and Witt married.</p>
+<p>
+So, life was smiling on Ernst Witt that sunday january 28th 1940, both professionally and personally. There was just one cloud on the horizon, and a rather menacing one. He was called up by the Wehrmacht and knew he had to enter service in february. For all he knew, he was spending the last week-end with his future wife&#8230; (later in february 1940, Blaschke helped him to defer his military service by one year).</p>
+<p>
+Still, he desperately wanted to finish his paper before entering the army, so he spend most of that week-end going through the final version and submitted it on monday, as the published paper shows.</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wittpaperend.png"></p>
+<p>
+In the 70ties, Witt suddenly claimed he did discover the <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> $ {\Lambda} $ that sunday. <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/who-discovered-the-leech-lattice.html">Last time</a> we have seen that the only written evidence for Witt&#8217;s claim is one sentence in his 1941-paper Eine Identit&auml;t zwischen Modulformen zweiten Grades. &#8220;Bei dem Versuch, eine Form aus einer solchen Klassen wirklich anzugeben, fand ich mehr als 10 verschiedene Klassen in $ {\Gamma_{24}} $.&#8221;</p>
+<p>
+But then, why didn&#8217;t Witt include more details of this sensational lattice in his paper?</p>
+<p>
+Ina Kersten recalls on page 328 of Witt&#8217;s collected papers : &#8220;In his colloquium talk &#8220;Gitter und Mathieu-Gruppen&#8221; in Hamburg on January 27, 1970, Witt said that in 1938, he had found nine lattices in $ {\Gamma_{24}} $ and that later on January 28, 1940, while studying the Steiner system $ {S(5,8,24)} $, he had found two additional lattices $ {M} $ and $ {\Lambda} $ in $ {\Gamma_{24}} $. He continued saying that he had then given up the tedious investigation of $ {\Gamma_{24}} $ because of the surprisingly low contribution</p>
+<p><p align=center>$ \displaystyle | Aut(\Lambda) |^{-1} &lt; 10^{-18} $</p>
+<p>
+to the Minkowski density and that he had consented himself with a short note on page 324 in his 1941 paper.&#8221;</p>
+<p>
+In the last sentence he refers to the fact that the sum of the inverse orders of the automorphism groups of all even unimodular lattices of a given dimension is a fixed rational number, the Minkowski-Siegel mass constant. In dimension 24 this constant is</p>
+<p><p align=center>$ \displaystyle \sum_{L} \frac{1}{| Aut(L) |} = \frac {1027637932586061520960267}{129477933340026851560636148613120000000} \approx 7.937 \times 10^{-15} $</p>
+<p>
+That is, Witt was disappointed by the low contribution of the Leech lattice to the total constant and concluded that there might be thousands of new even 24-dimensional unimodular lattices out there, and dropped the problem.</p>
+<p>
+If true, the story gets even better : not only claims Witt to have found the lattices $ {A_1^{24}=M} $ and $ {\Lambda} $, but also enough information on the Leech lattice in order to compute the order of its automorphism group $ {Aut(\Lambda)} $, aka the <a href="http://en.wikipedia.org/wiki/Conway_group">Conway group</a> $ {Co_0 = .0} $ the dotto-group!</p>
+<p>
+Is this possible? Well fortunately, the difficulties one encounters when trying to compute the order of the automorphism group of the Leech lattice from scratch, is one of the better documented mathematical stories around.</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/weekendCambridge.png"></p>
+<p>
+The books <a href="http://www.amazon.co.uk/Error-Correcting-through-Packings-Mathematical-Monographs/dp/0883850370/">From Error-Correcting Codes through Sphere Packings to Simple Groups</a> by Thomas Thompson, <a href="http://www.amazon.co.uk/Symmetry-Monster-greatest-quests-mathematics/dp/0192807234/">Symmetry and the monster</a> by Mark Ronan, and <a href="http://www.amazon.co.uk/Finding-Moonshine-Mathematicians-Journey-Symmetry/dp/0007214626/">Finding moonshine</a> by Marcus du Sautoy tell the story in minute detail.</p>
+<p>
+It took <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> 12 hours on a 1968 saturday in Cambridge to compute the order of the dotto group, using the knowledge of Leech and McKay on the properties of the Leech lattice and with considerable help offered by <a href="http://en.wikipedia.org/wiki/John_G._Thompson">John Thompson</a> via telephone.</p>
+<p>
+But then, John Conway is one of the fastest mathematicians the world has known. The prologue of his book <a href="http://www.amazon.co.uk/Numbers-Games-John-H-Conway/dp/1568811276/">On numbers and games</a> begins with : &#8220;Just over a quarter of a century ago, for seven consecutive days I sat down and typed from 8:30 am until midnight, with just an hour for lunch, and ever since have described this book as &#8220;having been written in a week&#8221;.&#8221;</p>
+<p>
+Conway may have written a book in one week, Ernst Witt did complete his entire Ph.D. in just one week! In a letter of August 1933, his sister told her parents : &#8220;He did not have a thesis topic until July 1, and the thesis was to be submitted by July 7. He did not want to have a topic assigned to him, and when he finally had the idea, he started working day and night, and eventually managed to finish in time.&#8221;</p>
+<p>
+So, if someone might have beaten John Conway in fast-computing the dottos order, it may very well have been Witt. Sadly enough, there is a lot of circumstantial evidence to make Witt&#8217;s claim highly unlikely.</p>
+<p>
+For starters, psychology. Would you spend your last week-end together with your wife to be before going to war performing an horrendous calculation?</p>
+<p>
+Secondly, mathematical breakthroughs often arise from newly found insight. At that time, Witt was also working on his paper on root lattices &#8220;Spiegelungsgrupen and Aufz&auml;hling halbeinfacher Liescher Ringe&#8221; which he eventually submitted in january 1941. Contained in that paper is what we know as Witt&#8217;s lemma which tells us that for any integral lattice the sublattice generated by vectors of norms 1 and 2 is a direct sum of root lattices.</p>
+<p>
+This leads to the trick of trying to construct unimodular lattices by starting with a direct sum of root lattices and &#8216;adding glue&#8217;. Although this gluing-method was introduced by Kneser as late as 1967, Witt must have been aware of it as his 16-dimensional lattice $ {D_{16}^+} $ is constructed this way.</p>
+<p>
+If Witt wanted to construct new 24-dimensional even unimodular lattices in 1940, it would be natural for him to start off with direct sums of root lattices and trying to add vectors to them until he got what he was after. Now, all of the Niemeier-lattices are constructed this way, except for the Leech lattice!</p>
+<p><p align=center><img decoding="async"  width=300 src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GlueLattices.jpg"></p>
+<p>
+I&#8217;m far from an expert on the Niemeier lattices but I would say that Witt definitely knew of the existence of $ {D_{24}^+} $, $ {E_8^3} $ and $ {A_{24}^+} $ and that it is quite likely he also constructed $ {(D_{16}E_8)^+, (D_{12}^2)^+, (A_{12}^2)^+, (D_8^3)^+} $ and possibly $ {(A_{17}E_7)^+} $ and $ {(A_{15}D_9)^+} $. I&#8217;d rate it far more likely Witt constructed another two such lattices on sunday january 28th 1940, rather than discovering the Leech lattice.</p>
+<p>
+Finally, wouldn&#8217;t it be natural for him to include a remark, in his 1941 paper on root lattices, that not every even unimodular lattices can be obtained from sums of root lattices by adding glue, the Leech lattice being the minimal counter-example?</p>
+<p>
+If it is true he was playing around with the Steiner systems that sunday, it would still be a pretty good story he discovered the lattices $ {(A_2^{12})^+} $ and $ {(A_1^{24})^+} $, for this would mean he discovered the Golay codes in the process!</p>
+<p>
+Which brings us to our next question : who discovered the Golay code?</p>
+<p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Who discovered the Leech lattice?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/who-discovered-the-leech-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/who-discovered-the-leech-lattice/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 30 Nov 2010 12:50:10 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[Leech lattice]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[Niemeier]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3373</guid>
+
+					<description><![CDATA[The Leech lattice was, according to wikipedia, &#8216;originally discovered by Ernst Witt in 1940, but he did not publish his discovery&#8217; and it &#8216;was later&#8230;]]></description>
+										<content:encoded><![CDATA[<p>
+The Leech lattice was, according to <a href="http://en.wikipedia.org/wiki/Leech_lattice">wikipedia</a>, &#8216;originally discovered by Ernst Witt in 1940, but he did not publish his discovery&#8217; and it &#8216;was later re-discovered in 1965 by John Leech&#8217;. However, there is very little evidence to support this claim.</p>
+<p>
+<p><b> The facts </b></p>
+<p><p>
+What is certain is that <a href="http://en.wikipedia.org/wiki/John_Leech_(mathematician)">John Leech</a> discovered in 1965 an amazingly dense 24-dimensional lattice $ {\Lambda} $ having the property that unit balls around the lattice points touch, each one of them having exactly 196560 neighbors. The paper &#8216;Notes on sphere packings&#8217; appeared in 1967 in the Canad. J. Math. 19, 251-267.</p>
+<p>
+Compare this to the optimal method to place pennies on a table, leading to the <a href="http://en.wikipedia.org/wiki/Hexagonal_tiling">hexagonal tiling</a>, each penny touching exactly 6 others. Similarly, in dimension 8 the densest packing is the <a href="http://en.wikipedia.org/wiki/E8_lattice">E8 lattice</a> in which every unit ball has exactly 240 neighbors.</p>
+<p>
+The <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> $ {\Lambda} $ can be characterized as the unique unimodular positive definite even lattice such that the length of any non-zero vector is at least two.</p>
+<p>
+The list of all positive definite even unimodular lattices, $ {\Gamma_{24}} $, in dimension 24 was classified later by <a href="http://en.wikipedia.org/wiki/Hans-Volker_Niemeier">Hans-Volker Niemeier</a> and are now known as the 24 <a href="http://en.wikipedia.org/wiki/Niemeier_lattice">Niemeier lattices</a>.</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Niemeier.png"></p>
+<p>
+For the chronology below it is perhaps useful to note that, whereas Niemeier&#8217;s paper did appear in 1973, it was <a href="http://bit.ly/eDxv7p">submitted</a> april 5th 1971 and is just a minor rewrite of Niemeier&#8217;s <a href="http://genealogy.math.ndsu.nodak.edu/id.php?id=57076">Ph.D.</a> &#8220;Definite quadratische Formen der Dimension 24 und Diskriminante 1&#8221; obtained in 1968 from the University of G&ouml;ttingen with advisor <a href="http://genealogy.math.ndsu.nodak.edu/id.php?id=21259">Martin Kneser</a>.</p>
+<p>
+<p><b> The claim </b></p>
+<p><p>
+On page 328 of <a href="http://www.amazon.co.uk/Collected-Papers-Abhandlungen-Ernst-Witt/dp/3540570616/">Ernst Witt&#8217;s Collected Papers</a> Ina Kersten recalls that Witt gave a colloquium talk on January 27, 1970 in Hamburg entitled &#8220;Gitter und Mathieu-Gruppen&#8221; (Lattices and Mathieu-groups). In this talk Witt claimed to have found nine lattices in $ {\Gamma_{24}} $ as far back as 1938 and that on January 28, 1940 he found two additional lattices $ {M} $ and $ {\Lambda} $ while studying the <a href="http://en.wikipedia.org/wiki/Steiner_system">Steiner system</a> $ {S(5,8,24)} $.</p>
+<p>
+On page 329 of the collected papers is a scan of the abstract Witt wrote in the colloquium book in Bielefeld where he gave a talk &#8220;Uber einige unimodularen Gitter&#8221; (On certain unimodular lattices) on January 28, 1972</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wittclaim.jpg"></p>
+<p>
+Here, Witt claims that he found three new lattices in $ {\Gamma_{24}} $ on January 28, 1940 as the lattices $ {M} $, $ {M&#8217;} $ and $ {\Lambda} $ &#8216;feiern heute ihren 32sten Gebursttag!&#8217; (celebrate today their 32nd birthday).</p>
+<p>
+He goes on telling that the lattices $ {M} $ and $ {\Lambda} $ were number 10 and 11 in his list of lattices in $ {\Gamma_{24}} $ in his paper &#8220;Eine Identit&auml;t zwischen Modulformen zweiten Grades&#8221; in the Abh. Math. Sem. Univ. Hamburg 14 (1941) 323-337 and he refers in particular to page 324 of that paper.</p>
+<p>
+He further claims that he computed the orders of their automorphism groups and writes that $ {\Lambda} $ &#8216;wurde 1967 von Leech wieder-entdeckt&#8217; (was re-discovered by Leech in 1967) and that its automorphism group $ {G(\Lambda)} $ was studied by John Conway. Recall that Conway&#8217;s investigations of the automorphism group of the Leech lattice led to the discovery of three new sporadic groups, the <a href="http://en.wikipedia.org/wiki/Conway_group">Conway groups</a> $ {Co_1,Co_2} $ and $ {Co_3} $.</p>
+<p>
+However, Witt&#8217;s 1941-paper does not contain a numbered list of 24-dimensional lattices. In fact, apart from $ {E_8+E_8+E_8} $ is does not contain a single lattice in $ {\Gamma_{24}} $. The only relevant paragraph is indeed on page 324</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wittclaim2.png"></p>
+<p>
+He observes that Mordell already proved that there is just one lattice in $ {\Gamma_8} $ (the $ {E_8} $-lattice) and that the main result of his paper is to prove that there are precisely two even unimodular 16-dimensional lattices : $ {E_8+E_8} $ and another lattice, now usually called the 16-dimensional Witt-lattice.</p>
+<p>
+He then goes on to observe that Schoeneberg knew that $ {\# \Gamma_{24} &gt; 1} $ and so there must be more lattices than $ {E_8+E_8+E_8} $ in $ {\Gamma_{24}} $. Witt concludes with : &#8220;In my attempt to find such a lattice, I discovered more than 10 lattices in $ {\Gamma_{24}} $. The determination of $ {\# \Gamma_{24}} $ does not seem to be entirely trivial.&#8221;</p>
+<p>
+Hence, it is fair to assume that by 1940 Ernst Witt had discovered at least 11 of the 24 Niemeier lattices. Whether the Leech lattice was indeed lattice 11 on the list is anybody&#8217;s guess.</p>
+<p>
+Next time we will look more closely into the historical context of Witt&#8217;s 1941 paper.</p>
+<p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/who-discovered-the-leech-lattice/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Olivier Messiaen &#038; Mathieu 12</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/olivier-messiaen-mathieu-12/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/olivier-messiaen-mathieu-12/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2009 10:27:55 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[simple groups]]></category>
+		<category><![CDATA[sporadic groups]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2691</guid>
+
+					<description><![CDATA[To mark the end of 2009 and 6 years of blogging, two musical compositions with a mathematical touch to them. I wish you all a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>To mark the end of 2009 and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/a-blogging-2004.html">6 years</a> of blogging, two musical compositions with a mathematical touch to them. I wish you all a better 2010!</p>
+<p>Remember from <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/seriously-now-where-was-the-bourbaki-wedding.html">last time</a> that we identified <a href="http://en.wikipedia.org/wiki/Olivier_Messiaen">Olivier Messiaen</a> as the &#8216;Monsieur Modulo&#8217; playing the musical organ at the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/when-was-the-bourbaki-wedding.html">Bourbaki wedding</a>. This was based on the fact that his “modes à transposition limitée” are really about epimorphisms between modulo rings Z/12Z→Z/3Z and Z/12Z→Z/4Z.</p>
+<p>However, Messiaen had more serious mathematical tricks up his sleeve. In two of his compositions he did discover (or at least used) one of the smaller <a href="http://en.wikipedia.org/wiki/Sporadic_group">sporadic groups</a>, the Mathieu group $M_{12} $ of order 95040 on which we have based a whole series of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/conways-puzzle-m13.html">Mathieu games</a> two and a half years ago.</p>
+<p>Messiaen&#8217;s &#8216;Ile de fey 2&#8217; composition for piano (part of Quatre études de rythme (&#8220;Four studies in rhythm&#8221;), piano (1949–50)) is based on two concurrent permutations. The first is shown below, with the underlying motive rotational permutation shown.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messiM12a.jpg"><br />
+</center></p>
+<p>This gives the permutation (1,7,10,2,6,4,5,9,11,12)(3,8). A second concurrent permutation is based on the permutation (1,6,9,2,7,3,5,4,8,10,11) and both of them generate the Mathieu group $M_{12} $. This can be seen by realizing the two permutations as the rotational permutations</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messiM12b.jpg"><br />
+</center></p>
+<p>and identifying them with the <a href="http://en.wikipedia.org/wiki/Shuffling#Mongean_shuffle">Mongean shuffles</a>  generating $M_{12} $. See for example, Dave Benson&#8217;s book &#8220;Music: A Mathematical Offering&#8221;, freely available <a href="http://www.maths.abdn.ac.uk/~bensondj/html/music.pdf">online</a>.</p>
+<p>Clearly, Messiaen doesn&#8217;t use all of its 95040 permutations in his piece! Here&#8217;s how it sounds. The piece starts 2 minutes into the clip.</p>
+<p><center><object width="375" height="304"><param name="movie" value="http://www.youtube.com/v/6UrpeXcrG2c&#038;hl=en_US&#038;fs=1&#038;"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/6UrpeXcrG2c&#038;hl=en_US&#038;fs=1&#038;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="375" height="304"></embed></object></center></p>
+<p>The second piece is &#8220;Les Yeux dans les Roues&#8221; (The Eyes in the Wheels), sixth piece from the &#8220;Livre d&#8217;Orgue&#8221; (1950/51).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messiM12c.jpg"><br />
+</center></p>
+<p>According to <a href="http://hauptwerk.blogspot.com/2008/10/olivier-messiaen-les-yeux-dans-les.html">Hauptwerk</a>, the piece consists of a melody/theme in the pedal, accompanied by two fast-paced homorhythmic lines in the manuals. The pedal presents a sons-durées theme which is repeated six times, in different permutations. Initially it is presented in its natural form. Afterwards, it is presented alternatively picking notes from each end of the original form. Similar transformations are applied each time until the sixth, which is the retrograde of the first. The entire twelve-tone analysis (pitch only, not rhythm) of the pedal is shown below:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messiM12d.jpg"><br />
+</center></p>
+<p>That is we get the following five permutations which again generate Mathieu 12 :</p>
+<ul>
+<li>a=(2,3,5,9,8,10,6,11,4,7,12)</li>
+<li>b=(1,2,4,8,9,7,11,3,6,12)(5,10)=e*a</li>
+<li>c=(1,12,11,9,5,4,6,2,10,7)(3,8)=e*d</li>
+<li>d=(1,11,10,8,4,5,3,7,2,9,6)</li>
+<li>e=(1,12)(2,11)(3,10)(4,9)(5,8)(6,7)</li>
+</ul>
+<p>Here&#8217;s the piece performed on organ :</p>
+<p><object style="display:block; margin:0px auto 10px; text-align:center;" height="304" width="375"><param name="movie" value="http://www.youtube.com/v/rbNKxRims1s&amp;hl=en&amp;fs=1"><param name="allowFullScreen" value="true"><embed src="http://www.youtube.com/v/rbNKxRims1s&amp;hl=en&amp;fs=1" type="application/x-shockwave-flash" allowfullscreen="true" height="304" width="375"></embed></object></p>
+<p>Considering the permutations $X=d.a^{-1} $ and $Y=(a.d^2.a.d^3)^{-1} $ one obtains canonical generators of $M_{12} $, that is, generators satisfying the defining equations of this sporadic group</p>
+<p>$X^2=Y^3=(XY)^{11}=[X,Y]^6=(XYXYXY^{-1})^6=1 $</p>
+<p>I leave you to work out the corresponding <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monsieur-mathieu.html">dessin d&#8217;enfant</a> tonight after a couple of glasses of champagne! It sure has a nice form. Once again, a better 2010!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/olivier-messiaen-mathieu-12/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>sporadic simple games</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/sporadic-simple-games/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/sporadic-simple-games/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 13 Jul 2008 11:10:20 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[blackjack]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=439</guid>
+
+					<description><![CDATA[About a year ago I did a series of posts on games associated to the Mathieu sporadic group $M_{12} $, starting with a post on&#8230;]]></description>
+										<content:encoded><![CDATA[<p>About a year ago I did a series of posts on games associated to the Mathieu sporadic group $M_{12} $, starting with a post on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/conways-puzzle-m13.html">Conway&#8217;s puzzle M(13)</a>, and, continuing with a discussion of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mathieus-blackjack-1.html">mathematical blackjack</a>. The idea at the time was to write a book for a general audience, as discussed at the start of the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/conways-puzzle-m13.html">M(13)-post</a>, ending with a series of new challenging mathematical games. I asked : &#8220;What kind of puzzles should we promote for mathematical thinking to have a fighting chance to survive in the near future?&#8221;</p>
+<p>Now, Scientific American has (no doubt independently) taken up this lead. Their July 2008 issue features the article <a href="http://www.sciam.com/article.cfm?id=simple-groups-at-play">Rubik&#8217;s Cube Inspired Puzzles Demonstrate Math&#8217;s &#8220;Simple Groups&#8221;</a> written by Igor Kriz and Paul Siegel.</p>
+<p>By far the nicest thing about this article is that it comes with <a href="http://www.sciam.com/article.cfm?id=puzzles-simple-groups-at-play">three online games</a> based on the sporadic simple groups, the Mathieu groups $M_{12} $, $M_{24} $ and the Conway group $.0 $.</p>
+<p><strong>the M(12) game</strong></p>
+<p>Scrambles to an arbitrary permutation in $M_{12} $ and need to use the two generators $INVERT=(1,12)(2,11)(3,10)(4,9)(5,8)(6,7) $ and $MERGE=(2,12,7,4,11,6,10,8,9,5,3) $ to return to starting position.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m12game.jpg"><br />
+</center></p>
+<p>Here is the help-screen :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m12gamehelp.jpg" width=650 ><br />
+</center></p>
+<p>They promise the solution by july 27th, but a few-line GAP-program cracks the puzzle instantly.</p>
+<p><strong>the M(24) game</strong></p>
+<p>Similar in nature, again using two generators of $M_{24} $. GAP-solution as before.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m24game.jpg"><br />
+</center></p>
+<p>This time, they offer this help-screen :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m24gamehelp.jpg"><br />
+</center></p>
+<p><strong>the .0 game</strong></p>
+<p>Their most original game is based on Conway&#8217;s $.0 $ (dotto) group. Unfortunately, they offer only a Windows-executable version, so I had to install <a href="http://www.apple.com/macosx/features/bootcamp.html">Bootcamp</a> and struggle a bit with taking screenshots on a MacBook to show you the game&#8217;s starting position :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dottogame.jpg"><br />
+</center></p>
+<blockquote><p>
+Dotto: </p>
+<p />
+Dotto, our final puzzle, represents the Conway group Co0, published in 1968 by mathematician John H. Conway of Princeton University. Co0 contains the sporadic simple group Co1 and has exactly twice as many members as Co1. Conway is too modest to name Co0 after himself, so he denotes the group “.0” (hence the pronunciation “dotto”).</p>
+<p />
+<p>In Dotto, there are four moves. This puzzle includes the M24 puzzle. Look at the yellow/blue row in the bottom. This is, in fact, M24, but the numbers are arranged in a row instead of a circle. The R move is the &#8220;circle rotation to the right&#8221;: the column above the number 0 stays put, but the column above the number 1 moves to the column over the number 2 etc. up to the column over the number 23, which moves to the column over the number 1. You may also click on a column number and then on another column number in the bottom row, and the &#8220;circle rotation&#8221; moving the first column to the second occurs. The M move is the switch, in each group of 4 columns separated by vertical lines (called tetrads) the &#8220;yellow&#8221; columns switch and the &#8220;blue&#8221; columns switch. The sign change move (S) changes signs of the first 8 columns (first two tetrads). The tetrad move (T) is the most complicated: Subtract in each row from each tetrad 1/2 times the sum of the numbers in that tetrad. Then in addition to that, reverse the signs of the columns in the first tetrad.</p>
+<p />
+<p>Strategy hints: Notice that the sum of squares of the numbers in each row doesn&#8217;t change. (This sum of squares is 64 in the first row, 32 in every other row.) If you manage to get an &#8220;8&#8221;in the first row, you have almost reduced the game to M24 except those signs. To have the original position, signs of all numbers on the diagonal must be +. Hint on signs: if the only thing wrong are signs on the diagonal, and only 8 signs are wrong, those 8 columns can be moved to the first 8 columns by using only the M24 moves (M,R).
+</p></blockquote>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/sporadic-simple-games/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Arnold’s trinities version 2.0</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities-version-20/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities-version-20/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 20 Jun 2008 07:26:54 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=431</guid>
+
+					<description><![CDATA[Arnold has written a follow-up to the paper mentioned last time called “Polymathematics : is mathematics a single science or a set of arts?” (or&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Arnold has written a follow-up to the paper mentioned <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/arnolds-trinities.html">last time</a> called <a href="http://www.pdmi.ras.ru/~arnsem/Arnold/Polymath.ps.gz">“Polymathematics : is mathematics a single science or a set of arts?”</a> (or <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/ArnoldPolymathics.pdf">here</a> for a (huge) PDF-conversion).</p>
+<p>On page 8 of that paper is a nice summary of his 25 trinities :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/arnoldv2.jpg"  ><br />
+</center></p>
+<p>I learned of this newer paper from a comment by <a href="http://math.univ-lyon1.fr/~chapoton/">Frederic Chapoton</a> who maintains a <a href="http://math.univ-lyon1.fr/~chapoton/trinites.html">nice webpage</a> dedicated to trinities.</p>
+<p>In his list there is one trinity on sporadic groups :</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity1.jpg" align=center ></p>
+<p>where $F_{24} $ is the <a href="http://en.wikipedia.org/wiki/Fischer_group">Fischer simple group</a> of order $2^{21}.3^{16}.5^2.7^3.11.13.17.23.29 = 1255205709190661721292800 $, which is the third largest sporadic group (the two larger ones being the <a href="http://en.wikipedia.org/wiki/Baby_Monster_group">Baby Monster</a> and the <a href="http://en.wikipedia.org/wiki/Monster_group">Monster</a> itself).</p>
+<p>I don&#8217;t know what the rationale is behind this trinity. But I&#8217;d like to recall the (Baby)Monster history as a warning against the trinity-reflex. Sometimes, there is just no way to extend a <strong>would be</strong> trinity.</p>
+<p>The story comes from Mark Ronan&#8217;s book <a href="http://www.maa.org/reviews/SymmetryMonster.html">Symmetry and the Monster</a> on page 178.</p>
+<blockquote><p>Let&#8217;s remind ourselves how we got here. A few years earlier, <a href="http://en.wikipedia.org/wiki/Bernd_Fischer">Fischer</a> has created his &#8216;transposition&#8217; groups Fi22, Fi23, and Fi24. He had called them M(22), M(23), and M(24), because they were related to Mathieu&#8217;s groups M22,M23, and M24, and since he used Fi22 to create his new group of mirror symmetries, he tentatively called it $M^{22} $.<br />
+It seemed to appear as a cross-section in something even bigger, and as this larger group was clearly associated with Fi24, he labeled it $M^{24} $. Was there something in between that could be called $M^{23} $? <br />
+Fischer visited Cambridge to talk on his new work, and Conway named these three potential groups the <strong>Baby Monster</strong>, the <strong>Middle Monster</strong>, and the<strong> Super Monster</strong>. When it became clear that the Middle Monster didn&#8217;t exist, Conway settled on the names Baby Monster and Monster, and this became the standard terminology.</p></blockquote>
+<p>Marcus du Sautoy&#8217;s account in <a href="http://findingmoonshine.blogspot.com/">Finding Moonshine</a> is slightly different. He tells on page 322 that the Super Monster didn&#8217;t exist. Anyone knowing the factual story?</p>
+<blockquote><p>Some mathematical trickery later revealed that the Super Monster was going to be impossible to build: there were certain features that contradicted each other. It was just a mirage, which vanished under closer scrutiny. But the other two were still looking robust. The Middle Monster was rechristened simply the Monster.</p></blockquote>
+<p>And, the inclusion diagram of the sporadic simples tells yet another story.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/sporadics.jpg" ><br />
+</center></p>
+<p>Anyhow, this inclusion diagram is helpful in seeing the three generations of the <strong>Happy Family</strong> (as well as the <strong>Pariahs</strong>) of the <a href="http://en.wikipedia.org/wiki/Sporadic_group">sporadic groups</a>, terminology invented by <a href="http://www.math.lsa.umich.edu/~rlg/">Robert Griess</a> in his 100+p Inventiones paper on the construction of the Monster (which he liked to call, for obvious reasons, the Friendly Giant denoted by FG).<br />
+The happy family appears in Table 1.1. of the introduction.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/Griess.jpg" ><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/happyfamily.jpg" width=400 ><br />
+</center></p>
+<p>It was this picture that made me propose the trinity on the left below in the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/arnolds-trinities.html">previous post</a>. I now like to add another trinity on the right, and, the connection between the two is clear.</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity2.jpg" width=100% ></p>
+<p>Here $Golay $ denotes the extended binary <a href="http://en.wikipedia.org/wiki/Binary_Golay_code">Golay code</a> of which the Mathieu group $M_{24} $ is the automorphism group. $Leech $ is of course the 24-dimensional <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> of which the automorphism group is a double cover of the Conway group $Co_1 $. $Griess $ is the <a href="http://en.wikipedia.org/wiki/Griess_algebra">Griess algebra</a> which is a nonassociative 196884-dimensional algebra of which the automorphism group is the Monster.</p>
+<p>I am aware of a construction of the Leech lattice involving the quaternions (the icosian construction of chapter 8, section 2.2 of <a href="http://acronyms.thefreedictionary.com/SPLAG">SPLAG</a>). Does anyone know of a construction of the Griess algebra involving octonions???</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities-version-20/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Arnold’s trinities</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 17 Jun 2008 17:17:34 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=430</guid>
+
+					<description><![CDATA[Referring to the triple of exceptional Galois groups $L_2(5),L_2(7),L_2(11) $ and its connection to the Platonic solids I wrote : &#8220;It sure seems that surprises&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="http://www.fields.utoronto.ca/programs/scientific/96-97/arnold/arnold.jpg" hspace=10 style="float:left;margin-right:10px;" >Referring to the triple of exceptional Galois groups $L_2(5),L_2(7),L_2(11) $ and its connection to the Platonic solids I <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">wrote</a> : &#8220;It sure seems that surprises often come in triples…&#8221;. Briefly I considered replacing triples by trinities, but then, I didnt want to sound too mystic&#8230;</p>
+<p>David Corfield of the <a href="http://golem.ph.utexas.edu/category/2008/06/the_mathematical_sublime.html">n-category cafe</a> and <a href="http://dialinf.wordpress.com/2008/06/11/the-sublime/">a dialogue on infinity</a> (and perhaps other blogs I&#8217;m unaware of) pointed me to the paper <a href="http://www.pdmi.ras.ru/~arnsem/Arnold/arnlect2.ps.gz">Symplectization, complexification and mathematical trinities</a> by <a href="http://en.wikipedia.org/wiki/Vladimir_Arnold">Vladimir I. Arnold</a>. (Update : <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/ArnoldTrinities.pdf">here</a> is a PDF-conversion of the paper)</p>
+<p>The paper is a write-up of the second in a series of three lectures Arnold gave in june 1997 at the meeting in the <a href="http://www.fields.utoronto.ca/">Fields Institute</a> dedicated to his 60th birthday. The goal of that lecture was to explain some mathematical dreams he had.</p>
+<blockquote><p>The next dream I want to present is an even more fantastic set of theorems and conjectures. Here I also have no theory and actually the ideas form a kind of religion rather than mathematics.<br />
+The key observation is that in mathematics one encounters many trinities. I shall present a list of examples. The main dream (or conjecture) is that all these trinities are united by some rectangular &#8220;commutative diagrams&#8221;.<br />
+I mean the existence of some &#8220;functorial&#8221; constructions connecting different trinities. The knowledge of the existence of these diagrams provides some new conjectures which might turn to be true theorems.
+</p></blockquote>
+<p>Follows a list of 12 trinities, many taken from Arnold&#8217;s field of expertise being differential geometry. I&#8217;ll restrict to the more algebraically inclined ones.</p>
+<p><strong>1 :</strong> &#8220;The first trinity everyone knows is&#8221;</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity3.jpg"></p>
+<p>where $\mathbb{H} $ are the Hamiltonian <a href="http://en.wikipedia.org/wiki/Quaternion">quaternions</a>. The trinity on the left may be natural to differential geometers who see real and complex and hyper-Kaehler manifolds as distinct but related beasts, but I&#8217;m willing to bet that most algebraists would settle for the trinity on the right where $\mathbb{O} $ are the <a href="http://en.wikipedia.org/wiki/Octonion">octonions</a>.</p>
+<p><strong>2 :</strong> The next trinity is that of the exceptional Lie algebras <a href="http://en.wikipedia.org/wiki/E6_(mathematics)">E6</a>, <a href="http://en.wikipedia.org/wiki/E7_(mathematics)">E7</a> and <a href="http://en.wikipedia.org/wiki/E8_(mathematics)">E8</a>.</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity4.jpg"></p>
+<p>with corresponding Dynkin-Coxeter diagrams</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/dynkins.jpg"></p>
+<p>Arnold has this to say about the apparent ubiquity of Dynkin diagrams in mathematics.</p>
+<blockquote><p>Manin told me once that the reason why we always encounter this list in many different mathematical classifications is its presence in the hardware of our brain (which is thus unable to discover a more complicated scheme). <br />
+I still hope there exists a better reason that once should be discovered.</p></blockquote>
+<p>Amen to that. I&#8217;m quite hopeful human evolution will overcome the limitations of Manin&#8217;s brain&#8230;</p>
+<p><strong>3 :</strong> Next comes the Platonic trinity of the <a href="http://en.wikipedia.org/wiki/Tetrahedron">tetrahedron</a>, <a href="http://en.wikipedia.org/wiki/Cube">cube</a> and <a href="http://en.wikipedia.org/wiki/Dodecahedron">dodecahedron</a></p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity5.jpg"></p>
+<p><center><br />
+<img decoding="async" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tetrahedron.svg/240px-Tetrahedron.svg.png" width=200> <img decoding="async" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Hexahedron.svg/240px-Hexahedron.svg.png" width=200><img decoding="async" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/66/POV-Ray-Dodecahedron.svg/240px-POV-Ray-Dodecahedron.svg.png" width=200><br />
+</center></p>
+<p>Clearly one can argue against this trinity as follows : a tetrahedron is a bunch of triangles such that there are exactly 3 of them meeting in each vertex, a cube is a bunch of squares, again 3 meeting in every vertex, a dodecahedron is a bunch of pentagons 3 meeting in every vertex&#8230; and we can continue the pattern. What should be a bunch a hexagons such that in each vertex exactly 3 of them meet? Well, only one possibility : it must be the <a href="http://en.wikipedia.org/wiki/Hexagonal_tiling">hexagonal tiling</a> (on the left below). And in normal Euclidian space we cannot have a bunch of septagons such that three of them meet in every vertex, but in hyperbolic geometry this is still possible and leads to the <a href="http://math.ucr.edu/home/baez/klein.html">Klein quartic</a> (on the right). Check out this wonderful post by John Baez for more on this.</p>
+<p><center><br />
+<img decoding="async" src="http://math.ucr.edu/home/baez/KleinDualInsideOut.gif" width=300><br />
+</center></p>
+<p><strong>4 :</strong> The trinity of the rotation symmetry groups of the three Platonics</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity6.jpg"></p>
+<p>where $A_n $ is the <a href="http://en.wikipedia.org/wiki/Alternating_group">alternating group</a> on n letters and $S_n $ is the <a href="http://en.wikipedia.org/wiki/Symmetric_group">symmetric group</a>.</p>
+<p>Clearly, any rotation of a Platonic solid takes vertices to vertices, edges to edges and faces to faces. For the tetrahedron we can easily see the 4 of the group $A_4 $, say the 4 vertices. But what is the 4 of $S_4 $ in the case of a cube? Well, a cube has 4 body-diagonals and they are permuted under the rotational symmetries. The most difficult case is to see the $5 $ of $A_5 $ in the dodecahedron. Well, here&#8217;s the solution to this riddle</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cubedode.jpg"><br />
+</center></p>
+<p>there are exactly 5 inscribed cubes in a dodecahedron and they are permuted by the rotations in the same way as $A_5 $.</p>
+<p><strong>7 :</strong> The seventh trinity involves complex polynomials in one variable</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity7.jpg"></p>
+<p>the Laurant polynomials and the <strong>modular polynomials</strong> (that is, rational functions with three poles at 0,1 and $\infty $.</p>
+<p><strong>8 :</strong> The eight one is another beauty</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity8.jpg"></p>
+<p>Here &#8216;numbers&#8217; are the ordinary complex numbers $\mathbb{C} $, the &#8216;trigonometric numbers&#8217; are the quantum version of those (aka q-numbers) which is a one-parameter deformation and finally, the &#8216;elliptic numbers&#8217; are a two-dimensional deformation. If you ever encountered a Sklyanin algebra this will sound familiar.</p>
+<p>This trinity is based on a paper of Turaev and Frenkel and I must come back to it some time&#8230;</p>
+<p>The paper has some other nice trinities (such as those among Whitney, Chern and Pontryagin classes) but as I cannot add anything sensible to it, let us include a few more algebraic trinities. The first one attributed by Arnold to <a href="http://en.wikipedia.org/wiki/John_McKay_(mathematics)">John McKay</a></p>
+<p><strong>13 :</strong> A trinity parallel to the exceptional Lie algebra one is</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity9.jpg"></p>
+<p>between the 27 straight lines on a cubic surface, the 28 bitangents on a quartic plane curve and the 120 tritangent planes of a canonic sextic curve of genus 4.</p>
+<p><strong>14 :</strong> The exceptional Galois groups</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity10.jpg"></p>
+<p>explained <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">last time</a>.</p>
+<p><strong>15 :</strong> The associated curves with these groups as symmetry groups (as in the previous post)</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity11.jpg"></p>
+<p>where the ? refers to the mysterious genus 70 curve. I&#8217;ll check with one of the authors whether there is still an embargo on the content of this paper and if not come back to it in full detail.</p>
+<p><strong>16 :</strong> The three generations of <a href="http://en.wikipedia.org/wiki/Sporadic_group">sporadic groups</a></p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity12.jpg"></p>
+<p><strong>Do you have other trinities you&#8217;d like to worship?</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>bloomsday 2 : BistroMath</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/bloomsday-2-bistromath/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/bloomsday-2-bistromath/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 16 Jun 2008 08:11:11 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=422</guid>
+
+					<description><![CDATA[Exactly one year ago this blog was briefly renamed MoonshineMath. The concept being that it would focus on the mathematics surrounding the monster group &#38;&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Exactly <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/bloomsday-end.html">one year ago</a> this blog was briefly renamed <strong>MoonshineMath</strong>. The concept being that it would focus on the mathematics surrounding the monster group &amp; moonshine. Well, I got as far as the Mathieu groups&#8230;</p>
+<p>After a couple of months, I changed the name back to neverendingbooks because I needed the freedom to post on any topic I wanted. I know some people preferred the name MoonshineMath, but so be it, anyone&#8217;s free to borrow that name for his/her own blog.</p>
+<p>Today it&#8217;s bloomsday again, and, as I&#8217;m a cyclical guy, I have another idea for a conceptual blog : <strong>the bistromath chronicles</strong> (or something along this line).</p>
+<p>Here&#8217;s the relevant section from the <a href="http://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy">Hitchhikers guide</a></p>
+<blockquote><p><strong>Bistromathics</strong> itself is simply a revolutionary new way of understanding the behavior of numbers. &#8230; <br />
+Numbers written on restaurant checks within the confines of restaurants do not follow the same mathematical laws as numbers written on any other pieces of paper in any other parts of the Universe.<br />
+This single statement took the scientific world by storm. It completely revolutionized it.So many mathematical conferences got hold in such good restaurants that many of the finest minds of a generation died of obesity and heart failure and the science of math was put back by years.
+</p></blockquote>
+<p>Right, so what&#8217;s the idea? Well, on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-n-category-cafe.html">numerous occasions</a> Ive stated that any math-blog can only survive as a group-blog. I did approach a lot of people directly, but, as you have noticed, without too much success&#8230; Most of them couldnt see themselves contributing to a blog for one of these reasons : it costs too much energy and/or it&#8217;s way too inefficient. They say : career-wise there are far cleverer ways to spend my energy than to write a blog. And&#8230; there&#8217;s no way I can argue against this.</p>
+<p>Whence plan B : set up a group-blog for a fixed amount of time (say one year), expect contributors to write one or two series of about 4 posts on their chosen topic, re-edit the better series afterwards and turn them into a book.</p>
+<p>But, in order to make a coherent <a href="http://online.itp.ucsb.edu/online/resident/ouellette5/">book proposal</a> out of blog-post-series, they&#8217;d better center around a common theme, whence the <strong>BistroMath</strong> ploy. Imagine that some of these forgotten &#8220;restaurant-check-notes&#8221; are discovered, decoded and explained. Apart from the mathematics, one is free to invent new recepies or add descriptions of restaurants with some mathematical history, etc. etc.</p>
+<p>One possible scenario (but I&#8217;m sure you will have much better ideas) : part of the <a href="http://www.msri.org/publications/ln/msri/1997/ldt/conway/1/banner/04.html">knotation</a> is found on a restaurant-check of some Italian restaurant. This allow to explain Conway&#8217;s theory of rational tangles, give the perfect way to cook spaghetti to experiment with tangles and tell the history of Manin&#8217;s Italian restaurant in Bonn where (it is rumoured) the 1998 Fields medals were decided&#8230;</p>
+<p>But then, there is no limit to your imagination as long as it somewhat fits within the framework. For example, I&#8217;d love to read the transcripts of a chat-session in SecondLife between Dedekind and Conway on the construction of real numbers&#8230; I hope you get the drift.</p>
+<p>I&#8217;m not going to rename neverendingbooks again, but am willing to set up the BistroMath blog provided</p>
+<ul>
+<li>Five to ten people are interested to participate</li>
+<li>At least one book-editor shows an interest<br />
+<color="red">update : (16/06) contacted by first publisher</color></li>
+</ul>
+<p>You can leave a comment or, if you prefer, contact me via email (if you&#8217;re human you will have no problem getting my address&#8230;).</p>
+<p>Clearly, people already blogging are invited and are allowed to cross-post (in fact, that&#8217;s what I will do if it ever gets so far). Finally, if you are not willing to contribute blog-posts but like the idea and are willing to contribute to it in any other way, we are still auditioning for <strong>chanting monks</strong></p>
+<blockquote><p>The small group of monks who had taken up hanging around the major research institutes singing strange chants to the effect that the Universe was only a figment of its own imagination were eventually given a street theater grant and went away.
+</p></blockquote>
+<p>And, if you do not like this idea, there will be another bloomsday-idea next year&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bloomsday-2-bistromath/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

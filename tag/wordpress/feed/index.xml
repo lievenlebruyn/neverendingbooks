@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>wordpress &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 06 Mar 2023 14:09:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Loading a second brain</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 06 Mar 2023 14:09:28 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Ahrens]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[Forte]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[graph]]></category>
+		<category><![CDATA[loading]]></category>
+		<category><![CDATA[LogSeq]]></category>
+		<category><![CDATA[mathjax]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[PKM]]></category>
+		<category><![CDATA[RoamResearch]]></category>
+		<category><![CDATA[second]]></category>
+		<category><![CDATA[SecondBrain]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11005</guid>
+
+					<description><![CDATA[Before ChatGPT, the hype among productivity boosters was a PKMs or Personal knowledge management system. It gained popularity through Tiago Forte&#8217;s book &#8216;Building a second&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Before ChatGPT, the hype among productivity boosters was a PKMs or <a href="https://en.wikipedia.org/wiki/Personal_knowledge_management">Personal knowledge management system</a>.</p>
+<p>It gained popularity through Tiago Forte&#8217;s book <a href="https://www.buildingasecondbrain.com/">&#8216;Building a second brain&#8217;</a>, and (for academics perhaps a more useful read) <a href="https://www.soenkeahrens.de/en/takesmartnotes">&#8216;How to take smart notes&#8217;</a> by Sönke Ahrens.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/412AXfNUJSL._SX313_BO1,204,203,200_.jpg" width=40%> <img decoding="async" src="https://m.media-amazon.com/images/I/41rkDzw+bSL._SX326_BO1,204,203,200_.jpg" width=41.7%><br />
+</center></p>
+<p>These books promote new techniques for note-taking (and for storing these notes) such as <a href="https://fortelabs.com/blog/para/">the PARA-method</a>, <a href="https://www.astar.studio/the-code-system/">the CODE-system</a>, and <a href="https://en.wikipedia.org/wiki/Zettelkasten">Zettelkasten</a>.</p>
+<p><a href="https://unmistakablecreative.com/category/second-brain/">Unmistakable Creative</a> has some posts on the principles behing the &#8216;second brain&#8217; approach.</p>
+<blockquote><p>
+Your brain isn’t like a hard drive or a dropbox, where information is stored in folders and subfolders. None of our thoughts or ideas exist in isolation. Information is organized in a series of non-linear associative networks in the brain.</p>
+<p>Networked thinking is not just a more efficient way to organize information. It frees your brain to do what it does best: Imagine, invent, innovate, and create. The less you have to remember where information is, the more you can use it to summarize that information and turn knowledge into action.
+</p></blockquote>
+<p>and</p>
+<blockquote><p>
+A network has no “correct” orientation and thus no bottom and no top. Each individual, or “node,” in a network functions autonomously, negotiating its own relationships and coalescing into groups. Examples of networks include a flock of birds, the World Wide Web, and the social ties in a neighborhood. Networks are inherently “bottom-up” in that the structure emerges organically from small interactions without direction from a central authority.</p>
+<p>-Tiago Forte, <a href="https://fortelabs.com/blog/a-complete-guide-to-tagging-for-personal-knowledge-management/">Tagging for Personal Knowledge Management</a>
+</p></blockquote>
+<p>There are several apps you can use to start building your second brain, the more popular seem to be <a href="https://roamresearch.com/">Roam Research</a>, <a href="https://logseq.com/">LogSeq</a>, and <a href="https://obsidian.md/">Obsidian</a>.</p>
+<p>These systems allow you to store, link and manipulate a large collection of notes, query them as a database, modify them in various ways via plugins or scripts, and navigate the network created via graph-views.</p>
+<p>Exactly the kind of things we need to modify the simple system from the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">shape of languages</a>-post into a proper topos of the unconscious.</p>
+<p>I&#8217;ve been playing around with <a href="https://obsidian.md/">Obsidian</a> which I like because it has good <a href="https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Mathjax+and+LaTeX+Plugins">LaTeX plugins</a>, powerful database tools via the <a href="https://blacksmithgu.github.io/obsidian-dataview/">Dataview plugin</a>, and one can execute codeblocks within notes in almost any programming language (python, haskell, lean, Mathematica, ruby, javascript, R, &#8230;).</p>
+<p>Most of all it has a vibrant community of users, an excellent <a href="https://forum.obsidian.md/">forum</a>, and a well-documented <a href="https://publish.obsidian.md/hub/%F0%9F%97%82%EF%B8%8F+hub">Obsidian hub</a>.</p>
+<p>There&#8217;s just one problem, I&#8217;m a terrible note-taker, so how can I begin to load my &#8216;second brain&#8217;?</p>
+<p>Obsidian has several plugins to import data, such as your Kindle highlights, your Twitter feed, your Readwise-data, and many others, but having been too lazy in the past, I cannot use any of them.</p>
+<p>In fact, the only useful collection of notes I have are my blog-posts. So, I&#8217;ve uploaded NeverEndingBooks into Obsidian, one note per post (admittedly, not very Zettelkasten-like), half a million words in total.</p>
+<p>Fortunately, I did tag most of these posts at the time. Together with other meta-data this results in the <a href="https://help.obsidian.md/Plugins/Graph+view">Graph view</a> below (under &#8216;Files&#8217; toggled tags, under &#8216;Groups&#8217; three tag-colours, and under &#8216;Display&#8217; toggled arrows). One can add colour-groups based on tags or other information (here, red dots are posts tagged &#8216;Grothendieck&#8217;, the blue ones are tagged &#8216;Conway&#8217;, the purple ones tagged &#8216;Connes&#8217;, just for the sake of illustration). In Obsidian you can zoom into this graph, place a pointer on a node to highlight the connecting dots, and much more.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBgraphview.png" width=100% ><br />
+</center></p>
+<p>Because I tend to forget such things, and as it may be useful to other people running a WordPress-blog making heavy use of MathJax, here&#8217;s the procedure I followed:</p>
+<p>1. Follow the instructions from <a href="https://daext.com/blog/convert-wordpress-articles-to-markdown/">Convert wordpress articles to markdown</a>.</p>
+<ul>
+<li>Export your WordPress posts to XML</li>
+<li>Install <a href="https://nodejs.org/en/">Node.js</a></li>
+<li>Run the <a href="https://github.com/lonekorean/wordpress-export-to-markdown">wordpress-export-to-markdown</a> script</li>
+</ul>
+<p>In the wizard I&#8217;ve opted to go only for yearly folders, to prefix posts with the date, and to save all images.</p>
+<p>2. This gives you a directory with one folder per year containing markdown versions of your posts, and in each year-folder a subfolder &#8216;img&#8217; containing all images.</p>
+<p>Turn this directory into an Obsidian-vault by opening Obsidian, click on the &#8216;open another vault&#8217; icon (third from bottom-left), select &#8216;Open folder as vault&#8217; and navigate to your directory.</p>
+<p>3. You will notice that most of your LaTeX cannot be parsed because during the markdown-process backslashes are treaded as special character, resulting in two backslashes for every LaTeX-command&#8230;</p>
+<p>A remark before trying to solve this: another option might be to use the <a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">wordpress-to-hugo-exporter</a>, resulting in clean LaTeX, but lacking the possibility to opt for yearly-folders (it dumps all posts into one folder), and it makes a mess of the image-files.</p>
+<p>4. So, we will need to do a lot of search&#038;replaces in all files, and need a convenient tool for this.</p>
+<p>First option was <a href="https://www.sublimetext.com/">the Sublime Text app</a>, which is free and does the search&#038;replaces quickly. The problem is that you have to save each of the files, one at a time! This may take hours.</p>
+<p>I&#8217;ve done it using the <a href="https://apps.apple.com/us/app/search-and-replace/id627484067?mt=12">Search and Replace app</a> (3$) which allows you to make several searches/replaces at the same time (I messed up LaTeX code in previous exports, so needed to do many more changes). It warns you that it is dangerous to replace strings in all files (which is the reason why Sublime Text makes it difficult), you can ignore it, but only after you put the &#8216;img&#8217; folders away in a safe place. Otherwise it will also try to make the changes to these files, recognise that they are not text-files, and drop them altogether&#8230;</p>
+<p>That&#8217;s it.</p>
+<p>I now have a backup network-version of this blog.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBzoom.png" width=100% ><br />
+</center></p>
+<p>As we mentioned in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">previous post</a> a first attempt to construct the &#8216;topos of the unconscious&#8217; might be to start with a collection of notes (the &#8216;conscious&#8217;) and work on the semantics of text-snippets to unravel (a part of) the unconscious underpinning of these notes. We also mentioned that the poset-structure in that post should be replaced by a more involved network structure.</p>
+<p>What interests me most is whether such an approach might be doable &#8216;in practice&#8217;, and Obsidian looks like the perfect tool to try this out.</p>
+<p>What we need is a sufficiently large set of notes, of independent interest, to inject into Obsidian. The more meta it is, the better&#8230;</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The joys of running a WordPress blog</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-joys-of-having-a-wordpress-blog/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-joys-of-having-a-wordpress-blog/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 21 Oct 2017 15:36:17 +0000</pubDate>
+				<category><![CDATA[rants]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7290</guid>
+
+					<description><![CDATA[Earlier today, John Duncan (of moonshine fame) emailed he was unable to post a comment to the previous post: &#8220;I went to post a comment&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Earlier today, John Duncan (of moonshine fame) emailed he was unable to post a comment to the <a href="https://lievenlebruyn.github.io/neverendingbooks/pariah-moonshine-and-math-writing">previous post</a>:<br />
+&#8220;I went to post a comment but somehow couldn&#8217;t convince the website to cooperate.&#8221;</p>
+<p>There&#8217;s little point in maintaining a self-hosted blog if people cannot comment on it. If you tried, you got this scary message:</p>
+<p><strong>Catchable fatal error: Object of class WP_Error could not be converted to string in /wp-includes/formatting.php on line 1031</strong></p>
+<p>The days I meddled with wordpress core php-files are long gone, and a quick Google search didn&#8217;t come up with anything helpful.</p>
+<p>In despair, there&#8217;s always the database to consider.</p>
+<p>Here&#8217;s a screenshot of this blog&#8217;s database in <a href="">phpMyAdmin</a>:</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments2.jpg"><img fetchpriority="high" decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments2.jpg" alt="" width="1000" height="389" class="alignnone size-full wp-image-7293" srcset="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments2.jpg 1000w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments2-300x117.jpg 300w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments2-768x299.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>No surprise you cannot comment here, there isn&#8217;t even a <strong>wp_comments</strong> table in the database! (though surprisingly, there&#8217;s a table wp_commentmeta&#8230;)</p>
+<p>Two weeks ago I moved this blog to a new iMac. Perhaps the database got corrupted in the process, or the quick export option of phpMyAdmin doesn&#8217;t include comments (unlikely), or whatever.</p>
+<p>Here&#8217;s what I did to get things working again. It may solve your problem if you don&#8217;t have a backup of another wordpress-blog with a functional wp_comments table.</p>
+<p>1. Set up a new WordPress blog in the <a href="https://codex.wordpress.org/Installing_WordPress">usual way</a>, including a new database, let&#8217;s call it &#8216;newblog&#8217;.</p>
+<p>2. In phpMyAdmin drop all tables in newblog except for wp_comments.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments1.jpg"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments1.jpg" alt="" width="1000" height="525" class="alignnone size-full wp-image-7296" srcset="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments1.jpg 1000w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments1-300x158.jpg 300w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments1-768x403.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>3. Export your blog&#8217;s database, say &#8216;oldblog&#8217;, via the &#8216;quick export&#8217; option in phpMyAdmin to get a file oldblog.sql.</p>
+<p>4. If this file is small you can use phpMyAdmin to import it into newblog. If not you need to do it with this terminal-command</p>
+<p><strong>mysql -h localhost -u root &#8211; p newblog < oldblog.sql</strong></p>
+<p>and have the patience for this to finish.</p>
+<p>5. Change in your wp-config file the oldblog database to newblog.</p>
+<p>Happy commenting!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-joys-of-having-a-wordpress-blog/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>From WordPress to ePublishing (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 11 Jul 2011 12:01:46 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[epub]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5577</guid>
+
+					<description><![CDATA[Perhaps, the tips and tricks I did receive to turn a selection of wordpress-posts into a proper ePub-file may be of use to others, so&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Perhaps, the tips and tricks I did receive to turn a selection of wordpress-posts into a proper <a href="http://en.wikipedia.org/wiki/EPUB">ePub</a>-file may be of use to others, so I will describe the procedure here in some detail.</p>
+<p>It makes a difference whether or not some of the posts contain TeX. This time, I&#8217;ll sketch the process for non-LaTeX posts and hence we will turn the Bourbaki-code posts into ePub-format to read on your iPad, rather than merely into a pdf-file as <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/ebook-the-bourbaki-code-v1-0.html">last time</a>. Next time, I&#8217;ll add some tricks to repeat this when some of your posts do contain LaTeX.</p>
+<p><strong>1. Install the ePub export plugin</strong></p>
+<p>Get the <a href="http://wordpress.org/extend/plugins/epub-export/">epub export</a> wordpress plugin, install and activate it in the usual way. ePub Export automatically creates an ePub file when a post or page is published or updated. The ePubs are stored in the uploads directory. For later use, remember that your uploads directories are located under BLOGHOME/wp-content/uploads.</p>
+<p><strong>2. Update the posts you want to include</strong></p>
+<p>Decide which posts you want to include in your eBook, edit them (or not) and press for each one of them the update-button. This will populate today&#8217;s uploads-directory with a number of epub-files. Transfer them all, for example using <a href="http://www.panic.com/transmit/">Transmit</a>, to a directory on your home-computer, named say MyFirstEBook.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/epub1.jpg"><br />
+</center></p>
+<p><strong>3. Unpack the epub-files</strong></p>
+<p>The crucial fact to remember about epub-files is that they are really zipped archives containing xhtml-, css- and other files and directories. As we want to edit some of those, we first have to unpack the directories. So, change the .epub extensions to .zip and double-click on them to create the directories.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/epub2.jpg"><br />
+</center></p>
+<p>The crucial files in each directory are preface.xhtml (containing title author and blog-name), text.html (containing the blog-post) and the images-directory (containing copies of all the images used in the post).</p>
+<p><strong>4. Rename the directories user-friendly</strong></p>
+<p>As all the posts will be chapters in our eBook in some specific order, we will rename the numbers of the directories to something more user-friendly such as shortened blog-titles. To do this, double-click in each of the directories on the preface.xhtml file. This will open Safari and will show the title of the blog-post. Use it to rename that directory. For convenience let us call the directory corresponding to the first chapter in our book MasterDirectory</p>
+<p><strong>5. Move all images to the master directory</strong></p>
+<p>For each of the other chapter-directories, drag all the files contained in the images-subdirectory to MasterDirectory/images.</p>
+<p><strong>6. Edit the MasterDirectory/text.xhtml file</strong></p>
+<p>Because we will have to open and copy-paste all the text.xhtml files of the different directories, it is perhaps best to rename momentarily the MasterDirectory/text.xhtml file to something like master.xhtml.</p>
+<p>Now, open this file with a text-processor such as <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a>. Edit it to remove unwanted html-code (such as links to other posts at the start if you are using the series-plugin, or previous/next post links at the end). Also add the title of the blog-post between h1-tags (and if you want to include a table of contents later, give it an anchor-name).</p>
+<p>Go to the directory of your second chapter, open that text.xhtml file and copy/paste only the post-content over to the master-xhtml file at the appropriate place. As before, add title/anchor before the copied post-content.</p>
+<p>Repeat this procedure, in order, for all the chapters of your eBook.</p>
+<p>Once finished, doubleclick the master.xhtml file and correct remaining errors (as it is an xhtml-file, it is rather picky about opening and closing tags) and see whether all your images are included. If you&#8217;re satisfied with it, rename the master.xhtml to text.xhtml (don&#8217;t forget this!).</p>
+<p><strong>7. Edit the MasterDirectory/preface.xhtml file</strong></p>
+<p>Open the preface.xhtml file and change the first blogpost-title to the title of your booklet, alter your name (by default it uses your wp-nick) and add a frontipiece-picture if you so desire.</p>
+<p><strong>8. Re-package the directory into an epub-file</strong></p>
+<p>This is the (only) tricky part. E-book readers require that the mimetype file is the first one in the zip document. What&#8217;s more, to be fully compliant, this file should start at a very specific point &#8211; a 30-byte offset from the beginning of the zip file (so that the mimetype text itself starts at byte 38).</p>
+<p>Here&#8217;s how to do this on a Mac (Linux-users being the geeks they are will have given up on reading this post a while ago and as to Windows-users, yeah well &#8230;). Open Terminal.app and cd to your MasterDirectory. Now type:</p>
+<p>zip -X MyFirstEBook.epub mimetype</p>
+<p>Next, type:</p>
+<p>zip -rg MyFirstEBook.epub * -x &#42;.DS_Store</p>
+<p>(of course you&#8217;ll have to change your book-title to whatever you want). If you want to know more about these 2 magical commands, read <a href="http://www.webvivant.com/zipping-epub-files.html">this post</a>.</p>
+<p><strong>9. Edit metadata</strong></p>
+<p>Get <a href="http://calibre-ebook.com/">Calibre</a> and add the MyFirstEBook.epub to Calibre by clicking on the &#8216;Add Books&#8217; button.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/epub3.jpg"><br />
+</center></p>
+<p>You can preview your eBook by clicking on the &#8216;View&#8217;-button. Next, click the &#8216;Edit metadata&#8217;-button and alter the title and author entries (and whatever else you want to include) and click the OK button. Then click &#8216;Save to disk&#8217;.</p>
+<p><strong>10. Read your eBook on your iPad</strong></p>
+<p>Finally, we want to see how it looks on the iPad. Mail MyFirstEBook.epub to yourself as attachement, open it with iBooks and enjoy!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>changes (ahead)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/changes-ahead/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/changes-ahead/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 19 Jan 2011 13:43:43 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4645</guid>
+
+					<description><![CDATA[In view or recents events &#38; comments, some changes have been made or will be made shortly : categories : Sanitized the plethora of wordpress-categories&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In view or recents events &amp; comments, some changes have been made or will be made shortly :</p>
+<p><strong>categories</strong> :  Sanitized the plethora of wordpress-categories to which posts belong. At the moment there are just 5 categories : &#8216;stories&#8217; and &#8216;web&#8217; (for all posts with low math-content) and three categories &#8216;level1&#8217;, &#8216;level2&#8217; and &#8216;level3&#8217;, loosely indicating the math-difficulty of a post.</p>
+<p><strong>MathJax</strong>  : After years of using LatexRender and WP-Latex, we&#8217;ll change to MathJax from now on. I&#8217;ll try to convert older posts as soon as possible. (Update : did a global search and replace. &#8216;Most&#8217; LaTeX works, major exceptions being matrices and xymatrix commands. I&#8217;ll try to fix those later with LatexRender.)</p>
+<p><strong>theme</strong> : The next couple of days, the layout of this site may change randomly as I&#8217;ll be trying out things with the <a href="http://swiftthemes.com/">Swift wordpress theme</a>. Hopefully, this will converge to a new design by next week.</p>
+<p><strong>name</strong> : Neverendingbooks will be renamed to something more math-related. Clearly, the new name will depend on the topics to be covered. On the main <a href="https://lievenlebruyn.github.io/neverendingbooks/">index page</a> a pop-up poll will appear in the lower right-hand corner after 10 seconds. Please fill in the topics you&#8217;d like us to cover (no name or email required).</p>
+<p>This poll will close on friday 21st at 12 CET and its outcome will influence name/direction of this blog. Use it also if you have a killer newname-suggestion. Among the responses so far, a funnier one : &#8220;An intro to, or motivation for non-commutative geometry, aimed at undergraduates. As a rule, I&#8217;d take what you think would be just right for undergrads, and then trim it down a little more.&#8221;</p>
+<p><strong>guest-posts</strong> : If you&#8217;d like to be a guest-blogger here at irregular times, please contact me. The first guest-post will be on noncommutative topology and the interpretation of quantum physics, and will appear soon. So, stay tuned&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/changes-ahead/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NeB : 7 years and now an iPad App</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 31 Dec 2010 17:05:32 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[iPad]]></category>
+		<category><![CDATA[iPad App]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3943</guid>
+
+					<description><![CDATA[Exactly 7 years ago I wrote my first post. This blog wasn&#8217;t called NeB yet and it used pMachine, a then free blogging tool (later&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Exactly 7 years ago I wrote my <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/a-blogging-2004.html">first post</a>. This blog wasn&#8217;t called NeB yet and it used pMachine, a then free blogging tool (later transformed into <a href="http://expressionengine.com/">expression engine</a>), rather than WordPress.</p>
+<p>Over the years NeB survived three hardware-upgrades of &#8216;the Matrix&#8217; (the webserver hosting it), more themes than I care to remember, and a couple of dramatic closure announcements&#8230;</p>
+<p>But then we&#8217;re still here, soldiering on, still uncertain whether there&#8217;s a point to it, but grateful for tiny tokens of appreciation.</p>
+<p>Such as this morning&#8217;s story: <a href="http://mathoverflow.net/users/2821/chandan-singh-dalawat">Chandan</a> deemed it necessary to correct two spelling mistakes in a 2 year old Fun-math post on <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/andre-weil-on-the-rh.html">Weil and the Riemann hypothesis</a> (also reposted on Neb <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/andre-weil-on-the-riemann-hypothesis.html">here</a>). Often there&#8217;s a story behind such sudden comments, and a quick check of MathOverflow revealed <a href="http://mathoverflow.net/questions/50776/did-andre-weil-predict-that-the-riemann-hypothesis-would-be-settled-by-prime-numb/50795#50795">this answer</a> and the comments following it.</p>
+<p>I thank <a href="http://mathoverflow.net/users/4137/ed-dean">Ed Dean</a> for linking to the Fun-post, Chandan for correcting the misspellings and Georges for the kind words. I agree with Georges that a cut&amp;copy of a blogpost-quoted text does not require a link to that post (though it is always much appreciated). It is rewarding to see such old posts getting a second chance&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mobilevisits.jpg"></p>
+<p>Above the Google Analytics graph of the visitors coming here via a mobile device (at most 5 on a good day&#8230;). Anticipating much more iPads around after tonights presents-session I&#8217;ve made NeB more accessible for iPods, iPhones, iPads and other mobile devices.</p>
+<p>The first time you get here via your Mac-device of choice you&#8217;ll be given the option of saving NeB as an App. It has its own icon (lowest row middle, also the favicon of NeB) and flashy start-up screen.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBApp1.jpg"></p>
+<p>Of course, the whole point trying to make NeB more readable for Mobile users you get an overview of the latest posts together with links to categories and tags and the number of comments. Sliding through you can read the post, optimized for the device.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBApp2.jpg"></p>
+<p>I do hope you will use the two buttons at the end of each post, the first to share or save it and the second to leave a comment.</p>
+<p>I wish you all a lot of mathematical (and other) fun in 2011 :: lieven.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>WikiLeaks’ collateral damage : web-anarchy?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/wikileaks-collateral-damage-web-anarchy/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/wikileaks-collateral-damage-web-anarchy/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 13 Dec 2010 18:44:06 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[spam]]></category>
+		<category><![CDATA[WikiLeaks]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3658</guid>
+
+					<description><![CDATA[NeB&#8217;s web-stats are orders of magnitude out of normal behavior, something must be going on&#8230; Spam filter : normally between 10 and 20 spam-comments are&#8230;]]></description>
+										<content:encoded><![CDATA[<p>NeB&#8217;s web-stats are orders of magnitude out of normal behavior, something must be going on&#8230;</p>
+<ul>
+<li>Spam filter : normally between 10 and 20 spam-comments are trapped. They are removed automatically every 14 days so I only look at them when someone complains a valid comment didn&#8217;t get through. This moment, there are <strong>1007</strong> spam-comments held (already 1020 by the time I post this).</li>
+<li>Akismet-plugin : for those who don&#8217;t run a blog, <a href="http://wordpress.org/extend/plugins/akismet/">Akismet</a> is an extremely useful WordPress-plugin getting rid of most spam-comments (before entering the spam-filter). I must admit I don&#8217;t check Akismet-stats regularly but today the message reads : &#8216;Akismet has protected your site from 104,145 spam comments already&#8217; (which is about 10% of all visits&#8230;).</li>
+<li>Mail-notifications : this week my email-account is bombarded with spam-comments to approve. Usually there are 1 to 2 such comments a week, now about 20 a day. Part of the problem was that the Akismet-servers were obstructed earlier this week, but the problem persists.</li>
+<li>Today&#8217;s stats show more than 4000 hits, 500 uniques. About 3 times average.</li>
+</ul>
+<p>Do we all really need to get caught in the cross-fire between WikiLeaks- and government-hackers?</p>
+<p>I have no intention to post my take on WikiLeaks, simply because it won&#8217;t be original. As to Assange&#8217;s problems with justice : until further evidence comes to light I&#8217;m with <a href="http://www.huffingtonpost.com/naomi-wolf/interpol-the-worlds-datin_b_793033.html">Naomi Wolf</a> on this  (thanks <a href="http://pseudomonad.blogspot.com/2010/12/future.html">Kea</a> for the link).</p>
+<p>If NeB goes off-line for a while, you know why&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/wikileaks-collateral-damage-web-anarchy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Link problems : Markdown versus latex2wp.py</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/link-problems-markdown-versus-latex2wp-py/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/link-problems-markdown-versus-latex2wp-py/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 07 Dec 2010 08:22:00 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3413</guid>
+
+					<description><![CDATA[As John Baez (and hopefully others) noticed most links here on NeB are now screwed up. For years I&#8217;ve used the Markdown syntax to include&#8230;]]></description>
+										<content:encoded><![CDATA[<p>As <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/arnolds-trinities-version-20.html/comment-page-1#comment-9435">John Baez</a> (and hopefully others) noticed most links here on NeB are now screwed up.</p>
+<p>For years I&#8217;ve used <a href="http://daringfireball.net/projects/markdown/syntax">the Markdown syntax</a> to include links in posts (that is something like [this is what you see](and here is the URL)). NeB used an older version ( Version 1.0.1k) of <a href="http://michelf.com/projects/php-markdown/">php Markdown</a> to convert these to proper links (as I did have problems with the newer version).</p>
+<p>Ever since the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/return-to-latex.html">Return to LaTeX</a> post, I&#8217;m trying to re-educate myself to write posts in LaTeX and convert them into wp-format using the <a href="http://lucatrevisan.wordpress.com/latex-to-wordpress/">Latex2WP python script</a>.</p>
+<p>Unfortunately this script doesn&#8217;t go together nicely with the Markdown-syntax, forcing me to go over the converted latex-file almost line by line fixing errors in order to be able to post. Not the time-saver I had in mind&#8230;</p>
+<p>I hope to post a lot of new material once the semester finishes and therefore disabled the Markdown-plugin. This causes all links to remain in Markdown-format, which is a nuisance but, if you really want to follow the link it is still there for you to copy-paste. Depending on how exciting the christmas-break will be I&#8217;ll try to hard-code the links in some of the more popular posts.</p>
+<p>If someone knows of an elegant solution, such as a micro-markdown wp-plugin only parsing links, please drop a comment.</p>
+<p>UPDATE : I have downloaded the <a href="http://wordpress.org/extend/plugins/markdown-quicktags/">Markdown quicktags</a> plugin. It replaces the standard HTML-editor of WordPress with a Markdown-editor. There is an option &#8220;Render&#8221; which transforms Markdown to HTML and then updating the post will save the HTML-version. This looks like a relative quick way to get my old post-links back. So far, I&#8217;ve rescued the posts of the last year, more later. Hopefully, this causes no overload in your RSS-aggregator&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/link-problems-markdown-versus-latex2wp-py/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NeB not among 50 best math blogs</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neb-not-among-50-best-math-blogs/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neb-not-among-50-best-math-blogs/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 01 Jun 2010 09:09:54 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[analytics]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[mathblogs]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2987</guid>
+
+					<description><![CDATA[Via Tanya Khovanova I learned yesterday of the 50 best math blogs for math-majors list by OnlineDegree.net. Tanya&#8217;s blog got in 2nd (congrats!) and most&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Via <a href="http://blog.tanyakhovanova.com/?p=237">Tanya Khovanova</a> I learned yesterday of <a href="http://www.onlinedegree.net/50-best-blogs-for-math-majors/">the 50 best math blogs for math-majors list</a> by OnlineDegree.net. Tanya&#8217;s blog got in 2nd (congrats!) and most of the blogs I sort of follow made it to the list : <a href="http://ncategory.wordpress.com/">the n-category cafe</a> (5), <a href="http://www.math.columbia.edu/~woit/wordpress/">not even wrong</a> (6), <a href="http://gowers.wordpress.com/">Gowers</a> (12), <a href="http://terrytao.wordpress.com/">Tao</a> (13), <a href="http://scienceblogs.com/goodmath/">good math bad math</a> (14), <a href="http://rigtriv.wordpress.com/">rigorous trivialities</a> (18), <a href="http://sbseminar.wordpress.com/">the secret blogging seminar</a> (20), <a href="http://kea-monad.blogspot.com/">arcadian functor</a> (28) (btw. Kea&#8217;s new blog is now at <a href="http://pseudomonad.blogspot.com/">arcadian pseudofunctor</a>), etc., etc. . Sincere congrats to you all!</p>
+<p>NeverEndingBooks didn&#8217;t make it to the list, and I can live with that. For reasons only relevant to myself, posting has slowed down over the last year and the most recent post dates back from february!</p>
+<p>More puzzling to me was the fact that <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/">F-un mathematics</a> got in place 26! OnlineDegree had this to say about F-un Math : &#8220;Any students studying math must bookmark this blog, which provides readers with a broad selection of undergraduate and graduate concerns, quotes, research, webcasts, and much, much more.&#8221; Well, personally I wouldn&#8217;t bother to bookmark this site as prospects for upcoming posts are virtually  inexistent&#8230;</p>
+<p>As I am privy to both sites&#8217; admin-pages, let me explain my confusion by comparing their monthly hits. Here&#8217;s the full F-un history</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/historyFUN.jpg"><br />
+</center></p>
+<p>After a flurry of activity in the fall of 2008, both posting and attendance rates dropped, and presently the site gets roughly 50 hits-a-day. Compare this to the (partial) NeB history</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/historyNeB.jpg"><br />
+</center></p>
+<p>The whopping 45000 visits in january 2008 were (i think) deserved at the time as there was then a new post almost every other day. On the other hand, the green bars to the right are a mystery to me. It appears one is rewarded for not posting at all&#8230;</p>
+<p>The only explanation I can offer is that perhaps more and more people are recovering from the late 2008-depression and do again enjoy reading blog-posts. Google then helps blogs having a larger archive (500 NeB-posts compared to about 20 genuine Fun-posts) to attract  a larger audience, even though the blog is dormant.</p>
+<p>But this still doesn&#8217;t explain why FunMath made it to the top 50-list and NeB did not. Perhaps the fault is entirely mine and a consequence of a bad choice of blog-title. &#8216;NeverEndingBooks&#8217; does not ring like a math-blog, does it?</p>
+<p>Still, I&#8217;m not going to change the title into something more math-related. NeverEndingBooks will be around for some time (unless my hard-disk breaks down). On the other hand, I plan to start something entirely new and learn from the mistakes I made over the past 6 years. Regulars of this blog will have a pretty good idea of the intended launch date, not?</p>
+<p>Until then, my online activity will be limited to  <a href="http://www.twitter.com/lievenlb">tweets</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neb-not-among-50-best-math-blogs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Return to LaTeX</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 12 Feb 2010 20:20:29 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2965</guid>
+
+					<description><![CDATA[To most mathematicians, a good LaTeX-frontend (such as TeXShop for Mac-users) is the crucial tool to get the work done. We use it to draft&#8230;]]></description>
+										<content:encoded><![CDATA[<p><p>
+To most mathematicians, a good LaTeX-frontend (such as <a href="http://www.uoregon.edu/~koch/texshop/">TeXShop</a> for Mac-users) is the crucial tool to get the work done. We use it to draft ideas, write papers and courses, or even to take notes during lectures.</p>
+<p>
+However, after six years of blogging, my own LaTeX-routine became rusty. I rarely open a new tex-document, and when I do, I’d rather copy-paste the long preamble from an old file than to start from scratch with a minimal list of packages and definitions needed for the job at hand. The few times I put a paper on the arXiv, the resulting text resembles a blog-post more than a mathematical paper, here’s <a href="http://arxiv.org/abs/0803.3601">an example</a>.</p>
+<p>
+As I desperately need to get some math-writing done, I need to pull myself away from the lure of an ever-open <a href="http://wordpress.org/">WordPress</a> admin browser-screen and reacquaint myself with the far more efficient LaTeX-environment.</p>
+<p>
+Perhaps even my blogging will benefit from the change. Whereas I used to keep on adding to most of my tex-files in order to keep them up-to-date, I rarely edit a blog-post after hitting the ’publish’ button. If I really want to turn some of my better posts into a book, I need them in a format suitable for neverending polishing, without annoying the many RSS-feed aggregators out there.</p>
+<p>
+Who better than Terry Tao to teach me a more proficient way of blogging? A few days ago, Terry <a href="http://terrytao.wordpress.com/2010/02/07/an-epsilon-of-room-pages-from-year-three-of-a-mathematical-blog/">announced</a> he will soon have his 5th (!!) book out, after three years of blogging&#8230;</p>
+<p>
+How does he manage to do this? Well, as far as I know, Terry blogs in LaTeX and then uses a python-script called <a href="http://lucatrevisan.wordpress.com/latex-to-wordpress/">LaTeX2WP</a> ’a program that converts a LaTeX file into something that is ready to be cut and pasted into WordPress. This way, you can write, and preview, your post in LaTeX, then run LaTeX2WP, and post into WordPress whatever comes out.’ More importantly, one retains a pure-tex-file of the post on which one can keep on editing to get it into a (book)-publishable form, eventually.</p>
+<p>
+Nice, but one can do even better, as Eric from <a href="http://curiousreasoning.wordpress.com/tag/latex/">Curious Reasoning</a> worked out. He suggests to install two useful python-packages : <a href="http://www.blackbirdblog.it/programmazione/progetti/28#english">WordPressLib</a> &#8220;with this library you can control remotely a WordPress installation. Use of library is very simple, you can write a small scripts or full applications that allows you to automate publishing of articles on your blog/site powered by WordPress&#8221; and <a href="http://plastex.sourceforge.net/">plasTeX</a> &#8220;plasTeX is a LaTeX document processing framework written entirely in Python. It currently comes bundled with an XHTML renderer (including multiple themes), as well as a way to simply dump the document to a generic form of XML&#8221;. Installation is easy : download and extract the files somewhere, go there and issue a **sudo python setup.py install** to add the packages to your python.</p>
+<p>
+Finally, get Eric’s own <a href="http://curiousreasoning.wordpress.com/2010/01/30/overview-of-wplatex-4/">wplatex</a> package and install it as explained there. WpLaTeX has all the features of LaTeX2WP and much more : one can add titles, tags and categories automatically and publish the post from the command-line without ever having to enter the taboo WordPress-admin page! Here’s what I’ve written by now in TeXShop</p>
+<p><p align=center> <img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/Return2Latex.jpg" /> </p>
+<p>
+I’ve added the screenshot and the script will know where to find it online for the blog-version as well as on my hard-disk for the tex-version. Very handy is the iftex &#8230; fi versus ifblog &#8230; fi alternative which allows you to add pure HTML to get the desired effect, when needed. Remains only to go into Terminal and issue the command</p>
+<p>
+wplpost -x https://lievenlebruyn.github.io/neverendingbooks/xmlrpc.php ReturnToLatex.tex</p>
+<p>
+(if your blog is on WordPress.com it even suffices to give its name, rather than this work-around for stand-alone wordpress blogs). The script asks for my username and password and will convert the tex-file and post it automatic.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Snow leopard + wordpress + latex problem</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2009 17:09:05 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[Leopard]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2154</guid>
+
+					<description><![CDATA[Ever since I&#8217;ve upgraded to Snow Leopard I&#8217;ve been having problems with the webserver. At first there were the &#8216;obvious&#8217; problems : mysql-connection lost and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Ever since I&#8217;ve upgraded to <a href="http://www.apple.com/macosx/">Snow Leopard</a> I&#8217;ve been having problems with the webserver.</p>
+<p>At first there were the &#8216;obvious&#8217; problems : mysql-connection lost and php-error message. These were swiftly dealt with using the excellent <a href="http://wordpress.org/support/topic/306878">Snow Leopard, Apache, PHP, MySQL and WordPress!</a> advice from &#8216;tady&#8217;.</p>
+<p>Right now, access to this blog is extremely slow (and often impossible), certainly via the admin-page. The problem appears to be that most of my CPU is used by lots of pdfetex-processes owned by www. Hence the conjecture that it is a problem with either <a href="http://www.mayer.dial.pipex.com/tex.htm">LaTeXRender</a> or <a href="http://wordpress.org/extend/plugins/wp-latex/">WP LaTeX</a>.</p>
+<p>Anyone experiencing a similar problem, or knowing a trick to resolve it? Takk.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

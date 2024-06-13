@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>21pilots &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/21pilots/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 02 Jun 2024 13:16:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Vialism versus Weilism</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 02 Jun 2024 13:16:25 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[21pilots]]></category>
+		<category><![CDATA[Andre Weil]]></category>
+		<category><![CDATA[Clancy]]></category>
+		<category><![CDATA[Dema]]></category>
+		<category><![CDATA[Felix Hausdorff]]></category>
+		<category><![CDATA[Georg Cantor]]></category>
+		<category><![CDATA[Simone Weil]]></category>
+		<category><![CDATA[Trench]]></category>
+		<category><![CDATA[Vialism]]></category>
+		<category><![CDATA[Weilism]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=12100</guid>
+
+					<description><![CDATA[Here&#8217;s how 21 pilots themselves define Vialism, the &#8216;religion&#8217; of Dema, in the &#8216;I am Clancy&#8217; video: Their authority comes from two things: a miraculous&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s how <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">21 pilots</a> themselves define Vialism, the &#8216;religion&#8217; of Dema, in the <a href="https://www.youtube.com/watch?v=ozlHHR_eSxc">&#8216;I am Clancy&#8217;</a> video:</p>
+<blockquote><p>
+Their authority comes from two things: a miraculous power and a hijacked religion. One feeds the other. A cycle. It&#8217;s called <strong>Vialism</strong>, and all you really need to know is that it teaches that self-destruction is the only way to paradise.
+</p></blockquote>
+<p><center><br />
+<img decoding="async" src="https://64.media.tumblr.com/3526a07ffc5e4cf634a2ca0cf800624c/6947d9505b59d292-c4/s2048x3072/a5df0a346718fbb87a4c3541fc6827f96658adca.jpg" width=100% ><br />
+</center></p>
+<p>Some people think that <a href="https://www.reddit.com/r/twentyonepilots/comments/1bq1jme/we_figured_out_vialism_its_weilism/">Vialism means Weilism</a>, after the Weil siblings Andre and Simone.</p>
+<p><a href="https://en.wikipedia.org/wiki/Simone_Weil">Simone Weil</a> (1909-1943) was a French philosopher and political activist. In her later years she became increasingly religious and inclined towards mysticism.</p>
+<p><a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a> (1906-1998) was a French mathematician and founding member of the <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki">Bourbaki group</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://s1.elespanol.com/2023/10/27/el-cultural/ciencia/entre_2_aguas/805179590_237138548_1024x576.jpg" width=100% ><br />
+</center></p>
+<p>They enter the lore via a picture on Tyler Joseph&#8217;s desktop in the <a href="https://www.youtube.com/watch?v=s4CLo1gpHyQ">Zane Lowe interview in 2018</a>, which is an overlay of two photographs of Bourbaki meetings in 1937 and 1938 featuring Andre and Simone.</p>
+<p>For Simone this is the crucial period in her conversion to Catholicism, for Andre these meetings led to a reformulation of the foundations of TOPology, and discussions on Bourbaki&#8217;s version of Set theory which would lead to Bourbaki&#8217;s first book, published in 1939.</p>
+<p>Both topics left a lasting impression on Simone Weil, as she wrote in 1942:</p>
+<blockquote><p>
+One field of mathematics that deals with all the diverse sorts of orders (set theory and general topology) is a treasure-house that holds an infinity of valuable expressions that show supernatural truth.
+</p></blockquote>
+<p>Now, Simone was fairly generous in her use of the adjective &#8216;supernatural&#8217;. Here&#8217;s another quote:</p>
+<blockquote><p>
+“The supernatural greatness of Christianity lies in the fact that it does not seek a supernatural remedy for suffering but a supernatural use for it.”
+</p></blockquote>
+<p><strong>This suggests that if Vialism really is Weilism, then the &#8216;miraculous power&#8217; might be mathematics (or at least the topics of set theory and topology), and the &#8216;hijacked religion&#8217; might be the (ab)use of mathematics in theology.</strong></p>
+<p>Roughly speaking, axiomatic <a href="https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory">Zermelo-Fraenkel set theory</a> gives a precise list of instructions to construct all sets out of two given sets, the empty set $\emptyset$ (the set containing nothing) being one of them.</p>
+<p>Emptiness, or the void, is important in Simone Weil&#8217;s theology, see for example her book <a href="https://www.amazon.com/Love-Void-Spiritual-Backpack-Classics/dp/0874868300">Love in the void: where God finds us</a></p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/71+l4Snw9WL._SL1500_.jpg" width=50% ><br />
+</center></p>
+<p>or consider this quote by her:</p>
+<blockquote><p>
+God stripped himself of his godhood and became empty, and fulfilled us with false godhood. Let us strip off this false godhood and become empty. This very act is the ultimate purpose to creating us.
+</p></blockquote>
+<p>which sounds a lot like Vialism, becoming an &#8217;empty vessel&#8217; for the Bishops (or God) to fill.</p>
+<p>Also in 21 pilots&#8217; iconography, the empty set $\emptyset$ is important.</p>
+<p><center><br />
+<img decoding="async" src="https://towardsthemorningson.wordpress.com/wp-content/uploads/2018/10/large.jpg" width=100% ><br />
+</center></p>
+<p>Btw. the symbol $\emptyset$ for the empty set was first used by Andre Weil who remembered the Norwegian &#8216;eu&#8217; from his studies of nordic languages preparing for his &#8216;Finnish fugue&#8217; in 1939.</p>
+<p>The other pre-given set challenges the Gods and theology. The <a href="https://en.wikipedia.org/wiki/Axiom_of_infinity">Axiom of Infinity</a> in the Zermelo-Fraenkel system asserts the existence of an infinite set, usually denoted $\omega$ and interpreted as the set of all finite numbers $\{ 0,1,2,3,4,5,6,\dots \}$.</p>
+<p>In other words, mathematical set theory contains an object which is <a href="https://en.wikipedia.org/wiki/Actual_infinity">actual infinity</a>!</p>
+<p>From the ancient Greeks on to early modern times, philosophers adhered to the motto &#8220;Infinitum actu non datur&#8221;, there is only a <em>potential infinity</em> (the idea of infinity) but <em>actual infinity</em> belongs to the realm of the Gods (infinite power, infinite wisdom,&#8230;).</p>
+<p>As if this was not heretic enough, in comes <a href="https://en.wikipedia.org/wiki/Georg_Cantor">Georg Cantor</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://lh3.googleusercontent.com/proxy/sysTL8PHIUfMuuRpjC_WsilSCPvbL5BupQau1-jevMtts2AElShoojvnYVMmJfiXvmjtxwDiWvRuNoRfbOAspQhtBtI" width=100%><br />
+</center></p>
+<p>Georg Cantor (1845-1918) might very well be another Clancy.</p>
+<p>He was a German mathematician, discoverer of the secrets of infinity, which brought him in conflict with several influential mathematicians in his time (notably Kronecker and Poincare), and inventor of <em>Cardinal</em> numbers (compare Bishops).</p>
+<p>He suffered from depression and mental illness, was often admitted to the Halle nerve clinic. In between he was a founding member of the DEutscher MAthematiker Vereinigung (DeMa) of which he was the first president (Nico), he suffered from malnourishment during WW1 (compare Simone Weil in WW2) and died of a heart attack in the sanatorium where he had spent the last year of his life.</p>
+<p>Cantor showed that the only distinguishing feature between two sets is their <em>Cardinality</em> (Bishopy power), roughly speaking the number of things they contain. He then showed that for every set of a certain Bishopy power, there&#8217;s one of even higher power!</p>
+<p>For example, there exists a set with higher cardinality than $\omega$, that is, a set we cannot enumerate. An example is described in these lines from <a href="https://en.wikipedia.org/wiki/Morph_(song)">Morph</a></p>
+<blockquote><p>
+Lights they blink to me, transmitting things to me<br />
+Ones and zeroes, ergo this symphony<br />
+Anybody listening? Ones and zeroes<br />
+Count to infinity, ones and zeroes
+</p></blockquote>
+<p>They&#8217;re talking about all possible infinite series of $0$&#8217;s and $1$&#8217;s and one quickly proves that these cannot be enumerated using <a href="https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument">Cantor&#8217;s diagonal argument</a>.</p>
+<p>When applied to theology this says that Gods cannot have any actual infinity power, for there&#8217;s always an entity posessing higher powers.</p>
+<p>That&#8217;s why Cantor resolved to God being <a href="https://en.wikipedia.org/wiki/Absolute_infinite">&#8216;absolute infinity&#8217;</a>, the Bishopy power of the <em>class</em> of all cardinal numbers (emphasis only important for mathematicians).</p>
+<p>Much more on the interplay between Cantor&#8217;s mathematical results on infinities and his theological writings can be found in the paper <a href="https://dev.kath.ruhr-uni-bochum.de/mam/ph-th/downloads/tapp_a24_2014_absolute_friedman_2auf1.pdf">Absolute Infinity:  A Bridge Between Mathematics and Theology?</a> by Christian Tapp.</p>
+<p>The compassionate God of Christianity has presented theologians for centuries with the following paradox: how can a God having infinite power suffer because humans suffer?</p>
+<p>In comes TOPology and one of its founding fathers <a href="https://en.wikipedia.org/wiki/Felix_Hausdorff">Felix Hausdorff</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://ynet-pic1.yit.co.il/picserver5/crop_images/2024/02/09/r1skmiQoT/r1skmiQoT_0_0_580_290_0_large.jpg" width=100% ><br />
+</center></p>
+<p>Felix Hausdorff (1868-1942) might very well be another Clancy.</p>
+<p>He was a German mathematician who made substantial contributions to topology as well as set theory. For years he felt opposition because he was Jewish.</p>
+<p>After the Kristallnacht in 1938 he tried to escape Nazi-Germany (DeMa) but couldn&#8217;t obtain a position in the US. On 26 January 1942, Felix Hausdorff, along with his wife and his sister-in-law, died by suicide, rather than comply with German orders to move to the Endenich camp.</p>
+<p>He was also a philosopher and writer under the pseudonym Paul Mongré. In 1900 he wrote a book of poems, Ecstasy, of which the first poem is <a href="https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1711&#038;context=jhm">“Den Ungeflügelten” (To The Wingless Ones)</a>. Am I the only one to think immediately of <a href="https://genius.com/Twenty-one-pilots-isle-of-flightless-birds-lyrics">The isle of the flightless birds</a>?</p>
+<p>Anyway, as to how the <a href="https://en.wikipedia.org/wiki/Topology">topology</a> of Weilism solves the contradiction of the suffering God of Christianity is explained in the paper <a href="https://jpars.org/online/wp-content/uploads/2012/04/RSJ-1-OCHIAI.pdf">The Theology of Simone Weil and the Topology of Andre Weil</a> by Ochiai Hitoshi, professor of &#8216;Mathematical Theology&#8217; at Doshisha University, Kyoto.</p>
+<p>He has a follow-up post <a href="https://apeironcentre.org/incarnation-and-reincarnation/">Incarnation and Reincarnation</a> on the <a href="https://apeironcentre.org/">Apeiron Centre</a> (where he also has a post on the <a href="https://apeironcentre.org/theology-of-georg-cantor/">Theology of Georg Cantor</a>). Here&#8217;s a summary of his thesis:</p>
+<blockquote><p>
+God is Open<br />
+Incarnation is Compactified God<br />
+The soul is Open<br />
+Reincarnation is Compactified Soul<br />
+God and the Soul are Homeomorphic<br />
+God is without Boundaries<br />
+The soul is with Boundaries<br />
+God and the Soul are not Diffeomorphic
+</p></blockquote>
+<p>This succinctly sums up Weilism for you.</p>
+<p>I now understand why so many people in the <a href="https://www.reddit.com/r/twentyonepilots/">21 pilots sub-Reddit</a> thought at the beginning of the Trench-era that Bourbaki was a group of mathematicians trying to prove the existence of God.</p>
+<p>In the paper <a href="https://jpars.org/online/wp-content/uploads/2012/04/RSJ-1-OCHIAI.pdf">The Theology of Simone Weil and the Topology of Andre Weil</a> the next quote is falsely attributed to Bourbaki</p>
+<blockquote><p>
+God is the <a href="https://en.wikipedia.org/wiki/Alexandroff_extension">Alexandroff compactification</a> of the universe.
+</p></blockquote>
+<p>If you are interested in the history behind this quote you may read my post <a href="https://lievenlebruyn.github.io/neverendingbooks/according-to-groth-iv-22">According to Groth. IV.22</a>.</p>
+<p>If you want an alternative explanation of Vialism, you may read my post <a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where&#8217;s Bourbaki&#8217;s Dema?</a>.</p>
+<p>Btw. I forgot to mention in that post the &#8220;Annual Assemblage of the Glorified&#8221;. Since 1918 this takes place November 11th, on <a href="https://en.wikipedia.org/wiki/Armistice_Day">Armistice Day</a>.</p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil">What about Simone Weil?</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Clancy and Nancago</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 03 May 2024 08:56:53 +0000</pubDate>
+				<category><![CDATA[art]]></category>
+		<category><![CDATA[france]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[21pilots]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Clancy]]></category>
+		<category><![CDATA[Dema]]></category>
+		<category><![CDATA[Trench]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11924</guid>
+
+					<description><![CDATA[Later this month, 21 pilots&#8216; next album, &#8220;Clancy&#8221;, will be released, promising to give definite answers to all remaining open questions in Dema-lore. By then&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Later this month, <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">21 pilots</a>&#8216; next album, <a href="https://en.wikipedia.org/wiki/Clancy_(album)">&#8220;Clancy&#8221;</a>, will be released, promising to give definite answers to all remaining open questions in <a href="https://www.reddit.com/r/twentyonepilots/comments/1cfi97t/official_twenty_one_pilots_clancy_lore_megathread/">Dema-lore</a>.</p>
+<p>By then we will have been told why <a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a> and the <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki">Bourbaki group</a> show up in the Trench/Dema tale.</p>
+<p>This leaves me a couple of weeks to pursue this series of posts (see links below) in which I try to find the best match possible between the factual history of the Bourbaki group and elements from the Dema-storyline.</p>
+<p>Two well-known Bourbaki-photographs seem important to the pilots. The first one is from the september 1938 Dieulefit/Beauvallon Bourbaki congress:</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bourbaki_congress1938.png/440px-Bourbaki_congress1938.png" width=70%><br />
+</center></p>
+<p>At the time, Bourbaki still had to publish their first text, they were rebelling against the powers that be in French mathematics, and were just kicked out of the Julia seminar.</p>
+<p>In clikkies parlance: at that moment the Bourbakistas are Banditos, operating in Trench.</p>
+<p>The second photograph, below on the left, is part of a famous picture of Andre Weil, supposedly taken in the summer of 1956.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Se_elf.jpg" width=55%> <img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Weil.jpg" width=40%><br />
+</center></p>
+<p>At that time, Bourbaki was at its peak of influence over French mathematics, suffocating enthusiastic math-students with their dry doctrinal courses, and forcing other math-subjects (group theory, logic, applied math, etc.) to a virtual standstill.</p>
+<p>In clique-speech: at that moment the Bourbakistas are Bishops, ruling Dema.</p>
+<p>Let me recall the story of one word, associated to the Bourbaki=Bishops era which lasted roughly twenty years, from the early 50ties till Bourbaki&#8217;s &#8216;death&#8217; in 1968 : <strong>Nancago</strong>.</p>
+<p>From the 50ties, Nicolas Bourbaki signed the prefaces of &#8216;his&#8217; books from the University of Nancago.</p>
+<p>Between 1951 and 1975, Weil and Diedonne directed a series of texts, published by Hermann, under the heading &#8220;Publications de l’Institut mathematique de l’Universite de Nancago&#8221;.</p>
+<p>Bourbaki&#8217;s death announcement mentioned that he &#8220;piously passed away on November 11, 1968  at his home in Nancago&#8221;.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/nancago1.jpg" width=100% ><br />
+</center></p>
+<p>Nancago was the name of a villa, owned by Dieudonne, near Nice. Etc. etc.</p>
+<p>But then, what is <strong>Nancago</strong>?</p>
+<p>Well, NANCAGO is a tale of two cities: NANcy and ChiCAGO.</p>
+<p>The French city of <a href="https://en.wikipedia.org/wiki/Nancy,_France">Nancy</a> because from the very first Bourbaki meetings, the secretarial headquarters of Bourbaki, led by Jean Delsarte, was housed in the mathematical Institute in Nancy.</p>
+<p><center><br />
+<img decoding="async" src="https://cdn-s-www.estrepublicain.fr/images/0947EBD8-54B8-4ED4-A804-8B1EF3DCC251/NW_detail/l-institut-de-mathematiques-et-l-institut-de-physique-de-l-universite-de-nancy-au-temps-de-delsarte-1595324341.jpg" width=100%><br />
+</center></p>
+<p>Chicago because that&#8217;s where Andre Weil was based after WW2 until 1958 when he moved to Princeton.</p>
+<p>Much more on the history of Nancago can be found in the newspaper article by Bourbaki scholar par excellance Liliane Beaulieu: <a href="https://www.estrepublicain.fr/education/2011/06/15/quand-nancy-s-appelait-nancago">Quand Nancy s&#8217;appelait Nancago</a> (When Nancy was called Nancago).</p>
+<p>Right, but then, if Nancago is the codeword of the Bourbaki=Bishops era, what would be the corresponding codeword for the Bourbaki=Banditos era?</p>
+<p>As mentioned above, from 1935 till 1968 Bourbaki&#8217;s headquarters was based in Nancy, so even in 1938  Nancy should be one of the two cities mentioned. But what is the other one?</p>
+<p>In 1938, Bourbaki&#8217;s founding members were scattered over several places, <a href="https://en.wikipedia.org/wiki/Jean_Delsarte">Jean Delsarte</a> and <a href="https://fr.wikipedia.org/wiki/Jean_Dieudonn%C3%A9">Jean Dieudonne</a> in Nancy, <a href="https://en.wikipedia.org/wiki/Szolem_Mandelbrojt">Szolem Mandelbrojt</a> and <a href="https://en.wikipedia.org/wiki/Ren%C3%A9_de_Possel">Rene de Possel</a> in <a href="https://en.wikipedia.org/wiki/Clermont-Ferrand">Clermont-Ferrand</a>, and Andre Weil and <a href="https://en.wikipedia.org/wiki/Henri_Cartan">Henri Cartan</a> in <a href="https://en.wikipedia.org/wiki/Strasbourg">Strasbourg</a>. <a href="https://en.wikipedia.org/wiki/Claude_Chevalley">Claude Chevalley</a> was on a research stay in Princeton.</p>
+<p>Remember the Bourbaki photograph at the Beauvallon meeting above? Well, it was taken in september 1938 when the <a href="https://en.wikipedia.org/wiki/Munich_Agreement">Munich Agreement</a> was reached.</p>
+<p>Why is this relevent? Well, because Strasbourg was too close to the German border, right after the Munich agreement the Strasbourg Institute was ordered to withdraw to the University of Clermont-Ferrand.</p>
+<p>Clermont-Ferrand lies a bit south of Vichy and remained in WW2 in the &#8216;free zone&#8217; of France, whereas Strasbourg was immediately annexed by Germany.</p>
+<p><center><br />
+<img decoding="async" src="https://archives-bourbaki.ahp-numerique.fr/files/original/france-occupee-1940-1942.jpg" width=80%><br />
+</center></p>
+<p>For more on the importance of Clermont-Ferrand for Bourbaki during 1940-1942 see the article by Christophe Eckes and Gatien Ricotier <a href="https://archives-bourbaki.ahp-numerique.fr/congres-clermont-ferrand-1940-1941-1942">Les congrès de Clermont-Ferrand de 1940, 1941 et 1942</a>.</p>
+<p>That is, all Bourbaki members where then either affiliated to Nancy or to Clermont-Ferrand.</p>
+<p>A catchy codeword for the Bourbaki=Banditos era, similar to Nancago as the tale of two cities, might then be:</p>
+<p><strong>CL</strong>ermont-Ferrand + n<strong>ANCY</strong> = <strong>CLANCY</strong>.</p>
+<p>[For clikkies: rest assured, I&#8217;m well aware of the <a href="https://www.reddit.com/r/twentyonepilots/comments/1ce78im/did_everyone_forget_the_origin_of_the_name_clancy/">consensus opinion on the origins of Clancy&#8217;s name</a>. But in this series of posts I&#8217;m not going for the consensus or even intended meanings, but rather for a joyful interplay between historical facts about the Bourbaki group and elements from Dema-lore.]</p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

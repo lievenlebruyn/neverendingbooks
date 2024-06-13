@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Holmes &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/holmes/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 10 Apr 2023 13:34:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The tropical brain-forest</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 10 Apr 2023 13:34:31 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Billera]]></category>
+		<category><![CDATA[brain-forest]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[Holmes]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[phylogenetic]]></category>
+		<category><![CDATA[Speyer]]></category>
+		<category><![CDATA[Sturmfels]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[tropical]]></category>
+		<category><![CDATA[tropical geometry]]></category>
+		<category><![CDATA[Vogtmann]]></category>
+		<category><![CDATA[Willerton]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11220</guid>
+
+					<description><![CDATA[If machine learning, AI, and large language models are here to stay, there&#8217;s this inevitable conclusion: Millennials are the last generation to grow up without&#8230;]]></description>
+										<content:encoded><![CDATA[<p>If machine learning, AI, and large language models are here to stay, there&#8217;s this inevitable conclusion:</p>
+<p><center></p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">Millennials are the last generation to grow up without tropical geometry</p>
+<p>&mdash; Dave Jensen (@DaveJensenMath) <a href="https://twitter.com/DaveJensenMath/status/1643958509019512833?ref_src=twsrc%5Etfw">April 6, 2023</a></p></blockquote>
+<p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+</center></p>
+<p>At the start of <a href="https://lievenlebruyn.github.io/neverendingbooks/category/gbrain">this series</a>, the hope was to find the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">topos of the unconscious</a>. Pretty soon, attention turned to the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">shape of languages</a> and LLMs.</p>
+<p>In <a href="https://en.wikipedia.org/wiki/Large_language_model">large language models</a> all syntactic and semantic information is encoded is huge arrays of numbers and weights. It seems unlikely that $\mathbf{Set}$-valued presheaves will be useful in machine learning, but surely <a href="https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory">Huawei</a> will <a href="https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes">prove</a> me wrong.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">$[0,\infty]$-enriched categories</a> (aka generalised metric spaces) and associated <a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">$[0,\infty]$-enriched presheaves</a> may be better suited to understand existing models.</p>
+<p>But, as with ordinary presheaves, there are just too many $[0,\infty]$-enriched ones, So, how can we weed out the irrelevant ones?</p>
+<p>For inspiration, let&#8217;s turn to <a href="https://en.wikipedia.org/wiki/Evolutionary_biology">evolutionary biology</a> and their theory of <a href="https://en.wikipedia.org/wiki/Phylogenetic_tree">phylogenetic trees</a>. They want to trace back common (extinguished) ancestors of existing species by studying overlaps in the DNA.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tree_of_life_SVG.svg/1280px-Tree_of_life_SVG.svg.png" width=75%><br />
+(A  tree of life, based on completely sequenced genomes, from <a href="https://en.wikipedia.org/wiki/Phylogenetic_tree">Wikipedia</a>)<br />
+</center></p>
+<p>The connection between phylogenetic trees and tropical geometry is nicely explained in the paper <a href="https://math.berkeley.edu/~bernd/mathmag.pdf">Tropical mathematics</a> by David Speyer and Bernd Sturmfels.</p>
+<p>The tropical semi-ring is the set $(-\infty,\infty]$, equipped with a new addition $\oplus$ and multiplication $\odot$</p>
+<p>$$a \oplus b = min(a,b), \quad \text{and} \quad a \odot b = a+b$$</p>
+<p>Because tropical multiplication is ordinary addition, a tropical monomial in $n$ variables</p>
+<p>$$\underbrace{x_1 \odot \dots \odot x_1}_{j_1} \odot \underbrace{x_2 \odot \dots \odot x_2}_{j_2} \odot \dots$$</p>
+<p>corresponds to the linear polynomial $j_1 x_1 + j_2 x_2 + \dots \in \mathbb{Z}[x_1,\dots,x_n]$. But then, a tropical polynomial in $n$ variables</p>
+<p>$$p(x_1,\dots,x_n)=a \odot x_1^{i_1}\dots x_n^{i_n} \oplus b \odot x_1^{j_1} \dots x_n^{j_n} \oplus \dots$$</p>
+<p>gives the piece-wise linear function on $p : \mathbb{R}^n \rightarrow \mathbb{R}$</p>
+<p>$$p(x_1,\dots,x_n)=min(a+i_1 x_1 + \dots + i_n x_n,b+j_1 x_1 + \dots + j_n x_n, \dots)$$</p>
+<p>The tropical hypersurface $\mathcal{H}(p)$ then consists of all points of $v \in \mathbb{R}^n$ where $p$ is not linear, that is, the value of $p(v)$ is attained in at least two linear terms in the description of $p$.</p>
+<p>Now, for the relation to phylogenetic trees: let&#8217;s sequence the genomes of human, mouse, rat and chicken and compute the values of a suitable (necessarily symmetric) distance function between them:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/brainforest2.png" width=60%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/brainforest3.png" width=30%><br />
+</center></p>
+<p>From these distances we want to trace back common ancestors and their difference in DNA-profile in a consistent manner, that is, such that the distance between two nodes in the tree is the sum of the distances of the edges connecting them.</p>
+<p>In this example, such a tree is easily found (only the weights of the two edges leaving the root can be different, with sum $0.8$):</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/brainforest4.png" width=50%><br />
+</center></p>
+<p>In general, let&#8217;s sequence the genomes of $n$ species and determine their distance matrix $D=(d_{ij})_{i,j}$. Biology asserts that this distance must be a tree-distance, and those can be characterised by the condition that for all $1 \leq i,j,k,l \leq n$, among the three numbers</p>
+<p>$$d_{ij}+d_{kl},~d_{ik}+d_{jl},~d_{il}+d_{jk}$$</p>
+<p>the <em>maximum</em> is attained at least twice.</p>
+<p>What has this to do with tropical geometry? Well, $D$ is a tree distance if and only if $-D$ is a point in the tropical Grassmannian $Gr(2,n)$.</p>
+<p>Here&#8217;s why: let $e_{ij}=-d_{ij}$ then the above condition is that the <em>minimum</em> of</p>
+<p>$$e_{ij}+e_{kl},~e_{ik}+e_{jl},~e_{il}+e_{jk}$$</p>
+<p>is attained at least twice, or that $(e_{ij})_{i,j}$ is a point of the tropical hypersurface</p>
+<p>$$\mathcal{H}(x_{ij} \odot x_{kl} \oplus x_{ik} \odot x_{jl} \oplus x_{il} \odot x_{jk})$$</p>
+<p>and we recognise this as one of the defining quadratic Plucker relations of the Grassmannian $Gr(2,n)$.</p>
+<p>More on this can be found in another paper by Speyer and Sturmfels <a href="https://arxiv.org/abs/math/0304218">The tropical Grassmannian</a>, and the paper <a href="https://susan.su.domains/papers/june.pdf">Geometry of the space of phylogenetic trees</a> by Louis Billera, Susan Holmes and Karen Vogtmann.</p>
+<p>What&#8217;s the connection with $[0,\infty]$-enriched presheaves?</p>
+<p>The set of all species $V=\{ m,n,\dots \}$ , together with the distance function $d(m,n)$ between their DNA-sequences is a $[0,\infty]$-category. Recall that a $[0,\infty]$-enriched presheaf on $V$ is a function $p : V \rightarrow [0,\infty]$ satisfying for all $m,n \in V$</p>
+<p>$$d(m,n)+p(n) \geq p(m)$$</p>
+<p>For an ancestor node $p$ we can take for every $m \in V$ as $p(m)$ the tree distance from $p$ to $m$, so every ancestor is a $[0,\infty]$-enriched presheaf.</p>
+<p>We also <a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">defined the distance</a> between such $[0,\infty]$-enriched presheaves $p$ and $q$ to be</p>
+<p>$$\hat{d}(p,q) = sup_{m \in V}~max(q(m)-p(m),0)$$</p>
+<p>and this distance coincides with the tree distance between the nodes.</p>
+<p>So, all ancestors nodes in a phylogenetic tree are very special $[0,\infty]$-enriched presheaves, optimal for the connection with the underlying $[0,\infty]$-enriched category (the species and their differences in genome).</p>
+<p>We would like to garden out such exceptional $[0,\infty]$-enriched presheaves in general, but clearly the underlying distance of a generalised metric space, even when it is symmetric, is not a tree metric.</p>
+<p>Still, there might be regions in the space where we can do the above. So, in general we might expect not one tree, but a forest of trees formed by the $[0,\infty]$-enriched presheaves, optimal for the metric we&#8217;re exploring.</p>
+<p>If we think of the underlying $[0,\infty]$-category as the conscious manifestations, then this forest of presheaves are the underlying brain-states (or, if you want, the unconscious) leading up to these.</p>
+<p>That&#8217;s why I like to call this mental picture the <em>tropical brain-forest</em>.</p>
+<p><center><br />
+<img decoding="async" src="https://s7i9m6k4.rocketcdn.me/wp-content/uploads/2017/06/Delirium-Tremens.jpg" width=80%><br />
+(<a href="https://blog.cognifit.com/synapses-how-brain-communicates/">Image credit</a>)<br />
+</center></p>
+<p>Where&#8217;s the <em>tropical</em> coming from?</p>
+<p>Well, I think that in order to pinpoint these &#8216;optimal&#8217; $[0,\infty]$-enriched presheaves a tropical-like structure on these, already mentioned by Simon Willerton in <a href="https://arxiv.org/abs/1302.4370">Tight spans, Isbell completions and semi-tropical modules</a>, will be relevant.</p>
+<p>For any two $[0,\infty]$-enriched presheaves we can take $p \oplus q = p \wedge q$, and for every $s \in [0,\infty]$ we can define</p>
+<p>$$s \odot p : V \rightarrow [0,\infty] \qquad m \mapsto max(p(m)-s,0)$$</p>
+<p>and check that this is again a $[0,\infty]$-presheaf. The mental idea of $s \odot p$ is that of a fat point centered at $p$ with size $s$.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">The super-vault of missing notes</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

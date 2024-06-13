@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>paintings &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/paintings/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 19 May 2011 13:24:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Art and the absolute point (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 19 May 2011 13:24:19 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[nonsense]]></category>
+		<category><![CDATA[paintings]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5112</guid>
+
+					<description><![CDATA[Previously, we have recalled comparisons between approaches to define a geometry over the absolute point and art-historical movements, first those due to Yuri I. Manin,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Previously, we have recalled comparisons between approaches to define a geometry over the absolute point and art-historical movements, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/art-and-the-absolute-point.html">first</a> those due to Yuri I. Manin, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/art-and-the-absolute-point-2.html">subsequently</a> some extra ones due to Javier Lopez Pena and Oliver Lorscheid.</p>
+<p>In these comparisons, the art trend appears to have been  chosen more to illustrate a key feature of the approach or an appreciation of its importance, rather than giving a visual illustration of the varieties over $\mathbb{F}_1$ the approach proposes.</p>
+<p>Some time ago, we&#8217;ve had a couple of posts trying to depict noncommutative varieties, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/views-of-noncommutative-spaces.html">first</a> the illustrations used by Shahn Majid and Matilde Marcolli, and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/pollock-your-own-noncommutative-space.html">next</a> my own mental picture of it.</p>
+<p>In this post, we&#8217;ll try to do something similar for affine varieties over the absolute point. To simplify things drastically, I&#8217;ll divide the islands in the Lopez Pena-Lorscheid <a href="http://arxiv.org/abs/0909.0069">map of $\mathbb{F}_1$ land</a> in two subsets : the <strong>former approaches</strong> (all but the $\Lambda$-schemes) and the <strong>current approach</strong> (the $\Lambda$-scheme <a href="http://arxiv.org/abs/0906.3146">approach</a> due to James Borger).</p>
+<p><strong>The former approaches : Francis Bacon &#8220;The Pope&#8221; (1953)</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BaconPope.jpg"></p>
+<p>The general consensus here was that in going from $\mathbb{Z}$ to $\mathbb{F}_1$ one looses the additive structure and retains only the multiplicative one. Hence, &#8216;commutative algebras&#8217; over $\mathbb{F}_1$ are (commutative) monoids, and mimicking Grothendieck&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/grothendiecks-functor-of-points.html">functor of points</a> approach to algebraic geometry, a scheme over $\mathbb{F}_1$ would then correspond to a functor</p>
+<p>$h_Z~:~\mathbf{monoids} \longrightarrow \mathbf{sets}$</p>
+<p>Such functors are described largely by combinatorial data (see for example the recent <a href="http://arxiv.org/abs/1103.1745">blueprint-paper</a> by Oliver Lorscheid), and, if the story would stop here, any <a href="http://www.google.com/search?q=Rothko&amp;hl=en&amp;client=safari&amp;rls=en&amp;prmd=ivns&amp;source=lnms&amp;tbm=isch&amp;ei=yNDUTcTcDIyVOuK7xIIM&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;cd=2&amp;ved=0CBsQ_AUoAQ&amp;biw=1362&amp;bih=734">Rothko painting</a> could be used as illustration.</p>
+<p>Most of the former approaches add something though (buzzwords include &#8216;Arakelov&#8217;, &#8216;completion at $\infty$&#8217;, &#8216;real place&#8217; etc.) in order to connect the virtual geometric object over $\mathbb{F}_1$ with existing real, complex or integral schemes. For example, one can make the virtual object visible via an evaluation map $h_Z \rightarrow h_X$ which is a natural transformation, where $X$ is a complex variety with its usual functor of points $h_X$ and to connect both we associate to a monoid $M$ its complex monoid-algebra $\mathbb{C} M$. An integral scheme $Y$ can then be said to be &#8216;defined over $\mathbb{F}_1$&#8217;, if $h_Z$ becomes a subfunctor of its usual functor of points $h_Y$ (again, assigning to a monoid its integral monoid algebra $\mathbb{Z} M$) and $Y$ is the &#8216;best&#8217; integral scheme approximation of the complex evaluation map.</p>
+<p>To illustrate this, consider the painting <a href="http://en.wikipedia.org/wiki/Study_after_Velázquez's_Portrait_of_Pope_Innocent_X">Study after Velázquez&#8217;s Portrait of Pope Innocent X</a> by <a href="http://en.wikipedia.org/wiki/Francis_Bacon_(painter)">Francis Bacon</a> (right-hand painting above) which is  a distorded version of the left-hand painting <a href="http://en.wikipedia.org/wiki/Portrait_of_Innocent_X">Portrait of Innocent X</a> by <a href="http://en.wikipedia.org/wiki/Diego_Velázquez">Diego Velázquez</a>.</p>
+<p>Here, Velázquez&#8217; painting plays the role of the complex variety which makes the combinatorial gadget $h_Z$ visible, and, Bacon&#8217;s painting depicts the integral scheme, build up from this combinatorial data, which approximates the evaluation map best.</p>
+<p>All of the former approaches more or less give the same very small list of integral schemes defined over $\mathbb{F}_1$, none of them motivically interesting.</p>
+<p><strong>The current approach : Jackson Pollock &#8220;No. 8&#8221; (1949)</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Pollock8.jpg"></p>
+<p>An entirely different approach was proposed by James Borger in <a href="http://arxiv.org/abs/0906.3146">$\Lambda$-rings and the field with one element</a>. He proposes another definition for commutative $\mathbb{F}_1$-algebras, namely $\lambda$-rings (in the sense of Grothendieck&#8217;s Riemann-Roch) and he argues that the $\lambda$-ring structure (which amounts in the sensible cases to a family of endomorphisms of the integral ring lifting the Frobenius morphisms) can be viewed as descent data from $\mathbb{Z}$ to $\mathbb{F}_1$.</p>
+<p>The list of integral schemes of finite type with a $\lambda$-structure coincides roughly with the list of integral schemes defined over $\mathbb{F}_1$ in the other approaches, but Borger&#8217;s theory really shines in that it proposes long sought for mystery-objects such as $\mathbf{spec}(\mathbb{Z}) \times_{\mathbf{spec}(\mathbb{F}_1)} \mathbf{spec}(\mathbb{Z})$. If one accepts Borger&#8217;s premise, then this object should be the geometric object corresponding to the Witt-ring $W(\mathbb{Z})$. Recall that the role of Witt-rings in $\mathbb{F}_1$-geometry was anticipated by Manin in <a href="http://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a>.</p>
+<p>But, Witt-rings and their associated Witt-spaces are huge objects, so one needs to extend arithmetic geometry drastically to include such &#8216;integral schemes of infinite type&#8217;. Borger has made a couple of steps in this direction in <a href="http://arxiv.org/abs/1006.0092">The basic geometry of Witt vectors, II: Spaces</a>.</p>
+<p>To depict these new infinite dimensional geometric objects I&#8217;ve chosen for <a href="http://en.wikipedia.org/wiki/Jackson_Pollock">Jackson Pollock</a>&#8216;s painting No. 8. It is no coincidence that Pollock-paintings also appeared in the depiction of noncommutative spaces. In fact, Matilde Marcolli has made the connection between $\lambda$-rings and noncommutative geometry in <a href="http://arxiv.org/abs/0901.3167">Cyclotomy and endomotives</a> by showing that the Bost-Connes endomotives are universal for $\lambda$-rings.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Art and the absolute point (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 13 May 2011 13:41:51 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[paintings]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5001</guid>
+
+					<description><![CDATA[Last time we did recall Manin&#8217;s comparisons between some approaches to geometry over the absolute point $\pmb{spec}(\mathbb{F}_1)$ and trends in the history of art. In&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/absolutpoint.jpg" align=left hspace=10> <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/art-and-the-absolute-point.html">Last time</a> we did recall Manin&#8217;s comparisons between some approaches to geometry over the absolute point $\pmb{spec}(\mathbb{F}_1)$ and trends in the history of art.</p>
+<p>In the comments to that post, <a href="http://www.ucl.ac.uk/~ucahjlo/">Javier Lopez-Pena</a> wrote that he and <a href="http://www.sci.ccny.cuny.edu/~lorscheid/">Oliver Lorscheid</a> briefly contemplated the idea of extending Manin&#8217;s artsy-dictionary to all approaches they did draw on their <a href="http://arxiv.org/abs/0909.0069">Map of $\mathbb{F}_1$-land</a>. </p>
+<p>So this time, we will include here Javier&#8217;s and Oliver&#8217;s insights on the colored pieces below in their map : CC=Connes-Consani, Generalized torified schemes=Lopez Pena-Lorscheid, Generalized schemes with 0=Durov and, this time, $\Lambda$=Manin-Marcolli.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/F1land2.jpg"></p>
+<p><strong>Durov : romanticism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/romanticism.jpg"></p>
+<p>In his 568 page long Ph.D. thesis <a href="http://arxiv.org/abs/0704.2030">New Approach to Arakelov Geometry</a> Nikolai Durov introduces a vast generalization of classical algebraic geometry in which both Arakelov geometry and a more exotic geometry over $\mathbb{F}_1$ fit naturally. Because there were great hopes and expectations it would lead to a big extension of algebraic geometry, Javier and Oliver associate this approach to <a href="http://en.wikipedia.org/wiki/Romanticism">romantism</a>. From wikipedia : &#8220;The modern sense of a romantic character may be expressed in Byronic ideals of a gifted, perhaps misunderstood loner, creatively following the dictates of his inspiration rather than the standard ways of contemporary society.&#8221;</p>
+<p><strong>Manin and Marcolli : impressionism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/impressionism.jpg"></p>
+<p>Yuri I. Manin in <a href="http://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a> and Matilde Marcolli in <a href="http://arxiv.org/abs/0901.3167">Cyclotomy and endomotives</a> develop a theory of analytic geometry over $\mathbb{F}_1$ based on analytic functions &#8216;leaking out of roots of unity&#8217;. Javier and Oliver depict such functions as &#8216;thin, but visible brush strokes at roots of 1&#8217; and therefore associate this approach to <a href="http://en.wikipedia.org/wiki/Impressionism">impressionism</a>. Frow wikipedia : &#8216;Characteristics of Impressionist paintings include: relatively small, thin, yet visible brush strokes; open composition; emphasis on accurate depiction of light in its changing qualities (often accentuating the effects of the passage of time); common, ordinary subject matter; the inclusion of movement as a crucial element of human perception and experience; and unusual visual angles.&#8217;</p>
+<p><strong>Connes and Consani : cubism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cubism.jpg"></p>
+<p>In <a href="http://arxiv.org/abs/0809.2926">On the notion of geometry over $\mathbb{F}_1$</a> Alain Connes and Katia Consani develop their extension of Soule&#8217;s approach. A while ago I&#8217;ve done a couple of posts on this <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-1.html">here</a>, <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-2.html">here</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-3.html">here</a>. Javier and Oliver associate this approach to <a href="http://en.wikipedia.org/wiki/Cubism">cubism</a> (a.o. Pablo Picasso and Georges Braque) because of the weird juxtapositions of the simple monoidal pieces in this approach.</p>
+<p><strong>Lopez-Pena and Lorscheid : deconstructivism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/deconstructivism.jpg"></p>
+<p>Torified varieties and schemes were introduced by Javier Lopez-Pena and Oliver Lorscheid in <a href="http://arxiv.org/abs/0903.2173">Torified varieties and their geometries over $\mathbb{F}_1$</a> to get lots of examples of varieties over the absolute point in the sense of both Soule and Connes-Consani. Because they were fragmenting schemes into their &#8220;fundamental pieces&#8221; they associate their approach to <a href="http://en.wikipedia.org/wiki/Deconstructivism">deconstructivism</a>.</p>
+<p>Another time I&#8217;ll sketch my own arty-farty take on all this.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>PD1 goes YouTube</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/pd1-goes-youtube/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/pd1-goes-youtube/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 14 Sep 2010 16:02:19 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[paintings]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3276</guid>
+
+					<description><![CDATA[If you like this, please spread it (or let her know). UPDATE : the clip won the International Holland Animation Film Festival 2010 HAFFTube competition.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>If you like <a href="http://www.youtube.com/watch?v=4sF3ocdYD8A">this</a>, please spread it (or let <a href="http://www.gittte.be/">her</a> know).</p>
+<p><iframe title="YouTube video player" width="576" height="459" src="http://www.youtube.com/embed/4sF3ocdYD8A" frameborder="0" allowfullscreen></iframe></p>
+<p>UPDATE : the clip won the <a href="http://www.haff.nl/nl/programma/az-per-programmaonderdeel/competitie-hafftube/">International Holland Animation Film Festival 2010 HAFFTube competition</a>.</p>
+<p>Winner international competition web animation HAFFTube 2010!<br />Silver Junkie: Maria by Gitte Le Bruyn</p>
+<p>14th Holland Animation Film Festival, 3 &#8211; 7 November 2010 in Utrecht, <a href="http://www.msplinks.com/MDFodHRwOi8vd3d3LmhhZmYubmw=" target="_blank" rel="noopener">www.haff.nl</a><br />The winner of the international competition web animation HAFFTube 2010 is Silver Junkie: Maria, by the Belgian visual artist Gitte Le Bruyn (1985).</p>
+<blockquote><p>She created a series of oil paintings on glass, which she lit and photographed, inspired by the music of the Belgian band Silver Junkie (Tino Biddeloo). Full of contrast in black-and-white, intense, with generous brushstrokes, unruly and hopeful. Gitte Le Bruyn graduated as a visual artist in 2008 from the Royal Academy of Fine Arts in Antwerp.</p>
+<p>The web competition HAFFTube has been open for entries for a few months. The channel filled up with an international state of the art selection of contemporary animated films from all over the world with a maximum length of 5 minutes. At the set limit of 50 films, the voting began. An international jury of filmmakers selected Silver Junkie: Maria out of the shortlist of 50 titles. Gitte Le Bruyn will be hosted at the Holland Animation Film Festival next year, with a festival pass and arranged stay in a hotel.
+</p></blockquote>
+<p>Check Silver Junkie: Maria here: <a href="http://www.msplinks.com/MDFodHRwOi8vd3d3LmhhZmYubmwvZW4vZmlsbXMvc2lsdmVyLWp1bmtpZS1tYXJpYQ==" target="_blank" rel="noopener">http://www.haff.nl/en/films/silver-junkie-maria</a></div>
+<p>UPDATE 2 : The video made it into the december 2010 volume of <a href="http://www.stashmedia.tv/latest/">Stash Magazine</a>, the online video library of animation, VFX and motion design.</p>
+<p>UPDATE 3 : The clip made it to Belgian National TV : <a href="http://www.cobra.be/cm/cobra/cobra-mediaplayer/muziek/1.953051">Cobra TV</a>.</p>
+<p><iframe width="425" height="349" src="http://www.youtube.com/embed/3O3WAKvyiGc?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p>UPDATE 4 : The clip made it to the 18th Stuttgart Festival of Animated Film (Germany)<br />
+May 3-8, 2011</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/pd1-goes-youtube/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Pollock your own noncommutative space</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 19 May 2009 16:56:50 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[paintings]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1839</guid>
+
+					<description><![CDATA[I really like Matilde Marcolli&#8217;s idea to use some of Jackson Pollock&#8217;s paintings as metaphors for noncommutative spaces. In her talk she used this painting&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I really like Matilde Marcolli&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/views-of-noncommutative-spaces.html">idea</a> to use some of Jackson Pollock&#8217;s paintings as metaphors for noncommutative spaces. In her talk she used this painting</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PollockNCG.jpg"><br />
+</center></p>
+<p>and refered to it (as did I in my post) as : Jackson Pollock “Untitled N.3”. Before someone writes a post &#8216;The Pollock noncommutative space hoax&#8217; (similar to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-scottish-solids-hoax.html">my own</a> post) let me point out that I am well aware of the controversy surrounding this painting.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PollockContreversy.jpg" style="float:right;margin-left:10px;" hspace=10>This painting is among 32 works recently discovered and initially attributed to Pollock.<br />
+In fact, I&#8217;ve already told part of the story in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/doodles-worth-millions-or-not.html">Doodles worth millions (or not)?</a> (thanks to <a href="http://www.gittte.be/">PD1</a>). The story involves the people on the right : from left to right, Jackson Pollock, his wife Lee Krasner, Mercedes Matter and her son Alex Matter.</p>
+<p>Alex Matter, whose father, Herbert, and mother, Mercedes, were artists and friends of Jackson Pollock, discovered after his mother died a group of small drip paintings in a storage locker in Wainscott, N.Y. which he believed to be authentic Pollocks.</p>
+<p>Read the post mentioned above if you want to know how mathematics screwed up his plan, or much better, reed the article <a href="http://blog.cleveland.com/pdextra/2007/10/anatomy_of_the_jackson_pollock.html">Anatomy of the Jackson Pollock controversy</a> by Stephen Litt.</p>
+<p>So, perhaps the painting above was not the smartest choice, but we could take any other genuine Pollock &#8216;drip-painting&#8217;, a technique he taught himself towards the end of 1946 to make an image by splashing, pouring, sloshing colors onto the canvas. Typically, such a painting consists of blops of paint, connected via thin drip-lines.</p>
+<p>What does this have to do with noncommutative geometry? Well, consider the blops as &#8216;points&#8217;. In commutative geometry, distinct points cannot share tangent information ((technically : a commutative semi-local ring splits as the direct sum of local rings and this does no longer hold for a noncommutative semi-local ring)). In the noncommutative world though, they can!, or if you want to phrase it like this, noncommutative points &#8216;can talk to each other&#8217;. And, that&#8217;s what we cherish in those drip-lines.</p>
+<p>But then, if two points share common tangent informations, they must be awfully close to each other&#8230; so one might imagine these Pollock-lines to be strings holding these points together. Hence, it would make more sense to consider the &#8216;Pollock-quotient-painting&#8217;, that is, the space one gets after dividing out the relation &#8216;connected by drip-lines&#8217; ((my guess is that Matilde thinks of the lines as the action of a group on the points giving a topological horrible quotient space, and thats precisely where noncommutative geometry shines)).</p>
+<p>For this reason, my own mental picture of a genuinely noncommutative space  ((that is, the variety corresponding to a huge noncommutative algebra such as free algebras, group algebras of arithmetic groups or fundamental groups)) looks more like the picture below</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/LeBruynNCG.jpg"><br />
+</center></p>
+<p>The colored blops you see are really sets of points which you might view as, say, a  FacebookGroup ((technically, think of them as the connected components of isomorphism classes of finite dimensional simple representations of your favorite noncommutative algebra)). Some chatter may occur between two distinct FacebookGroups, the more chatter the thicker the connection depicted ((technically, the size of the connection is the dimension of the ext-group between generic simples in the components)). Now, there are some tiny isolated spots (say blue ones in the upper right-hand quadrant). These should really be looked at as remote clusters of noncommutative points (sharing no (tangent) information whatsoever with the blops in the foregound). If we would zoom into them beyond the Planck scale (if I&#8217;m allowed to say a bollock-word in a Pollock-post) they might reveal again a whole universe similar to the interconnected blops upfront.</p>
+<p>The picture was produced using the fabulous <a href="http://www.jacksonpollock.org/">Pollock engine</a>. Just use your mouse to draw and click to change colors in order to produce your very own noncommutative space!</p>
+<p>For the mathematicians still around, this may sound like a lot of Pollock-bollocks but can be made precise. See my note <a href="http://arxiv.org/abs/0805.2377">Noncommutative geometry and dual coalgebras</a> for a very terse reading. Now that coalgebras are <a href="http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html">gaining popularity</a>, I really should write a more readable account of it, including some fanshi-wanshi examples&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Doodles worth millions (or not)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/doodles-worth-millions-or-not/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/doodles-worth-millions-or-not/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 10 Jan 2008 18:12:04 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[paintings]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=334</guid>
+
+					<description><![CDATA[Via PD1, who told me the story on her 23rd birthday, yesterday. The story starts with Alex Matter, whose father, Herbert, and mother, Mercedes, were&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Via <a href="http://www.gittte.be/">PD1</a>, who told me the story on her 23rd birthday, yesterday.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/doodles.jpg" width=500 ></p>
+<p>The story starts with Alex Matter, whose father, Herbert, and mother, Mercedes, were artists and friends of <a href="http://en.wikipedia.org/wiki/Jackson_Pollock">Jackson Pollock</a>, famous for his drip-paintings. He discovered a group of small drip paintings in a storage locker in Wainscott, N.Y. which he believed to be authentic Pollocks, and if he is proved right, they would be worth millions of dollars.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/pollock.jpg" style="float:left;margin-right:10px;" > Usually such discoveries lead to heated debates among art-critics and Pollock-experts whether one finds proof to authenticate the paintings. Not this time. In steps a mathematician who claims that he can authenticate a Pollock drip-painting by calculating its fractal dimension (??!!)&#8230; and claims that these drippings cannot be Pollocks because their dimension is too small&#8230; LOL!</p>
+<p>This madmatician is <a href="http://www.uoregon.edu/~msiuo/taylor/art/info.html">Richard Taylor</a> from the University of Oregon in Corvallis.</p>
+<blockquote><p>Taylor took a digital image of a Pollock painting into his lab, broke the image into its separate colors, and computed the fractal dimension of the lines in each color. Each time, he got a number between 1 and 2, confirming his notion that Pollock&#8217;s paintings are fractal. &#8220;Rather than mimicking nature,&#8221; Taylor says, Pollock &#8220;adopted its language of fractals to build his own patterns.&#8221;</p>
+<p>In 1999, Taylor reported that the fractal dimension of Pollock&#8217;s paintings increased during his life. His early drip paintings have a loose web of lines, mostly at the same scale. Because these paintings show no fractal qualities, their dimension is near 1. But Pollock&#8217;s later paintings have a dense network of overlapping lines, ranging from large, bold strokes to delicate threads, Taylor calculated a fractal dimension of 1.72 for these works.
+</p></blockquote>
+<p>His paper on this &#8220;Authenticating Pollock Paintings Using Fractal Geometry&#8221; can be found <a href="http://materialscience.uoregon.edu/taylor/art/TaylorSubmission.pdf">here</a>. Luckily, the story doesn&#8217;t end here. In steps a graduate student in astrophysics at Case Western, <a href="http://front.math.ucdavis.edu/author/L.Krauss">Katherine Jones-Smith</a> who had to give a seminar talk to her fellow students.</p>
+<blockquote><p> &#8220;I was sort of bored with particle astrophysics,&#8221; Jones-Smith says, so she looked around for something different. She came across an account of Taylor&#8217;s work, and &#8220;it sounded really cool,&#8221; she recalls.</p>
+<p>&#8220;The obvious check to me was to make sure that not any old scribble would appear to be fractal,&#8221; she says. &#8220;So, I made some scribbles.&#8221; Much to her surprise, when she computed the fractal dimension of her scribbles, they turned out to be greater than 1.</p></blockquote>
+<p>Recently, she arXived her findings in the paper <a href="http://arxiv.org/abs/0710.4917">Drip Paintings and Fractal Analysis</a> from which the above doodles are taken, called appropriately &#8220;Gross pebbles&#8221; and &#8220;Mixed stars&#8221;.</p>
+<blockquote><p>When Katherine Jones-Smith made some doodles on a page &#8220;&#8221;pretty ugly&#8221; ones, she says”she found that they shared the qualities of a Pollock, according to an analysis that follows Taylor&#8217;s approach. <strong>&#8220;Either Taylor is wrong, or Kate&#8217;s drawings are worth $40 million,&#8221; says Jones-Smith&#8217;s collaborator Harsh Mathur. &#8220;We&#8217;d be happy either way.</strong>&#8220;</p></blockquote>
+<p>More on this hilarious story can be found in <a href="http://www.sciencenews.org/articles/20070224/bob9.asp">this science news article</a>, this <a href="http://www.sciencenews.org/articles/20070224/bob9.asp">New-York times story</a> or the <a href="http://bioephemera.com/2007/02/07/pollocks-bollocks/">Pollocks-bollocks blog entry</a> over at <a href="http://bioephemera.com/">biophemera</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/doodles-worth-millions-or-not/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>artistic and other frustrations</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/artistic-and-other-frustrations/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/artistic-and-other-frustrations/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 17 Apr 2004 09:05:26 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[paintings]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=150</guid>
+
+					<description><![CDATA[Yesterday, PD1 exhibited some of her paintings in the Antwerp Museum for Photography. Over breakfast this morning she was in a rare angry mood. No,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, PD1 exhibited some of her paintings in the <a href="http://www.fotomuseum.be/" target="_blank" rel="noopener">Antwerp Museum for Photography</a>. Over breakfast this morning she was in a rare angry mood.</p>
+<p>No, she was satisfied with the responses she got on her work, the room was not ideal (lighting etc.) but that was not what mattered&#8230;</p>
+<p>Me : So?</p>
+<p>She : There was this other work, a video-performance. I once saw by accident on Arte a short-film and this performance stole the whole idea of that film, from start to finish! The whole idea was nicked!</p>
+<p>Me : Wake up! That&#8217;s the majority way of creating art, or science for that matter.</p>
+<p>She : But it is so unfair! Why do people steal ideas ?</p>
+<p>Me : Maybe they don&#8217;t see it as stealing. Maybe they believe they do a better thing with the original idea than the person who invented it.</p>
+<p>She : Nothing can beat the original! Anyway, I find the most rewarding thing about art to come up with an original idea and work it out. It cannot be rewarding to steal other people\&#8217;s ideas.</p>
+<p>Me (dry) : I think such people are after other rewards&#8230;</p>
+<p>She : The same thing happens at school. Sometimes I come up with a suggestion to use a different technique or material and then a few weeks later, half of my class seems<br />
+to have worked this out too.</p>
+<p>Me : So ? You still had the idea.</p>
+<p>She : Yes, but the Jury doesn&#8217;t know that!</p>
+<p>Me : So ? After the Jury you can still be confident to come up with new ideas, these others may fear they will only be able to repeat themselves.</p>
+<p>She : But is it so unfair!</p>
+<p>Me : What&#8217;s the alternative ? Are you going to lock yourself up in your room to<br />
+paint and let nobody see the result?</p>
+<p>She : No, but I prefer to do my painting here at home, on my own with nobody looking over my shoulder constantly to see whether they can use some of my ideas. I will<br />
+paint on my own and only when it is fully finished they may see the result!</p>
+<p>Me : That&#8217;s the spirit girl! You are much cleverer than I will ever be&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/artistic-and-other-frustrations/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

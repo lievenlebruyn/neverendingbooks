@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>IUTT &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/iutt/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 13 Feb 2022 12:33:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The hype cycle of an idea</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 13 Feb 2022 12:33:07 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[Gartner]]></category>
+		<category><![CDATA[IUTT]]></category>
+		<category><![CDATA[Joshi]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10253</guid>
+
+					<description><![CDATA[These three ideas (re)surfaced over the last two decades, claiming to have potential applications to major open problems: (2000) $\mathbb{F}_1$-geometry tries to view $\mathbf{Spec}(\mathbb{Z})$ as&#8230;]]></description>
+										<content:encoded><![CDATA[<p>These three ideas (re)surfaced over the last two decades, claiming to have potential applications to major open problems:</p>
+<ul>
+<li>(2000) $\mathbb{F}_1$-geometry tries to view $\mathbf{Spec}(\mathbb{Z})$ as a curve over <a href="https://en.wikipedia.org/wiki/Field_with_one_element">the field with one element</a>, and mimic Weil&#8217;s proof of RH for curves over finite fields to prove the Riemann hypothesis.</li>
+<li>(2012) IUTT, for <a href="https://en.wikipedia.org/wiki/Inter-universal_Teichm%C3%BCller_theory">Inter Universal Teichmuller Theory</a>, the machinery behind Mochizuki&#8217;s claimed proof of the ABC-conjecture.</li>
+<li>(2014) topos theory : Connes and Consani redirected their RH-attack using arithmetic sites, while Lafforgue advocated the use of <a href="https://www.oliviacaramello.com/Unification/ToposesBridges.html">Caramello&#8217;s bridges</a> for unification, in particular the Langlands programme.</li>
+</ul>
+<p>It is difficult to voice an opinion about the (presumed) current state of such projects without being accused of being either a believer or a skeptic, resorting to group-think or being overly critical.</p>
+<p>We lack the vocabulary to talk about the different phases a mathematical idea might be in.</p>
+<p>Such a vocabulary exists in (information) technology, the five phases of the <a href="https://en.wikipedia.org/wiki/Gartner_hype_cycle">Gartner hype cycle</a> to represent the maturity, adoption, and social application of a certain technology :</p>
+<ol>
+<li>Technology Trigger</li>
+<li>Peak of Inflated Expectations</li>
+<li>Trough of Disillusionment</li>
+<li>Slope of Enlightenment</li>
+<li>Plateau of Productivity</li>
+</ol>
+<p><img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Hype-Cycle-General.png/640px-Hype-Cycle-General.png" width=100% /></p>
+<p>This model can then be used to gauge in which phase several emerging technologies are, and to estimate the time it will take them to reach the stable plateau of productivity. Here&#8217;s Gartner&#8217;s recent Hype Cycle for emerging Artificial Intelligence technologies.</p>
+<p><center><br />
+<img decoding="async" src="https://miro.medium.com/max/1400/1*otjihWm7qj4qOORUH7M-AQ.png" width=100% /><br />
+Picture from <a href="https://medium.com/@mishra.kamal/gartner-hype-cycle-for-ai-2021-3c11c1d80358">Gartner Hype Cycle for AI 2021</a><br />
+</center></p>
+<p>What might these phases be in the hype cycle of a <em>mathematical</em> idea?</p>
+<ol>
+<li>Technology Trigger: a new idea or analogy is dreamed up, marketed to be the new approach to that problem. A small group of enthusiasts embraces the idea, and tries to supply proper definitions and the very first results.</li>
+<li>Peak of Inflated Expectations: the idea spreads via talks, blogposts, mathoverflow and twitter, and now has enough visibility to justify the first conferences devoted to it. However, all this activity does not result in major breakthroughs and doubt creeps in.</li>
+<li>Trough of Disillusionment:  the project ran out of steam. It becomes clear that existing theories will not lead to a solution of the motivating problem. Attempts by key people to keep the idea alive (by lengthy papers, regular meetings or seminars) no longer attract new people to the field.</li>
+<li>Slope of Enlightenment: the optimistic scenario. One abandons the original aim, ditches the myriad of theories leading nowhere, regroups and focusses on the better ideas the project delivered.
+<p>A negative scenario is equally possible. Apart for a few die-hards the idea is abandoned, and on its way to the graveyard of forgotten ideas.</li>
+<li>Plateau of Productivity: the polished surviving theory has applications in other branches and becomes a solid tool in mathematics.</li>
+</ol>
+<p>It would be fun so see more knowledgable people draw such a hype cycle graph for recent trends in mathematics.</p>
+<p>Here&#8217;s my own (feeble) attempt to gauge where the three ideas mentioned at the start are in their cycles, and here&#8217;s why:</p>
+<ul>
+<li>IUTT: recent work of Kirti Joshi, for example <a href="https://arxiv.org/abs/2106.11452">this</a>, and <a href="https://arxiv.org/abs/2111.04890">this</a>, and <a href="https://arxiv.org/abs/2111.06771">that</a>, draws from IUTT while using conventional language and not making exaggerated claims.</li>
+<li>$\mathbb{F}_1$: the preliminary programme of <a href="https://funworldseminar.wordpress.com/">their seminar</a> shows little evidence the $\mathbb{F}_1$-community learned from the past 20 years.</li>
+<li>Topos: Developing more general theory is not the way ahead, but concrete examples may carry surprises, even though <a href="https://lievenlebruyn.github.io/neverendingbooks/closing-in-on-gabriels-topos">Gabriel&#8217;s topos</a> will remain elusive.</li>
+</ul>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/3hypecycles.png" width=100% /></p>
+<p>Clearly, you don&#8217;t agree, and that&#8217;s fine. We now have a common terminology, and you can point me to results or events I must have missed, forcing me to redraw my graph.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Log Lady and the Frobenioid of $\mathbb{Z}$</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-log-lady-and-the-frobenioid-of-mathbbz/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-log-lady-and-the-frobenioid-of-mathbbz/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 14 Dec 2015 15:36:39 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Frobenioids]]></category>
+		<category><![CDATA[IUTT]]></category>
+		<category><![CDATA[Mochizuki]]></category>
+		<category><![CDATA[Twin Peaks]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=6299</guid>
+
+					<description><![CDATA[&#8220;Sometimes ideas, like men, jump up and say &#8216;hello&#8217;. They introduce themselves, these ideas, with words. Are they words? These ideas speak so strangely.&#8221; &#8220;All&#8230;]]></description>
+										<content:encoded><![CDATA[<p>&#8220;Sometimes ideas, like men, jump up and say &#8216;hello&#8217;. They introduce themselves, these ideas, with words. Are they words? These ideas speak so strangely.&#8221;</p>
+<p>&#8220;All that we see in this world is based on someone&#8217;s ideas. Some ideas are destructive, some are constructive. Some ideas can arrive in the form of a dream. I can say it again: some ideas arrive in the form of a dream.&#8221;</p>
+<p><iframe width="480" height="360" src="https://www.youtube.com/embed/sBi2WSlg6ug?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p>Here&#8217;s such an idea.</p>
+<p>It all started when Norma wanted to compactify her twisted-prime-fruit pies. Norma&#8217;s pies are legendary in Twin Peaks, but if you never ate them at Double R Diner, here&#8217;s the concept.</p>
+<p>Start with a long rectangular strip of pastry and decorate it vertically with ribbons of fruit, one fruit per prime, say cherry for 2, huckleberry for 3, and so on.</p>
+<p>For elegance, I argued, the $p$-th ribbon should have width $log(p)$.</p>
+<p>&#8220;That may very well look natural to you,&#8221; she said, &#8220;but our Geometer disagrees&#8221;. It seems that geometers don&#8217;t like logs.</p>
+<p>Whatever. I won.</p>
+<p>That&#8217;s Norma&#8217;s basic pie, or the $1$-pie as we call it. Next, she performs $n$ strange twists in one direction and $m$ magical operations in another, to get one of her twisted-pies. In this case we would order it as her $\frac{m}{n}$-pie.</p>
+<p>Marketing-wise, these pies are problematic. They are infinite in length, so Norma can serve only a finite portion, limiting the number of fruits you can taste.</p>
+<p>That&#8217;s why Norma wants to compactify her pies, so that you can hold the entire pastry in your hands, and taste the infinite richness of our local fruits.</p>
+<p>&#8220;Wait!&#8221;, our Geometer warned, &#8220;You can never close them up with ordinary scheme-dough, the laws of scheme-pastry prohibit this!&#8221; He suggested to use a ribbon of marzipan, instead.</p>
+<p>&#8220;Fine, then&#8230; Margaret, before you start complaining again, how much marzipan should I use?&#8221;, Norma asked.</p>
+<p>&#8220;Well,&#8221; I replied, &#8220;ideally you&#8217;d want it to have zero width, but that wouldn&#8217;t close anything. So, I&#8217;d go for the next best thing, the log being zero. Take a marzipan-ribbon of width $1$.&#8221;</p>
+<p>The Geometer took a $1$-pie, closed it with marzipan of width $1$, looked at the pastry from every possible angle, and nodded slowly.</p>
+<p>&#8220;Yes, that&#8217;s a perfectly reasonable trivial bundle, or structure sheaf if you want. I&#8217;d sell it as $\mathcal{O}_{\overline{\mathbf{Spec}(\mathbb{Z})}}$ if I were you.&#8221;</p>
+<p>&#8220;In your dreams!  I&#8217;ll simply call this  a $1$-pastry, and an $\frac{m}{n}$-pie closed with a $1$-ribbon of marzipan can be ordered from now on as an $\frac{m}{n}$-pastry.&#8221;</p>
+<p>&#8220;I&#8217;m afraid this will not suffice,&#8221; our Geometer objected, &#8221; you will have to allow pastries having an arbitrary marzipan-width.&#8221;</p>
+<p>&#8220;Huh? You want me to compactify an $\frac{m}{n}$-pie  with marzipan of every imaginable width $r$ and produce a whole collection of &#8230; what &#8230; $(\frac{m}{n},r)$-pastries? What on earth for??&#8221;</p>
+<p>&#8220;Well, take an $\frac{m}{n}$-pastry and try to unravel it.&#8221;</p>
+<p>Oh, here we go again, I feared.</p>
+<p>Whereas Norma&#8217;s pies all looked and tasted quite different to most of us, the Geometer claimed they were all the same, or &#8216;isomorphic&#8217; as he pompously declared.</p>
+<p>&#8220;Just reverse the operations Norma performed and you&#8217;ll end up with a $1$-pie&#8221;, he argued.</p>
+<p>So Norma took an arbitrary $\frac{m}{n}$-pastry and did perform the reverse operations, which was a lot more difficult that with pies as now the marzipan-bit produced friction. The end-result was a $1$-pie held together with a marzipan-ribbon of width strictly larger or strictly smaller than $1$, but never gave back the $1$-pastry. Strange!</p>
+<p>&#8220;Besides&#8221;, the Geometer added, &#8220;if you take two of your pastries, which I prefer to call $\mathcal{L}$ and $\mathcal{M}$, rather than use your numerical system, then their product $\mathcal{L} \otimes \mathcal{M}$ is again a pastry, though with variable marzipan-width.</p>
+<p>In the promotional stage it might be nice to give the product for free to anyone ordering two pastries.&#8221;</p>
+<p>&#8220;And how should I produce such a product-pastry?&#8221;</p>
+<p>&#8220;Well, I&#8217;m too lazy to compute such things, it must follow trivially from elementary results in Picard-pastry. Surely, our log lady will work out the details in your notation. No doubt it will involve lots of logs&#8230;&#8221;</p>
+<p>And so I did the calculations in my dreams, and I wrote down all formulas in the Double R Diner log-book, for Norma to consult whenever a customer ordered a product, or power of pastries.</p>
+<p>A few years ago we had a Japanese tourist visiting Twin Peaks. He set up office in the Double R Diner, consulted my formulas, observed Norma&#8217;s pastry production and had endless conversations with our Geometer.</p>
+<p>I&#8217;m told he categorified Norma&#8217;s pastry-bizness, probably to clone the concept to the Japanese market, replacing pastries by sushi-rolls.</p>
+<p>When he left, he thanked me for working out the most trivial of examples, that of the Frobenioid of $\mathbb{Z}$&#8230;</p>
+<p><strong>Added december 2015</strong>:</p>
+<p>I wrote this little story some time ago.</p>
+<p>The last couple of days this blog gets some renewed interest in the aftermath of the <a href="http://www.claymath.org/events/iut-theory-shinichi-mochizuki" target="_blank" rel="noopener">IUTT-Mochizuki-Fest in Oxford</a> last week.</p>
+<p>I thought it might be fun to include it, if only in order to decrease the bounce rate.</p>
+<p>If you are at all interested in the maths, you may want to start with <a href="https://plus.google.com/+lievenlebruyn/posts/hK66h2artZc" target="_blank" rel="noopener">this google+ post</a>, and work your way back using the links curated by David Roberts <a href="http://mathoverflow.net/a/195553/2275" target="_blank" rel="noopener">here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-log-lady-and-the-frobenioid-of-mathbbz/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

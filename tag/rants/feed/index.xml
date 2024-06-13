@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>rants &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/rants/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 12 Apr 2023 08:41:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Against toposes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/against-toposes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/against-toposes/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 12 Apr 2023 08:41:46 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[france]]></category>
+		<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[against]]></category>
+		<category><![CDATA[Dugowson]]></category>
+		<category><![CDATA[Levi-Strauss]]></category>
+		<category><![CDATA[topos theory]]></category>
+		<category><![CDATA[toposes]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11076</guid>
+
+					<description><![CDATA[The French anthropologist and ethnologist Claude Levi-Strauss once observed &#8220;In Paris, intellectuals need a new toy every 15 years.&#8221; Some pointers to applications of their&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The French anthropologist and ethnologist <a href="https://en.wikipedia.org/wiki/Claude_L%C3%A9vi-Strauss">Claude Levi-Strauss</a> once observed</p>
+<blockquote><p>
+&#8220;In Paris, intellectuals need a new toy every 15 years.&#8221;
+</p></blockquote>
+<p>Some pointers to applications of their toy of choice for the past ten years:</p>
+<ul>
+<li>Langlands correspondence (see <a href="https://www.laurentlafforgue.org/math/TheorieCaramello.pdf">here</a>)</li>
+<li>Riemann hypothesis (see <a href="https://arxiv.org/pdf/1509.05576.pdf">here</a>)</li>
+<li>Machine learning (see <a href="https://arxiv.org/abs/2106.14587">here</a>)</li>
+<li>Literature (see <a href="https://lievenlebruyn.github.io/neverendingbooks/archangel-gabriel-will-make-you-a-topos">here</a>)</li>
+<li>Psycho-analysis (see <a href="https://sites.google.com/site/dugowsonrecherche/coordinations-colloques/LG">here</a>)</li>
+<li>Design theory (see <a href="https://theory.designsociety.org/11/15TH+SIG+DESIGN+THEORY+PARIS+WORKSHOP+%2831ST+JANUARY+-+1ST+FEBRUARY+2022%2C+PARIS%2C+FRANCE%29">here</a>)</li>
+<li><a href="https://en.wikipedia.org/wiki/Haute_cuisine">Haute cuisine</a> (see <a href="https://www.cambridge.org/core/journals/proceedings-of-the-international-conference-on-engineering-design/article/innovative-design-within-tradition-injecting-topos-structures-in-ck-theory-to-model-culinary-creation-heritage/CFA7A8ED527F8DEF4D05E33BF858CEC6">here</a>)</li>
+<li>6G (see <a href="http://r.huaweistatic.com/s/sedata/v1/semantic-workshop-2023.html">here</a>)</li>
+<li>&#8230;</li>
+</ul>
+<p>How do Parisian mathematicians with a lifelong interest in topos theory react to this hype?</p>
+<p>With humour!</p>
+<p>Here&#8217;s an &#8216;exposé parodique&#8217; (parodical lecture) by <a href="https://sites.google.com/site/dugowsonrecherche">Stéphane Dugowson</a> on &#8220;Contre les topos&#8221; (against toposes).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ZdoLiIfmJ7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/against-toposes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

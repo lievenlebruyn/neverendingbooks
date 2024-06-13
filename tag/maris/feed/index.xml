@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>maris &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/maris/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 17 Mar 2023 11:29:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Stella Maris (Cormac McCarthy)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/stella-maris-cormac-mccarthy/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/stella-maris-cormac-mccarthy/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 17 Mar 2023 11:29:08 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[(cormac]]></category>
+		<category><![CDATA[Deligne]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[maris]]></category>
+		<category><![CDATA[McCarthy]]></category>
+		<category><![CDATA[stella]]></category>
+		<category><![CDATA[topos theory]]></category>
+		<category><![CDATA[unconscious]]></category>
+		<category><![CDATA[Witten]]></category>
+		<category><![CDATA[Zariski]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11100</guid>
+
+					<description><![CDATA[This week, I was hit hard by synchronicity. Lately, I&#8217;ve been reading up a bit on psycho-analysis, tried to get through Grothendieck&#8217;s La clef des&#8230;]]></description>
+										<content:encoded><![CDATA[<p>This week, I was hit hard by <a href="https://en.wikipedia.org/wiki/Synchronicity">synchronicity</a>.</p>
+<p>Lately, I&#8217;ve been reading up a bit on psycho-analysis, tried to get through Grothendieck&#8217;s <a href="https://www.quarante-deux.org/archives/klein/prefaces/Romans_1965-1969/la_Clef_des_songes.pdf">La clef des songes</a> (the key to dreams) and I&#8217;m in the process of writing a series of blogposts on how to construct a topos of the unconscious.</p>
+<p>And then I read <a href="https://en.wikipedia.org/wiki/Cormac_McCarthy">Cormac McCarthy</a>&#8216;s novels <a href="https://en.wikipedia.org/wiki/The_Passenger_(McCarthy_novel)">The passenger</a> and <a href="https://en.wikipedia.org/wiki/Stella_Maris_(novel)">Stella Maris</a>, and got hit.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/stellamaris.jpg" width=60%><br />
+</center></p>
+<p>Stella Maris is set in 1972, when the math-prodigy Alicia Western, suffering from hallucinations,  admits herself to a psychiatric hospital, carrying a plastic bag containing forty thousand dollars. The book consists entirely of dialogues, the transcripts of seven sessions with her psychiatrist Dr. Cohen (<a href="https://en.wikipedia.org/wiki/Paul_Cohen">nomen</a> est omen).</p>
+<p>Alicia is a doctoral candidate at the University Of Chicago who got a scholarship to visit the IHES to work with Grothendieck on toposes.</p>
+<p>During the psychiatric sessions, they talk on a wide variety of topics, including  the nature of mathematics, quantum mechanics, music theory, dreams, and the unconscious (and its role in doing mathematics).</p>
+<blockquote><p>The core question is not how you do math but how does the unconscious do it. How it is that it&#8217;s demonstrably better at it than you are? You work on a problem and then you put it away for a while. But it doesnt go away. It reappears at lunch. Or while you&#8217;re taking a shower. It says: Take a look at this. What do you think? Then you wonder why the shower is cold. Or the soup. Is this doing math? I&#8217;m afraid it is. How is it doing it? We dont know. How does the unconscious do math? (page 99)
+</p></blockquote>
+<p>Before going to the IHES she had to send Grothendieck a paper (&#8216;It was an explication of topos theory that I thought he probably hadn&#8217;t considered.&#8217; page 136, and &#8216;while it proved three problems in topos theory it then set about dismantling the mechanism of the proofs.&#8217; page 151). At the IHES &#8216;I met three men that I could talk to: Grothendieck, Deligne, and Oscar Zariski.&#8217; (page 136).</p>
+<p>I don&#8217;t know whether Zariski visited the IHES in the early 70ties, and while most historical allusions (to Grothendieck&#8217;s life, his role in Bourbaki etc.) are correct, Alicia mentions the &#8216;Langlands project&#8217; (page 66) which may very well have been the talk of town at the IHES in 1972, but the mention of Witten &#8216;Grothendieck writes everything down. Witten nothing.&#8217; (page 100) raised an eyebrow.</p>
+<p>The book also contains these two nice attempts to capture some of the essence of topos theory:</p>
+<blockquote><p>When you get to topos theory you are at the edge of another universe.<br />
+You have found a place to stand where you can look back at the world from nowhere. It&#8217;s not just some gestalt. It&#8217;s fundamental. (page 13)</p></blockquote>
+<blockquote><p>You asked me about Grothendieck. The topos theory he came up with is a witches&#8217; brew of topology and algebra and mathematical logic.<br />
+It doesnt even have a clear identity. The power of the theory is still speculative. But it&#8217;s there.<br />
+You have a sense that it is waiting quietly with answers to questions that nobody has asked yet. (page 68)</p></blockquote>
+<p>I did read &#8216;The passenger&#8217; first, which is probably better as then you&#8217;d know already some of the ghosts haunting Alicia, but it&#8217;s not a must if you are only interested in their discussions about the nature of mathematics. Be warned that it is a pretty dark book, better not read when you&#8217;re already feeling low, and it should come with a link to a suicide prevention line.</p>
+<p>Here&#8217;s a more considered take on Stella Maris:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/l70TIU7VicE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/stella-maris-cormac-mccarthy/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

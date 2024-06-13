@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>web &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/imath/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 04 Apr 2023 12:05:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Stephen Wolfram on ChatGPT</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 04 Apr 2023 12:05:44 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[GPT-2]]></category>
+		<category><![CDATA[logic]]></category>
+		<category><![CDATA[Mathematica]]></category>
+		<category><![CDATA[stephen]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[Wolfram]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11193</guid>
+
+					<description><![CDATA[A month ago, Stephen Wolfram put out a little booklet (140 pages) What Is ChatGPT Doing &#8230; and Why Does It Work?. It gives a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A month ago, <a href="https://en.wikipedia.org/wiki/Stephen_Wolfram">Stephen Wolfram</a> put out a little booklet (140 pages) <a href="https://www.amazon.com/What-ChatGPT-Doing-Does-Work-ebook/dp/B0BY59PT5Z/">What Is ChatGPT Doing &#8230; and Why Does It Work?</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/71Ve3AUJO+L.jpg" width=40%><br />
+</center></p>
+<p>It gives a gentle introduction to large language models and the architecture and training of neural networks.</p>
+<p>The entire book is freely available:</p>
+<ul>
+<li><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/">What Is ChatGPT Doing … and Why Does It Work?</a></li>
+<li><a href="https://writings.stephenwolfram.com/2023/01/wolframalpha-as-the-way-to-bring-computational-knowledge-superpowers-to-chatgpt/">Wolfram|Alpha as the Way to Bring Computational Knowledge Superpowers to ChatGPT</a></li>
+</ul>
+<p>The advantage of these online texts is that you can click on any of the images, copy their content into a Mathematica notebook, and play with the code.</p>
+<p>This really gives a good idea of how an extremely simplified version of ChatGPT (based on GPT-2) works.</p>
+<p>Downloading the model (within Mathematica) uses about 500Mb, but afterwards you can complete any prompt quickly, and see how the results change if you turn up the &#8216;temperature&#8217;.</p>
+<p>You should&#8217;t expect too much from this model. Here&#8217;s what it came up with from the prompt &#8220;The major results obtained by non-commutative geometry include &#8230;&#8221; after 20 steps, at temperature 0.8:</p>
+<p><code><br />
+NestList[StringJoin[#, model[#, {"RandomSample", "Temperature" -> 0.8}]] &,<br />
+ "The major results obtained by non-commutative geometry include ", 20]</p>
+<p>The major results obtained by non-commutative geometry include vernacular accuracy of math and arithmetic, a stable balance between simplicity and complexity and a relatively low level of violence.<br />
+</code></p>
+<p>Lol.</p>
+<p>In the more philosophical sections of the book, Wolfram speculates about the secret rules of language that ChatGPT must have found if we want to explain its apparent succes. One of these rules, he argues, must be the &#8216;logic&#8217; of languages:</p>
+<blockquote><p>
+But is there a general way to tell if a sentence is meaningful? There’s no traditional overall theory for that. But it’s something that one can think of ChatGPT as having implicitly “developed a theory for” after being trained with billions of (presumably meaningful) sentences from the web, etc.</p>
+<p>What might this theory be like? Well, there’s one tiny corner that’s basically been known for two millennia, and that’s logic. And certainly in the syllogistic form in which Aristotle discovered it, logic is basically a way of saying that sentences that follow certain patterns are reasonable, while others are not.
+</p></blockquote>
+<p>Something else ChatGPT may have discovered are language&#8217;s &#8216;semantic laws of motion&#8217;, being able to complete sentences by following &#8216;geodesics&#8217;:</p>
+<blockquote><p>
+And, yes, this seems like a mess—and doesn’t do anything to particularly encourage the idea that one can expect to identify “mathematical-physics-like” “semantic laws of motion” by empirically studying “what ChatGPT is doing inside”. But perhaps we’re just looking at the “wrong variables” (or wrong coordinate system) and if only we looked at the right one, we’d immediately see that ChatGPT is doing something “mathematical-physics-simple” like following geodesics. But as of now, we’re not ready to “empirically decode” from its “internal behavior” what ChatGPT has “discovered” about how human language is “put together”.
+</p></blockquote>
+<p>So, the &#8216;hidden secret&#8217; of successful large language models may very well be a combination of logic and geometry. Does this sound <a href="https://lievenlebruyn.github.io/neverendingbooks/category/gbrain">familiar</a>?</p>
+<p>If you prefer watching YouTube over reading a book, or if you want to see the examples in action, here&#8217;s a video by Stephen Wolfram. The stream starts about 10 minutes into the clip, and the whole lecture is pretty long, well over 3 hours (about as long as it takes to read <a href="https://www.amazon.com/What-ChatGPT-Doing-Does-Work-ebook/dp/B0BY59PT5Z/">What Is ChatGPT Doing &#8230; and Why Does It Work?</a>).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/flXrLGPY3SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Loading a second brain</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 06 Mar 2023 14:09:28 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Ahrens]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[Forte]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[graph]]></category>
+		<category><![CDATA[loading]]></category>
+		<category><![CDATA[LogSeq]]></category>
+		<category><![CDATA[mathjax]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[PKM]]></category>
+		<category><![CDATA[RoamResearch]]></category>
+		<category><![CDATA[second]]></category>
+		<category><![CDATA[SecondBrain]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11005</guid>
+
+					<description><![CDATA[Before ChatGPT, the hype among productivity boosters was a PKMs or Personal knowledge management system. It gained popularity through Tiago Forte&#8217;s book &#8216;Building a second&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Before ChatGPT, the hype among productivity boosters was a PKMs or <a href="https://en.wikipedia.org/wiki/Personal_knowledge_management">Personal knowledge management system</a>.</p>
+<p>It gained popularity through Tiago Forte&#8217;s book <a href="https://www.buildingasecondbrain.com/">&#8216;Building a second brain&#8217;</a>, and (for academics perhaps a more useful read) <a href="https://www.soenkeahrens.de/en/takesmartnotes">&#8216;How to take smart notes&#8217;</a> by Sönke Ahrens.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/412AXfNUJSL._SX313_BO1,204,203,200_.jpg" width=40%> <img decoding="async" src="https://m.media-amazon.com/images/I/41rkDzw+bSL._SX326_BO1,204,203,200_.jpg" width=41.7%><br />
+</center></p>
+<p>These books promote new techniques for note-taking (and for storing these notes) such as <a href="https://fortelabs.com/blog/para/">the PARA-method</a>, <a href="https://www.astar.studio/the-code-system/">the CODE-system</a>, and <a href="https://en.wikipedia.org/wiki/Zettelkasten">Zettelkasten</a>.</p>
+<p><a href="https://unmistakablecreative.com/category/second-brain/">Unmistakable Creative</a> has some posts on the principles behing the &#8216;second brain&#8217; approach.</p>
+<blockquote><p>
+Your brain isn’t like a hard drive or a dropbox, where information is stored in folders and subfolders. None of our thoughts or ideas exist in isolation. Information is organized in a series of non-linear associative networks in the brain.</p>
+<p>Networked thinking is not just a more efficient way to organize information. It frees your brain to do what it does best: Imagine, invent, innovate, and create. The less you have to remember where information is, the more you can use it to summarize that information and turn knowledge into action.
+</p></blockquote>
+<p>and</p>
+<blockquote><p>
+A network has no “correct” orientation and thus no bottom and no top. Each individual, or “node,” in a network functions autonomously, negotiating its own relationships and coalescing into groups. Examples of networks include a flock of birds, the World Wide Web, and the social ties in a neighborhood. Networks are inherently “bottom-up” in that the structure emerges organically from small interactions without direction from a central authority.</p>
+<p>-Tiago Forte, <a href="https://fortelabs.com/blog/a-complete-guide-to-tagging-for-personal-knowledge-management/">Tagging for Personal Knowledge Management</a>
+</p></blockquote>
+<p>There are several apps you can use to start building your second brain, the more popular seem to be <a href="https://roamresearch.com/">Roam Research</a>, <a href="https://logseq.com/">LogSeq</a>, and <a href="https://obsidian.md/">Obsidian</a>.</p>
+<p>These systems allow you to store, link and manipulate a large collection of notes, query them as a database, modify them in various ways via plugins or scripts, and navigate the network created via graph-views.</p>
+<p>Exactly the kind of things we need to modify the simple system from the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">shape of languages</a>-post into a proper topos of the unconscious.</p>
+<p>I&#8217;ve been playing around with <a href="https://obsidian.md/">Obsidian</a> which I like because it has good <a href="https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Mathjax+and+LaTeX+Plugins">LaTeX plugins</a>, powerful database tools via the <a href="https://blacksmithgu.github.io/obsidian-dataview/">Dataview plugin</a>, and one can execute codeblocks within notes in almost any programming language (python, haskell, lean, Mathematica, ruby, javascript, R, &#8230;).</p>
+<p>Most of all it has a vibrant community of users, an excellent <a href="https://forum.obsidian.md/">forum</a>, and a well-documented <a href="https://publish.obsidian.md/hub/%F0%9F%97%82%EF%B8%8F+hub">Obsidian hub</a>.</p>
+<p>There&#8217;s just one problem, I&#8217;m a terrible note-taker, so how can I begin to load my &#8216;second brain&#8217;?</p>
+<p>Obsidian has several plugins to import data, such as your Kindle highlights, your Twitter feed, your Readwise-data, and many others, but having been too lazy in the past, I cannot use any of them.</p>
+<p>In fact, the only useful collection of notes I have are my blog-posts. So, I&#8217;ve uploaded NeverEndingBooks into Obsidian, one note per post (admittedly, not very Zettelkasten-like), half a million words in total.</p>
+<p>Fortunately, I did tag most of these posts at the time. Together with other meta-data this results in the <a href="https://help.obsidian.md/Plugins/Graph+view">Graph view</a> below (under &#8216;Files&#8217; toggled tags, under &#8216;Groups&#8217; three tag-colours, and under &#8216;Display&#8217; toggled arrows). One can add colour-groups based on tags or other information (here, red dots are posts tagged &#8216;Grothendieck&#8217;, the blue ones are tagged &#8216;Conway&#8217;, the purple ones tagged &#8216;Connes&#8217;, just for the sake of illustration). In Obsidian you can zoom into this graph, place a pointer on a node to highlight the connecting dots, and much more.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBgraphview.png" width=100% ><br />
+</center></p>
+<p>Because I tend to forget such things, and as it may be useful to other people running a WordPress-blog making heavy use of MathJax, here&#8217;s the procedure I followed:</p>
+<p>1. Follow the instructions from <a href="https://daext.com/blog/convert-wordpress-articles-to-markdown/">Convert wordpress articles to markdown</a>.</p>
+<ul>
+<li>Export your WordPress posts to XML</li>
+<li>Install <a href="https://nodejs.org/en/">Node.js</a></li>
+<li>Run the <a href="https://github.com/lonekorean/wordpress-export-to-markdown">wordpress-export-to-markdown</a> script</li>
+</ul>
+<p>In the wizard I&#8217;ve opted to go only for yearly folders, to prefix posts with the date, and to save all images.</p>
+<p>2. This gives you a directory with one folder per year containing markdown versions of your posts, and in each year-folder a subfolder &#8216;img&#8217; containing all images.</p>
+<p>Turn this directory into an Obsidian-vault by opening Obsidian, click on the &#8216;open another vault&#8217; icon (third from bottom-left), select &#8216;Open folder as vault&#8217; and navigate to your directory.</p>
+<p>3. You will notice that most of your LaTeX cannot be parsed because during the markdown-process backslashes are treaded as special character, resulting in two backslashes for every LaTeX-command&#8230;</p>
+<p>A remark before trying to solve this: another option might be to use the <a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">wordpress-to-hugo-exporter</a>, resulting in clean LaTeX, but lacking the possibility to opt for yearly-folders (it dumps all posts into one folder), and it makes a mess of the image-files.</p>
+<p>4. So, we will need to do a lot of search&#038;replaces in all files, and need a convenient tool for this.</p>
+<p>First option was <a href="https://www.sublimetext.com/">the Sublime Text app</a>, which is free and does the search&#038;replaces quickly. The problem is that you have to save each of the files, one at a time! This may take hours.</p>
+<p>I&#8217;ve done it using the <a href="https://apps.apple.com/us/app/search-and-replace/id627484067?mt=12">Search and Replace app</a> (3$) which allows you to make several searches/replaces at the same time (I messed up LaTeX code in previous exports, so needed to do many more changes). It warns you that it is dangerous to replace strings in all files (which is the reason why Sublime Text makes it difficult), you can ignore it, but only after you put the &#8216;img&#8217; folders away in a safe place. Otherwise it will also try to make the changes to these files, recognise that they are not text-files, and drop them altogether&#8230;</p>
+<p>That&#8217;s it.</p>
+<p>I now have a backup network-version of this blog.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBzoom.png" width=100% ><br />
+</center></p>
+<p>As we mentioned in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">previous post</a> a first attempt to construct the &#8216;topos of the unconscious&#8217; might be to start with a collection of notes (the &#8216;conscious&#8217;) and work on the semantics of text-snippets to unravel (a part of) the unconscious underpinning of these notes. We also mentioned that the poset-structure in that post should be replaced by a more involved network structure.</p>
+<p>What interests me most is whether such an approach might be doable &#8216;in practice&#8217;, and Obsidian looks like the perfect tool to try this out.</p>
+<p>What we need is a sufficiently large set of notes, of independent interest, to inject into Obsidian. The more meta it is, the better&#8230;</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mathblogging and poll-results</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 21 Jan 2011 19:42:24 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[mathblogging]]></category>
+		<category><![CDATA[mathblogs]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[poll]]></category>
+		<category><![CDATA[rss feeds]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4733</guid>
+
+					<description><![CDATA[Mathblogging.org is a recent initiative and may well become the default starting place to check on the status of the mathematical blogosphere. Handy, if you&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://matrix.cmi.ua.ac.be/DATA3/mathblogging.jpg"><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/mathblogging.jpg" alt="" title="mathblogging" width="255" height="128" class="alignleft size-full wp-image-4747" /></a> <a href="http://www.mathblogging.org/">Mathblogging.org</a> is a recent initiative and may well become the default starting place to check on the status of the mathematical blogosphere.</p>
+</p>
+<p>Handy, if you want to (re)populate your RSS-aggregator with interesting mathematical blogs, is their graphical presentation of (nearly) all math-blogs <a href="http://www.mathblogging.org/bytype">ordered by type</a> : group blogs, individual researchers, teachers and educators, journalistic writers, communities, institutions and microblogging (twitter). Links to the last 7 posts are given so you can easily determine whether that particular blog is of interest to you.</p>
+<p>The three people behind the project, <a href="http://www.felixbreuer.net/">Felix Breuer</a>, <a href="http://ta.twi.tudelft.nl/wst/users/heymann/">Frederik von Heymann</a> and <a href="http://peter.krautzberger.info/">Peter Krautzberger</a>, welcome you to send them links to (micro)blogs they&#8217;ve missed. Surely, there must be a lot more mathematicians with a twitter-account than the few ones listed so far&#8230;</p>
+<p>Even more convenient is their <a href="http://www.mathblogging.org/bydate">list of latest posts</a> from their collection, ordered by date. I&#8217;ve put that page in my Bookmarks Bar the moment I discovered it! It would be nice, if they could provide an RSS-feed of this list, so that people could place it in their sidebar, replacing old-fashioned and useless blogrolls. The site does provide two feeds, but they are completely useless as they click through to empty pages&#8230;</p>
+<p>While we&#8217;re on the topic of math-blogging, the results of the &#8216;What should we write about next?&#8217;-poll that ran <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/changes-ahead.html">the previous two days</a> on the entry page. Of all people visiting that page, 2.6% left suggestions.</p>
+<p>The vast majority (67%) wants more posts on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/tag/noncommutative">noncommutative geometry</a>. Most of you are craving for introductions (and motivation) accessible to undergraduates (as &#8216;it&#8217;s hard to find quality, updated information on this&#8217;). In particular, you want posts giving applications in mathematics (especially number theory), or explaining relationships between different approaches. One person knew exactly how I should go about to achieve the hoped-for accessibility : &#8220;As a rule, I&#8217;d take what you think would be just right for undergrads, and then trim it down a little more.&#8221;</p>
+<p>Others want rather specialized posts, such as on &#8216;connection and parallel transport in noncommutative geometry&#8217; or on &#8216;trees (per J-L. Loday, M. Aguiar, Connes/Kreimer renormalization (aka Butcher group)), or something completely other tree-related&#8217;.</p>
+<p>Fortunately, some of you told me it was fine to write about &#8216;combinatorial games and cool nim stuff, finite simple groups, mathematical history, number theory, arithmetic geometry&#8217;, pushed me to go for &#8216;anything monstrous and moonshiney&#8217; (as if I would know the secrets of the &#8216;connection between the Mathieu group M24 and the elliptic genus of K3&#8217;&#8230;) or wrote that &#8216;various algebraic geometry related posts are always welcome: posts like <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mumfords-treasure-map.html">Mumford&#8217;s treasure map</a>&#8216;.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>lulu neverendingbooks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lulu-neverendingbooks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lulu-neverendingbooks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 18 Jul 2005 13:15:34 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[lulu]]></category>
+		<category><![CDATA[neverendingbooks]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=213</guid>
+
+					<description><![CDATA[Half a year ago, it all started with NeverEndingBooks in which I set out a rather modest goal: Why NeverEndingBooks? We all complain about exaggerated&#8230;]]></description>
+										<content:encoded><![CDATA[<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/book2.jpg" /><br />
+</center></p>
+<p>Half a year ago, it all started with NeverEndingBooks in which I set out a rather modest goal:</p>
+<blockquote><p>Why NeverEndingBooks? We all complain about exaggerated prices of mathematical books from<br />
+certain publishers, poor quality of editing and refereeing offered, as well as far too stringent book-contracts. Rather than lamenting about this, NeverEndingBooks gives itself one year to learn (and report) about the many aspects of the book-production cycle and to explore whether an alternative exists. If at the end of this year we will have produced at least one book this experiment will be considered a success. If,<br />
+however, we find out that it is an impossible task, we will explain where it all went wrong and why it is better to stick to an established PublishingHouse and accept its terms.
+</p></blockquote>
+<p>I assume we did manage to do it after all as you may check by visiting our <a href="http://www.lulu.com/neverendingbooks">storefront :<br />
+www.lulu.com/neverendingbooks</a>. However, it all turned out to be quite different from what I had in mind half a year ago. So, perhaps it&#8217;s time to recap.</p>
+<p>Originally, I&#8217;d planned to partner-up with the publisher-on-demand <a href="https://www.lightningsource.com/index.htm">LightningSource</a> but in the process they did require a VAT-number. In Belgium, the safest way to get one is to set up a non-profit organization (a VZW as we call<br />
+it). But then you have to write down your legal statutes, get them published in the <a href="http://www.ejustice.just.fgov.be/cgi/welcome.pl">Moniteur Belge</a> (at a hefty price) but what really put me off was that you have to set up a &#8220;board of directors&#8221; consisting of at least three<br />
+people. I don&#8217;t mind following a folly but if I have to involve others I usually pass, so I abandoned the whole idea.</p>
+<p>Still, I couldn&#8217;t help talking about the VAT-problem and at a certain time there was an idea to revive a sleeping VZW (=non-profit organization) of the <a href="http://bms.ulb.ac.be/cgi/welcome.php">Belgian Mathematical Society</a>, the MaRC (MAthematical Research Centre), the statutes of which allowed to become a publishing house. But, this wouldn&#8217;t involve just two other people but the whole BMS so I decided<br />
+to forget all about it and have a short vacation in France together with a few (former)PhD-students.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/rothkoatn.jpg" /><br />
+</center></p>
+<p>Given plenty of sun, cheese and whine (not necessarily in that order) sooner or later we had to talk about _the_ problem. For <a href="http://www.win.ua.ac.be/~rbockl/research/">Raf</a> it was the first time he heard about it but when we realized I thought one could easily publish books well under 25 dollars he was immediately interested and insisted we should set up a board of directors and continue with the plan.</p>
+<p>The different roles to play in the board were more or less self-evident : I had to be the treasurer (given the fact that I was the only with a secure, though small, income), <a href="http://www.win.ua.ac.be/~gvdwey/">Geert</a> had to become chairman (being the only one possessing suits), Raf would be secretary (being the only one who could write better Flemish than English) and <a href="http://www.math.ua.ac.be/~adri/">Jan</a> or <a href="http://www.win.ua.ac.be/~ssymens/">Stijn</a> would do PR (as they are the only ones having enough social skills).</p>
+<p>So, we went back willing to go through the whole process (at least 3 months) of obtaining a VAT-number.</p>
+<p>But then Raf got so interested in the whole idea that he explored other possibilities (I think he was more motivated by the fact that his sister wanted to publish her thesis rather than anything else) and came up with <a href="http://www.lulu.com/">lulu.com</a>.</p>
+<p>No legal hassle, no VAT-numbers, nothing required (or so it seemed). Still, before risking his sister&#8217;s thesis he wanted to check the service out and as it is a lot easier to take a book lying around rather than write one yourself he took my <a href="https://lievenlebruyn.github.io/neverendingbooks/toolkit/pdffile.php?pdf=%2FTheLibrary%2Fbooks%2FLeBruyn2.pdf">version 2</a> and published it at Lulu&#8217;s (since then this version is nicknamed <a href="http://en.wikipedia.org/wiki/Mark_Rothko">Rothko@n</a>).</p>
+<p>Although I gave him the permission to do so, it didn&#8217;t feel right that people should pay even a small amount for a nicely bound unedited version 2. So, the last month and a half I&#8217;ve been editing and partially rewriting version 2 and the two volumes are now <a href="http://www.lulu.com/neverendingbooks">available!</a></p>
+<p>Major changes are to the 4 middle chapters. There is now chapter 3 &#8220;Etale Technology&#8221; which contains all of the etale tricks scattered earlier in two chapters, chapter 4 ‚&#8221;Quiver Representations&#8221; collects all the<br />
+quiver material (again, scattered throughout the previous version). Chapter 5 ‚&#8221;Semisimple Representations&#8221; now includes recent material such as Raf&#8217;s characterization of the smooth locus of Cayley-smooth orders and our (together with Geert) classification of the central singularities, and chapter 6 ‚&#8221;Nilpotent Representations&#8221; now includes the material on Brauer-Severi varities which was in version 1 but somehow didn&#8217;t make it to version 2 before.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lulu-neverendingbooks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

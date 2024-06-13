@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Barany &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/barany/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 05 Apr 2021 08:28:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the Bourbaki code revisited</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-bourbaki-code-revisited/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-bourbaki-code-revisited/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 05 Apr 2021 08:28:01 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[Barany]]></category>
+		<category><![CDATA[Betti]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Petard]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9532</guid>
+
+					<description><![CDATA[The fictitious life of Nicolas Bourbaki remains a source of fascination to some. A few weeks ago, Michael Barany wrote an article for the JStor&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The fictitious life of Nicolas Bourbaki remains a source of fascination to some.</p>
+<p>A few weeks ago, <a href="http://mbarany.com/">Michael Barany</a> wrote an article for the JStor Daily <a href="https://daily.jstor.org/the-mathematical-pranksters-behind-nicolas-bourbaki/">The mathematical pranksters behind Nicolas Bourbaki</a>.</p>
+<p>Here&#8217;s one of the iconic early Bourbaki pictures, taken at the Dieulefit-meeting in 1938. More than a decade ago I discovered the exact location of that meeting in the post <a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-the-miracle-of-silence">Bourbaki and the miracle of silence</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://daily.jstor.org/wp-content/uploads/2021/03/bourbaki_mathematics_1050x700.jpg" width=100%><br />
+Bourbaki at Beauvallon 1938 &#8211; <a href="https://daily.jstor.org/the-mathematical-pranksters-behind-nicolas-bourbaki/">Photo Credit</a><br />
+</center></p>
+<p>That post was one of a series on the pre-war years of Bourbaki, and the riddles contained in the invitation card of the Betti Bourbaki-Hector Petard wedding that several mathematicians in Cambridge, Princeton and Paris received in the spring of 1939.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/bettibourbaki.jpg" width=100% ><br />
+</center></p>
+<p>A year ago, <a href="https://www.youtube.com/channel/UCrRSGhpMU6droO_EVYDqu1Q/videos">The Ferret</a> made the nice YouTube clip &#8220;Bourbaki &#8211; a Tale of Mathematics, Lions and Espionage&#8221;, which gives a quick introduction to Bourbaki and the people mentioned in the wedding invitation.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/OtZmezLbSIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>This vacation period may be a good opportunity to revisit some of my older posts on this subject, and add newer material I discovered since then.</p>
+<p>For this reason, I&#8217;ve added a new category, <a href="https://lievenlebruyn.github.io/neverendingbooks/category/tbc">tBC</a> for &#8216;the Bourbaki Code&#8217;, and added the old posts to it.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-bourbaki-code-revisited/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

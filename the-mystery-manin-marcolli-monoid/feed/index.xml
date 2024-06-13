@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: the mystery Manin-Marcolli monoid	</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/the-mystery-manin-marcolli-monoid/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/the-mystery-manin-marcolli-monoid/</link>
+	<description></description>
+	<lastBuildDate>Wed, 02 Oct 2019 11:02:56 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>
+		By: lievenlb		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mystery-manin-marcolli-monoid/#comment-108</link>
+
+		<dc:creator><![CDATA[lievenlb]]></dc:creator>
+		<pubDate>Wed, 02 Oct 2019 11:02:56 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8554#comment-108</guid>
+
+					<description><![CDATA[@Jimmy :any bicolored planar tree can be realised as the dessin of a Shabat polynomial (ie. generalised Tchebychev) but the &#039;question&#039; is whether this can be defined over Q (answer: no!).]]></description>
+			<content:encoded><![CDATA[<p>@Jimmy :any bicolored planar tree can be realised as the dessin of a Shabat polynomial (ie. generalised Tchebychev) but the &#8216;question&#8217; is whether this can be defined over Q (answer: no!).</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Jimmy		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mystery-manin-marcolli-monoid/#comment-107</link>
+
+		<dc:creator><![CDATA[Jimmy]]></dc:creator>
+		<pubDate>Tue, 01 Oct 2019 09:20:26 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8554#comment-107</guid>
+
+					<description><![CDATA[Generalized Tchebychev polynomials do the job I believe :
+https://www.labri.fr/perso/zvonkin/Research/shabzvon.pdf]]></description>
+			<content:encoded><![CDATA[<p>Generalized Tchebychev polynomials do the job I believe :<br />
+<a href="https://www.labri.fr/perso/zvonkin/Research/shabzvon.pdf" rel="nofollow ugc">https://www.labri.fr/perso/zvonkin/Research/shabzvon.pdf</a></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>F1 &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/f1/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 13 Feb 2022 12:33:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The hype cycle of an idea</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 13 Feb 2022 12:33:07 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[Gartner]]></category>
+		<category><![CDATA[IUTT]]></category>
+		<category><![CDATA[Joshi]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10253</guid>
+
+					<description><![CDATA[These three ideas (re)surfaced over the last two decades, claiming to have potential applications to major open problems: (2000) $\mathbb{F}_1$-geometry tries to view $\mathbf{Spec}(\mathbb{Z})$ as&#8230;]]></description>
+										<content:encoded><![CDATA[<p>These three ideas (re)surfaced over the last two decades, claiming to have potential applications to major open problems:</p>
+<ul>
+<li>(2000) $\mathbb{F}_1$-geometry tries to view $\mathbf{Spec}(\mathbb{Z})$ as a curve over <a href="https://en.wikipedia.org/wiki/Field_with_one_element">the field with one element</a>, and mimic Weil&#8217;s proof of RH for curves over finite fields to prove the Riemann hypothesis.</li>
+<li>(2012) IUTT, for <a href="https://en.wikipedia.org/wiki/Inter-universal_Teichm%C3%BCller_theory">Inter Universal Teichmuller Theory</a>, the machinery behind Mochizuki&#8217;s claimed proof of the ABC-conjecture.</li>
+<li>(2014) topos theory : Connes and Consani redirected their RH-attack using arithmetic sites, while Lafforgue advocated the use of <a href="https://www.oliviacaramello.com/Unification/ToposesBridges.html">Caramello&#8217;s bridges</a> for unification, in particular the Langlands programme.</li>
+</ul>
+<p>It is difficult to voice an opinion about the (presumed) current state of such projects without being accused of being either a believer or a skeptic, resorting to group-think or being overly critical.</p>
+<p>We lack the vocabulary to talk about the different phases a mathematical idea might be in.</p>
+<p>Such a vocabulary exists in (information) technology, the five phases of the <a href="https://en.wikipedia.org/wiki/Gartner_hype_cycle">Gartner hype cycle</a> to represent the maturity, adoption, and social application of a certain technology :</p>
+<ol>
+<li>Technology Trigger</li>
+<li>Peak of Inflated Expectations</li>
+<li>Trough of Disillusionment</li>
+<li>Slope of Enlightenment</li>
+<li>Plateau of Productivity</li>
+</ol>
+<p><img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Hype-Cycle-General.png/640px-Hype-Cycle-General.png" width=100% /></p>
+<p>This model can then be used to gauge in which phase several emerging technologies are, and to estimate the time it will take them to reach the stable plateau of productivity. Here&#8217;s Gartner&#8217;s recent Hype Cycle for emerging Artificial Intelligence technologies.</p>
+<p><center><br />
+<img decoding="async" src="https://miro.medium.com/max/1400/1*otjihWm7qj4qOORUH7M-AQ.png" width=100% /><br />
+Picture from <a href="https://medium.com/@mishra.kamal/gartner-hype-cycle-for-ai-2021-3c11c1d80358">Gartner Hype Cycle for AI 2021</a><br />
+</center></p>
+<p>What might these phases be in the hype cycle of a <em>mathematical</em> idea?</p>
+<ol>
+<li>Technology Trigger: a new idea or analogy is dreamed up, marketed to be the new approach to that problem. A small group of enthusiasts embraces the idea, and tries to supply proper definitions and the very first results.</li>
+<li>Peak of Inflated Expectations: the idea spreads via talks, blogposts, mathoverflow and twitter, and now has enough visibility to justify the first conferences devoted to it. However, all this activity does not result in major breakthroughs and doubt creeps in.</li>
+<li>Trough of Disillusionment:  the project ran out of steam. It becomes clear that existing theories will not lead to a solution of the motivating problem. Attempts by key people to keep the idea alive (by lengthy papers, regular meetings or seminars) no longer attract new people to the field.</li>
+<li>Slope of Enlightenment: the optimistic scenario. One abandons the original aim, ditches the myriad of theories leading nowhere, regroups and focusses on the better ideas the project delivered.
+<p>A negative scenario is equally possible. Apart for a few die-hards the idea is abandoned, and on its way to the graveyard of forgotten ideas.</li>
+<li>Plateau of Productivity: the polished surviving theory has applications in other branches and becomes a solid tool in mathematics.</li>
+</ol>
+<p>It would be fun so see more knowledgable people draw such a hype cycle graph for recent trends in mathematics.</p>
+<p>Here&#8217;s my own (feeble) attempt to gauge where the three ideas mentioned at the start are in their cycles, and here&#8217;s why:</p>
+<ul>
+<li>IUTT: recent work of Kirti Joshi, for example <a href="https://arxiv.org/abs/2106.11452">this</a>, and <a href="https://arxiv.org/abs/2111.04890">this</a>, and <a href="https://arxiv.org/abs/2111.06771">that</a>, draws from IUTT while using conventional language and not making exaggerated claims.</li>
+<li>$\mathbb{F}_1$: the preliminary programme of <a href="https://funworldseminar.wordpress.com/">their seminar</a> shows little evidence the $\mathbb{F}_1$-community learned from the past 20 years.</li>
+<li>Topos: Developing more general theory is not the way ahead, but concrete examples may carry surprises, even though <a href="https://lievenlebruyn.github.io/neverendingbooks/closing-in-on-gabriels-topos">Gabriel&#8217;s topos</a> will remain elusive.</li>
+</ul>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/3hypecycles.png" width=100% /></p>
+<p>Clearly, you don&#8217;t agree, and that&#8217;s fine. We now have a common terminology, and you can point me to results or events I must have missed, forcing me to redraw my graph.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Two lecture series on absolute geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/two-lecture-series-on-absolute-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/two-lecture-series-on-absolute-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 18 Jan 2015 11:39:42 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[Manin]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=6222</guid>
+
+					<description><![CDATA[Absolute geometry is the attempt to develop algebraic geometry over the elusive field with one element $\mathbb{F}_1$. The idea being that the set of all&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Absolute geometry is the attempt to develop algebraic geometry over the elusive field with one element $\mathbb{F}_1$. The idea being that the set of all prime numbers is just too large for $\mathbf{Spec}(\mathbb{Z})$ to be a terminal object (as it is in the category of schemes).</p>
+<p>So, one wants to view $\mathbf{Spec}(\mathbb{Z})$ as a geometric object over something &#8216;deeper&#8217;, the &#8220;absolute point&#8221; $\mathbf{Spec}(\mathbb{F}_1)$.</p>
+<p>Starting with the paper by Bertrand Toen and Michel Vaquie, <a href="http://arxiv.org/abs/math/0509684" title="Toen-Vaquie, Under Spec(Z)" target="_blank" rel="noopener">Under $\mathbf{Spec}(\mathbb{Z})$</a>, topos theory entered this topic.</p>
+<p>First there was the <a href="http://arxiv.org/abs/0906.3146" target="_blank" rel="noopener">proposal by Jim Borger</a> to view $\lambda$-rings as $\mathbb{F}_1$-algebras. More recently, Alain Connes and Katia Consani introduced <a href="http://arxiv.org/abs/1405.4527" title="Connes-Consani, the arithmetic site" target="_blank" rel="noopener">the arithmetic site</a>.</p>
+<p>Now, there are lectures series on these two approaches, one by Yuri I. Manin, the other by Alain Connes.</p>
+<p>
+.
+</p>
+<p><strong>Yuri I. Manin in Ghent</strong></p>
+<p>On Tuesday, February 3rd, Yuri I. Manin will give the inaugural lectures of the new <a href="https://thefunseminarsghent.wordpress.com/">$\mathbb{F}_1$-seminars at Ghent University</a>, organised by <a href="http://cage.ugent.be/~kthas/" title="Koen Thas" target="_blank" rel="noopener">Koen Thas</a>.</p>
+<p>Coffee will be served from 13.00 till 14.00 at the Department of Mathematics, Ghent University, Krijgslaan 281, Building S22 and from 14.00 till 16.30 there will be lectures in the Emmy Noether lecture room, Building S25:</p>
+<p>14:00 – 14:25: Introduction (by K. Thas)<br />
+14:30 – 15:20: Lecture 1 (by Yu. I. Manin)<br />
+15:30 – 16:20: Lecture 2 (by Yu. I. Manin)</p>
+<p>Recent work of Manin related to $\mathbb{F}_1$ includes:</p>
+<p>&#8211; <a href="http://arxiv.org/abs/1407.4969" title="Manin, local zeta factors" target="_blank" rel="noopener">Local zeta factors and geometries under $\mathbf{Spec}(\mathbb{Z})$</a></p>
+<p>&#8211; <a href="http://arxiv.org/abs/1312.5160" title="Manin, Numbers as functions" target="_blank" rel="noopener">Numbers as functions</a></p>
+<p><strong>Alain Connes on the Arithmetic Site</strong></p>
+<p>Until the beginning of march, Alain Connes will lecture every thursday afternoon from 14.00 till 17.30, in Salle 5 &#8211; Marcelin Berthelot at he <a href="http://www.college-de-france.fr/site/college/" title="College de France" target="_blank" rel="noopener">College de France</a> on <a href="http://www.college-de-france.fr/site/alain-connes/course-2014-2015.htm" title="Connes lectures on the arithmetic site" target="_blank" rel="noopener">The Arithmetic Site</a> (hat tip <a href="http://www-lmpa.univ-littoral.fr/~stubbe/" title="Isar Stubbe" target="_blank" rel="noopener">Isar Stubbe</a>).</p>
+<p>Here&#8217;s a two minute excerpt, from a longer interview with Connes, on the arithmetic site, together with an attempt to provide subtitles:</p>
+<p><iframe width="640" height="360" src="//www.youtube.com/embed/rHkhez4OxPU?rel=0&#038;start=3036&#038;end=3148" frameborder="0" allowfullscreen></iframe></p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p>
+<p>(50.36)</p>
+<p>And,in this example, we saw the wonderful notion of a <a href="http://en.wikipedia.org/wiki/Topos">topos</a>, developed by Grothendieck.</p>
+<p>It was sufficient for me to open SGA4, a book written at the beginning of the 60ties or the late fifties.</p>
+<p>It was sufficient for me to open SGA4 to see that all the things that I needed were there, say, how to construct a cohomology on this site, how to develop things, how to see that the category of sheaves of Abelian groups is an Abelian category, having sufficient injective objects, and so on &#8230; all those things were there.</p>
+<p>This is really remarkable, because what does it mean?</p>
+<p>It means that the average mathematician says: &#8220;topos = a generalised topological space and I will never need to use such things. Well, there is the etale cohomology and I can use it to make sense of simply connected spaces and, bon, there&#8217;s the chrystaline cohomology, which is already a bit more complicated, but I will never need it, so I can safely ignore it.&#8221;</p>
+<p>And (s)he puts the notion of a topos in a certain category of things which are generalisations of things, developed only to be generalisations&#8230;</p>
+<p><strong>But in fact, reality is completely different!</strong></p>
+<p>In our work with Katia Consani we saw not only that there is this epicyclic topos, but in fact, this epicyclic topos lies over a site, which we call <a href="http://arxiv.org/abs/1405.4527">the arithmetic site</a>, which itself is of a delirious simplicity.</p>
+<p>It relies only on the natural numbers, viewed multiplicatively.</p>
+<p>That is, one takes a small category consisting of just one object, having this monoid as its endomorphisms, and one considers the corresponding topos.</p>
+<p>This appears well &#8230; infantile, but nevertheless, this object conceils many wonderful things.</p>
+<p>And we would have never discovered those things, if we hadn&#8217;t had the general notion of what a topos is, of what a point of a topos is, in terms of flat functors, etc. etc.</p>
+<p>(52.27)</p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<p>I will try to report here on Manin&#8217;s lectures in Ghent. If someone is able to attend Connes&#8217; lectures in Paris, I&#8217;d love to receive updates!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/two-lecture-series-on-absolute-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>3 related new math-sites</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/3-related-new-math-sites/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/3-related-new-math-sites/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 14 Sep 2011 14:37:15 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[F1]]></category>
+		<guid isPermaLink="false">http://192.168.0.163/?p=5744</guid>
+
+					<description><![CDATA[F_un Mathematics Hardly a &#8216;new&#8217; blog, but one that is getting a new life! On its old homepage you&#8217;ll find a diagonal banner stating &#8216;This&#8230;]]></description>
+										<content:encoded><![CDATA[<h2>F_un Mathematics</h2>
+<p>Hardly a &#8216;new&#8217; blog, but one that is getting a new life! On its old homepage you&#8217;ll find a diagonal banner stating &#8216;This site has moved&#8217; and clicking on it will guide you to its new location : <a href="http://cage.ugent.be/~kthas/Fun/">cage.ugent.be/~kthas/Fun</a>.</p>
+<p><a href="http://cage.ugent.be/~kthas/Fun/"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/fun.jpg"></a></p>
+<p>From now on, this site will be hosted at the University of Ghent and maintained by <a href="http://cage.ugent.be/~kthas/">Koen Thas</a>. So, please update your bookmarks and point your RSS-aggregator to the <a href="feed://cage.ugent.be/~kthas/Fun/index.php/feed">new feed</a>.</p>
+<p>Everyone interested in contributing to this blog dedicated to the  mathematics of <a href="http://en.wikipedia.org/wiki/Field_with_one_element">the field with one element</a> should contact Koen by <a href="mailto:kthas@cage.ugent.be">email</a>.</p>
+<h2>angst</h2>
+<p>Though I may occasionally (cross)post at <a href="http://cage.ugent.be/~kthas/Fun/">F_un mathematics</a>, my own blog-life will center round a new blog to accompany the master-course &#8216;seminar noncommutative geometry&#8217; I&#8217;m running at Antwerp University this semester. Its URL is <a href="http://www.noncommutative.org/">noncommutative.org</a> and it is called :</p>
+<p><a href="http://www.noncommutative.org/"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/angst.jpg"></a></p>
+<p>Here, <strong>angs</strong> is short for Antwerp Noncommutative Geometry Seminar and the additions <strong>@t</strong> resp. <strong>+</strong> are there to indicate we will experiment a bit trying to find useful interactions between the IRL seminar, its blog and social media such as <a href="http://twitter.com/">twitter</a> and <a href="https://plus.google.com/">Google+</a>.</p>
+<p>The seminar (and blog) are scheduled to start in earnest september 30th, but I may post some prep-notes already. This semester the seminar will try to decode Smirnov&#8217;s old idea to prove the ABC-conjecture in number theory via geometry over the field with one element and connect it with new ideas such as Borger&#8217;s $\mathbb{F}_1$-geometry using $\lambda$-rings and noncommutative ideas proposed by Connes, Consani and Marcolli.</p>
+<p>Again, anyone willing to contribute actively is invited to send me an <a href="mailto:lieven.lebruyn@ua.ac.be">email</a> or to comment on &#8216;angst&#8217;, tweet about it using the hashtag #angs (all such tweets will appear on the frontpage) or share its posts on Google+.</p>
+<h2>Noncommutative Arithmetic Geometry Media Library</h2>
+<p>Via the <a href="http://noncommutativegeometry.blogspot.com/2011/09/noncommutative-arithmetic-geometry ">noncommutative geometry blog</a> a new initiative maintained by Alain Connes and Katia Consani was announced : the <a href="http://streams1.nts.jhu.edu/mathematics/">Noncommutative Arithmetic Geometry Media Library</a>.</p>
+<p><a href="http://streams1.nts.jhu.edu/mathematics/"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/CCsite.jpg"></a></p>
+<p>This site is dedicated to maintain articles, videos, and news about meetings and activities related to noncommutative arithmetic geometry. The website is still `under construction&#8217; and the plan is to gradually add more videos (also from past conferences and meetings), as well as papers and slides.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/3-related-new-math-sites/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>eBook &#8216;geometry and the absolute point&#8217; v0.1</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 08 Jul 2011 11:32:32 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5503</guid>
+
+					<description><![CDATA[In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217; I&#8217;ve converted about 30 posts to LaTeX, centering loosely around the topics students have asked me to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/absolutegeometry.jpg" align=left hspace=10><br />
+In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217; I&#8217;ve converted about 30 posts to LaTeX, centering loosely around the topics students have asked me to cover : noncommutative geometry, the absolute point (aka the field with one element), and their relation to the Riemann hypothesis.</p>
+<p>The idea being to edit these posts thoroughly, add much more detail (and proofs) and also add some extra sections on Borger&#8217;s work and Witt rings (and possibly other stuff).</p>
+<p>For those of you who prefer to (re)read these posts on paper or on a tablet rather than perusing this blog, you can now download the very first version (minimally edited) of the eBook <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/ncg.pdf">&#8216;geometry and the absolute point&#8217;</a>. All comments and suggestions are, of course, very welcome. I hope to post a more definite version by mid-september.</p>
+<p>I&#8217;ve used the thesis-documentclass to keep the same look-and-feel of my other course-notes, but I would appreciate advice about turning LaTeX-files into &#8216;proper&#8217; eBooks. I am aware of the fact that the memoir-class has an ebook option, and that one can use the geometry-package to control paper-sizes and margins.</p>
+<p>Soon, I will be releasing a LaTeX-ed &#8216;eBook&#8217; containing the Bourbaki-related posts. Later I might also try it on the games- and groups-related posts&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Art and the absolute point</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 12 May 2011 13:41:34 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Borger]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[lambda rings]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4952</guid>
+
+					<description><![CDATA[In his paper Cyclotomy and analytic geometry over $\mathbb{F}_1$ Yuri I. Manin sketches and compares four approaches to the definition of a geometry over $\mathbb{F}_1$,&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/absolutpoint.jpg" align=left hspace=10> In his paper <a href="http://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a> Yuri I. Manin sketches and compares four approaches to the definition of a geometry over $\mathbb{F}_1$, the elusive field with one element.</p>
+<p>He writes : &#8220;Preparing a colloquium talk in Paris, I have succumbed to the temptation to associate them with some dominant trends in the history of art.&#8221;</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/looking-for-f_un.html">Remember</a>  that the search for the absolute point $\pmb{spec}(\mathbb{F}_1)$ originates from the observation that $\pmb{spec}(\mathbb{Z})$, the set of all prime numbers together with $0$, is too large to serve as the terminal object in Grothendieck&#8217;s theory of commutative schemes. The last couple of years have seen a booming industry of proposals, to the extent that Javier Lopez Pena and Oliver Lorscheid decided they had to draw a <a href="http://arxiv.org/abs/0909.0069">map of $\mathbb{F}_1$-land</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/F1land.jpg"></p>
+<p>Manin only discusses the colored proposals (TV=Toen-Vaquie, M=Deitmar, S=Soule and $\Lambda$=Borger) and compares them to these art-history trends.</p>
+<p><strong>Toen and Vaquie : Abstract Expressionism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/abstactexpressionism.jpg"></p>
+<p>In <a href="http://arxiv.org/abs/math/0509684">Under $\pmb{spec}(\mathbb{Z})$</a> Bertrand Toen and Michel Vaquie argue that geometry over $\mathbb{F}_1$ is a special case of algebraic geometry over a symmetric monoidal category, taking the simplest example namely sets and direct products. Probably because of its richness and abstract nature, Manin associates this approach to <a href="http://en.wikipedia.org/wiki/Abstract_expressionism">Abstract Expressionism</a> (a.o. Karel Appel, Jackson Pollock, Mark Rothko, Willem de Kooning).</p>
+<p><strong>Deitmar : Minimalism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/minimalism.jpg"></p>
+<p>Because monoids are the &#8216;commutative algebras&#8217; in sets with direct products, an equivalent proposal is that of Anton Deitmar in <a href="http://arxiv.org/abs/math/0404185">Schemes over $\mathbb{F}_1$</a> in which the basic affine building blocks are spectra of monoids, topological spaces whose points are submonoids satisfying a primeness property. Because Deitmar himself calls this approach a &#8216;minimalistic&#8217; one it is only natural to associate to it <a href="http://en.wikipedia.org/wiki/Minimalism">Minimalism</a> where the work is stripped down to its most fundamental features. Prominent artists associated with this movement include Donald Judd, John McLaughlin, Agnes Martin, Dan Flavin, Robert Morris, Anne Truitt, and Frank Stella.</p>
+<p><strong>Soule : Critical Realism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/realism.jpg"></p>
+<p>in <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/library/Soule2004.pdf">Les varietes sur le corps a un element</a> Christophe Soule defines varieties over $\mathbb{F}_1$ to be specific schemes $X$ over $\mathbb{Z}$ together with a form of &#8216;descent data&#8217; as well as an additional $\mathbb{C}$-algebra, morally the algebra of functions on the real place. Because of this Manin associates to it <a href="http://en.wikipedia.org/wiki/Critical_realism">Critical Realism</a> in philosophy. There are also &#8216;realism&#8217; movements in art such as <a href="http://en.wikipedia.org/wiki/American_realism">American Realism</a> (o.a. Edward Hopper and John Sloan).</p>
+<p><strong>Borger : Futurism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/futurism.jpg"></p>
+<p>James Borger&#8217;s paper <a href="http://arxiv.org/abs/0906.3146">Lambda-rings and the field with one element</a> offers a totally new conception of the descent data from $\mathbb{Z}$ to $\mathbb{F}_1$, namely that of a $\lambda$-ring in the sense of Grothendieck. Because Manin expects this approach to lead to progress in the field, he connects it to <a href="http://en.wikipedia.org/wiki/Futurism">Futurism</a>, an artistic and social movement that originated in Italy in the early 20th century.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

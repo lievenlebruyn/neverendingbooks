@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>iPhone &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/iphone/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 31 Dec 2010 17:05:32 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>NeB : 7 years and now an iPad App</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 31 Dec 2010 17:05:32 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[iPad]]></category>
+		<category><![CDATA[iPad App]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3943</guid>
+
+					<description><![CDATA[Exactly 7 years ago I wrote my first post. This blog wasn&#8217;t called NeB yet and it used pMachine, a then free blogging tool (later&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Exactly 7 years ago I wrote my <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/a-blogging-2004.html">first post</a>. This blog wasn&#8217;t called NeB yet and it used pMachine, a then free blogging tool (later transformed into <a href="http://expressionengine.com/">expression engine</a>), rather than WordPress.</p>
+<p>Over the years NeB survived three hardware-upgrades of &#8216;the Matrix&#8217; (the webserver hosting it), more themes than I care to remember, and a couple of dramatic closure announcements&#8230;</p>
+<p>But then we&#8217;re still here, soldiering on, still uncertain whether there&#8217;s a point to it, but grateful for tiny tokens of appreciation.</p>
+<p>Such as this morning&#8217;s story: <a href="http://mathoverflow.net/users/2821/chandan-singh-dalawat">Chandan</a> deemed it necessary to correct two spelling mistakes in a 2 year old Fun-math post on <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/andre-weil-on-the-rh.html">Weil and the Riemann hypothesis</a> (also reposted on Neb <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/andre-weil-on-the-riemann-hypothesis.html">here</a>). Often there&#8217;s a story behind such sudden comments, and a quick check of MathOverflow revealed <a href="http://mathoverflow.net/questions/50776/did-andre-weil-predict-that-the-riemann-hypothesis-would-be-settled-by-prime-numb/50795#50795">this answer</a> and the comments following it.</p>
+<p>I thank <a href="http://mathoverflow.net/users/4137/ed-dean">Ed Dean</a> for linking to the Fun-post, Chandan for correcting the misspellings and Georges for the kind words. I agree with Georges that a cut&amp;copy of a blogpost-quoted text does not require a link to that post (though it is always much appreciated). It is rewarding to see such old posts getting a second chance&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mobilevisits.jpg"></p>
+<p>Above the Google Analytics graph of the visitors coming here via a mobile device (at most 5 on a good day&#8230;). Anticipating much more iPads around after tonights presents-session I&#8217;ve made NeB more accessible for iPods, iPhones, iPads and other mobile devices.</p>
+<p>The first time you get here via your Mac-device of choice you&#8217;ll be given the option of saving NeB as an App. It has its own icon (lowest row middle, also the favicon of NeB) and flashy start-up screen.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBApp1.jpg"></p>
+<p>Of course, the whole point trying to make NeB more readable for Mobile users you get an overview of the latest posts together with links to categories and tags and the number of comments. Sliding through you can read the post, optimized for the device.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBApp2.jpg"></p>
+<p>I do hope you will use the two buttons at the end of each post, the first to share or save it and the second to leave a comment.</p>
+<p>I wish you all a lot of mathematical (and other) fun in 2011 :: lieven.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

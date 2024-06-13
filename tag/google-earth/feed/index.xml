@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>google earth &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/google-earth/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 08 Feb 2010 14:30:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Where’s Bourbaki’s Escorial?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-escorial/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-escorial/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 08 Feb 2010 14:30:59 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[geo]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google earth]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2565</guid>
+
+					<description><![CDATA[Early 1936, Andre Weil and Evelyne Gillet made a pre-honeymooning trip to Spain and visited El Escorial. Weil was so taken by the place that&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Early 1936, Andre Weil and Evelyne Gillet made a pre-honeymooning trip to Spain and visited <a href="http://en.wikipedia.org/wiki/El_Escorial">El Escorial</a>. Weil was so taken by the place that he planned the next Bourbaki-conference to be held in a nearby college. However, the Bourbakis never made it to to Spain that summer as the <a href="http://en.wikipedia.org/wiki/Spanish_Civil_War">Spanish Civil War</a> broke out July 17th, a few weeks before the intended conference. Can we GEO-tag the exact location of Bourbaki&#8217;s &#8220;Escorial&#8221;?</p>
+<p>As explained in the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bumpy-road-to-the-first-bourbaki-congress.html">bumpy-road-post</a>, <a href="http://en.wikipedia.org/wiki/André_Weil">Andre Weil</a> and Evelyne Gillet became involved sometime in 1935.<br />
+Early 1936, they made a pre-honeymooning trip to Spain and visited <a href="http://en.wikipedia.org/wiki/El_Escorial">El Escorial</a>. Weil was so taken by the place that he planned the next Bourbaki-conference to be held in a nearby college.</p>
+<p>However, the Bourbakis never made it to to Spain that summer as the <a href="http://en.wikipedia.org/wiki/Spanish_Civil_War">Spanish Civil War</a> broke out July 17th, a few weeks before the intended conference. Still, the second Bourbaki-meeting remains often referred to as the &#8216;Escorial conference&#8217;. Can we GEO-tag the exact location of Bourbaki&#8217;s &#8220;Escorial&#8221;?</p>
+<p><a href="http://en.wikipedia.org/wiki/Claude_Chevalley">Claude Chevalley</a> came up with a Plan-B and suggested they would use his parents&#8217; place in <a href="http://www.chancay.org/">Chançay</a> as their venue. Chevalley&#8217;s father was a French diplomat and his house sure did possess a matching &#8216;grandeur&#8217; as can be seen from the famous picture below, taken at the (second) Chançay meeting in 1937 (Weil to the left, Chevalley to the right and Weil&#8217;s sister Simonne standing).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/chancay2.jpg"><br />
+</center></p>
+<p>Thanks to the <a href="http://portail.mathdoc.fr/archives-bourbaki/">Bourbaki archives</a> we know that the meeting took place from september 16th to 28th, that each of them had to pay 16 francs for full pension and had to bring along their own sheets and towels.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/ChancayPrix.jpg" ><br />
+</center></p>
+<p>But where exactly is this beautiful house? Jacques Borowczyk has written a nice paper <a href="http://academie-de-touraine.ifrance.com/pages/T2007/bourbaki.pdf">Bourbaki et la touraine</a> in which he describes the Bourbaki congresses of 1936 and 1937 at the Chevalley-house in Chançay and further those held in 1956, 1957 and 1959 in &#8216;hôtel de la Brèche&#8217; in Amboise.</p>
+<p>Borowczyk places the Chevalley house in the little hamlet of Chançay, called &#8220;La Massoterie&#8221;. The village files assert that in 1931 three people were living at La Massoterie : father Abel Chevalley, who took residence there after his retirement in 1931, his wife Marguerite and their son Claude. But, at the time of the Bourbaki congres in 1936, Marguerite remained the only permanent inhabitant. Sadly,<br />
+Abel Chevalley, who together with Marguerite compiled the <a href="http://catalogue.nla.gov.au/Record/3645807?lookfor=subject:%22French%20language%20-%20Dictionaries%20-%20English.%22&amp;offset=6&amp;max=252">The concise Oxford French dictionary</a>, died in 1934.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/44-322829n-4-050861e.html">Usually</a> when you know the name of the hamlet, of the village and add just to be certain  &#8216;France&#8217;, <a href="http://maps.google.com/">Google Maps</a> takes you there within metres. So, this was going to be a quick post, for a change&#8230; Well, much to my surprise, typing &#8216;La Massoterie, Chançay, France&#8217; only produced the answer &#8220;We could not understand the location La Massoterie, Chançay, France&#8221;.</p>
+<p>Did I spell it wrong? Or, did the name change over times? No, Googling for it <a href="http://www.chancay.org/plan2.htm">the first hit</a> gives you the map of a 10km walk around Chançay passing through la Massoterie!</p>
+<p>Now what? Fortunately Borowczyk included in his paper an old map, from Napoleonic times, showing the exact location of La Massoterie (just above the flash-sign), facing the castle of Volmer. If you compare it with the picture below from present day Chançay (via Google earth) it is surprising how many of the landmarks have survived the changes over two centuries.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/chancaiNapoleon.jpg"><br />
+</center></p>
+<p />
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/chancaiGoogle.jpg"><br />
+</center></p>
+<p>It is now easy to pinpoint the exact location and zoom into the Chavalley-house, and, you&#8217;re in for a small surprise : the place is called <a href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=La+Massotterie,+37210+Chan%C3%A7ay,+France&amp;sll=37.0625,-95.677068&amp;sspn=32.38984,63.896484&amp;ie=UTF8&amp;hq=&amp;hnear=La+Massotterie,+37210+Chan%C3%A7ay,+Indre-et-Loire,+Centre,+France&amp;ll=47.459952,0.876809&amp;spn=0.001687,0.0039&amp;t=h&amp;z=18">La Massotterie</a> with 2 t&#8217;s&#8230;</p>
+<p>Probably, Googles database is more reliable than the information provided by the village of Chançay, or the paper by Borowczyk as it is the same spelling as on the old Napoleonic map. Anyway, feel free to have a peek at Bourbaki&#8217;s Escorial yourself!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-escorial/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

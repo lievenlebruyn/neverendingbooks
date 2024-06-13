@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>cryptography &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/cryptography/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 27 Dec 2010 13:53:11 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Lists 2010 : StackExchange sites</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 27 Dec 2010 13:53:11 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[social networks]]></category>
+		<category><![CDATA[stackexchange]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3883</guid>
+
+					<description><![CDATA[One of the trends of 2010 was the proliferation of StackExchange sites. I guess by now most of us visit MathOverflow along with the arXiv&#8230;]]></description>
+										<content:encoded><![CDATA[<p>One of the trends of 2010 was the proliferation of <a href="http://en.wikipedia.org/wiki/Stack_Exchange">StackExchange</a> sites. I guess by now most of us visit <a href="http://mathoverflow.net/">MathOverflow</a> along with <a href="http://arxiv.org/">the arXiv</a> daily. But, there are plenty of other StackExchange sites around that may be of interest to the mathematics-community :</p>
+<ul>
+<li><a href="http://math.stackexchange.com/">Mathematics</a> somewhat less high-brow than MathO.  </li>
+<li><a href="http://physics.stackexchange.com/">Physics</a> still in the beta-phase (see below)  </li>
+<li><a href="http://cstheory.stackexchange.com/">Theoretical computer science</a>  </li>
+<li><a href="http://tex.stackexchange.com/">TeX</a> for TeX and LaTeX-lovers  </li>
+<li><a href="http://ipad4edu.com/">iPad 4 edu</a> for those who want to use their iPad in the classroom</li>
+<li>etc. etc.</li>
+</ul>
+<p>&#8220;Opening a StackExchange site is damn hard. First you have to find at least 60 people interested in the site. Then, when this limit is reached, a large amount of people (in the hundreds, but it really depends on the reputation of each participant) must commit and promise to create momentum for the site, adding questions and answers. When this amount is reached, the site is open and stays in closed beta for seven days. During this time, the committers have to enrich the site so that the public beta (which starts after the first seven days) gets enough hits and participants to show a self-sustained community.&#8221; (quote from ForTheScience&#8217;s <a href="http://forthescience.org/blog/2010/07/22/stackexchange-sites-proliferation/">StackExchange sites proliferation</a>, this post also contains a list of  StackExchange-projects in almost every corner of Life)</p>
+<p>The site keeping you up to date with StackExchange proposals and their progress is <a href="http://area51.stackexchange.com/">area51</a>. Perhaps, you want to commit to some of these proposals</p>
+<ul>
+<li><a href="http://area51.stackexchange.com/proposals/6633/high-energy-physics">High Energy Physics</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/23848/theoretical-physics">Theoretical Physics</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15787/mathematica">Mathematica</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/23788/math-errata-database">Math Errata Database</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15215/blogging-and-the-blogosphere">Blogging and the Blogosphere</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15811/cryptography">Cryptography</a></li>
+</ul>
+<p>or simply browse around <a href="http://area51.stackexchange.com/">area51</a> until you find the ideal community for you to belong to&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>On2 : transfinite number hacking</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/on2-transfinite-number-hacking/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/on2-transfinite-number-hacking/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 08 Jan 2009 16:06:08 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<guid isPermaLink="false">http://matrix.cmi.ua.ac.be/?p=895</guid>
+
+					<description><![CDATA[Surely Georg Cantor's transfinite ordinal numbers do not have a real-life importance? Well, think again.]]></description>
+										<content:encoded><![CDATA[<p>In ONAG, John Conway proves that the symmetric version of his recursive definition of addition and multiplcation on the surreal numbers make the class On of all Cantor&#8217;s ordinal numbers into an algebraically closed Field of characteristic two : On2 (pronounced &#8216;Onto&#8217;), and, in particular, he identifies a subfield<br />
+with the algebraic closure of the field of two elements. What makes all of this somewhat confusing is that Cantor had already defined a (badly behaving) addition, multiplication and exponentiation on ordinal numbers.</p>
+<p>Over the last week I&#8217;ve been playing a bit with <a href="http://www.sagemath.org/">sage</a> to prove a few exotic identities involving <a href="http://en.wikipedia.org/wiki/Ordinal_number">ordinal numbers</a>. Here&#8217;s one of them ($\omega $ is the first infinite ordinal number, that is, $\omega=&#123; 0,1,2,\ldots &#125; $),</p>
+<p>$~(\omega^{\omega^{13}})^{47} = \omega^{\omega^7} + 1 $</p>
+<p>answering a question in Hendrik Lenstra&#8217;s paper <a href="https://openaccess.leidenuniv.nl/dspace/bitstream/1887/2125/1/346_027.pdf">Nim multiplication</a>.</p>
+<p>However, it will take us a couple of posts before we get there. Let&#8217;s begin by trying to explain what brought this on. On september 24th 2008 there was a meeting, intended for a general public, called <a href="http://www.ihes.fr/jsp/site/Portal.jsp?document_id=1610&amp;portlet_id=826">a la rencontre des dechiffeurs</a>, celebrating the 50th birthday of the IHES.</p>
+<p>One of the speakers was Alain Connes and the official title of his talk was &#8220;L&#8217;ange de la géométrie, le diable de l&#8217;algèbre et le corps à un élément&#8221; (the angel of geometry, the devil of algebra and the field with one element). Instead, he talked about a seemingly trivial problem : what is the algebraic closure of $\mathbb{F}_2 $, the field with two elements? My only information about the actual content of the talk comes from the following YouTube-blurb</p>
+<p><object width="680" height="418"><param name="movie" value="http://www.youtube.com/v/obEi7BkR3V0&#038;hl=en&#038;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/obEi7BkR3V0&#038;hl=en&#038;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="680" height="418"></embed></object></p>
+<p>Alain argues that we do not have a satisfactory description of $\overline{\mathbb{F}}_2 $, the algebraic closure of $\mathbb{F}_2 $. Naturally, it is the union (or rather, limit) of all finite fields $\mathbb{F}_{2^n} $, but, there are too many non-canonical choices to make here.</p>
+<p>Recall that $\mathbb{F}_{2^k} $ is a subfield of $\mathbb{F}_{2^l} $ if and only if $k $ is a divisor of $l $ and so we would have to take the direct limit over the integers with respect to the divisibility relation&#8230; Of course, we can replace this by an increasing sequence of a selection of cofinal fields such as</p>
+<p>$\mathbb{F}_{2^{1!}} \subset \mathbb{F}_{2^{2!}} \subset \mathbb{F}_{2^{3!}} \subset \ldots  $</p>
+<p>But then, there are several such suitable sequences! Another ambiguity comes from the description of $\mathbb{F}_{2^n} $. Clearly it is of the form $\mathbb{F}_2[x]/(f(x)) $ where $f(x) $ is a monic irreducible polynomial of degree $n $, but again, there are several such polynomials. An attempt to make a canonical choice of polynomial is to take the &#8216;first&#8217; suitable one with respect to some natural ordering on the polynomials. This leads to the so called <a href="http://www.math.rwth-aachen.de/~Frank.Luebeck/data/ConwayPol/index.html">Conway polynomials</a>.</p>
+<p>Conway polynomials for the prime $2 $ have only been <a href="http://www.math.rwth-aachen.de/~Frank.Luebeck/data/ConwayPol/CP2.html">determined</a> up to degree 400-something, so in the increasing sequence above we would already be stuck at the sixth term $\mathbb{F}_{2^{6!}} $&#8230;</p>
+<p>So, what Alain Connes sets as a problem is to find another, more canonical, description of $\overline{\mathbb{F}}_2 $. The problem is not without real-life interest as most finite fields appearing in cryptography or coding theory are subfields of $\overline{\mathbb{F}}_2 $.</p>
+<p>(My guess is that Alain originally wanted to talk about the action of the Galois group on the roots of unity, which would be the corresponding problem over the field with one element and would explain the title of the talk, but decided against it. If anyone knows what &#8216;coupling-problem&#8217; he is referring to, please drop a comment.)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/CantorP.jpg" style="float:right;margin-left:10px;"> Surely, Connes is aware of the fact that there exists a nice canonical recursive construction of $\overline{\mathbb{F}}_2 $ due to John Conway, using <a href="http://en.wikipedia.org/wiki/Georg_Cantor">Georg Cantor&#8217;s</a> ordinal numbers.</p>
+<p>In fact, in chapter 6 of his book <a href="http://en.wikipedia.org/wiki/On_Numbers_and_Games">On Numbers And Games</a>, John Conway proves that the symmetric version of his recursive definition of addition and multiplcation on the <a href="http://en.wikipedia.org/wiki/Surreal_number">surreal numbers</a> make the class $\mathbf{On} $ of all Cantor&#8217;s ordinal numbers into an algebraically closed Field of characteristic two : $\mathbf{On}_2 $ (pronounced &#8216;Onto&#8217;), and, in particular, he identifies a subfield</p>
+<p>$\overline{\mathbb{F}}_2 \simeq [ \omega^{\omega^{\omega}} ] $</p>
+<p>with the algebraic closure of $\mathbb{F}_2 $. What makes all of this somewhat confusing is that Cantor had already defined a (badly behaving) addition, multiplication and exponentiation on ordinal numbers. To distinguish between the Cantor/Conway arithmetics, Conway (and later Lenstra) adopt the convention that any expression between square brackets refers to Cantor-arithmetic and un-squared  ones to Conway&#8217;s. So, in the description of the algebraic closure just given $[ \omega^{\omega^{\omega}} ] $ is the ordinal defined by Cantor-exponentiation, whereas the exotic identity we started out with refers to Conway&#8217;s arithmetic on ordinal numbers.</p>
+<p>Let&#8217;s recall briefly Cantor&#8217;s ordinal arithmetic. An ordinal number $\alpha $ is the order-type of a totally ordered set, that is, if there is an order preserving bijection between two totally ordered sets then they have the same ordinal number (or you might view $\alpha $ itself as a totally ordered set, namely the set of all strictly smaller ordinal numbers, so e.g. $0= \emptyset,1= &#123; 0 &#125;,2=&#123; 0,1 &#125;,\ldots $).</p>
+<p>For two ordinals $\alpha $ and $\beta $, the addition $[\alpha + \beta ] $ is the order-type of the totally ordered set $\alpha \sqcup \beta $ (the disjoint union) ordered compatible with the total orders in $\alpha $ and $\beta $ and such that every element of $\beta $ is strictly greater than any element from $\alpha $. Observe that this definition depends on the order of the two factors. For example,$ [1 + \omega] = \omega $ as there is an order preserving bijection $&#123; \tilde{0},0,1,2,\ldots &#125; \rightarrow &#123; 0,1,2,3,\ldots &#125; $ by $\tilde{0} \mapsto 0,n \mapsto n+1 $. However, $\omega \not= [\omega + 1] $ as there can be no order preserving bijection $&#123; 0,1,2,\ldots &#125; \rightarrow &#123; 0,1,2,\ldots,0_{max} &#125; $ as the first set has no maximal element whereas the second one does. So, Cantor&#8217;s addition has the bad property that it may be that $[\alpha + \beta] \not= [\beta + \alpha] $.</p>
+<p>The Cantor-multiplication $ \alpha . \beta $ is the order-type of the product-set $\alpha \times \beta $ ordered via the last differing coordinate. Again, this product has the bad property that it may happen that $[\alpha . \beta] \not= [\beta . \alpha] $ (for example $[2 . \omega ] \not=[ \omega . 2 ] $). Finally, the exponential $\beta^{\alpha} $ is the order type of the set of all maps $f~:~\alpha \rightarrow \beta $ such that $f(a) \not=0 $ for only finitely many $a \in \alpha $, and ordered via the last differing function-value.</p>
+<p>Cantor&#8217;s arithmetic allows normal-forms for ordinal numbers. More precisely, with respect to any ordinal number $\gamma \geq 2 $, every ordinal number $\alpha \geq 1 $ has a unique expression as</p>
+<p>$\alpha = [ \gamma^{\alpha_0}.\eta_0 + \gamma^{\alpha_1}.\eta_1 + \ldots + \gamma^{\alpha_m}.\eta_m] $</p>
+<p>for some natural number $m $ and such that $\alpha \geq \alpha_0 > \alpha_1 > \ldots > \alpha_m \geq 0 $ and all $1 \leq \eta_i &lt; \gamma $. In particular, taking the special cases $\gamma = 2 $ and $\gamma = \omega $, we have the following two canonical forms for any ordinal number $\alpha $</p>
+<p>$[ 2^{\alpha_0} + 2^{\alpha_1} + \ldots + 2^{\alpha_m}] = \alpha = [ \omega^{\beta_0}.n_0 + \omega^{\beta_1}.n_1 + \ldots + \omega^{\beta_k}.n_k] $</p>
+<p>with $m,k,n_i $ natural numbers and $\alpha \geq \alpha_0 > \alpha_1 > \ldots > \alpha_m \geq 0 $ and $\alpha \geq \beta_0 > \beta_1 > \ldots > \beta_k \geq 0 $. Both canonical forms will be important when we consider the (better behaved) Conway-arithmetic on $\mathbf{On}_2 $, next time.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/on2-transfinite-number-hacking/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>return of the cat ceilidh</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/return-of-the-cat-ceilidh/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/return-of-the-cat-ceilidh/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 24 Jan 2008 11:46:11 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[teaching]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/return-of-the-cat-ceilidh.html</guid>
+
+					<description><![CDATA[I couldn&#8217;t believe my eyes. I was watching an episode of numb3rs, &#8216;undercurrents&#8217; to be precise, and there it was, circled in the middle of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I couldn&#8217;t believe my eyes. I was watching an episode of <a href="http://www.cbs.com/primetime/numb3rs/">numb3rs</a>, &#8216;undercurrents&#8217; to be precise, and there it was, circled in the middle of the blackboard, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/a-cat-called-ceilidh.html">CEILIDH</a>, together with some of the key-exchange maps around it&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/ceilidhnumbers.jpg" ></p>
+<p>Only, the plot doesn&#8217;t involve any tori-crypto&#8230; okay, there is an I-Ching-coded-tattoo which turns out to be a telephone number, but that&#8217;s all. Still, this couldn&#8217;t just be a coincidence. Googling for &#8216;<a href="http://www.google.com/search?client=safari&amp;rls=en-us&amp;q=ceilidh%2Bnumb3rs&amp;ie=UTF-8&amp;oe=UTF-8">ceilidh+numbers</a>&#8216; gives as top hit the pdf-file of an article <a href="http://math.uci.edu/~asilverb/bibliography/numb3rland.pdf">Alice in NUMB3Rland</a> written by &#8230; Alice Silverberg (of the Rubin-Silverberg paper starting tori-cryptography). Alice turns out to be one of the unpaid consultants to the series. The 2-page article gives some insight into how &#8216;some math&#8217; gets into the script</p>
+<blockquote><p>Typically, Andy emails a draft of the<br />
+script to the consultants. The FBI plot<br />
+is already in place, and the writers want<br />
+mathematics to go with it. The placeholder &#8220;math&#8221; in the draft is often nonsense or<br />
+jargon; the sort of things people with no<br />
+mathematical background might find by<br />
+Googling, and think was real math. Since<br />
+there&#8217;s often no mathematics that makes<br />
+sense in those parts of the script, the best<br />
+the consultants can do is replace jargon<br />
+that makes us cringe a lot with jargon that<br />
+makes us cringe a little. </p>
+<p>From then on, it&#8217;s the Telephone Game.<br />
+The consultants email Andy our suggestions (&#8220;replace &#8216;our discrete universes&#8217;<br />
+with &#8216;our disjoint universes'&#8221;; &#8220;replace<br />
+the nonsensical &#8216;we&#8217;ve tried everything<br />
+-a full frequency analysis, a Vignere<br />
+deconstruction- we even checked for<br />
+a Lucas sequence&#8217; with the slightly less<br />
+nonsensical &#8216;It&#8217;s much too short to try<br />
+any cryptanalysis on. If it were longer<br />
+we could try frequency analyses, or try<br />
+to guess what kind of cryptosystem it is<br />
+and use a specialized technique. For example, if it were a long enough Vigenere<br />
+cipher we could try a Kasiski test or an<br />
+index-of-coincidence analysis&#8217;). Andy<br />
+chooses about a quarter of my sugges-<br />
+tions and forwards his interpretation<br />
+of them to the writers and producers.<br />
+The script gets changed, and then the<br />
+actors ad lib something completely dif-<br />
+ferent (&#8216;disjointed universes&#8217;: cute, but<br />
+loses the mathematical allusion; &#8216;Kasiski<br />
+exam&#8217; : I didn&#8217;t mean that kind of &#8216;test&#8217;).
+</p></blockquote>
+<p>She ends her article with :</p>
+<blockquote><p>I have mixed feelings about NUMB3RS.  I still have concerns about the violence, the depiction of women, and the pretense<br />
+that the math is accurate. However, if NUMB3RS could interest people in the power of mathematics enough for society<br />
+to greater value and support mathematics teaching, learning, and research, and<br />
+motivate more students to learnthat would be a positive step. </p></blockquote>
+<p>Further, there is a whole blog dedicated to some of the maths featuring in NUMB3RS, the <a href="http://www.atsweb.neu.edu/math/cp/blog/?showall=yes">numb3rs blog</a>. And it was the first time I had to take a screenshot of a DVD, something usually off limits to the grab.app, but there is a <a href="http://highschoolblows.blogspot.com/2005/11/take-screenshot-of-dvd-player-in-os-x.html">simple hack</a> to do it&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/return-of-the-cat-ceilidh/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>now what?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/now-what/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/now-what/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 14 Jan 2008 20:50:22 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/now-what.html</guid>
+
+					<description><![CDATA[You may not have noticed, but the really hard work was done behind the scenes, resurrecting about 300 old posts (some of them hidden by&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/connesdummies.jpg" style="float:left;margin-right:10px;" > You may not have noticed, but the really hard work was done behind the scenes, resurrecting about 300 old posts (some of them hidden by giving them &#8216;private&#8217;-status). Ive only deleted about 10 posts with little or no content and am  sorry I&#8217;ve self-destructed about 20-30 hectic posts over the years by pressing the &#8216;delete post&#8217; button. I would have liked to reread them after all the angry mails Ive received. But, as Ive defended myself at the time, and as I continue to do today, a blog only records feelings at a specific moment. Often, the issue is closed for me once Ive put my frustrations in a post, and then Ill forget all about it. Sadly, the gossip-circuit in noncommutative circles is a lot, a lot, slower than my mood swings, so by the time people complain it&#8217;s no longer an issue for me and I tend to delete the post altogether. A blog really is a sort of diary. For example, it only struck me now, rereading the posts of the end of 2006, beginning of 2007, how depressed I must have been at the time. Fortunately, life has improved, somewhat&#8230; Still, after all these reminiscences, the real issue is : what comes next?</p>
+<p>Some of you may have noticed that I&#8217;ve closed the open series on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/tori-crypto-diffie-hellman.html">tori-cryptography</a> and on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/superpotentials-and-calabi-yaus.html">superpotentials</a> in a rather abrupt manner.  It took me that long to realize that none of you is waiting for this kind of posts. You&#8217;re thinking : if he really wants to show off, let him do his damned thing on the arXiv, a couple of days a year, at worst, and then we can then safely ignore it, like we do with most papers. Isnt&#8217;t that true? Of course it is&#8230;</p>
+<p>So, what are you waiting for?  Here&#8217;s what I believe to be a sensible thing to try out. Over the last 4 years I must have posted well over 50 times what I believe noncommutative geometry is all about, so if you still don&#8217;t know, please consult the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/arxiv-neb">archive</a>, I fear I can only repeat myself. Probably, it is more worthwhile to reach out to other approaches to noncommutative geometry, trying to figure out what, if anything, they are after, without becoming a new-age convert (&#8216;connes-vert&#8217;, I&#8217;d say). The top-left picture may give you an inkling of what I&#8217;m after&#8230; Besides, Im supposed to run a &#8216;capita selecta&#8217; course for third year Bachelors and Ive chosen to read with them the book <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/music-of-the-primes.html">The music of the primes</a> and to expand on the mathematics hinted only at in the book. So, I&#8217;ll totally immerse myself in Connes&#8217; project to solve the Riemann-hypothesis in the upcoming months.</p>
+<p>Again, rereading old posts, it strikes me how much effort I&#8217;ve put into trying to check whether technology can genuinely help mathematicians to do what they want to do more efficiently (all post categorized as iMath).  I plan some series of posts re-exploring these ideas. The first series will be about the overhyped Web-2 thing of social-bookmarking. So, in the next weeks I&#8217;ll go undercover and check out which socialsites are best for mathematicians (in particular, noncommutative geometers) to embrace&#8230;</p>
+<p>Apart from these, admittedly vague, plans I am as always open for suggestions you might have. So, please drop a comment..</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/now-what/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the crypto lattice</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-crypto-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-crypto-lattice/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 12 Jan 2008 11:07:14 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[rationality]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/the-crypto-lattice.html</guid>
+
+					<description><![CDATA[Last time we have seen that tori are dual (via their group of characters) to lattices with a Galois action. In particular, the Weil descent&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Last time we have seen that <strong>tori</strong> are dual (via their group of characters) to <strong>lattices with a Galois action</strong>. In particular, the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/weil-descent.html">Weil descent</a> torus $R_n=R^1_{\mathbb{F}_{p^n}/\mathbb{F}_p} \mathbb{G}_m $ corresponds to the <strong>permutation</strong> lattices $R_n^* = \mathbb{Z}[x]/(x^n-1) $. The action of the generator $\sigma $ (the Frobenius) of the Galois group $Gal(\mathbb{F}_{p^n}/\mathbb{F}_p) $ acts on the lattice by multiplication with $x $.</p>
+<p>An old result of Masuda (1955), using an even older lemma by Speiser (1919), asserts than whenever the character-lattice $T^* $ of a torus $T $ is a permutation-lattice, the torus is <strong>rational</strong>, that is, the function-field<br />
+of the torus $\mathbb{F}_p(T) $ is purely trancendental</p>
+<p>$\mathbb{F}_p(y_1,\ldots,y_d) = \mathbb{F}_p(T) = (\mathbb{F}_{q^n}(T^*))^{Gal} $</p>
+<p>(recall from last time that the field on the right-hand side is the field of fractions of the $Gal $-invariants of the group-algebra of the free Abelian group $T^* = \mathbb{Z} \oplus \ldots \oplus \mathbb{Z} $ where the rank is equal to the dimension $d $ of the torus).</p>
+<p>The basic observation made by Rubin and Silverberg was that the known results on crypto-compression could be reformulated in the language of algebraic tori as : <strong>the tori $T_2 $ (LUC-system) and $T_6 $ (CEILIDH-system) are rational!</strong> So, what about the next cryptographic challenges? Are the tori $T_{30} $, $T_{210} $ etc. also rational varieties?</p>
+<p>Recall that as a group, the $\mathbb{F}_p $-points of the torus $T_n $, is the subgroup of $\mathbb{F}_{p^n}^* $ corresponding to the most crypto-challenging cyclic subgroup of order $\Phi_n(p) $ where $\Phi_n(x) $ is the n-th <a href="http://en.wikipedia.org/wiki/Root_of_unity#Cyclotomic_polynomials">cyclotomic polynomial</a>. The character-lattice of this crypto-torus $T_n $ we call the <strong>crypto-lattice</strong> and it is</p>
+<p>$T_n^* = \mathbb{Z}[x]/(\Phi_n(x)) $</p>
+<p>(again the action of the Frobenius is given by multiplication with $x $) and hence has rank $\phi(n) $, explaining that the torus $T_n $ has dimension $\phi(n) $ and hence that we can at best expect a compression from $n $-pits to $\phi(n) $-pits. Note that the lattice $T_n^* $ is no longer a permutation lattice, so we cannot use the Masuda-Speiser result to prove rationality of $T_n $.</p>
+<p>What have mathematicians proved on $T_n $ before it became a hot topic? Well, there is an old conjecture by V. E. Voskresenskii asserting that all $T_n $ should be rational! Unfortunately, he could prove this only when $n $ is a prime power. Further, he proved that for all $n $, the lattice $T_n $ is at least <strong>stably-rational</strong> meaning that it is rational <strong>upto adding free parameters</strong>, that is</p>
+<p>$\mathbb{F}_p(T_n)(z_1,\ldots,z_l) = \mathbb{F}_p(y_1,\ldots,y_{d+l}) $</p>
+<p>which, sadly, is only of cryptographic-use if $l $ is small (see below). A true rationality result on $T_n $ was proved by A.A. Klyashko : $T_n $ is rational whenever $n=p^a.q^b $ a product of two prime powers.But then, $30=2 \times 3 \times 5 $ the first unknown case&#8230;</p>
+<p>At Crypto 2004, Marten van Dijk and David Woodruff were able to use an explicit form of Voskresenskii stable rationality result to get an asymptotic optimal crypto-compression rate of $n/\phi(n) $, but their method was of little practical use in the $T_{30} $, for what their method gave was a rational map</p>
+<p>$T_{30} \times \mathbb{A}^{32}_{\mathbb{F}_p} \rightarrow \mathbb{A}^{40}_{\mathbb{F}_p} $</p>
+<p>and the number of added parameters (32) is way too big to be of use.</p>
+<p>But then, one can use century-old results on cyclotomic polynomials to get a much better bound, as was shown in the paper <a href="http://mirror.cr.yp.to/eprint.iacr.org/2004/352.pdf">Practical cryptography in high dimensional tori</a> by the collective group of all people working (openly) on tori-cryptography. The idea is that whenever q is a prime and a is an integer not divisible by q, then on the level of cyclotomic polynomials we have the identity</p>
+<p>$\Phi_{aq}(x) \Phi_a(x) = \Phi_a(x^q) $</p>
+<p>On the level of tori this equality implies (via the character-lattices) an ismorphism (with same assumptions)</p>
+<p>$T_{aq}(\mathbb{F}_p) \times T_a(\mathbb{F}_p) \simeq (R^1_{\mathbb{F}_{p^q}/\mathbb{F}_p} T_a)(\mathbb{F}_p) = T_a(\mathbb{F}_{p^q}) $</p>
+<p>whenever aq is not divisible by p. Apply this to the special case when $q=5,a=6 $ then we get</p>
+<p>$T_{30}(\mathbb{F}_p) \times T_6(\mathbb{F}_p) \simeq R^1_{\mathbb{F}_{p^5}/\mathbb{F}_p} T_6(\mathbb{F}_p) $</p>
+<p>and because we know that $T_6 $ is a 2-dimensional rational torus we get, using Weil descent, a rational map</p>
+<p>$T_{30} \times \mathbb{A}^2_{\mathbb{F}_p} \rightarrow  \mathbb{A}^{10}_{\mathbb{F}_p} $</p>
+<p>which can be used to get better crypto-compression than the CEILIDH-system!</p>
+<p>This concludes what I know of the OPEN state of affairs in tori-cryptography. I&#8217;m sure &#8216;people in hiding&#8217; know a lot more at the moment and, if not, I have a couple of ideas I&#8217;d love to check out. So, when I seem to have disappeared, you know what happened&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-crypto-lattice/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Weil descent</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/weil-descent/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/weil-descent/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 09 Jan 2008 14:15:28 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=332</guid>
+
+					<description><![CDATA[A classic Andre Weil-tale is his narrow escape from being shot as a Russian spy The war was a disaster for Weil who was a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A classic <a href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Weil.html">Andre Weil</a>-tale is his narrow escape from being shot as a Russian spy</p>
+<blockquote><p>The war was a disaster for Weil who was a conscientious objector and so wished to avoid military service. He fled to Finland, to visit Rolf Nevanlinna, as soon as war was declared. This was an attempt to avoid being forced into the army, but it was not a simple matter to escape from the war in Europe at this time. Weil was arrested in Finland and when letters in Russian were found in his room (they were actually from Pontryagin describing mathematical research) things looked pretty black. One day Nevanlinna was told that they were about to execute Weil as a spy, and he was able to persuade the authorities to deport Weil instead.</p></blockquote>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/weil.gif" style="float:left;margin-right:10px;" > However, <a href="http://en.wikipedia.org/wiki/André_Weil">Weil&#8217;s wikipedia entry</a> calls this a story too good to be true, and continues</p>
+<blockquote><p>In 1992, the Finnish mathematician Osmo Pekonen went to the archives to check the facts. Based on the documents, he established that Weil was not really going to be shot, even if he was under arrest, and that Nevanlinna probably didn&#8217;t do &#8211; and didn&#8217;t need to do &#8211; anything to save him. Pekonen published a paper on this with an afterword by Andre Weil himself. Nevanlinna&#8217;s motivation for concocting such a story of himself as the rescuer of a famous Jewish mathematician probably was the fact that he had been a Nazi sympathizer during the war. The story also appears in Nevanlinna&#8217;s autobiography, published in Finnish, but the dates don&#8217;t match with real events at all. It is true, however, that Nevanlinna housed Weil in the summer of 1939 at his summer residence Korkee at Lohja in Finland &#8211; and offered Hitler&#8217;s Mein Kampf as bedside reading.</p></blockquote>
+<p>This old spy-story gets a recent twist now that it turns out that Weil&#8217;s descent theory of tori has applications to cryptography. So far, I haven&#8217;t really defined what tori are, so let us start with some basics.</p>
+<p>The simplest (and archetypical) example of an <strong>algebraic torus</strong> is the <strong>multiplicative group</strong>(scheme) $\mathbb{G}_m $ over a finite field $\mathbb{F}_q $ which is the affine variety</p>
+<p>$\mathbb{V}(xy-1) \subset \mathbb{A}^2_{\mathbb{F}_q} $. that is, the $\mathbb{F}_q $ points of $\mathbb{G}_m $ are precisely the couples $&#123; (x,\frac{1}{x})~:~x \in \mathbb{F}_q^* &#125; $ and so are in one-to-one correspondence with the non-zero elements of $\mathbb{F}_q $. The coordinate ring of this variety is the ring of Laurant polynomials $\mathbb{F}_q[x,x^{-1}] $ and the fact that multiplication induces a group-structure on the points of the variety can be rephrased by saying that this coordinate ring is a <strong>Hopf algebra</strong> which is just the Hopf structure on the <strong>group-algebra</strong> $\mathbb{F}_q[\mathbb{Z}] = \mathbb{F}_q[x,x^{-1}] $. This is the first indication of a connection between <strong>tori</strong> defined over $\mathbb{F}_q $ and <strong>lattices</strong> (that is free $\mathbb{Z} $-modules with an action of the Galois group $Gal(\overline{F}_q/F_q) $. In this correspondence, the multiplicative group scheme $\mathbb{G}_m $ corresponds to $\mathbb{Z} $ with the trivial action.</p>
+<p>Now take a field extension $\mathbb{F}_q \subset \mathbb{F}_{q^n} $, is there an affine variety, defined over $\mathbb{F}_q $ whose $\mathbb{F}_q $-points are precisely the invertible elements $\mathbb{F}_{q^n}^* $? Sure! Just take the multiplicative group over $\mathbb{F}_{q^n} $ and write the elements x and y as $x = x_1 + x_2 a_2 + \ldots + x_n a_n $ (and a similar expression for y with $&#123; 1,a_2,\ldots,a_n &#125;$ being a basis of $\mathbb{F}_{q^n}/\mathbb{F}_q $ and write the defning equation $xy-1 $ out, also with respect to this basis and this will then give you the equations of the desired variety, which is usually denoted by $R^1_{\mathbb{F}_{q^n}/\mathbb{F}_q} \mathbb{G}_m $ and called the <strong>Weil restriction of scalars torus</strong>.</p>
+<p>A concrete example? Take $\mathbb{F}_9 = \mathbb{F}_3(\sqrt{-1}) $ and write $x=x_1+x_2 \sqrt{-1} $ and $y=y_1+y_2 \sqrt{-1} $, then the defining equation $xy-1 $ becomes</p>
+<p>$~(x_1y_1-x_2y_2) + (x_1y_2-x_2y_1) \sqrt{-1} = 1 $</p>
+<p>whence $R^1_{\mathbb{F}_9/\mathbb{F}_3} = \mathbb{V}(x_1y_1-x_2y_2-1,x_1y_2-x_2y_1) \subset \mathbb{A}^4_{\mathbb{F}_3} $, the intersection of two quadratic hypersurfaces in 4-dimensional space.</p>
+<p>Why do we call $R^1 \mathbb{G}_m $ a _torus_? Well, as with any variety defined over $\mathbb{F}_q $ we can also look at its points over a field-extension, for example over the algebraic closure $\overline{\mathbb{F}}_q $ and then it is easy to see that</p>
+<p>$R^1_{\mathbb{F}_{q^n}/\mathbb{F}_q} \mathbb{G}_m (\overline{\mathbb{F}}_q) = \overline{\mathbb{F}}_q^* \times \ldots \times \overline{\mathbb{F}}_q^* $ (n copies)</p>
+<p>and such algebraic groups are called <strong>tori</strong>. (To understand terminology, the compact group corresponding to $\mathbb{C}^* \times \mathbb{C}^* $ is $U_1 \times U_1 = S^1 \times S^1 $, so a torus).</p>
+<p>In fact, it is already the case that the $\mathbb{F}_{q^n} $ points of the restriction of scalar torus are $\mathbb{F}_{q^n}^* \times \ldots \times \mathbb{F}_{q^n}^* $ and therefore we call this field a <strong>splitting field</strong> of the torus.</p>
+<p>This is the general definition of an algebraic torus : a <strong>torus T over $\mathbb{F}_q $</strong> is an affine group scheme over $\mathbb{F}_q $ such that, if we extend scalars to the algebraic closure (and then it already holds for a finite extension) we get an isomorphism of affine group schemes</p>
+<p>$T \times_{\mathbb{F}_q} \overline{\mathbb{F}}_q = \overline{\mathbb{F}}_q^* \times \ldots \times \overline{\mathbb{F}}_q^* = (\overline{\mathbb{F}}_q^*)^{n} $</p>
+<p>in which case we call T a torus of dimension n. Clearly, the Galois group $Gal(\overline{\mathbb{F}}_q^*/\mathbb{F}_q) $ acts on the left hand side in such a way that we recover $T $ as the orbit space for this action.</p>
+<p>Hence, anther way to phrase this is to say that an algebraic torus is the <strong>Weil descent</strong> of an action of the Galois group on the algebraic group $\overline{\mathbb{F}}_q^* \times \ldots \times \overline{\mathbb{F}}_q^* $.</p>
+<p>Of course we can also rephrase this is more algebraic terms by looking at the coordinate rings. The coordinate ring of the algebraic group $~(\overline{\mathbb{F}}_q^*)^n $ is the group-algebra of the rank n lattice $\mathbb{Z}^n = \mathbb{Z} \oplus \ldots \oplus \mathbb{Z} $ (the free Abelian group of rank n), that is,<br />
+$\overline{\mathbb{F}}_q [ \mathbb{Z}^n ] $. Now the Galois group acts both on the field $\overline{\mathbb{F}}_q $ as on the lattice $\mathbb{Z}^n $ coming from the action of the Galois group on the extended torus $T \times_{\mathbb{F}_q} \overline{\mathbb{F}}_q $. In fact, it is best to denote this specific action on $\mathbb{Z}^n $ by $T^* $ and call $T^* $ the character group of $T $. Now, we recover the coordinate ring of the $\mathbb{F}_q $-torus $T $ as the ring of invariants</p>
+<p>$\mathbb{F}_q[T] = \overline{\mathbb{F}}_q [T^*]^{Gal(\overline{\mathbb{F}}_q/\mathbb{F}_q)} $</p>
+<p>Hence, the restriction of scalars torus $R^1_{\mathbb{F}_{q^n}/\mathbb{F}_q} \mathbb{G}_m $ is an n-dimensional torus over $\mathbb{F}_q $ and its corresponding character group is the free Abelian group of rank n which can be written as $\mathbb{Z}[x]/(x^n-1) = \mathbb{Z}1 \oplus \mathbb{Z}x \oplus \ldots \oplus \mathbb{Z}x^{n-1} $ and where the action of the cyclic Galois group $Gal(\mathbb{F}_{q^n}/\mathbb{F}_q) = C_n = \langle \sigma \rangle $ s such that the generator $\sigma $ as as multiplication by $x $. That is, in this case the character group is a <strong>permutation lattice</strong> meaning that the $\mathbb{Z} $-module has a basis which is permuted under the action of the Galois group. Next time we will encounter more difficult tori sich as the <strong>crypto-torus</strong> $T_n $.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/weil-descent/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>key-compression</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/key-compression/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/key-compression/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 04 Jan 2008 14:13:50 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=241</guid>
+
+					<description><![CDATA[The main application of tori to cryptography is to exchange keys more efficiently while preserving the same security standards. In the Diffie-Hellman key-exchange one interchanges&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The main application of tori to cryptography is <strong>to exchange keys more efficiently while preserving the same security standards</strong>.</p>
+<p>In the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=240">Diffie-Hellman key-exchange</a> one interchanges elements of the finite field $\mathbb{F}_q $ where $q=p^N $ is a prime-power of a large prime number $p $. If we call an element of the prime field $\mathbb{F}_p $ a <strong>pit</strong> (similar to <strong>bit</strong> when $p=2 $) then we can measure transmssions in pits. An element $h \in \mathbb{F}_q $ requires N pits, for we can write the finite field as the quotient of ring of polynomials $\mathbb{F}_p[x] $</p>
+<p>$\mathbb{F}_q = \frac{\mathbb{F}_p[x]}{(f(x))} $</p>
+<p>modulo an _irreducible_ polynomial $f(x) $ of degree N. Hence, any $h \in \mathbb{F}_q $ can be written as a polynomial of degree $&lt; N $,<br />
+$h = a_1 + a_2 x + \ldots + a_N x^{N-1} $<br />
+with all $a_i \in \mathbb{F}_p $, so we can represent $h=(a_1,a_2,\ldots,a_N) $ as N pits. Now, we are going to limit this number of pits (from $N $ to about $\phi(N) $ where $\phi $ is the <a href="http://en.wikipedia.org/wiki/Euler's_totient_function">Euler totient function</a>, that is the number of integers smaller than N and coprime to it) by restricting the elements $h $ to be transfered to a <strong>subgroup</strong> of the group of units of the finite field $\mathbb{F}_q^* $ while not compromising on the security of the public key system (the large order of the basic element $g \in \mathbb{F}_q^* $ of which $h $ is a power).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/hilbertTori.jpg" style="float:left;margin-right:10px;" > To see that this is indeed possible, let us consider the easiest case (that of $N=2 $) and keep the discussion tori-free (those of you who know more will realize that <a href="http://en.wikipedia.org/wiki/Hilbert's_Theorem_90">Hilbert&#8217;s Satz 90</a> is never too far away&#8230;). If $q=p^2 $ then the order of the cyclic group $\mathbb{F}_q^* $ is $p^2-1 = (p-1)(p+1) $ so in order to get a safe system let us choose the large prime number $p $ such that also <a href="p+1">tex</a>/2=r $ is a prime number.</p>
+<p>Right, now define $T_2 $ to be the subgroup of $\mathbb{F}_q^* $ of order $p+1 $ and let $g $ be a generator of it that we will use in the Diffie-Hellman exchange. Can we describe the element of $T_2 $ (our torus in disguise)? Take $d \in \mathbb{F}_p^* $ a non-square element, then we can write<br />
+$\mathbb{F}_q = \mathbb{F}_p(\sqrt{d}) $ and $T_2 = &#123; a+b\sqrt{d}~:~(a+b\sqrt{d})^{p+1}=1 &#125; $ (here, $a,b \in \mathbb{F}_p $). But we claim that<br />
+$~(a+b\sqrt{d})^p = a -b \sqrt{d} $. Indeed, $a^p=a,b^p=b $ and from <a href="http://en.wikipedia.org/wiki/Fermat's_little_theorem">Fermat&#8217;s little theorem</a> we deduce that</p>
+<p>$ -1 = (\frac{d}{p}) \equiv d^{\frac{p-1}{2}}~mod(p) $</p>
+<p>where the middle term is the <a href="http://en.wikipedia.org/wiki/Legendre_symbol">Legendre symbol</a> which is equal to -1 because d was a non-square modulo p. That is, we can then write $T_2 $ as the algebraic variety of dimension one defined over $\mathbb{F}_p $ and given by the equation</p>
+<p>$T_2 = &#123; a+b\sqrt{d} \in \mathbb{F}_q^*~\mid~(a,b) \in \mathbb{F}^2~:~a^2-db^2=1 &#125; $</p>
+<p>Because $T_2 $ is of dimension one over $\mathbb{F}_p $ we can hope that most of its elements can be represented by just <strong>one pit</strong> (instead of the two pits necessary to represent them as elements of $\mathbb{F}_q $). This is indeed the case, for we have explicit maps (in geometric terms, these maps show that $T_2 $ is a <strong>rational</strong> variety)</p>
+<p>$j~:~\mathbb{F}_p \rightarrow T_2~\quad~j(a) = \frac{a+\sqrt{d}}{a-\sqrt{d}}=\frac{a^2+d}{a^2-d}+\frac{2a}{a^2-d}\sqrt{d} $</p>
+<p>which has a well-defined invers on the complement of $&#123; 1,-1 &#125; $</p>
+<p>$f~:~T_2 &#8211; &#123; 1,-1 &#125; \rightarrow \mathbb{F}_p~\quad~f(a+b\sqrt{d}) = \frac{1+a}{b} $</p>
+<p>From the right-hand description of $j(a) $ one deduces that indeed we have that $f(j(a))=a $. Using this we can indeed compress the Diffie-Hellman exchange by a factor 2.</p>
+<p>Instead of giving you the element $g^a \in T_2 $ computed using my secret number a, I&#8217;ll send you (using only one pit) the number $f(g^a) \in \mathbb{F}_p $. On this number, you can apply the j-function to recover $g^a $ and then compute the common key $~(g^a)^b = g^{ab} $ using your secret number b). Still, we didnt compromise on security because we used the most difficult elements around in $\mathbb{F}_q^* $. By going to higher dimensional tori one can even improve on the efficiency rate!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/key-compression/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>tori &#038; crypto : Diffie-Hellman or GCHQ?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/tori-crypto-diffie-hellman/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/tori-crypto-diffie-hellman/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 03 Jan 2008 15:50:39 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[rationality]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=240</guid>
+
+					<description><![CDATA[Boris Kunyavskii arXived the paper Algebraic tori &#8211; thirty years after dedicated to the 80th anniversary of V. E. Voskresenskii. The goal is to give&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.cs.biu.ac.il/~kunyav/">Boris Kunyavskii</a> arXived the paper <a href="http://arxiv.org/abs/0712.4061">Algebraic tori &#8211; thirty years after</a> dedicated to the 80th anniversary of V. E. Voskresenskii.  The goal is to give an overview of results of V. E. Voskresenskii on arithmetic and birational properties of algebraic tori which culminated in his monograph &#8220;Algebraic Tori&#8221; published in Russian 30 years ago. As Ive worked on this stuff a long time ago I glanced through the paper and it contains a nice summary of the work of V.E. Voskresenskii, and later of Jean-Louis Colliot-Thelene, Jean-Jacques Sansuc and David Saltman. To my surprise I also made a guest-appearance and even seem to have a conjecture (??!!). Fortunately the &#8216;conjecture&#8217; turned out to be correct as was <a href="http://arxiv.org/abs/math/9907168">proved</a> by Nicole Lemire and Martin Lorenz. But a much bigger surprise (at least to me) is contained in the final section of the paper where applications of (stable) rationality of certain tori are given to primality testing and public key cryptography!</p>
+<blockquote><p>In [GPS]<br />
+the authors propose to use a similar idea of compression for using tori<br />
+in an even more recent cryptographic protocol (so-called pairing-based<br />
+cryptography). It is interesting to note that the efficiency (compression factor) of the above mentioned cryptosystems heavily depends on<br />
+rationality of tori under consideration (more precisely, on an explicit<br />
+rational parameterization of the underlying variety). As the tori used<br />
+by Rubin and Silverberg are known to be stably rational, the seemingly abstract question on rationality of a given stably rational torus<br />
+is moving to the area of applied mathematics. The first challenging<br />
+problem here is to obtain an explicit rational parameterization of the<br />
+8-dimensional torus $T_{30} $ , deïfined over a finite field k and splitting over<br />
+its cyclic extension L of degree 30. </p>
+<p>This is a particular case of a problem posed by Voskresenskii [Vo77,<br />
+Problem 5.12] 30 years ago. Let us hope that we will not have to wait<br />
+another 30 years for answering this question on a degree 30 extension.</p></blockquote>
+<p>That&#8217;s all it takes to get me seriously side-tracked&#8230; so the last couple of hours I&#8217;ve been reading up on this connection between tori and cryptography. I will spend a couple of posts on these beautiful results. The latest seems to be that, while rationality of $T_{30} $ is still unknown, one can use an explicit stable-rationality description of it to get a better bound than the XTR-system (the system corresponding to the torus $T_{6} $) which in turn is better than the LUC-system (corresponding to $T_2 $), which is turn is twice as efficient as the <a href="http://en.wikipedia.org/wiki/Diffie-Hellman">Diffie-Hellman key exchange system</a>&#8230; So let us start gently with the latter one&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/diffiehellman.jpg" style="float:left;margin-right:10px;" > Whitfield Diffie (r.) and Martin Hellman (m.) published in 1976 their public key-exchange system. Take a large prime power $q=p^N $, make it public and consider the finite field $\mathbb{F}_q $ which is known to have a cyclic group of units $\mathbb{F}^*_q $ of order $q-1 $. Now, take $g $ to be an element in it of large order (preferable a generator but that isnt necessary) and also make this element public.</p>
+<p>Now choose a random integer $a $ (your <strong>hidden secret</strong>) and compute the element $g^a \in \mathbb{F}_q $ and publicize this element. Suppose someone else published his/her element $g^b $ constructed from his/her secret integer $b $ then both you and this other person can compute from the published data and their secret numbers the element (the <strong>shared key</strong>)</p>
+<p>$g^{ab}=(g^b)^a = (g^a)^b $</p>
+<p>(because you know $a $ and the published $g^b $ and your correspondent knows $b $ and the published $g^a $) but <strong>nobody else can compute it</strong> from the public-available data only because discrete logarithms cannot be feasibly computed in the group $\mathbb{F}_q^* $. Hellman suggests to call this system the Diffie-Hellman-Merkl key-exchange (via <a href="http://www.livinginternet.com/i/is_crypt_pkc_inv.htm">this link</a>)</p>
+<blockquote><p>The first researchers to discover and publish the concepts of PKC were Whitfield Diffie and Martin Hellman from Stanford University, and Ralph Merkle from the University of California at Berkeley. As so often happens in the scientific world, the two groups were working independently on the same problem &#8212; Diffie and Hellman on public key cryptography and Merkle on public key distribution &#8212; when they became aware of each other&#8217;s work and realized there was synergy in their approaches. In Hellman&#8217;s words: &#8220;We each had a key part of the puzzle and while it&#8217;s true one of us first said X, and another of us first said Y, and so on, it was the combination and the back and forth between us that allowed the discovery.&#8221;</p></blockquote>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/williamson.jpg" style="float:right;margin-left:10px;" > And that was the full story until 1997. In December, 1997, it was revealed that researchers at the <a href="http://www.gchq.gov.uk/">GCHQ</a> organization did some work in the early 1970&#8217;s in the field of &#8220;non-secret encryption&#8221;. The people involved are <a href="http://en.wikipedia.org/wiki/James_H._Ellis">James Ellis</a>, <a href="http://en.wikipedia.org/wiki/Clifford_Cocks">Clifford Cocks</a> and <a href="http://en.wikipedia.org/wiki/Malcolm_Williamson_%28cryptographer%29">Malcolm Williamson (r.)</a>.</p>
+<p><a href="http://www.cesg.gov.uk/site/publications/media/ellis.pdf">Here</a> is a note by Ellis on his recollection of the history of &#8216;Non-secret encryption&#8221; :</p>
+<blockquote><p>Cryptography is a most unusual science. Most professional scientists aim to be the first to publish their work,<br />
+because it is through dissemination that the work realises its value. In contrast, the fullest value of cryptography<br />
+is realised by minimising the information available to potential adversaries. Thus professional cryptographers<br />
+normally work in closed communities to provide sufficient professional interaction to ensure quality while<br />
+maintaining secrecy from outsiders. Revelation of these secrets is normally only sanctioned in the interests<br />
+of historical accuracy after it has been demonstrated clearly that no further benefit can be obtained from<br />
+continued secrecy. <br />
+In keeping with this tradition it is now appropriate to tell the story of the invention and development within<br />
+CESG of non-secret encryption (NSE) which was our original name for what is now called PKC. The task of writing<br />
+this paper has devolved on me because NSE was my idea and I can therefore describe these early developments from<br />
+personal experience. No techniques not already public knowledge, or specific applications of NSE will be mentioned&#8230;</p></blockquote>
+<p>The once secret notes of Williamson are also available. <a href="http://www.mirrors.wiretapped.net/security/info/reference/cesg-publications/History/secenc.pdf">NON-SECRET ENCRYPTION USING A FINITE FIELD<br />
+by M J Williamson, 21 January 1974</a> and <a href="http://www.fi.muni.cz/usr/matyas/lecture/paper3.pdf">THOUGHTS ON CHEAPER NON-SECRET ENCRYPTION<br />
+M J Williamson, 10 August 1976</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/tori-crypto-diffie-hellman/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>daddy wasn’t impressed</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/daddy-wasnt-impressed/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/daddy-wasnt-impressed/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 19 Dec 2007 15:32:02 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=48</guid>
+
+					<description><![CDATA[A first year-first semester course on group theory has its hilarious moments. Whereas they can relate the two other pure math courses (linear algebra and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A first year-first semester course on group theory has its hilarious moments. Whereas they can relate the two other pure math courses (linear algebra and analysis) _somewhat_ to what they&#8217;ve learned before, with group theory they appear to enter an entirely new and strange world. So, it is best to give them concrete examples : symmetry groups of regular polygons and Platonic solids, the symmetric group etc. One of the lesser traditional examples I like to give is <a href="http://en.wikipedia.org/wiki/Nimber">Nim addition</a> and its relation to combinatorial games.</p>
+<p>For their first test they had (among other things) to find a winning move for the position below in the Lenstra&#8217;s turtle turning game. At each move a player must put one turtle on its back and may also turn over any single turtle to the left of it. This second turtle, unlike the first, may be turned either onto its feet or onto its back. The player wins who turns the last turtle upside-down.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/turtles.jpg" width=500 ></p>
+<p>So, all they needed to see was that one turtle on its feet at place n is equivalent to a Nim-heap of height n and use the fact that all elements have order two to show that any zero-move in the sum game can indeed be played by using the second-turtle alternative. (( for the curious : the answer is turning both 9 and 4 on their back ))</p>
+<p>A week later, one of the girls asked at the start of the lecture :</p>
+<blockquote><p>Are there real-life applications of group-theory? I mean, my father asked me what I was learning at school and I told him we were playing games turning turtles. I have to say that he was not impressed <strong>at all!</strong>. </p></blockquote>
+<p>She may have had an hidden agenda to slow me down because I spend an hour talking about a lot of things ranging from codes to cryptography and from representations to elementary particles&#8230;</p>
+<p>For test three (on group-actions) I asked them to prove (among other things) <strong>Wilson&#8217;s theorem</strong> that is</p>
+<p>$~(p-1)! \equiv -1~\text{mod}~p $</p>
+<p>for any prime number $p $. The hint being : take the trivial action of $S_p $ on a one-element set and use the orbit theorem. (they know the number of elements in an $S_n $-conjugacy class)</p>
+<p>Fingers crossed, hopefully daddy approved&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/daddy-wasnt-impressed/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>problema bovinum</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/problema-bovinum/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/problema-bovinum/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 03 Dec 2007 16:49:22 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=47</guid>
+
+					<description><![CDATA[Suppose for a moment that some librarian at the Bodleian Library announces that (s)he discovered an old encrypted book attributed to Isaac Newton. After a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Suppose for a moment that some librarian at the <a href="http://www.bodley.ox.ac.uk/">Bodleian Library</a> announces that (s)he discovered an old encrypted book attributed to Isaac Newton. After a few months of failed attempts, the code is finally cracked and turns out to use a Public Key system based on the product of two gigantic prime numbers, $2^{32582657}-1 $ and $2^{30402457}-1 $, which were only <a href="http://primes.utm.edu/largest.html#largest">discovered to be prime</a> recently. Would one deduce from this that Newton invented public key cryptography and that he used alchemy to factor integers? (( Come to think of it, some probably would ))</p>
+<p>The cynic in me would argue that it is a hell of a coincidence for this text to surface exactly at the moment in history when we are able to show these numbers to be prime and understand their cryptographic use, and conclude that the book is likely to be a fabrication. Still, stranger things have happened in the history of mathematics&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/Lessing.gif" style="float:left;margin-right:10px;"> In 1773, <a href="http://de.wikipedia.org/wiki/Gotthold_Ephraim_Lessing">Gotthold Ephraim Lessing</a> at that time librarian at the <a href="http://de.wikipedia.org/wiki/Herzog_August_Bibliothek">Herzog-August-Bibliothek</a> discovered and published a Greek epigram in 22 elegiac couplets. The manuscript describes  a problem sent by Archimedes to the mathematicians in Alexandria.</p>
+<p>In his beautiful book &#8220;Number Theory, an approach through history. From Hammurapi to Legendre&#8221; <a href="http://en.wikipedia.org/wiki/André_Weil">Andre Weil</a> asserts (( Chapter I,IX )):</p>
+<blockquote><p>Many mathematical epigrams are known. Most of them state problems of little depth; not so Lessing&#8217;s find; there is indeed every reason to accept the attribution to Archimedes, and none for putting it into doubt.</p></blockquote>
+<p>This <strong>Problema Bovidum</strong> (the cattle problem) is a surprisingly difficult diophantine problem and the simplest complete solution consists of eigth numbers, each having about 206545 digits. As we will see later the final ingredient in the solution is the solution of Pell&#8217;s equation using continued fractions discovered by <a href="http://en.wikipedia.org/wiki/Joseph_Louis_Lagrange">Lagrange</a> in 1768 and published in 1769 in a long memoir. Lagrange&#8217;s solution to the Pell equation was inserted in Euler&#8217;s &#8220;Algebra&#8221; which was composed in 1771 but published only in 1773&#8230; the very same year as Lessing&#8217;s discovery! (( all dates learned from Weil&#8217;s book Chp. III,XII ))</p>
+<p>Weil&#8217;s book doesn&#8217;t include the details of the original epigram. The (lost) archeologist in me wanted to see the original Greek 22 couplets as well as a translation. So here they are : (( thanks to the <a href="http://www.math.nyu.edu/~crorres/Archimedes/Cattle/Statement.html">Cattle problem site</a> ))</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/epigram.gif" style="float:left;margin-right:10px;"> A PROBLEM</p>
+<p>which Archimedes solved in epigrams, and which he communicated to students of such matters at Alexandria in a letter to Eratosthenes of Cyrene.</p>
+<p>If thou art diligent and wise, O stranger, compute the number of cattle of the Sun, who once upon a time grazed on the fields of the Thrinacian isle of Sicily, divided into four herds of different colours, one milk white, another a glossy black, a third yellow and the last dappled. In each herd were bulls, mighty in number according to these proportions: Understand, stranger, that the white bulls were equal to a half and a third of the black together with the whole of the yellow, while the black were equal to the fourth part of the dappled and a fifth, together with, once more, the whole of the yellow. Observe further that the remaining bulls, the dappled, were equal to a sixth part of the white and a seventh, together with all of the yellow. These were the proportions of the cows: The white were precisely equal to the third part and a fourth of the whole herd of the black; while the black were equal to the fourth part once more of the dappled and with it a fifth part, when all, including the bulls, went to pasture together. Now the dappled in four parts were equal in number to a fifth part and a sixth of the yellow herd. Finally the yellow were in number equal to a sixth part and a seventh of the white herd. If thou canst accurately tell, O stranger, the number of cattle of the Sun, giving separately the number of well-fed bulls and again the number of females according to each colour, thou wouldst not be called unskilled or ignorant of numbers, but not yet shalt thou be numbered among the wise.</p>
+<p>But come, understand also all these conditions regarding the cattle of the Sun. When the white bulls mingled their number with the black, they stood firm, equal in depth and breadth, and the plains of Thrinacia, stretching far in all ways, were filled with their multitude. Again, when the yellow and the dappled bulls were gathered into one herd they stood in such a manner that their number, beginning from one, grew slowly greater till it completed a triangular figure, there being no bulls of other colours in their midst nor none of them lacking. If thou art able, O stranger, to find out all these things and gather them together in your mind, giving all the relations, thou shalt depart crowned with glory and knowing that thou hast been adjudged perfect in this species of wisdom.</p>
+<p>The Lessing epigram may very well be an extremely laborious hoax but it is still worth spending a couple of posts on it. It gives us the opportunity to retell the amazing history of <a href="http://en.wikipedia.org/wiki/Pell's_equation">Pell&#8217;s problem</a> rangingfrom the ancient Greeks and Indians, over Fermat and his correspondents, to Euler and Lagrange (with a couple of recent heroes entering the story). And, on top of this, the modular group is all the time just around the corner&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/problema-bovinum/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>logic &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/logic/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 04 Apr 2023 12:05:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Stephen Wolfram on ChatGPT</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 04 Apr 2023 12:05:44 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[GPT-2]]></category>
+		<category><![CDATA[logic]]></category>
+		<category><![CDATA[Mathematica]]></category>
+		<category><![CDATA[stephen]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[Wolfram]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11193</guid>
+
+					<description><![CDATA[A month ago, Stephen Wolfram put out a little booklet (140 pages) What Is ChatGPT Doing &#8230; and Why Does It Work?. It gives a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A month ago, <a href="https://en.wikipedia.org/wiki/Stephen_Wolfram">Stephen Wolfram</a> put out a little booklet (140 pages) <a href="https://www.amazon.com/What-ChatGPT-Doing-Does-Work-ebook/dp/B0BY59PT5Z/">What Is ChatGPT Doing &#8230; and Why Does It Work?</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/71Ve3AUJO+L.jpg" width=40%><br />
+</center></p>
+<p>It gives a gentle introduction to large language models and the architecture and training of neural networks.</p>
+<p>The entire book is freely available:</p>
+<ul>
+<li><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/">What Is ChatGPT Doing … and Why Does It Work?</a></li>
+<li><a href="https://writings.stephenwolfram.com/2023/01/wolframalpha-as-the-way-to-bring-computational-knowledge-superpowers-to-chatgpt/">Wolfram|Alpha as the Way to Bring Computational Knowledge Superpowers to ChatGPT</a></li>
+</ul>
+<p>The advantage of these online texts is that you can click on any of the images, copy their content into a Mathematica notebook, and play with the code.</p>
+<p>This really gives a good idea of how an extremely simplified version of ChatGPT (based on GPT-2) works.</p>
+<p>Downloading the model (within Mathematica) uses about 500Mb, but afterwards you can complete any prompt quickly, and see how the results change if you turn up the &#8216;temperature&#8217;.</p>
+<p>You should&#8217;t expect too much from this model. Here&#8217;s what it came up with from the prompt &#8220;The major results obtained by non-commutative geometry include &#8230;&#8221; after 20 steps, at temperature 0.8:</p>
+<p><code><br />
+NestList[StringJoin[#, model[#, {"RandomSample", "Temperature" -> 0.8}]] &,<br />
+ "The major results obtained by non-commutative geometry include ", 20]</p>
+<p>The major results obtained by non-commutative geometry include vernacular accuracy of math and arithmetic, a stable balance between simplicity and complexity and a relatively low level of violence.<br />
+</code></p>
+<p>Lol.</p>
+<p>In the more philosophical sections of the book, Wolfram speculates about the secret rules of language that ChatGPT must have found if we want to explain its apparent succes. One of these rules, he argues, must be the &#8216;logic&#8217; of languages:</p>
+<blockquote><p>
+But is there a general way to tell if a sentence is meaningful? There’s no traditional overall theory for that. But it’s something that one can think of ChatGPT as having implicitly “developed a theory for” after being trained with billions of (presumably meaningful) sentences from the web, etc.</p>
+<p>What might this theory be like? Well, there’s one tiny corner that’s basically been known for two millennia, and that’s logic. And certainly in the syllogistic form in which Aristotle discovered it, logic is basically a way of saying that sentences that follow certain patterns are reasonable, while others are not.
+</p></blockquote>
+<p>Something else ChatGPT may have discovered are language&#8217;s &#8216;semantic laws of motion&#8217;, being able to complete sentences by following &#8216;geodesics&#8217;:</p>
+<blockquote><p>
+And, yes, this seems like a mess—and doesn’t do anything to particularly encourage the idea that one can expect to identify “mathematical-physics-like” “semantic laws of motion” by empirically studying “what ChatGPT is doing inside”. But perhaps we’re just looking at the “wrong variables” (or wrong coordinate system) and if only we looked at the right one, we’d immediately see that ChatGPT is doing something “mathematical-physics-simple” like following geodesics. But as of now, we’re not ready to “empirically decode” from its “internal behavior” what ChatGPT has “discovered” about how human language is “put together”.
+</p></blockquote>
+<p>So, the &#8216;hidden secret&#8217; of successful large language models may very well be a combination of logic and geometry. Does this sound <a href="https://lievenlebruyn.github.io/neverendingbooks/category/gbrain">familiar</a>?</p>
+<p>If you prefer watching YouTube over reading a book, or if you want to see the examples in action, here&#8217;s a video by Stephen Wolfram. The stream starts about 10 minutes into the clip, and the whole lecture is pretty long, well over 3 hours (about as long as it takes to read <a href="https://www.amazon.com/What-ChatGPT-Doing-Does-Work-ebook/dp/B0BY59PT5Z/">What Is ChatGPT Doing &#8230; and Why Does It Work?</a>).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/flXrLGPY3SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The strange logic of subways</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 05 Mar 2021 09:15:32 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Boole]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[logic]]></category>
+		<category><![CDATA[Reyes]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[subway]]></category>
+		<category><![CDATA[Wally]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9129</guid>
+
+					<description><![CDATA[&#8220;A subway is just a hole in the ground, and that hole is a maze.&#8221; &#8220;The map is the last vestige of the old system.&#8230;]]></description>
+										<content:encoded><![CDATA[<blockquote><p>&#8220;A subway is just a hole in the ground, and that hole is a maze.&#8221;</p>
+<p>&#8220;The map is the last vestige of the old system. If you can’t read the map, you can’t use the subway.&#8221;</p>
+<p>Eddie Jabbour in <a href="https://www.nytimes.com/2007/04/22/nyregion/thecity/22map.html?ex=1334894400&#038;en=9dca907b8de19651&#038;ei=5124&#038;partner=permalink&#038;exprod=permalink">Can he get there from here? (NYT)</a>
+</p></blockquote>
+<p>Sometimes, lines between adjacent stations can be uni-directional (as in the Paris Metro map below in the right upper corner, 7bis). So, it is best to view a subway map as a <strong>directed</strong> graph, with vertices the different stations, and directed arrows when there&#8217;s a service connecting two adjacent stations.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/met5.jpg" width=100%><br />
+</center></p>
+<p>Aha! But, directed graphs form a presheaf <a href="https://en.wikipedia.org/wiki/Topos">topos</a>. So, each and every every subway in the world comes with its own logic, its own bi-<a href="https://en.wikipedia.org/wiki/Heyting_algebra">Heyting</a> algebra!</p>
+<p>Come again&#8230;?</p>
+<p>Let&#8217;s say <a href="https://en.wikipedia.org/wiki/Where%27s_Wally%3F">Wally</a> (or Waldo, or <a href="https://fr.wikipedia.org/wiki/O%C3%B9_est_Charlie_%3F">Charlie</a>) is somewhere in the Paris metro, and we want to find him. One can make statements like:</p>
+<p>$P$ = &#8220;Wally is on line 3bis from Gambetta to Porte des Lilas.&#8221;, or</p>
+<p>$Q$ = &#8220;Wally is traveling along line 11.&#8221;</p>
+<p>Each sentence pinpoints Wally&#8217;s location to some directed <strong>subgraph</strong> of the full Paris metro digraph, let&#8217;s call this subgraph the <strong>&#8216;scope&#8217;</strong> of the sentence.</p>
+<p>We can connect such sentences with logical connectives $\vee$ or $\wedge$ and the scope will then be the union or intersection of the respective scopes.</p>
+<p>The scope of $P \vee Q$ is the directed subgraph of line 11 (in both directions) together with the directed subgraph of line 3bis from Gambetta to Porte des Lilas.</p>
+<p>The scope of $P \wedge Q$ is just the vertex corresponding to <a href="https://en.wikipedia.org/wiki/Porte_des_Lilas_(Paris_M%C3%A9tro)">Porte des Lilas</a>.</p>
+<p>The scope of the negation $\neg R$ of a sentence $R$ is the subgraph complement of the scope of $R$, so it is the full metro graph minus all vertices and directed edges in $R$-scope, together with all directed edges starting or ending in one of the deleted vertices.</p>
+<p>For example, the scope of $\neg P$ does not contain directed edges along 3bis in the reverse direction, nor the edges connecting Gambetta to Pere Lachaise, and so on.</p>
+<p>In the Paris metro logic the <a href="https://en.wikipedia.org/wiki/Double_negation#:~:text=In%20propositional%20logic%2C%20double%20negation,sign%20%E2%89%A1%20expresses%20logical%20equivalence">law of double negation</a> does not hold.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/met5.jpg" width=100%><br />
+</center></p>
+<p>$\neg \neg P \not= P$ as both statements have different scopes. For example, the reverse direction of line 3bis is part of the scope of $\neg \neg P$, but not of $P$.</p>
+<p>So, although the scope of $P \wedge \neg P$ is empty, that of $P \vee \neg P$ is <strong>not</strong> the full digraph.</p>
+<p>The logical operations $\vee$, $\wedge$ and $\neg$ do not turn the partially ordered set of all directed subgraphs of the Paris metro into  a <a href="https://en.wikipedia.org/wiki/Boolean_algebra">Boolean algebra</a> structure, but rather a <a href="https://en.wikipedia.org/wiki/Heyting_algebra">Heyting algebra</a>.</p>
+<p>Perhaps we were too drastic in removing all &#8220;problematic edges&#8221; from the scope of $\neg R$ (those with a source or target station belonging to the scope of $R$)?</p>
+<p>We might have kept all problematic edges, and added the missing source and/or target stations to get the scope of another negation of $R$: $\sim R$.</p>
+<p>Whereas the scope of $\neg \neg R$ always contains that of $R$, the scope of $\sim \sim R$ is contained in $R$&#8217;s scope.</p>
+<p>The scope of $R \vee \sim R$ will indeed be the whole graph, but now $R \wedge \sim R$ does no longer have to be empty. For example, $P \wedge \sim P$ has as its scope all stations on line 3bis.</p>
+<p>In general $R \wedge \sim R$ will be called the &#8216;boundary&#8217; $\partial(R)$ of $R$. It consists of all stations within $R$&#8217;s scope that are connected to the outside of $R$&#8217;s scope.</p>
+<p>The logical operations $\vee$, $\wedge$, $\neg$ and $\sim$ make the partially ordered set of all directed subgraphs of the Paris metro into a <a href="https://ncatlab.org/nlab/show/co-Heyting+algebra">bi-Heyting algebra</a>.</p>
+<p>There&#8217;s plenty more to say about all of this (and I may come back to it later). For the impatient, there&#8217;s the paper by Reyes and Zolfaghari: <a href="https://www.jstor.org/stable/30227088?seq=1#metadata_info_tab_contents">Bi-Heyting Algebras, Toposes and Modalities</a>.</p>
+<p>Right now, I&#8217;m more into exploring whether this setting can be used to revive an old project of mine: <a href="https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems">Heyting Smullyanesque problems</a> (btw. the algebra in that post is <strong>not</strong> Heyting, oops!).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Knights and Knaves, the Heyting way</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 22 Jan 2018 10:01:57 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[logic]]></category>
+		<category><![CDATA[Rosenhouse]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7812</guid>
+
+					<description><![CDATA[(image credit: Joe Blitzstein via Twitter) Smullyan&#8217;s Knights and Knaves problems are classics. On an island all inhabitants are either Knights (who only tell true&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/smullyanbooks.jpg"></p>
+<p>(image credit: Joe Blitzstein <a href="https://twitter.com/stat110/status/830125547854450694">via Twitter</a>)</p>
+<p>Smullyan&#8217;s Knights and Knaves problems are classics. On an island all inhabitants are either Knights (who only tell true things) and Knaves (who always lie). You have to determine their nature from a few statements. Here&#8217;s a very simple problem:</p>
+<p>&#8220;Abercrombie met just two inhabitants, A and B. A made the following statement: &#8220;Both of us are Knaves.&#8221; What is A and what is B?&#8221;</p>
+<p>Now, this one is simple enough to solve, but for more complicated problems a generic way to solve the puzzles is to use propositional calculas, as explained in Smullyan&#8217;s <a href="http://logic-books.info/sites/default/files/logical_labirints.pdf">Logical Labyrinths&#8221;</a>, chapter 8 &#8220;Liars, truth-tellers and propositional logic&#8217;.</p>
+<p>If an inhabitants $A$ asserts a proposition $P$, and if $k_A$ is the assertion &#8216;$A$ is a Knight&#8217;, then the statement can be rephrased as</p>
+<p>\[<br />
+k_A \Leftrightarrow P \]</p>
+<p>for if $A$ is a Knight, $P$ must be true and if $A$ is a Knave $P$ must be false.</p>
+<p>Usually, one can express $P$ as a propositional statement involving $k_A,k_B,k_C,\dots$.<br />
+The example above can be rephrased as</p>
+<p>\[<br />
+k_A \Leftrightarrow (\neg k_A \wedge \neg k_B) \]</p>
+<p>Assigning truth values to $k_A$ and $k_B$ and setting up the truth-table for this sentence, one sees that the only possibility for this to be true is that $k_A$ equals $0$ and $k_B$ equals $1$. So, $A$ is a Knave and $B$ is a Knight.</p>
+<p>Clearly, one only requires this approach for far more difficult problems.</p>
+<p>In almost all Smullyan puzzles, the only truth values are $0$ and $1$. There&#8217;s a short excursion to Boolean algebras (sorry, Boolean islands) in chapter 9 &#8216;Variable Liars&#8217; in Logical Labyrinths. But then, the type of problems are about finding equivalent notions of Boolean algebras, rather that generalised Knights&#038;Knaves puzzles.</p>
+<p><strong>Did anyone pursue the idea of Smullyanesque puzzles with truth values in a proper <a href="https://en.wikipedia.org/wiki/Heyting_algebra">Heyting algebra</a>?</strong></p>
+<p>I only found one blog-post on this: <a href="http://scienceblogs.com/evolutionblog/2014/03/26/non-classical-knights-and-knaves/">Non-Classical Knights and Knaves</a> by Jason Rosenhouse.</p>
+<p>He considers three valued logic (the Heyting algebra corresponding to the poset 0-N-1, and logical connectives as in the example on the Wiki-page on Heyting algebras.</p>
+<p>On his island the natives cycle, repeatedly and unpredictably, between the two states. They are knights for a while, then they enter a transitional phase during which they are partly knight and partly knave, and then they emerge on the other side as knaves.</p>
+<p>&#8220;If Joe is in the transitional phase, and you say, “Joe is a knight,” or “Joe is a knave,” what truth value should we assign to your statement? Since Joe is partly knight and partly knave, neither of the classical truth values seems appropriate. So we shall assign a third truth value, “N” to such statements. Think of N as standing for “neutral” or “neither true nor false.” On the island, vague statements are assigned the truth value N.</p>
+<p>Just to be clear, it’s not just any statement that can be assigned the truth value N. It is only vague statements that receive that truth value, and for now our only examples of such statements are attributions of knight-hood and knave-hood to people in the transitional phase.</p>
+<p>For the natives, entering the transitional phase implied a disconcerting loss of identity. Uncertain of how to behave, they hedged their bets by only making statements with truth value N. People in the transitional phase were referred to as neutrals. So there are now three kinds of people: Knights, who only make true statements; Knaves, who only make false statements; and Neutrals, who only make statements with the truth value N.&#8221;</p>
+<p>He gives one example of a possible problem:</p>
+<p>&#8220;Suppose you meet three people, named Dave, Evan and Ford. They make the following statements:</p>
+<p>Dave: Evan is a knight.<br />
+Evan: Ford is a knave.<br />
+Ford: Dave is a neutral.</p>
+<p>Can you determine the types of all three people?&#8221;</p>
+<p>If you know of more of these Smullanesque problems using Heyting algebras, please leave a comment.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

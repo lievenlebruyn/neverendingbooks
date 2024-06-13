@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Escher &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/escher/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 24 May 2021 10:15:58 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Imagination and the Impossible</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/imagination-and-the-impossible/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/imagination-and-the-impossible/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 24 May 2021 10:15:58 +0000</pubDate>
+				<category><![CDATA[DesignerMaths]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Doyle]]></category>
+		<category><![CDATA[Escher]]></category>
+		<category><![CDATA[Gilman]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[Thurston]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9823</guid>
+
+					<description><![CDATA[Two more sources I&#8217;d like to draw from for this fall&#8217;s maths for designers-course: 1. Geometry and the Imagination A fantastic collection of handouts for&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Two more sources I&#8217;d like to draw from for this fall&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/designer-maths">maths for designers</a>-course:</p>
+<p>1. <a href="https://math.dartmouth.edu/~doyle/docs/mpls/mpls.pdf">Geometry and the Imagination</a></p>
+<p>A fantastic  collection of handouts for a two week summer workshop entitled ’Geometry and the Imagination’, led by <a href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a>, <a href="https://math.dartmouth.edu/~doyle/">Peter Doyle</a>, <a href="https://en.wikipedia.org/wiki/Jane_Piore_Gilman">Jane Gilman</a> and <a href="https://en.wikipedia.org/wiki/William_Thurston">Bill Thurston</a> at the Geometry Center in Minneapolis, June 1991, based on a course ‘Geometry and the Imagination’ they taught twice before at Princeton.</p>
+<p>Among the goodies a long list of exercises in imagining (always useful to budding architects) and how to compute curvature by peeling potatoes and other vegetables&#8230;</p>
+<p>The course really shines in giving a unified elegant classification of the <a href="https://en.wikipedia.org/wiki/Wallpaper_group">17 wallpaper groups</a>, the <a href="https://en.wikipedia.org/wiki/Frieze_group">7 frieze groups</a> and the <a href="https://mathworld.wolfram.com/SphericalGroup.html#:~:text=There%20are%2014%20families%20of,*%2C%20Nx%2C%20and%20NN.">14 families of spherical groups</a> by using Thurston&#8217;s concept of <a href="https://en.wikipedia.org/wiki/Orbifold">orbifolds</a>.</p>
+<p>If you think this will be too complicated, have a look at the proof that the orbifold Euler characteristic of any symmetry pattern in the plane with bounded fundamental domain is zero :</p>
+<p>Take a large region in the plane that is topologically a disk (i.e. without holes). Its Euler characteristic is $1$. This is approximately equal to $N$ times the orbifold Euler characteristic for some large $N$, so the orbifold Euler characteristic must be $0$.</p>
+<p>This then leads to the Orbifold Shop where they sell orbifold parts:</p>
+<ul>
+<li>a handle for 2 Euros,</li>
+<li>a mirror for 1 Euro,</li>
+<li>a cross-cap for 1 Euro,</li>
+<li>an order $n$ cone point for $(n-1)/n$ Euro,</li>
+<li>an order $n$ corner reflector for $(n-1)/2n$ Euro, if you have the required mirrors to install this piece.</li>
+</ul>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/orbifolds.png" width=100%><br />
+</center></p>
+<p>Here&#8217;s a standard brick wall, with its fundamental domain and corresponding orbifold made from a mirror piece (1 Euro), two order $2$ corner reflectors (each worth $.25$ Euro), and one order $2$ cone point (worth $.5$ Euro). That is, this orbifold will cost you exactly $2$ Euros.</p>
+<p>If you spend exactly $2$ Euros at the Orbifold Shop (and there are $17$ different ways to do this), you will have an orbifold coming from a symmetry pattern in the plane with bounded fundamental domain, that is, one of the $17$ wallpaper patterns.</p>
+<p>For the mathematicians among you desiring more details, please read <a href="https://www.researchgate.net/publication/263488290_The_Orbifold_Notation_for_Two-Dimensional_Groups">The orbifold notation for two-dimensional groups</a> by Conway and Daniel Huson, from which the above picture was taken.</p>
+<p>2. <a href="https://www.jstor.org/stable/1575844?seq=1#metadata_info_tab_contents">On the Cohomology of Impossible Figures</a> by <a href="https://en.wikipedia.org/wiki/Roger_Penrose">Roger Penrose</a></p>
+<p>The aspiring architect should be warned that some constructions are simply not possible in 3D, even when they look convincing on paper, such as Escher&#8217;s <a href="https://en.wikipedia.org/wiki/Waterfall_(M._C._Escher)">Waterfall</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/en/e/e8/Escher_Waterfall.jpg" width=50%><br />
+M.C. Escher, Waterfall &#8211; <a href="https://en.wikipedia.org/wiki/Waterfall_(M._C._Escher)">Photo Credit</a><br />
+</center></p>
+<p>In his paper, Penrose gives a unified approach to debunk such drawings by using cohomology groups.</p>
+<p>Clearly I have no desire to introduce cohomology, but it may still be possible to get the underlying idea across. Let&#8217;s take the <a href="https://en.wikipedia.org/wiki/Penrose_triangle">Penrose triangle</a> (all pictures below taken from Penrose&#8217;s paper)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tribar1.png" width=50%><br />
+</center></p>
+<p>The idea is to break up such a picture in several parts, each of which we do know to construct in 3D (that is, we take a particular cover of our figure). We can slice up the Penrose triangle in three parts, and if you ever played with Lego you&#8217;ll know how to construct each one of them.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tribar2.png" width=50%><br />
+</center></p>
+<p>Next, position the constructed pieces in space as in the picture and decide which of the two ends is closer to you. In $Q_1$ it is clear that point $A_{12}$ is closer to you than $A_{13}$, so we write $A_{12} < A_{13}$.
+
+
+
+<p />
+Similarly, looking at $Q_2$ and $Q_3$ we see that $A_{23} < A_{21}$ and that $A_{31} < A_{32}$.
+
+
+
+<p />
+Next, if we try to reassemble our figure we must glue $A_{12}$ to $A_{21}$, that is $A_{12}=A_{21}$, and similarly $A_{23}=A_{32}$ and $A_{31}=A_{13}$. But, then we get<br />
+\[<br />
+A_{13}=A_{31} < A_{32}=A_{23} < A_{21}=A_{12} < A_{13} \]
+which is clearly absurd.
+
+
+
+<p />Once again, if you have suggestions for more material to be included, please let me know.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/imagination-and-the-impossible/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Escher&#8217;s stairs</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/eschers-stairs/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/eschers-stairs/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 28 Apr 2021 13:15:04 +0000</pubDate>
+				<category><![CDATA[art]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Escher]]></category>
+		<category><![CDATA[impossible geometry]]></category>
+		<category><![CDATA[Lorentz]]></category>
+		<category><![CDATA[Versteeg]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9691</guid>
+
+					<description><![CDATA[Stairways feature prominently in several drawings by Maurits Cornelis (&#8220;Mauk&#8221;) Escher, for example in this lithograph print Relativity from 1953. Relativity (M. C. Escher) &#8211;&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Stairways feature prominently in several drawings by <a href="https://en.wikipedia.org/wiki/M._C._Escher">Maurits Cornelis (&#8220;Mauk&#8221;) Escher</a>, for example in this lithograph print <a href="https://en.wikipedia.org/wiki/Relativity_(M._C._Escher)">Relativity</a> from 1953.<br />
+<center><br />
+<img decoding="async" src="https://heemkunderenkum.nl/wp-content/uploads/2015/01/escher1.jpg" width=100%><br />
+Relativity (M. C. Escher) &#8211; <a href="https://heemkunderenkum.nl/de-arnhemse-jaren-van-maurits-cornelis-escher-2/">Photo Credit</a><br />
+</center></p>
+<p>From its <a href="https://en.wikipedia.org/wiki/Relativity_(M._C._Escher)">Wikipedia page</a>:</p>
+<blockquote><p>In the world of &#8216;Relativity&#8217;, there are three sources of gravity, each being orthogonal to the two others.<br />
+Each inhabitant lives in one of the <a href="https://en.wikipedia.org/wiki/Gravitational_potential">gravity wells</a>, where normal physical laws apply.<br />
+There are sixteen characters, spread between each gravity source, six in one and five each in the other two.<br />
+The apparent confusion of the lithograph print comes from the fact that the three gravity sources are depicted in the same space.<br />
+The structure has seven stairways, and each stairway can be used by people who belong to two different gravity sources.</p></blockquote>
+<p>Escher&#8217;s inspiration for &#8220;Relativity&#8221; (h/t <a href="https://twitter.com/GerardWesty31/status/1386374176118874112">Gerard Westendorp on Twitter</a>) were his recollections of the staircases in his old secondary school in Arnhem, the <a href="https://rijksmonumenten.nl/monument/516846/lorentz-hbs/arnhem/">Lorentz HBS</a>.<br />
+The name comes from the Dutch physicist and Nobel prize winner <a href="https://en.wikipedia.org/wiki/Hendrik_Lorentz">Hendrik Antoon Lorentz</a> who attended from 1866 to 1869, the &#8220;Hogere Burger School&#8221; in Arnhem, then at a different location (Willemsplein).</p>
+<p><center><br />
+<img decoding="async" src="https://imgg.rgcdn.nl/2146c26f8703449381776a30b315232a/opener/Inspiratie-van-Escher-verkocht.jpg" width=100%><br />
+Stairways Lorentz HBS in Arnhem &#8211; <a href="https://www.omroepgelderland.nl/nieuws/2019011/Inspiratie-van-Escher-verkocht">Photo Credit</a><br />
+</center></p>
+<p>Between 1912 and 1918 Mauk Escher attended the Arnhem HBS, located in the Schoolstraat and build in 1904-05 by the architect <a href="https://nl.wikipedia.org/wiki/Gerrit_Versteeg">Gerrit Versteeg</a>. The school building is constructed around a monumental central stairway.</p>
+<p><center><br />
+<img decoding="async" src="https://docplayer.nl/docs-images/91/106563182/images/1-0.jpg" width=100%><br />
+Arnhem HBS &#8211; G. Versteeg 1904-05 &#8211; <a href="https://docplayer.nl/106563182-Gemeente-arnhem-schoolgebouw-voormalige-lorentz-h-b-s-schoolstraat-35-arnhem-bouwhistorische-quick-scan-en-waardenbepaling.html">Photo Credit</a><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://heemkunderenkum.nl/wp-content/uploads/2015/01/escher7.jpg" width=100%><br />
+Plan HBS-Arnhem by G. Versteeg &#8211; <a href="https://heemkunderenkum.nl/de-arnhemse-jaren-van-maurits-cornelis-escher-2/">Photo Credit</a><br />
+</center></p>
+<p>If you flip the picture below in the vertical direction, the two side-stairways become accessible to figures living in an opposite gravitation field.</p>
+<p><center><br />
+<img decoding="async" src="https://www.museumkijker.nl/wp-content/uploads/2014/11/B-Escher-HBS-Arnhem-centrale-trappenhuis-impressie-Foto-Studio-Gerrit-Schreurs-2014-600x587.jpg" width=100%><br />
+Central staircase HBS Arnhem &#8211; <a href="https://www.museumkijker.nl/de-hel-van-arnhem-van-maurits-escher-voortaan-paleis-lange-voorhout/b-escher-hbs-arnhem-centrale-trappenhuis-impressie-foto-studio-gerrit-schreurs-2014/">Photo Credit</a><br />
+</center></p>
+<p>There&#8217;s an excellent post on the <a href="https://heemkunderenkum.nl/de-arnhemse-jaren-van-maurits-cornelis-escher-2/">Arnhem-years of Mauk Escher</a> by Pieter van der Kuil. Unfortunately (for most of you) in Dutch, but perhaps Google translate can do its magic here.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/eschers-stairs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Coxeter on Escher&#8217;s Circle Limits</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/coxeter-on-eschers-circle-limits/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/coxeter-on-eschers-circle-limits/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 15 Jan 2018 10:13:10 +0000</pubDate>
+				<category><![CDATA[art]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Coxeter]]></category>
+		<category><![CDATA[Escher]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7671</guid>
+
+					<description><![CDATA[Conway&#8217;s orbifold notation gives a uniform notation for all discrete groups of isometries of the sphere, the Euclidian plane as well as the hyperbolic plane.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Conway&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere">orbifold notation</a> gives a uniform notation for all discrete groups of isometries of the sphere, the Euclidian plane as well as the hyperbolic plane.</p>
+<p>This includes the groups of symmetries of Escher&#8217;s Circle Limit drawings. Here&#8217;s <a href="https://en.wikipedia.org/wiki/Circle_Limit_III">Circle Limit III</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/EscherIII.png"></p>
+<p>And &#8216;Angels and Devils&#8217; aka Circle Limit IV:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/EscherIV.png"></p>
+<p>If one crawls along a mirror of this pattern until one hits another mirror and then turns right along this mirror and continues like this, you get a quadrilateral path with four corners $\frac{\pi}{3}$, whose center seems to be a $4$-fold gyration point. So, it appears to have symmetry $4 \ast 3$.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/EscherIV.png"><br />
+(image credit: <a href="http://cloud.crm2.uhp-nancy.fr/pdf/Manila/Hyde_2.pdf">MathCryst</a>)</p>
+<p>However, looking more closely, every fourth figure (either devil or angel) is facing away rather than towards us, so there&#8217;s no gyration point, and the group drops to $\ast 3333$.</p>
+<p><a href="https://en.wikipedia.org/wiki/Harold_Scott_MacDonald_Coxeter">Harold S. M. Coxeter</a> met Escher in Amsterdam at the ICM 1954.</p>
+<p>The interaction between the two led to Escher&#8217;s construction of the Circle Limits, see <a href="http://www.ams.org/samplings/feature-column/fcarc-circle-limit">How did Escher do it?</a></p>
+<p>Here&#8217;s an old lecture by Coxeter on the symmetry of the Circle Limits:</p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JkhuMvFQWz4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/coxeter-on-eschers-circle-limits/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>noncommutative &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/noncommutative/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 21 Sep 2023 12:05:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>some skew Smullyan stumpers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 21 Sep 2023 12:05:48 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[Hemelaer]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[skew]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[some]]></category>
+		<category><![CDATA[stumpers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11674</guid>
+
+					<description><![CDATA[Raymond Smullyan&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://static01.nyt.com/images/2017/02/12/us/12smullyan-obit/12smullyan-obit-superJumbo.jpg" width=100%></p>
+<p><a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s a classic example.</p>
+<p>&#8220;On the day of his arrival, the anthropologist Edgar Abercrombie came across three inhabitants, whom we will call $A$, $B$ and $C$. He asked $A$: &#8220;Are you a Knight or a Knave?&#8221; $A$ answered, but so indistinctly that Abercrombie could not understand what he said.</p>
+<p>He then asked $B$: &#8220;What did he say?&#8221; $B$ replies: &#8220;He said that he is a knave.&#8221; At this point, $C$ piped up and said: &#8220;Don&#8217;t believe that; it&#8217;s a lie!&#8221;</p>
+<p>Was $C$ a Knight or a Knave?&#8221;</p>
+<p>If you are stumped by this, try to figure out what kind of inhabitant can say &#8220;I am a Knave&#8221;.</p>
+<p>Some years ago, my friend and co-author <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a> wrote about a much stranger island, <a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">the island of two truths</a>.</p>
+<p>&#8220;The island was ruled by a queen and a king. It is important to stress that the queen was neither inferior nor superior to the king. Rather than as a married couple one should think of the queen and the king as two parallel powers, somewhat like the Queen of the Night and the King Sarastro in Mozart&#8217;s famous opera The Magic Flute. The queen and the king had their own castle each, each of them had their own court, their own advisers and servants, and most importantly each of them even had their own truth value.</p>
+<p>On the island, a proposition p is either FALSE, Q-TRUE or K-TRUE; in each of the cases we say that p has value 0, Q or K, respectively. The queen finds the truth value Q to be superior, while the king values the most the value K. The queen and the king have their opinions on all issues, while other residents typically have their opinions on some issues but not all.&#8221;</p>
+<p>The logic of the island of two truths is the easiest example of what Karin and I called a non-commutative frame or skew Heyting algebra (see <a href="https://arxiv.org/abs/1702.04949">here</a>), a notion we then used, jointly with <a href="https://jenshemelaer.com/">Jens Hemelaer</a>, to define the notion of a <a href="https://arxiv.org/abs/1705.02831">non-commutative topos</a>.</p>
+<p><img decoding="async" src="https://elle.metropolitan.si/media/cache/upload/Photo/2014/10/22/s43_40_cvetko-vah-karin_fbimage.jpg" width=100%></p>
+<p>If you take our general definitions, and take Q as the distinguished top-element, then the truth tables for the island of two truths are these ones (value of first term on the left, that of the second on top):</p>
+<p>\[<br />
+\begin{array}{c|ccc}<br />
+\wedge &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+Q &#038; 0 &#038; Q &#038; Q \\<br />
+K &#038; 0 &#038; K &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\vee &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; Q &#038; K \\<br />
+Q &#038; Q &#038; Q &#038; K \\<br />
+K &#038; K &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; Q &#038; Q &#038; K \\<br />
+Q &#038; 0 &#038; Q &#038; K \\<br />
+K &#038; 0 &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|c}<br />
+ &#038; \neg  \\<br />
+\hline<br />
+0 &#038; Q \\<br />
+Q &#038; 0 \\<br />
+K &#038; 0<br />
+\end{array}<br />
+\]</p>
+<p>Note that on this island the order of statements is important! That is, the truth value of $p \wedge q$ may differ from that of $q \wedge p$ (and similarly for $\vee$).</p>
+<p>Let&#8217;s reconsider Smullyan&#8217;s puzzle at the beginning of this post, but now on an island of two truths, where every inhabitant is either of Knave, or a Q-Knight (uttering only Q-valued statements), or a K-Knight (saying only K-valued statements).</p>
+<p>Again, can you determine what type $C$ is?</p>
+<p>Well, if you forget about the distinction between Q- and K-valued sentences, then we&#8217;re back to classical logic (or more generally, if you divide out Green&#8217;s equivalence relation from any skew Heyting algebra you obtain an ordinary Heyting algebra), and we have seen that then $B$ must be a Knave and $C$ a Knight, so in our new setting we know that $C$ is either a Q-Knight or a K-Knight, but which of the two?</p>
+<p>Now, $C$ claims the negation of what $B$ said, so the truth value is $\neg 0 = Q$, and therefore $C$ must be a Q-Knight.</p>
+<p>Recall that in <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a>&#8216;s island of two truths all sentences have a unique value which can be either $0$ (false) or one of the non-false values Q or K, and the value of combined statements is given by the truth tables above. The Queen and King both have an opinion on all statements, which may or may not coincide with the actual value of that statement. However, if the Queen assigns value $0$ to a statement, then so does the King, and conversely.</p>
+<p>Other inhabitants of the island have only their opinion about a subset of all statements (which may be empty). Two inhabitants <em>agree</em> on a statement if they both have an opinion on it and assign the same value to it.</p>
+<p>Now, each inhabitant is either <em>loyal</em> to the Queen or to the King (or both), meaning that they agree with the Queen (resp. King) on all statements they have an opinion of. An inhabitant loyal to the Queen is said to <em>believe</em> a sentence when she assigns value $Q$ to it (and symmetric for those loyal to the King), and <em>knows</em> the statement if she believes it and that value coincides with the actual value of that statement.</p>
+<p>Further, if A is loyal to the Queen, then the value of the statement &#8216;A is loyal to the Queen&#8217; is Q, and if A is not loyal to the Queen, then the value of the sentence &#8216;A is loyal to the Queen&#8217; is $0$ (and similarly for statements about loyalty to the King).</p>
+<p>These notions are enough for the first batch of ten puzzles in Karin&#8217;s posts</p>
+<ul>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">Oscar on the island of two truths</a></li>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a></li>
+</ul>
+<p>Just one example:</p>
+<p>Show that if anybody on the island knows that A is not loyal to the Queen, then everybody that has an opinion about the sentence &#8216;A is loyal to the Queen&#8217; knows that.</p>
+<p>After these two posts, Karin decided that it was more fun to blog about the use of non-commutative frames in data analysis.</p>
+<p>But, she once gave me a text containing many more puzzles (as well as all the answers), so perhaps I&#8217;ll share these in a follow-up post.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A noncommutative moduli space</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-noncommutative-moduli-space/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-noncommutative-moduli-space/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 19 Jul 2014 14:19:34 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Glimm]]></category>
+		<category><![CDATA[supernatural]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5858</guid>
+
+					<description><![CDATA[Supernatural numbers also appear in noncommutative geometry via James Glimm&#8217;s characterisation of a class of simple $C^*$-algebras, the UHF-algebras. A uniformly hyperfine (or, UHF) algebra&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Supernatural numbers also appear in noncommutative geometry via <a href="http://en.wikipedia.org/wiki/James_Glimm">James Glimm&#8217;s</a> characterisation of a class of simple $C^*$-algebras, the <a href="http://en.wikipedia.org/wiki/Uniformly_hyperfinite_algebra">UHF-algebras</a>.</p>
+<p>A uniformly hyperfine (or, UHF) algebra $A$ is a $C^*$-algebra that can be written as the closure, in the norm topology, of an increasing union of finite-dimensional full matrix algebras</p>
+<p>$M_{c_1}(\mathbb{C}) \subset M_{c_2}(\mathbb{C}) \subset &#8230; \quad \subset A$</p>
+<p>Such embedding are only possible if the matrix-sizes divide each other, that is $c_1 | c_2 | c_3 | &#8230; $, and we can assign to $A$ the supernatural number $s=\prod_i c_i$ and denote $A=A(s)$.</p>
+<p>In his paper <a href="http://www.ams.org/journals/tran/1960-095-02/S0002-9947-1960-0112057-5/S0002-9947-1960-0112057-5.pdf">On a certain class of operator algebras</a>, Glimm proved that two UHF-algebras $A(s)$ and $B(t)$ are isomorphic as $C^*$-algebras if and only if $s=t$. That is, the supernatural numbers $\mathbb{S}$ are precisely the isomorphism classes of UHF-algebras.</p>
+<p>An important invariant, the Grothendieck group $K_0$ of $A(s)$, can be described as the additive subgroup $\mathbb{Q}(s)$ of $\mathbb{Q}$ generated by all fractions of the form $\frac{1}{n}$ where $n$ is a positive integer dividing $s$.</p>
+<p>A &#8220;noncommutative space&#8221; is a Morita class of $C^*$-algebras, so we want to know when two $UHF$-algebras $A(s)$ and $B(t)$ are Morita-equivalent. This turns out to be the case when there are positive integers $n$ and $m$ such that $n.s = m.t$, or equivalently when the $K_0$&#8217;s $\mathbb{Q}(s)$ and $\mathbb{Q}(t)$ are isomorphic as additive subgroups of $\mathbb{Q}$.</p>
+<p>Thus Morita-equivalence defines an equivalence relation on $\mathbb{S}$ as follows: if $s=\prod p^{s_p}$ and $t= \prod p^{t_p}$ then $s \sim t$ if and only if the following two properties are satisfied:</p>
+<p>(1): $s_p = \infty$ iff $t_p= \infty$, and</p>
+<p>(2): $s_p=t_p$ for all but finitely many primes $p$.</p>
+<p>That is, we can view the equivalence classes $\mathbb{S}/\sim$ as the moduli space of noncommutative spaces associated to UHF-algebras!</p>
+<p>Now, the equivalence relation is described in terms of isomorphism classes of additive subgroups of the rationals, which was precisely the characterisation of isomorphism classes of <a href="http://noncommutative.org/supernatural-numbers-adeles-and-points/">points in the arithmetic site</a>, that is, the finite adèle classes</p>
+<p>$\mathbb{S}/\sim~\simeq~\mathbb{Q}^* \backslash \mathbb{A}^f_{\mathbb{Q}} / \widehat{\mathbb{Z}}^*$</p>
+<p>and as the induced topology of $\mathbb{A}^f_{\mathbb{Q}}$ on it is trivial, this &#8220;space&#8221; is usually thought of as a noncommutative space.</p>
+<p>That is, $\mathbb{S}/\sim$ is a noncommutative moduli space of noncommutative spaces defined by UHF-algebras.</p>
+<p>The finite integers form one equivalence class, corresponding to the fact that the finite dimensional UHF-algebras $M_n(\mathbb{C})$ are all Morita-equivalent to $\mathbb{C}$, or a bit more pompous, that the <a href="http://en.wikipedia.org/wiki/Brauer_group">Brauer group</a> $Br(\mathbb{C})$ is trivial.</p>
+<p>Multiplication of supernaturals induces a well defined multiplication on equivalence classes, and, with that multiplication we can view $\mathbb{S}/\sim$ as the &#8216;Brauer-monoid&#8217; $Br_{\infty}(\mathbb{C})$ of simple UHF-algebras&#8230;</p>
+<p>(Btw. the <a href="http://owpdb.mfo.de/detail?photo_id=5153">photo of James Glimm</a> above was taken by George Bergman in 1972)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-noncommutative-moduli-space/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>3 related new math-sites</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/3-related-new-math-sites/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/3-related-new-math-sites/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 14 Sep 2011 14:37:15 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[F1]]></category>
+		<guid isPermaLink="false">http://192.168.0.163/?p=5744</guid>
+
+					<description><![CDATA[F_un Mathematics Hardly a &#8216;new&#8217; blog, but one that is getting a new life! On its old homepage you&#8217;ll find a diagonal banner stating &#8216;This&#8230;]]></description>
+										<content:encoded><![CDATA[<h2>F_un Mathematics</h2>
+<p>Hardly a &#8216;new&#8217; blog, but one that is getting a new life! On its old homepage you&#8217;ll find a diagonal banner stating &#8216;This site has moved&#8217; and clicking on it will guide you to its new location : <a href="http://cage.ugent.be/~kthas/Fun/">cage.ugent.be/~kthas/Fun</a>.</p>
+<p><a href="http://cage.ugent.be/~kthas/Fun/"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/fun.jpg"></a></p>
+<p>From now on, this site will be hosted at the University of Ghent and maintained by <a href="http://cage.ugent.be/~kthas/">Koen Thas</a>. So, please update your bookmarks and point your RSS-aggregator to the <a href="feed://cage.ugent.be/~kthas/Fun/index.php/feed">new feed</a>.</p>
+<p>Everyone interested in contributing to this blog dedicated to the  mathematics of <a href="http://en.wikipedia.org/wiki/Field_with_one_element">the field with one element</a> should contact Koen by <a href="mailto:kthas@cage.ugent.be">email</a>.</p>
+<h2>angst</h2>
+<p>Though I may occasionally (cross)post at <a href="http://cage.ugent.be/~kthas/Fun/">F_un mathematics</a>, my own blog-life will center round a new blog to accompany the master-course &#8216;seminar noncommutative geometry&#8217; I&#8217;m running at Antwerp University this semester. Its URL is <a href="http://www.noncommutative.org/">noncommutative.org</a> and it is called :</p>
+<p><a href="http://www.noncommutative.org/"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/angst.jpg"></a></p>
+<p>Here, <strong>angs</strong> is short for Antwerp Noncommutative Geometry Seminar and the additions <strong>@t</strong> resp. <strong>+</strong> are there to indicate we will experiment a bit trying to find useful interactions between the IRL seminar, its blog and social media such as <a href="http://twitter.com/">twitter</a> and <a href="https://plus.google.com/">Google+</a>.</p>
+<p>The seminar (and blog) are scheduled to start in earnest september 30th, but I may post some prep-notes already. This semester the seminar will try to decode Smirnov&#8217;s old idea to prove the ABC-conjecture in number theory via geometry over the field with one element and connect it with new ideas such as Borger&#8217;s $\mathbb{F}_1$-geometry using $\lambda$-rings and noncommutative ideas proposed by Connes, Consani and Marcolli.</p>
+<p>Again, anyone willing to contribute actively is invited to send me an <a href="mailto:lieven.lebruyn@ua.ac.be">email</a> or to comment on &#8216;angst&#8217;, tweet about it using the hashtag #angs (all such tweets will appear on the frontpage) or share its posts on Google+.</p>
+<h2>Noncommutative Arithmetic Geometry Media Library</h2>
+<p>Via the <a href="http://noncommutativegeometry.blogspot.com/2011/09/noncommutative-arithmetic-geometry ">noncommutative geometry blog</a> a new initiative maintained by Alain Connes and Katia Consani was announced : the <a href="http://streams1.nts.jhu.edu/mathematics/">Noncommutative Arithmetic Geometry Media Library</a>.</p>
+<p><a href="http://streams1.nts.jhu.edu/mathematics/"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/CCsite.jpg"></a></p>
+<p>This site is dedicated to maintain articles, videos, and news about meetings and activities related to noncommutative arithmetic geometry. The website is still `under construction&#8217; and the plan is to gradually add more videos (also from past conferences and meetings), as well as papers and slides.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/3-related-new-math-sites/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>eBook &#8216;geometry and the absolute point&#8217; v0.1</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 08 Jul 2011 11:32:32 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5503</guid>
+
+					<description><![CDATA[In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217; I&#8217;ve converted about 30 posts to LaTeX, centering loosely around the topics students have asked me to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/absolutegeometry.jpg" align=left hspace=10><br />
+In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217; I&#8217;ve converted about 30 posts to LaTeX, centering loosely around the topics students have asked me to cover : noncommutative geometry, the absolute point (aka the field with one element), and their relation to the Riemann hypothesis.</p>
+<p>The idea being to edit these posts thoroughly, add much more detail (and proofs) and also add some extra sections on Borger&#8217;s work and Witt rings (and possibly other stuff).</p>
+<p>For those of you who prefer to (re)read these posts on paper or on a tablet rather than perusing this blog, you can now download the very first version (minimally edited) of the eBook <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/ncg.pdf">&#8216;geometry and the absolute point&#8217;</a>. All comments and suggestions are, of course, very welcome. I hope to post a more definite version by mid-september.</p>
+<p>I&#8217;ve used the thesis-documentclass to keep the same look-and-feel of my other course-notes, but I would appreciate advice about turning LaTeX-files into &#8216;proper&#8217; eBooks. I am aware of the fact that the memoir-class has an ebook option, and that one can use the geometry-package to control paper-sizes and margins.</p>
+<p>Soon, I will be releasing a LaTeX-ed &#8216;eBook&#8217; containing the Bourbaki-related posts. Later I might also try it on the games- and groups-related posts&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Art and the absolute point (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 19 May 2011 13:24:19 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[nonsense]]></category>
+		<category><![CDATA[paintings]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5112</guid>
+
+					<description><![CDATA[Previously, we have recalled comparisons between approaches to define a geometry over the absolute point and art-historical movements, first those due to Yuri I. Manin,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Previously, we have recalled comparisons between approaches to define a geometry over the absolute point and art-historical movements, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/art-and-the-absolute-point.html">first</a> those due to Yuri I. Manin, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/art-and-the-absolute-point-2.html">subsequently</a> some extra ones due to Javier Lopez Pena and Oliver Lorscheid.</p>
+<p>In these comparisons, the art trend appears to have been  chosen more to illustrate a key feature of the approach or an appreciation of its importance, rather than giving a visual illustration of the varieties over $\mathbb{F}_1$ the approach proposes.</p>
+<p>Some time ago, we&#8217;ve had a couple of posts trying to depict noncommutative varieties, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/views-of-noncommutative-spaces.html">first</a> the illustrations used by Shahn Majid and Matilde Marcolli, and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/pollock-your-own-noncommutative-space.html">next</a> my own mental picture of it.</p>
+<p>In this post, we&#8217;ll try to do something similar for affine varieties over the absolute point. To simplify things drastically, I&#8217;ll divide the islands in the Lopez Pena-Lorscheid <a href="http://arxiv.org/abs/0909.0069">map of $\mathbb{F}_1$ land</a> in two subsets : the <strong>former approaches</strong> (all but the $\Lambda$-schemes) and the <strong>current approach</strong> (the $\Lambda$-scheme <a href="http://arxiv.org/abs/0906.3146">approach</a> due to James Borger).</p>
+<p><strong>The former approaches : Francis Bacon &#8220;The Pope&#8221; (1953)</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BaconPope.jpg"></p>
+<p>The general consensus here was that in going from $\mathbb{Z}$ to $\mathbb{F}_1$ one looses the additive structure and retains only the multiplicative one. Hence, &#8216;commutative algebras&#8217; over $\mathbb{F}_1$ are (commutative) monoids, and mimicking Grothendieck&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/grothendiecks-functor-of-points.html">functor of points</a> approach to algebraic geometry, a scheme over $\mathbb{F}_1$ would then correspond to a functor</p>
+<p>$h_Z~:~\mathbf{monoids} \longrightarrow \mathbf{sets}$</p>
+<p>Such functors are described largely by combinatorial data (see for example the recent <a href="http://arxiv.org/abs/1103.1745">blueprint-paper</a> by Oliver Lorscheid), and, if the story would stop here, any <a href="http://www.google.com/search?q=Rothko&amp;hl=en&amp;client=safari&amp;rls=en&amp;prmd=ivns&amp;source=lnms&amp;tbm=isch&amp;ei=yNDUTcTcDIyVOuK7xIIM&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;cd=2&amp;ved=0CBsQ_AUoAQ&amp;biw=1362&amp;bih=734">Rothko painting</a> could be used as illustration.</p>
+<p>Most of the former approaches add something though (buzzwords include &#8216;Arakelov&#8217;, &#8216;completion at $\infty$&#8217;, &#8216;real place&#8217; etc.) in order to connect the virtual geometric object over $\mathbb{F}_1$ with existing real, complex or integral schemes. For example, one can make the virtual object visible via an evaluation map $h_Z \rightarrow h_X$ which is a natural transformation, where $X$ is a complex variety with its usual functor of points $h_X$ and to connect both we associate to a monoid $M$ its complex monoid-algebra $\mathbb{C} M$. An integral scheme $Y$ can then be said to be &#8216;defined over $\mathbb{F}_1$&#8217;, if $h_Z$ becomes a subfunctor of its usual functor of points $h_Y$ (again, assigning to a monoid its integral monoid algebra $\mathbb{Z} M$) and $Y$ is the &#8216;best&#8217; integral scheme approximation of the complex evaluation map.</p>
+<p>To illustrate this, consider the painting <a href="http://en.wikipedia.org/wiki/Study_after_Velázquez's_Portrait_of_Pope_Innocent_X">Study after Velázquez&#8217;s Portrait of Pope Innocent X</a> by <a href="http://en.wikipedia.org/wiki/Francis_Bacon_(painter)">Francis Bacon</a> (right-hand painting above) which is  a distorded version of the left-hand painting <a href="http://en.wikipedia.org/wiki/Portrait_of_Innocent_X">Portrait of Innocent X</a> by <a href="http://en.wikipedia.org/wiki/Diego_Velázquez">Diego Velázquez</a>.</p>
+<p>Here, Velázquez&#8217; painting plays the role of the complex variety which makes the combinatorial gadget $h_Z$ visible, and, Bacon&#8217;s painting depicts the integral scheme, build up from this combinatorial data, which approximates the evaluation map best.</p>
+<p>All of the former approaches more or less give the same very small list of integral schemes defined over $\mathbb{F}_1$, none of them motivically interesting.</p>
+<p><strong>The current approach : Jackson Pollock &#8220;No. 8&#8221; (1949)</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Pollock8.jpg"></p>
+<p>An entirely different approach was proposed by James Borger in <a href="http://arxiv.org/abs/0906.3146">$\Lambda$-rings and the field with one element</a>. He proposes another definition for commutative $\mathbb{F}_1$-algebras, namely $\lambda$-rings (in the sense of Grothendieck&#8217;s Riemann-Roch) and he argues that the $\lambda$-ring structure (which amounts in the sensible cases to a family of endomorphisms of the integral ring lifting the Frobenius morphisms) can be viewed as descent data from $\mathbb{Z}$ to $\mathbb{F}_1$.</p>
+<p>The list of integral schemes of finite type with a $\lambda$-structure coincides roughly with the list of integral schemes defined over $\mathbb{F}_1$ in the other approaches, but Borger&#8217;s theory really shines in that it proposes long sought for mystery-objects such as $\mathbf{spec}(\mathbb{Z}) \times_{\mathbf{spec}(\mathbb{F}_1)} \mathbf{spec}(\mathbb{Z})$. If one accepts Borger&#8217;s premise, then this object should be the geometric object corresponding to the Witt-ring $W(\mathbb{Z})$. Recall that the role of Witt-rings in $\mathbb{F}_1$-geometry was anticipated by Manin in <a href="http://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a>.</p>
+<p>But, Witt-rings and their associated Witt-spaces are huge objects, so one needs to extend arithmetic geometry drastically to include such &#8216;integral schemes of infinite type&#8217;. Borger has made a couple of steps in this direction in <a href="http://arxiv.org/abs/1006.0092">The basic geometry of Witt vectors, II: Spaces</a>.</p>
+<p>To depict these new infinite dimensional geometric objects I&#8217;ve chosen for <a href="http://en.wikipedia.org/wiki/Jackson_Pollock">Jackson Pollock</a>&#8216;s painting No. 8. It is no coincidence that Pollock-paintings also appeared in the depiction of noncommutative spaces. In fact, Matilde Marcolli has made the connection between $\lambda$-rings and noncommutative geometry in <a href="http://arxiv.org/abs/0901.3167">Cyclotomy and endomotives</a> by showing that the Bost-Connes endomotives are universal for $\lambda$-rings.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Penrose tilings and noncommutative geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 18 May 2011 09:36:49 +0000</pubDate>
+				<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Smith]]></category>
+		<category><![CDATA[tilings]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5206</guid>
+
+					<description><![CDATA[Penrose tilings are aperiodic tilings of the plane, made from 2 sort of tiles : kites and darts. It is well known (see for example&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/penrosetiling.jpg"></p>
+<p><a href="http://en.wikipedia.org/wiki/Penrose_tiling">Penrose tilings</a> are aperiodic tilings of the plane, made from 2 sort of tiles : kites and darts. It is well known (see for example the standard textbook <a href="http://www.amazon.co.uk/Tilings-Patterns-Branko-Grunbaum/dp/0486469816/">tilings and patterns</a> section 10.5) that one can describe a Penrose tiling around a given point in the plane as an infinite sequence of 0&#8217;s and 1&#8217;s, subject to the condition that no two consecutive 1&#8217;s appear in the sequence. Conversely, any such sequence is the sequence of a Penrose tiling together with a point. Moreover, if two such sequences are eventually the same (that is, they only differ in the first so many terms) then these sequences belong to two points in the same tiling,</p>
+<p>Another remarkable feature of Penrose tilings is their local isomorphism : fix a finite region around a point in one tiling, then in any other Penrose tiling one can find a point having an isomorphic region around it. For this reason, the space of all Penrose tilings has horrible topological properties (all points lie in each others closure) and is therefore a prime test-example for the techniques of <a href="http://en.wikipedia.org/wiki/Noncommutative_geometry">noncommutative geometry</a>.</p>
+<p>In his old testament, <a href="http://www.amazon.co.uk/Noncommutative-Geometry-Alain-Connes/dp/012185860X/">Noncommutative Geometry</a>, Alain Connes associates to this space a $C^*$-algebra $Fib$ (because it is constructed from the <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci series</a> $F_0,F_1,F_2,&#8230;$) which is the direct limit of sums of two full matrix-algebras $S_n$, with connecting morphisms</p>
+<p>$S_n = M_{F_n}(\mathbb{C}) \oplus M_{F_{n-1}}(\mathbb{C}) \rightarrow S_{n+1} = M_{F_{n+1}}(\mathbb{C}) \oplus M_{F_n}(\mathbb{C}) \qquad (a,b) \mapsto ( \begin{matrix} a &#038; 0 \\ 0 &#038; b \end{matrix}, a)$</p>
+<p>As such $Fib$ is an AF-algebra (for approximately finite) and hence formally smooth. That is, $Fib$ would be the coordinate ring of a smooth variety in the noncommutative sense, if only $Fib$ were finitely generated. However, $Fib$ is far from finitely generated and has other undesirable properties (at least for a noncommutative algebraic geometer) such as being simple and hence in particular $Fib$ has no finite dimensional representations&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/PaulS.jpg" align=left hspace=10> A couple of weeks ago, <a href="http://www.math.washington.edu/~smith/">Paul Smith</a> discovered a surprising connection between the noncommutative space of Penrose tilings and an <strong>affine</strong> algebra in the paper <a href="http://arxiv.org/abs/1104.3811">The space of Penrose tilings and the non-commutative curve with homogeneous coordinate ring $\mathbb{C} \langle x,y \rangle/(y^2)$</a>.</p>
+<p>Giving $x$ and $y$ degree 1, the algebra $P = \mathbb{C} \langle x,y \rangle/(y^2)$ is obviously graded and noncommutative projective algebraic geometers like to associate to such algebras their &#8216;proj&#8217; which is the quotient category of the category of all graded modules in which two objects become isomorphisc iff their &#8216;tails&#8217; (that is forgetting the first few homogeneous components) are isomorphic.</p>
+<p>The first type of objects NAGers try to describe are the <strong>point modules</strong>, which correspond to graded modules in which every homogeneous component is 1-dimensional, that is, they are of the form</p>
+<p>$\mathbb{C} e_0 \oplus \mathbb{C} e_1 \oplus \mathbb{C} e_2 \oplus \cdots \oplus \mathbb{C} e_n \oplus \mathbb{C} e_{n+1} \oplus \cdots$</p>
+<p>with $e_i$ an element of degree $i$. The reason for this is that point-modules correspond to the points of the (usual, commutative) projective variety when the affine graded algebra is commutative.</p>
+<p>Now, assume that a Penrose tiling has been given by a sequence of 0&#8217;s and 1&#8217;s, say $(z_0,z_1,z_2,\cdots)$, then it is easy to associate to it a graded vectorspace with action given by</p>
+<p>$x.e_i = e_{i+1}$ and $y.e_i = z_i e_{i+1}$</p>
+<p>Because the sequence has no two consecutive ones, it is clear that this defines a graded module for the algebra $P$ and determines a  point module in $\pmb{proj}(P)$. By the equivalence relation on Penrose sequences and the tails-equivalence on graded modules it follows that two sequences define the same Penrose tiling if and only if they determine the same point module in $\pmb{proj}(P)$.  Phrased differently, the noncommutative space of Penrose tilings embeds in $\pmb{proj}(P)$ as a subset of the point-modules for $P$.</p>
+<p>The only such point-module invariant under the shift-functor is the one corresponding to the 0-sequence, that is, corresponds to the <a href="http://www.spsu.edu/math/tile/aperiodic/cartwheel/cartwheel1.htm">cartwheel tiling</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cartwheel.jpg"></p>
+<p>Another nice consequence is that we can now explain the local isomorphism property of Penrose tilings geometrically as a consequence of the fact that the $Ext^1$ between any two such point-modules is non-zero, that is, these noncommutative points lie &#8216;infinitely close&#8217; to each other.</p>
+<p>This is the easy part of Paul&#8217;s paper.</p>
+<p>The truly, truly amazing part is that he is able to recover Connes&#8217; AF-algebra $Fib$ from $\pmb{proj}(P)$ as the algebra of global sections! More precisely, he proves that there is an equivalence of categories between $\pmb{proj}(P)$ and the category of all $Fib$-modules $\pmb{mod}(Fib)$!</p>
+<p>In other words, the noncommutative projective scheme $\pmb{proj}(P)$ is actually isomorphic to an affine scheme and as its coordinate ring is formally smooth $\pmb{proj}(P)$ is a noncommutative smooth variety. It would be interesting to construct more such examples of interesting AF-algebras appearing as local rings of sections of proj-es of affine graded algebras.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Noncommutative algebra and geometry master-degree</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-algebra-and-geometry-master-degree/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-algebra-and-geometry-master-degree/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 26 Jan 2011 16:40:56 +0000</pubDate>
+				<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[master class]]></category>
+		<category><![CDATA[moduli]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4856</guid>
+
+					<description><![CDATA[The lecturers, topics and dates of the 6 mini-courses in our &#8216;advanced master degree 2011 in noncommutative algebra and geometry&#8217; are : February 21-25 Vladimir&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The lecturers, topics and dates of the 6 mini-courses in our &#8216;advanced master degree 2011 in noncommutative algebra and geometry&#8217; are :</p>
+<p>February 21-25<br />
+<a href="http://maths.dept.shef.ac.uk/maths/staff_info.php?id=1">Vladimir Bavula</a> (University of Sheffield) :<br />
+Localization Theory of Rings and Modules</p>
+<p>March 7-11<br />
+<a href="http://www.mathematik.uni-muenchen.de/~hanssch/index.php">Hans-Jürgen Schneider</a> (University of München) :<br />
+ Nichols Algebra and Root Systems</p>
+<p>April 11-12<br />
+<a href="http://www.math.jussieu.fr/~keller/">Bernhard Keller</a>  (Université Paris VII):<br />
+Cluster Algebra and Quantum Cluster Algebras</p>
+<p>April 18-22<br />
+<a href="http://alev.perso.math.cnrs.fr/">Jacques Alev</a>  (Université Reims):<br />
+Automorphisms of some Basic Algebras</p>
+<p>May 3-8<br />
+<a href="http://www.calpoly.edu/~math/directory.html">Goro Kato</a> (Cal Poly University, San Luis Obispo, US):<br />
+Sheaf Cohomology and Zeta – Functions</p>
+<p>May 9-13<br />
+<a href="http://wmaz.math.uni-wuppertal.de/reineke/">Markus Reineke</a> (University of Wuppertal):<br />
+Moduli Spaces of Representatives</p>
+<p>More information can be found <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/master2011.doc">here</a>. I&#8217;ve been told that some limited support is available for foreign graduate students wanting to attend this programme. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-algebra-and-geometry-master-degree/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mathblogging and poll-results</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 21 Jan 2011 19:42:24 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[mathblogging]]></category>
+		<category><![CDATA[mathblogs]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[poll]]></category>
+		<category><![CDATA[rss feeds]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4733</guid>
+
+					<description><![CDATA[Mathblogging.org is a recent initiative and may well become the default starting place to check on the status of the mathematical blogosphere. Handy, if you&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://matrix.cmi.ua.ac.be/DATA3/mathblogging.jpg"><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/mathblogging.jpg" alt="" title="mathblogging" width="255" height="128" class="alignleft size-full wp-image-4747" /></a> <a href="http://www.mathblogging.org/">Mathblogging.org</a> is a recent initiative and may well become the default starting place to check on the status of the mathematical blogosphere.</p>
+</p>
+<p>Handy, if you want to (re)populate your RSS-aggregator with interesting mathematical blogs, is their graphical presentation of (nearly) all math-blogs <a href="http://www.mathblogging.org/bytype">ordered by type</a> : group blogs, individual researchers, teachers and educators, journalistic writers, communities, institutions and microblogging (twitter). Links to the last 7 posts are given so you can easily determine whether that particular blog is of interest to you.</p>
+<p>The three people behind the project, <a href="http://www.felixbreuer.net/">Felix Breuer</a>, <a href="http://ta.twi.tudelft.nl/wst/users/heymann/">Frederik von Heymann</a> and <a href="http://peter.krautzberger.info/">Peter Krautzberger</a>, welcome you to send them links to (micro)blogs they&#8217;ve missed. Surely, there must be a lot more mathematicians with a twitter-account than the few ones listed so far&#8230;</p>
+<p>Even more convenient is their <a href="http://www.mathblogging.org/bydate">list of latest posts</a> from their collection, ordered by date. I&#8217;ve put that page in my Bookmarks Bar the moment I discovered it! It would be nice, if they could provide an RSS-feed of this list, so that people could place it in their sidebar, replacing old-fashioned and useless blogrolls. The site does provide two feeds, but they are completely useless as they click through to empty pages&#8230;</p>
+<p>While we&#8217;re on the topic of math-blogging, the results of the &#8216;What should we write about next?&#8217;-poll that ran <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/changes-ahead.html">the previous two days</a> on the entry page. Of all people visiting that page, 2.6% left suggestions.</p>
+<p>The vast majority (67%) wants more posts on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/tag/noncommutative">noncommutative geometry</a>. Most of you are craving for introductions (and motivation) accessible to undergraduates (as &#8216;it&#8217;s hard to find quality, updated information on this&#8217;). In particular, you want posts giving applications in mathematics (especially number theory), or explaining relationships between different approaches. One person knew exactly how I should go about to achieve the hoped-for accessibility : &#8220;As a rule, I&#8217;d take what you think would be just right for undergrads, and then trim it down a little more.&#8221;</p>
+<p>Others want rather specialized posts, such as on &#8216;connection and parallel transport in noncommutative geometry&#8217; or on &#8216;trees (per J-L. Loday, M. Aguiar, Connes/Kreimer renormalization (aka Butcher group)), or something completely other tree-related&#8217;.</p>
+<p>Fortunately, some of you told me it was fine to write about &#8216;combinatorial games and cool nim stuff, finite simple groups, mathematical history, number theory, arithmetic geometry&#8217;, pushed me to go for &#8216;anything monstrous and moonshiney&#8217; (as if I would know the secrets of the &#8216;connection between the Mathieu group M24 and the elliptic genus of K3&#8217;&#8230;) or wrote that &#8216;various algebraic geometry related posts are always welcome: posts like <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mumfords-treasure-map.html">Mumford&#8217;s treasure map</a>&#8216;.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>On the Reality of Noncommutative Space</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/on-the-reality-of-noncommutative-space/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/on-the-reality-of-noncommutative-space/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 20 Jan 2011 19:46:36 +0000</pubDate>
+				<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[dark matter]]></category>
+		<category><![CDATA[noncommutative geometry]]></category>
+		<category><![CDATA[noncommutative topology]]></category>
+		<category><![CDATA[quantum physics]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4703</guid>
+
+					<description><![CDATA[Guest post by Fred Van Oystaeyen. In my book &#8220;Virtual Topology and Functorial Geometry&#8221; (Taylor and Francis, 2009) I proposed a noncommutative version of space-time&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/fvo.jpg" align=left hspace=10> Guest post by <a href="http://sv.wikipedia.org/wiki/Freddy_Van_Oystaeyen">Fred Van Oystaeyen</a>.</p>
+<p />
+<p>In my book <a href="http://www.amazon.com/Virtual-Topology-Functor-Geometry-Mathematics/dp/1420060562/">&#8220;Virtual Topology and Functorial Geometry&#8221;</a> (Taylor and Francis, 2009) I proposed a noncommutative version of space-time ; it is a toy model, but mathematically correct and I included a few philosophical remarks about : &#8220;What if reality is noncommutative ?&#8221;.</p>
+<p>I want to add a few ideas about how &#8220;strange&#8221; ideas in quantum mechanics all fit naturally in the noncommutative world.  First let us talk about noncommutative geometry in an intuitive way.</p>
+<p>Then noncommutative space may be thought of as a set of noncommutative places but these noncommutative places need not be sets, in particular they are not sets of points.  There is a noncommutative join $\vee$ and a noncommutative intersection $\wedge$, and they satify the axioms (very natural ones) of a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/a-noncommutative-topology-2.html">noncommutative topology</a>.</p>
+<p>The non-commutativity is characterized by the existence of non $\wedge$-idempotent places, i.e. places with a nontrivial self intersection.  This allows the $\wedge$ to be noncommutative.  From algebraic geometric it follows that one may be interested to let $\vee$ be an abelian operation (hence defining a virtual topology) so let us assume this from hereon.</p>
+<p>The set of $\wedge$-idempotent noncommutative-places forms the &#8220;commutative shadow&#8221; of the noncommutative space; it has operations $\vee$ and   $\mathop{\wedge}\limits_{\bullet}$  which are abelian and  $\sigma \mathop{\wedge}\limits_{\bullet}\tau$  may be thought of as the largest $\wedge$-idempotent smaller than $\sigma$ and $\tau$ in the partial ordering of the noncommutative space.</p>
+<p>The $\wedge$-idempotent noncommutative places are sets in a commutative topology and these are the observable places in the noncommutative space.  In the book I present a dynamic (time !) model allowing further elaboration on the noncommutative space but for now let us stick to the intuitive model and assume that space is in fact noncommutative with commutative shadow built upon our space time of physics.</p>
+<p>In fact all observations, measurings and predictions made in physics are not about reality but about our observations of reality, so it may be an eternal fact that our observations of reality are described in our brains by commutative methods.  Nevertheless we can observe effect of objects existing at noncommutative places in &#8220;neighboring&#8221; $\wedge$-idempotents sets or observable places.</p>
+<p>First if an object exists at a noncommutative place it also exists at all subplaces (a harmless assumption not really essential for the rest).  So if there is a noncommutative place, where some object exists, parts of this object may be observed at idempotent subplaces of the noncommutative place.  These may even be disjoint in the commutative shadow, not &#8220;too far apart&#8221; as one object exists on the total noncommutative space.</p>
+<p>Since only a part of the noncommutative object is observed on the $\wedge$-idempotent subplace it is not clear that one may actually recognize the observations at different commutative places as belonging to the same noncommutative object.  Once one observes one observable place that object seems to exist only on that (commutative) place.  Hence a quantum particle can be thought of as existing on several &#8220;places&#8221; but once observed it looks like it only exists there.  This is a first natural phenomenon reflecting &#8220;strange&#8221; quantum mechanical principles.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/doubleslit.jpg"></p>
+<p>Secondly let us look at the double slit experiment.  The slits correspond to commutative places $\sigma_1$ and $\sigma_2$ and $\sigma_1 \mathop{\wedge}\limits_{\bullet}\sigma_2=\emptyset$, however in the noncommutative world $\sigma_1\wedge\sigma_2$ need not be empty, only it has no $\wedge$-idempotent subplaces !</p>
+<p>Therefore if a photon is defined on a noncommutative place with &#8220;light&#8221;-effect on observable places &#8220;near enough&#8221; to it (in a neighborhood small enough to have an observable effect say) then the photon may pass though both slits without splitting or without splitting reality (parallel universes) but just moving into the noncommutative space inside $\sigma_1$ and $\sigma_2$ !</p>
+<p>The observable effect at the slits will appear in commutative places near enough (for example, intersecting) to $\sigma_1$ or to $\sigma_2$.  As the photon moves on, observable effects will appear in commutative places intersecting the one near to $\sigma_1$ or the one near to $\sigma_2$ and these may themselves have nonempty intersections.</p>
+<p>At the moment the effect via $\sigma_1$ interacts with the effect via $\sigma_2$.  As the photon progresses in its observed direction other $\wedge$-idempotents showing observable effects may meet and so several interactions between observable effects (via $\sigma_1$ and $\sigma_2$) build a picture of interference.</p>
+<p>The symmetry of this picture actually suggests a symmetric arrangement of commutative places around a noncommutative place.  So the noncommutativity of space may explain this phenomenon without holographic principle or parallel universes.</p>
+<p>In a similar way dark mass may well be mass existing in a non-observable noncommutative place (i.e. containing no observable places).  If a lot of mass is in a non-observable noncommutative place its gravity may pull matter from surrounding observable places into the noncommutative place and this may explain black holes.  All kinds of problems relating to black holes may have natural non commutative solutions, e.g. information may pass from observable places to noncommutative places and is not lost, only non-observable.</p>
+<p>In fact is the definition of information not depending on the nature and capability of the recipient ?  There are many philosophically interesting ramifications of these ideas, for example every chemical or neurochemical activity should also be placed in the noncommutative space.</p>
+<p>In the book I mentioned how &#8220;free will&#8221; could be a noncommutative space aspect of the brain activity.  I also mention a possible relations with string theory.  I am not a specialist in all these things but now I reached the point that I &#8220;feel&#8221; noncommutative space is a better approximation of the reality and one should investigate it further.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/on-the-reality-of-noncommutative-space/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>changes (ahead)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/changes-ahead/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/changes-ahead/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 19 Jan 2011 13:43:43 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4645</guid>
+
+					<description><![CDATA[In view or recents events &#38; comments, some changes have been made or will be made shortly : categories : Sanitized the plethora of wordpress-categories&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In view or recents events &amp; comments, some changes have been made or will be made shortly :</p>
+<p><strong>categories</strong> :  Sanitized the plethora of wordpress-categories to which posts belong. At the moment there are just 5 categories : &#8216;stories&#8217; and &#8216;web&#8217; (for all posts with low math-content) and three categories &#8216;level1&#8217;, &#8216;level2&#8217; and &#8216;level3&#8217;, loosely indicating the math-difficulty of a post.</p>
+<p><strong>MathJax</strong>  : After years of using LatexRender and WP-Latex, we&#8217;ll change to MathJax from now on. I&#8217;ll try to convert older posts as soon as possible. (Update : did a global search and replace. &#8216;Most&#8217; LaTeX works, major exceptions being matrices and xymatrix commands. I&#8217;ll try to fix those later with LatexRender.)</p>
+<p><strong>theme</strong> : The next couple of days, the layout of this site may change randomly as I&#8217;ll be trying out things with the <a href="http://swiftthemes.com/">Swift wordpress theme</a>. Hopefully, this will converge to a new design by next week.</p>
+<p><strong>name</strong> : Neverendingbooks will be renamed to something more math-related. Clearly, the new name will depend on the topics to be covered. On the main <a href="https://lievenlebruyn.github.io/neverendingbooks/">index page</a> a pop-up poll will appear in the lower right-hand corner after 10 seconds. Please fill in the topics you&#8217;d like us to cover (no name or email required).</p>
+<p>This poll will close on friday 21st at 12 CET and its outcome will influence name/direction of this blog. Use it also if you have a killer newname-suggestion. Among the responses so far, a funnier one : &#8220;An intro to, or motivation for non-commutative geometry, aimed at undergraduates. As a rule, I&#8217;d take what you think would be just right for undergrads, and then trim it down a little more.&#8221;</p>
+<p><strong>guest-posts</strong> : If you&#8217;d like to be a guest-blogger here at irregular times, please contact me. The first guest-post will be on noncommutative topology and the interpretation of quantum physics, and will appear soon. So, stay tuned&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/changes-ahead/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

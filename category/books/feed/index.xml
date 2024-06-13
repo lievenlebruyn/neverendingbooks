@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>books &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/category/books/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 02 Jun 2024 13:16:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Vialism versus Weilism</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 02 Jun 2024 13:16:25 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[21pilots]]></category>
+		<category><![CDATA[Andre Weil]]></category>
+		<category><![CDATA[Clancy]]></category>
+		<category><![CDATA[Dema]]></category>
+		<category><![CDATA[Felix Hausdorff]]></category>
+		<category><![CDATA[Georg Cantor]]></category>
+		<category><![CDATA[Simone Weil]]></category>
+		<category><![CDATA[Trench]]></category>
+		<category><![CDATA[Vialism]]></category>
+		<category><![CDATA[Weilism]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=12100</guid>
+
+					<description><![CDATA[Here&#8217;s how 21 pilots themselves define Vialism, the &#8216;religion&#8217; of Dema, in the &#8216;I am Clancy&#8217; video: Their authority comes from two things: a miraculous&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s how <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">21 pilots</a> themselves define Vialism, the &#8216;religion&#8217; of Dema, in the <a href="https://www.youtube.com/watch?v=ozlHHR_eSxc">&#8216;I am Clancy&#8217;</a> video:</p>
+<blockquote><p>
+Their authority comes from two things: a miraculous power and a hijacked religion. One feeds the other. A cycle. It&#8217;s called <strong>Vialism</strong>, and all you really need to know is that it teaches that self-destruction is the only way to paradise.
+</p></blockquote>
+<p><center><br />
+<img decoding="async" src="https://64.media.tumblr.com/3526a07ffc5e4cf634a2ca0cf800624c/6947d9505b59d292-c4/s2048x3072/a5df0a346718fbb87a4c3541fc6827f96658adca.jpg" width=100% ><br />
+</center></p>
+<p>Some people think that <a href="https://www.reddit.com/r/twentyonepilots/comments/1bq1jme/we_figured_out_vialism_its_weilism/">Vialism means Weilism</a>, after the Weil siblings Andre and Simone.</p>
+<p><a href="https://en.wikipedia.org/wiki/Simone_Weil">Simone Weil</a> (1909-1943) was a French philosopher and political activist. In her later years she became increasingly religious and inclined towards mysticism.</p>
+<p><a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a> (1906-1998) was a French mathematician and founding member of the <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki">Bourbaki group</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://s1.elespanol.com/2023/10/27/el-cultural/ciencia/entre_2_aguas/805179590_237138548_1024x576.jpg" width=100% ><br />
+</center></p>
+<p>They enter the lore via a picture on Tyler Joseph&#8217;s desktop in the <a href="https://www.youtube.com/watch?v=s4CLo1gpHyQ">Zane Lowe interview in 2018</a>, which is an overlay of two photographs of Bourbaki meetings in 1937 and 1938 featuring Andre and Simone.</p>
+<p>For Simone this is the crucial period in her conversion to Catholicism, for Andre these meetings led to a reformulation of the foundations of TOPology, and discussions on Bourbaki&#8217;s version of Set theory which would lead to Bourbaki&#8217;s first book, published in 1939.</p>
+<p>Both topics left a lasting impression on Simone Weil, as she wrote in 1942:</p>
+<blockquote><p>
+One field of mathematics that deals with all the diverse sorts of orders (set theory and general topology) is a treasure-house that holds an infinity of valuable expressions that show supernatural truth.
+</p></blockquote>
+<p>Now, Simone was fairly generous in her use of the adjective &#8216;supernatural&#8217;. Here&#8217;s another quote:</p>
+<blockquote><p>
+“The supernatural greatness of Christianity lies in the fact that it does not seek a supernatural remedy for suffering but a supernatural use for it.”
+</p></blockquote>
+<p><strong>This suggests that if Vialism really is Weilism, then the &#8216;miraculous power&#8217; might be mathematics (or at least the topics of set theory and topology), and the &#8216;hijacked religion&#8217; might be the (ab)use of mathematics in theology.</strong></p>
+<p>Roughly speaking, axiomatic <a href="https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory">Zermelo-Fraenkel set theory</a> gives a precise list of instructions to construct all sets out of two given sets, the empty set $\emptyset$ (the set containing nothing) being one of them.</p>
+<p>Emptiness, or the void, is important in Simone Weil&#8217;s theology, see for example her book <a href="https://www.amazon.com/Love-Void-Spiritual-Backpack-Classics/dp/0874868300">Love in the void: where God finds us</a></p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/71+l4Snw9WL._SL1500_.jpg" width=50% ><br />
+</center></p>
+<p>or consider this quote by her:</p>
+<blockquote><p>
+God stripped himself of his godhood and became empty, and fulfilled us with false godhood. Let us strip off this false godhood and become empty. This very act is the ultimate purpose to creating us.
+</p></blockquote>
+<p>which sounds a lot like Vialism, becoming an &#8217;empty vessel&#8217; for the Bishops (or God) to fill.</p>
+<p>Also in 21 pilots&#8217; iconography, the empty set $\emptyset$ is important.</p>
+<p><center><br />
+<img decoding="async" src="https://towardsthemorningson.wordpress.com/wp-content/uploads/2018/10/large.jpg" width=100% ><br />
+</center></p>
+<p>Btw. the symbol $\emptyset$ for the empty set was first used by Andre Weil who remembered the Norwegian &#8216;eu&#8217; from his studies of nordic languages preparing for his &#8216;Finnish fugue&#8217; in 1939.</p>
+<p>The other pre-given set challenges the Gods and theology. The <a href="https://en.wikipedia.org/wiki/Axiom_of_infinity">Axiom of Infinity</a> in the Zermelo-Fraenkel system asserts the existence of an infinite set, usually denoted $\omega$ and interpreted as the set of all finite numbers $\{ 0,1,2,3,4,5,6,\dots \}$.</p>
+<p>In other words, mathematical set theory contains an object which is <a href="https://en.wikipedia.org/wiki/Actual_infinity">actual infinity</a>!</p>
+<p>From the ancient Greeks on to early modern times, philosophers adhered to the motto &#8220;Infinitum actu non datur&#8221;, there is only a <em>potential infinity</em> (the idea of infinity) but <em>actual infinity</em> belongs to the realm of the Gods (infinite power, infinite wisdom,&#8230;).</p>
+<p>As if this was not heretic enough, in comes <a href="https://en.wikipedia.org/wiki/Georg_Cantor">Georg Cantor</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://lh3.googleusercontent.com/proxy/sysTL8PHIUfMuuRpjC_WsilSCPvbL5BupQau1-jevMtts2AElShoojvnYVMmJfiXvmjtxwDiWvRuNoRfbOAspQhtBtI" width=100%><br />
+</center></p>
+<p>Georg Cantor (1845-1918) might very well be another Clancy.</p>
+<p>He was a German mathematician, discoverer of the secrets of infinity, which brought him in conflict with several influential mathematicians in his time (notably Kronecker and Poincare), and inventor of <em>Cardinal</em> numbers (compare Bishops).</p>
+<p>He suffered from depression and mental illness, was often admitted to the Halle nerve clinic. In between he was a founding member of the DEutscher MAthematiker Vereinigung (DeMa) of which he was the first president (Nico), he suffered from malnourishment during WW1 (compare Simone Weil in WW2) and died of a heart attack in the sanatorium where he had spent the last year of his life.</p>
+<p>Cantor showed that the only distinguishing feature between two sets is their <em>Cardinality</em> (Bishopy power), roughly speaking the number of things they contain. He then showed that for every set of a certain Bishopy power, there&#8217;s one of even higher power!</p>
+<p>For example, there exists a set with higher cardinality than $\omega$, that is, a set we cannot enumerate. An example is described in these lines from <a href="https://en.wikipedia.org/wiki/Morph_(song)">Morph</a></p>
+<blockquote><p>
+Lights they blink to me, transmitting things to me<br />
+Ones and zeroes, ergo this symphony<br />
+Anybody listening? Ones and zeroes<br />
+Count to infinity, ones and zeroes
+</p></blockquote>
+<p>They&#8217;re talking about all possible infinite series of $0$&#8217;s and $1$&#8217;s and one quickly proves that these cannot be enumerated using <a href="https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument">Cantor&#8217;s diagonal argument</a>.</p>
+<p>When applied to theology this says that Gods cannot have any actual infinity power, for there&#8217;s always an entity posessing higher powers.</p>
+<p>That&#8217;s why Cantor resolved to God being <a href="https://en.wikipedia.org/wiki/Absolute_infinite">&#8216;absolute infinity&#8217;</a>, the Bishopy power of the <em>class</em> of all cardinal numbers (emphasis only important for mathematicians).</p>
+<p>Much more on the interplay between Cantor&#8217;s mathematical results on infinities and his theological writings can be found in the paper <a href="https://dev.kath.ruhr-uni-bochum.de/mam/ph-th/downloads/tapp_a24_2014_absolute_friedman_2auf1.pdf">Absolute Infinity:  A Bridge Between Mathematics and Theology?</a> by Christian Tapp.</p>
+<p>The compassionate God of Christianity has presented theologians for centuries with the following paradox: how can a God having infinite power suffer because humans suffer?</p>
+<p>In comes TOPology and one of its founding fathers <a href="https://en.wikipedia.org/wiki/Felix_Hausdorff">Felix Hausdorff</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://ynet-pic1.yit.co.il/picserver5/crop_images/2024/02/09/r1skmiQoT/r1skmiQoT_0_0_580_290_0_large.jpg" width=100% ><br />
+</center></p>
+<p>Felix Hausdorff (1868-1942) might very well be another Clancy.</p>
+<p>He was a German mathematician who made substantial contributions to topology as well as set theory. For years he felt opposition because he was Jewish.</p>
+<p>After the Kristallnacht in 1938 he tried to escape Nazi-Germany (DeMa) but couldn&#8217;t obtain a position in the US. On 26 January 1942, Felix Hausdorff, along with his wife and his sister-in-law, died by suicide, rather than comply with German orders to move to the Endenich camp.</p>
+<p>He was also a philosopher and writer under the pseudonym Paul Mongré. In 1900 he wrote a book of poems, Ecstasy, of which the first poem is <a href="https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1711&#038;context=jhm">“Den Ungeflügelten” (To The Wingless Ones)</a>. Am I the only one to think immediately of <a href="https://genius.com/Twenty-one-pilots-isle-of-flightless-birds-lyrics">The isle of the flightless birds</a>?</p>
+<p>Anyway, as to how the <a href="https://en.wikipedia.org/wiki/Topology">topology</a> of Weilism solves the contradiction of the suffering God of Christianity is explained in the paper <a href="https://jpars.org/online/wp-content/uploads/2012/04/RSJ-1-OCHIAI.pdf">The Theology of Simone Weil and the Topology of Andre Weil</a> by Ochiai Hitoshi, professor of &#8216;Mathematical Theology&#8217; at Doshisha University, Kyoto.</p>
+<p>He has a follow-up post <a href="https://apeironcentre.org/incarnation-and-reincarnation/">Incarnation and Reincarnation</a> on the <a href="https://apeironcentre.org/">Apeiron Centre</a> (where he also has a post on the <a href="https://apeironcentre.org/theology-of-georg-cantor/">Theology of Georg Cantor</a>). Here&#8217;s a summary of his thesis:</p>
+<blockquote><p>
+God is Open<br />
+Incarnation is Compactified God<br />
+The soul is Open<br />
+Reincarnation is Compactified Soul<br />
+God and the Soul are Homeomorphic<br />
+God is without Boundaries<br />
+The soul is with Boundaries<br />
+God and the Soul are not Diffeomorphic
+</p></blockquote>
+<p>This succinctly sums up Weilism for you.</p>
+<p>I now understand why so many people in the <a href="https://www.reddit.com/r/twentyonepilots/">21 pilots sub-Reddit</a> thought at the beginning of the Trench-era that Bourbaki was a group of mathematicians trying to prove the existence of God.</p>
+<p>In the paper <a href="https://jpars.org/online/wp-content/uploads/2012/04/RSJ-1-OCHIAI.pdf">The Theology of Simone Weil and the Topology of Andre Weil</a> the next quote is falsely attributed to Bourbaki</p>
+<blockquote><p>
+God is the <a href="https://en.wikipedia.org/wiki/Alexandroff_extension">Alexandroff compactification</a> of the universe.
+</p></blockquote>
+<p>If you are interested in the history behind this quote you may read my post <a href="https://lievenlebruyn.github.io/neverendingbooks/according-to-groth-iv-22">According to Groth. IV.22</a>.</p>
+<p>If you want an alternative explanation of Vialism, you may read my post <a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where&#8217;s Bourbaki&#8217;s Dema?</a>.</p>
+<p>Btw. I forgot to mention in that post the &#8220;Annual Assemblage of the Glorified&#8221;. Since 1918 this takes place November 11th, on <a href="https://en.wikipedia.org/wiki/Armistice_Day">Armistice Day</a>.</p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil">What about Simone Weil?</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What about  Simone Weil?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 13 May 2024 09:22:22 +0000</pubDate>
+				<category><![CDATA[art]]></category>
+		<category><![CDATA[books]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[Andre Weil]]></category>
+		<category><![CDATA[Dema]]></category>
+		<category><![CDATA[Simone Weil]]></category>
+		<category><![CDATA[tØp]]></category>
+		<category><![CDATA[Trench]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11966</guid>
+
+					<description><![CDATA[In recent weeks, a theory that Simone Weil is the key to Dema-lore is getting a lot of traction. Image credit In two words, this&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In recent weeks, a theory that <a href="https://en.wikipedia.org/wiki/Simone_Weil">Simone Weil</a> is the key to Dema-lore is getting a lot of traction.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/weilism1.jpeg" width=80%><br />
+<a href="https://twitter.com/nickcidental/status/1788539204223246784">Image credit</a><br />
+</center></p>
+<p>In two words, this theory is based on the assumption that Vialism=Weilism and on textual similarities between the writings of Simone Weil and the lyrics of <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">21 pilots</a> and the <a href="http://dmaorg.info/found/15398642_14/clancy.html">Clancy letters</a>.</p>
+<p>The <a href="https://www.youtube.com/@KEONSEAST">Keons YouTube channel</a> explains this in great detail.</p>
+<p>Until now, I thought that <a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a> was crucial to the story, and that Simone&#8217;s role was merely to have a boy/girl archetypical situation.</p>
+<p>There&#8217;s this iconic photograph of them from 1922, taken weeks before Andre entered the <a href="https://fr.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_(Paris)">ENS</a>:</p>
+<p><center><br />
+<img decoding="async" src="https://pbs.twimg.com/media/DU4BfakW4AE-JdO.jpg" width=80%><br />
+</center></p>
+<p>The same setting, boy on the left, girl to the right was used in the <a href="https://www.youtube.com/watch?v=hMAPyGoqQVw&#038;t=234s">Nico and the niners-video</a>, when they are young and in Dema</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/SimoneAndreWeil.jpg" width=80%><br />
+</center></p>
+<p>and when they are a quite a bit older, and in Trench, at the end of the <a href="https://www.youtube.com/watch?v=eNcvblM8-_o&#038;t=389s">Outside-video</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/SimoneAndreWeil2.jpg" width=80%><br />
+</center></p>
+<p>These scenes may support my theory that Dema was the ENS (both Andre and Simone studied there) as is explained in the post <a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where&#8217;s Bourbaki&#8217;s Dema?</a>, and when they were both a bit older, and at the Bourbaki meetings in Chancay and Dieulefit, that they were banditos operating in Trench, as explained in the post <a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos</a>.</p>
+<p>There are two excellent books to read if you want to know more about the complex relationship between Andre and Simone Weil.</p>
+<p>The first one is <a href="https://www.amazon.com/Weil-Conjectures-Math-Pursuit/dp/0374287619">The Weil Conjectures: On Math and the Pursuit of the Unknown</a> by Karen Olsson.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/910oHRmppvL._SL1500_.jpg" width=60%><br />
+</center></p>
+<p>From it we get the impression that, at times, Simone felt intellectually inferior to Andre, who was three years older. She often asked him to explain what he was working on. Famous is his letter to her written in 1940 when he was jailed. Here&#8217;s a nice Quanta-article on it, <a href="https://www.quantamagazine.org/a-rosetta-stone-for-mathematics-20240506/">A Rosetta stone for mathematics</a>. This was also the reason why she wanted to attend some Bourbaki-meetings in order to get a better understanding of what mathematics was all about and how mathematicians think.</p>
+<p>She was then very critical about mathematics because all that thinking about illusory objects had no immediate effect in real life. Well Simone, that&#8217;s the difference between mathematics and philosophy.</p>
+<p>The second one is <a href="https://www.amazon.com/Chez-Weil-Andr%C3%A9-Simone-Sylvie/dp/2283023696/">Chez les Weil, Andre et Simone</a> written by Andre&#8217;s eldest daughter Sylvie.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/71zj2NZ2CaS._SL1000_.jpg" width=60%><br />
+</center></p>
+<p>From it we get another impression, namely that Andre may have been burdened by the fact that, after Simone&#8217;s death, his parents life centered exclusively around the preservation of her legacy, ignorant of the fact that their remaining child was one of the best mathematicians of his generation.</p>
+<p>Poor Andre, on their family apartment in the Rue Auguste-Comte (which Andre used until late in his life when he was in Paris) is now this commemorative plaque</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/AugusteComte.jpg" width=100%><br />
+</center></p>
+<p>Well Andre, that&#8217;s the difference between a mathematician and a philosopher.</p>
+<p>Let&#8217;s return to the role Simone Weil may play in Dema-lore. For starters, how did she appear in it?</p>
+<p>She makes her appearance through a picture on Tyler&#8217;s desktop at the start of the Trench-era. This picture is a combination of two photographs from <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki">Bourbaki</a> meetings, and Simone Weil features in both of them.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/superimposed.jpg" width=100%><br />
+</center></p>
+<p>The photograph on the left is from the september 1937 meeting in <a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-escorial">Chancay</a>, that on the right is from the september 1938 meeting in <a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-the-miracle-of-silence">Dieulefit</a>.</p>
+<p>These are exactly the years crucial in Simone&#8217;s conversion to catholicism.</p>
+<p>In the spring of 1937 she experienced a religious ecstasy in the <a href="https://en.wikipedia.org/wiki/Papal_Basilica_of_Saint_Mary_of_the_Angels_in_Assisi">Basilica of Santa Maria degli Angeli in Assisi</a>.</p>
+<p>Over Easter is 1938, Simone and her mother attended Holy Week services at the <a href="https://en.wikipedia.org/wiki/Solesmes_Abbey">Solesmes Abbey</a> where she had a mystic experience in which &#8220;Christ himself came down and took possession of me&#8221;.</p>
+<p>One might ask whether there&#8217;s any connection between these religious experiences and her desire to attend these upcoming Bourbaki meetings. So, what was discussed during these conferences?</p>
+<p>Mathematically, the 1938 meeting was not very exciting. Hardly any work was done, as they were preoccupied with all news of the Nazis invading Czechoslovakia. During the conference, Simone and Alain even escaped to Switzerland because they were convinced war was imminent. After a couple of days the <a href="https://en.wikipedia.org/wiki/Munich_Agreement">Munich Treaty</a> was signed, and Alain returned to Dieulefit, whereas Simone stayed in Switzerland, before returning to Paris.</p>
+<p>On the other hand, the Chancay meeting was revolutionary as the foundations of <a href="https://en.wikipedia.org/wiki/Topology">topology</a> were rewritten there with the introduction of the <a href="https://en.wikipedia.org/wiki/Filter_(mathematics)#:~:text=Any%20point%20x%20in%20the,such%20that%20N%20%E2%8A%86%20S.">filter</a> concept, dreamed up on the spot by Henri Cartan (the guy in the deckchair), while the others were taking a walk.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/chancay1937photo2.jpg" width=100%><br />
+</center></p>
+<p>Simone was pretty impressed by the power of TOPology. In 1942 she wrote in her &#8216;Cahiers&#8217;:</p>
+<blockquote><p>
+One field of mathematics that deals with all the diverse sorts of orders (set theory and general topology) is a treasure-house that holds an infinity of valuable expressions that show supernatural truth.
+</p></blockquote>
+<p>Interestingly, she mentions the two math-subjects closest to the pilots&#8217; universe: <a href="https://en.wikipedia.org/wiki/Set_theory">set theory</a> studies all objects you can make starting from the empty set $\emptyset$, and <a href="https://en.wikipedia.org/wiki/Topology">topology</a> studies the properties of objects and figures that remain unchanged even when you<br />
+<a href="https://en.wikipedia.org/wiki/Morph_(song)">morph</a> them.</p>
+<p>We&#8217;ll have to say more about this in a next post when we look into the Vialism=Weilism assumption.</p>
+<p>Another appearance of Simone Weil in the lore might be through the cropped image you can find on the dmaorg-website.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Se_elf.jpg" width=55%> <img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Weil.jpg" width=40%><br />
+</center></p>
+<p>The consensus opinion is that this is a picture of the young Clancy, next to one of the Bishops (Keons? Andre? Nico?).</p>
+<p>In fact, the &#8216;little boy&#8217; is actually a girl and her identity is unresolved as far as I know. But, given the date of the photograph (1956) the girl might be (mistakingly) taken for Andre&#8217;s daughter Sylvie.</p>
+<p>Now, almost everyone, in particular her grandparents and Andre himself, found that Sylvie was a spitting image (almost a &#8216;copy&#8217;) of Simone Weil.</p>
+<p><center><br />
+<img decoding="async" src="https://www.clarion-journal.com/.a/6a00d834890c3553ef014e86da0ea4970d-600wi" width=80% ><br />
+</center></p>
+<p>There are further indications that Simone Weil might be a Clancy.</p>
+<p><strong>Morph</strong></p>
+<p>In <a href="https://en.wikipedia.org/wiki/Morph_(song)">Morph</a> there are these lines</p>
+<blockquote><p>
+He&#8217;ll always try to stop me, that Nicolas Bourbaki<br />
+He&#8217;s got no friends close, but those who know him most know<br />
+He goes by Nico<br />
+He told me I&#8217;m a copy<br />
+When I&#8217;d hear him mock me, that&#8217;s almost stopped me
+</p></blockquote>
+<p>During the meetings she attended, the other Bourbakis mocked Simone that she was a copy of het brother. From Karen Olsson&#8217;s book mentioned above:</p>
+<blockquote><p>
+To the others it&#8217;s startling to see his same glasses, his same face attached to this body clothed in an. unstylish dress and an off-kilter brown beret, carrying on in that odd monotone as she argues, via the chateau&#8217;s telephone, with the editors who publish her political articles.
+</p></blockquote>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/andresimone.jpg" width=80% ><br />
+</center></p>
+<p>Early in her career, Simone Weil was far from an original thinker. For her end-essay on Descartes she got the lowest score possible in order to pass from the ENS. Even Andre urged her to have a work-plan to develop her own ideas, rather than copying ideas from philosophers from the past.</p>
+<p><strong>Jumpsuit</strong></p>
+<p>Whereas Andre tried everything to avoid the draft, Simone was more of a warrior. In 1935 she volunteered to fight on the Republican side in the Spanish civil war, until a kitchen accident forced her to return to France.</p>
+<p><center><br />
+<img decoding="async" src="https://images.jacobinmag.com/wp-content/uploads/2023/01/02112432/GettyImages-89869077-e1672673110685.jpg" width=80% ><br />
+</center></p>
+<p>Later in 1943 she left New-York to return to England and enlist in the French troupes of General de Gaulle, hoping to be <strong>parachuted</strong> behind enemy lines. Given her physical state, the military command decided against it. Upset by this refusal, she felt she had no other option than to deny herself food in empathy with the starving French.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/simonelaissez.jpg" width=80% ><br />
+</center></p>
+<p>She didn&#8217;t succeed in crossing Paladin Strait, sorry the Channel.</p>
+<p><strong>Overcompensate</strong></p>
+<p>Can this be Simone Weil?</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/overcompensateSimone.jpg" width=80% ><br />
+</center></p>
+<p>.</p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-bishops-or-banditos">Bourbaki = Bishops or Banditos?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-dema">Where’s Bourbaki’s Dema?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/weil-photos-used-in-dema-lore">Weil photos used in Dema-lore</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/dema2trench-and-repeat">Dema2Trench, AND REpeat</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/top-photoshop-mysteries">TØP PhotoShop mysteries</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/9-bourbaki-founding-members-really">9 Bourbaki founding members, really?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A question of loyalty</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 29 Sep 2023 09:51:24 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[epistemic]]></category>
+		<category><![CDATA[loyalty]]></category>
+		<category><![CDATA[modal]]></category>
+		<category><![CDATA[question]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11739</guid>
+
+					<description><![CDATA[On the island of two truths, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$). The King and Queen of the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>On the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths">island of two truths</a>, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$).</p>
+<p>The King and Queen of the island have an opinion on all statements which may differ from their actual truth-value. We say that the Queen <em>believes</em> a statement $p$ is she assigns value $Q$ to it, and that she <em>knows</em> $p$ is she believes $p$ and the actual truth-value of $p$ is indeed $Q$. Similarly for the King, replacing $Q$&#8217;s by $K$&#8217;s.</p>
+<p>All other inhabitants of the island are <em>loyal</em> to the Queen, or to the King, or to both. This means that they <em>agree</em> with the Queen (or King, or both) on all statements they have an opinion on. Two inhabitants are said to be <em>loyal</em> to each other if they agree on all statements they both have an opinion of.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths">Last time</a> we saw that Queen and King agree on all statements one of them believes to be false, as well as the negation of such statements. This raised the question:</p>
+<p><em>Are the King and Queen loyal to each other? That is, do Queen and King agree on all statements?</em></p>
+<p>We cannot resolve this issue without the information Oscar was able to extract from Pointex in <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a>&#8216;s post <a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a>:</p>
+<p>&#8220;Oscar was determined to get some more information. &#8220;Could you at least tell me whether the queen and the king know that they&#8217;re loyal to themselves?&#8221; he asked.<br />
+&#8220;Well, of course they know that!&#8221; replied Pointex.<br />
+&#8220;You said that a proposition can be Q-TRUE, K-TRUE or FALSE,&#8221; Oscar said.<br />
+&#8220;Yes, of course. What else!&#8221; replied Pointex as he threw the cap high up.<br />
+&#8220;Well, you also said that each native was loyal either to the queen or to the king. I was just wondering &#8230; Assume that A is loyal to the queen. Then what is the truth value of the statement: A is loyal to the queen?&#8221;<br />
+&#8220;Q, of course,&#8221; answered Pointex as he threw the cap up again.<br />
+&#8220;And what if A is not loyal to the queen? What is then the truth value of the statement: A is loyal to the queen?&#8221;<br />
+He barely finished his question as something fell over his face and covered his eyes. It was the funny cap.<br />
+&#8220;Thanx,&#8221; said Pointex as Oscar handed him the cap. &#8220;The value is 0, of course.&#8221;<br />
+&#8220;Can the truth value of the statement: &#8216;A is loyal to the queen&#8217; be K in any case?&#8221;<br />
+&#8220;Well, what do you think? Of course not! What a ridiculous thing to ask!&#8221; replied Pointex.&#8221;</p>
+<p><strong>Puzzle</strong> : Show that Queen and King are <em>not</em> loyal to each other, that is, there are statements on which they do not agree.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/loyalty.jpg" width=70%><br />
+</center></p>
+<p><strong>Solution</strong> : &#8216;The King is loyal to the Queen&#8217; must have actual truth-value $0$ or $Q$, and the sentence &#8216;The Queen is loyal to the King&#8217; must have actual truth-value $0$ or $K$. But both these sentences are the same as the sentence &#8216;The Queen and King are loyal to each other&#8217; and as this sentence can have only one truth-value, it must have value $0$ so the statement is false.</p>
+<p>Note that we didn&#8217;t produce a specific statement on which the Queen and King disagree. Can you find one?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the strange island of two truths</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 26 Sep 2023 14:57:07 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[island]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[strange]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[truths]]></category>
+		<category><![CDATA[two]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11699</guid>
+
+					<description><![CDATA[Last time we had a brief encounter with the island of two truths, invented by Karin Cvetko-Vah. See her posts: Oscar on the island of&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers">Last time</a> we had a brief encounter with the island of two truths, invented by <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a>. See her posts:</p>
+<ul>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">Oscar on the island of two truths</a></li>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a></li>
+</ul>
+<p>On this island, false statements have truth-value $0$ (as usual), but non-false statements are not necessarily true,  but can be given either truth-value $Q$ (statements which the Queen on the island prefers) or $K$ (preferred by the King).</p>
+<p>Think of the island as Trump&#8217;s paradise where nobody is ever able to say: <a href="https://en.wikipedia.org/wiki/Alternative_facts">&#8220;Look, alternative truths are not truths. They&#8217;re falsehoods.&#8221;</a></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2truths.png" width=70%><br />
+</center></p>
+<p>Even the presence of just one &#8216;alternative truth&#8217; has dramatic consequences on the rationality of your reasoning. If we know the truth-values of specific sentences, we can determine the truth-value of more complex sentences in which we use logical connectives such as $\vee$ (or), $\wedge$ (and), $\neg$ (not), and $\implies$ (then) via these truth tables:</p>
+<p>\[<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\bf{\wedge}~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+Q &#038; 0 &#038; Q &#038; Q \\<br />
+K &#038; 0 &#038; K &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\vee~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; Q &#038; K \\<br />
+Q &#038; Q &#038; Q &#038; K \\<br />
+K &#038; K &#038; Q &#038; K<br />
+\end{array} \]<br />
+\[<br />
+\begin{array}{c|ccc}<br />
+\downarrow~\implies~\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; Q &#038; Q &#038; K \\<br />
+Q &#038; 0 &#038; Q &#038; K \\<br />
+K &#038; 0 &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|c}<br />
+ \downarrow &#038; \neg~\downarrow \\<br />
+\hline<br />
+0 &#038; Q \\<br />
+Q &#038; 0 \\<br />
+K &#038; 0<br />
+\end{array}<br />
+\]</p>
+<p>Note that the truth-values $Q$ and $K$ are not completely on equal footing as we have to make a choice which one of them will stand for $\neg 0$.</p>
+<p>Common <a href="https://en.wikipedia.org/wiki/Tautology_(logic)">tautologies</a> are no longer valid on this island. The best we can have are $Q$-tautologies (giving value $Q$ whatever the values of the components) or $K$-tautologies.</p>
+<p>Here&#8217;s one $Q$-tautology (check!) : $(\neg p) \vee (\neg \neg p)$. Verify that $p \vee (\neg p)$ is neither a $Q$- nor a $K$-tautology.</p>
+<p>Can you find any $K$-tautology at all?</p>
+<p>Already this makes it incredibly difficult to adapt Smullyan-like <a href="https://en.wikipedia.org/wiki/Knights_and_Knaves">Knights and Knaves</a> puzzles to this skewed island. <a href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers">Last time</a> I gave one easy example.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2island2.png" width=70%><br />
+</center></p>
+<p><strong>Puzzle</strong> : On an island of two truths all inhabitants are either Knaves (saying only false statements), Q-Knights (saying only $Q$-valued statements) or K-Knights (who only say $K$-valued statements).</p>
+<p>The King came across three inhabitants, whom we will call $A$, $B$ and $C$. He asked $A$: &#8220;Are you one of my  Knights?&#8221; $A$ answered, but so indistinctly that the King could not understand what he said.</p>
+<p>He then asked $B$: &#8220;What did he say?&#8221; $B$ replies: &#8220;He said that he is a Knave.&#8221; At this point, $C$ piped up and said: &#8220;That&#8217;s not true!&#8221;</p>
+<p>Was $C$ a Knave, a Q-Knight or a K-Knight?</p>
+<p><strong>Solution</strong> : Q- and K-Knights can never claim to be a Knave. Neither can Knaves because they can only say false statements. So, no inhabitant on the island can ever claim to be a Knave. So, $B$ lies and is a Knave, so his stament has truth-value $0$. $C$ claims the negation of what $B$ says so the truth-value of his statement is $\neg 0 = Q$. $C$ must be a Q-Knight.</p>
+<p>As if this were not difficult enough, Karin likes to complicate things by letting the Queen and King assign their own truth-values to all sentences, which may coincide with their actual truth-value or not.</p>
+<p>Clearly, these two truth-assignments follow the logic of the island of two truths for composed sentences, and we impose one additional rule: if the Queen assigns value $0$ to a statement, then so does the King, and vice versa.</p>
+<p>I guess she wanted to set the stage for variations to the island of two truths of <a href="https://en.wikipedia.org/wiki/Epistemic_modal_logic">epistemic modal logical</a> puzzles as in Smullyan&#8217;s book <a href="https://raymondsmullyan.com/books/forever-undecided/">Forever Undecided</a> (for a quick summary, have a look at Smullyan&#8217;s paper <a href="http://www.tark.org/proceedings/tark_mar19_86/p341-smullyan.pdf">Logicians who reason about themselves</a>).</p>
+<p>A possible interpretation of the Queen&#8217;s truth-assignment is that she assigns value $Q$ to all statements she believes to be true, value $0$ to all statements she believes to be false, and value $K$ to all statements she has no fixed opinion on (she neither believes them to be true nor false). The King assigns value $K$ to all statements he believes to be true, $0$ to those he believes to be false, and $Q$ to those he has no fixed opinion on.</p>
+<p>For example, if the Queen has no fixed opinion on $p$ (so she assigns value $K$ to it), then the King can either believe $p$ (if he also assigns value $K$ to it) or can have no fixed opinion on $p$ (if he assigns value $Q$ to it), but he can never believe $p$ to be false.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2island3.png" width=70%><br />
+</center></p>
+<p><strong>Puzzle</strong> : We say that Queen and King &#8216;agree&#8217; on a statement $p$ if they both assign the same value to it. So, they agree on all statements one of them (and hence both) believe to be false. But there&#8217;s more:</p>
+<ul>
+<li>Show that Queen and King agree on the negation of all statements one of them believes to be false.</li>
+<li>Show that the King never believes the negation of whatever statement.</li>
+<li>Show that the Queen believes all negations of statements the King believes to be false.</li>
+</ul>
+<p><strong>Solution</strong> : If one of them believes $p$ to be false (s)he will assign value $0$ to $p$ (and so does the other), but then they both have to assign value $Q$ to $\neg p$, so they agree on this.</p>
+<p>The value of $\neg p$ can never be $K$, so the King does not believe $\neg p$.</p>
+<p>If the King believes $p$ to be false he assigns value $0$ to it, and so does the Queen, but then the value of $\neg p$ is $Q$ and so the Queen believes $\neg p$.</p>
+<p>We see that the Queen and King agree on a lot of statements, they agree on all statements one of them believes to be false, and they agree on the negation of such statements!</p>
+<p>Can you find any statement at all on which they do not agree?</p>
+<p>Well, that may be a little bit premature. We didn&#8217;t say which sentences about the island are allowed, and what the connection (if any) is between the Queen and King&#8217;s value-assignments and the actual truth values.</p>
+<p>For example, the Queen and King may agree on a classical ($0$ or $1$) truth-assignments to the atomic sentences for the island, and replace all $1$&#8217;s with $Q$. This will give a consistent assignment of truth-values, compatible with the island&#8217;s strange logic. (We cannot do the same trick replacing $1$&#8217;s by $K$ because $\neg 0 = Q$).</p>
+<p>Clearly, such a system may have no relation at all with the intended meaning of these sentences on the island (the actual truth-values).</p>
+<p>That&#8217;s why <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a> introduced the notions of &#8216;loyalty&#8217; and &#8216;sanity&#8217; for inhabitants of the island. That&#8217;s for next time, and perhaps then you&#8217;ll be able to answer the question whether Queen and King agree on all statements.</p>
+<p>(all images in this post are from Smullyan&#8217;s book <a href="https://www.amazon.com/Alice-Puzzle-Land-Carrollian-Children-Recreational/dp/0486482006">Alice in Puzzle-Land</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>some skew Smullyan stumpers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 21 Sep 2023 12:05:48 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Cvetko-Vah]]></category>
+		<category><![CDATA[Hemelaer]]></category>
+		<category><![CDATA[Heyting]]></category>
+		<category><![CDATA[skew]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[some]]></category>
+		<category><![CDATA[stumpers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11674</guid>
+
+					<description><![CDATA[Raymond Smullyan&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://static01.nyt.com/images/2017/02/12/us/12smullyan-obit/12smullyan-obit-superJumbo.jpg" width=100%></p>
+<p><a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s a classic example.</p>
+<p>&#8220;On the day of his arrival, the anthropologist Edgar Abercrombie came across three inhabitants, whom we will call $A$, $B$ and $C$. He asked $A$: &#8220;Are you a Knight or a Knave?&#8221; $A$ answered, but so indistinctly that Abercrombie could not understand what he said.</p>
+<p>He then asked $B$: &#8220;What did he say?&#8221; $B$ replies: &#8220;He said that he is a knave.&#8221; At this point, $C$ piped up and said: &#8220;Don&#8217;t believe that; it&#8217;s a lie!&#8221;</p>
+<p>Was $C$ a Knight or a Knave?&#8221;</p>
+<p>If you are stumped by this, try to figure out what kind of inhabitant can say &#8220;I am a Knave&#8221;.</p>
+<p>Some years ago, my friend and co-author <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a> wrote about a much stranger island, <a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">the island of two truths</a>.</p>
+<p>&#8220;The island was ruled by a queen and a king. It is important to stress that the queen was neither inferior nor superior to the king. Rather than as a married couple one should think of the queen and the king as two parallel powers, somewhat like the Queen of the Night and the King Sarastro in Mozart&#8217;s famous opera The Magic Flute. The queen and the king had their own castle each, each of them had their own court, their own advisers and servants, and most importantly each of them even had their own truth value.</p>
+<p>On the island, a proposition p is either FALSE, Q-TRUE or K-TRUE; in each of the cases we say that p has value 0, Q or K, respectively. The queen finds the truth value Q to be superior, while the king values the most the value K. The queen and the king have their opinions on all issues, while other residents typically have their opinions on some issues but not all.&#8221;</p>
+<p>The logic of the island of two truths is the easiest example of what Karin and I called a non-commutative frame or skew Heyting algebra (see <a href="https://arxiv.org/abs/1702.04949">here</a>), a notion we then used, jointly with <a href="https://jenshemelaer.com/">Jens Hemelaer</a>, to define the notion of a <a href="https://arxiv.org/abs/1705.02831">non-commutative topos</a>.</p>
+<p><img decoding="async" src="https://elle.metropolitan.si/media/cache/upload/Photo/2014/10/22/s43_40_cvetko-vah-karin_fbimage.jpg" width=100%></p>
+<p>If you take our general definitions, and take Q as the distinguished top-element, then the truth tables for the island of two truths are these ones (value of first term on the left, that of the second on top):</p>
+<p>\[<br />
+\begin{array}{c|ccc}<br />
+\wedge &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+Q &#038; 0 &#038; Q &#038; Q \\<br />
+K &#038; 0 &#038; K &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\vee &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; 0 &#038; Q &#038; K \\<br />
+Q &#038; Q &#038; Q &#038; K \\<br />
+K &#038; K &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|ccc}<br />
+\rightarrow &#038; 0 &#038; Q &#038; K \\<br />
+\hline<br />
+0 &#038; Q &#038; Q &#038; K \\<br />
+Q &#038; 0 &#038; Q &#038; K \\<br />
+K &#038; 0 &#038; Q &#038; K<br />
+\end{array} \quad<br />
+\begin{array}{c|c}<br />
+ &#038; \neg  \\<br />
+\hline<br />
+0 &#038; Q \\<br />
+Q &#038; 0 \\<br />
+K &#038; 0<br />
+\end{array}<br />
+\]</p>
+<p>Note that on this island the order of statements is important! That is, the truth value of $p \wedge q$ may differ from that of $q \wedge p$ (and similarly for $\vee$).</p>
+<p>Let&#8217;s reconsider Smullyan&#8217;s puzzle at the beginning of this post, but now on an island of two truths, where every inhabitant is either of Knave, or a Q-Knight (uttering only Q-valued statements), or a K-Knight (saying only K-valued statements).</p>
+<p>Again, can you determine what type $C$ is?</p>
+<p>Well, if you forget about the distinction between Q- and K-valued sentences, then we&#8217;re back to classical logic (or more generally, if you divide out Green&#8217;s equivalence relation from any skew Heyting algebra you obtain an ordinary Heyting algebra), and we have seen that then $B$ must be a Knave and $C$ a Knight, so in our new setting we know that $C$ is either a Q-Knight or a K-Knight, but which of the two?</p>
+<p>Now, $C$ claims the negation of what $B$ said, so the truth value is $\neg 0 = Q$, and therefore $C$ must be a Q-Knight.</p>
+<p>Recall that in <a href="https://si.linkedin.com/in/karin-cvetko-vah-8430a350">Karin Cvetko-Vah</a>&#8216;s island of two truths all sentences have a unique value which can be either $0$ (false) or one of the non-false values Q or K, and the value of combined statements is given by the truth tables above. The Queen and King both have an opinion on all statements, which may or may not coincide with the actual value of that statement. However, if the Queen assigns value $0$ to a statement, then so does the King, and conversely.</p>
+<p>Other inhabitants of the island have only their opinion about a subset of all statements (which may be empty). Two inhabitants <em>agree</em> on a statement if they both have an opinion on it and assign the same value to it.</p>
+<p>Now, each inhabitant is either <em>loyal</em> to the Queen or to the King (or both), meaning that they agree with the Queen (resp. King) on all statements they have an opinion of. An inhabitant loyal to the Queen is said to <em>believe</em> a sentence when she assigns value $Q$ to it (and symmetric for those loyal to the King), and <em>knows</em> the statement if she believes it and that value coincides with the actual value of that statement.</p>
+<p>Further, if A is loyal to the Queen, then the value of the statement &#8216;A is loyal to the Queen&#8217; is Q, and if A is not loyal to the Queen, then the value of the sentence &#8216;A is loyal to the Queen&#8217; is $0$ (and similarly for statements about loyalty to the King).</p>
+<p>These notions are enough for the first batch of ten puzzles in Karin&#8217;s posts</p>
+<ul>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">Oscar on the island of two truths</a></li>
+<li><a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a></li>
+</ul>
+<p>Just one example:</p>
+<p>Show that if anybody on the island knows that A is not loyal to the Queen, then everybody that has an opinion about the sentence &#8216;A is loyal to the Queen&#8217; knows that.</p>
+<p>After these two posts, Karin decided that it was more fun to blog about the use of non-commutative frames in data analysis.</p>
+<p>But, she once gave me a text containing many more puzzles (as well as all the answers), so perhaps I&#8217;ll share these in a follow-up post.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A suit with shorts</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 18 Sep 2023 14:32:01 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[personal]]></category>
+		<category><![CDATA[Lenstra]]></category>
+		<category><![CDATA[Mumford]]></category>
+		<category><![CDATA[shorts]]></category>
+		<category><![CDATA[suit]]></category>
+		<category><![CDATA[with]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11619</guid>
+
+					<description><![CDATA[I&#8217;m retiring in two weeks so I&#8217;m cleaning out my office. So far, I got rid of almost all paper-work and have split my book-collection&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m retiring in two weeks so I&#8217;m cleaning out my office.</p>
+<p>So far, I got rid of almost all paper-work and have split my book-collection in two: the books I want to take with me, and those anyone can grab away.</p>
+<p>Here&#8217;s the second batch (math/computer books in the middle, popular science to the right, thrillers to the left).</p>
+<p><center><br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/grotemagweg.jpg"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/magweg.jpg" width=100%></a><br />
+</center></p>
+<p>If you&#8217;re interested in some of these books (click for a larger image, if you want to zoom in) and are willing to pay the postage, leave a comment and I&#8217;ll try to send them if they survive the current &#8216;take-away&#8217; phase.</p>
+<p>Here are two books I definitely want to keep. On the left, an original mimeographed version of Mumford&#8217;s <a href="https://link.springer.com/book/10.1007/978-3-662-21581-4">&#8216;Red Book&#8217;</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/redbook.jpg" width=100%></p>
+<p>On the right, &#8216;Een pak met een korte broek&#8217; (&#8216;A suit with shorts&#8217;), a collection of papers by family and friends, presented to <a href="https://en.wikipedia.org/wiki/Hendrik_Lenstra">Hendrik Lenstra</a> on the occasion of the defence of his Ph.D. thesis on Euclidean number-fields, May 18th 1977.</p>
+<p>If the title intrigues you, a photo of young Hendrik in suit and shorts is included.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/lenstrakortebroek.jpg" width=100%></p>
+<p>This collection includes hilarious &#8216;papers&#8217; by famous people including</p>
+<ul>
+<li><a href="http://www.auemath.aichi-edu.ac.jp/teacher/kodani/lecture/zemi-r3/inukai2.pdf">&#8216;A headache-causing problem&#8217; by Conway (J.H.), Paterson (M.S.), and Moscow (U.S.S.R.)</a></li>
+<li>&#8216;A projective plain of order ten&#8217; by A.M. Odlyzko and N.J.A. Sloane</li>
+<li>&#8216;La chasse aux anneaux principaux non-Euclidiens dans l&#8217;enseignement&#8217; by Pierre Samuel</li>
+<li>&#8216;On time-like theorems&#8217; by Michiel Hazewinkel</li>
+<li>&#8216;She loves me, she loves me not&#8217; by Richard K. Guy</li>
+<li>&#8216;Theta invariants for affine root systems&#8217; by E.J.N. Looijenga</li>
+<li>&#8216;The prime of primes&#8217; by F. Lenstra and A.J. Oort</li>
+<li>(and many more, most of them in Dutch)</li>
+</ul>
+<p>Perhaps I can do a couple of posts on some of these papers. It might break this clean-up routine.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-suit-with-shorts/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the L-game</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 17 Sep 2023 11:38:33 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[DesignerMaths]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[de Bono]]></category>
+		<category><![CDATA[designermaths]]></category>
+		<category><![CDATA[L-game]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[winning ways]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11320</guid>
+
+					<description><![CDATA[In 1982, the BBC ran a series of 10 weekly programmes entitled de Bono&#8217;s Thinking Course. In the book accompanying the series Edward de Bono&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In 1982, the BBC ran a series of 10 weekly programmes entitled <a href="https://ia902600.us.archive.org/0/items/pdfy-RP-OuErwuZWp4xkk/deBonos_thinking_course_text.pdf">de Bono&#8217;s Thinking Course</a>. In the book accompanying the series <a href="https://en.wikipedia.org/wiki/Edward_de_Bono">Edward de Bono</a> recalls the origin of his &#8216;L-Game&#8217;:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamebegin.png" width=30%><br />
+</center></p>
+<blockquote><p>Many years ago I was sitting next to the famous mathematician, <a href="https://en.wikipedia.org/wiki/John_Edensor_Littlewood">Professor Littlewood</a>, at dinner in Trinity College. We were talking about getting computers to play chess. We agreed that chess was difficult because of the large number of pieces and different moves. It seemed an interesting challenge to design a game that was as simple as possible and yet could be played with a degree of skill.</p>
+<p>As a result of that challenge I designed the <a href="https://en.wikipedia.org/wiki/L_game">&#8216;L-Game&#8217;</a>, in which each player has only one piece (the L-shape piece). In turn he moves this to any new vacant position (lifting up, turning over, moving across the board to a vacant position, etc.). After moving his L-piece he can &#8211; if he wishes &#8211; move either one of the small neutral pieces to any new position. The object of the game is to block your opponent&#8217;s L-shape so that no move is open to it.
+</p></blockquote>
+<p>It is a pleasant exercise in symmetry to calculate the number of possible L-game positions.</p>
+<p>The $4 \times 4$ grid has $8$ symmetries, making up the dihedral group $D_8$: $4$ rotations and $4$ reflections.</p>
+<p>An L-piece breaks all these symmetries, that is, it changes in form under each of these eight operations. That is, using the symmetries of the $4 \times 4$-grid we can put one of the L-pieces (say the Red one) on the grid as a genuine L, and there are exactly 6 possibilities to do so.</p>
+<p>For each of these six positions one can then determine the number of possible placings of the Blue L-piece. This is best done separately for each of the 8 different shapes of that L-piece.</p>
+<p>Here are the numbers when the red L is placed in the left bottom corner:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamenumber1.png" width=85%><br />
+</center></p>
+<p>In total there are thus 24 possibilities to place the Blue L-piece in that case. We can repeat the same procedure for the remaining Red L-positions. Here are the number of possibilities for Blue in each case:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamenumber2.png" width=85%><br />
+</center></p>
+<p>That is, there are 82 possibilities to place the two L-pieces if the Red one stands as a genuine L on the board.</p>
+<p>But then, the L-game has exactly $18368 = 8 \times 82 \times 28$ different positions, where the factor</p>
+<ul>
+<li>$8$ gives the number of symmetries of the square $4 \times 4$ grid.</li>
+<li>Using these symmetries we can put the Red L-piece on the grid as a genuine $L$ and we just saw that this leaves $82$ possibilities for the Blue L-piece.</li>
+<li>This leaves $8$ empty squares and so $28 = \binom{8}{2}$ different choices to place the remaining two neutral pieces.</li>
+</ul>
+<p>The $2296 = 82 \times 28$ positions in which the red L-piece is placed as a genuine L can then be analysed by computer and the outcome is summarised in <a href="https://www.amazon.com/Winning-Ways-Your-Mathematical-Plays/dp/1138427578">Winning Ways 2</a> pages 384-386 (with extras on pages 408-409).</p>
+<p>Of the $2296$ positions only $29$ are $\mathcal{P}$-positions, meaning that the next player (Red) will loose. Here are these winning positions for Blue</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Ppositions1.png" width=70%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Ppositions2.png" width=70%><br />
+</center></p>
+<p>Here, neutral piece(s) should be put on the yellow square(s). A (potential) remaining neutral piece should be placed on one of the coloured squares. The different colours indicate the <em>remoteness</em> of the $\mathcal{P}$-position:</p>
+<ul>
+<li>Pink means remoteness $0$, that is, Red has no move whatsoever, so mate in $0$.</li>
+<li>Orange means remoteness $2$: Red still has a move, but will be mated after Blue&#8217;s next move.</li>
+<li>Purple stands for remoteness $4$, that is, Blue mates Red in $4$ moves, Red starting.</li>
+<li>Violet means remoteness $6$, so Blue has a mate in $6$ with Red starting</li>
+<li>Olive stands for remoteness $8$: Blue mates within eight moves.</li>
+</ul>
+<p>Memorising these gives you a method to spot winning opportunities. After Red&#8217;s move image a board symmetry such that Red&#8217;s piece is a genuine L, check whether you can place your Blue piece and one of the yellow pieces to obtain one of the 29 $\mathcal{P}$-positions, and apply the reverse symmetry to place your piece.</p>
+<p>If you don&#8217;t know this, you can run into trouble very quickly. From the starting position, Red has five options to place his L-piece before moving one of the two yellow counters.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen.png" width=85% ><br />
+</center></p>
+<p>All possible positions of the first option loose immediately.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen1.png" width=100% ><br />
+</center></p>
+<p>For example in positions $a,b,c,d,f$ and $l$, Blue wins by playing</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamewin.png" width=25%><br />
+</center></p>
+<p>Here&#8217;s my first attempt at an opening repertoire for the L-game. Question mark means immediate loss, question mark with a number means mate after that number of moves, x means your opponent plays a sensible strategy.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen2.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen3.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen4.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen5b.png" width=100% ><br />
+</center></p>
+<p>Surely I missed cases, and made errors in others. Please leave corrections in the comments and I&#8217;ll try to update the positions.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Grothendieck&#8217;s gribouillis (5)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-5/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-5/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 04 May 2023 14:12:36 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[(5)]]></category>
+		<category><![CDATA[Carmona]]></category>
+		<category><![CDATA[gribouillis]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[grothendieck’s]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11334</guid>
+
+					<description><![CDATA[After the death of Grothendieck in November 2014, about 30.000 pages of his writings were found in Lasserre. Since then I&#8217;ve been trying to follow&#8230;]]></description>
+										<content:encoded><![CDATA[<p>After the death of <a href="https://en.wikipedia.org/wiki/Alexander_Grothendieck">Grothendieck</a> in November 2014, about 30.000 pages of his writings were found in Lasserre.</p>
+<p><center><br />
+<img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/Boxes2.jpg" width=100%><br />
+</center></p>
+<p>Since then I&#8217;ve been trying to follow what happened to them:</p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/where-are-grothendiecks-writings">Where are Grothendieck&#8217;s writings?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/where-are-grothendiecks-writings-2">Where are Grothendieck&#8217;s writings? (2)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis">Grothendieck&#8217;s gribouillis</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-2">Grothendieck&#8217;s gribouillis (2)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-3">Grothendieck&#8217;s gribouillis (3)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-4">Grothendieck&#8217;s gribouillis (4)</a></li>
+</ul>
+<p>So, what&#8217;s new?</p>
+<p>In December last year, there was the official opening of the <a href="https://igrothendieck.org/en/">Istituto Grothendieck</a> in the little town of <a href="https://en.wikipedia.org/wiki/Mondov%C3%AC">Mondovi</a> in Northern Italy.The videos of the talks given at that meeting are <a href="https://www.youtube.com/channel/UCMvGIqDyRVWh9g0gWnQFobw">now online</a>.</p>
+<p>The Institute houses two centres, the <a href="https://igrothendieck.org/en/centre-for-topos-theory-and-its-applications/">Centre for topos theory and its applications</a> with mission statement:</p>
+<blockquote><p>The Centre for Topoi Theory and its Applications carries out highly innovative research in the field of Grothendieck’s topos theory, oriented towards the development of the unifying role of the concept of topos across different areas of mathematics.</p>
+<p>Particularly relevant to these aims is the theory of topos-theoretic ‘bridges’ of Olivia Caramello, coordinator of the Centre and principal investigator of the multi-year project “Topos theory and its applications”.</p></blockquote>
+<p>and the <a href="https://igrothendieck.org/en/centre-for-grothendiecian-studies/">Centre for Grothendiecian studies</a> with mission:</p>
+<blockquote><p>The Centre for Grothendiecian Studies is dedicated to honoring the memory of Alexander Grothendieck through extensive work to valorize his work and disseminate his ideas to the general public.</p>
+<p>In particular, the Centre aims to carry out historical/philosophical and editorial work to promote the publication of the unpublished works of A. Grothendieck, as well as to promote the production of translations of already published works in various languages.</p></blockquote>
+<p>No comment on the first. You can look up the Institute&#8217;s <a href="https://igrothendieck.org/en/governance/">Governance page</a>, contemplate recent <a href="https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town">IHES-events</a>, and conjure up your own story.</p>
+<p>More interesting is the Centre of Grothendiec(k)ian studies. Here&#8217;s the YouTube-clip of the statement made by Johanna Grothendieck (daughter of) at the opening.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/snwxeJOvD7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>She hopes for two things: to find money and interested persons to decrypt and digitalise Grothendieck&#8217;s Lasserre gribouillis, and to initiate the re-edition of the complete mathematical works of Grothendieck.</p>
+<p>So far, Grothendieck&#8217;s family was withholding access to the Lasserre writings. Now they seem to grant access to the Istituto Grothendieck and authorise it to digitalise the 30.000 pages.</p>
+<p>Further good news is that a few weeks ago <a href="https://igrothendieck.org/en/mateo-carmona-appointed-as-coordinator-of-csg/">Mateo Carmona was appointed as coordinator of the Centre of grothendieckian studies</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://igrothendieck.org/wp-content/uploads/2023/04/MateoCarmonaCoordinatorCSG-1536x2048.jpg" width=50%><br />
+</center></p>
+<p>You may know Mateo from his <a href="https://agrothendieck.github.io/">Grothendieck Github Archive</a>. A warning note on that page states: &#8220;This site no longer updates (since Feb. 2023) and has been archived. Please visit [Instituto Grothendieck] or write to Mateo Carmona at mateo.carmona@csg.igrothendieck.org&#8221;. So probably the site will be transferred to the Istituto.</p>
+<p>Mateo Carmona says:</p>
+<blockquote><p>As Coordinator of the CSG, I will work tirelessly to ensure that the Centre provides comprehensive resources for scholars, students, and enthusiasts interested in Grothendieck’s original works and modern scholarship. I look forward to using my expertise to coordinate and supervise the work of the international group of researchers and volunteers who will promote Grothendieck’s scientific and cultural heritage through the CSG.</p></blockquote>
+<p>It looks as if Grothendieck&#8217;s gribouillis are in good hands, at last.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-5/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Against toposes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/against-toposes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/against-toposes/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 12 Apr 2023 08:41:46 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[france]]></category>
+		<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[against]]></category>
+		<category><![CDATA[Dugowson]]></category>
+		<category><![CDATA[Levi-Strauss]]></category>
+		<category><![CDATA[topos theory]]></category>
+		<category><![CDATA[toposes]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11076</guid>
+
+					<description><![CDATA[The French anthropologist and ethnologist Claude Levi-Strauss once observed &#8220;In Paris, intellectuals need a new toy every 15 years.&#8221; Some pointers to applications of their&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The French anthropologist and ethnologist <a href="https://en.wikipedia.org/wiki/Claude_L%C3%A9vi-Strauss">Claude Levi-Strauss</a> once observed</p>
+<blockquote><p>
+&#8220;In Paris, intellectuals need a new toy every 15 years.&#8221;
+</p></blockquote>
+<p>Some pointers to applications of their toy of choice for the past ten years:</p>
+<ul>
+<li>Langlands correspondence (see <a href="https://www.laurentlafforgue.org/math/TheorieCaramello.pdf">here</a>)</li>
+<li>Riemann hypothesis (see <a href="https://arxiv.org/pdf/1509.05576.pdf">here</a>)</li>
+<li>Machine learning (see <a href="https://arxiv.org/abs/2106.14587">here</a>)</li>
+<li>Literature (see <a href="https://lievenlebruyn.github.io/neverendingbooks/archangel-gabriel-will-make-you-a-topos">here</a>)</li>
+<li>Psycho-analysis (see <a href="https://sites.google.com/site/dugowsonrecherche/coordinations-colloques/LG">here</a>)</li>
+<li>Design theory (see <a href="https://theory.designsociety.org/11/15TH+SIG+DESIGN+THEORY+PARIS+WORKSHOP+%2831ST+JANUARY+-+1ST+FEBRUARY+2022%2C+PARIS%2C+FRANCE%29">here</a>)</li>
+<li><a href="https://en.wikipedia.org/wiki/Haute_cuisine">Haute cuisine</a> (see <a href="https://www.cambridge.org/core/journals/proceedings-of-the-international-conference-on-engineering-design/article/innovative-design-within-tradition-injecting-topos-structures-in-ck-theory-to-model-culinary-creation-heritage/CFA7A8ED527F8DEF4D05E33BF858CEC6">here</a>)</li>
+<li>6G (see <a href="http://r.huaweistatic.com/s/sedata/v1/semantic-workshop-2023.html">here</a>)</li>
+<li>&#8230;</li>
+</ul>
+<p>How do Parisian mathematicians with a lifelong interest in topos theory react to this hype?</p>
+<p>With humour!</p>
+<p>Here&#8217;s an &#8216;exposé parodique&#8217; (parodical lecture) by <a href="https://sites.google.com/site/dugowsonrecherche">Stéphane Dugowson</a> on &#8220;Contre les topos&#8221; (against toposes).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ZdoLiIfmJ7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/against-toposes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Stephen Wolfram on ChatGPT</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 04 Apr 2023 12:05:44 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[GPT-2]]></category>
+		<category><![CDATA[logic]]></category>
+		<category><![CDATA[Mathematica]]></category>
+		<category><![CDATA[stephen]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[Wolfram]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11193</guid>
+
+					<description><![CDATA[A month ago, Stephen Wolfram put out a little booklet (140 pages) What Is ChatGPT Doing &#8230; and Why Does It Work?. It gives a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A month ago, <a href="https://en.wikipedia.org/wiki/Stephen_Wolfram">Stephen Wolfram</a> put out a little booklet (140 pages) <a href="https://www.amazon.com/What-ChatGPT-Doing-Does-Work-ebook/dp/B0BY59PT5Z/">What Is ChatGPT Doing &#8230; and Why Does It Work?</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/71Ve3AUJO+L.jpg" width=40%><br />
+</center></p>
+<p>It gives a gentle introduction to large language models and the architecture and training of neural networks.</p>
+<p>The entire book is freely available:</p>
+<ul>
+<li><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/">What Is ChatGPT Doing … and Why Does It Work?</a></li>
+<li><a href="https://writings.stephenwolfram.com/2023/01/wolframalpha-as-the-way-to-bring-computational-knowledge-superpowers-to-chatgpt/">Wolfram|Alpha as the Way to Bring Computational Knowledge Superpowers to ChatGPT</a></li>
+</ul>
+<p>The advantage of these online texts is that you can click on any of the images, copy their content into a Mathematica notebook, and play with the code.</p>
+<p>This really gives a good idea of how an extremely simplified version of ChatGPT (based on GPT-2) works.</p>
+<p>Downloading the model (within Mathematica) uses about 500Mb, but afterwards you can complete any prompt quickly, and see how the results change if you turn up the &#8216;temperature&#8217;.</p>
+<p>You should&#8217;t expect too much from this model. Here&#8217;s what it came up with from the prompt &#8220;The major results obtained by non-commutative geometry include &#8230;&#8221; after 20 steps, at temperature 0.8:</p>
+<p><code><br />
+NestList[StringJoin[#, model[#, {"RandomSample", "Temperature" -> 0.8}]] &,<br />
+ "The major results obtained by non-commutative geometry include ", 20]</p>
+<p>The major results obtained by non-commutative geometry include vernacular accuracy of math and arithmetic, a stable balance between simplicity and complexity and a relatively low level of violence.<br />
+</code></p>
+<p>Lol.</p>
+<p>In the more philosophical sections of the book, Wolfram speculates about the secret rules of language that ChatGPT must have found if we want to explain its apparent succes. One of these rules, he argues, must be the &#8216;logic&#8217; of languages:</p>
+<blockquote><p>
+But is there a general way to tell if a sentence is meaningful? There’s no traditional overall theory for that. But it’s something that one can think of ChatGPT as having implicitly “developed a theory for” after being trained with billions of (presumably meaningful) sentences from the web, etc.</p>
+<p>What might this theory be like? Well, there’s one tiny corner that’s basically been known for two millennia, and that’s logic. And certainly in the syllogistic form in which Aristotle discovered it, logic is basically a way of saying that sentences that follow certain patterns are reasonable, while others are not.
+</p></blockquote>
+<p>Something else ChatGPT may have discovered are language&#8217;s &#8216;semantic laws of motion&#8217;, being able to complete sentences by following &#8216;geodesics&#8217;:</p>
+<blockquote><p>
+And, yes, this seems like a mess—and doesn’t do anything to particularly encourage the idea that one can expect to identify “mathematical-physics-like” “semantic laws of motion” by empirically studying “what ChatGPT is doing inside”. But perhaps we’re just looking at the “wrong variables” (or wrong coordinate system) and if only we looked at the right one, we’d immediately see that ChatGPT is doing something “mathematical-physics-simple” like following geodesics. But as of now, we’re not ready to “empirically decode” from its “internal behavior” what ChatGPT has “discovered” about how human language is “put together”.
+</p></blockquote>
+<p>So, the &#8216;hidden secret&#8217; of successful large language models may very well be a combination of logic and geometry. Does this sound <a href="https://lievenlebruyn.github.io/neverendingbooks/category/gbrain">familiar</a>?</p>
+<p>If you prefer watching YouTube over reading a book, or if you want to see the examples in action, here&#8217;s a video by Stephen Wolfram. The stream starts about 10 minutes into the clip, and the whole lecture is pretty long, well over 3 hours (about as long as it takes to read <a href="https://www.amazon.com/What-ChatGPT-Doing-Does-Work-ebook/dp/B0BY59PT5Z/">What Is ChatGPT Doing &#8230; and Why Does It Work?</a>).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/flXrLGPY3SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

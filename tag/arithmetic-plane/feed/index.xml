@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>arithmetic plane &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/arithmetic-plane/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 21 Jan 2022 15:24:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Smirnov on $\mathbb{F}_1$ and the RH</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/smirnov-on-mathbbf_1-and-the-rh/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/smirnov-on-mathbbf_1-and-the-rh/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 21 Jan 2022 15:24:19 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[arithmetic plane]]></category>
+		<category><![CDATA[arithmetic site]]></category>
+		<category><![CDATA[Smirnov]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10069</guid>
+
+					<description><![CDATA[Wednesday, Alexander Smirnov (Steklov Institute) gave the first talk in the $\mathbb{F}_1$ world seminar. Here&#8217;s his title and abstract: Title: The 10th Discriminant and Tensor&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Wednesday, Alexander Smirnov (Steklov Institute) gave the first talk in the <a href="https://funworldseminar.wordpress.com/">$\mathbb{F}_1$ world seminar</a>. Here&#8217;s his title and abstract:</p>
+<p>Title: The 10th Discriminant and Tensor Powers of $\mathbb{Z}$</p>
+<p>&#8220;We plan to discuss very shortly certain achievements and disappointments of the $\mathbb{F}_1$-approach. In addition, we will consider a possibility to apply noncommutative tensor powers of $\mathbb{Z}$ to the Riemann Hypothesis.&#8221;</p>
+<p>Here&#8217;s his talk, and part of the comments section:</p>
+<p><iframe src="https://drive.google.com/file/d/1MAlFu8kLXxiy3sToxAeap2yxYjBhY_dS/preview" width="640" height="480" allow="autoplay"></iframe></p>
+<p>Smirnov urged us to pay attention to a 1933 result by <a href="https://en.wikipedia.org/wiki/Max_Deuring">Max Deuring</a> in <a href="https://www.digizeitschriften.de/dms/img/?PID=GDZPPN002374579">Imaginäre quadratische Zahlkörper mit der Klassenzahl 1</a>:</p>
+<p>&#8220;If there are infinitely many imaginary quadratic fields with class number one, then the RH follows.&#8221;</p>
+<p>Of course, we now know that there are exactly nine such fields (whence there is no &#8216;tenth discriminant&#8217; as in the title of the talk), and one can deduce anything from a false statement.</p>
+<p>Deuring&#8217;s argument, of course, was different:</p>
+<p>The zeta function $\zeta_{\mathbb{Q} \sqrt{-d}}(s)$ of a quadratic field $\mathbb{Q}\sqrt{-d}$,  counts the number of ideals $\mathfrak{a}$ in the ring of integers of norm $n$, that is<br />
+\[<br />
+\sum_n \#(\mathfrak{a}:N(\mathfrak{a})=n) n^{-s} \]<br />
+It is equal to $\zeta(s). L(s,\chi_d)$ where $\zeta(s)$ is the usual Riemann function and $L(s,\chi_d)$ the $L$-function of the character $\chi_d(n) = (\frac{-4d}{n})$.</p>
+<p>Now, if the class number of $\mathbb{Q}\sqrt{-d}$ is one (that is, its ring of integers is a principal ideal domain) then Deuring was able to relate $\zeta_{\mathbb{Q} \sqrt{-d}}(s)$ to $\zeta(2s)$ with an error term, depending on $d$, and if we could run $d \rightarrow \infty$ the error term vanishes.</p>
+<p>So, if there were infinitely many imaginary quadratic fields with class number one we would have the equality<br />
+\[<br />
+\zeta(s) . \underset{\rightarrow}{lim}~L(s,\chi_d) = \zeta(2s) \]<br />
+Now, take a complex number $s \not=1$ with real part strictly greater that $\frac {1}{2}$, then $\zeta(2s) \not= 0$. But then, from the equality, it follows that $\zeta(s) \not= 0$, which is the RH.</p>
+<p>To extend (a version of) the Deuring-argument to the $\mathbb{F}_1$-world, Smirnov wants to have many examples of commutative rings $A$ whose multiplicative monoid $A^{\times}$ is isomorphic to $\mathbb{Z}^{\times}$, the multiplicative monoid of the integers.</p>
+<p>What properties must $A$ have?</p>
+<p>Well, it can only have two units, it must be a unique factorisation domain, and have countably many irreducible elements. For example, $\mathbb{F}_3[x_1,\dots,x_n]$ will do!</p>
+<p>(Note to self: contemplate the fact that all such rings share the same arithmetic site.)</p>
+<p>Each such ring $A$ becomes a $\mathbb{Z}$-module by defining a new addition $+_{new}$ on it via<br />
+\[<br />
+a +_{new} b = \sigma^{-1}(\sigma(a) +_{\mathbb{Z}} \sigma(b)) \]<br />
+where $\sigma : A^{\times} \rightarrow \mathbb{Z}^{\times}$ is the isomorphism of multiplicative monoids, and on the right hand side we have the usual addition on $\mathbb{Z}$.</p>
+<p>But then, any pair $(A,A&#8217;)$ of such rings will give us a module over the ring $\mathbb{Z} \boxtimes_{\mathbb{Z}^{\times}} \mathbb{Z}$.</p>
+<p>It was not so clear to me what this ring is (if you know, please drop a comment), but I guess it must be a commutative ring having all these properties, and being a quotient of the ring $\mathbb{Z} \boxtimes_{\mathbb{F}_1} \mathbb{Z}$, the coordinate ring of the elusive arithmetic plane<br />
+\[<br />
+\mathbf{Spec}(\mathbb{Z}) \times_{\mathbf{Spec}(\mathbb{F}_1)} \mathbf{Spec}(\mathbb{Z}) \]</p>
+<p>Smirnov&#8217;s hope is that someone can use a Deuring-type argument to prove:</p>
+<p>&#8220;If $\mathbb{Z} \boxtimes_{\mathbb{Z}^{\times}} \mathbb{Z}$ is &#8216;sufficiently complicated&#8217;, then the RH follows.&#8221;</p>
+<p>If you want to attend the seminar when it happens, please register for the <a href="https://sympa.usu.edu/wws/info/f1worldseminar">seminar&#8217;s mailing list</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/smirnov-on-mathbbf_1-and-the-rh/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

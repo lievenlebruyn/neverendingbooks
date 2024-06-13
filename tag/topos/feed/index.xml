@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>topos &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/topos/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 04 Apr 2023 12:05:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Stephen Wolfram on ChatGPT</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 04 Apr 2023 12:05:44 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[GPT-2]]></category>
+		<category><![CDATA[logic]]></category>
+		<category><![CDATA[Mathematica]]></category>
+		<category><![CDATA[stephen]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[Wolfram]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11193</guid>
+
+					<description><![CDATA[A month ago, Stephen Wolfram put out a little booklet (140 pages) What Is ChatGPT Doing &#8230; and Why Does It Work?. It gives a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A month ago, <a href="https://en.wikipedia.org/wiki/Stephen_Wolfram">Stephen Wolfram</a> put out a little booklet (140 pages) <a href="https://www.amazon.com/What-ChatGPT-Doing-Does-Work-ebook/dp/B0BY59PT5Z/">What Is ChatGPT Doing &#8230; and Why Does It Work?</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/71Ve3AUJO+L.jpg" width=40%><br />
+</center></p>
+<p>It gives a gentle introduction to large language models and the architecture and training of neural networks.</p>
+<p>The entire book is freely available:</p>
+<ul>
+<li><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/">What Is ChatGPT Doing … and Why Does It Work?</a></li>
+<li><a href="https://writings.stephenwolfram.com/2023/01/wolframalpha-as-the-way-to-bring-computational-knowledge-superpowers-to-chatgpt/">Wolfram|Alpha as the Way to Bring Computational Knowledge Superpowers to ChatGPT</a></li>
+</ul>
+<p>The advantage of these online texts is that you can click on any of the images, copy their content into a Mathematica notebook, and play with the code.</p>
+<p>This really gives a good idea of how an extremely simplified version of ChatGPT (based on GPT-2) works.</p>
+<p>Downloading the model (within Mathematica) uses about 500Mb, but afterwards you can complete any prompt quickly, and see how the results change if you turn up the &#8216;temperature&#8217;.</p>
+<p>You should&#8217;t expect too much from this model. Here&#8217;s what it came up with from the prompt &#8220;The major results obtained by non-commutative geometry include &#8230;&#8221; after 20 steps, at temperature 0.8:</p>
+<p><code><br />
+NestList[StringJoin[#, model[#, {"RandomSample", "Temperature" -> 0.8}]] &,<br />
+ "The major results obtained by non-commutative geometry include ", 20]</p>
+<p>The major results obtained by non-commutative geometry include vernacular accuracy of math and arithmetic, a stable balance between simplicity and complexity and a relatively low level of violence.<br />
+</code></p>
+<p>Lol.</p>
+<p>In the more philosophical sections of the book, Wolfram speculates about the secret rules of language that ChatGPT must have found if we want to explain its apparent succes. One of these rules, he argues, must be the &#8216;logic&#8217; of languages:</p>
+<blockquote><p>
+But is there a general way to tell if a sentence is meaningful? There’s no traditional overall theory for that. But it’s something that one can think of ChatGPT as having implicitly “developed a theory for” after being trained with billions of (presumably meaningful) sentences from the web, etc.</p>
+<p>What might this theory be like? Well, there’s one tiny corner that’s basically been known for two millennia, and that’s logic. And certainly in the syllogistic form in which Aristotle discovered it, logic is basically a way of saying that sentences that follow certain patterns are reasonable, while others are not.
+</p></blockquote>
+<p>Something else ChatGPT may have discovered are language&#8217;s &#8216;semantic laws of motion&#8217;, being able to complete sentences by following &#8216;geodesics&#8217;:</p>
+<blockquote><p>
+And, yes, this seems like a mess—and doesn’t do anything to particularly encourage the idea that one can expect to identify “mathematical-physics-like” “semantic laws of motion” by empirically studying “what ChatGPT is doing inside”. But perhaps we’re just looking at the “wrong variables” (or wrong coordinate system) and if only we looked at the right one, we’d immediately see that ChatGPT is doing something “mathematical-physics-simple” like following geodesics. But as of now, we’re not ready to “empirically decode” from its “internal behavior” what ChatGPT has “discovered” about how human language is “put together”.
+</p></blockquote>
+<p>So, the &#8216;hidden secret&#8217; of successful large language models may very well be a combination of logic and geometry. Does this sound <a href="https://lievenlebruyn.github.io/neverendingbooks/category/gbrain">familiar</a>?</p>
+<p>If you prefer watching YouTube over reading a book, or if you want to see the examples in action, here&#8217;s a video by Stephen Wolfram. The stream starts about 10 minutes into the clip, and the whole lecture is pretty long, well over 3 hours (about as long as it takes to read <a href="https://www.amazon.com/What-ChatGPT-Doing-Does-Work-ebook/dp/B0BY59PT5Z/">What Is ChatGPT Doing &#8230; and Why Does It Work?</a>).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/flXrLGPY3SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The enriched vault</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 10 Mar 2023 08:42:29 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[Bradley]]></category>
+		<category><![CDATA[brat]]></category>
+		<category><![CDATA[enriched]]></category>
+		<category><![CDATA[enriched category]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[graph analysis]]></category>
+		<category><![CDATA[Jaccard]]></category>
+		<category><![CDATA[language]]></category>
+		<category><![CDATA[Lawvere]]></category>
+		<category><![CDATA[metric]]></category>
+		<category><![CDATA[Terilla]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[vault]]></category>
+		<category><![CDATA[Vlassopoulos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11059</guid>
+
+					<description><![CDATA[In the shape of languages we started from a collection of notes, made a poset of text-snippets from them, and turned this into an enriched&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">the shape of languages</a> we started from a collection of notes, made a poset of text-snippets from them, and turned this into an <a href="https://en.wikipedia.org/wiki/Enriched_category">enriched category</a> over the unit interval $[0,1]$, following the paper paper <a href="https://arxiv.org/abs/2106.07890">An enriched category theory of language: from syntax to semantics</a> by Tai-Danae Bradley, John Terilla and Yiannis Vlassopoulos.</p>
+<p>This allowed us to view the text-snippets as points in a Lawvere <a href="https://en.wikipedia.org/wiki/Metric_space#Pseudoquasimetrics">pseudoquasi metric space</a>, and to define a &#8216;topos&#8217; of enriched presheaves on it, including the Yoneda-presheaves containing semantic information of the snippets.</p>
+<p>In the <a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">previous post</a> we looked at &#8216;building a second brain&#8217; apps, such as <a href="https://logseq.com/">LogSeq</a> and <a href="https://obsidian.md/">Obsidian</a>, and hoped to use them to test the conjectured <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">&#8216;topos of the unconscious&#8217;</a>.</p>
+<p>In <a href="https://obsidian.md/">Obsidian</a>, a <em>vault</em> is a collection of notes (with their tags and other meta-data), together with all links between them.</p>
+<p>The vault of the language-poset will have one note for every text-snipped, and have a link from note $n$ to note $m$ if $m$ is a text-fragment in $n$.</p>
+<p>In their paper, Bradley, Terilla and Vlassopoulos use the enrichment structure where $\mu(n,m) \in [0,1]$ is the conditional probablity of the fragment $m$ to be extended to the larger text $n$.</p>
+<p>Most Obsidian vaults are a lot more complicated, possibly having oriented cycles in their internal link structure.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Gbrain1.png" width=100% ><br />
+</center></p>
+<p>Still, it is always possible to turn the notes of the vault into a category enriched over $[0,1]$, in multiple ways, depending on whether we want to focus on the internal link-structure or rather on the semantic similarity between notes, or any combination of these.</p>
+<p>Let $X$ be a set of searchable data from your vault. Elements of $X$ may be</p>
+<ul>
+<li>words contained in notes</li>
+<li>in- or out-going links between notes</li>
+<li>tags used</li>
+<li><a href="https://help.obsidian.md/Editing+and+formatting/Metadata">YAML-frontmatter</a></li>
+<li>&#8230;</li>
+</ul>
+<p>Assign a positive real number $r_x \geq 0$ to every $x \in X$. We see $r_x$ as the &#8216;relevance&#8217; we attach to the search term $x$. So, it is possible to emphasise certain key-words or tags, find certain links more important than others, and so on.</p>
+<p>For this relevance function $r : X \rightarrow \mathbb{R}_+$, we have a function defined on all subsets $Y$ of $X$</p>
+<p>$$f_r~:~\mathcal{P}(X) \rightarrow \mathbb{R}_+ \qquad Y \mapsto f_r(Y) = \sum_{x \in Y} r_x$$</p>
+<p>Take a note $n$ from the vault $V$ and let $X_n$ be the set of search terms from $X$ contained in $n$.</p>
+<p>We can then define a (generalised) <a href="https://en.wikipedia.org/wiki/Jaccard_index">Jaccard distance</a> for any pair of notes $n$ and $m$ in $V$:</p>
+<p>$$ d_r(n,m) = \begin{cases}<br />
+0~\text{if $f_r(X_n \cup X_m)=0$} \\ 1-\frac{f_r(X_n \cap X_m)}{f_r(X_n \cup X_m)}~\text{otherwise} \end{cases}$$</p>
+<p>This distance is symmetric, $d_r(n,n)=0$ for all notes $n$, and the crucial property is that it satisfies the triangle inequality, that is, for all triples of notes $l$, $m$ and $n$ we have</p>
+<p>$$d_r(l,n) \leq d_r(l,m)+d_r(m,n)$$</p>
+<p>For a proof in this generality see the paper <a href="https://arxiv.org/abs/1612.02696">A note on the triangle inequality for the Jaccard distance</a> by Sven Kosub.</p>
+<p>How does this help to make the vault $V$ into a category enriched over $[0,1]$?</p>
+<p>The poset $([0,1],\leq)$ is the category with objects all numbers $a \in [0,1]$, and a unique morphism $a \rightarrow b$ between two numbers iff $a \leq b$. This category has limits (infs) and colimits (sups), has a monoidal structure $a \otimes b = a \times b$ with unit object $1$, and an internal hom</p>
+<p>$$Hom_{[0,1]}(a,b) = (a,b) = \begin{cases} \frac{b}{a}~\text{if $b \leq a$} \\ 1~\text{otherwise} \end{cases}$$</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enrichedvault.png" width=100% ><br />
+</center></p>
+<p>We say that the vault is an <em>enriched category</em> over $[0,1]$ if for every pair of notes $n$ and $m$ we have a number $\mu(n,m) \in [0,1]$ satisfying for all notes $n$</p>
+<p>$$\mu(n,n)=1~\quad~\text{and}~\quad~\mu(m,l) \times \mu(n,m) \leq \mu(n,l)$$</p>
+<p>for all triples of notes $l,m$ and $n$.</p>
+<p>Starting from any relevance function $r : X \rightarrow \mathbb{R}_+$ we define for every pair $n$ and $m$ of notes the distance function $d_r(m,n)$ satisfying the triangle inequality. If we now take</p>
+<p>$$\mu_r(m,n) = e^{-d_r(m,n)}$$</p>
+<p>then the triangle inequality translates for every triple of notes $l,m$ and $n$ into</p>
+<p>$$\mu_r(m,l) \times \mu_r(n,m) \leq \mu_r(n,l)$$</p>
+<p>That is, every relevance function makes $V$ into a category enriched over $[0,1]$.</p>
+<p>Two simple relevance functions, and their corresponding distance and enrichment functions are available from Obsidian&#8217;s <a href="https://github.com/SkepticMystic/graph-analysis">Graph Analysis</a> community plugin.</p>
+<p>To get structural information on the link-structure take as $X$ the set of all incoming and outgoing links in your vault, with relevance function the constant function $1$.</p>
+<p>&#8216;Jaccard&#8217; in Graph Analysis computes for the current note $n$ the value of $1-d_r(n,m)$ for all notes $m$, so if this value is $a \in [0,1]$, then the corresponding enrichment value is $\mu_r(m,n)=e^{a-1}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/jaccardG.png" width=60% ><br />
+</center></p>
+<p>To get semantic information on the similarity between notes, let $X$ be the set of all words in all notes and take again as relevance function the constant function $1$.</p>
+<p>To access &#8216;BoW&#8217; (Bags of Words) in Graph Analysis, you must first install the (non-community) <a href="https://github.com/SkepticMystic/nlp">NLP</a> plugin which enables various types of natural language processing in the vault. The install is best done via the <a href="https://github.com/TfTHacker/obsidian42-brat">BRAT plugin</a> (perhaps I&#8217;ll do a couple of posts on Obsidian someday).</p>
+<p>If it gives for the current note $n$ the value $a$ for a note $m$, then again we can take as the enrichment structure $\mu_r(n,m)=e^{a-1}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BoWG.png" width=60%><br />
+</center></p>
+<p>Graph Analysis offers more functionality, and a good introduction is given in this clip:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Id4ynVqP3Uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Calculating the enrichment data for custom designed relevance functions takes a lot more work, but is doable. Perhaps I&#8217;ll return to this later.</p>
+<p>Mathematically, it is probably more interesting to start with a given enrichment structure $\mu$ on the vault $V$, describe the category of all enriched presheaves $\widehat{V_{\mu}}$ and find out what we can do with it.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">The super-vault of missing notes</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Loading a second brain</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 06 Mar 2023 14:09:28 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Ahrens]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[Forte]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[graph]]></category>
+		<category><![CDATA[loading]]></category>
+		<category><![CDATA[LogSeq]]></category>
+		<category><![CDATA[mathjax]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[PKM]]></category>
+		<category><![CDATA[RoamResearch]]></category>
+		<category><![CDATA[second]]></category>
+		<category><![CDATA[SecondBrain]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11005</guid>
+
+					<description><![CDATA[Before ChatGPT, the hype among productivity boosters was a PKMs or Personal knowledge management system. It gained popularity through Tiago Forte&#8217;s book &#8216;Building a second&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Before ChatGPT, the hype among productivity boosters was a PKMs or <a href="https://en.wikipedia.org/wiki/Personal_knowledge_management">Personal knowledge management system</a>.</p>
+<p>It gained popularity through Tiago Forte&#8217;s book <a href="https://www.buildingasecondbrain.com/">&#8216;Building a second brain&#8217;</a>, and (for academics perhaps a more useful read) <a href="https://www.soenkeahrens.de/en/takesmartnotes">&#8216;How to take smart notes&#8217;</a> by Sönke Ahrens.</p>
+<p><center><br />
+<img decoding="async" src="https://m.media-amazon.com/images/I/412AXfNUJSL._SX313_BO1,204,203,200_.jpg" width=40%> <img decoding="async" src="https://m.media-amazon.com/images/I/41rkDzw+bSL._SX326_BO1,204,203,200_.jpg" width=41.7%><br />
+</center></p>
+<p>These books promote new techniques for note-taking (and for storing these notes) such as <a href="https://fortelabs.com/blog/para/">the PARA-method</a>, <a href="https://www.astar.studio/the-code-system/">the CODE-system</a>, and <a href="https://en.wikipedia.org/wiki/Zettelkasten">Zettelkasten</a>.</p>
+<p><a href="https://unmistakablecreative.com/category/second-brain/">Unmistakable Creative</a> has some posts on the principles behing the &#8216;second brain&#8217; approach.</p>
+<blockquote><p>
+Your brain isn’t like a hard drive or a dropbox, where information is stored in folders and subfolders. None of our thoughts or ideas exist in isolation. Information is organized in a series of non-linear associative networks in the brain.</p>
+<p>Networked thinking is not just a more efficient way to organize information. It frees your brain to do what it does best: Imagine, invent, innovate, and create. The less you have to remember where information is, the more you can use it to summarize that information and turn knowledge into action.
+</p></blockquote>
+<p>and</p>
+<blockquote><p>
+A network has no “correct” orientation and thus no bottom and no top. Each individual, or “node,” in a network functions autonomously, negotiating its own relationships and coalescing into groups. Examples of networks include a flock of birds, the World Wide Web, and the social ties in a neighborhood. Networks are inherently “bottom-up” in that the structure emerges organically from small interactions without direction from a central authority.</p>
+<p>-Tiago Forte, <a href="https://fortelabs.com/blog/a-complete-guide-to-tagging-for-personal-knowledge-management/">Tagging for Personal Knowledge Management</a>
+</p></blockquote>
+<p>There are several apps you can use to start building your second brain, the more popular seem to be <a href="https://roamresearch.com/">Roam Research</a>, <a href="https://logseq.com/">LogSeq</a>, and <a href="https://obsidian.md/">Obsidian</a>.</p>
+<p>These systems allow you to store, link and manipulate a large collection of notes, query them as a database, modify them in various ways via plugins or scripts, and navigate the network created via graph-views.</p>
+<p>Exactly the kind of things we need to modify the simple system from the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">shape of languages</a>-post into a proper topos of the unconscious.</p>
+<p>I&#8217;ve been playing around with <a href="https://obsidian.md/">Obsidian</a> which I like because it has good <a href="https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Mathjax+and+LaTeX+Plugins">LaTeX plugins</a>, powerful database tools via the <a href="https://blacksmithgu.github.io/obsidian-dataview/">Dataview plugin</a>, and one can execute codeblocks within notes in almost any programming language (python, haskell, lean, Mathematica, ruby, javascript, R, &#8230;).</p>
+<p>Most of all it has a vibrant community of users, an excellent <a href="https://forum.obsidian.md/">forum</a>, and a well-documented <a href="https://publish.obsidian.md/hub/%F0%9F%97%82%EF%B8%8F+hub">Obsidian hub</a>.</p>
+<p>There&#8217;s just one problem, I&#8217;m a terrible note-taker, so how can I begin to load my &#8216;second brain&#8217;?</p>
+<p>Obsidian has several plugins to import data, such as your Kindle highlights, your Twitter feed, your Readwise-data, and many others, but having been too lazy in the past, I cannot use any of them.</p>
+<p>In fact, the only useful collection of notes I have are my blog-posts. So, I&#8217;ve uploaded NeverEndingBooks into Obsidian, one note per post (admittedly, not very Zettelkasten-like), half a million words in total.</p>
+<p>Fortunately, I did tag most of these posts at the time. Together with other meta-data this results in the <a href="https://help.obsidian.md/Plugins/Graph+view">Graph view</a> below (under &#8216;Files&#8217; toggled tags, under &#8216;Groups&#8217; three tag-colours, and under &#8216;Display&#8217; toggled arrows). One can add colour-groups based on tags or other information (here, red dots are posts tagged &#8216;Grothendieck&#8217;, the blue ones are tagged &#8216;Conway&#8217;, the purple ones tagged &#8216;Connes&#8217;, just for the sake of illustration). In Obsidian you can zoom into this graph, place a pointer on a node to highlight the connecting dots, and much more.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBgraphview.png" width=100% ><br />
+</center></p>
+<p>Because I tend to forget such things, and as it may be useful to other people running a WordPress-blog making heavy use of MathJax, here&#8217;s the procedure I followed:</p>
+<p>1. Follow the instructions from <a href="https://daext.com/blog/convert-wordpress-articles-to-markdown/">Convert wordpress articles to markdown</a>.</p>
+<ul>
+<li>Export your WordPress posts to XML</li>
+<li>Install <a href="https://nodejs.org/en/">Node.js</a></li>
+<li>Run the <a href="https://github.com/lonekorean/wordpress-export-to-markdown">wordpress-export-to-markdown</a> script</li>
+</ul>
+<p>In the wizard I&#8217;ve opted to go only for yearly folders, to prefix posts with the date, and to save all images.</p>
+<p>2. This gives you a directory with one folder per year containing markdown versions of your posts, and in each year-folder a subfolder &#8216;img&#8217; containing all images.</p>
+<p>Turn this directory into an Obsidian-vault by opening Obsidian, click on the &#8216;open another vault&#8217; icon (third from bottom-left), select &#8216;Open folder as vault&#8217; and navigate to your directory.</p>
+<p>3. You will notice that most of your LaTeX cannot be parsed because during the markdown-process backslashes are treaded as special character, resulting in two backslashes for every LaTeX-command&#8230;</p>
+<p>A remark before trying to solve this: another option might be to use the <a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">wordpress-to-hugo-exporter</a>, resulting in clean LaTeX, but lacking the possibility to opt for yearly-folders (it dumps all posts into one folder), and it makes a mess of the image-files.</p>
+<p>4. So, we will need to do a lot of search&#038;replaces in all files, and need a convenient tool for this.</p>
+<p>First option was <a href="https://www.sublimetext.com/">the Sublime Text app</a>, which is free and does the search&#038;replaces quickly. The problem is that you have to save each of the files, one at a time! This may take hours.</p>
+<p>I&#8217;ve done it using the <a href="https://apps.apple.com/us/app/search-and-replace/id627484067?mt=12">Search and Replace app</a> (3$) which allows you to make several searches/replaces at the same time (I messed up LaTeX code in previous exports, so needed to do many more changes). It warns you that it is dangerous to replace strings in all files (which is the reason why Sublime Text makes it difficult), you can ignore it, but only after you put the &#8216;img&#8217; folders away in a safe place. Otherwise it will also try to make the changes to these files, recognise that they are not text-files, and drop them altogether&#8230;</p>
+<p>That&#8217;s it.</p>
+<p>I now have a backup network-version of this blog.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBzoom.png" width=100% ><br />
+</center></p>
+<p>As we mentioned in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">previous post</a> a first attempt to construct the &#8216;topos of the unconscious&#8217; might be to start with a collection of notes (the &#8216;conscious&#8217;) and work on the semantics of text-snippets to unravel (a part of) the unconscious underpinning of these notes. We also mentioned that the poset-structure in that post should be replaced by a more involved network structure.</p>
+<p>What interests me most is whether such an approach might be doable &#8216;in practice&#8217;, and Obsidian looks like the perfect tool to try this out.</p>
+<p>What we need is a sufficiently large set of notes, of independent interest, to inject into Obsidian. The more meta it is, the better&#8230;</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The shape of languages</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 03 Mar 2023 14:54:50 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[category theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[hier-Lafaye]]></category>
+		<category><![CDATA[languages]]></category>
+		<category><![CDATA[Lawvere]]></category>
+		<category><![CDATA[shape]]></category>
+		<category><![CDATA[Sibony]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10968</guid>
+
+					<description><![CDATA[In the topology of dreams we looked at Sibony&#8217;s idea to view dream-interpretations as sections in a fibered space. The &#8216;points&#8217; in the base-space and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">the topology of dreams</a> we looked at Sibony&#8217;s idea to view dream-interpretations as sections in a fibered space.</p>
+<p>The &#8216;points&#8217; in the base-space and fibers consisting of chunks of text, perhaps connected by links. The topology and shape of this fibered space is still shrouded in mystery.</p>
+<p>Let&#8217;s look at a simple approach to turn a large number of texts into a topos, and define a loose metric on it.</p>
+<p>There&#8217;s this paper <a href="https://arxiv.org/abs/2106.07890">An enriched category theory of language: from syntax to semantics</a> by Tai-Danae Bradley, John Terilla and Yiannis Vlassopoulos.</p>
+<p><a href="https://www.math3ma.com/about">Tai-Danae Bradley</a> is an excellent communicator of everything category related, so probably it is more fun to read her own blogposts on this paper:</p>
+<ul>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-1">Language, Statistics, &#038; Category Theory, Part 1</a></li>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-2">Language, Statistics, &#038; Category Theory, Part 2</a></li>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-3">Language, Statistics, &#038; Category Theory, Part 3</a></li>
+</ul>
+<p>or to watch her Categories for AI talk: &#8216;Category Theory Inspired by LLMs&#8217;:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/_LgWD3UTKfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Let&#8217;s start with a collection of notes. In the paper, they consider all possible texts written in some language, but it may be a set of webpages to train a language model, or a set of recollections by someone.</p>
+<p>Next, shred these notes into chunks of text, and point one of these to all the texts obtained by deleting some words at the start and/or end of it. For example, the note &#8216;a red rose&#8217; will point to &#8216;a red&#8217;, &#8216;red rose&#8217;, &#8216;a&#8217;, &#8216;red&#8217; and &#8216;rose&#8217; (but not to &#8216;a rose&#8217;).</p>
+<p>You may call this a category, to me it is just as a poset $(\mathcal{L},\leq)$. The maximal elements are the individual words, the minimal elements are the notes, or websites, we started from.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/languageposet.png" width=60%><br />
+</center></p>
+<p>A down-set $A$ of this poset $(\mathcal{L},\leq)$ is a subset of $\mathcal{L}$ closed under taking smaller elements, that is, if $a \in A$ and $b \leq a$, then $b \in A$.</p>
+<p>The intersection of two down-sets is again a down-set (or empty), and the union of down-sets is again a downset. That is, down-sets define a topology on our collection of text-snippets, or if you want, on language-fragments.</p>
+<p>For example, the open determined by the word &#8216;red&#8217; is the collection of all text-fragments containing this word.</p>
+<p>The corresponding presheaf topos $\widehat{\mathcal{L}}$ is then just the category of all (set-valued) presheaves on this topological space.<br />
+As an example, the Yoneda-presheaf $\mathcal{Y}(p)$ of a text-snippet $p$ is the contra-variant functor</p>
+<p>$$(\mathcal{L},\leq) \rightarrow \mathbf{Sets}$$</p>
+<p>sending any $q \leq p$ to the unique map $\ast$ from $q$ to $p$, and if $q \not\leq p$ then we map it to $\emptyset$. If $A$ is a down-set (an open of over topological space) then the sections of $\mathcal{Y}(p)$ over $A$ are $\{ \ast \}$ if for all $a \in A$ we have $a \leq p$, and $\emptyset$ otherwise.</p>
+<p>The presheaf $\mathcal{Y}(p)$ already contains some semantic information about the snippet $p$ as it gives all contexts in which $p$ appears.</p>
+<p>Perhaps interesting is that the &#8216;points&#8217; of the topos $\widehat{\mathcal{L}}$ are the notes we started from.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">Recall</a> that Connes and Gauthier-Lafaey want to construct a topos describing someone&#8217;s unconscious, and points of that topos should be the connection with that person&#8217;s consciousness.</p>
+<p>Suppose you want to unravel your unconscious. You start by writing down a large set of notes containing all relevant facts of your life. Then you construct from these notes the above collection of snippets and its corresponding pre-sheaf topos. Clearly, you wrote your notes consciously, but probably the exact phrasing of these notes, or recurrent themes in them, or some text-combinations are ruled by your unconscious.</p>
+<p>Ok, it&#8217;s not much, but perhaps it&#8217;s a germ of an potential approach&#8230;</p>
+<p><center><br />
+<img decoding="async" src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.spiritofchange.org/content/uploads/data-import/b9645d25/brain.jpg" width=60%><br />
+(<a href="https://www.spiritofchange.org/automatic-brain-the-magic-of-the-unconscious-mind/">Image credit</a>)<br />
+</center></p>
+<p>Now we come to the interesting part of the paper, the &#8216;enrichment&#8217; of this poset.</p>
+<p>Surely, some of these text-snippets will occur more frequently than others. For example, in your starting notes the snippet &#8216;red rose&#8217; may appear ten time more than the snippet &#8216;red dwarf&#8217;, but this is not visible in the poset-structure. So how can we bring in this extra information?</p>
+<p>If we have two text-snippets $p$ and $q$ and $q \leq p$, that is, $p$ is a connected sub-string of $q$. We can compute the conditional probability $\pi(q|p)$ which tells us how likely it is that if we spot an occurrence of $p$ in our starting notes, it is part of the larger sentence $q$. These numbers can be easily computed and from the rules of probability we get that for snippets $r \leq q \leq p$ we have that</p>
+<p>$$\pi(r|p) = \pi(r|q) \times \pi(q|r)$$</p>
+<p>so these numbers (all between $0$ and $1$) behave multiplicative along paths in the poset.</p>
+<p>Nice in theory, but it requires an awful lot of computation. From the paper:</p>
+<blockquote><p>
+The reader might think of these probabilities $\pi(q|p)$ as being most well defined when $q$ is a short extension of $p$. While one may be skeptical about assigning a probability distribution on the set of all possible texts, it’s reasonable to say there is a nonzero probability that cat food will follow I am going to the store to buy a can of and, practically speaking, that probability can be estimated.</p>
+<p>Indeed, existing <a href="https://en.wikipedia.org/wiki/Wikipedia:Large_language_models#:~:text=Large%20language%20models%20(LLMs)%20are,new%20or%20modify%20existing%20text.">LLMs</a> successfully learn these conditional probabilities $\pi(q|p)$ using standard machine learning tools trained on large corpora of texts, which may be viewed as providing a wealth of samples drawn from these conditional probability distributions.
+</p></blockquote>
+<p>It may be easier to have an estimate $\mu(q|p)$ of this conditional probability for immediate successors (that is, if $q$ is obtained from $p$ by adding one word at the beginning or end of it), and then extend this measure to all arrows in the poset by taking the maximum of products along paths. In this way we have for all $r \leq q \leq p$ that</p>
+<p>$$\mu(r|p) \geq \mu(r|q) \times \mu(q|p)$$</p>
+<p>The upshot is that this measure $\mu$ turns our poset (or category) $(\mathcal{L},\leq)$ into a category &#8216;enriched&#8217; over the unit interval $[ 0,1 ]$ (suitably made into a monoidal category).</p>
+<p>I&#8217;ll spare you the details, just want to flash out the corresponding notion of &#8216;enriched presheaves&#8217; which are the objects of the <em>semantic category</em> $\widehat{\mathcal{L}}^s$ in the paper, which is the enriched version of the presheaf category $\widehat{\mathcal{L}}$.</p>
+<p>An enriched presheaf is a <em>function</em> (not functor)</p>
+<p>$$F~:~\mathcal{L} \rightarrow [0,1]$$</p>
+<p>satisfying the condition that for all text-snippets $r,q \in \mathcal{L}$ we have that</p>
+<p>$$\mu(r|q) \leq [F(q),F(r)] = \begin{cases} \frac{F(r)}{F(q)}~\text{if $F(r) \leq F(q)$} \\ 1~\text{otherwise} \end{cases}$$</p>
+<p>Note that the enriched (or semantic) Yoneda presheaf $\mathcal{Y}^s(p)(q) = \mu(q|p)$ satisfies this condition, and now this data not only records the contexts in which $p$ appears, but also measures how likely it is for $p$ to appear in a certain context.</p>
+<p>Another cute application of the condition on the measure $\mu$ is that it allows us to define a &#8216;distance function&#8217; (satisfying the triangle inequality) on all text-snippets in $\mathcal{L}$ by</p>
+<p>$$d(q,p) = \begin{cases} -ln(\mu(q|p))~\text{if $q \leq p$} \\<br />
+ \infty~\text{otherwise} \end{cases}$$</p>
+<p>So, the higher $\mu(q|p)$ the closer $q$ lies to $p$, and now the snippet $p$ (example &#8216;red&#8217;) not only defines the open set in $\mathcal{L}$ of all texts containing $p$, but now we can structure the snippets in this open set with respect to this &#8216;distance&#8217;.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddistance.png" width=60%><br />
+</center></p>
+<p>In this way we can turn any language, or a collection of texts in a given language, into what <a href="https://en.wikipedia.org/wiki/William_Lawvere">Lawvere</a> called a &#8216;generalized metric space&#8217;.</p>
+<p>It looks as if we are progressing slowly in our, probably futile, attempt to understand Alain Connes&#8217; and Patrick Gauthier-Lafaye&#8217;s claim that &#8216;the unconscious is structured like a topos&#8217;.</p>
+<p>Even if we accept the fact that we can start from a collection of notes, there are a number of changes we need to make to the above approach:</p>
+<ul>
+<li>there will be contextual links between these notes</li>
+<li>we only want to retain the relevant snippets, not all of them</li>
+<li>between these &#8216;highlights&#8217; there may also be contextual links</li>
+<li>texts can be related without having to be concatenations</li>
+<li>we need to implement changes when new notes are added</li>
+<li>&#8230; (much more)</li>
+</ul>
+<p>Perhaps, we should try to work on a specific &#8216;case&#8217;, and explore all technical tools that may help us to make progress.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The topology of dreams</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 27 Feb 2023 14:41:39 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[dreams]]></category>
+		<category><![CDATA[fiber]]></category>
+		<category><![CDATA[Freud]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Lacan]]></category>
+		<category><![CDATA[sheaf]]></category>
+		<category><![CDATA[Sibony]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10937</guid>
+
+					<description><![CDATA[Last May, the meeting Lacan et Grothendieck, l’impossible rencontre? took place in Paris (see this post). Video&#8217;s of that meeting are now available online. Here&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Last May, the meeting <a href="https://sites.google.com/site/dugowsonrecherche/coordinations-colloques/LG">Lacan et Grothendieck, l’impossible rencontre?</a> took place in Paris (see <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan">this post</a>). Video&#8217;s of that meeting are now available online.</p>
+<p>Here&#8217;s the talk by Alain Connes and Patrick Gauthier-Lafaye on their book <a href="https://www.mollat.com/livres/2624527/alain-connes-a-l-ombre-de-grothendieck-et-de-lacan-un-topos-sur-l-inconscient#"> A l&#8217;ombre de Grothendieck et de Lacan : un topos sur l&#8217;inconscient ?</a> (see <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">this post</a> ).</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/yiXPvueGbsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Let&#8217;s quickly recall their main ideas:</p>
+<p>1. The unconscious is structured as a topos (<a href="https://en.wikipedia.org/wiki/Jacques_Lacan">Jacques Lacan</a> argued it was structured as a language), because we need a framework allowing logic without the law of the excluded middle for Lacan&#8217;s <a href="https://nosubject.com/Sexual_relationship">formulas of sexuation</a> to make some sense at all.</p>
+<p>2. This topos may differs from person to person, so we do not all share the same rules of logic (as observed in real life).</p>
+<p>3. Consciousness is related to the points of the topos (they are not precise on this, neither in the talk, nor the book).</p>
+<p>4. All these individual toposes are ruled by a classifying topos, and they see Lacan&#8217;s work as the very first steps towards trying to describe the unconscious by a geometrical theory (though his formulas are not first order).</p>
+<p>Surely these are intriguing ideas, if only we would know how to construct the topos of someone&#8217;s unconscious.</p>
+<p>Let&#8217;s go looking for clues.</p>
+<p>At the same meeting, there was a talk by <a href="https://fr.wikipedia.org/wiki/Daniel_Sibony">Daniel Sibony</a>: &#8220;Mathématiques et inconscient&#8221;</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/xzYiReWsGVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Sibony started out as mathematician, then turned to psychiatry in the early 70ties. He was acquainted with both Grothendieck and Lacan, and even brought them together once, over lunch, some day in 1973. He makes a one-line appearance in Grothendieck&#8217;s <a href="https://fr.wikipedia.org/wiki/R%C3%A9coltes_et_Semailles">Récoltes et Semailles</a>, when G discribes his friends in <a href="https://fr.wikipedia.org/wiki/Survivre_et_vivre">&#8216;Survivre et Vivre&#8217;</a>:</p>
+<blockquote><p>
+&#8220;Daniel Sibony (who stayed away from this group, while pursuing its evolution out of the corner of a semi-disdainful, smirking eye)&#8221;
+</p></blockquote>
+<p>In his talk, Sibony said he had a similar idea, 50 years before Connes and Gauthier-Lafaye (3.04 into the clip):</p>
+<blockquote><p>
+&#8220;At the same time (early 70ties) I did a seminar in Vincennes, where I was a math professor, on the topology of dreams. At the time I didn&#8217;t have categories at my disposal, but I used fibered spaces instead. I showed how we could interpret dreams with a fibered space. This is consistent with the Freudian idea, except that Freud says we should take the list of words from the story of the dream and look for associations. For me, these associations were in the fibers, and these thoughts on fibers and sheaves have always followed me. And now, after 50 years I find this pretty book by Alain Connes and Patrick Gauthier-Lafaye on toposes, and see that my thoughts on dreams as sheaves and fibered spaces are but a special case of theirs.&#8221;
+</p></blockquote>
+<p>This looks interesting. After all, Freud called dream interpretation the &#8216;royal road&#8217; to the unconscious. &#8220;It is the &#8216;King&#8217;s highway&#8217; along which everyone can travel to discover the truth of unconscious processes for themselves.&#8221;</p>
+<p>Sibony clarifies his idea in the interview <a href="https://www.cairn.info/revue-le-journal-des-psychologues-2015-2-page-49.htm">L&#8217;utilisation des rêves en psychothérapie</a> with Maryse Siksou.</p>
+<blockquote><p>
+&#8220;The dream brings blocks of words, of “compacted” meanings, and we question, according to the good old method, each of these blocks, each of these points and which we associate around (we “unblock” around…), we let each point unfold according to the &#8220;fiber&#8221; which is its own.</p>
+<p>I introduced this notion of the dream as fibered space in an article in the review Scilicet in 1972, and in a seminar that I gave at the University of Vincennes in 1973 under the title &#8220;Topologie et interpretation des rêves&#8221;, to which Jacques Lacan and his close retinue attended throughout the year.</p>
+<p>The idea is that the dream is a sheaf, a bundle of fibers, each of which is associated with a &#8220;word&#8221; of the dream; interpretation makes the fibers appear, and one can pick an element from each, which is of course &#8220;displaced&#8221; in relation to the word that &#8220;produced&#8221; the fiber, and these elements are articulated with other elements taken in other fibers, to finally create a message which, once again, does not necessarily say the meaning of the dream because a dream has as many meanings as recipients to whom it is told, but which produces a strong statement, a relevant statement, which can restart the work.&#8221;
+</p></blockquote>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/dream.png" width=60% ><br />
+</center></p>
+<p>Key images in the dream (the &#8216;points&#8217; of the base-space) can stand for entirely different situations in someone&#8217;s life (the points in the &#8216;fiber&#8217; over an image). The therapist&#8217;s job is to find a suitable &#8216;section&#8217; in this &#8216;sheaf&#8217; to further the theraphy.</p>
+<p>It&#8217;s a bit like translating a sentence from one language to another. Every word (point of the base-space) can have several possible translations with subtle differences (the points in the fiber over the word). It&#8217;s the translator&#8217;s job to find the best &#8216;section&#8217; in this sheaf of possibilities.</p>
+<p>This translation-analogy is used by Daniel Sibony in his paper <a href="https://www.erudit.org/fr/revues/ttr/1998-v11-n2-ttr1489/037336ar.pdf">Traduire la passe</a>:</p>
+<blockquote><p>
+&#8220;It therefore operates just like the dream through articulated choices, from one fiber to another, in a bundle of speaking fibers; it articulates them by seeking the optimal section. In fact, the translation takes place between two fiber bundles, each in a language, but in the starting bundle the choice seems fixed by the initial text. However, more or less consciously, the translator &#8220;bursts&#8221; each word into a larger fiber, he therefore has a bundle of fibers where the given text seems after the fact a singular choice, which will produce another choice in the bundle of the other language.&#8221;
+</p></blockquote>
+<p>This paper also contains a pre-ChatGPT story (we&#8217;re in 1998), in which the language model fails because it has far too few alternatives in its fibers:</p>
+<blockquote><p>
+I felt it during a &#8220;humor festival&#8221; where I was approached by someone (who seemed to have some humor) and who was a robot. We had a brief conversation, very acceptable, beyond the conventional witticisms and knowing sighs he uttered from time to time to complain about the lack of atmosphere, repeating that after all we are not robots.</p>
+<p>I thought at first that it must be a walking walkie-talkie and that in fact I was talking to a guy who was remote control from his cabin. But the object was programmed; the unforeseen effects of meaning were all the more striking. To my question: &#8220;Who created you?&#8221; he answered with a strange word, a kind of technical god.</p>
+<p>I went on to ask him who he thought created me; his answer was immediate: “Oedipus”. (He knew, having questioned me, that I was a psychoanalyst.) The piquancy of his answer pleased me (without Oedipus, at least on a first level, no analyst). These bursts of meaning that we know in children, psychotics, to whom we attribute divinatory gifts — when they only exist, save their skin, questioning us about our being to defend theirs — , these random strokes of meaning shed light on the classic aftermaths where when a tile arrives, we hook it up to other tiles from the past, it ties up the pain by chaining the meaning.</p>
+<p>Anyway, the conversation continuing, the robot asked me to psychoanalyse him; I asked him what he was suffering from. His answer was immediate: “Oedipus”.</p>
+<p>Disappointing and enlightening: it shows that with each &#8220;word&#8221; of the interlocutor, the robot makes correspond a signifying constellation, a fiber of elements; choosing a word in each fiber, he then articulates the whole with obvious sequence constraints: a bit of readability and a certain phrasal push that leaves open the game of exchange. And now, in the fiber concerning the “psy” field, chance or constraint had fixed him on the same word, “Oedipus”, which, by repeating itself, closed the scene heavily.
+</p></blockquote>
+<p>Okay, we have a first potential approximation to Connes and Gauthier-Lafaye&#8217;s elusive topos, a sheaf of possible interpretation of base-words in a language.</p>
+<p>But, the base-space is still rather discrete, or at best linearly ordered. And also in the fibers, and among the sections, there&#8217;s not much of a topology at work.</p>
+<p>Perhaps, we should have a look at applications of topology and/or topos theory in <a href="https://en.wikipedia.org/wiki/Wikipedia:Large_language_models">large language models</a>?</p>
+<p>(tbc)</p>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mamuth to Elephant (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 08 Mar 2022 18:58:58 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Andreatta]]></category>
+		<category><![CDATA[Crans]]></category>
+		<category><![CDATA[Ehresmann]]></category>
+		<category><![CDATA[Fiore]]></category>
+		<category><![CDATA[Noll]]></category>
+		<category><![CDATA[Popoff]]></category>
+		<category><![CDATA[Satyendra]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[triads]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10415</guid>
+
+					<description><![CDATA[Last time, we&#8217;ve viewed major and minor triads (chords) as inscribed triangles in a regular $12$-gon. If we move clockwise along the $12$-gon, starting from&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant">Last time</a>, we&#8217;ve viewed major and minor <a href="https://en.wikipedia.org/wiki/Triad_(music)">triads</a> (chords) as inscribed triangles in a regular $12$-gon.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB1.png" width=45%  /> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB2.png" width=45%  /><br />
+</center></p>
+<p>If we move clockwise along the $12$-gon, starting from the endpoint of the longest edge (the <em>root</em> of the chord, here the $0$-vertex) the edges skip $3,2$ and $4$ vertices (for a major chord, here on the left the major $0$-chord) or $2,3$ and $4$ vertices (for a minor chord, here on the right the minor $0$-chord).</p>
+<p>The symmetries of the $12$-gon, the dihedral group $D_{12}$, act on the $24$ major- and minor-chords transitively, preserving the type for rotations, and interchanging majors with minors for reflections.</p>
+<p>Mathematical Music Theoreticians (MaMuTh-ers for short) call this the $T/I$-group, and view the rotations of the $12$-gon as transpositions $T_k : x \mapsto x+k~\text{mod}~12$, and the reflections as involutions $I_k : x \mapsto -x+k~\text{mod}~12$.</p>
+<p>Note that the elements of the $T/I$-group act on the vertices of the $12$-gon, from which the action on the chord-triangles follows.</p>
+<p>There is another action on the $24$ major and minor chords, mapping a chord-triangle to its image under a reflection in one of its three sides.</p>
+<p>Note that in this case the reflection $I_k$ used will depend on the root of the chord, so this action on the chords does <em>not</em> come from an action on the vertices of the $12$-gon.</p>
+<p>There are three such operations: (pictures are taken from <a href="https://alpof.wordpress.com/2013/12/19/an-introduction-to-neo-riemannian-theory-6/">Alexandre Popoff&#8217;s blog</a>, with the &#8216;funny names&#8217; removed)</p>
+<p>The $P$-operation is reflection in the longest side of the chord-triangle. As the longest side is preserved, $P$ interchanges the major and minor chord with the same root.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB3.png" width=100% ></p>
+<p>The $L$-operation is refection in the shortest side. This operation interchanges a major $k$-chord with a minor $k+4~\text{mod}~12$-chord.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB4.png" width=100% ></p>
+<p>Finally, the $R$-operation is reflection in the middle side. This operation interchanges a major $k$-chord with a minor $k+9~\text{mod}~12$-chord.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB5.png" width=100% ></p>
+<p>From this it is already clear that the group generated by $P$, $L$ and $R$ acts transitively on the $24$ major and minor chords, but what is this $PLR$-group?</p>
+<p>If we label the major chords by their root-vertex $1,2,\dots,12$ (<a href="https://www.gap-system.org/">GAP</a> doesn&#8217;t like zeroes), and the corresponding minor chords $13,14,\dots,24$, then these operations give these permutations on the $24$ chords:</p>
+<p><code><br />
+P:=(1,13)(2,14)(3,15)(4,16)(5,17)(6,18)(7,19)(8,20)(9,21)(10,22)(11,23)(12,24)<br />
+L:=(1,17)(2,18)(3,19)(4,20)(5,21)(6,22)(7,23)(8,24)(9,13)(10,14)(11,15)(12,16)<br />
+R:=(1,22)(2,23)(3,24)(4,13)(5,14)(6,15)(7,16)(8,17)(9,18)(10,19)(11,20)(12,21)<br />
+</code></p>
+<p>Then GAP gives us that the $PLR$-group is again isomorphic to $D_{12}$:</p>
+<p><code><br />
+gap> G:=Group(P,L,R);;<br />
+gap> Size(G);<br />
+24<br />
+gap> IsDihedralGroup(G);<br />
+true<br />
+</code></p>
+<p>In fact, if we view both the $T/I$-group and the $PLR$-group as subgroups of the symmetric group $Sym(24)$ via their actions on the $24$ major and minor chords, these groups are each other centralizers! That is, the $T/I$-group and $PLR$-group are dual to each other.</p>
+<p>For more on this, there&#8217;s a beautiful paper by Alissa Crans, Thomas Fiore and Ramon Satyendra: <a href="https://www.maa.org/sites/default/files/pdf/upload_library/22/Hasse/Crans2011.pdf">Musical Actions of Dihedral Groups</a>.</p>
+<p>What does this new MaMuTh info learns us more about our Elephant, the <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.134.5669&#038;rep=rep1&#038;type=pdf">Topos of Triads</a>, studied by <a href="https://www.researchgate.net/profile/Thomas-Noll-3">Thomas Noll</a>?</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant">Last time</a> we&#8217;ve seen the eight element triadic monoid $T$ of all affine maps preserving the three tones $\{ 0,4,7 \}$ of the major $0$-chord, computed the subobject classified $\Omega$ of the corresponding topos of presheaves, and determined all its six Grothendieck topologies, among which were these three:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mumathB6.png" width=100% ></p>
+<p>Why did we label these Grothendieck topologies (and corresponding elements of $\Omega$) by $P$, $L$ and $R$?</p>
+<p>We&#8217;ve seen that the sheafification of the presheaf $\{ 0,4,7 \}$ in the triadic topos under the Grothendieck topology $j_P$ gave us the sheaf $\{ 0,3,4,7 \}$, and these are the tones of the major $0$-chord together with those of the minor $0$-chord, that is the two chords in the $\langle P \rangle$-orbit of the major $0$-chord. The group $\langle P \rangle$ is the cyclic group $C_2$.</p>
+<p>For the sheafication with respect to $j_L$ we found the $T$-set $\{ 0,3,4,7,8,11 \}$ which are the tones of the major and minor $0$-,$4$-, and $8$-chords. Again, these are exactly the six chords in the $\langle P,L \rangle$-orbit of the major $0$-chord. The group $\langle P,L \rangle$ is isomorphic to $Sym(3)$.</p>
+<p>The $j_R$-topology gave us the $T$-set $\{ 0,1,3,4,6,7,9,10 \}$ which are the tones of the major and minor $0$-,$3$-, $6$-, and $9$-chords, and lo and behold, these are the eight chords in the $\langle P,R \rangle$-orbit of the major $0$-chord. The group $\langle P,R \rangle$ is the dihedral group $D_4$.</p>
+<p>More on this can be found in the paper <a href="https://arxiv.org/abs/1102.1496">Commuting Groups and the Topos of Triads</a> by Thomas Fiore and Thomas Noll.</p>
+<p>The operations $P$, $L$ and $R$ on major and minor chords are reflexions in one side of the chord-triangle, so they preserve two of the three tones. There&#8217;s a distinction between the $P$ and $L$ operations and $R$ when it comes to how the third tone changes.</p>
+<p>Under $P$ and $L$ the third tone changes by one halftone (because the corresponding sides skip an even number of vertices), whereas under $R$ the third tone changes by two halftones (a full tone), see the pictures above.</p>
+<p>The $\langle P,L \rangle = Sym(3)$ subgroup divides the $24$ chords in four orbits of six chords each, three major chords and their corresponding minor chords. These orbits consist of the</p>
+<ul>
+<li>$0$-, $4$-, and $8$-chords (see before)</li>
+<li>$1$-, $5$-, and $9$-chords</li>
+<li>$2$-, $6$-, and $10$-chords</li>
+<li>$3$-, $7$-, and $11$-chords</li>
+</ul>
+<p>and we can view each of these orbits as a cycle tracing six of the eight vertices of a cube with one pair of antipodal points removed.</p>
+<p>These four &#8216;almost&#8217; cubes are the NE-, SE-, SW-, and NW-regions of the <em>Cube Dance Graph</em>, from the paper <a href="https://www.jstor.org/stable/843877?seq=14#metadata_info_tab_contents">Parsimonious Graphs</a> by Jack Douthett and Peter Steinbach.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cubedance.png" width=100% ></p>
+<p>To translate the funny names to our numbers, use this dictionary (major chords are given by a capital letter):</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuth1.png" width=40% ><br />
+</center></p>
+<p>The four extra chords (at the N, E, S, and P places) are <a href="https://en.wikipedia.org/wiki/Augmented_triad">augmented triads</a>. They correspond to the triads $(0,4,8),~(1,5,9),~(2,6,10)$ and $(3,7,11)$.</p>
+<p>That is, two triads are connected by an edge in the Cube Dance graph if they share two tones and differ by an halftone in the third tone.</p>
+<p>This graph screams for a group or monoid acting on it. Some of the edges we&#8217;ve already identified as the action of $P$ and $L$ on the $24$ major and minor triads. Because the triangle of an augmented triad is equilateral, we see that they are preserved under $P$ and $L$.</p>
+<p>But what about the edges connecting the regular triads to the augmented ones? If we view each edge as two directed arrows assigned to the same operation, we cannot do this with a transformation because the operation sends each augmented triad to six regular triads.</p>
+<p>Alexandre Popoff, Moreno Andreatta and <a href="https://en.wikipedia.org/wiki/Andr%C3%A9e_Ehresmann">Andree Ehresmann</a> suggest in their paper <a href="https://hal.archives-ouvertes.fr/hal-02392844/document">Relational poly-Klumpenhouwer networks for transformational and voice-leading analysis</a> that one might use a monoid generated by relations, and they show that there is such a monoid with $40$ elements acting on the Cube Dance graph.</p>
+<p>Popoff claims that usual presheaf toposes, that is contravariant functors to $\mathbf{Sets}$ are not enough to study transformational music theory. He suggest to use instead functors to $\mathbf{Rel}$, that is Sets with as the morphisms binary relations, and their compositions.</p>
+<p>Another Elephant enters the room&#8230;</p>
+<p>(to be <a href="https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-3">continued</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The hype cycle of an idea</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 13 Feb 2022 12:33:07 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[Gartner]]></category>
+		<category><![CDATA[IUTT]]></category>
+		<category><![CDATA[Joshi]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10253</guid>
+
+					<description><![CDATA[These three ideas (re)surfaced over the last two decades, claiming to have potential applications to major open problems: (2000) $\mathbb{F}_1$-geometry tries to view $\mathbf{Spec}(\mathbb{Z})$ as&#8230;]]></description>
+										<content:encoded><![CDATA[<p>These three ideas (re)surfaced over the last two decades, claiming to have potential applications to major open problems:</p>
+<ul>
+<li>(2000) $\mathbb{F}_1$-geometry tries to view $\mathbf{Spec}(\mathbb{Z})$ as a curve over <a href="https://en.wikipedia.org/wiki/Field_with_one_element">the field with one element</a>, and mimic Weil&#8217;s proof of RH for curves over finite fields to prove the Riemann hypothesis.</li>
+<li>(2012) IUTT, for <a href="https://en.wikipedia.org/wiki/Inter-universal_Teichm%C3%BCller_theory">Inter Universal Teichmuller Theory</a>, the machinery behind Mochizuki&#8217;s claimed proof of the ABC-conjecture.</li>
+<li>(2014) topos theory : Connes and Consani redirected their RH-attack using arithmetic sites, while Lafforgue advocated the use of <a href="https://www.oliviacaramello.com/Unification/ToposesBridges.html">Caramello&#8217;s bridges</a> for unification, in particular the Langlands programme.</li>
+</ul>
+<p>It is difficult to voice an opinion about the (presumed) current state of such projects without being accused of being either a believer or a skeptic, resorting to group-think or being overly critical.</p>
+<p>We lack the vocabulary to talk about the different phases a mathematical idea might be in.</p>
+<p>Such a vocabulary exists in (information) technology, the five phases of the <a href="https://en.wikipedia.org/wiki/Gartner_hype_cycle">Gartner hype cycle</a> to represent the maturity, adoption, and social application of a certain technology :</p>
+<ol>
+<li>Technology Trigger</li>
+<li>Peak of Inflated Expectations</li>
+<li>Trough of Disillusionment</li>
+<li>Slope of Enlightenment</li>
+<li>Plateau of Productivity</li>
+</ol>
+<p><img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Hype-Cycle-General.png/640px-Hype-Cycle-General.png" width=100% /></p>
+<p>This model can then be used to gauge in which phase several emerging technologies are, and to estimate the time it will take them to reach the stable plateau of productivity. Here&#8217;s Gartner&#8217;s recent Hype Cycle for emerging Artificial Intelligence technologies.</p>
+<p><center><br />
+<img decoding="async" src="https://miro.medium.com/max/1400/1*otjihWm7qj4qOORUH7M-AQ.png" width=100% /><br />
+Picture from <a href="https://medium.com/@mishra.kamal/gartner-hype-cycle-for-ai-2021-3c11c1d80358">Gartner Hype Cycle for AI 2021</a><br />
+</center></p>
+<p>What might these phases be in the hype cycle of a <em>mathematical</em> idea?</p>
+<ol>
+<li>Technology Trigger: a new idea or analogy is dreamed up, marketed to be the new approach to that problem. A small group of enthusiasts embraces the idea, and tries to supply proper definitions and the very first results.</li>
+<li>Peak of Inflated Expectations: the idea spreads via talks, blogposts, mathoverflow and twitter, and now has enough visibility to justify the first conferences devoted to it. However, all this activity does not result in major breakthroughs and doubt creeps in.</li>
+<li>Trough of Disillusionment:  the project ran out of steam. It becomes clear that existing theories will not lead to a solution of the motivating problem. Attempts by key people to keep the idea alive (by lengthy papers, regular meetings or seminars) no longer attract new people to the field.</li>
+<li>Slope of Enlightenment: the optimistic scenario. One abandons the original aim, ditches the myriad of theories leading nowhere, regroups and focusses on the better ideas the project delivered.
+<p>A negative scenario is equally possible. Apart for a few die-hards the idea is abandoned, and on its way to the graveyard of forgotten ideas.</li>
+<li>Plateau of Productivity: the polished surviving theory has applications in other branches and becomes a solid tool in mathematics.</li>
+</ol>
+<p>It would be fun so see more knowledgable people draw such a hype cycle graph for recent trends in mathematics.</p>
+<p>Here&#8217;s my own (feeble) attempt to gauge where the three ideas mentioned at the start are in their cycles, and here&#8217;s why:</p>
+<ul>
+<li>IUTT: recent work of Kirti Joshi, for example <a href="https://arxiv.org/abs/2106.11452">this</a>, and <a href="https://arxiv.org/abs/2111.04890">this</a>, and <a href="https://arxiv.org/abs/2111.06771">that</a>, draws from IUTT while using conventional language and not making exaggerated claims.</li>
+<li>$\mathbb{F}_1$: the preliminary programme of <a href="https://funworldseminar.wordpress.com/">their seminar</a> shows little evidence the $\mathbb{F}_1$-community learned from the past 20 years.</li>
+<li>Topos: Developing more general theory is not the way ahead, but concrete examples may carry surprises, even though <a href="https://lievenlebruyn.github.io/neverendingbooks/closing-in-on-gabriels-topos">Gabriel&#8217;s topos</a> will remain elusive.</li>
+</ul>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/3hypecycles.png" width=100% /></p>
+<p>Clearly, you don&#8217;t agree, and that&#8217;s fine. We now have a common terminology, and you can point me to results or events I must have missed, forcing me to redraw my graph.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Learners and Poly</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/learners-and-poly/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/learners-and-poly/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 29 Jan 2022 10:03:09 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Gavranovic]]></category>
+		<category><![CDATA[learners]]></category>
+		<category><![CDATA[neural networks]]></category>
+		<category><![CDATA[Poly]]></category>
+		<category><![CDATA[Spivak]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10133</guid>
+
+					<description><![CDATA[Brendan Fong, David Spivak and Remy Tuyeras cooked up a vast generalisation of neural networks in their paper Backprop as Functor: A compositional perspective on&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Brendan Fong</a>, David Spivak and Remy Tuyeras cooked up a vast generalisation of neural networks in their paper <a href="https://arxiv.org/abs/1711.10455">Backprop as Functor: A compositional perspective on supervised learning</a>.</p>
+<p>Here&#8217;s a nice introduction to neural networks for category theorists by <a href="https://www.brunogavranovic.com/">Bruno Gavranovic</a>. At 1.49m he tries to explain supervised learning with neural networks in one slide. Learners show up later in the talk.</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/ji8MHKlQZ9w?start=109" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>$\mathbf{Poly}$ is the category of all polynomial functors, that is, things of the form<br />
+\[<br />
+p = \sum_{i \in p(1)} y^{p[i]}~:~\mathbf{Sets} \rightarrow \mathbf{Sets} \qquad S \mapsto \bigsqcup_{i \in p(1)} Maps(p[i],S) \]<br />
+with $p(1)$ and all $p[i]$ sets.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/poly">Last time</a> I gave Spivak&#8217;s &#8216;corolla&#8217; picture to think about such functors.</p>
+<p>I prefer to view $p \in \mathbf{Poly}$ as an horribly discrete &#8216;sheaf&#8217; $\mathcal{P}$ over the &#8216;space&#8217; $p(1)$ with stalk $p[i]=\mathcal{P}_i$ at point $i \in p(1)$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly1.png" width=40% \><br />
+</center></p>
+<p>A morphism $p \rightarrow q$ in $\mathbf{Poly}$ is a map $\varphi_1 : p(1) \rightarrow q(1)$, together with for all $i \in p(1)$ a map $\varphi^{\#}_i : q[\varphi_1(i)] \rightarrow p[i]$.</p>
+<p>In the sheaf picture, this gives a map of sheaves over the space $p(1)$ from the inverse image sheaf $\varphi_1^* \mathcal{Q}$ to $\mathcal{P}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly2.png" width=70% \><br />
+</center></p>
+<p>But, unless you dream of sheaves in the night, by all means stick to Spivak&#8217;s corolla picture.</p>
+<p>A <em>learner</em> $A \rightarrow B$ between two sets $A$ and $B$ is a complicated tuple of things $(P,I,U,R)$:</p>
+<ul>
+<li>$P$ is a set, a <em>parameter space</em> of some maps from $A$ to $B$.</li>
+<li>$I$ is the <em>interpretation map</em> $I : P \times A \rightarrow B$ describing the maps in $P$.</li>
+<li>$U$ is the <em>update map</em> $U : P \times A \times B \rightarrow P$, the learning procedure. The idea is that $U(p,a,b)$ is a map which sends $a$ closer to $b$ than the map $p$ did.</li>
+<li>$R$ is the <em>request map</em> $R : P \times A \times B \rightarrow A$.</li>
+</ul>
+<p>Here&#8217;s a nice application of $\mathbf{Poly}$&#8217;s set-up:</p>
+<p><strong>Morphisms $\mathbf{P y^P \rightarrow Maps(A,B) \times Maps(A \times B,A) y^{A \times B}}$ in $\mathbf{Poly}$ coincide with learners $\mathbf{A \rightarrow B}$ with parameter space $\mathbf{P}$.</strong></p>
+<p>This follows from unpacking the definition of morphism in $\mathbf{Poly}$ and the process CT-ers prefer to call <a href="https://en.wikipedia.org/wiki/Currying">Currying</a>.</p>
+<p>The space-map $\varphi_1 : P \rightarrow Maps(A,B) \times Maps(A \times B,A)$ gives us the interpretation and request-map, whereas the sheaf-map $\varphi^{\#}$ gives us the more mysterious update-map $P \times A \times B \rightarrow P$.</p>
+<p>$\mathbf{Learn(A,B)}$ is the category with objects all the learners $A \rightarrow B$ (for all paramater-sets $P$), and with morphisms defined naturally, that is, maps between the parameter-sets, compatible with the structural maps.</p>
+<p>A surprising result from David Spivak&#8217;s paper <a href="https://arxiv.org/abs/2103.01189">Learners&#8217; Languages</a> is</p>
+<p><strong>$\mathbf{Learn(A,B)}$ is a topos. In fact, it is the topos of all set-valued representations of a (huge) directed graph $\mathbf{G_{AB}}$.</strong></p>
+<p>This will take some time.</p>
+<p>Let&#8217;s bring some dynamics in. Take any polynmial functor $p \in \mathbf{Poly}$ and fix a morphism in $\mathbf{Poly}$<br />
+\[<br />
+\varphi = (\varphi_1,\varphi[-])~:~p(1) y^{p(1)} \rightarrow p \]<br />
+with space-map $\varphi_1$ the identity map.</p>
+<p>We form a directed graph:</p>
+<ul>
+<li> the vertices are the elements of $p(1)$,</li>
+<li> vertex $i \in p(1)$ is the source vertex of exactly one arrow for every $a \in p[i]$,</li>
+<li> the target vertex of that arrow is the vertex $\phi[i](a) \in p(1)$.</li>
+</ul>
+<p>Here&#8217;s one possibility from Spivak&#8217;s paper for $p = 2y^2 + 1$, with the coefficient $2$-set $\{ \text{green dot, yellow dot} \}$, and with $1$ the singleton $\{ \text{red dot} \}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly3.png" width=40% \><br />
+</center></p>
+<p>Start at one vertex and move after a minute along a directed edge to the next (possibly the same) vertex. The potential evolutions in time will then form a tree, with each node given a label in $p(1)$.</p>
+<p>If we start at the green dot, we get this tree of potential time-evolutions</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly4.png" width=80% \><br />
+</center></p>
+<p>There are exactly $\# p[i]$ branches leaving a node labeled $i \in p(1)$, and all subtrees emanating from equal labelled nodes are isomorphic.</p>
+<p>If we had started at the yellow dot we had obtained a labelled tree isomorphic to the subtree emanating here from any yellow dot.</p>
+<p>We can do the same things for any morphism in $\mathbf{Poly}$ of the form<br />
+\[<br />
+\varphi = (\varphi_1,\varphi[-])~:~Sy^S \rightarrow p \]<br />
+Now, we have a directed graph with vertices the elements $s \in S$, with as many edges leaving vertex $s$ as there are elements $a \in p[\varphi_1(s)]$, and with the target vertex of the edge labeled $a$ starting in $s$ the vertex $\varphi[\varphi_1(s)](A)$.</p>
+<p>Once we have this directed graph on $\# S$ vertices we can label vertex $s$ with the label $\varphi_1(s)$ from $p(1)$.</p>
+<p>In this way, the time evolutions starting at a vertex $s \in S$ will give us a $p(1)$-labelled rooted tree.</p>
+<p>But now, it is possibly that two distinct vertices can have the same $p(1)$-labeled tree of evolutions. But also, trees corresponding to equal labeled vertices can be different.</p>
+<p>Right, I guess we&#8217;re ready to define the graph $G_{AB}$ and prove that $\mathbf{Learn(A,B)}$ is a topos.</p>
+<p>In the case of learners, we have the target polynomial functor $p=C y^{A \times B}$ with $C = Maps(A,B) \times Maps(A \times B,A)$, that is<br />
+\[<br />
+p(1) = C \quad \text{and all} \quad p[i]=A \times B \]</p>
+<p>Start with the free rooted tree $T$ having exactly $\# A \times B$ branches growing from each node.</p>
+<p>Here&#8217;s the directed graph $G_{AB}$:</p>
+<ul>
+<li><em>vertices</em> $v_{\chi}$ correspond to the different $C$-labelings of $T$, one $C$-labeled rooted tree $T_{\chi}$ for every map $\chi : vtx(T) \rightarrow C$,</li>
+<li><em>arrows</em> $v_{\chi} \rightarrow v_{\omega}$ if and only if $T_{\omega}$ is the rooted $C$-labelled tree isomorphic to the subtree of $T_{\chi}$ rooted at one step from the root.</li>
+</ul>
+<p><strong>A learner $\mathbf{A \rightarrow B}$ gives a set-valued representation of $\mathbf{G_{AB}}$.</strong></p>
+<p>We saw that a learner $A \rightarrow B$ is the same thing as a morphism in $\mathbf{Poly}$<br />
+\[<br />
+\varphi = (\varphi_1,\varphi[-])~:~P y^P \rightarrow C y^{A \times B} \]<br />
+with $P$ the parameter set of maps.</p>
+<p>Here&#8217;s what we have to do:</p>
+<p>1. Draw the directed graph on vertices $p \in P$ giving the dynamics of the morphism $\varphi$. This graph describes how the learner can cycle through the parameter-set.</p>
+<p>2. Use the map $\varphi_1$ to label the vertices with elements from $C$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly6.png" width=80% \><br />
+</center></p>
+<p>3. For each vertex draw the rooted $C$-labeled tree of potential time-evolutions starting in that vertex.</p>
+<p>In this example the time-evolutions of the two green vertices are the same, but in general they can be different.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly7.png" width=80% \><br />
+</center></p>
+<p>4. Find the vertices in $G_{AB}$ determined by these $C$-labeled trees and note that they span a full subgraph of $G_{AB}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly8.png" width=60% \><br />
+</center></p>
+<p>5. The vertex-set $P_v$ consists of all elements from $p$ whose ($C$-labeled) vertex has evolution-tree $T_v$. If $v \rightarrow w$ is a directed edge in $G_{AB}$ corresponding to an element $(a,b) \in A \times B$, then the map on the vertex-sets corresponding to this edge is<br />
+\[<br />
+f_{v,(a,b)}~:~P_v \rightarrow P_w \qquad p \mapsto \varphi[\varphi_1(p)](a,b) \]</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly9.png" width=60% \><br />
+</center></p>
+<p><strong>A set-valued representation of $\mathbf{G_{AB}}$ gives a learner $\mathbf{A \rightarrow B}$.</strong></p>
+<p>1. Take a set-valued representation of $G_{AB}$, that is, the finite or infinite collection of vertices $V$ in $G_{AB}$ where the vertex-set $P_v$ is non-empty. Note that these vertices span a full subgraph of $G_{AB}$.</p>
+<p>And, for each directed arrow $v \rightarrow w$ in this subgraph, labeled by an element $(a,b) \in A \times B$ we have a map<br />
+\[<br />
+f_{v,(a,b)}~:~P_v \rightarrow P_w \]</p>
+<p>2. The parameter set of our learner will be $P = \sqcup_v P_v$, the disjoint union of the non-empty vertex-sets.</p>
+<p>3. The space-map $\varphi_1 : P \rightarrow C$ will send an element in $P_v$ to the $C$-label of the root of the tree $T_v$. This gives us already the interpretation and request maps<br />
+\[<br />
+I : P \times A \rightarrow B \quad \text{and} \quad R : P \times A \times B \rightarrow A \]</p>
+<p>4. The update map $U : P \times A \times B \rightarrow P$ follows from the sheaf-map we can define stalk-wise<br />
+\[<br />
+\varphi[\varphi_1(p)](a,b) = f_{v,(a,b)}(p) \]<br />
+if $p \in P_v$.</p>
+<p>That&#8217;s all folks!</p>
+<p>$\mathbf{Learn(A,B)}$ is equivalent to the (covariant) functors $\mathbf{G_{AB} \rightarrow Sets}$.</p>
+<p>Changing the directions of all arrows in $G_{AB}$ any covariant functor $\mathbf{G_{AB} \rightarrow Sets}$ becomes a contravariant functor $\mathbf{G_{AB}^o \rightarrow Sets}$, making $\mathbf{Learn(A,B)}$ an honest to Groth topos!</p>
+<p>Every topos comes with its own logic, so we have a &#8216;learners&#8217; logic&#8217;. (to be continued)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/learners-and-poly/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Scholze&#8217;s condensed sets and Mazzola&#8217;s path to creativity</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/scholzes-condensed-sets-and-mazzolas-path-to-creativity/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/scholzes-condensed-sets-and-mazzolas-path-to-creativity/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 22 Feb 2021 09:16:16 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Clausen]]></category>
+		<category><![CDATA[condensed math]]></category>
+		<category><![CDATA[Mazzola]]></category>
+		<category><![CDATA[music theory]]></category>
+		<category><![CDATA[Scholze]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8787</guid>
+
+					<description><![CDATA[Some months ago, Peter Scholze wrote a guest post on the Xena-blog: Liquid tensor experiment, proposing a challenge to formalise the proof of one of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Some months ago, <a href="https://en.wikipedia.org/wiki/Peter_Scholze">Peter Scholze </a> wrote a guest post on the <a href="https://xenaproject.wordpress.com/">Xena-blog</a>: <a href="https://xenaproject.wordpress.com/2020/12/05/liquid-tensor-experiment/">Liquid tensor experiment</a>, proposing a challenge to formalise the proof of one of his results with <a href="https://www.math.ku.dk/english/about/news/new-names/dustin-clausen-associate-professor/">Dustin Clausen</a> on <a href="http://www.math.uni-bonn.de/people/scholze/Condensed.pdf">condensed mathematics</a>.</p>
+<p>Scholze and Clausen ran a masterclass in Copenhagen on condensed mathematics, which you can binge watch on <a href="https://www.youtube.com/hashtag/condensedmathematics">YouTube</a> starting here</p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/PHm4bYziyug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Scholze also gave two courses on the material in Bonn of which the notes are available <a href=""http://www.math.uni-bonn.de/people/scholze/Condensed.pdf">here</a> and <a href="http://www.math.uni-bonn.de/people/scholze/Analytic.pdf">here</a>.</p>
+<blockquote><p>Condensed mathematics claims that topological spaces are the wrong definition, and that one should replace them with the slightly different notion of condensed sets.</p></blockquote>
+<p>So, let&#8217;s find out what a condensed set is.</p>
+<blockquote><p>Definition: Condensed sets are sheaves (of sets) on the pro-étale site of a point.</p></blockquote>
+<p>(there&#8217;s no danger we&#8217;ll have to rewrite our undergraduate topology courses just yet&#8230;)</p>
+<p>In his blogpost, Scholze motivates this paradigm shift by observing that the category of topological Abelian groups is not Abelian (if you put a finer topology on the same group then the identity map is not an isomorphism but doesn&#8217;t have a kernel nor cokernel) whereas the category of condensed Abelian groups is.</p>
+<p>It was another Clausen-Scholze result in the blogpost that caught my eye.</p>
+<p>But first, for something completely different.</p>
+<p>In <a href="https://www.springer.com/us/book/9783642245169">&#8220;Musical creativity&#8221;</a>, <a href="https://en.wikipedia.org/wiki/Guerino_Mazzola">Guerino Mazzola</a> and co-authors introduce a seven steps path to creativity.</p>
+<p><center><br />
+<img decoding="async" src="https://media.s-bol.com/yQyZwQmZnxR/792x1200.jpg" width=45% ><br />
+</center></p>
+<p>Here they are:</p>
+<ol>
+<li>Exhibiting the open question</li>
+<li>Identifying the semiotic context</li>
+<li>Finding the question&#8217;s critical sign</li>
+<li>Identifying the concept&#8217;s walls</li>
+<li>Opening the walls</li>
+<li>Displaying extended wall perspectives</li>
+<li>Evaluating the extended walls</li>
+</ol>
+<p>Looks like a recipe from distant flower-power pot-infused times, no?</p>
+<p>In <a href="http://repmus.ircam.fr/_media/moreno/Andreatta_Creativity_MCM2013.pdf">Towards a Categorical Theory of Creativity for Music, Discourse, and Cognition</a>, Mazzola, <a href="https://en.wikipedia.org/wiki/Andr%C3%A9e_Ehresmann">Andrée Ehresmann</a> and co-authors relate these seven steps to the <a href="https://en.wikipedia.org/wiki/Yoneda_lemma">Yoneda lemma</a>.</p>
+<ol>
+<li>Exhibiting the open question = to understand the object $A$</li>
+<li> Identifying the semiotic context = to describe the category $\mathbf{C}$ of which $A$ is an object</li>
+<li>Finding the question’s critical sign = $A$ (?!)</li>
+<li> Identifying the concept’s walls = the uncontrolled behaviour of the Yoneda functor<br />
+\[<br />
+@A~:~\mathbf{C} \rightarrow \mathbf{Sets} \qquad C \mapsto Hom_{\mathbf{C}}(C,A) \]</li>
+<li>Opening the walls = finding an objectively creative subcategory $\mathbf{A}$ of $\mathbf{C}$</li>
+<li> Displaying extended wall perspectives = calculate the colimit $C$ of a creative diagram</li>
+<li>Evaluating the extended walls = try to understand $A$ via the isomorphism $C \simeq A$.</li>
+</ol>
+<p>(Actually, I first read about these seven categorical steps in another paper which might put a smile on your face: <a href="https://www.semanticscholar.org/paper/The-Yoneda-Path-to-the-Buddhist-Monk-Blend-Schorlemmer-Confalonieri/e5058938efde91c265d04592a6066e3aeac157e2">The Yoneda path to the Buddhist monk blend</a>.)</p>
+<p>Remains to know what a &#8216;creative&#8217; subcategory is.</p>
+<blockquote><p>The creative moment comes in here: could we not find a subcategory<br />
+$\mathbf{A}$ of $\mathbf{C}$ such that the functor<br />
+\[<br />
+Yon|_{\mathbf{A}}~:~\mathbf{C} \rightarrow \mathbf{PSh}(\mathbf{A}) \qquad A \mapsto  @A|_{\mathbf{A}} \]<br />
+is still fully faithful? We call such a subcategory creative, and it is a major task in category theory to find creative categories which are as small as possible.
+</p></blockquote>
+<p>All the ingredients are here, but I had to read Peter Scholze&#8217;s blogpost before the penny dropped.</p>
+<p>Let&#8217;s try to view condensed sets as the result of a creative process.</p>
+<ol>
+<li>Exhibiting the open question: you are a topologist and want to understand a particular compact Hausdorff space $X$.</li>
+<li>Identifying the semiotic context: you are familiar with working in the category $\mathbf{Tops}$ of all topological spaces with continuous maps as morphisms.</li>
+<li>Finding the question’s critical sign: you want to know what differentiates your space $X$ from all other topological spaces.</li>
+<li>Identifying the concept’s walls: you can probe your space $X$ with continuous maps from other topological spaces. That is, you can consider the contravariant functor (or presheaf on $\mathbf{Tops}$)<br />
+\[<br />
+@X~:~\mathbf{Tops} \rightarrow \mathbf{Sets} \qquad Y \mapsto Cont(Y,X) \]<br />
+and Yoneda tells you that this functor, up to equivalence, determines the space $X$ upto homeomorphism.</li>
+<li>Opening the walls: <a href-="https://en.wikipedia.org/wiki/Tychonoff%27s_theorem">Tychonoff</a> tells you that  among all compact Hausdorff spaces there&#8217;s a class of pretty weird examples: inverse limits of finite sets (or a bit pompous: the pro-etale site of a point). These limits form a subcategory $\mathbf{ProF}$ of $\mathbf{Tops}$.</li>
+<li>Displaying extended wall perspectives: for every inverse limit $F \in \mathbf{ProF}$ (for &#8216;pro-finite sets&#8217;) you can look at the set $\mathbf{X}(F)=Cont(F,X)$ of all continuous maps from $F$ to $X$ (that is, all probes of $X$ by $F$) and this functor<br />
+\[<br />
+\mathbf{X}=@X|_{\mathbf{ProF}}~:~\mathbf{ProF} \rightarrow \mathbf{Sets} \qquad F \mapsto \mathbf{X}(F) \]<br />
+is a sheaf on the pre-etale site of a point, that is, $\mathbf{X}$ is the condensed set associated to $X$.</li>
+<li>Evaluating the extended walls: Clausen and Scholze observe that the assignment $X \mapsto \mathbf{X}$ embeds compact Hausdorff spaces fully faithful into condensed sets, so we can recover $X$ up to homeomorphism as a colimit from the condenset set $\mathbf{X}$. Or, in Mazzola&#8217;s terminology: $\mathbf{ProF}$ is a creative subcategory of $\mathbf{(cH)Tops}$ (all compact Hausdorff spaces).</li>
+</ol>
+<p>It would be nice if someone would come up with a new notion for me to understand Mazzola&#8217;s  other opus <a href="https://www.springer.com/gp/book/9783319644332">&#8220;The topos of music&#8221;</a> (now reprinted as a four volume series).</p>
+<p><center><br />
+<img decoding="async" src="https://media.s-bol.com/Bl91NG1MBxX/847x1200.jpg" width=45% ><br />
+</center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/scholzes-condensed-sets-and-mazzolas-path-to-creativity/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Archangel Gabriel will make you a topos</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/archangel-gabriel-will-make-you-a-topos/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/archangel-gabriel-will-make-you-a-topos/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 23 Feb 2018 10:31:44 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Dixmier]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[motif]]></category>
+		<category><![CDATA[quantum]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8129</guid>
+
+					<description><![CDATA[No kidding, this is the final sentence of Le spectre d&#8217;Atacama, the second novel by Alain Connes (written with Danye Chéreau (IRL Mrs. AC) and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>No kidding, this is the final sentence of <a href="https://www.odilejacob.fr/catalogue/sciences/mathematiques/spectre-d-atacama_9782738141361.php">Le spectre d&#8217;Atacama</a>, the second novel by Alain Connes (written with  Danye Chéreau (IRL Mrs. AC) and his former Ph.D. advisor <a href="https://en.wikipedia.org/wiki/Jacques_Dixmier">Jacques Dixmier</a>).<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/spectreConnes.jpg"> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/quantiqueConnes.jpg"><br />
+</center></p>
+<p>The book has a promising start. Armand Lafforet (IRL AC) is summoned by his friend Rodrigo to the Chilean observatory <a href="http://www.almaobservatory.org/en/home/">Alma</a> in the <a href="https://en.wikipedia.org/wiki/Atacama_Large_Millimeter_Array">Altacama desert</a>. They have observed a mysterious spectrum, and need his advice.</p>
+<p>Armand drops everything and on the flight he lectures the lady sitting next to him on proofs by induction (breaking up chocolate bars), and recalls a recent stay at the <a href="https://en.wikipedia.org/wiki/La_Trappe_Abbey">La Trappe Abbey</a>, where he had an encounter with (the ghost of) Alexander Grothendieck, who urged him to &#8216;Follow the motif!&#8217;.</p>
+<p>&#8220;Comment était-il arrivé là? Il possédait surement quelques clés. Pourquoi pas celles des <a href="https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Clefsummary.pdf">songes</a>?&#8221; (How did he get<br />
+ there? Surely he owned some keys, why not those of our dreams?)</p>
+<p>A few pages further there&#8217;s this on the notion of <a href="https://en.wikipedia.org/wiki/Topos">topos</a> (my attempt to translate):</p>
+<p>&#8220;The notion of space plays a central role in mathematics. Traditionally we represent it as a set of points, together with a notion of neighborhood that we call a &#8216;topology&#8217;. The universe of these new spaces, &#8216;toposes&#8217;, unveiled by Grothendieck, is marvellous, not only for the infinite wealth of examples (it contains, apart from the ordinary topological spaces, also numerous instances of a more combinatorial nature) but because of the totally original way to perceive space: instead of appearing on the main stage from the start, it hides backstage and manifests itself as a &#8216;deus ex machina&#8217;, introducing a variability in the theory of sets.&#8221;</p>
+<p>So far, so good.</p>
+<p>We have a mystery, tidbits of mathematics, and allusions left there to put a smile on any Grothendieck-aficionado&#8217;s face.</p>
+<p>But then, upon arrival, the story drops dead.</p>
+<p>Rodrigo has been taken to hospital, and will remain incommunicado until well in the final quarter of the book.</p>
+<p>As the remaining astronomers show little interest in Alain&#8217;s (sorry, Armand&#8217;s) first lecture, he decides to skip the second, and departs on a hike to the ocean. There, he takes a genuine sailing ship in true <a href="https://en.wikipedia.org/wiki/Jules_Verne">Jules Verne</a> style to the <a href="https://en.wikipedia.org/wiki/The_Lighthouse_at_the_End_of_the_World">lighthouse at he end of the world</a>.</p>
+<p>All this drags on for at least half a year in time, and two thirds of the book&#8217;s length. We are left in complete suspense when it comes to the mysterious Atacama spectrum.</p>
+<p>Perhaps the three authors deliberately want to break with existing conventions of story telling?</p>
+<p>I had a similar feeling when reading their first novel <a href="https://www.odilejacob.fr/catalogue/sciences/mathematiques/theatre-quantique_9782738129833.php">Le Theatre Quantique</a>. Here they spend some effort to flesh out their heroine, Charlotte, in the first part of the book. But then, all of a sudden, their main character is replaced by a detective, and next by a computer.</p>
+<p>Anyway, when Armand finally reappears at the IHES the story picks up pace.</p>
+<p>The trio (Armand, his would-be-lover Charlotte, and Ali Ravi, Cern&#8217;s computer guru) convince <a href="https://en.wikipedia.org/wiki/CERN">CERN</a> to sell its main computer to an American billionaire with the (fake) promise of developing a quantum computer. Incidentally, they somehow manage to do this using Charlotte&#8217;s history with that computer (for this, you have to read &#8216;Le Theatre Quantique&#8217;).</p>
+<p>By their quantum-computing power (Shor and quantum-encryption pass the revue) they are able to decipher the Atacame spectrum (something to do with primes and zeroes of the zeta function), send coded messages using quantum entanglement, end up in the Oval Office and convince the president to send a message to the &#8216;Riemann sphere&#8217; (another fun pun), and so on, and on.</p>
+<p>The book ends with a twist of the classic tale of the mathematician willing to sell his soul to the devil for a (dis)proof of the Riemann hypothesis:</p>
+<p>After spending some time in purgatory, the mathematician gets a meeting with God and asks her <strong>the</strong> question &#8220;Is the Riemann hypothesis true?&#8221;.</p>
+<p>&#8220;Of course&#8221;, God says.</p>
+<p>&#8220;But how can you know that all non-trivial zeroes of the zeta function have real part 1/2?&#8221;, Armand asks.</p>
+<p>And God replies:</p>
+<p>&#8220;Simple enough, I can see them all at once. But then, don&#8217;t forget I&#8217;m God. I can see the disappointment in your face, yes I can read in your heart that you are frustrated, that you desire an explanation&#8230;</p>
+<p>Well, we&#8217;re going to fix this. I will call archangel Gabriel, the angel of geometry, he will make you a topos!&#8221;</p>
+<p>If you feel like running to the nearest Kindle store to buy &#8220;Le spectre d&#8217;Atacama&#8221;, make sure to opt for a package deal. It is impossible to make heads or tails of the story without reading &#8220;Le theatre quantique&#8221; first.</p>
+<p>But then, there are worse ways to spend an idle week than by binge reading Connes&#8230;</p>
+<p><strong>Edit</strong> (February 28th). A short video of Alain Connes explaining &#8216;Le spectre d&#8217;Atacama&#8217; (in French)</p>
+<p><center><br />
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/qPA5DywLFeI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/archangel-gabriel-will-make-you-a-topos/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

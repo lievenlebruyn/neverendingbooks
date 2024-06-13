@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>sporadic groups &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/sporadic-groups/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 31 Dec 2009 10:27:55 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Olivier Messiaen &#038; Mathieu 12</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/olivier-messiaen-mathieu-12/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/olivier-messiaen-mathieu-12/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2009 10:27:55 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[simple groups]]></category>
+		<category><![CDATA[sporadic groups]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2691</guid>
+
+					<description><![CDATA[To mark the end of 2009 and 6 years of blogging, two musical compositions with a mathematical touch to them. I wish you all a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>To mark the end of 2009 and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/a-blogging-2004.html">6 years</a> of blogging, two musical compositions with a mathematical touch to them. I wish you all a better 2010!</p>
+<p>Remember from <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/seriously-now-where-was-the-bourbaki-wedding.html">last time</a> that we identified <a href="http://en.wikipedia.org/wiki/Olivier_Messiaen">Olivier Messiaen</a> as the &#8216;Monsieur Modulo&#8217; playing the musical organ at the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/when-was-the-bourbaki-wedding.html">Bourbaki wedding</a>. This was based on the fact that his “modes à transposition limitée” are really about epimorphisms between modulo rings Z/12Z→Z/3Z and Z/12Z→Z/4Z.</p>
+<p>However, Messiaen had more serious mathematical tricks up his sleeve. In two of his compositions he did discover (or at least used) one of the smaller <a href="http://en.wikipedia.org/wiki/Sporadic_group">sporadic groups</a>, the Mathieu group $M_{12} $ of order 95040 on which we have based a whole series of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/conways-puzzle-m13.html">Mathieu games</a> two and a half years ago.</p>
+<p>Messiaen&#8217;s &#8216;Ile de fey 2&#8217; composition for piano (part of Quatre études de rythme (&#8220;Four studies in rhythm&#8221;), piano (1949–50)) is based on two concurrent permutations. The first is shown below, with the underlying motive rotational permutation shown.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messiM12a.jpg"><br />
+</center></p>
+<p>This gives the permutation (1,7,10,2,6,4,5,9,11,12)(3,8). A second concurrent permutation is based on the permutation (1,6,9,2,7,3,5,4,8,10,11) and both of them generate the Mathieu group $M_{12} $. This can be seen by realizing the two permutations as the rotational permutations</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messiM12b.jpg"><br />
+</center></p>
+<p>and identifying them with the <a href="http://en.wikipedia.org/wiki/Shuffling#Mongean_shuffle">Mongean shuffles</a>  generating $M_{12} $. See for example, Dave Benson&#8217;s book &#8220;Music: A Mathematical Offering&#8221;, freely available <a href="http://www.maths.abdn.ac.uk/~bensondj/html/music.pdf">online</a>.</p>
+<p>Clearly, Messiaen doesn&#8217;t use all of its 95040 permutations in his piece! Here&#8217;s how it sounds. The piece starts 2 minutes into the clip.</p>
+<p><center><object width="375" height="304"><param name="movie" value="http://www.youtube.com/v/6UrpeXcrG2c&#038;hl=en_US&#038;fs=1&#038;"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/6UrpeXcrG2c&#038;hl=en_US&#038;fs=1&#038;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="375" height="304"></embed></object></center></p>
+<p>The second piece is &#8220;Les Yeux dans les Roues&#8221; (The Eyes in the Wheels), sixth piece from the &#8220;Livre d&#8217;Orgue&#8221; (1950/51).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messiM12c.jpg"><br />
+</center></p>
+<p>According to <a href="http://hauptwerk.blogspot.com/2008/10/olivier-messiaen-les-yeux-dans-les.html">Hauptwerk</a>, the piece consists of a melody/theme in the pedal, accompanied by two fast-paced homorhythmic lines in the manuals. The pedal presents a sons-durées theme which is repeated six times, in different permutations. Initially it is presented in its natural form. Afterwards, it is presented alternatively picking notes from each end of the original form. Similar transformations are applied each time until the sixth, which is the retrograde of the first. The entire twelve-tone analysis (pitch only, not rhythm) of the pedal is shown below:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/messiM12d.jpg"><br />
+</center></p>
+<p>That is we get the following five permutations which again generate Mathieu 12 :</p>
+<ul>
+<li>a=(2,3,5,9,8,10,6,11,4,7,12)</li>
+<li>b=(1,2,4,8,9,7,11,3,6,12)(5,10)=e*a</li>
+<li>c=(1,12,11,9,5,4,6,2,10,7)(3,8)=e*d</li>
+<li>d=(1,11,10,8,4,5,3,7,2,9,6)</li>
+<li>e=(1,12)(2,11)(3,10)(4,9)(5,8)(6,7)</li>
+</ul>
+<p>Here&#8217;s the piece performed on organ :</p>
+<p><object style="display:block; margin:0px auto 10px; text-align:center;" height="304" width="375"><param name="movie" value="http://www.youtube.com/v/rbNKxRims1s&amp;hl=en&amp;fs=1"><param name="allowFullScreen" value="true"><embed src="http://www.youtube.com/v/rbNKxRims1s&amp;hl=en&amp;fs=1" type="application/x-shockwave-flash" allowfullscreen="true" height="304" width="375"></embed></object></p>
+<p>Considering the permutations $X=d.a^{-1} $ and $Y=(a.d^2.a.d^3)^{-1} $ one obtains canonical generators of $M_{12} $, that is, generators satisfying the defining equations of this sporadic group</p>
+<p>$X^2=Y^3=(XY)^{11}=[X,Y]^6=(XYXYXY^{-1})^6=1 $</p>
+<p>I leave you to work out the corresponding <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monsieur-mathieu.html">dessin d&#8217;enfant</a> tonight after a couple of glasses of champagne! It sure has a nice form. Once again, a better 2010!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/olivier-messiaen-mathieu-12/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

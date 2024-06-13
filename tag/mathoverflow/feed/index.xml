@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>MathOverflow &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/mathoverflow/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 16 May 2011 12:17:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Who dreamed up the primes=knots analogy?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 16 May 2011 12:17:45 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[knots]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[Mazur]]></category>
+		<category><![CDATA[Mumford]]></category>
+		<category><![CDATA[nonsense]]></category>
+		<category><![CDATA[primes]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4906</guid>
+
+					<description><![CDATA[One of the more surprising analogies around is that prime numbers can be viewed as knots in the 3-sphere $S^3$. The motivation behind it is&#8230;]]></description>
+										<content:encoded><![CDATA[<p>One of the more surprising analogies around is that prime numbers can be viewed as knots in the 3-sphere $S^3$. The motivation behind it is that the (etale) fundamental group of $\pmb{spec}(\mathbb{Z}/(p))$ is equal to (the completion) of the fundamental group of a circle $S^1$ and that the embedding</p>
+<p>$\pmb{spec}(\mathbb{Z}/(p)) \subset \pmb{spec}(\mathbb{Z})$</p>
+<p>embeds this circle as a knot in a 3-dimensional simply connected manifold which, after Perelman, has to be $S^3$. For more see the <a href="https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime">what is the knot associated to a prime?-post</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/primescircles.jpg"></p>
+<p>In recent months new evidence has come to light allowing us to settle the genesis of this marvelous idea.</p>
+<p><strong>1. The former consensus</strong></p>
+<p>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BarryMazur85.jpg" align=left hspace=10 > Until now, the generally accepted view (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mazurs-dictionary.html">the &#8216;Mazur-dictionary-post&#8217;</a> or <a href="http://arxiv.org/abs/0904.3399">Morishita&#8217;s expository paper</a>) was that the analogy between knots and primes was first pointed out by <a href="http://en.wikipedia.org/wiki/Barry_Mazur">Barry Mazur</a> in the middle of the 1960&#8217;s when preparing for his lectures at the Summer Conference on Algebraic Geometry, at Bowdoin, in 1966. The lecture notes where later published in 1973 in the Annales of the ENS as &#8216;Notes on etale cohomology of number fields&#8217;.</p>
+<p>For further use in this series of posts, please note the acknowledgement at the bottom of the first page, reproduced below : &#8220;It gives me pleasure to thank J.-P. Serre for his vigorous editing and his suggestions and corrections, which led to this revised version.&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Mazur1973.jpg"></p>
+<p>Independently, <a href="http://en.wikipedia.org/wiki/Yuri_I._Manin">Yuri I. Manin</a> spotted the same analogy at around the same time. However, this point of view was quickly forgotten in favor of the more classical one of viewing number fields as analogous to algebraic function fields of one variable. Subsequently, in the mid 1990&#8217;s <a href="http://www.math.toronto.edu/kapranov/">Mikhail Kapranov</a> and <a href="http://books.google.com/books?id=nLaWI8Rc9RYC&amp;dq=Alexander+Reznikov&amp;printsec=frontcover&amp;source=bl&amp;ots=GoAknn2TfZ&amp;sig=eHgN5X04za1PgSfIq2_zhM-D-LQ&amp;hl=en&amp;sa=X&amp;oi=book_result&amp;resnum=3&amp;ct=result">Alexander Reznikov</a> took up the analogy between number fields and 3-manifolds again, and called the resulting study <a href="http://en.wikipedia.org/wiki/Arithmetic_topology">arithmetic topology</a>.</p>
+<p><strong>2. The new evidence</strong></p>
+<p>On december 13th 2010, <a href="http://mathoverflow.net/users/10909/david-feldman">David Feldman</a> posted a MathOverflow-question <a href="http://mathoverflow.net/questions/49303/mazurs-unpublished-manuscript-on-primes-and-knots">Mazur’s unpublished manuscript on primes and knots?</a>. He wrote : &#8220;The story of the analogy between knots and primes, which now has a literature, started with an unpublished note by Barry Mazur. I&#8217;m not absolutely sure this is the one I mean, but in his paper, Analogies between group actions on 3-manifolds and number fields, Adam Sikora cites <strong>B. Mazur, Remarks on the Alexander polynomial, unpublished notes.</strong>&#8220;</p>
+<p>Two months later, on february 15th David Feldman suddenly found the missing preprint in his mail-box and made it <a href="http://ifile.it/rodc5is/mazur.pdf">available</a>. The preprint is now also available from Barry Mazur&#8217;s <a href="http://www.math.harvard.edu/~mazur/">website</a>. Mazur adds the following comment :</p>
+<p>&#8220;In 1963 or 1964 I wrote an article <a href="http://www.math.harvard.edu/~mazur/papers/alexander_polynomial.pdf">Remarks on the Alexander Polynomial [PDF]</a> about the analogy between knots in the three-dimensional sphere and prime numbers (and, correspondingly, the relationship between the Alexander polynomial and Iwasawa Theory). I distributed some copies of my article but never published it, and I misplaced my own copy. In subsequent years I have had many requests for my article and would often try to search through my files to find it, but never did. A few weeks ago Minh-Tri Do asked me for my article, and when I said I had none, he very kindly went on the web and magically found a scanned copy of it. I&#8217;m extremely grateful to Minh-Tri Do for his efforts (and many thanks, too, to David Feldman who provided the lead).&#8221;</p>
+<p>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DavidMumford.jpg" align=right hspace=10 ><br />
+The opening paragraph of this unpublished preprint contains a major surprise!</p>
+<p> Mazur points to <a href="http://en.wikipedia.org/wiki/David_Mumford">David Mumford</a> as the originator of the &#8216;primes-are-knots&#8217; idea : &#8220;Mumford has suggested a most elegant model as a geometric interpretation of the above situation : $\pmb{spec}(\mathbb{Z}/p\mathbb{Z})$ is like a one-dimensional knot in $\pmb{spec}(\mathbb{Z})$ which is like a simply connected three-manifold.&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MazurPreprint.jpg"></p>
+<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy"> a later post</a> we will show that one can even pinpoint the time and place when and where this analogy was first dreamed-up to within a few days and a couple of miles.</p>
+<p>For the impatient among you, have a sneak preview of the cradle of birth of the primes=knots idea&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/quizz1.jpg"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the Reddit (after)effect</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 15 Jan 2011 14:44:31 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[analytics]]></category>
+		<category><![CDATA[blogs]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[links]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[Reddit]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[Wikipedia]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4130</guid>
+
+					<description><![CDATA[Sunday january 2nd around 18hr NeB-stats went crazy. Referrals clarified that the post &#8216;What is the knot associated to a prime?&#8217; was picked up at&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Sunday january 2nd around 18hr NeB-stats went crazy.</p>
+<p>Referrals clarified that the post <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/what-is-the-knot-associated-to-a-prime.html">&#8216;What is the knot associated to a prime?&#8217;</a> was picked up at <a href="http://www.reddit.com/r/math/">Reddit/math</a> and remained nr.1 for about a day.</p>
+<p>Now, the dust has settled, so let&#8217;s learn from the experience.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddit1.jpg"></p>
+<p>A Reddit-mention is to a blog what doping is to a sporter.</p>
+<p>You get an immediate boost in the most competitive of all blog-stats, the number of unique vistors (blue graph), but is doesn&#8217;t result in a long-term effect, and, it may even be harmful to more essential blog-stats, such as the average time visitors spend on your site (yellow graph).</p>
+<p>For NeB the unique vistors/day fluctuate normally around 300, but peaked to 1295 and 1733 on the &#8216;Reddit-days&#8217;. In contrast, the avg. time on site is normally around 3 minutes, but dropped the same days to 44 and 30 seconds!</p>
+<p>Whereas some of the Reddits spend enough time to read the post and <a href="http://www.reddit.com/r/math/comments/ev1gq/what_is_the_knot_associated_to_a_prime/">comment on it</a>, the vast majority zap from one link to the next. Having monitored the <a href="http://www.reddit.com/r/math/">Reddit/math</a> page for two weeks, I&#8217;m convinced that post only made it because it was visually pretty good. The average Reddit/math-er is a viewer more than a reader&#8230;</p>
+<p>So, should I go for shorter, snappier, more visual posts?</p>
+<p>Let&#8217;s compare Reddits to those coming from the three sites giving NeB most referrals : Google search, MathOverflow and Wikipedia.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddit2.jpg"></p>
+<p>This is the traffic coming from Reddit/math, as always the blue graph are the unique visitors, the yellow graph their average time on site, blue-scales to the left, yellow-scales to the right.</p>
+<p>Here&#8217;s the same graph for <a href="http://www.google.com/">Google search</a>. The unique visitors/day fluctuate around 50 and their average time on site about 2 minutes.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/google2.jpg"></p>
+<p>The math-related search terms most used were this month : &#8216;functor of point approach&#8217;, &#8216;profinite integers&#8217; and &#8216;bost-connes sytem&#8217;.</p>
+<p>More rewarding to me are referrals from <a href="http://mathoverflow.net/">MathOverflow</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mathO1.jpg"></p>
+<p>The number of visitors depends on whether the MathO-questions made it to the front-page (for example, the 80 visits on december 15, came from the <a href="http://mathoverflow.net/questions/1909/what-are-dessins-denfants">What are dessins d’enfants?-topic</a> getting an extra comment that very day, and having two references to NeB-posts : <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-best-rejected-proposal-ever.html">The best rejected proposal ever</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/kleins-dessins-denfant-and-the-buckyball.html">Klein’s dessins d’enfant and the buckyball</a>), but even older MathO-topics give a few referrals a day, and these people sure take their time reading the posts (+ 5 minutes).</p>
+<p>Other MathO-topics giving referrals this month were <a href="http://mathoverflow.net//questions/49151/most-intricate-and-most-beautiful-structures-in-mathematics">Most intricate and most beautiful structures in mathematics</a> (linking to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/looking-for-f_un.html">Looking for F-un</a>), <a href="http://mathoverflow.net///questions/28496/what-should-be-learned-in-a-first-serious-schemes-course">What should be learned in a first serious schemes course?</a> (linking to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mumfords-treasure-map.html">Mumford’s treasure map</a> (btw. one of the most visited NeB-posts ever)), <a href="http://mathoverflow.net/questions/14468/how-much-of-scheme-theory-can-you-visualize">How much of scheme theory can you visualize?</a> (linking again to Mumford&#8217;s treasure map) and <a href="http://mathoverflow.net/questions/34699/approaches-to-riemann-hypothesis-using-methods-outside-number-theory">Approaches to Riemann hypothesis using methods outside number theory</a> (linking to the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bost-connes-coset-space.html">Bost-Connes series</a>).</p>
+<p>Finally, there&#8217;s <a href="http://em.wikipedia.org/">Wikipedia</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wikipedia1.jpg"></p>
+<p>giving 5 to 10 referrals a day, with a pretty good time-on-site average (around 4 minutes, peaking to 12 minutes). It is rewarding to see NeB-posts referred to in as diverse Wikipedia-topics as &#8216;Fifteen puzzle&#8217;, &#8216;Field with one element&#8217;, &#8216;Evariste Galois&#8217;, &#8216;ADE classification&#8217;, &#8216;Monster group&#8217;, &#8216;Arithmetic topology&#8217;, &#8216;Dessin d&#8217;enfant&#8217;, &#8216;Groupoid&#8217;, &#8216;Belyi&#8217;s theorem&#8217;, &#8216;Modular group&#8217;, &#8216;Cubic surface&#8217;, &#8216;Esquisse d&#8217;un programme&#8217;, &#8216;N-puzzle&#8217;, &#8216;Shabat polynomial&#8217; and &#8216;Mathieu group&#8217;.</p>
+<p>What lesson should be learned from all this data? Should I go for shorter, snappier and more visual posts, or should I focus on the small group of visitors taking their time reading through a longer post, and don&#8217;t care about the appallingly high <a href="http://en.wikipedia.org/wiki/Bounce_rate">bounce rate</a> the others cause?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NeB : 7 years and now an iPad App</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 31 Dec 2010 17:05:32 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[iPad]]></category>
+		<category><![CDATA[iPad App]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3943</guid>
+
+					<description><![CDATA[Exactly 7 years ago I wrote my first post. This blog wasn&#8217;t called NeB yet and it used pMachine, a then free blogging tool (later&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Exactly 7 years ago I wrote my <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/a-blogging-2004.html">first post</a>. This blog wasn&#8217;t called NeB yet and it used pMachine, a then free blogging tool (later transformed into <a href="http://expressionengine.com/">expression engine</a>), rather than WordPress.</p>
+<p>Over the years NeB survived three hardware-upgrades of &#8216;the Matrix&#8217; (the webserver hosting it), more themes than I care to remember, and a couple of dramatic closure announcements&#8230;</p>
+<p>But then we&#8217;re still here, soldiering on, still uncertain whether there&#8217;s a point to it, but grateful for tiny tokens of appreciation.</p>
+<p>Such as this morning&#8217;s story: <a href="http://mathoverflow.net/users/2821/chandan-singh-dalawat">Chandan</a> deemed it necessary to correct two spelling mistakes in a 2 year old Fun-math post on <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/andre-weil-on-the-rh.html">Weil and the Riemann hypothesis</a> (also reposted on Neb <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/andre-weil-on-the-riemann-hypothesis.html">here</a>). Often there&#8217;s a story behind such sudden comments, and a quick check of MathOverflow revealed <a href="http://mathoverflow.net/questions/50776/did-andre-weil-predict-that-the-riemann-hypothesis-would-be-settled-by-prime-numb/50795#50795">this answer</a> and the comments following it.</p>
+<p>I thank <a href="http://mathoverflow.net/users/4137/ed-dean">Ed Dean</a> for linking to the Fun-post, Chandan for correcting the misspellings and Georges for the kind words. I agree with Georges that a cut&amp;copy of a blogpost-quoted text does not require a link to that post (though it is always much appreciated). It is rewarding to see such old posts getting a second chance&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mobilevisits.jpg"></p>
+<p>Above the Google Analytics graph of the visitors coming here via a mobile device (at most 5 on a good day&#8230;). Anticipating much more iPads around after tonights presents-session I&#8217;ve made NeB more accessible for iPods, iPhones, iPads and other mobile devices.</p>
+<p>The first time you get here via your Mac-device of choice you&#8217;ll be given the option of saving NeB as an App. It has its own icon (lowest row middle, also the favicon of NeB) and flashy start-up screen.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBApp1.jpg"></p>
+<p>Of course, the whole point trying to make NeB more readable for Mobile users you get an overview of the latest posts together with links to categories and tags and the number of comments. Sliding through you can read the post, optimized for the device.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/NeBApp2.jpg"></p>
+<p>I do hope you will use the two buttons at the end of each post, the first to share or save it and the second to leave a comment.</p>
+<p>I wish you all a lot of mathematical (and other) fun in 2011 :: lieven.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lists 2010 : StackExchange sites</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 27 Dec 2010 13:53:11 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[social networks]]></category>
+		<category><![CDATA[stackexchange]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3883</guid>
+
+					<description><![CDATA[One of the trends of 2010 was the proliferation of StackExchange sites. I guess by now most of us visit MathOverflow along with the arXiv&#8230;]]></description>
+										<content:encoded><![CDATA[<p>One of the trends of 2010 was the proliferation of <a href="http://en.wikipedia.org/wiki/Stack_Exchange">StackExchange</a> sites. I guess by now most of us visit <a href="http://mathoverflow.net/">MathOverflow</a> along with <a href="http://arxiv.org/">the arXiv</a> daily. But, there are plenty of other StackExchange sites around that may be of interest to the mathematics-community :</p>
+<ul>
+<li><a href="http://math.stackexchange.com/">Mathematics</a> somewhat less high-brow than MathO.  </li>
+<li><a href="http://physics.stackexchange.com/">Physics</a> still in the beta-phase (see below)  </li>
+<li><a href="http://cstheory.stackexchange.com/">Theoretical computer science</a>  </li>
+<li><a href="http://tex.stackexchange.com/">TeX</a> for TeX and LaTeX-lovers  </li>
+<li><a href="http://ipad4edu.com/">iPad 4 edu</a> for those who want to use their iPad in the classroom</li>
+<li>etc. etc.</li>
+</ul>
+<p>&#8220;Opening a StackExchange site is damn hard. First you have to find at least 60 people interested in the site. Then, when this limit is reached, a large amount of people (in the hundreds, but it really depends on the reputation of each participant) must commit and promise to create momentum for the site, adding questions and answers. When this amount is reached, the site is open and stays in closed beta for seven days. During this time, the committers have to enrich the site so that the public beta (which starts after the first seven days) gets enough hits and participants to show a self-sustained community.&#8221; (quote from ForTheScience&#8217;s <a href="http://forthescience.org/blog/2010/07/22/stackexchange-sites-proliferation/">StackExchange sites proliferation</a>, this post also contains a list of  StackExchange-projects in almost every corner of Life)</p>
+<p>The site keeping you up to date with StackExchange proposals and their progress is <a href="http://area51.stackexchange.com/">area51</a>. Perhaps, you want to commit to some of these proposals</p>
+<ul>
+<li><a href="http://area51.stackexchange.com/proposals/6633/high-energy-physics">High Energy Physics</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/23848/theoretical-physics">Theoretical Physics</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15787/mathematica">Mathematica</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/23788/math-errata-database">Math Errata Database</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15215/blogging-and-the-blogosphere">Blogging and the Blogosphere</a>  </li>
+<li><a href="http://area51.stackexchange.com/proposals/15811/cryptography">Cryptography</a></li>
+</ul>
+<p>or simply browse around <a href="http://area51.stackexchange.com/">area51</a> until you find the ideal community for you to belong to&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-stackexchange-sites/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lists 2010 : MathOverflow bookmarks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 26 Dec 2010 21:25:39 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[Field with one element]]></category>
+		<category><![CDATA[Frobenius]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Langlands]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[representation schemes]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3869</guid>
+
+					<description><![CDATA[A few MathOverflow threads I bookmarked in 2010 for various reasons. Honest answer : Applications of algebraic geometry over a field with one element. James&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A few <a href="http://mathoverflow.net/">MathOverflow</a> threads I bookmarked in 2010 for various reasons.</p>
+<ul>
+<li>Honest answer : <a href="http://mathoverflow.net/questions/23394/applications-of-algebraic-geometry-over-a-field-with-one-element">Applications of algebraic geometry over a field with one element</a>. <a href="http://mathoverflow.net/questions/23394/applications-of-algebraic-geometry-over-a-field-with-one-element/23418#23418">James Borger&#8217;s answer</a> : &#8220;I&#8217;m confident that the answer to the original question is no. There are hardly any theorems at all in the subject, much less ones with external applications! In other words, if no further progress is ever made in any of the directions people have pursued, everything will likely be forgotten&#8221; </li>
+<li>Unknown result (at least to me) : <a href="http://mathoverflow.net/questions/14076/irreducibility-of-polynomials-in-two-variables">Irreducibility of polynomials in two variables</a>. <a href="http://mathoverflow.net/questions/14076/irreducibility-of-polynomials-in-two-variables/14084#14084">Graham Leuschke&#8217;s</a> &#8220;all-time leading candidate for Most Preposterous Theorem Ever&#8221;, proved using the classification of the finite simple groups. </li>
+<li>Should know example (but don&#8217;t) : <a href="http://mathoverflow.net/questions/21380/algebra-a-with-speca-reduced-and-rep-na-non-reduced">Algebra A with Spec(A) reduced and Rep_n(A) non-reduced</a>. Algebras being commutative here and even the existence of an example with Spec(A) is smooth is open. Peter Samuelson : &#8221; My guess would be yes for both, but I&#8217;m not sure how to find one for either one.&#8221; </li>
+<li>Great list : <a href="http://mathoverflow.net/questions/49993/the-frobenius-morphism">The Frobenius morphism</a>. David Ben-Zvi&#8217;s &#8220;outdated collection of intuitive ways to think about raising to the p-th power&#8221;.</li>
+<li>Overrated answer : <a href="http://mathoverflow.net/questions/41253/who-fixed-the-topology-on-ideles">who fixed the topology on ideles?</a>. <a href="http://mathoverflow.net/questions/41253/who-fixed-the-topology-on-ideles/41332#41332">John Tate&#8217;s answer</a> &#8220;When I wrote my thesis I used what seemed to me to be the obvious topology without going into the history of the matter.&#8221; got 73 votes&#8230; </li>
+<li>Langlands for dummies : <a href="http://mathoverflow.net/questions/43240/what-is-the-l-function-version-of-quadratic-reciprocity">What is the L-function version of quadratic reciprocity?</a>. Sometimes working through the easiest non-trivial example gives more insight than several survey papers.</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

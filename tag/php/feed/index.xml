@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>php &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/php/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 12 Feb 2009 15:20:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>math2.0-setup : mysql and php+</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/math20-setup-mysql-and-php/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/math20-setup-mysql-and-php/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 12 Feb 2009 15:20:23 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1154</guid>
+
+					<description><![CDATA[Set up your own WPMU+BuddyPress site on a spare Mac in no time.]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/yet-another-math20-proposal.html">Last time</a> I wondered whether a set-up like <a href="http://wordpress.com/">WordPress.com</a> meets <a href="http://www.facebook.com/">FaceBook</a> with add-ons (such as wiki- and latex-support) might be a usable environment for people working in a specific arXiv-topic.</p>
+<p>I&#8217;ve used <a href="http://mu.wordpress.org/">WordPressMU</a> and <a href="http://buddypress.org/">BuddyPress</a> to create such an embryonal environment. At first I thought I&#8217;d extend it a bit before going online but I fail to have the energy right now so I might as well make the <a href="https://lievenlebruyn.github.io/neverendingbooks/mu/">link available</a>. If you are into math.QA and/or math.RA you are invited to join the experiment. But, please use this site gently as I&#8217;ll have to drop it otherwise.</p>
+<p>I&#8217;ve no desire to maintain this site indefinitely but would welcome others to set up something similar. For this reason I&#8217;ll write a couple of posts explaining how you can build it yourself when you&#8217;d have a free afternoon and a spare Mac around. Each post should not take you longer than 1 hour. Today, we&#8217;ll provide the boring but essential basics : we must get a MySQL-server and a WebServer  running. Next time, I&#8217;ll take you through the WordPressMU (MU for multi-users) and BuddyPress installation. After that, we&#8217;ll add extra functionality.</p>
+<p>We will start from a vanilla 10.5.6 installation. We will often need to edit files, so we&#8217;d better grab a good, free  texteditor : <a href="http://www.barebones.com/products/TextWrangler/download.html">TextWrangler</a>, drag it to Applications and place it in the Dock. We&#8217;ll also type in commands so we want the TerminalApp (to be found in Applcations/Utilities) in the Dock. SystemPreferences and Safari are already in the Dock and as we will need these tools a lot we might rearrange the Dock to look like</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Dock.jpg"><br />
+</center></p>
+<p>From left to right : the Finder, Terminal, Safari, TextWrangler and System Preferences. From now on we will mean by &#8216;Open &#8230;&#8217; that you click on the &#8216;&#8230;&#8217; icon.  In the end we want our computer to become a web-server, so we don&#8217;t want it to go to sleep. Open SystemPreferences and look for the &#8216;Energy Saver&#8217;-icon, click on the &#8216;Show details&#8217; button and set the &#8216;Put the computer to sleep when it is inactive for:&#8217; to Never and unmark the &#8216;Put the hard disk(s) to sleep when possible&#8217; at the bottom.</p>
+<p>We will need to start or stop the WebServer so here&#8217;s how that&#8217;s done : open SystemPreferences and look for the &#8216;Sharing&#8217;-icon. Marking the &#8216;Web Sharing&#8217; option is equivalent to starting your webserver (you can verify this by opening Safari and pointing it to http://localhost/ and you should see the default Apache-screen), unmarking it stops the webserver (check this by repeating the previous, now you should get a &#8216;Safari can&#8217;t connect to the server&#8217; message).</p>
+<p>All of this was probably trivial to you so let&#8217;s do something a bit more advanced : setting up a database-server. OSX doesn&#8217;t come with MySql, so we need to download and install it.</p>
+<p><strong>MySQL : </strong></p>
+<p>Get the <a href="http://dev.mysql.com/downloads/mysql/5.0.html#macosx-dmg">latest version</a> : choose the Mac OS X 10.5 (x86)-package and download it (they ask you to register but you can bypass this by clicking on the &#8216;No thanks, just take me to the downloads&#8217;-link). It is a 55.3 Mb file so this may take a couple of minutes. If all goes well this window should pop-up</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/mysql1.jpg"><br />
+</center></p>
+<p>Click on the mysql-5.0.67-osx10.5-x86.pkg icon and follow the instruction (defaults suffice, you&#8217;ll be asked to give your sudo password and in all it will take less than a minute). Repeat this procedure with MySQLStartupItem.pkg. Done!</p>
+<p>To verify it, Open Terminal and type this to the prompt</p>
+<p>sudo /Library/StartupItems/MySQLCOM/MySQLCOM start</p>
+<p>You&#8217;ll get a scary warning message but type in your sudo-password and the Mysql-server will start. You can access it by typing</p>
+<p>/usr/local/mysql/bin/mysql</p>
+<p>and type exit to the mysql-prompt to leave.<br />
+In all, your interaction with the terminal should look something like this</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/mysql2.jpg"><br />
+</center></p>
+<p>Clearly, you do not want to type all of this every time, so we will add the mysql-location to our &#8216;PATH&#8217;. To do this, open TextWrangler and add this line to the blank document</p>
+<p>export PATH=$PATH:/usr/local/mysql/bin</p>
+<p>and save the file as .profile in your home-directory (the one with the &#8216;House&#8217;-icon, usually given your name). You will get a warning that .-files are reserved but go ahead anyway by clicking the use . &#8211; button). Now, open Terminal and type this</p>
+<p>source ~./profile <br />
+echo $PATH</p>
+<p>if all went well you should now see the mysql-location at the end of your path. From now on you&#8217;ll only have to type</p>
+<p>mysql</p>
+<p>to the terminal-prompt to open MySql. At the moment the root-user of your mysql has no password which isnt safe so we&#8217;d better set one. Open terminal and type</p>
+<p>mysqladmin -u root password NEWPASSWORD</p>
+<p>where, of course, you replace NEWPASSWORD with your choice (use only letters and numbers). From now on you can access your mysql-server by opening Terminal and typing</p>
+<p>mysql -u root -p</p>
+<p>and giving your password. Okay, so we&#8217;ve established our first goal, we have a working Mysql. Take a break if you need one.</p>
+<p><strong>better PHP</strong></p>
+<p>Mac 10.5 comes equipped with php5 but unfortunately it isn&#8217;t quite up to what we need. So, we need to install a better one and tell the mysql-server and the webserver to use the new one instead of the standard one.</p>
+<p>Open Safari and grab the better php-version by going to</p>
+<p>http://www2.entropy.ch/download/php5-5.2.5-6-beta.tar.gz</p>
+<p>It is a 85.2 Mb file, so have a bit of patience. The file gets unzipped automatically and downloaded in the Downloads-directory. Open Finder and go there. At the moment your Downloads-directory will look like</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/php1.jpg"><br />
+</center></p>
+<p>Doubleclick on the php5-5.2.5-6-beta.tar file and a new directory will be created called php5. We will now move this directory and lay some symbolic links. Open a new Terminal window and type the following commands (and provide your sudo-password when asked)</p>
+<p>cd Downloads <br />
+sudo mv php5 /usr/local              <br />
+sudo ln -sf /usr/local/php5/entropy-php.conf /etc/apache2/other/+entropy-php.conf <br />
+sudo mkdir /var/mysql <br />
+sudo ln -s /tmp/mysql.sock /var/mysql/mysql.sock</p>
+<p>Next, we have to tell the webserver to use this new php-version instead of the old one. This information is contained in the apache-configuration file : httpd.conf. Open TextWrangler and under &#8216;File&#8217; choose the option &#8216;Open File by Name&#8217;. Type /etc/apache2/httpd.conf in the field that appears. The file will now appear in the main window. Under &#8216;Search&#8217; choose the &#8216;Go to Line&#8217; option and fill in 114 and hit the Go To button. The follwing line should now be highlighted</p>
+<p>&#35;LoadModule php5_module        libexec/apache2/libphp5.so</p>
+<p>immediately under it add the following line (TextWrangler will tell you that the file is owned by root and ask you whether you want to open it, click yes and make the changes)</p>
+<p>LoadModule php5_module        local/php5/libphp5.so</p>
+<p>(observe that line 114 is commented out, that is, starts with a #, whereas your added line is not).<br />
+Save the file (Textwrangler will ask you to provide the sudo-password).</p>
+<p>Next, we will have to tell php to communicate with the mysql-server. Again, open TextWrangler, under &#8216;File&#8217; choose &#8216;Open File by Name&#8217; and type in /usr/local/php5/lib/php.ini-recommended. When the file appears, under &#8216;Search&#8217; choose &#8216;Go to Line&#8217; and type in 810.  It will read</p>
+<p>mysql.default_socket =</p>
+<p>Change it as follows (that is, add to it)</p>
+<p>mysql.default_socket = /var/mysql/mysql.sock</p>
+<p>and now choose under &#8216;File&#8217; the &#8216;Save as&#8230;&#8217; option. In the window change php.ini-recommended to php.ini and click Save. Done!</p>
+<p><strong>Testing&#8230;</strong></p>
+<p>Restart your webserver. Recall that this means: open SystemPreferences, choose &#8216;Sharing&#8217;, unmark &#8216;Web Server&#8217;, wait 5 seconds and then mark it again.</p>
+<p>Open TextWranger, make a new Text document containing just one line (remove the white space between the ?-signs and the brackets) :</p>
+<p>&lt; ?php phpinfo() ? &#62;</p>
+<p>Choose &#8216;File&#8217; and &#8216;Save as&#8230;&#8217; and in the window that appears navigate to YourHardDisk/Library/WebServer/Documents, name the file &#8216;test.php&#8217; and click the &#8216;Save&#8217; button</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/testphp.jpg"><br />
+</center></p>
+<p>Finally, open Safari and point it to http://localhost/test.php. Cross your fingers and if you get a screen like the one below treat yourself to something nice!</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/testphp2.jpg"><br />
+</center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/math20-setup-mysql-and-php/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

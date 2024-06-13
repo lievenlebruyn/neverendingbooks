@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>python &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/python/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 12 Feb 2010 20:20:29 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Return to LaTeX</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 12 Feb 2010 20:20:29 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2965</guid>
+
+					<description><![CDATA[To most mathematicians, a good LaTeX-frontend (such as TeXShop for Mac-users) is the crucial tool to get the work done. We use it to draft&#8230;]]></description>
+										<content:encoded><![CDATA[<p><p>
+To most mathematicians, a good LaTeX-frontend (such as <a href="http://www.uoregon.edu/~koch/texshop/">TeXShop</a> for Mac-users) is the crucial tool to get the work done. We use it to draft ideas, write papers and courses, or even to take notes during lectures.</p>
+<p>
+However, after six years of blogging, my own LaTeX-routine became rusty. I rarely open a new tex-document, and when I do, I’d rather copy-paste the long preamble from an old file than to start from scratch with a minimal list of packages and definitions needed for the job at hand. The few times I put a paper on the arXiv, the resulting text resembles a blog-post more than a mathematical paper, here’s <a href="http://arxiv.org/abs/0803.3601">an example</a>.</p>
+<p>
+As I desperately need to get some math-writing done, I need to pull myself away from the lure of an ever-open <a href="http://wordpress.org/">WordPress</a> admin browser-screen and reacquaint myself with the far more efficient LaTeX-environment.</p>
+<p>
+Perhaps even my blogging will benefit from the change. Whereas I used to keep on adding to most of my tex-files in order to keep them up-to-date, I rarely edit a blog-post after hitting the ’publish’ button. If I really want to turn some of my better posts into a book, I need them in a format suitable for neverending polishing, without annoying the many RSS-feed aggregators out there.</p>
+<p>
+Who better than Terry Tao to teach me a more proficient way of blogging? A few days ago, Terry <a href="http://terrytao.wordpress.com/2010/02/07/an-epsilon-of-room-pages-from-year-three-of-a-mathematical-blog/">announced</a> he will soon have his 5th (!!) book out, after three years of blogging&#8230;</p>
+<p>
+How does he manage to do this? Well, as far as I know, Terry blogs in LaTeX and then uses a python-script called <a href="http://lucatrevisan.wordpress.com/latex-to-wordpress/">LaTeX2WP</a> ’a program that converts a LaTeX file into something that is ready to be cut and pasted into WordPress. This way, you can write, and preview, your post in LaTeX, then run LaTeX2WP, and post into WordPress whatever comes out.’ More importantly, one retains a pure-tex-file of the post on which one can keep on editing to get it into a (book)-publishable form, eventually.</p>
+<p>
+Nice, but one can do even better, as Eric from <a href="http://curiousreasoning.wordpress.com/tag/latex/">Curious Reasoning</a> worked out. He suggests to install two useful python-packages : <a href="http://www.blackbirdblog.it/programmazione/progetti/28#english">WordPressLib</a> &#8220;with this library you can control remotely a WordPress installation. Use of library is very simple, you can write a small scripts or full applications that allows you to automate publishing of articles on your blog/site powered by WordPress&#8221; and <a href="http://plastex.sourceforge.net/">plasTeX</a> &#8220;plasTeX is a LaTeX document processing framework written entirely in Python. It currently comes bundled with an XHTML renderer (including multiple themes), as well as a way to simply dump the document to a generic form of XML&#8221;. Installation is easy : download and extract the files somewhere, go there and issue a **sudo python setup.py install** to add the packages to your python.</p>
+<p>
+Finally, get Eric’s own <a href="http://curiousreasoning.wordpress.com/2010/01/30/overview-of-wplatex-4/">wplatex</a> package and install it as explained there. WpLaTeX has all the features of LaTeX2WP and much more : one can add titles, tags and categories automatically and publish the post from the command-line without ever having to enter the taboo WordPress-admin page! Here’s what I’ve written by now in TeXShop</p>
+<p><p align=center> <img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/Return2Latex.jpg" /> </p>
+<p>
+I’ve added the screenshot and the script will know where to find it online for the blog-version as well as on my hard-disk for the tex-version. Very handy is the iftex &#8230; fi versus ifblog &#8230; fi alternative which allows you to add pure HTML to get the desired effect, when needed. Remains only to go into Terminal and issue the command</p>
+<p>
+wplpost -x https://lievenlebruyn.github.io/neverendingbooks/xmlrpc.php ReturnToLatex.tex</p>
+<p>
+(if your blog is on WordPress.com it even suffices to give its name, rather than this work-around for stand-alone wordpress blogs). The script asks for my username and password and will convert the tex-file and post it automatic.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

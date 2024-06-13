@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>absolute &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/category/absolute/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 13 Feb 2022 12:33:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The hype cycle of an idea</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 13 Feb 2022 12:33:07 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[Gartner]]></category>
+		<category><![CDATA[IUTT]]></category>
+		<category><![CDATA[Joshi]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10253</guid>
+
+					<description><![CDATA[These three ideas (re)surfaced over the last two decades, claiming to have potential applications to major open problems: (2000) $\mathbb{F}_1$-geometry tries to view $\mathbf{Spec}(\mathbb{Z})$ as&#8230;]]></description>
+										<content:encoded><![CDATA[<p>These three ideas (re)surfaced over the last two decades, claiming to have potential applications to major open problems:</p>
+<ul>
+<li>(2000) $\mathbb{F}_1$-geometry tries to view $\mathbf{Spec}(\mathbb{Z})$ as a curve over <a href="https://en.wikipedia.org/wiki/Field_with_one_element">the field with one element</a>, and mimic Weil&#8217;s proof of RH for curves over finite fields to prove the Riemann hypothesis.</li>
+<li>(2012) IUTT, for <a href="https://en.wikipedia.org/wiki/Inter-universal_Teichm%C3%BCller_theory">Inter Universal Teichmuller Theory</a>, the machinery behind Mochizuki&#8217;s claimed proof of the ABC-conjecture.</li>
+<li>(2014) topos theory : Connes and Consani redirected their RH-attack using arithmetic sites, while Lafforgue advocated the use of <a href="https://www.oliviacaramello.com/Unification/ToposesBridges.html">Caramello&#8217;s bridges</a> for unification, in particular the Langlands programme.</li>
+</ul>
+<p>It is difficult to voice an opinion about the (presumed) current state of such projects without being accused of being either a believer or a skeptic, resorting to group-think or being overly critical.</p>
+<p>We lack the vocabulary to talk about the different phases a mathematical idea might be in.</p>
+<p>Such a vocabulary exists in (information) technology, the five phases of the <a href="https://en.wikipedia.org/wiki/Gartner_hype_cycle">Gartner hype cycle</a> to represent the maturity, adoption, and social application of a certain technology :</p>
+<ol>
+<li>Technology Trigger</li>
+<li>Peak of Inflated Expectations</li>
+<li>Trough of Disillusionment</li>
+<li>Slope of Enlightenment</li>
+<li>Plateau of Productivity</li>
+</ol>
+<p><img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Hype-Cycle-General.png/640px-Hype-Cycle-General.png" width=100% /></p>
+<p>This model can then be used to gauge in which phase several emerging technologies are, and to estimate the time it will take them to reach the stable plateau of productivity. Here&#8217;s Gartner&#8217;s recent Hype Cycle for emerging Artificial Intelligence technologies.</p>
+<p><center><br />
+<img decoding="async" src="https://miro.medium.com/max/1400/1*otjihWm7qj4qOORUH7M-AQ.png" width=100% /><br />
+Picture from <a href="https://medium.com/@mishra.kamal/gartner-hype-cycle-for-ai-2021-3c11c1d80358">Gartner Hype Cycle for AI 2021</a><br />
+</center></p>
+<p>What might these phases be in the hype cycle of a <em>mathematical</em> idea?</p>
+<ol>
+<li>Technology Trigger: a new idea or analogy is dreamed up, marketed to be the new approach to that problem. A small group of enthusiasts embraces the idea, and tries to supply proper definitions and the very first results.</li>
+<li>Peak of Inflated Expectations: the idea spreads via talks, blogposts, mathoverflow and twitter, and now has enough visibility to justify the first conferences devoted to it. However, all this activity does not result in major breakthroughs and doubt creeps in.</li>
+<li>Trough of Disillusionment:  the project ran out of steam. It becomes clear that existing theories will not lead to a solution of the motivating problem. Attempts by key people to keep the idea alive (by lengthy papers, regular meetings or seminars) no longer attract new people to the field.</li>
+<li>Slope of Enlightenment: the optimistic scenario. One abandons the original aim, ditches the myriad of theories leading nowhere, regroups and focusses on the better ideas the project delivered.
+<p>A negative scenario is equally possible. Apart for a few die-hards the idea is abandoned, and on its way to the graveyard of forgotten ideas.</li>
+<li>Plateau of Productivity: the polished surviving theory has applications in other branches and becomes a solid tool in mathematics.</li>
+</ol>
+<p>It would be fun so see more knowledgable people draw such a hype cycle graph for recent trends in mathematics.</p>
+<p>Here&#8217;s my own (feeble) attempt to gauge where the three ideas mentioned at the start are in their cycles, and here&#8217;s why:</p>
+<ul>
+<li>IUTT: recent work of Kirti Joshi, for example <a href="https://arxiv.org/abs/2106.11452">this</a>, and <a href="https://arxiv.org/abs/2111.04890">this</a>, and <a href="https://arxiv.org/abs/2111.06771">that</a>, draws from IUTT while using conventional language and not making exaggerated claims.</li>
+<li>$\mathbb{F}_1$: the preliminary programme of <a href="https://funworldseminar.wordpress.com/">their seminar</a> shows little evidence the $\mathbb{F}_1$-community learned from the past 20 years.</li>
+<li>Topos: Developing more general theory is not the way ahead, but concrete examples may carry surprises, even though <a href="https://lievenlebruyn.github.io/neverendingbooks/closing-in-on-gabriels-topos">Gabriel&#8217;s topos</a> will remain elusive.</li>
+</ul>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/3hypecycles.png" width=100% /></p>
+<p>Clearly, you don&#8217;t agree, and that&#8217;s fine. We now have a common terminology, and you can point me to results or events I must have missed, forcing me to redraw my graph.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Smirnov on $\mathbb{F}_1$ and the RH</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/smirnov-on-mathbbf_1-and-the-rh/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/smirnov-on-mathbbf_1-and-the-rh/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 21 Jan 2022 15:24:19 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[arithmetic plane]]></category>
+		<category><![CDATA[arithmetic site]]></category>
+		<category><![CDATA[Smirnov]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10069</guid>
+
+					<description><![CDATA[Wednesday, Alexander Smirnov (Steklov Institute) gave the first talk in the $\mathbb{F}_1$ world seminar. Here&#8217;s his title and abstract: Title: The 10th Discriminant and Tensor&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Wednesday, Alexander Smirnov (Steklov Institute) gave the first talk in the <a href="https://funworldseminar.wordpress.com/">$\mathbb{F}_1$ world seminar</a>. Here&#8217;s his title and abstract:</p>
+<p>Title: The 10th Discriminant and Tensor Powers of $\mathbb{Z}$</p>
+<p>&#8220;We plan to discuss very shortly certain achievements and disappointments of the $\mathbb{F}_1$-approach. In addition, we will consider a possibility to apply noncommutative tensor powers of $\mathbb{Z}$ to the Riemann Hypothesis.&#8221;</p>
+<p>Here&#8217;s his talk, and part of the comments section:</p>
+<p><iframe src="https://drive.google.com/file/d/1MAlFu8kLXxiy3sToxAeap2yxYjBhY_dS/preview" width="640" height="480" allow="autoplay"></iframe></p>
+<p>Smirnov urged us to pay attention to a 1933 result by <a href="https://en.wikipedia.org/wiki/Max_Deuring">Max Deuring</a> in <a href="https://www.digizeitschriften.de/dms/img/?PID=GDZPPN002374579">Imaginäre quadratische Zahlkörper mit der Klassenzahl 1</a>:</p>
+<p>&#8220;If there are infinitely many imaginary quadratic fields with class number one, then the RH follows.&#8221;</p>
+<p>Of course, we now know that there are exactly nine such fields (whence there is no &#8216;tenth discriminant&#8217; as in the title of the talk), and one can deduce anything from a false statement.</p>
+<p>Deuring&#8217;s argument, of course, was different:</p>
+<p>The zeta function $\zeta_{\mathbb{Q} \sqrt{-d}}(s)$ of a quadratic field $\mathbb{Q}\sqrt{-d}$,  counts the number of ideals $\mathfrak{a}$ in the ring of integers of norm $n$, that is<br />
+\[<br />
+\sum_n \#(\mathfrak{a}:N(\mathfrak{a})=n) n^{-s} \]<br />
+It is equal to $\zeta(s). L(s,\chi_d)$ where $\zeta(s)$ is the usual Riemann function and $L(s,\chi_d)$ the $L$-function of the character $\chi_d(n) = (\frac{-4d}{n})$.</p>
+<p>Now, if the class number of $\mathbb{Q}\sqrt{-d}$ is one (that is, its ring of integers is a principal ideal domain) then Deuring was able to relate $\zeta_{\mathbb{Q} \sqrt{-d}}(s)$ to $\zeta(2s)$ with an error term, depending on $d$, and if we could run $d \rightarrow \infty$ the error term vanishes.</p>
+<p>So, if there were infinitely many imaginary quadratic fields with class number one we would have the equality<br />
+\[<br />
+\zeta(s) . \underset{\rightarrow}{lim}~L(s,\chi_d) = \zeta(2s) \]<br />
+Now, take a complex number $s \not=1$ with real part strictly greater that $\frac {1}{2}$, then $\zeta(2s) \not= 0$. But then, from the equality, it follows that $\zeta(s) \not= 0$, which is the RH.</p>
+<p>To extend (a version of) the Deuring-argument to the $\mathbb{F}_1$-world, Smirnov wants to have many examples of commutative rings $A$ whose multiplicative monoid $A^{\times}$ is isomorphic to $\mathbb{Z}^{\times}$, the multiplicative monoid of the integers.</p>
+<p>What properties must $A$ have?</p>
+<p>Well, it can only have two units, it must be a unique factorisation domain, and have countably many irreducible elements. For example, $\mathbb{F}_3[x_1,\dots,x_n]$ will do!</p>
+<p>(Note to self: contemplate the fact that all such rings share the same arithmetic site.)</p>
+<p>Each such ring $A$ becomes a $\mathbb{Z}$-module by defining a new addition $+_{new}$ on it via<br />
+\[<br />
+a +_{new} b = \sigma^{-1}(\sigma(a) +_{\mathbb{Z}} \sigma(b)) \]<br />
+where $\sigma : A^{\times} \rightarrow \mathbb{Z}^{\times}$ is the isomorphism of multiplicative monoids, and on the right hand side we have the usual addition on $\mathbb{Z}$.</p>
+<p>But then, any pair $(A,A&#8217;)$ of such rings will give us a module over the ring $\mathbb{Z} \boxtimes_{\mathbb{Z}^{\times}} \mathbb{Z}$.</p>
+<p>It was not so clear to me what this ring is (if you know, please drop a comment), but I guess it must be a commutative ring having all these properties, and being a quotient of the ring $\mathbb{Z} \boxtimes_{\mathbb{F}_1} \mathbb{Z}$, the coordinate ring of the elusive arithmetic plane<br />
+\[<br />
+\mathbf{Spec}(\mathbb{Z}) \times_{\mathbf{Spec}(\mathbb{F}_1)} \mathbf{Spec}(\mathbb{Z}) \]</p>
+<p>Smirnov&#8217;s hope is that someone can use a Deuring-type argument to prove:</p>
+<p>&#8220;If $\mathbb{Z} \boxtimes_{\mathbb{Z}^{\times}} \mathbb{Z}$ is &#8216;sufficiently complicated&#8217;, then the RH follows.&#8221;</p>
+<p>If you want to attend the seminar when it happens, please register for the <a href="https://sympa.usu.edu/wws/info/f1worldseminar">seminar&#8217;s mailing list</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/smirnov-on-mathbbf_1-and-the-rh/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The $\mathbb{F}_1$ World Seminar</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 08 Jan 2022 08:21:22 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9986</guid>
+
+					<description><![CDATA[For some time I knew it was in the making, now they are ready to launch it: The $\mathbb{F}_1$ World Seminar, an online seminar dedicated&#8230;]]></description>
+										<content:encoded><![CDATA[<p>For some time I knew it was in the making, now they are ready to launch it:</p>
+<p><a href="https://funworldseminar.wordpress.com/">The $\mathbb{F}_1$ World Seminar</a>, an online seminar dedicated to the <a href="https://en.wikipedia.org/wiki/Field_with_one_element">&#8220;field with one element&#8221;</a>, and its many connections to areas in mathematics such as arithmetic, geometry, representation theory and combinatorics. The organisers are <a href="https://scholar.google.com/citations?user=3g_Z1vEAAAAJ&#038;hl=en">Jaiung Jun</a>, <a href="https://orcid.org/0000-0003-4670-2211">Oliver Lorscheid</a>, <a href="https://en.wikipedia.org/wiki/Yuri_Manin">Yuri Manin</a>, <a href="http://math.bu.edu/people/szczesny/">Matt Szczesny</a>, <a href="https://cage.ugent.be/~kthas/">Koen Thas</a> and <a href="https://sites.google.com/site/youngmatthewb/">Matt Young</a>.</p>
+<p>From the announcement:</p>
+<p>&#8220;While the origins of the “$\mathbb{F}_1$-story” go back to attempts to transfer Weil’s proof of the Riemann Hypothesis from the function field case to that of number fields on one hand, and Tits’s Dream of realizing Weyl groups as the $\mathbb{F}_1$ points of algebraic groups on the other, the “$\mathbb{F}_1$” moniker has come to encompass a wide variety of phenomena and analogies spanning algebraic geometry, algebraic topology, arithmetic, combinatorics, representation theory, non-commutative geometry etc. It is therefore impossible to compile an exhaustive list of topics that might be discussed. The following is but a small sample of topics that may be covered:</p>
+<p>Algebraic geometry in non-additive contexts &#8211; monoid schemes, lambda-schemes, blue schemes, semiring and hyperfield schemes, etc.<br />
+Arithmetic &#8211; connections with motives, non-archimedean and analytic geometry<br />
+Tropical geometry and geometric matroid theory<br />
+Algebraic topology &#8211; K-theory of monoid and other “non-additive” schemes/categories, higher Segal spaces<br />
+Representation theory &#8211; Hall algebras, degenerations of quantum groups, quivers<br />
+Combinatorics &#8211; finite field and incidence geometry, and various generalizations&#8221;</p>
+<p>The seminar takes place on alternating Wednesdays from 15:00 PM – 16:00 PM European Standard Time (=GMT+1). There will be room for mathematical discussion after each lecture.</p>
+<p>The first meeting takes place Wednesday, January 19th 2022. If you want to receive abstracts of the talks and their Zoom-links, you should sign up for the <a href="https://sympa.usu.edu/wws/info/f1worldseminar">mailing list</a>.</p>
+<p>Perhaps I&#8217;ll start posting about $\mathbb{F}_1$ again, either here, or on the dormant <a href="http://cage.ugent.be/~kthas/Fun/">$\mathbb{F}_1$ mathematics blog</a>. (see <a href="https://lievenlebruyn.github.io/neverendingbooks/3-related-new-math-sites">this post</a> for its history).</p>
+<p><a href="http://cage.ugent.be/~kthas/Fun/"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/fun.jpg" width=100% \></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Do we need the sphere spectrum?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 31 Dec 2021 10:50:10 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Almkvist]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Consani]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9903</guid>
+
+					<description><![CDATA[Last time I mentioned the talk &#8220;From noncommutative geometry to the tropical geometry of the scaling site&#8221; by Alain Connes, culminating in the canonical isomorphism&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project">Last time</a> I mentioned the talk <a href="https://www.dropbox.com/s/vqksoc02ci4q7dz/ConnesSlides.pdf?dl=0">&#8220;From noncommutative geometry to the tropical geometry of the scaling site&#8221;</a> by Alain Connes, culminating in the canonical isomorphism (last slide of the talk)<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/Data3/wittsphere.png" width=75% \><br />
+</center></p>
+<p>Or rather, what is actually proved in his paper with Caterina Consani <a href="https://arxiv.org/abs/2112.08820">BC-system, absolute cyclotomy and the quantized calculus</a> (and which they conjectured previously to be the case in <a href="https://arxiv.org/abs/2004.08879">Segal&#8217;s Gamma rings and universal arithmetic</a>), is a canonical isomorphism between the $\lambda$-rings<br />
+\[<br />
+\mathbb{Z}[\mathbb{Q}/\mathbb{Z}] \simeq \mathbb{W}_0(\overline{\mathbb{S}}) \]<br />
+The left hand side is the integral groupring of the additive quotient-group $\mathbb{Q}/\mathbb{Z}$, or if you prefer, $\mathbb{Z}[\mathbf{\mu}_{\infty}]$ the integral groupring of the multiplicative group of all roots of unity $\mathbf{\mu}_{\infty}$.</p>
+<p>The power maps on $\mathbf{\mu}_{\infty}$ equip $\mathbb{Z}[\mathbf{\mu}_{\infty}]$ with a $\lambda$-ring structure, that is, a family of commuting endomorphisms $\sigma_n$ with $\sigma_n(\zeta) = \zeta^n$ for all $\zeta \in \mathbf{\mu}_{\infty}$, and a family of linear maps $\rho_n$ induced by requiring for all $\zeta \in \mathbf{\mu}_{\infty}$ that<br />
+\[<br />
+\rho_n(\zeta) = \sum_{\mu^n=\zeta} \mu \]<br />
+The maps $\sigma_n$ and $\rho_n$ are used to construct an integral version of the Bost-Connes algebra describing the <a href="https://en.wikipedia.org/wiki/Bost%E2%80%93Connes_system">Bost-Connes sytem</a>, a quantum statistical dynamical system.</p>
+<p>On the right hand side, $\mathbb{S}$ is the <a href="https://en.wikipedia.org/wiki/Sphere_spectrum">sphere spectrum</a> (an object from stable homotopy theory) and $\overline{\mathbb{S}}$ its &#8216;algebraic closure&#8217;, that is, adding all abstract roots of unity.</p>
+<p>The ring $\mathbb{W}_0(\overline{\mathbb{S}})$ is a generalisation to the world of spectra of the Almkvist-ring $\mathbb{W}_0(R)$ defined for any commutative ring $R$, constructed from pairs $(E,f)$ where $E$ is a projective $R$-module of finite rank and $f$ an $R$-endomorphism on it. Addition and multiplication are coming from direct sums and tensor products of such pairs, with zero element the pair $(0,0)$ and unit element the pair $(R,1_R)$. The ring $\mathbb{W}_0(R)$ is then the quotient-ring obtained by dividing out the ideal consisting of all zero-pairs $(E,0)$.</p>
+<p>The ring $\mathbb{W}_0(R)$ becomes a $\lambda$-ring via the Frobenius endomorphisms $F_n$ sending a pair $(E,f)$ to the pair $(E,f^n)$, and we also have a collection of linear maps on $\mathbb{W}_0(R)$, the &#8216;Verschiebung&#8217;-maps which send a pair $(E,f)$ to the pair $(E^{\oplus n},F)$ with<br />
+\[<br />
+F = \begin{bmatrix} 0 &#038; 0 &#038; 0 &#038; \cdots &#038; f \\<br />
+1 &#038; 0 &#038; 0 &#038; \cdots &#038; 0 \\<br />
+0 &#038; 1 &#038; 0 &#038; \cdots &#038; 0 \\<br />
+\vdots &#038; \vdots &#038; \vdots &#038; &#038; \vdots \\<br />
+0 &#038; 0 &#038; 0 &#038; \cdots &#038; 1 \end{bmatrix} \]<br />
+Connes and Consani define a notion of modules and their endomorphisms for $\mathbb{S}$ and $\overline{\mathbb{S}}$, allowing them to define in a similar way the rings $\mathbb{W}_0(\mathbb{S})$ and $\mathbb{W}_0(\overline{\mathbb{S}})$, with corresponding maps $F_n$ and $V_n$. They then establish an isomorphism with $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ such that the maps $(F_n,V_n)$ correspond to $(\sigma_n,\rho_n)$.</p>
+<p>But, do we really have the go to spectra to achieve this?</p>
+<p>All this reminds me of an old idea of <a href="https://en.wikipedia.org/wiki/Yuri_Manin">Yuri Manin</a> mentioned in the introduction of his paper <a href="https://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a>, and later elaborated in section two of his paper with Matilde Marcolli <a href="https://arxiv.org/abs/1806.10801">Homotopy types and geometries below $\mathbf{Spec}(\mathbb{Z})$</a>.</p>
+<p>Take a manifold $M$ with a diffeomorphism $f$ and consider the corresponding discrete dynamical system by iterating the diffeomorphism. In such situations it is important to investigate the periodic orbits, or the fix-points $Fix(M,f^n)$ for all $n$. If we are in a situation that the number of fixed points is finite we can package these numbers in the Artin-Mazur zeta function<br />
+\[<br />
+\zeta_{AM}(M,f) = exp(\sum_{n=1}^{\infty} \frac{\# Fix(M,f^n)}{n}t^n) \]<br />
+and investigate the properties of this function.</p>
+<p>To connect this type of problem to Almkvist-like rings, Manin considers the <a href="https://en.wikipedia.org/wiki/Morse%E2%80%93Smale_system">Morse-Smale dynamical systems</a>, a structural stable diffeomorphism $f$, having a finite number of non-wandering points on a compact manifold $M$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MorseSmale.png" width=75% /><br />
+From <a href="https://arxiv.org/abs/1710.08292">Topological classification of Morse-Smale diffeomorphisms on 3-manifolds</a><br />
+</center></p>
+<p>In such a situation $f_{\ast}$ acts on homology $H_k(M,\mathbb{Z})$, which are free $\mathbb{Z}$-modules of finite rank, as a matrix $M_f$ having only roots of unity as its eigenvalues.</p>
+<p>Manin argues that this action is similar to the action of the Frobenius on etale cohomology groups, in which case the eigenvalues are Weil numbers. That is, one might view roots of unity as Weil numbers in characteristic one.</p>
+<p>Clearly, all relevant data $(H_k(M,\mathbb{Z}),f_{\ast})$ belongs to the $\lambda$-subring of $\mathbb{W}_0(\mathbb{Z})$ generated by all pairs $(E,f)$ such that $M_f$ is diagonalisable and all its eigenvalues are either $0$ or roots of unity.</p>
+<p>If we denote for any ring $R$ by $\mathbb{W}_1(R)$ this $\lambda$-subring of $\mathbb{W}_0(R)$, probably one would obtain canonical isomorphisms</p>
+<p>&#8211; between $\mathbb{W}_1(\mathbb{Z})$ and the invariant part of the integral groupring $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ for the action of the group $Aut(\mathbb{Q}/\mathbb{Z}) = \widehat{\mathbb{Z}}^*$, and</p>
+<p>&#8211; between $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ and $\mathbb{W}_1(\mathbb{Z}(\mathbf{\mu}_{\infty}))$ where $\mathbb{Z}(\mathbf{\mu}_{\infty})$ is the ring obtained by adjoining to $\mathbb{Z}$ all roots of unity.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Alain Connes on his RH-project</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 29 Dec 2021 13:42:59 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[arithemtic site]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Consani]]></category>
+		<category><![CDATA[Riemann hypothesis]]></category>
+		<category><![CDATA[scaling site]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9879</guid>
+
+					<description><![CDATA[In recent months, my primary focus was on teaching and family matters, so I make advantage of this Christmas break to catch up with some&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In recent months, my primary focus was on <a href="https://lievenlebruyn.github.io/neverendingbooks/designer-maths">teaching</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/phase-transition">family matters</a>, so I make advantage of this Christmas break to catch up with some of the things I&#8217;ve missed.</p>
+<p><a href="https://www.math.columbia.edu/~woit/wordpress/?p=12584">Peter Woit&#8217;s blog</a> alerted me to the existence of the (virtual) Lake Como-conference, end of september: <a href="https://utge.lakecomoschool.org/programme/">Unifying themes in Geometry</a>.</p>
+<p>In Corona times, virtual conferences seem to sprout up out of nowhere, everywhere (zero costs), giving us an inflation of YouTubeD talks. I&#8217;m always grateful to the organisers of such events to provide the slides of the talks separately, as the generic YouTubeD-talk consists merely in reading off the slides.</p>
+<p>Allow me to point you to one of the rare exceptions to this rule.</p>
+<p>When I downloaded the slides of Alain Connes&#8217; talk at the conference <a href="https://www.dropbox.com/s/vqksoc02ci4q7dz/ConnesSlides.pdf?dl=0">From noncommutative geometry to the tropical geometry of the scaling site</a> I just saw a collage of graphics from his endless stream of papers with Katia Consani, and slides I&#8217;d seen before watching several of his YouTubeD-talks in recent years.</p>
+<p>Boy, am I glad I gave Alain 5 minutes to convince me <a href="https://www.youtube.com/watch?v=8UGwbUzj6iw">this talk</a> was different.</p>
+<p>For the better part of his talk, Alain didn&#8217;t just read off the slides, but rather tried to explain the thought processes that led him and Katia to move on from the results on this slide to those on the next one.</p>
+<p>If you&#8217;re pressed for time, perhaps you might join in at 49.34 into the talk, when he acknowledges the previous (tropical) approach ran out of steam as they were unable to define any $H^1$ properly, and how this led them to &#8216;absolute&#8217; algebraic geometry, meaning over the sphere spectrum $\mathbb{S}$.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/8UGwbUzj6iw?start=2974" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Sadly, for some reason Alain didn&#8217;t manage to get his final two slides on screen. So, in this case, the <a href="https://www.dropbox.com/s/vqksoc02ci4q7dz/ConnesSlides.pdf?dl=0">slides</a> actually add value to the talk&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Closing in on Gabriel&#8217;s topos?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/closing-in-on-gabriels-topos/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/closing-in-on-gabriels-topos/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 08 Jun 2018 13:35:09 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Consani]]></category>
+		<category><![CDATA[Riemann hypothesis]]></category>
+		<category><![CDATA[toposes]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8176</guid>
+
+					<description><![CDATA[&#8216;Gabriel&#8217;s topos&#8217; (see here) is the conjectural, but still elusive topos from which the validity of the Riemann hypothesis would follow. It is the latest&#8230;]]></description>
+										<content:encoded><![CDATA[<p>&#8216;Gabriel&#8217;s topos&#8217; (see <a href="https://lievenlebruyn.github.io/neverendingbooks/archangel-gabriel-will-make-you-a-topos">here</a>) is the conjectural, but still elusive topos from which the validity of the Riemann hypothesis would follow.</p>
+<p>It is the latest attempt in Alain Connes&#8217; 20 year long quest to tackle the RH (before, he tried the tools of <a href="http://www.alainconnes.org/docs/imufinal.pdf">noncommutative geometry</a> and later those offered by the <a href="http://www.alainconnes.org/docs/schemes.pdf">field with one element</a>).</p>
+<p>For the last 5 years he hopes that topos theory might provide the missing ingredient. Together with Katia Consani he introduced and studied <a href="https://arxiv.org/abs/1502.05580">the geometry of the Arithmetic site</a>, and later <a href="https://arxiv.org/abs/1603.03191">the geometry of the scaling site</a>.</p>
+<p>If you look at the points of these toposes you get horribly complicated &#8216;non-commutative&#8217; spaces, such as the finite adele classes $\mathbb{Q}^*_+ \backslash \mathbb{A}^f_{\mathbb{Q}} / \widehat{\mathbb{Z}}^{\ast}$ (in case of the arithmetic site) and the full adele classes $\mathbb{Q}^*_+ \backslash \mathbb{A}_{\mathbb{Q}} / \widehat{\mathbb{Z}}^{\ast}$ (for the scaling site).</p>
+<p>In Vienna, Connes gave a nice introduction to the arithmetic site in two lectures. The first part of the talk below also gives an historic overview of his work on the RH</p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BL3RPci3_cg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+<p>The second lecture can be watched <a href="https://www.youtube.com/watch?v=OfNVT2QHAA4">here</a>.</p>
+<p>However, not everyone is as optimistic about the topos-approach as he seems to be. Here&#8217;s an <a href="https://mathoverflow.net/questions/259263/what-is-precisely-still-missing-in-connes-approach-to-rh/259301#259301">insightful answer</a> on MathOverflow by Will Sawin to the question &#8220;What is precisely still missing in Connes&#8217; approach to RH?&#8221;.</p>
+<p>Other interesting MathOverflow threads related to the RH-approach via the field with one element are <a href="https://mathoverflow.net/questions/34699/approaches-to-riemann-hypothesis-using-methods-outside-number-theory">Approaches to Riemann hypothesis using methods outside number theory</a> and <a href="https://mathoverflow.net/questions/69389/riemann-hypothesis-via-absolute-geometry">Riemann hypothesis via absolute geometry</a>.</p>
+<p>About a month ago, from May 10th till 14th Alain Connes gave a series of <a href="https://math.osu.edu/events/department-event-alain-connes-0">lectures at Ohio State University</a> with title &#8220;The Riemann-Roch strategy, quantizing the Scaling Site&#8221;.</p>
+<p>The accompanying paper has now been arXived: <a href="https://arxiv.org/abs/1805.10501">The Riemann-Roch strategy, Complex lift of the Scaling Site</a> (joint with K. Consani).</p>
+<p>Especially interesting is section 2 &#8220;The geometry behind the zeros of $\zeta$&#8221; in which they explain how looking at the zeros locus inevitably leads to the space of adele classes and why one has to study this space with the tools from noncommutative geometry.</p>
+<p>Perhaps further developments will be disclosed in a few weeks time when Connes is one of the speakers at <a href="http://tcsc.lakecomoschool.org/">Toposes in Como</a>.</p>
+<p><center><br />
+<img decoding="async" src="http://swec.lakecomoschool.org/files/2016/01/vg2-1.jpg"><br />
+</center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/closing-in-on-gabriels-topos/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>From the Da Vinci code to Habiro</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-habiro/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-habiro/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 02 Feb 2018 09:13:06 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Brown]]></category>
+		<category><![CDATA[Habiro]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7973</guid>
+
+					<description><![CDATA[The Fibonacci sequence reappears a bit later in Dan Brown&#8217;s book &#8216;The Da Vinci Code&#8217; where it is used to login to the bank account&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The Fibonacci sequence reappears a bit later in Dan Brown&#8217;s book <a href="https://en.wikipedia.org/wiki/The_Da_Vinci_Code">&#8216;The Da Vinci Code&#8217;</a> where it is used to login to the bank account of Jacques Sauniere at the fictitious Parisian branch of the Depository Bank of Zurich.</p>
+<p><center><br />
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/x55ONOC6DS8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois">Last time</a> we saw that the Hankel matrix of the Fibonacci series $F=(1,1,2,3,5,\dots)$ is invertible over $\mathbb{Z}$<br />
+\[<br />
+H(F) = \begin{bmatrix} 1 &#038; 1 \\ 1 &#038; 2 \end{bmatrix} \in SL_2(\mathbb{Z}) \]<br />
+and we can use the rule for the co-multiplication $\Delta$ on $\Re(\mathbb{Q})$, the algebra of rational linear recursive sequences, to determine $\Delta(F)$.</p>
+<p>For a general integral linear recursive sequence the corresponding Hankel matrix is invertible over $\mathbb{Q}$, but rarely over $\mathbb{Z}$. So we need another approach to compute the co-multiplication on $\Re(\mathbb{Z})$.</p>
+<p>Any integral sequence $a = (a_0,a_1,a_2,\dots)$ can be seen as defining a $\mathbb{Z}$-linear map $\lambda_a$ from the integral polynomial ring $\mathbb{Z}[x]$ to $\mathbb{Z}$ itself via the rule $\lambda_a(x^n) = a_n$.</p>
+<p>If $a \in \Re(\mathbb{Z})$, then there is a monic polynomial with integral coefficients of a certain degree $n$</p>
+<p>\[<br />
+f(x) = x^n + b_1 x^{n-1} + b_2 x^{n-2} + \dots + b_{n-1} x + b_n \]</p>
+<p>such that for every integer $m$ we have that</p>
+<p>\[<br />
+a_{m+n} + b_1 a_{m+n-1} + b_2 a_{m+n-2} + \dots + b_{n-1} a_{m+1} + a_m = 0 \]</p>
+<p>Alternatively, we can look at $a$ as defining a $\mathbb{Z}$-linear map $\lambda_a$ from the quotient ring $\mathbb{Z}[x]/(f(x))$ to $\mathbb{Z}$.</p>
+<p>The multiplicative structure on $\mathbb{Z}[x]/(f(x))$ dualizes to a co-multiplication $\Delta_f$ on the set of all such linear maps $(\mathbb{Z}[x]/(f(x)))^{\ast}$ and we can compute $\Delta_f(a)$.</p>
+<p>We see that the set of all integral linear recursive sequences can be identified with the direct limit<br />
+\[<br />
+\Re(\mathbb{Z}) = \underset{\underset{f|g}{\rightarrow}}{lim}~(\frac{\mathbb{Z}[x]}{(f(x))})^{\ast} \]<br />
+(where the directed system is ordered via division of monic integral polynomials) and so is equipped with a co-multiplication $\Delta = \underset{\rightarrow}{lim}~\Delta_f$.</p>
+<p>Btw. the ring structure on $\Re(\mathbb{Z}) \subset (\mathbb{Z}[x])^{\ast}$ comes from restricting to $\Re(\mathbb{Z})$ the dual structures of the co-ring structure on $\mathbb{Z}[x]$ given by<br />
+\[<br />
+\Delta(x) = x \otimes x \quad \text{and} \quad \epsilon(x) = 1 \]</p>
+<p>From this description it is clear that you need to know a hell of a lot number theory to describe this co-multiplication explicitly.</p>
+<p>As most of us prefer to work with rings rather than co-rings it is a good idea to begin to study this co-multiplication $\Delta$ by looking at the dual ring structure of<br />
+\[<br />
+\Re(\mathbb{Z})^{\ast} = \underset{\underset{ f | g}{\leftarrow}}{lim}~\frac{\mathbb{Z}[x]}{(f(x))} \]<br />
+This is the completion of $\mathbb{Z}[x]$ at the multiplicative set of all monic integral polynomials.</p>
+<p>This is a horrible ring and very little is known about it. Some general remarks were proved by Kazuo Habiro in his paper <a href="https://arxiv.org/abs/math/0209324">Cyclotomic completions of polynomial rings</a>.</p>
+<p>In fact, Habiro got interested is a certain subring of $\Re(\mathbb{Z})^{\ast}$ which we now know as the <strong>Habiro ring</strong> and which seems to be a red herring is all stuff about the <a href="https://en.wikipedia.org/wiki/Field_with_one_element">field with one element</a>, $\mathbb{F}_1$ (more on this another time). Habiro&#8217;s ring is</p>
+<p>\[<br />
+\widehat{\mathbb{Z}[q]} = \underset{\underset{n|m}{\leftarrow}}{lim}~\frac{\mathbb{Z}[q]}{(q^n-1)} \]</p>
+<p>and its elements are all formal power series of the form<br />
+\[<br />
+a_0 + a_1 (q-1) + a_2 (q^2-1)(q-1) + \dots + a_n (q^n-1)(q^{n-1}-1) \dots (q-1) + \dots \]<br />
+with all coefficients $a_n \in \mathbb{Z}$.</p>
+<p>Here&#8217;s a funny property of such series. If you evaluate them at $q \in \mathbb{C}$ these series are likely to diverge almost everywhere, <strong>but</strong> they do converge in all roots of unity!</p>
+<p>Some people say that these functions are &#8216;leaking out of the roots of unity&#8217;.</p>
+<p>If the ring $\Re(\mathbb{Z})^{\ast}$ is controlled by the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q})$, then Habiro&#8217;s ring is controlled by the abelianzation $Gal(\overline{\mathbb{Q}}/\mathbb{Q})^{ab} \simeq \hat{\mathbb{Z}}^{\ast}$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-habiro/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>From the Da Vinci code to Galois</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 27 Jan 2018 12:36:18 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Brown]]></category>
+		<category><![CDATA[Da Vinci]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Hopf]]></category>
+		<category><![CDATA[Larson]]></category>
+		<category><![CDATA[Taft]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7868</guid>
+
+					<description><![CDATA[In The Da Vinci Code, Dan Brown feels he need to bring in a French cryptologist, Sophie Neveu, to explain the mystery behind this series&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://en.wikipedia.org/wiki/The_Da_Vinci_Code">The Da Vinci Code</a>, Dan Brown feels he need to bring in a French cryptologist, Sophie Neveu, to explain the mystery behind this series of numbers:</p>
+<p>13 – 3 – 2 – 21 – 1 – 1 – 8 – 5</p>
+<p><center><br />
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/t33TPCi4pIQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+<p>The <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci sequence</a>, 1-1-2-3-5-8-13-21-34-55-89-144-&#8230; is such that any number in it is the sum of the two previous numbers.</p>
+<p>It is the most famous of all <strong>integral linear recursive sequences</strong>, that is, a sequence of integers</p>
+<p>\[<br />
+a = (a_0,a_1,a_2,a_3,\dots) \]</p>
+<p>such that there is a monic polynomial with integral coefficients of a certain degree $n$</p>
+<p>\[<br />
+f(x) = x^n + b_1 x^{n-1} + b_2 x^{n-2} + \dots + b_{n-1} x + b_n \]</p>
+<p>such that for every integer $m$ we have that</p>
+<p>\[<br />
+a_{m+n} + b_1 a_{m+n-1} + b_2 a_{m+n-2} + \dots + b_{n-1} a_{m+1} + a_m = 0 \]</p>
+<p>For the Fibonacci series $F=(F_0,F_1,F_2,\dots)$, this polynomial can be taken to be $x^2-x-1$  because<br />
+\[<br />
+F_{m+2} = F_{m+1}+F_m \]</p>
+<p>The set of <strong>all</strong> integral linear recursive sequences, let&#8217;s call it $\Re(\mathbb{Z})$, is a beautiful object of great complexity.</p>
+<p>For starters, it is a <strong>ring</strong>. That is, we can add and multiply such sequences. If</p>
+<p>\[<br />
+a=(a_0,a_1,a_2,\dots),~\quad \text{and}~\quad a&#8217;=(a&#8217;_0,a&#8217;_1,a&#8217;_2,\dots)~\quad \in \Re(\mathbb{Z}) \]</p>
+<p>then the sequences</p>
+<p>\[<br />
+a+a&#8217; = (a_0+a&#8217;_0,a_1+a&#8217;_1,a_2+a&#8217;_2,\dots) \quad \text{and} \quad a \times a&#8217; = (a_0.a&#8217;_0,a_1.a&#8217;_1,a_2.a&#8217;_2,\dots) \]</p>
+<p>are again linear recursive. The zero and unit in this ring are the constant sequences $0=(0,0,\dots)$ and $1=(1,1,\dots)$.</p>
+<p>So far, nothing terribly difficult or exciting.</p>
+<p>It follows that $\Re(\mathbb{Z})$ has a <strong>co-unit</strong>, that is, a ring morphism</p>
+<p>\[<br />
+\epsilon~:~\Re(\mathbb{Z}) \rightarrow \mathbb{Z} \]</p>
+<p>sending a sequence $a = (a_0,a_1,\dots)$ to its first entry $a_0$.</p>
+<p>It&#8217;s a bit more difficult to see that $\Re(\mathbb{Z})$ also has a <a href="https://en.wikipedia.org/wiki/Coalgebra"><strong>co-multiplication</strong></a></p>
+<p>\[<br />
+\Delta~:~\Re(\mathbb{Z}) \rightarrow \Re(\mathbb{Z}) \otimes_{\mathbb{Z}} \Re(\mathbb{Z}) \]<br />
+with properties dual to those of usual multiplication.</p>
+<p>To describe this co-multiplication in general will have to await another post. For now, we will describe it on the easier ring $\Re(\mathbb{Q})$ of all <strong>rational</strong> linear recursive sequences.</p>
+<p>For such a sequence $q = (q_0,q_1,q_2,\dots) \in \Re(\mathbb{Q})$ we consider its <a href="https://en.wikipedia.org/wiki/Hankel_matrix">Hankel matrix</a>. From the sequence $q$ we can form symmetric $k \times k$ matrices such that the opposite $i+1$-th diagonal consists of entries all equal to $q_i$<br />
+\[<br />
+H_k(q) = \begin{bmatrix} q_0 &#038; q_1 &#038; q_2 &#038; \dots  &#038; q_{k-1} \\<br />
+q_1 &#038; q_2 &#038; &#038; &#038; q_k \\<br />
+q_2 &#038; &#038; &#038; &#038; q_{k+1} \\<br />
+\vdots &#038; &#038; &#038; &#038; \vdots \\<br />
+q_{k-1} &#038; q_k &#038; q_{k+1} &#038; \dots &#038; q_{2k-2} \end{bmatrix} \]<br />
+The Hankel matrix of $q$, $H(q)$ is $H_k(q)$ where $k$ is maximal such that $det~H_k(q) \not= 0$, that is, $H_k(q) \in GL_k(\mathbb{Q})$.</p>
+<p>Let  $S(q)=(s_{ij})$ be the inverse of $H(q)$, then the co-multiplication map<br />
+\[<br />
+\Delta~:~\Re(\mathbb{Q}) \rightarrow \Re(\mathbb{Q}) \otimes \Re(\mathbb{Q}) \]<br />
+sends the sequence $q = (q_0,q_1,\dots)$ to<br />
+\[<br />
+\Delta(q) = \sum_{i,j=0}^{k-1} s_{ij} (D^i q) \otimes (D^j q) \]<br />
+where $D$ is the shift operator on sequence<br />
+\[<br />
+D(a_0,a_1,a_2,\dots) = (a_1,a_2,\dots) \]</p>
+<p>If $a \in \Re(\mathbb{Z})$ is such that $H(a) \in GL_k(\mathbb{Z})$ then the same formula gives $\Delta(a)$ in $\Re(\mathbb{Z})$.</p>
+<p>For the Fibonacci sequences $F$ the Hankel matrix is<br />
+\[<br />
+H(F) = \begin{bmatrix} 1 &#038; 1 \\ 1&#038; 2 \end{bmatrix} \in GL_2(\mathbb{Z}) \quad \text{with inverse} \quad S(F) = \begin{bmatrix} 2 &#038; -1 \\ -1 &#038; 1 \end{bmatrix} \]<br />
+and therefore<br />
+\[<br />
+\Delta(F) = 2 F \otimes ~F &#8211; DF \otimes F &#8211; F \otimes DF + DF \otimes DF \]<br />
+There&#8217;s a lot of number theoretic and Galois-information encoded into the co-multiplication on $\Re(\mathbb{Q})$.</p>
+<p>To see this we will describe the co-multiplication on $\Re(\overline{\mathbb{Q}})$ where $\overline{\mathbb{Q}}$ is the field of all algebraic numbers. One can show that</p>
+<p>\[<br />
+\Re(\overline{\mathbb{Q}}) \simeq (\overline{\mathbb{Q}}[ \overline{\mathbb{Q}}_{\times}^{\ast}] \otimes \overline{\mathbb{Q}}[d]) \oplus \sum_{i=0}^{\infty} \overline{\mathbb{Q}} S_i \]</p>
+<p>Here, $\overline{\mathbb{Q}}[ \overline{\mathbb{Q}}_{\times}^{\ast}]$ is the group-algebra of the multiplicative group of non-zero elements $x \in \overline{\mathbb{Q}}^{\ast}_{\times}$ and each $x$, which corresponds to the geometric sequence $x=(1,x,x^2,x^3,\dots)$, is a group-like element<br />
+\[<br />
+\Delta(x) = x \otimes x \quad \text{and} \quad \epsilon(x) = 1 \]</p>
+<p>$\overline{\mathbb{Q}}[d]$ is the universal Lie algebra of the $1$-dimensional Lie algebra on the primitive element $d = (0,1,2,3,\dots)$, that is<br />
+\[<br />
+\Delta(d) = d \otimes 1 + 1 \otimes d \quad \text{and} \quad \epsilon(d) = 0 \]</p>
+<p>Finally, the co-algebra maps on the elements $S_i$ are given by<br />
+\[<br />
+\Delta(S_i) = \sum_{j=0}^i S_j \otimes S_{i-j} \quad \text{and} \quad \epsilon(S_i) = \delta_{0i} \]</p>
+<p>That is, the co-multiplication on $\Re(\overline{\mathbb{Q}})$ is completely known. To deduce from it the co-multiplication on $\Re(\mathbb{Q})$ we have to consider the invariants under the action of the <a href="https://en.wikipedia.org/wiki/Absolute_Galois_group">absolute Galois group</a> $Gal(\overline{\mathbb{Q}}/\mathbb{Q})$ as<br />
+\[<br />
+\Re(\overline{\mathbb{Q}})^{Gal(\overline{\mathbb{Q}}/\mathbb{Q})} \simeq \Re(\mathbb{Q}) \]</p>
+<p>Unlike the Fibonacci sequence, not every integral linear recursive sequence has an Hankel matrix with determinant $\pm 1$, so to determine the co-multiplication on $\Re(\mathbb{Z})$ is even a lot harder, as we will see another time.</p>
+<p><strong>Reference</strong>: Richard G. Larson, Earl J. Taft, <a href="https://link.springer.com/article/10.1007/BF02764615">&#8216;The algebraic structure of linearly recursive sequences under Hadamard product&#8217;</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The latest on Mochizuki</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-latest-on-mochizuki/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-latest-on-mochizuki/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 19 Nov 2017 17:18:35 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[ABC]]></category>
+		<category><![CDATA[IUT]]></category>
+		<category><![CDATA[Mochizuki]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7328</guid>
+
+					<description><![CDATA[Once in every six months there&#8217;s a flurry of online excitement about Mochizuki&#8217;s alleged proof of the abc-conjecture. It seems to be that time of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Once in every six months there&#8217;s a flurry of online excitement about Mochizuki&#8217;s alleged proof of the abc-conjecture.</p>
+<p>It seems to be that time of the year again.</p>
+<p>The twitter-account of the ever optimistic <a href="https://twitter.com/math_jin">@math_jin</a> is probably the best source for (positive) news about IUT/ABC. He now announces the latest version of Yamashita&#8217;s &#8216;summary&#8217; of Mochizuki&#8217;s proof:</p>
+<blockquote class="twitter-tweet" data-lang="en">
+<p lang="ja" dir="ltr">山下剛さんのIUTサーベイが更新されました。<br />Go Yamashita<br />A proof of the abc conjecture after Mochizuki.<br />preprint. last updated on 18/Nov/2017.<a href="https://t.co/XtnMEO3zoQ">https://t.co/XtnMEO3zoQ</a><a href="https://twitter.com/hashtag/IUTABC?src=hash&amp;ref_src=twsrc%5Etfw">#IUTABC</a></p>
+<p>&mdash; math_jin (@math_jin) <a href="https://twitter.com/math_jin/status/931802566446292992?ref_src=twsrc%5Etfw">November 18, 2017</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Another informed source is <a href="http://www.edwardfrenkel.com/">Ed Frenkel</a>. He sometimes uses his twitter-account <a href="https://twitter.com/edfrenkel">@edfrenkel</a> to broadcast <a href="https://www.maths.nottingham.ac.uk/personal/ibf/">Ivan Fesenko</a>&#8216;s enthusiasm.</p>
+<blockquote class="twitter-tweet" data-lang="en">
+<p lang="en" dir="ltr">Big news on Mochizuki&#39;s groundbreaking IUT: Over 1000 comments on his 4 papers have been addressed &amp; the final versions sent back to the journal for approval. Hopefully, will be published soon.<br />Here&#39;s Ivan Fesenko&#39;s interview about IUT on the AMS website.<a href="https://t.co/6GLk3Xh0lm">https://t.co/6GLk3Xh0lm</a></p>
+<p>&mdash; Edward Frenkel (@edfrenkel) <a href="https://twitter.com/edfrenkel/status/931631974879391744?ref_src=twsrc%5Etfw">November 17, 2017</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Googling further, I stumbled upon an older (newspaper) article on the subject: <a href="http://www.sueddeutsche.de/wissen/mathematik-das-grosse-abc-1.3141614">das grosse ABC</a> by <a href="">Marlene Weiss</a>, for which she got silver at the 2017 <a href="https://sjawards.aaas.org/awards/field_award_year/2017-85">science journalism awards</a>.</p>
+<p>In case you prefer an English translation: <a href="https://mcmprodaaas.s3.amazonaws.com/s3fs-public/ABC_translation.pdf?h89CxF.OybOlwYpvLIgsaSYnnRko9KBs">The big ABC</a>.</p>
+<p>Here&#8217;s her opening paragraph:</p>
+<p>&#8220;In a children’s story written by the Swiss author Peter Bichsel, a lonely man decides to invent his own language. He calls the table “carpet”, the chair “alarm clock”, the bed “picture”. At first he is enthusiastic about his idea and always thinks of new words, his sentences sound original and funny. But after a while, he begins to forget the old words.&#8221;</p>
+<p>The article is less optimistic than other recent popular accounts of Mochizuki&#8217;s story, including:</p>
+<p><a href="https://www.nature.com/news/monumental-proof-to-torment-mathematicians-for-years-to-come-1.20342">Monumental proof to torment mathematicians for years to come</a> in Nature by Davide Castelvecchi.</p>
+<p><a href="https://www.quantamagazine.org/hope-rekindled-for-abc-proof-20151221/">Hope Rekindled for Perplexing Proof</a> in Quanta-magazine by Kevin Hartnett.</p>
+<p><a href="https://www.newscientist.com/article/2146647-baffling-abc-maths-proof-now-has-impenetrable-300-page-summary/">Baffling ABC maths proof now has impenetrable 300-page ‘summary’</a> in the New Scientist by Timothy Revell.</p>
+<p>Marlene Weiss fears a sad ending:</p>
+<p>&#8220;Table is called “carpet”, chair is called “alarm clock”, bed is called “picture”. In the story by Peter Bichsel, the lonely man ends up having so much trouble communicating with other people that he speaks only to himself. It is a very sad story.&#8221;</p>
+<p>Perhaps things will turn out for the better, and we&#8217;ll hear about it sometime.</p>
+<p>In six months, I&#8217;d say&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-latest-on-mochizuki/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to dismantle scheme theory?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/how-to-dismantle-scheme-theory/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/how-to-dismantle-scheme-theory/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 24 Jul 2017 18:09:27 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[number theory]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7160</guid>
+
+					<description><![CDATA[In several of his talks on #IUTeich, Mochizuki argues that usual scheme theory over $\mathbb{Z}$ is not suited to tackle problems such as the ABC-conjecture.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In several of his <a href="http://www.kurims.kyoto-u.ac.jp/~motizuki/travel-english.html">talks</a> on <strong>#IUTeich</strong>, Mochizuki argues that usual scheme theory over $\mathbb{Z}$ is not suited to tackle problems such as the <a href="https://en.wikipedia.org/wiki/Abc_conjecture">ABC-conjecture</a>.</p>
+<p>The idea appears to be that ABC involves both the additive and multiplicative nature of integers, making rings into &#8216;2-dimensional objects&#8217; (and clearly we use both &#8216;dimensions&#8217; in the theory of schemes).</p>
+<p><img loading="lazy" decoding="async" width="1000" height="389" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/07/moch1.jpg"  class="alignnone size-full wp-image-7161" srcset="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/07/moch1.jpg 1000w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/07/moch1-300x117.jpg 300w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/07/moch1-768x299.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></p>
+<p>So, perhaps we should try to &#8216;dismantle&#8217; scheme theory, and replace it with something like geometry over the <a href="https://en.wikipedia.org/wiki/Field_with_one_element">field with one element $\mathbb{F}_1$</a>.</p>
+<p>The usual $\mathbb{F}_1$ mantra being: &#8216;forget all about the additive structure and only retain the multiplicative monoid&#8217;.</p>
+<p>So perhaps there is yet another geometry out there, forgetting about the multiplicative structure, and retaining just the addition&#8230;</p>
+<p><img loading="lazy" decoding="async" width="1063" height="405" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/07/moch2.jpg"  class="alignnone size-full wp-image-7163" srcset="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/07/moch2.jpg 1063w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/07/moch2-300x114.jpg 300w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/07/moch2-1024x390.jpg 1024w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/07/moch2-768x293.jpg 768w" sizes="(max-width: 1063px) 100vw, 1063px" /></p>
+<p>This made me wonder.</p>
+<p>In the <a href="https://lievenlebruyn.github.io/neverendingbooks/forgetting-cant-be-that-hard-can-it">forgetting can&#8217;t be that hard, can it?</a>-post we have seen that the forgetful functor</p>
+<p>\[<br />
+F_{+,\times}~:~\mathbf{rings} \rightarrow \mathbf{sets} \]</p>
+<p>(that is, forgetting both multiplicative and additive information of the ring) is representable by the polynomial ring $\mathbb{Z}[x]$.</p>
+<p>So, what about our &#8216;dismantling functors&#8217; in which we selectively forget just one of these structures:</p>
+<p>\[<br />
+F_+~:~\mathbf{rings} \rightarrow \mathbf{monoids} \quad \text{and} \quad F_{\times}~:~\mathbf{rings} \rightarrow \mathbf{abelian~groups} \]</p>
+<p>Are these functors representable too?</p>
+<p>Clearly, ring maps from $\mathbb{Z}[x]$ to our ring $R$ give us again the elements of $R$. But now, we want to encode the way two of these elements add (or multiply).</p>
+<p>This can be done by adding extra structure to the ring $\mathbb{Z}[x]$, namely a comultiplication $\Delta$ and a counit $\epsilon$</p>
+<p>\[<br />
+\Delta~:~\mathbb{Z}[x] \rightarrow \mathbb{Z}[x] \otimes \mathbb{Z}[x] \quad \text{and} \quad \epsilon~:~\mathbb{Z}[x] \rightarrow \mathbb{Z} \]</p>
+<p>The idea of the comultiplication being that if we have two elements $r,s \in R$ with corresponding ring maps $f_r~:~\mathbb{Z}[x] \rightarrow R \quad x \mapsto r$ and $f_s~:~\mathbb{Z}[x] \rightarrow R \quad x \mapsto s$, composing their tensorproduct with the comultiplication</p>
+<p>\[<br />
+f_v~:~\mathbb{Z}[x] \rightarrow^{\Delta}  \mathbb{Z}[x] \otimes \mathbb{Z}[x] \rightarrow^{f_r \otimes f_s} R<br />
+ \]</p>
+<p>determines another element $v \in R$ which we can take either the product $v=r.s$ or sum $v=r+s$, depending on the comultiplication map $\Delta$.</p>
+<p>The role of the counit is merely sending $x$ to the identity element of the operation.</p>
+<p>Thus, if we want to represent the functor forgetting the addition, and retaining the multiplication we have to put on $\mathbb{Z}[x]$ the structure of a <strong>biring</strong></p>
+<p>\[<br />
+\Delta(x) = x \otimes x \quad \text{and} \quad \epsilon(x) = 1 \]</p>
+<p>(making $x$ into a &#8216;group-like&#8217; element for Hopf-ists).</p>
+<p>The functor $F_{\times}$ forgetting the multiplication but retaining the addition is represented by the <strong>Hopf-ring</strong> $\mathbb{Z}[x]$, this time with</p>
+<p>\[<br />
+\Delta(x) = x \otimes 1 + 1 \otimes x \quad \text{and} \quad \epsilon(x) = 0 \]</p>
+<p>(that is, this time $x$ becomes a &#8216;primitive&#8217; element).</p>
+<p>Perhaps this adds another feather of weight to the proposal in which one defines algebras over the field with one element $\mathbb{F}_1$ to be birings over $\mathbb{Z}$, with the co-ring structure playing the role of descent data from $\mathbb{Z}$ to $\mathbb{F}_1$.</p>
+<p>As, for example, in my note <a href="https://arxiv.org/abs/1509.00749">The coordinate biring of $\mathbf{Spec}(\mathbb{Z})/\mathbb{F}_1$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/how-to-dismantle-scheme-theory/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

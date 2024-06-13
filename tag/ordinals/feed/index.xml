@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ordinals &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/ordinals/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 03 Feb 2010 16:31:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Seating the first few thousand Knights</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2010 16:31:46 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[ONAG]]></category>
+		<category><![CDATA[ordinals]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2855</guid>
+
+					<description><![CDATA[The Knight-seating problems asks for a consistent placing of n-th Knight at an odd root of unity, compatible with the two different realizations of the algebraic closure of the field with two elements.]]></description>
+										<content:encoded><![CDATA[<p>The Knight-seating problems asks for a consistent placing of n-th Knight at an odd root of unity, compatible with the two different realizations of the algebraic closure of the field with two elements.<br />
+The first identifies the multiplicative group of its non-zero elements with the group of all odd complex roots of unity, under complex multiplication. The second uses Conway&#8217;s &#8216;simplicity rules&#8217; to define an addition and multiplication on the set of all ordinal numbers.</p>
+<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-odd-knights-of-the-round-table.html">odd Knights of the round table</a>-problem asks for a specific one-to-one correspondence between two realizations of &#8216;the&#8217; algebraic closure $\overline{\mathbb{F}_2} $ of the field of two elements.</p>
+<p>The first identifies the multiplicative group of its non-zero elements with the group of all odd complex roots of unity, under complex multiplication. The addition on $\overline{\mathbb{F}_2} $ is then recovered by inducing an involution on the odd roots, pairing the one corresponding to x to the one corresponding to x+1.</p>
+<p>The second uses Conway&#8217;s &#8216;simplicity rules&#8217; to define an addition and multiplication on the set of all ordinal numbers. Conway proves in <a href="http://en.wikipedia.org/wiki/On_Numbers_and_Games">ONAG</a> that this becomes an algebraically closed field of characteristic two and that $\overline{\mathbb{F}_2} $ is the subfield of all ordinals smaller than $\omega^{\omega^{\omega}} $. The finite ordinals (the natural numbers) form the quadratic closure of $\mathbb{F}_2 $.</p>
+<p>On the natural numbers the Conway-addition is binary addition without carrying and Conway-multiplication is defined by the properties that two different Fermat-powers $N=2^{2^i} $ multiply as they do in the natural numbers, and, Fermat-powers square to its sesquimultiple, that is $N^2=\frac{3}{2}N $. Moreover, all natural numbers smaller than $N=2^{2^{i}} $ form a finite field $\mathbb{F}_{2^{2^i}} $. Using distributivity, one can write down a multiplication table for all 2-powers.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/nim2powers.jpg"><br />
+</center></p>
+<p>The Knight-seating problems asks for a consistent placing of n-th Knight $K_n $ at an odd root of unity, compatible with the two different realizations of $\overline{\mathbb{F}_2} $. Last time, we were able to place the first 15 Knights as below, and asked where you would seat $K_{16} $</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/Knights16.jpg"><br />
+</center></p>
+<p>$K_4 $ was placed at $e^{2\pi i/15} $ as 4 was the smallest number generating the &#8216;Fermat&#8217;-field $\mathbb{F}_{2^{2^2}} $ (with multiplicative group of order 15) subject to the compatibility relation with the generator 2 of the smaller Fermat-field $\mathbb{F}_2 $ (with group of order 15) that $4^5=2 $.</p>
+<p>To include the next Fermat-field $\mathbb{F}_{2^{2^3}} $ (with multiplicative group of order 255) consistently, we need to find the smallest number n generating the multiplicative group and satisfying the compatibility condition $n^{17}=4 $. Let&#8217;s first concentrate on finding the smallest generator : as 2 is a generator for 1st Fermat-field $\mathbb{F}_{2^{2^1}} $ and 4 a generator for the 2-nd Fermat-field $\mathbb{F}_{2^{2^2}} $ a natural conjecture might be that 16 is a generator for the 3-rd Fermat-field $\mathbb{F}_{2^{2^3}} $ and, more generally, that $2^{2^i} $ would be a generator for the next field $\mathbb{F}_{2^{2^{i+1}}} $.</p>
+<p>However, an &#8220;exercise&#8221; in the 1978-paper by Hendrik Lenstra <a href="https://openaccess.leidenuniv.nl/bitstream/1887/2125/1/346_027.pdf">Nim multiplication</a> asks : &#8220;Prove that $2^{2^i} $ is a primitive root in the field $\mathbb{F}_{2^{2^{i+1}}} $ if and only if i=0 or 1.&#8221;</p>
+<p>I&#8217;ve struggled with several of the &#8216;exercises&#8217; in Lenstra&#8217;s paper to the extend I feared Alzheimer was setting in, only to find out, after taking pen and paper and spending a considerable amount of time calculating, that they are indeed merely exercises, when looked at properly&#8230; (Spoiler-warning : stop reading now if you want to go through this exercise yourself).</p>
+<p>In the picture above I&#8217;ve added in red the number $x(x+1)=x^2+1 $ to each of the involutions. Clearly, for each pair these numbers are all distinct and we see that for the indicated pairing they make up all numbers strictly less than 8.</p>
+<p>By Conway&#8217;s simplicity rules (or by checking) the pair (16,17) gives the number 8. In other words, the equation<br />
+$x^2+x+8 $ is an irreducible polynomial over $\mathbb{F}_{16} $ having as its roots in $\mathbb{F}_{256} $ the numbers 16 and 17. But then, 16 and 17 are conjugated under the Galois-involution (the Frobenius $y \mapsto y^{16} $). That is, we have $16^{16}=17 $ and $17^{16}=16 $ and hence $16^{17}=8 $. Now, use the multiplication table in $\mathbb{F}_{16} $ given in the previous post (or compute!) to see that 8 is of order 5 (and NOT a generator). As a consequence, the multiplicative order of 16 is 5&#215;17=85 and so 16 cannot be a generator in $\mathbb{F}_{256} $.<br />
+For general i one uses the fact that $2^{2^i} $ and $2^{2^i}+1 $ are the roots of the polynomial $x^2+x+\prod_{j&lt;i} 2^{2^j} $ over $\mathbb{F}_{2^{2^i}} $ and argues as before.</p>
+<p>Right, but then what is the minimal generator satisfying $n^{17}=4 $? By computing we see that the pairings of all numbers in the range 16&#8230;31 give us all numbers in the range 8&#8230;15 and by the above argument this implies that the 17-th powers of all numbers smaller than 32 must be different from 4. But then, the smallest candidate is 32 and one verifies that indeed $32^{17}=4 $ (use the multiplication table given before).</p>
+<p>Hence, we must place Knight $K_{32} $ at root $e^{2 \pi i/255} $ and place the other Knights prior to the 256-th at the corresponding power of 32. I forgot the argument I used to find-by-hand the requested place for Knight 16, but one can verify that $32^{171}=16 $ so we seat $K_{16} $ at root $e^{342 \pi i/255} $.</p>
+<p>But what about Knight $K_{256} $? Well, by this time I was quite good at squaring and binary representations of integers, but also rather tired, and decided to leave that task to the computer.</p>
+<p>If we denote Nim-addition and multiplication by $\oplus $ and $\otimes $, then Conway&#8217;s simplicity results in ONAG establish a field-isomorphism between $~(\mathbb{N},\oplus,\otimes) $ and the field $\mathbb{F}_2(x_0,x_1,x_2,\ldots ) $ where the $x_i $ satisfy the Artin-Schreier equations</p>
+<p>$x_i^2+x_i+\prod_{j &lt; i} x_j = 0 $</p>
+<p>and the i-th Fermat-field $\mathbb{F}_{2^{2^i}} $ corresponds to $\mathbb{F}_2(x_0,x_1,\ldots,x_{i-1}) $. The correspondence between numbers and elements from these fields is given by taking $x_i \mapsto 2^{2^i} $. But then, wecan write every 2-power as a product of the $x_i $ and use the binary representation of numbers to perform all Nim-calculations with numbers in these fields.</p>
+<p>Therefore, a quick and dirty way (and by no means the most efficient) to do Nim-calculations in the next Fermat-field consisting of all numbers smaller than 65536, is to use <a href="http://www.sagemath.org/">sage</a> and set up the field $\mathbb{F}_2(x_0,x_1,x_2,x_3) $ by</p>
+<pre>
+R.< x,y,z,t > =GF(2)[]
+S.< a,b,c,d >=R.quotient((x^2+x+1,y^2+y+x,z^2+z+x*y,t^2+t+x*y*z))
+</pre>
+<p>To find the smallest number generating the multiplicative group and satisfying the additional compatibility condition $n^{257}=32 $ we have to find the smallest binary number $i_1i_2 \ldots i_{16} $ (larger than 255) satisfying</p>
+<pre>
+(i1*a*b*c*t+i2*b*c*t+i3*a*c*t+i4*c*t+i5*a*b*t+i6*b*t+
+i7*a*t+i8*t+i9*a*b*c+i10*b*c+i11*a*c+i12*c+i13*a*b+
+i14*b+i15*a+i16)^257=a*c
+</pre>
+<p>It takes a 2.4GHz 2Gb-RAM MacBook not that long to decide that the requested generator is 1051 (killing another optimistic conjecture that these generators might be 2-powers). So, we seat Knight<br />
+$K_{1051} $ at root $e^{2 \pi i/65535} $ and can then arrange seatings for all Knight queued up until we reach the 65536-th! In particular, the first Knight we couldn&#8217;t place before, that is Knight $K_{256} $, will be seated at root $e^{65826 \pi i/65535} $.</p>
+<p>If you&#8217;re lucky enough to own a computer with more RAM, or have the patience to make the search more efficient and get the seating arrangement for the next Fermat-field, please drop a comment.</p>
+<p>I&#8217;ll leave you with another Lenstra-exercise which shouldn&#8217;t be too difficult for you to solve now : &#8220;Prove that $x^3=2^{2^i} $ has three solutions in $\mathbb{N} $ for each $i \geq 2 $.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The odd knights of the round table</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 28 Jan 2010 20:48:59 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[ONAG]]></category>
+		<category><![CDATA[ordinals]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2768</guid>
+
+					<description><![CDATA[Here&#8217;s a tiny problem illustrating our limited knowledge of finite fields : &#8220;Imagine an infinite queue of Knights $&#123; K_1,K_2,K_3,\ldots &#125; $, waiting to be&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s a tiny problem illustrating our limited knowledge of finite fields : &#8220;Imagine an infinite queue of Knights $&#123; K_1,K_2,K_3,\ldots &#125; $, waiting to be seated at the unit-circular table. The master of ceremony (that is, you) must give Knights $K_a $ and $K_b $ a place at an odd root of unity, say $\omega_a $ and $\omega_b $, such that the seat at the odd root of unity $\omega_a \times \omega_b $ must be given to the Knight $K_{a \otimes b} $, where $a \otimes b $ is the Nim-multiplication of $a $ and $b $. Which place would you offer to Knight $K_{16} $, or Knight $K_n $,  or, if you&#8217;re into ordinals, Knight $K_{\omega} $?&#8221;</p>
+<p>What does this have to do with finite fields? Well, consider the simplest of all finite field $\mathbb{F}_2 = &#123; 0,1 &#125; $ and consider its algebraic closure $\overline{\mathbb{F}_2} $. Last year, we&#8217;ve run a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/on2-transfinite-number-hacking.html">series starting here</a>, identifying the field $\overline{\mathbb{F}_2} $, following John H. Conway in <a href="http://en.wikipedia.org/wiki/On_Numbers_and_Games">ONAG</a>, with the set of all ordinals smaller than $\omega^{\omega^{\omega}} $, given the Nim addition and multiplication. I know that ordinal numbers may be intimidating at first, so let&#8217;s just restrict to ordinary natural numbers for now. The Nim-addition of two numbers $n \oplus m $ can be calculated by writing the numbers n and m in binary form and add them without carrying. For example, $9 \oplus 1 = 1001+1 = 1000 = 8 $. Nim-multiplication is slightly more complicated and is best expressed using the so-called Fermat-powers $F_n = 2^{2^n} $. We then demand that $F_n \otimes m = F_n \times m $ whenever $m &lt; F_n $ and $F_n \otimes F_n = \frac{3}{2}F_n $. Distributivity wrt. $\oplus $ can then be used to calculate arbitrary Nim-products. For example, $8 \otimes 3 = (4 \otimes 2) \otimes (2 \oplus 1) = (4 \otimes 3) \oplus (4 \otimes 2) = 12 \oplus 8 = 4 $. Conway&#8217;s remarkable result asserts that the ordinal numbers, equipped with Nim addition and multiplication, form an algebraically closed field of characteristic two. The closure $\overline{\mathbb{F}_2} $ is identified with the subfield of all ordinals smaller than $\omega^{\omega^{\omega}} $. For those of you who don&#8217;t feel like going transfinite, the subfield $~(\mathbb{N},\oplus,\otimes) $ is identified with the quadratic closure of $\mathbb{F}_2 $.</p>
+<p>The connection between $\overline{\mathbb{F}_2} $ and the odd roots of unity has been advocated by Alain Connes in his talk before a general public at the IHES : “L’ange de la géométrie, le diable de l’algèbre et le corps à un élément” (the angel of geometry, the devil of algebra and the field with one element). He describes its content briefly in this YouTube-video</p>
+<p><object width="340" height="209"><param name="movie" value="http://www.youtube.com/v/obEi7BkR3V0&#038;hl=en&#038;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/obEi7BkR3V0&#038;hl=en&#038;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="340" height="209"></embed></object></p>
+<p>At first it was unclear to me which &#8216;coupling-problem&#8217; Alain meant, but this has been clarified in his paper together with Caterina Consani <a href="http://arxiv.org/abs/0911.3537">Characteristic one, entropy and the absolute point</a>. The non-zero elements of $\overline{\mathbb{F}_2} $ can be identified with the set of all odd roots of unity. For, if x is such a unit, it belongs to a finite subfield of the form $\mathbb{F}_{2^n} $ for some n, and, as the group of units of any finite field is cyclic, x is an element of order $2^n-1 $. Hence, $\mathbb{F}_{2^n}- &#123; 0 &#125; $ can be identified with the set of $2^n-1 $-roots of unity, with $e^{2 \pi i/n} $ corresponding to a generator of the unit-group. So, all elements of $\overline{\mathbb{F}_2} $ correspond to an odd root of unity. The observation that we get indeed all odd roots of unity may take you a couple of seconds (( If m is odd, then (2,m)=1 and so 2 is a unit in the finite cyclic group $~(\mathbb{Z}/m\mathbb{Z})^* $ whence $2^n = 1 (mod~m) $, so the m-roots of unity lie within those of order $2^n-1 $ )).</p>
+<p>Assuming we succeed in fixing a one-to-one correspondence between the non-zero elements of $\overline{\mathbb{F}_2} $ and the odd roots of unity $\mu_{odd} $ respecting multiplication, how can we recover the addition on $\overline{\mathbb{F}_2} $? Well, here&#8217;s Alain&#8217;s coupling function, he ties up an element x of the algebraic closure to the element s(x)=x+1 (and as we are in characteristic two, this is an involution, so also the element tied up to x+1 is s(x+1)=(x+1)+1=x. The clue being that multiplication together with the coupling map s allows us to compute any sum of two elements as $x+y=x \times s(\frac{y}{x}) = x \times (\frac{y}{x}+1) $.<br />
+For example, all information about the finite field $\mathbb{F}_{2^4} $ is encoded in this identification with the 15-th roots of unity, together with the pairing s depicted as</p>
+<p>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/16field1.jpg" style="float:center;">
+</p>
+<p>Okay, we now have two identifications of the algebraic closure $\overline{\mathbb{F}_2} $ : the smaller ordinals equipped with Nim addition and Nim multiplication and the odd roots of unity with complex-multiplication and the Connes-coupling s. The question we started from asks for a general recipe to identify these two approaches.</p>
+<p>To those of you who are convinced that finite fields (LOL, even characteristic two!) are objects far too trivial to bother thinking about : as far as I know, NOBODY knows how to do this explicitly, even restricting the ordinals to merely the natural numbers!</p>
+<p>Please feel challenged! To get you started, I&#8217;ll show you how to place the first 15 Knights and give you a  procedure (though far from explicit) to continue. Here&#8217;s the Nim-picture compatible with that above</p>
+<p>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/16field2.jpg" style="float:center;">
+</p>
+<p>To verify this, and to illustrate the general strategy, I&#8217;d better hand you the Nim-tables of the first 16 numbers. Here they are</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/nimaddition.jpg" style="float:center;"> </p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/nimmultiplication.jpg" style="float:center;"> </p>
+<p>It is known that the finite subfields of $~(\mathbb{N},\oplus,\otimes) $ are precisely the sets of numbers smaller than the Fermat-powers $F_n $. So, the first one is all numbers smaller than $F_1=4 $ (check!). The smallest generator of the multiplicative group (of order 3) is 2, so we take this to correspond to the unit-root $e^{2 \pi i/3} $. The next subfield are all numbers smaller than $F_2 = 16 $ and its multiplicative group has order 15. Now, choose the smallest integer k which generates this group, compatible with the condition that $k^{\otimes 5}=2 $. Verify that this number is 4 and that this forces the identification and coupling given above.</p>
+<p>The next finite subfield would consist of all natural numbers smaller than $F_3=256 $. Hence, in this field we are looking for the smallest number k generating the multiplicative group of order 255 satisfying the extra condition that $k^{\otimes 17}=4 $ which would fix an identification at that level. Then, the next level would be all numbers smaller than $F_4=65536 $ and again we would like to find the smallest number generating the multiplicative group and such that the appropriate power is equal to the aforementioned k, etc. etc.</p>
+<p>Can you give explicit (even inductive) formulae to achieve this? I guess even the problem of placing Knight 16 will give you a couple of hours to think about&#8230; (to be continued).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

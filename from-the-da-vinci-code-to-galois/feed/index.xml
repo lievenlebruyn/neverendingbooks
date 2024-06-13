@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: From the Da Vinci code to Galois	</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois/</link>
+	<description></description>
+	<lastBuildDate>Wed, 31 Jan 2018 07:12:24 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>
+		By: lievenlb		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois/#comment-88</link>
+
+		<dc:creator><![CDATA[lievenlb]]></dc:creator>
+		<pubDate>Wed, 31 Jan 2018 07:12:24 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7868#comment-88</guid>
+
+					<description><![CDATA[Asvin, in the paper Larson and Taft describe he case over algebraically closed fields, and as the continuous dual behaves under extension of scalars, Galois descent gives it over any field. Some more details about the (algebraically closed) field case can be found in Peterson-Taft &lt;a href=&quot;https://eudml.org/doc/182373&quot; rel=&quot;nofollow ugc&quot;&gt;The Hopf algebra of linearly recursive sequences&lt;/a&gt;.
+
+For the integral case, you can for example look at &lt;a href=&quot;https://arxiv.org/abs/1509.00749&quot; rel=&quot;nofollow ugc&quot;&gt;this paper&lt;/a&gt;. But, probably i&#039;ll write some follow-up posts soon.]]></description>
+			<content:encoded><![CDATA[<p>Asvin, in the paper Larson and Taft describe he case over algebraically closed fields, and as the continuous dual behaves under extension of scalars, Galois descent gives it over any field. Some more details about the (algebraically closed) field case can be found in Peterson-Taft <a href="https://eudml.org/doc/182373" rel="nofollow ugc">The Hopf algebra of linearly recursive sequences</a>.</p>
+<p>For the integral case, you can for example look at <a href="https://arxiv.org/abs/1509.00749" rel="nofollow ugc">this paper</a>. But, probably i&#8217;ll write some follow-up posts soon.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Asvin		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois/#comment-87</link>
+
+		<dc:creator><![CDATA[Asvin]]></dc:creator>
+		<pubDate>Wed, 31 Jan 2018 02:19:59 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7868#comment-87</guid>
+
+					<description><![CDATA[Hi,
+I took a look at the reference you mentioned and they do not seem to treat the integral case or mention any connection with the absolute Galois group.
+
+I guess you will write about it in the next post but could you suggest a reference for the integral/number theoretic stuff?]]></description>
+			<content:encoded><![CDATA[<p>Hi,<br />
+I took a look at the reference you mentioned and they do not seem to treat the integral case or mention any connection with the absolute Galois group.</p>
+<p>I guess you will write about it in the next post but could you suggest a reference for the integral/number theoretic stuff?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: lievenlb		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois/#comment-86</link>
+
+		<dc:creator><![CDATA[lievenlb]]></dc:creator>
+		<pubDate>Mon, 29 Jan 2018 07:37:07 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7868#comment-86</guid>
+
+					<description><![CDATA[I think the standard notation for the complex group algebra of a group $G$ is $\mathbb{C} G$, but in this case with the two \overline &#039;s it is a bit confusing so I changed it. Thanks!]]></description>
+			<content:encoded><![CDATA[<p>I think the standard notation for the complex group algebra of a group $G$ is $\mathbb{C} G$, but in this case with the two \overline &#8216;s it is a bit confusing so I changed it. Thanks!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: David Roberts		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois/#comment-85</link>
+
+		<dc:creator><![CDATA[David Roberts]]></dc:creator>
+		<pubDate>Mon, 29 Jan 2018 00:18:52 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7868#comment-85</guid>
+
+					<description><![CDATA[&#062;the group-algebra of the multiplicative group of non-zero elements
+
+should this be denoted \Qbar[\Qbar^*_\times]? As stated it looks like a typo :-)]]></description>
+			<content:encoded><![CDATA[<p>&gt;the group-algebra of the multiplicative group of non-zero elements</p>
+<p>should this be denoted \Qbar[\Qbar^*_\times]? As stated it looks like a typo 🙂</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

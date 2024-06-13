@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Marcolli &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/marcolli/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 31 Dec 2021 10:50:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Do we need the sphere spectrum?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 31 Dec 2021 10:50:10 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Almkvist]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Consani]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9903</guid>
+
+					<description><![CDATA[Last time I mentioned the talk &#8220;From noncommutative geometry to the tropical geometry of the scaling site&#8221; by Alain Connes, culminating in the canonical isomorphism&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project">Last time</a> I mentioned the talk <a href="https://www.dropbox.com/s/vqksoc02ci4q7dz/ConnesSlides.pdf?dl=0">&#8220;From noncommutative geometry to the tropical geometry of the scaling site&#8221;</a> by Alain Connes, culminating in the canonical isomorphism (last slide of the talk)<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/Data3/wittsphere.png" width=75% \><br />
+</center></p>
+<p>Or rather, what is actually proved in his paper with Caterina Consani <a href="https://arxiv.org/abs/2112.08820">BC-system, absolute cyclotomy and the quantized calculus</a> (and which they conjectured previously to be the case in <a href="https://arxiv.org/abs/2004.08879">Segal&#8217;s Gamma rings and universal arithmetic</a>), is a canonical isomorphism between the $\lambda$-rings<br />
+\[<br />
+\mathbb{Z}[\mathbb{Q}/\mathbb{Z}] \simeq \mathbb{W}_0(\overline{\mathbb{S}}) \]<br />
+The left hand side is the integral groupring of the additive quotient-group $\mathbb{Q}/\mathbb{Z}$, or if you prefer, $\mathbb{Z}[\mathbf{\mu}_{\infty}]$ the integral groupring of the multiplicative group of all roots of unity $\mathbf{\mu}_{\infty}$.</p>
+<p>The power maps on $\mathbf{\mu}_{\infty}$ equip $\mathbb{Z}[\mathbf{\mu}_{\infty}]$ with a $\lambda$-ring structure, that is, a family of commuting endomorphisms $\sigma_n$ with $\sigma_n(\zeta) = \zeta^n$ for all $\zeta \in \mathbf{\mu}_{\infty}$, and a family of linear maps $\rho_n$ induced by requiring for all $\zeta \in \mathbf{\mu}_{\infty}$ that<br />
+\[<br />
+\rho_n(\zeta) = \sum_{\mu^n=\zeta} \mu \]<br />
+The maps $\sigma_n$ and $\rho_n$ are used to construct an integral version of the Bost-Connes algebra describing the <a href="https://en.wikipedia.org/wiki/Bost%E2%80%93Connes_system">Bost-Connes sytem</a>, a quantum statistical dynamical system.</p>
+<p>On the right hand side, $\mathbb{S}$ is the <a href="https://en.wikipedia.org/wiki/Sphere_spectrum">sphere spectrum</a> (an object from stable homotopy theory) and $\overline{\mathbb{S}}$ its &#8216;algebraic closure&#8217;, that is, adding all abstract roots of unity.</p>
+<p>The ring $\mathbb{W}_0(\overline{\mathbb{S}})$ is a generalisation to the world of spectra of the Almkvist-ring $\mathbb{W}_0(R)$ defined for any commutative ring $R$, constructed from pairs $(E,f)$ where $E$ is a projective $R$-module of finite rank and $f$ an $R$-endomorphism on it. Addition and multiplication are coming from direct sums and tensor products of such pairs, with zero element the pair $(0,0)$ and unit element the pair $(R,1_R)$. The ring $\mathbb{W}_0(R)$ is then the quotient-ring obtained by dividing out the ideal consisting of all zero-pairs $(E,0)$.</p>
+<p>The ring $\mathbb{W}_0(R)$ becomes a $\lambda$-ring via the Frobenius endomorphisms $F_n$ sending a pair $(E,f)$ to the pair $(E,f^n)$, and we also have a collection of linear maps on $\mathbb{W}_0(R)$, the &#8216;Verschiebung&#8217;-maps which send a pair $(E,f)$ to the pair $(E^{\oplus n},F)$ with<br />
+\[<br />
+F = \begin{bmatrix} 0 &#038; 0 &#038; 0 &#038; \cdots &#038; f \\<br />
+1 &#038; 0 &#038; 0 &#038; \cdots &#038; 0 \\<br />
+0 &#038; 1 &#038; 0 &#038; \cdots &#038; 0 \\<br />
+\vdots &#038; \vdots &#038; \vdots &#038; &#038; \vdots \\<br />
+0 &#038; 0 &#038; 0 &#038; \cdots &#038; 1 \end{bmatrix} \]<br />
+Connes and Consani define a notion of modules and their endomorphisms for $\mathbb{S}$ and $\overline{\mathbb{S}}$, allowing them to define in a similar way the rings $\mathbb{W}_0(\mathbb{S})$ and $\mathbb{W}_0(\overline{\mathbb{S}})$, with corresponding maps $F_n$ and $V_n$. They then establish an isomorphism with $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ such that the maps $(F_n,V_n)$ correspond to $(\sigma_n,\rho_n)$.</p>
+<p>But, do we really have the go to spectra to achieve this?</p>
+<p>All this reminds me of an old idea of <a href="https://en.wikipedia.org/wiki/Yuri_Manin">Yuri Manin</a> mentioned in the introduction of his paper <a href="https://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a>, and later elaborated in section two of his paper with Matilde Marcolli <a href="https://arxiv.org/abs/1806.10801">Homotopy types and geometries below $\mathbf{Spec}(\mathbb{Z})$</a>.</p>
+<p>Take a manifold $M$ with a diffeomorphism $f$ and consider the corresponding discrete dynamical system by iterating the diffeomorphism. In such situations it is important to investigate the periodic orbits, or the fix-points $Fix(M,f^n)$ for all $n$. If we are in a situation that the number of fixed points is finite we can package these numbers in the Artin-Mazur zeta function<br />
+\[<br />
+\zeta_{AM}(M,f) = exp(\sum_{n=1}^{\infty} \frac{\# Fix(M,f^n)}{n}t^n) \]<br />
+and investigate the properties of this function.</p>
+<p>To connect this type of problem to Almkvist-like rings, Manin considers the <a href="https://en.wikipedia.org/wiki/Morse%E2%80%93Smale_system">Morse-Smale dynamical systems</a>, a structural stable diffeomorphism $f$, having a finite number of non-wandering points on a compact manifold $M$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MorseSmale.png" width=75% /><br />
+From <a href="https://arxiv.org/abs/1710.08292">Topological classification of Morse-Smale diffeomorphisms on 3-manifolds</a><br />
+</center></p>
+<p>In such a situation $f_{\ast}$ acts on homology $H_k(M,\mathbb{Z})$, which are free $\mathbb{Z}$-modules of finite rank, as a matrix $M_f$ having only roots of unity as its eigenvalues.</p>
+<p>Manin argues that this action is similar to the action of the Frobenius on etale cohomology groups, in which case the eigenvalues are Weil numbers. That is, one might view roots of unity as Weil numbers in characteristic one.</p>
+<p>Clearly, all relevant data $(H_k(M,\mathbb{Z}),f_{\ast})$ belongs to the $\lambda$-subring of $\mathbb{W}_0(\mathbb{Z})$ generated by all pairs $(E,f)$ such that $M_f$ is diagonalisable and all its eigenvalues are either $0$ or roots of unity.</p>
+<p>If we denote for any ring $R$ by $\mathbb{W}_1(R)$ this $\lambda$-subring of $\mathbb{W}_0(R)$, probably one would obtain canonical isomorphisms</p>
+<p>&#8211; between $\mathbb{W}_1(\mathbb{Z})$ and the invariant part of the integral groupring $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ for the action of the group $Aut(\mathbb{Q}/\mathbb{Z}) = \widehat{\mathbb{Z}}^*$, and</p>
+<p>&#8211; between $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ and $\mathbb{W}_1(\mathbb{Z}(\mathbf{\mu}_{\infty}))$ where $\mathbb{Z}(\mathbf{\mu}_{\infty})$ is the ring obtained by adjoining to $\mathbb{Z}$ all roots of unity.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Complete chaos and Belyi-extenders</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 23 Aug 2019 16:39:59 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Belyi]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[Sullivan]]></category>
+		<category><![CDATA[Zvonkin]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8635</guid>
+
+					<description><![CDATA[A Belyi-extender (or dessinflateur) is a rational function $q(t) = \frac{f(t)}{g(t)} \in \mathbb{Q}(t)$ that defines a map \[ q : \mathbb{P}^1_{\mathbb{C}} \rightarrow \mathbb{P}^1_{\mathbb{C}} \] unramified&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A Belyi-extender (or <a href="https://lievenlebruyn.github.io/neverendingbooks/dessinflateurs">dessinflateur</a>) is a rational function $q(t) = \frac{f(t)}{g(t)} \in \mathbb{Q}(t)$ that defines a map<br />
+\[<br />
+q : \mathbb{P}^1_{\mathbb{C}} \rightarrow \mathbb{P}^1_{\mathbb{C}} \]<br />
+unramified outside $\{ 0,1,\infty \}$, and has the property that $q(\{ 0,1,\infty \}) \subseteq \{ 0,1,\infty \}$.</p>
+<p>An example of such a Belyi-extender is the power map $q(t)=t^n$, which is totally ramified in $0$ and $\infty$ and we clearly have that $q(0)=0,~q(1)=1$ and $q(\infty)=\infty$.</p>
+<p>The composition of two Belyi-extenders is again an extender, and we get a rather mysterious monoid $\mathcal{E}$ of all Belyi-extenders.</p>
+<p>Very little seems to be known about this monoid. Its units form the symmetric group $S_3$ which is the automrphism group of $\mathbb{P}^1_{\mathbb{C}} &#8211; \{ 0,1,\infty \}$, and mapping an extender $q$ to its degree gives a monoid map $\mathcal{E} \rightarrow \mathbb{N}_+^{\times}$ to the multiplicative monoid of positive natural numbers.</p>
+<p>If one relaxes the condition of $q(t) \in \mathbb{Q}(t)$ to being defined over its algebraic closure $\overline{\mathbb{Q}}$, then such maps/functions have been known for some time under the name of <strong>dynamical Belyi-functions</strong>, for example in Zvonkin&#8217;s <a href="https://www.labri.fr/perso/zvonkin/Research/belyi.pdf">Belyi Functions: Examples, Properties, and Applications (section 6)</a>.</p>
+<p>Here, one is interested in the complex dynamical system of iterations of $q$, that is, the limit-behaviour of the orbits<br />
+\[<br />
+\{ z,q(z),q^2(z),q^3(z),&#8230; \} \]<br />
+for all complex numbers $z \in \mathbb{C}$.</p>
+<p>In general, the 2-sphere $\mathbb{P}^1_{\mathbb{C}} = S^2$ has a finite number of open sets (the <a href="https://en.wikipedia.org/wiki/Julia_set">Fatou domains</a>) where the limit behaviour of the series is similar, and the union of these open sets is dense in $S^2$. The complement of the Fatou domains is the <a href="https://en.wikipedia.org/wiki/Julia_set">Julia set</a> of the function, of which we might expect a nice <a href="https://www.google.com/search?q=julia+sets&#038;source=lnms&#038;tbm=isch&#038;sa=X&#038;ved=0ahUKEwj19vHml5nkAhXHZFAKHT8ND8sQ_AUIEigB&#038;biw=1150&#038;bih=522">fractal picture</a>.</p>
+<p>Let&#8217;s take again the power map $q(t)=t^n$. For a complex number $z$ lying outside the unit disc, the series $\{ z,z^n,z^{2n},&#8230; \}$ has limit point $\infty$ and for those lying inside the unit circle, this limit is $0$. So, here we have two Fatou domains (interior and exterior of the unit circle) and the Julia set of the power map is the (boring?) unit circle.</p>
+<p>Fortunately, there are indeed dynamical Belyi-maps having a more pleasant looking Julia set, such as this one<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/JuliaSetDynamic2.png" width=75% ><br />
+</center></p>
+<p>But then, many dynamical Belyi-maps (and Belyi-extenders) are systems of an entirely different nature, they are <strong>completely chaotic</strong>, meaning that their Julia set is the whole $2$-sphere! Nowhere do we find an open region where points share the same limit behaviour&#8230; (the <a href="https://en.wikipedia.org/wiki/Butterfly_effect">butterfly effect</a>).</p>
+<p>There&#8217;s a nice sufficient condition for chaotic behaviour, due to <a href="https://en.wikipedia.org/wiki/Dennis_Sullivan">Dennis Sullivan</a>, which is pretty easy to check for dynamical Belyi-maps.</p>
+<p>A <strong>periodic point</strong> for $q(t)$ is a point $p \in S^2 = \mathbb{P}^1_{\mathbb{C}}$ such that $p = q^m(p)$ for some $m > 1$. A <strong>critical point</strong> is one such that either $q(p) = \infty$ or $q'(p)=0$.</p>
+<p>Sullivan&#8217;s result is that $q(t)$ is completely chaotic when all its critical points $p$ become eventually periodic, that is some $q^k(p)$ is periodic, <strong>but</strong> $p$ itself is not periodic.</p>
+<p>For a Belyi-map $q(t)$ the critical points are either comlex numbers mapping to $\infty$ or the inverse images of $0$ or $1$ (that is, the black or white dots in the dessin of $q(t)$) which are not leaf-vertices of the dessin.</p>
+<p>Let&#8217;s do an example, already used by Sullivan himself:<br />
+\[<br />
+q(t) = (\frac{t-2}{t})^2 \]<br />
+This is a Belyi-function, and in fact a Belyi-extender as it is defined over $\mathbb{Q}$ and we have that $q(0)=\infty$, $q(1)=1$ and $q(\infty)=1$. The corresponding dessin is (inverse images of $\infty$ are marked with an $\ast$)</p>
+<p><cemter><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Sullivan.png" width=75% ><br />
+</center></p>
+<p>The critical points $0$ and $2$ are not periodic, but they become eventually periodic:</p>
+<p>\[<br />
+2 \rightarrow^q 0 \rightarrow^q \infty \rightarrow^q 1 \rightarrow^q 1 \]<br />
+and $1$ is periodic.</p>
+<p>For a general Belyi-extender $q$, we have that the image under $q$ of any critical point is among $\{ 0,1,\infty \}$ and because we demand that $q(\{ 0,1,\infty \}) \subseteq \{ 0,1,\infty \}$, every critical point of $q$ eventually becomes periodic.</p>
+<p>If we want to avoid the corresponding dynamical system to be completely chaotic, we have to ensure that one of the periodic points among $\{ 0,1,\infty \}$ (and there is at least one of those) must be critical.</p>
+<p>Let&#8217;s consider the very special Belyi-extenders $q$ having the additional property that $q(0)=0$, $q(1)=1$ and $q(\infty)=\infty$, then all three of them are periodic.</p>
+<p>So, the system is always completely chaotic <strong>unless</strong> the black dot at $0$ is not a leaf-vertex of the dessin, or the white dot at $1$ is not a leaf-vertex, or the degree of the region determined by the starred $\infty$ is at least two.</p>
+<p>Going back to the mystery <a href="https://lievenlebruyn.github.io/neverendingbooks/the-mystery-manin-marcolli-monoid">Manin-Marcolli sub-monoid of $\mathcal{E}$</a>, it might explain why it is a good idea to restrict to very special Belyi-extenders having associated dessin a $2$-coloured tree, for then the periodic point $\infty$ is critical (the degree of the outside region is at least two), and therefore the conditions of Sullivan&#8217;s theorem are not satisfied.  So, these Belyi-extenders do not necessarily have to be completely chaotic. (tbc)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the mystery Manin-Marcolli monoid</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mystery-manin-marcolli-monoid/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-mystery-manin-marcolli-monoid/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 14 Aug 2019 08:14:05 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Belyi]]></category>
+		<category><![CDATA[dessins]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[Wood]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8554</guid>
+
+					<description><![CDATA[A Belyi-extender (or dessinflateur) $\beta$ of degree $d$ is a quotient of two polynomials with rational coefficients \[ \beta(t) = \frac{f(t)}{g(t)} \] with the special&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A Belyi-extender (or <a href="https://lievenlebruyn.github.io/neverendingbooks/dessinflateurs">dessinflateur</a>) $\beta$  of degree $d$ is a quotient of two polynomials with rational coefficients<br />
+\[<br />
+\beta(t) = \frac{f(t)}{g(t)} \]<br />
+with the special properties that for each complex number $c$ the polynomial equation of degree $d$ in $t$<br />
+\[<br />
+f(t)-c g(t)=0 \]<br />
+has $d$ distinct solutions, except perhaps for $c=0$ or $c=1$, and, in addition, we have that<br />
+\[<br />
+\beta(0),\beta(1),\beta(\infty) \in \{ 0,1,\infty \} \]</p>
+<p>Let&#8217;s take for instance the power maps $\beta_n(t)=t^n$.</p>
+<p>For every $c$ the degree $n$ polynomial $t^n &#8211; c = 0$ has exactly $n$ distinct solutions, except for $c=0$, when there is just one. And, clearly we have that $0^n=0$, $1^n=1$ and $\infty^n=\infty$. So, $\beta_n$ is a Belyi-extender of degree $n$.</p>
+<p>A cute observation being that if $\beta$ is a Belyi-extender of degree $d$, and $\beta&#8217;$ is an extender of degree $d&#8217;$, then $\beta \circ \beta&#8217;$ is again a Belyi-extender, this time of degree $d.d&#8217;$.</p>
+<p>That is, Belyi-extenders form a monoid under composition!</p>
+<p>In our example, $\beta_n \circ \beta_m = \beta_{n.m}$. So, the power-maps are a sub-monoid of the Belyi-extenders, isomorphic to the multiplicative monoid $\mathbb{N}_{\times}$ of strictly positive natural numbers.</p>
+<p><center><br />
+<img decoding="async" src="https://alchetron.com/cdn/matilde-marcolli-d57fd55d-61bb-4500-bd4a-d1880647334-resize-750.jpeg" ><br />
+</center></p>
+<p>In their paper <a href="https://arxiv.org/abs/1907.13545">Quantum statistical mechanics of the absolute Galois group</a>, Yuri I. Manin and Matilde Marcolli say they use the full monoid of Belyi-extenders to act on all Grothendieck&#8217;s dessins d&#8217;enfant.</p>
+<p>But, they attach properties to these Belyi-extenders which they don&#8217;t have, in general. That&#8217;s fine, as they foresee in Remark 2.21 of their paper that the construction works equally well for any suitable sub-monoid, as long as this sub-monoid contains all power-map exenders.</p>
+<p>I&#8217;m trying to figure out what the maximal mystery sub-monoid of extenders is satisfying all the properties they need for their proofs.</p>
+<p>But first, let us see what Belyi-extenders have to do with dessins d&#8217;enfant.</p>
+<p><center><br />
+<img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDs82eEI6SLUfIDN_7k57zMLEQewrxGgoYhP5TF6amURfK-Eg5rQ" ><br />
+</center></p>
+<p>In his user-friendlier period, <a href="https://en.wikipedia.org/wiki/Alexander_Grothendieck">Grothendieck</a> told us how to draw a picture, which he called a <a href="https://en.wikipedia.org/wiki/Dessin_d%27enfant">dessin d&#8217;enfant</a>, of an extender $\beta(t) = \frac{f(t)}{g(t)}$ of degree $d$:</p>
+<p>Look at all complex solutions of $f(t)=0$ and label them with a black dot (and add a black dot at $\infty$ if $\beta(\infty)=0$). Now, look at all complex solutions of $f(t)-g(t)=0$ and label them with a white dot (and add a white dot at $\infty$ if $\beta(\infty)=1$).</p>
+<p>Now comes the fun part.</p>
+<p>Because $\beta$ has exactly $d$ pre-images for all real numbers $\lambda$ in the open interval $(0,1)$ (and $\beta$ is continuous), we can connect the black dots with the white dots by $d$ edges (the pre-images of the open interval $(0,1)$), giving us a $2$-coloured graph.</p>
+<p>For the power-maps $\beta_n(t)=t^n$, we have just one black dot at $0$ (being the only solution of $t^n=0$), and $n$ white dots at the $n$-th roots of unity (the solutions of $x^n-1=0$). Any $\lambda \in (0,1)$ has as its $n$ pre-images the numbers $\zeta_i.\sqrt[n]{\lambda}$ with $\zeta_i$ an $n$-th root of unity, so we get here as picture an $n$-star. Here for $n=5$:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/stardessin.png" ></p>
+<p>This dessin should be viewed on the 2-sphere, with the antipodal point of $0$ being $\infty$, so projecting from $\infty$ gives a homeomorphism between the 2-sphere and $\mathbb{C} \cup \{ \infty \}$.</p>
+<p>To get all information of the dessin (including possible dots at infinity) it is best to slice the sphere open along the real segments $(\infty,0)$ and $(1,\infty)$ and flatten it to form a &#8216;diamond&#8217; with the upper triangle corresponding to the closed upper semisphere and the lower triangle to the open lower semisphere.</p>
+<p>In the picture above, the right hand side is the dessin drawn in the diamond, and this representation will be important when we come to the action of extenders on more general Grothendieck dessins d&#8217;enfant.</p>
+<p>Okay, let&#8217;s try to get some information about the monoid $\mathcal{E}$ of all Belyi-extenders.</p>
+<p>What are its invertible elements?</p>
+<p>Well, we&#8217;ve seen that the degree of a composition of two extenders is the product of their degrees, so invertible elements must have degree $1$, so are automorphisms of $\mathbb{P}^1_{\mathbb{C}} &#8211; \{ 0,1,\infty \} = S^2-\{ 0,1,\infty \}$ permuting the set $\{ 0,1,\infty \}$.</p>
+<p>They form the symmetric group $S_3$ on $3$-letters and correspond to the Belyi-extenders<br />
+\[<br />
+t,~1-t,~\frac{1}{t},~\frac{1}{1-t},~\frac{t-1}{t},~\frac{t}{t-1} \]<br />
+You can compose these units with an extender to get anther extender of the same degree where the roles of $0,1$ and $\infty$ are changed.</p>
+<p>For example, if you want to colour all your white dots black and the black dots white, you compose with the unit $1-t$.</p>
+<p>Manin and Marcolli use this and claim that you can transform any extender $\eta$ to an extender $\gamma$ by composing with a unit, such that $\gamma(0)=0, \gamma(1)=1$ and $\gamma(\infty)=\infty$.</p>
+<p>That&#8217;s fine as long as your original extender $\eta$ maps $\{ 0,1,\infty \}$ <strong>onto</strong> $\{ 0,1,\infty \}$, but usually a Belyi-extender only maps <strong>into</strong> $\{ 0,1,\infty \}$.</p>
+<p>Here are some extenders of degree three (taken from Melanie Wood&#8217;s paper <a href="https://arxiv.org/abs/math/0304489">Belyi-extending maps and the Galois action on dessins d’enfants</a>):</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/extendersdegree3.png" width=70% ><br />
+</center></p>
+<p>with dessin $5$ corresponding to the Belyi-extender<br />
+\[<br />
+\beta(t) = \frac{t^2(t-1)}{(t-\frac{4}{3})^3} \]<br />
+with $\beta(0)=0=\beta(1)$ and $\beta(\infty) = 1$.</p>
+<p>So, a first property of the mystery Manin-Marcolli monoid $\mathcal{E}_{MMM}$ must surely be that all its elements $\gamma(t)$ map $\{ 0,1,\infty \}$ onto $\{ 0,1,\infty \}$, for they use this property a number of times, for instance to construct a monoid map<br />
+\[<br />
+\mathcal{E}_{MMM} \rightarrow M_2(\mathbb{Z})^+ \qquad \gamma \mapsto \begin{bmatrix} d &#038; m-1 \\ 0 &#038; 1 \end{bmatrix} \]<br />
+where $d$ is the degree of $\gamma$ and $m$ is the number of black dots in the dessin (or white dots for that matter).</p>
+<p>Further, they seem to believe that the dessin of any Belyi-extender must be a 2-coloured tree.</p>
+<p>Already <a href="https://lievenlebruyn.github.io/neverendingbooks/dessinflateurs">last time</a> we&#8217;ve encountered a Belyi-extender $\zeta(t) = \frac{27 t^2(t-1)^2}{4(t^2-t+1)^3}$ with dessin</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/desspoging2.jpg" width=40% ><br />
+</center></p>
+<p>But then, you may argue, this extender sends all of $0,1$ and $\infty$ to $0$, so it cannot belong to $\mathcal{E}_{MMM}$.</p>
+<p>Here&#8217;s a trick to construct Belyi-extenders from  Belyi-maps $\beta : \mathbb{P}^1 \rightarrow \mathbb{P}^1$, defined over $\mathbb{Q}$ and having the property that there are rational points in the fibers over $0,1$ and $\infty$.</p>
+<p>Let&#8217;s take an example, the <a href="https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-3">&#8216;monstrous dessin&#8217;</a> corresponding to the congruence subgroup $\Gamma_0(2)$</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/monstrousGamma2.png" width=80% ><br />
+</center></p>
+<p>with map $\beta(t) = \frac{(t+256)^3}{1728 t^2}$.</p>
+<p>As it stands, $\beta$ is not a Belyi-extender because it does not map $1$ into $\{ 0,1,\infty \}$. But we have that<br />
+\[<br />
+-256 \in \beta^{-1}(0),~\infty \in \beta^{-1}(\infty),~\text{and}~512,-64 \in \beta^{-1}(1) \]<br />
+(the last one follows from $(t+256)^2-1728 t^3=(t-512)^2(t+64)$).</p>
+<p>We can now pre-compose $\beta$ with the automorphism (defined over $\mathbb{Q}$) sending $0$ to $-256$, $1$ to $-64$ and fixing $\infty$ to get a Belyi-extender<br />
+\[<br />
+\gamma(t) = \frac{(192t)^3}{1728(192t-256)^2} \]<br />
+which maps $\gamma(0)=0,~\gamma(1)=1$ and $\gamma(\infty)=\infty$ (so belongs to $\mathcal{E}_{MMM}$) with the same dessin, which is not a tree,</p>
+<p>That is, $\mathcal{E}_{MMM}$ can at best consist only of those Belyi-extenders $\gamma(t)$ that map $\{ 0,1,\infty \}$ onto $\{ 0,1,\infty \}$ and such that their dessin is a tree.</p>
+<p>Let me stop, for now, by asking for a reference (or counterexample) to perhaps the most startling claim in the Manin-Marcolli paper, namely that any 2-coloured tree can be realised as the dessin of a Belyi-extender!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-mystery-manin-marcolli-monoid/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Dessinflateurs</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/dessinflateurs/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/dessinflateurs/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 10 Aug 2019 10:44:13 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Belyi]]></category>
+		<category><![CDATA[dessins]]></category>
+		<category><![CDATA[Ellenberg]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[monodromy]]></category>
+		<category><![CDATA[Wood]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8536</guid>
+
+					<description><![CDATA[I&#8217;m trying to get into the latest Manin-Marcolli paper Quantum Statistical Mechanics of the Absolute Galois Group on how to create from Grothendieck&#8217;s dessins d&#8217;enfant&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m trying to get into the latest Manin-Marcolli paper <a href="https://arxiv.org/abs/1907.13545">Quantum Statistical Mechanics of the Absolute Galois Group</a> on how to create from <a href="https://en.wikipedia.org/wiki/Dessin_d%27enfant">Grothendieck&#8217;s dessins d&#8217;enfant</a> a quantum system, generalising the <a href="https://en.wikipedia.org/wiki/Bost%E2%80%93Connes_system">Bost-Connes system</a> to the non-Abelian part of the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q})$.</p>
+<p>In doing so they want to extend the action of the multiplicative monoid $\mathbb{N}_{\times}$ by power maps on the roots of unity to the action of a larger monoid on all dessins d&#8217;enfants.</p>
+<p>Here they use an idea, originally due to Jordan Ellenberg, worked out by <a href="https://math.berkeley.edu/~mmwood/">Melanie Wood</a> in her paper <a href="https://arxiv.org/abs/math/0304489">Belyi-extending maps and the Galois action on dessins d&#8217;enfants</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://math.berkeley.edu/~mmwood/Pictures/Melanie_Wood.jpg"><br />
+</center></p>
+<p>To grasp this, it&#8217;s best to remember what dessins have to do with Belyi maps, which are maps defined over $\overline{\mathbb{Q}}$<br />
+\[<br />
+\pi : \Sigma \rightarrow \mathbb{P}^1 \]<br />
+from a Riemann surface $\Sigma$ to the complex projective line (aka the 2-sphere), ramified only in $0,1$ and $\infty$. The dessin determining $\pi$ is the 2-coloured graph on the surface $\Sigma$ with as black vertices the pre-images of $0$, white vertices the pre-images of $1$ and these vertices are joined by the lifts of the closed interval $[0,1]$, so the number of edges is equal to the degree $d$ of the map.</p>
+<p>Wood considers a very special subclass of these maps, which she calls Belyi-extender maps, of the form<br />
+\[<br />
+\gamma : \mathbb{P}^1 \rightarrow \mathbb{P}^1 \]<br />
+defined over $\mathbb{Q}$ with the additional property that $\gamma$ maps $\{ 0,1,\infty \}$ into $\{ 0,1,\infty \}$.</p>
+<p>The upshot being that post-compositions of Belyi&#8217;s with Belyi-extenders $\gamma \circ \pi$ are again Belyi maps, and if two Belyi&#8217;s $\pi$ and $\pi&#8217;$ lie in the same Galois orbit, then so must all $\gamma \circ \pi$ and $\gamma \circ \pi&#8217;$.</p>
+<p>The crucial Ellenberg-Wood idea is then to construct &#8220;new Galois invariants&#8221; of dessins by checking existing and easily computable Galois invariants on the dessins of the Belyi&#8217;s $\gamma \circ \pi$.</p>
+<p>For this we need to know how to draw the dessin of $\gamma \circ \pi$ on $\Sigma$ if we know the dessins of $\pi$ and of the Belyi-extender $\gamma$. Here&#8217;s the procedure</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DessinInf.jpg" width=70% ><br />
+</center></p>
+<p>Here, the middle dessin is that of the Belyi-extender $\gamma$ (which in this case is the power map $t \rightarrow t^4$) and the upper graph is the unmarked dessin of $\pi$.</p>
+<p>One has to replace each of the black-white edges in the dessin of $\pi$ by the dessin of the expander $\gamma$, but one must be very careful in respecting the orientations on the two dessins. In the upper picture just one edge is replaced and one has to do this for all edges in a compatible manner.</p>
+<p>Thus, a Belyi-expander $\gamma$ inflates the dessin $\pi$ with factor the degree of $\gamma$. For this reason i prefer to call them <strong>dessinflateurs</strong>, a contraction of dessin+inflator.</p>
+<p>In her paper, Melanie Wood says she can separate dessins for which all known Galois invariants were the same, such as these two dessins,</p>
+<p><center><br />
+<img decoding="async" width=100% src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/testdessins.jpg" ><br />
+</center></p>
+<p>by inflating them with a suitable Belyi-extender and computing the monodromy group of the inflated dessin.</p>
+<p>This monodromy group is the permutation group generated by two elements, the first one gives the permutation on the edges given by walking counter-clockwise around all black vertices, the second by walking around all white vertices.</p>
+<p>For example, by labelling the edges of $\Delta$, its monodromy is generated by the permutations $(2,3,5,4)(1,6)(8,10,9)$ and $(1,3,2)(4,7,5,8)(9,10)$ and GAP tells us that the order of this group is $1814400$. For $\Omega$ the generating permutations are $(1,2)(3,6,4,7)(8,9,10)$ and $(1,2,4,3)(5,6)(7,9,8)$, giving an isomorphic group.</p>
+<p>Let&#8217;s inflate these dessins using the Belyi-extender $\gamma(t) = -\frac{27}{4}(t^3-t^2)$ with corresponding dessin</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/desspoging1.jpg" width=50% ><br />
+</center></p>
+<p>It took me a couple of attempts before I got the inflated dessins correct (as i knew from Wood that this simple extender would not separate the dessins). Inflated $\Omega$ on top:</p>
+<p><center><br />
+<img decoding="async" width=100% src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Dessinflateurs.jpg" ><br />
+</center></p>
+<p>Both dessins give a monodromy group of order $35838544379904000000$.</p>
+<p>Now we&#8217;re ready to do serious work.</p>
+<p>Melanie Wood uses in her paper the extender $\zeta(t)=\frac{27 t^2(t-1)^2}{4(t^2-t+1)^3}$ with associated dessin</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/desspoging2.jpg" width=50% ><br />
+</center></p>
+<p>and says she can now separate the inflated dessins by the order of their monodromy groups. She gets for the inflated $\Delta$ the order $19752284160000$ and for inflated $\Omega$ the order $214066877211724763979841536000000000000$.</p>
+<p>It&#8217;s very easy to make mistakes in these computations, so probably I did something horribly wrong but I get for both $\Delta$ and $\Omega$ that the order of the monodromy group of the inflated dessin is $214066877211724763979841536000000000000$.</p>
+<p>I&#8217;d be very happy when someone would be able to spot the error!</p>
+<p><img decoding="async" width=100% src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BerekeningDelta.jpg" ></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/dessinflateurs/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Langlands program and non-commutative geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 30 Jan 2018 13:23:34 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Artin]]></category>
+		<category><![CDATA[Bost]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Kisin]]></category>
+		<category><![CDATA[Langlands]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7930</guid>
+
+					<description><![CDATA[The Bulletin of the AMS just made this paper by Julia Mueller available online: &#8220;On the genesis of Robert P. Langlands&#8217; conjectures and his letter&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The Bulletin of the AMS just made this paper by Julia Mueller available online: <a href="http://www.ams.org/journals/bull/0000-000-00/S0273-0979-2018-01609-1/home.html">&#8220;On the genesis of Robert P. Langlands&#8217; conjectures and his letter to Andre Weil&#8221;</a> (hat tip <a href="https://plus.google.com/+ChandanDalawat/posts/gVzANZb2Vcv">+ChandanDalawat</a> and <a href="https://plus.google.com/+DavidRoberts/posts/Q8PR5m3sd5L">+DavidRoberts</a> on Google+).</p>
+<p>It recounts the story of the early years of <a href="https://www.google.be/search?q=robert+langlands&#038;oq=robert+langlands">Langlands</a> and the first years of his mathematical career (1960-1966)leading up to his letter to <a href="https://www.google.be/search?q=Andre+Weil&#038;oq=Andre+Weil">Andre Weil</a> in which he outlines his conjectures, which would become known as the <a href="https://en.wikipedia.org/wiki/Langlands_program">Langlands program</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/LanglandsWeil.jpg"></p>
+<p>Langlands letter to Weil is available <a href="https://publications.ias.edu/rpl/paper/43">from the IAS</a>.</p>
+<p>The Langlands program is a vast net of conjectures. For example, it conjectures that there is a correspondence between</p>
+<p>&#8211; $n$-dimensional representations of the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q})$, and</p>
+<p>&#8211; specific data coming from an <a href="https://en.wikipedia.org/wiki/Adele_ring#Example:_the_rational_adele_ring_'"`UNIQ--postMath-00000048-QINU`"'">adelic</a> quotient-space $GL_n(\mathbb{A}_{\mathbb{Q}})/GL_n(\mathbb{Q})$.</p>
+<p>For $n=1$ this is essentially <a href="https://en.wikipedia.org/wiki/Class_field_theory">class field theory</a> with the correspondence given by <a href="https://en.wikipedia.org/wiki/Artin_reciprocity_law">Artin&#8217;s reciprocity law</a>.</p>
+<p>Here we have on the one hand the characters of the abelianised absolute Galois group</p>
+<p>\[<br />
+Gal(\overline{\mathbb{Q}}/\mathbb{Q})^{ab} \simeq Gal(\mathbb{Q}(\pmb{\mu}_{\infty})/\mathbb{Q}) \simeq \widehat{\mathbb{Z}}^{\ast} \]</p>
+<p>and on the other hand the connected components of the idele class space</p>
+<p>\[<br />
+GL_1(\mathbb{A}_{\mathbb{Q}})/GL_1(\mathbb{Q}) = \mathbb{A}_{\mathbb{Q}}^{\ast} / \mathbb{Q}^{\ast} = \mathbb{R}_+^{\ast} \times \widehat{\mathbb{Z}}^{\ast} \]</p>
+<p>For $n=2$ it involves the study of Galois representations coming from elliptic curves. A gentle introduction to the general case is Mark Kisin&#8217;s paper <a href="http://www.ams.org/notices/200706/tx070600718p.pdf">What is &#8230; a Galois representation?</a>.</p>
+<p>One way to look at some of the quantum statistical systems studied via non-commutative geometry is that they try to understand the &#8220;bad&#8221; boundary of the Langlands space $GL_n(\mathbb{A}_{\mathbb{Q}})/GL_n(\mathbb{Q})$.</p>
+<p>Here, the Bost-Connes system corresponds to the $n=1$ case, the Connes-Marcolli system to the $n=2$ case.</p>
+<p>If $\mathbb{A}&#8217;_{\mathbb{Q}}$ is the subset of all adeles having almost all of its terms in $\widehat{\mathbb{Z}}_p^{\ast}$, then there is a well-defined map</p>
+<p>\[<br />
+\pi~:~\mathbb{A}&#8217;_{\mathbb{Q}}/\mathbb{Q}^{\ast} \rightarrow \mathbb{R}_+ \qquad (x_{\infty},x_2,x_2,\dots) \mapsto | x_{\infty} | \prod_p | x_p |_p \]</p>
+<p>The inverse image of $\pi$ over $\mathbb{R}_+^{\ast}$ are exactly the idele classes $\mathbb{A}_{\mathbb{Q}}^{\ast}/\mathbb{Q}^{\ast}$, so we can view them as the nice locus of the horrible complicated quotient of adele-classes $\mathbb{A}_{\mathbb{Q}}/\mathbb{Q}^*$. And we can view the adele-classes as a &#8216;closure&#8217; of the idele classes.</p>
+<p>But, the fiber $\pi^{-1}(0)$ has horrible topological properties because $\mathbb{Q}^*$ acts ergodically on it due to the fact that $log(p)/log(q)$ is irrational for distinct primes $p$ and $q$.</p>
+<p>This is why it is better to view the adele-classes not as an ordinary space (one with bad topological properties), but rather as a &#8216;non-commutative&#8217; space because it is controlled by a non-commutative algebra, the Bost-Connes algebra.</p>
+<p>For $n=2$ there&#8217;s a similar story with a &#8216;bad&#8217; quotient $M_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q})$, being the closure of an &#8216;open&#8217; nice piece which is the Langlands quotient space $GL_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q})$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>nc-geometry and moonshine?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 12 Jan 2018 15:28:03 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Bost]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[Plazas]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7649</guid>
+
+					<description><![CDATA[A well-known link between Conway&#8217;s Big Picture and non-commutative geometry is given by the Bost-Connes system. This quantum statistical mechanical system encodes the arithmetic properties&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A well-known link between <a href="https://www.google.be/url?sa=t&#038;rct=j&#038;q=&#038;esrc=s&#038;source=web&#038;cd=1&#038;ved=0ahUKEwinqpa61NLYAhUKK1AKHdfyDoYQFggsMAA&#038;url=https%3A%2F%2Flievenlebruyn.github.io%2Fneverendingbooks%2Fconways-big-picture&#038;usg=AOvVaw1KUQS1klcoUcUa9xlKd7YP">Conway&#8217;s Big Picture</a> and non-commutative geometry is given by the <a href="https://en.wikipedia.org/wiki/Bost%E2%80%93Connes_system">Bost-Connes system</a>.</p>
+<p>This quantum statistical mechanical system encodes the arithmetic properties of cyclotomic extensions of $\mathbb{Q}$.</p>
+<p>The corresponding Bost-Connes algebra encodes the action by the power-maps on the roots of unity.</p>
+<p>It has generators $e_n$ and $e_n^*$ for every natural number $n$ and additional generators $e(\frac{g}{h})$ for every element in the additive group $\mathbb{Q}/\mathbb{Z}$ (which is of course isomorphic to the multiplicative group of roots of unity).</p>
+<p>The defining equations are<br />
+\[<br />
+\begin{cases}<br />
+e_n.e(\frac{g}{h}).e_n^* = \rho_n(e(\frac{g}{h})) \\<br />
+e_n^*.e(\frac{g}{h}) = \Psi^n(e(\frac{g}{h}).e_n^* \\<br />
+e(\frac{g}{h}).e_n = e_n.\Psi^n(e(\frac{g}{h})) \\<br />
+e_n.e_m=e_{nm} \\<br />
+e_n^*.e_m^* = e_{nm}^* \\<br />
+e_n.e_m^* = e_m^*.e_n~\quad~\text{if $(m,n)=1$}<br />
+\end{cases}<br />
+\]</p>
+<p>Here $\Psi^n$ are the power-maps, that is $\Psi^n(e(\frac{g}{h})) = e(\frac{ng}{h}~mod~1)$, and the maps $\rho_n$ are given by<br />
+\[<br />
+\rho_n(e(\frac{g}{h})) = \sum e(\frac{i}{j}) \]<br />
+where the sum is taken over all $\frac{i}{j} \in \mathbb{Q}/\mathbb{Z}$ such that $n.\frac{i}{j}=\frac{g}{h}$.</p>
+<p>Conway&#8217;s Big Picture has as its vertices the (equivalence classes of) lattices $M,\frac{g}{h}$ with $M \in \mathbb{Q}_+$ and $\frac{g}{h} \in \mathbb{Q}/\mathbb{Z}$.</p>
+<p>The Bost-Connes algebra acts on the vector-space with basis the vertices of the Big Picture. The action is given by:<br />
+\[<br />
+\begin{cases}<br />
+e_n \ast \frac{c}{d},\frac{g}{h} = \frac{nc}{d},\rho^m(\frac{g}{h})~\quad~\text{with $m=(n,d)$} \\<br />
+e_n^* \ast \frac{c}{d},\frac{g}{h} = (n,c) \times \frac{c}{nd},\Psi^{\frac{n}{m}}(\frac{g}{h})~\quad~\text{with $m=(n,c)$} \\<br />
+e(\frac{a}{b}) \ast \frac{c}{d},\frac{g}{h} = \frac{c}{d},\Psi^c(\frac{a}{b}) \frac{g}{h}<br />
+\end{cases}<br />
+\]</p>
+<p>This connection makes one wonder whether non-commutative geometry can shed a new light on monstrous moonshine?</p>
+<p>This question is taken up by <a href="http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001544588">Jorge Plazas</a> in his paper <a href="https://arxiv.org/abs/1303.5168">Non-commutative geometry of groups like $\Gamma_0(N)$</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/JorgePlazas.jpeg" width=100% ></p>
+<p>Plazas shows that the bigger Connes-Marcolli $GL_2$-system also acts on the Big Picture. An intriguing quote:</p>
+<p>&#8220;Our interest in the $GL_2$-system comes from the fact that its thermodynamic properties encode the arithmetic theory of modular functions to an extend which makes it possible for us to capture aspects of moonshine theory.&#8221;</p>
+<p>Looks like the right kind of paper to take along when I disappear next week for some time in the French mountains&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The martial art of giving talks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-martial-art-of-giving-talks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-martial-art-of-giving-talks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 05 Jan 2012 15:45:30 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<guid isPermaLink="false">http://192.168.0.163/?p=5756</guid>
+
+					<description><![CDATA[Last fall, Matilde Marcolli gave a course at CalTech entitled Oral Presentation: The (Martial) Art of Giving Talks. The purpose of this course was to&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Last fall, Matilde Marcolli gave a course at CalTech entitled <a href="http://www.its.caltech.edu/~matilde/Ma10fall2011 " title="Oral Presentation: The (Martial) Art of Giving Talks" target="_blank" rel="noopener">Oral Presentation: The (Martial) Art of Giving Talks</a>. The purpose of this course was to teach students &#8220;how to effectively communicate their work in seminars and conferences and how to defend it from criticism from the audience&#8221;.</p>
+<p>The <a href="http://www.its.caltech.edu/~matilde/Ma10Notes.pdf" target="_blank" rel="noopener">lecture notes</a> contain basic information on the different types of talks and how to prepare them. But they really shine when it comes to spotting the badasses in the public and how to respond to their interference. She identifies 5 badsass-types : the empreror and the hierophant (see below), the chariot (the one with a literal mind, asking continuously for details), the fool (the one who happens to sit in the talk but doesn&#8217;t belong there) and the magician (the quick smartass).</p>
+<p>I&#8217;ll just quote here the description of, and most effective strategy against, the first two badass-types. Please have a look at the whole <a href="http://www.its.caltech.edu/~matilde/Ma10Notes.pdf">paper</a>, it is a good read!</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/emperor.jpg" align=left> &#8220;The <strong>Emperor</strong> is the typical figure of power and authority in a given field. It refers to those people who have a tendency to think that the whole field is their own private property, and in particular that only what they do in the field is important, that the work of all others is derivative and that in any case they are not being quoted enough. These are typically pathological narcissists, so one needs to take this into account in interacting with them.<br />
+The trouble of having The Emperor in your audience is that he (it is rarely she) can very easily disrupt your presentation completely, by continuous interruptions, by running his own commentary while you are trying to stay focused on delivering your talk and by distracting the rest of the audience.<br />
+The Emperor is by far one of the most dangerous encounters you can make in the wilderness of the conference rooms.&#8221;</p>
+<p>Counter-measure : &#8220;Keep in mind that the Emperor is a pathological narcissist: part of the reason why he keeps interrupting your talk is because he cannot stand the fact that, during those fifty minutes, the attention of the audience is focused on you and not on him. His continuous interruptions and complaints are a way to try to divert the attention of the audience back to him and away from you. That your talk gets disrupted in the process, he could not care the less.<br />
+A good way to try to avoid the worst case scenario is to make sure (if you know in advance you may be having the Emperor in the audience) that you arrange in your talk to make frequent references to him and his work. In this way, he will hopefully feel that his need to be at the center of attention is sufficiently satisfied that he can let you continue with your talk. Effectiveness: high.&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/hierophant.jpg" align=right> &#8220;The <strong>Hierophant</strong> represents a priestly figure. What this refers to here is the type of character who feels entitled to represent (and defend) a certain “orthodoxy”, a certain school of thought, or a certain group of people within the field.<br />
+Typically the hierophants are the minions and lackeys of the Emperor, his entourage and fan club, those who think that the Emperor represents the only and true orthodoxy in the field and that anything that is done in a different way should be opposed and suppressed.<br />
+These characters are generally less disruptive than the Emperor himself, as they are really only fighting you on someone else’s behalf. Nonetheless, they can sometime manage to seriously disrupt your presentation.&#8221;</p>
+<p>Counter-measure : &#8220;This is essentially the same advise as in the case of the Emperor. To an objection that substantially is of the form: “This is not the right way to do things because this is not what what we do (= what the Emperor does)”, which is what you expect to hear from the Hierophant, you can reply along lines such as: “There is also another approach to this problem, developed by the Emperor and his school, which is a very interesting approach that gave nice and important results. However, this is not what I am talking about today: I am talking here about a different approach, and I will be focusing only on the specific features of this other approach&#8230;”<br />
+Something along these lines would recognize “their” work without having to make any concession on their approach being the only game in town.<br />
+Effectiveness: high (unless the Emperor is also present and is delegating to his hierophants the task of attacking you: in that case they won’t give up so easily and the effectiveness of this line of defense becomes medium/low).&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-martial-art-of-giving-talks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Art and the absolute point (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 19 May 2011 13:24:19 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[nonsense]]></category>
+		<category><![CDATA[paintings]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5112</guid>
+
+					<description><![CDATA[Previously, we have recalled comparisons between approaches to define a geometry over the absolute point and art-historical movements, first those due to Yuri I. Manin,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Previously, we have recalled comparisons between approaches to define a geometry over the absolute point and art-historical movements, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/art-and-the-absolute-point.html">first</a> those due to Yuri I. Manin, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/art-and-the-absolute-point-2.html">subsequently</a> some extra ones due to Javier Lopez Pena and Oliver Lorscheid.</p>
+<p>In these comparisons, the art trend appears to have been  chosen more to illustrate a key feature of the approach or an appreciation of its importance, rather than giving a visual illustration of the varieties over $\mathbb{F}_1$ the approach proposes.</p>
+<p>Some time ago, we&#8217;ve had a couple of posts trying to depict noncommutative varieties, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/views-of-noncommutative-spaces.html">first</a> the illustrations used by Shahn Majid and Matilde Marcolli, and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/pollock-your-own-noncommutative-space.html">next</a> my own mental picture of it.</p>
+<p>In this post, we&#8217;ll try to do something similar for affine varieties over the absolute point. To simplify things drastically, I&#8217;ll divide the islands in the Lopez Pena-Lorscheid <a href="http://arxiv.org/abs/0909.0069">map of $\mathbb{F}_1$ land</a> in two subsets : the <strong>former approaches</strong> (all but the $\Lambda$-schemes) and the <strong>current approach</strong> (the $\Lambda$-scheme <a href="http://arxiv.org/abs/0906.3146">approach</a> due to James Borger).</p>
+<p><strong>The former approaches : Francis Bacon &#8220;The Pope&#8221; (1953)</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BaconPope.jpg"></p>
+<p>The general consensus here was that in going from $\mathbb{Z}$ to $\mathbb{F}_1$ one looses the additive structure and retains only the multiplicative one. Hence, &#8216;commutative algebras&#8217; over $\mathbb{F}_1$ are (commutative) monoids, and mimicking Grothendieck&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/grothendiecks-functor-of-points.html">functor of points</a> approach to algebraic geometry, a scheme over $\mathbb{F}_1$ would then correspond to a functor</p>
+<p>$h_Z~:~\mathbf{monoids} \longrightarrow \mathbf{sets}$</p>
+<p>Such functors are described largely by combinatorial data (see for example the recent <a href="http://arxiv.org/abs/1103.1745">blueprint-paper</a> by Oliver Lorscheid), and, if the story would stop here, any <a href="http://www.google.com/search?q=Rothko&amp;hl=en&amp;client=safari&amp;rls=en&amp;prmd=ivns&amp;source=lnms&amp;tbm=isch&amp;ei=yNDUTcTcDIyVOuK7xIIM&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;cd=2&amp;ved=0CBsQ_AUoAQ&amp;biw=1362&amp;bih=734">Rothko painting</a> could be used as illustration.</p>
+<p>Most of the former approaches add something though (buzzwords include &#8216;Arakelov&#8217;, &#8216;completion at $\infty$&#8217;, &#8216;real place&#8217; etc.) in order to connect the virtual geometric object over $\mathbb{F}_1$ with existing real, complex or integral schemes. For example, one can make the virtual object visible via an evaluation map $h_Z \rightarrow h_X$ which is a natural transformation, where $X$ is a complex variety with its usual functor of points $h_X$ and to connect both we associate to a monoid $M$ its complex monoid-algebra $\mathbb{C} M$. An integral scheme $Y$ can then be said to be &#8216;defined over $\mathbb{F}_1$&#8217;, if $h_Z$ becomes a subfunctor of its usual functor of points $h_Y$ (again, assigning to a monoid its integral monoid algebra $\mathbb{Z} M$) and $Y$ is the &#8216;best&#8217; integral scheme approximation of the complex evaluation map.</p>
+<p>To illustrate this, consider the painting <a href="http://en.wikipedia.org/wiki/Study_after_Velázquez's_Portrait_of_Pope_Innocent_X">Study after Velázquez&#8217;s Portrait of Pope Innocent X</a> by <a href="http://en.wikipedia.org/wiki/Francis_Bacon_(painter)">Francis Bacon</a> (right-hand painting above) which is  a distorded version of the left-hand painting <a href="http://en.wikipedia.org/wiki/Portrait_of_Innocent_X">Portrait of Innocent X</a> by <a href="http://en.wikipedia.org/wiki/Diego_Velázquez">Diego Velázquez</a>.</p>
+<p>Here, Velázquez&#8217; painting plays the role of the complex variety which makes the combinatorial gadget $h_Z$ visible, and, Bacon&#8217;s painting depicts the integral scheme, build up from this combinatorial data, which approximates the evaluation map best.</p>
+<p>All of the former approaches more or less give the same very small list of integral schemes defined over $\mathbb{F}_1$, none of them motivically interesting.</p>
+<p><strong>The current approach : Jackson Pollock &#8220;No. 8&#8221; (1949)</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Pollock8.jpg"></p>
+<p>An entirely different approach was proposed by James Borger in <a href="http://arxiv.org/abs/0906.3146">$\Lambda$-rings and the field with one element</a>. He proposes another definition for commutative $\mathbb{F}_1$-algebras, namely $\lambda$-rings (in the sense of Grothendieck&#8217;s Riemann-Roch) and he argues that the $\lambda$-ring structure (which amounts in the sensible cases to a family of endomorphisms of the integral ring lifting the Frobenius morphisms) can be viewed as descent data from $\mathbb{Z}$ to $\mathbb{F}_1$.</p>
+<p>The list of integral schemes of finite type with a $\lambda$-structure coincides roughly with the list of integral schemes defined over $\mathbb{F}_1$ in the other approaches, but Borger&#8217;s theory really shines in that it proposes long sought for mystery-objects such as $\mathbf{spec}(\mathbb{Z}) \times_{\mathbf{spec}(\mathbb{F}_1)} \mathbf{spec}(\mathbb{Z})$. If one accepts Borger&#8217;s premise, then this object should be the geometric object corresponding to the Witt-ring $W(\mathbb{Z})$. Recall that the role of Witt-rings in $\mathbb{F}_1$-geometry was anticipated by Manin in <a href="http://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a>.</p>
+<p>But, Witt-rings and their associated Witt-spaces are huge objects, so one needs to extend arithmetic geometry drastically to include such &#8216;integral schemes of infinite type&#8217;. Borger has made a couple of steps in this direction in <a href="http://arxiv.org/abs/1006.0092">The basic geometry of Witt vectors, II: Spaces</a>.</p>
+<p>To depict these new infinite dimensional geometric objects I&#8217;ve chosen for <a href="http://en.wikipedia.org/wiki/Jackson_Pollock">Jackson Pollock</a>&#8216;s painting No. 8. It is no coincidence that Pollock-paintings also appeared in the depiction of noncommutative spaces. In fact, Matilde Marcolli has made the connection between $\lambda$-rings and noncommutative geometry in <a href="http://arxiv.org/abs/0901.3167">Cyclotomy and endomotives</a> by showing that the Bost-Connes endomotives are universal for $\lambda$-rings.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Art and the absolute point (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 13 May 2011 13:41:51 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[paintings]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5001</guid>
+
+					<description><![CDATA[Last time we did recall Manin&#8217;s comparisons between some approaches to geometry over the absolute point $\pmb{spec}(\mathbb{F}_1)$ and trends in the history of art. In&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/absolutpoint.jpg" align=left hspace=10> <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/art-and-the-absolute-point.html">Last time</a> we did recall Manin&#8217;s comparisons between some approaches to geometry over the absolute point $\pmb{spec}(\mathbb{F}_1)$ and trends in the history of art.</p>
+<p>In the comments to that post, <a href="http://www.ucl.ac.uk/~ucahjlo/">Javier Lopez-Pena</a> wrote that he and <a href="http://www.sci.ccny.cuny.edu/~lorscheid/">Oliver Lorscheid</a> briefly contemplated the idea of extending Manin&#8217;s artsy-dictionary to all approaches they did draw on their <a href="http://arxiv.org/abs/0909.0069">Map of $\mathbb{F}_1$-land</a>. </p>
+<p>So this time, we will include here Javier&#8217;s and Oliver&#8217;s insights on the colored pieces below in their map : CC=Connes-Consani, Generalized torified schemes=Lopez Pena-Lorscheid, Generalized schemes with 0=Durov and, this time, $\Lambda$=Manin-Marcolli.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/F1land2.jpg"></p>
+<p><strong>Durov : romanticism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/romanticism.jpg"></p>
+<p>In his 568 page long Ph.D. thesis <a href="http://arxiv.org/abs/0704.2030">New Approach to Arakelov Geometry</a> Nikolai Durov introduces a vast generalization of classical algebraic geometry in which both Arakelov geometry and a more exotic geometry over $\mathbb{F}_1$ fit naturally. Because there were great hopes and expectations it would lead to a big extension of algebraic geometry, Javier and Oliver associate this approach to <a href="http://en.wikipedia.org/wiki/Romanticism">romantism</a>. From wikipedia : &#8220;The modern sense of a romantic character may be expressed in Byronic ideals of a gifted, perhaps misunderstood loner, creatively following the dictates of his inspiration rather than the standard ways of contemporary society.&#8221;</p>
+<p><strong>Manin and Marcolli : impressionism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/impressionism.jpg"></p>
+<p>Yuri I. Manin in <a href="http://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a> and Matilde Marcolli in <a href="http://arxiv.org/abs/0901.3167">Cyclotomy and endomotives</a> develop a theory of analytic geometry over $\mathbb{F}_1$ based on analytic functions &#8216;leaking out of roots of unity&#8217;. Javier and Oliver depict such functions as &#8216;thin, but visible brush strokes at roots of 1&#8217; and therefore associate this approach to <a href="http://en.wikipedia.org/wiki/Impressionism">impressionism</a>. Frow wikipedia : &#8216;Characteristics of Impressionist paintings include: relatively small, thin, yet visible brush strokes; open composition; emphasis on accurate depiction of light in its changing qualities (often accentuating the effects of the passage of time); common, ordinary subject matter; the inclusion of movement as a crucial element of human perception and experience; and unusual visual angles.&#8217;</p>
+<p><strong>Connes and Consani : cubism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cubism.jpg"></p>
+<p>In <a href="http://arxiv.org/abs/0809.2926">On the notion of geometry over $\mathbb{F}_1$</a> Alain Connes and Katia Consani develop their extension of Soule&#8217;s approach. A while ago I&#8217;ve done a couple of posts on this <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-1.html">here</a>, <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-2.html">here</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-3.html">here</a>. Javier and Oliver associate this approach to <a href="http://en.wikipedia.org/wiki/Cubism">cubism</a> (a.o. Pablo Picasso and Georges Braque) because of the weird juxtapositions of the simple monoidal pieces in this approach.</p>
+<p><strong>Lopez-Pena and Lorscheid : deconstructivism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/deconstructivism.jpg"></p>
+<p>Torified varieties and schemes were introduced by Javier Lopez-Pena and Oliver Lorscheid in <a href="http://arxiv.org/abs/0903.2173">Torified varieties and their geometries over $\mathbb{F}_1$</a> to get lots of examples of varieties over the absolute point in the sense of both Soule and Connes-Consani. Because they were fragmenting schemes into their &#8220;fundamental pieces&#8221; they associate their approach to <a href="http://en.wikipedia.org/wiki/Deconstructivism">deconstructivism</a>.</p>
+<p>Another time I&#8217;ll sketch my own arty-farty take on all this.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Langlands versus Connes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 26 Oct 2010 08:54:28 +0000</pubDate>
+				<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3312</guid>
+
+					<description><![CDATA[This is a belated response to a Math-Overflow exchange between Thomas Riepe and Chandan Singh Dalawat asking for a possible connection between Connes&#8217; noncommutative geometry&#8230;]]></description>
+										<content:encoded><![CDATA[<p>This is a belated response to a Math-Overflow <a href="http://mathoverflow.net/questions/41296/lun-des-problemes-fondamentaux-de-la-theorie-des-nombres">exchange</a> between Thomas Riepe and Chandan Singh Dalawat asking for a possible connection between Connes&#8217; noncommutative geometry approach to the Riemann hypothesis and the Langlands program.</p>
+<p>Here&#8217;s the punchline : a large chunk of the Connes-Marcolli book <a href="http://www.alainconnes.org/docs/bookwebfinal.pdf">Noncommutative Geometry, Quantum Fields and Motives</a> can be read as an exploration of the noncommutative boundary to the Langlands program (at least for $GL_1 $ and $GL_2 $ over the rationals $\mathbb{Q} $).</p>
+<p>Recall that Langlands for $GL_1 $ over the rationals is the correspondence, given by the Artin reciprocity law, between on the one hand the abelianized absolute Galois group</p>
+<p>$Gal(\overline{\mathbb{Q}}/\mathbb{Q})^{ab} = Gal(\mathbb{Q}(\mu_{\infty})/\mathbb{Q}) \simeq \hat{\mathbb{Z}}^* $</p>
+<p>and on the other hand the connected components of the idele classes</p>
+<p>$\mathbb{A}^{\ast}_{\mathbb{Q}}/\mathbb{Q}^{\ast} = \mathbb{R}^{\ast}_{+} \times \hat{\mathbb{Z}}^{\ast} $</p>
+<p>The locally compact Abelian group of idele classes can be viewed as the nice locus of the horrible quotient space of adele classes $\mathbb{A}_{\mathbb{Q}}/\mathbb{Q}^{\ast} $. There is a well-defined map</p>
+<p>$\mathbb{A}_{\mathbb{Q}}&#8217;/\mathbb{Q}^{\ast} \rightarrow \mathbb{R}_{+} \qquad (x_{\infty},x_2,x_3,\ldots) \mapsto | x_{\infty} | \prod | x_p |_p $</p>
+<p>from the subset $\mathbb{A}_{\mathbb{Q}}&#8217; $ consisting of adeles of which almost all terms belong to $\mathbb{Z}_p^{\ast} $. The inverse image of this map over $\mathbb{R}_+^{\ast} $ are precisely the idele classes $\mathbb{A}^{\ast}_{\mathbb{Q}}/\mathbb{Q}^{\ast} $. In this way one can view the adele classes as a closure, or &#8216;compactification&#8217;, of the idele classes.</p>
+<p>This is somewhat reminiscent of extending the nice action of the modular group on the upper-half plane to its badly behaved action on the boundary as in the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-manin-marcolli-cave.html">Manin-Marcolli cave post</a>.</p>
+<p>The topological properties of the fiber over zero, and indeed of the total space of adele classes, are horrible in the sense that the discrete group $\mathbb{Q}^* $ acts ergodically on it, due to the irrationality of $log(p_1)/log(p_2) $ for primes $p_i $. All this is explained well (in the semi-local case, that is using $\mathbb{A}_Q&#8217; $ above) in the Connes-Marcolli book (section 2.7).</p>
+<p>In much the same spirit as non-free actions of reductive groups on algebraic varieties are best handled using stacks, such ergodic actions are best handled by the tools of noncommutative geometry. That is, one tries to get at the geometry of $\mathbb{A}_{\mathbb{Q}}/\mathbb{Q}^{\ast} $ by studying an associated non-commutative algebra, the skew-ring extension of the group-ring of the adeles by the action of $\mathbb{Q}^* $ on it. This algebra is known to be Morita equivalent to the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bost-connes-hecke-algebra.html">Bost-Connes algebra</a> which is the algebra featuring in Connes&#8217; approach to the Riemann hypothesis.</p>
+<p>It shouldn&#8217;t thus come as a major surprise that one is able to recover the other side of the Langlands correspondence, that is the Galois group $Gal(\mathbb{Q}(\mu_{\infty})/\mathbb{Q}) $, from the Bost-Connes algebra as the symmetries of certain states.</p>
+<p>In a similar vein one can read the Connes-Marcolli $GL_2 $-system (section 3.7 of their book) as an exploration of the noncommutative closure of the Langlands-space $GL_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q}) $.</p>
+<p>At the moment I&#8217;m running a master-seminar noncommutative geometry trying to explain this connection in detail. But, we&#8217;re still in the early phases, struggling with the topology of ideles and adeles, reciprocity laws, L-functions and the lot. Still, if someone is interested I might attempt to post some lecture notes here.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

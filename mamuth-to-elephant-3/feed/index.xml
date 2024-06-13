@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Mamuth to Elephant (3)	</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-3/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-3/</link>
+	<description></description>
+	<lastBuildDate>Thu, 24 Mar 2022 08:54:39 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>
+		By: Alexandre Popoff		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-3/#comment-139</link>
+
+		<dc:creator><![CDATA[Alexandre Popoff]]></dc:creator>
+		<pubDate>Thu, 24 Mar 2022 08:54:39 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10448#comment-139</guid>
+
+					<description><![CDATA[Thanks for your comment ! Indeed, I now see that there is a typo in the paper which completely escaped me during the review process, and I&#039;m sorry for that. Obviously, it should be n_m L (n+8)_M as is the case for all generalizations of L, since we want them to coincide with the usual neo-Riemannian operator on major/minor triads.]]></description>
+			<content:encoded><![CDATA[<p>Thanks for your comment ! Indeed, I now see that there is a typo in the paper which completely escaped me during the review process, and I&#8217;m sorry for that. Obviously, it should be n_m L (n+8)_M as is the case for all generalizations of L, since we want them to coincide with the usual neo-Riemannian operator on major/minor triads.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: lievenlb		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-3/#comment-138</link>
+
+		<dc:creator><![CDATA[lievenlb]]></dc:creator>
+		<pubDate>Thu, 24 Mar 2022 07:21:53 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10448#comment-138</guid>
+
+					<description><![CDATA[Thanks Alexandre! I based myself on your definition 5.2 in &#039;On the use of relational...&#039; where L is not symmetric for major and minor triads. With the L you suggest I do indeed get as the sizes of the two monoids 473293 and 994624.
+I&#039;ll make corrections to the blogpost.]]></description>
+			<content:encoded><![CDATA[<p>Thanks Alexandre! I based myself on your definition 5.2 in &#8216;On the use of relational&#8230;&#8217; where L is not symmetric for major and minor triads. With the L you suggest I do indeed get as the sizes of the two monoids 473293 and 994624.<br />
+I&#8217;ll make corrections to the blogpost.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Alexandre Popoff		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-3/#comment-137</link>
+
+		<dc:creator><![CDATA[Alexandre Popoff]]></dc:creator>
+		<pubDate>Wed, 23 Mar 2022 15:34:58 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10448#comment-137</guid>
+
+					<description><![CDATA[I meant 473293 (and not 473283) in my comment above....]]></description>
+			<content:encoded><![CDATA[<p>I meant 473293 (and not 473283) in my comment above&#8230;.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Alexandre Popoff		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-3/#comment-136</link>
+
+		<dc:creator><![CDATA[Alexandre Popoff]]></dc:creator>
+		<pubDate>Wed, 23 Mar 2022 15:33:54 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10448#comment-136</guid>
+
+					<description><![CDATA[I think the mistake lies in the definition of L (before TU).
+Given that it is an involution sending C#_M to F_m, shouldn&#039;t it be
+PBR([ [ -17 ], [ -18 ], [ -19 ], [ -20 ], [ -21 ], [ -22 ], [ -23 ], [ -24 ], [ -13 ], [ -14 ], [ -15 ], [ -16 ],[ -9 ], [ -10 ], [ -11 ], [ -12 ], [ -1 ], [ -2 ], [ -3 ], [ -4 ], [ -5 ], [ -6 ], [ -7 ], [ -8 ], [ -25 ],[ -26 ], [ -27 ], [ -28 ], [ -29 ], [ -30 ], [ -31 ], [ -32 ], [ -33 ], [ -34 ], [ -35 ], [ -36 ], [ -37 ],[ -38 ], [ -39 ], [ -40 ] ],
+  [ [ 17 ], [ 18 ], [ 19 ], [ 20 ], [ 21 ], [ 22 ], [ 23 ], [ 24 ], [ 13 ], [ 14 ], [ 15 ], [ 16 ], [ 9 ], [ 10 ],[ 11 ], [ 12 ], [ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ], [ 6 ], [ 7 ], [ 8 ], [ 25 ], [ 26 ], [ 27 ], [ 28 ], [ 29 ],[ 30 ], [ 31 ], [ 32 ], [ 33 ], [ 34 ], [ 35 ], [ 36 ], [ 37 ], [ 38 ], [ 39 ], [ 40 ] ]) ?
+
+I get 473283 when calculating the monoid size with this definition of L.]]></description>
+			<content:encoded><![CDATA[<p>I think the mistake lies in the definition of L (before TU).<br />
+Given that it is an involution sending C#_M to F_m, shouldn&#8217;t it be<br />
+PBR([ [ -17 ], [ -18 ], [ -19 ], [ -20 ], [ -21 ], [ -22 ], [ -23 ], [ -24 ], [ -13 ], [ -14 ], [ -15 ], [ -16 ],[ -9 ], [ -10 ], [ -11 ], [ -12 ], [ -1 ], [ -2 ], [ -3 ], [ -4 ], [ -5 ], [ -6 ], [ -7 ], [ -8 ], [ -25 ],[ -26 ], [ -27 ], [ -28 ], [ -29 ], [ -30 ], [ -31 ], [ -32 ], [ -33 ], [ -34 ], [ -35 ], [ -36 ], [ -37 ],[ -38 ], [ -39 ], [ -40 ] ],<br />
+  [ [ 17 ], [ 18 ], [ 19 ], [ 20 ], [ 21 ], [ 22 ], [ 23 ], [ 24 ], [ 13 ], [ 14 ], [ 15 ], [ 16 ], [ 9 ], [ 10 ],[ 11 ], [ 12 ], [ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ], [ 6 ], [ 7 ], [ 8 ], [ 25 ], [ 26 ], [ 27 ], [ 28 ], [ 29 ],[ 30 ], [ 31 ], [ 32 ], [ 33 ], [ 34 ], [ 35 ], [ 36 ], [ 37 ], [ 38 ], [ 39 ], [ 40 ] ]) ?</p>
+<p>I get 473283 when calculating the monoid size with this definition of L.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: lievenlb		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-3/#comment-135</link>
+
+		<dc:creator><![CDATA[lievenlb]]></dc:creator>
+		<pubDate>Tue, 22 Mar 2022 08:18:18 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10448#comment-135</guid>
+
+					<description><![CDATA[GAP seems to need a lot more time calculating sizes when using BinaryRelationOnPoints. But yes, I do get the same numbers.]]></description>
+			<content:encoded><![CDATA[<p>GAP seems to need a lot more time calculating sizes when using BinaryRelationOnPoints. But yes, I do get the same numbers.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Alexandre Popoff		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-3/#comment-134</link>
+
+		<dc:creator><![CDATA[Alexandre Popoff]]></dc:creator>
+		<pubDate>Mon, 21 Mar 2022 09:47:29 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10448#comment-134</guid>
+
+					<description><![CDATA[The difference in monoid sizes is strange. Have you tried with BinaryRelationOnPoints in GAP instead of PBRs (which seem a little bit complicated) ?]]></description>
+			<content:encoded><![CDATA[<p>The difference in monoid sizes is strange. Have you tried with BinaryRelationOnPoints in GAP instead of PBRs (which seem a little bit complicated) ?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

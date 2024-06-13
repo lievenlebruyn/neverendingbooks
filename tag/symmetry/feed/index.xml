@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>symmetry &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/symmetry/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 18 Feb 2021 10:31:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>The symmetries of Covid-19</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 18 Feb 2021 10:31:34 +0000</pubDate>
+				<category><![CDATA[GoV]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[corona]]></category>
+		<category><![CDATA[icosahedron]]></category>
+		<category><![CDATA[octahedron]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8827</guid>
+
+					<description><![CDATA[A natural question these days might be: &#8220;what are the rotational symmetries of the Covid-19 virus?&#8221; Most illustrations show a highly symmetric object, suggesting it&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A natural question these days might be: &#8220;what are the rotational symmetries of the <a href="https://en.wikipedia.org/wiki/Coronavirus">Covid-19 virus</a>?&#8221;</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/corona2.jpg" width=50%><br />
+</center></p>
+<p>Most illustrations show a highly symmetric object, suggesting it might have icosahedral symmetry. In fact, many viruses do have icosahedral symmetry as a result of the <a href="https://www.pnas.org/content/101/44/15556#:~:text=Icosahedral%20symmetry%20is%20ubiquitous%20among%20spherical%20viruses%20(1).&#038;text=The%20capsid%20has%206%205,contain%20six%20subunits%20(hexamers).">&#8216;genetic economy principle&#8217;</a> proposed by Watson and Crick in 1956, resulting in the <a href="https://viralzone.expasy.org/8577#:~:text=The%20Caspar%2DKlug%20Theory%20(CK,center%20of%20each%20triangular%20face.">Caspar-Klug classification</a> of viral capsids.</p>
+<p>But then, perhaps this icosahedral illusion is a result of design decisions illustrators made turning scientific data into pictures. Veronica Falconieri Hays wrote a beautiful article describing the effort going into this: <a href="https://www.scientificamerican.com/article/how-i-built-a-3-d-model-of-the-coronavirus-for-scientific-american/">How I built a 3d-model of the coronavirus for Scientific American</a>. Here&#8217;s her final picture</p>
+<p><center><br />
+<img decoding="async" src="https://static.scientificamerican.com/sciam/assets/Image/20037_SARSCoV2_RenderColorGuide.jpg" width=80%><br />
+</center></p>
+<p>And yes, icosahedral symmetry was one of her design decisions:</p>
+<blockquote><p>The M proteins form pairs, and it is estimated that there are 16–25 M proteins per spike on the surface of the virus. I ended up modeling 10 M protein pairs (so 20 M proteins) per spike in my model.  Some researchers hypothesize that the M proteins form a lattice within the envelope (interacting with an underlying lattice of N proteins; see below). <strong>I decided to use an icosahedral sphere</strong> to create a regular distribution of the M protein dimers to hint at this hypothesis. </p></blockquote>
+<p>The spikes (or S-proteins) are the tentacles in these pictures, and one of the few hard figures on Corona is that <a href="https://en.wikipedia.org/wiki/Coronavirus">&#8216;on average&#8217;</a> there are 74 of them.</p>
+<p>This fact is enough to rule out <a href="https://en.wikipedia.org/wiki/Icosahedral_symmetry">icosahedral symmetry</a>.</p>
+<p>If the icosahedral rotation group (of order $60$, isomorphic to $A_5$) acts on the $74$ spikes, then each orbit consists of $60$ spikes unless that spike lies on a twofold, threefold or fivefold rotation axis, in which cases the number of spikes in its orbit are respectively $30$, $20$ or $12$. So, we can&#8217;t get a total number of $74$ spikes!</p>
+<p>However, just looking at the number of spikes we cannot rule out <a href="https://en.wikipedia.org/wiki/Octahedral_symmetry#:~:text=8%20External%20links-,Details,of%20the%20cubic%20crystal%20system.">octahedral symmetry</a>!</p>
+<p>The octahedral rotation group (of order $24$, isomorphic to $S_4$) will have orbits of size $24$ unless the spike lies on a twofold, threefold or fourfold rotation axis, giving orbits of size $12$, $8$ and $6$ respectively (the midpoints of edges, the vertices and the midpoints of faces of the octahedron), and</p>
+<p>\[<br />
+74 = 24+24+12+8+6 \]</p>
+<p>The most symmetric arrangement of spikes would be to subdivide each of the $8$ triangular faces of the octahedron into $6$ triangles with vertices the midpoint of the face, a vertex and a midpoint of an edge, and then to position the spikes on the axis through the vertices and midpoints of these smaller triangles.</p>
+<p>Googling around I found very few references to symmetries of Covid-19, probably because it has an helical RNA-coil, which seems not to go well with Caspar-Klug type polyhedral viral capsids.</p>
+<p>Here&#8217;s an exception: <a href="https://arxiv.org/pdf/2005.12165.pdf">A structural model for the Coronavirus nucleocapsid</a> by Federico Coscio, Alejandro D. Nadra, and Diego U. Ferreiro.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/truncatedoctahedron.jpg" width=80% ><br />
+</center></p>
+<p>They propose a truncated octahedron as capsid (in transparent brown) with interior a continuous coil packing of blue and cyan helices. The virus membrane with the spikes and M proteins is drawn in blue.</p>
+<p>If you have better info or references on the (conjectural) symmetries of Covid-19, please leave a comment.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What&#8217;s Pippa got to do with the Bourbaki wedding?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/whats-pippa-got-to-do-with-the-bourbaki-wedding/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/whats-pippa-got-to-do-with-the-bourbaki-wedding/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 09 Jul 2011 10:00:45 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[tBC]]></category>
+		<category><![CDATA[Bourbaki code]]></category>
+		<category><![CDATA[Cande]]></category>
+		<category><![CDATA[Edward-Wallis]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<category><![CDATA[Weil]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5412</guid>
+
+					<description><![CDATA[Last time we&#8217;ve seen that on June 3rd 1939, the very day of the Bourbaki wedding, Malraux&#8217; movie &#8216;L&#8217;espoir&#8217; had its first (private) viewing, and&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/what-happened-on-the-bourbaki-wedding-day.html">Last time</a> we&#8217;ve seen that on June 3rd 1939, the very day of the Bourbaki wedding, Malraux&#8217; movie &#8216;L&#8217;espoir&#8217; had its first (private) viewing, and we mused whether <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-wedding-invitation-that-nearly-killed-andre-weil.html">Weil&#8217;s wedding card</a> was a coded invitation to that event.</p>
+<p>But, there&#8217;s another plausible explanation why the Bourbaki wedding might have been scheduled for June 3rd : it was intended to be a copy-cat Royal Wedding&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/pippa.jpg" alt="" /></p>
+<p>The media-hype surrounding the wedding of Prince William to Pippa&#8217;s sister led to a hausse in newspaper articles on iconic <a href="http://www.goodhousekeeping.com/family/celebrity/memorable-royal-weddings-1937#fbIndex1">royal weddings</a> of the <a href="http://photos.oregonlive.com/photo-essay/2011/04/royal_weddings_in_history.html">past</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wallis1.jpg" align=left hspace=10> One of these, the marriage of <a href="http://www.goodhousekeeping.com/family/celebrity/memorable-royal-weddings-1937#fbIndex5">Edward VIII, Duke of Windsor and Wallis Warfield Spencer Simpson</a>, was held on <strong>June 3rd</strong> 1937 : &#8220;This was the scandal of the century, as far as royal weddings go. Edward VIII had just abdicated six months before in order to marry an American twice-divorced commoner. The British Establishment at the time would not allow Edward VIII to stay on the throne and marry this woman (the British Monarch is also the head of the Church of England), so Edward chose love over duty and fled to France to await the finalization of his beloved&#8217;s divorce. They were married in a private, civil ceremony, which the Royal Family boycotted.&#8221;</p>
+<p>But, what does this wedding have to do with Bourbaki?</p>
+<p>For starters, remember that the wedding-card-canular was concocted in the spring of 1939 in Cambridge, England. So, if Weil and his Anglo-American associates needed a common wedding-example, the Edward-Wallis case surely would spring to mind. One might even wonder about the transposed symmetry : a Royal (Betti, whose father is from the Royal Poldavian Academy), marrying an American (Stanislas Pondiczery).</p>
+<p>Even Andre Weil must have watched this wedding with interest (perhaps even sympathy). He too had to wait a considerable amount of time for Eveline&#8217;s divorce (see <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bumpy-road-to-the-first-bourbaki-congress.html">this post</a>) to finalize, so that they could marry on october 30th 1937, just a few months after Edward &amp; Wallis.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/EdwardWallis.jpg"><br />
+</center></p>
+<p>But, there&#8217;s more. The royal wedding took place at the <a href="http://en.wikipedia.org/wiki/Château_de_Candé">Chateau de Cande</a>, just south of Tours (the A on the google-map below). Now, remember that the 2nd Bourbaki congress was held at the Chevalley family-property in Chancay (see <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/wheres-bourbakis-escorial.html">the Escorial post</a>) a bit to the north-east of Tours (the marker on the map). As this conference took place only a month after the Royal Wedding (from 10th till 20th of July 1937), the event surely must have been the talk of the town.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/chancaycande.jpg" alt="" /></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/when-was-the-bourbaki-wedding.html">Early on</a>, we concluded that the Bourbaki-Petard wedding took place at 12 o&#8217;clock (&#8216;a l&#8217;heure habituelle&#8217;). So did the Edward-Wallis wedding. More precisely, the civil ceremony began at 11.47 and the local mayor had to come to the castle for the occasion, and, afterwards the couple went into the music-room, which was converted into an Anglican chapel for the day, at precisely 12 o&#8217;clock.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MarcelDupre.jpg" align=right hspace=10>The emphasis on the musical organ in the Bourbaki wedding-invitation <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/seriously-now-where-was-the-bourbaki-wedding.html">allowed us</a>  to identify the identity of &#8216;Monsieur Modulo&#8217; to be Olivier Messiaen as well as that of the wedding church. Now, the Chateau de Cande also houses an impressive organ, <a href="http://orgue-libre.bbactif.com/t150-orgue-skinner-opus-718-du-chateau-de-cande">the Skinner opus 718 organ</a>.</p>
+<p> For the wedding ceremony, Edward and Wallis hired the services of one of the most renowned French organists at the time : <a href="http://fr.wikipedia.org/wiki/Marcel_Dupré">Marcel Dupre</a> who was since 1906 Widor&#8217;s assistent, and, from 1934 resident organist in the <a href="http://en.wikipedia.org/wiki/Église_Saint-Sulpice,_Paris">Saint-Sulpice church in Paris</a>. Perhaps more telling for our story is that Dupre was, apart from Paul Dukas, the most influential teacher of Olivier Messiaen.</p>
+<p> On June 3rd, 1937 Dupre performed the following pieces. During the civil ceremony, an extract from the 29e Bach cantate, canon in re-minor by Schumann and the prelude of the fugue in do-minor of himself. When the couple entered the music room he played the march of the Judas Macchabee oratorium of Handel and the cortege by himself. During the religious ceremony he performed his own choral, adagium in mi-minor by Cesar Franck, the traditional &#8216;Oh Perfect Love&#8217;, the Jesus-choral by Bach and the toccata of the 5th symphony of Widor. Compare this level of detail to the minimal musical hint given in the Bourbaki wedding-invitation</p>
+<p> &#8220;Assistent Simplexe de la Grassmannienne (lemmas chantees par la Scholia Cartanorum)&#8221;</p>
+<p> This is one of the easier riddles to solve. The &#8216;simplicial assistent of the Grassmannian&#8217; is of course <a href="http://en.wikipedia.org/wiki/Hermann_Schubert">Hermann Schubert</a> (Schubert cell-decomposition of Grassmannians). But, the composer <a href="http://en.wikipedia.org/wiki/Franz_Schubert">Franz Schubert</a> only left us <a href="http://imslp.org/wiki/List_of_compositions_by_Franz_Schubert,_by_musical_genre#Organ_music">one organ-composition</a> : the <a href="http://imslp.org/wiki/Fugue_in_E_minor,_D.952_(Schubert,_Franz)">Fugue in E-minor</a>.</p>
+<p> I have tried hard to get hold of a copy of the official invitation for the Edward-Wallis wedding, but failed miserably. There must be quite a few of them still out there, of the 300 invited people only 16 showed up&#8230; You can watch a <a href="http://www.britishpathe.com/record.php?id=50166">video newsreel film</a> of the wedding.</p>
+<p> As Claude Chevalley&#8217;s father had an impressive diplomatic career behind him and lived in the neighborhood, he might have been invited, and, perhaps the (unused) invitation was lying around at the time of  the second Bourbaki-congress in Chancay,just one month after the Edward-Wallis wedding&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/whats-pippa-got-to-do-with-the-bourbaki-wedding/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>So, who did discover the Leech lattice?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 20 Dec 2010 10:58:03 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Artin]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[Golay code]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[history]]></category>
+		<category><![CDATA[lattices]]></category>
+		<category><![CDATA[Leech lattice]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Noether]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3717</guid>
+
+					<description><![CDATA[For the better part of the 30ties, Ernst Witt (1) did hang out with the rest of the &#8216;Noetherknaben&#8217;, the group of young mathematicians around&#8230;]]></description>
+										<content:encoded><![CDATA[<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/noetherWitt.png"></p>
+<p>
+For the better part of the 30ties, <a href="http://en.wikipedia.org/wiki/Ernst_Witt">Ernst Witt</a> (1) did hang out with the rest of the &#8216;Noetherknaben&#8217;, the group of young mathematicians around <a href="http://en.wikipedia.org/wiki/Emmy_Noether">Emmy Noether</a> (3) in Gottingen.</p>
+<p>
+In 1934 Witt became <a href="http://en.wikipedia.org/wiki/Helmut_Hasse">Helmut Hasse</a>&#8216;s assistent in Gottingen, where he qualified as a university lecturer in 1936. By 1938 he has made enough of a name for himself to be offered a lecturer position in Hamburg and soon became an associate professor, the down-graded position held by <a href="http://en.wikipedia.org/wiki/Emil_Artin">Emil Artin</a> (2) until he was forced to emigrate in 1937.</p>
+<p>
+A former fellow student of him in Gottingen, Erna Bannow (4), had gone earlier to Hamburg to work with Artin. She continued her studies with Witt and finished her Ph.D. in 1939. In 1940 Erna Bannow and Witt married.</p>
+<p>
+So, life was smiling on Ernst Witt that sunday january 28th 1940, both professionally and personally. There was just one cloud on the horizon, and a rather menacing one. He was called up by the Wehrmacht and knew he had to enter service in february. For all he knew, he was spending the last week-end with his future wife&#8230; (later in february 1940, Blaschke helped him to defer his military service by one year).</p>
+<p>
+Still, he desperately wanted to finish his paper before entering the army, so he spend most of that week-end going through the final version and submitted it on monday, as the published paper shows.</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wittpaperend.png"></p>
+<p>
+In the 70ties, Witt suddenly claimed he did discover the <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> $ {\Lambda} $ that sunday. <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/who-discovered-the-leech-lattice.html">Last time</a> we have seen that the only written evidence for Witt&#8217;s claim is one sentence in his 1941-paper Eine Identit&auml;t zwischen Modulformen zweiten Grades. &#8220;Bei dem Versuch, eine Form aus einer solchen Klassen wirklich anzugeben, fand ich mehr als 10 verschiedene Klassen in $ {\Gamma_{24}} $.&#8221;</p>
+<p>
+But then, why didn&#8217;t Witt include more details of this sensational lattice in his paper?</p>
+<p>
+Ina Kersten recalls on page 328 of Witt&#8217;s collected papers : &#8220;In his colloquium talk &#8220;Gitter und Mathieu-Gruppen&#8221; in Hamburg on January 27, 1970, Witt said that in 1938, he had found nine lattices in $ {\Gamma_{24}} $ and that later on January 28, 1940, while studying the Steiner system $ {S(5,8,24)} $, he had found two additional lattices $ {M} $ and $ {\Lambda} $ in $ {\Gamma_{24}} $. He continued saying that he had then given up the tedious investigation of $ {\Gamma_{24}} $ because of the surprisingly low contribution</p>
+<p><p align=center>$ \displaystyle | Aut(\Lambda) |^{-1} &lt; 10^{-18} $</p>
+<p>
+to the Minkowski density and that he had consented himself with a short note on page 324 in his 1941 paper.&#8221;</p>
+<p>
+In the last sentence he refers to the fact that the sum of the inverse orders of the automorphism groups of all even unimodular lattices of a given dimension is a fixed rational number, the Minkowski-Siegel mass constant. In dimension 24 this constant is</p>
+<p><p align=center>$ \displaystyle \sum_{L} \frac{1}{| Aut(L) |} = \frac {1027637932586061520960267}{129477933340026851560636148613120000000} \approx 7.937 \times 10^{-15} $</p>
+<p>
+That is, Witt was disappointed by the low contribution of the Leech lattice to the total constant and concluded that there might be thousands of new even 24-dimensional unimodular lattices out there, and dropped the problem.</p>
+<p>
+If true, the story gets even better : not only claims Witt to have found the lattices $ {A_1^{24}=M} $ and $ {\Lambda} $, but also enough information on the Leech lattice in order to compute the order of its automorphism group $ {Aut(\Lambda)} $, aka the <a href="http://en.wikipedia.org/wiki/Conway_group">Conway group</a> $ {Co_0 = .0} $ the dotto-group!</p>
+<p>
+Is this possible? Well fortunately, the difficulties one encounters when trying to compute the order of the automorphism group of the Leech lattice from scratch, is one of the better documented mathematical stories around.</p>
+<p><p align=center><img decoding="async"  src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/weekendCambridge.png"></p>
+<p>
+The books <a href="http://www.amazon.co.uk/Error-Correcting-through-Packings-Mathematical-Monographs/dp/0883850370/">From Error-Correcting Codes through Sphere Packings to Simple Groups</a> by Thomas Thompson, <a href="http://www.amazon.co.uk/Symmetry-Monster-greatest-quests-mathematics/dp/0192807234/">Symmetry and the monster</a> by Mark Ronan, and <a href="http://www.amazon.co.uk/Finding-Moonshine-Mathematicians-Journey-Symmetry/dp/0007214626/">Finding moonshine</a> by Marcus du Sautoy tell the story in minute detail.</p>
+<p>
+It took <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> 12 hours on a 1968 saturday in Cambridge to compute the order of the dotto group, using the knowledge of Leech and McKay on the properties of the Leech lattice and with considerable help offered by <a href="http://en.wikipedia.org/wiki/John_G._Thompson">John Thompson</a> via telephone.</p>
+<p>
+But then, John Conway is one of the fastest mathematicians the world has known. The prologue of his book <a href="http://www.amazon.co.uk/Numbers-Games-John-H-Conway/dp/1568811276/">On numbers and games</a> begins with : &#8220;Just over a quarter of a century ago, for seven consecutive days I sat down and typed from 8:30 am until midnight, with just an hour for lunch, and ever since have described this book as &#8220;having been written in a week&#8221;.&#8221;</p>
+<p>
+Conway may have written a book in one week, Ernst Witt did complete his entire Ph.D. in just one week! In a letter of August 1933, his sister told her parents : &#8220;He did not have a thesis topic until July 1, and the thesis was to be submitted by July 7. He did not want to have a topic assigned to him, and when he finally had the idea, he started working day and night, and eventually managed to finish in time.&#8221;</p>
+<p>
+So, if someone might have beaten John Conway in fast-computing the dottos order, it may very well have been Witt. Sadly enough, there is a lot of circumstantial evidence to make Witt&#8217;s claim highly unlikely.</p>
+<p>
+For starters, psychology. Would you spend your last week-end together with your wife to be before going to war performing an horrendous calculation?</p>
+<p>
+Secondly, mathematical breakthroughs often arise from newly found insight. At that time, Witt was also working on his paper on root lattices &#8220;Spiegelungsgrupen and Aufz&auml;hling halbeinfacher Liescher Ringe&#8221; which he eventually submitted in january 1941. Contained in that paper is what we know as Witt&#8217;s lemma which tells us that for any integral lattice the sublattice generated by vectors of norms 1 and 2 is a direct sum of root lattices.</p>
+<p>
+This leads to the trick of trying to construct unimodular lattices by starting with a direct sum of root lattices and &#8216;adding glue&#8217;. Although this gluing-method was introduced by Kneser as late as 1967, Witt must have been aware of it as his 16-dimensional lattice $ {D_{16}^+} $ is constructed this way.</p>
+<p>
+If Witt wanted to construct new 24-dimensional even unimodular lattices in 1940, it would be natural for him to start off with direct sums of root lattices and trying to add vectors to them until he got what he was after. Now, all of the Niemeier-lattices are constructed this way, except for the Leech lattice!</p>
+<p><p align=center><img decoding="async"  width=300 src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GlueLattices.jpg"></p>
+<p>
+I&#8217;m far from an expert on the Niemeier lattices but I would say that Witt definitely knew of the existence of $ {D_{24}^+} $, $ {E_8^3} $ and $ {A_{24}^+} $ and that it is quite likely he also constructed $ {(D_{16}E_8)^+, (D_{12}^2)^+, (A_{12}^2)^+, (D_8^3)^+} $ and possibly $ {(A_{17}E_7)^+} $ and $ {(A_{15}D_9)^+} $. I&#8217;d rate it far more likely Witt constructed another two such lattices on sunday january 28th 1940, rather than discovering the Leech lattice.</p>
+<p>
+Finally, wouldn&#8217;t it be natural for him to include a remark, in his 1941 paper on root lattices, that not every even unimodular lattices can be obtained from sums of root lattices by adding glue, the Leech lattice being the minimal counter-example?</p>
+<p>
+If it is true he was playing around with the Steiner systems that sunday, it would still be a pretty good story he discovered the lattices $ {(A_2^{12})^+} $ and $ {(A_1^{24})^+} $, for this would mean he discovered the Golay codes in the process!</p>
+<p>
+Which brings us to our next question : who discovered the Golay code?</p>
+<p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the monster graph and McKay’s observation</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2009 17:39:47 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1541</guid>
+
+					<description><![CDATA[While the verdict on a neolithic Scottish icosahedron is still open, let us recall Kostant&#8217;s group-theoretic construction of the icosahedron from its rotation-symmetry group $A_5&#8230;]]></description>
+										<content:encoded><![CDATA[<p>While the verdict on a neolithic Scottish icosahedron is <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-scottish-solids-hoax.html">still open</a>, let us <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-buckyball-symmetries.html">recall</a> Kostant&#8217;s group-theoretic construction of the icosahedron from its rotation-symmetry group $A_5 $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/KostantIcosahedronSmall.jpg" style="float:right;margin-left:10px;" hspace=10>The alternating group $A_5 $ has two conjugacy classes of order 5 elements, both consisting of exactly 12 elements. Fix one of these conjugacy classes, say $C $ and construct a graph with vertices the 12 elements of $C $ and an edge between two $u,v \in C $ if and only if the group-product $u.v \in C $ still belongs to the same conjugacy class.</p>
+<p>Observe that this relation is symmetric as from $u.v = w \in C $ it follows that $v.u=u^{-1}.u.v.u = u^{-1}.w.u \in C $. The graph obtained is the icosahedron, depicted on the right with vertices written as words in two adjacent elements u and v from $C $, as indicated.</p>
+<p>Kostant writes : &#8220;Normally it is not a common practice in group theory to consider whether or not the product of two elements in a conjugacy class is again an element in that conjugacy class. However such a consideration here turns out to be quite productive.&#8221;</p>
+<p>Still, similar constructions have been used in other groups as well, in particular in the study of the largest sporadic group, the <a href="http://en.wikipedia.org/wiki/Monster_group">monster group</a> $\mathbb{M} $.</p>
+<p>There is one important catch. Whereas it is quite trivial to multiply two permutations and verify whether the result is among 12 given ones, for most of us mortals it is impossible to do actual calculations in the monster. So, we&#8217;d better have an alternative way to get at the icosahedral graph using only $A_5 $-data that is also available for the monster group, such as its <a href="http://en.wikipedia.org/wiki/Character_table">character table</a>.</p>
+<p>Let $G $ be any finite group and consider three of its conjugacy classes $C(i),C(j) $ and $C(k) $. For any element $w \in C(k) $ we can compute from the character table of $G $ the number of different products $u.v = w $ such that $u \in C(i) $ and $v \in C(j) $. This number is given by the formula</p>
+<p>$\frac{|G|}{|C_G(g_i)||C_G(g_j)|} \sum_{\chi} \frac{\chi(g_i) \chi(g_j) \overline{\chi(g_k)}}{\chi(1)} $</p>
+<p>where the sum is taken over all irreducible characters $\chi $ and where $g_i \in C(i),g_j \in C(j) $ and $g_k \in C(k) $. Note also that $|C_G(g)| $ is the number of $G $-elements commuting with $g $ and that this number is the order of $G $ divided by the number of elements in the conjugacy class of $g $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/chartableA5.jpg" style="float:left;margin-right:10px;" hspace=10>The character table of $A_5 $ is given on the left : the five columns correspond to the different conjugacy classes of elements of order resp. 1,2,3,5 and 5 and the rows are the character functions of the 5 irreducible representations of dimensions 1,3,3,4 and 5.</p>
+<p>Let us fix the 4th conjugacy class, that is 5a, as our class $C $. By the general formula, for a fixed $w \in C $ the number of different products $u.v=w $ with $u,v \in C $ is equal to</p>
+<p>$\frac{60}{25}(\frac{1}{1} + \frac{(\frac{1+\sqrt{5}}{2})^3}{3} + \frac{(\frac{1-\sqrt{5}}{2})^3}{3} &#8211; \frac{1}{4} + \frac{0}{5}) = \frac{60}{25}(1 + \frac{4}{3} &#8211; \frac{1}{4}) = 5 $</p>
+<p>Because for each $x \in C $ also its inverse $x^{-1} \in C $, this can be rephrased by saying that there are exactly 5 different products $w^{-1}.u \in C $, or equivalently, that the valency of every vertex $w^{-1} \in C $ in the graph is exactly 5.</p>
+<p>That is, our graph has 12 vertices, each with exactly 5 neighbors, and with a bit of extra work one can show it to be the icosahedral graph.</p>
+<p>For the monster group, the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M/">Atlas</a> tells us that it has exactly 194 irreducible representations (and hence also 194 conjugacy classes). Of these conjugacy classes, the involutions (that is the elements of order 2) are of particular importance.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/BFischer.jpg" style="float:right;margin-left:10px;" hspace=10>There are exactly 2 conjugacy classes of involutions, usually denoted 2A and 2B. Involutions in class 2A are called &#8220;Fischer-involutions&#8221;, after <a href="http://en.wikipedia.org/wiki/Bernd_Fischer">Bernd Fischer</a>, because their centralizer subgroup is an extension of Fischer&#8217;s <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/B/">baby Monster sporadic group</a>.</p>
+<p>Likewise, involutions in class 2B are usually called &#8220;Conway-involutions&#8221; because their centralizer subgroup is an extension of the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co1/">largest Conway sporadic group</a>.</p>
+<p>Let us define the <strong>monster graph</strong> to be the graph having as its vertices the Fischer-involutions and with an edge between two of them $u,v \in 2A $ if and only if their product $u.v $ is again a Fischer-involution.</p>
+<p>Because the centralizer subgroup is $2.\mathbb{B} $, the number of vertices is equal to $97239461142009186000 = 2^4 * 3^7 * 5^3 * 7^4 * 11 * 13^2 * 29 * 41 * 59 * 71 $.</p>
+<p>From the general result recalled before we have that the valency in all vertices is equal and to determine it we have to use the character table of the monster and the formula. Fortunately <a href="http://www-gap.mcs.st-and.ac.uk/Manuals/doc/htm/ref/chapters.htm">GAP</a> provides the function <a href="http://www-gap.mcs.st-and.ac.uk/Manuals/doc/htm/ref/CHAP069.htm">ClassMultiplicationCoefficient</a> to do this without making errors.</p>
+<p><code><br />
+gap> table:=CharacterTable("M");<br />
+CharacterTable( "M" ) <br />
+gap> ClassMultiplicationCoefficient(table,2,2,2); <br />
+27143910000 <br />
+</code></p>
+<p>Perhaps noticeable is the fact that the prime decomposition of the valency $27143910000 = 2^4 * 3^4 * 5^4 * 23 * 31 * 47 $ is symmetric in the three smallest and three largest prime factors of the baby monster order.</p>
+<p>Robert Griess proved that one can recover the monster group $\mathbb{M} $ from the monster graph as its automorphism group!</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/JohnMcKay.jpg" style="float:left;margin-right:10px;" hspace=10>As in the case of the icosahedral graph, the number of vertices and their common valency does not determine the monster graph uniquely. To gain more insight, we would like to know more about the sizes of minimal circuits in the graph, the number of such minimal circuits going through a fixed vertex, and so on.</p>
+<p>Such an investigation quickly leads to a careful analysis which other elements can be obtained from products $u.v $ of two Fischer involutions $u,v \in 2A $. We are in for a major surprise, first observed by <a href="http://cjournal.concordia.ca/journalarchives/2006-07/apr_19/009196.shtml">John McKay</a>:</p>
+<p>Printing out the number of products of two Fischer-involutions giving an element in the i-th conjugacy class of the monster,<br />
+where i runs over all 194 possible classes, we get the following string of numbers :</p>
+<p><code><br />
+97239461142009186000, 27143910000, 196560, 920808, 0, 3, 1104, 4, 0, 0, 5, 0,<br />
+6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0<br />
+</code></p>
+<p>That is, the elements of only 9 conjugacy classes can be written as products of two Fischer-involutions! These classes are :</p>
+<ul>
+<li>1A = { 1 } written in 97239461142009186000 different ways (after all involutions have order two)  </li>
+<li>2A, each element of which can be written in exactly 27143910000 different ways (the valency)  </li>
+<li>2B, each element of which can be written in exactly 196560 different ways. Observe that this is the kissing number of the <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> leading to a <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/2Co1G1-p196560B0">permutation representation</a> of $2.Co_1 $.  </li>
+<li>3A, each element of which can be written in exactly 920808 ways. Note that this number gives a <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/Mmax3G0-p920808B0">permutation representation</a> of the maximal monster subgroup $3.Fi_{24}&#8217; $.  </li>
+<li>3C, each element of which can be written in exactly 3 ways.  </li>
+<li>4A, each element of which can be written in exactly 1104 ways.  </li>
+<li>4B, each element of which can be written in exactly 4 ways.  </li>
+<li>5A, each element of which can be written in exactly 5 ways.  </li>
+<li>6A, each element of which can be written in exactly 6 ways.  </li>
+</ul>
+<p>Let us forget about the actual numbers for the moment and concentrate on the orders of these 9 conjugacy classes : 1,2,2,3,3,4,4,5,6. These are precisely the components of the fundamental root of the <a href="http://www-math.mit.edu/~lesha/dynkin-diagrams.html">extended Dynkin diagram</a> $\tilde{E_8} $!</p>
+<p>This is the content of <strong>John McKay&#8217;s E(8)-observation</strong> : there should be a precise relation between the nodes of the extended Dynkin diagram and these 9 conjugacy classes in such a way that the order of the class corresponds to the component of the fundamental root. More precisely, one conjectures the following correspondence</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/e8monster.jpg" ><br />
+</center></p>
+<p>This is similar to the classical <a href="http://math.ucr.edu/home/baez/ADE.html">McKay correspondence</a> between finite subgroups of $SU(2) $ and extended Dynkin diagrams (the binary icosahedral group corresponding to extended E(8)). In that correspondence, the nodes of the Dynkin diagram correspond to irreducible representations of the group and the edges are determined by the decompositions of tensor-products with the fundamental 2-dimensional representation.</p>
+<p>Here, however, the nodes have to correspond to conjugacy classes (rather than representations) and we have to look for another procedure to arrive at the required edges! An exciting proposal has been put forward recently by <a href="http://www.math.harvard.edu/~jfd/">John Duncan</a> in his paper <a href="http://arxiv.org/abs/0810.1465">Arithmetic groups and the affine E8 Dynkin diagram</a>.</p>
+<p>It will take us a couple of posts to get there, but for now, let&#8217;s give the gist of it : <a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a> gives a correspondence between conjugacy classes of the monster and certain arithmetic subgroups of $PSL_2(\mathbb{R}) $ commensurable with the modular group $\Gamma = PSL_2(\mathbb{Z}) $. The edges of the extended Dynkin E(8) diagram are then given by the configuration of the arithmetic groups corresponding to the indicated 9 conjugacy classes!  (to be continued&#8230;)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ceci n’est pas un corps</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/ceci-nest-pas-un-corps/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/ceci-nest-pas-un-corps/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 01 Oct 2008 11:55:26 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=453</guid>
+
+					<description><![CDATA[To Gavin Wraiht a mathematical phantom is a &#8220;nonexistent entity which ought to be there but apparently is not; but nevertheless obtrudes its effects so&#8230;]]></description>
+										<content:encoded><![CDATA[<p>To Gavin Wraiht a <a href="http://www.wra1th.plus.com/gcw/rants/math/MathPhant.html">mathematical phantom</a> is a &#8220;nonexistent entity which ought to be there but apparently is not; but nevertheless obtrudes its effects so convincingly that one is forced to concede a broader notion of existence&#8221;. Mathematics&#8217; history is filled with phantoms getting the kiss of life.</p>
+<p>Nobody will deny the ancient Greek were pretty good at maths, but still they were extremely unsure about the status of zero as a number. They asked themselves, &#8220;How can nothing be something?&#8221;, and,  paradoxes such as of <a href="http://en.wikipedia.org/wiki/Zeno_of_Elea#Zeno.27s_paradoxes">Zeno&#8217;s</a> depend in large part on that uncertain interpretation of zero. It lasted until the 9th century before Indian scholars were comfortable enough to treat 0 just as any other number.</p>
+<p>Italian gamblers/equation-solvers of the early 16th century were baffled by the fact that the number of solutions to quartic equations could vary, seemingly arbitrary, from zero to four until <a href="http://en.wikipedia.org/wiki/Gerolamo_Cardano">Cardano</a> invented &#8216;imaginary numbers&#8217; and showed that there were invariably four solutions provided one allows these imaginary or &#8216;phantom&#8217; numbers.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/fun/DATA/quaternionplaque.jpg" style="float:left;margin-right:10px;"> Similar paradigm shifts occurred in mathematics much more recently, for example the discovery of the <a href="http://en.wikipedia.org/wiki/Quaternion">quaternions</a> by <a href="http://en.wikipedia.org/wiki/William_Rowan_Hamilton">William Hamilton</a>. This object had all the telltale signs of a field-extension of the complex numbers, apart from the fact that the multiplication of two of its numbers a.b did not necessarely give you the same result as multiplying the other way around b.a.</p>
+<p>Hamilton was so shaken by this discovery (which he made while walking along the Royal canal in Dublin with his wife on october 16th 1843) that he  carved the equations using his penknife into the side of the nearby Broom Bridge (which Hamilton called Brougham Bridge), for fear he would forget it. Today, no trace of the carving remains, though a stone plaque does commemorate the discovery.<br />
+It reads :</p>
+<blockquote><p>Here as he walked by<br />
+on the 16th of October 1843<br />
+Sir William Rowan Hamilton<br />
+in a flash of genius discovered<br />
+the fundamental formula for<br />
+quaternion multiplication<br />
+$i^2 = j^2 = k^2 = i j k = −1 $<br />
+&#038; cut it on a stone of this bridge</p></blockquote>
+<p>The fact that this seems to be the <a href="http://www.everything2.com/index.pl?node_id=718162">least visited tourist attraction in Dublin</a> tells a lot about the standing of mathematics in society. Fortunately, some of us go to extreme lengths making a <a href="http://math.ucr.edu/home/baez/octonions/node24.html">pilgrimage</a> to Hamilton&#8217;s bridge&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/fun/DATA/magrittepipe.jpg" style="float:right;margin-left:10px;"> In short, the discovery of mathematical objects such as 0, the square root of -1, quaternions or <a href="http://en.wikipedia.org/wiki/Octonion">octonions</a>, often allow us to make great progress in mathematics at the price of having to bend the existing rules slightly.</p>
+<p>But, to suggest seriously that an unobserved object should exist when even the most basic arguments rule against its existence is a different matter entirely.</p>
+<p>Probably, you have to be brought up in the surrealistic tradition of artists such as <a href="http://en.wikipedia.org/wiki/René_Magritte">Renee Magritte</a>, a guy who added below a drawing of a pipe a sentence saying &#8220;This is not a pipe&#8221; (Ceci n&#8217;est pas une pipe).</p>
+<p>In short, you have to be Belgian&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/fun/DATA/Tits.jpg" style="float:left;margin-right:10px;"> <a href="http://en.wikipedia.org/wiki/Jacques_Tits">Jacques Tits</a> is a Belgian (today he is also a citizen of a far less surrealistic country : France). He is the &#8216;man from Uccle&#8217; (in Mark Ronan&#8217;s bestselling <a href="http://www.maa.org/reviews/SymmetryMonster.html">Symmetry and the Monster</a>), the guy making finite size replicas of infinite <a href="http://en.wikipedia.org/wiki/Lie_group">Lie groups</a>. But also the guy who didn&#8217;t want to stop there.</p>
+<p>He managed to replace the field of complex numbers $\mathbb{C} $ by a finite field $\mathbb{F}_q $, consisting of precisely $q=p^n $ a prime-power elements, but wondered what this group might become if $q $ were to go down to size $1 $, even though everyone knew that there couldn&#8217;t be a field $\mathbb{F}_1 $ having just one element as $0 \not= 1 $ and these two numbers have to be in any fields DNA.</p>
+<p>Tits convinced himself that this elusive field had to exists because his limit-groups had all the characteristics of a finite group co-existing with a Lie group, its companion the <a href="http://en.wikipedia.org/wiki/Weyl_group">Weyl group</a>. Moreover, he was dead sure that the finite geometry associated to his versions of Lie groups would also survive the limit process and give an  entirely new combinatorial geometry, featuring objects called &#8216;buildings&#8217; containing &#8216;appartments&#8217; glued along &#8216;walls&#8217; and more terms a real-estate agent might use, but surely not a mathematician&#8230;</p>
+<p>At the time he was a researcher with the Belgian national science foundation and, having served that agency twenty years myself, I know he had to tread carefully not to infuriate the more traditional committee-members that have to decide on your grant-application every other year. So, when he put his thoughts in writing</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/fun/DATA/TitsK1.jpg" ><br />
+</center></p>
+<p>he added a footnote saying : &#8220;$K_1 $ isn&#8217;t generally considered a field&#8221;. I&#8217;m certain he was doing a Magritte :</p>
+<p>$\mathbb{F}_1 $ (as we call today his elusive field $~K_1~ $)</p>
+<p>ceci n&#8217;est pas un corps</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/ceci-nest-pas-un-corps/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the “uninteresting” case p=5</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-uninteresting-case-p5/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-uninteresting-case-p5/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 04 Jul 2008 18:32:46 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=437</guid>
+
+					<description><![CDATA[I was hoping you would write a post on the ‘uninteresting case’ of p=5 in this context. Note that the truncated tetrahedron has (V,E,F)=(12,18,8) which&#8230;]]></description>
+										<content:encoded><![CDATA[<blockquote><p>I was hoping you would write a post on the ‘uninteresting case’ of p=5 in this context. Note that the truncated tetrahedron has (V,E,F)=(12,18,8) which is a triple that appears in the ternary (cyclic) geometry for the cube. This triple can be 4 hexagons and 4 triangles (the truncated tetrahedron) OR 4 pentagons and 4 squares!</p></blockquote>
+<p><img decoding="async" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Truncatedtetrahedron.jpg/240px-Truncatedtetrahedron.jpg" style="float:left;margin-right:10px;" hspace=10><a href="http://kea-monad.blogspot.com/">Kea</a> commented and I didnt know the answer to the &#8216;obvious&#8217; question :</p>
+<p><strong>how can one get the truncated tetrahedron from either of the two conjugacy classes of order 5 elements in $L_2(5)=A_5 $, each consisting of 12 elements</strong>.</p>
+<p>Fortunately the groups involved are small enough to enable hand-calculations. Probably there is a more elegant way to do this, but I was already happy to find this construction&#8230;</p>
+<p>This time, there is just one conjugacy class of subgroups isomorphic to $A_4 $ (the symmetry group of the (truncated) tetrahedron) in $L_2(5)=A_5 $. Take one of the two conjugacy classes C of 5-cycles in $A_5 $ and use the following notation for its 12 elements :</p>
+<p>A=(1,2,3,4,5), B=(1,2,4,5,3), C=(1,2,5,3,4), D=(1,3,5,4,2), E=(1,3,2,5,4), F=(1,3,4,2,5), G=(1,5,4,3,2), H=(1,5,3,2,4), I=(1,5,2,4,3), J=(1,4,2,3,5), K=(1,4,5,2,3), L=(1,4,3,5,2)</p>
+<p>We&#8217;d like to view these elements as the vertices of a truncated tetrahedron, so we need to find the 4 triangles and the 6 connecting edges between them. The first task calls for order 3 elements, the second one for order two elements.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/tetraA5.jpg" style="float:right;margin-left:10px;" > Take a conjugacy class of order 3 elements in $A_4 $ say $T=&#123; (2,4,3),(1,2,3),(1,3,4),(1,4,2) &#125; $ and observe that when one computes the products of T with a fixed 5-cycle in the conjugacy class C there is a unique element among the four obtained that belongs to the conjugacy class C. This gives a cyclic action on C with orbits of length 3 (the triangles). Here they are :</p>
+<p>A&#8211;> J &#8211;> F &#8211;> A,  B&#8211;>C&#8211;>H&#8211;>B, D&#8211;>G &#8211;> E&#8211;>D, I&#8211;>L&#8211;>K&#8211;>I</p>
+<p>For the edges, take the conjugacy class $S= &#123; (1,2)(3,4),(1,3)(2,4),(1,4)(2,3) &#125; $ of order two elements in $A_4 $ and compute for any 5-cycle c in C the products c_S_c and observe that among the elements obtained there is again one element belonging to C. This gives the following pairing</p>
+<p>A<-->C, B<-->I, D<-->F, E<-->H, G<-->L and J<-->K and a bit of puzzling shows that all this can indeed be realized within a truncated tetrahedron (on the right). As to her other request</p>
+<blockquote><p>… and how about a post on how 1 + 4 + 9 + … + 24^2 = 70^2 is REALLY a statement about unifying cusps and holes (genus) as degrees of freedom in quantum geometry.</p></blockquote>
+<p>The scarecrow will need to take some time to think before giving his answer&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-uninteresting-case-p5/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the buckyball curve</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-buckyball-curve/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-buckyball-curve/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 02 Jul 2008 13:57:29 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=436</guid>
+
+					<description><![CDATA[We are after the geometric trinity corresponding to the trinity of exceptional Galois groups The surfaces on the right have the corresponding group on the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>We are after the geometric trinity corresponding to the trinity of exceptional Galois groups</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/buckybb1.jpg" width=100% ></p>
+<p>The surfaces on the right have the corresponding group on the left as their group of automorphisms. But, there is a lot more group-theoretic info hidden in the geometry. Before we sketch the $L_2(11) $ case, let us recall the simpler situation of $L_2(7) $.</p>
+<p>There are some excellent web-page on the Klein quartic and it would be too hard to try to improve on them, so we refer to <a href="http://math.ucr.edu/home/baez/klein.html">John Baez&#8217; page</a> and <a href="http://gregegan.customer.netspace.net.au/SCIENCE/KleinQuartic/KleinQuartic.html">Greg Egan&#8217;s page</a> for more details.</p>
+<p>The Klein quartic is the degree 4 projective plane curve defined by the equation $x^3y+y^3z+z^3x=0 $. It can be tiled with a set of 24 regular heptagons, or alternatively with a set of 56 equilateral triangles and these two tilings are dual to each other</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/klein73.jpg"><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/klein37.jpg"><br />
+</center></p>
+<p>In the triangular tiling, there are 56 triangles, 84 edges and 24 vertices. The 56 triangles come in 7 bunches of 8 each and we give the 7 bunches of triangles each a different color as in the pictures below made by Greg Egan. Observe that in the hyperbolic tiling all triangles look alike, but in the picture on the left most of them get warped as we try to embed the quartic in 3-space (which is impossible to do properly). The non-warped triangles (the red ones) come into pairs, the top and bottom triangles of a triangular prism, one prism at each of the four &#8216;vertices&#8217; of a tetrahedron.</p>
+<p>The automorphism group $L_2(7) $ acts on these triangles as $S_4 $ acts on the triangles in a <a href="http://en.wikipedia.org/wiki/Truncated_cube">truncated cube</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleincolor.jpg" width=350 ><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/KleinFigures.gif" width=350 ><br />
+</center></p>
+<p>The buckyball construction from a conjugacy class of order 11 elements from $L_2(11) $ recalled <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/kleins-dessins-denfant-and-the-buckyball.html">last time</a>, has an analogon $L_2(7) $, leading to the truncated cube.</p>
+<p>In $L_2(7) $ there are two conjugacy classes of subgroups isomorphic to $S_4 $ (the rotation-symmetry group of the cube) as well as two conjugacy classes of order 7 elements, each consisting of precisely 24 elements, say C and D. The normalizer subgroup of C has order 21, so there is a cyclic group of order 3 acting non-trivially on the conjugacy class C with 8 orbits consisting of three elements each. These are the eight triangles of the truncated cube identified above as the red triangles.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/fanocolor.jpg" style="float:left;margin-right:10px;" > Shifting perspective, we can repeat this for each of the seven different colors. That is, we have seven truncated cubes in the Klein quartic. On each of them a copy of $S_4 $ acts and these subgroups form one of the two conjugacy classes of $S_4 $ in the group $L_2(7) $. The colors of the triangles of these seven truncated cubes are indicated by bullets in the picture above on the right. The other conjugacy class of $S_4 $&#8217;s act on &#8216;truncated anti-cubes&#8217; which also come in seven bunches of which the color is indicated by a square in that picture.</p>
+<p>If you spend enough time on it you will see that each (truncated) cube is completely disjoint from precisely 3 (truncated) anti-cubes. This reminds us of the Fano-plane (picture on the left) : it has 7 points (our seven truncated cubes), 7 lines (the truncated anti-cubes) and the incidence relation of points and lines corresponds to the disjointness of (truncated) cubes and anti-cubes! This is the geometric interpretation of the group-theoretic realization that $L_2(7) \simeq PGL_3(\mathbb{F}_2) $ is the isomorphism group of the projective plane over the finite field $\mathbb{F}_2 $ on two elements, that is, the <a href="http://en.wikipedia.org/wiki/Fano_plane">Fano plane</a>. The colors of the picture on the left indicate the colors of cubes (points) and anti-cubes (lines) consistent with Egan&#8217;s picture above.</p>
+<p>Further, the 24 vertices correspond to the 24 cusps of the modular group $\Gamma(7) $. Recall that a modular interpretation of the Klein quartic is as $\mathbb{H}/\Gamma(7) $ where $\mathbb{H} $ is the upper half-plane on which the modular group $\Gamma = PSL_2(\mathbb{Z}) $ acts via Moebius transformations, that is, to a 2&#215;2 matrix corresponds the transformation</p>
+<p>[tex]\begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix}[/tex] <----> $ z \mapsto \frac{az+b}{cz+d} $</p>
+<p>Okay, now let&#8217;s briefly sketch the exciting results found by Pablo Martin and <a href="http://www.personal.soton.ac.uk/ds1/">David Singerman</a> in the paper <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/biplanesingerman.pdf">From biplanes to the Klein quartic and the buckyball</a>, extending the above to the group $L_2(11) $.</p>
+<p>There is one important modification to be made. Recall that the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-buckyball-symmetries.html">Cayley-graph</a> to get the truncated cube comes from taking as generators of the group $S_4 $ the set $&#123; (3,4),(1,2,3) &#125; $, that is, an order two and an order three element, defining an epimorphism from the modular group $\Gamma= C_2 \ast C_3 \rightarrow S_4 $.</p>
+<p>We have also <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-buckyball-symmetries.html">seen</a> that in order to get the buckyball as a Cayley-graph for $A_5 $ we need to take the generating set $&#123; (2,3)(4,5),(1,2,3,4,5) &#125; $, so a degree two and a <strong>degree five</strong> element.</p>
+<p>Hence, if we want to have a corresponding Riemann surface we&#8217;d better not start from the action of the modular group on the upper half-plane, but rather the action via Moebius transformations of the<br />
+<strong>Hecke group</strong></p>
+<p>$H^5 \simeq C_2 \ast C_5 = \langle z \mapsto -\frac{1}{z}, z \mapsto z+ \phi \rangle $</p>
+<p>where $\phi = \frac{1 + \sqrt{5}}{2} $ is the <a href="http://en.wikipedia.org/wiki/Golden_ratio">golden ratio</a>.</p>
+<p>But then, there is an epimorphism $H^5 \rightarrow L_2(11) $ (as this group is generated by one element of degree 2 and one of degree 5) and let $\Lambda $ denote its kernel. Observe that $\Lambda $ is the analogon of the modular subgroup $\Gamma(7) $ used above to define the Klein quartic.</p>
+<p>Hence, Martin and Singerman  define the <strong>buckyball curve</strong> as the modular quotient $X=\mathbb{H}/\Lambda $ which is a Riemann surface of genus 70.</p>
+<p>The terminlogy is motivated by the fact that, precisely as we got 7 truncated cubes in the Klein quartic, we now get 11 truncated icosahedra (that is, buckyballs) in $X $. The 11 coming, analogous to the Klein case, from thefact that there are precisely two conjugacy classes of subgroups of $L_2(11) $ isomorphic to $A_5 $, each class containing precisely eleven elements!<br />
+The 60 vertices of the buckyball again correspond to the fact that there are 60 cusps in this case.</p>
+<p>So, what is the analogon of the Fano plane in this case? Well, observe that the Fano-plane is a <strong>biplane of order two</strong>. That is, if we take as &#8216;points&#8217; the points of the Fano plane and as &#8216;lines&#8217; the complements of lines in the Fano plane then this defines a biplane structure. This means that any two distinct &#8216;points&#8217; are contained in two distinct &#8216;lines&#8217; and that two distinct &#8216;lines&#8217; intersect in two distinct &#8216;points&#8217;. A biplane is said to be of order k is each &#8216;line&#8217; consist of k-2 &#8216;points&#8217;. As the complement of a line in the Fano plane consists of 4 points, the Fano plane is therefore a biplane of order 2. The intersection pattern of cubes and anti-cubes in the Klein quartic is this biplane structure on the Fano plane.</p>
+<p>In a similar way, Martin and Singerman show that the two conjugacy classes of subgroups isomorphic to $A_5 $ in $L_2(11) $, each containing exactly 11 elements, correspond to 11 embedded buckyballs (and 11 anti-buckyballs) in the buckyball-curve $X $ and that the intersection relations among them describe the combinatorial structure of a biplane of order three if we view the 11 buckys as &#8216;points&#8217; and the anti-buckys as &#8216;lines&#8217;.</p>
+<p>That is, the buckyball curve is a perfect geometric counterpart of the Klein quartic for the two trinities</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/buckybb1.jpg" width=100% ></p>
+<p>At the Arcadian Functor, Kea also <a href="http://kea-monad.blogspot.com/2008/07/carbon-beauty.html">has a post</a> on this in which she conjectures that the Kac-Moody algebra of E11 may be related to the buckyball curve.</p>
+<p><strong>References :</strong></p>
+<p>David Singerman, &#8220;Klein&#8217;s Riemann surface of genus 3 and regular embeddings of finite projective planes&#8221; Bull. London Math. Soc. 18 (1986) 364-370.</p>
+<p>Pablo Martin and David Singerman, <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/biplanesingerman.pdf">&#8220;From biplanes to the Klein quartic and the Buckyball&#8221;</a> (note that this is a preliminary version, please contact <a href="http://www.personal.soton.ac.uk/ds1/">David Singerman</a> for the latest version).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-buckyball-curve/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the buckyball symmetries</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-buckyball-symmetries/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-buckyball-symmetries/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 27 Jun 2008 07:04:36 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=435</guid>
+
+					<description><![CDATA[The buckyball is without doubt the hottest mahematical object at the moment (at least in Europe). Recall that the buckyball (middle) is a mixed form&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="http://en.wikipedia.org/wiki/Truncated_icosahedron">buckyball</a> is without doubt the <a href="http://www.euro2008.uefa.com/">hottest mahematical object</a> at the moment (at least in Europe). Recall that the buckyball (middle) is a mixed form of two Platonic solids</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/bucky1.jpg" ><br />
+</center></p>
+<p>the <a href="http://en.wikipedia.org/wiki/Icosahedron">Icosahedron</a> on the left and the <a href="http://en.wikipedia.org/wiki/Dodecahedron">Dodecahedron</a> on the right.</p>
+<p>For those of you who don&#8217;t know anything about football, it is that other ball-game, best described via a quote from the English player <a href="http://en.wikipedia.org/wiki/Gary_Lineker">Gary Lineker</a></p>
+<blockquote><p>&#8220;Football is a game for 22 people that run around, play the ball, and one referee who makes a slew of mistakes, and in the end Germany always wins.&#8221;</p></blockquote>
+<p>We still have a few days left hoping for a better ending&#8230; Let&#8217;s do some bucky-maths : what is the rotation symmetry group of the buckyball?</p>
+<p>For starters, dodeca- and icosahedron are <strong>dual solids</strong>, meaning that if you take the center of every face of a dodecahedron and connect these points by edges when the corresponding faces share an edge, you&#8217;ll end up with the icosahedron (and conversely). Therefore, both solids (as well as their mixture, the buckyball) will have the same group of rotational symmetries. Can we at least determine the number of these symmetries?</p>
+<p>Take the dodecahedron and fix a face. It is easy to find a rotation taking this face to anyone of its five adjacent faces. In group-slang : the rotation automorphism group acts <strong>transitively</strong> on the 12 faces of the dodecohedron. Now, how many of them fix a given face? These can only be rotations with axis through the center of the face and there are exactly 5 of them preserving the pentagonal face. So, in all we have $12 \times 5 = 60 $ rotations preserving any of the three solids above. By composing two of its elements, we get another rotational symmetry, so they form a <strong>group</strong> and we would like to determine what that group is.</p>
+<p>There is one group that springs to mind $A_5 $, the subgroup of all <strong>even</strong> permutations on 5 elements. In general, the <a href="http://en.wikipedia.org/wiki/Alternating_group">alternating group</a> has half as many elements as the full permutation group $S_n $, that is $\frac{1}{2} n! $ (for multiplying with the involution (1,2) gives a bijection between even and odd permutations). So, for $A_5 $ we get 60 elements and we can list them :</p>
+<ul>
+<li>the trivial permutation$~() $, being the identity.  </li>
+<li>permutations of order two with cycle-decompostion $~(i_1,i_2)(i_3,i_4) $, and there are exactly 15 of them around when all numbers are between 1 and 5.  </li>
+<li>permutations of order three with cycle-form $~(i_1,i_2,i_3) $ of which there are exactly 20.  </li>
+<li>permutations of order 5 which have to form one full cycle $~(i_1,i_2,i_3,i_4,i_5) $. There are 24 of those.  </li>
+</ul>
+<p>Can we at least view these sets of elements as rotations of the buckyball? Well, a dodecahedron has 12 pentagobal faces. So there are 4 nontrivial rotations of order 5 for every 2 opposite faces and hence the dodecaheder (and therefore also the buckyball) has indeed 6&#215;4=24 order 5 rotational symmetries.</p>
+<p>The icosahedron has twenty triangles as faces, so any of the 10 pairs of opposite faces is responsible for two non-trivial rotations of order three, giving us 10&#215;2=20 order 3 rotational symmetries of the buckyball.</p>
+<p>The order two elements are slightly harder to see. The icosahedron has 30 edges and there is a plane going through each of the 15 pairs of opposite edges splitting the icosahedron in two. Hence rotating to interchange these two edges gives one rotational symmetry of order 2 for each of the 15 pairs.</p>
+<p>And as 24+20+15+1(identity) = 60 we have found all the rotational symmetries and we see that they pair up nicely with the elements of $A_5 $. But do they form isomorphic groups? In other words, can the buckyball see the <strong>5</strong> in the group $A_5 $.</p>
+<p>In a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/arnolds-trinities.html">previous post</a> I&#8217;ve shown that one way to see this 5 is as the number of inscribed cubes in the dodecahedron. But, there is another way to see the five based on the order 2 elements described before.</p>
+<p>If you look at pairs of opposite edges of the icosahedron you will find that they really come in triples such that the planes determined by each pair are mutually orthogonal (it is best to feel this on ac actual icosahedron). Hence there are 15/3 = 5 such triples of mutually orthogonal symmetry planes of the icosahedron and of course any rotation permutes these triples. It takes a bit of more work to really check that this action is indeed the natural permutation action of $A_5 $ on 5 elements.</p>
+<p>Having convinced ourselves that the group of rotations of the buckyball is indeed the alternating group $A_5 $, we can reverse the problem : can the alternating group $A_5 $ <strong>see</strong> the buckyball???</p>
+<p>Well, for starters, it can &#8216;see&#8217; the icosahedron in a truly amazing way. Look at the conjugacy classes of $A_5 $. We all know that in the full symmetric group $S_n $ elements belong to the same conjugacy class if and only if they have the same cycle decomposition and this is proved using the fact that the conjugation f a cycle $~(i_1,i_2,\ldots,i_k) $ under a permutation $\sigma \in S_n $ is equal to the cycle $~(\sigma(i_1),\sigma(i_2),\ldots,\sigma(i_k)) $ (and this gives us also the candidate needed to conjugate two partitions into each other).</p>
+<p>Using this trick it is easy to see that all the 15 order 2 elements of $A_5 $ form one conjugacy class, as do the 20 order 3 elements. However, the 24 order 5 elements split up in two conjugacy classes of 12 elements as the permutation needed to conjugate $~(1,2,3,4,5) $ to $~(1,2,3,5,4) $ is $~(4,5) $ but this is <strong>not</strong> an element of $A_5 $.</p>
+<p>Okay, now take one of these two conjugacy classes of order 5 elements, say that of $~(1,2,3,4,5) $. It consists of 12 elements, 12 being also the number of <strong>vertices</strong> of the icosahedron. So, is there a way to identify the elements in the conjugacy class to the vertices in such a way that we can describe the edges also in terms of group-computations in $A_5 $?</p>
+<p>Surprisingly, this is indeed the case as is demonstrated in a marvelous paper by Kostant <a href="http://www.ams.org/notices/199509/kostant.pdf">“The graph of the truncated icosahedron and the last letter of Galois”</a>.</p>
+<blockquote><p>Two elements $a,b $ in the conjugacy class C share an edge if and only if their product $a.b \in A_5 $ still belongs to the conjugacy class C!
+</p></blockquote>
+<p>So, for example $~(1,2,3,4,5).(2,1,4,3,5) = (2,5,4) $ so there is no edge between these elements, but on the other hand $~(1,2,3,4,5).(5,3,4,1,2)=(1,5,2,4,3) $ so there is an edge between these! It is no coincidence that $~(5,3,4,1,2)=(2,1,4,3,5)^{-1} $ as inverse elements correspond in the bijection to opposite vertices and for any pair of non-opposite vertices of an icosahedron it is true that either they are neighbors or any one of them is the neighbor of the opposite vertex of the other element.</p>
+<p>If we take $u=(1,2,3,4,5) $ and $v=(5,3,4,1,2) $ (or any two elements of the conjugacy class such that u.v is again in the conjugacy class), then one can describe all the vertices of the icosahedron group-theoretically as follows</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/conjA5.jpg" ><br />
+</center></p>
+<p>Isn&#8217;t that nice? Well yes, you may say, but that is just the icosahedron. Can the group $A_5 $ also see the buckyball?</p>
+<p>Well, let&#8217;s try a similar strategy : the buckyball has 60 vertices, exactly as many as there are elements in the group $A_5 $. Is there a way to connect certain elements in a group according to fixed rules? Yes, there is such a way and it is called the <a href="http://en.wikipedia.org/wiki/Cayley_graph">Cayley Graph</a> of a group. It goes like this : take a set of generators $&#123; g_1,\ldots,g_k &#125; $ of a group G, then connect two group element $a,b \in G $ with an edge if and only if $a = g_i.b $ or $b = g_i.a $ for some of the generators.</p>
+<p>Back to the alternating group $A_5 $. There are several sets of generators, one of them being the elements $&#123; (1,2,3,4,5),(2,3)(4,5) &#125; $. In the paper mentioned before, Kostant gives an impressive group-theoretic proof of the fact that the Cayley-graph of $A_5 $ with respect to these two generators is indeed the buckyball!</p>
+<p>Let us allow to be lazy for once and let <a href="http://modular.math.washington.edu/sage/">SAGE</a> do the hard work for us,  and let us just watch the outcome. Here&#8217;s how that&#8217;s done</p>
+<blockquote><p>A=PermutationGroup([&#8216;(1,2,3,4,5)&#8217;,'(2,3)(4,5)&#8217;]) <br />
+B=A.cayley_graph() <br />
+B.show3d()</p></blockquote>
+<p>The outcone is a nice 3-dimensional picture of the buckyball. Below you can see a still, and, if you click on it you will get a 3-dimensional model of it (first click the &#8216;here&#8217; link in the new window and then you&#8217;d better control-click and set the zoom to 200% before you rotate it)</p>
+<p><center><br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/jmoldata/bucky2.html" target="_blank" rel="noopener"><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/bucky2.jpg"><br />
+</a><br />
+</center></p>
+<p>Hence, viewing this Cayley graph from different points we have convinced ourselves that it is indeed the buckyball. In fact, most (truncated) Platonic solids appear as Cayley graphs of groups with respect to specific sets of generators. For later use here is a (partial) survey (taken from <a href="http://www.geocities.com/jaapsch/puzzles/cayley.htm">Jaap&#8217;s puzzle page</a>)</p>
+<p><center><br />
+<img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/jaap1.jpg" ><br />
+</center></p>
+<p><strong>Tetrahedron :</strong> $C_2 \times C_2,[(12)(34),(13)(24),(14)(23)] $ <br />
+<strong>Cube :</strong> $D_4,[(1234),(13)] $<br />
+<strong>Octahedron :</strong> $S_3,[(123),(12),(23)] $<br />
+<strong>Dodecahedron :</strong>  <strong>IMPOSSIBLE</strong><br />
+<strong>Icosahedron :</strong> $A_4,[(123),(234),(13)(24)] $</p>
+<p><center><br />
+<img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/jaap2.jpg" ><br />
+</center></p>
+<p><strong>Truncated tetrahedron :</strong> $A_4,[(123),(12)(34)] $<br />
+<strong>Cuboctahedron :</strong> $A_4,[(123),(234)] $<br />
+<strong>Truncated cube :</strong> $S_4,[(123),(34)] $<br />
+<strong>Truncated octahedron :</strong> $S_4,[(1234),(12)] $<br />
+<strong>Rhombicubotahedron :</strong> $S_4,[(1234),(123)] $<br />
+<strong>Rhombitruncated cuboctahedron :</strong> <strong>IMPOSSIBLE</strong><br />
+<strong>Snub cuboctahedron :</strong> $S_4,[(1234),(123),(34)] $</p>
+<p><center><br />
+<img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/jaap3.jpg" ><br />
+</center></p>
+<p><strong>Icosidodecahedron :</strong> <strong>IMPOSSIBLE</strong><br />
+<strong>Truncated dodecahedron :</strong> $A_5,[(124),(23)(45)] $<br />
+<strong>Truncated icosahedron :</strong> $A_5,[(12345),(23)(45)] $<br />
+<strong>Rhombicosidodecahedron :</strong> $A_5,[(12345),(124)] $<br />
+<strong>Rhombitruncated icosidodecahedron :</strong> <strong>IMPOSSIBLE</strong><br />
+<strong>Snub Icosidodecahedron :</strong> $A_5,[(12345),(124),(23)(45)] $</p>
+<p>Again, all these statements can be easily verified using SAGE via the method described before. Next time we will go further into the Kostant&#8217;s group-theoretic proof that the buckyball is the Cayley graph of $A_5 $ with respect to (2,5)-generators as this calculation will be crucial in the description of the <strong>buckyball curve</strong>, the genus 70 Riemann surface discovered by <a href="http://www.personal.soton.ac.uk/ds1/">David Singerman</a> and<br />
+Pablo Martin which completes the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/arnolds-trinities.html">trinity</a> corresponding to the Galois trinity</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/buckybb1.jpg" width=100% ></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-buckyball-symmetries/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Arnold’s trinities version 2.0</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities-version-20/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities-version-20/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 20 Jun 2008 07:26:54 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=431</guid>
+
+					<description><![CDATA[Arnold has written a follow-up to the paper mentioned last time called “Polymathematics : is mathematics a single science or a set of arts?” (or&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Arnold has written a follow-up to the paper mentioned <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/arnolds-trinities.html">last time</a> called <a href="http://www.pdmi.ras.ru/~arnsem/Arnold/Polymath.ps.gz">“Polymathematics : is mathematics a single science or a set of arts?”</a> (or <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/ArnoldPolymathics.pdf">here</a> for a (huge) PDF-conversion).</p>
+<p>On page 8 of that paper is a nice summary of his 25 trinities :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/arnoldv2.jpg"  ><br />
+</center></p>
+<p>I learned of this newer paper from a comment by <a href="http://math.univ-lyon1.fr/~chapoton/">Frederic Chapoton</a> who maintains a <a href="http://math.univ-lyon1.fr/~chapoton/trinites.html">nice webpage</a> dedicated to trinities.</p>
+<p>In his list there is one trinity on sporadic groups :</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity1.jpg" align=center ></p>
+<p>where $F_{24} $ is the <a href="http://en.wikipedia.org/wiki/Fischer_group">Fischer simple group</a> of order $2^{21}.3^{16}.5^2.7^3.11.13.17.23.29 = 1255205709190661721292800 $, which is the third largest sporadic group (the two larger ones being the <a href="http://en.wikipedia.org/wiki/Baby_Monster_group">Baby Monster</a> and the <a href="http://en.wikipedia.org/wiki/Monster_group">Monster</a> itself).</p>
+<p>I don&#8217;t know what the rationale is behind this trinity. But I&#8217;d like to recall the (Baby)Monster history as a warning against the trinity-reflex. Sometimes, there is just no way to extend a <strong>would be</strong> trinity.</p>
+<p>The story comes from Mark Ronan&#8217;s book <a href="http://www.maa.org/reviews/SymmetryMonster.html">Symmetry and the Monster</a> on page 178.</p>
+<blockquote><p>Let&#8217;s remind ourselves how we got here. A few years earlier, <a href="http://en.wikipedia.org/wiki/Bernd_Fischer">Fischer</a> has created his &#8216;transposition&#8217; groups Fi22, Fi23, and Fi24. He had called them M(22), M(23), and M(24), because they were related to Mathieu&#8217;s groups M22,M23, and M24, and since he used Fi22 to create his new group of mirror symmetries, he tentatively called it $M^{22} $.<br />
+It seemed to appear as a cross-section in something even bigger, and as this larger group was clearly associated with Fi24, he labeled it $M^{24} $. Was there something in between that could be called $M^{23} $? <br />
+Fischer visited Cambridge to talk on his new work, and Conway named these three potential groups the <strong>Baby Monster</strong>, the <strong>Middle Monster</strong>, and the<strong> Super Monster</strong>. When it became clear that the Middle Monster didn&#8217;t exist, Conway settled on the names Baby Monster and Monster, and this became the standard terminology.</p></blockquote>
+<p>Marcus du Sautoy&#8217;s account in <a href="http://findingmoonshine.blogspot.com/">Finding Moonshine</a> is slightly different. He tells on page 322 that the Super Monster didn&#8217;t exist. Anyone knowing the factual story?</p>
+<blockquote><p>Some mathematical trickery later revealed that the Super Monster was going to be impossible to build: there were certain features that contradicted each other. It was just a mirage, which vanished under closer scrutiny. But the other two were still looking robust. The Middle Monster was rechristened simply the Monster.</p></blockquote>
+<p>And, the inclusion diagram of the sporadic simples tells yet another story.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/sporadics.jpg" ><br />
+</center></p>
+<p>Anyhow, this inclusion diagram is helpful in seeing the three generations of the <strong>Happy Family</strong> (as well as the <strong>Pariahs</strong>) of the <a href="http://en.wikipedia.org/wiki/Sporadic_group">sporadic groups</a>, terminology invented by <a href="http://www.math.lsa.umich.edu/~rlg/">Robert Griess</a> in his 100+p Inventiones paper on the construction of the Monster (which he liked to call, for obvious reasons, the Friendly Giant denoted by FG).<br />
+The happy family appears in Table 1.1. of the introduction.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/Griess.jpg" ><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/happyfamily.jpg" width=400 ><br />
+</center></p>
+<p>It was this picture that made me propose the trinity on the left below in the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/arnolds-trinities.html">previous post</a>. I now like to add another trinity on the right, and, the connection between the two is clear.</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity2.jpg" width=100% ></p>
+<p>Here $Golay $ denotes the extended binary <a href="http://en.wikipedia.org/wiki/Binary_Golay_code">Golay code</a> of which the Mathieu group $M_{24} $ is the automorphism group. $Leech $ is of course the 24-dimensional <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> of which the automorphism group is a double cover of the Conway group $Co_1 $. $Griess $ is the <a href="http://en.wikipedia.org/wiki/Griess_algebra">Griess algebra</a> which is a nonassociative 196884-dimensional algebra of which the automorphism group is the Monster.</p>
+<p>I am aware of a construction of the Leech lattice involving the quaternions (the icosian construction of chapter 8, section 2.2 of <a href="http://acronyms.thefreedictionary.com/SPLAG">SPLAG</a>). Does anyone know of a construction of the Griess algebra involving octonions???</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities-version-20/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Arnold’s trinities</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 17 Jun 2008 17:17:34 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=430</guid>
+
+					<description><![CDATA[Referring to the triple of exceptional Galois groups $L_2(5),L_2(7),L_2(11) $ and its connection to the Platonic solids I wrote : &#8220;It sure seems that surprises&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="http://www.fields.utoronto.ca/programs/scientific/96-97/arnold/arnold.jpg" hspace=10 style="float:left;margin-right:10px;" >Referring to the triple of exceptional Galois groups $L_2(5),L_2(7),L_2(11) $ and its connection to the Platonic solids I <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">wrote</a> : &#8220;It sure seems that surprises often come in triples…&#8221;. Briefly I considered replacing triples by trinities, but then, I didnt want to sound too mystic&#8230;</p>
+<p>David Corfield of the <a href="http://golem.ph.utexas.edu/category/2008/06/the_mathematical_sublime.html">n-category cafe</a> and <a href="http://dialinf.wordpress.com/2008/06/11/the-sublime/">a dialogue on infinity</a> (and perhaps other blogs I&#8217;m unaware of) pointed me to the paper <a href="http://www.pdmi.ras.ru/~arnsem/Arnold/arnlect2.ps.gz">Symplectization, complexification and mathematical trinities</a> by <a href="http://en.wikipedia.org/wiki/Vladimir_Arnold">Vladimir I. Arnold</a>. (Update : <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/ArnoldTrinities.pdf">here</a> is a PDF-conversion of the paper)</p>
+<p>The paper is a write-up of the second in a series of three lectures Arnold gave in june 1997 at the meeting in the <a href="http://www.fields.utoronto.ca/">Fields Institute</a> dedicated to his 60th birthday. The goal of that lecture was to explain some mathematical dreams he had.</p>
+<blockquote><p>The next dream I want to present is an even more fantastic set of theorems and conjectures. Here I also have no theory and actually the ideas form a kind of religion rather than mathematics.<br />
+The key observation is that in mathematics one encounters many trinities. I shall present a list of examples. The main dream (or conjecture) is that all these trinities are united by some rectangular &#8220;commutative diagrams&#8221;.<br />
+I mean the existence of some &#8220;functorial&#8221; constructions connecting different trinities. The knowledge of the existence of these diagrams provides some new conjectures which might turn to be true theorems.
+</p></blockquote>
+<p>Follows a list of 12 trinities, many taken from Arnold&#8217;s field of expertise being differential geometry. I&#8217;ll restrict to the more algebraically inclined ones.</p>
+<p><strong>1 :</strong> &#8220;The first trinity everyone knows is&#8221;</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity3.jpg"></p>
+<p>where $\mathbb{H} $ are the Hamiltonian <a href="http://en.wikipedia.org/wiki/Quaternion">quaternions</a>. The trinity on the left may be natural to differential geometers who see real and complex and hyper-Kaehler manifolds as distinct but related beasts, but I&#8217;m willing to bet that most algebraists would settle for the trinity on the right where $\mathbb{O} $ are the <a href="http://en.wikipedia.org/wiki/Octonion">octonions</a>.</p>
+<p><strong>2 :</strong> The next trinity is that of the exceptional Lie algebras <a href="http://en.wikipedia.org/wiki/E6_(mathematics)">E6</a>, <a href="http://en.wikipedia.org/wiki/E7_(mathematics)">E7</a> and <a href="http://en.wikipedia.org/wiki/E8_(mathematics)">E8</a>.</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity4.jpg"></p>
+<p>with corresponding Dynkin-Coxeter diagrams</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/dynkins.jpg"></p>
+<p>Arnold has this to say about the apparent ubiquity of Dynkin diagrams in mathematics.</p>
+<blockquote><p>Manin told me once that the reason why we always encounter this list in many different mathematical classifications is its presence in the hardware of our brain (which is thus unable to discover a more complicated scheme). <br />
+I still hope there exists a better reason that once should be discovered.</p></blockquote>
+<p>Amen to that. I&#8217;m quite hopeful human evolution will overcome the limitations of Manin&#8217;s brain&#8230;</p>
+<p><strong>3 :</strong> Next comes the Platonic trinity of the <a href="http://en.wikipedia.org/wiki/Tetrahedron">tetrahedron</a>, <a href="http://en.wikipedia.org/wiki/Cube">cube</a> and <a href="http://en.wikipedia.org/wiki/Dodecahedron">dodecahedron</a></p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity5.jpg"></p>
+<p><center><br />
+<img decoding="async" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tetrahedron.svg/240px-Tetrahedron.svg.png" width=200> <img decoding="async" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Hexahedron.svg/240px-Hexahedron.svg.png" width=200><img decoding="async" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/66/POV-Ray-Dodecahedron.svg/240px-POV-Ray-Dodecahedron.svg.png" width=200><br />
+</center></p>
+<p>Clearly one can argue against this trinity as follows : a tetrahedron is a bunch of triangles such that there are exactly 3 of them meeting in each vertex, a cube is a bunch of squares, again 3 meeting in every vertex, a dodecahedron is a bunch of pentagons 3 meeting in every vertex&#8230; and we can continue the pattern. What should be a bunch a hexagons such that in each vertex exactly 3 of them meet? Well, only one possibility : it must be the <a href="http://en.wikipedia.org/wiki/Hexagonal_tiling">hexagonal tiling</a> (on the left below). And in normal Euclidian space we cannot have a bunch of septagons such that three of them meet in every vertex, but in hyperbolic geometry this is still possible and leads to the <a href="http://math.ucr.edu/home/baez/klein.html">Klein quartic</a> (on the right). Check out this wonderful post by John Baez for more on this.</p>
+<p><center><br />
+<img decoding="async" src="http://math.ucr.edu/home/baez/KleinDualInsideOut.gif" width=300><br />
+</center></p>
+<p><strong>4 :</strong> The trinity of the rotation symmetry groups of the three Platonics</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity6.jpg"></p>
+<p>where $A_n $ is the <a href="http://en.wikipedia.org/wiki/Alternating_group">alternating group</a> on n letters and $S_n $ is the <a href="http://en.wikipedia.org/wiki/Symmetric_group">symmetric group</a>.</p>
+<p>Clearly, any rotation of a Platonic solid takes vertices to vertices, edges to edges and faces to faces. For the tetrahedron we can easily see the 4 of the group $A_4 $, say the 4 vertices. But what is the 4 of $S_4 $ in the case of a cube? Well, a cube has 4 body-diagonals and they are permuted under the rotational symmetries. The most difficult case is to see the $5 $ of $A_5 $ in the dodecahedron. Well, here&#8217;s the solution to this riddle</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cubedode.jpg"><br />
+</center></p>
+<p>there are exactly 5 inscribed cubes in a dodecahedron and they are permuted by the rotations in the same way as $A_5 $.</p>
+<p><strong>7 :</strong> The seventh trinity involves complex polynomials in one variable</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity7.jpg"></p>
+<p>the Laurant polynomials and the <strong>modular polynomials</strong> (that is, rational functions with three poles at 0,1 and $\infty $.</p>
+<p><strong>8 :</strong> The eight one is another beauty</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity8.jpg"></p>
+<p>Here &#8216;numbers&#8217; are the ordinary complex numbers $\mathbb{C} $, the &#8216;trigonometric numbers&#8217; are the quantum version of those (aka q-numbers) which is a one-parameter deformation and finally, the &#8216;elliptic numbers&#8217; are a two-dimensional deformation. If you ever encountered a Sklyanin algebra this will sound familiar.</p>
+<p>This trinity is based on a paper of Turaev and Frenkel and I must come back to it some time&#8230;</p>
+<p>The paper has some other nice trinities (such as those among Whitney, Chern and Pontryagin classes) but as I cannot add anything sensible to it, let us include a few more algebraic trinities. The first one attributed by Arnold to <a href="http://en.wikipedia.org/wiki/John_McKay_(mathematics)">John McKay</a></p>
+<p><strong>13 :</strong> A trinity parallel to the exceptional Lie algebra one is</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity9.jpg"></p>
+<p>between the 27 straight lines on a cubic surface, the 28 bitangents on a quartic plane curve and the 120 tritangent planes of a canonic sextic curve of genus 4.</p>
+<p><strong>14 :</strong> The exceptional Galois groups</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity10.jpg"></p>
+<p>explained <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/galois-last-letter.html">last time</a>.</p>
+<p><strong>15 :</strong> The associated curves with these groups as symmetry groups (as in the previous post)</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity11.jpg"></p>
+<p>where the ? refers to the mysterious genus 70 curve. I&#8217;ll check with one of the authors whether there is still an embargo on the content of this paper and if not come back to it in full detail.</p>
+<p><strong>16 :</strong> The three generations of <a href="http://en.wikipedia.org/wiki/Sporadic_group">sporadic groups</a></p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/trinity12.jpg"></p>
+<p><strong>Do you have other trinities you&#8217;d like to worship?</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/arnolds-trinities/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

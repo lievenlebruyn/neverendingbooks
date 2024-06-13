@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: the Riemann hypothesis and 5040	</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040/</link>
+	<description></description>
+	<lastBuildDate>Sun, 02 May 2021 05:40:31 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>
+		By: lievenlb		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040/#comment-103</link>
+
+		<dc:creator><![CDATA[lievenlb]]></dc:creator>
+		<pubDate>Sun, 02 May 2021 05:40:31 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8397#comment-103</guid>
+
+					<description><![CDATA[Thanks Eddie, fixed!]]></description>
+			<content:encoded><![CDATA[<p>Thanks Eddie, fixed!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Eddie		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040/#comment-102</link>
+
+		<dc:creator><![CDATA[Eddie]]></dc:creator>
+		<pubDate>Sun, 02 May 2021 02:19:52 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8397#comment-102</guid>
+
+					<description><![CDATA[there is a type on first formula
+1/n should be 1/d]]></description>
+			<content:encoded><![CDATA[<p>there is a type on first formula<br />
+1/n should be 1/d</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

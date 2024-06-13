@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Deep learning and toposes	</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes/</link>
+	<description></description>
+	<lastBuildDate>Tue, 18 Jan 2022 04:38:58 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>
+		By: Shiva		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes/#comment-130</link>
+
+		<dc:creator><![CDATA[Shiva]]></dc:creator>
+		<pubDate>Tue, 18 Jan 2022 04:38:58 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10027#comment-130</guid>
+
+					<description><![CDATA[Hi Mr. Bruyn,
+I really enjoy reading your blog as an aspiring mathematician currently pursuing a Masters.
+Here is another paper that may interest you: https://arxiv.org/abs/2006.15136: Homotopy Theoretic and Categorical Models of Neural Information Networks by Manin-Marcolli.
+Entropy seems to pop up a lot in all of this. So I thought I might mentione some highly unlikely places where it crops up.
+
+It appears in the work on Connes-Consani&#039;s approach to the &quot;Field with one element&quot; :https://arxiv.org/abs/0911.3537-  Characteristic one, entropy, and the absolute point
+
+It also occurs in constructing real analogs of P-adic period rings of P-adic Hodge theory: https://arxiv.org/abs/1202.4377
+The universal thickening of the field of real numbers
+
+This latter one seems to be related to the condensed mathematics of Scholze and Clausen. Scholze talks about it in both the Condensed mathematics and Analytic Geometry lecture notes, as well here: https://www.ams.org/journals/notices/202007/rnoti-p1010.pdf - This one is a tribute to Fontiane
+
+It might have connections to a geometry below Spec(Z) is what Scholze seems to be saying.
+
+Hope you find all of this interesting and worth writing about.]]></description>
+			<content:encoded><![CDATA[<p>Hi Mr. Bruyn,<br />
+I really enjoy reading your blog as an aspiring mathematician currently pursuing a Masters.<br />
+Here is another paper that may interest you: <a href="https://arxiv.org/abs/2006.15136" rel="nofollow ugc">https://arxiv.org/abs/2006.15136</a>: Homotopy Theoretic and Categorical Models of Neural Information Networks by Manin-Marcolli.<br />
+Entropy seems to pop up a lot in all of this. So I thought I might mentione some highly unlikely places where it crops up.</p>
+<p>It appears in the work on Connes-Consani&#8217;s approach to the &#8220;Field with one element&#8221; :<a href="https://arxiv.org/abs/0911.3537-" rel="nofollow ugc">https://arxiv.org/abs/0911.3537-</a>  Characteristic one, entropy, and the absolute point</p>
+<p>It also occurs in constructing real analogs of P-adic period rings of P-adic Hodge theory: <a href="https://arxiv.org/abs/1202.4377" rel="nofollow ugc">https://arxiv.org/abs/1202.4377</a><br />
+The universal thickening of the field of real numbers</p>
+<p>This latter one seems to be related to the condensed mathematics of Scholze and Clausen. Scholze talks about it in both the Condensed mathematics and Analytic Geometry lecture notes, as well here: <a href="https://www.ams.org/journals/notices/202007/rnoti-p1010.pdf" rel="nofollow ugc">https://www.ams.org/journals/notices/202007/rnoti-p1010.pdf</a> &#8211; This one is a tribute to Fontiane</p>
+<p>It might have connections to a geometry below Spec(Z) is what Scholze seems to be saying.</p>
+<p>Hope you find all of this interesting and worth writing about.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

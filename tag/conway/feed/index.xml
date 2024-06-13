@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Conway &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/conway/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 28 Mar 2023 13:54:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>an einStein</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 28 Mar 2023 13:54:57 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[GoV]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[aperiodic]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[de Bruijn]]></category>
+		<category><![CDATA[deflation]]></category>
+		<category><![CDATA[einstein]]></category>
+		<category><![CDATA[Goodman-Strauss]]></category>
+		<category><![CDATA[gov]]></category>
+		<category><![CDATA[inflation]]></category>
+		<category><![CDATA[Kaplan]]></category>
+		<category><![CDATA[Myers]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[Smith]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11170</guid>
+
+					<description><![CDATA[On March 20th, David Smith, Joseph Myers, Craig Kaplan and Chaim Goodman-Strauss announced on the arXiv that they&#8217;d found an ein-Stein (a stone), that is,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>On March 20th, David Smith, Joseph Myers, Craig Kaplan and Chaim Goodman-Strauss announced on the <a href="https://arxiv.org/abs/2303.10798">arXiv</a> that they&#8217;d found an ein-Stein (a stone), that is, one piece to tile the entire plane, in uncountably many different ways, all of them non-periodic (that is, the pattern does not even allow a translation symmetry).</p>
+<p>This einStein, called the &#8216;hat&#8217; (some prefer &#8216;t-shirt&#8217;), has a very simple form : you take the most symmetric of all plane tessellations, $\ast 632$ in Conway&#8217;s notation, and glue sixteen copies of its orbifold (or if you so prefer, eight &#8216;kites&#8217;) to form the gray region below:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/einstein1.png" width=80%><br />
+(all images copied from <a href="https://arxiv.org/abs/2303.10798">the aperiodic monotile paper</a>)<br />
+</center></p>
+<p>Surprisingly, you do not even need to impose gluing conditions (unlike in the two-piece aperiodic <a href="https://en.wikipedia.org/wiki/Penrose_tiling#:~:text=The%20kite%20is%20a%20quadrilateral,%2C%2072%20and%2072%20degrees).">kite and dart Penrose tilings</a>), but you&#8217;ll need flipped hats to fill up the gaps left.</p>
+<p>A few years ago, I wrote some posts on Penrose tilings, including details on inflation and deflation, aperiodicity, uncountability, Conway worms, and more:</p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/penroses-aperiodic-tilings">Penrose&#8217;s aperiodic tilings</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences">Conway&#8217;s musical sequences</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences-2">Conway&#8217;s musical sequences (2)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids">de Bruijn&#8217;s pentagrids</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2">de Bruijn&#8217;s pentagrids (2)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry">Penrose tilings and non-commutative geometry</a></li>
+</ul>
+<p>To prove that hats tile the plane, and do so aperiodically, the authors do not apply inflation and deflation directly on the hats, but rather on associated tilings by &#8216;meta-tiles&#8217; (rough outlines of blocks of hats). To understand these meta-tiles it is best to look at a large patch of hats:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/einstein2.png" width=100%><br />
+</center></p>
+<p>Here, the dark-blue hats are the &#8216;flipped&#8217; ones, and the thickened outline around the central one gives the boundary of the &#8217;empire&#8217; of a flipped hat, that is, the collection of all forced tiles around it. So, around each flipped hat we find such an empire, possibly with different orientation. Also note that most of the white hats (there are also isolated white hats at the centers of triangles of dark-blue hats) make up &#8216;lines&#8217; similar to the Conway worms in the case of the Penrose tilings. We can break up these &#8216;worms&#8217; into &#8216;propeller-blades&#8217; (gray) and &#8216;parallelograms&#8217; (white). This gives us four types of blocks, the &#8216;meta-tiles&#8217;:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/einstein3.png" width=60%><br />
+</center></p>
+<p>The empire of a flipped hat consists of an H-block (for Hexagon) made of one dark-blue (flipped) and three light-blue (ordinary) hats, one P-block (for Parallelogram), one F-block (for Fylfot, a propellor blade), and one T-block (for Triangle) for the remaining hat.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/einstein4.png" width=80%><br />
+</center></p>
+<p>The H,T and P blocks have rotational symmetries, whereas the underlying block of hats does not. So we mark the intended orientation of the hats by an arrow, pointing to the side having two or three hat-pieces sticking out.</p>
+<p>Any hat-tiling gives us a tiling with the meta-tile pieces H,T,P and F. Conversely, not every tiling by meta-tiles has an underlying hat-tiling, so we have to impose gluing conditions on the H,T,P and F-pieces. We can do this by using the boundary of the underlying hat-block, cutting away and adding hat-parts. Then, any H,T,P and F-tiling satisfying these gluing conditions will come from an underlying hat-tiling.</p>
+<p>The idea is now to devise &#8216;inflation&#8217;- and &#8216;deflation&#8217;-rules for the H,T,P and F-pieces. For &#8216;inflation&#8217; start from a tiling satisfying the gluing (and orientation) conditions, and look for the central points of the propellors (the thick red points in the middle picture).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/einstein5.png" width=80%><br />
+</center></p>
+<p>These points will determine the shape of the larger H,T,P and F-pieces, together with their orientations. The authors provide <a href="https://cs.uwaterloo.ca/~csk/hat/app.html">an applet</a> to see these inflations in action.</p>
+<p>Choose your meta-tile (H,T,P or F), then click on &#8216;Build Supertiles&#8217; a number of times to get larger and larger tilings, and finally unmark the &#8216;Draw Supertiles&#8217; button to get a hat-tiling.</p>
+<p>For &#8216;deflation&#8217; we can cut up H,T,P and F-pieces into smaller ones as in the pictures below:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/einstein6.png" width=80%><br />
+</center></p>
+<p>Clearly, the hard part is to verify that these &#8216;inflated&#8217; and &#8216;deflated&#8217; tilings still satisfy the gluing conditions, so that they will have an underlying hat-tiling with larger (resp. smaller) hats.</p>
+<p>This calls for a lengthy case-by-case analysis which is the core-part of the paper and depends on computer-verification.</p>
+<p>Once this is verified, aperiodicity follows as in the case of Penrose tilings. Suppose a tiling is preserved under translation by a vector $\vec{v}$. As &#8216;inflation&#8217; and &#8216;deflation&#8217; only depend on the direct vicinity of a tile, translation by $\vec{v}$ is also a symmetry of the inflated tiling. Now, iterate this process until the diameter of the large tiles becomes larger than the length of $\vec{v}$ to obtain a contradiction.</p>
+<p>Siobhan Roberts wrote a fine article <a href="https://www.nytimes.com/2023/03/28/science/mathematics-tiling-einstein.html">Elusive ‘Einstein’ Solves a Longstanding Math Problem</a> for the NY-times on this einStein.</p>
+<p>It would be nice to try this strategy on other symmetric tilings: break the symmetry by gluing together a small number of its orbifolds in such a way that this extended tile (possibly with its reversed image) tile the plane, and find out whether you discovered a new einStein!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Imagination and the Impossible</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/imagination-and-the-impossible/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/imagination-and-the-impossible/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 24 May 2021 10:15:58 +0000</pubDate>
+				<category><![CDATA[DesignerMaths]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Doyle]]></category>
+		<category><![CDATA[Escher]]></category>
+		<category><![CDATA[Gilman]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[Thurston]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9823</guid>
+
+					<description><![CDATA[Two more sources I&#8217;d like to draw from for this fall&#8217;s maths for designers-course: 1. Geometry and the Imagination A fantastic collection of handouts for&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Two more sources I&#8217;d like to draw from for this fall&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/designer-maths">maths for designers</a>-course:</p>
+<p>1. <a href="https://math.dartmouth.edu/~doyle/docs/mpls/mpls.pdf">Geometry and the Imagination</a></p>
+<p>A fantastic  collection of handouts for a two week summer workshop entitled ’Geometry and the Imagination’, led by <a href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a>, <a href="https://math.dartmouth.edu/~doyle/">Peter Doyle</a>, <a href="https://en.wikipedia.org/wiki/Jane_Piore_Gilman">Jane Gilman</a> and <a href="https://en.wikipedia.org/wiki/William_Thurston">Bill Thurston</a> at the Geometry Center in Minneapolis, June 1991, based on a course ‘Geometry and the Imagination’ they taught twice before at Princeton.</p>
+<p>Among the goodies a long list of exercises in imagining (always useful to budding architects) and how to compute curvature by peeling potatoes and other vegetables&#8230;</p>
+<p>The course really shines in giving a unified elegant classification of the <a href="https://en.wikipedia.org/wiki/Wallpaper_group">17 wallpaper groups</a>, the <a href="https://en.wikipedia.org/wiki/Frieze_group">7 frieze groups</a> and the <a href="https://mathworld.wolfram.com/SphericalGroup.html#:~:text=There%20are%2014%20families%20of,*%2C%20Nx%2C%20and%20NN.">14 families of spherical groups</a> by using Thurston&#8217;s concept of <a href="https://en.wikipedia.org/wiki/Orbifold">orbifolds</a>.</p>
+<p>If you think this will be too complicated, have a look at the proof that the orbifold Euler characteristic of any symmetry pattern in the plane with bounded fundamental domain is zero :</p>
+<p>Take a large region in the plane that is topologically a disk (i.e. without holes). Its Euler characteristic is $1$. This is approximately equal to $N$ times the orbifold Euler characteristic for some large $N$, so the orbifold Euler characteristic must be $0$.</p>
+<p>This then leads to the Orbifold Shop where they sell orbifold parts:</p>
+<ul>
+<li>a handle for 2 Euros,</li>
+<li>a mirror for 1 Euro,</li>
+<li>a cross-cap for 1 Euro,</li>
+<li>an order $n$ cone point for $(n-1)/n$ Euro,</li>
+<li>an order $n$ corner reflector for $(n-1)/2n$ Euro, if you have the required mirrors to install this piece.</li>
+</ul>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/orbifolds.png" width=100%><br />
+</center></p>
+<p>Here&#8217;s a standard brick wall, with its fundamental domain and corresponding orbifold made from a mirror piece (1 Euro), two order $2$ corner reflectors (each worth $.25$ Euro), and one order $2$ cone point (worth $.5$ Euro). That is, this orbifold will cost you exactly $2$ Euros.</p>
+<p>If you spend exactly $2$ Euros at the Orbifold Shop (and there are $17$ different ways to do this), you will have an orbifold coming from a symmetry pattern in the plane with bounded fundamental domain, that is, one of the $17$ wallpaper patterns.</p>
+<p>For the mathematicians among you desiring more details, please read <a href="https://www.researchgate.net/publication/263488290_The_Orbifold_Notation_for_Two-Dimensional_Groups">The orbifold notation for two-dimensional groups</a> by Conway and Daniel Huson, from which the above picture was taken.</p>
+<p>2. <a href="https://www.jstor.org/stable/1575844?seq=1#metadata_info_tab_contents">On the Cohomology of Impossible Figures</a> by <a href="https://en.wikipedia.org/wiki/Roger_Penrose">Roger Penrose</a></p>
+<p>The aspiring architect should be warned that some constructions are simply not possible in 3D, even when they look convincing on paper, such as Escher&#8217;s <a href="https://en.wikipedia.org/wiki/Waterfall_(M._C._Escher)">Waterfall</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/en/e/e8/Escher_Waterfall.jpg" width=50%><br />
+M.C. Escher, Waterfall &#8211; <a href="https://en.wikipedia.org/wiki/Waterfall_(M._C._Escher)">Photo Credit</a><br />
+</center></p>
+<p>In his paper, Penrose gives a unified approach to debunk such drawings by using cohomology groups.</p>
+<p>Clearly I have no desire to introduce cohomology, but it may still be possible to get the underlying idea across. Let&#8217;s take the <a href="https://en.wikipedia.org/wiki/Penrose_triangle">Penrose triangle</a> (all pictures below taken from Penrose&#8217;s paper)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tribar1.png" width=50%><br />
+</center></p>
+<p>The idea is to break up such a picture in several parts, each of which we do know to construct in 3D (that is, we take a particular cover of our figure). We can slice up the Penrose triangle in three parts, and if you ever played with Lego you&#8217;ll know how to construct each one of them.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tribar2.png" width=50%><br />
+</center></p>
+<p>Next, position the constructed pieces in space as in the picture and decide which of the two ends is closer to you. In $Q_1$ it is clear that point $A_{12}$ is closer to you than $A_{13}$, so we write $A_{12} < A_{13}$.
+
+
+
+<p />
+Similarly, looking at $Q_2$ and $Q_3$ we see that $A_{23} < A_{21}$ and that $A_{31} < A_{32}$.
+
+
+
+<p />
+Next, if we try to reassemble our figure we must glue $A_{12}$ to $A_{21}$, that is $A_{12}=A_{21}$, and similarly $A_{23}=A_{32}$ and $A_{31}=A_{13}$. But, then we get<br />
+\[<br />
+A_{13}=A_{31} < A_{32}=A_{23} < A_{21}=A_{12} < A_{13} \]
+which is clearly absurd.
+
+
+
+<p />Once again, if you have suggestions for more material to be included, please let me know.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/imagination-and-the-impossible/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lockdown reading : SNORT</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lockdown-reading-snort/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lockdown-reading-snort/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 02 May 2021 09:20:33 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[ATLAS]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Masters]]></category>
+		<category><![CDATA[monstrous moonshine]]></category>
+		<category><![CDATA[Noton]]></category>
+		<category><![CDATA[Siobhan Roberts]]></category>
+		<category><![CDATA[Snort]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9753</guid>
+
+					<description><![CDATA[In this series I’ll mention some books I found entertaining, stimulating or comforting during these Corona times. Read them at your own risk. This must&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In this series I’ll mention some books I found entertaining, stimulating or comforting during these Corona times. Read them at your own risk.</p>
+<p><center><br />
+<img decoding="async" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448216604l/12110017._SY475_.jpg" width=50%><br />
+</center></p>
+<p>This must have been the third time I&#8217;ve read <a href="https://www.theguardian.com/books/2011/aug/24/genius-in-my-basement-review">The genius in by basement &#8211; The biography of a happy man</a> by <a href="https://en.wikipedia.org/wiki/Alexander_Masters">Alexander masters</a>.</p>
+<p>I first read it when it came out in 2011.</p>
+<p>Then, in conjunction with <a href="https://www.bloomsbury.com/us/genius-at-play-9781620405932/">Genius at play &#8211; The Curious Mind of John Horton Conway</a> Conway&#8217;s biography by <a href="https://en.wikipedia.org/wiki/Siobhan_Roberts">Siobhan Roberts</a>, in <a href="https://lievenlebruyn.github.io/neverendingbooks/life-on-gaussian-primes">july 2017</a>, which is probably the best way to read this book.</p>
+<p>And, then again last week, as <a href="https://en.wikipedia.org/wiki/Simon_P._Norton">Simon Norton</a>&#8216;s work pops up wherever I look, as in <a href="https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice">the previous post</a>.</p>
+<p>It takes some time to get used to the rather chaotic style (probably used because that&#8217;s how Masters perceives Norton), and all attempts at explaining Simon&#8217;s mathematics can better be skipped.</p>
+<p>The book tries to find an answer as to why a child prodigy and genius like Simon Norton failed to secure a safe place in academics.</p>
+<p>Page 328:</p>
+<blockquote><p>Simon&#8217;s second explanation of his loss of mathematical direction is heartbreaking. Now that Conway has fled to America, there is no one in the mathematical world who will work with him.</p>
+<p>They say he is too peculiar, too shabby, too old.</p>
+<p>His interests are fixed in mathematics that has had its day. His brilliance is frigid. His talent, perfectly suited to an extraordinary moment in algebraic history (the symmetry work at Cambridge during the early 1970s and 1980s) is out of fashion.
+</p></blockquote>
+<p>This may give the impression that Norton stopped doing good math after Conway left for Princeton in 1985. This is far from true.</p>
+<p>Norton&#8217;s <a href="https://en.wikipedia.org/wiki/Simon_P._Norton">Wikipedia page</a> mentions only post 1995 publications, which in itself is deplorable, as it leaves out his contributions to the <a href="https://en.wikipedia.org/wiki/ATLAS_of_Finite_Groups">ATLAS</a> and his seminal paper with Conway on Monstrous moonshine.</p>
+<p>Here&#8217;s Alexander Masters talking about &#8216;Genius in my basement&#8217;</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/j9Fyf9JG22A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>I&#8217;ll leave you with a nice quote, comparing Monstrous Moonshine to a Sainsbury&#8217;s bag on Jupiter.</p>
+<p>Page 334:</p>
+<blockquote><p>This much I do know: Monstrous Moonshine links the Monster to distant mathematics and the structure of space in ways that are as awe-inspiring to a man like Simon as it would be to an astronaut to step out of his space machine on Jupiter, and find a Sainsbury&#8217;s bag floating past. That&#8217;s why it&#8217;s called &#8216;Moonshine&#8217;, because mathematicians can even now hardly believe it.</p>
+<p>&#8216;I think&#8217;, said Simon, standing up from his berth and shaking crumbs and clotted blobs of oil and fish off his T-shirt onto the covers, &#8216;I can explain to you what Moonshine is in one sentence.&#8217;</p>
+<p>When he really tries, Simon can be a model of clarity.</p>
+<p>&#8216;It is,&#8217; he said, &#8216;the voice of God.&#8217;
+</p></blockquote>
+<p>Ps, wrt. <a href="https://lievenlebruyn.github.io/neverendingbooks/a-snortgo-endgame">SNORT</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lockdown-reading-snort/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>a monstrous unimodular lattice</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 30 Apr 2021 10:35:55 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Carnahan]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[lattice]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Niemeier]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[vetex algebra]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9722</guid>
+
+					<description><![CDATA[An integral $n$-dimensional lattice $L$ is the set of all integral linear combinations \[ L = \mathbb{Z} \lambda_1 \oplus \dots \oplus \mathbb{Z} \lambda_n \] of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>An integral $n$-dimensional lattice $L$ is the set of all integral linear combinations<br />
+\[<br />
+L = \mathbb{Z} \lambda_1 \oplus \dots \oplus \mathbb{Z} \lambda_n \]<br />
+of base vectors $\{ \lambda_1,\dots,\lambda_n \}$ of $\mathbb{R}^n$, equipped with the usual (positive definite) inner product, satisfying<br />
+\[<br />
+(\lambda, \mu ) \in \mathbb{Z} \quad \text{for all $\lambda,\mu \in \mathbb{Z}$.} \]<br />
+But then, $L$ is contained in its dual lattice $L^* = Hom_{\mathbb{Z}}(L,\mathbb{Z})$, and if $L = L^*$ we say that $L$ is <em>unimodular</em>.</p>
+<p>If all $(\lambda,\lambda) \in 2 \mathbb{Z}$, we say that $L$ is an <em>even</em> lattice. Even unimodular lattices (such as the <a href="https://en.wikipedia.org/wiki/E8_lattice">$E_8$-lattice</a> or the $24$ <a href="https://en.wikipedia.org/wiki/Niemeier_lattice">Niemeier lattices</a>) are wonderful objects, but they can only live in dimensions $n$ which are multiples of $8$.</p>
+<p>Just like the <a href="https://en.wikipedia.org/wiki/Conway_group">Conway group</a> $Co_0 = .0$ is the group of rotations of the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> $\Lambda$, one might ask whether there is a very special lattice on which the <a href="https://en.wikipedia.org/wiki/Monster_group">Monster group</a> $\mathbb{M}$ acts faithfully by rotations. If such a lattice exists, it must live in dimension at least $196883$.</p>
+<p><center><br />
+<img decoding="async" src="https://i.guim.co.uk/img/media/bc95794cf65cea461c38998357310576053a8cf9/0_55_1024_614/master/1024.jpg?width=445&#038;quality=45&#038;auto=format&#038;fit=max&#038;dpr=2&#038;s=48bd9bddca846a7afae589fd4fea01a3" width=100%><br />
+Simon Norton (1952-2019) &#8211; <a href="https://www.theguardian.com/education/2019/feb/22/simon-norton-obituary">Photo Credit</a><br />
+</center></p>
+<p>A first hint of such a lattice is in Conway&#8217;s original paper <a href="https://eudml.org/doc/143210">A simple construction for the Fischer-Griess monster group</a> (but not in the corresponding chapter 29 of <a href="http://neilsloane.com/doc/splag.html">SPLAG</a>).</p>
+<p>Conway writes that <a href="https://en.wikipedia.org/wiki/Simon_P._Norton">Simon Norton</a> showed &#8216;by a very simple computations that does not even require knowledge of the conjugacy classes, that any $198883$-dimensional representation of the Monster must support an invariant algebra&#8217;, which, after adding an identity element $1$, we now know as the $196884$-dimensional <a href="https://en.wikipedia.org/wiki/Griess_algebra">Griess algebra</a>.</p>
+<p>Further, on page 529, Conway writes:</p>
+<blockquote><p>Norton has shown that the lattice $L$ spanned by vectors of the form $1,t,t \ast t&#8217;$, where $t$ and $t&#8217;$ are transposition vectors, is closed under the algebra multiplication and integral with respect to the doubled inner product $2(u,v)$. The dual quotient $L^*/L$ is cyclic of order some power of $4$, and we believe that in fact $L$ is unimodular.</p></blockquote>
+<p>Here, transposition vectors correspond to transpositions in $\mathbb{M}$, that is, elements of conjugacy class $2A$.</p>
+<p>I only learned about this lattice yesterday via the MathOverflow-post <a href="https://mathoverflow.net/questions/363373/a-lattice-with-monster-group-symmetries">A lattice with Monster group symmetries</a> by <a href="https://mathoverflow.net/users/39521/adam-p-goucher">Adam P. Goucher</a>.</p>
+<p>In his post, Adam considers the $196883$-dimensional lattice $L&#8217; = L \cap 1^{\perp}$ (which has $\mathbb{M}$ as its rotation symmetry group), and asks for the minimal norm (squared) of a lattice point, which he believes is $448$, and for the number of minimal vectors in the lattice, which might be<br />
+\[<br />
+2639459181687194563957260000000 = 9723946114200918600 \times 27143910000 \]<br />
+the number of oriented arcs in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">Monster graph</a>.</p>
+<p>Here, the Monster graph has as its vertices the elements of $\mathbb{M}$ in conjugacy class $2A$ (which has $9723946114200918600$ elements) and with an edge between two vertices if their product in $\mathbb{M}$ again belongs to class $2A$, so the valency of the graph must be $27143910000$, as explained in  that old post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">the monster graph and McKay&#8217;s observation</a>.</p>
+<p>When I asked Adam whether he had more information about his lattice, he kindly informed me that Borcherds told him that the Norton lattice $L$ didn&#8217;t turn out to be unimodular after all, but that a unimodular lattice with monstrous symmetry had been constructed by <a href="http://www.math.tsukuba.ac.jp/~carnahan/">Scott Carnahan</a> in the paper <a href="https://www.emis.de/journals/SIGMA/2019/030/sigma19-030.pdf">A Self-Dual Integral Form of the Moonshine Module</a>.</p>
+<p><center><br />
+<img decoding="async" src="http://www.math.tsukuba.ac.jp/~carnahan/board.jpeg" width=100%><br />
+Scott Carnahan &#8211; <a href="http://www.math.tsukuba.ac.jp/~carnahan/">Photo Credit</a><br />
+</center></p>
+<p>The major steps (or better, the little bit of it I could grasp in this short time) in the construction of this unimodular $196884$-dimensional monstrous lattice might put a smile on your face if you are an affine scheme aficionado.</p>
+<p>Already in his paper <a href="https://math.berkeley.edu/~reb/papers/va/va.pdf">Vertex algebras, Kac-Moody algebras, and the Monster</a>, Richard Borcherds described an integral form of any lattice vertex algebra. We&#8217;ll be interested in the lattice vertex algebra $V_{\Lambda}$ constructed from the Leech lattice $\Lambda$ and call its integral form $(V_{\Lambda})_{\mathbb{Z}}$.</p>
+<p>One constructs the <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine#The_monster_module">Moonshine module</a> $V^{\sharp}$ from $V_{\Lambda}$ by a process called &#8216;cyclic orbifolding&#8217;, a generalisation of the <a href="https://www.elsevier.com/books/vertex-operator-algebras-and-the-monster/frenkel/978-0-12-267065-7">original construction</a> by Frenkel, Lepowsky and Meurman. In fact, there are now no less than <a href="https://arxiv.org/abs/1707.02954">51 constructions of the moonshine module</a>.</p>
+<p>One starts with a fixed point free rotation $r_p$ of $\Lambda$ in $Co_0$ of prime order $p \in \{ 2,3,5,7,13 \}$, which one can lift to an automorphism $g_p$ of the vertex algebra $V_{\Lambda}$ of order $p$ giving an isomorphism $V_{\Lambda}/g_p \simeq V^{\sharp}$ of vertex operator algebras over $\mathbb{C}$.</p>
+<p>For two distinct primes $p,p&#8217; \in \{ 2,3,5,7,13 \}$ if $Co_0$ has an element of order $p.p&#8217;$ one can find one such $r_{pp&#8217;}$ such that $r_{pp&#8217;}^p=r_{p&#8217;}$ and $r_{pp&#8217;}^{p&#8217;}=r_p$, and one can lift $r_{pp&#8217;}$ to an automorphism $g_{pp&#8217;}$ of $V_{\Lambda}$ such that $V_{\Lambda}/g_{pp&#8217;} \simeq V_{\Lambda}$ as vertex operator algebras over $\mathbb{C}$.</p>
+<p>Problem is that these lifts of automorphisms and the isomorphisms are not compatible with the integral form $(V_{\Lambda})_{\mathbb{Z}}$ of $V_{\Lambda}$, but &#8216;essentially&#8217;, they can be performed on<br />
+\[<br />
+(V_{\Lambda})_{\mathbb{Z}} \otimes_{\mathbb{Z}} \mathbb{Z}[\frac{1}{pp&#8217;},\zeta_{2pp&#8217;}] \]<br />
+where $\zeta_{2pp&#8217;}$ is a primitive $2pp&#8217;$-th root of unity. These then give a $\mathbb{Z}[\tfrac{1}{pp&#8217;},\zeta_{2pp&#8217;}]$-form on $V^{\sharp}$.</p>
+<p>Next, one uses a lot of subgroup information about $\mathbb{M}$ to prove that these $\mathbb{Z}[\tfrac{1}{pp&#8217;},\zeta_{2pp&#8217;}]$-forms of $V^{\sharp}$ have $\mathbb{M}$ as their automorphism group.</p>
+<p>Then, using all his for different triples in $\{ 2,3,5,7,13 \}$ one can glue and use faithfully flat descent to get an integral form $V^{\sharp}_{\mathbb{Z}}$ of the moonshine module with monstrous symmetry and such that the inner product on $V^{\sharp}_{\mathbb{Z}}$ is positive definite.</p>
+<p>Finally, one looks at the weight $2$ subspace of $V^{\sharp}_{\mathbb{Z}}$ which gives us <del datetime="2021-04-30T15:00:49+00:00">our</del> <em>Carnahan&#8217;s</em> $196884$-dimensional unimodular lattice with monstrous symmetry!</p>
+<p>Beautiful as this is, I guess it will be a heck of a project to deduce even the simplest of facts about this wonderful lattice from running through this construction.</p>
+<p>For example, what is the minimal length of vectors? What is the number of minimal length vectors? And so on. All info you might have is very welcome.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Leech lattice neighbour</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 23 Mar 2021 16:12:48 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Hamming]]></category>
+		<category><![CDATA[Kneser]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Niemeier]]></category>
+		<category><![CDATA[Pless]]></category>
+		<category><![CDATA[Sloan]]></category>
+		<category><![CDATA[Steiner]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9394</guid>
+
+					<description><![CDATA[Here&#8217;s the upper part of Kneser&#8216;s neighbourhood graph of the Niemeier lattices: The Leech lattice has a unique neighbour, that is, among the $23$ remaining&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s the upper part of <a href="https://en.wikipedia.org/wiki/Martin_Kneser">Kneser</a>&#8216;s neighbourhood graph of the <a href="https://en.wikipedia.org/wiki/Niemeier_lattice">Niemeier lattices</a>:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/A124Leech.jpg" width=80% ><br />
+</center></p>
+<p>The <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> has a unique neighbour, that is, among the $23$ remaining Niemeier lattices there is a unique one, $(A_1^{24})^+$, sharing an index two sub-lattice with the Leech.</p>
+<p>How would you try to construct $(A_1^{24})^+$, an even unimodular lattice having the same roots as $A_1^{24}$?</p>
+<p>The root lattice $A_1$ is $\sqrt{2} \mathbb{Z}$. It has two roots $\pm \sqrt{2}$, determinant $2$, its dual lattice is $A_1^* = \tfrac{1}{\sqrt{2}} \mathbb{Z}$ and we have $A_1^*/A_1 \simeq C_2 \simeq \mathbb{F}_2$.</p>
+<p>Thus, $A_1^{24}= \sqrt{2} \mathbb{Z}^{\oplus 24}$ has $48$ roots, determinant $2^{24}$, its dual lattice is $(A_1^{24})^* = \tfrac{1}{\sqrt{2}} \mathbb{Z}^{\oplus 24}$ and the quotient group $(A_1^{24})^*/A_1^{24}$ is $C_2^{24}$ isomorphic to the additive subgroup of $\mathbb{F}_2^{\oplus 24}$.</p>
+<p>A larger lattice $A_1^{24} \subseteq L$ of index $k$ gives for the dual lattices an extension $L^* \subseteq (A_1^{24})^*$, also of index $k$. If $L$ were unimodular, then the index has to be $2^{12}$ because we have the situation<br />
+\[<br />
+A_1^{24} \subseteq L = L^* \subseteq (A_1^{24})^* \]<br />
+So, Kneser&#8217;s glue vectors form a $12$-dimensional subspace $\mathcal{C}$ in $\mathbb{F}_2^{\oplus 24}$, that is,<br />
+\[<br />
+L = \mathcal{C} \underset{\mathbb{F}_2}{\times} (A_1^{24})^* = \{ \tfrac{1}{\sqrt{2}} \vec{v} ~|~\vec{v} \in \mathbb{Z}^{\oplus 24},~v=\vec{v}~mod~2 \in \mathcal{C} \} \]<br />
+Because $L = L^*$, the linear code $\mathcal{C}$ must be self-dual meaning that $v.w = 0$ (in $\mathbb{F}_2$) for all $v,w \in \mathcal{C}$. Further, we want that the roots of $A_1^{24}$ and $L$ are the same, so the minimal number of non-zero coordinates in $v \in \mathcal{C}$ must be $8$.</p>
+<p>That is, $\mathcal{C}$ must be a <a href="https://en.wikipedia.org/wiki/Dual_code#:~:text=A%20self%2Ddual%20code%20is,which%20are%20not%20doubly%20even.">self-dual</a> binary code of length $24$ with <a href="https://en.wikipedia.org/wiki/Hamming_distance">Hamming distance</a> $8$.</p>
+<p><center><br />
+<img decoding="async" src="https://www.tuencyclopedie.nl/images/thumb/b/b9/Lemma_71_Foto_1.jpg/300px-Lemma_71_Foto_1.jpg" width=80%><br />
+Marcel Golay (1902-1989) &#8211; <a href="https://www.tuencyclopedie.nl/index.php?title=Golay_M.J.E.">Photo Credit</a><br />
+</center></p>
+<p>We now know that there is a unique such code, the (extended) <a href="https://en.wikipedia.org/wiki/Binary_Golay_code#:~:text=In%20mathematics%20and%20electronics%20engineering,finite%20sporadic%20groups%20in%20mathematics.">binary Golay code</a>, $\mathcal{C}_{24}$, which has</p>
+<ul>
+<li>one vector of weight $0$</li>
+<li>$759$ vectors of weight $8$ (called &#8216;octads&#8217;)</li>
+<li>$2576$ vectors of weight $12$ (called &#8216;dodecads&#8217;)</li>
+<li>$759$ vectors of weight $16$</li>
+<li>one vector of weight $24$</li>
+</ul>
+<p>The $759$ octads form a <a href="https://en.wikipedia.org/wiki/Steiner_system#:~:text=A%20Steiner%20system%20with%20parameters,contained%20in%20exactly%20one%20block.">Steiner system</a> $S(5,8,24)$ (that is, for any $5$-subset $S$ of the $24$-coordinates there is a unique octad having its non-zero coordinates containing $S$).</p>
+<p>Witt constructed a Steiner system $S(5,8,24)$ in his 1938 paper &#8220;Die $5$-fach transitiven Gruppen von Mathieu&#8221;, so it is not unthinkable that he checked the subspace of $\mathbb{F}_2^{\oplus 24}$ spanned by his $759$ octads to be $12$-dimensional and self-dual, thereby constructing the Niemeier-lattice $(A_1^{24})^+$  <a href="https://lievenlebruyn.github.io/neverendingbooks/witt-and-his-niemeier-lattices">on that sunday in 1940</a>.</p>
+<p>John Conway classified all nine self-dual codes of length $24$ in which the weight<br />
+of every codeword is a multiple of $4$. Each one of these codes $\mathcal{C}$ gives a Niemeier lattice $\mathcal{C} \underset{\mathbb{F}_2}{\times} (A_1^{24})^*$, all but one of them having more roots than $A_1^{24}$.</p>
+<p><a href="https://en.wikipedia.org/wiki/Vera_Pless">Vera Pless</a> and <a href="https://en.wikipedia.org/wiki/Neil_Sloane">Neil Sloan</a> classified all $26$ <a href="https://www.researchgate.net/publication/251812065_Binary_self-dual_codes_of_length_24">binary self-dual codes of length $24$</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Penrose&#8217;s aperiodic tilings</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/penroses-aperiodic-tilings/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/penroses-aperiodic-tilings/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 09 Mar 2021 13:37:00 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[GoV]]></category>
+		<category><![CDATA[Bertman]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Gardner]]></category>
+		<category><![CDATA[P2 tiles]]></category>
+		<category><![CDATA[P3 tiles]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[Penrose tiling]]></category>
+		<category><![CDATA[rhombic tiling]]></category>
+		<category><![CDATA[Ritter]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9183</guid>
+
+					<description><![CDATA[Around 1975 Sir Roger Penrose discovered his aperiodic P2 tilings of the plane, using only two puzzle pieces: Kites (K) and Darts (D) The inner&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Around 1975 <a href="https://en.wikipedia.org/wiki/Roger_Penrose">Sir Roger Penrose</a> discovered his <a href="https://en.wikipedia.org/wiki/Penrose_tiling">aperiodic P2 tilings</a> of the plane, using only two puzzle pieces: Kites (K) and Darts (D)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/KitesDarts.jpg" width=50% ><br />
+</center></p>
+<p>The inner angles of these pieces are all multiples of $36^o = \tfrac{180^o}{5}$, the short edges have length $1$, and the long edges have length $\tau = \tfrac{1+\sqrt{5}}{2}$, the golden ratio. These pieces must be joined together so that the colours match up (if we do not use this rule it is easy to get periodic tilings with these two pieces).</p>
+<p>There is plenty of excellent online material available:</p>
+<ul>
+<li>The two original <a href="https://www.maa.org/sites/default/files/pdf/pubs/focus/Gardner_PenroseTilings1-1977.pdf">Martin Gardner Scientific American</a> articles on Penrose tiles have been made available by the MAA, and were reprinted in <a href="https://www.amazon.com/Penrose-Tiles-Trapdoor-Ciphers-Spectrum/dp/0883855216">&#8220;Penrose Tiles to Trapdoor Ciphers&#8221;</a>. They contain most of Conway&#8217;s early discoveries about these tilings, but without proofs.</li>
+<li>A <a href="http://www.mrbertman.com/penroseTilings.html">JavaScript application</a> by Kevin Bertman to play around with these tilings. You can deflate and inflate tilings, find forced tiles and much more. Beneath the app-window there&#8217;s a detailed explanation of all the basics, including inflation and deflation of the P2-tiles, the seven types of local vertex configurations (naming by Conway, of course),<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/vertex1.jpg" width=70% ><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/vertex2.jpg" width=70% ><br />
+</center><br />
+proofs of aperiodicity (similar to the one for <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences">Conway&#8217;s musical sequences</a>), that every tile lies within an ace (similar to the LSL-subword in musical sequences) with application to local isomorphism (again similar to the $1$-dimensional case).
+</li>
+<li>Course notes of an Oxford masterclass in geometry <a href="https://people.maths.ox.ac.uk/ritter/masterclasses/ritter-lectures-on-penrose-tilings.pdf">Lectures on Penrose tilings</a> by Alexander Ritter, again with proofs of all of the above and a discussion about the Cartwheel tilings (similar to that in the post on musical sequences), giving an algorithm to decide whether or not a partial tiling can be extended to the entire plane, or not.
+</li>
+</ul>
+<p>There&#8217;s no point copying this material here. Rather, I&#8217;d like to use some time in this <a href="https://lievenlebruyn.github.io/neverendingbooks/category/gov">GoV series of posts</a> to talk about de Bruijn&#8217;s pentagrid results. For this reason, I now need to make the connection with Penrose&#8217;s &#8216;other&#8217; tilings, the P3 tiles of &#8216;thin&#8217; and &#8216;thick&#8217; rhombi (sometimes called &#8216;skinny&#8217; and &#8216;fat&#8217; rhombi).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/rhombsmatching.jpg" width=30% ><br />
+</center></p>
+<p>Every Penrose P2-tiling can be turned into a P3-rhombic tiling, and conversely.</p>
+<p>From kites and darts to rhombi: divide every kite in two halves along its line of reflection. Then combine darts and half-kites into rhombi where a <strong>fat rhombus</strong> consists of a dart and two half-kites, joined at a long edge, and a <strong>skinny rhombus</strong> is made of two half-kites, joined at a short edge. This can always be done preserving the gluing conditions. It suffices to verify this for the deflated kite and dart (on the left below) and we see that the matching colour-conditions are those of the rhombi.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/P2toP3a.jpg" width=60% ><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/P2toP3b.jpg" width=50% ><br />
+</center></p>
+<p>From rhombi to kites and darts: divide every fat rhombus into a dart (placed at the red acute angle) and two half-kites, joined at a long edge, and divide every skinny rhombus into two half-kites along its short diagonal.</p>
+<p>All results holding for Kites and Darts tilings have therefore their versions for Rhombic tilings. For example, we have rhombic deflation and inflation rules</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/P3a.jpg" width=50% ><br />
+</center></p>
+<p>A Rhombic tiling can be seen as an intermediate step in the inflation process of a Penrose tiling $P$. Start by dividing all kites in two halves along their long diagonal and all darts in two halves along their short diagonal (the purple lines below).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/P3b.jpg" width=70% ><br />
+</center></p>
+<p>If we consider all original black lines together with the new purple ones, we get a tiling of the plane by  triangles and we call this the $A$-tiling. There are two triangles, s small triangle $S_A$ (the whiter ones, with two small edges ofd length $1$ and one edge of length $\tau$) and a large triangle $L_A$ (the greyer ones, with two edges of length $\tau$ and one edge of length $1$).</p>
+<p>Next, we remove the black lines joining an $S_A$-triangle with an $L_A$-triangle, and get another tiling with triangles, the $B$-tiling, with two pieces, a large triangle $L_B$ with two sides of length $\tau$ and one side of length $1+\tau$ (the white ones) (the union of an $L_A$ and a $S_A$), and a small triangle $S_B$ which has the same form as $L_A$ (the greyer ones). If we now join two white triangles $L_B$ along their common longer edge, and two greyer triangles $S_B$ along their common smaller edge, we obtain the Rhombic tiling $R$ corresponding to $P$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/P3c.jpg" width=60% ><br />
+</center></p>
+<p>We can repeat this process starting with the Rhombic tiling $R$. We divide all fat rhombi in two along their long diagonals, and the skinny rhombi in two along their short diagonals (the purple lines). We obtain a tiling of the plane by triangles, which is of course just the $B$-tiling above.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/P3d.jpg" width=50% ><br />
+</center></p>
+<p>Remove the edge joining a small $S_B$ with a large $L_B$ triangle, then we get a new tiling by triangles, the $\tau A$-tiling consisting of large triangles $L_{\tau A}$ (the white ones) with two long edges of length $1+\tau$ and one short edge of length $\tau$ (note that $L_{\tau A}$ is $\tau$ times the triangle $L_A$), and a smaller one $S_{\tau A}$ (the grey ones) having two short edges of length $\tau$ and one long edge of length $1+\tau$ (again $S_{\tau A}$ is $\tau$ times the triangle $S_A$). If we join two $L_{\tau A}$-triangles sharing a common long edge we obtain a Kite ($\tau$-times larger than the original Kite) and if we joint two $S_{\tau A}$-triangles along their common small edge we get a Dart ($\tau$ times larger than the original Dart). The Penrose tiling we obtain is the inflation $inf(P)$ of the original $P$.</p>
+<p>If we repeat the whole procedure starting from $inf(P)$ instead of $P$ we get, in turn, triangle tilings of the plane, subsequently the $\tau B$-tiling, the $\tau^2 A$-tiling, the $\tau^2 B$-tiling and so on, the triangles in a $\tau^n A$-tiling being of size $\tau^2$-times those of the $A$-tiling, and those in the $\tau^n B$-tiling $\tau^n$-times as large as those of the $B$-tiling.</p>
+<p>The upshot of this is that we can associate to a Penrose tiling $P$ of the plane a sequence of $0$&#8217;s and $1$&#8217;s. Starting from $P$ we have an infinite sequence of associated triangle tilings<br />
+\[<br />
+A,~B,~\tau A,~\tau B,~\tau^2 A, \dots,~\tau^n A,~\tau^n B,~\tau^{n+1} A, \dots \]<br />
+with larger and larger triangle tiles. Let $p$ be a point of the plane lying in the interior of an $A$-tile, then we define its index sequence<br />
+\[<br />
+i(P,p) = (x_0,x_1,x_2,\dots ) \quad x_{2n} = \begin{cases} 0~\text{if $p \in L_{\tau^n A}$} \\ 1~\text{if $p \in S_{\tau^n A}$} \end{cases}~ x_{2n+1} = \begin{cases} 0~\text{if $p \in L_{\tau^n B}$} \\ 1~\text{if $p \in S_{\tau^n B}$} \end{cases} \]<br />
+That is, $x_0=1$ if $p$ lies in a small triangle of the $A$-tiling and $x_0=1$ if it lies in a large triangle, $x_1=1$ if $p$ lies in a small triangle of the $B$-tiling and is $0$ if it lies in a large $B$-triangle, and so on.</p>
+<p>The beauty of this is that every infinite sequence $(x_0,x_1,x_2,\dots )$ whose terms are $0$ or $1$, and in which no two consecutive terms are equal to $1$, is the index sequence $i(P,p)$ of some Penrose tiling $P$ in some point $p$ of the plane.</p>
+<p>From the construction of the sequence of triangle-tilings it follows that a small triangle is part of a large triangle in the next tiling. For this reason an index sequence can never have two consecutive ones. An index sequence gives explicit instructions as to how the Penrose tiling is constructed. In each step add a large or small triangle as to fit the sequence, together with the matching triangle (the other half of a Penrose or Rhombic tile). Next, look at the patches $P_i$ of Kites and Darts (in the $\tau^i A$ tiling), for $i=0,1,\dots$, then $P_{i-k}$ is contained in the $k$-times inflated $P_i$, $i^k(P_i)$ (without rescaling), for each $i$ and all $1 \leq k \leq i$. But then, we have a concentric series of patches<br />
+\[<br />
+P_0 \subset i(P_1) \subset i^2(P_2) \subset \dots \]<br />
+filling the entire plane.</p>
+<p><center><br />
+<img decoding="async" src="https://img.etimg.com/thumb/msid-78600704,width-640,resizemode-4,imgsize-108254/patterns-of-penrose.jpg" width=80% ><br />
+</center></p>
+<p>The index sequence depends on the choice of point $p$ in the plane. If $p&#8217;$ is another point, then as the triangle tiles increase is size at each step, $p$ and $p&#8217;$ will lie in the same triangle-tile at some stage, and after that moment their index sequences will be the same.</p>
+<p>As a result, there exists an uncountable infinity of distinct Penrose tilings of the plane.</p>
+<p>From the discussions we see that a Penrose tiling is determined by the index-sequence in any point in the plane $(x_0,x_1,\dots )$ consisting of $0$&#8217;s and $1$&#8217;s having no two consecutive $1$&#8217;s, and that another such sequence $(x&#8217;_0,x&#8217;_1,\dots )$ determines the same Penrose tilings if $x_n=x&#8217;_n$ for all $n \geq N$ for some number $N$. That is, the Penrose tiling is determined by the  the equivalence class of such sequences, and it is easy to see that there are uncountably many such equivalence classes.</p>
+<p>If you want to play a bit with Penrose tiles, you can order the <a href="https://www.cherryarbordesign.com/product/penrose-p2-2/">P2 tiles</a> or the <a href="https://www.cherryarbordesign.com/product/penrose-p3-2/">P3 tiles</a> from<br />
+<a href="https://www.cherryarbordesign.com/">Cherry Arbor Design</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/penroses-aperiodic-tilings/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Conway&#8217;s musical sequences (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 03 Mar 2021 17:18:35 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[GoV]]></category>
+		<category><![CDATA[aperiodic tiling]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[cut-and-project]]></category>
+		<category><![CDATA[tiling]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9083</guid>
+
+					<description><![CDATA[A Conway musical sequence is an infinite word in $L$ and $S$, containing no two consecutive $S$&#8217;s nor three consecutive $L$&#8217;s, such that all its&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences">Conway musical sequence</a> is an infinite word in $L$ and $S$, containing no two consecutive $S$&#8217;s nor three consecutive $L$&#8217;s, such that all its inflations remain musical sequences.</p>
+<p>We&#8217;ve seen that such musical sequences encode an aperiodic tiling of the line in short ($S$) and long ($L$) intervals, and that such tilings are all finite locally isomorphic.</p>
+<p>But, apart from the middle $C$-sequences (the one-dimensional cartwheel tilings) we gave no examples of such tilings (or musical sequences). Let&#8217;s remedy this!</p>
+<p>Take any real number $c$ as long as it is not an integral combination of $1$ and $\tfrac{1}{\tau}$ (with $\tau$ the <a href="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio</a>) and assign to any integer $a \in \mathbb{Z}$ a tile<br />
+\[<br />
+P_c(a) = \begin{cases} S \\ L \end{cases} ~\text{iff}~\lceil c+(a+1)\frac{1}{\tau} \rceil &#8211; \lceil c+a \frac{1}{\tau} \rceil = \begin{cases} 0 \\ 1 \end{cases} \]<br />
+(instead of ceilings we might have taken floors, because of the restriction on $c$).</p>
+<p>With a little bit of work we see that the deflated word determined by $P_c$ is again of this type, more precisely $def(P_c) = P_{-(c-\lfloor c \rfloor)\frac{1}{\tau}}$. But then it also follows that inflated words are of this type, meaning that all $P_c$ define a musical sequence.</p>
+<p>Let&#8217;s just check that these sequences satisfy the gluing restrictions. If there is no integer between $c+a\tfrac{1}{\tau}$ and $c+(a+1)\tfrac{1}{\tau}$, because $2 \tfrac{1}{\tau} \approx 1.236$ there must be an interval in the preceding and the following $\tfrac{1}{\tau}$-interval, showing that an $S$ in the sequence has an $L$ on its left and right, so there are no two consecutive $S$&#8217;s in the sequences.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cap4.jpg" width=90% ><br />
+</center></p>
+<p>Similarly, if two consecutive $\tfrac{1}{\tau}$-intervals have an integer in them, the next interval cannot contain an integer as $3 \tfrac{1}{\tau} \approx 1.854 < 2$.
+
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cap5.jpg" width=90% ><br />
+</center></p>
+<p>Now we come to the essential point: these sequences can be obtained by the <a href="https://tilings.math.uni-bielefeld.de/glossary/cut-and-project/">cut-and-project method</a>.</p>
+<p>Take the line $L$ through the origin with slope $\tfrac{1}{\tau}$ and $L^{\perp}$ the line perpendicular it.</p>
+<p>Consider the unit square $H$ and $H_{\vec{\gamma}}=H + \vec{\gamma}$ its translation under a shift vector $\vec{\gamma}=(\gamma_x,\gamma_y)$ and let $\pi$ (or $\pi^{\perp}$) be the orthogonal projection of the plane onto $L$ (or onto $L^{\perp}$). One quickly computes that<br />
+\[<br />
+\pi(a,b) = (\frac{\tau^2 a + \tau b}{1+\tau^2},\frac{\tau a + b}{1+\tau^2}) \quad \text{and} \quad<br />
+\pi^{\perp}(a,b) = (\frac{a-\tau b}{1+\tau^2},\frac{\tau^2b-\tau a}{1+\tau^2}) \]<br />
+In the picture, we take $\vec{\gamma}=(c,-\tau c)$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cap1.jpg" width=70% ><br />
+</center></p>
+<p>The <strong>window</strong> $W$ will be the strip, parallel with $L$ with basis $\pi^{\perp}(H_{\vec{\gamma}})$.</p>
+<p>We <strong>cut</strong> the standard lattice $\mathbb{Z}^2$, of all points with integer coordinates in the plane, by retricting to the window $\mathcal{P}=\mathbb{Z}^2 \cap W$.</p>
+<p>Next, we <strong>project</strong> $\mathcal{P}$ onto the line $L$, and we get a set of endpoints of intervals which divide the line $L$ into short intervals of length $\tfrac{1}{\sqrt{1+\tau^2}}$ and long intervals of length $\tfrac{\tau}{\sqrt{1+\tau^2}}$.</p>
+<p>For $(a,b) \in W$, the interval will be short if $(a,b+1) \in W$ and long if $(a+1,b) \in W$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cap2.jpg" width=80% ><br />
+</center></p>
+<p>Because these intervals differ by a factor $\tau$ in length, we get a tiling of the line by short intervals $S$ and long intervals $L$. It is easy to see that they satisfy the gluing restrictions (remember, no two consecutive short intervals and no three consecutive long intervals): the horizontal width of the window $W$ is $1+\tau \approx 2.618$ (so there cannot be three consecutive long intervals in the projection) and the vertical width of the window $W$ is $1+\tfrac{1}{\tau} = \tau \approx 1.618$ so there cannot be two consecutive short intervals in the projection.</p>
+<p>Ready for the punchline?</p>
+<p>The sequence obtained from projecting $\mathcal{P}$ is equal to the sequence $P_{(1+\tau^2)c}$. So, we get all musical sequences of this form from the cut-and-project method!</p>
+<p>On $L^{\perp}$ the two end-points of the window are<br />
+\[<br />
+\begin{cases}<br />
+\pi^{\perp}(c+1,-\tau c) = (\frac{(1+\tau^2)c+1}{1+\tau^2},- \tau \frac{(1+\tau^2)c+1}{1+\tau^2}) \\<br />
+ \pi^{\perp}(c,-\tau c+1) = (\frac{(1+\tau^2)c-\tau}{1+\tau^2},-\tau \frac{(1+\tau^2)c-\tau}{1+\tau^2})<br />
+ \end{cases} \]<br />
+Therefore, a point $(a,b) \in \mathbb{Z}^2$ lies in the window $W$ if and only if<br />
+\[<br />
+(1+\tau^2)c-\tau <  a-\tau b < (1+\tau^2)c+1 \]
+or equivalently, if
+\[
+(1+\tau^2)c+(b-1)\tau < a <  (1+\tau^2)c+b \tau + 1 \]
+Observe that
+\[
+\lceil (1+\tau^2)c + b\tau \rceil - \lceil (1+\tau^2)c+(b-1)\tau \rceil = P_{(1+\tau^2)c}(b-1) + 1 \in \{ 1,2 \} \]
+We separate the two cases:
+
+(1) : If $\lceil (1+\tau^2)c + (b+1)\tau \rceil - \lceil (1+\tau^2)c+b \tau \rceil =1$, then there must be an integer $a$ such that $(1+\tau^2)c +(b+1) \tau -1 < a < (1+\tau^2) b+1$, and this forces $\lceil (1+\tau^2)c + (b+2)\tau \rceil - \lceil (1+\tau^2)c+(b+1)\tau \rceil =2$. With $b_i = (1+\tau^2)c+(b+i)\tau$ and $d_i = b_i+1$ we have the situation
+
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cap6.jpg" width=90% ><br />
+</center></p>
+<p>and from the inequalities above this implies that both $(a+1,b+1)$ and $(a+1,b+2)$ are in $W$, giving a short interval $S$ in the projection.</p>
+<p>(2) : If $\lceil (1+\tau^2)c + (b+1)\tau \rceil &#8211; \lceil (1+\tau^2)c+b \tau \rceil =1$, then there must be an integer $a$ such that $(1+\tau^2)c+b \tau < a < (1+\tau^2)cv + (b+1)\tau -1$, giving the situation
+
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cap7.jpg" width=90% ><br />
+</center></p>
+<p>giving from the inequalities that both $(a+1,b+1)$ and $(a+2,b+1)$ are in $W$, giving a long interval $L$ in the projection, finishing the proof.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Borcherds&#8217; favourite numbers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 02 Mar 2021 17:50:18 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Bruhat]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[de Jonquiere]]></category>
+		<category><![CDATA[Eisenbud]]></category>
+		<category><![CDATA[Fischer]]></category>
+		<category><![CDATA[Frenkel]]></category>
+		<category><![CDATA[Griess]]></category>
+		<category><![CDATA[Hardy]]></category>
+		<category><![CDATA[Harris]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Lepowski]]></category>
+		<category><![CDATA[Lie]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[McKay]]></category>
+		<category><![CDATA[Meurman]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[Ono]]></category>
+		<category><![CDATA[Ramanujan]]></category>
+		<category><![CDATA[Steiner]]></category>
+		<category><![CDATA[Stillwell]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8990</guid>
+
+					<description><![CDATA[Whenever I visit someone&#8217;s YouTube or Twitter profile page, I hope to see an interesting banner image. Here&#8217;s the one from Richard Borcherds&#8217; YouTube Channel.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Whenever I visit someone&#8217;s YouTube or Twitter profile page, I hope to see an interesting banner image. Here&#8217;s the one from <a href="https://www.youtube.com/channel/UCIyDqfi_cbkp-RU20aBF-MQ">Richard Borcherds&#8217; YouTube Channel</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BorcherdsNumbers.jpg" width=100% ></p>
+<p>Not too surprisingly for Borcherds, almost all of these numbers are related to the <a href="https://en.wikipedia.org/wiki/Monster_group">monster group</a> or its <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">moonshine</a>.</p>
+<p>Let&#8217;s try to decode them, in no particular order.</p>
+<p><strong>196884</strong></p>
+<p><a href="https://en.wikipedia.org/wiki/John_McKay_(mathematician)">John McKay&#8217;s</a> observation $196884 = 1 + 196883$ was the start of the whole &#8216;monstrous moonshine&#8217; industry. Here, $1$ and $196883$ are the dimensions of the two smallest irreducible representations of the monster simple group, and $196884$ is the first non-trivial coefficient in <a href="https://en.wikipedia.org/wiki/J-invariant">Klein&#8217;s j-function</a> in number theory.</p>
+<p>$196884$ is also the dimension of the space in which <a href="https://en.wikipedia.org/wiki/Robert_Griess">Robert Griess</a> constructed the Monster, following <a href="https://en.wikipedia.org/wiki/Simon_P._Norton">Simon Norton&#8217;s</a> lead that there should be an algebra structure on the monster-representation of that dimension. This algebra is now known as the <a href="https://en.wikipedia.org/wiki/Griess_algebra">Griess algebra</a>.</p>
+<p>Here&#8217;s a recent talk by Griess <a href="https://www.youtube.com/watch?v=Zynb7VKRr-U">&#8220;My life and times with the sporadic simple groups&#8221;</a> in which he tells about his construction of the monster (relevant part starting at 1:15:53 into the movie).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Zynb7VKRr-U?start=4553" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>1729</strong></p>
+<p>1729 is the second (and most famous) <a href="https://en.wikipedia.org/wiki/Taxicab_number">taxicab number</a>. A long time ago I did write a post about the classic Ramanujan-Hardy story <a href="https://en.wikipedia.org/wiki/Ken_Ono">the taxicab curve</a> (note to self: try to tidy up the layout of some old posts!).</p>
+<p>Recently, connections between Ramanujan&#8217;s observation and K3-surfaces were discovered. Emory University has an enticing press release about this: <a href="http://esciencecommons.blogspot.com/2015/10/mathematicians-find-magic-key-to-drive.html">Mathematicians find &#8216;magic key&#8217; to drive Ramanujan&#8217;s taxi-cab number</a>. The paper itself is <a href="https://arxiv.org/abs/1510.00735">here</a>.</p>
+<blockquote><p>“We’ve found that Ramanujan actually discovered a K3 surface more than 30 years before others started studying K3 surfaces and they were even named. It turns out that Ramanujan’s work anticipated deep structures that have become fundamental objects in arithmetic geometry, number theory and physics.&#8221;</p>
+<p><a href="https://en.wikipedia.org/wiki/Ken_Ono">Ken Ono</a></p></blockquote>
+<p><strong>24</strong></p>
+<p>There&#8217;s no other number like $24$ responsible for the existence of sporadic simple groups.</p>
+<p>24 is the length of the <a href="https://en.wikipedia.org/wiki/Binary_Golay_code#:~:text=In%20mathematics%20and%20electronics%20engineering,finite%20sporadic%20groups%20in%20mathematics.">binary Golay code</a>, with isomorphism group the sporadic <a href="https://en.wikipedia.org/wiki/Mathieu_group">Mathieu group</a> $M_24$ and hence all of the other Mathieu-groups as subgroups.</p>
+<p>24 is the dimension of the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a>, with isomorphism group the Conway group $Co_0 = .0$ (dotto), giving us modulo its center the sporadic group $Co_1=.1$ and the other <a href="https://en.wikipedia.org/wiki/Conway_group">Conway groups</a> $Co_2=.2, Co_3=.3$, and all other sporadics of the second generation in the <a href="https://en.wikipedia.org/wiki/Pariah_group">happy family</a> as subquotients (McL,HS,Suz and $HJ=J_2$)</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/SporadicGroups.svg/680px-SporadicGroups.svg.png" width=60% ><br />
+</center></p>
+<p>24 is the central charge of the <a href="https://en.wikipedia.org/wiki/Monster_vertex_algebra">Monster vertex algebra</a> constructed by Frenkel, Lepowski and Meurman. Most experts believe that the Monster&#8217;s reason of existence is that it is the symmetry group of this vertex algebra. John Conway was one among few others hoping for a nicer explanation, as he said in this <a href="https://www.youtube.com/watch?v=lbN8EMcOH5o">interview with Alex Ryba</a>.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/lbN8EMcOH5o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>24 is also an important number in <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a>, see for example the post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24">the defining property of 24</a>. There&#8217;s a lot more to say on this, but I&#8217;ll save it for another day.</p>
+<p><strong>60</strong></p>
+<p>60 is, of course, the order of the smallest non-Abelian simple group, $A_5$, the rotation symmetry group of the icosahedron. $A_5$ is the symmetry group of choice for most viruses <a href="https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19">but not the Corona-virus</a>.</p>
+<p><strong>3264</strong></p>
+<p>3264 is the correct solution to <a href="https://en.wikipedia.org/wiki/Steiner%27s_conic_problem">Steiner&#8217;s conic problem</a> asking for the number of conics in $\mathbb{P}^2_{\mathbb{C}}$ tangent to five given conics in general position.</p>
+<p><center><br />
+<img decoding="async" src="https://www.juliahomotopycontinuation.org/images/given_conics_example.png" width=60% ><br />
+</center></p>
+<p>Steiner himself claimed that there were $7776=6^5$ such conics, but realised later that he was wrong. The correct number was first given by <a href="https://en.wikipedia.org/wiki/Ernest_de_Jonqui%C3%A8res">Ernest de Jonquières</a> in 1859, but a rigorous proof had to await the advent of modern intersection theory.</p>
+<p>Eisenbud and Harris wrote a book on intersection theory in algebraic geometry, freely available online: <a href="https://scholar.harvard.edu/files/joeharris/files/000-final-3264.pdf">3264 and all that</a>.</p>
+<p><strong>248</strong></p>
+<p>248 is the dimension of the exceptional simple Lie group <a href="https://en.wikipedia.org/wiki/E8_(mathematics)">$E_8$</a>. $E_8$ is also connected to the monster group.</p>
+<p>If you take two Fischer involutions in the monster (elements of conjugacy class 2A) and multiply them, the resulting element surprisingly belongs to one of just 9 conjugacy classes:</p>
+<p>1A,2A,2B,3A,3C,4A,4B,5A or 6A</p>
+<p>The orders of these elements are exactly the dimensions of the fundamental root for the extended $E_8$ Dynkin diagram.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/e8monster.png"></p>
+<p>This is yet another moonshine observation by John McKay and I wrote a couple of posts about it and about Duncan&#8217;s solution: <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">the monster graph and McKay&#8217;s observation</a>, and <a href="https://lievenlebruyn.github.io/neverendingbooks/e8-from-moonshine-groups">$E_8$ from moonshine groups</a>.</p>
+<p><strong>163</strong></p>
+<p>163 is a remarkable number because of the &#8216;modular miracle&#8217;<br />
+\[<br />
+e^{\pi \sqrt{163}} = 262537412640768743.99999999999925&#8230; \]<br />
+This is somewhat related to moonshine, or at least to Klein&#8217;s j-function, which by a result of Kronecker&#8217;s detects the classnumber of imaginary quadratic fields $\mathbb{Q}(\sqrt{-D})$ and produces integers if the classnumber is one (as is the case for $\mathbb{Q}(\sqrt{-163})$).</p>
+<p>The details are in the post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-modular-miracle-of-163">the miracle of 163</a>, or in the paper by John Stillwell, <a href="https://www.jstor.org/stable/2695682?seq=1#metadata_info_tab_contents">Modular Miracles</a>, The American Mathematical Monthly, 108 (2001) 70-76.</p>
+<p>Richard Borcherds, the math-vlogger, has an entertaining video about this story: <a href="https://www.youtube.com/watch?v=a9k_QmZbwX8">MegaFavNumbers 262537412680768000</a></p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/a9k_QmZbwX8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>His description of the $j$-function (at 4:13 in the movie) is simply hilarious!</p>
+<p>Borcherds connects $163$ to the monster moonshine via the $j$-function, but there&#8217;s another one.</p>
+<p>The monster group has $194$ conjugacy classes and monstrous moonshine assigns a &#8216;moonshine function&#8217; to each conjugacy class (the $j$-function is assigned to the identity element). However, these $194$ functions are not linearly independent and the space spanned by them has dimension exactly $163$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Conway&#8217;s musical sequences</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 02 Mar 2021 07:21:17 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[GoV]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[cut-and-project]]></category>
+		<category><![CDATA[musical sequence]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[Penrose tiling]]></category>
+		<category><![CDATA[tilings]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8955</guid>
+
+					<description><![CDATA[Before we&#8217;ll come to applications of quasicrystals to viruses it is perhaps useful to illustrate essential topics such as deflation, inflation, aperiodicity, local isomorphism and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Before we&#8217;ll come to applications of <a href="https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals">quasicrystals to viruses</a> it is perhaps useful to illustrate essential topics such as deflation, inflation, aperiodicity, local isomorphism and the cut-and project method in the simplest of cases, that of $1$-dimensional tilings.</p>
+<p>We want to tile the line $\mathbb{R}^1$ with two kinds of tiles, short ($S$) and ($L$) long intervals, differing by a <a href="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio</a> factor $\tau=\tfrac{1}{2}(1+\sqrt{5}) \approx 1.618$.<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cms1.jpg" width=50% ><br />
+</center></p>
+<p>Clearly, no two tiles may overlap and we impose a <strong>gluing restriction</strong>: there can be no two consecutive $S$-intervals in the tiling, and no three consecutive $L$-intervals.</p>
+<p>The <strong>code</strong> of a tiling is a doubly infinite word in $S$ and $L$ such that there are no two consecutive $S$&#8217;s nor three consecutive $L$&#8217;s. For example<br />
+\[<br />
+\sigma = \dots LSLLSLS\underline{L}LSLLSL \dots \]<br />
+We underline one tile to distinguish the sequence from shifts of it.</p>
+<p><strong>Conway&#8217;s musical sequences</strong> will be special codes (or tilings), allowing for the inverse operations of <strong>inflation</strong> and <strong>deflation</strong>, terms coined by <a href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> in relation to Penrose tilings. The musical sequences are important to understand Conway&#8217;s worms (sometimes called &#8220;wormholes&#8221;) which are strings of Long and Short bow ties in a Penrose tiling, and to measure the distances between Amman bars. In fact, many of the properties of Penrose tilings and $3$-dimensional quasicrystals (for example, local isomorphism) have their counterparts for tilings having a musical sequence as code.</p>
+<p><center><br />
+<img decoding="async" src="https://static01.nyt.com/images/2020/04/18/obituaries/14Conway1/14Conway1-facebookJumbo.jpg" width=80%><br />
+</center></p>
+<p>Conway&#8217;s investigations of Penrose tiles held up work on the <a href="https://en.wikipedia.org/wiki/ATLAS_of_Finite_Groups">ATLAS-project</a> and caused some problems at home:</p>
+<blockquote><p>&#8220;In pursuing his investigations, he unsurped some of his wife Eileen&#8217;s territory, covering the dining table with an infinite nuisance of tiles. He cut them out himself, causing his right hand to hurt with cramps for days. To Eileen&#8217;s dismay, he studied the dining table mosaic for a year, relegating family meals to the kitchen and prohibiting dinner parties.&#8221;</p>
+<p>From <a href="https://siobhanroberts.com/genius-at-play/">&#8220;Genius at Play &#8211; The curious mind of John Horton Conway&#8221;</a> by Siobhan Roberts
+</p></blockquote>
+<p>Let&#8217;s investigate inflation and deflation of these tilings.</p>
+<p>The point of the golden factor $\tau$ is to allow for <strong>deflation</strong>. That is, we can replace a tiling by another one with tiles $S$ and $L$ both a factor $\tfrac{1}{\tau}=\tau-1 \approx 0.618$ smaller than the original tiles. If the original $S$-tile has length $a$ (and the $L$-tile length $\tau a$), then the new tile $S$ wil have length $\tfrac{1}{\tau}a$ and the new $L$-tile length $a$.<br />
+We do this by replacing each old $S$-tile by a new $L$-tile, and to break up any old $L$-tile in a new $L$ and new $S$-tile, as $\tau a = a + \tfrac{1}{\tau}a$ (note that $\tau^2=\tau+1$)<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cms2.jpg" width=70% ><br />
+</center></p>
+<p>To get the code of the deflated tiling we replace each letter $S$ by a letter $L$ and each $L$ by $LS$. The underlined letter will be the first letter of the deflated underlined letter in the original sequence. The deflated sequence of the one above is<br />
+\[<br />
+def(\sigma) = \dots LSLLSLSLLSL\underline{L}SLSLLSLSLLS \dots \]<br />
+and it is easy to see that the deflated tiling satisfies again the gluing condition.</p>
+<p>Certain of these tilings (not all!) allow for an inverse to deflation, called <strong>inflation</strong>, increasing the size of the tiles by a factor $\tau$.</p>
+<p>Starting from a tiling we divide each $L$-tile in half and these mid-points will be end-points of the tiles in the new tiling, erasing all endpoints of the original one. The inflated tiling will have two sorts of tiles, a new short one $S$ of length $\tau a$ obtained from the end-half of an original $L$-tile, followed b the start-half of an original $L$-tile, and a new long tile $L$ of length $\tau^2 a = (\tau+1) a$, made of the end-half of an original $L$, followed by an original $S$, followed by the start-half of an original $L$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cms3.jpg" width=70% ><br />
+</center></p>
+<p>We get the code of the inflated tiling by replacing first each $L$ by $ll$ and subsequently replace each word $lSl$ by a letter $L$ and each $ll$ by $S$. An example,<br />
+\[<br />
+\sigma = \dots LSLLSLSLLSL\underline{L}SLSLLSLSLLS \dots \\<br />
+\dots llSllllSllSllllSlll\underline{l}SllSllllSllSllllS \dots \\<br />
+inf(\sigma) = \dots (l)LSLLSLS\underline{L}LSLLS(lS) \dots \]</p>
+<p>But, the inflated tiling may no longer satisfy the gluing condition. An example<br />
+\[<br />
+\dots LSLSLSL \dots \mapsto \dots llSllSllSll \dots \mapsto \dots (l)LLL(l) \dots \]</p>
+<p>A <strong>Conway musical sequence</strong> is the code of a tiling $\sigma$ such that all its consecutive inflations $inf^n(\sigma)$ satisfy the gluing condition. For the corresponding <strong>Conway tiling</strong> $\sigma$ we have that<br />
+\[<br />
+def(inf(\sigma))=\sigma=inf(def(\sigma)) \]</p>
+<p>Let&#8217;s construct at least two such Conway tilings (later we&#8217;ll see that there are uncountably many). Take $C_n=def^n(LS\underline{L})$ and write it in a special form to highlight symmetries.<br />
+\begin{eqnarray*}<br />
+C_0 =&#038; (L.S)\underline{L} \\<br />
+C_1 =&#038; L(S.L)\underline{L}S \\<br />
+C_2 =&#038; LSL(L.S)\underline{L}SL \\<br />
+C_3 =&#038; LSLLSL(S.L)\underline{L}SLLS \\<br />
+C_4 =&#038; LSLLSLSLLSL(L.S)\underline{L}SLLSLSL<br />
+\end{eqnarray*}</p>
+<p>The even terms have middle-part $(L.S)$ and the odd ones $(S.L)$. The remaing left and right parts are each others reflexion (or part of it). This is easily seen by induction as are the inclusions<br />
+\[<br />
+C_0 \subset C_2 \subset C_4 \subset \dots \subset C_{even}  \quad \text{and} \quad C_1 \subset C_3 \subset C_5 \subset \dots \subset C_{odd} \]</p>
+<p>$C_{even}$ and $C_{odd}$ are special Conway musical sequences, called the <strong>middle $C$-sequences</strong>, and are each others inflation and deflation. If you are familiar with Penrose tilings, these are the $1$-dimensional counterparts of the cartwheel Penrose tiling (here with the $10$ Conway worms emanating from the center, and with the borders of the first few cartwheels drawn).</p>
+<p><center><br />
+<img decoding="async" src="https://ksuweb.kennesaw.edu/~sedwar77/tile/aperiodic/penrose2/worms.gif" width=80% ><br />
+</center></p>
+<p>A direct consequence of inflation on Conway&#8217;s musical sequences is that the corresponding tiling is <strong>aperiodic</strong>, that is, it has no translation symmetry.</p>
+<p>For, inflation only depends on the local configuration of tiles, so if translation by $R$ is a symmetry of a musical sequence $\sigma$ then it is also a symmetry of $inf(\sigma)$, and so also of $inf^n(\sigma)$. But for large $n$ we will have that $R < \tau^n a$ (with $a$ the size of the tiles in $\sigma$). But then a tile in $inf^n(\sigma)$ and its translation by $R$ must overlap which is impossible if $+R$ is a translation symmetry of $inf^n(\sigma)$. Done!
+
+
+
+<p />Returning to the middle C-sequences, what was the point of starting with $C_0 = LSL$? Well, it follows directly from the gluing restrictions that any letter in a musical sequence is part of a subword $LSL$ of $\sigma$. But then, every finite subword $W$ of $\sigma$ is also a subword of $C_{2n}$ for some large $n$.</p>
+<p />For, let $d$ be the length of the interval corresponding to $W$ and choose $n$ such that $d > \tau^{2n} a$ then the interval of the line corresponding to $W$ is contained in a single tile in $inf^{2n}(\sigma)$ and this tile belongs to a subword $LSL$ of $inf^{2n}(\sigma)$. But then $W$ will be a subword of the $2n$-th deflation of that interval $LSL \subset inf^{2n}(\sigma)$, which is $C_{2n}$.</p>
+<p />Or, as Conway would phrase it with respect to Penrose tilings (quote again from Siobhan Roberts&#8217; book)</p>
+<blockquote><p>&#8220;Every points is in the cartwheel somewhere. If you jab your finger anywhere, on any point anywhere on teh pattern, you are part of a cartwheel. The whole ting is overlapping cartwheels.&#8221;</p></blockquote>
+<p />An immediate consequence is the <strong>local isomorphism theorem</strong>: Every subword of a musical sequence $\sigma$ appears infinitely many times as subword of any other musical sequence. That is, one cannot distinguish two tilings of the line with musical sequence codes from each other by looking at finite intervals!</p>
+<p />The argument is similar to the one above. The finite interval corresponding to the subword lies in a unique tile of $inf^n(\sigma)$ for $n$ large enough. Now, take another musical sequence $\mu$ and consider any of the infinitely many tiles of the same type  in $inf^n(\mu)$, then $def^n$ of such a tile will contain the subword in $\phi$.</p>
+<p />Another time, we&#8217;ll see that musical sequences can be produced by the &#8216;cut-and-project&#8217;-method (what I called the &#8216;windows&#8217;-method <a href="https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals">before</a>).<br />
+This time we will project parts of the standard $2$-dimensional lattice $\mathbb{Z}^2$ onto the line, which is a lot easier to visualise than de Bruijn&#8217;s projection from $\mathbb{R}^5$ to produce Penrose tilings or the projection from six dimensional space to harvest quasicrystals.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>We sit in our ivory towers and think</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/we-sit-in-our-ivory-towers-and-think/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/we-sit-in-our-ivory-towers-and-think/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 15 Aug 2019 14:29:13 +0000</pubDate>
+				<category><![CDATA[rants]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Douroux]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Roberts]]></category>
+		<category><![CDATA[Woodhouse]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8583</guid>
+
+					<description><![CDATA[I&#8217;m on vacation, and re-reading two &#8216;metabiographies&#8217;: Philippe Douroux : Alexandre Grothendieck : Sur les traces du dernier génie des mathématiques and Siobhan Roberts :&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m on vacation, and re-reading two &#8216;metabiographies&#8217;:</p>
+<p>Philippe Douroux : <a ref="https://www.amazon.com/Alexandre-Grothendieck-traces-dernier-math%C3%A9matiques/dp/2370730854">Alexandre Grothendieck : Sur les traces du dernier génie des mathématiques</a></p>
+<p>and</p>
+<p>Siobhan Roberts : <a href="https://www.amazon.com/Genius-At-Play-Curious-Horton-ebook/dp/B00UX2UR44">Genius At Play: The Curious Mind of John Horton Conway</a></p>
+<p>
+<img decoding="async" src="https://images-na.ssl-images-amazon.com/images/I/41o1VELFHwL._SX336_BO1,204,203,200_.jpg" width=50% align=left ><br />
+<img decoding="async" src="https://media.bloomsbury.com/rep/bj/9781620405956.jpg" width=50% align=right ><br />
+.</p>
+<p />
+<p />
+<p>Siobhan Roberts&#8217; book is absolutely brilliant! I&#8217;m reading it for the n-th time, first on Kindle, then hardcopy, and now I&#8217;m just flicking through its pages, whenever I want to put a smile on my face.</p>
+<p>So, here&#8217;s today&#8217;s gem of a Conway quote (on page 150):</p>
+<blockquote><p>Pure mathematicians usually don&#8217;t found companies and deal with the world in an aggressive way. We sit in our ivory towers and think.</p></blockquote>
+<p>(Conway complains his words were taken out of context, in an article<br />
+featuring Stephen Wolfram.)</p>
+<p>If only university administrations worldwide would accept the &#8216;sitting in an ivory tower and think&#8217;-bit as the job description, and evaluation criterium, for their pure mathematicians.</p>
+<p>Sadly&#8230; they prefer managers to thinkers.</p>
+<p>This reminds me of another brilliant text, perhaps not receiving the attention it deserves:</p>
+<p>Daniel J. Woodhouse : <a href="https://www.mcsweeneys.net/articles/an-open-letter-to-the-mathematical-community">An open letter to the mathematical community</a>.</p>
+<p>Woodhouse offers a reaction to the &#8216;neoliberal upper management and bloated administration&#8217; of universities:</p>
+<blockquote><p>Within the sphere of pure mathematics — the oldest and most successful of humanity’s intellectual endeavors — I believe our best chance at preserving the integrity and dignity of our tradition is to return to our Pythagorean roots. <strong>We should become a cult.</strong></p></blockquote>
+<p>How?</p>
+<blockquote><p>
+Let us seclude ourselves in mountain caves and daub mysterious equations in blood across rock-faces to ward off outsiders. Let us embrace our most impenetrable mathematical texts as sacred and requiring divinely distributed revelation.
+</p></blockquote>
+<p>Why?</p>
+<blockquote><p>I am convinced that the current system has dulled our understanding of the value we offer through our instruction. Modern mathematical techniques are the foundation of modern science, medicine, and technology, and we should be the literal, rather than metaphorical, high priests of this temple. Only by withholding our insights will we be able to reassert the intrinsic worth of our knowledge.</p></blockquote>
+<p>I hope these few paragraphs have wetted your appetite to read the manifesto in full, and then take action!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/we-sit-in-our-ivory-towers-and-think/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

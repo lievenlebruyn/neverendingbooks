@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>apple &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/apple/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 01 Oct 2009 17:09:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Snow leopard + wordpress + latex problem</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2009 17:09:05 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[Leopard]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=2154</guid>
+
+					<description><![CDATA[Ever since I&#8217;ve upgraded to Snow Leopard I&#8217;ve been having problems with the webserver. At first there were the &#8216;obvious&#8217; problems : mysql-connection lost and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Ever since I&#8217;ve upgraded to <a href="http://www.apple.com/macosx/">Snow Leopard</a> I&#8217;ve been having problems with the webserver.</p>
+<p>At first there were the &#8216;obvious&#8217; problems : mysql-connection lost and php-error message. These were swiftly dealt with using the excellent <a href="http://wordpress.org/support/topic/306878">Snow Leopard, Apache, PHP, MySQL and WordPress!</a> advice from &#8216;tady&#8217;.</p>
+<p>Right now, access to this blog is extremely slow (and often impossible), certainly via the admin-page. The problem appears to be that most of my CPU is used by lots of pdfetex-processes owned by www. Hence the conjecture that it is a problem with either <a href="http://www.mayer.dial.pipex.com/tex.htm">LaTeXRender</a> or <a href="http://wordpress.org/extend/plugins/wp-latex/">WP LaTeX</a>.</p>
+<p>Anyone experiencing a similar problem, or knowing a trick to resolve it? Takk.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>sporadic simple games</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/sporadic-simple-games/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/sporadic-simple-games/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 13 Jul 2008 11:10:20 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[blackjack]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=439</guid>
+
+					<description><![CDATA[About a year ago I did a series of posts on games associated to the Mathieu sporadic group $M_{12} $, starting with a post on&#8230;]]></description>
+										<content:encoded><![CDATA[<p>About a year ago I did a series of posts on games associated to the Mathieu sporadic group $M_{12} $, starting with a post on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/conways-puzzle-m13.html">Conway&#8217;s puzzle M(13)</a>, and, continuing with a discussion of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mathieus-blackjack-1.html">mathematical blackjack</a>. The idea at the time was to write a book for a general audience, as discussed at the start of the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/conways-puzzle-m13.html">M(13)-post</a>, ending with a series of new challenging mathematical games. I asked : &#8220;What kind of puzzles should we promote for mathematical thinking to have a fighting chance to survive in the near future?&#8221;</p>
+<p>Now, Scientific American has (no doubt independently) taken up this lead. Their July 2008 issue features the article <a href="http://www.sciam.com/article.cfm?id=simple-groups-at-play">Rubik&#8217;s Cube Inspired Puzzles Demonstrate Math&#8217;s &#8220;Simple Groups&#8221;</a> written by Igor Kriz and Paul Siegel.</p>
+<p>By far the nicest thing about this article is that it comes with <a href="http://www.sciam.com/article.cfm?id=puzzles-simple-groups-at-play">three online games</a> based on the sporadic simple groups, the Mathieu groups $M_{12} $, $M_{24} $ and the Conway group $.0 $.</p>
+<p><strong>the M(12) game</strong></p>
+<p>Scrambles to an arbitrary permutation in $M_{12} $ and need to use the two generators $INVERT=(1,12)(2,11)(3,10)(4,9)(5,8)(6,7) $ and $MERGE=(2,12,7,4,11,6,10,8,9,5,3) $ to return to starting position.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m12game.jpg"><br />
+</center></p>
+<p>Here is the help-screen :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m12gamehelp.jpg" width=650 ><br />
+</center></p>
+<p>They promise the solution by july 27th, but a few-line GAP-program cracks the puzzle instantly.</p>
+<p><strong>the M(24) game</strong></p>
+<p>Similar in nature, again using two generators of $M_{24} $. GAP-solution as before.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m24game.jpg"><br />
+</center></p>
+<p>This time, they offer this help-screen :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m24gamehelp.jpg"><br />
+</center></p>
+<p><strong>the .0 game</strong></p>
+<p>Their most original game is based on Conway&#8217;s $.0 $ (dotto) group. Unfortunately, they offer only a Windows-executable version, so I had to install <a href="http://www.apple.com/macosx/features/bootcamp.html">Bootcamp</a> and struggle a bit with taking screenshots on a MacBook to show you the game&#8217;s starting position :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dottogame.jpg"><br />
+</center></p>
+<blockquote><p>
+Dotto: </p>
+<p />
+Dotto, our final puzzle, represents the Conway group Co0, published in 1968 by mathematician John H. Conway of Princeton University. Co0 contains the sporadic simple group Co1 and has exactly twice as many members as Co1. Conway is too modest to name Co0 after himself, so he denotes the group “.0” (hence the pronunciation “dotto”).</p>
+<p />
+<p>In Dotto, there are four moves. This puzzle includes the M24 puzzle. Look at the yellow/blue row in the bottom. This is, in fact, M24, but the numbers are arranged in a row instead of a circle. The R move is the &#8220;circle rotation to the right&#8221;: the column above the number 0 stays put, but the column above the number 1 moves to the column over the number 2 etc. up to the column over the number 23, which moves to the column over the number 1. You may also click on a column number and then on another column number in the bottom row, and the &#8220;circle rotation&#8221; moving the first column to the second occurs. The M move is the switch, in each group of 4 columns separated by vertical lines (called tetrads) the &#8220;yellow&#8221; columns switch and the &#8220;blue&#8221; columns switch. The sign change move (S) changes signs of the first 8 columns (first two tetrads). The tetrad move (T) is the most complicated: Subtract in each row from each tetrad 1/2 times the sum of the numbers in that tetrad. Then in addition to that, reverse the signs of the columns in the first tetrad.</p>
+<p />
+<p>Strategy hints: Notice that the sum of squares of the numbers in each row doesn&#8217;t change. (This sum of squares is 64 in the first row, 32 in every other row.) If you manage to get an &#8220;8&#8221;in the first row, you have almost reduced the game to M24 except those signs. To have the original position, signs of all numbers on the diagonal must be +. Hint on signs: if the only thing wrong are signs on the diagonal, and only 8 signs are wrong, those 8 columns can be moved to the first 8 columns by using only the M24 moves (M,R).
+</p></blockquote>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/sporadic-simple-games/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>censured post : bloggers’ block</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/censured-post-bloggers-block/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/censured-post-bloggers-block/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 06 Feb 2008 10:48:26 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/censured-post-bloggers-block.html</guid>
+
+					<description><![CDATA[Below an up-till-now hidden post, written november last year, trying to explain the long blog-silence at neverendingbooks during october-november 2007&#8230; A couple of months ago&#8230;]]></description>
+										<content:encoded><![CDATA[<p><strong>Below an up-till-now hidden post, written november last year, trying to explain the long blog-silence at neverendingbooks during october-november 2007&#8230;</strong></p>
+<hr />
+<p>A couple of months ago a publisher approached me, out of the blue, to consider writing a book about mathematics for the general audience (in Dutch (?!)). Okay, I  brought this  on myself hinting at the possibility in <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">this post</a></p>
+<blockquote><p>Recently, I&#8217;ve been playing with the idea of writing a book for the general public. Its title is still unclear to me (though an idea might be &#8220;The disposable science&#8221;, better suggestions are of course wellcome) but I&#8217;ve fixed the subtitle as &#8220;Mathematics&#8217; puzzling fall from grace&#8221;. The book&#8217;s concept is simple : I would consider the mathematical puzzles creating an hype over the last three centuries : the 14-15 puzzle for the 19th century, Rubik&#8217;s cube for the 20th century and, of course, Sudoku for the present century.</p>
+<p>For each puzzle, I would describe its origin, the mathematics involved and how it can be used to solve the puzzle and, finally, what the differing quality of these puzzles tells us about mathematics&#8217; changing standing in society over the period. Needless to say, the subtitle already gives away my point of view. The final part of the book would then be more optimistic. What kind of puzzles should we promote for mathematical thinking to have a fighting chance to survive in the near future?</p></blockquote>
+<p>While I still like the idea and am considering the proposal, chances are low this book ever materializes : the blog-title says it all&#8230;</p>
+<p>Then, about a month ago I got some incoming links from a variety of Flemish blogs. From their posts I learned that the leading Science-magazine for the low countries, <a href="http://www.nwtonline.nl/index.lasso?">Natuur, Wetenschap &amp; Techniek</a> (Nature, Science &amp; Technology), featured an article on Flemish science-blogs and that this blog might be among the ones covered. It sure would explain the publisher&#8217;s sudden interest. Of course, by that time the relevant volume of NW&amp;T was out of circulation so I had to order a backcopy to find out what was going on. Here&#8217;s the relevant section, written by their editor <a href="http://www.nanoforum.org/nf06~modul~showresearcher~sent~35~.html">Erick Vermeulen</a> (as well as an attempt to translate it)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/nwt.jpg" width=500 ></p>
+<blockquote><p><strong>Sliding puzzle</strong> For those who want more scientific depth (( their interpretation, not mine )), there is the English blog by Antwerp professor algebra &#038; geometry Lieven Le Bruyn, MoonshineMath (( indicates when the article was written&#8230; )). Le Bruyn offers a number of mathematical descriptions, most of them relating to group theory and in particular the so called monster-group and monstrous moonshine. He mentions some puzzles in passing such as the well known sliding puzzle with 15 pieces sliding horizontally and vertically in a 4 by 4 matrix. Le Bruyn argues that this  &#8217;15-puzzle (( <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=14">The 15-puzzle groupoid</a> ))&#8217; was the hype of the 19th century as was the Rubik cube for the 20th and is Sudoku for the 21st century. <br />
+Interesting is Le Bruyn&#8217;s mathematical description of the M(13)-puzzle (( <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">Conway&#8217;s M(13)-puzzle</a> )) developed by John Conway. It has 13 points on a circle, twelve of them carrying a numbered counter. Every point is connected via lines to all others (( a slight simplification )). Whenever a counter jumps to the empty spot, two others exchange places. Le Bruyn promises the blog-visitor new variants to come (( did I? )). We are curious. <br />
+Of course, the genuine puzzler can leave all this theory for what it is, use the Java-applet (( <a href="http://www.sebastian-egner.net/m13/">Egner&#8217;s M(13)-applet</a> )) and painfully try to move the counters around the circle according to the rules of the game.</p></blockquote>
+<p>Some people crave for this kind of media-attention. On me it merely has a blocking-effect. Still, as the end of my first-semester courses comes within sight, I might try to shake it off&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/censured-post-bloggers-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>quick iTouch links</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quick-itouch-links/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quick-itouch-links/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 16 Jan 2008 21:20:40 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[jailbreak]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/quick-itouch-links.html</guid>
+
+					<description><![CDATA[MacBookAir? Is this really the best Apple could come up with? A laptop you can slide under the door or put in an envelop? Yeez&#8230;&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/hotbookair.jpg" width=500 ></p>
+<p><a href="http://www.apple.com/macbookair/">MacBookAir</a>? Is this really the best Apple could come up with? A laptop you can slide under the door or put in an envelop? Yeez&#8230; Probably the hot-air-book is about as thick as an iTouch. The first thing I did was to buy a <a href="http://www.proporta.com/device.php?id=324">leather case</a> to protect the vulnerable thing, making it as thick as a first generation iPod&#8230; (needless to say, when my MacBookPro breaks down, ill replace it with a MacBookAir, clearly!)</p>
+<p>Ranting about MacWorlds : <a href="http://www.wired.com/">Wired</a> has a great article on last year&#8217;s event. Steve Job&#8217;s iPhone presentation is something that will be part of the collective memory when it comes to 2007-recollections. Few people will have realized that the Apple-team didnt have a working prototype a few weeks before&#8230; Here&#8217;s <a href="http://www.wired.com/gadgets/wireless/magazine/16-02/ff_iphone">The Untold Story: How the iPhone Blew Up the Wireless Industry</a>. A good read!</p>
+<p>If you plug in your jailbroken iTouch, you will be asked wether you want to upgrade to 1.1.3, something we all feared for a long time and so it takes just nanoseconds to hit the cancel-button. But, there is good news! <a href="http://rupertgee.wordpress.com/2008/01/16/downgrade-ipod-touch-113-to-111/">Rupert Gee</a> reports that you can downgrade to 1.1.1 and redo jailbreak. I won&#8217;t try it for some time, but still&#8230;</p>
+<p>In the unlikely event that you come here being a mathematician, here&#8217;s what I did with my iTouch today. Ive downloaded the Connes-Marcolli talks on Renormalization and Motives <a href="http://video.google.com/videoplay?docid=3770732113316444945&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=0">part 1</a>, <a href="http://video.google.com/videoplay?docid=-8230150359736309141&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=1">part 2</a>, <a href="http://video.google.com/videoplay?docid=-7256478932132856778&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=2">part 3</a>, <a href="http://video.google.com/videoplay?docid=-8317552883591829152&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=5">part 4</a>, <a href="http://video.google.com/videoplay?docid=-4040719267705507834&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=6">part 5</a>, <a href="http://video.google.com/videoplay?docid=-6203969264735574264&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=4">part 6</a>, <a href="http://video.google.com/videoplay?docid=4153302132976087425&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=3">part 7</a> and <a href="http://video.google.com/videoplay?docid=-1854493949267844517&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=7">part 8</a> at work. They are in mp4-format so you can load them into iTunes and onto your iTouch!!! Weather is not favorable for outdoor-cycling at the moment, so I used the home-trainer, put the iTouch in front of me and, boy, was I educated&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quick-itouch-links/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>top iTouch hacks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/top-itouch-hacks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/top-itouch-hacks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 30 Dec 2007 10:59:28 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[jailbreak]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=178</guid>
+
+					<description><![CDATA[So, you did jailbreak your iTouch and did install some fun or useful stuff via the Install.app &#8230; but then, suddenly, the next program on&#8230;]]></description>
+										<content:encoded><![CDATA[<p>So, you did <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=51">jailbreak</a> your iTouch and did install some fun or useful stuff via the Install.app &#8230; but then, suddenly, the next program on your wish-list fails to install ??!! I know you hate to do drastic things to your iTouch, but sooner or later you&#8217;ll have to do it, so why not NOW?</p>
+<p class="alert">Move the Applications Folder</p>
+<p>The problem is that there are two disk partitions (a small one, meant only to host the apple-software and a large one to contain all your music, videos and stuff) and Install.app installs programs in the <strong>/Apllications</strong> folder on the smaller partition. So, we want to move it to the other partition using a symbolic link trick (as in the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=57">wiki-hack post</a>). Here a walkthrough, more details can be found on <a href="http://kaspers.freeflux.net/blog/archive/2007/10/30/remove-application-space-limit.html">Koos Kasper&#8217;s site</a>.</p>
+<ul>
+<li>Have BSDsubsystem and OpenSSH installed, so that you can ssh into the iTouch.  </li>
+<li>verify that the second line of the /etc/fstab file reads as below (or edit it if necessary, in my case it was already ok, perhaps this is done during jailbreak?) and reboot the iTouch (if you had to change it)  </li>
+</ul>
+<p class="code">/dev/disk0s2 /private/var hfs rw 0 2</p>
+<ul>
+<li>ssh into the iTouch and type in the following commands (to move the folder and make the symbolic link)</li>
+</ul>
+<p class="code">
+cd / <br />
+cp -pr Applications /var/root <br />
+mv Applications Applications.old <br />
+ln -s private/var/root/Applications /Applications
+</p>
+<ul>
+<li>reboot the iTouch, ssh into it and remove the old Application-folder to free space  </li>
+</ul>
+<p class="code">cd / <br />
+rm -rf Applications.old</p>
+<p>From now on, all (most) new programs are installed on the larger partition. If you reinstall the OpenSSH application (as suggested) make sure to remove on your computer the old key for iTouch.</p>
+<p class="alert">Stream your Music!</p>
+<p>I use the iTouch to read my mail, to read RSS feeds, to administer this blog, to VNC to the home-server and when needed to ssh into the computer at work (running this blog) to restart the apache server. Unless I have to write a lot, there is no need to fire up a computer&#8230; But, when someone has a Mac running, I would like to be able to stream the music on my iTouch to hear it loudly. Here&#8217;s the procedure, via <a href="http://rupertgee.wordpress.com/2007/12/28/worldwide-ipod/">Rupert Gee&#8217;s blog</a> :</p>
+<ul>
+<li>Have the Auto-Lock set to &#8220;Never&#8221; in Settings/General  </li>
+<li>Install the UIctl applications (under Utilities)  </li>
+<li>Add a source to Install.app (click on Sources-button lower-right, Edit upper-right and then Add upper-left) http://home.mike.tl/iphone  </li>
+<li>Relaunch Install.app and install FireFlyMediaServer (under Multimedia).  </li>
+<li>Write down the address given during installation to change your password and monitor the Firefly-server (the default root password is &#8216;dottie&#8217; and so the address should be   </li>
+</ul>
+<p class="code">http://root:dottie@127.0.0.1:3689/</p>
+<ul>
+<li>Open up UIctl and scoll down to a line saying &#8220;org.fireflymediaserver.mt-daapd&#8221; and tap on it. Tap on &#8220;load-w&#8221; and then on &#8220;Do It&#8221;  </li>
+<li>Now, at the Mac your iTouch should be vusible under Shared in iTunes, click on it and give the password and your music is available!  </li>
+</ul>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/firefly.jpg" width=500 ></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/top-itouch-hacks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>first things first : jailbreak</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/first-things-first-jailbreak/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/first-things-first-jailbreak/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 10 Dec 2007 17:56:55 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[jailbreak]]></category>
+		<category><![CDATA[Leopard]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=51</guid>
+
+					<description><![CDATA[You may have surmised it from reading this post : Santa brought me an iPod Touch! (( or rather : Santa brought PD2 an iTouch&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/springboard.jpg" style="float:left;margin-right:10px;"> You may have surmised it from reading <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=49">this post</a> : Santa brought me an iPod Touch! (( or rather : Santa brought PD2 an iTouch and knowing his jealous nature ordered one for him as well&#8230; )) Ive used an iPodClassic to transfer huge files between home (MacBook) and office (iMac) as well as for backup purposes. I wanted to find out what new tricks this trio could play now that iPod can go online. Major disillusion : one cannot even enable DiskUse via iTunes at the moment. (( rumours are that Apple will enable DiskUse in firmware 1.1.3, coming up next februari&#8230; )) What&#8217;s wrong with Apple? They make this marvelous piece of technology and then do a Golem-act preventing anyone else from using their precious thing. I understand their business plan, but soon it will make more sense to buy Apple shares than to buy their computers&#8230;</p>
+<p>Enters the 13-year old <a href="http://ijailbreak.com/">AriX</a> writing iJailbreak to free the iTouch. So, before you put any music or video on your pod (( and frankly there&#8217;s not much else Apple allows you to put on it )), dare to void the guarantee and risk your new gadget being bricked (( but, if I can pull if off you certainly can.. )) by Jailbreaking it! There are plenty of good guides around, both for Windows and Mac, but most of them can be slightly improved. I&#8217;ve followed <a href="http://rupertgee.wordpress.com/2007/12/02/lets-jailbrake-the-ipod-touch-112-with-os-x/">Let’s Jailbreak the iPod touch 1.1.2 with OS X</a> but shortened his <a href="http://rupertgee.wordpress.com/2007/12/02/downgraderestore-ipod-touch-firmware-to-version-111-using-os-x/">downgrade to 1.1.1 procedure</a> which is the first (and hardest) step in the whole procedure. The moment PD2 will see I can use Maps and Weather she&#8217;ll want me to jailbreak her iTouch too, so mainly for myself I list here the procedure before I forget it.</p>
+<p class="alert">Jailbreak 1.1.2 with Leopard on Intel, use at your own risk.
+</p>
+<p>Get a decent browser such as Firefox or Flock (to prevent the download to selfexpand, so when given the choice to open it with iTunes or save it to Disk, save!) and download <a href="http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPod/SBML/osx/bundles/061-3932.20070927.p23dD/iPod1,1_1.1.1_3A110a_Restore.ipsw">Firmware1.1.1</a> and place it somewhere (why not create a Folder called Jailbreak).</p>
+<p>Connect your iTouch and fire up iTunes and select your iTouch in the left column. Hold down the option key and click in the summary pane the <strong>Check for Update</strong> button. This will open a Finder window allowing you to navigate to the downloaded file and open it. The iTouch will downgrade itself to 1.1.1. Just wait until it reappears in iTunes and disconnect it.</p>
+<p>With Safari on the iTouch go to <a href="http://jailbreakme.com/">jailbreakme.com</a> and scroll to the bottom and click on the <strong>InstallAppSnap</strong> button. Let it do its magic and afterwards there is a new Installer-icon on your &#8216;springboard&#8217; (the opening iTouch page). Open it and refrain from installing all the goodies now, just scroll down to <strong>Tweaks (1.1.1)</strong> open and select &#8220;OktoPrep&#8221; and install it (button top right-hand corner).</p>
+<p>Connect iTouch to mac, start iTunes and select your iTouch. Click on the update button and now iTunes will bring you back to Firmware 1.1.2. After finishing wait until your iPod reappears in the left column. (Do not panic if you fail to see the Installer-icon on springboard, it will reappear later on). Then, <strong>close iTunes</strong> (your iPod stays connected via USB to the Mac). Use any browser on your mac to download <a href="http://conceitedsoftware.com/iphone/1.1.2-jailbreak.zip">Jailbreak 1.1.2</a> and place it somewhere.</p>
+<p>Find the Java-applet <strong>jailbreak.jar</strong> in the folder and double click it. Again, magical things are happening ending with the iTouch booting up several times and you performed the Jailbreak.</p>
+<p class="construction">Let&#8217;s open up the iTouch to the world</p>
+<p>So, what was the point of all this? We still have no DiskUse enabled nor can we speak to the iTouch directly. But all of this is going to change rapidly. Let&#8217;s make it available to our DeskTop.</p>
+<p>With &#8220;install package xxx&#8221; I will mean : fire up Installer from your springboard, donate as quickly as you can to the guys making this available, then click on the &#8220;install&#8221; icon lower-left. This will open up lists of packages, scroll down to package xxx, click on it to read more about it, and then hit the &#8220;install&#8221; button top-right. That&#8217;s it. (If you ever want to unistall a package, do the same process now starting from the &#8220;uninstall&#8221; icon lower-right).</p>
+<p>Install first <strong>BSD Subsystem</strong> (under System packages) and the <strong>AFPd</strong> (under Network). This will turn your iTouch into an AFP-server. By clicking on its icon in the Springboard you can turn the server on and off (remember to turn it off when not needed!) and turn on Broadcast if you want the iTouch to show up on your Desktop (in the Leopard-Finder under &#8216;Shared&#8217;). You can now connect to the iTouch by clicking on its icon in the Finder and hitting connect. The default user/password combination for a Jailbroken iTouch are<br />
+<strong>root/alpine</strong>. Change this as soon as you figure out how to do it. &#8216;Alpine&#8217; must be the most popular password right now&#8230; The AFPd-page also contains the Wi-Fi IP Address of the iTouch and you will need it soon, so write it down.</p>
+<p>For we are going to connect via ssh and sftp to and from iTouch/Mac. Install the <strong>OpenSSH</strong> package (under System) and the <strong>Term-vt100</strong> package (also under System). From the Mac to iTouch you can connect via something like</p>
+<p class="code">ssh root@10.0.1.197</p>
+<p>(change the number to the IP-Address of the iTouch) and login with the alpine password. You&#8217;re in! Conversely, open up the Term-vt100 icon in the springboard which give you a genuine *nix-Terminal. You can connect via ssh to your mac provided you know its IP and your login. That&#8217;s all.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/itouchphp.jpg" style="float:left;margin-right:10px;"> Btw. you can also use your favourite file-transport program (mine is <a href="http://www.panic.com/transmit/">Transmit</a> to connect to and from your iTouch via SFTP. Right, now that the iTouch is under control we might as well give it a voice of his/her own.</p>
+<p>Install <strong>Apache</strong> (under System) and <strong>PHP</strong> (under Development) and follow the instructions from the <a href="http://www.ipodtouchfans.com/forums/showthread.php?t=2010">iTouch Fans Forum</a> (you will need to register, but if you&#8217;re not an iTouch-fan there&#8217;s little point in you reading this post anyway) and you will have turned your iTouch into a PHP-enabled webserver! On the left is a screenshot of the proof via the php-info testpage.</p>
+<p>Finally, we can turn the world upside down completely. Before all of this we had no way to get control of the iTouch, now we can use the iTouch to take control of all our Macs serving VNC (Leopard comes with it, enable the password in System Preferences/Sharing/Screen Sharing/Computer Settings and you&#8217;re under iTouch control). To pull this off, just install the <strong>VNsea</strong> package (under Network). It really works well!</p>
+<p class="construction">Oh, you&#8217;re only here to install the iPhone Apps&#8230;
+</p>
+<p>Well, that&#8217;s easy enough. Just follow the instructions of the <a href="http://rupertgee.wordpress.com/2007/12/03/install-iphone-apps-into-ipod-touch/">Install and use iPhone Apps in iPod touch</a> from the excellent blog by Rupert Gee. The most difficult part is to get hold of the iPhone Apps if you don&#8217;t own an iPhone&#8230; Well, I&#8217;m happy to provide you with <a href="http://rapidshare.com/files/69144568/iPhoneApps112.zip.html">this secret information</a>&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/first-things-first-jailbreak/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NeB on Leopard and iPhone</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neb-on-leopard-and-iphone/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neb-on-leopard-and-iphone/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 07 Dec 2007 20:15:20 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Leopard]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[Tiger]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=49</guid>
+
+					<description><![CDATA[If you have an iPhone or iPod Touch and point your Safari browser to this blog you can now view it in optimised format, thanks&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/iphone.jpg" style="float:left;margin-right:10px;"> If you have an iPhone or iPod Touch and point your Safari browser to <a href="https://lievenlebruyn.github.io/neverendingbooks/">this blog</a> you can now view it in optimised format, thanks to the <a href="http://iwphone.contentrobot.com/">iWPhone WordPress Plugin and Theme</a>. I&#8217;ve only changed the CSS slightly to have the same greeny look-and-feel of the current <a href="http://www.deanjrobinson.com/wordpress/redoable">redoable theme</a>.</p>
+<p>Upgrading a WordPress-blog running under Tiger (Mac OS 10.4) to <a href="http://www.apple.com/macosx/">Leopard</a> produces a few anxiety moments. All of the standard tools (Apache, PHP and MySQL) seem no longer to work as before. For those of you who do not want to waste too much time over it, I&#8217;ll walk through the process.</p>
+<p>After upgrading to Leopard you want to check whether your blog is still alive, so you fire up Safari and will be greeted by the message that Safari cannot find your server. Sure enough you forgot to start the WebServer in SystemPreferences/Sharing/Web Sharing. Having fixed this you will see the default Apache-screen because Leopard put these default-files in your webserver-root directory (/Library/WebServer/Documents). In case you installed your blog under a user account you will get a message that you enter forbidden territory, see below for the solution to that problem. Having removed all those index.html files (making sure NOT to delete the index.php of your blog) a more serious problem presents itself : you see the text-version of index.php meaning that PHP isnt working. You check the /etc/httpd/httpd.conf file and it still contains all the changes you made to it to get PHP running under Tiger, so what is going on?</p>
+<p>Googling for something like &#8216;enabling PHP under Leopard&#8217; you&#8217;ll discover that the configuration file used by the webserver is in a different location. It now resides at /private/etc/apache2/httpd.conf. You will have to remove the hash sign (#) at the beginning of line 114 so that it reads</p>
+<p class="code">LoadModule php5_module    libexec/apache2/libphp5.so
+</p>
+<p>Next, you have to create a php.ini file and change one line. The first thing is settled by the following Terminal-commands</p>
+<p class="code">
+cd /private/etc<br />
+sudo cp php.ini.default php.ini
+</p>
+<p>and in the php.ini you have to modify line 305 so that it becomes (removing the latter part of the line)</p>
+<p class="code">error_reporting = E_ALL
+</p>
+<p>Restarting the webserver enables PHP. If you need more details check out the article <a href="http://foundationphp.com/tutorials/php_leopard.php">Enabling PHP and Apache in Leopard</a>. However, you are not quite done yet. Your blog will now show the WordPress-page that something is wrong with your mysql-database. However, mysql seems to be running fine as you can check from the Terminal so PHP cannot find it.</p>
+<p>To remedy this, you have to add the locations (after the = sign) in the follwing two lines of the php.ini file</p>
+<p class="code">mysql.default_socket = /private/tmp/mysql.sock <br />
+mysqli.default_socket = /private/tmp/mysql.sock</p>
+<p>Restarting the webserver should resolve the problem. But then your blog can still choke on old PHP-code in one of the plugins you use. In my case I was using an ancient version of the <a href="http://michelf.com/projects/php-markdown/">PHP-Markdown plugin</a> but after replacing it with the newest version NeB looked just like I left it with Tiger&#8230;</p>
+<p>A final point : webpages stored in personal Sites-folders cannot be served by Apache2 and will produce a message that you have not enough privileges to view the page. To resolve this, type the following command from the Terminal</p>
+<p class="code">sudo cp /private/etc/httpd/users/*.conf  /private/etc/Apache2/users</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neb-on-leopard-and-iphone/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>problema bovinum</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/problema-bovinum/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/problema-bovinum/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 03 Dec 2007 16:49:22 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=47</guid>
+
+					<description><![CDATA[Suppose for a moment that some librarian at the Bodleian Library announces that (s)he discovered an old encrypted book attributed to Isaac Newton. After a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Suppose for a moment that some librarian at the <a href="http://www.bodley.ox.ac.uk/">Bodleian Library</a> announces that (s)he discovered an old encrypted book attributed to Isaac Newton. After a few months of failed attempts, the code is finally cracked and turns out to use a Public Key system based on the product of two gigantic prime numbers, $2^{32582657}-1 $ and $2^{30402457}-1 $, which were only <a href="http://primes.utm.edu/largest.html#largest">discovered to be prime</a> recently. Would one deduce from this that Newton invented public key cryptography and that he used alchemy to factor integers? (( Come to think of it, some probably would ))</p>
+<p>The cynic in me would argue that it is a hell of a coincidence for this text to surface exactly at the moment in history when we are able to show these numbers to be prime and understand their cryptographic use, and conclude that the book is likely to be a fabrication. Still, stranger things have happened in the history of mathematics&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/Lessing.gif" style="float:left;margin-right:10px;"> In 1773, <a href="http://de.wikipedia.org/wiki/Gotthold_Ephraim_Lessing">Gotthold Ephraim Lessing</a> at that time librarian at the <a href="http://de.wikipedia.org/wiki/Herzog_August_Bibliothek">Herzog-August-Bibliothek</a> discovered and published a Greek epigram in 22 elegiac couplets. The manuscript describes  a problem sent by Archimedes to the mathematicians in Alexandria.</p>
+<p>In his beautiful book &#8220;Number Theory, an approach through history. From Hammurapi to Legendre&#8221; <a href="http://en.wikipedia.org/wiki/André_Weil">Andre Weil</a> asserts (( Chapter I,IX )):</p>
+<blockquote><p>Many mathematical epigrams are known. Most of them state problems of little depth; not so Lessing&#8217;s find; there is indeed every reason to accept the attribution to Archimedes, and none for putting it into doubt.</p></blockquote>
+<p>This <strong>Problema Bovidum</strong> (the cattle problem) is a surprisingly difficult diophantine problem and the simplest complete solution consists of eigth numbers, each having about 206545 digits. As we will see later the final ingredient in the solution is the solution of Pell&#8217;s equation using continued fractions discovered by <a href="http://en.wikipedia.org/wiki/Joseph_Louis_Lagrange">Lagrange</a> in 1768 and published in 1769 in a long memoir. Lagrange&#8217;s solution to the Pell equation was inserted in Euler&#8217;s &#8220;Algebra&#8221; which was composed in 1771 but published only in 1773&#8230; the very same year as Lessing&#8217;s discovery! (( all dates learned from Weil&#8217;s book Chp. III,XII ))</p>
+<p>Weil&#8217;s book doesn&#8217;t include the details of the original epigram. The (lost) archeologist in me wanted to see the original Greek 22 couplets as well as a translation. So here they are : (( thanks to the <a href="http://www.math.nyu.edu/~crorres/Archimedes/Cattle/Statement.html">Cattle problem site</a> ))</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/epigram.gif" style="float:left;margin-right:10px;"> A PROBLEM</p>
+<p>which Archimedes solved in epigrams, and which he communicated to students of such matters at Alexandria in a letter to Eratosthenes of Cyrene.</p>
+<p>If thou art diligent and wise, O stranger, compute the number of cattle of the Sun, who once upon a time grazed on the fields of the Thrinacian isle of Sicily, divided into four herds of different colours, one milk white, another a glossy black, a third yellow and the last dappled. In each herd were bulls, mighty in number according to these proportions: Understand, stranger, that the white bulls were equal to a half and a third of the black together with the whole of the yellow, while the black were equal to the fourth part of the dappled and a fifth, together with, once more, the whole of the yellow. Observe further that the remaining bulls, the dappled, were equal to a sixth part of the white and a seventh, together with all of the yellow. These were the proportions of the cows: The white were precisely equal to the third part and a fourth of the whole herd of the black; while the black were equal to the fourth part once more of the dappled and with it a fifth part, when all, including the bulls, went to pasture together. Now the dappled in four parts were equal in number to a fifth part and a sixth of the yellow herd. Finally the yellow were in number equal to a sixth part and a seventh of the white herd. If thou canst accurately tell, O stranger, the number of cattle of the Sun, giving separately the number of well-fed bulls and again the number of females according to each colour, thou wouldst not be called unskilled or ignorant of numbers, but not yet shalt thou be numbered among the wise.</p>
+<p>But come, understand also all these conditions regarding the cattle of the Sun. When the white bulls mingled their number with the black, they stood firm, equal in depth and breadth, and the plains of Thrinacia, stretching far in all ways, were filled with their multitude. Again, when the yellow and the dappled bulls were gathered into one herd they stood in such a manner that their number, beginning from one, grew slowly greater till it completed a triangular figure, there being no bulls of other colours in their midst nor none of them lacking. If thou art able, O stranger, to find out all these things and gather them together in your mind, giving all the relations, thou shalt depart crowned with glory and knowing that thou hast been adjudged perfect in this species of wisdom.</p>
+<p>The Lessing epigram may very well be an extremely laborious hoax but it is still worth spending a couple of posts on it. It gives us the opportunity to retell the amazing history of <a href="http://en.wikipedia.org/wiki/Pell's_equation">Pell&#8217;s problem</a> rangingfrom the ancient Greeks and Indians, over Fermat and his correspondents, to Euler and Lagrange (with a couple of recent heroes entering the story). And, on top of this, the modular group is all the time just around the corner&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/problema-bovinum/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Mathieu groupoid (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mathieu-groupoid-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-mathieu-groupoid-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 20 Jun 2007 13:41:02 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=17</guid>
+
+					<description><![CDATA[Conway&#8217;s puzzle M(13) is a variation on the 15-puzzle played with the 13 points in the projective plane $\mathbb{P}^2(\mathbb{F}_3) $. The desired position is given&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/iniposm13.gif" style="float:left;margin-right:10px;" hspace=10> <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">Conway&#8217;s puzzle M(13)</a> is a variation on the 15-puzzle played with the 13 points in the projective plane $\mathbb{P}^2(\mathbb{F}_3) $. The desired position is given on the left where all the counters are placed at at the points having that label (the point corresponding to the hole in the drawing has label 0). A typical move consists in choosing a line in the plane going through the point where the hole is, choose one of the three remaining points on this line and interchange the counter on it for the hole while at the same time interchanging the counters on the other two points. In the drawing on the left, lines correspond to the little-strokes on the circle and edges describe which points lie on which lines. For example, if we want to move counter 5 to the hole we notice that both of them lie on the line represented by the stroke just to the right of the hole and this line contains also the two points with counters 1 and 11, so we have to replace these two counters too in making a move. Today we will describe the groupoid corresponding to this slide-puzzle so if you want to read on, it is best to play a bit with Sebastian Egner&#8217;s <a href="http://www.sebastian-egner.net/m13/">M(13) Java Applet</a> to see the puzzle in action (and to use it to verify the claims made below). Clicking on a counter performs the move taking the counter to the hole.</p>
+<p><span id="more-17"></span></p>
+<p>For the 15-puzzle I&#8217;ve gone to great lengths of detail <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=14">here</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=16">there</a> explaining how a groupoid naturally crops up having as its objects the reachable positions and as its morphisms the legal slide-sequences. Here, I&#8217;ll economize on details. We can encode a position by a permutation in $S_{13} $ by recording the counters (the hole having counter 0) as we move along the circle clockwise starting at the point of label 0 (the top-point). Basic moves transpose two pairs of counters so are given by a product of two transpositions. For example, the move described above from the initial position is $~(0,5)(1,11) $. Again it is clear how to make a groupoid from the reachable positions and the legal move-sequences and how all actual calculations can be done inside the group $S_{13} $. Two small remarks. (1) The situation is more symmetric than in the 15-puzzle. Here we have precisely 12 possible basic moves from any given position corresponding to the 12 non-hole counters which can be thrown into the hole. (2) Related to this, we have another way to encode move-sequences here. For each basic move we can jot down the <strong>label</strong> of the point whose counter we will throw to the hole (note : label, not counter!). The point of this being that we can now describe all reachable positions having the hole at the top point (the label 0 point) as those obtained from a move sequence of the form $~[0-i_1-i_2-\ldots-i_k-0]~ $ for all choices of $i_j $ between 0 and 12. However, not all these sequences give different positions and we want to determine how many distinct such positions we have. They will again form a subgroup of $S_{12} $ and the aim will be to show that this subgroup is the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M12/">sporadic simple Mathieu group</a> $M_{12} $. We will check now that $M_{12} $ is contained in this group. _Next time_ we will prove the other inclusion.</p>
+<p>Clearly, there are several different ways to label the 13 points and lines in the projective plane and unfortunately the choice of the <a href="http://arxiv.org/abs/math/0508630">Conway-Elkies-Martin paper</a> is different from that of the <a href="http://www.sebastian-egner.net/m13/">Java Applet</a>. For example, in the Applet-labeling {1,3,4,8} are on a line, whereas the paper-labeling assumes the following point/line labels</p>
+<p>$l_0 = \{ 0,1,2,3 \}, l_1= \{ 0,4,5,6 \}, l_2 = \{ 0,9,10,11 \}, l_3 = \{ 0,7,8,12 \}, l_4= \{ 1,4,8,9 \} $</p>
+<p>$l_5 = \{ 1,6,7,11 \}, l_6= \{ 1,5,10,12 \}, l_7= \{ 3,5,8,11 \}, l_8 = \{ 3,4,7,10 \} $</p>
+<p>$l_9=\{ 2,4,11,12 \}, l_{10}=\{ 2,6,8,10 \}, l_{11}=\{ 2,5,7,9 \}, l_{12} = \{ 3,6,9,12 \} $</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dictm13.gif" style="float:left;margin-right:10px;" hspace=10> We need to find a dictionary between the two labeling-systems. Again there are several options, but here is the first one I found. Relabeling the points of the Applet as on the left (also indicated is the labeling of the lines)<br />
+we get the labeling of the paper. Hence, to all CEM-paper-sequences we have to apply the <strong>dictionary</strong></p>
+<p>0(0), 1(1), 2(11), 3(5), 4(12), 5(10), 6(4), 7(8), 8(6), 9(2), 10(7), 11(3), 12(9)</p>
+<p>and use the bracketed labels to perform the sequence in the Java Applet. For example, if Conway-Elkies-Martin compute the effect of the move-sequence [0-11-7-9-8-3-0] (read from left to right) then we first have to translate this via the dictionary to the move-sequence [0-3-8-2-6-5-0]. Then, we perform this sequence in the Java-applet (note again : a basic move is indicated by the label of the point to click on NOT the counter) and record the final position.</p>
+<p>Below we depict the final positions for the three move-sequences [0-3-8-2-6-5-0], [0-9-1-2-0-5-6-12-0] and [0-1-8-0-5-4-0-1-8-0] which are our translations of the three basic move-sequences on page 9 of the CEM-paper (from left to right).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13alpha.gif"> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13beta.gif"> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13gamma.gif"></p>
+<p>This gives us three reachable positions having their hole at the top. They correspond to teh following permutations in the symmetric group $S_{12} $ (from left to right)</p>
+<p>$\alpha = (1,10,8,7,2,6,5,3,11,12,4), \beta=(1,9)(2,11)(3,7)(4,10)(5,12)(6,8) $</p>
+<p>$ \gamma=(2,6)(3,11)(5,8)(10,12) $</p>
+<p>Using <a href="http://www.gap-system.org/">GAP</a> (or the arithmetic progression loop description of $M_{12} $ as given in Chp.11 section 18 of <a href="http://www.amazon.co.uk/Sphere-Packings-Lattices-Groups-Wissenschaften/dp/0387985859/">Conway-Sloane</a> modulo relabeling ) we find that the group generated by these three elements is simple and of order 95040 and is isomorphic to the sporadic Mathieu group $M_{12} $.</p>
+<p>This corresponds to the messy part of the 15-puzzle in which we had to find enough reachable positions to generate $A_{15} $. The more conceptual part (the OXO-labeling showing that all positions must belong to $A_{15} $) also has a counterpart here. But, before we can tell that story we have to get into linear codes and in particular the properties of the _tetra-code_&#8230;</p>
+<p><strong>Reference</strong></p>
+<p>John H. Conway, Noam D. Elkies and Jeremy L. Martin &#8220;The Mathieu Group $M_{12} $ and its pseudogroup extension $M_{13} $&#8221; <a href="http://arxiv.org/abs/math/0508630">arXiv-preprint</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-mathieu-groupoid-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Conway’s puzzle M(13)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/conways-puzzle-m13/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/conways-puzzle-m13/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 16 Jun 2007 16:05:11 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blackjack]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=13</guid>
+
+					<description><![CDATA[In the series "Mathieu games" we describe some mathematical games and puzzles connected to simple groups. We will encounter Conway's M(13)-puzzle, the classic Loyd's 15-puzzle and mathematical blackjack based on Mathieu's sporadic simple group M(12).]]></description>
+										<content:encoded><![CDATA[<p>Recently, I&#8217;ve been playing with the idea of writing a book for the general public. Its title is still unclear to me (though an idea might be &#8220;The disposable science&#8221;, better suggestions are of course wellcome) but I&#8217;ve fixed the subtitle as &#8220;Mathematics&#8217; puzzling fall from grace&#8221;. The book&#8217;s concept is simple : I would consider the mathematical puzzles creating an hype over the last three centuries : the <a href="http://bd.thrijswijk.nl/15puzzle/15puzzen.htm">14-15 puzzle</a> for the 19th century, <a href="http://en.wikipedia.org/wiki/Rubik's_Cube">Rubik&#8217;s cube</a> for the 20th century and, of course, <a href="http://en.wikipedia.org/wiki/Sudoku">Sudoku</a> for the present century.</p>
+<p>For each puzzle, I would describe its origin, the mathematics involved and how it can be used to solve the puzzle and, finally, what the differing quality of these puzzles tells us about mathematics&#8217; changing standing in society over the period. Needless to say, the subtitle already gives away my point of view. The final part of the book would then be more optimistic. What kind of puzzles should we promote for mathematical thinking to have a fighting chance to survive in the near future?</p>
+<p><span id="more-13"></span></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/johnconway.jpg" style="float:left;margin-right:10px;" hspace=10 /> One of the puzzles I would propose is $M_{13} $, a sliding game first proposed by <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Horton Conway</a> in 1989 at the fourteenth New York Graph Theory Day. The analysis of the game was taken up by <a href="http://www.math.ku.edu/~jmartin/">Jeremy Martin</a> in his 1996 honors thesis in mathematics <a href="http://www.math.ku.edu/~jmartin/papers/undergrad-thesis.pdf">The Mathieu group M(12) and Conway&#8217;s M(13)-game</a> under the supervision of <a href="http://en.wikipedia.org/wiki/Noam_Elkies">Noam Elkies</a>.</p>
+<p>Two years ago, the three of them joined forces and arXived the paper <a href="http://arxiv.org/abs/math/0508630">The Mathieu group M(12) and its pseudogroup extension M(13)</a>. The game is similar to the 15-puzzle replacing the role played by the simple alternating group $A_{15} $ there with that of the sporadic simple Mathieu group $M_{12} $.</p>
+<p>The game board of $M_{13} $ is the finite projective plane $\mathbb{P}^2(\mathbb{F}_3) $ over the field with three elements $\mathbb{F}_3 $. Recall that the number of points in projective n-space over a finite field of q-elements $\mathbb{P}^n(\mathbb{F}_q)  $ is given by</p>
+<p>$ q^n + q^{n-1} + \cdots + q + 1 $</p>
+<p>Therefore, there are 13=9+3+1 points on the board and as there is a bijection between points and lines in the projective plane, there are also 13 lines on the board, each containing exactly 4=3+1 points and so each point lies on exactly 4 lines.<br />
+Moreover, two distinct points p and q determine a unique line $\overline{pq} $ and two distinct lines l and m have a unique intersection point $l \cap m = &#123; p &#125; $. Clearly it will be hard selling a projective plane board to the general public, so let us depict all this information in a more amenable form such as</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/projplane3.gif" /></p>
+<p>The 13 points are indicated by the small discs around the circle whereas the 13 lines are depicted as small strokes on the circle. All edges (both &#8216;along&#8217; as well &#8216;inside&#8217; the circle) connect a point p and a line l subject to the relation that p lies on the line l in the projective plane $\mathbb{P}^2(\mathbb{F}_3) $.</p>
+<p>The fact that two distinct points determine a unique line corresponds to the fact that for any two small-discs there is a unique small-stroke connecting both small-discs with an edge (note that one or both of these edges may lie on the circle). Similarly, for any two small-strokes the is a unique small-disc connected via edges to the two small-strokes, corresponding to the fact that two lines have a unique point in common.</p>
+<p>A typical position in Conway&#8217;s puzzle $M_{13} $ consists in placing numbered counters, labeled 1 through 12, on 12 of the 13 points leaving one point empty, called the &#8220;hole&#8221;. A basic move consists of the following operation : choose a labeled point, say, p. Then, there is a unique line l (a small-stroke) containing p and the hole and there are two more points say q and r on this line l. The basic move replaces the counters between q and r and moves the counter of p to the hole and the hole to point p. For example, consider the position on the left</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13a.gif" /> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13b.gif" /></p>
+<p>and suppose we want to move the counter 11 to the hole. Hole and 11 determine the unique line represented by the small-stroke immediately to the left of 11. This line contains the further points with counters 8 and 9. Hence, applying the basic move we get the situation on the right hand side. The aim of <strong>Conway&#8217;s game M(13)</strong> is to get the hole at the top point and all counters in order 1,2,&#8230;,12 when moving clockwise along the circle. One can play this puzzle online using the excellent <a href="http://www.sebastian-egner.net/m13/">java-applet</a> by <a href="http://www.sebastian-egner.net/">Sebastian Egner</a>.</p>
+<p>Another time we will make the connection with the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=17">Mathieu groupoid M(13)</a> and the sporadic simple Mathieu group $M_{12} $.</p>
+<p><strong>Reference</strong></p>
+<p>John H. Conway, Noam D. Elkies, and Jeremy L. Martin <a href="http://arxiv.org/abs/math/0508630">&#8220;The Mathieu group M(12) and its pseudogroup extension M(13)&#8221;</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/conways-puzzle-m13/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

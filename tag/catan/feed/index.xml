@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Catan &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/catan/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 01 Jul 2014 08:46:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Grothendieck&#8217;s Café</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-cafe/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-cafe/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 01 Jul 2014 08:46:26 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Cartier]]></category>
+		<category><![CDATA[Catan]]></category>
+		<category><![CDATA[Chevalley]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[McLarty]]></category>
+		<category><![CDATA[Roubaud]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=6277</guid>
+
+					<description><![CDATA[&#8220;A story says that in a Paris café around 1955 Grothendieck asked his friends &#8220;what is a scheme?&#8221;. At the time only an undefined idea&#8230;]]></description>
+										<content:encoded><![CDATA[<p>&#8220;A story says that in a Paris café around 1955 Grothendieck asked his friends &#8220;what is a scheme?&#8221;. At the time only an undefined idea of &#8220;schéma&#8221; was current in Paris, meaning more or less whatever would improve on Weil&#8217;s foundations.&#8221; (McLarty in <a href="http://www.cwru.edu/artsci/phil/RisingSea.pdf">The Rising Sea</a>)</p>
+<p>Finding that particular café in Paris, presumably in the 5th arrondissement, seemed like looking for a needle in a haystack.</p>
+<p>Until now.</p>
+<p>In trying to solve the next riddle in <a href="http://noncommutative.org/announcement-bourbakis-death/">Bourbaki&#8217;s death announcement</a>:</p>
+<p><span style="text-decoration: underline;">A reception will be held at the Bar &#8216;The Direct Products&#8217;, at the crossroads of the Projective Resolutions (formerly Koszul square)</span></p>
+<p>I&#8217;ve been reading <a href="http://www.amazon.com/Mathematics-Jacques-Roubaud/dp/B00FY5U416">Mathematics, a novel</a> by Jacques Roubaud (the guy responsible for the announcement) on Parisian math-life in the 50ties and 60ties.</p>
+<p>It turns out that the poor Bourbakistas had very little choice if they wanted to have a beer (or coffee) after attending a seminar at the IHP.</p>
+<p>On page 114, Roubaud writes:</p>
+<p>&#8220;Père Plantin presided over his bar, which presided over the Lhomond/Ulm street corner. It is an obvious choice. rue Pierre-et-Marie-Curie had no bars; rue d&#8217;Ulm had no bars in eyeshot either. If we emerged, as we did, on this side of the Institut Henri Poincaré (for doing so on the other side would have meant fraternizing with the Spanish and Geography students in the cafés on rue Saint-Jacques, which was out of the question), we had no choice. <strong>Café Plantin had a hegemony</strong>.&#8221;</p>
+<p>It is unclear to me whether <strong>Plantin</strong> was once actually the name of the café, or that it&#8217;s just Roubaud&#8217;s code-word for it. At other places in the book, e.g. on pages 82 and 113, he consistently writes &#8220;Plantin&#8221;, between quotes.</p>
+<p>Today, the café on the crossroads of rue d&#8217;Ulm (where the Ecole Normal Superieure is located) and de rue Lhomond is the <a href="http://interlude-cafe.xooit.com/index.php">Interlude Café</a></p>
+<p> <img decoding="async" width=100% src="http://matrix.cmi.ua.ac.be/DATA3/PlantinInterlude.jpg" alt="" /></p>
+<p>and here&#8217;s what Roubaud has to say about it, or rather about the situation in 1997, when the French version of his book was published:</p>
+<p>&#8220;<span style="text-decoration: underline;">the thing</span> that would currently be found at the very same corner of rues Lhomond/Ulm would not be what I am here terming &#8220;Plantin&#8221;.&#8221;</p>
+<p>So, we can only hope that the <span style="text-decoration: underline;">Café &#8216;Aux Produits Directs&#8217;</span> was a lot cosier, way back then.</p>
+<p>But let us return to Grothendieck&#8217;s &#8220;What is a scheme?&#8221; story.</p>
+<p>Now that we have a fair idea of location, what about a possible date? Here&#8217;s a suggestion: this happened on monday december 12th, 1955, and, one of the friends present must have been Cartier.</p>
+<p>Here&#8217;s why.</p>
+<p>The very first time the word &#8220;schéma&#8221; was uttered, in Paris, at an official seminar talk, was during the <a href="http://www.numdam.org/numdam-bin/browse?id=SHC_1955-1956__8_">Cartan seminar of 1955/56</a> on algebraic geometry.</p>
+<p>The lecturer was Claude Chevalley, and the date was december 12th 1955.</p>
+<p><center><br />
+<img decoding="async" width=100% alt="" src="http://matrix.cmi.ua.ac.be/DATA3/ChevalleySchemes.jpg" /></center></p>
+<p>I&#8217;m fairly certain Grothendieck and Cartier attended and that Cartier was either briefed before or understood the stuff at once (btw. he gave <a href="http://archive.numdam.org/ARCHIVE/SCC/SCC_1956-1958__1_/SCC_1956-1958__1__A2_0/SCC_1956-1958__1__A2_0.pdf">another talk on schemes</a>, a year later at the Chevalley seminar).</p>
+<p>A couple of days later, on december 15th, Grothendieck sends a letter to his pal Serre (who must have been out of Paris for otherwise they&#8217;d phone each other) ending with:</p>
+<p><center><br />
+<img decoding="async" width=100% alt="" src="http://matrix.cmi.ua.ac.be/DATA3/GrothSerre1.jpg" /><br />
+</center></p>
+<p>Note the phrase: <strong>I am exploiting him most profitably</strong>. Yes, by asking him daft questions over a pint at <strong>Café &#8220;Plantin&#8221;</strong>&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-cafe/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

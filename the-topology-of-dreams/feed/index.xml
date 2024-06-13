@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: The topology of dreams	</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/</link>
+	<description></description>
+	<lastBuildDate>Fri, 03 Mar 2023 12:18:30 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>
+		By: lievenlb		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/#comment-147</link>
+
+		<dc:creator><![CDATA[lievenlb]]></dc:creator>
+		<pubDate>Fri, 03 Mar 2023 12:18:30 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10937#comment-147</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/#comment-146&quot;&gt;javier&lt;/a&gt;.
+
+Thanks Javier!]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/#comment-146">javier</a>.</p>
+<p>Thanks Javier!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: javier		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/#comment-146</link>
+
+		<dc:creator><![CDATA[javier]]></dc:creator>
+		<pubDate>Tue, 28 Feb 2023 11:07:27 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10937#comment-146</guid>
+
+					<description><![CDATA[Hi Lieven! Hope everything is going well.
+This was an interesting post! Perhaps you are already angling in this direction, but in case you are not, I think your remarks about the need for a topology would connect nicely with some of the ideas from Topological Data Analysis (see for instance https://www.ams.org/journals/bull/2009-46-02/S0273-0979-09-01249-X/S0273-0979-09-01249-X.pdf).
+This was all the rage in the data analysis circles a few years back, the core idea being that when we observe data the values we see are not natural because they rely on us picking &quot;coordinates&quot; or &quot;variables&quot; to measure, and thus to understand the true nature of the data we should be looking at some kind of underlying topology. The field of TDA is full with papers on how to use reconstruction functors to create topological spaces/simplices that best describe an observed dataset. I haven&#039;t seen anyone trying to apply it to language models, but then again I don&#039;t follow developments in NLP/LLM very closely.]]></description>
+			<content:encoded><![CDATA[<p>Hi Lieven! Hope everything is going well.<br />
+This was an interesting post! Perhaps you are already angling in this direction, but in case you are not, I think your remarks about the need for a topology would connect nicely with some of the ideas from Topological Data Analysis (see for instance <a href="https://www.ams.org/journals/bull/2009-46-02/S0273-0979-09-01249-X/S0273-0979-09-01249-X.pdf" rel="nofollow ugc">https://www.ams.org/journals/bull/2009-46-02/S0273-0979-09-01249-X/S0273-0979-09-01249-X.pdf</a>).<br />
+This was all the rage in the data analysis circles a few years back, the core idea being that when we observe data the values we see are not natural because they rely on us picking &#8220;coordinates&#8221; or &#8220;variables&#8221; to measure, and thus to understand the true nature of the data we should be looking at some kind of underlying topology. The field of TDA is full with papers on how to use reconstruction functors to create topological spaces/simplices that best describe an observed dataset. I haven&#8217;t seen anyone trying to apply it to language models, but then again I don&#8217;t follow developments in NLP/LLM very closely.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

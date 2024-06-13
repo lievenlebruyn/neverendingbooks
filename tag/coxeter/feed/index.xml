@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Coxeter &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/coxeter/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 15 Jan 2018 10:13:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Coxeter on Escher&#8217;s Circle Limits</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/coxeter-on-eschers-circle-limits/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/coxeter-on-eschers-circle-limits/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 15 Jan 2018 10:13:10 +0000</pubDate>
+				<category><![CDATA[art]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Coxeter]]></category>
+		<category><![CDATA[Escher]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7671</guid>
+
+					<description><![CDATA[Conway&#8217;s orbifold notation gives a uniform notation for all discrete groups of isometries of the sphere, the Euclidian plane as well as the hyperbolic plane.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Conway&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere">orbifold notation</a> gives a uniform notation for all discrete groups of isometries of the sphere, the Euclidian plane as well as the hyperbolic plane.</p>
+<p>This includes the groups of symmetries of Escher&#8217;s Circle Limit drawings. Here&#8217;s <a href="https://en.wikipedia.org/wiki/Circle_Limit_III">Circle Limit III</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/EscherIII.png"></p>
+<p>And &#8216;Angels and Devils&#8217; aka Circle Limit IV:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/EscherIV.png"></p>
+<p>If one crawls along a mirror of this pattern until one hits another mirror and then turns right along this mirror and continues like this, you get a quadrilateral path with four corners $\frac{\pi}{3}$, whose center seems to be a $4$-fold gyration point. So, it appears to have symmetry $4 \ast 3$.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/EscherIV.png"><br />
+(image credit: <a href="http://cloud.crm2.uhp-nancy.fr/pdf/Manila/Hyde_2.pdf">MathCryst</a>)</p>
+<p>However, looking more closely, every fourth figure (either devil or angel) is facing away rather than towards us, so there&#8217;s no gyration point, and the group drops to $\ast 3333$.</p>
+<p><a href="https://en.wikipedia.org/wiki/Harold_Scott_MacDonald_Coxeter">Harold S. M. Coxeter</a> met Escher in Amsterdam at the ICM 1954.</p>
+<p>The interaction between the two led to Escher&#8217;s construction of the Circle Limits, see <a href="http://www.ams.org/samplings/feature-column/fcarc-circle-limit">How did Escher do it?</a></p>
+<p>Here&#8217;s an old lecture by Coxeter on the symmetry of the Circle Limits:</p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JkhuMvFQWz4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/coxeter-on-eschers-circle-limits/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

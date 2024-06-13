@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>DesignerMaths &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/category/designermaths/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 17 Sep 2023 11:38:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>the L-game</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 17 Sep 2023 11:38:33 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[DesignerMaths]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[de Bono]]></category>
+		<category><![CDATA[designermaths]]></category>
+		<category><![CDATA[L-game]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[winning ways]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11320</guid>
+
+					<description><![CDATA[In 1982, the BBC ran a series of 10 weekly programmes entitled de Bono&#8217;s Thinking Course. In the book accompanying the series Edward de Bono&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In 1982, the BBC ran a series of 10 weekly programmes entitled <a href="https://ia902600.us.archive.org/0/items/pdfy-RP-OuErwuZWp4xkk/deBonos_thinking_course_text.pdf">de Bono&#8217;s Thinking Course</a>. In the book accompanying the series <a href="https://en.wikipedia.org/wiki/Edward_de_Bono">Edward de Bono</a> recalls the origin of his &#8216;L-Game&#8217;:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamebegin.png" width=30%><br />
+</center></p>
+<blockquote><p>Many years ago I was sitting next to the famous mathematician, <a href="https://en.wikipedia.org/wiki/John_Edensor_Littlewood">Professor Littlewood</a>, at dinner in Trinity College. We were talking about getting computers to play chess. We agreed that chess was difficult because of the large number of pieces and different moves. It seemed an interesting challenge to design a game that was as simple as possible and yet could be played with a degree of skill.</p>
+<p>As a result of that challenge I designed the <a href="https://en.wikipedia.org/wiki/L_game">&#8216;L-Game&#8217;</a>, in which each player has only one piece (the L-shape piece). In turn he moves this to any new vacant position (lifting up, turning over, moving across the board to a vacant position, etc.). After moving his L-piece he can &#8211; if he wishes &#8211; move either one of the small neutral pieces to any new position. The object of the game is to block your opponent&#8217;s L-shape so that no move is open to it.
+</p></blockquote>
+<p>It is a pleasant exercise in symmetry to calculate the number of possible L-game positions.</p>
+<p>The $4 \times 4$ grid has $8$ symmetries, making up the dihedral group $D_8$: $4$ rotations and $4$ reflections.</p>
+<p>An L-piece breaks all these symmetries, that is, it changes in form under each of these eight operations. That is, using the symmetries of the $4 \times 4$-grid we can put one of the L-pieces (say the Red one) on the grid as a genuine L, and there are exactly 6 possibilities to do so.</p>
+<p>For each of these six positions one can then determine the number of possible placings of the Blue L-piece. This is best done separately for each of the 8 different shapes of that L-piece.</p>
+<p>Here are the numbers when the red L is placed in the left bottom corner:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamenumber1.png" width=85%><br />
+</center></p>
+<p>In total there are thus 24 possibilities to place the Blue L-piece in that case. We can repeat the same procedure for the remaining Red L-positions. Here are the number of possibilities for Blue in each case:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamenumber2.png" width=85%><br />
+</center></p>
+<p>That is, there are 82 possibilities to place the two L-pieces if the Red one stands as a genuine L on the board.</p>
+<p>But then, the L-game has exactly $18368 = 8 \times 82 \times 28$ different positions, where the factor</p>
+<ul>
+<li>$8$ gives the number of symmetries of the square $4 \times 4$ grid.</li>
+<li>Using these symmetries we can put the Red L-piece on the grid as a genuine $L$ and we just saw that this leaves $82$ possibilities for the Blue L-piece.</li>
+<li>This leaves $8$ empty squares and so $28 = \binom{8}{2}$ different choices to place the remaining two neutral pieces.</li>
+</ul>
+<p>The $2296 = 82 \times 28$ positions in which the red L-piece is placed as a genuine L can then be analysed by computer and the outcome is summarised in <a href="https://www.amazon.com/Winning-Ways-Your-Mathematical-Plays/dp/1138427578">Winning Ways 2</a> pages 384-386 (with extras on pages 408-409).</p>
+<p>Of the $2296$ positions only $29$ are $\mathcal{P}$-positions, meaning that the next player (Red) will loose. Here are these winning positions for Blue</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Ppositions1.png" width=70%><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Ppositions2.png" width=70%><br />
+</center></p>
+<p>Here, neutral piece(s) should be put on the yellow square(s). A (potential) remaining neutral piece should be placed on one of the coloured squares. The different colours indicate the <em>remoteness</em> of the $\mathcal{P}$-position:</p>
+<ul>
+<li>Pink means remoteness $0$, that is, Red has no move whatsoever, so mate in $0$.</li>
+<li>Orange means remoteness $2$: Red still has a move, but will be mated after Blue&#8217;s next move.</li>
+<li>Purple stands for remoteness $4$, that is, Blue mates Red in $4$ moves, Red starting.</li>
+<li>Violet means remoteness $6$, so Blue has a mate in $6$ with Red starting</li>
+<li>Olive stands for remoteness $8$: Blue mates within eight moves.</li>
+</ul>
+<p>Memorising these gives you a method to spot winning opportunities. After Red&#8217;s move image a board symmetry such that Red&#8217;s piece is a genuine L, check whether you can place your Blue piece and one of the yellow pieces to obtain one of the 29 $\mathcal{P}$-positions, and apply the reverse symmetry to place your piece.</p>
+<p>If you don&#8217;t know this, you can run into trouble very quickly. From the starting position, Red has five options to place his L-piece before moving one of the two yellow counters.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen.png" width=85% ><br />
+</center></p>
+<p>All possible positions of the first option loose immediately.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen1.png" width=100% ><br />
+</center></p>
+<p>For example in positions $a,b,c,d,f$ and $l$, Blue wins by playing</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgamewin.png" width=25%><br />
+</center></p>
+<p>Here&#8217;s my first attempt at an opening repertoire for the L-game. Question mark means immediate loss, question mark with a number means mate after that number of moves, x means your opponent plays a sensible strategy.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen2.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen3.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen4.png" width=100% ><br />
+</center></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lgameopen5b.png" width=100% ><br />
+</center></p>
+<p>Surely I missed cases, and made errors in others. Please leave corrections in the comments and I&#8217;ll try to update the positions.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Imagination and the Impossible</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/imagination-and-the-impossible/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/imagination-and-the-impossible/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 24 May 2021 10:15:58 +0000</pubDate>
+				<category><![CDATA[DesignerMaths]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Doyle]]></category>
+		<category><![CDATA[Escher]]></category>
+		<category><![CDATA[Gilman]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[Thurston]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9823</guid>
+
+					<description><![CDATA[Two more sources I&#8217;d like to draw from for this fall&#8217;s maths for designers-course: 1. Geometry and the Imagination A fantastic collection of handouts for&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Two more sources I&#8217;d like to draw from for this fall&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/designer-maths">maths for designers</a>-course:</p>
+<p>1. <a href="https://math.dartmouth.edu/~doyle/docs/mpls/mpls.pdf">Geometry and the Imagination</a></p>
+<p>A fantastic  collection of handouts for a two week summer workshop entitled ’Geometry and the Imagination’, led by <a href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a>, <a href="https://math.dartmouth.edu/~doyle/">Peter Doyle</a>, <a href="https://en.wikipedia.org/wiki/Jane_Piore_Gilman">Jane Gilman</a> and <a href="https://en.wikipedia.org/wiki/William_Thurston">Bill Thurston</a> at the Geometry Center in Minneapolis, June 1991, based on a course ‘Geometry and the Imagination’ they taught twice before at Princeton.</p>
+<p>Among the goodies a long list of exercises in imagining (always useful to budding architects) and how to compute curvature by peeling potatoes and other vegetables&#8230;</p>
+<p>The course really shines in giving a unified elegant classification of the <a href="https://en.wikipedia.org/wiki/Wallpaper_group">17 wallpaper groups</a>, the <a href="https://en.wikipedia.org/wiki/Frieze_group">7 frieze groups</a> and the <a href="https://mathworld.wolfram.com/SphericalGroup.html#:~:text=There%20are%2014%20families%20of,*%2C%20Nx%2C%20and%20NN.">14 families of spherical groups</a> by using Thurston&#8217;s concept of <a href="https://en.wikipedia.org/wiki/Orbifold">orbifolds</a>.</p>
+<p>If you think this will be too complicated, have a look at the proof that the orbifold Euler characteristic of any symmetry pattern in the plane with bounded fundamental domain is zero :</p>
+<p>Take a large region in the plane that is topologically a disk (i.e. without holes). Its Euler characteristic is $1$. This is approximately equal to $N$ times the orbifold Euler characteristic for some large $N$, so the orbifold Euler characteristic must be $0$.</p>
+<p>This then leads to the Orbifold Shop where they sell orbifold parts:</p>
+<ul>
+<li>a handle for 2 Euros,</li>
+<li>a mirror for 1 Euro,</li>
+<li>a cross-cap for 1 Euro,</li>
+<li>an order $n$ cone point for $(n-1)/n$ Euro,</li>
+<li>an order $n$ corner reflector for $(n-1)/2n$ Euro, if you have the required mirrors to install this piece.</li>
+</ul>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/orbifolds.png" width=100%><br />
+</center></p>
+<p>Here&#8217;s a standard brick wall, with its fundamental domain and corresponding orbifold made from a mirror piece (1 Euro), two order $2$ corner reflectors (each worth $.25$ Euro), and one order $2$ cone point (worth $.5$ Euro). That is, this orbifold will cost you exactly $2$ Euros.</p>
+<p>If you spend exactly $2$ Euros at the Orbifold Shop (and there are $17$ different ways to do this), you will have an orbifold coming from a symmetry pattern in the plane with bounded fundamental domain, that is, one of the $17$ wallpaper patterns.</p>
+<p>For the mathematicians among you desiring more details, please read <a href="https://www.researchgate.net/publication/263488290_The_Orbifold_Notation_for_Two-Dimensional_Groups">The orbifold notation for two-dimensional groups</a> by Conway and Daniel Huson, from which the above picture was taken.</p>
+<p>2. <a href="https://www.jstor.org/stable/1575844?seq=1#metadata_info_tab_contents">On the Cohomology of Impossible Figures</a> by <a href="https://en.wikipedia.org/wiki/Roger_Penrose">Roger Penrose</a></p>
+<p>The aspiring architect should be warned that some constructions are simply not possible in 3D, even when they look convincing on paper, such as Escher&#8217;s <a href="https://en.wikipedia.org/wiki/Waterfall_(M._C._Escher)">Waterfall</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/en/e/e8/Escher_Waterfall.jpg" width=50%><br />
+M.C. Escher, Waterfall &#8211; <a href="https://en.wikipedia.org/wiki/Waterfall_(M._C._Escher)">Photo Credit</a><br />
+</center></p>
+<p>In his paper, Penrose gives a unified approach to debunk such drawings by using cohomology groups.</p>
+<p>Clearly I have no desire to introduce cohomology, but it may still be possible to get the underlying idea across. Let&#8217;s take the <a href="https://en.wikipedia.org/wiki/Penrose_triangle">Penrose triangle</a> (all pictures below taken from Penrose&#8217;s paper)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tribar1.png" width=50%><br />
+</center></p>
+<p>The idea is to break up such a picture in several parts, each of which we do know to construct in 3D (that is, we take a particular cover of our figure). We can slice up the Penrose triangle in three parts, and if you ever played with Lego you&#8217;ll know how to construct each one of them.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tribar2.png" width=50%><br />
+</center></p>
+<p>Next, position the constructed pieces in space as in the picture and decide which of the two ends is closer to you. In $Q_1$ it is clear that point $A_{12}$ is closer to you than $A_{13}$, so we write $A_{12} < A_{13}$.
+
+
+
+<p />
+Similarly, looking at $Q_2$ and $Q_3$ we see that $A_{23} < A_{21}$ and that $A_{31} < A_{32}$.
+
+
+
+<p />
+Next, if we try to reassemble our figure we must glue $A_{12}$ to $A_{21}$, that is $A_{12}=A_{21}$, and similarly $A_{23}=A_{32}$ and $A_{31}=A_{13}$. But, then we get<br />
+\[<br />
+A_{13}=A_{31} < A_{32}=A_{23} < A_{21}=A_{12} < A_{13} \]
+which is clearly absurd.
+
+
+
+<p />Once again, if you have suggestions for more material to be included, please let me know.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/imagination-and-the-impossible/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Designer Maths</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/designer-maths/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/designer-maths/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 22 May 2021 11:45:47 +0000</pubDate>
+				<category><![CDATA[art]]></category>
+		<category><![CDATA[DesignerMaths]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[architecture]]></category>
+		<category><![CDATA[Burry]]></category>
+		<category><![CDATA[Kappraff]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9798</guid>
+
+					<description><![CDATA[This fall, I&#8217;ll be teaching &#8216;Mathematics for Designers&#8217; to first year students in Architecture. The past few weeks I&#8217;ve been looking around for topics to&#8230;]]></description>
+										<content:encoded><![CDATA[<p>This fall, I&#8217;ll be teaching &#8216;Mathematics for Designers&#8217; to first year students in Architecture.</p>
+<p>The past few weeks I&#8217;ve been looking around for topics to be included in such as course, relevant to architects/artists (not necessarily to engineers/mathematicians).</p>
+<p>One of the best texts I&#8217;ve found on this (perhaps in need of a slight update) is the 1986-paper by <a href="https://en.wikipedia.org/wiki/Jay_Kappraff">Jay Kappraff</a>: <a href="https://core.ac.uk/download/pdf/82088903.pdf">A course in the mathematics of design</a>. He suggests the following list of topics:</p>
+<ul>
+<li>graph theory</li>
+<li>polyhedra</li>
+<li>tilings of the plane</li>
+<li>three dimensional packings</li>
+<li>proportion and the golden mean</li>
+<li>transformations</li>
+<li>symmetry</li>
+<li>vectors</li>
+</ul>
+<p>We all know that an awful lot of math and computation is needed to design a building, but today all of the hardcore use of vectors, equations and transformations is conveniently hidden from the architect&#8217;s view by digital design platforms and CAD-programs.</p>
+<p>These computational tools offer new creative possibilities, as illustrated in the beautiful book <a href="https://www.amazon.com/New-Mathematics-Architecture-Jane-Burry/dp/0500290253">The new mathematics of architecture</a> by <a href="https://www.swinburne.edu.au/research/our-research/access-our-research/find-a-researcher-or-supervisor/researcher-profile/?id=jburry">Jane Burry</a> and <a href=:"https://mcburry.net/">Mark Burry</a>, also available in Dutch with a cover picture of the <a href="https://www.nextroom.at/data/media/med_binary/original/1132572252.pdf">Möbius bridge in Bristol</a></p>
+<p><center><br />
+<img decoding="async" src="https://media.s-bol.com/gJJ0JPlg9OZ3/550x585.jpg" width=80%><br />
+</center></p>
+<p>In this book, about 50 recent architectural projects are clustered around these topics:</p>
+<ul>
+<li>mathematical surfaces and seriality</li>
+<li>chaos, complexity, emergence</li>
+<li>packings and tilings</li>
+<li>optimization</li>
+<li>topology</li>
+<li>datascapes and multi-dimensionality</li>
+</ul>
+<p>In the description of the projects, cool math-topics are (sadly only) touched, including</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Ammann%E2%80%93Beenker_tiling">Amman tilings</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Aperiodic_tiling#:~:text=An%20aperiodic%20tiling%20is%20a,known%20examples%20of%20aperiodic%20tilings.">Aperiodic tilings</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cellular_automaton">Cellular automata</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Chaos_theory">Chaos theory</a></li>
+<li><a href="https://prezi.com/oa4kt6-iby29/danzer-packing/">Danzer packings</a></li>
+<li><a ref="https://en.wikipedia.org/wiki/Fractal">Fractals</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Homology_(mathematics)">Homology</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Knot_theory">Knot theory</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Classification_of_manifolds">Higher dimensional manifolds</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Minimal_surface">Minimal surfaces</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline#:~:text=Non%2Duniform%20rational%20basis%20spline,mathematical%20formulae)%20and%20modeled%20shapes.">NURBS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Penrose_tiling">Penrose tilings</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Singularity_theory">Singularity theory</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Voronoi_diagram">Voronoi diagrams</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Seifert_surface">Seifert surfaces</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Quasicrystal#:~:text=A%20quasiperiodic%20crystal%2C%20or%20quasicrystal,but%20it%20lacks%20translational%20symmetry.">Quasicrystals</a></li>
+</ul>
+<p>It will take me some time to find a balance between these two approaches. Common themes clearly are</p>
+<ul>
+<li><strong>Shapes</strong> : what is possible/impossible in 2D and 3D, and how can mathematics help us to find new exciting shapes (think minimal and Seifert surfaces, knot complements, etc.)</li>
+<li><strong>Symmetry</strong> : what is possible/impossible in 2D and 3D, and what can mathematics tell us about new symmetries (think emerging symmetries from aperiodic tilings and quasicrystals)</li>
+</ul>
+<p>Over the coming months I&#8217;ll be writing the course notes and may post about it here. For this reason I&#8217;ve included a new category <a href="https://lievenlebruyn.github.io/neverendingbooks/category/designermaths">DesignerMaths</a>.</p>
+<p>If you have suggestions, please let me know.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/designer-maths/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
