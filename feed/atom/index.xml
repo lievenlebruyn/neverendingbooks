@@ -1,48 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
 	>
+	<title type="text">neverendingbooks</title>
+	<subtitle type="text"></subtitle>
 
-<channel>
-	<title>neverendingbooks</title>
-	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/feed/" rel="self" type="application/rss+xml" />
-	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
-	<description></description>
-	<lastBuildDate>Fri, 14 Jun 2024 11:11:02 +0000</lastBuildDate>
-	<language>en-US</language>
-	<sy:updatePeriod>
-	hourly	</sy:updatePeriod>
-	<sy:updateFrequency>
-	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.4</generator>
-	<item>
-		<title>Vialism versus Weilism</title>
-		<link>https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/#respond</comments>
-		
-		<dc:creator><![CDATA[lieven]]></dc:creator>
-		<pubDate>Sun, 02 Jun 2024 13:16:25 +0000</pubDate>
-				<category><![CDATA[books]]></category>
-		<category><![CDATA[stories]]></category>
-		<category><![CDATA[tBC]]></category>
-		<category><![CDATA[21pilots]]></category>
-		<category><![CDATA[Andre Weil]]></category>
-		<category><![CDATA[Clancy]]></category>
-		<category><![CDATA[Dema]]></category>
-		<category><![CDATA[Felix Hausdorff]]></category>
-		<category><![CDATA[Georg Cantor]]></category>
-		<category><![CDATA[Simone Weil]]></category>
-		<category><![CDATA[Trench]]></category>
-		<category><![CDATA[Vialism]]></category>
-		<category><![CDATA[Weilism]]></category>
-		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=12100</guid>
+	<updated>2024-06-14T11:11:02Z</updated>
 
-					<description><![CDATA[Testing the static update&#8230; Here&#8217;s how 21 pilots themselves define Vialism, the &#8216;religion&#8217; of Dema, in the &#8216;I am Clancy&#8217; video: Their authority comes from&#8230;]]></description>
-										<content:encoded><![CDATA[<p>Testing the static update&#8230;</p>
+	<link rel="alternate" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/" />
+	<id>https://lievenlebruyn.github.io/neverendingbooks/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://lievenlebruyn.github.io/neverendingbooks/feed/atom/" />
+
+	<generator uri="https://wordpress.org/" version="6.5.4">WordPress</generator>
+	<entry>
+		<author>
+			<name>lieven</name>
+							<uri>https://lievenlebruyn.github.io/neverendingbooks/</uri>
+						</author>
+
+		<title type="html"><![CDATA[Vialism versus Weilism]]></title>
+		<link rel="alternate" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/" />
+
+		<id>http://www.neverendingbooks.org/?p=12100</id>
+		<updated>2024-06-14T11:11:02Z</updated>
+		<published>2024-06-02T13:16:25Z</published>
+		<category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="books" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="stories" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="tBC" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="21pilots" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Andre Weil" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Clancy" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Dema" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Felix Hausdorff" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Georg Cantor" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Simone Weil" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Trench" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Vialism" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Weilism" />
+		<summary type="html"><![CDATA[Testing the static update&#8230; Here&#8217;s how 21 pilots themselves define Vialism, the &#8216;religion&#8217; of Dema, in the &#8216;I am Clancy&#8217; video: Their authority comes from&#8230;]]></summary>
+
+					<content type="html" xml:base="https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/"><![CDATA[<p>Testing the static update&#8230;</p>
 <p>Here&#8217;s how <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">21 pilots</a> themselves define Vialism, the &#8216;religion&#8217; of Dema, in the <a href="https://www.youtube.com/watch?v=ozlHHR_eSxc">&#8216;I am Clancy&#8217;</a> video:</p>
 <blockquote><p>
 Their authority comes from two things: a miraculous power and a hijacked religion. One feeds the other. A cycle. It&#8217;s called <strong>Vialism</strong>, and all you really need to know is that it teaches that self-destruction is the only way to paradise.
@@ -147,33 +133,28 @@ God is the <a href="https://en.wikipedia.org/wiki/Alexandroff_extension">Alexand
 <li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
 <li><a href="https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil">What about Simone Weil?</a></li>
 </ul>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+]]></content>
 		
-		
-			</item>
-		<item>
-		<title>What about  Simone Weil?</title>
-		<link>https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/#comments</comments>
-		
-		<dc:creator><![CDATA[lieven]]></dc:creator>
-		<pubDate>Mon, 13 May 2024 09:22:22 +0000</pubDate>
-				<category><![CDATA[art]]></category>
-		<category><![CDATA[books]]></category>
-		<category><![CDATA[stories]]></category>
-		<category><![CDATA[tBC]]></category>
-		<category><![CDATA[Andre Weil]]></category>
-		<category><![CDATA[Dema]]></category>
-		<category><![CDATA[Simone Weil]]></category>
-		<category><![CDATA[tØp]]></category>
-		<category><![CDATA[Trench]]></category>
-		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11966</guid>
+					<link rel="replies" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>lieven</name>
+							<uri>https://lievenlebruyn.github.io/neverendingbooks/</uri>
+						</author>
 
-					<description><![CDATA[In recent weeks, a theory that Simone Weil is the key to Dema-lore is getting a lot of traction. Image credit In two words, this&#8230;]]></description>
-										<content:encoded><![CDATA[<p>In recent weeks, a theory that <a href="https://en.wikipedia.org/wiki/Simone_Weil">Simone Weil</a> is the key to Dema-lore is getting a lot of traction.</p>
+		<title type="html"><![CDATA[What about  Simone Weil?]]></title>
+		<link rel="alternate" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/" />
+
+		<id>http://www.neverendingbooks.org/?p=11966</id>
+		<updated>2024-05-13T09:22:22Z</updated>
+		<published>2024-05-13T09:22:22Z</published>
+		<category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="art" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="books" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="stories" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="tBC" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Andre Weil" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Dema" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Simone Weil" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="tØp" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Trench" />
+		<summary type="html"><![CDATA[In recent weeks, a theory that Simone Weil is the key to Dema-lore is getting a lot of traction. Image credit In two words, this&#8230;]]></summary>
+
+					<content type="html" xml:base="https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/"><![CDATA[<p>In recent weeks, a theory that <a href="https://en.wikipedia.org/wiki/Simone_Weil">Simone Weil</a> is the key to Dema-lore is getting a lot of traction.</p>
 <p><center><br />
 <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/weilism1.jpeg" width=80%><br />
 <a href="https://twitter.com/nickcidental/status/1788539204223246784">Image credit</a><br />
@@ -289,33 +270,28 @@ To the others it&#8217;s startling to see his same glasses, his same face attach
 <li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
 <li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
 </ul>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+]]></content>
 		
-		
-			</item>
-		<item>
-		<title>Clancy and Nancago</title>
-		<link>https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comments</comments>
-		
-		<dc:creator><![CDATA[lieven]]></dc:creator>
-		<pubDate>Fri, 03 May 2024 08:56:53 +0000</pubDate>
-				<category><![CDATA[art]]></category>
-		<category><![CDATA[france]]></category>
-		<category><![CDATA[stories]]></category>
-		<category><![CDATA[tBC]]></category>
-		<category><![CDATA[21pilots]]></category>
-		<category><![CDATA[bourbaki]]></category>
-		<category><![CDATA[Clancy]]></category>
-		<category><![CDATA[Dema]]></category>
-		<category><![CDATA[Trench]]></category>
-		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11924</guid>
+					<link rel="replies" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/#comments" thr:count="2" />
+			<link rel="replies" type="application/atom+xml" href="https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/feed/atom/" thr:count="2" />
+			<thr:total>2</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>lieven</name>
+							<uri>https://lievenlebruyn.github.io/neverendingbooks/</uri>
+						</author>
 
-					<description><![CDATA[Later this month, 21 pilots&#8216; next album, &#8220;Clancy&#8221;, will be released, promising to give definite answers to all remaining open questions in Dema-lore. By then&#8230;]]></description>
-										<content:encoded><![CDATA[<p>Later this month, <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">21 pilots</a>&#8216; next album, <a href="https://en.wikipedia.org/wiki/Clancy_(album)">&#8220;Clancy&#8221;</a>, will be released, promising to give definite answers to all remaining open questions in <a href="https://www.reddit.com/r/twentyonepilots/comments/1cfi97t/official_twenty_one_pilots_clancy_lore_megathread/">Dema-lore</a>.</p>
+		<title type="html"><![CDATA[Clancy and Nancago]]></title>
+		<link rel="alternate" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/" />
+
+		<id>http://www.neverendingbooks.org/?p=11924</id>
+		<updated>2024-05-03T08:56:53Z</updated>
+		<published>2024-05-03T08:56:53Z</published>
+		<category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="art" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="france" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="stories" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="tBC" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="21pilots" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="bourbaki" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Clancy" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Dema" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Trench" />
+		<summary type="html"><![CDATA[Later this month, 21 pilots&#8216; next album, &#8220;Clancy&#8221;, will be released, promising to give definite answers to all remaining open questions in Dema-lore. By then&#8230;]]></summary>
+
+					<content type="html" xml:base="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/"><![CDATA[<p>Later this month, <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">21 pilots</a>&#8216; next album, <a href="https://en.wikipedia.org/wiki/Clancy_(album)">&#8220;Clancy&#8221;</a>, will be released, promising to give definite answers to all remaining open questions in <a href="https://www.reddit.com/r/twentyonepilots/comments/1cfi97t/official_twenty_one_pilots_clancy_lore_megathread/">Dema-lore</a>.</p>
 <p>By then we will have been told why <a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a> and the <a href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki">Bourbaki group</a> show up in the Trench/Dema tale.</p>
 <p>This leaves me a couple of weeks to pursue this series of posts (see links below) in which I try to find the best match possible between the factual history of the Bourbaki group and elements from the Dema-storyline.</p>
 <p>Two well-known Bourbaki-photographs seem important to the pilots. The first one is from the september 1938 Dieulefit/Beauvallon Bourbaki congress:</p>
@@ -372,32 +348,28 @@ To the others it&#8217;s startling to see his same glasses, his same face attach
 <li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks">Bourbaki and Dema, two remarks</a></li>
 <li><a href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago">Clancy and Nancago</a></li>
 </ul>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
+]]></content>
 		
-		
-			</item>
-		<item>
-		<title>Bourbaki and Dema, two remarks</title>
-		<link>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/#respond</comments>
-		
-		<dc:creator><![CDATA[lieven]]></dc:creator>
-		<pubDate>Mon, 26 Feb 2024 15:08:04 +0000</pubDate>
-				<category><![CDATA[france]]></category>
-		<category><![CDATA[math]]></category>
-		<category><![CDATA[stories]]></category>
-		<category><![CDATA[tBC]]></category>
-		<category><![CDATA[bourbaki]]></category>
-		<category><![CDATA[Dema]]></category>
-		<category><![CDATA[Trench]]></category>
-		<category><![CDATA[TwentyOnePilots]]></category>
-		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11862</guid>
+					<link rel="replies" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comments" thr:count="5" />
+			<link rel="replies" type="application/atom+xml" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/feed/atom/" thr:count="5" />
+			<thr:total>5</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>lieven</name>
+							<uri>https://lievenlebruyn.github.io/neverendingbooks/</uri>
+						</author>
 
-					<description><![CDATA[While this blog is still online, I might as well correct, and add to, previous posts. Later this week new Twenty One Pilots material is&#8230;]]></description>
-										<content:encoded><![CDATA[<p>While this blog is still online, I might as well correct, and add to, previous posts.</p>
+		<title type="html"><![CDATA[Bourbaki and Dema, two remarks]]></title>
+		<link rel="alternate" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/" />
+
+		<id>http://www.neverendingbooks.org/?p=11862</id>
+		<updated>2024-02-26T15:08:04Z</updated>
+		<published>2024-02-26T15:08:04Z</published>
+		<category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="france" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="math" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="stories" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="tBC" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="bourbaki" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Dema" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Trench" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="TwentyOnePilots" />
+		<summary type="html"><![CDATA[While this blog is still online, I might as well correct, and add to, previous posts. Later this week new Twenty One Pilots material is&#8230;]]></summary>
+
+					<content type="html" xml:base="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/"><![CDATA[<p>While this blog is still online, I might as well correct, and add to, previous posts.</p>
 <p>Later this week new <a href="https://en.wikipedia.org/wiki/Twenty_One_Pilots">Twenty One Pilots</a> material is expected, so this might be a good time to add some remarks to a series of posts I ran last summer, trying to find a connection between <a href="https://twentyonepilots.fandom.com/wiki/Dmaorg.info">Dema-lore</a> and the actual history of the Bourbaki group. Here are links to these posts:</p>
 <ul>
 <li><a href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-top-east-is-up">Bourbaki and TØP : East is up</a></li>
@@ -467,26 +439,28 @@ To the others it&#8217;s startling to see his same glasses, his same face attach
 <p>No intention to freak out clikkies any further, but in the aforementioned Weil draft of &#8216;Theorie des Ensembles&#8217; they still used this precursor to the dangerous bend symbol</p>
 <p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/dangerousprecursor.jpg" width=100%></p>
 <p>Skeletons anyone?</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+]]></content>
 		
-		
-			</item>
-		<item>
-		<title>Closure</title>
-		<link>https://lievenlebruyn.github.io/neverendingbooks/closure/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/closure/#comments</comments>
-		
-		<dc:creator><![CDATA[lieven]]></dc:creator>
-		<pubDate>Sun, 31 Dec 2023 08:26:10 +0000</pubDate>
-				<category><![CDATA[personal]]></category>
-		<category><![CDATA[closure]]></category>
-		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11841</guid>
+					<link rel="replies" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>lieven</name>
+							<uri>https://lievenlebruyn.github.io/neverendingbooks/</uri>
+						</author>
 
-					<description><![CDATA[Exactly 20 years ago I wrote my first blogpost, &#8216;a blogging 2004&#8217;. I wasn&#8217;t using WordPress yet (but something called pMachine), and this blog was&#8230;]]></description>
-										<content:encoded><![CDATA[<p>Exactly 20 years ago I wrote my first blogpost, <a href="https://lievenlebruyn.github.io/neverendingbooks/a-blogging-2004">&#8216;a blogging 2004&#8217;</a>. I wasn&#8217;t using WordPress yet (but something called pMachine), and this blog was not called &#8216;neverendingbooks&#8217;, but &#8216;lievenlb.local&#8217; (the URL of the mac still running this blog).</p>
+		<title type="html"><![CDATA[Closure]]></title>
+		<link rel="alternate" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/closure/" />
+
+		<id>http://www.neverendingbooks.org/?p=11841</id>
+		<updated>2023-12-31T08:26:10Z</updated>
+		<published>2023-12-31T08:26:10Z</published>
+		<category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="personal" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="closure" />
+		<summary type="html"><![CDATA[Exactly 20 years ago I wrote my first blogpost, &#8216;a blogging 2004&#8217;. I wasn&#8217;t using WordPress yet (but something called pMachine), and this blog was&#8230;]]></summary>
+
+					<content type="html" xml:base="https://lievenlebruyn.github.io/neverendingbooks/closure/"><![CDATA[<p>Exactly 20 years ago I wrote my first blogpost, <a href="https://lievenlebruyn.github.io/neverendingbooks/a-blogging-2004">&#8216;a blogging 2004&#8217;</a>. I wasn&#8217;t using WordPress yet (but something called pMachine), and this blog was not called &#8216;neverendingbooks&#8217;, but &#8216;lievenlb.local&#8217; (the URL of the mac still running this blog).</p>
 <p>At the time I wanted to find out whether blogging was something for me. &#8220;I’m just starting out. Give me a couple of weeks/months to develop my own style and topics and I’ll change the layout accordingly.&#8221;</p>
 <p>Well, after 20 years I know what I can, and more important, what I cannot do within this framework. Time to move on.</p>
 <p>There are other reasons why this might be the right time to pull the plug.</p>
@@ -497,34 +471,28 @@ To the others it&#8217;s startling to see his same glasses, his same face attach
 <p>I wish you a better 2024.</p>
 <p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/travers.jpg" width=100%></p>
 <p>WBM</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/closure/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
+]]></content>
 		
-		
-			</item>
-		<item>
-		<title>Grothendieck&#8217;s gribouillis (6)</title>
-		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-6/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-6/#comments</comments>
-		
-		<dc:creator><![CDATA[lieven]]></dc:creator>
-		<pubDate>Mon, 02 Oct 2023 16:49:52 +0000</pubDate>
-				<category><![CDATA[france]]></category>
-		<category><![CDATA[geometry]]></category>
-		<category><![CDATA[math]]></category>
-		<category><![CDATA[stories]]></category>
-		<category><![CDATA[(6)]]></category>
-		<category><![CDATA[BnF]]></category>
-		<category><![CDATA[Carmona]]></category>
-		<category><![CDATA[gribouillis]]></category>
-		<category><![CDATA[Grothendieck]]></category>
-		<category><![CDATA[grothendieck’s]]></category>
-		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11817</guid>
+					<link rel="replies" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/closure/#comments" thr:count="3" />
+			<link rel="replies" type="application/atom+xml" href="https://lievenlebruyn.github.io/neverendingbooks/closure/feed/atom/" thr:count="3" />
+			<thr:total>3</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>lieven</name>
+							<uri>https://lievenlebruyn.github.io/neverendingbooks/</uri>
+						</author>
 
-					<description><![CDATA[After the death of Grothendieck in November 2014, about 30.000 pages of his writings were found in Lasserre. Since then I&#8217;ve been trying to follow&#8230;]]></description>
-										<content:encoded><![CDATA[<p>After the death of <a href="https://en.wikipedia.org/wiki/Alexander_Grothendieck">Grothendieck</a> in November 2014, about 30.000 pages of his writings were found in Lasserre.</p>
+		<title type="html"><![CDATA[Grothendieck&#8217;s gribouillis (6)]]></title>
+		<link rel="alternate" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-6/" />
+
+		<id>http://www.neverendingbooks.org/?p=11817</id>
+		<updated>2023-10-02T16:49:52Z</updated>
+		<published>2023-10-02T16:49:52Z</published>
+		<category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="france" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="geometry" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="math" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="stories" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="(6)" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="BnF" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Carmona" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="gribouillis" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Grothendieck" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="grothendieck&#8217;s" />
+		<summary type="html"><![CDATA[After the death of Grothendieck in November 2014, about 30.000 pages of his writings were found in Lasserre. Since then I&#8217;ve been trying to follow&#8230;]]></summary>
+
+					<content type="html" xml:base="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-6/"><![CDATA[<p>After the death of <a href="https://en.wikipedia.org/wiki/Alexander_Grothendieck">Grothendieck</a> in November 2014, about 30.000 pages of his writings were found in Lasserre.</p>
 <p><center><br />
 <img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/Boxes2.jpg" width=100%><br />
 </center></p>
@@ -550,32 +518,28 @@ To the others it&#8217;s startling to see his same glasses, his same face attach
 <p>Probably, the recent publication of <a href="https://www.gallimard.fr/Catalogue/GALLIMARD/Tel/Recoltes-et-Semailles-I-II">Récoltes et Semailles</a> clinched the deal.</p>
 <p>Also, it is unclear at this moment whether the <a href="https://igrothendieck.org/en/">Istituto Grothendieck</a>, which harbours <a href="https://igrothendieck.org/en/centre-for-grothendiecian-studies/">The centre for Grothendieck studies</a> coordinated by Mateo Carmona (see <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-5">this post</a>) played a role in the decision making, nor what role the Centre will play in the further studies of Grothendieck&#8217;s gribouillis.</p>
 <p>For other coverage on this, see <a href="https://phys.org/news/2023-09-hermit-eccentric-french-math-genius.html">Hermit &#8216;scribblings&#8217; of eccentric French math genius unveiled</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-6/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
+]]></content>
 		
-		
-			</item>
-		<item>
-		<title>A question of loyalty</title>
-		<link>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/#respond</comments>
-		
-		<dc:creator><![CDATA[lieven]]></dc:creator>
-		<pubDate>Fri, 29 Sep 2023 09:51:24 +0000</pubDate>
-				<category><![CDATA[books]]></category>
-		<category><![CDATA[games]]></category>
-		<category><![CDATA[math]]></category>
-		<category><![CDATA[Cvetko-Vah]]></category>
-		<category><![CDATA[epistemic]]></category>
-		<category><![CDATA[loyalty]]></category>
-		<category><![CDATA[modal]]></category>
-		<category><![CDATA[question]]></category>
-		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11739</guid>
+					<link rel="replies" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-6/#comments" thr:count="3" />
+			<link rel="replies" type="application/atom+xml" href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-6/feed/atom/" thr:count="3" />
+			<thr:total>3</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>lieven</name>
+							<uri>https://lievenlebruyn.github.io/neverendingbooks/</uri>
+						</author>
 
-					<description><![CDATA[On the island of two truths, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$). The King and Queen of the&#8230;]]></description>
-										<content:encoded><![CDATA[<p>On the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths">island of two truths</a>, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$).</p>
+		<title type="html"><![CDATA[A question of loyalty]]></title>
+		<link rel="alternate" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/" />
+
+		<id>http://www.neverendingbooks.org/?p=11739</id>
+		<updated>2023-09-29T09:51:24Z</updated>
+		<published>2023-09-29T09:51:24Z</published>
+		<category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="books" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="games" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="math" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Cvetko-Vah" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="epistemic" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="loyalty" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="modal" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="question" />
+		<summary type="html"><![CDATA[On the island of two truths, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$). The King and Queen of the&#8230;]]></summary>
+
+					<content type="html" xml:base="https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/"><![CDATA[<p>On the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths">island of two truths</a>, statements are either false (truth-value $0$), Q-true (value $Q$) or K-true (value $K$).</p>
 <p>The King and Queen of the island have an opinion on all statements which may differ from their actual truth-value. We say that the Queen <em>believes</em> a statement $p$ is she assigns value $Q$ to it, and that she <em>knows</em> $p$ is she believes $p$ and the actual truth-value of $p$ is indeed $Q$. Similarly for the King, replacing $Q$&#8217;s by $K$&#8217;s.</p>
 <p>All other inhabitants of the island are <em>loyal</em> to the Queen, or to the King, or to both. This means that they <em>agree</em> with the Queen (or King, or both) on all statements they have an opinion on. Two inhabitants are said to be <em>loyal</em> to each other if they agree on all statements they both have an opinion of.</p>
 <p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths">Last time</a> we saw that Queen and King agree on all statements one of them believes to be false, as well as the negation of such statements. This raised the question:</p>
@@ -598,34 +562,28 @@ He barely finished his question as something fell over his face and covered his 
 </center></p>
 <p><strong>Solution</strong> : &#8216;The King is loyal to the Queen&#8217; must have actual truth-value $0$ or $Q$, and the sentence &#8216;The Queen is loyal to the King&#8217; must have actual truth-value $0$ or $K$. But both these sentences are the same as the sentence &#8216;The Queen and King are loyal to each other&#8217; and as this sentence can have only one truth-value, it must have value $0$ so the statement is false.</p>
 <p>Note that we didn&#8217;t produce a specific statement on which the Queen and King disagree. Can you find one?</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+]]></content>
 		
-		
-			</item>
-		<item>
-		<title>the strange island of two truths</title>
-		<link>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/#respond</comments>
-		
-		<dc:creator><![CDATA[lieven]]></dc:creator>
-		<pubDate>Tue, 26 Sep 2023 14:57:07 +0000</pubDate>
-				<category><![CDATA[books]]></category>
-		<category><![CDATA[games]]></category>
-		<category><![CDATA[math]]></category>
-		<category><![CDATA[Cvetko-Vah]]></category>
-		<category><![CDATA[island]]></category>
-		<category><![CDATA[Smullyan]]></category>
-		<category><![CDATA[strange]]></category>
-		<category><![CDATA[the]]></category>
-		<category><![CDATA[truths]]></category>
-		<category><![CDATA[two]]></category>
-		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11699</guid>
+					<link rel="replies" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://lievenlebruyn.github.io/neverendingbooks/a-question-of-loyalty/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>lieven</name>
+							<uri>https://lievenlebruyn.github.io/neverendingbooks/</uri>
+						</author>
 
-					<description><![CDATA[Last time we had a brief encounter with the island of two truths, invented by Karin Cvetko-Vah. See her posts: Oscar on the island of&#8230;]]></description>
-										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers">Last time</a> we had a brief encounter with the island of two truths, invented by <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a>. See her posts:</p>
+		<title type="html"><![CDATA[the strange island of two truths]]></title>
+		<link rel="alternate" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/" />
+
+		<id>http://www.neverendingbooks.org/?p=11699</id>
+		<updated>2023-09-26T14:57:07Z</updated>
+		<published>2023-09-26T14:57:07Z</published>
+		<category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="books" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="games" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="math" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Cvetko-Vah" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="island" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Smullyan" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="strange" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="the" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="truths" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="two" />
+		<summary type="html"><![CDATA[Last time we had a brief encounter with the island of two truths, invented by Karin Cvetko-Vah. See her posts: Oscar on the island of&#8230;]]></summary>
+
+					<content type="html" xml:base="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/"><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers">Last time</a> we had a brief encounter with the island of two truths, invented by <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a>. See her posts:</p>
 <ul>
 <li><a href="https://mathsandbeyond.blogspot.com/2020/06/oscar-on-island-of-two-truths.html">Oscar on the island of two truths</a></li>
 <li><a href="https://mathsandbeyond.blogspot.com/2020/06/pointex.html">Pointex</a></li>
@@ -704,35 +662,28 @@ K &#038; 0<br />
 <p>Clearly, such a system may have no relation at all with the intended meaning of these sentences on the island (the actual truth-values).</p>
 <p>That&#8217;s why <a href="https://we.vub.ac.be/en/karin-cvetko-vah">Karin Cvetko-Vah</a> introduced the notions of &#8216;loyalty&#8217; and &#8216;sanity&#8217; for inhabitants of the island. That&#8217;s for next time, and perhaps then you&#8217;ll be able to answer the question whether Queen and King agree on all statements.</p>
 <p>(all images in this post are from Smullyan&#8217;s book <a href="https://www.amazon.com/Alice-Puzzle-Land-Carrollian-Children-Recreational/dp/0486482006">Alice in Puzzle-Land</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+]]></content>
 		
-		
-			</item>
-		<item>
-		<title>some skew Smullyan stumpers</title>
-		<link>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/#respond</comments>
-		
-		<dc:creator><![CDATA[lieven]]></dc:creator>
-		<pubDate>Thu, 21 Sep 2023 12:05:48 +0000</pubDate>
-				<category><![CDATA[books]]></category>
-		<category><![CDATA[games]]></category>
-		<category><![CDATA[math]]></category>
-		<category><![CDATA[noncommutative]]></category>
-		<category><![CDATA[Cvetko-Vah]]></category>
-		<category><![CDATA[Hemelaer]]></category>
-		<category><![CDATA[Heyting]]></category>
-		<category><![CDATA[skew]]></category>
-		<category><![CDATA[Smullyan]]></category>
-		<category><![CDATA[some]]></category>
-		<category><![CDATA[stumpers]]></category>
-		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11674</guid>
+					<link rel="replies" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>lieven</name>
+							<uri>https://lievenlebruyn.github.io/neverendingbooks/</uri>
+						</author>
 
-					<description><![CDATA[Raymond Smullyan&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s&#8230;]]></description>
-										<content:encoded><![CDATA[<p><img decoding="async" src="https://static01.nyt.com/images/2017/02/12/us/12smullyan-obit/12smullyan-obit-superJumbo.jpg" width=100%></p>
+		<title type="html"><![CDATA[some skew Smullyan stumpers]]></title>
+		<link rel="alternate" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/" />
+
+		<id>http://www.neverendingbooks.org/?p=11674</id>
+		<updated>2023-09-21T12:05:48Z</updated>
+		<published>2023-09-21T12:05:48Z</published>
+		<category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="books" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="games" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="math" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="noncommutative" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Cvetko-Vah" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Hemelaer" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Heyting" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="skew" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Smullyan" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="some" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="stumpers" />
+		<summary type="html"><![CDATA[Raymond Smullyan&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s&#8230;]]></summary>
+
+					<content type="html" xml:base="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/"><![CDATA[<p><img decoding="async" src="https://static01.nyt.com/images/2017/02/12/us/12smullyan-obit/12smullyan-obit-superJumbo.jpg" width=100%></p>
 <p><a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s logic puzzles are legendary. Among his best known are his Knights (who always tell the truth) and Knaves (who always lie) puzzles. Here&#8217;s a classic example.</p>
 <p>&#8220;On the day of his arrival, the anthropologist Edgar Abercrombie came across three inhabitants, whom we will call $A$, $B$ and $C$. He asked $A$: &#8220;Are you a Knight or a Knave?&#8221; $A$ answered, but so indistinctly that Abercrombie could not understand what he said.</p>
 <p>He then asked $B$: &#8220;What did he say?&#8221; $B$ replies: &#8220;He said that he is a knave.&#8221; At this point, $C$ piped up and said: &#8220;Don&#8217;t believe that; it&#8217;s a lie!&#8221;</p>
@@ -792,33 +743,28 @@ K &#038; 0<br />
 <p>Show that if anybody on the island knows that A is not loyal to the Queen, then everybody that has an opinion about the sentence &#8216;A is loyal to the Queen&#8217; knows that.</p>
 <p>After these two posts, Karin decided that it was more fun to blog about the use of non-commutative frames in data analysis.</p>
 <p>But, she once gave me a text containing many more puzzles (as well as all the answers), so perhaps I&#8217;ll share these in a follow-up post.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+]]></content>
 		
-		
-			</item>
-		<item>
-		<title>A projective plain (plane) of order ten</title>
-		<link>https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/#respond</comments>
-		
-		<dc:creator><![CDATA[lieven]]></dc:creator>
-		<pubDate>Tue, 19 Sep 2023 15:01:19 +0000</pubDate>
-				<category><![CDATA[math]]></category>
-		<category><![CDATA[(plane)]]></category>
-		<category><![CDATA[Lam]]></category>
-		<category><![CDATA[Odlyzko]]></category>
-		<category><![CDATA[order]]></category>
-		<category><![CDATA[plain]]></category>
-		<category><![CDATA[projective]]></category>
-		<category><![CDATA[Sloan]]></category>
-		<category><![CDATA[ten]]></category>
-		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11638</guid>
+					<link rel="replies" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>lieven</name>
+							<uri>https://lievenlebruyn.github.io/neverendingbooks/</uri>
+						</author>
 
-					<description><![CDATA[A projective plane of order $n$ is a collection of $n^2+n+1$ lines and $n^2+n+1$ points satisfying: every line contains exactly $n+1$ points every point lies&#8230;]]></description>
-										<content:encoded><![CDATA[<p>A projective plane of order $n$ is a collection of $n^2+n+1$ lines and $n^2+n+1$ points satisfying:</p>
+		<title type="html"><![CDATA[A projective plain (plane) of order ten]]></title>
+		<link rel="alternate" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/" />
+
+		<id>http://www.neverendingbooks.org/?p=11638</id>
+		<updated>2023-09-19T15:01:19Z</updated>
+		<published>2023-09-19T15:01:19Z</published>
+		<category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="math" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="(plane)" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Lam" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Odlyzko" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="order" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="plain" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="projective" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="Sloan" /><category scheme="https://lievenlebruyn.github.io/neverendingbooks/" term="ten" />
+		<summary type="html"><![CDATA[A projective plane of order $n$ is a collection of $n^2+n+1$ lines and $n^2+n+1$ points satisfying: every line contains exactly $n+1$ points every point lies&#8230;]]></summary>
+
+					<content type="html" xml:base="https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/"><![CDATA[<p>A projective plane of order $n$ is a collection of $n^2+n+1$ lines and $n^2+n+1$ points satisfying:</p>
 <ul>
 <li>every line contains exactly $n+1$ points</li>
 <li>every point lies on exactly $n+1$ lines</li>
@@ -870,12 +816,10 @@ K &#038; 0<br />
 <p>Fortunately, such a proof now exists, see <a href="https://arxiv.org/abs/2012.04715">A SAT-based Resolution of Lam&#8217;s Problem</a> by Curtis Bright, Kevin K. H. Cheung, Brett Stevens, Ilias Kotsireas, Vijay Ganesh</p>
 <p>David Roberts, aka the HigherGeometer, did a nice post on this <a href="https://thehighergeometer.wordpress.com/2023/08/09/no-order-10-projective-planes-via-sat/"><br />
 No order-10 projective planes via SAT</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+]]></content>
 		
-		
-			</item>
-	</channel>
-</rss>
+					<link rel="replies" type="text/html" href="https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+	</feed>
