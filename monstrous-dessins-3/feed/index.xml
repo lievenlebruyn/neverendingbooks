@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Monstrous dessins 3	</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-3/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-3/</link>
+	<description></description>
+	<lastBuildDate>Wed, 21 Aug 2019 16:49:20 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>
+		By: lievenlb		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-3/#comment-105</link>
+
+		<dc:creator><![CDATA[lievenlb]]></dc:creator>
+		<pubDate>Wed, 21 Aug 2019 16:49:20 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8516#comment-105</guid>
+
+					<description><![CDATA[@Devendra : Kulkarni tells you everything you need to know about modular dessins (that is, permutation representations of the modular group). Manin&amp;Marcolli aim for all dessins (permutation reps of the free group on two generators or of $C_{\infty} \ast C_2$ for &#039;clean&#039; dessins). At the moment there&#039;s too much confusion on what M&amp;M really want/need that we&#039;d probably have to await a better version of their paper.]]></description>
+			<content:encoded><![CDATA[<p>@Devendra : Kulkarni tells you everything you need to know about modular dessins (that is, permutation representations of the modular group). Manin&#038;Marcolli aim for all dessins (permutation reps of the free group on two generators or of $C_{\infty} \ast C_2$ for &#8216;clean&#8217; dessins). At the moment there&#8217;s too much confusion on what M&#038;M really want/need that we&#8217;d probably have to await a better version of their paper.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Devendra		</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-3/#comment-104</link>
+
+		<dc:creator><![CDATA[Devendra]]></dc:creator>
+		<pubDate>Wed, 21 Aug 2019 14:51:59 +0000</pubDate>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8516#comment-104</guid>
+
+					<description><![CDATA[Do you intend to mean that Kulkarni’s paper and its methods could also have any implication for Manin &#038; Marcolli arxiv preprint, you mentioned in the very start of your post?]]></description>
+			<content:encoded><![CDATA[<p>Do you intend to mean that Kulkarni’s paper and its methods could also have any implication for Manin &amp; Marcolli arxiv preprint, you mentioned in the very start of your post?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

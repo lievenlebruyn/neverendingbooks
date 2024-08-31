@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hopf algebras &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/hopf-algebras/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 19 Dec 2010 13:29:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Books Ngram for your upcoming parties</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/books-ngram-for-your-upcoming-parties/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/books-ngram-for-your-upcoming-parties/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 19 Dec 2010 13:29:12 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[books ngram]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Hopf algebras]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[noncommutative geometry]]></category>
+		<category><![CDATA[quantum groups]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3690</guid>
+
+					<description><![CDATA[No christmas- or new-years family party without heated discussions. Often on quite silly topics. For example, which late 19th-century bookcharacter turned out to be most&#8230;]]></description>
+										<content:encoded><![CDATA[<p>No christmas- or new-years family party without heated discussions. Often on quite silly topics.</p>
+<p>For example, which late 19th-century bookcharacter turned out to be most influential in the 20th century? <a href="http://en.wikipedia.org/wiki/Dracula">Dracula</a>, from the 1897 novel by Irish author Bram Stoker or Sir Arthur Conan Doyle&#8217;s <a href="http://en.wikipedia.org/wiki/Sherlock_Holmes">Sherlock Holmes</a> who made his first appearance in 1887?</p>
+<p>Well, this year you can spice up such futile discussions by going over to Google Labs <a href="http://ngrams.googlelabs.com/graph?content=Atlantis%2CEl+Dorado&amp;year_start=1800&amp;year_end=2000&amp;corpus=0&amp;smoothing=0">Books Ngram Viewer</a>, specify the time period of interest to you and the relevant search terms and in no time it spits back a graph comparing the number of books mentioning these terms.</p>
+<p>Here&#8217;s the 20th-century graph for &#8216;Dracula&#8217; (blue), compared to &#8216;Sherlock Holmes&#8217; (red).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/draculaholmes.jpg"></p>
+<p>The verdict being that Sherlock was the more popular of the two for the better part of the century, but in the end the vampire bit the detective. Such graphs lead to lots of new questions, such as : why was Holmes so popular in the early 30ties? and in WW2? why did Dracula become popular in the late 90ties? etc. etc.</p>
+<p>Clearly, once you&#8217;ve used Books Ngram it&#8217;s a dangerous time-waster. Below, the graphs in the time-frame 1980-2008 for <a href="http://en.wikipedia.org/wiki/Alain_Connes">Alain Connes</a> (blue), <a href="http://en.wikipedia.org/wiki/Noncommutative_geometry">noncommutative geometry</a> (red), <a href="http://en.wikipedia.org/wiki/Hopf_algebra">Hopf algebras</a> (green) and <a href="http://en.wikipedia.org/wiki/Quantum_group">quantum groups</a> (yellow).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/noncgeoquantum.jpg"></p>
+<p>It illustrates the simultaneous rise and fall of both quantum groups and Hopf algebras, whereas the noncommutative geometry-graph follows that of Alain Connes with a delay of about 2 years. I&#8217;m sure you&#8217;ll find a good use for this splendid tool&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/books-ngram-for-your-upcoming-parties/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>VOAs &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/voas/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Jan 2018 09:15:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>What we (don&#8217;t) know</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 26 Jan 2018 09:15:01 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Gannon]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[VOAs]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7847</guid>
+
+					<description><![CDATA[Do we know why the monster exists and why there&#8217;s moonshine around it? The answer depends on whether or not you believe that vertex operator&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Do we know why the <a href="https://en.wikipedia.org/wiki/Monster_group">monster</a> exists and why there&#8217;s <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">moonshine</a> around it?</p>
+<p>The answer depends on whether or not you believe that <a href="https://en.wikipedia.org/wiki/Vertex_operator_algebra">vertex operator algebras</a> are natural, elegant and inescapable objects.</p>
+<p><strong>the monster</strong></p>
+<p>Simple groups often arise from symmetries of exceptionally nice mathematical objects.</p>
+<p>The smallest of them all, $A_5$, gives us the rotation symmetries of the <a href="https://en.wikipedia.org/wiki/Icosahedron">icosahedron</a>. The next one, Klein&#8217;s simple group $L_2(7)$, comes from the <a href="https://en.wikipedia.org/wiki/Klein_quartic">Klein quartic</a>.</p>
+<p>The smallest sporadic groups, the <a href="https://en.wikipedia.org/wiki/Mathieu_group">Mathieu groups</a>, come from <a href="https://en.wikipedia.org/wiki/Steiner_system">Steiner systems</a>, and the <a href="https://en.wikipedia.org/wiki/Conway_group">Conway groups</a> from the 24-dimensional <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a>.</p>
+<p>What about the largest sporadic simple, the <a href="https://en.wikipedia.org/wiki/Monster_group">monster</a> $\mathbb{M}$?</p>
+<p>In his paper <a href="http://www.ams.org/notices/200209/what-is.pdf">What is &#8230; the monster?</a> Richard Borcherds writes (among other characterisations of $\mathbb{M}$):</p>
+<p>&#8220;3. It is the automorphism group of the <a href="https://en.wikipedia.org/wiki/Monster_vertex_algebra">monster vertex algebra</a>. (This is probably the best answer.)&#8221;</p>
+<p>But, even Borcherds adds:</p>
+<p>&#8220;Unfortunately none of these definitions is completely satisfactory. At the moment all constructions of the algebraic structures above seem artificial; they are constructed as sums of two or more apparently unrelated spaces, and it takes a lot of effort to define the algebraic structure on the sum of these spaces and to check that the monster acts on the resulting structure. <br /><strong>It is still an open problem to find a really simple and natural construction of the monster vertex algebra.</strong>&#8221;</p>
+<p>Here&#8217;s 2 minutes of John Conway on the &#8220;one thing&#8221; he really wants to know before he dies: why the monster group exists.</p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xOCe5HUObD4?start=420" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+<p><strong>moonshine</strong></p>
+<p>Moonshine started off with McKay&#8217;s observation that 196884 (the first coefficient in the normalized <a href="https://en.wikipedia.org/wiki/J-invariant">j-function</a>) is the sum 1+196883 of the dimensions of the two smallest simple representations of $\mathbb{M}$.</p>
+<p>Soon it was realised that every conjugacy class of the monster has a <a href="https://en.wikipedia.org/wiki/Modular_curve#Genus_zero">genus zero group</a> (or &#8216;moonshine group&#8217;) associated to it.</p>
+<p>Borcherds proved the &#8216;monstrous moonshine conjectures&#8217; asserting that the associated main modular function of such a group is the character series of the action of the element on the monster vertex algebra.</p>
+<p>Here&#8217;s Borcherds&#8217; ICM talk in Berlin on this: <a href="https://arxiv.org/pdf/math/9809110.pdf">What is &#8230; Moonshine?</a>.</p>
+<p>Once again, the monster vertex algebra appears to be the final answer.</p>
+<p>However, in characterising the 171 moonshine groups among all possible genus zero groups one has proved that <a href="https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups">they are all of the form</a>:</p>
+<p>(ii) : $(n|h)+e,g,\dots$</p>
+<p>In his book <a href="https://www.cambridge.org/core/books/moonshine-beyond-the-monster/CAD32EB4694E501D0B656696AE69EDFF">Moonshine beyond the Monster</a>, Terry Gannon writes:</p>
+<p>&#8220;We now understand the significance, in the <a href="https://en.wikipedia.org/wiki/Vertex_operator_algebra">VOA</a> or <a href="https://en.wikipedia.org/wiki/Conformal_field_theory">CFT</a> framework, of transformations in $SL_2(\mathbb{Z})$, but (ii) emphasises that many modular transformations relevant to Moonshine are more general (called the Atkin-Lehner involutions). <br /><strong>Monstrous moonshine will remain mysterious until we can understand its Atkin-Lehner symmetries.</strong>&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

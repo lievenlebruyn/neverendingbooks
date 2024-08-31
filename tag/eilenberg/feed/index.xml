@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Eilenberg &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/eilenberg/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 20 May 2011 12:20:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Brigitte Bardot, miniskirts and homological algebra</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/brigitte-bardot-miniskirts-and-homological-algebra/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/brigitte-bardot-miniskirts-and-homological-algebra/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 20 May 2011 12:20:25 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Cartan]]></category>
+		<category><![CDATA[Eilenberg]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5295</guid>
+
+					<description><![CDATA[The papers by Liliane Beaulieu on the history of the Bourbaki-group are genuine treasure troves of good stories. Though I&#8217;m mostly interested in the pre-war&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The papers by <a href="http://gentilmenhir.wordpress.com/2008/08/24/liliane-beaulieu/">Liliane Beaulieu</a> on the history of the Bourbaki-group are genuine treasure troves of good stories. Though I&#8217;m mostly interested in the pre-war period, some tidbits are just too good not to use somewhere, sometime, such as here on a lazy friday afternoon &#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/CartanEilenberg.jpg"></p>
+<p>In her paper <a href="http://www.jstor.org/pss/301970">Bourbaki&#8217;s art of memory</a> she briefly mentions these two pearls of wisdom from the jolly couple <a href="http://en.wikipedia.org/wiki/Henri_Cartan">Henri Cartan</a> (left) and <a href="http://en.wikipedia.org/wiki/Samuel_Eilenberg">Sammy Eilenberg</a> (right) in relation to their seminal book  <a href="http://www.archive.org/details/homologicalalgeb033541mbp">Homological Algebra</a> (1956).</p>
+<p><strong>Brigitte Bardot and the Hom-Tensor relation</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/brigittebardot2.jpg" align=left hspace=10></p>
+<p>For the youngsters among you, <a href="http://en.wikipedia.org/wiki/Brigitte_Bardot">Brigitte Bardot</a>, or merely B.B.,  was an iconic French actress and sex-goddess par excellence in the 60ties and 70ties. She started her acting career in 1952 and became world famous for her role in <a href="http://en.wikipedia.org/wiki/And_God_Created_Woman_(1956_film)">Et Dieu… créa la femme</a> from 1956, the very same year Cartan-Eilenberg was first published.</p>
+<p>The <a href="http://en.wikipedia.org/wiki/Tensor-hom_adjunction">tensor-hom adjunction</a> in <a href="http://en.wikipedia.org/wiki/Homological_algebra">homological algebra</a> (see II.5.2 of Cartan-Eilenberg for the original version) asserts that</p>
+<p>$Hom_R(A,Hom_S(B,C))=Hom_S(A \otimes_R B,C)$</p>
+<p>when $R$ and $S$ are rings, $A$ a right $R$-module, $C$ a left $S$-module and $B$ an $R-S$-bimodule.</p>
+<p>Surely no two topics can be farther apart than these two? Well not quite, Beaulieu writes :</p>
+<p>&#8220;After reading a suggestive movie magazine, Cartan tried to show the formula</p>
+<p>$Hom(B,Hom(B,B)) = Hom(B \otimes B,B)$</p>
+<p>in which &#8220;B. B.&#8221; are the initials of famous French actress and 1950s sex symbol Brigitte Bardot and &#8220;Hom&#8221; (pronounced &#8216;om as in homme, the French word for man) designates, in mathematics, the homomorphisms &#8211; a special kind of mapping &#8211; of one set into another.&#8221;</p>
+<p><strong>Miniskirts and spectral sequences</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/miniskirt3.jpg"></p>
+<p>I&#8217;d love to say that the <a href="http://en.wikipedia.org/wiki/Miniskirt">miniskirt</a> had a similar effect on our guys and led to the discovery of <a href="http://en.wikipedia.org/wiki/Spectral_sequence">spectral sequences</a>, but then such skirts made their appearance on the streets only in the 60ties, well after the release of Cartan-Eilenberg. Besides, spectral sequences were introduced by <a href="http://en.wikipedia.org/wiki/Jean_Leray">Jean Leray</a>, as far back as 1945.</p>
+<p>Still, there&#8217;s this Bourbaki quote : &#8220;The spectral sequence is like the mini-skirt; it shows what is interesting while hiding the essential.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/brigitte-bardot-miniskirts-and-homological-algebra/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

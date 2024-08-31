@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Langlands &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/langlands/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 30 Jan 2018 13:23:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>The Langlands program and non-commutative geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 30 Jan 2018 13:23:34 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Artin]]></category>
+		<category><![CDATA[Bost]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Kisin]]></category>
+		<category><![CDATA[Langlands]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7930</guid>
+
+					<description><![CDATA[The Bulletin of the AMS just made this paper by Julia Mueller available online: &#8220;On the genesis of Robert P. Langlands&#8217; conjectures and his letter&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The Bulletin of the AMS just made this paper by Julia Mueller available online: <a href="http://www.ams.org/journals/bull/0000-000-00/S0273-0979-2018-01609-1/home.html">&#8220;On the genesis of Robert P. Langlands&#8217; conjectures and his letter to Andre Weil&#8221;</a> (hat tip <a href="https://plus.google.com/+ChandanDalawat/posts/gVzANZb2Vcv">+ChandanDalawat</a> and <a href="https://plus.google.com/+DavidRoberts/posts/Q8PR5m3sd5L">+DavidRoberts</a> on Google+).</p>
+<p>It recounts the story of the early years of <a href="https://www.google.be/search?q=robert+langlands&#038;oq=robert+langlands">Langlands</a> and the first years of his mathematical career (1960-1966)leading up to his letter to <a href="https://www.google.be/search?q=Andre+Weil&#038;oq=Andre+Weil">Andre Weil</a> in which he outlines his conjectures, which would become known as the <a href="https://en.wikipedia.org/wiki/Langlands_program">Langlands program</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/LanglandsWeil.jpg"></p>
+<p>Langlands letter to Weil is available <a href="https://publications.ias.edu/rpl/paper/43">from the IAS</a>.</p>
+<p>The Langlands program is a vast net of conjectures. For example, it conjectures that there is a correspondence between</p>
+<p>&#8211; $n$-dimensional representations of the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q})$, and</p>
+<p>&#8211; specific data coming from an <a href="https://en.wikipedia.org/wiki/Adele_ring#Example:_the_rational_adele_ring_'"`UNIQ--postMath-00000048-QINU`"'">adelic</a> quotient-space $GL_n(\mathbb{A}_{\mathbb{Q}})/GL_n(\mathbb{Q})$.</p>
+<p>For $n=1$ this is essentially <a href="https://en.wikipedia.org/wiki/Class_field_theory">class field theory</a> with the correspondence given by <a href="https://en.wikipedia.org/wiki/Artin_reciprocity_law">Artin&#8217;s reciprocity law</a>.</p>
+<p>Here we have on the one hand the characters of the abelianised absolute Galois group</p>
+<p>\[<br />
+Gal(\overline{\mathbb{Q}}/\mathbb{Q})^{ab} \simeq Gal(\mathbb{Q}(\pmb{\mu}_{\infty})/\mathbb{Q}) \simeq \widehat{\mathbb{Z}}^{\ast} \]</p>
+<p>and on the other hand the connected components of the idele class space</p>
+<p>\[<br />
+GL_1(\mathbb{A}_{\mathbb{Q}})/GL_1(\mathbb{Q}) = \mathbb{A}_{\mathbb{Q}}^{\ast} / \mathbb{Q}^{\ast} = \mathbb{R}_+^{\ast} \times \widehat{\mathbb{Z}}^{\ast} \]</p>
+<p>For $n=2$ it involves the study of Galois representations coming from elliptic curves. A gentle introduction to the general case is Mark Kisin&#8217;s paper <a href="http://www.ams.org/notices/200706/tx070600718p.pdf">What is &#8230; a Galois representation?</a>.</p>
+<p>One way to look at some of the quantum statistical systems studied via non-commutative geometry is that they try to understand the &#8220;bad&#8221; boundary of the Langlands space $GL_n(\mathbb{A}_{\mathbb{Q}})/GL_n(\mathbb{Q})$.</p>
+<p>Here, the Bost-Connes system corresponds to the $n=1$ case, the Connes-Marcolli system to the $n=2$ case.</p>
+<p>If $\mathbb{A}&#8217;_{\mathbb{Q}}$ is the subset of all adeles having almost all of its terms in $\widehat{\mathbb{Z}}_p^{\ast}$, then there is a well-defined map</p>
+<p>\[<br />
+\pi~:~\mathbb{A}&#8217;_{\mathbb{Q}}/\mathbb{Q}^{\ast} \rightarrow \mathbb{R}_+ \qquad (x_{\infty},x_2,x_2,\dots) \mapsto | x_{\infty} | \prod_p | x_p |_p \]</p>
+<p>The inverse image of $\pi$ over $\mathbb{R}_+^{\ast}$ are exactly the idele classes $\mathbb{A}_{\mathbb{Q}}^{\ast}/\mathbb{Q}^{\ast}$, so we can view them as the nice locus of the horrible complicated quotient of adele-classes $\mathbb{A}_{\mathbb{Q}}/\mathbb{Q}^*$. And we can view the adele-classes as a &#8216;closure&#8217; of the idele classes.</p>
+<p>But, the fiber $\pi^{-1}(0)$ has horrible topological properties because $\mathbb{Q}^*$ acts ergodically on it due to the fact that $log(p)/log(q)$ is irrational for distinct primes $p$ and $q$.</p>
+<p>This is why it is better to view the adele-classes not as an ordinary space (one with bad topological properties), but rather as a &#8216;non-commutative&#8217; space because it is controlled by a non-commutative algebra, the Bost-Connes algebra.</p>
+<p>For $n=2$ there&#8217;s a similar story with a &#8216;bad&#8217; quotient $M_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q})$, being the closure of an &#8216;open&#8217; nice piece which is the Langlands quotient space $GL_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q})$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lists 2010 : MathOverflow bookmarks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 26 Dec 2010 21:25:39 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[Field with one element]]></category>
+		<category><![CDATA[Frobenius]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Langlands]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[representation schemes]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3869</guid>
+
+					<description><![CDATA[A few MathOverflow threads I bookmarked in 2010 for various reasons. Honest answer : Applications of algebraic geometry over a field with one element. James&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A few <a href="http://mathoverflow.net/">MathOverflow</a> threads I bookmarked in 2010 for various reasons.</p>
+<ul>
+<li>Honest answer : <a href="http://mathoverflow.net/questions/23394/applications-of-algebraic-geometry-over-a-field-with-one-element">Applications of algebraic geometry over a field with one element</a>. <a href="http://mathoverflow.net/questions/23394/applications-of-algebraic-geometry-over-a-field-with-one-element/23418#23418">James Borger&#8217;s answer</a> : &#8220;I&#8217;m confident that the answer to the original question is no. There are hardly any theorems at all in the subject, much less ones with external applications! In other words, if no further progress is ever made in any of the directions people have pursued, everything will likely be forgotten&#8221; </li>
+<li>Unknown result (at least to me) : <a href="http://mathoverflow.net/questions/14076/irreducibility-of-polynomials-in-two-variables">Irreducibility of polynomials in two variables</a>. <a href="http://mathoverflow.net/questions/14076/irreducibility-of-polynomials-in-two-variables/14084#14084">Graham Leuschke&#8217;s</a> &#8220;all-time leading candidate for Most Preposterous Theorem Ever&#8221;, proved using the classification of the finite simple groups. </li>
+<li>Should know example (but don&#8217;t) : <a href="http://mathoverflow.net/questions/21380/algebra-a-with-speca-reduced-and-rep-na-non-reduced">Algebra A with Spec(A) reduced and Rep_n(A) non-reduced</a>. Algebras being commutative here and even the existence of an example with Spec(A) is smooth is open. Peter Samuelson : &#8221; My guess would be yes for both, but I&#8217;m not sure how to find one for either one.&#8221; </li>
+<li>Great list : <a href="http://mathoverflow.net/questions/49993/the-frobenius-morphism">The Frobenius morphism</a>. David Ben-Zvi&#8217;s &#8220;outdated collection of intuitive ways to think about raising to the p-th power&#8221;.</li>
+<li>Overrated answer : <a href="http://mathoverflow.net/questions/41253/who-fixed-the-topology-on-ideles">who fixed the topology on ideles?</a>. <a href="http://mathoverflow.net/questions/41253/who-fixed-the-topology-on-ideles/41332#41332">John Tate&#8217;s answer</a> &#8220;When I wrote my thesis I used what seemed to me to be the obvious topology without going into the history of the matter.&#8221; got 73 votes&#8230; </li>
+<li>Langlands for dummies : <a href="http://mathoverflow.net/questions/43240/what-is-the-l-function-version-of-quadratic-reciprocity">What is the L-function version of quadratic reciprocity?</a>. Sometimes working through the easiest non-trivial example gives more insight than several survey papers.</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

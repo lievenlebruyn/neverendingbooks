@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Borcherds &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/borcherds/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 30 Apr 2021 10:35:55 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>a monstrous unimodular lattice</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 30 Apr 2021 10:35:55 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Carnahan]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[lattice]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Niemeier]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[vetex algebra]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9722</guid>
+
+					<description><![CDATA[An integral $n$-dimensional lattice $L$ is the set of all integral linear combinations \[ L = \mathbb{Z} \lambda_1 \oplus \dots \oplus \mathbb{Z} \lambda_n \] of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>An integral $n$-dimensional lattice $L$ is the set of all integral linear combinations<br />
+\[<br />
+L = \mathbb{Z} \lambda_1 \oplus \dots \oplus \mathbb{Z} \lambda_n \]<br />
+of base vectors $\{ \lambda_1,\dots,\lambda_n \}$ of $\mathbb{R}^n$, equipped with the usual (positive definite) inner product, satisfying<br />
+\[<br />
+(\lambda, \mu ) \in \mathbb{Z} \quad \text{for all $\lambda,\mu \in \mathbb{Z}$.} \]<br />
+But then, $L$ is contained in its dual lattice $L^* = Hom_{\mathbb{Z}}(L,\mathbb{Z})$, and if $L = L^*$ we say that $L$ is <em>unimodular</em>.</p>
+<p>If all $(\lambda,\lambda) \in 2 \mathbb{Z}$, we say that $L$ is an <em>even</em> lattice. Even unimodular lattices (such as the <a href="https://en.wikipedia.org/wiki/E8_lattice">$E_8$-lattice</a> or the $24$ <a href="https://en.wikipedia.org/wiki/Niemeier_lattice">Niemeier lattices</a>) are wonderful objects, but they can only live in dimensions $n$ which are multiples of $8$.</p>
+<p>Just like the <a href="https://en.wikipedia.org/wiki/Conway_group">Conway group</a> $Co_0 = .0$ is the group of rotations of the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> $\Lambda$, one might ask whether there is a very special lattice on which the <a href="https://en.wikipedia.org/wiki/Monster_group">Monster group</a> $\mathbb{M}$ acts faithfully by rotations. If such a lattice exists, it must live in dimension at least $196883$.</p>
+<p><center><br />
+<img decoding="async" src="https://i.guim.co.uk/img/media/bc95794cf65cea461c38998357310576053a8cf9/0_55_1024_614/master/1024.jpg?width=445&#038;quality=45&#038;auto=format&#038;fit=max&#038;dpr=2&#038;s=48bd9bddca846a7afae589fd4fea01a3" width=100%><br />
+Simon Norton (1952-2019) &#8211; <a href="https://www.theguardian.com/education/2019/feb/22/simon-norton-obituary">Photo Credit</a><br />
+</center></p>
+<p>A first hint of such a lattice is in Conway&#8217;s original paper <a href="https://eudml.org/doc/143210">A simple construction for the Fischer-Griess monster group</a> (but not in the corresponding chapter 29 of <a href="http://neilsloane.com/doc/splag.html">SPLAG</a>).</p>
+<p>Conway writes that <a href="https://en.wikipedia.org/wiki/Simon_P._Norton">Simon Norton</a> showed &#8216;by a very simple computations that does not even require knowledge of the conjugacy classes, that any $198883$-dimensional representation of the Monster must support an invariant algebra&#8217;, which, after adding an identity element $1$, we now know as the $196884$-dimensional <a href="https://en.wikipedia.org/wiki/Griess_algebra">Griess algebra</a>.</p>
+<p>Further, on page 529, Conway writes:</p>
+<blockquote><p>Norton has shown that the lattice $L$ spanned by vectors of the form $1,t,t \ast t&#8217;$, where $t$ and $t&#8217;$ are transposition vectors, is closed under the algebra multiplication and integral with respect to the doubled inner product $2(u,v)$. The dual quotient $L^*/L$ is cyclic of order some power of $4$, and we believe that in fact $L$ is unimodular.</p></blockquote>
+<p>Here, transposition vectors correspond to transpositions in $\mathbb{M}$, that is, elements of conjugacy class $2A$.</p>
+<p>I only learned about this lattice yesterday via the MathOverflow-post <a href="https://mathoverflow.net/questions/363373/a-lattice-with-monster-group-symmetries">A lattice with Monster group symmetries</a> by <a href="https://mathoverflow.net/users/39521/adam-p-goucher">Adam P. Goucher</a>.</p>
+<p>In his post, Adam considers the $196883$-dimensional lattice $L&#8217; = L \cap 1^{\perp}$ (which has $\mathbb{M}$ as its rotation symmetry group), and asks for the minimal norm (squared) of a lattice point, which he believes is $448$, and for the number of minimal vectors in the lattice, which might be<br />
+\[<br />
+2639459181687194563957260000000 = 9723946114200918600 \times 27143910000 \]<br />
+the number of oriented arcs in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">Monster graph</a>.</p>
+<p>Here, the Monster graph has as its vertices the elements of $\mathbb{M}$ in conjugacy class $2A$ (which has $9723946114200918600$ elements) and with an edge between two vertices if their product in $\mathbb{M}$ again belongs to class $2A$, so the valency of the graph must be $27143910000$, as explained in  that old post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">the monster graph and McKay&#8217;s observation</a>.</p>
+<p>When I asked Adam whether he had more information about his lattice, he kindly informed me that Borcherds told him that the Norton lattice $L$ didn&#8217;t turn out to be unimodular after all, but that a unimodular lattice with monstrous symmetry had been constructed by <a href="http://www.math.tsukuba.ac.jp/~carnahan/">Scott Carnahan</a> in the paper <a href="https://www.emis.de/journals/SIGMA/2019/030/sigma19-030.pdf">A Self-Dual Integral Form of the Moonshine Module</a>.</p>
+<p><center><br />
+<img decoding="async" src="http://www.math.tsukuba.ac.jp/~carnahan/board.jpeg" width=100%><br />
+Scott Carnahan &#8211; <a href="http://www.math.tsukuba.ac.jp/~carnahan/">Photo Credit</a><br />
+</center></p>
+<p>The major steps (or better, the little bit of it I could grasp in this short time) in the construction of this unimodular $196884$-dimensional monstrous lattice might put a smile on your face if you are an affine scheme aficionado.</p>
+<p>Already in his paper <a href="https://math.berkeley.edu/~reb/papers/va/va.pdf">Vertex algebras, Kac-Moody algebras, and the Monster</a>, Richard Borcherds described an integral form of any lattice vertex algebra. We&#8217;ll be interested in the lattice vertex algebra $V_{\Lambda}$ constructed from the Leech lattice $\Lambda$ and call its integral form $(V_{\Lambda})_{\mathbb{Z}}$.</p>
+<p>One constructs the <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine#The_monster_module">Moonshine module</a> $V^{\sharp}$ from $V_{\Lambda}$ by a process called &#8216;cyclic orbifolding&#8217;, a generalisation of the <a href="https://www.elsevier.com/books/vertex-operator-algebras-and-the-monster/frenkel/978-0-12-267065-7">original construction</a> by Frenkel, Lepowsky and Meurman. In fact, there are now no less than <a href="https://arxiv.org/abs/1707.02954">51 constructions of the moonshine module</a>.</p>
+<p>One starts with a fixed point free rotation $r_p$ of $\Lambda$ in $Co_0$ of prime order $p \in \{ 2,3,5,7,13 \}$, which one can lift to an automorphism $g_p$ of the vertex algebra $V_{\Lambda}$ of order $p$ giving an isomorphism $V_{\Lambda}/g_p \simeq V^{\sharp}$ of vertex operator algebras over $\mathbb{C}$.</p>
+<p>For two distinct primes $p,p&#8217; \in \{ 2,3,5,7,13 \}$ if $Co_0$ has an element of order $p.p&#8217;$ one can find one such $r_{pp&#8217;}$ such that $r_{pp&#8217;}^p=r_{p&#8217;}$ and $r_{pp&#8217;}^{p&#8217;}=r_p$, and one can lift $r_{pp&#8217;}$ to an automorphism $g_{pp&#8217;}$ of $V_{\Lambda}$ such that $V_{\Lambda}/g_{pp&#8217;} \simeq V_{\Lambda}$ as vertex operator algebras over $\mathbb{C}$.</p>
+<p>Problem is that these lifts of automorphisms and the isomorphisms are not compatible with the integral form $(V_{\Lambda})_{\mathbb{Z}}$ of $V_{\Lambda}$, but &#8216;essentially&#8217;, they can be performed on<br />
+\[<br />
+(V_{\Lambda})_{\mathbb{Z}} \otimes_{\mathbb{Z}} \mathbb{Z}[\frac{1}{pp&#8217;},\zeta_{2pp&#8217;}] \]<br />
+where $\zeta_{2pp&#8217;}$ is a primitive $2pp&#8217;$-th root of unity. These then give a $\mathbb{Z}[\tfrac{1}{pp&#8217;},\zeta_{2pp&#8217;}]$-form on $V^{\sharp}$.</p>
+<p>Next, one uses a lot of subgroup information about $\mathbb{M}$ to prove that these $\mathbb{Z}[\tfrac{1}{pp&#8217;},\zeta_{2pp&#8217;}]$-forms of $V^{\sharp}$ have $\mathbb{M}$ as their automorphism group.</p>
+<p>Then, using all his for different triples in $\{ 2,3,5,7,13 \}$ one can glue and use faithfully flat descent to get an integral form $V^{\sharp}_{\mathbb{Z}}$ of the moonshine module with monstrous symmetry and such that the inner product on $V^{\sharp}_{\mathbb{Z}}$ is positive definite.</p>
+<p>Finally, one looks at the weight $2$ subspace of $V^{\sharp}_{\mathbb{Z}}$ which gives us <del datetime="2021-04-30T15:00:49+00:00">our</del> <em>Carnahan&#8217;s</em> $196884$-dimensional unimodular lattice with monstrous symmetry!</p>
+<p>Beautiful as this is, I guess it will be a heck of a project to deduce even the simplest of facts about this wonderful lattice from running through this construction.</p>
+<p>For example, what is the minimal length of vectors? What is the number of minimal length vectors? And so on. All info you might have is very welcome.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Teapot supremacy</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/teapot-supremacy/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/teapot-supremacy/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 13 Mar 2021 10:08:33 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Grover]]></category>
+		<category><![CDATA[Koblitz]]></category>
+		<category><![CDATA[Menezes]]></category>
+		<category><![CDATA[quantum comuters]]></category>
+		<category><![CDATA[Shor]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9078</guid>
+
+					<description><![CDATA[No, this is not another timely post about the British Royal family. It&#8217;s about Richard Borcherds&#8217; &#8220;teapot test&#8221; for quantum computers. A lot of money&#8230;]]></description>
+										<content:encoded><![CDATA[<p>No, this is not another timely post about the British Royal family.</p>
+<p>It&#8217;s about Richard Borcherds&#8217; &#8220;teapot test&#8221; for <a href="https://en.wikipedia.org/wiki/Quantum_computing">quantum computers</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/teapot.jpg" width=100% ><br />
+</center></p>
+<p>A lot of money is being thrown at the quantum computing hype, causing people to leave academia for quantum computing firms. A recent example (<a href="https://press.vub.ac.be/vub-alumnus-bob-coecke-to-head-cambridge-quantum-computing">hitting the press</a> even in Belgium) being the <a href="https://www.prnewswire.com/news-releases/cambridge-quantum-computing-appoints-oxford-university-professor-bob-coecke-as-chief-scientist-301200425.html">move of Bob Coecke</a> from Oxford University to <a href="https://cambridgequantum.com/">Cambridge Quantum Computing</a>.</p>
+<p>Sure, quantum computing is an enticing idea, and we have fantastic quantum algorithms such as <a href="https://en.wikipedia.org/wiki/Shor%27s_algorithm">Shor&#8217;s factorisation algorithm</a> and <a href="https://en.wikipedia.org/wiki/Grover%27s_algorithm">Grover&#8217;s search algorithm</a>.</p>
+<p>The (engineering) problem is building quantum computers with a large enough number of qubits, which is very difficult due to <a href="https://en.wikipedia.org/wiki/Quantum_decoherence">quantum decoherence</a>. To an outsider it may appear that the number of qubits in a working quantum computer is growing at best linearly, if not logarithmic, in sharp contrast to <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore&#8217;s law</a> for classical computers, stating that the number of transistors in an integrated circuit doubles every two years.</p>
+<p>Quantum computing evangelists assure us that this is nonsense, and that we should replace Moore&#8217;s law by <a href="https://hackernoon.com/nevens-law-paradigm-shift-in-quantum-computers-e6c429ccd1fc">Neven&#8217;s law</a> claiming that the computing power of quantum computers will grow not just exponentially, but doubly exponentially!</p>
+<p>What is behind these exaggerated claims?</p>
+<p>In 2015 the NSA released a policy statement on the need for <a href="https://en.wikipedia.org/wiki/Post-quantum_cryptography">post-quantum cryptography</a>. In the paper <a href="https://eprint.iacr.org/2015/1018.pdf">&#8220;A riddle wrapped in an enigma&#8221;</a>, <a href="https://en.wikipedia.org/wiki/Neal_Koblitz">Neil Koblitz</a> and <a href="https://en.wikipedia.org/wiki/Alfred_Menezes">Alfred Menezes</a> carefully examined NSA&#8217;s possible strategies behind this assertion.</p>
+<p>Can the NSA break <a href="https://csrc.nist.gov/projects/post-quantum-cryptography">PQC</a>? Can the NSA break <a href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)">RSA</a>? Does the NSA believes that <a href="https://crypto.stackexchange.com/questions/35343/rsa-3072-is-65-536-more-difficult-to-factor-than-2048">RSA-3072</a> is much more quantum-resistant than <a href="https://en.wikipedia.org/wiki/Elliptic-curve_cryptography">ECC-256</a> and even ECC-384?, and so on.</p>
+<p>Perhaps the most plausible of all explanations is this one : the NSA is using a diversion strategy aimed at Russia and China.</p>
+<blockquote><p>Suppose that the NSA believes that, although a large-scale quantum computer might eventually be built, it will be hugely expensive. From a cost standpoint it will be less analogous to Alan Turing’s bombe than to the Manhattan Project or the Apollo program, and it will be within the capabilities of only a small number of nation-states and huge corporations.</p>
+<p>Suppose also that, in thinking about the somewhat adversarial relationship that still exists between the U.S. and both China and Russia, especially in the area of cybersecurity, the NSA asked itself “How did we win the Cold War? The main strategy was to goad the Soviet Union into an arms race that it could not afford, essentially bankrupting it. Their GNP was so much less than ours, what was a minor set-back for our economy was a major disaster for theirs. It was a great strategy. Let’s try it again.”</p></blockquote>
+<p>This brings us to the claim of <a href="https://en.wikipedia.org/wiki/Quantum_supremacy">quantum supremacy</a>, that is, demonstrating that a programmable quantum device can solve a problem that no classical computer can solve in any feasible amount of time.</p>
+<p>In 2019, Google claimed &#8220;to have reached quantum supremacy with an array of 54 qubits out of which 53 were functional, which were used to perform a series of operations in 200 seconds that would take a supercomputer about 10,000 years to complete&#8221;. In December 2020, a group based in USTC reached quantum supremacy by implementing a type of Boson sampling on 76 photons with their photonic quantum computer. They stated that to generate the number of samples the quantum computer generates in 20 seconds, a classical supercomputer would require 600 million years of computation.</p>
+<p>Richard Borcherds rants against the type of problems used to claim quantum &#8216;supremacy&#8217;. He proposes the &#8216;teapot problem&#8217; which a teapot can solve instantaneously, but will be impossibly hard for classical (and even quantum) computers. That is, any teapot achieves &#8216;teapot supremacy&#8217; over classical and quantum computers!</p>
+<p>Another point of contention are the &#8216;real-life applications&#8217; quantum computers are said to be used for. Probably he is referring to <a href="https://www.volkswagen-newsroom.com/en/press-releases/volkswagen-optimizes-traffic-flow-with-quantum-computers-5507">Volkswagen&#8217;s plan for traffic optimization with a D-Wave quantum computer in Lisbon</a>.</p>
+<blockquote><p>&#8220;You could give these guys a time machine and all they&#8217;d use it for was going back to watch some episodes of some soap opera they missed&#8221;</p></blockquote>
+<p>Enjoy!</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/sFhhQRxWTIM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/teapot-supremacy/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Borcherds&#8217; favourite numbers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 02 Mar 2021 17:50:18 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Bruhat]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[de Jonquiere]]></category>
+		<category><![CDATA[Eisenbud]]></category>
+		<category><![CDATA[Fischer]]></category>
+		<category><![CDATA[Frenkel]]></category>
+		<category><![CDATA[Griess]]></category>
+		<category><![CDATA[Hardy]]></category>
+		<category><![CDATA[Harris]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Lepowski]]></category>
+		<category><![CDATA[Lie]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[McKay]]></category>
+		<category><![CDATA[Meurman]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[Ono]]></category>
+		<category><![CDATA[Ramanujan]]></category>
+		<category><![CDATA[Steiner]]></category>
+		<category><![CDATA[Stillwell]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8990</guid>
+
+					<description><![CDATA[Whenever I visit someone&#8217;s YouTube or Twitter profile page, I hope to see an interesting banner image. Here&#8217;s the one from Richard Borcherds&#8217; YouTube Channel.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Whenever I visit someone&#8217;s YouTube or Twitter profile page, I hope to see an interesting banner image. Here&#8217;s the one from <a href="https://www.youtube.com/channel/UCIyDqfi_cbkp-RU20aBF-MQ">Richard Borcherds&#8217; YouTube Channel</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BorcherdsNumbers.jpg" width=100% ></p>
+<p>Not too surprisingly for Borcherds, almost all of these numbers are related to the <a href="https://en.wikipedia.org/wiki/Monster_group">monster group</a> or its <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">moonshine</a>.</p>
+<p>Let&#8217;s try to decode them, in no particular order.</p>
+<p><strong>196884</strong></p>
+<p><a href="https://en.wikipedia.org/wiki/John_McKay_(mathematician)">John McKay&#8217;s</a> observation $196884 = 1 + 196883$ was the start of the whole &#8216;monstrous moonshine&#8217; industry. Here, $1$ and $196883$ are the dimensions of the two smallest irreducible representations of the monster simple group, and $196884$ is the first non-trivial coefficient in <a href="https://en.wikipedia.org/wiki/J-invariant">Klein&#8217;s j-function</a> in number theory.</p>
+<p>$196884$ is also the dimension of the space in which <a href="https://en.wikipedia.org/wiki/Robert_Griess">Robert Griess</a> constructed the Monster, following <a href="https://en.wikipedia.org/wiki/Simon_P._Norton">Simon Norton&#8217;s</a> lead that there should be an algebra structure on the monster-representation of that dimension. This algebra is now known as the <a href="https://en.wikipedia.org/wiki/Griess_algebra">Griess algebra</a>.</p>
+<p>Here&#8217;s a recent talk by Griess <a href="https://www.youtube.com/watch?v=Zynb7VKRr-U">&#8220;My life and times with the sporadic simple groups&#8221;</a> in which he tells about his construction of the monster (relevant part starting at 1:15:53 into the movie).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Zynb7VKRr-U?start=4553" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>1729</strong></p>
+<p>1729 is the second (and most famous) <a href="https://en.wikipedia.org/wiki/Taxicab_number">taxicab number</a>. A long time ago I did write a post about the classic Ramanujan-Hardy story <a href="https://en.wikipedia.org/wiki/Ken_Ono">the taxicab curve</a> (note to self: try to tidy up the layout of some old posts!).</p>
+<p>Recently, connections between Ramanujan&#8217;s observation and K3-surfaces were discovered. Emory University has an enticing press release about this: <a href="http://esciencecommons.blogspot.com/2015/10/mathematicians-find-magic-key-to-drive.html">Mathematicians find &#8216;magic key&#8217; to drive Ramanujan&#8217;s taxi-cab number</a>. The paper itself is <a href="https://arxiv.org/abs/1510.00735">here</a>.</p>
+<blockquote><p>“We’ve found that Ramanujan actually discovered a K3 surface more than 30 years before others started studying K3 surfaces and they were even named. It turns out that Ramanujan’s work anticipated deep structures that have become fundamental objects in arithmetic geometry, number theory and physics.&#8221;</p>
+<p><a href="https://en.wikipedia.org/wiki/Ken_Ono">Ken Ono</a></p></blockquote>
+<p><strong>24</strong></p>
+<p>There&#8217;s no other number like $24$ responsible for the existence of sporadic simple groups.</p>
+<p>24 is the length of the <a href="https://en.wikipedia.org/wiki/Binary_Golay_code#:~:text=In%20mathematics%20and%20electronics%20engineering,finite%20sporadic%20groups%20in%20mathematics.">binary Golay code</a>, with isomorphism group the sporadic <a href="https://en.wikipedia.org/wiki/Mathieu_group">Mathieu group</a> $M_24$ and hence all of the other Mathieu-groups as subgroups.</p>
+<p>24 is the dimension of the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a>, with isomorphism group the Conway group $Co_0 = .0$ (dotto), giving us modulo its center the sporadic group $Co_1=.1$ and the other <a href="https://en.wikipedia.org/wiki/Conway_group">Conway groups</a> $Co_2=.2, Co_3=.3$, and all other sporadics of the second generation in the <a href="https://en.wikipedia.org/wiki/Pariah_group">happy family</a> as subquotients (McL,HS,Suz and $HJ=J_2$)</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/SporadicGroups.svg/680px-SporadicGroups.svg.png" width=60% ><br />
+</center></p>
+<p>24 is the central charge of the <a href="https://en.wikipedia.org/wiki/Monster_vertex_algebra">Monster vertex algebra</a> constructed by Frenkel, Lepowski and Meurman. Most experts believe that the Monster&#8217;s reason of existence is that it is the symmetry group of this vertex algebra. John Conway was one among few others hoping for a nicer explanation, as he said in this <a href="https://www.youtube.com/watch?v=lbN8EMcOH5o">interview with Alex Ryba</a>.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/lbN8EMcOH5o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>24 is also an important number in <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a>, see for example the post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24">the defining property of 24</a>. There&#8217;s a lot more to say on this, but I&#8217;ll save it for another day.</p>
+<p><strong>60</strong></p>
+<p>60 is, of course, the order of the smallest non-Abelian simple group, $A_5$, the rotation symmetry group of the icosahedron. $A_5$ is the symmetry group of choice for most viruses <a href="https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19">but not the Corona-virus</a>.</p>
+<p><strong>3264</strong></p>
+<p>3264 is the correct solution to <a href="https://en.wikipedia.org/wiki/Steiner%27s_conic_problem">Steiner&#8217;s conic problem</a> asking for the number of conics in $\mathbb{P}^2_{\mathbb{C}}$ tangent to five given conics in general position.</p>
+<p><center><br />
+<img decoding="async" src="https://www.juliahomotopycontinuation.org/images/given_conics_example.png" width=60% ><br />
+</center></p>
+<p>Steiner himself claimed that there were $7776=6^5$ such conics, but realised later that he was wrong. The correct number was first given by <a href="https://en.wikipedia.org/wiki/Ernest_de_Jonqui%C3%A8res">Ernest de Jonquières</a> in 1859, but a rigorous proof had to await the advent of modern intersection theory.</p>
+<p>Eisenbud and Harris wrote a book on intersection theory in algebraic geometry, freely available online: <a href="https://scholar.harvard.edu/files/joeharris/files/000-final-3264.pdf">3264 and all that</a>.</p>
+<p><strong>248</strong></p>
+<p>248 is the dimension of the exceptional simple Lie group <a href="https://en.wikipedia.org/wiki/E8_(mathematics)">$E_8$</a>. $E_8$ is also connected to the monster group.</p>
+<p>If you take two Fischer involutions in the monster (elements of conjugacy class 2A) and multiply them, the resulting element surprisingly belongs to one of just 9 conjugacy classes:</p>
+<p>1A,2A,2B,3A,3C,4A,4B,5A or 6A</p>
+<p>The orders of these elements are exactly the dimensions of the fundamental root for the extended $E_8$ Dynkin diagram.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/e8monster.png"></p>
+<p>This is yet another moonshine observation by John McKay and I wrote a couple of posts about it and about Duncan&#8217;s solution: <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">the monster graph and McKay&#8217;s observation</a>, and <a href="https://lievenlebruyn.github.io/neverendingbooks/e8-from-moonshine-groups">$E_8$ from moonshine groups</a>.</p>
+<p><strong>163</strong></p>
+<p>163 is a remarkable number because of the &#8216;modular miracle&#8217;<br />
+\[<br />
+e^{\pi \sqrt{163}} = 262537412640768743.99999999999925&#8230; \]<br />
+This is somewhat related to moonshine, or at least to Klein&#8217;s j-function, which by a result of Kronecker&#8217;s detects the classnumber of imaginary quadratic fields $\mathbb{Q}(\sqrt{-D})$ and produces integers if the classnumber is one (as is the case for $\mathbb{Q}(\sqrt{-163})$).</p>
+<p>The details are in the post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-modular-miracle-of-163">the miracle of 163</a>, or in the paper by John Stillwell, <a href="https://www.jstor.org/stable/2695682?seq=1#metadata_info_tab_contents">Modular Miracles</a>, The American Mathematical Monthly, 108 (2001) 70-76.</p>
+<p>Richard Borcherds, the math-vlogger, has an entertaining video about this story: <a href="https://www.youtube.com/watch?v=a9k_QmZbwX8">MegaFavNumbers 262537412680768000</a></p>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/a9k_QmZbwX8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>His description of the $j$-function (at 4:13 in the movie) is simply hilarious!</p>
+<p>Borcherds connects $163$ to the monster moonshine via the $j$-function, but there&#8217;s another one.</p>
+<p>The monster group has $194$ conjugacy classes and monstrous moonshine assigns a &#8216;moonshine function&#8217; to each conjugacy class (the $j$-function is assigned to the identity element). However, these $194$ functions are not linearly independent and the space spanned by them has dimension exactly $163$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Richard Borcherds on Witt and the Leech lattice</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/richard-borcherds-on-witt-and-the-leech-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/richard-borcherds-on-witt-and-the-leech-lattice/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 10 Feb 2021 10:26:13 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Leech lattice]]></category>
+		<category><![CDATA[Witt]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8817</guid>
+
+					<description><![CDATA[A rare benefit of the Covid-situation is that Richard Borcherds decided to set up a YouTube channel with recordings of his online lectures. Plenty of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A rare benefit of the Covid-situation is that <a href="https://en.wikipedia.org/wiki/Richard_Borcherds">Richard Borcherds</a> decided to set up a <a href="https://www.youtube.com/channel/UCIyDqfi_cbkp-RU20aBF-MQ">YouTube channel</a> with recordings of his online lectures.</p>
+<p>Plenty of gems to be discovered there, including a talk on <a href="https://www.youtube.com/watch?v=5Mg25JK31wE&#038;t=1948s">Monstrous Moonshine</a>, and a talk he gave for the <a href="https://en.wikipedia.org/wiki/The_Archimedeans">Archimedeans</a> about the <a href="https://www.youtube.com/watch?v=D908X1JAowY">Sporadic Groups</a>.</p>
+<p>As part of his History of Science-course he addressed the question whether <a href="https://en.wikipedia.org/wiki/Ernst_Witt">Witt</a> discovered the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a>.</p>
+<p>A while ago I&#8217;ve blogged about that very same question here:</p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/who-discovered-the-leech-lattice">Who discovered the Leech lattice?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice">So, who discovered the Leech lattice?</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/erna-bannow-octonions-and-the-leech">Erna Bannow, octonions and the Leech</a></li>
+</ul>
+<p>The summary of these posts being that I thought it was rather unlikely for Witt to have discovered the Leech lattice.</p>
+<p>However, using the same sources, Borcherds rates a more than 90% probability for Witt to have indeed discovered the Leech lattice in 1940.</p>
+<p>His evidence for this is:</p>
+<ul>
+<li>Witt said he discovered it.</li>
+<li>His construction (in his 1972 colloquium talk) is unlike any other construction of the Leech lattice.</li>
+<li>Witt was <strong>the</strong> expert on <a href="https://en.wikipedia.org/wiki/Steiner_system#:~:text=In%20combinatorial%20mathematics%2C%20a%20Steiner,1%20and%20t%20%E2%89%A5%202.">Steiner systems</a>, and the system S(5,8,24) is crucial in Leech&#8217;s construction of his lattice.</li>
+</ul>
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/xI2miIBS5-s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/richard-borcherds-on-witt-and-the-leech-lattice/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What we (don&#8217;t) know</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 26 Jan 2018 09:15:01 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Gannon]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[VOAs]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7847</guid>
+
+					<description><![CDATA[Do we know why the monster exists and why there&#8217;s moonshine around it? The answer depends on whether or not you believe that vertex operator&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Do we know why the <a href="https://en.wikipedia.org/wiki/Monster_group">monster</a> exists and why there&#8217;s <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">moonshine</a> around it?</p>
+<p>The answer depends on whether or not you believe that <a href="https://en.wikipedia.org/wiki/Vertex_operator_algebra">vertex operator algebras</a> are natural, elegant and inescapable objects.</p>
+<p><strong>the monster</strong></p>
+<p>Simple groups often arise from symmetries of exceptionally nice mathematical objects.</p>
+<p>The smallest of them all, $A_5$, gives us the rotation symmetries of the <a href="https://en.wikipedia.org/wiki/Icosahedron">icosahedron</a>. The next one, Klein&#8217;s simple group $L_2(7)$, comes from the <a href="https://en.wikipedia.org/wiki/Klein_quartic">Klein quartic</a>.</p>
+<p>The smallest sporadic groups, the <a href="https://en.wikipedia.org/wiki/Mathieu_group">Mathieu groups</a>, come from <a href="https://en.wikipedia.org/wiki/Steiner_system">Steiner systems</a>, and the <a href="https://en.wikipedia.org/wiki/Conway_group">Conway groups</a> from the 24-dimensional <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a>.</p>
+<p>What about the largest sporadic simple, the <a href="https://en.wikipedia.org/wiki/Monster_group">monster</a> $\mathbb{M}$?</p>
+<p>In his paper <a href="http://www.ams.org/notices/200209/what-is.pdf">What is &#8230; the monster?</a> Richard Borcherds writes (among other characterisations of $\mathbb{M}$):</p>
+<p>&#8220;3. It is the automorphism group of the <a href="https://en.wikipedia.org/wiki/Monster_vertex_algebra">monster vertex algebra</a>. (This is probably the best answer.)&#8221;</p>
+<p>But, even Borcherds adds:</p>
+<p>&#8220;Unfortunately none of these definitions is completely satisfactory. At the moment all constructions of the algebraic structures above seem artificial; they are constructed as sums of two or more apparently unrelated spaces, and it takes a lot of effort to define the algebraic structure on the sum of these spaces and to check that the monster acts on the resulting structure. <br /><strong>It is still an open problem to find a really simple and natural construction of the monster vertex algebra.</strong>&#8221;</p>
+<p>Here&#8217;s 2 minutes of John Conway on the &#8220;one thing&#8221; he really wants to know before he dies: why the monster group exists.</p>
+<p><center><br />
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/xOCe5HUObD4?start=420" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+<p><strong>moonshine</strong></p>
+<p>Moonshine started off with McKay&#8217;s observation that 196884 (the first coefficient in the normalized <a href="https://en.wikipedia.org/wiki/J-invariant">j-function</a>) is the sum 1+196883 of the dimensions of the two smallest simple representations of $\mathbb{M}$.</p>
+<p>Soon it was realised that every conjugacy class of the monster has a <a href="https://en.wikipedia.org/wiki/Modular_curve#Genus_zero">genus zero group</a> (or &#8216;moonshine group&#8217;) associated to it.</p>
+<p>Borcherds proved the &#8216;monstrous moonshine conjectures&#8217; asserting that the associated main modular function of such a group is the character series of the action of the element on the monster vertex algebra.</p>
+<p>Here&#8217;s Borcherds&#8217; ICM talk in Berlin on this: <a href="https://arxiv.org/pdf/math/9809110.pdf">What is &#8230; Moonshine?</a>.</p>
+<p>Once again, the monster vertex algebra appears to be the final answer.</p>
+<p>However, in characterising the 171 moonshine groups among all possible genus zero groups one has proved that <a href="https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups">they are all of the form</a>:</p>
+<p>(ii) : $(n|h)+e,g,\dots$</p>
+<p>In his book <a href="https://www.cambridge.org/core/books/moonshine-beyond-the-monster/CAD32EB4694E501D0B656696AE69EDFF">Moonshine beyond the Monster</a>, Terry Gannon writes:</p>
+<p>&#8220;We now understand the significance, in the <a href="https://en.wikipedia.org/wiki/Vertex_operator_algebra">VOA</a> or <a href="https://en.wikipedia.org/wiki/Conformal_field_theory">CFT</a> framework, of transformations in $SL_2(\mathbb{Z})$, but (ii) emphasises that many modular transformations relevant to Moonshine are more general (called the Atkin-Lehner involutions). <br /><strong>Monstrous moonshine will remain mysterious until we can understand its Atkin-Lehner symmetries.</strong>&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>a non-commutative Jack Daniels problem</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 20 Jan 2018 13:56:06 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Duncan]]></category>
+		<category><![CDATA[Jack Daniels]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[Ogg]]></category>
+		<category><![CDATA[Ono]]></category>
+		<category><![CDATA[Pizer]]></category>
+		<category><![CDATA[Plazas]]></category>
+		<category><![CDATA[Ricard]]></category>
+		<category><![CDATA[Tits]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7776</guid>
+
+					<description><![CDATA[At a seminar at the College de France in 1975, Tits wrote down the order of the monster group \[ \# \mathbb{M} = 2^{46}.3^{20}.5^9.7^6.11^2.13^3.17·19·23·29·31·41·47·59·71 \]&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/jackdanielsMoonshine.jpg"></p>
+<p>At a seminar at the College de France in 1975, Tits wrote down the order of the monster group</p>
+<p>\[<br />
+\# \mathbb{M} = 2^{46}.3^{20}.5^9.7^6.11^2.13^3.17·19·23·29·31·41·47·59·71 \]</p>
+<p><a href="https://en.wikipedia.org/wiki/Andrew_Ogg">Andrew Ogg</a>, who attended the talk, noticed that the prime divisors are precisely the primes $p$ for which the characteristic $p$ super-singular $j$-invariants are all defined over $\mathbb{F}_p$.</p>
+<p>Here&#8217;s Ogg&#8217;s paper on this: <a href="http://www.numdam.org/article/SDPP_1974-1975__16_1_A4_0.pdf">Automorphismes de courbes modulaires</a>,  Séminaire Delange-Pisot-Poitou. Théorie des nombres, tome 16, no 1 (1974-1975).</p>
+<p>Ogg offered a bottle of Jack Daniels for an explanation of this coincidence.</p>
+<p>Even <a href="https://en.wikipedia.org/wiki/Richard_Borcherds">Richard Borcherds</a> didn&#8217;t claim the bottle of Jack Daniels, though his proof of the monstrous moonshine conjecture is believed to be the best explanation, at present.</p>
+<p>A few years ago, John Duncan and Ken Ono posted a paper <a href="https://arxiv.org/abs/1411.5354">&#8220;The Jack Daniels Problem&#8221;</a>, in which they prove that monstrous moonshine implies that if $p$ is not one of Ogg&#8217;s primes it cannot be a divisor of $\# \mathbb{M}$. However, the other implication remains mysterious.</p>
+<p>Duncan and Ono say:</p>
+<p>&#8220;This discussion does not prove that every $p ∈ \text{Ogg}$ divides $\# \mathbb{M}$. It merely explains how the first principles of moonshine suggest this implication. Monstrous moonshine is the proof. Does this then provide a completely satisfactory solution to Ogg’s problem? Maybe or maybe not. Perhaps someone will one day furnish a map from the characteristic $p$ supersingular $j$-invariants to elements of order $p$ where the group structure of $\mathbb{M}$ is apparent.&#8221;</p>
+<p>I don&#8217;t know whether they claimed the bottle, anyway.</p>
+<p>But then, what is the <strong>non-commutative Jack Daniels Problem</strong>?</p>
+<p>A footnote on the first page of Conway and Norton&#8217;s &#8216;Monstrous Moonshine&#8217; paper says:</p>
+<p>&#8220;Very recently, A. Pizer has shown these primes are the only ones that satisfy a certain conjecture of Hecke from 1936 relating modular forms of weight $2$ to quaternion algebra theta-series.&#8221;</p>
+<p>Pizer&#8217;s paper is <a href="https://msp.org/pjm/1978/79-2/pjm-v79-n2-p16-s.pdf">&#8220;A note on a conjecture of Hecke&#8221;</a>.</p>
+<p>Maybe there&#8217;s a connection between monstrous moonshine and the arithmetic of integral quaternion algebras. Some hints:</p>
+<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative">commutation relations in the Big Picture</a> are reminiscent of the <a href="http://www.m-hikari.com/imf/imf-2012/41-44-2012/perngIMF41-44-2012.pdf">meta-commutation relations for Hurwitz quaternions</a>, originally due to Conway in his booklet on Quaternions and Octonions.</p>
+<p>The fact that the $p$-tree in the Big Picture has valency $p+1$ comes from the fact that the Brauer-Severi of $M_2(\mathbb{F}_p)$ is $\mathbb{P}^1_{\mathbb{F}_p}$. In fact, the Big Picture should be related to the Brauer-Severi scheme of $M_2(\mathbb{Z})$.</p>
+<p>Then, there&#8217;s Jorge Plazas claiming that Connes-Marcolli&#8217;s $GL_2$-system <a href="https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine">might be related to moonshine</a>.</p>
+<p>One of the first things I&#8217;ll do when I return is to run to the library and get our copy of Shimura&#8217;s &#8216;Introduction to the arithmetic theory of automorphic functions&#8217;.</p>
+<p>Btw. the bottle in the title image is not a Jack Daniels but the remains of a bottle of Ricard, because I&#8217;m still in the French mountains.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Dedekind or Klein ?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/dedekind-or-klein/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/dedekind-or-klein/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 22 Apr 2008 19:00:10 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/dedekind-or-klein.html</guid>
+
+					<description><![CDATA[The black&#38;white psychedelic picture on the left of a tessellation of the hyperbolic upper-halfplane, was called the Dedekind tessellation in this post, following the reference&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dedekind1877.gif" width=300 style="float:left;margin-right:10px;" > The black&amp;white psychedelic picture on the left of a tessellation of the hyperbolic upper-halfplane, was called the <strong>Dedekind tessellation</strong> in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-dedekind-tessellation.html">this post</a>, following the reference given by John Stillwell in his excellent paper <a href="http://www.jstor.org/pss/2695682">Modular Miracles, The American Mathematical Monthly, 108 (2001) 70-76</a>.</p>
+<p>But is this correct terminology? Nobody else <a href="http://www.google.com/search?client=safari&amp;rls=en-us&amp;q=%22Dedekind+tessellation%22&amp;ie=UTF-8&amp;oe=UTF-8">uses it</a> apparently. So, let&#8217;s try to track down the earliest depiction of this tessellation in the literature&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/Dedekind.jpeg" width=200 style="float:right;margin-left:10px;" > Stillwell refers to <a href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Dedekind.html">Richard Dedekind</a>&#8216;s 1877 paper &#8220;Schreiben an Herrn Borchard uber die Theorie der elliptische Modulfunktionen&#8221;, which appeared beginning of september 1877 in <a href="http://en.wikipedia.org/wiki/Crelle's_Journal">Crelle&#8217;s journal</a> (Journal fur die reine und angewandte Mathematik, Bd. 83, 265-292).</p>
+<p>There are a few odd things about this paper. To start, it really is the transcript of a (lengthy) letter to Herrn Borchardt (at first, I misread the recipient as Herrn Borcherds which would be really weird&#8230;), written on June 12th 1877, just 2 and a half months before it appeared&#8230; Even today in the age of camera-ready-copy it would probably take longer.</p>
+<p>There isn&#8217;t a single figure in the paper, but, it is almost impossible to follow Dedekind&#8217;s arguments without having a mental image of the tessellation. He gives a fundamental domain for the action of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ on the hyperbolic upper-half plane (a fact already known to Gauss) and goes on in section 3 to give a one-to-one mapping between this domain and the complex plane using what he calls the &#8216;valenz&#8217; function $v $ (which is our modular function $j $, making an appearance in moonshine, and responsible for the black&amp;white tessellation, the two colours corresponding to pre-images of the upper or lower half-planes).</p>
+<p>Then there is this remarkable opening sentence.</p>
+<blockquote><p>Sie haben mich aufgefordert, eine etwas ausfuhrlichere Darstellung der Untersuchungen auszuarbeiten, von welchen ich, durch das Erscheinen der Abhandlung von Fuchs veranlasst, mir neulich erlaubt habe Ihnen eine kurze Ubersicht mitzuteilen; indem ich Ihrer Einladung hiermit Folge leiste, beschranke ich mich im wesentlichen auf den Teil dieser Untersuchungen, welcher mit der eben genannten Abhandlung zusammenhangt, und ich bitte Sie auch, die Ubergehung einiger Nebenpunkte entschuldigen zu wollen, da es mir im Augenblick an Zeit fehlt, alle Einzelheiten auszufuhren.</p></blockquote>
+<p>Well, just try to get a paper (let alone a letter) accepted by Crelle&#8217;s Journal with an opening line like : &#8220;I&#8217;ll restrict to just a few of the things I know, and even then, I cannot be bothered to fill in details as I don&#8217;t have the time to do so right now!&#8221; But somehow, Dedekind got away with it.</p>
+<p>So, who was this guy Borchardt? How could this paper be published so swiftly? And, what might explain this extreme &#8216;je m&#8217;en fous&#8217;-opening ?</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/Borchardt.jpg"  style="float:left;margin-right:10px;" > <a href="http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Borchardt.html">Carl Borchardt</a> was a Berlin mathematician whose main claim to fame seems to be that he succeeded Crelle in 1856 as main editor of the &#8216;Journal fur reine und&#8230;&#8217; until 1880 (so in 1877 he was still in charge, explaining the swift publication). It seems that during this time the &#8216;Journal&#8217; was often referred to as &#8220;Borchardt&#8217;s Journal&#8221; or in France as &#8220;Journal de M Borchardt&#8221;. After Borchardt&#8217;s death, the Journal für die Reine und Angewandte Mathematik again became known as Crelle&#8217;s Journal.</p>
+<p>As to the opening sentence, I have a toy-theory of what was going on. In 1877 a bitter dispute was raging between <a href="http://www-gap.dcs.st-and.ac.uk/~history/Biographies/Kronecker.html">Kronecker</a> (an editor for the Journal and an important one as he was the one succeeding Borchardt when he died in 1880) and <a href="http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Cantor.html">Cantor</a>. Cantor had published most of his papers at Crelle and submitted his latest find : there is a one-to-one correspondence between points in the unit interval [0,1] and points of d-dimensional space! Kronecker did everything in his power to stop that paper to the extend that Cantor wanted to retract it and submit it elsewhere. Dedekind supported Cantor and convinced him not to retract the paper and used his influence to have the paper published in Crelle in 1878. Cantor greatly resented Kronecker&#8217;s opposition to his work and never submitted any further papers to Crelle&#8217;s Journal.</p>
+<p>Clearly, Borchardt was involved in the dispute and it is plausible that he &#8216;invited&#8217; Dedekind to submit a paper on his old results in the process. As a further peace offering, Dedekind included a few &#8216;nice&#8217; words for Kronecker</p>
+<blockquote><p>Bei meiner Versuchen, tiefer in diese mir unentbehrliche Theorie einzudringen und mir einen einfachen Weg zu den ausgezeichnet schonen Resultaten von Kronecker zu bahnen, die leider noch immer so schwer zuganglich sind, enkannte ich sogleich&#8230;</p></blockquote>
+<p>Probably, Dedekind was referring to Kronecker&#8217;s relation between class groups of quadratic imaginary fields and the j-function, see <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-modular-miracle-of-163.html">the miracle of 163</a>. As an added bonus, Dedekind was elected to the Berlin academy in 1880&#8230;</p>
+<p>Anyhow, no visible sign of &#8216;Dedekind&#8217;s&#8217; tessellation in the 1877 Dedekind paper, so, we have to look further. I&#8217;m fairly certain to have found the earliest depiction of the black&amp;white tessellation (if you have better info, please drop a line). Here it is</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleintessellation.jpg" align=center ></p>
+<p>It is figure 7 in <a href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Klein.html">Felix Klein</a>&#8216;s paper &#8220;Uber die Transformation der elliptischen Funktionen und die Auflosung der Gleichungen funften Grades&#8221; which appeared in may 1878 in the Mathematische Annalen (Bd. 14 1878/79). He even adds the j-values which make it clear why black triangles should be oriented counter-clockwise and white triangles clockwise. If Klein would still be around today, I&#8217;m certain he&#8217;d be a metapost-guru.</p>
+<p>So, perhaps the tessellation should be called Klein&#8217;s tessellation??<br />
+Well, not quite. Here&#8217;s what Klein writes wrt. figure 7</p>
+<blockquote><p>Diese Figur nun &#8211; welche die eigentliche Grundlage fur das Nachfolgende abgibt &#8211; ist eben diejenige, von der Dedekind bei seiner Darstellung ausgeht. Er kommt zu ihr durch rein arithmetische Betrachtung.</p></blockquote>
+<p>Case closed : Klein clearly acknowledges that Dedekind did have this picture in mind when writing his 1877 paper!</p>
+<p>But then, there are a few odd things about Klein&#8217;s paper too, and, I do have a toy-theory about this as well&#8230; (tbc)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/dedekind-or-klein/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the McKay-Thompson series</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mckay-thompson-series/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-mckay-thompson-series/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 22 Mar 2008 10:05:29 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/the-mckay-thompson-series.html</guid>
+
+					<description><![CDATA[Monstrous moonshine was born (sometime in 1978) the moment John McKay realized that the linear term in the j-function $j(q) = \frac{1}{q} + 744 +&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">Monstrous moonshine</a> was born (sometime in 1978) the moment <a href="http://en.wikipedia.org/wiki/John_McKay_%28mathematics%29">John McKay</a> realized that the linear term in the j-function</p>
+<p>$j(q) = \frac{1}{q} + 744 + 196884 q + 21493760 q^2 + 864229970 q^3 + \ldots  $</p>
+<p>is surprisingly close to the dimension of the smallest non-trivial irreducible representation of the <a href="http://en.wikipedia.org/wiki/Monster_group">monster group</a>, which is 196883. Note that at that time, the Monster hasn&#8217;t been constructed yet, and, the only traces of its possible existence were kept as semi-secret information in a huge ledger (costing 80 pounds&#8230;) kept in the Atlas-office at Cambridge. Included were 8 huge pages describing the character table of the monster, the top left fragment, describing the lower dimensional irreducibles and their characters at small order elements, reproduced below</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/monstertabledetail.jpg" align=center ></p>
+<p>If you look at the dimensions of the smallest irreducible representations (the first column) : 196883, 21296876, 842609326, &#8230; you will see that the first, second and third of them are extremely close to the linear, quadratic and cubic coefficient of the j-function. In fact, more is true : one can obtain these actual j-coefficients as simple linear combination of the dimensions of the irrducibles :</p>
+<p>$\begin{cases} 196884 &amp;= 1 + 196883 \\<br />
+21493760 &amp;= 1 + 196883 + 21296876 \\<br />
+864229970 &amp;= 2 \times 1 + 2 \times 196883 + 21296876 + 842609326<br />
+\end{cases} $</p>
+<p>Often, only the first relation is attributed to McKay, whereas the second and third were supposedly discovered by <a href="http://en.wikipedia.org/wiki/John_G._Thompson">John Thompson</a> after MKay showed him the first. Marcus du Sautoy tells a somewhat different sory in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/finding-moonshine.html">Finding Moonshine</a> :</p>
+<blockquote><p>McKay has also gone on to find these extra equations, but is was Thompson who first published them. McKay admits that &#8220;I was a bit peeved really, I don&#8217;t think Thompson quite knew how much I knew.&#8221;</p></blockquote>
+<p>By the work of <a href="http://en.wikipedia.org/wiki/Richard_Borcherds">Richard Borcherds</a> we now know the (partial according to some) explanation behind these numerical facts : there is a graded representation $V = \oplus_i V_i $ of the Monster-group (actually, it has a lot of extra structure such as being a <a href="http://en.wikipedia.org/wiki/Vertex_algebra">vertex algebra</a>) such that the dimension of the i-th factor $V_i $ equals the coefficient f $q^i $ in the j-function. The homogeneous components $V_i $ being finite dimensional representations of the monster, they decompose into the 194 irreducibles $X_j $. For the first three components we have the decompositions</p>
+<p>$\begin{cases} V_1 &amp;= X_1 \oplus X_2 \\<br />
+V_2 &amp;= X_1 \oplus X_2 \oplus X_3 \\<br />
+V_3 &amp;= X_1^{\oplus 2 } \oplus X_2^{\oplus 2} \oplus X_3 \oplus X_4<br />
+\end{cases} $</p>
+<p>Calculating the dimensions on both sides give the above equations. However, being isomorphisms of monster-representations we are not restricted to just computing the dimensions. We might as well compute the character of any monster-element on both sides (observe that the dimension is just the character of the identity element). Characters are the traces of the matrices describing the action of a monster-element on the representation and these numbers fill the different columns of the character-table above.</p>
+<p>Hence, the same integral combinations of the character values of any monster-element give another q-series and these are called the <a href="http://en.wikipedia.org/wiki/Thompson-McKay_series">McKay-Thompson series</a>. <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> discovered them to be classical modular functions known as <a href="http://en.wikipedia.org/wiki/Hauptmodul">Hauptmoduln</a>.</p>
+<p>In most papers and online material on this only the first few coefficients of these series are documented, which may be just too little information to make new discoveries!</p>
+<p>Fortunately, <a href="http://www.madore.org/~david/">David Madore</a> has compiled the <a href="http://mathforum.org/kb/thread.jspa?forumID=253&amp;threadID=1602206&amp;messageID=5836094#5836094">first 3200 coefficients of all the 172 monster-series</a> which are available in a <a href="ftp://quatramaran.ens.fr/pub/madore/moonshine/moonshine.dat.gz">huge 8Mb file</a>. And, if you really need to have more coefficients, you can always use and modify his <a href="ftp://quatramaran.ens.fr/pub/madore/moonshine/moonshine.py">moonshine python program</a>.</p>
+<p>In order to reduce bandwidth, here a list containing the first 100 coefficients of the j-function</p>
+<pre>
+jfunct=[196884, 21493760, 864299970, 20245856256, 333202640600, 4252023300096, 44656994071935, 401490886656000, 3176440229784420, 22567393309593600, 146211911499519294, 874313719685775360, 4872010111798142520, 25497827389410525184, 126142916465781843075, 593121772421445058560, 2662842413150775245160, 11459912788444786513920, 47438786801234168813250, 189449976248893390028800, 731811377318137519245696, 2740630712513624654929920, 9971041659937182693533820, 35307453186561427099877376, 121883284330422510433351500, 410789960190307909157638144, 1353563541518646878675077500, 4365689224858876634610401280, 13798375834642999925542288376, 42780782244213262567058227200, 130233693825770295128044873221, 389608006170995911894300098560, 1146329398900810637779611090240, 3319627709139267167263679606784, 9468166135702260431646263438600, 26614365825753796268872151875584, 73773169969725069760801792854360, 201768789947228738648580043776000, 544763881751616630123165410477688, 1452689254439362169794355429376000, 3827767751739363485065598331130120, 9970416600217443268739409968824320, 25683334706395406994774011866319670, 65452367731499268312170283695144960, 165078821568186174782496283155142200, 412189630805216773489544457234333696, 1019253515891576791938652011091437835, 2496774105950716692603315123199672320, 6060574415413720999542378222812650932, 14581598453215019997540391326153984000, 34782974253512490652111111930326416268, 82282309236048637946346570669250805760, 193075525467822574167329529658775261720, 449497224123337477155078537760754122752, 1038483010587949794068925153685932435825, 2381407585309922413499951812839633584128, 5421449889876564723000378957979772088000, 12255365475040820661535516233050165760000, 27513411092859486460692553086168714659374, 61354289505303613617069338272284858777600, 135925092428365503809701809166616289474168, 299210983800076883665074958854523331870720, 654553043491650303064385476041569995365270, 1423197635972716062310802114654243653681152, 3076095473477196763039615540128479523917200, 6610091773782871627445909215080641586954240, 14123583372861184908287080245891873213544410, 30010041497911129625894110839466234009518080, 63419842535335416307760114920603619461313664, 133312625293210235328551896736236879235481600, 278775024890624328476718493296348769305198947, 579989466306862709777897124287027028934656000, 1200647685924154079965706763561795395948173320, 2473342981183106509136265613239678864092991488, 5070711930898997080570078906280842196519646750, 10346906640850426356226316839259822574115946496, 21015945810275143250691058902482079910086459520, 42493520024686459968969327541404178941239869440, 85539981818424975894053769448098796349808643878, 171444843023856632323050507966626554304633241600, 342155525555189176731983869123583942011978493364, 679986843667214052171954098018582522609944965120, 1345823847068981684952596216882155845897900827370, 2652886321384703560252232129659440092172381585408, 5208621342520253933693153488396012720448385783600, 10186635497140956830216811207229975611480797601792, 19845946857715387241695878080425504863628738882125, 38518943830283497365369391336243138882250145792000, 74484518929289017811719989832768142076931259410120, 143507172467283453885515222342782991192353207603200, 275501042616789153749080617893836796951133929783496, 527036058053281764188089220041629201191975505756160, 1004730453440939042843898965365412981690307145827840, 1908864098321310302488604739098618405938938477379584, 3614432179304462681879676809120464684975130836205250, 6821306832689380776546629825653465084003418476904448, 12831568450930566237049157191017104861217433634289960, 24060143444937604997591586090380473418086401696839680, 44972195698011806740150818275177754986409472910549646, 83798831110707476912751950384757452703801918339072000]
+</pre>
+<p>This information will come in handy when we will organize our <strong>Monstrous Easter Egg Race</strong>, starting tomorrow at 6 am (GMT)&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-mckay-thompson-series/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>thanks for linking</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/thanks-for-linking/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/thanks-for-linking/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 11 Jan 2008 13:05:12 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/thanks-for-linking.html</guid>
+
+					<description><![CDATA[I&#8217;ve re-installed the Google analytics plugin on december 22nd, so it is harvesting data for three weeks only. Still, it is an interesting tool to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/google-referrals.jpg" width=500 ></p>
+<p>I&#8217;ve re-installed the <a href="http://www.semiologic.com/software/marketing/google-analytics/">Google analytics plugin</a> on december 22nd, so it is harvesting data for three weeks only. Still, it is an interesting tool to gain insight in the social networking aspect of math-blogging, something I&#8217;m still very bad at&#8230;</p>
+<p>Below the list of all blogs referring at least 10 times over this last three weeks. In brackets are the <strong>number of referrals</strong> and included are the <strong>average time Avg.</strong> they spend on this site, as well as the <strong>bounce back rate BB</strong>. It gives me the opportunity to link back to some of their posts, as a small token of gratitude. I may repeat this  in the future, so please keep on linking&#8230;</p>
+<p><a href="http://www.math.columbia.edu/~woit/wordpress/">Not Even Wrong (69)</a> : Avg (1.05 min) BB (52.94%)</p>
+<p>The most recent post of Peter is an update on the <a href="http://www.math.columbia.edu/~woit/wordpress/?p=638">plagiarism scandal</a> on the arXiv.</p>
+<p><a href="http://golem.ph.utexas.edu/category/">The n-category cafe (63)</a> : Avg (2.13 min) BB (50%)</p>
+<p>The one series I followed at the cafe lately was the <a href="http://golem.ph.utexas.edu/category/2008/01/geometric_representation_theor_18.html">Geometric Representation Theory course</a> run by John Baez and James Dolan. They provide downloadable movies as well as notes.</p>
+<p><a href="http://borcherds.wordpress.com/">Richard Borcherd&#8217;s blog (47)</a> : Avg (1.53 min) BB (53.19%)</p>
+<p>It is great to see that Borcherds has taken up blogging again, with a post on the <a href="http://borcherds.wordpress.com/">uselessness of set theory</a>.</p>
+<p><a href="http://kea-monad.blogspot.com/">The Arcadian functor (32)</a> : Avg (3.45 min) BB (34.38 %)</p>
+<p>It is clear from the low bounce-back rate and the high average time spend on this site, that Kea&#8217;s readers and mine have common interests. Often I feel that Kea and I are talking about the same topics, but that our language is so different, that it is difficult for me to spot the precise connection. I definitely should start (for myself) a translation-project of her <a href="http://arcadianfunctor.wordpress.com/category/m-theory/">M-theory posts</a>.</p>
+<p><a href="http://rupertgee.wordpress.com/">RupertGee&#8217;s iBlog (23)</a> : Avg (6.48 min) BB (34.7 %)</p>
+<p>Surprisingly, and contrasting to my <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/sobering-up.html">previous rant</a> iTouch-people (or at least those coming here from Rupert Gee&#8217;s blog) sure take time to read the posts and look for more.</p>
+<p><a href="http://www.arsmathematica.net/">Ars Mathematica (22)</a> : Avg (0:01 min) BB (77,2 %)</p>
+<p>Well, the average time and bounce back rate say it all : people coming here from Ars Mathematica are not interested in longer posts&#8230;</p>
+<p><a href="http://www.ipodtouchfans.com/forums/showthread.php">iTouch Fans Forum (14)</a> : Avg (2:07 min) BB (42.86 %)</p>
+<p>Again, better statistics than I would have expected.</p>
+<p><a href="http://vivatsgasse7.wordpress.com/">Vivatsgasse 7 (13)</a> : Avg (1:51 min) BB (38.46 %)</p>
+<p>I hope these guys haven&#8217;t completely given up on blogging as it is one of my favourites.</p>
+<p><a href="http://www.sixthform.info/maths/">Sixth form mathematics (12)</a> : Avg (1:40 min) BB (25 %)</p>
+<p>My few old posts on LaTeXrender still draw referrals&#8230;</p>
+<p><a href="http://strategicboard.com/index.php">Strategic Boards (12)</a> : Avg (0:01 min) BB (91.67 %)</p>
+<p>People in strategic board games are not really in my game-posts it seems&#8230;</p>
+<p><a href="http://cornellmath.wordpress.com/">The Everything Seminar (11)</a> : Avg (2:04 min) BB (72.73 %)</p>
+<p>Greg Muller has been posting a couple of nice posts on chord diagrams, starting <a href="http://cornellmath.wordpress.com/2007/12/13/chord-diagrams/">here</a>.</p>
+<p><a href="http://noncommutativegeometry.blogspot.com/">Noncommutative Geometry (11)</a> : Avg (3:36 min) BB (27.27 %)</p>
+<p>Well, we are interested in the same thing viewed from different angles, so good average times and a low bounce back rate. Maybe, I should make another attempt to have cross-interaction between the two blogs.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/thanks-for-linking/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>symmetry and the monster</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/symmetry-and-the-monster/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/symmetry-and-the-monster/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 02 Jun 2006 08:49:42 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=306</guid>
+
+					<description><![CDATA[Mark Ronan has written a beautiful book intended for the general public on Symmetry and the Monster. The book&#8217;s main theme is the classification of&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.math.uic.edu/scripts/profile.php?pid=RonM721">Mark<br />
+Ronan</a> has written a beautiful book intended for the general public<br />
+on <a href="http://www.amazon.co.uk/exec/obidos/ASIN/0192807226/qid%3D1149227688/202-0873516-4896645">Symmetry and the Monster</a>.      The<br />
+book&#8217;s main theme is the classification of the finite simple groups. It<br />
+starts off with the introduction of groups by Galois, gives the<br />
+classifivcation of the finite Lie groups, the Feit-Thompson theorem and<br />
+the construction of several of the sporadic groups (including the<br />
+Mathieu groups, the Fischer and Conway groups and clearly the<br />
+(Baby)Monster), explains the Leech lattice and the Monstrous Moonshine<br />
+conjectures and ends with Richard Borcherds proof of them using vertex<br />
+operator algebras.     As in the case of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=257">Music of the<br />
+Primes</a> it is (too) easy to be critical about notation. For example,<br />
+whereas groups are just called symmetry groups, I don&#8217;t see the point of<br />
+calling simple groups &#8216;atoms of symmetry&#8217;. But, unlike du Sautoy,<br />
+Mark Ronan stays close to mathematical notation, lattices are just<br />
+lattices, characer-tables are just that, j-function is what it is etc.<br />
+And even when he simplifies established teminology, for example<br />
+&#8216;cyclic arithmetic&#8217; for modular arithmetic, &#8216;cross-section&#8217;<br />
+for involution centralizer, &#8216;mini j-functions&#8217; for Hauptmoduln<br />
+etc. there are footnotes (as well as a glossary) mentioning the genuine<br />
+terms.     Group theory is a topic with several colourful people<br />
+including the three Johns <a href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Leech.html">John Leech</a>, <a href="http://math.ucr.edu/home/baez/ADE.html">John<br />
+McKay</a> and <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a><br />
+and several of the historical accounts in the book are a good read. For<br />
+example, I&#8217;ve never known that the three Conway groups were essentially<br />
+discovered in just one afternoon and a few telephone exchanges between<br />
+Thompson and Conway.     This year I&#8217;ve tried to explain some of<br />
+monstrous moonshine to an exceptionally good second year of<br />
+undergraduates but failed miserably. Whereas I somehow managed to give<br />
+the construction and proof of simplicity of Mathieu 24, elliptic and<br />
+modular functions were way too difficult for them. Perhaps I&#8217;ll give it<br />
+another (downkeyed) try using &#8216;Symmetry and the Monster&#8217; as<br />
+reading material. Let&#8217;s hope Oxford University Press will soon release a<br />
+paperback (and cheaper) version. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/symmetry-and-the-monster/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

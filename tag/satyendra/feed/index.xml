@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Satyendra &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/satyendra/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 08 Mar 2022 18:58:58 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Mamuth to Elephant (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 08 Mar 2022 18:58:58 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Andreatta]]></category>
+		<category><![CDATA[Crans]]></category>
+		<category><![CDATA[Ehresmann]]></category>
+		<category><![CDATA[Fiore]]></category>
+		<category><![CDATA[Noll]]></category>
+		<category><![CDATA[Popoff]]></category>
+		<category><![CDATA[Satyendra]]></category>
+		<category><![CDATA[topos]]></category>
+		<category><![CDATA[triads]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10415</guid>
+
+					<description><![CDATA[Last time, we&#8217;ve viewed major and minor triads (chords) as inscribed triangles in a regular $12$-gon. If we move clockwise along the $12$-gon, starting from&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant">Last time</a>, we&#8217;ve viewed major and minor <a href="https://en.wikipedia.org/wiki/Triad_(music)">triads</a> (chords) as inscribed triangles in a regular $12$-gon.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB1.png" width=45%  /> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB2.png" width=45%  /><br />
+</center></p>
+<p>If we move clockwise along the $12$-gon, starting from the endpoint of the longest edge (the <em>root</em> of the chord, here the $0$-vertex) the edges skip $3,2$ and $4$ vertices (for a major chord, here on the left the major $0$-chord) or $2,3$ and $4$ vertices (for a minor chord, here on the right the minor $0$-chord).</p>
+<p>The symmetries of the $12$-gon, the dihedral group $D_{12}$, act on the $24$ major- and minor-chords transitively, preserving the type for rotations, and interchanging majors with minors for reflections.</p>
+<p>Mathematical Music Theoreticians (MaMuTh-ers for short) call this the $T/I$-group, and view the rotations of the $12$-gon as transpositions $T_k : x \mapsto x+k~\text{mod}~12$, and the reflections as involutions $I_k : x \mapsto -x+k~\text{mod}~12$.</p>
+<p>Note that the elements of the $T/I$-group act on the vertices of the $12$-gon, from which the action on the chord-triangles follows.</p>
+<p>There is another action on the $24$ major and minor chords, mapping a chord-triangle to its image under a reflection in one of its three sides.</p>
+<p>Note that in this case the reflection $I_k$ used will depend on the root of the chord, so this action on the chords does <em>not</em> come from an action on the vertices of the $12$-gon.</p>
+<p>There are three such operations: (pictures are taken from <a href="https://alpof.wordpress.com/2013/12/19/an-introduction-to-neo-riemannian-theory-6/">Alexandre Popoff&#8217;s blog</a>, with the &#8216;funny names&#8217; removed)</p>
+<p>The $P$-operation is reflection in the longest side of the chord-triangle. As the longest side is preserved, $P$ interchanges the major and minor chord with the same root.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB3.png" width=100% ></p>
+<p>The $L$-operation is refection in the shortest side. This operation interchanges a major $k$-chord with a minor $k+4~\text{mod}~12$-chord.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB4.png" width=100% ></p>
+<p>Finally, the $R$-operation is reflection in the middle side. This operation interchanges a major $k$-chord with a minor $k+9~\text{mod}~12$-chord.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuthB5.png" width=100% ></p>
+<p>From this it is already clear that the group generated by $P$, $L$ and $R$ acts transitively on the $24$ major and minor chords, but what is this $PLR$-group?</p>
+<p>If we label the major chords by their root-vertex $1,2,\dots,12$ (<a href="https://www.gap-system.org/">GAP</a> doesn&#8217;t like zeroes), and the corresponding minor chords $13,14,\dots,24$, then these operations give these permutations on the $24$ chords:</p>
+<p><code><br />
+P:=(1,13)(2,14)(3,15)(4,16)(5,17)(6,18)(7,19)(8,20)(9,21)(10,22)(11,23)(12,24)<br />
+L:=(1,17)(2,18)(3,19)(4,20)(5,21)(6,22)(7,23)(8,24)(9,13)(10,14)(11,15)(12,16)<br />
+R:=(1,22)(2,23)(3,24)(4,13)(5,14)(6,15)(7,16)(8,17)(9,18)(10,19)(11,20)(12,21)<br />
+</code></p>
+<p>Then GAP gives us that the $PLR$-group is again isomorphic to $D_{12}$:</p>
+<p><code><br />
+gap> G:=Group(P,L,R);;<br />
+gap> Size(G);<br />
+24<br />
+gap> IsDihedralGroup(G);<br />
+true<br />
+</code></p>
+<p>In fact, if we view both the $T/I$-group and the $PLR$-group as subgroups of the symmetric group $Sym(24)$ via their actions on the $24$ major and minor chords, these groups are each other centralizers! That is, the $T/I$-group and $PLR$-group are dual to each other.</p>
+<p>For more on this, there&#8217;s a beautiful paper by Alissa Crans, Thomas Fiore and Ramon Satyendra: <a href="https://www.maa.org/sites/default/files/pdf/upload_library/22/Hasse/Crans2011.pdf">Musical Actions of Dihedral Groups</a>.</p>
+<p>What does this new MaMuTh info learns us more about our Elephant, the <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.134.5669&#038;rep=rep1&#038;type=pdf">Topos of Triads</a>, studied by <a href="https://www.researchgate.net/profile/Thomas-Noll-3">Thomas Noll</a>?</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant">Last time</a> we&#8217;ve seen the eight element triadic monoid $T$ of all affine maps preserving the three tones $\{ 0,4,7 \}$ of the major $0$-chord, computed the subobject classified $\Omega$ of the corresponding topos of presheaves, and determined all its six Grothendieck topologies, among which were these three:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mumathB6.png" width=100% ></p>
+<p>Why did we label these Grothendieck topologies (and corresponding elements of $\Omega$) by $P$, $L$ and $R$?</p>
+<p>We&#8217;ve seen that the sheafification of the presheaf $\{ 0,4,7 \}$ in the triadic topos under the Grothendieck topology $j_P$ gave us the sheaf $\{ 0,3,4,7 \}$, and these are the tones of the major $0$-chord together with those of the minor $0$-chord, that is the two chords in the $\langle P \rangle$-orbit of the major $0$-chord. The group $\langle P \rangle$ is the cyclic group $C_2$.</p>
+<p>For the sheafication with respect to $j_L$ we found the $T$-set $\{ 0,3,4,7,8,11 \}$ which are the tones of the major and minor $0$-,$4$-, and $8$-chords. Again, these are exactly the six chords in the $\langle P,L \rangle$-orbit of the major $0$-chord. The group $\langle P,L \rangle$ is isomorphic to $Sym(3)$.</p>
+<p>The $j_R$-topology gave us the $T$-set $\{ 0,1,3,4,6,7,9,10 \}$ which are the tones of the major and minor $0$-,$3$-, $6$-, and $9$-chords, and lo and behold, these are the eight chords in the $\langle P,R \rangle$-orbit of the major $0$-chord. The group $\langle P,R \rangle$ is the dihedral group $D_4$.</p>
+<p>More on this can be found in the paper <a href="https://arxiv.org/abs/1102.1496">Commuting Groups and the Topos of Triads</a> by Thomas Fiore and Thomas Noll.</p>
+<p>The operations $P$, $L$ and $R$ on major and minor chords are reflexions in one side of the chord-triangle, so they preserve two of the three tones. There&#8217;s a distinction between the $P$ and $L$ operations and $R$ when it comes to how the third tone changes.</p>
+<p>Under $P$ and $L$ the third tone changes by one halftone (because the corresponding sides skip an even number of vertices), whereas under $R$ the third tone changes by two halftones (a full tone), see the pictures above.</p>
+<p>The $\langle P,L \rangle = Sym(3)$ subgroup divides the $24$ chords in four orbits of six chords each, three major chords and their corresponding minor chords. These orbits consist of the</p>
+<ul>
+<li>$0$-, $4$-, and $8$-chords (see before)</li>
+<li>$1$-, $5$-, and $9$-chords</li>
+<li>$2$-, $6$-, and $10$-chords</li>
+<li>$3$-, $7$-, and $11$-chords</li>
+</ul>
+<p>and we can view each of these orbits as a cycle tracing six of the eight vertices of a cube with one pair of antipodal points removed.</p>
+<p>These four &#8216;almost&#8217; cubes are the NE-, SE-, SW-, and NW-regions of the <em>Cube Dance Graph</em>, from the paper <a href="https://www.jstor.org/stable/843877?seq=14#metadata_info_tab_contents">Parsimonious Graphs</a> by Jack Douthett and Peter Steinbach.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cubedance.png" width=100% ></p>
+<p>To translate the funny names to our numbers, use this dictionary (major chords are given by a capital letter):</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuth1.png" width=40% ><br />
+</center></p>
+<p>The four extra chords (at the N, E, S, and P places) are <a href="https://en.wikipedia.org/wiki/Augmented_triad">augmented triads</a>. They correspond to the triads $(0,4,8),~(1,5,9),~(2,6,10)$ and $(3,7,11)$.</p>
+<p>That is, two triads are connected by an edge in the Cube Dance graph if they share two tones and differ by an halftone in the third tone.</p>
+<p>This graph screams for a group or monoid acting on it. Some of the edges we&#8217;ve already identified as the action of $P$ and $L$ on the $24$ major and minor triads. Because the triangle of an augmented triad is equilateral, we see that they are preserved under $P$ and $L$.</p>
+<p>But what about the edges connecting the regular triads to the augmented ones? If we view each edge as two directed arrows assigned to the same operation, we cannot do this with a transformation because the operation sends each augmented triad to six regular triads.</p>
+<p>Alexandre Popoff, Moreno Andreatta and <a href="https://en.wikipedia.org/wiki/Andr%C3%A9e_Ehresmann">Andree Ehresmann</a> suggest in their paper <a href="https://hal.archives-ouvertes.fr/hal-02392844/document">Relational poly-Klumpenhouwer networks for transformational and voice-leading analysis</a> that one might use a monoid generated by relations, and they show that there is such a monoid with $40$ elements acting on the Cube Dance graph.</p>
+<p>Popoff claims that usual presheaf toposes, that is contravariant functors to $\mathbf{Sets}$ are not enough to study transformational music theory. He suggest to use instead functors to $\mathbf{Rel}$, that is Sets with as the morphisms binary relations, and their compositions.</p>
+<p>Another Elephant enters the room&#8230;</p>
+<p>(to be <a href="https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-3">continued</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

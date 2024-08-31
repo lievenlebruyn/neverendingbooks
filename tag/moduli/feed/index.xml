@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>moduli &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/moduli/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 14 May 2011 10:48:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>what have quivers done to students?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-have-quivers-done-to-students/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-have-quivers-done-to-students/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 14 May 2011 10:48:23 +0000</pubDate>
+				<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5049</guid>
+
+					<description><![CDATA[A few years ago a student entered my office asking suggestions for his master thesis. &#8220;I&#8217;m open to any topic as long as it has&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A few years ago a student entered my office asking suggestions for his master thesis.</p>
+<p>&#8220;I&#8217;m open to any topic as long as it has nothing to do with those silly quivers!&#8221;</p>
+<p>At that time not the best of opening-lines to address me and, inevitably, the most disastrous teacher-student-conversation-ever followed (also on my part, i&#8217;m sorry to say).</p>
+<p>This week, <a href="http://wmaz.math.uni-wuppertal.de/reineke/">Markus Reineke</a> had a similar, though less confrontational, experience. Markus gave a mini-course on &#8216;moduli spaces of representations&#8217; in our <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/noncommutative-algebra-and-geometry-master-degree.html">advanced master class</a>. Students loved the way he introduced representation varieties and constructed the space of irreducible representations as a GIT-quotient. In fact, his course was probably the first in that program having an increasing (rather than decreasing) number of students attending throughout the week&#8230;</p>
+<p>In his third lecture he wanted to illustrate these general constructions and what better concrete example to take than representations of quivers? Result : students&#8217; eyes staring blankly at infinity&#8230;</p>
+<p>What is it that quivers do to have this effect on students?</p>
+<p>Perhaps quiver-representations cause them an information-overload.</p>
+<p>Perhaps we should take plenty of time to explain that in going from the quiver (the directed graph) to the path algebra, vertices become idempotents and arrows the remaining generators. These idempotents split a representation space into smaller vertex-spaces, the dimensions of which we collect in a dimension-vector,  the big basechange group splits therefore into a product of small vertex-basechanges and the action of this product on an matrix corresponding to an arrow is merely usual conjugation by the big basechange-group, etc. etc.  Blatant trivialities to someone breathing quivers, but probably we too had to take plenty of time once to disentangle this information-package&#8230;</p>
+<p>But then, perhaps they consider quivers and their representations as too-concrete-old-math-stuff, when there&#8217;s so much high-profile-fancy-math still left to taste.</p>
+<p>When given the option, students prefer you to tell them monstrous-moonshine stories even though they can barely prove simplicity of $A_5$, they want you to give them a short-cut to the Langlands programme but have never had the patience nor the interest to investigate the splitting of primes in quadratic number fields, they want to be taught schemes and their structure sheaves when they still struggle with the notion of a dominant map between varieties&#8230;</p>
+<p>In short, students often like to run before they can crawl.</p>
+<p>Working through the classification of some simple quiver-settings would force their agile feet firmly on the ground. They probably experience this as a waste of time.</p>
+<p>Perhaps, it is time to promote slow math&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-have-quivers-done-to-students/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Noncommutative algebra and geometry master-degree</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-algebra-and-geometry-master-degree/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-algebra-and-geometry-master-degree/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 26 Jan 2011 16:40:56 +0000</pubDate>
+				<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[master class]]></category>
+		<category><![CDATA[moduli]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4856</guid>
+
+					<description><![CDATA[The lecturers, topics and dates of the 6 mini-courses in our &#8216;advanced master degree 2011 in noncommutative algebra and geometry&#8217; are : February 21-25 Vladimir&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The lecturers, topics and dates of the 6 mini-courses in our &#8216;advanced master degree 2011 in noncommutative algebra and geometry&#8217; are :</p>
+<p>February 21-25<br />
+<a href="http://maths.dept.shef.ac.uk/maths/staff_info.php?id=1">Vladimir Bavula</a> (University of Sheffield) :<br />
+Localization Theory of Rings and Modules</p>
+<p>March 7-11<br />
+<a href="http://www.mathematik.uni-muenchen.de/~hanssch/index.php">Hans-Jürgen Schneider</a> (University of München) :<br />
+ Nichols Algebra and Root Systems</p>
+<p>April 11-12<br />
+<a href="http://www.math.jussieu.fr/~keller/">Bernhard Keller</a>  (Université Paris VII):<br />
+Cluster Algebra and Quantum Cluster Algebras</p>
+<p>April 18-22<br />
+<a href="http://alev.perso.math.cnrs.fr/">Jacques Alev</a>  (Université Reims):<br />
+Automorphisms of some Basic Algebras</p>
+<p>May 3-8<br />
+<a href="http://www.calpoly.edu/~math/directory.html">Goro Kato</a> (Cal Poly University, San Luis Obispo, US):<br />
+Sheaf Cohomology and Zeta – Functions</p>
+<p>May 9-13<br />
+<a href="http://wmaz.math.uni-wuppertal.de/reineke/">Markus Reineke</a> (University of Wuppertal):<br />
+Moduli Spaces of Representatives</p>
+<p>More information can be found <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/master2011.doc">here</a>. I&#8217;ve been told that some limited support is available for foreign graduate students wanting to attend this programme. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-algebra-and-geometry-master-degree/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Monstrous frustrations</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/monstrous-frustrations/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/monstrous-frustrations/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 19 Jun 2008 18:23:26 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=432</guid>
+
+					<description><![CDATA[Thanks for clicking through&#8230; I guess. If nothing else, it shows that just as much as the stock market is fueled by greed, mathematical reasearch&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Thanks for clicking through&#8230; I guess.</p>
+<p>If nothing else, it shows that just as much as the stock market is fueled by greed, mathematical reasearch is driven by frustration (or the pleasure gained from knowing others to be frustrated).</p>
+<p>I did spend the better part of the day doing a lengthy, if not laborious, calculation, I&#8217;ve been postponing for several years now. Partly, because I didn&#8217;t know how to start performing it (though the basic strategy was clear), partly, because I knew beforehand the final answer would probably offer me no further insight.</p>
+<p>Still, it gives the final answer to a problem that may be of interest to anyone vaguely interested in <a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">Moonshine</a> :</p>
+<p><strong>What does the <a href="http://en.wikipedia.org/wiki/Monster_group">Monster</a> see of the <a href="http://en.wikipedia.org/wiki/Modular_group">modular group</a>?</strong></p>
+<p>I know at least two of you, occasionally reading this blog, understand what I was trying to do and may now wonder how to repeat the straightforward calculation. Well the simple answer is : Google for the number <a href="http://www.google.com/search?client=safari&amp;rls=en-us&amp;q=97239461142009186000&amp;ie=UTF-8&amp;oe=UTF-8">97239461142009186000</a> and, no doubt, you will be able to do the computation overnight.</p>
+<p>One word of advice : <strong>don&#8217;t</strong>! Get some sleep instead, or make love to your partner, because all you&#8217;ll get is a quiver on nine vertices (which is pretty good for the Monster) but having an horrible amount of loops and arrows&#8230;</p>
+<p>If someone wants the details on all of this, just ask. But, if you really want to get me exited : find a moonshine reason for one of the following two numbers :</p>
+<p>$791616381395932409265430144165764500492= 2^2 * 11 * 293 * 61403690769153925633371869699485301 $</p>
+<p>(the dimension of the monster-singularity upto smooth equivalence), or,</p>
+<p>$1575918800531316887592467826675348205163= 523 * 1655089391 * 15982020053213 * 113914503502907 $</p>
+<p>(the dimension of the moduli space).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/monstrous-frustrations/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>neverendingbooks-geometry (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 12 Jun 2007 12:32:56 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Azumaya]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Jacobian]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://localhost/?p=6</guid>
+
+					<description><![CDATA[Here pdf-files of older NeverEndingBooks-posts on geometry. For more recent posts go here. Seen this quiver? Necklaces (again) B for bricks A for aggregates From&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here pdf-files of older NeverEndingBooks-posts on geometry. For more recent posts <a href="index.php?p=5">go here</a>.</p>
+<p><span id="more-12052"></span></p>
+<p><a href="NEBPDFS/53.pdf">Seen this quiver?</a></p>
+<p><a href="NEBPDFS/282.pdf">Necklaces (again)</a></p>
+<p><a href="NEBPDFS/281.pdf">B for bricks</a></p>
+<p><a href="NEBPDFS/52.pdf">A for aggregates</a></p>
+<p><a href="NEBPDFS/51.pdf">From Galois to NOG</a></p>
+<p><a href="NEBPDFS/50.pdf">Jacobian update 2</a></p>
+<p><a href="NEBPDFS/256.pdf">Jacobian update</a></p>
+<p><a href="NEBPDFS/265.pdf">Congrats Carolyn!</a></p>
+<p><a href="NEBPDFS/48.pdf">Double Poisson algebras</a></p>
+<p><a href="NEBPDFS/44.pdf">Hyper-resolutions</a></p>
+<p><a href="NEBPDFS/43.pdf">Smooth Brauer-Severis</a></p>
+<p><a href="NEBPDFS/42.pdf">Brauer-Severi varieties</a></p>
+<p><a href="NEBPDFS/41.pdf">Curvatures</a></p>
+<p><a href="NEBPDFS/74.pdf">Differential forms</a></p>
+<p><a href="NEBPDFS/40.pdf">Cotangent bundles</a></p>
+<p><a href="NEBPDFS/39.pdf">Moduli spaces</a></p>
+<p><a href="NEBPDFS/37.pdf">Representation spaces</a></p>
+<p><a href="NEBPDFS/36.pdf">Quiver representations</a></p>
+<p><a href="NEBPDFS/35.pdf">Algebraic vs. differential NOG</a></p>
+<p><a href="NEBPDFS/34.pdf">Path algebras</a></p>
+<p><a href="NEBPDFS/241.pdf">Nog course outline</a></p>
+<p><a href="NEBPDFS/33.pdf">The Azumaya locus does determine the order</a></p>
+<p><a href="NEBPDFS/246.pdf">Differential geometry</a></p>
+<p><a href="NEBPDFS/240.pdf">The one quiver for GL(2,Z)</a></p>
+<p><a href="NEBPDFS/138.pdf">The necklace Lie bialgebra</a></p>
+<p><a href="NEBPDFS/137.pdf">More noncommutative manifolds</a></p>
+<p><a href="NEBPDFS/135.pdf">Points and lines</a></p>
+<p><a href="NEBPDFS/125.pdf">Projects in noncommutative geometry</a></p>
+<p><a href="NEBPDFS/118.pdf">Noncommutative geometry 2</a></p>
+<p><a href="NEBPDFS/115.pdf">Noncommutative geometry 1</a></p>
+<p><a href="NEBPDFS/113.pdf">A noncommutative Grothendieck topology</a></p>
+<p><a href="NEBPDFS/116.pdf">Connected component coalgebra</a></p>
+<p><a href="NEBPDFS/100.pdf">NOG master class update</a></p>
+<p><a href="NEBPDFS/93.pdf">NOG master class</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>down with determinants</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 18 May 2007 17:14:51 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=177</guid>
+
+					<description><![CDATA[The categorical cafe has a guest post by Tom Leinster Linear Algebra Done Right on the book with the same title by Sheldon Axler. I&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="http://golem.ph.utexas.edu/category/">categorical cafe</a> has a guest post by Tom Leinster <a href="http://golem.ph.utexas.edu/category/2007/05/linear_algebra_done_right.html">Linear Algebra Done Right</a> on the book with the same title by <a href="http://www.axler.net/LADR.html">Sheldon Axler</a>. I haven&#8217;t read the book but glanced through his online paper <a href="http://www.axler.net/DwD.html">Down with determinants!</a>. Here is &#8216;his&#8217; proof of the fact that any n by n matrix A has at least one eigenvector. Take a vector $v \in \mathbb{C}^n $, then as the collection of vectors ${ v,A.v,A^2.v,\ldots,A^n.v } $ must be linearly dependent, there are complex numbers $a&#95;i \in \mathbb{C} $ such that $~(a&#95;0 + a&#95;1 A + a&#95;2 A^2 + \ldots + a&#95;n A^n).v = \vec{0} \in \mathbb{C}^n $ But then as $\mathbb{C} $ is algebraically closed the polynomial on the left factors into linear factors $a&#95;0 + a&#95;1 x + a&#95;2 x^2 + \ldots + a&#95;n x^n = c (x-r&#95;1)(x-r&#95;2) \ldots (x-r&#95;n) $ and therefore as $c(A-r&#95;1I&#95;n)(A-r&#95;2I&#95;n) \ldots (A-r&#95;nI&#95;n).v = \vec{0} $ from which it follows that at least one of the linear transformations $A-r&#95;j I&#95;n $ has a non-trivial kernel, whence A has an eigenvector with eigenvalue $r_j $. Okay, fine, nice even, but does this simple minded observation warrant the extreme conclusion of his paper (on page 18) ?</p>
+<blockquote>
+<p>As mathematicians, we often read a nice new proof of a known theorem, enjoy the different approach, but continue to derive our internal understanding from the method we originally learned. This paper aims to change drastically the way mathematicians think about and teach crucial aspects of linear algebra.</p>
+<p>The simple proof of the existence of eigenvalues given in Theorem 2.1 should be the one imprinted in our minds, written on our blackboards, and published in our textbooks. Generalized eigenvectors should become a central tool for the understanding of linear operators. As we have seen, their use leads to natural definitions of multiplicity and the characteristic polynomial. Every mathematician and every linear algebra student should at least remember that the generalized eigenvectors of an operator always span the domain (Proposition 3.4)‚Äîthis crucial result leads to easy proofs of upper-triangular form (Theorem 6.2) and the Spectral Theorem (Theorems 7.5 and 8.3).</p>
+<p>Determinants appear in many proofs not discussed here. If you scrutinize such proofs, you‚Äôll often discover better alternatives without determinants. Down with Determinants!
+  </p></blockquote>
+<p>I welcome all new proofs of known results as they allow instructors to choose the one best suited to their students (and preferable giving more than one proof showing that there is no such thing as &#8216;the best way&#8217; to prove a mathematical result). What worries me is Axler&#8217;s attitude shared by extremists and dogmatics world-wide : they are so blinded by their own right that they impoverish their own lifes (and if they had their way, also that of others) by not willing to consider other alternatives. A few other comments :</p>
+<ol>
+<li>
+<p>I would be far more impressed if he had given a short argument for the one line he skates over in his proof, that of $\mathbb{C} $ being algebraically closed. Does anyone give a proof of this fact anymore or is this one of the few facts we expect first year students to accept on faith?</p>
+<ol>
+<li>
+<p>I dont understand this aversity to the determinant (probably because of its nonlinear character) but at the same time not having any problems with successive powers of matrices. Surely he knows that the determinant is a fixed $~\mathbb{Q}~ $-polynomial in the traces (which are linear!) of powers of the matrix.</p>
+</li>
+<li>
+<p>The essense of linear algebra is that by choosing a basis cleverly one can express a linear operator in a extremely nice matrix form (a canonical form) so that all computations become much more easy. This crucial idea of considering different bases and their basechange seems to be missing from Axler&#8217;s approach. Moreover, I would have thought that everyone would know these days that &#8216;linear algebra done right&#8217; is a well developed topic called &#8216;representation theory of quivers&#8217; but I realize this might be viewed as a dogmatic statement. Fortunately someone else is giving the basic linear algebra courses here in Antwerp so students are spared my private obsessions (at least the first few years&#8230;). In &#91;his post&#93;(http://golem.ph.utexas.edu/category/2007/05/ linear&#95;algebra&#95;done_right.html) Leistner askes &#8220;What are determinants good for?&#8221; I cannot resist mentioning a trivial observation I made last week when thinking once again about <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=318">THE rationality problem</a> and which may be well known to others. Recall from the previous post that rationality of the quotient variety of matrix-couples $~(A,B) \in M&#95;n(\mathbb{C}) \oplus M&#95;n(\mathbb{C}) / GL&#95;n $ under &#95;simultaneous conjugation_ is a very hard problem. On the other hand, the &#8216;near miss&#8217; problem of the quotient variety of matrix-couples $ { (A,B)~|~det(A)=0~} / GL&#95;n $ is completely trivial. It is rational for all n. Here is a one-line proof. Consider the quiver $\xymatrix{\vtx{} \ar@/^2ex/[rr] &amp; &amp; \vtx{} \ar@(ur,dr) \ar@/^2ex/[ll]} $ then the dimension vector (n-1,n) is a Schur root and the first fundamental theorem of $GL&#95;n $ (see for example Hanspeter Krafts excellent book on invariant theory) asserts that the corresponding quotient variety is the one above. The result then follows from Aidan Schofield&#8217;s paper <a href="http://www.arxiv.org/abs/math/9911014">Birational classification of moduli spaces of representations of quivers</a>. Btw. in this special case one does not have to use the full force of Aidan&#8217;s result. <a href="http://www.math.ubc.ca/~reichst/">Zinovy Reichstein</a>, who keeps me updated on events in <a href="http://www.mathcs.emory.edu/~skip/conf/Home.html">Atlanta</a>, emailed the following elegant short proof Here is an outline of a geometric proof. Let $X = {(A, B) : det(A) = 0} &#92;subset M&#95;n^2 $ and $Y = \mathbb{P}^{n-1} &#92;times M&#95;n $. Applying the no-name lemma to the $PGL&#95;n $-equivariant dominant rational map $~X \rightarrow Y $ given by $~(A, B) &#92;rightarrow (Ker(A), B) $ (which makes X into a vector bundle over a dense open $PGL&#95;n $-invariant subset of Y), we see that $X//PGL&#95;n $ is rational over $Y//PGL&#95;n $ On the other hand, $Y//PGLn = M&#95;n//PGL&#95;n $ is an affine space. Thus $X//PGL_n $ is rational. The moment I read this I knew how to do this quiver-wise and that it is just another Brauer-Severi type argument so completely inadequate to help settling the genuine matrix-problem. Update on the <a href="http://www.arxiv.org/abs/0704.3450">paper by Esther Beneish</a> : Esther did submit the paper in february.</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>THE rationality problem</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-rationality-problem/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-rationality-problem/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 27 Apr 2007 08:27:50 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=300</guid>
+
+					<description><![CDATA[This morning, Esther Beneish arxived the paper The center of the generic algebra of degree p that may contain the most significant advance in my&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/estherbeneish.jpg" align="left" hspace="10" /> This morning, <a href="http://www.cst.cmich.edu/units/mth/gradinfo/Pp/MthBENEISH.html">Esther Beneish</a><br />
+arxived the paper <a href="http://www.arxiv.org/abs/0704.3450">The center of the generic algebra of degree p</a> that may contain the most<br />
+significant advance in my favourite problem for over 15 years! In it she<br />
+claims to prove that the center of the generic division algebra of<br />
+degree p is stably rational for all prime values p.   Let me begin by<br />
+briefly explaining what the problem is all about. Consider one n by n<br />
+matrix A which is sufficiently general, then it will have all its<br />
+eigenvalues distinct, but then it is via the <a href="http://en.wikipedia.org/wiki/Jordan_normal_form">Jordan normal form theorem</a> uniquely<br />
+determined upto conjugation (that is, base change) by its<br />
+<a href="http://en.wikipedia.org/wiki/Characteristic_polynomial">characteristic polynomial</a>. In<br />
+other words, the conjugacy class of a sufficiently general n by n matrix<br />
+depends freely on the coefficients of the characteristic polynomial<br />
+(which are the n elementary symmetric functions in the eigenvalues of<br />
+the matrix).   Now what about <strong>couples</strong> of n by n matrices (A,B) under<br />
+<strong>simultaneous conjugation</strong> (that is all couples of the form $~(g A<br />
+g^{-1}, g B g^{-1}) $ for some invertible n by n matrix g) ??? So,<br />
+does there exist a sort of Jordan normal form for couples of n by n<br />
+matrices which are sufficiently general? That is, are there a set of<br />
+invariants for such couples which determine it is freely upto<br />
+simultaneous conjugation?</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/claudioprocesi.jpg" align="left" hspace="10" /> For couples of 2 by 2 matrices, <a href="http://www.mat.uniroma1.it/~procesi/">Claudio Procesi</a> rediscovered an old<br />
+result due to <a href="http://en.wikipedia.org/wiki/James_Joseph_Sylvester">James Sylvester</a> saying<br />
+that this is indeed the case and that the set of invariants consists of<br />
+the five invariants Tr(A),Tr(B),Det(A),Det(B) and Tr(AB). Now, Claudio<br />
+did a lot more in his paper. He showed that if you could prove this for<br />
+couples of matrices, you can also do it for triples, quadruples even any<br />
+k-tuples of n by n matrices under simultaneous conjugation. He also<br />
+related this problem to the center of the generic division algebra of<br />
+degree n (which was introduced earlier by <a href="http://siba2.unile.it/bib1index/10000814.IDX">Shimshon Amitsur</a> in a rather<br />
+cryptic manner and for a while he simply refused to believe Claudio&#8217;s<br />
+description of this division algebra as the one generated by two<br />
+_generic_ n by n matrices, that is matrices filled with independent<br />
+variables). Claudio also gave the description of the center of this<br />
+algebra as a field of lattice-invariants (over the symmetric group S(n)<br />
+) which was crucial in subsequent investigations. If you are interested<br />
+in the history of this problem, its connections with Brauer group<br />
+problems and invariant theory and a short description of the tricks used<br />
+in proving the results I&#8217;ll mention below, you might have a look at the<br />
+talk <a href="http://www.math.ua.ac.be/~lebruyn/paper/lebruyn1990c_pp.pdf">Centers of Generic Division Algebras, the rationality problem 1965-1990</a><br />
+I gave in Chicago in 1990.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/edformanek.jpg" align="left" hspace="10" /> The case of couples of 3 by 3 matrices was finally<br />
+settled in 1979 by <a href="http://www.chessgames.com/perl/chessplayer?pid=18832">Ed Formanek</a> and a<br />
+year later he was able to solve also the case of couples of 4 by 4<br />
+matrices in a fabulous paper. In it, he used solvability of S(4) in an<br />
+essential way thereby hinting at the possibility that the problem might<br />
+no longer have an affirmative answer for larger values of n. When I read<br />
+his 4&#215;4 paper I believed that someone able to prove such a result must<br />
+have an awesome insight in the inner workings of matrices and decided to<br />
+dedicate myself to this problem the moment I would get a permanent<br />
+job&#8230; . But even then it is a reckless thing to do. Spending all of<br />
+your time to such a difficult problem can be frustrating as there is no<br />
+guarantee you&#8217;ll ever write a paper. Sure, you can find translations of<br />
+the problem and as all good problems it will have connections with other<br />
+subjects such as moduli spaces of vectorbundles and of quiver<br />
+representations, but to do the &#8216;next number&#8217; is another matter.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/christinebessenrodt.jpg" align="left" hspace="10" /> Fortunately, early 1990, together with<br />
+<a href="http://www.iazd.uni-hannover.de/~bessen/">Christine Bessenrodt</a> we were<br />
+able to do the next two &#8216;prime cases&#8217; : couples of 5 by 5 and couples of<br />
+7 by 7 matrices (Katsylo and Aidan Schofield had already proved that if<br />
+you could do it for couples of k by k and l by l matrices and if k and l<br />
+were coprime then you could also do it for couples of kl by kl matrices,<br />
+so the n=6 case was already done). Or did we? Well not quite, our<br />
+methods only allowed us to prove that the center is <strong>stably rational</strong><br />
+that is, it becomes rational by freely adjoining extra variables. There<br />
+are examples known of stably rational fields which are NOT rational, but<br />
+I guess most experts believe that in the case of matrix-invariants<br />
+stable rationality will imply rationality. After this paper both<br />
+Christine and myself decided to do other things as we believed we had<br />
+reached the limits of what the lattice-method could do and we thought a<br />
+new idea was required to go further.  If today&#8217;s paper by Esther turns<br />
+out to be correct, we were wrong. The next couple of days/weeks I&#8217;ll<br />
+have a go at her paper but as my lattice-tricks are pretty rusty this<br />
+may take longer than expected. Still, I see that in a couple of weeks<br />
+there will be a meeting in<br />
+<a href="http://www.mathcs.emory.edu/~skip/conf/Home.html">Atlanta</a> were Esther<br />
+and all experts in the field will be present (among them David Saltman<br />
+and Jean-Louis Colliot-Thelene) so we will know one way or the other<br />
+pretty soon. I sincerely hope Esther&#8217;s proof will stand the test as she<br />
+was the only one courageous enough to devote herself entirely to the<br />
+problem, regardless of slow progress.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-rationality-problem/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>2006 paper nominees</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/2006-paper-nominees/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/2006-paper-nominees/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 29 Dec 2006 08:42:49 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=227</guid>
+
+					<description><![CDATA[Here are my nominees for the 2006 paper of the year award in mathematics &#38; mathematical physics : in math.RA : math.RA/0606241 : Notes on&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here are<br />
+my nominees for the 2006 paper of the year award in mathematics &amp;<br />
+mathematical physics :    <strong>in math.RA : math.RA/0606241</strong><br />
+: <a href="http://www.arxiv.org/abs/math.RA/0606241">Notes on A-infinity<br />
+algebras, A-infinity categories and non-commutative geometry. I</a> by<br />
+<a href="http://www.arxiv.org/find/math/1/au:+Kontsevich_M/0/1/0/all/0/1"><br />
+Maxim Kontsevich</a> and <a href="http://www.arxiv.org/find/math/1/au:+Soibelman_Y/0/1/0/all/0/1"><br />
+Yan Soibelman</a>. Here is the abstract :   </p>
+<blockquote><p> We develop<br />
+geometric approach to A-infinity algebras and A-infinity categories<br />
+based on the notion of formal scheme in the category of graded vector<br />
+spaces. Geometric approach clarifies several questions, e.g. the notion<br />
+of homological unit or A-infinity structure on A-infinity functors. We<br />
+discuss Hochschild complexes of A-infinity algebras from geometric point<br />
+of view. The paper contains homological versions of the notions of<br />
+properness and smoothness of projective varieties as well as the<br />
+non-commutative version of Hodge-to-de Rham degeneration conjecture. We<br />
+also discuss a generalization of Deligne&#8217;s conjecture which includes<br />
+both Hochschild chains and cochains. We conclude the paper with the<br />
+description of an action of the PROP of singular chains of the<br />
+topological PROP of 2-dimensional surfaces on the Hochschild chain<br />
+complex of an A-infinity algebra with the scalar product (this action is<br />
+more or less equivalent to the structure of 2-dimensional Topological<br />
+Field Theory associated with an &#8220;abstract&#8221; Calabi-Yau<br />
+manifold). </p></blockquote>
+<p>   <strong>why ?</strong> : Because this paper<br />
+probably gives the correct geometric object associated to a<br />
+non-commutative algebra (a huge coalgebra) and consequently the right<br />
+definition of a map between noncommutative affine schemes. In a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/2006/09/11/coalgebras-and-non-geometry-3/">previous post </a> (and its predecessors) I&#8217;ve<br />
+tried to explain how this links up with my own interpretation and since<br />
+then I&#8217;ve thought more about this, but that will have to wait for<br />
+another time.    <strong>in hep-th : hep-th/0611082</strong> : <a href="http://www.arxiv.org/abs/hep-th/0611082">Children&#8217;s Drawings From<br />
+Seiberg-Witten Curves</a> by  Sujay K. Ashok, Freddy Cachazo, Eleonora<br />
+Dell&#8217;Aquila. Here is the abstract :   </p>
+<blockquote><p> We consider N=2<br />
+supersymmetric gauge theories perturbed by tree level superpotential<br />
+terms near isolated singular points in the Coulomb moduli space. We<br />
+identify the Seiberg-Witten curve at these points with polynomial<br />
+equations used to construct what Grothendieck called &#8220;dessins<br />
+d&#8217;enfants&#8221; or &#8220;children&#8217;s drawings&#8221; on the Riemann<br />
+sphere. From a mathematical point of view, the dessins are important<br />
+because the absolute Galois group Gal(\bar{Q}/Q) acts faithfully on<br />
+them. We argue that the relation between the dessins and Seiberg-Witten<br />
+theory is useful because gauge theory criteria used to distinguish<br />
+branches of N=1 vacua can lead to mathematical invariants that help to<br />
+distinguish dessins belonging to different Galois orbits. For instance,<br />
+we show that the confinement index defined in hep-th/0301006 is a Galois<br />
+invariant. We further make some conjectures on the relation between<br />
+Grothendieck&#8217;s programme of classifying dessins into Galois orbits and<br />
+the physics problem of classifying phases of N=1 gauge theories.
+</p></blockquote>
+<p>   <strong>why ?</strong> : Because this paper gives the<br />
+best introduction I&#8217;ve seen to Grothendieck&#8217;s dessins d&#8217;enfants<br />
+(slightly overdoing it by giving a crash course on elementary Galois<br />
+theory in appendix A) and kept me thinking about dessins and their<br />
+Galois invariants ever since (again, I&#8217;ll come back to this later). </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/2006-paper-nominees/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MyLife@300dpi</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mylife300dpi/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mylife300dpi/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 20 Mar 2006 14:14:01 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[OSX]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=254</guid>
+
+					<description><![CDATA[Three years ago I did spend three weeks next to my Canonscan, painstakingly scanning all individual pages of every preprint I ever wrote. Next, I&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Three years ago I did spend three weeks next to my Canonscan, painstakingly scanning all individual pages of every preprint I ever wrote. Next, I converted every page to PDF, resized it (in order to control the size) and bundled them into PDF-files. A typical preprint would take me roughly three quarters of an hour and the final result was mediocre. For example, here a blown-up sample from the original 1992 &#8216;Moduli<br />
+spaces of right ideals of the Weyl algebra&#8217; -preprint, resulting in a 1.7Mb PDF-file</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/vroegerscan.jpg"/></p>
+<p>Recentlty, the department bought a Ricoh-copier which makes scanning a lot more fun. To scan a preprint at 300dpi and convert it into a single PDF-file takes under a minute (actually, downloading the file using a web-interface takes longer&#8230;). For this particular preprint, the resulting PDF-file took up 1.2Mb and looks a lot nicer</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/nuscan.jpg"/></p>
+<p>Still, 1.2Mb is a huge file but converting it to a <a href="http://www.djvuzone.org/">DjVu</a>-file (DjVu=deja vu) using the handy <a href="http://any2djvu.djvuzone.org/">Any2DjVu Service</a> gives us a mere 236Kb file which comes a lot closer to the filesize of a PDFLaTeX-file and the output is still very legible</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/djvuscan.jpg"/></p>
+<p>So, I decided to rescan my entire life at 300dpi and convert it into DjVu. Next, I got the MOPP-package (MOPP = My Online Publications Page) working using the instructions from <a href="http://www.zib.de/koch/mopp/howto.html">this page</a> and some obvious MacOSX-modifications (if I can do it, so can you but perhaps I&#8217;ll write up the details in another post, just to remind myself). You can see the result at my <a href="http://www.math.ua.ac.be/~lebruyn/">homepage</a>. I&#8217;ll update the latter one regularly (there are still some preprints missing, as are all my courses etc. and cross-references) and only afterwards I&#8217;ll update my homepage again. So far there is 250Mb to download (including all versions of the noncommutative geometry@n book, including the published ones&#8230;) so this should keep you busy for a while&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mylife300dpi/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>noncommutative topology (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-topology-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-topology-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 03 Feb 2006 15:20:53 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/noncommutative-topology-3.html</guid>
+
+					<description><![CDATA[For finite dimensional hereditary algebras, one can describe its noncommutative topology (as developed in part 2) explicitly, using results of Markus Reineke in The monoid&#8230;]]></description>
+										<content:encoded><![CDATA[<p>For<br />
+finite dimensional hereditary algebras, one can describe its<br />
+noncommutative topology (as developed in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=346">part 2</a>)<br />
+explicitly, using results of <a href="http://www.math.uni-muenster.de/reine/u/reinekem/">Markus<br />
+Reineke</a> in <a href="http://arxiv.org/abs/math.RA/0105121">The monoid<br />
+of families of quiver representations</a>. Consider a concrete example,<br />
+say</p>
+<p>   $A = \begin{bmatrix} \mathbb{C} &#038; V \\ 0 &#038; \mathbb{C}<br />
+\end{bmatrix}$  where $V$ is an n-dimensional complex vectorspace, or<br />
+equivalently, A is the path algebra of the two point, n arrow quiver<br />
+$\xymatrix{\vtx{} \ar@/^/[r] \ar[r] \ar@/_/[r] &#038; \vtx{}} $<br />
+Then, A has just 2 simple representations S and T (the vertex reps) of<br />
+dimension vectors s=(1,0) and t=(0,1). If w is a word in S and T we can<br />
+consider the set $\mathbf{r}_w$ of all A-representations having a<br />
+Jordan-Holder series with factors the terms in w (read from left to<br />
+right) so $\mathbf{r}_w \subset \mathbf{rep}_{(a,b)}~A$ when there are a<br />
+S-terms and b T-terms in w. Clearly all these subsets can be given the<br />
+structure of a monoid induced by concatenation of words, that is<br />
+$\mathbf{r}_w \star \mathbf{r}_{w&#8217;} = \mathbf{r}_{ww&#8217;}$  which is<br />
+Reineke&#8217;s *composition monoid*. In this case it is generated by<br />
+$\mathbf{r}_s$ and $\mathbf{r}_t$ and in the composition monoid the<br />
+following relations hold among these two generators<br />
+$\mathbf{r}_t^{\star n+1} \star \mathbf{r}_s = \mathbf{r}_t^{\star n}<br />
+\star \mathbf{r}_s \star \mathbf{r}_t \quad \text{and} \quad<br />
+\mathbf{r}_t \star \mathbf{r}_s^{\star n+1} = \mathbf{r}_s \star<br />
+\mathbf{r}_t \star \mathbf{r}_s^{\star n}$  With these notations we can<br />
+now see that the left basic open set in the noncommutative topology<br />
+(associated to a noncommutative word w in S and T) is of the form<br />
+$\mathcal{O}^l_w = \bigcup_{w&#8217;} \mathbf{r}_{w&#8217;}$  where the union is<br />
+taken over all words w&#8217; in S and T such that in the composition monoid<br />
+the relation holds $\mathbf{r}_{w&#8217;} = \mathbf{r}_w \star \mathbf{r}_{u}$<br />
+for another word u. Hence, each op these basic opens hits a large number<br />
+of $~\mathbf{rep}_{\alpha}$, in fact far too many for our purposes&#8230;.<br />
+So, what do we want? We want to define a noncommutative notion of<br />
+birationality and clearly we want that if two algebras A and B are<br />
+birational that this is the same as saying that some open subsets of<br />
+their resp. $\mathbf{rep}$&#8217;s are homeomorphic. But, what do we<br />
+understand by *noncommutative birationality*?  Clearly, if A and B are<br />
+prime Noethrian, this is clear. Both have a ring of fractions and we<br />
+demand them to be isomorphic (as in the commutative case). For this<br />
+special subclass the above noncommutative topology based on the Zariski<br />
+topology on the simples may be fine.  </p>
+<p>However, most qurves don&#8217;t have<br />
+a canonical &#8216;ring of fractions&#8217;. Usually they will have infinitely<br />
+many simple Artinian algebras which should be thought of as being<br />
+_a_ ring of fractions. For example, in the finite dimensional<br />
+example A above, if follows from <a href="http://www.maths.bris.ac.uk/~maahs/">Aidan Schofield</a>&#8216;s work <a href="http://www.amazon.com/gp/product/0521278538/102-5714622-6578538?v=glance&amp;n=283155">Representations of rings over skew fields</a> that<br />
+there is one such for every (a,b) with gcd(a,b)=1 and (a,b) satisfying<br />
+$a^2+b^2-n a b &lt; 1$ (an indivisible Shur root for A).</p>
+<p>And<br />
+what is the _noncommutative birationality result_ we are aiming<br />
+for in each of these cases? Well, the inspiration for this comes from<br />
+another result by Aidan (although it is not stated as such in the<br />
+paper&#8230;) <a href="http://www.arxiv.org/abs/math.AG/9911014">Birational<br />
+classification of moduli spaces of representations of quivers</a>. In<br />
+this paper Aidan proves that if you take one of these indivisible Schur<br />
+roots (a,b) above, and if you look at $\alpha_n = n(a,b)$ that then the<br />
+moduli space of semi-stable quiver representations for this multiplied<br />
+dimension vector is birational to the quotient variety of<br />
+$1-(a^2+b^2-nab)$-tuples of $ n \times n $-matrices under simultaneous<br />
+conjugation.</p>
+<p>   So, *morally speaking* this should be stated as the<br />
+fact that A is (along the ray determined by (a,b)) noncommutative<br />
+birational to the free algebra in $1-(a^2+b^2-nab)$ variables. And we<br />
+want a noncommutative topology on $\mathbf{rep}~A$ to encode all these<br />
+facts&#8230; As mentioned before, this can be done by replacing simples with<br />
+bricks (or if you want Schur representations) but that will have to wait<br />
+until next week. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-topology-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>hectic days</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/hectic-days/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/hectic-days/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 19 May 2005 08:12:59 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=231</guid>
+
+					<description><![CDATA[Hectic days ahead! Today, there is the Ph.D. defense of Stijn Symens and the following two days there is a meeting in Ghent where Jacques&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Hectic<br />
+days ahead! Today, there is the Ph.D. defense of <a href="http://www.win.ua.ac.be/~ssymens/">Stijn Symens</a> and the<br />
+following two days there is a <a href="http://cage.ugent.be/bnlf/">meeting</a> in Ghent where Jacques<br />
+Alev and me organize a special session on non-commutative algebra. Here<br />
+is the programme of that section  </p>
+<p>Session 1 (Friday 20 May)<br />
+&#8212; chair : Jacques Alev (Univ. Reims)  </p>
+<p>15.30-16.25 : <a href="http://www.maths.gla.ac.uk/~ig/">Iain Gordon</a> (Glasgow, United<br />
+Kingdom) : &#8220;Rational Cherednik algebras and resolutions of<br />
+symplectic<br />  singularities&#8221;  </p>
+<p>16.25-16.35 : break
+</p>
+<p>16.35-17.30 : Olivier Schiffmann (ENS Paris, France) :<br />
+&#8220;Elliptic Hall algebras and spherical Cherednik algebras&#8221;
+</p>
+<p>Session 2 (Saturday 21 May) &#8212; chair : Lieven Le Bruyn<br />
+(Univ. Antwerp)  </p>
+<p>14.30-15.15 : <a href="http://www.math.uni-muenster.de/reine/u/reinekem/">Markus<br />
+Reineke</a> (Munster, Germany) : &#8220;Geometry of Quiver Moduli&#8221;
+ </p>
+<p>15.15-16.00 : <a href="http://www.win.ua.ac.be/~rbockl/research/">Raf Bocklandt</a> &amp;<br />
+<a href="http://www.win.ua.ac.be/~gvdwey/">Geert Van de Weyer</a><br />
+(Antwerp, Belgium) : &#8220;The power of slicing in noncommutative<br />
+geometry&#8221;  </p>
+<p>Afterwards it will be time to take a short<br />
+vacation (and do some cycling in the French mountains). Here is my<br />
+reading list for next week :  </p>
+<p><a href="http://www.amazon.co.uk/exec/obidos/ASIN/0755307046/qid=1116502339/sr=8-1/ref=sr_8_xs_ap_i1_xgl/026-0885688-5498805">The dark Eye &#8211; Ingrid<br />
+Black</a> : Simply because I read her previous novel <a href="http://www.amazon.co.uk/exec/obidos/ASIN/075530702X/qid=1116502339/sr=8-2/ref=sr_8_xs_ap_i2_xgl/026-0885688-5498805">The dead</a>&#8230;
+</p>
+<p><a href="http://www.amazon.co.uk/exec/obidos/ASIN/184195568X/qid=1116502421/sr=2-1/ref=sr_2_3_1/026-0885688-5498805">Brass &#8211; Helen Walsh</a> : I<br />
+read the first 3 or 4 pages in the shop and couldn\&#8217;t stop &#8230;  </p>
+<p><a href="http://www.amazon.co.uk/exec/obidos/ASIN/075286467X/qid=1116502475/sr=1-1/ref=sr_1_3_1/026-0885688-5498805">Fleshmarked Alley &#8211; Ian<br />
+Rankin</a> : Hey, it\&#8217;s vacation!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/hectic-days/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

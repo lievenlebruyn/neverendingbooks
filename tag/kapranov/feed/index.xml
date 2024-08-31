@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Kapranov &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/kapranov/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 16 May 2011 12:17:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Who dreamed up the primes=knots analogy?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 16 May 2011 12:17:45 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[knots]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[Mazur]]></category>
+		<category><![CDATA[Mumford]]></category>
+		<category><![CDATA[nonsense]]></category>
+		<category><![CDATA[primes]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4906</guid>
+
+					<description><![CDATA[One of the more surprising analogies around is that prime numbers can be viewed as knots in the 3-sphere $S^3$. The motivation behind it is&#8230;]]></description>
+										<content:encoded><![CDATA[<p>One of the more surprising analogies around is that prime numbers can be viewed as knots in the 3-sphere $S^3$. The motivation behind it is that the (etale) fundamental group of $\pmb{spec}(\mathbb{Z}/(p))$ is equal to (the completion) of the fundamental group of a circle $S^1$ and that the embedding</p>
+<p>$\pmb{spec}(\mathbb{Z}/(p)) \subset \pmb{spec}(\mathbb{Z})$</p>
+<p>embeds this circle as a knot in a 3-dimensional simply connected manifold which, after Perelman, has to be $S^3$. For more see the <a href="https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime">what is the knot associated to a prime?-post</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/primescircles.jpg"></p>
+<p>In recent months new evidence has come to light allowing us to settle the genesis of this marvelous idea.</p>
+<p><strong>1. The former consensus</strong></p>
+<p>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BarryMazur85.jpg" align=left hspace=10 > Until now, the generally accepted view (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mazurs-dictionary.html">the &#8216;Mazur-dictionary-post&#8217;</a> or <a href="http://arxiv.org/abs/0904.3399">Morishita&#8217;s expository paper</a>) was that the analogy between knots and primes was first pointed out by <a href="http://en.wikipedia.org/wiki/Barry_Mazur">Barry Mazur</a> in the middle of the 1960&#8217;s when preparing for his lectures at the Summer Conference on Algebraic Geometry, at Bowdoin, in 1966. The lecture notes where later published in 1973 in the Annales of the ENS as &#8216;Notes on etale cohomology of number fields&#8217;.</p>
+<p>For further use in this series of posts, please note the acknowledgement at the bottom of the first page, reproduced below : &#8220;It gives me pleasure to thank J.-P. Serre for his vigorous editing and his suggestions and corrections, which led to this revised version.&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Mazur1973.jpg"></p>
+<p>Independently, <a href="http://en.wikipedia.org/wiki/Yuri_I._Manin">Yuri I. Manin</a> spotted the same analogy at around the same time. However, this point of view was quickly forgotten in favor of the more classical one of viewing number fields as analogous to algebraic function fields of one variable. Subsequently, in the mid 1990&#8217;s <a href="http://www.math.toronto.edu/kapranov/">Mikhail Kapranov</a> and <a href="http://books.google.com/books?id=nLaWI8Rc9RYC&amp;dq=Alexander+Reznikov&amp;printsec=frontcover&amp;source=bl&amp;ots=GoAknn2TfZ&amp;sig=eHgN5X04za1PgSfIq2_zhM-D-LQ&amp;hl=en&amp;sa=X&amp;oi=book_result&amp;resnum=3&amp;ct=result">Alexander Reznikov</a> took up the analogy between number fields and 3-manifolds again, and called the resulting study <a href="http://en.wikipedia.org/wiki/Arithmetic_topology">arithmetic topology</a>.</p>
+<p><strong>2. The new evidence</strong></p>
+<p>On december 13th 2010, <a href="http://mathoverflow.net/users/10909/david-feldman">David Feldman</a> posted a MathOverflow-question <a href="http://mathoverflow.net/questions/49303/mazurs-unpublished-manuscript-on-primes-and-knots">Mazur’s unpublished manuscript on primes and knots?</a>. He wrote : &#8220;The story of the analogy between knots and primes, which now has a literature, started with an unpublished note by Barry Mazur. I&#8217;m not absolutely sure this is the one I mean, but in his paper, Analogies between group actions on 3-manifolds and number fields, Adam Sikora cites <strong>B. Mazur, Remarks on the Alexander polynomial, unpublished notes.</strong>&#8220;</p>
+<p>Two months later, on february 15th David Feldman suddenly found the missing preprint in his mail-box and made it <a href="http://ifile.it/rodc5is/mazur.pdf">available</a>. The preprint is now also available from Barry Mazur&#8217;s <a href="http://www.math.harvard.edu/~mazur/">website</a>. Mazur adds the following comment :</p>
+<p>&#8220;In 1963 or 1964 I wrote an article <a href="http://www.math.harvard.edu/~mazur/papers/alexander_polynomial.pdf">Remarks on the Alexander Polynomial [PDF]</a> about the analogy between knots in the three-dimensional sphere and prime numbers (and, correspondingly, the relationship between the Alexander polynomial and Iwasawa Theory). I distributed some copies of my article but never published it, and I misplaced my own copy. In subsequent years I have had many requests for my article and would often try to search through my files to find it, but never did. A few weeks ago Minh-Tri Do asked me for my article, and when I said I had none, he very kindly went on the web and magically found a scanned copy of it. I&#8217;m extremely grateful to Minh-Tri Do for his efforts (and many thanks, too, to David Feldman who provided the lead).&#8221;</p>
+<p>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DavidMumford.jpg" align=right hspace=10 ><br />
+The opening paragraph of this unpublished preprint contains a major surprise!</p>
+<p> Mazur points to <a href="http://en.wikipedia.org/wiki/David_Mumford">David Mumford</a> as the originator of the &#8216;primes-are-knots&#8217; idea : &#8220;Mumford has suggested a most elegant model as a geometric interpretation of the above situation : $\pmb{spec}(\mathbb{Z}/p\mathbb{Z})$ is like a one-dimensional knot in $\pmb{spec}(\mathbb{Z})$ which is like a simply connected three-manifold.&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MazurPreprint.jpg"></p>
+<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy"> a later post</a> we will show that one can even pinpoint the time and place when and where this analogy was first dreamed-up to within a few days and a couple of miles.</p>
+<p>For the impatient among you, have a sneak preview of the cradle of birth of the primes=knots idea&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/quizz1.jpg"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mazur’s knotty dictionary</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 27 Dec 2008 11:24:09 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=468</guid>
+
+					<description><![CDATA[The algebraic fundamental group of a scheme gives the Mazur-Kapranov-Reznikov dictionary between primes in number fields and knots in 3-manifolds.]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/MazurP.jpg" style="float:right;margin-left:10px;">In the previous posts, we have depicted the &#8216;arithmetic line&#8217;, that is the prime numbers, as a &#8216;line&#8217; and individual primes as &#8216;points&#8217;.</p>
+<p>However, sometime in the roaring 60-ties, <a href="http://en.wikipedia.org/wiki/Barry_Mazur">Barry Mazur</a> launched the crazy idea of viewing the affine spectrum of the integers, $\mathbf{spec}(\mathbb{Z}) $, as a 3-dimensional manifold and prime numbers themselves as knots in this 3-manifold&#8230;</p>
+<p>After a long silence, this idea was taken up recently by <a href="http://www.math.toronto.edu/kapranov/">Mikhail Kapranov</a> and <a href="http://books.google.com/books?id=nLaWI8Rc9RYC&amp;dq=Alexander+Reznikov&amp;printsec=frontcover&amp;source=bl&amp;ots=GoAknn2TfZ&amp;sig=eHgN5X04za1PgSfIq2_zhM-D-LQ&amp;hl=en&amp;sa=X&amp;oi=book_result&amp;resnum=3&amp;ct=result">Alexander Reznikov</a> (1960-2003) in a talk at the MPI-Bonn in august 1996. <a href="http://guests.mpim-bonn.mpg.de/moree/">Pieter Moree</a> tells the story in his recollections about Alexander (Sacha) Reznikov in <a href="http://books.google.com/books?id=nLaWI8Rc9RYC&amp;dq=Alexander+Reznikov&amp;printsec=frontcover&amp;source=bl&amp;ots=GoAknn2TfZ&amp;sig=eHgN5X04za1PgSfIq2_zhM-D-LQ&amp;hl=en&amp;sa=X&amp;oi=book_result&amp;resnum=3&amp;ct=result#PPR24,M1">Sipping Tea with Sacha</a> : &#8220;Sasha&#8217;s paper is closely related to his paper where the analogy of covers of three-manifolds and class field theory plays a big role (an analogy that was apparently first noticed by B. Mazur). Sasha and Mikhail Kapranov (at the time also at the institute) were both very interested in this analogy. Eventually, in August 1996, Kapranov and Reznikov both lectured on this (and I explained in about 10 minutes my contribution to Reznikov&#8217;s proof). I was pleased to learn some time ago that this lecture series even made it into the literature, see Morishita&#8217;s &#8216;On certain analogies between knots and primes&#8217; J. reine angew. Math 550 (2002) 141-167.&#8221;</p>
+<p>Here&#8217;s a part of what is now called the <strong>Kapranov-Reznikov-Mazur dictionary</strong> :</p>
+<p><center><br />
+<img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/mazurdictionary.jpg" ><br />
+</center></p>
+<p>What is the rationale behind this dictionary? Well, it all has to do with trying to make sense of the (algebraic) fundamental group $\pi_1^{alg}(X) $ of a general scheme $X $. Recall that for a manifold $M $ there are two different ways to define its fundamental group $\pi_1(M) $ : either as the closed loops in a given basepoint upto homotopy or as the automorphism group of the universal cover $\tilde{M} $ of $M $.</p>
+<p>For an arbitrary scheme the first definition doesn&#8217;t make sense but we can use the second one as we have a good notion of a (finite) cover : an <a href="http://en.wikipedia.org/wiki/Étale_morphism">etale morphism</a> $Y \rightarrow X $ of the scheme $X $. As they form an inverse system, we can take their finite automorphism groups $Aut_X(Y) $ and take their projective limit along the system and call this the algebraic fundamental group $\pi^{alg}_1(X) $.</p>
+<p><a href="http://www.math.leidenuniv.nl/~hwl/">Hendrik Lenstra</a> has written beautiful <a href="http://websites.math.leidenuniv.nl/algebra/GSchemes.pdf">course notes on &#8216;Galois theory for schemes&#8217;</a> on all of this starting from scratch. Besides, there are also two video-lectures available on this at the MSRI-website : <a href="http://www.msri.org/publications/ln/msri/1999/vonneumann/lenstra/1/">Etale fundamental groups 1 by H.W. Lenstra</a> and <a href="http://www.msri.org/communications/ln/msri/1999/vonneumann/pop/1/index.html">Etale fundamental groups 2 by F. Pop</a>.</p>
+<p>But, what is the connection with the &#8216;usual&#8217; fundamental group in case both of them can be defined? Well, by construction the algebraic fundamental group is always a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/profinite-groups-survival-guide.html">profinite group</a> and in the case of manifolds it coincides with the profinite completion of the standard fundamental group, that is,<br />
+$\pi^{alg}_1(M) \simeq \widehat{\pi_1(M)} $ (recall that the cofinite completion is the projective limit of all finite group quotients).</p>
+<p>Right, so all we have to do to find a topological equivalent of an algebraic scheme is to compute its algebraic fundamental group and find an existing topological space of which the profinite completion of its standard fundamental group coincides with our algebraic fundamental group. An example : a prime number $p $ (as a &#8216;point&#8217; in $\mathbf{spec}(\mathbb{Z}) $) is the closed subscheme $\mathbf{spec}(\mathbb{F}_p) $ corresponding to the finite field $\mathbb{F}_p = \mathbb{Z}/p\mathbb{Z} $. For any affine scheme of a field $K $, the algebraic fundamental group coincides with the absolute Galois group $Gal(\overline{K}/K) $. In the case of $\mathbb{F}_p $ we all know that this abslute Galois group is isomorphic with the profinite integers $\hat{\mathbb{Z}} $. Now, what is the first topological space coming to mind having the integers as its fundamental group? Right, the circle $S^1 $. Hence, in <a href="http://sbseminar.wordpress.com/2007/06/21/more-talks-gukov-on-arithmetic-topology-and-gauge-theory/">arithmetic topology</a> we view prime numbers as topological circles, that is, as knots in some bigger space.</p>
+<p>But then, what is this bigger space? That is, what is the topological equivalent of $\mathbf{spec}(\mathbb{Z}) $? For this we have to go back to Mazur&#8217;s original paper <a href="http://www.numdam.org/numdam-bin/fitem?id=ASENS_1973_4_6_4_521_0">Notes on etale cohomology of number fields</a> in which he gives an Artin-Verdier type duality theorem for the affine spectrum $X=\mathbf{spec}(D) $ of the ring of integers $D $ in a number field. More precisely, there is a non-degenerate pairing $H^r_{et}(X,F) \times Ext^{3-r}_X(F, \mathbb{G}_m) \rightarrow H^3_{et}(X,F) \simeq \mathbb{Q}/\mathbb{Z} $ for any constructible abelian sheaf $F $. This may not tell you much, but it is a &#8216;sort of&#8217; Poincare-duality result one would have for a compact three dimensional manifold.</p>
+<p>Ok, so in particular $\mathbf{spec}(\mathbb{Z}) $ should be thought of as a 3-dimensional compact manifold, but which one? For this we have to compute the algebraic fundamental group. Fortunately, this group is trivial as there are no (non-split) etale covers of $\mathbf{spec}(\mathbb{Z}) $, so the corresponding 3-manifold should be simple connected&#8230; but wenow know that this has to imply that the manifold must be $S^3 $, the 3-sphere! Summarizing : in arithmetic topology, prime numbers are knots in the 3-sphere!</p>
+<p>More generally (by the same arguments) the affine spectrum $\mathbf{spec}(D) $ of a ring of integers can be thought of as corresponding to a closed oriented 3-dimensional manifold $M $ (which is a cover of $S^3 $) and a prime ideal $\mathfrak{p} \triangleleft D $ corresponds to a knot in $M $.</p>
+<p>But then, what is an ideal $\mathfrak{a} \triangleleft D $? Well, we have unique factorization of ideals in $D $, that is, $\mathfrak{a} = \mathfrak{p}_1^{n_1} \ldots \mathfrak{p}_k^{n_k} $ and therefore $\mathfrak{a} $ corresponds to a link in $M $ of which the constituent knots are the ones corresponding to the prime ideals $\mathfrak{p}_i $.</p>
+<p>And we can go on like this. What should be an element $w \in D $? Well, it will be an embedded surface $S \rightarrow M $, possibly with a boundary, the boundary being the link corresponding to the ideal $\mathfrak{a} = Dw $ and <a href="http://en.wikipedia.org/wiki/Seifert_surface">Seifert&#8217;s algorithm</a> tells us how we can produce surfaces having any prescribed link as its boundary. But then, in particular, a unit $w \in D^* $ should correspond to a closed surface in $M $.</p>
+<p>And all these analogies carry much further : for example the <a href="http://en.wikipedia.org/wiki/Ideal_class_group">class group</a> of the ring of integers $Cl(D) $ then corresponds to the torsion part $H_1(M,\mathbb{Z})_{tor} $ because principal ideals $Dw $ are trivial in the class group, just as boundaries of surfaces $\partial S $ vanish in $H_1(M,\mathbb{Z}) $. Similarly, one may identify the unit group $D^* $ with $H_2(M,\mathbb{Z}) $&#8230; and so on, and on, and on&#8230;</p>
+<p>More links to papers on arithmetic topology can be found in <a href="http://math.ucr.edu/home/baez/week257.html">John Baez&#8217; week 257</a> or <a href="http://golem.ph.utexas.edu/category/2007/10/this_weeks_finds_in_mathematic_18.html">via here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Andre Weil on the Riemann hypothesis</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/andre-weil-on-the-riemann-hypothesis/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/andre-weil-on-the-riemann-hypothesis/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 15 Oct 2008 12:07:14 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=457</guid>
+
+					<description><![CDATA[Some quotes of Andre Weil on the Riemann hypothesis.]]></description>
+										<content:encoded><![CDATA[<p>Don&#8217;t be fooled by introductory remarks to the effect that &#8216;the field with one element was conceived by Jacques Tits half a century ago, etc. etc.&#8217;</p>
+<p>While this is a historic fact, and, Jacques Tits cannot be given enough credit for bringing a touch of surrealism into mathematics, but this is not the main drive for people getting into F_un, today.</p>
+<p>There is a much deeper and older motivation behind most papers published recently on  $\mathbb{F}_1 $. Few of the authors will be willing to let you in on the secret, though, because if they did, it would sound much too presumptuous&#8230;</p>
+<p>So, let&#8217;s have it out into the open : <strong>F_un mathematics&#8217; goal is no less than proving the <a href="http://en.wikipedia.org/wiki/Riemann_hypothesis">Riemann Hypothesis</a></strong>.</p>
+<p>And even then, authors hide behind a smoke screen. The &#8216;official&#8217; explanation being &#8220;we would like to copy Weil&#8217;s proof of the Riemann hypothesis in the case of function fields of curves over finite fields, by considering spec(Z) as a &#8216;curve&#8217; over an algebra &#8216;dessous&#8217; Z namely $\mathbb{F}_1 $&#8221;. Alas, at this moment, none of the geometric approaches over the field with one element can make this stick.</p>
+<p>Believe me for once, the main <a href="http://planetmath.org/encyclopedia/KroneckersJugendtraum.html">Jugendtraum</a> of most authors is to get a grip on cyclotomy over $\mathbb{F}_1 $. It is no accident that Connes makes a dramatic pauze in his <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-on-youtube.html">YouTubeVideo</a> to let the viewer see this equation on the backboard</p>
+<p>$\mathbb{F}_{1^n} \otimes_{\mathbb{F}_1} \mathbb{Z} = \mathbb{Z}[x]/(x^n-1) $</p>
+<p>But, what is the basis of all this childlike enthusiasm? A somewhat concealed clue is given in the introduction of the <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/kapranovsmirnov.html">Kapranov-Smirnov paper</a>. They write :</p>
+<p>&#8220;In [?] the affine line over $\mathbb{F}_1 $ was considered; it consists formally of 0 and all the roots of unity. Put slightly differently, this leads to the consideration of &#8220;algebraic extensions&#8221; of $\mathbb{F}_1 $. By analogy with genuine finite fields we would like to think that there is exactly one such extension of any given degree n, denote it by $\mathbb{F}_{1^n} $.</p>
+<p>Of course, $\mathbb{F}_{1^n} $ does not exist in a rigorous sense, but we can think if a scheme $X $ contains n-th roots of unity, then it is defined over $\mathbb{F}_{1^n} $, so that there is a morphism</p>
+<p>$p_X~:~X \rightarrow spec(\mathbb{F}_{1^n} $</p>
+<p><strong>The point of view that adjoining roots of unity is analogous to the extension of the base field goes back, at least to Weil (Lettre a Artin, Ouvres, vol 1) and Iwasawa&#8230;</strong>&#8220;</p>
+<p>Okay, so rush down to your library, pick out the first of three volumes of Andre Weil&#8217;s collected works, look up his letter to Emil Artin written on July 10th 1942 (19 printed pages!), and head for the final section. Weil writes :</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/fun/DATA/andreweil1.jpg" style="float:right;margin-left:10px;"> &#8220;Our proof of the Riemann hypothesis (in the function field case, red.) depended upon the extension of the function-fields by roots of unity, i.e. by constants; the way in which the Galois group of such extensions operates on the classes of divisors in the original field and its extensions gives a linear operator, the characteristic roots (i.e. the eigenvalues) of which are the roots of the zeta-function.</p>
+<p>On a number field, the nearest we can get to this is by adjunction of $l^n $-th roots of unity, $l $ being fixed; the Galois group of this infinite extension is cyclic, and defines a linear operator on the projective limit of the (absolute) class groups of those successive finite extensions; <strong>this should have something to do with the roots of the zeta-function of the field</strong>. However, our extensions are ramified (but only at a finite number of places, viz. the prime divisors of $l $). Thus a preliminary study of similar problems in function-fields might enable one to guess what will happen in number-fields.&#8221;</p>
+<p>A few years later, in 1947, he makes this a bit more explicit in his marvelous essay &#8220;L&#8217;avenir des mathematiques&#8221; (The future of mathematics). Weil is still in shell-shock after the events of the second WW, and writes in beautiful archaic French sentences lasting forever :</p>
+<p>&#8220;L&#8217;hypothèse de Riemann, après qu&#8217;on eu perdu l&#8217;espoir de la démontrer par les méthodes de la théorie des fonctions, nous apparaît aujourd&#8217;hui sous un jour nouveau, qui la montre inséparable de la conjecture d&#8217;Artin sur les fonctions L, ces deux problèmes étant deux aspects d&#8217;une même question arithmético-algébrique, <strong>où l&#8217;étude simultanée de toutes les extensions cyclotomiques d&#8217;un corps de nombres donné jouera sans doute le rôle décisif</strong>.</p>
+<p>L&#8217;arithmétique gausienne gravitait autour de la loi de réciprocité quadratique; nous savons maintenant que celle-ci n&#8217;est qu&#8217;un premier example, ou pour mieux dire le paradigme, des lois dites &#8220;du corps de classe&#8221;, qui gouvernent les extensions abéliennes des corps de nobres algébriques; nous savons formuler ces lois de manière à leur donner l&#8217;aspect d&#8217;un ensemble cohérent; mais, si plaisante à l&#8217;œil que soit cette façade, nous ne savons si elle ne masque pas des symmétries plus cachées.</p>
+<p>Les automorphismes induits sur les groupes de classes par les automorphismes du corps, les propriétés des restes de normes dans les cas non cycliques, le passage à la limite (inductive ou projective) <strong>quand on remplace le corps de base par des extensions, par example cyclotomiques, de degré indéfiniment croissant, sont autant de questions sur lesquelles notre ignorance est à peu près complète, et dont l&#8217;étude contient peut-être la clef de l&#8217;hypothese de Riemann</strong>; étroitement liée à celles-ci est l&#8217;étude du conducteur d&#8217;Artin, et en particulier, dans le cas local, la recherche de la représentation dont la trace s&#8217;exprime au moyen des caractères simples avec des coefficients égaux aux exposants de leurs conducteurs.</p>
+<p>Ce sont là quelques-unes des directions qu&#8217;on peut et qu&#8217;on doit songer à suivre afin de pénétrer dans le mystère des extensions non abéliennes; il n&#8217;est pas impossible que nous touchions là à des principes d&#8217;une fécondité extraordinaire, et que le premier pas décisif une fois fait dans cette voie doive nous ouvrir l&#8217;accès à de vastes domaines dont nous soupçonnons à peine l&#8217;existence; car jusqu&#8217;ici, pour amples que soient nos généralisations des résultats de Gauss, on ne peut dire que nus les ayons vraiment dépassés.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/andre-weil-on-the-riemann-hypothesis/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>F_un and braid groups</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/f_un-and-braid-groups/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/f_un-and-braid-groups/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 15 Jun 2008 16:51:01 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=429</guid>
+
+					<description><![CDATA[Recall that an n-braid consists of n strictly descending elastic strings connecting n inputs at the top (named 1,2,&#8230;,n) to n outputs at the bottom&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-1.jpg" hspace=10 style="float:left;margin-right:10px;" > Recall that an n-braid consists of n strictly descending elastic strings connecting n inputs at the top (named 1,2,&#8230;,n) to n outputs at the bottom (labeled 1,2,&#8230;,n) upto isotopy (meaning that we may pull and rearrange the strings in any way possible within 3-dimensional space). We can always change the braid slightly such that we can divide the interval between in- and output in a number of subintervals such that in each of those there is at most one crossing.</p>
+<p>n-braids can be multiplied by putting them on top of each other and connecting the outputs of the first braid trivially to the inputs of the second. For example the 5-braid on the left can be written as $B=B_1.B_2 $ with $B_1 $ the braid on the top 3 subintervals and $B_2 $ the braid on the lower 5 subintervals.</p>
+<p>In this way (and using our claim that there can be at most 1 crossing in each subinterval) we can write any n-braid as a word in the generators $\sigma_i $ (with $1 \leq i &lt; n $) being the overcrossing between inputs i and i+1. Observe that the undercrossing is then the inverse $\sigma_i^{-1} $. For example, the braid on the left corresponds to the word</p>
+<p>$\sigma_1^{-1}.\sigma_2^{-1}.\sigma_1^{-1}.\sigma_2.\sigma_3^{-1}.\sigma_4^{-1}.\sigma_3^{-1}.\sigma_4 $</p>
+<p>Clearly there are relations among words in the generators. The easiest one we have already used implicitly namely that $\sigma_i.\sigma_i^{-1} $ is the trivial braid. <a href="http://en.wikipedia.org/wiki/Emil_Artin">Emil Artin</a> proved in the 1930-ies that all such relations are consequences of two sets of &#8216;obvious&#8217; relations. The first being commutation relations between crossings when the strings are far enough from each other. That is we have</p>
+<p>$\sigma_i . \sigma_j = \sigma_j . \sigma_i $ whenever $|i-j| \geq 2 $</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/braidcomm1.jpg"> = <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/braidcomm2.jpg"><br />
+</center></p>
+<p>The second basic set of relations involves crossings using a common string</p>
+<p>$\sigma_i.\sigma_{i+1}.\sigma_i = \sigma_{i+1}.\sigma_i.\sigma_{i+1} $</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/braidYB1.jpg">=<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/braidYB2.jpg"><br />
+</center></p>
+<p>Starting with the 5-braid at the top, we can use these relations to reduce it to a simpler form. At each step we have outlined to region where the relations are applied</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-2.jpg" width=150 > =<br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-3.jpg" width=150 > =<br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-4.jpg" width=150 > =<br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-5.jpg" width=150 ><br />
+</center></p>
+<p>These beautiful braid-pictures were produced using the <strong>braid-metapost</strong> program written by <a href="http://stijnsymens.wordpress.com/2008/03/18/drawing-braids-using-metapost/">Stijn Symens</a>.</p>
+<p>Tracing a string from an input to an output assigns to an n-braid a permutation on n letters. In the above example, the permutation is $~(1,2,4,5,3) $. As this permutation doesn&#8217;t change under applying basic reduction, this gives a group-morphism</p>
+<p>$\mathbb{B}_n \rightarrow S_n $</p>
+<p>from the <strong>braid group on n strings</strong> $\mathbb{B}_n $ to the symmetric group. We have seen <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-f_un-folklore.html">before</a> that the symmetric group $S_n $ has a F-un interpretation as the linear group $GL_n(\mathbb{F}_1) $ over the field with one element. Hence, we can ask whether there is also a F-un interpretation of the n-string braid group and of the above group-morphism.</p>
+<p>Kapranov and Smirnov suggest in <a href="https://lievenlebruyn.github.io/neverendingbooks/KapranovSmirnov.pdf">their paper</a> that the n-string braid group $\mathbb{B}_n \simeq GL_n(\mathbb{F}_1[t]) $ is the general linear group over the polynomial ring $\mathbb{F}_1[t] $ over the field with one element and that the evaluation morphism (setting t=0)</p>
+<p>$GL_n(\mathbb{F}_1[t]) \rightarrow GL_n(\mathbb{F}1) $ gives the groupmorphism $\mathbb{B}_n \rightarrow S_n $</p>
+<p>The rationale behind this analogy is a theorem of <a href="http://en.wikipedia.org/wiki/Vladimir_Drinfeld">Drinfeld</a>&#8216;s saying that over a finite field $\mathbb{F}_q $, the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/profinite-groups-survival-guide.html">profinite completion</a> of $GL_n(\mathbb{F}_q[t]) $ is embedded in the fundamental group of the space of q-polynomials of degree n in much the same way as the n-string braid group $\mathbb{B}_n $ is the fundamental group of the space of complex polynomials of degree n without multiple roots.</p>
+<p>And, now that we know the basics of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/absolute-linear-algebra.html">absolute linear algebra</a>, we can give an absolute braid-group representation</p>
+<p>$\mathbb{B}_n = GL_n(\mathbb{F}_1[t]) \rightarrow GL_n(\mathbb{F}_{1^n}) $</p>
+<p>obtained by sending each generator $\sigma_i $ to the matrix over $\mathbb{F}_{1^n} $ (remember that $\mathbb{F}_{1^n} = (\mu_n)^{\bullet} $ where $\mu_n = \langle \epsilon_n \rangle $ are the n-th roots of unity)</p>
+<p>$\sigma_i \mapsto \begin{bmatrix}<br />
+1_{i-1} &amp; &amp; &amp; \\<br />
+&amp; 0 &amp; \epsilon_n &amp; \\<br />
+&amp; \epsilon_n^{-1} &amp; 0 &amp; \\<br />
+&amp; &amp; &amp; 1_{n-1-i} \end{bmatrix} $</p>
+<p>and it is easy to see that these matrices do indeed satisfy Artin&#8217;s defining relations for $\mathbb{B}_n $.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/f_un-and-braid-groups/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Absolute linear algebra</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/absolute-linear-algebra/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/absolute-linear-algebra/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 10 Jun 2008 06:56:43 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=427</guid>
+
+					<description><![CDATA[Today we will define some basic linear algebra over the absolute fields $\mathbb{F}_{1^n} $ following the Kapranov-Smirnov document. Recall from last time that $\mathbb{F}_{1^n} =&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Today we will define some basic linear algebra over the absolute fields $\mathbb{F}_{1^n} $ following the <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/KapranovSmirnov.pdf">Kapranov-Smirnov document</a>. Recall from <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-f_un-folklore.html">last time</a> that $\mathbb{F}_{1^n} = \mu_n^{\bullet} $ and that a d-dimensional vectorspace over this field is a pointed set $V^{\bullet} $ where $V $ is a free $\mu_n $-set consisting of n.d elements. Note that in absolute linear algebra we are not allowed to have addition of vectors and have to define everything in terms of scalar multiplication (or if you want, the $\mu_n $-action). In the hope of keeping you awake, we will include an F-un interpretation of the power residue symbol.</p>
+<p>Direct sums of vectorspaces are defined via $V^{\bullet} \oplus W^{\bullet} = (V \bigsqcup W)^{\bullet} $, that is, correspond to the disjoint union of free $\mu_n $-sets. Consequently we have that $dim(V^{\bullet} \oplus W^{\bullet}) = dim(V^{\bullet}) + dim(W^{\bullet}) $.</p>
+<p>For tensor-product we start with $V^{\bullet} \times W^{\bullet} = (V \times W)^{\bullet} $ the vectorspace cooresponding to the Cartesian product of free $\mu_n $-sets. If the dimensions of $V^{\bullet} $ and $W^{\bullet} $ are respectively d and e, then $V \times W $ consists of n.d.n.e elements, so is of dimension n.d.e. In order to have a sensible notion of tensor-products we have to eliminate the n-factor. We do this by identifying $~(x,y) $ with $(\epsilon_n x, \epsilon^{-1} y) $ and call the corresponding vectorspace $V^{\bullet} \otimes W^{\bullet} $. If we denote the image of $~(x,y) $ by $x \otimes w $ then the identification merely says we can pull the $\mu_n $-action through the tensor-sign, as we&#8217;d like to do. With this definition we do indeed have that $dim(V^{\bullet} \otimes W^{\bullet}) = dim(V^{\bullet}) dim(W^{\bullet}) $.</p>
+<p>Recall that any linear automorphism $A $ of an $\mathbb{F}_{1^n} $ vectorspace $V^{\bullet} $ with basis $&#123; b_1,\ldots,b_d &#125; $ (representants of the different $\mu_n $-orbits) is of the form $A(b_i) = \epsilon_n^{k_i} b_{\sigma(i)} $ for some powers of the primitive n-th root of unity $\epsilon_n $ and some permutation $\sigma \in S_d $. We define the determinant $det(A) = \prod_{i=1}^d \epsilon_n^{k_i} $. One verifies that the determinant is multiplicative and independent of the choice of basis.</p>
+<p>For example, scalar-multiplication by $\epsilon_n $ gives an automorphism on any $d $-dimensional $\mathbb{F}_{1^n} $-vectorspace $V^{\bullet} $ and the corresponding determinant clearly equals $det = \epsilon_n^d $. That is, the det-functor remembers <strong>the dimension modulo n</strong>. These mod-n features are a recurrent theme in absolute linear algebra. Another example, which will become relevant when we come to reciprocity laws :</p>
+<blockquote><p>Take $n=2 $. Then, a $\mathbb{F}_{1^2} $ vectorspace $V^{\bullet} $ of dimension d is a set consisting of 2d elements $V $ equipped with a free involution. Any linear automorphism $A~:~V^{\bullet} \rightarrow V^{\bullet} $ is represented by a $d \times d $ matrix having one nonzero entry in every row and column being equal to +1 or -1. Hence, the determinant $det(A) \in \{ +1,-1 \} $. </p>
+<p>On the other hand, by definition, the linear automorphism $A $ determines a permutation $\sigma_A \in S_{2d} $ on the 2d non-zero elements of $V^{\bullet} $. The connection between these two interpretations is that $det(A) = sgn(\sigma_A) $ the determinant gives the sign of the permutation!</p></blockquote>
+<p><img decoding="async" src="http://www-gap.dcs.st-and.ac.uk/~history/BigPictures/Gauss_11.jpeg" width=200 hspace=10 style="float:left;margin-right:10px;" > For a prime power $q=p^k $ with $q \equiv 1~mod(n) $, <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-f_un-folklore.html">we have seen</a> that the roots of unity $\mu_n \subset \mathbb{F}_q^* $ and hence that $\mathbb{F}_q $ is a vectorspace over $\mathbb{F}_{1^n} $. For any field-unit $a \in \mathbb{F}_q^* $ we have the <strong>power residue symbol</strong></p>
+<p>$\begin{pmatrix} a \\ \mathbb{F}_q \end{pmatrix}_n = a^{\frac{q-1}{n}} \in \mu_n $</p>
+<p>On the other hand, multiplication by $a $ is a linear automorphism on the $\mathbb{F}_{1^n} $-vectorspace $\mathbb{F}_q $ and hence we can look at its F-un determinant $det(a \times) $. The F-un interpretation of a classical lemma by <a href="http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Gauss.html">Gauss</a> asserts that the power residue symbol equals $det(a \times) $.</p>
+<p>An $\mathbb{F}_{1^n} $-subspace $W^{\bullet} $ of a vectorspace $V^{\bullet} $ is a subset $W \subset V $ consisting of full $\mu_n $-orbits. Normally, in defining a <strong>quotient space</strong> we would say that two V-vectors are equivalent when their difference belongs to W and take equivalence classes. However, in absolute linear algebra we are not allowed to take linear combinations of vectors&#8230;</p>
+<p>The only way out is to define $~(V/W)^{\bullet} $ to correspond to the free $\mu_n $-set $~(V/W) $ obtained by identifying all elements of W with the zero-element in $V^{\bullet} $. But&#8230; this will screw-up things if we want to interpret $\mathbb{F}_q $-vectorspaces as $\mathbb{F}_{1^n} $-spaces whenever $q \equiv 1~mod(n) $.</p>
+<p>For this reason, Kapranov and Smirnov invent the notion of an <strong>equivalence</strong> $f~:~X^{\bullet} \rightarrow Y^{\bullet} $ between $\mathbb{F}_{1^n} $-spaces to be a linear map (note that this means a set-theoretic map $X \rightarrow Y^{\bullet} $ such that the invers image of 0 consists of full $\mu_n $-orbits and is a $\mu_n $-map elsewhere) satisfying the properties that $f^{-1}(0) = 0 $ and for every element $y \in Y $ we have that the number of pre-images $f^{-1}(y) $ is congruent to 1 modulo n. Observe that under an equivalence $f~:~X^{\bullet} \rightarrow Y^{\bullet} $ we have that $dim(X^{\bullet}) \equiv dim(Y^{\bullet})~mod(n) $.</p>
+<p>This then allows us to define an <strong>exact sequence</strong> of $\mathbb{F}_{1^n} $-vectorspaces to be</p>
+<p>[tex]\xymatrix{0 \ar[r] &amp; V_1^{\bullet} \ar[r]^{\alpha} &amp; V^{\bullet} \ar[r]^{\beta} &amp; V_2^{\bullet} \ar[r] &amp; 0}[/tex]</p>
+<p>with $\alpha $ a set-theoretic inclusion, the composition $\beta \circ \alpha $ to be the zero-map and with the additional assumption that the map induced by $\beta $</p>
+<p>$~(V/V_1)^{\bullet} \rightarrow V_2^{\bullet} $</p>
+<p>is an equivalence. For an exact sequence of spaces as above we have the congruence relation on their dimensions $dim(V_1)+dim(V_2) \equiv dim(V)~mod(n) $.</p>
+<p>More importantly, if as before $q \equiv 1~mod(n) $ and we use the embedding $\mu_n \subset \mathbb{F}_q^* $ to turn usual $\mathbb{F}_q $-vectorspaces into absolute $\mathbb{F}_{1^n} $-spaces, then an ordinary exact sequence of $\mathbb{F}_q $-vectorspaces remains exact in the above definition.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/absolute-linear-algebra/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The F_un folklore</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-f_un-folklore/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-f_un-folklore/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 07 Jun 2008 17:36:12 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=426</guid>
+
+					<description><![CDATA[All esoteric subjects have their own secret (sacred) texts. If you opened the Da Vinci Code (or even better, the original The Holy blood and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>All esoteric subjects have their own secret (sacred) texts. If you opened the <a href="http://en.wikipedia.org/wiki/The_Da_Vinci_Code">Da Vinci Code</a> (or even better, the original <a href="http://en.wikipedia.org/wiki/The_Holy_Blood_and_the_Holy_Grail">The Holy blood and the Holy grail</a>) you will known about a mysterious collection of documents, known as the &#8220;<a href="http://en.wikipedia.org/wiki/Dossiers_Secrets">Dossiers secrets</a>&#8220;, deposited in the Bibliothèque nationale de France on 27 April 1967, which is rumoured to contain the mysteries of the <a href="http://en.wikipedia.org/wiki/Priory_of_Sion">Priory of Sion</a>, a secret society founded in the middle ages and still active today&#8230;</p>
+<p>The followers of F-un, for $\mathbb{F}_1 $ the field of one element, have their own collection of semi-secret texts, surrounded by whispers, of which they try to decode every single line in search of enlightenment. Fortunately, you do not have to search the shelves of the Bibliotheque National in Paris, but the depths of the internet to find them as huge, bandwidth-unfriendly, scanned documents.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/manin.jpg" hspace=10 style="float:right;margin-left:10px;" > The first are the lecture notes &#8220;Lectures on zeta functions and motives&#8221; by <a href="http://en.wikipedia.org/wiki/Yuri_Manin">Yuri I. Manin</a> of a course given in 1991.</p>
+<p>One can download a scanned version of the paper from the homepage of <a href="http://www.math.jhu.edu/~kc/">Katia Consani</a> as a <a href="http://www.math.jhu.edu/~kc/manin.pdf">huge 23.1 Mb file</a>. Of F-un relevance is the first section &#8220;Absolute Motives?&#8221;  in which</p>
+<p>&#8220;&#8230;we describe a highly speculative picture of analogies between arithmetics over $\mathbb{F}_q $ and over $\mathbb{Z} $, cast in the language reminiscent of Grothendieck&#8217;s motives. We postulate the existence of a category with tensor product $\times $ whose objects correspond not only to the divisors of the Hasse-Weil zeta functions of schemes over $\mathbb{Z} $, but also to Kurokawa&#8217;s tensor divisors. This neatly leads to teh introduction of an &#8220;absolute Tate motive&#8221; $\mathbb{T} $, whose zeta function is $\frac{s-1}{2\pi} $, and whose zeroth power is &#8220;the absolute point&#8221; which is teh base for Kurokawa&#8217;s direct products. We add some speculations about the role of $\mathbb{T} $ in  the &#8220;algebraic geometry over a one-element field&#8221;, and in clarifying the structure of the gamma factors at infinity.&#8221; (loc.cit. p 1-2)</p>
+<p>I&#8217;d welcome links to material explaining this section to people knowing no motives.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kapranov.jpg" hspace=10 style="float:left;margin-right:10px;" > The second one is the unpublished paper &#8220;Cohomology determinants and reciprocity laws : number field case&#8221; by <a href="http://www.math.toronto.edu/kapranov/">Mikhail Kapranov</a> and A. Smirnov.</p>
+<p>This paper features in blog-posts at the <a href="http://kea-monad.blogspot.com/2007/12/motive-madness-ii.html">Arcadian Functor</a>, in John Baez&#8217; <a href="http://math.ucr.edu/home/baez/week259.html">Weekly Finds</a> and in yesterday&#8217;s post at <a href="http://noncommutativegeometry.blogspot.com/2008/06/fun-day-two.html">Noncommutative Geometry</a>.</p>
+<p>You can download every single page (of 15) as a separate file from <a href="http://wwwhomes.uni-bielefeld.de/triepe/F1.html">here</a>. But, in order to help spreading the Fun-gospel, I&#8217;ve made these scans into a single PDF-file which you can <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/KapranovSmirnov.pdf">download as a 2.6 Mb PDF</a>. In the introduction they say :</p>
+<p>&#8220;First of all, it is an old idea to interpret combinatorics of finite sets as the $q \rightarrow 1 $ limit of linear algebra over the finite field $\mathbb{F}_q $. This had lead to frequent consideration of the folklore object $\mathbb{F}_1 $, the &#8220;field with one element&#8221;, whose vector spaces are just sets. One can postulate, of course, that $\mathbf{spec}(\mathbb{F}_1) $ is the absolute point, but the real problem is to develop non-trivial consequences of this point of view.&#8221;</p>
+<p>They manage to deduce higher reciprocity laws in class field theory within the theory of $\mathbb{F}_1 $ and its field extensions $\mathbb{F}_{1^n} $. But first, let us explain how they define linear algebra over these <strong>absolute fields</strong>.</p>
+<p>Here is a first principle : <strong>in doing linear algebra over these fields, there is no additive structure but only scalar multiplication by field elements</strong>. So, what are vector spaces over the field with one element? Well, as scalar multiplication with 1 is just the identity map, we have that a vector space is just a set. Linear maps are just set-maps and in particular, a linear isomorphism of a vector space onto itself is a permutation of the set. That is, linear algebra over $\mathbb{F}_1 $ is the same as combinatorics of (finite) sets.</p>
+<blockquote><p> A vector space over $\mathbb{F}_1 $ is just a set; the dimension of such a vector space is the cardinality of the set. The general linear group $GL_n(\mathbb{F}_1) $ is the symmetric group $S_n $, the identification via permutation matrices (having exactly one 1 in every row and column)</p></blockquote>
+<p>Some people prefer to view an $\mathbb{F}_1 $ vector space as a <strong>pointed set</strong>, the special element being the &#8216;origin&#8217; $0 $ but as $\mathbb{F}_1 $ doesnt have a zero, there is also no zero-vector. Still, in later applications (such as defining exact sequences and quotient spaces) it is helpful to have an origin. So, let us denote for any set $S $ by $S^{\bullet} = S \cup &#123; 0 &#125; $. Clearly, linear maps between such &#8216;extended&#8217; spaces must be maps of pointed sets, that is, sending $0 \rightarrow 0 $.</p>
+<p>The field with one element $\mathbb{F}_1 $ has a field extension of degree n for any natural number n which we denote by $\mathbb{F}_{1^n} $ and using the above notation we will define this field as :</p>
+<p>$\mathbb{F}_{1^n} = \mu_n^{\bullet} $ with $\mu_n $ the group of all n-th roots of unity. Note that if we choose a primitive n-th root $\epsilon_n $, then $\mu_n \simeq C_n $ is the cyclic group of order n.</p>
+<p>Now what is a vector space over $\mathbb{F}_{1^n} $? Recall that we only demand units of the field to act by scalar multiplication, so each &#8216;vector&#8217; $\vec{v} $ determines an n-set of linear dependent vectors $\epsilon_n^i \vec{v} $. In other words, any $\mathbb{F}_{1^n} $-vector space is of the form $V^{\bullet} $ with $V $ a set of which the group $\mu_n $ acts freely. Hence,  $V $ has $N=d.n $ elements and there are exactly $d $ orbits for the action of $\mu_n $ by scalar multiplication. We call $d $ the <strong>dimension</strong> of the vectorspace and a <strong>basis</strong> consists in choosing one representant for every orbits. That is, $~B = &#123; b_1,\ldots,b_d &#125; $ is a basis if (and only if) $V = &#123; \epsilon_n^j b_i~:~1 \leq i \leq d, 1 \leq j \leq n &#125; $.</p>
+<p>So, vectorspaces are free $\mu_n $-sets and hence linear maps $V^{\bullet} \rightarrow W^{\bullet} $ is a $\mu_n $-map $V \rightarrow W $. In particular, a linear isomorphism of $V $, that is an element of $GL_d(\mathbb{F}_{1^n}) $ is a $\mu_n $ bijection sending any basis element $b_i \rightarrow \epsilon_n^{j(i)} b_{\sigma(i)} $ for a permutation $\sigma \in S_d $.</p>
+<blockquote><p>An $\mathbb{F}_{1^n} $-vectorspace $V^{\bullet} $ is a free $\mu_n $-set $V $ of $N=n.d $ elements. The dimension $dim_{\mathbb{F}_{1^n}}(V^{\bullet}) = d $ and the general linear group $GL_d(\mathbb{F}_{1^n}) $ is the wreath product of $S_d $ with $\mu_n^{\times d} $, the identification as matrices with exactly one non-zero entry (being an n-th root of unity) in every row and every column.</p></blockquote>
+<p>This may appear as a rather sterile theory, so let us give an extremely important example, which will lead us to our second principle for developing absolute linear algebra.</p>
+<p>Let $q=p^k $ be a prime power and let $\mathbb{F}_q $ be the finite field with $q $ elements. Assume that $q \cong 1~mod(n) $. It is well known that the group of units $\mathbb{F}_q^{\ast} $ is cyclic of order $q-1 $ so by the assumption we can identify $\mu_n $ with a subgroup of $\mathbb{F}_q^{\ast} $.</p>
+<p>Then, $\mathbb{F}_q = (\mathbb{F}_q^{\ast})^{\bullet} $ is an $\mathbb{F}_{1^n} $-vectorspace of dimension $d=\frac{q-1}{n} $. In other words, $\mathbb{F}_q $ is an $\mathbb{F}_{1^n} $-algebra. But then, any ordinary $\mathbb{F}_q $-vectorspace of dimension $e $ becomes (via restriction of scalars) an $\mathbb{F}_{1^n} $-vector space of dimension $\frac{e(q-1)}{n} $.</p>
+<p>Next time we will introduce more linear algebra definitions (including determinants, exact sequences, direct sums and tensor products) in the realm the absolute fields $\mathbb{F}_{1^n} $ and remarkt that we have to alter the known definitions as we can only use the scalar-multiplication. To guide us, we have the second principle : <strong>all traditional results of linear algebra over $\mathbb{F}_q $ must be recovered from the new definitions under the vector-space identification $\mathbb{F}_q = (\mathbb{F}_q^{\ast})^{\bullet} = \mathbb{F}_{1^n} $ when $n=q-1 $</strong>. (to be continued)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-f_un-folklore/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>noncommutative Fourier transform</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-fourier-transform/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-fourier-transform/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 23 Jun 2006 13:45:35 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=260</guid>
+
+					<description><![CDATA[At the noncommutative algebra program in MSRI 1999/2000, Mikhail Kapranov gave an intriguing talk Noncommutative neighborhoods and noncommutative Fourier transform and over the years I&#8217;ve&#8230;]]></description>
+										<content:encoded><![CDATA[<p>At the<br />
+noncommutative algebra program in MSRI 1999/2000, <a href="http://www.math.toronto.edu/kapranov/">Mikhail Kapranov</a> gave<br />
+an intriguing talk <a href="http://www.msri.org/publications/ln/msri/2000/interact/kapranov/1/">Noncommutative neighborhoods and noncommutative Fourier transform</a><br />
+and over the years I&#8217;ve watched the <a href="http://www.msri.org/cgi-bin/real.cgi?realhost=real.msri.org&amp;realfile=/msri/2000/interact/kapranov/1">video of this talk</a> a number<br />
+of times.    The first part of the talk is about his work on <a href="http://www.arxiv.org/abs/math.AG/9802041">Noncommutative geometry<br />
+based on commutator expansions</a> and as I&#8217;ve once <a href="http://www.arxiv.org/abs/math.RA/0101231">worked through it</a><br />
+this part didn&#8217;t present problems.    On the other hand, I&#8217;ve never<br />
+understood much from the second part of the talk which claims to relate<br />
+these noncommutative formal neighborhoods to _noncommutative Fourier<br />
+transforms_. The string coffee table has a post <a href="http://golem.ph.utexas.edu/string/archives/000853.html">Kapranov<br />
+and Getzler on Higher Stuff</a> linking to two recent talks by Kapranov<br />
+on noncommutative Fourier transforms at the <a href="http://streetfest.maths.mq.edu.au/">Streetfest</a>. Marni<br />
+Sheppeard made <a href="http://www.math.uni-hamburg.de/home/schreiber/Kapranov_Streetfest.pdf">handwritten notes</a> available. I definitely should find the time<br />
+to get through them and have another go at the Kapranov-video&#8230;  </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-fourier-transform/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>nog course outline</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/nog-course-outline/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/nog-course-outline/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 02 Sep 2004 15:33:28 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=71</guid>
+
+					<description><![CDATA[Now that the preparation for my undergraduate courses in the first semester is more or less finished, I can begin to think about the courses&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Now that the preparation for my undergraduate courses in the first semester is more or less finished, I can begin to think about the courses I&#8217;ll give this year in the master class<br />
+non-commutative geometry. For a change I&#8217;d like to introduce the main ideas and concepts by a very concrete example : Ginzburg&#8217;s coadjoint-orbit result for the Calogero-Moser space and its<br />
+relation to the classification of one-sided ideals in the first Weyl algebra. Not only will this example give me the opportunity to say things about formally smooth algebras, non-commutative<br />
+differential forms and even non-commutative symplectic geometry, but it also involves what some people prefer to call _non-commutative algebraic geometry_ (that is the study of graded Noetherian<br />
+rings having excellent homological properties) via the projective space associated to the homogenized Weyl algebra. Besides, I have some affinity with this example. </p>
+<p>A long time ago I introduced<br />
+the moduli spaces for one-sided ideals in the Weyl algebra in <a href="http://www.math.ua.ac.be/~lebruyn/preprints/9249.pdf">Moduli spaces for right ideals of the Weyl algebra</a> and when I was printing a _very_ preliminary version of Ginzburg&#8217;s paper<br />
+<a href="http://www.arxiv.org/abs/math.QA/0005165">Non-commutative Symplectic Geometry, Quiver varieties, and Operads</a> (probably because he send a preview to Yuri Berest and I was in contact with him at the time about the moduli spaces) the<br />
+idea hit me at the printer that the right way to look at the propblem was to consider the quiver </p>
+<p>$\xymatrix{\vtx{} \ar@/^/[rr]^a &#038; &#038;  \vtx{} \ar@(u,ur)^x \ar@(d,dr)_y \ar@/^/[ll]^b} $</p>
+<p>which eventually led to my paper together with Raf Bocklandt <a href="http://www.arxiv.org/abs/math.AG/0010030">Necklace Lie algebras and noncommutative symplectic geometry</a>.</p>
+<p>Apart from this papers I would like to explain the following<br />
+papers by illustrating them on the above example : Michail Kapranov <a href="http://www.arxiv.org/abs/math.AG/9802041">Noncommutative geometry based on commutator expansions</a> Maxim Kontsevich and Alex Rosenberg <a href="http://www.arxiv.org/abs/math.AG/9812158">Noncommutative smooth<br />
+spaces</a> Yuri Berest and George Wilson <a href="http://www.arxiv.org/abs/math.QA/0102190">Automorphisms and Ideals of the Weyl Algebra</a> Yuri Berest and George Wilson <a href="http://www.arxiv.org/abs/math.AG/0104248">Ideal Classes of the Weyl Algebra and Noncommutative Projective<br />
+Geometry</a> Travis Schedler <a href="http://www.arxiv.org/abs/math.QA/0406200">A Hopf algebra quantizing a necklace Lie algebra canonically associated to a quiver</a> and of course the seminal paper by Joachim Cuntz and Daniel Quillen on<br />
+quasi-free algebras and their non-commutative differential forms which, unfortunately, in not available online.</p>
+<p>I plan to write a series of posts here on all this material but I will be very<br />
+happy to get side-tracked by any comments you might have. So please, if you are interested in any of this and want to have more information or explanation do not hesitate to post a comment (only<br />
+your name and email is required to do so, you do not have to register and you can even put some latex-code in your post but such a posting will first have to viewed by me to avoid cluttering of<br />
+nonsense GIFs in my directories).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/nog-course-outline/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

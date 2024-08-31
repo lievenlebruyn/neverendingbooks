@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Siegel &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/siegel/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 21 Jan 2018 09:59:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>a SNORTgo endgame</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-snortgo-endgame/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-snortgo-endgame/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 21 Jan 2018 09:59:49 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[Col]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[Siegel]]></category>
+		<category><![CDATA[Snort]]></category>
+		<category><![CDATA[Wolfe]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7603</guid>
+
+					<description><![CDATA[SNORT, invented by Simon NORTon is a map-coloring game, similar to COL. Only, this time, neighbours may not be coloured differently. SNORTgo, similar to COLgo,&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Col_(game)#Snort">SNORT</a>, invented by Simon NORTon is a map-coloring game, similar to COL. Only, this time, neighbours may not be coloured differently.</p>
+<p>SNORTgo, similar to <a href="https://lievenlebruyn.github.io/neverendingbooks/a-colgo-endgame">COLgo</a>, is SNORT played with go-stones on a go-board. That is, adjacent stones must have the same colour.</p>
+<p>SNORT is a &#8216;hot&#8217; game, meaning that each player is eager to move as most moves will improve your position. In COL players are reluctant to move, because a move limits your next moves.</p>
+<p>For this reason, SNORT positions are much harder to evaluate, and one needs the full force of Conways&#8217;s <a href="https://en.wikipedia.org/wiki/On_Numbers_and_Games">ONAG</a>.</p>
+<p>Here&#8217;s a SNORTgo endgame. <strong>Who has a winning strategy?</strong>, and what is the first move in that strategy?</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/SnortGo1.png" width=100% ></p>
+<p>The method to approach such an endgame is similar to that in <a href="https://lievenlebruyn.github.io/neverendingbooks/a-colgo-endgame">COLgo</a>. First we remove all dead spots from the board.</p>
+<p>What remains, are a 4 spots available only to Right (white) and 5 spots available only to Left (bLack). Further, there a 3 &#8216;live&#8217; regions: the upper righthand corner and the two lower corners.</p>
+<p>The value of these corners must be computed inductively.</p>
+<p>Here&#8217;s the answer:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/SnortGo3.png" width=100%></p>
+<p>For example, Right&#8217;s best option in the left-most game (corresponding to the upper righthand corner of the endgame) is to put his stone on N12, resulting in a game in which neither player can move (the zero game).</p>
+<p>On the other hand, Left can put a stone at either N11, N12 or N13 leaving a game in which she has two more moves, whereas Right han none (the $2$ game).</p>
+<p>The other positions are computed similarly.</p>
+<p>To get the value of the endgame we have to sum up all these values.</p>
+<p>This can either be done using the addition rule given in ONAG, or by using programs in combinatorial game theory.</p>
+<p>There&#8217;s <a href"http://cgsuite.sourceforge.net/">Combinatorial Game Suite</a>, developed by Aaron Siegel. But, for some reason I can no longer use it on macOS High Sierra.</p>
+<p>Fortunately, the older program <a href="http://homepages.gac.edu/~wolfe/games/">David Wolfe&#8217;s toolkit</a> is still available, and runs on my MacBook.</p>
+<p>The sum game evaluates to $\{ \{3|2 \}|-1 \}$, which is a &#8216;fuzzy&#8217; game, that is, its value is confused with $0$.</p>
+<p>This means that the first player to move has a winning strategy in the endgame.</p>
+<p>Can you spot the (unique) winning move for Right (white) and one (of two) winning move for Left (bLack)?</p>
+<p><strong>Spoiler alert</strong> : solution in the comments.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-snortgo-endgame/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Aaron Siegel on transfinite number hacking</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/aaron-siegel-on-transfinite-number-hacking/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/aaron-siegel-on-transfinite-number-hacking/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 16 May 2012 14:55:06 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Siegel]]></category>
+		<guid isPermaLink="false">http://192.168.0.163/?p=5772</guid>
+
+					<description><![CDATA[One of the coolest (pure math) facts in Conway&#8217;s book ONAG is the explicit construction of the algebraic closure $\overline{\mathbb{F}_2}$ of the field with two&#8230;]]></description>
+										<content:encoded><![CDATA[<p>One of the coolest (pure math) facts in Conway&#8217;s book <a href="http://en.wikipedia.org/wiki/On_Numbers_and_Games">ONAG</a> is the explicit construction of the algebraic closure $\overline{\mathbb{F}_2}$ of the field with two elements as the set of all <a href="http://en.wikipedia.org/wiki/Ordinal_number">ordinal numbers</a> smaller than $(\omega^{\omega})^{\omega}$ equipped with nimber addition and multiplication.</p>
+<p>Some time ago we did run a couple of posts on this. In <a href="https://lievenlebruyn.github.io/neverendingbooks/on2-transfinite-number-hacking ">transfinite number hacking</a> we recalled Cantor&#8217;s ordinal arithmetic and in <a href="https://lievenlebruyn.github.io/neverendingbooks/on2-conways-nim-arithmetics ">Conway&#8217;s nim arithmetics</a> we showed that Conway&#8217;s simplicity rules for addition and multiplication turns the set of all ordinal numbers into a field of characteristic zero : $\mathbb{On}_2$ (pronounced &#8216;Onto&#8217;).</p>
+<p>In the post <a href="https://lievenlebruyn.github.io/neverendingbooks/on2-extending-lenstras-list ">extending Lenstra&#8217;s list</a> we gave Hendrik Lenstra&#8217;s effective construction of the mystery elements $\alpha_p$ (for prime numbers $p$) needed to do actual calculations in $\mathbb{On}_2$. We used SAGE to check the values for $p \leq 41$ and solved the conjecture left in Lenstra&#8217;s paper <a href="https://openaccess.leidenuniv.nl/bitstream/handle/1887/2125/346_027.pdf?sequence=1">Nim multiplication</a>  that $(\omega^{\omega^{13}})^{43} = \omega^{\omega^7} + 1$ and determined $\alpha_p$ for $p \leq 67$.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/aaronsiegel.jpg" align=right hspace=10 /><br />
+Aaron Siegel has now dramatically extended this and calculated the $\alpha_p$ for all primes $p \leq 181$. He mails :</p>
+<p>&#8220;thinking about the problem I figured it shouldn&#8217;t be too hard to write a dedicated program for it.  So I threw together some Java code and&#8230; pushed the table up to p = 181!  You can see the results below.  Q(f(p)), excess, and alpha_p are all as defined by Lenstra.  The &#8220;t(sec)&#8221; column is the number of seconds the calculation took, on my 3.4GHz iMac.  The most difficult case, by far, was p = 167, which took about five days.</p>
+<p>I&#8217;m including results for all p < 300, except for p = 191, 229, 263, and 283.  p = 263 and 283 are omitted because they involve computations in truly enormous finite fields (exponent 102180 for p = 263, and 237820 for p = 283).  I'm confident that if I let my computer grind away at them for long enough, we'd get an answer... but it would take several months of CPU time at least.
+
+p = 191 and 229 are more troubling cases.  Consider p = 191: it's the first prime p such that p-1 has a factor with excess > 1.  (190 = 2 x 5 x 19, and alpha_19 has excess 4.)  This seems to have a significant effect on the excess of alpha_191.  I&#8217;ve tried it for every excess up to m = 274, and for all powers of 2 up to m = 2^32.  No luck.&#8221;</p>
+<p>Aaron is  writing a book on combinatorial game theory (to be published in the AMS GSM series, hopefully later this year) and will include details of these computations. For the impatient, here&#8217;s his list</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/list1.jpg"><br />
+</center><br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/list2.jpg"><br />
+</center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/aaron-siegel-on-transfinite-number-hacking/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

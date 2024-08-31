@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>IUT &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/iut/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 19 Nov 2017 17:18:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>The latest on Mochizuki</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-latest-on-mochizuki/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-latest-on-mochizuki/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 19 Nov 2017 17:18:35 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[ABC]]></category>
+		<category><![CDATA[IUT]]></category>
+		<category><![CDATA[Mochizuki]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7328</guid>
+
+					<description><![CDATA[Once in every six months there&#8217;s a flurry of online excitement about Mochizuki&#8217;s alleged proof of the abc-conjecture. It seems to be that time of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Once in every six months there&#8217;s a flurry of online excitement about Mochizuki&#8217;s alleged proof of the abc-conjecture.</p>
+<p>It seems to be that time of the year again.</p>
+<p>The twitter-account of the ever optimistic <a href="https://twitter.com/math_jin">@math_jin</a> is probably the best source for (positive) news about IUT/ABC. He now announces the latest version of Yamashita&#8217;s &#8216;summary&#8217; of Mochizuki&#8217;s proof:</p>
+<blockquote class="twitter-tweet" data-lang="en">
+<p lang="ja" dir="ltr">山下剛さんのIUTサーベイが更新されました。<br />Go Yamashita<br />A proof of the abc conjecture after Mochizuki.<br />preprint. last updated on 18/Nov/2017.<a href="https://t.co/XtnMEO3zoQ">https://t.co/XtnMEO3zoQ</a><a href="https://twitter.com/hashtag/IUTABC?src=hash&amp;ref_src=twsrc%5Etfw">#IUTABC</a></p>
+<p>&mdash; math_jin (@math_jin) <a href="https://twitter.com/math_jin/status/931802566446292992?ref_src=twsrc%5Etfw">November 18, 2017</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Another informed source is <a href="http://www.edwardfrenkel.com/">Ed Frenkel</a>. He sometimes uses his twitter-account <a href="https://twitter.com/edfrenkel">@edfrenkel</a> to broadcast <a href="https://www.maths.nottingham.ac.uk/personal/ibf/">Ivan Fesenko</a>&#8216;s enthusiasm.</p>
+<blockquote class="twitter-tweet" data-lang="en">
+<p lang="en" dir="ltr">Big news on Mochizuki&#39;s groundbreaking IUT: Over 1000 comments on his 4 papers have been addressed &amp; the final versions sent back to the journal for approval. Hopefully, will be published soon.<br />Here&#39;s Ivan Fesenko&#39;s interview about IUT on the AMS website.<a href="https://t.co/6GLk3Xh0lm">https://t.co/6GLk3Xh0lm</a></p>
+<p>&mdash; Edward Frenkel (@edfrenkel) <a href="https://twitter.com/edfrenkel/status/931631974879391744?ref_src=twsrc%5Etfw">November 17, 2017</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Googling further, I stumbled upon an older (newspaper) article on the subject: <a href="http://www.sueddeutsche.de/wissen/mathematik-das-grosse-abc-1.3141614">das grosse ABC</a> by <a href="">Marlene Weiss</a>, for which she got silver at the 2017 <a href="https://sjawards.aaas.org/awards/field_award_year/2017-85">science journalism awards</a>.</p>
+<p>In case you prefer an English translation: <a href="https://mcmprodaaas.s3.amazonaws.com/s3fs-public/ABC_translation.pdf?h89CxF.OybOlwYpvLIgsaSYnnRko9KBs">The big ABC</a>.</p>
+<p>Here&#8217;s her opening paragraph:</p>
+<p>&#8220;In a children’s story written by the Swiss author Peter Bichsel, a lonely man decides to invent his own language. He calls the table “carpet”, the chair “alarm clock”, the bed “picture”. At first he is enthusiastic about his idea and always thinks of new words, his sentences sound original and funny. But after a while, he begins to forget the old words.&#8221;</p>
+<p>The article is less optimistic than other recent popular accounts of Mochizuki&#8217;s story, including:</p>
+<p><a href="https://www.nature.com/news/monumental-proof-to-torment-mathematicians-for-years-to-come-1.20342">Monumental proof to torment mathematicians for years to come</a> in Nature by Davide Castelvecchi.</p>
+<p><a href="https://www.quantamagazine.org/hope-rekindled-for-abc-proof-20151221/">Hope Rekindled for Perplexing Proof</a> in Quanta-magazine by Kevin Hartnett.</p>
+<p><a href="https://www.newscientist.com/article/2146647-baffling-abc-maths-proof-now-has-impenetrable-300-page-summary/">Baffling ABC maths proof now has impenetrable 300-page ‘summary’</a> in the New Scientist by Timothy Revell.</p>
+<p>Marlene Weiss fears a sad ending:</p>
+<p>&#8220;Table is called “carpet”, chair is called “alarm clock”, bed is called “picture”. In the story by Peter Bichsel, the lonely man ends up having so much trouble communicating with other people that he speaks only to himself. It is a very sad story.&#8221;</p>
+<p>Perhaps things will turn out for the better, and we&#8217;ll hear about it sometime.</p>
+<p>In six months, I&#8217;d say&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-latest-on-mochizuki/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

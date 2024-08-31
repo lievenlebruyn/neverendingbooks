@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Spivak &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/spivak/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 29 Jan 2022 10:03:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Learners and Poly</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/learners-and-poly/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/learners-and-poly/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 29 Jan 2022 10:03:09 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Gavranovic]]></category>
+		<category><![CDATA[learners]]></category>
+		<category><![CDATA[neural networks]]></category>
+		<category><![CDATA[Poly]]></category>
+		<category><![CDATA[Spivak]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10133</guid>
+
+					<description><![CDATA[Brendan Fong, David Spivak and Remy Tuyeras cooked up a vast generalisation of neural networks in their paper Backprop as Functor: A compositional perspective on&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Brendan Fong</a>, David Spivak and Remy Tuyeras cooked up a vast generalisation of neural networks in their paper <a href="https://arxiv.org/abs/1711.10455">Backprop as Functor: A compositional perspective on supervised learning</a>.</p>
+<p>Here&#8217;s a nice introduction to neural networks for category theorists by <a href="https://www.brunogavranovic.com/">Bruno Gavranovic</a>. At 1.49m he tries to explain supervised learning with neural networks in one slide. Learners show up later in the talk.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ji8MHKlQZ9w?start=109" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>$\mathbf{Poly}$ is the category of all polynomial functors, that is, things of the form<br />
+\[<br />
+p = \sum_{i \in p(1)} y^{p[i]}~:~\mathbf{Sets} \rightarrow \mathbf{Sets} \qquad S \mapsto \bigsqcup_{i \in p(1)} Maps(p[i],S) \]<br />
+with $p(1)$ and all $p[i]$ sets.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/poly">Last time</a> I gave Spivak&#8217;s &#8216;corolla&#8217; picture to think about such functors.</p>
+<p>I prefer to view $p \in \mathbf{Poly}$ as an horribly discrete &#8216;sheaf&#8217; $\mathcal{P}$ over the &#8216;space&#8217; $p(1)$ with stalk $p[i]=\mathcal{P}_i$ at point $i \in p(1)$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly1.png" width=40% \><br />
+</center></p>
+<p>A morphism $p \rightarrow q$ in $\mathbf{Poly}$ is a map $\varphi_1 : p(1) \rightarrow q(1)$, together with for all $i \in p(1)$ a map $\varphi^{\#}_i : q[\varphi_1(i)] \rightarrow p[i]$.</p>
+<p>In the sheaf picture, this gives a map of sheaves over the space $p(1)$ from the inverse image sheaf $\varphi_1^* \mathcal{Q}$ to $\mathcal{P}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly2.png" width=70% \><br />
+</center></p>
+<p>But, unless you dream of sheaves in the night, by all means stick to Spivak&#8217;s corolla picture.</p>
+<p>A <em>learner</em> $A \rightarrow B$ between two sets $A$ and $B$ is a complicated tuple of things $(P,I,U,R)$:</p>
+<ul>
+<li>$P$ is a set, a <em>parameter space</em> of some maps from $A$ to $B$.</li>
+<li>$I$ is the <em>interpretation map</em> $I : P \times A \rightarrow B$ describing the maps in $P$.</li>
+<li>$U$ is the <em>update map</em> $U : P \times A \times B \rightarrow P$, the learning procedure. The idea is that $U(p,a,b)$ is a map which sends $a$ closer to $b$ than the map $p$ did.</li>
+<li>$R$ is the <em>request map</em> $R : P \times A \times B \rightarrow A$.</li>
+</ul>
+<p>Here&#8217;s a nice application of $\mathbf{Poly}$&#8217;s set-up:</p>
+<p><strong>Morphisms $\mathbf{P y^P \rightarrow Maps(A,B) \times Maps(A \times B,A) y^{A \times B}}$ in $\mathbf{Poly}$ coincide with learners $\mathbf{A \rightarrow B}$ with parameter space $\mathbf{P}$.</strong></p>
+<p>This follows from unpacking the definition of morphism in $\mathbf{Poly}$ and the process CT-ers prefer to call <a href="https://en.wikipedia.org/wiki/Currying">Currying</a>.</p>
+<p>The space-map $\varphi_1 : P \rightarrow Maps(A,B) \times Maps(A \times B,A)$ gives us the interpretation and request-map, whereas the sheaf-map $\varphi^{\#}$ gives us the more mysterious update-map $P \times A \times B \rightarrow P$.</p>
+<p>$\mathbf{Learn(A,B)}$ is the category with objects all the learners $A \rightarrow B$ (for all paramater-sets $P$), and with morphisms defined naturally, that is, maps between the parameter-sets, compatible with the structural maps.</p>
+<p>A surprising result from David Spivak&#8217;s paper <a href="https://arxiv.org/abs/2103.01189">Learners&#8217; Languages</a> is</p>
+<p><strong>$\mathbf{Learn(A,B)}$ is a topos. In fact, it is the topos of all set-valued representations of a (huge) directed graph $\mathbf{G_{AB}}$.</strong></p>
+<p>This will take some time.</p>
+<p>Let&#8217;s bring some dynamics in. Take any polynmial functor $p \in \mathbf{Poly}$ and fix a morphism in $\mathbf{Poly}$<br />
+\[<br />
+\varphi = (\varphi_1,\varphi[-])~:~p(1) y^{p(1)} \rightarrow p \]<br />
+with space-map $\varphi_1$ the identity map.</p>
+<p>We form a directed graph:</p>
+<ul>
+<li> the vertices are the elements of $p(1)$,</li>
+<li> vertex $i \in p(1)$ is the source vertex of exactly one arrow for every $a \in p[i]$,</li>
+<li> the target vertex of that arrow is the vertex $\phi[i](a) \in p(1)$.</li>
+</ul>
+<p>Here&#8217;s one possibility from Spivak&#8217;s paper for $p = 2y^2 + 1$, with the coefficient $2$-set $\{ \text{green dot, yellow dot} \}$, and with $1$ the singleton $\{ \text{red dot} \}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly3.png" width=40% \><br />
+</center></p>
+<p>Start at one vertex and move after a minute along a directed edge to the next (possibly the same) vertex. The potential evolutions in time will then form a tree, with each node given a label in $p(1)$.</p>
+<p>If we start at the green dot, we get this tree of potential time-evolutions</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly4.png" width=80% \><br />
+</center></p>
+<p>There are exactly $\# p[i]$ branches leaving a node labeled $i \in p(1)$, and all subtrees emanating from equal labelled nodes are isomorphic.</p>
+<p>If we had started at the yellow dot we had obtained a labelled tree isomorphic to the subtree emanating here from any yellow dot.</p>
+<p>We can do the same things for any morphism in $\mathbf{Poly}$ of the form<br />
+\[<br />
+\varphi = (\varphi_1,\varphi[-])~:~Sy^S \rightarrow p \]<br />
+Now, we have a directed graph with vertices the elements $s \in S$, with as many edges leaving vertex $s$ as there are elements $a \in p[\varphi_1(s)]$, and with the target vertex of the edge labeled $a$ starting in $s$ the vertex $\varphi[\varphi_1(s)](A)$.</p>
+<p>Once we have this directed graph on $\# S$ vertices we can label vertex $s$ with the label $\varphi_1(s)$ from $p(1)$.</p>
+<p>In this way, the time evolutions starting at a vertex $s \in S$ will give us a $p(1)$-labelled rooted tree.</p>
+<p>But now, it is possibly that two distinct vertices can have the same $p(1)$-labeled tree of evolutions. But also, trees corresponding to equal labeled vertices can be different.</p>
+<p>Right, I guess we&#8217;re ready to define the graph $G_{AB}$ and prove that $\mathbf{Learn(A,B)}$ is a topos.</p>
+<p>In the case of learners, we have the target polynomial functor $p=C y^{A \times B}$ with $C = Maps(A,B) \times Maps(A \times B,A)$, that is<br />
+\[<br />
+p(1) = C \quad \text{and all} \quad p[i]=A \times B \]</p>
+<p>Start with the free rooted tree $T$ having exactly $\# A \times B$ branches growing from each node.</p>
+<p>Here&#8217;s the directed graph $G_{AB}$:</p>
+<ul>
+<li><em>vertices</em> $v_{\chi}$ correspond to the different $C$-labelings of $T$, one $C$-labeled rooted tree $T_{\chi}$ for every map $\chi : vtx(T) \rightarrow C$,</li>
+<li><em>arrows</em> $v_{\chi} \rightarrow v_{\omega}$ if and only if $T_{\omega}$ is the rooted $C$-labelled tree isomorphic to the subtree of $T_{\chi}$ rooted at one step from the root.</li>
+</ul>
+<p><strong>A learner $\mathbf{A \rightarrow B}$ gives a set-valued representation of $\mathbf{G_{AB}}$.</strong></p>
+<p>We saw that a learner $A \rightarrow B$ is the same thing as a morphism in $\mathbf{Poly}$<br />
+\[<br />
+\varphi = (\varphi_1,\varphi[-])~:~P y^P \rightarrow C y^{A \times B} \]<br />
+with $P$ the parameter set of maps.</p>
+<p>Here&#8217;s what we have to do:</p>
+<p>1. Draw the directed graph on vertices $p \in P$ giving the dynamics of the morphism $\varphi$. This graph describes how the learner can cycle through the parameter-set.</p>
+<p>2. Use the map $\varphi_1$ to label the vertices with elements from $C$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly6.png" width=80% \><br />
+</center></p>
+<p>3. For each vertex draw the rooted $C$-labeled tree of potential time-evolutions starting in that vertex.</p>
+<p>In this example the time-evolutions of the two green vertices are the same, but in general they can be different.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly7.png" width=80% \><br />
+</center></p>
+<p>4. Find the vertices in $G_{AB}$ determined by these $C$-labeled trees and note that they span a full subgraph of $G_{AB}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly8.png" width=60% \><br />
+</center></p>
+<p>5. The vertex-set $P_v$ consists of all elements from $p$ whose ($C$-labeled) vertex has evolution-tree $T_v$. If $v \rightarrow w$ is a directed edge in $G_{AB}$ corresponding to an element $(a,b) \in A \times B$, then the map on the vertex-sets corresponding to this edge is<br />
+\[<br />
+f_{v,(a,b)}~:~P_v \rightarrow P_w \qquad p \mapsto \varphi[\varphi_1(p)](a,b) \]</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/poly9.png" width=60% \><br />
+</center></p>
+<p><strong>A set-valued representation of $\mathbf{G_{AB}}$ gives a learner $\mathbf{A \rightarrow B}$.</strong></p>
+<p>1. Take a set-valued representation of $G_{AB}$, that is, the finite or infinite collection of vertices $V$ in $G_{AB}$ where the vertex-set $P_v$ is non-empty. Note that these vertices span a full subgraph of $G_{AB}$.</p>
+<p>And, for each directed arrow $v \rightarrow w$ in this subgraph, labeled by an element $(a,b) \in A \times B$ we have a map<br />
+\[<br />
+f_{v,(a,b)}~:~P_v \rightarrow P_w \]</p>
+<p>2. The parameter set of our learner will be $P = \sqcup_v P_v$, the disjoint union of the non-empty vertex-sets.</p>
+<p>3. The space-map $\varphi_1 : P \rightarrow C$ will send an element in $P_v$ to the $C$-label of the root of the tree $T_v$. This gives us already the interpretation and request maps<br />
+\[<br />
+I : P \times A \rightarrow B \quad \text{and} \quad R : P \times A \times B \rightarrow A \]</p>
+<p>4. The update map $U : P \times A \times B \rightarrow P$ follows from the sheaf-map we can define stalk-wise<br />
+\[<br />
+\varphi[\varphi_1(p)](a,b) = f_{v,(a,b)}(p) \]<br />
+if $p \in P_v$.</p>
+<p>That&#8217;s all folks!</p>
+<p>$\mathbf{Learn(A,B)}$ is equivalent to the (covariant) functors $\mathbf{G_{AB} \rightarrow Sets}$.</p>
+<p>Changing the directions of all arrows in $G_{AB}$ any covariant functor $\mathbf{G_{AB} \rightarrow Sets}$ becomes a contravariant functor $\mathbf{G_{AB}^o \rightarrow Sets}$, making $\mathbf{Learn(A,B)}$ an honest to Groth topos!</p>
+<p>Every topos comes with its own logic, so we have a &#8216;learners&#8217; logic&#8217;. (to be continued)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/learners-and-poly/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Poly</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/poly/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/poly/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 26 Jan 2022 12:07:40 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[applied category theory]]></category>
+		<category><![CDATA[Poly]]></category>
+		<category><![CDATA[Spivak]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10109</guid>
+
+					<description><![CDATA[Following up on the deep learning and toposes-post, I was planning to do something on the logic of neural networks. Prepping for this I saw&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Following up on the <a href="https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes">deep learning and toposes</a>-post, I was planning to do something on the logic of neural networks.</p>
+<p>Prepping for this I saw David Spivak&#8217;s paper <a href="https://arxiv.org/abs/2103.01189">Learner&#8217;s Languages</a> doing exactly that, but in the more general setting of &#8216;learners&#8217; (see also the deep learning post).</p>
+<p>And then &#8230; I fell under the spell of $\mathbf{Poly}$.</p>
+<p>Spivak is a story-telling talent. A long time ago I copied his short story (actually his abstract for a talk) &#8220;Presheaf, the cobbler&#8221; in the <a href="https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits">Children have always loved colimits</a>-post.</p>
+<p>Last week, he did post <a href="https://topos.site/blog/2022/01/poly-makes-me-happy-and-smart/">Poly makes me happy and smart</a> on the blog of the Topos Institute, which is another great read.</p>
+<p>If this is way too &#8216;fluffy&#8217; for you, perhaps you should watch his talk <a href="https://www.youtube.com/watch?v=Cp5_o2lDqj0">Poly: a category of remarkable abundance</a>.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Cp5_o2lDqj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>If you like (applied) category theory and have some days to waste, you can binge-watch all 15 episodes of the Poly-course <a href="https://topos.site/poly-course/">Polynomial Functors: A General Theory of Interaction</a>.</p>
+<p>If you are more the reading-type, the 273 pages of the <a href="https://topos.site/poly-book.pdf">Poly-book</a> will also kill a good number of your living hours.</p>
+<p>Personally, I have no great appetite for category theory, I prefer to digest it in homeopathic doses. And, I&#8217;m allergic to co-terminology.</p>
+<p>So then, how to define $\mathbf{Poly}$ for the likes of me?</p>
+<p>$\mathbf{Poly}$, you might have surmised, is a category. So, we need &#8216;objects&#8217; and &#8216;morphisms&#8217; between them.</p>
+<p>Any set $A$ has a corresponding &#8216;representable functor&#8217; sending a given set $S$ to the set of all maps from $A$ to $S$<br />
+\[<br />
+y^A~:~\mathbf{Sets} \rightarrow \mathbf{Sets} \qquad S \mapsto S^A=Maps(A,S) \]<br />
+This looks like a monomial in a variable $y$ ($y$ for Yoneda, of course), but does it work?</p>
+<p>What is $y^1$, where $1$ stands for the one-element set $\{ \ast \}$? $Maps(1,S)=S$, so $y^1$ is the identity functor sending $S$ to $S$.</p>
+<p>What is $y^0$, where $0$ is the empty set $\emptyset$? Well, for any set $S$ there is just one map $\emptyset \rightarrow S$, so $y^0$ is the constant functor sending any set $S$ to $1$. That is, $y^0=1$.</p>
+<p>Going from monomials to <em>polynomials</em> we need an addition. We add such representable functors by taking disjoint unions (finite or infinite), that is<br />
+\[<br />
+\sum_{i \in I} y^{A_i}~:~\mathbf{Sets} \rightarrow \mathbf{Sets} \qquad S \mapsto \bigsqcup_{i \in I} Maps(A_i,S) \]<br />
+If all $A_i$ are equal (meaning, they have the same cardinality) we use the shorthand $Iy^A$ for this sum.</p>
+<p>The <em>objects</em> in $\mathbf{Poly}$ are exactly these &#8216;polynomial functors&#8217;<br />
+\[<br />
+p = \sum_{i \in I} y^{p[i]} \]<br />
+with all $p[i] \in \mathbf{Sets}$. Remark that $p(1)=I$ as for any set $A$ there is just one map to $1$, that is $y^A(1) = Maps(A,1) = 1$, and we can write<br />
+\[<br />
+p = \sum_{i \in p(1)} y^{p[i]} \]<br />
+An object $p \in \mathbf{Poly}$ is thus described by the couple $(p(1),p[-])$ with $p(1)$ a set, and a functor $p[-] : p(1) \rightarrow \mathbf{Sets}$ where $p(1)$ is now a category with objects the elements of $p(1)$ and no morphisms apart from the identities.</p>
+<p>We can depict $p$ by a trimmed down forest, Spivak calls it the <em>corolla</em> of $p$, where the tree roots are the elements of $p(1)$ and the tree with root $i \in p(1)$ has one branch from the root for any element in $p[i]$. The corolla of $p=y^2+2y+1$ looks like</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/corollaPoly.png" width=50% \><br />
+</center></p>
+<p>If $M$ is an $m$-dimensional manifold, then you might view its tangent bundle $TM$ set-theoretically as the &#8216;corolla&#8217; of the polynomial functor $M y^{\mathbb{R}^m}$, the tree-roots corresponding to the points of the manifold, and the branches to the different tangent vectors in these points.</p>
+<p><em>Morphisms</em> in $\mathbf{Poly}$ are a bit strange. For two polynomial functors $p=(p(1),p[-])$ and $q=(q(1),q[-])$ a map $p \rightarrow q$ in $\mathbf{Poly}$ consists of</p>
+<ul>
+<li>a map $\phi_1 : p(1) \rightarrow q(1)$ on the tree-roots in the right direction, and</li>
+<li>for any $i \in p(1)$ a map $q[\phi_1(i)] \rightarrow p[i]$ on the branches in the opposite direction</li>
+</ul>
+<p>In our manifold/tangentbundle example, a morphism $My^{\mathbb{R}^m} \rightarrow y^1$ sends every point $p \in M$ to the unique root of $y^1$ and the unique branch in $y^1$ picks out a unique tangent-vector for every point of $M$. That is, vectorfields on $M$ are very special (smooth) morphisms $Mu^{\mathbb{R}^m} \rightarrow y^1$ in $\mathbf{Poly}$.</p>
+<p>A smooth map between manifolds $M \rightarrow N$, does <em>not</em> determine a morphism $My^{\mathbb{R}^m} \rightarrow N y^{\mathbb{R}^n}$ in $\mathbf{Poly}$ because tangent vectors are pushed forward, not pulled back.</p>
+<p>If instead we view the cotangent bundle $T^*M$ as the corolla of the polynomial functor $My^{\mathbb{R}^m}$, then everything works well.</p>
+<p>But then, I promised not to use co-terminology&#8230;</p>
+<p>Another time I hope to tell you how $\mathbf{Poly}$ helps us to understand the logic of learners.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/poly/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Deep learning and toposes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 16 Jan 2022 15:09:30 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Belfiore]]></category>
+		<category><![CDATA[Bennequin]]></category>
+		<category><![CDATA[Fong]]></category>
+		<category><![CDATA[locale]]></category>
+		<category><![CDATA[neural networks]]></category>
+		<category><![CDATA[poset]]></category>
+		<category><![CDATA[Spivak]]></category>
+		<category><![CDATA[toposes]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10027</guid>
+
+					<description><![CDATA[Judging from this and that paper, deep learning is the string theory of the 2020s for geometers and representation theorists. String theory is the 90s&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Judging from <a href="https://arxiv.org/abs/2101.11487">this</a> and <a href="https://arxiv.org/abs/2007.12213">that</a> paper, <a href="https://en.wikipedia.org/wiki/Deep_learning">deep learning</a> is the string theory of the 2020s for geometers and representation theorists.</p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">String theory is the 90s answer to the tears of algebraic geometers worldwide trying to write the &quot;Applications&quot; part of their grant proposals. <a href="https://t.co/AboZ5WkPtc">https://t.co/AboZ5WkPtc</a></p>
+<p>&mdash; algebraic geometer BLM (@BarbaraFantechi) <a href="https://twitter.com/BarbaraFantechi/status/1471804656712134659?ref_src=twsrc%5Etfw">December 17, 2021</a></p></blockquote>
+<p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>If you want to know quickly what neural networks <em>really</em> are, I can recommend the post <a href="https://bdtechtalks.com/2021/01/28/deep-learning-explainer/">demystifying deep learning</a>.</p>
+<p>The typical layout of a deep neural network has an <em>input layer</em> $L_0$ allowing you to feed $N_0$ numbers to the system (a vector $\vec{v_0} \in \mathbb{R}^{N_0}$), an <em>output layer</em> $L_p$ spitting $N_p$ numbers back (a vector $\vec{v_p} \in \mathbb{R}^{N_p}$), and $p-1$ <em>hidden layers</em> $L_1,\dots,L_{p-1}$ where all the magic happens. The hidden layer $L_i$ has $N_i$ <em>virtual neurons</em>, their states giving a vector $\vec{v_i} \in \mathbb{R}^{N_i}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DNN.jpg" width=100% /><br />
+Picture taken from <a href="https://arxiv.org/abs/2108.04751">Logical informations cells I</a><br />
+</center></p>
+<p>For simplicity let&#8217;s assume all neurons in layer $L_i$ are wired to every neuron in layer $L_{i+1}$, the relevance of these connections given by a matrix of <em>weights</em> $W_i \in M_{N_{i+1} \times N_i}(\mathbb{R})$.</p>
+<p>If at any given moment the &#8216;state&#8217; of the neural network is described by the state-vectors $\vec{v_1},\dots,\vec{v_{p-1}}$ and the weight-matrices $W_0,\dots,W_p$, then an input $\vec{v_0}$ will typically result in new states of the neurons in layer $L_1$ given by</p>
+<p>\[<br />
+\vec{v_1}&#8217; = c_0(W_0.\vec{v_0}+\vec{v_1}) \]</p>
+<p>which will then give new states in layer $L_2$</p>
+<p>\[<br />
+\vec{v_2}&#8217; = c_1(W_1.\vec{v_1}&#8217;+\vec{v_2}) \]</p>
+<p>and so on, rippling through the network, until we get as the output</p>
+<p>\[<br />
+\vec{v_p} = c_{p-1}(W_{p-1}.\vec{v_{p-1}}&#8217;) \]</p>
+<p>where all the $c_i$ are fixed smooth <em>activation functions</em> $c_i : \mathbb{R}^{N_{i+1}} \rightarrow \mathbb{R}^{N_{i+1}}$.</p>
+<p>This is just the dynamic, or forward working of the network.</p>
+<p>The <em>learning</em> happens by comparing the computed output with the expected output, and working backwards through the network to alter slightly the state-vectors in all layers, and the weight-matrices between them. This process is called <a href="https://en.wikipedia.org/wiki/Backpropagation"><em>back-propagation</em></a>, and involves the <em>gradient descent</em> procedure.</p>
+<p>Even from this (over)simplified picture it seems doubtful that <em>set valued (!)</em> toposes are suitable to describe deep neural networks, as the <a href="https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory">Paris-Huawei-topos-team</a> claims in their recent paper <a href="https://arxiv.org/abs/2106.14587">Topos and Stacks of Deep Neural Networks</a>.</p>
+<p>Still, there is a vast generalisation of neural networks: <em>learners</em>, developed by <a href="http://www.brendanfong.com/">Brendan Fong</a>, <a href="https://math.mit.edu/~dspivak/">David Spivak</a> and <a href="http://www.normalesup.org/~tuyeras/">Remy Tuyeras</a> in their paper <a href="https://arxiv.org/abs/1711.10455">Backprop as Functor: A compositional perspective on supervised learning</a> (which btw is an excellent introduction for mathematicians to neural networks).</p>
+<p>For any two sets $A$ and $B$, a <em>learner</em> $A \rightarrow B$ is a tuple $(P,I,U,R)$ where</p>
+<ul>
+<li>$P$ is a set, a <em>parameter space</em> of some functions from $A$ to $B$.</li>
+<li>$I$ is the <em>interpretation map</em> $I : P \times A \rightarrow B$ describing the functions in $P$.</li>
+<li>$U$ is the <em>update map</em> $U : P \times A \times B \rightarrow P$, part of the learning procedure. The idea is that $U(p,a,b)$ is a map which sends $a$ closer to $b$ than the map $p$ did.</li>
+<li>$R$ is the <em>request map</em> $R : P \times A \times B \rightarrow A$, the other part of the learning procedure. The idea is that the new element $R(p,a,b)=a&#8217;$ in $A$ is such that $p(a&#8217;)$ will be closer to $b$ than $p(a)$ was.</li>
+</ul>
+<p>The request map is also crucial is defining the <em>composition</em> of two learners $A \rightarrow B$ and $B \rightarrow C$. $\mathbf{Learn}$ is the (symmetric, monoidal) category with objects all sets and morphisms equivalence classes of learners (defined in the natural way).</p>
+<p>In this way we can view a deep neural network with $p$ layers as before to be the composition of $p$ learners<br />
+\[<br />
+\mathbb{R}^{N_0} \rightarrow \mathbb{R}^{N_1} \rightarrow \mathbb{R}^{N_2} \rightarrow \dots \rightarrow \mathbb{R}^{N_p} \]<br />
+where the learner describing the transition from the $i$-th to the $i+1$-th layer is given by the equivalence class of data $(A_i,B_i,P_i,I_i,U_i,R_i)$ with<br />
+\[<br />
+A_i = \mathbb{R}^{N_i},~B_i = \mathbb{R}^{N_{i+1}},~P_i = M_{N_{i+1} \times N_i}(\mathbb{R}) \times \mathbb{R}^{N_{i+1}} \]<br />
+and interpretation map for $p = (W_i,\vec{v}_{i+1}) \in P_i$<br />
+\[<br />
+I_i(p,\vec{v_i}) = c_i(W_i.\vec{v_i}+\vec{v}_{i+1}) \]<br />
+The update and request maps (encoding back-propagation and gradient-descent in this case) are explicitly given in theorem III.2 of the paper, and they behave functorial (whence the title of the paper).</p>
+<p>More generally, we will now associate objects of a topos (actually just sheaves over a simple topological space) to a network op $p$ learners<br />
+\[<br />
+A_0 \rightarrow A_1 \rightarrow A_2 \rightarrow \dots \rightarrow A_p \]<br />
+inspired by section I.2 of <a href="https://arxiv.org/abs/2106.14587">Topos and Stacks of Deep Neural Networks</a>.</p>
+<p>The underlying category will be the poset-category (the opposite of the ordering of the layers)<br />
+\[<br />
+0 \leftarrow 1 \leftarrow 2 \leftarrow \dots \leftarrow p \]<br />
+The presheaf on a poset is a locale and in this case even the topos of sheaves on the topological space with $p+1$ nested open sets.<br />
+\[<br />
+X = U_0 \supseteq U_1 \supseteq U_2 \supseteq \dots \supseteq U_p = \emptyset \]<br />
+If the learner $A_i \rightarrow A_{i+1}$ is (the equivalence class) of the tuple $(A_i,A_{i+1},P_i,I_i,U_i,R_i)$ we will now describe two sheaves $\mathcal{W}$ and $\mathcal{X}$ on the topological space $X$.</p>
+<p>$\mathcal{W}$ has as sections $\Gamma(\mathcal{W},U_i) = \prod_{j=i}^{p-1} P_i$ and the obvious projection maps as the restriction maps.</p>
+<p>$\mathcal{X}$ has as sections $\Gamma(\mathcal{X},U_i) = A_i \times \Gamma(\mathcal{W},U_i)$ and restriction map to the next smaller open<br />
+\[<br />
+\rho^i_{i+1}~:~\Gamma(\mathcal{X},U_i) \rightarrow \Gamma(\mathcal{X},U_{i+1}) \qquad (a_i,(p_i,p&#8217;)) \mapsto (p_i(a_i),p&#8217;) \]<br />
+and other retriction maps by composition.</p>
+<p>A major result in <a href="https://arxiv.org/abs/2106.14587">Topos and Stacks of Deep Neural Networks</a> is that back-propagation is a natural transformation, that is, a sheaf-morphism $\mathcal{X} \rightarrow \mathcal{X}$.</p>
+<p>In this general setting of layered learners we can always define a map on the sections of $\mathcal{X}$ (for every open $U_i$), $\Gamma(\mathcal{X},U_i) \rightarrow \Gamma(\mathcal{X},U_i)$<br />
+\[<br />
+(a_,(p_i,p&#8217;)) \mapsto (R(p_i,a_i,p_i(a_i)),(U(p_i,a_i,p_i(a_i)),p&#8217;) \]<br />
+But, in order for this to define a sheaf-morphism, compatible with the restrictions, we will have to impose restrictions on the update and restriction maps of the learners, in general.</p>
+<p>Still, in the special case of deep neural networks, this compatibility follows from the functoriality property of <a href="https://arxiv.org/abs/1711.10455">Backprop as Functor: A compositional perspective on supervised learning</a>.</p>
+<p>To be continued.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Children have always loved colimits</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 07 Jan 2015 08:02:27 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[ChadOrzel]]></category>
+		<category><![CDATA[colimits]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[presheaves]]></category>
+		<category><![CDATA[sga4hipsters]]></category>
+		<category><![CDATA[Spivak]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=6152</guid>
+
+					<description><![CDATA[If Chad Orzel is able to teach quantum theory to his dog, surely it must be possible to explain schemes, stacks, toposes and motives to&#8230;]]></description>
+										<content:encoded><![CDATA[<p>If Chad Orzel is able <a href="http://www.amazon.co.uk/How-Teach-Quantum-Physics-Your/dp/1851687793" title="How to teach quantum theory to your dog" target="_blank" rel="noopener">to teach quantum theory to his dog</a>, surely it must be possible to explain schemes, stacks, toposes and motives to hipsters?</p>
+<p>Perhaps an idea for a series of posts?</p>
+<p>It&#8217;s early days yet. So far, I&#8217;ve only added the tag <a href="https://lievenlebruyn.github.io/neverendingbooks/tag/sga4hipsters" title="tagged sga4hipsters" target="_blank" rel="noopener">sga4hipsters</a> (pun intended) and googled around for &#8216;real-life&#8217; applications of sheaves, cohomology, and worse.</p>
+<p>Sooner or later one ends up at David Spivak&#8217;s <a href="http://math.mit.edu/~dspivak/" title="David Spivak MIT webpage">MIT-webpage</a>.</p>
+<p>David has written a book &#8220;category theory for scientists&#8221; and has several papers on applications of category theory to databases.</p>
+<p>There&#8217;s also this hilarious abstract, reproduced below, of a talk he gave in 2007 at <a href="https://math.berkeley.edu/~mcf/2007/" title="many cheerful facts" target="_blank" rel="noopener">many cheerful facts</a>.</p>
+<p>If this guy ever decides to write a novel, I&#8217;ll pre-order it on the spot.</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/colims.jpg" width=100% ></p>
+<p><strong>Presheaf, the cobbler.</strong><br />
+<strong><em>by David Spivak</em></strong></p>
+<p>Children have always loved colimits.</p>
+<p>Whether it be sorting their blocks according to color, gluing a pair of googly eyes and a pipe-cleaner onto a piece of yellow construction paper, or simply eating a peanut butter sandwich, colimits play a huge role in their lives.</p>
+<p>But what happens when their category doesn’t have enough colimits?</p>
+<p>In today’s ”ownership” society, what usually happens is that the parents upgrade their child’s category to a Presheaf category. Then the child can cobble together crazy constructions to his heart’s content.</p>
+<p>Sometimes, a kid comes up to you with an FM radio she built out of tinkertoys, and says<br />
+”look what I made! I call it ’182 transisters, 11 diodes, 6 plastic walls, 3 knobs,&#8230;’”</p>
+<p>They seem to go on about the damn thing forever.</p>
+<p>Luckily, Grothendieck put a stop to this madness.</p>
+<p>He used to say to them, ever so gently, ”I’m sorry, kid. I’m really proud of you for making this ’182 transistors’ thing, but I’m afraid it already has a name. It’s called a radio.</p>
+<p>And thus Grothendieck apologies were born.</p>
+<p>Two years later, Grothendieck topologies were born of the same concept.</p>
+<p>In this talk, I will teach you to build a radio (that really works!) using only a category of presheaves, and then I will tell you about the patent-police, known as Grothendieck topologies.</p>
+<p>God willing, I will get through SGA 4 and Lurie’s book on Higher Topos Theory.&#8221;</p>
+<p><strong>Further reading:</strong></p>
+<p>David Spivak&#8217;s book (old version, but freely available) <a href="http://math.mit.edu/~dspivak/CT4S.pdf" title="Category theory for scientists" target="_blank" rel="noopener">Category theory for scientists</a>.</p>
+<p>The published version, available from <a href="http://www.amazon.com/Category-Theory-Sciences-David-Spivak/dp/0262028131" target="_blank" rel="noopener">Amazon</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

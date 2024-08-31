@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>math-writing &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/math-writing/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 20 Oct 2017 13:16:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Pariah moonshine and math-writing</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/pariah-moonshine-and-math-writing/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/pariah-moonshine-and-math-writing/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 20 Oct 2017 13:16:26 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[math-writing]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7269</guid>
+
+					<description><![CDATA[Getting mathematics into Nature (the journal) is next to impossible. Ask David Mumford and John Tate about it. Last month, John Duncan, Michael Mertens and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Getting mathematics into Nature (the journal) is next to impossible. Ask <a href="https://lievenlebruyn.github.io/neverendingbooks/can-one-explain-schemes-to-hipsters">David Mumford and John Tate</a> about it.</p>
+<p>Last month, <a href="https://sites.google.com/site/johnfrduncan/research">John Duncan</a>, <a href="">Michael Mertens</a> and <a href="http://www.mathcs.emory.edu/~ono/about-me/">Ken Ono</a> managed to do just that.</p>
+<p>Inevitably, they had to suffer through a photoshoot and give their university&#8217;s PR-people some soundbites.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/OnoDuncan.jpg"><img fetchpriority="high" decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/OnoDuncan.jpg" alt="" width="1000" height="666" class="alignnone size-full wp-image-7274" srcset="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/OnoDuncan.jpg 1000w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/OnoDuncan-300x200.jpg 300w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/OnoDuncan-768x511.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p><strong>CAPTION</strong></p>
+<p>In the simplest terms, an elliptic curve is a doughnut shape with carefully placed points, explain Emory University mathematicians Ken Ono, left, and John Duncan, right. &#8220;The whole game in the math of elliptic curves is determining whether the doughnut has sprinkles and, if so, where exactly the sprinkles are placed,&#8221; Duncan says.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/OnoDuncan2.jpg"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/OnoDuncan2.jpg" alt="" width="1000" height="667" class="alignnone size-full wp-image-7278" srcset="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/OnoDuncan2.jpg 1000w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/OnoDuncan2-300x200.jpg 300w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/OnoDuncan2-768x512.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p><strong>CAPTION</strong></p>
+<p>&#8220;Imagine you are holding a doughnut in the dark,&#8221; Emory University mathematician Ken Ono says. &#8220;You wouldn&#8217;t even be able to decide whether it has any sprinkles. But the information in our O&#8217;Nan moonshine allows us to &#8216;see&#8217; our mathematical doughnuts clearly by giving us a wealth of information about the points on elliptic curves.&#8221;</p>
+<p>(Photos by Stephen Nowland, Emory University. See <a href="https://www.eurekalert.org/multimedia/pub/151114.php?from=371299">here</a> and <a href="https://www.eurekalert.org/multimedia/pub/151115.php?from=371299">here</a>.)</p>
+<p><a href="https://plus.google.com/+DavidRoberts/posts/F77fznyVsUU">Some</a> may find this kind of sad, or a bad example of over-popularisation.</p>
+<p>I think they do a pretty good job of getting the notion of rational points on elliptic curves across.</p>
+<p>That&#8217;s what the arithmetic of elliptic curves is all about, finding structure in patterns of sprinkles on special doughnuts. And hey, you can get <a href="http://www.claymath.org/millennium-problems/birch-and-swinnerton-dyer-conjecture">rich and famous</a> if you&#8217;re good at it.</p>
+<p>Their Nature-paper <a href="https://arxiv.org/abs/1709.08867">Pariah moonshine</a> is a must-read for anyone aspiring to write a math-book aiming at a larger audience.</p>
+<p>It is an introduction to and a summary of the results they arXived last February <a href="https://arxiv.org/abs/1702.03516">O&#8217;Nan moonshine and arithmetic</a>.</p>
+<p><strong>Update (October 21st)</strong></p>
+<p>John Duncan send me this comment via email:</p>
+<p>&#8220;Strictly speaking the article was published in Nature Communications (https://www.nature.com/ncomms/). We were also rejected by Nature. But Nature forwarded our submission to Nature Communications, and we had a great experience. Specifically, the review period was very fast (compared to most math journals), and the editors offered very good advice.</p>
+<p>My understanding is that Nature Communications is interested in publishing more pure mathematics. If someone reading this has a great mathematical story to tell, I (humbly) recommend to them this option. Perhaps the work of Mumford&#8211;Tate would be more agreeably received here.</p>
+<p>By the way, our Nature Communications article is open access, available at https://www.nature.com/articles/s41467-017-00660-y.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/pariah-moonshine-and-math-writing/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Thas &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/thas/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 29 Aug 2011 14:34:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>master seminar ncg 2011</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/master-seminar-ncg-2011/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/master-seminar-ncg-2011/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 29 Aug 2011 14:34:30 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Thas]]></category>
+		<guid isPermaLink="false">http://192.168.0.163/?p=5740</guid>
+
+					<description><![CDATA[Note to students following this year&#8217;s &#8216;seminar noncommutative geometry&#8217; : the seminar starts friday september 30th at 13h in room G 0.16. However, if you&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Note to students following this year&#8217;s &#8216;seminar noncommutative geometry&#8217; : the seminar starts friday september 30th at 13h in room G 0.16.</p>
+<p> However, if you have another good reason to be in Ghent on thursday september 22nd, consider attending the inaugural lecture of <a href="http://cage.ugent.be/~kthas/">Koen Thas</a> at 17h in auditorium Emmy Noether, campus De Sterre, Krijgslaan 281, 9000 Gent.</p>
+<p> Koen&#8217;s lecture has one of the longest titles i&#8217;ve seen : &#8220;De lange weg &#8211; een verhaal over wiskundige problemen die denkers al eeuwenlang teisteren, zonderlingen die in afgelegen berghutten de existentie van de duivel willen aantonen, en een mythisch object dat niet bestaat, maar waar we toch naar zoeken&#8221; (&#8220;The long road &#8211; a story on mathematical problems torturing scientists for centuries, weirdos trying to prove the existence of the Devil in desolated mountain-huts and the search for a mythical object that doesn&#8217;t exist&#8221;).</p>
+<p> Knowing Koen a bit I&#8217;d say it will be on the Riemann hypothesis, Grothendieck&#8217;s theory of motives and the field with one element. A sneak preview of our upcoming seminar, quoi?</p>
+<p> More information on the event and to register see <a href="http://java.ugent.be/inaugural-koen-thas/">here</a>. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/master-seminar-ncg-2011/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

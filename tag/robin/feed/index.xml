@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Robin &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/robin/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 07 Jul 2019 10:27:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>the Riemann hypothesis and 5040</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 07 Jul 2019 10:27:01 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[Nicolas]]></category>
+		<category><![CDATA[Ramanujan]]></category>
+		<category><![CDATA[Riemann hypothesis]]></category>
+		<category><![CDATA[Robin]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8397</guid>
+
+					<description><![CDATA[Yesterday, there was an interesting post by John Baez at the n-category cafe: The Riemann Hypothesis Says 5040 is the Last. The 5040 in the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, there was an interesting post by John Baez at the n-category cafe: <a href="https://golem.ph.utexas.edu/category/2019/07/the_riemann_hypothesis_says_50.html">The Riemann Hypothesis Says 5040 is the Last</a>.</p>
+<p>The 5040 in the title refers to the largest known counterexample to a bound for the sum-of-divisors function<br />
+\[<br />
+\sigma(n) = \sum_{d | n} d = n \sum_{d | n} \frac{1}{d} \]</p>
+<p>In 1983, the french mathematician Guy Robin proved that the Riemann hypothesis is equivalent to<br />
+\[<br />
+\frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \]
+when $n > 5040$.</p>
+<p>The other known counterexamples to this bound are the numbers 3,4,5,6,8,9,10,12,16,18,20,24,30,36,48,60,72,84,120,180,240,360,720,840,2520.<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GuyRobin.jpg" width=50%><br />
+</center><br />
+In Baez&#8217; post there is a nice graph of this function made by Nicolas Tessore, with 5040 indicated with a grey line towards the right and the other counterexamples jumping over the bound 1.78107&#8230;<br />
+<center><br />
+<img decoding="async" src="http://math.ucr.edu/home/baez/mathematical/robin's_theorem_nicolas_tessore.png"><br />
+</center><br />
+Robin&#8217;s theorem has a remarkable history, starting in 1915 with good old Ramanujan writing a part of this thesis on &#8220;highly composite numbers&#8221; (numbers divisible by high powers of primes).</p>
+<p>His PhD. adviser Hardy liked his result but called them &#8220;in the backwaters of mathematics&#8221; and most of it was not published at the time of Ramanujan&#8217;s degree ceremony in 1916, due to paper shortage in WW1.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/RamanujanDegree.jpg" width=100% ><br />
+</center></p>
+<p>When Ramanujan&#8217;s paper &#8220;Highly Composite Numbers&#8221; was first published in 1988 in &#8216;The lost notebook and other unpublished papers&#8217; it became clear that Ramanujan had already part of Robin&#8217;s theorem.</p>
+<p>Ramanujan states that if the Riemann hypothesis is true, then for $n_0$ large enough we must have for all $n > n_0$ that<br />
+\[<br />
+\frac{\sigma(n)}{n~log(log(n))} < e^{\gamma} = 1.78107... \]
+
+When Jean-Louis Nicolas, Robin's PhD. adviser, read Ramanujan's lost notes he noticed that there was a sign error in Ramanujan's formula which prevented him from seeing Robin's theorem.
+
+
+
+<p />
+<p>Nicolas: &#8220;Soon after discovering the hidden part, I read it and saw the difference between Ramanujan&#8217;s result and Robin&#8217;s one. Of course, I would have bet that the error was in Robin&#8217;s paper, but after recalculating it several times and asking Robin to check, it turned out that there was an error of sign in what Ramanujan had written.&#8221;</p>
+<p />
+<p>If you are interested in the full story, read the paper by Jean-Louis Nicolas and Jonathan Sondow: <a href="https://arxiv.org/abs/1211.6944">Ramanujan, Robin, Highly Composite Numbers, and the Riemann Hypothesis</a>.</p>
+<p />
+<p>What&#8217;s the latest on Robin&#8217;s inequality? An <a href="https://arxiv.org/search/math?query=Robin%27s+inequality&#038;searchtype=all&#038;abstracts=show&#038;order=-announced_date_first&#038;size=50">arXiv-search for Robin&#8217;s inequality</a> shows a flurry of activity.</p>
+<p />
+<p>For starters, it has been verified for all numbers smaller that $10^{10^{13}}$&#8230;</p>
+<p />
+<p>It has been verified, unconditionally, for certain classes of numbers:</p>
+<ul>
+<li>all odd integers $> 9$</li>
+<li>all numbers not divisible by a 25-th power of a prime</li>
+</ul>
+<p />
+<p>Rings a bell? Here&#8217;s another hint:</p>
+<p />
+According to Xiaolong Wu in <a href="https://arxiv.org/abs/1812.00987">A better method than t-free for Robin&#8217;s hypothesis</a> one can replace the condition of &#8216;not divisible by an N-th power of a prime&#8217; by &#8216;not divisible by an N-th power of 2&#8217;.</p>
+<p />
+Further, he claims to have an (as yet unpublished) argument that Robin&#8217;s inequality holds for all numbers not divisible by $2^{42}$.</p>
+<p />
+So, where should we look for counterexamples to the Riemann hypothesis?</p>
+<p />
+What about the orders of huge simple groups?</p>
+<p />
+The order of the Monster group is too small to be a counterexample (yet, it is divisible by $2^{46}$).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-5040/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

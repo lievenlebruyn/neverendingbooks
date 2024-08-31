@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>foaf &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/foaf/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 08 Jan 2008 19:22:47 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>working archive plugin, please!</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/working-archive-plugin-please/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/working-archive-plugin-please/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 08 Jan 2008 19:22:47 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[foaf]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=331</guid>
+
+					<description><![CDATA[Over the last two weeks Ive ported all old neverendingbooks-post from the last 4 years to a nearly readable format. Some tiny problems remain :&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Over the last two weeks Ive ported all old neverendingbooks-post from the last 4 years to a nearly readable format. Some tiny problems remain : a few TeX-heavy old posts are still in $&#8230;$ format rather than LaTeXrender-compatible (but Ill fix this soon), a few links may turn out to be dead (still have to check out those), TheLibrary-project links do not exist at the moment (have to decide whether to revive the project or to start a similar idea afresh), some other techie-things such as FoaF-stuff will be updated/expanded soon, et. etc. (and still have to port some 20 odd posts).</p>
+<p>Anyway, the good news being that we went from about 40 posts since last july to over 310 posts, all open to the internal Search engine. Having all this stuff online is only useful if one can browse through it easily, so I wanted to install a proper up-to-date archive-plugin&#8230;</p>
+<p>The current theme <a href="http://deanjrobinson.com/wordpress/redoable">Redoable</a> has build-in support for the <a href="http://www.sonsofskadi.net/extended-live-archive/">Extended Live Archives v0.10beta-r18 plugin</a> which would be ideal if I could get it  installed&#8230; Im not the total newbie in installing WordPress-plugins and Ive read all the documentation and the support-forum and chmodded whathever I felt like chmodding, but still no success&#8230; If you know how to kick it into caching the necessary files, please drop a comment!</p>
+<p>The next alternative Ive tried was <a href="http://www.awsom.org/awsom-drop-down-archive/">the AWSOM Archive Version 1.2.3 plugin</a> which gave me a pull-down menu just under the title-bar but not much seems to happen when using bloody Safari (Flock was OK though). Maybe Ill give it another go&#8230;</p>
+<p><strong>UPDATE (jan. 9th) : The AWSOM Archive seems to be working fine with the Redoable theme when custom installed in the footer. So, there is now a pulldown-menu at the bottom of the page.</strong></p>
+<p>**UPDATE (jan. 12th) : Ive installed the new version 1.3 of <a href="http://www.awsom.org/2008/awsom-archive-updated-to-version-130/">AWSOM Archive</a> and it works from the default position **</p>
+<p>At a loss I opted in the end for the simplest (though not the most aesthetic) plugin : <a href="http://justinblanton.com/projects/smartarchives/">Justin Blanton&#8217;s Smart Archives</a>. This provides a year-month scheme at the top followed by a reverse ordered list of all months and titles of posts and is available as the <a href="https://lievenlebruyn.github.io/neverendingbooks/?page_id=330">arXiv neverendingbooks</a> link available also from the sidebar (up, second link). I hope it will help you not to get too lost on this site&#8230;</p>
+<p>Suggestions for a working-from-the-box WordPress Archive plugin, anyone???</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/working-archive-plugin-please/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>get your brain subscribed to</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/get-your-brain-subscribed-to/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/get-your-brain-subscribed-to/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 08 Feb 2006 08:10:30 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[foaf]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[tracks]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=286</guid>
+
+					<description><![CDATA[In the &#8216;subscribe to my brain&#8217; post I promised to blog on how-to get your own button up and running on your homepage. It seems&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In the<br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=238">&#8216;subscribe<br />
+to my brain&#8217; post</a> I promised to blog on how-to get your own </p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/brain.png"/></p>
+<p>button up and running on your homepage.  It seems rather unlikely<br />
+that I&#8217;ll ever keep that promise if I don&#8217;t do it right away. So, here<br />
+we go for a quick tour :</p>
+<p><strong>step 1 : set up a rudimentary<br />
+FoaF-file</strong> : read the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/foaf/">FoaF post</a> if<br />
+you dont know what it&#8217;s all about. The easiest way to get a simple<br />
+FoaF-file of your own is to go to the <a href="http://www.ldodds.com/foaf/foaf-a-matic.html">FoaF-a-matic<br />
+webpage</a> and fill in the details you feel like broadcasting over the<br />
+web, crucial is your name and email information (for later use) but<br />
+clearly the more details you fill out and the more Friends you add the<br />
+more useful your file becomes. Click on the &#8216;foaf-me&#8217; button and<br />
+copy the content created. Observe that there is no sign of my email<br />
+adress, it is encrypted in the _mbox_sha1sum_ data. Give this<br />
+file a name like _foaf.rdf_ or _myname.rdf_ and put it on<br />
+your webserver to make it accessible. Also copy your<br />
+_mbox_sha1sum_ info for later <a href="http://rdfweb.org/topic/Smushing">smushing</a>.</p>
+<p><strong>step 2 : subscribe to online services and modify your<br />
+online-life accordingly</strong> : probably you have already a few of<br />
+these accounts, but if not, take a free subscription just for fun and<br />
+(hopefully) later usage to the following sites :</p>
+<ul>
+<li><a href="http://del.icio.us/">del.icio.us</a> a social bookmarks manager
+</li>
+<li><a href="http://www.citeulike.org/">citeUlike</a> a service to<br />
+organise your academic papers  </li>
+<li><a href="http://www.connotea.org/">connotea</a> a reference management<br />
+service for scientists  </li>
+<li><a href="http://www.bloglines.com/">bloglines</a> a web-based personal news<br />
+aggregator  </li>
+<li><a href="http://www.43things.com/">43things</a> a<br />
+&#8216;What do you want to do with your life?&#8217; service  </li>
+<li><a href="http://www.audioscrobbler.net/">audioscrobbler</a> a database that<br />
+tracks listening habits and does wonderful things with statistics  </li>
+<li><a href="http://www.backpackit.com/">backpackit</a> a &#8216;be better organized&#8217; service (Update october 2017 : Tom Howard emails: &#8220;I thought I’d reach out because we’ve just updated our guide which reviews the best alternatives to Backpack. Here’s the <a href="https://blogging.im/backpack-alternatives">link</a>&#8221;   </li>
+<li><a href="http://www.flickr.com/">flickr</a> an online photo management and<br />
+sharing application  </li>
+<li><a href="http://www.technorati.com/">technorati</a> a Google-for-weblogs
+</li>
+<li><a href="http://upcoming.org/">upcoming</a> a social event<br />
+calendar  </li>
+<li><a href="http://webjay.org/">webjay</a> a playlist<br />
+community  </li>
+</ul>
+<p>So far, I&#8217;m addicted to del.icio.us and use<br />
+citeUlike but hardly any of the others (but I may come back to this<br />
+later). The great thing about these services is that you get more<br />
+value-information back if you feed more into the system. For example, if<br />
+you use del.icio.us as your &#8216;public&#8217; bookmarks-file you get to<br />
+know how many other people have bookmarked the same site and you can<br />
+access their full bookmarks which often is a far more sensible way to<br />
+get at the information you are after than mindless Googling. So, whereas<br />
+I was at first a bit opposed to the exhibisionist-character of these<br />
+services (after all, anyone with web-access can have a look at<br />
+&#8216;your&#8217; info), I&#8217;ve learned that the &#8216;social&#8217; feature of<br />
+these services can be beneficial to get the right information I want.<br />
+Hence, the hardest part is not to get an account with these services but<br />
+to adopt your surfing behavior in such a way that you maximize this<br />
+added value. And, as I mentioned before, I&#8217;m doing badly myself but hope<br />
+that things will improve&#8230;</p>
+<p><strong>step 3 : turn these<br />
+accounts into an OPML file</strong> : Knowing the URL of your foaf-file<br />
+and sha1-info (step 1) and your online accounts, go to the <a
+href="http://www.ldodds.com/foaf/online-account">FOAF Online Account<br />
+Description Generator</a> and feed it with your data. You will then get<br />
+another foaf-file back (save the source in a file such as<br />
+_accounts.rdf_ and put it on your webserver). Read the Lost Boy&#8217;s<br />
+posts <a href="http://www.ldodds.com/blog/archives/000217.html">Subscribe to my<br />
+brain</a> and <a href="http://www.ldodds.com/blog/archives/000218.html">foaf:<br />
+OnlineAccount Generator</a> for more background info. Then, use the <a href="http://www.ldodds.com/foaf/brain-subscribe">SubscribeToMyBrain-<br />
+form</a> to get an OPML-file out of the account.rdf file and your sha1.<br />
+Save the source as _mybrain.opml_.</p>
+<p><strong>step 4 :<br />
+add/delete information you want</strong> : The above method uses generic<br />
+schemes to deduce relevant RSS-data from an account name, which works<br />
+for some services, but doesn&#8217;t for all. So, if you happen to know the<br />
+URL of RSS-feeds for one of these services, you can always add it<br />
+manually to the OPML-file (or delete data you don&#8217;t want to<br />
+publish&#8230;). My own attitude is to make all public web-data<br />
+available and to leave it to the subscriber to unsubscribe those parts<br />
+of my brain (s)he is not interested in. I know there are people whoo are<br />
+mainly interested to find out whether I put another paper online, would<br />
+tolerate some weblog-posts but have no interest in my musical tast,<br />
+whereas there are others who would like me to post more on 43things,<br />
+flickr or upcoming and don&#8217;t give a damn about my mathematics&#8230;<br />
+Apart from these online subscriptions, it is also a good idea to include<br />
+additional RSS-feeds you produce, such as those of your weblog or use my<br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=239">Perl<br />
+script</a> to have your own arXiv-feeds.</p>
+<p><strong>step 5 : make<br />
+your &#8216;subscribe to my brain&#8217;-button</strong> : Now, put the<br />
+OPML-file on your webserver, put the button</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/brain.png"/></p>
+<p>on your<br />
+homepage and link it to the file. Also, add information on your site,<br />
+similar to the one I gave in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=238">my own<br />
+subscription post</a> so that your readers know what to do when do want<br />
+to subscribe to (parts of) your brain. Finally, (and optionally though<br />
+I&#8217;d wellcome it) send me an email with your URL so that I can subscribe<br />
+(next time you&#8217;re in Antwerp I&#8217;ll buy you a beer) and for the first few<br />
+who do so and are working in noncommutative geometry and/or<br />
+noncommutative algebra, I&#8217;ll send a copy of a <a href="http://www.lulu.com/neverendingbooks">neverending book</a>. Mind<br />
+you, this doesn&#8217;t apply to local people, I&#8217;m already subscribed to their<br />
+brain on a daily basis&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/get-your-brain-subscribed-to/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Meyers-Briggs INTJ</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/meyers-briggs-intj/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/meyers-briggs-intj/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 07 Feb 2006 08:04:58 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[foaf]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=285</guid>
+
+					<description><![CDATA[Freewheeling on your interests may lead to interesting discoveries. Today I wanted to add some meat to my FoaF file and discovered in the vocabulary&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Freewheeling on your interests may lead to interesting discoveries.<br />
+Today I wanted to add some meat to my <a href="http://www.foaf-project.org/">FoaF file</a> and discovered in the<br />
+vocabulary the <a href="http://xmlns.com/foaf/doc/myersBriggs.en">foaf:meyersBriggs<br />
+tag</a>   </p>
+<blockquote><p> The foaf:myersBriggs property represents the<br />
+Myers Briggs (MBTI) approach to personality taxonomy. It is included in<br />
+FOAF as an example of a property that takes certain constrained values,<br />
+and to give some additional detail to the FOAF files of those who choose<br />
+to include it. The foaf:myersBriggs property applies only to the<br />
+foaf:Person class; wherever you see it, you can infer it is being<br />
+applied to a person.<br />  The foaf:myersBriggs property is interesting<br />
+in that it illustrates how FOAF can serve as a carrier for various kinds<br />
+of information, without necessarily being commited to any associated<br />
+worldview. Not everyone will find myersBriggs (or star signs, or blood<br />
+types, or the four humours) a useful perspective on human behaviour and<br />
+personality. The inclusion of a Myers Briggs property doesn&#8217;t indicate<br />
+that FOAF endorses the underlying theory, any more than the existence of<br />
+foaf:weblog is an endorsement of soapboxes. </p></blockquote>
+<p>   Okay, but<br />
+how to determine your MB-type (after all there are just 16 such types)?<br />
+Clearly, you can consult the <a href="http://www.myersbriggs.org/">official Myers-Briggs page</a>. You<br />
+can also follow the <a href="http://www.humanmetrics.com/cgi-win/JTypes1.htm">online Test</a>,<br />
+but by far the quickest way to determine your type is to look up <a
+href="http://www.geocities.com/lifexplore/mbintro.htm">the Myers-Briggs<br />
+intro</a>. One makes four choices between 2 options (pretty obvious, at<br />
+least to me). In a few seconds it was clear to me that I had to be an<br />
+INTJ-personality. But, what does this mean?    There is an excellent<br />
+page <a href="http://www.personalitypage.com/portraits.html">The<br />
+Personality Type Portraits</a> explaining what kind of information is<br />
+contained in your MB-type :    ISTJ &#8211; The Duty Fulfillers<br /> ESTJ &#8211;<br />
+The Guardians<br /> ISFJ &#8211; The Nurturers<br /> ESFJ &#8211; The Caregivers<br
+/> ISTP &#8211; The Mechanics<br /> ESTP &#8211; The Doers<br /> ESFP &#8211; The<br />
+Performers<br /> ISFP &#8211; The Artists<br /> ENTJ &#8211; The Executives<br />
+INTJ &#8211; The Scientists<br /> ENTP &#8211; The Visionaries<br /> INTP &#8211; The<br />
+Thinkers<br /> ENFJ &#8211; The Givers<br /> INFJ &#8211; The Protectors<br /> ENFP<br />
+&#8211; The Inspirers<br /> INFP &#8211; The Idealists<br />    This may look like a<br />
+self-fulfilling phrophecy but I swear I didn&#8217;t know any of these types<br />
+before. Still, let&#8217;s have a look how a <a href="http://www.personalitypage.com/INTJ.html">typical INTJ</a> is<br />
+supposed to interact with others   </p>
+<blockquote><p> Other people may have a<br />
+difficult time understanding an INTJ. They may see them as aloof and<br />
+reserved. Indeed, the INTJ is not overly demonstrative of their<br />
+affections, and is likely to not give as much praise or positive support<br />
+as others may need or desire. That doesn&#8217;t mean that he or she doesn&#8217;t<br />
+truly have affection or regard for others, they simply do not typically<br />
+feel the need to express it. </p></blockquote>
+<p>   sounds familiar? Another<br />
+eye-opener   </p>
+<blockquote><p> When under a great deal of stress, the INTJ<br />
+may become obsessed with mindless repetitive, Sensate activities, such<br />
+as over-drinking. They may also tend to become absorbed with minutia and<br />
+details that they would not normally consider important to their overall<br />
+goal. </p></blockquote>
+<p>   Fortunately, I ended up with a <a href="http://www.personalitypage.com/careers.html">common career</a> for<br />
+my MB-type&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/meyers-briggs-intj/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>added to MyBrain : arXiv</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/added-to-mybrain-arxiv/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/added-to-mybrain-arxiv/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 31 Jan 2006 12:55:13 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[foaf]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[OSX]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=239</guid>
+
+					<description><![CDATA[Clearly, someone who subscribed to your brain shouldn&#8217;t have to check the arXiv every morning only to find out that you still haven&#8217;t posted _the_&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Clearly, someone who <a
+href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=238" ><br />
+subscribed to your brain</a> shouldn&#8217;t have to check the <a href="http://www.arxiv.org/">arXiv</a> every morning only to find out<br />
+that you still haven&#8217;t posted _the_ paper s(h)e is expecting of<br />
+you, based on your recent BrainActivity&#8230; </p>
+<p>So why not<br />
+package this into your Brain subscription? It is easy enough to get all<br />
+posts by a specific author from the archive but, unfortunately, the<br />
+arXiv doesn&#8217;t provide RSS-feeds of this information (at least, not to my<br />
+knowledge). Still, it is possible to fix this with <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/arxivposts.pl">a tiny<br />
+Perl-script</a>.</p>
+<p>So copy the code and adjust it replacing MyInfo<br />
+by Yours (or sligthly safer, get the <a href="https://lievenlebruyn.github.io/neverendingbooks/SOURCES/arxivpost.pl">arxivpost.pl<br />
+</a> file as I had to add a few spaces to get it un-parsed) and safe it<br />
+somewhere on your system.</p>
+<p>So how to put this to use? Btw. I know<br />
+that all of you know this by heart and that I may have given you the<br />
+(false, i swear) illusion to be fairly knowledgeable writing a<br />
+Perl-script in half an hour, but believe me, in two months (and sooner<br />
+when it&#8217;s up to me) I will have completely eradicated all this<br />
+techie-stuff from MyBrain. Then, it will take me infinitely longer to<br />
+remember/reconstruct things than it will take me now to blog this here,<br />
+so please either bear with me or go somewhere more interesting.</p>
+<p>You&#8217;d better have Perl installed on your system, but then you have to<br />
+install extra modules from <a href="http://www.cpan.org/">CPAN</a> the<br />
+Comprehensive Perl Archive Network (this is to Perl what <a href="http://www.ctan.org/">CTAN</a> is to TeX for the mathematicians<br />
+among us). That&#8217;s pretty easy if you remember the correct commands. The<br />
+generic way to do this is by firing up your Terminal and typing things<br />
+like</p>
+<pre><code> iBookLieven:~ lieven$ sudo perl -MCPAN -e shell
+Password:  cpan shell -- CPAN exploration and modules installation
+(v1.83) ReadLine support enabled  cpan> install Template::Extract
+</code></pre>
+<p>and similarly for the other modules you&#8217;ll need,<br />
+LWP::Simple and XML::RSS. You may be asked questions but just go for the<br />
+default. If something goes wrong and you get a message that the module<br />
+failed to install, you have to go for a manual override&#8230;</p>
+<p>Go to <a href="http://www.cpan.org/">CPAN</a> and do a <a href="http://search.cpan.org/">search</a> on the module&#8217;s name. You&#8217;ll<br />
+be given a list op files to download, go for the one you need and<br />
+download the souce somewhere. Then, again in Terminal do the following<br />
+routine</p>
+<ul>
+<li>cd to the downloaded and extracted directory
+</li>
+<li>perl Makefile.PL  </li>
+<li>make  </li>
+<li>make test  </li>
+<li>sudo make install  </li>
+</ul>
+<p>Even if the test fails with<br />
+certain errors, just go ahead (it will not matter for the trivial uses<br />
+we have for these modules) and the last command is Mac OSX only (I&#8217;m<br />
+pretty certain that Linux-fanatics know what to do instead and for<br />
+Windows-diehards, well&#8230;.).</p>
+<p>Having all modules installed<br />
+you can execute the file with </p>
+<p><code> perl arxivpost.pl<br />
+</code></p>
+<p>(assuming you created the Directory in which the program<br />
+is supposed to safe the arxivXXX.rdf file and assuming you made it<br />
+writable). That&#8217;s it. You now have your own RSS feeds of all your papers<br />
+on the arXiv which you should make for of YourBrain subscription). </p>
+<p>Just one more thing you should do. Make this a <a href="http://www.unixgeeks.org/security/newbie/unix/cron-1.html">cron<br />
+job</a>. Check at what local time the arXiv puts online the new papers<br />
+of the day (assume it is 3am) then do a <strong>sudo crontab -e</strong><br />
+and then add a line to the file as</p>
+<p><code> 5 3 * * Mon-Fri perl<br />
+/pathtowhereitis/arxivpost.pl </code></p>
+<p>and your subscribers will<br />
+only have to wait 5 minutes to know whether you did it&#8230;(or not).<br />
+You can check it out either by subscribing to MyBrain or subscribing to<br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/FOAF/arxivLLB.rdf">http://www./<br />
+neverendingbooks.org/FOAF/arxivLLB.rdf</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/added-to-mybrain-arxiv/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>subscribe to my brain</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/subscribe-to-my-brain/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/subscribe-to-my-brain/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 30 Jan 2006 12:54:34 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[foaf]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=238</guid>
+
+					<description><![CDATA[or rather, I&#8217;d like to subscribe to your brain! But I figure you&#8217;d allow this (at best) only on a &#8216;share-alike&#8217; basis so let me&#8230;]]></description>
+										<content:encoded><![CDATA[<p>or<br />
+rather, I&#8217;d like to subscribe to your brain! But I figure you&#8217;d allow<br />
+this (at best) only on a &#8216;share-alike&#8217; basis so let me take the first<br />
+step.    Maybe you already have your newsaggregator pointed to this<br />
+weblog, but what if you could be able to follow all traces I leave on<br />
+the web (or at least those you feel like following)? It&#8217;s a great idea<br />
+which started off with a couple of posts. Like John Resig&#8217;s <a href="http://ejohn.org/blog/life-as-rss/">Life as RSS</a>   </p>
+<blockquote><p>
+A little while ago I began to realize just how much of my personal<br />
+information is digitally created every day. This is both scary and<br />
+enticing (to me). Scary, due to the fact that people can harness this<br />
+information for evil/marketing. Enticing because I should be able to<br />
+(theoretically) harness this information to provide a better user<br />
+experience for the people who care (me and my friends, I assume). So,<br />
+the other day I sat down and tried to figure out every accessible data<br />
+medium that I generate and have access to.<br /> &#8230; My masterplan:<br />
+Essentially, an RSS aggregator (makes sense, nothing special) that pulls<br />
+all of my personal RSS feeds into one place and provides an overall<br />
+statistical view of the information that it contains. I may even provide<br />
+some detailed information, save for things in the &#8216;Personal&#8217; category.<br />
+What I like about this is the fact that most of this information is<br />
+completely public (or is possible to make completely public) &#8211; they&#8217;re<br />
+all using common/widely available programs or tools. So, stage one: Set<br />
+up a personal life browser &#8211; stage two: Open it up for the world to play<br />
+with. </p></blockquote>
+<p>   soon to be followed upp by Lost Boy&#8217;s <a href="http://www.ldodds.com/blog/archives/000050.html">My Life in<br />
+RDF</a> and continued by Louche Cannon <a href="http://www.breakawayrepublic.com/blog/?p=40">I want to subscribe<br />
+to your brain</a>   </p>
+<blockquote><p> The other day I was talking to a former<br />
+colleague and I was trying to explain how I have gradually switched to<br />
+using an assortment of social content tools as my primary mechanism for<br />
+finding relevant and authoritative information on the web. With these<br />
+tools, I can subscribe to an assortment of RSS feeds produced by people<br />
+who I trust and think of as authorities in their respective subjects. In<br />
+short, I said, &#8220;I can subscribe to their brains&#8221;.<br />  Or at least I<br />
+can in theory! At the moment, for those of non-geekly tendencies, the<br />
+practicalities of &#8220;subscribing to somebody&#8217;s brain&#8221; are a little<br />
+daunting. If you have an RSS-aware browser or have installed one of the<br />
+useful bookmarklets provided by the likes of bloglines, then subscribing<br />
+to individual RSS feeds is relatively easy. The problem is that I might<br />
+be interested subscribing to:<br />  &#8211; What person X is blogging  <br />
+&#8211; What person X is bookmarking- on several social bookmarking sites<br />
+(e.g. del.isio.us, CiteULike, Furl)  <br /> &#8211; What person X is listening<br />
+to (e.g. AudioScrobbler)  <br /> &#8211; What person X is taking pictures of<br />
+(e.g. Flickr)  <br /> &#8211; What person X&#8217;s travel schedule is (e.g. iCal)<br />
+<br /> &#8211; What books X is reading or planning on reading (e.g. Amazon<br />
+wish lists)  <br />  The first problem is finding out what feeds person<br />
+X provides. Most of the time you have to ask them, or search through the<br />
+individual services for the person&#8217;s name. If you are dealing with a<br />
+relatively clued-in person, you might be lucky enough to find links to<br />
+their various feeds off of their home page or in the margins of their<br />
+blogs. If you are dealing with an uber-geek, then you might find this<br />
+information encoded in their FOAF file. All that seems to be missing is<br />
+the button titled &#8220;Subscribe to X&#8217;s Brain&#8221;. </p></blockquote>
+<p>   While it is<br />
+still a Work In Progress (and will continue to be for some time as I&#8217;d<br />
+like to get used to the idea and explore its possibilities) you&#8217;ll find<br />
+a button to &#8216;subscribe to my brain&#8217; on the buttom left. Look out for<br />
+this :    <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/stmb1.jpg"/><br />
+  Click on it and you&#8217;ll stare at a text-file. Save it to your desktop,<br />
+fire up your Newsaggregator (which I assume is something like <a href="http://ranchero.com/netnewswire/">NetNewsWire</a> ). Look under<br />
+&#8216;File&#8217; for &#8216;Import Subscriptions&#8217; and open the saved<br />
+BrainLeBruynL.opml-file. It will make a folder with name the present<br />
+date&amp;time but you can always rename the folder to something like<br />
+&#8216;Lieven&#8217;s brain&#8217;&#8230; Then you will look at something like<br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/stmb2.jpg"/>    which<br />
+will give you a pretty good idea of what I was upto just now (posting a<br />
+few references on Cuntz and Berest to <a href="http://www.citeulike.org/">CiteULike</a> while listening to <a href="http://www.rebekkabakken.com/">Rebekka Bakken</a> via iTunes. If<br />
+you&#8217;ll open up the folder you get an even clearer picture    <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/stmb3.jpg"/>    which tells<br />
+you that since last time I&#8217;ve posted three new references to CiteULike,I<br />
+listened to at least 10 new songs (Audioscrobbler only remember the last<br />
+10 ones) and that there is one new post here! You can also check on my<br />
+recent bookmarks at del.icio.us and over the next few weeks you may also<br />
+detect activity in a few other places (and I may add an arXiv scraper<br />
+just in case you think I&#8217;m not posting there anymore).    Clearly, it is<br />
+up to you to unsubscribe to those regions of my brain you don&#8217;t care to<br />
+follow but the overall picture may give you a pretty accurate picture of<br />
+my present &#8216;state of mind&#8217;.    In the coming posts I&#8217;ll take you through<br />
+the process of setting up a &#8216;subscribe to my brain&#8217; for yourself and<br />
+I&#8217;ll explore (for myself) some of the possible uses of this scheme. The<br />
+ultmate aim being to see buttons like    <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/brain.png"/>    appear on<br />
+your site as well!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/subscribe-to-my-brain/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>FoaF</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/foaf/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/foaf/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 25 Jan 2006 12:47:57 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[foaf]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=237</guid>
+
+					<description><![CDATA[Speaking about work done behind the curtains, here another tiny addition to this site. If you ever looked at the source of this page, you&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Speaking<br />
+about work done behind the curtains, here another tiny addition to this<br />
+site. If you ever looked at the source of this page, you will notice<br />
+that as of today there is one line added near the end of the<br />
+_head_-tag</p>
+<p> <code> &lt; link rel="meta"<br />
+href="https://lievenlebruyn.github.io/neverendingbooks/lieven.rdf"<br />
+type="application/rdf+xml" title="FOAF" / > </code></p>
+<p> which will point<br />
+spiders and suitable aggregators to the (first installment of) my own<br />
+_foaf-file_. According to the <a href="http://www.foaf-project.org/">Friends of a Friend (FOAF)<br />
+Project</a> its intended purpose is   </p>
+<blockquote><p> FOAF is a way to<br />
+describe people and relationships to computers. FOAF stands for Friend<br />
+Of A Friend. Technically, it is an RDF/XML Semantic Web vocabulary.<br />
+Because of this, FOAF data is easy to process and merge.<br />  Home<br />
+pages typically say things such as:<br />  &#8220;My name<br />
+is&#8230;&#8221;<br /> &#8220;I work for&#8230;&#8221;<br /> &#8220;I&#8217;m<br />
+interested in&#8230;&#8221;<br /> &#8220;I live near&#8230;&#8221;<br />
+&#8220;My blog is&#8230;&#8221;<br /> &#8220;I write in this<br />
+weblog&#8230;&#8221;<br /> &#8220;You can see me in this<br />
+picture&#8230;&#8221;<br /> FOAF is a way to say all those things, but<br />
+so that computers can interpret it. Computers can&#8217;t understand English<br />
+yet, so we have to be a little more precise in how we say these things.<br />
+FOAF is a way of saying these things for computers.<br />  What would<br />
+computers do with this information? We experiment all the time, but here<br />
+are some questions that computers can answer using FOAF data:<br />
+&#8220;Show me pictures of bloggers interested in (foo) who live near<br />
+me.&#8221;<br /> &#8220;Show me recent articles written by people at<br />
+this meeting.&#8221;<br /> &#8220;Is this person vegetarian?&#8221;<br
+/> FOAF is a SemanticWeb project. The Semantic Web is an effort to make<br />
+it easier for computers to get useful information from the Internet.
+</p></blockquote>
+<p>   Sounds intruiging doesn&#8217;t it? But how do they go about<br />
+realizing some of this? Well, by encoding all relevant information which<br />
+you are willing to share about yourself, people you know, your work etc.<br />
+in an <a href="http://www.w3.org/RDF/">RDF (Resource Description<br />
+Framework)</a> file. The source file can be bit scary at first but<br />
+fortunetely you do not have to type these tags yourself. To begin with<br />
+your own core-FoaF file, you can use the excellent on-line <a href="http://www.ldodds.com/foaf/foaf-a-matic.html">foaf-a-matic</a> or<br />
+the Java-desktop version <a href="http://www.ldodds.com/blog/archives/000087.html">foaf-a-matic mark<br />
+2 beta-2</a>. Just fill out the data you want to include and these<br />
+programs will turn this info into proper FoaF-code.     There is one<br />
+important thing to consider. These two programs allow you to keep<br />
+email-data out of the FoaF-file (for obvious spam-reasons). However, the<br />
+whole FoaF-strategy is based on linking various FoaF-files together into<br />
+one semantic net and for this reason one has to be able to identify a<br />
+person which may occur in different FoaF-files under different nicks or<br />
+slightly different names. FoaF takes as its Unique Person Identifier the<br />
+email address, so removing this data from your file makes it entirely<br />
+useless. Fortunately, the FoaF-community came up with an alternative<br />
+keeping the email-address as the UPI but scrambling it to make it<br />
+useless to spam-bots. That is the whole purpose of tags such as</p>
+<pre><code> mbox_sha1sum ac5cefa7e1e7df92f7257ea663dfd06a4a4be212
+</code></pre>
+<p>   which gives the result of applying the _SHA1_<br />
+function to a &#8216;mailto:&#8217; address. I haven&#8217;t checked the online<br />
+foaf-a-matic, but the desktop version manages to give the sha1 of your<br />
+own email address, but doesn&#8217;t give those of the people you know. So, I<br />
+had to use the online <a href="http://www.ideaspace.net/misc/hash/">sha1<br />
+generator</a> and paste the result into the file.    Still, all of this<br />
+is just scratching the surface. Later on, I will extend my FoaF-file by<br />
+adding more people, together with additional information about them and<br />
+myself. To get an idea of what information you can encode have a look at<br />
+the <a href="http://xmlns.com/foaf/0.1/">FOAF Vocabulary<br />
+Specification</a>. You can at all times check on the progress looking at<br />
+the source file reference. This last bit was achieved by the <a href="http://www.cozy.org/wordpress/foaf-header.html">FoaF header plugin<br />
+for WordPress</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/foaf/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

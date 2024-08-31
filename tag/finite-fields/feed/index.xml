@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>finite fields &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/finite-fields/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 08 Jan 2011 11:47:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>n-dimensional and transfinite Nimbers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/n-dimensional-and-transfinite-nimbers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/n-dimensional-and-transfinite-nimbers/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 08 Jan 2011 11:47:49 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[finite fields]]></category>
+		<category><![CDATA[nim]]></category>
+		<category><![CDATA[nimbers]]></category>
+		<category><![CDATA[ONAG]]></category>
+		<category><![CDATA[transfinite numbers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4055</guid>
+
+					<description><![CDATA[Today, we will expand the game of Nimbers to higher dimensions and do some transfinite Nimber hacking. In our identification between $\mathbb{F}_{16}^* $ and 15-th&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Today, we will expand the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/how-to-play-nimbers.html">game of Nimbers</a> to higher dimensions and do some transfinite Nimber hacking.</p>
+<p>In our identification between $\mathbb{F}_{16}^* $ and 15-th roots of unity, the number 8 corresponds to $\mu^6 $, whence $\sqrt{8}=\mu^3=14 $. So, if we add a stone at the diagonal position (14,14) to the Nimbers-position of last time</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/nimbers5.jpg"></p>
+<p>we get a position of Nim-value 0, that is, winnable for the second player. In fact, this is a universal Nimbers-truth :</p>
+<p><strong>Either the 2nd player wins a Nimbers-position, or one can add one stone to the diagonal such that it becomes a 2nd player win.</strong></p>
+<p>The proof is elementary : choose a Fermat 2-power such that all stones have coordinates smaller than $2^{2^n} $. If the Nim-value of the position isn&#8217;t zero, it corresponds to a unit $\alpha \in \mathbb{F}_{2^{2^n}}^* $. Now,the Frobenius map $x \mapsto x^2 $ is an automorphism of any finite field of characteristic two, so the square root $\sqrt{\alpha} $ also belongs to $\mathbb{F}_{2^{2^n}} $, done!</p>
+<p><strong>3-dimensional Nimbers</strong> is played in the first octant of the integral lattice $\mathbb{Z}^3 $ by placing a finite number of balls at places $~(a,b,c) \in \mathbb{N}^3 $ with $abc \geq 1 $.</p>
+<p>Moves are defined by replacing the rectangular-rule of the two-dimensional version by the cuboid-rule : take a cuboid with faces parallel to the coordinate planes whose corner of maximal distance from the origin is one of the balls in the position. Remove that ball and add new balls to the unoccupied corners and remove balls at occupied corners.</p>
+<p>Here, we allow the corner-points to have zero as some of its coordinates, but these balls are considered dead in the game. As in the two-dimensional game, this cuboid-rule encompasses several legal moves depending on the number of corners in the cuboid having zero-coordinates.</p>
+<p>Again, it follows by induction that the Nim-value of a ball placed at position $~(a,b,c) $ is equal to the Nim-multiplication $a \otimes b \otimes c $ and we can calculate the Nim-value of a 3-dimensional Nimbers-position by computing in a suitable field $\mathbb{F}_{2^{2^n}} $. (The extension to higher dimensions is now obvious)</p>
+<p>Does 3-dimensional Nimbers satisfy the &#8216;universal truth&#8217;, that is, can one make any position a 2nd player win by adding at most one stone to the body-diagonal?</p>
+<p>The previous argument fails. As $\mathbb{F}_4^* $ is the cyclic group of order three, the 3rd roots of unity in $\overline{\mathbb{F}_2} $ correspond to the numbers 1,2 and 3, so the map $x \mapsto x^3 $ cannot be a bijection on any of the finite fields $\mathbb{F}_{2^{2^n}} $.</p>
+<p>But then, perhaps, a third root is added by going to a larger such field $\mathbb{F}_{2^{2^N}} $? Well, not quite. Take for example 2, then $\sqrt[3]{2} \notin \mathbb{F}_{2^{2^N}} $. (2 has order 3 in $\mathbb{F}_4 $ and so its 3rd root must have order 9, but 9 does not divide any number of the form $2^{2^N}-1 $ as the Fermat-powers mod 9 can only be 4 or 7).</p>
+<p>In fact one can show that this also holds for any number not in the image of the cubing-map in some $\mathbb{F}_{2^{2^n}} $ as</p>
+<p>$\mathbb{N}=&#123; 0,1,2,\ldots &#125; = \cup_N \mathbb{F}_{2^{2^N}} $</p>
+<p>with Nim-addition and multiplication is the quadratic closure of $\mathbb{F}_2 $ (see for example ONAG).</p>
+<p>The situation changes if we allow ourself to play <strong>transfinite Nimbers</strong>, with the same rules as before but now we allow the stone, balls etc. to be placed at points of which the coordinates are not restricted to $\mathbb{N}_+ = \{ 1,2,3,\ldots \} $ but may vary over $[\beta]_+ $ for some ordinal $\beta $ where $[\beta]_+=\{ 1,2,\ldots,\omega,\omega+1,\ldots \} $ is the set of all ordinals smaller than $\beta $.</p>
+<p>In transfinite 3-dimensional Nimbers the &#8216;universal truth&#8217; still holds, provided we play it on a cube of sizes $[\omega^{\omega}]_+ $. In particular we have that $\sqrt[3]{2}=\omega $ by the simplicity rule (see ONAG or the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/on2-conways-nim-arithmetics.html">Conway&#8217;s nim-arithmetic post</a>)</p>
+<p>In general, n-dimensional transfinite Nimbers played on an n-gid of sizes $[\omega^{\omega^{\omega}}]_+ $ satisfies the universal truth : either a position is a 2nd player win or it becomes one by adding one n-ball to a diagonal position! (this follows immediately because $[\omega^{\omega^{\omega}}] $ with Nim-addition and multiplication is isomorphic to the algebraic closure of $\mathbb{F}_2 $).</p>
+<p>2-dimensional transfinite Nimbers is still pretty playable. Below a position on a $\omega.2 $-board with stones as positions $~(2,2),(4,\omega),(\omega+2,\omega+3) $ and $~(\omega+4,\omega+1) $</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/nimbers6.jpg"></p>
+<p>Give a winning move for the first player!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/n-dimensional-and-transfinite-nimbers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

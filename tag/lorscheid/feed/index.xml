@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Lorscheid &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/lorscheid/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 09 May 2012 14:53:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Quiver Grassmannians and $\mathbb{F}_1$-geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quiver-grassmannians-and-mathbbf_1-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quiver-grassmannians-and-mathbbf_1-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 09 May 2012 14:53:59 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[LopezPena]]></category>
+		<category><![CDATA[Lorscheid]]></category>
+		<guid isPermaLink="false">http://192.168.0.163/?p=5770</guid>
+
+					<description><![CDATA[Reineke&#8217;s observation that any projective variety can be realized as a quiver Grassmannian is bad news: we will have to look at special representations and/or&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Reineke&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/quiver-grassmannians-can-be-anything ">observation</a> that any projective variety can be realized as a quiver Grassmannian is bad news: we will have to look at special representations and/or dimension vectors if we want the Grassmannian to have desirable properties. Some people still see a silver lining: it can be used to define a larger class of geometric objects over the elusive <a href="http://en.wikipedia.org/wiki/Field_with_one_element">field with one element</a> $\mathbb{F}_1$.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/F1land.jpg"></p>
+<p>In a <a href="https://lievenlebruyn.github.io/neverendingbooks/quiver-grassmannians-can-be-anything #comment-23446">comment to the previous post</a> Markus Reineke recalls motivating discussions with <a href="http://www.homepages.ucl.ac.uk/~ucahjlo/">Javier Lopez Pena</a> and <a href="http://w3.impa.br/~lorschei/">Oliver Lorscheid</a> (the guys responsable for the <a href="http://front.math.ucdavis.edu/0909.0069">map of $\mathbb{F}_1$-land</a> above) and asks about potential connections with $\mathbb{F}_1$-geometry. In this post I will ellaborate on <a href="https://lievenlebruyn.github.io/neverendingbooks/quiver-grassmannians-can-be-anything #comment-23450">Javier&#8217;s response</a>.</p>
+<p>The Kapranov-Smirnov <a href="https://lievenlebruyn.github.io/neverendingbooks/the-f_un-folklore ">$\mathbb{F}_1$-floklore</a> tells us that an $n$-dimensional vectorspace over $\mathbb{F}_1$ is a pointed set $V^{\bullet}$ consisting of $n+1$ points, the distinguished point playing the role of the zero-vector. Linear maps $V^{\bullet} \rightarrow W^{\bullet}$ between $\mathbb{F}_1$-spaces are then just maps of pointed sets (sending the distinguished element of $V^{\bullet}$ to that of $W^{\bullet}$). As an example, the base-change group $GL_n(\mathbb{F}_1)$ of an $n$-dimensional $\mathbb{F}_1$-space $V^{\bullet}$ is isomorphic to the symmetric group $S_n$.</p>
+<p>This allows us to make sense of quiver-representations over $\mathbb{F}_1$. To each vertex we associate a pointed set and to each arrow a map of pointed sets between the vertex-pointed sets. The dimension-vector $\alpha$ of quiver-representation is defined <a href="https://lievenlebruyn.github.io/neverendingbooks/quiver-grassmannians-can-be-anything ">as before</a> and two representations with the same dimension-vector are isomorphic is they lie in the same orbit under the action of the product of the symmetric groups determined by the components of $\alpha$. All this (and a bit more) has been worked out by <a href="http://math.bu.edu/people/szczesny/">Matt Szczesny</a>   in the paper <a href="http://arxiv.org/abs/1006.0912">Representations of quivers over $\mathbb{F}_1$</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/lorscheid.jpg" align=left hspace=10> Oliver Lorscheid developed his own approach to $\mathbb{F}_1$ based on the notion of <a href="http://front.math.ucdavis.edu/1103.1745">blueprints</a> (see also <a href="http://front.math.ucdavis.edu/1201.1324">part 2</a> and a <a href="http://front.math.ucdavis.edu/1203.1665">paper with Javier</a>).</p>
+<p>Roughly speaking a blueprint $B = A // \mathcal{R}$ is a commutative monoid $A$ together with an equivalence relation $\mathcal{R}$ on the monoid semiring $\mathbb{N}[A]$ compatible with addition and multiplication. Any commutative ring $R$ is a blueprint by taking $A$ the multiplicative monoid of $R$ and $\mathcal{R}(\sum_i a_i,\sum_j b_j)$ if and only if the elements $\sum_i a_i$ and $\sum_j b_j$ in $R$ are equal.</p>
+<p>One can extend the usual notions of prime ideals, Zariski topology and structure sheaf from commutative rings to blueprints and hence define a notion of &#8220;blue schemes&#8221; which are then taken to be the schemes over $\mathbb{F}_1$.</p>
+<p>What&#8217;s the connection with Reineke&#8217;s result? Well, for quiver-representations $V$ defined over $\mathbb{F}_1$ they can show that the corresponding quiver Grassmannians $Gr(V,\alpha)$ are blue projective varieties and hence are geometric objects defined over $\mathbb{F}_1$.</p>
+<p>For us, old-fashioned representation theorists, a complex quiver-representation $V$ is defined over $\mathbb{F}_1$ if and only if there is an isomorphic representation $V&#8217;$ with the property that all its arrow-matrices have at most one $1$ in every column, and zeroes elsewhere.</p>
+<p>Remember from <a href="https://lievenlebruyn.github.io/neverendingbooks/quiver-grassmannians-can-be-anything ">last time</a> that Reineke&#8217;s representation consisted of two parts : the Veronese-part encoding the $d$-uple embedding $\mathbb{P}^n \rightarrow \mathbb{P}^M$ and a linear part describing the subvariety $X \rightarrow \mathbb{P}^n$ as the intersection of the image of $\mathbb{P}^n$ in $\mathbb{P}^M$ with a finite number of hyper-planes in $\mathbb{P}^M$.</p>
+<p>We have seen that the Veronese-part is always defined over $\mathbb{F}_1$, compatible with the fact that all approaches to $\mathbb{F}_1$-geometry allow for projective spaces and $d$-uple embeddings. The linear part does not have to be defined over $\mathbb{F}_1$ in general, but we can look at the varieties we get when we force the linear-part matrices to be of the correct form.</p>
+<p>For example, by modifying the map $h$ of last time to $h=x_0+x_7+x_9$ we get that the quiver-representation</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/quiver2.gif"><br />
+</center></p>
+<p>is defined over $\mathbb{F}_1$ and hence that Reineke&#8217;s associated quiver Grassmannian, which is the smooth plane elliptic curve $\mathbb{V}(x^3+y^2z+z^3)$, is a blue variety. This in sharp contrast with other approaches to $\mathbb{F}_1$-geometry which do not allow elliptic curves!</p>
+<p>Oliver will give a talk at the <a href="http://www.6ecm.pl/">6th European Congress of Mathematics</a> in the mini-symposium <a href="http://cage.ugent.be/~kthas/Fun/index.php/absolute-arithmetic-at-the-6th-european-congress-of-mathematics ">Absolute Arithmetic and $\mathbb{F}_1$-Geometry</a>. Judging from his abstract,he will also mention quiver Grassmannians. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quiver-grassmannians-and-mathbbf_1-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

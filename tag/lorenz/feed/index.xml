@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Lorenz &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/lorenz/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 24 Mar 2012 15:49:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>noncommutative geometry at the Lorentz center</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-geometry-at-the-lorentz-center/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-geometry-at-the-lorentz-center/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 24 Mar 2012 15:49:08 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Lorenz]]></category>
+		<guid isPermaLink="false">http://192.168.0.163/?p=5762</guid>
+
+					<description><![CDATA[This week i was at the conference Noncommutative Algebraic Geometry and its Applications to Physics at the Lorentz center in Leiden. It was refreshing to&#8230;]]></description>
+										<content:encoded><![CDATA[<p>This week i was at the conference <a href="http://www.lorentzcenter.nl/lc/web/2012/485/info.php3?wsid=485&#038;venue=Oort">Noncommutative Algebraic Geometry and its Applications to Physics</a> at the <a href="http://www.lorentzcenter.nl/">Lorentz center</a> in Leiden.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Lorentz.jpg"><br />
+</center></p>
+<p>It was refreshing to go to a conference where i knew only a handful of people beforehand and where everything was organized to Oberwolfach perfection. Perhaps i&#8217;ll post someday on some of the (to me) more interesting talks.</p>
+<p>Also interesting were some discussions about the Elsevier-boycot-fallout and proposals to go beyong that boycot and i will certainly post about that later. At the moment there is still an embargo on some information, but anticipate a statement from the editorial board of the journal of number theory soon&#8230;</p>
+<p>I was asked to talk about &#8220;algebraic D-branes&#8221;, probably because it sounded like an appropriate topic for a conference on noncommutative algebraic geometry claiming to have connections with physics. I saw it as an excuse to promote the type of noncommutative geometry i like based on representation schemes.</p>
+<p>If you like to see the slides of my talk you can find the handout-version <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/LeidenHandout.pdf">here</a>. They should be pretty self-exploratory, but if you like to read an unedited version of what i intended to tell with every slide you can find that text <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/LeidenTalk.pdf">here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-geometry-at-the-lorentz-center/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

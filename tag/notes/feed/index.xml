@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>notes &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/notes/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 23 Mar 2023 14:44:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>The super-vault of missing notes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 23 Mar 2023 14:44:37 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Obsidian]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[missing]]></category>
+		<category><![CDATA[notes]]></category>
+		<category><![CDATA[super-vault]]></category>
+		<category><![CDATA[the]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11102</guid>
+
+					<description><![CDATA[Last time we&#8217;ve constructed a wide variety of Jaccard-like distance functions $d(m,n)$ on the set of all notes in our vault $V = \{ k,l,m,n,\dots&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">Last time</a> we&#8217;ve constructed a wide variety of Jaccard-like distance functions $d(m,n)$ on the set of all notes in our vault $V = \{ k,l,m,n,\dots \}$. That is, $d(m,n) \geq 0$ and for each triple of notes we have a triangle inequality</p>
+<p>$$d(k,l)+d(l,m) \geq d(k,m)$$</p>
+<p>By construction we had $d(m,n)=d(n,m)$, but we can modify any of these distances by setting $d'(m,n)= \infty$ if there is no path of internal links from note $m$ to note $n$, and $d'(m,n)=d(m,n)$ otherwise. This new generalised distance is no longer symmetric, but still satisfies the triangle inequality, and turns $V$ into a <a href="https://en.wikipedia.org/wiki/Metric_space#Pseudoquasimetrics">Lawvere space</a>.</p>
+<p>$V$ becomes an <a href="https://en.wikipedia.org/wiki/Enriched_category">enriched category</a> over the monoidal category $[0,\infty]=\mathbb{R}_+ \cup \{ \infty \}$ (the poset-category for the <em>reverse</em> ordering ($a \rightarrow b$ iff $a \geq b$) with $+$ as &#8216;tensor product&#8217; and $0$ as unit). The &#8216;enrichment&#8217; is the map</p>
+<p>$$V \times V \rightarrow [0,\infty] \qquad (m,n) \mapsto d(m,n)$$</p>
+<p>Writers (just like children) <a href="https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits">have always loved colimits</a>. They want to morph their notes into a compelling story. Sadly, such colimits do not always exist yet in our vault category. They are among too many notes still missing from it.</p>
+<p><center><br />
+<img decoding="async" src="https://www.eleanorkonik.com/content/images/size/w1460/wp-content/uploads/2021/02/tracy-adams-TEemXOpR3cQ-unsplash-scaled-e1612551232426.jpg" width=80%><br />
+(<a href="https://www.eleanorkonik.com/obsidian-for-writing/">Image credit</a>)<br />
+</center></p>
+<p>For ordinary categories, the way forward is to &#8216;upgrade&#8217; your category to the presheaf category. In it, &#8216;the child can cobble together crazy constructions to his heart’s content&#8217;. For our &#8216;enriched&#8217; vault $V_d$ we should look at the (enriched) category of enriched presheaves $\widehat{V_d}$. In it, the writer will find inspiration on how to cobble together her texts.</p>
+<p>An enriched presheaf is a map $p : V \rightarrow [0,\infty]$ such that for all notes $m,n \in V$ we have</p>
+<p>$$d(m,n) + p(n) \geq p(m)$$</p>
+<p>Think of $p(n)$ as the distance (or similarity) of the virtual note $p$ to the existing note $n$, then this condition is just an extension of the triangle inequality. The lower the value of $p(n)$ the closer $p$ resembles $n$.</p>
+<p>Each note $n \in V$ determines its Yoneda presheaf $y_n : V \rightarrow [0,\infty]$ by $m \mapsto d(m,n)$. By the triangle inequality this is indeed an enriched presheaf in $\widehat{V_d}$.</p>
+<p>The set of all enriched presheaves $\widehat{V_d}$ has a lot of extra structure. It is a poset</p>
+<p>$$p \leq q \qquad \text{iff} \qquad \forall n \in V : p(n) \leq q(n)$$</p>
+<p>with minimal element $0 : \forall n \in V, 0(n)=0$, and maximal element $1 : \forall n \in V, 1(n)=\infty$.</p>
+<p>It is even a lattice with $p \vee q(n) = max(p(n),q(n))$ and $p \wedge q(n)=min(p(n),q(n))$. It is easy to check that $p \wedge q$ and $p \vee q$ are again enriched presheaves.</p>
+<p>Here&#8217;s $\widehat{V_d}$ when the vault consists of just two notes $V=\{ m,n \}$ of non-zero distance to each other (whether symmetric or not) as a subset of $[0,\infty] \times [0,\infty]$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enriched1corr.png" width=60%><br />
+</center></p>
+<p>This vault $\widehat{V_d}$ of all missing (and existing) notes is again enriched over $[0,\infty]$ via</p>
+<p>$$\widehat{d} : \widehat{V_d} \times \widehat{V_d} \rightarrow [0,\infty] \qquad \widehat{d}(p,q) = max(0,\underset{n \in V}{sup} (q(n)-p(n)))$$</p>
+<p>The triangle inequality follows because the definition of $\widehat{d}(p,q)$ is equivalent to $\forall m \in V : \widehat{d}(p,q)+p(m) \geq q(m)$. Even if we start from a symmetric distance function $d$ on $V$, it is clear that this extended distance $\widehat{d}$ on $\widehat{V_d}$ is far from symmetric. The Yoneda map</p>
+<p>$$y : V_d \rightarrow \widehat{V_d} \qquad n \mapsto y_n$$</p>
+<p>is an isometry and the enriched version of the Yoneda lemma says that for all $p \in \widehat{V_d}$</p>
+<p>$$p(n) = \widehat{d}(y_n,p)$$</p>
+<p>Indeed, taking $m=n$ in $\widehat{d}(y_n,f)+y_n(m) \geq p(m)$ gives $\widehat{d}(y_n,p) \geq p(n)$. Conversely,<br />
+from the presheaf condition $d(m,n)+p(n) \geq p(m)$ for all $m,n$ follows</p>
+<p>$$p(n) \geq max(0,\underset{m \in V}{sup}(p(m)-d(m,n)) = \widehat{d}(y_n,p)$$</p>
+<p>In his paper <a href="https://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf">Taking categories seriously</a>, <a href="https://en.wikipedia.org/wiki/William_Lawvere">Bill Lawvere</a> suggested to consider enriched presheaves $p \in \widehat{V_d}$ as &#8216;refined&#8217; closed set of the vault-space $V_d$.</p>
+<p>For every subset of notes $X \subset V$ we can consider the presheaf (use triangle inequality)</p>
+<p>$$p_X : V \rightarrow [0,\infty] \qquad m \mapsto \underset{n \in X}{inf}~d(m,n)$$</p>
+<p>then its <em>zero set</em> $Z(p_X) = \{ m \in V~:~p_X(m)=0 \}$ can be thought of as the closure of $X$, and the collection of all such closed subsets define a topology on $V$.</p>
+<p>In our simple example of the two note vault $V=\{ m,n \}$ this is just the discrete topology, but we can get more interesting spaces. If $d(n,m)=0$ but $d(m,n) > 0$</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enriched3corr.png" width=50%><br />
+</center></p>
+<p>we get the <a href="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_space">Sierpinski space</a>: $n$ is the only closed point, and lies in the closure of $m$. Of course, if your vault contains thousands of notes, you might get more interesting topologies.</p>
+<p>In the special case when $V_d$ is a poset-category, as was the case in <a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">the shape of languages</a> post, this topology is the down-set (or up-set) topology.</p>
+<p>Now, what is this topology when you start with the Lawvere-space $\widehat{V_d}$? From the definitions we see that</p>
+<p>$$\widehat{d}(p,q) = 0 \quad \text{iff} \quad \forall n \in V~:~p(n) \geq q(n) \quad \text{iff} \quad p \geq q$$</p>
+<p>So, all presheaves in the up-set $\uparrow_p$ lie in the closure of $p$, and $p$ lies in the closure of all everything in the down-set $\downarrow_p$ of $p$. So, this time the topology has as its closed sets all down-sets of the poset $\widehat{V_d}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/enriched2corr.png" width=47%><br />
+</center></p>
+<p>What&#8217;s missing is a good definition for the implication $p \Rightarrow q$ between two enriched presheaves $p,q \in \widehat{V_d}$. In <a href="https://arxiv.org/abs/2106.07890">An enriched category theory of language: from syntax to semantics</a> it is said that this should be, perhaps only to be used in their special poset situation (with adapted notations)</p>
+<p>$$p \Rightarrow q : V \rightarrow [0,\infty] \qquad \text{where} \quad (p \Rightarrow q)(n) = \widehat{d}(y_n \wedge p,q)$$</p>
+<p>but I can&#8217;t even show that this is a presheaf. I may be horribly wrong, but in their proof of this (lemma 5) they seem to use their lemma 4, but with the two factors swapped.</p>
+<p>If you have suggestions, please let me know. And if you trow Kelly&#8217;s <a href="http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf">Basic concepts of enriched category theory</a> at me, please add some guidelines on how to use it. I&#8217;m just a passer-by.</p>
+<p>Probably, I should also read up on <a href="https://ncatlab.org/nlab/show/Isbell+duality">Isbell duality</a>, as suggested by Lawvere in his paper <a href="https://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf">Taking categories seriously</a>, and worked out by Simon Willerton in <a href="https://arxiv.org/abs/1302.4370">Tight spans, Isbell completions and semi-tropical modules</a>&#8230;</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault">The enriched vault</a></li>
+</ul>
+<p><strong>Next</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest">The tropical brain forest</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

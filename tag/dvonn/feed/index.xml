@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>dvonn &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/dvonn/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 13 Jun 2007 13:55:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>NeverEndingBooks-games</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-games/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-games/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 13 Jun 2007 13:55:35 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[dvonn]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://localhost/?p=9</guid>
+
+					<description><![CDATA[Here a list of pdf-files of NeverEndingBooks-posts on games, in reverse chronological order. Dvonn 2 overload LatexRender and Dvonn-boards Dvonn 1 mobility A DaVinci chess&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here a list of pdf-files of NeverEndingBooks-posts on games, in reverse chronological order.</p>
+<p><span id="more-12055"></span></p>
+<p><a href="NEBPDFS/144.pdf">Dvonn 2 overload</a></p>
+<p><a href="NEBPDFS/142.pdf">LatexRender and Dvonn-boards</a></p>
+<p><a href="NEBPDFS/141.pdf">Dvonn 1 mobility</a></p>
+<p><a href="NEBPDFS/21.pdf">A DaVinci chess problem</a></p>
+<p><a href="NEBPDFS/19.pdf">Bivalue Sudoku graphs</a></p>
+<p><a href="NEBPDFS/17.pdf">microsudoku.sty</a></p>
+<p><a href="NEBPDFS/15.pdf">A 2006 chess puzzle anyone?</a></p>
+<p><a href="NEBPDFS/12.pdf">Hints for micro-Sudoku</a></p>
+<p><a href="NEBPDFS/11.pdf">Micro-Sudoku</a></p>
+<p><a href="NEBPDFS/8.pdf">Sudoku mania (bis)</a></p>
+<p><a href="NEBPDFS/29.pdf">Sudoku mania</a></p>
+<p><a href="NEBPDFS/271.pdf">SnortGo 2</a></p>
+<p><a href="NEBPDFS/270.pdf">Quintominal dodecahedra</a></p>
+<p><a href="NEBPDFS/28.pdf">Elkies&#8217; puzzles</a></p>
+<p><a href="NEBPDFS/112.pdf">Fox and geese</a></p>
+<p><a href="NEBPDFS/111.pdf">SnortGo</a></p>
+<p><a href="NEBPDFS/103.pdf">ColGo</a></p>
+<p><a href="NEBPDFS/92.pdf">Antwerp sprouts</a></p>
+<p><a href="NEBPDFS/90.pdf">Combinatorial game software</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-games/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mathML and work ahead</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 08 Feb 2007 09:36:55 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[dvonn]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[PPC]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=204</guid>
+
+					<description><![CDATA[It has been a difficult design decision, but I‚Äôm going to replace the LaTeXRender WordPress Plugin for mathML as the default TeX-interface for NeverEndingBooks. I&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It has<br />
+been a difficult design decision, but I‚Äôm going to replace the <a href="http://www.sixthform.info/steve/wordpress/">LaTeXRender WordPress<br />
+Plugin</a> for <a href="http://www.w3.org/Math/">mathML</a> as the<br />
+default TeX-interface for NeverEndingBooks. I will keep LaTeXRender on<br />
+standby as I may have to use exotic packages or commands that iTeX does<br />
+not deliver, but for most math-related posts, MathML will do the job<br />
+nicely (as <a href="http://golem.ph.utexas.edu/category/">the n-category<br />
+cafe</a> shows every day (or even more often)). Not that I stopped being<br />
+a dilettante but I&#8217;m going to do most of my writings (including<br />
+blog-posts) using <a href="http://www.literatureandlatte.com/">Scrivener</a> (more on this<br />
+another time) and Scrivener supports <a href="http://fletcher.freeshell.org/wiki/MultiMarkdown">MultiMarkdown</a> and allows exporting to LaTeX and XHTML (using MathML).</p>
+</p>
+<p>I could never have pulled this off in such a short time without <a href="http://golem.ph.utexas.edu/~distler/blog/">Jacques Distler</a><br />
+more or less on constant stand-by (thanks Jacques!). Looking at the<br />
+times his emails were send I have no idea in which time zone he lives<br />
+(let alone sleeps&#8230;). So, here a walk-through the changes :</p>
+<p>As<br />
+I&#8217;m on WP 2.0.5 I&#8217;ll start with Frederick&#8217; <a href="http://www.ibiblio.org/litlfred/mathBlog/projects/itextomml">post</a>. He tells me I have to install first the itex2MML binary as<br />
+explained <a href="http://golem.ph.utexas.edu/~distler/blog/archives/000367.html">by<br />
+Jacques</a> but I find that there is more recent <a href="http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html"><br />
+material</a> and therefore download the most recent imath2MML-package<br />
+and follow the readme. There is a Mac OSX binary but it&#8217;s not clear<br />
+for what processor (PPC/Intel/Binary) but a quick mail to Jacques learns<br />
+me that it&#8217;s PPC which is fine by me but on the spot he puts a<br />
+universal binary online, so whatever your Mac is you can just download<br />
+the binary, copy it to /usr/local/bin and make sure its chmodded<br />
+755.</p>
+<p>Back to Frederick&#8217;s <a href="http://www.ibiblio.org/litlfred/mathBlog/projects/itextomml">post</a>, download and install the plugin itexToMML.php in the usual way<br />
+(fortunately I spot just in time that I have to change one line saying<br />
+where my itex2MML binary is (in Frederick&#8217;s file it is NOT the default<br />
+location)). You can verify whether the plugin and itex2MML do what they<br />
+are supposed to do by typing a LaTeX-command in a post and save it. The<br />
+output will not produce the desired formula but have a look at the<br />
+source file and see whether there is some mathML code in it. If so,<br />
+fine! If not, go back and check everything.</p>
+<p>If this works, it is<br />
+&#8220;merely&#8221; a problem of getting your mathML served. Frederick suggests<br />
+to unpack wordpress_mathML.zip in the wp-includes directory (but you<br />
+better make sure you have made a copy of the original class.php and<br />
+functions-formatting.php files. In the end I decided against this<br />
+approach (that is, to replace only the functions-formatting.php but NOT<br />
+the class.php file). If you have two or more themes you want to<br />
+maintain, it is probably better to change the headers (because this is<br />
+what we have to do to get mathML served) only in those themes which are<br />
+XML-sound. In my case, the Command Line Interface theme most certainly is NOT!!!).</p>
+<p>Go to your<br />
+theme-files and look for the header.php (or similar) file and replace<br />
+the default header by the code in the addendum to <a href="http://golem.ph.utexas.edu/~distler/blog/archives/000367.html"><br />
+this post</a> within php-tags. If you can go to your blog-page then you<br />
+are in good shape and things should work well (apart possibly from<br />
+layout considerations, see below). Of course, in my case i was greeted<br />
+by &#8221; XML &#8220;yellow screen of death&#8221; (as Jacques calls<br />
+it) and I was convinced I did something wrong, so I tried out several<br />
+useless things for a couple of hours before it dawned on me that the<br />
+reason might just be that my blog-files were not valid XHTML (and the<br />
+new headers are very demanding on serving only well-form XHTML). I had<br />
+to modify all changes I made to sidebars etc. as well as rewrite parts<br />
+of my first posts (I used to take a rather liberal view on writing<br />
+blog-posts, writing a mixture between Markdown and improvised HTML and<br />
+in the process was very lax about closing IMG-tags and the likes).<br />
+But after some time and numerous corrections to the files I got the<br />
+main-page up and running (and even had the mathML served as a readable<br />
+formula) apart from the fact that I barely recognized my own site.</p>
+<p>I printed out source files of the page with and without changed<br />
+headers and couldn‚Äôt find a difference. So, it had to do with the<br />
+CSS-style files, but why on earth would the new headers be picky about<br />
+CSS? But as a last resort, after narrowing the search down to one<br />
+CSS-line, I asked Jacques whether he had an idea what went on. His reply<br />
+will be remembered for quite some time :</p>
+<blockquote><p>A fascinating<br />
+question.  The answer is that it *is* following the CSS directive, but<br />
+in XHTML, &#8216;body&#8217; is not what you think it is.  &#8216;body&#8217; is just big enough<br />
+to contain its content. It does not fill the viewport. &#8216;html&#8217; fills the<br />
+viewport.  The solution (a solution) is described in<br />
+http://golem.ph.utexas.edu/~distler/blog/archives/000203.html
+</p></blockquote>
+<p>Many hours later, I still haven‚Äôt got a clue what<br />
+this is all about, but I blindly followed the hint and surely all<br />
+problems vanished. In short, another day wasted in front of a<br />
+computer-screen.</p>
+<p>At the moment I&#8217;m back to old headers and<br />
+will not be writing mathML for some time as I have the vast job ahead to<br />
+validate all my previous posts to XHTML-standards (if not you would see<br />
+more yellows screens of death than anything else. So, here‚Äôs the<br />
+strategy I&#8217;ll be taking in the weeks ahead (I&#8217;ll sleep on it tonight<br />
+so if any of you think there is a better way, reply quickly)</p>
+<ul>
+<li>rewrite each and every post in proper MultiMarkdown using iTeX for<br />
+the most common math and only resorting to LaTeXRender for exotic things<br />
+(such as Sudoku, Chess, Dvonn) and run these posts through Markdown<br />
+(to get basic HTML and all links in place).</li>
+<li>download these<br />
+files to the WP-database (so that in the CLI-interface you will be able<br />
+to follow all links, but will read all iTeX as TeX-commands (as the<br />
+command line intended after all).</li>
+<li>in the process change all<br />
+broken links to the default permalink-structure (with index.php?p=231 or<br />
+so).</li>
+</ul>
+<p>Clearly, this is a work that will take a couple of<br />
+weeks but it may be fun to reread these old posts and possibly add new<br />
+information about the subjects. When I‚Äôm making these changes, I‚Äôll<br />
+use the new headers so if you are using a smart browser look out for the<br />
+yellow screens. When they happen, either use a dumb browser (such as<br />
+Safari) or go into CLI-interface mode where everything should still<br />
+work. I plan to start with the oldest posts as this seems more fun to<br />
+me.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>dvonn (2) overload</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/dvonn-2-overload/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/dvonn-2-overload/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 11 Jan 2006 10:30:56 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[dvonn]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=311</guid>
+
+					<description><![CDATA[In the [previous post](https://lievenlebruyn.github.io/neverendingbooks/index.php?p=309%29 we have seen that it is important to have lots of mobile pieces around in the endgame and that it is&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In the<br />
+[previous post](https://lievenlebruyn.github.io/neverendingbooks/index.php?p=309%29 we have<br />
+seen that it is important to have lots of mobile pieces around in the<br />
+endgame and that it is hard for a computer-program to evaluate a<br />
+position correctly. In fact, we illustrated this with a position which<br />
+&#8216;clearly&#8217; looks much better for Black (the computer) whereas it is<br />
+already lost!  In fact, the computer lost this particular game already 7<br />
+plies earlier. Consider the position</p>
+<p>$\xymatrix@=.3cm @!C<br />
+@R=.7cm{.&#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; \\ &#038; &#038; &#038; \SBlack \connS &#038; &#038;<br />
+\bull{d}{5} \conn &#038; &#038; \bull{e}{5} \conn &#038; &#038; \bull{f}{5} \conn &#038; &#038;<br />
+\bull{g}{5} \conn  &#038; &#038; \bull{h}{5} \conn &#038; &#038; \SWhite \connS &#038; &#038; \SWhite<br />
+\connS &#038; &#038; \SWhite \conneS &#038; &#038; &#038; \\ &#038; &#038; \SBlack \connS &#038; &#038; \SBlack<br />
+\connS &#038; &#038; \Black{6} \connS &#038; &#038; \bull{e}{4} \conn&#038; &#038; \bull{f}{4} \conn &#038;<br />
+&#038; \bull{g}{4} \conn  &#038; &#038; \bull{h}{4} \conn &#038; &#038; \SWhite \connS &#038; &#038;<br />
+\SWhite \connS &#038; &#038; \SWhite \conneS  &#038; &#038; \\ &#038; \SBlack \connbeginS &#038; &#038;<br />
+\SBlack \connS &#038; &#038; \BDvonn{2} \connS &#038; &#038; \bull{d}{3} \conn &#038; &#038; \SBlack<br />
+\connS &#038; &#038; \BDvonn{3} \connS &#038; &#038; \White{4} \connS  &#038; &#038; \SWhite \connS &#038;<br />
+&#038; \Dvonn \connS &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \connendS &#038; . \\ &#038; &#038;<br />
+\Black{5} \connbeginS &#038; &#038; \SBlack \connS &#038; &#038; \SBlack \connS &#038; &#038;<br />
+\bull{d}{2} \conn &#038; &#038; \SBlack \connS &#038; &#038; \bull{f}{2} \conn &#038; &#038;<br />
+\bull{g}{2} \conn &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \connS &#038; &#038; \SWhite<br />
+\connendS &#038; &#038; \\ &#038; &#038; &#038; \bull{a}{1} \con &#038; &#038; \bull{b}{1} \con &#038; &#038;<br />
+\Black{5} \conS &#038; &#038; \bull{d}{1} \con &#038; &#038; \bull{e}{1} \con &#038; &#038;<br />
+\bull{f}{1} \con &#038; &#038; \bull{g}{1} \con &#038; &#038; \bull{h}{1} \con &#038; &#038; \White{2}<br />
+&#038; &#038; &#038; \\ .&#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; } $</p>
+<p>Probably, Black lost the<br />
+game with its last move d1-f3 thereby disconnecting its pieces into two<br />
+clusters. White (the human player) must already have realized at this<br />
+moment he had a good chance of winning (as indicated in the previous<br />
+post) by letting Black run out of moves by building large stacks on the<br />
+third row, White building a stack of the appropriate size which then<br />
+jumps on the largest Black stack on the final move. Btw. this technique<br />
+is called *sharpshooting*  in Dvonn-parlance  </p>
+<blockquote><p> The concept<br />
+of manipulating the height of a stack so that it can land precisely on a<br />
+critical space. It&#8217;s a matter of counting and one-digit addition. Notice<br />
+that this doesn&#8217;t necessarily mean putting your own stacks atop one<br />
+another &#8211; the best sharpshooting moves are moves which also neutralize.<br />
+To counter a sharpshooting move is called &#8220;spoiling&#8221;. </p></blockquote>
+<p>  But<br />
+for this strategy to have a chance, White must keep the Black stacks<br />
+containing the Dvonn pieces on the third row. At the moment the stack on<br />
+c3 can move to c1 or  to c5 and with his next move White counters this<br />
+by *overloading* the stack, that is  </p>
+<blockquote><p> To spoil a move or<br />
+prevent a lifting move by moving atop the enemy stack. Even if the<br />
+opponent has enough control to retake the stack, he cannot move it<br />
+because it has become taller. </p></blockquote>
+<p>  So, White sacrifies his<br />
+height 4 stack on g3 with the move g3-c3. Black must take back<br />
+immediately (if not, White moves c3-i3 and all Black&#8217;s material in  the<br />
+farmost right cluster is lost) but now the previously mobile Black<br />
+height 2 stack at c3 has become an immobile (or *old stack*) height 7<br />
+stack which has no option but to stay on c3 (clearly Black will never<br />
+move it to j3&#8230;).  Next, White performs a similar startegy to<br />
+neutralize the *young* height 3 Black stack on f3 by overloading it by 2<br />
+and hence after the forced recapture it becomes a height 6 Black stack<br />
+which must remain on f3 forever. Here are the actual moves  1) g3-c3<br />
+b2-c3   2) h2-h3 b4-c5   3) h3-f3 e2-f3    and we end up with the<br />
+situation we analyzed last time, that is</p>
+<p>$\xymatrix@=.3cm  @!C<br />
+@R=.7cm{.&#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; \\ &#038;  &#038; &#038; \Black{2} \connS &#038; &#038;<br />
+\bull{d}{5} \conn &#038; &#038; \bull{e}{5} \conn &#038; &#038; \bull{f}{5} \conn &#038; &#038;<br />
+\bull{g}{5} \conn  &#038; &#038; \bull{h}{5} \conn &#038; &#038; \SWhite \connS &#038; &#038; \SWhite<br />
+\connS &#038; &#038; \SWhite \conneS &#038; &#038; &#038; \\ &#038; &#038; \bull{b}{4} \conn &#038; &#038; \SBlack<br />
+\connS &#038; &#038; \Black{6} \connS &#038; &#038; \bull{e}{4} \conn&#038; &#038; \bull{f}{4} \conn &#038;<br />
+&#038; \bull{g}{4} \conn  &#038; &#038; \bull{h}{4} \conn &#038; &#038; \SWhite \connS &#038; &#038;<br />
+\SWhite \connS &#038; &#038; \SWhite \conneS  &#038;  &#038; \\ &#038; \SBlack \connbeginS &#038; &#038;<br />
+\SBlack \connS &#038; &#038; \BDvonn{7} \connS &#038; &#038; \bull{d}{3} \conn &#038; &#038; \SBlack<br />
+\connS &#038; &#038; \BDvonn{6} \connS &#038; &#038; \bull{g}{3} \conn  &#038; &#038; \bull{h}{3}<br />
+\conn &#038; &#038; \Dvonn \connS &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \connendS &#038; . \\<br />
+&#038;  &#038; \Black{5} \connbeginS &#038; &#038; \bull{b}{2} \conn &#038; &#038; \SBlack \connS &#038; &#038;<br />
+\bull{d}{2} \conn &#038; &#038; \bull{e}{2} \conn &#038; &#038; \bull{f}{2} \conn &#038; &#038;<br />
+\bull{g}{2} \conn &#038; &#038; \bull{h}{2} \conn &#038; &#038; \SWhite \connS &#038; &#038; \SWhite<br />
+\connendS &#038; &#038; \\ &#038; &#038; &#038; \bull{a}{1} \con &#038; &#038; \bull{b}{1} \con &#038; &#038;<br />
+\Black{5} \conS &#038; &#038; \bull{d}{1} \con &#038; &#038; \bull{e}{1} \con &#038; &#038;<br />
+\bull{f}{1} \con &#038; &#038; \bull{g}{1} \con &#038; &#038; \bull{h}{1} \con &#038; &#038; \White{2}<br />
+&#038; &#038; &#038; \\ . &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; } $</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/dvonn-2-overload/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Latexrender and dvonn boards</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/latexrender-and-dvonn-boards/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/latexrender-and-dvonn-boards/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 09 Jan 2006 10:27:27 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[dvonn]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=310</guid>
+
+					<description><![CDATA[In order to blog a bit about Dvonn-strategy, I made myself a simple Dvonn LaTeX-template which works very well on paper but which gets mutilated&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In order<br />
+to blog a bit about Dvonn-strategy, I made myself a simple Dvonn<br />
+LaTeX-template which works very well on paper but which gets mutilated<br />
+by Latexrender, for example the first situation of the  looks<br />
+like</p>
+<p>$~\xymatrix@=.3cm @!C @R=.7cm{ &#038; &#038; \Black{2} \connS &#038; &#038;<br />
+\bull{d}{5} \conn &#038; &#038; \bull{e}{5} \conn &#038; &#038; \bull{f}{5} \conn &#038; &#038;<br />
+\bull{g}{5} \conn  &#038; &#038; \bull{h}{5} \conn &#038; &#038; \SWhite \connS &#038; &#038; \SWhite<br />
+\connS &#038; &#038; \SWhite \conneS &#038; &#038;  \\ &#038; \bull{b}{4} \conn &#038; &#038; \SBlack<br />
+\connS &#038; &#038; \Black{6} \connS &#038; &#038; \bull{e}{4} \conn&#038; &#038; \bull{f}{4} \conn &#038;<br />
+&#038; \bull{g}{4} \conn  &#038; &#038; \bull{h}{4} \conn &#038; &#038; \SWhite \connS &#038; &#038;<br />
+\SWhite \connS &#038; &#038; \SWhite \conneS  &#038;  \\ \SBlack \connbeginS &#038; &#038;<br />
+\SBlack \connS &#038; &#038; \BDvonn{7} \connS &#038; &#038; \bull{d}{3} \conn &#038; &#038; \SBlack<br />
+\connS &#038; &#038; \BDvonn{6} \connS &#038; &#038; \bull{g}{3} \conn  &#038; &#038; \bull{h}{3}<br />
+\conn &#038; &#038; \Dvonn \connS &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \connendS  \\ &#038;<br />
+\Black{5} \connbeginS &#038; &#038; \bull{b}{2} \conn &#038; &#038; \SBlack \connS &#038; &#038;<br />
+\bull{d}{2} \conn &#038; &#038; \bull{e}{2} \conn &#038; &#038; \bull{f}{2} \conn &#038; &#038;<br />
+\bull{g}{2} \conn &#038; &#038; \bull{h}{2} \conn &#038; &#038; \SWhite \connS &#038; &#038; \SWhite<br />
+\connendS &#038; \\ &#038; &#038; \bull{a}{1} \con &#038; &#038; \bull{b}{1} \con &#038; &#038; \Black{5}<br />
+\conS &#038; &#038; \bull{d}{1} \con &#038; &#038; \bull{e}{1} \con &#038; &#038; \bull{f}{1} \con &#038; &#038;<br />
+\bull{g}{1} \con &#038; &#038; \bull{h}{1} \con &#038; &#038; \White{2} &#038; &#038;} $</p>
+<p>The<br />
+reason behind this unwanted clipping is that Latexrender uses<br />
+**convert** to take the relevant part of a ps-page containing only the<br />
+TeXed formula on an empty page by performing clipping and then converts<br />
+it into a GIF-file (or any other format you desire). The obvious way<br />
+round this is to enlarge my template by adding two additional rows and<br />
+columns and putting visible nonsense there (such as dots) to enlarge the<br />
+relevant part so that no clipping is done of essential info. But then<br />
+(1) the picture generated becomes even larger than that above and (2) I<br />
+don&#8217;t want you to see the extra nonsensical dots&#8230;  The essential line<br />
+in the **class.latexrender.php** file is</p>
+<p><code>$command =<br />
+$this->_convert_path." -density ".$this->_formula_density.<br />
+    " -trim -transparent \"#FFFFFF\" ".$this->_tmp_filename.".ps ".<br />
+             $this->_tmp_filename.".".$this->_image_format; </code></p>
+<p>             So<br />
+I needed to delve into the [manual pages for the convert command](http://amath.colorado.edu/computing/software/man/convert.html)<br />
+of the ImageMagick-package. To my surprise, the *-trim* option (which I<br />
+thought to adjust somewhat by adding parameters) doesn&#8217;t exist! Still, I<br />
+got around my second problem using the *crop* option and around the<br />
+first by using the very useful *geometry* option. The latter is also<br />
+useful if you find that the size of the output of Latexrender is not<br />
+compatible with the size of your regular text. Of course you can amend<br />
+this somewhat by using the *extarticle* documentclass (as suggested) but<br />
+if you want to further adjust it, use for example</p>
+<p><code> -geometry<br />
+86%</code></p>
+<p>to size the output to exactly 86% (or whatever you need).<br />
+So, whenever I want to do some Dvonn-blogging from now on I&#8217;ll change my<br />
+class.latexrender.php file as follows</p>
+<p><code>  $command =<br />
+$this->_convert_path." -crop 0x0-10% -crop 0x0+10% -density<br />
+".$this->_formula_density.                     " -geometry 80%<br />
+-transparent \"#FFFFFF\" ".$this->_tmp_filename.".ps ".<br />
+   $this->_tmp_filename.".".$this->_image_format; </code></p>
+<p>   which<br />
+produces the output</p>
+<p>$\xymatrix@=.3cm  @R=.7cm{.&#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038;<br />
+&#038; &#038; &#038; \\ &#038;  &#038; &#038; \Black{2} \connS &#038; &#038; \bull{d}{5} \conn &#038; &#038; \bull{e}{5}<br />
+\conn &#038; &#038; \bull{f}{5} \conn &#038; &#038; \bull{g}{5} \conn  &#038; &#038; \bull{h}{5} \conn<br />
+&#038; &#038; \SWhite \connS &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \conneS &#038; &#038; &#038; \\ &#038; &#038;<br />
+\bull{b}{4} \conn &#038; &#038; \SBlack \connS &#038; &#038; \Black{6} \connS &#038; &#038;<br />
+\bull{e}{4} \conn&#038; &#038; \bull{f}{4} \conn &#038; &#038; \bull{g}{4} \conn  &#038; &#038;<br />
+\bull{h}{4} \conn &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \connS &#038; &#038; \SWhite<br />
+\conneS  &#038;  &#038; \\ &#038; \SBlack \connbeginS &#038; &#038; \SBlack \connS &#038; &#038;<br />
+\BDvonn{7} \connS &#038; &#038; \bull{d}{3} \conn &#038; &#038; \SBlack \connS &#038; &#038;<br />
+\BDvonn{6} \connS &#038; &#038; \bull{g}{3} \conn  &#038; &#038; \bull{h}{3} \conn &#038; &#038;<br />
+\Dvonn \connS &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \connendS &#038; . \\ &#038;  &#038;<br />
+\Black{5} \connbeginS &#038; &#038; \bull{b}{2} \conn &#038; &#038; \SBlack \connS &#038; &#038;<br />
+\bull{d}{2} \conn &#038; &#038; \bull{e}{2} \conn &#038; &#038; \bull{f}{2} \conn &#038; &#038;<br />
+\bull{g}{2} \conn &#038; &#038; \bull{h}{2} \conn &#038; &#038; \SWhite \connS &#038; &#038; \SWhite<br />
+\connendS &#038; &#038; \\ &#038; &#038; &#038; \bull{a}{1} \con &#038; &#038; \bull{b}{1} \con &#038; &#038;<br />
+\Black{5} \conS &#038; &#038; \bull{d}{1} \con &#038; &#038; \bull{e}{1} \con &#038; &#038;<br />
+\bull{f}{1} \con &#038; &#038; \bull{g}{1} \con &#038; &#038; \bull{h}{1} \con &#038; &#038; \White{2}<br />
+&#038; &#038; &#038; \\ . &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; &#038; } $</p>
+<p>which (I hope) you will<br />
+find slightly better&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/latexrender-and-dvonn-boards/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>dvonn (1) mobility</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/dvonn-1-mobility/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/dvonn-1-mobility/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 07 Jan 2006 10:17:01 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[dvonn]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=309</guid>
+
+					<description><![CDATA[[Dvonn](http://www.gipf.com/dvonn $ is the fourth game in the [Gipf Project](http://www.gipf.com/project_gipf/index.html) and the most mathematical of all six. It is a very fast (but subtle) game&#8230;]]></description>
+										<content:encoded><![CDATA[<p>[Dvonn](http://www.gipf.com/dvonn $ is<br />
+the fourth game in the [Gipf Project](http://www.gipf.com/project_gipf/index.html) and the most<br />
+mathematical of all six. It is a very fast (but subtle) game with a<br />
+simple [set of rules](http://www.gipf.com/dvonn/rules/rules.html). Here<br />
+is a short version  </p>
+<blockquote><p> DVONN is a stacking game. It is played<br />
+on an elongated hexagonal board, with 23 white, 23 black and 3 red<br />
+DVONN-pieces. In the beginning the board is empty. The players first<br />
+place the DVONN-pieces on the board and next their own pieces. Then they<br />
+start stacking pieces on top of each other. A single piece may be moved<br />
+1 space in any direction, a stack of two pieces may be moved two spaces,<br />
+etc. A stack must always be moved as a whole and a move must always end<br />
+on top of another piece or stack. If pieces or stacks lose contact with<br />
+the DVONN pieces, they must be removed from the board. The game ends<br />
+when no more moves can be made. The players put the stacks they control<br />
+on top of each other and the one with the highest stack is the winner.<br />
+That&#8217;s all!  </p></blockquote>
+<p>  All this will become clearer once we fix a<br />
+specific end-game, for example</p>
+<p>$\xymatrix@=.3cm @!C @R=.7cm{ &#038; &#038;<br />
+\Black{2} \connS &#038; &#038; \bull{d}{5} \conn &#038; &#038; \bull{e}{5} \conn &#038; &#038;<br />
+\bull{f}{5} \conn &#038; &#038; \bull{g}{5} \conn  &#038; &#038; \bull{h}{5} \conn &#038; &#038;<br />
+\SWhite \connS &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \conneS &#038; &#038;  \\ &#038;<br />
+\bull{b}{4} \conn &#038; &#038; \SBlack \connS &#038; &#038; \Black{6} \connS &#038; &#038;<br />
+\bull{e}{4} \conn&#038; &#038; \bull{f}{4} \conn &#038; &#038; \bull{g}{4} \conn  &#038; &#038;<br />
+\bull{h}{4} \conn &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \connS &#038; &#038; \SWhite<br />
+\conneS  &#038;  \\ \SBlack \connbeginS &#038; &#038; \SBlack \connS &#038; &#038; \BDvonn{7}<br />
+\connS &#038; &#038; \bull{d}{3} \conn &#038; &#038; \SBlack \connS &#038; &#038; \BDvonn{6} \connS &#038;<br />
+&#038; \bull{g}{3} \conn  &#038; &#038; \bull{h}{3} \conn &#038; &#038; \Dvonn \connS &#038; &#038; \SWhite<br />
+\connS &#038; &#038; \SWhite \connendS  \\ &#038; \Black{5} \connbeginS &#038; &#038;<br />
+\bull{b}{2} \conn &#038; &#038; \SBlack \connS &#038; &#038; \bull{d}{2} \conn &#038; &#038;<br />
+\bull{e}{2} \conn &#038; &#038; \bull{f}{2} \conn &#038; &#038; \bull{g}{2} \conn &#038; &#038;<br />
+\bull{h}{2} \conn &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \connendS &#038; \\ &#038; &#038;<br />
+\bull{a}{1} \con &#038; &#038; \bull{b}{1} \con &#038; &#038; \Black{5} \conS &#038; &#038;<br />
+\bull{d}{1} \con &#038; &#038; \bull{e}{1} \con &#038; &#038; \bull{f}{1} \con &#038; &#038;<br />
+\bull{g}{1} \con &#038; &#038; \bull{h}{1} \con &#038; &#038; \White{2} &#038; &#038;} $</p>
+<p>with<br />
+White to move. Some comments about notation : the left-slanted columns<br />
+are denoted by letters from a (left) to k (right) and the rows are<br />
+labeled 1 to 5 from bottom to top (surprisingly this &#8216;standard&#8217;<br />
+webgame-notation differs from the numbering on my Dvonn-board where the<br />
+rows are labeled from top to bottom&#8230;). So, for example, the three<br />
+spots on the upper right are k3,k4 and k5 (there are no k1 or k2 spots).<br />
+The three Dvonn pieces are colored red and in the course of the game a<br />
+stack may land on a Dvonn piece and so stacks containing a Dvonn piece<br />
+are denoted with a red halo. For example, the symbol on spot f3 stands<br />
+for for a stack of 6 pieces, one of which is a red Dvonn piece, under<br />
+the control of Black (that is, the top-piece is Black).  Further note<br />
+that a piece or stack can only move if it is not surrounded by 6 other<br />
+pieces or stacks (so the White pieces on j3 and j4 cannot (yet) move). A<br />
+piece can only move by one step in either line-direction provided there<br />
+is another piece or stack on that position. The same applies for stacks<br />
+: an height 3 stack for example can move in each lin-direction by<br />
+exactly 3 steps provided there is a piece or stack to jump onto. For<br />
+example, the height 6 stack on d4 can only move to j4 whereas the height<br />
+6 stack on f3 cannot move at all! Similarly, the two black height 5<br />
+stacks are immobile. At the moment black has all its stacks defended,<br />
+that is, if White should be able to jump onto one of them (which White<br />
+cannot at the moment), Black can use one of its neighbouring pieces to<br />
+take the stack back under its control.   So, any computer program would<br />
+&#8216;evaluate&#8217; the position as favourable for Black : Black has stacks of<br />
+total height 34 safely under control (there are no immediate threats to<br />
+be seen : the [horizon effect](http://www.comp.lancs.ac.uk/computing/research/aai-aied/people/paulb/old243prolog/subsection3_7_5.html) in such programs) whereas White<br />
+can only claim  potential stacks of total height 13&#8230;   Still, Black<br />
+has already lost the game. White has more pieces which are quite mobile<br />
+as opposed to the immobile black stacks, so Black will soon run out of<br />
+moves to make and his end position will have some large stacks on the<br />
+third row. All white has to do is to let Black run out of moves and then<br />
+continue (Dvonn forces each player to make a move if they still can and<br />
+to pass the move otherwise, so the most mobile player can still continue<br />
+long after the other player was forced to stop) to build a White stack<br />
+of the appropriate height on the third row to jump on the highest Black<br />
+stack with its last move!  Here is how the play continued :  1) j2-k3 ;<br />
+a3-b3   2) i1-k3 ; c5-c3   3) i2-i3  ; c2-c3   4) i3-k3 ; d4-j4   5)<br />
+j3-j4  ; e3-f3     6) i4-j4  ; c4-b3    to arrive at the position where<br />
+Black is no longer able to make any moves at all</p>
+<p>$\xymatrix@=.3cm<br />
+@!C @R=.7cm{ &#038; &#038; \bull{c}{5} \conn &#038; &#038; \bull{d}{5} \conn &#038; &#038; \bull{e}{5}<br />
+\conn &#038; &#038; \bull{f}{5} \conn &#038; &#038; \bull{g}{5} \conn  &#038; &#038; \bull{h}{5} \conn<br />
+&#038; &#038; \SWhite \connS &#038; &#038; \SWhite \connS &#038; &#038; \SWhite \conneS &#038; &#038;  \\ &#038;<br />
+\bull{b}{4} \conn &#038; &#038; \bull{c}{4} \conn &#038; &#038; \bull{d}{4} \conn &#038; &#038;<br />
+\bull{e}{4} \conn&#038; &#038; \bull{f}{4} \conn &#038; &#038; \bull{g}{4} \conn  &#038; &#038;<br />
+\bull{h}{4} \conn &#038; &#038; \bull{i}{4} \connS &#038; &#038; \White{9} \connS &#038; &#038;<br />
+\SWhite \conneS  &#038;  \\ \bull{a}{3} \connbegin &#038; &#038; \Black{3} \connS &#038; &#038;<br />
+\BDvonn{10} \connS &#038; &#038; \bull{d}{3} \conn &#038; &#038; \bull{e}{3} \conn &#038; &#038;<br />
+\BDvonn{7} \connS &#038; &#038; \bull{g}{3} \conn  &#038; &#038; \bull{h}{3} \conn &#038; &#038;<br />
+\bull{i}{3} \conn &#038; &#038; \bull{j}{3} \conn &#038; &#038; \WDvonn{6} \connendS  \\ &#038;<br />
+\Black{5} \connbeginS &#038; &#038; \bull{b}{2} \conn &#038; &#038; \bull{c}{2} \conn &#038; &#038;<br />
+\bull{d}{2} \conn &#038; &#038; \bull{e}{2} \conn &#038; &#038; \bull{f}{2} \conn &#038; &#038;<br />
+\bull{g}{2} \conn &#038; &#038; \bull{h}{2} \conn &#038; &#038; \bull{i}{2} \conn &#038; &#038;<br />
+\bull{j}{2} \connend &#038; \\ &#038; &#038; \bull{a}{1} \con &#038; &#038; \bull{b}{1} \con &#038; &#038;<br />
+\bull{c}{1} \con &#038; &#038; \bull{d}{1} \con &#038; &#038; \bull{e}{1} \con &#038; &#038;<br />
+\bull{f}{1} \con &#038; &#038; \bull{g}{1} \con &#038; &#038; \bull{h}{1} \con &#038; &#038;<br />
+\bull{i}{1} &#038; &#038;} $</p>
+<p>Note that all pieces and stacks no longer<br />
+connected to a Dvonn piece must be removed. So, for example, after the<br />
+third move by Black, the Black height 5 stacks on c1 was removed. All<br />
+white now has to do is to built an height 8 stack on k3 and jump onto<br />
+the height 10 Black stack on c3 to win the game. The (only) way to do<br />
+this is by 7. j5-k5 and 8. k5-k3 to finish with 9. k3-c3 with final<br />
+position (note again that the White right-hand pieces and stacks are no<br />
+longer connected to a Dvonn piece and are hence removed)</p>
+<p>$\xymatrix@=.3cm @!C @R=.7cm{ &#038; &#038; \bull{c}{5} \conn &#038; &#038; \bull{d}{5}<br />
+\conn &#038; &#038; \bull{e}{5} \conn &#038; &#038; \bull{f}{5} \conn &#038; &#038; \bull{g}{5} \conn<br />
+&#038; &#038; \bull{h}{5} \conn &#038; &#038; \bull{i}{5} \conn &#038; &#038; \bull{j}{5} \conn &#038; &#038;<br />
+\bull{k}{5} \conne &#038; &#038;  \\\ &#038; \bull{b}{4} \conn &#038; &#038; \bull{c}{4} \conn &#038;<br />
+&#038; \bull{d}{4} \conn &#038; &#038; \bull{e}{4} \conn&#038; &#038; \bull{f}{4} \conn &#038; &#038;<br />
+\bull{g}{4} \conn  &#038; &#038; \bull{h}{4} \conn &#038; &#038; \bull{i}{4} \conn &#038; &#038;<br />
+\bull{j}{4} \conn &#038; &#038; \bull{k}{4} \conne  &#038;  \\\ \bull{a}{3} \connbegin<br />
+&#038; &#038; \Black{3} \connS &#038; &#038; \WDvonn{18} \connS &#038; &#038; \bull{d}{3} \conn &#038; &#038;<br />
+\bull{e}{3} \conn &#038; &#038; \BDvonn{7} \connS &#038; &#038; \bull{g}{3} \conn  &#038; &#038;<br />
+\bull{h}{3} \conn &#038; &#038; \bull{i}{3} \conn &#038; &#038; \bull{j}{3} \conn &#038; &#038;<br />
+\bull{k}{3} \connend  \\\ &#038; \Black{5} \connbeginS &#038; &#038; \bull{b}{2} \conn<br />
+&#038; &#038; \bull{c}{2} \conn &#038; &#038; \bull{d}{2} \conn &#038; &#038; \bull{e}{2} \conn &#038; &#038;<br />
+\bull{f}{2} \conn &#038; &#038; \bull{g}{2} \conn &#038; &#038; \bull{h}{2} \conn &#038; &#038;<br />
+\bull{i}{2} \conn &#038; &#038; \bull{j}{2} \connend &#038; \\\ &#038; &#038; \bull{a}{1} \con &#038;<br />
+&#038; \bull{b}{1} \con &#038; &#038; \bull{c}{1} \con &#038; &#038; \bull{d}{1} \con &#038; &#038;<br />
+\bull{e}{1} \con &#038; &#038; \bull{f}{1} \con &#038; &#038; \bull{g}{1} \con &#038; &#038;<br />
+\bull{h}{1} \con &#038; &#038; \bull{i}{1} &#038; &#038;  } $</p>
+<p>So White wins with 18 to<br />
+Black&#8217;s 15. This shows that it is important to maintain mobility and<br />
+also that it is possible to win a Dvonn-game from computers. In fact,<br />
+the above end-game was played against a computer-program (Black). The<br />
+entire game can be found<br />
+[here](http://www.littlegolem.net/jsp/game/game.jsp?gid=426457&#038;nmove=91)<br />
+.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/dvonn-1-mobility/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Emmy Noether &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/emmy-noether/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 24 Dec 2010 12:11:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Erna Bannow, octonions and the Leech?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/erna-bannow-octonions-and-the-leech/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/erna-bannow-octonions-and-the-leech/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 24 Dec 2010 12:11:38 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Emmy Noether]]></category>
+		<category><![CDATA[Erna Bannow]]></category>
+		<category><![CDATA[Ernst Witt]]></category>
+		<category><![CDATA[Leech lattice]]></category>
+		<category><![CDATA[octonions]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3827</guid>
+
+					<description><![CDATA[Im the previous post on the discovery of the Leech lattice I asked : &#8220;Would you spend your last week-end together with your wife to&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Im the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/so-who-did-discover-the-leech-lattice.html/">previous post</a> on the discovery of the Leech lattice I asked :</p>
+<p>&#8220;Would you spend your last week-end together with your wife to be before going to war performing an horrendous calculation?&#8221;</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/so-who-did-discover-the-leech-lattice.html/comment-page-1#comment-11513">Peter</a> commented :</p>
+<p>&#8220;This doesn’t sound too unbelievable, given that said wife-to-be was also a mathematician! Did Witt and Bannow work together much mathematically, do we know? If so, this (a) makes a weekend of fired-up intellectual passion quite plausible, and (b) makes the remarkably rapid calculation somewhat more feasible: two workers, not just one!&#8221;</p>
+<p>Point taken! So, we need to know more on Erna Bannow and her mathematics.</p>
+<p>Erna Bannow was born october 6th1911 in Schlawe (Pommern), now <a href="http://schlawe.de/gemeinden/schlawe/index.htm">Sławno</a> in Poland. In 1930 she finished her secondary studies at the Oberlyzeum Merseburg (near Leipzig). She then continued her studies at the universities of Marburg, Bonn, and Göttingen.</p>
+<p>Apart from the picture at the start of the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/so-who-did-discover-the-leech-lattice.html/">previous post</a>, there is another well-known picture showing Witt (1), Bannow (2) and Noether (3, partially hidden) in their Göttingen days.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wittbannow.jpg"></p>
+<p>Erna Bannow was one of the students signing a <a href="http://www.rzuser.uni-heidelberg.de/~ci3/gutachten/noether-gutachten.htm">petition</a> protesting against the forced departure of Emmy Noether from Göttingen in 1933.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/bannowsignature.jpg"></p>
+<p>Her signature is first on the list (the other students signing were : E. Knauf, Tsen, W. Vorbeck, G. Dechamps, W. Wichmann, H. Davenport (Cambridge, Engl.), H. Ulm, L. Schwarz, Walter Brandt (?), D. Derry and Wei-Liang Chow)</p>
+<p>After Noether left, one source says that Erna abandoned her studies from 1934 till 1938 when she entered the University of Hamburg. Another story is that she followed Emil Artin to Hamburg and started working on her Ph. D. When Artin was forced to emigrate to the US in 1937 and his position was taken over by Witt, Witt became her Ph.D. advisor.</p>
+<p>What is certain is that she obtained her Ph.D. on july 25th 1939 for her <a href="http://dml.mathematik.uni-bielefeld.de/genealogy/id.php?id=65600">thesis</a> &#8220;Die Automorphismengruppen der Cayley-Zahlen&#8221; (promotor Ernst Witt, referee Helmut Hasse).</p>
+<p>Erna Bannow published a paper out of her thesis in the Abh. Math. Seminar Hamburg 13 (1940) 240-256 and Witt published a 1/2 page summary of her results in J. reine angew. Math. 182 (1940) 205 (submitted september 2nd, 1939). As fat as I know this is the only paper authored by Bannow and there is no evidence of other joint work by Witt and Bannow.</p>
+<p>Still, the topic of her thesis, Cayley-numbers aka the <a href="http://en.wikipedia.org/wiki/Octonion">octonions</a>, is pretty interesting for our Leech lattice story!</p>
+<p>Over the years, people have tried to find an explanation of the fact that the number of vectors of minimal norm in the Leech lattice can be expressed as</p>
+<p>$196560 = 3 \times 240 \times (1+16+16^2) $</p>
+<p>where the 240 comes from the 240 octonions spanning a copy of the $E_8 $-lattice. On december 18th 2008, Robert Wilson was at last able to provide an explanation and give a new elementary  <a href="http://www.maths.qmul.ac.uk/~raw/pubs_files/octoLeech1.pdf">construction of the Leech lattice</a> in terms of octonions!</p>
+<p>Is it possible that the combined knowledge of Ernst Witt and Erna Bannow on root lattice and octonions enabled them in a weekend of &#8216;fired-up intellectual passion&#8217; to discover this octonionic description of the Leech lattice?</p>
+<p>This sure would make a great story! Next time we will see that it is, unfortunately, highly unlikely&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/erna-bannow-octonions-and-the-leech/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>scaling site &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/scaling-site/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 29 Dec 2021 13:42:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Alain Connes on his RH-project</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 29 Dec 2021 13:42:59 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[arithemtic site]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Consani]]></category>
+		<category><![CDATA[Riemann hypothesis]]></category>
+		<category><![CDATA[scaling site]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9879</guid>
+
+					<description><![CDATA[In recent months, my primary focus was on teaching and family matters, so I make advantage of this Christmas break to catch up with some&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In recent months, my primary focus was on <a href="https://lievenlebruyn.github.io/neverendingbooks/designer-maths">teaching</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/phase-transition">family matters</a>, so I make advantage of this Christmas break to catch up with some of the things I&#8217;ve missed.</p>
+<p><a href="https://www.math.columbia.edu/~woit/wordpress/?p=12584">Peter Woit&#8217;s blog</a> alerted me to the existence of the (virtual) Lake Como-conference, end of september: <a href="https://utge.lakecomoschool.org/programme/">Unifying themes in Geometry</a>.</p>
+<p>In Corona times, virtual conferences seem to sprout up out of nowhere, everywhere (zero costs), giving us an inflation of YouTubeD talks. I&#8217;m always grateful to the organisers of such events to provide the slides of the talks separately, as the generic YouTubeD-talk consists merely in reading off the slides.</p>
+<p>Allow me to point you to one of the rare exceptions to this rule.</p>
+<p>When I downloaded the slides of Alain Connes&#8217; talk at the conference <a href="https://www.dropbox.com/s/vqksoc02ci4q7dz/ConnesSlides.pdf?dl=0">From noncommutative geometry to the tropical geometry of the scaling site</a> I just saw a collage of graphics from his endless stream of papers with Katia Consani, and slides I&#8217;d seen before watching several of his YouTubeD-talks in recent years.</p>
+<p>Boy, am I glad I gave Alain 5 minutes to convince me <a href="https://www.youtube.com/watch?v=8UGwbUzj6iw">this talk</a> was different.</p>
+<p>For the better part of his talk, Alain didn&#8217;t just read off the slides, but rather tried to explain the thought processes that led him and Katia to move on from the results on this slide to those on the next one.</p>
+<p>If you&#8217;re pressed for time, perhaps you might join in at 49.34 into the talk, when he acknowledges the previous (tropical) approach ran out of steam as they were unable to define any $H^1$ properly, and how this led them to &#8216;absolute&#8217; algebraic geometry, meaning over the sphere spectrum $\mathbb{S}$.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/8UGwbUzj6iw?start=2974" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Sadly, for some reason Alain didn&#8217;t manage to get his final two slides on screen. So, in this case, the <a href="https://www.dropbox.com/s/vqksoc02ci4q7dz/ConnesSlides.pdf?dl=0">slides</a> actually add value to the talk&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/alain-connes-on-his-rh-project/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>sudoku &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/sudoku/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 06 Feb 2008 10:48:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>censured post : bloggers’ block</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/censured-post-bloggers-block/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/censured-post-bloggers-block/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 06 Feb 2008 10:48:26 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/censured-post-bloggers-block.html</guid>
+
+					<description><![CDATA[Below an up-till-now hidden post, written november last year, trying to explain the long blog-silence at neverendingbooks during october-november 2007&#8230; A couple of months ago&#8230;]]></description>
+										<content:encoded><![CDATA[<p><strong>Below an up-till-now hidden post, written november last year, trying to explain the long blog-silence at neverendingbooks during october-november 2007&#8230;</strong></p>
+<hr />
+<p>A couple of months ago a publisher approached me, out of the blue, to consider writing a book about mathematics for the general audience (in Dutch (?!)). Okay, I  brought this  on myself hinting at the possibility in <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">this post</a></p>
+<blockquote><p>Recently, I&#8217;ve been playing with the idea of writing a book for the general public. Its title is still unclear to me (though an idea might be &#8220;The disposable science&#8221;, better suggestions are of course wellcome) but I&#8217;ve fixed the subtitle as &#8220;Mathematics&#8217; puzzling fall from grace&#8221;. The book&#8217;s concept is simple : I would consider the mathematical puzzles creating an hype over the last three centuries : the 14-15 puzzle for the 19th century, Rubik&#8217;s cube for the 20th century and, of course, Sudoku for the present century.</p>
+<p>For each puzzle, I would describe its origin, the mathematics involved and how it can be used to solve the puzzle and, finally, what the differing quality of these puzzles tells us about mathematics&#8217; changing standing in society over the period. Needless to say, the subtitle already gives away my point of view. The final part of the book would then be more optimistic. What kind of puzzles should we promote for mathematical thinking to have a fighting chance to survive in the near future?</p></blockquote>
+<p>While I still like the idea and am considering the proposal, chances are low this book ever materializes : the blog-title says it all&#8230;</p>
+<p>Then, about a month ago I got some incoming links from a variety of Flemish blogs. From their posts I learned that the leading Science-magazine for the low countries, <a href="http://www.nwtonline.nl/index.lasso?">Natuur, Wetenschap &amp; Techniek</a> (Nature, Science &amp; Technology), featured an article on Flemish science-blogs and that this blog might be among the ones covered. It sure would explain the publisher&#8217;s sudden interest. Of course, by that time the relevant volume of NW&amp;T was out of circulation so I had to order a backcopy to find out what was going on. Here&#8217;s the relevant section, written by their editor <a href="http://www.nanoforum.org/nf06~modul~showresearcher~sent~35~.html">Erick Vermeulen</a> (as well as an attempt to translate it)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/nwt.jpg" width=500 ></p>
+<blockquote><p><strong>Sliding puzzle</strong> For those who want more scientific depth (( their interpretation, not mine )), there is the English blog by Antwerp professor algebra &#038; geometry Lieven Le Bruyn, MoonshineMath (( indicates when the article was written&#8230; )). Le Bruyn offers a number of mathematical descriptions, most of them relating to group theory and in particular the so called monster-group and monstrous moonshine. He mentions some puzzles in passing such as the well known sliding puzzle with 15 pieces sliding horizontally and vertically in a 4 by 4 matrix. Le Bruyn argues that this  &#8217;15-puzzle (( <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=14">The 15-puzzle groupoid</a> ))&#8217; was the hype of the 19th century as was the Rubik cube for the 20th and is Sudoku for the 21st century. <br />
+Interesting is Le Bruyn&#8217;s mathematical description of the M(13)-puzzle (( <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">Conway&#8217;s M(13)-puzzle</a> )) developed by John Conway. It has 13 points on a circle, twelve of them carrying a numbered counter. Every point is connected via lines to all others (( a slight simplification )). Whenever a counter jumps to the empty spot, two others exchange places. Le Bruyn promises the blog-visitor new variants to come (( did I? )). We are curious. <br />
+Of course, the genuine puzzler can leave all this theory for what it is, use the Java-applet (( <a href="http://www.sebastian-egner.net/m13/">Egner&#8217;s M(13)-applet</a> )) and painfully try to move the counters around the circle according to the rules of the game.</p></blockquote>
+<p>Some people crave for this kind of media-attention. On me it merely has a blocking-effect. Still, as the end of my first-semester courses comes within sight, I might try to shake it off&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/censured-post-bloggers-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>768 micro-sudokubes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/there-are-768-micro-sudokubes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/there-are-768-micro-sudokubes/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 04 Feb 2008 08:01:57 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/there-are-768-micro-sudokubes.html</guid>
+
+					<description><![CDATA[Ibrahim Belkadi, one of my first-year group theory students invented the micro-sudokube, that is, a cube having a solution to a micro-sudoku on all its&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Ibrahim Belkadi, one of my first-year group theory students invented the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mini-sudokube.html">micro-sudokube</a>, that is, a cube having a solution to a micro-sudoku on all its sides such that these solutions share one row along an edge. For example, here are all the solutions for a given central solution. There are 4 of them with $&#123; a,b &#125; = &#123; 2,3 &#125; $ and $&#123; c,d &#125; = &#123; 1,4 &#125; $</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/sudokube3.jpg" width=500 ></p>
+<p>The problem is : how many micro-sudokubes are there? Ibrahim handed in his paper and claims that there are exactly 32 of them, up to relabeling $&#123; 1,2,3,4 &#125; $, so in all there are $32 \times 24 = 768 $ micro-sudokubes.</p>
+<p>The proof-strategy is as follows. Fix one side and use relabeling to put the solution on that side to be one of 12 canonical forms (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/micro-sudoku.html">this post</a>. Next, work out as above for each of these standard forms in how many ways it can be extended. A nice idea of Ibrahim was to develop a much better notation for micro-sudokubes than the above flattenet-out cube. He uses the fact that a micro-sudokube is entirely determined by the solutions on two opposite sides (check this for yourself). Moreover, fixing one side determines one-half of all the neighboring sides. His notation for the 4 solutions above then becomes</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/ibrahim.jpg" ></p>
+<p>and he can then use these solutions also in other standard form (the extra notation using the names A,B,C 1-4 for the 12 canonical forms).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/there-are-768-micro-sudokubes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mini-sudokube</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mini-sudokube/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mini-sudokube/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 29 Dec 2007 12:37:21 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=157</guid>
+
+					<description><![CDATA[Via the Arcadian functor I learned of the existence of the Sudokube (picture on the left). Sudokube is a variation on a Rubik&#8217;s Cube in&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/sudokube.jpg" style="float:left;margin-right:10px;" > Via <a href="http://kea-monad.blogspot.com/2007/12/dear-santa.html">the Arcadian functor</a> I learned of the existence of the <a href="http://en.wikipedia.org/wiki/Sudokube">Sudokube</a> (picture on the left).</p>
+<blockquote><p>Sudokube is a variation on a Rubik&#8217;s Cube in which each face resembles one-ninth of a Sudoku grid: the numbers from one to nine. This makes solving the cube slightly more difficult than a conventional Rubik&#8217;s Cube because each number must be in the right place and the centre cubies must also be in the correct orientation. </p></blockquote>
+<p>A much more interesting Sudoku-variation of the cube was invented two weeks ago by one of my freshmen-grouptheory students and was dubbed the <strong>mini-sudokube</strong> by him. Here&#8217;s the story.</p>
+<p>At the end of my grouptheory course I let the students write a paper to check whether they have research potential. This year the assignment was to read through the paper <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/minisudoku.pdf">mini-sudokus and groups</a> by Carlos Arcos, Gary Brookfield and Mike Krebs, and do something original with it.</p>
+<p>Mini-Sudoku is the baby $2 \times 2 $ version of Sudoku. Below a trivial problem and its solution</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/microsudoku1.jpg" width=500 ></p>
+<p>Of course most of them took the safe road and explained in more detail a result of the paper. Two of them were more original. One used the mini-sudoku solutions to find solutions for 4&#215;4 sudokus, but the most original contribution came from Ibrahim Belkadi who wanted to count all <strong>mini-sudokubes</strong>. A <strong>mini-sudokube</strong> is a cube with a mini-sudoku solution on all 6 of its sides <strong>BUT NUMBERS CARRY OVER CUBE-EDGES</strong>. That is, if we have as the mini-sudoku given by the central square below on the top-face of the cube, then on the 4 side-faces we have already one row filled in.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/sudokube2.jpg" width=500 ></p>
+<p>The problem then is to find out how many compatible solutions there are. It is pretty easy to see that top- and bottom-faces determine all squares of the cube, but clearly not all choices are permitted. For example, with the above top-face fixed there are exactly 4 solutions. Let $&#123; a,b &#125; = &#123; 1,4 &#125; $ and $&#123; c,d &#125; = &#123; 2,3 &#125; $ then these four solutions are given below</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/sudokube3.jpg" width=500 ></p>
+<p>Putting one of these solutions (or any other) on a $4 \times 4 $-Rubik cube would make a more interesting puzzle, I think. I&#8217;ve excused Ibrahim from having to take examination on condition that he writes down what he can prove on his mini-sudokubes by that time. Looking forward to it!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mini-sudokube/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Conway’s puzzle M(13)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/conways-puzzle-m13/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/conways-puzzle-m13/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 16 Jun 2007 16:05:11 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blackjack]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=13</guid>
+
+					<description><![CDATA[In the series "Mathieu games" we describe some mathematical games and puzzles connected to simple groups. We will encounter Conway's M(13)-puzzle, the classic Loyd's 15-puzzle and mathematical blackjack based on Mathieu's sporadic simple group M(12).]]></description>
+										<content:encoded><![CDATA[<p>Recently, I&#8217;ve been playing with the idea of writing a book for the general public. Its title is still unclear to me (though an idea might be &#8220;The disposable science&#8221;, better suggestions are of course wellcome) but I&#8217;ve fixed the subtitle as &#8220;Mathematics&#8217; puzzling fall from grace&#8221;. The book&#8217;s concept is simple : I would consider the mathematical puzzles creating an hype over the last three centuries : the <a href="http://bd.thrijswijk.nl/15puzzle/15puzzen.htm">14-15 puzzle</a> for the 19th century, <a href="http://en.wikipedia.org/wiki/Rubik's_Cube">Rubik&#8217;s cube</a> for the 20th century and, of course, <a href="http://en.wikipedia.org/wiki/Sudoku">Sudoku</a> for the present century.</p>
+<p>For each puzzle, I would describe its origin, the mathematics involved and how it can be used to solve the puzzle and, finally, what the differing quality of these puzzles tells us about mathematics&#8217; changing standing in society over the period. Needless to say, the subtitle already gives away my point of view. The final part of the book would then be more optimistic. What kind of puzzles should we promote for mathematical thinking to have a fighting chance to survive in the near future?</p>
+<p><span id="more-13"></span></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/johnconway.jpg" style="float:left;margin-right:10px;" hspace=10 /> One of the puzzles I would propose is $M_{13} $, a sliding game first proposed by <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Horton Conway</a> in 1989 at the fourteenth New York Graph Theory Day. The analysis of the game was taken up by <a href="http://www.math.ku.edu/~jmartin/">Jeremy Martin</a> in his 1996 honors thesis in mathematics <a href="http://www.math.ku.edu/~jmartin/papers/undergrad-thesis.pdf">The Mathieu group M(12) and Conway&#8217;s M(13)-game</a> under the supervision of <a href="http://en.wikipedia.org/wiki/Noam_Elkies">Noam Elkies</a>.</p>
+<p>Two years ago, the three of them joined forces and arXived the paper <a href="http://arxiv.org/abs/math/0508630">The Mathieu group M(12) and its pseudogroup extension M(13)</a>. The game is similar to the 15-puzzle replacing the role played by the simple alternating group $A_{15} $ there with that of the sporadic simple Mathieu group $M_{12} $.</p>
+<p>The game board of $M_{13} $ is the finite projective plane $\mathbb{P}^2(\mathbb{F}_3) $ over the field with three elements $\mathbb{F}_3 $. Recall that the number of points in projective n-space over a finite field of q-elements $\mathbb{P}^n(\mathbb{F}_q)  $ is given by</p>
+<p>$ q^n + q^{n-1} + \cdots + q + 1 $</p>
+<p>Therefore, there are 13=9+3+1 points on the board and as there is a bijection between points and lines in the projective plane, there are also 13 lines on the board, each containing exactly 4=3+1 points and so each point lies on exactly 4 lines.<br />
+Moreover, two distinct points p and q determine a unique line $\overline{pq} $ and two distinct lines l and m have a unique intersection point $l \cap m = &#123; p &#125; $. Clearly it will be hard selling a projective plane board to the general public, so let us depict all this information in a more amenable form such as</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/projplane3.gif" /></p>
+<p>The 13 points are indicated by the small discs around the circle whereas the 13 lines are depicted as small strokes on the circle. All edges (both &#8216;along&#8217; as well &#8216;inside&#8217; the circle) connect a point p and a line l subject to the relation that p lies on the line l in the projective plane $\mathbb{P}^2(\mathbb{F}_3) $.</p>
+<p>The fact that two distinct points determine a unique line corresponds to the fact that for any two small-discs there is a unique small-stroke connecting both small-discs with an edge (note that one or both of these edges may lie on the circle). Similarly, for any two small-strokes the is a unique small-disc connected via edges to the two small-strokes, corresponding to the fact that two lines have a unique point in common.</p>
+<p>A typical position in Conway&#8217;s puzzle $M_{13} $ consists in placing numbered counters, labeled 1 through 12, on 12 of the 13 points leaving one point empty, called the &#8220;hole&#8221;. A basic move consists of the following operation : choose a labeled point, say, p. Then, there is a unique line l (a small-stroke) containing p and the hole and there are two more points say q and r on this line l. The basic move replaces the counters between q and r and moves the counter of p to the hole and the hole to point p. For example, consider the position on the left</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13a.gif" /> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13b.gif" /></p>
+<p>and suppose we want to move the counter 11 to the hole. Hole and 11 determine the unique line represented by the small-stroke immediately to the left of 11. This line contains the further points with counters 8 and 9. Hence, applying the basic move we get the situation on the right hand side. The aim of <strong>Conway&#8217;s game M(13)</strong> is to get the hole at the top point and all counters in order 1,2,&#8230;,12 when moving clockwise along the circle. One can play this puzzle online using the excellent <a href="http://www.sebastian-egner.net/m13/">java-applet</a> by <a href="http://www.sebastian-egner.net/">Sebastian Egner</a>.</p>
+<p>Another time we will make the connection with the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=17">Mathieu groupoid M(13)</a> and the sporadic simple Mathieu group $M_{12} $.</p>
+<p><strong>Reference</strong></p>
+<p>John H. Conway, Noam D. Elkies, and Jeremy L. Martin <a href="http://arxiv.org/abs/math/0508630">&#8220;The Mathieu group M(12) and its pseudogroup extension M(13)&#8221;</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/conways-puzzle-m13/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NeverEndingBooks-games</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-games/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-games/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 13 Jun 2007 13:55:35 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[dvonn]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://localhost/?p=9</guid>
+
+					<description><![CDATA[Here a list of pdf-files of NeverEndingBooks-posts on games, in reverse chronological order. Dvonn 2 overload LatexRender and Dvonn-boards Dvonn 1 mobility A DaVinci chess&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here a list of pdf-files of NeverEndingBooks-posts on games, in reverse chronological order.</p>
+<p><span id="more-12055"></span></p>
+<p><a href="NEBPDFS/144.pdf">Dvonn 2 overload</a></p>
+<p><a href="NEBPDFS/142.pdf">LatexRender and Dvonn-boards</a></p>
+<p><a href="NEBPDFS/141.pdf">Dvonn 1 mobility</a></p>
+<p><a href="NEBPDFS/21.pdf">A DaVinci chess problem</a></p>
+<p><a href="NEBPDFS/19.pdf">Bivalue Sudoku graphs</a></p>
+<p><a href="NEBPDFS/17.pdf">microsudoku.sty</a></p>
+<p><a href="NEBPDFS/15.pdf">A 2006 chess puzzle anyone?</a></p>
+<p><a href="NEBPDFS/12.pdf">Hints for micro-Sudoku</a></p>
+<p><a href="NEBPDFS/11.pdf">Micro-Sudoku</a></p>
+<p><a href="NEBPDFS/8.pdf">Sudoku mania (bis)</a></p>
+<p><a href="NEBPDFS/29.pdf">Sudoku mania</a></p>
+<p><a href="NEBPDFS/271.pdf">SnortGo 2</a></p>
+<p><a href="NEBPDFS/270.pdf">Quintominal dodecahedra</a></p>
+<p><a href="NEBPDFS/28.pdf">Elkies&#8217; puzzles</a></p>
+<p><a href="NEBPDFS/112.pdf">Fox and geese</a></p>
+<p><a href="NEBPDFS/111.pdf">SnortGo</a></p>
+<p><a href="NEBPDFS/103.pdf">ColGo</a></p>
+<p><a href="NEBPDFS/92.pdf">Antwerp sprouts</a></p>
+<p><a href="NEBPDFS/90.pdf">Combinatorial game software</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-games/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mathML and work ahead</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 08 Feb 2007 09:36:55 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[dvonn]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[PPC]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=204</guid>
+
+					<description><![CDATA[It has been a difficult design decision, but I‚Äôm going to replace the LaTeXRender WordPress Plugin for mathML as the default TeX-interface for NeverEndingBooks. I&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It has<br />
+been a difficult design decision, but I‚Äôm going to replace the <a href="http://www.sixthform.info/steve/wordpress/">LaTeXRender WordPress<br />
+Plugin</a> for <a href="http://www.w3.org/Math/">mathML</a> as the<br />
+default TeX-interface for NeverEndingBooks. I will keep LaTeXRender on<br />
+standby as I may have to use exotic packages or commands that iTeX does<br />
+not deliver, but for most math-related posts, MathML will do the job<br />
+nicely (as <a href="http://golem.ph.utexas.edu/category/">the n-category<br />
+cafe</a> shows every day (or even more often)). Not that I stopped being<br />
+a dilettante but I&#8217;m going to do most of my writings (including<br />
+blog-posts) using <a href="http://www.literatureandlatte.com/">Scrivener</a> (more on this<br />
+another time) and Scrivener supports <a href="http://fletcher.freeshell.org/wiki/MultiMarkdown">MultiMarkdown</a> and allows exporting to LaTeX and XHTML (using MathML).</p>
+</p>
+<p>I could never have pulled this off in such a short time without <a href="http://golem.ph.utexas.edu/~distler/blog/">Jacques Distler</a><br />
+more or less on constant stand-by (thanks Jacques!). Looking at the<br />
+times his emails were send I have no idea in which time zone he lives<br />
+(let alone sleeps&#8230;). So, here a walk-through the changes :</p>
+<p>As<br />
+I&#8217;m on WP 2.0.5 I&#8217;ll start with Frederick&#8217; <a href="http://www.ibiblio.org/litlfred/mathBlog/projects/itextomml">post</a>. He tells me I have to install first the itex2MML binary as<br />
+explained <a href="http://golem.ph.utexas.edu/~distler/blog/archives/000367.html">by<br />
+Jacques</a> but I find that there is more recent <a href="http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html"><br />
+material</a> and therefore download the most recent imath2MML-package<br />
+and follow the readme. There is a Mac OSX binary but it&#8217;s not clear<br />
+for what processor (PPC/Intel/Binary) but a quick mail to Jacques learns<br />
+me that it&#8217;s PPC which is fine by me but on the spot he puts a<br />
+universal binary online, so whatever your Mac is you can just download<br />
+the binary, copy it to /usr/local/bin and make sure its chmodded<br />
+755.</p>
+<p>Back to Frederick&#8217;s <a href="http://www.ibiblio.org/litlfred/mathBlog/projects/itextomml">post</a>, download and install the plugin itexToMML.php in the usual way<br />
+(fortunately I spot just in time that I have to change one line saying<br />
+where my itex2MML binary is (in Frederick&#8217;s file it is NOT the default<br />
+location)). You can verify whether the plugin and itex2MML do what they<br />
+are supposed to do by typing a LaTeX-command in a post and save it. The<br />
+output will not produce the desired formula but have a look at the<br />
+source file and see whether there is some mathML code in it. If so,<br />
+fine! If not, go back and check everything.</p>
+<p>If this works, it is<br />
+&#8220;merely&#8221; a problem of getting your mathML served. Frederick suggests<br />
+to unpack wordpress_mathML.zip in the wp-includes directory (but you<br />
+better make sure you have made a copy of the original class.php and<br />
+functions-formatting.php files. In the end I decided against this<br />
+approach (that is, to replace only the functions-formatting.php but NOT<br />
+the class.php file). If you have two or more themes you want to<br />
+maintain, it is probably better to change the headers (because this is<br />
+what we have to do to get mathML served) only in those themes which are<br />
+XML-sound. In my case, the Command Line Interface theme most certainly is NOT!!!).</p>
+<p>Go to your<br />
+theme-files and look for the header.php (or similar) file and replace<br />
+the default header by the code in the addendum to <a href="http://golem.ph.utexas.edu/~distler/blog/archives/000367.html"><br />
+this post</a> within php-tags. If you can go to your blog-page then you<br />
+are in good shape and things should work well (apart possibly from<br />
+layout considerations, see below). Of course, in my case i was greeted<br />
+by &#8221; XML &#8220;yellow screen of death&#8221; (as Jacques calls<br />
+it) and I was convinced I did something wrong, so I tried out several<br />
+useless things for a couple of hours before it dawned on me that the<br />
+reason might just be that my blog-files were not valid XHTML (and the<br />
+new headers are very demanding on serving only well-form XHTML). I had<br />
+to modify all changes I made to sidebars etc. as well as rewrite parts<br />
+of my first posts (I used to take a rather liberal view on writing<br />
+blog-posts, writing a mixture between Markdown and improvised HTML and<br />
+in the process was very lax about closing IMG-tags and the likes).<br />
+But after some time and numerous corrections to the files I got the<br />
+main-page up and running (and even had the mathML served as a readable<br />
+formula) apart from the fact that I barely recognized my own site.</p>
+<p>I printed out source files of the page with and without changed<br />
+headers and couldn‚Äôt find a difference. So, it had to do with the<br />
+CSS-style files, but why on earth would the new headers be picky about<br />
+CSS? But as a last resort, after narrowing the search down to one<br />
+CSS-line, I asked Jacques whether he had an idea what went on. His reply<br />
+will be remembered for quite some time :</p>
+<blockquote><p>A fascinating<br />
+question.  The answer is that it *is* following the CSS directive, but<br />
+in XHTML, &#8216;body&#8217; is not what you think it is.  &#8216;body&#8217; is just big enough<br />
+to contain its content. It does not fill the viewport. &#8216;html&#8217; fills the<br />
+viewport.  The solution (a solution) is described in<br />
+http://golem.ph.utexas.edu/~distler/blog/archives/000203.html
+</p></blockquote>
+<p>Many hours later, I still haven‚Äôt got a clue what<br />
+this is all about, but I blindly followed the hint and surely all<br />
+problems vanished. In short, another day wasted in front of a<br />
+computer-screen.</p>
+<p>At the moment I&#8217;m back to old headers and<br />
+will not be writing mathML for some time as I have the vast job ahead to<br />
+validate all my previous posts to XHTML-standards (if not you would see<br />
+more yellows screens of death than anything else. So, here‚Äôs the<br />
+strategy I&#8217;ll be taking in the weeks ahead (I&#8217;ll sleep on it tonight<br />
+so if any of you think there is a better way, reply quickly)</p>
+<ul>
+<li>rewrite each and every post in proper MultiMarkdown using iTeX for<br />
+the most common math and only resorting to LaTeXRender for exotic things<br />
+(such as Sudoku, Chess, Dvonn) and run these posts through Markdown<br />
+(to get basic HTML and all links in place).</li>
+<li>download these<br />
+files to the WP-database (so that in the CLI-interface you will be able<br />
+to follow all links, but will read all iTeX as TeX-commands (as the<br />
+command line intended after all).</li>
+<li>in the process change all<br />
+broken links to the default permalink-structure (with index.php?p=231 or<br />
+so).</li>
+</ul>
+<p>Clearly, this is a work that will take a couple of<br />
+weeks but it may be fun to reread these old posts and possibly add new<br />
+information about the subjects. When I‚Äôm making these changes, I‚Äôll<br />
+use the new headers so if you are using a smart browser look out for the<br />
+yellow screens. When they happen, either use a dumb browser (such as<br />
+Safari) or go into CLI-interface mode where everything should still<br />
+work. I plan to start with the oldest posts as this seems more fun to<br />
+me.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>bivalue Sudoku graphs</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/bivalue-sudoku-graphs/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/bivalue-sudoku-graphs/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 27 Dec 2005 11:11:40 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=314</guid>
+
+					<description><![CDATA[Here is a &#8216;difficult but not unsolvable&#8217; Sudoku from David Eppstein&#8216;s paper Nonrepetitive paths and cycles in graphs with application to Sudoku. $\begin{sudoku-block} &#124;5&#124; &#124;&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here is<br />
+a &#8216;difficult but not unsolvable&#8217; Sudoku from <a href="http://www.ics.uci.edu/~eppstein/">David Eppstein</a>&#8216;s paper <a href="http://arxiv.org/abs/cs.DS/0507053">Nonrepetitive paths and cycles<br />
+in graphs with application to Sudoku</a>.</p>
+<p>$\begin{sudoku-block} |5| | | | |1| | |8|.  | | | | | | |6| | |.<br />
+| | | | |6|2|5|7| |.  | |9| |2| |5|1| | |.  | | |4| |1| |3| | |.  | |<br />
+|8|3| |9| |2| |.  | |7|6|9|8| | | | |.  | | |5| | | | | | |.  |8| | |1|<br />
+| | | |3|.  \end{sudoku-block}y1 $</p>
+<p>As always I try to solve<br />
+Sudokus without having to use <a href="http://en.wikipedia.org/wiki/Backtracking">backtracking</a> (that<br />
+is, making a guess and working from there on to a solution or a<br />
+contradiction in which case one uses the other option). Clearly, this is<br />
+not well defined. When one starts solving Sudokus one often resorts to<br />
+backtracking but after a while one discovers rules which seem to avoid<br />
+backtracking (but in a sense are still). For example, if two cells in a<br />
+same block (or row or column) can only be filled with two numbers one<br />
+can use this fact by forbidding other numbers to occupy those cells.<br />
+However, this is a mini-backtracking strategy. Still, I allow all such<br />
+rules. More precisely, any formal rule is non-backtracking in my<br />
+dictionary. In Eppstein&#8217;s paper there is a good summary of the rules<br />
+most people apply when starting a Sudoku. He calls them the &#8216;local<br />
+rules&#8217;. Here they are</p>
+<ul>
+<li>If a digit x has only one remaining<br />
+cell that it can be placed in, within some row, column, or square, then<br />
+we place it in that cell. Any potential positions of x incompatible with<br />
+that cell (because they lie in the  same row, column, or square) are<br />
+removed from future consideration.   </li>
+<li>If a cell has only one<br />
+digit x that can be placed in it, we place x in that cell. Incompatible<br />
+positions for x  are removed from future consideration.   </li>
+<li>If<br />
+some three cells, formed by intersecting a row or column with a square,<br />
+have three digits whose only  remaining positions within that row,<br />
+column, or square are among those three cells, we prevent all other<br />
+digits from being placed there. We also remove positions for those three<br />
+forced digits outside the triple  but within the row, column, or square<br />
+containing it.   </li>
+<li>If the cells of a square that can contain a<br />
+digit x all lie in a single row or column, we eliminate positions  for x<br />
+that are outside the square but inside that row or column. Similarly, if<br />
+the cells that can contain x  within a row or column all lie in a single<br />
+square, we eliminate positions that are inside that square but  outside<br />
+the row or column.   </li>
+<li>If two digits x and y each share the same<br />
+two cells as the only locations they may be placed within some  row,<br />
+column, or square, then all other digits must avoid those two cells.
+</li>
+<li>If the placement of digit x in cell y can not be extended to a<br />
+placement of nine copies of x covering each  row and column of the grid<br />
+exactly once, we eliminate cell y from consideration as a placement for<br />
+x. </li>
+<li>If the placement of a digit x in cell y within a single<br />
+row, column, or square can not be extended to a  complete solution of<br />
+that row, column, or square, then we eliminate that placement from<br />
+consideration.   </li>
+</ul>
+<p>But even if one manages to use all<br />
+these rules (and frankly I only use a subset) one might get stuck. I<br />
+don&#8217;t know how many cells you can fill in the above problem with these<br />
+local rules, I&#8217;m afraid I only managed $5 $&#8230; At such<br />
+moments, the bivalue Sudoku-graph may come in handy. Eppstein defines<br />
+this as follows</p>
+<blockquote><p>  In this graph, we create  a vertex<br />
+for each cell of the Sudoku grid that has not yet been filled in but for<br />
+which we have restricted  the set of digits that can fill it to exactly<br />
+two digits. We connect two such vertices by an edge when the<br />
+corresponding two cells both lie in a single row, column, or square, and<br />
+can both be filled by the same digit;  the label of the edge is the<br />
+digit they can both be filled by. </p></blockquote>
+<p>Eppstein then goes<br />
+on to define new rules (each of which is a mini-backtracking strategy)<br />
+which often help to crack the puzzle. Here are Eppstein&#8217;s &#8216;global<br />
+rules&#8217;</p>
+<ul>
+<li>If an edge in the bivalue graph belongs to a<br />
+nonrepetitive cycle, the digit labeling it must be placed at  one of its<br />
+two endpoints, and can be ruled out as a potential value for any other<br />
+cell in the row, column,  or square containing the edge.   </li>
+<li>If<br />
+the bivalue graph has a cycle in which a single pair of consecutive<br />
+edges has a repeated label, that  label can not be placed at the cell<br />
+shared by the two edges, so that cell must be filled by the other of its<br />
+ two possible values.   </li>
+<li>If the bivalue graph contains two<br />
+paths, both starting with the same label from the same cell, both<br />
+ending at cells in the same row, column, or square, and such that in the<br />
+two ending squares the values  not occurring on the incident edge labels<br />
+are equal, then the cell at the start of the paths can not be filled  by<br />
+the start label of the paths, and must be filled by the other of its two<br />
+possible values.    </li>
+</ul>
+<p>For example, in the above problem it<br />
+is not hard to verify that the indicated places X,Y and Z form a<br />
+nonrepetitive cycle in the bivalue graph so applying the first global<br />
+rule we have two choices of filling these places (one leading to a<br />
+solution, the other to a contradiction)</p>
+<p>$\begin{sudoku-block} |5| | | | |1| | |8|.  | | | | | | |6| | |.<br />
+| | | | |6|2|5|7| |.  | |9| |2| |5|1| | |.  | | |4| |1| |3| | |.<br />
+|X|Y|8|3| |9| |2|Z|.  | |7|6|9|8| | | | |.  | | |5| | | | | | |.  |8| |<br />
+|1| | | | |3|.  \end{sudoku-block}y2 $</p>
+<p>In fact, it turns out<br />
+that making this choice is enough to solve the puzzle by simple local<br />
+rules. So, if I change the original puzzle by filling in the cell X</p>
+<p>$\begin{sudoku-block} |5| | | | |1| | |8|.  | | | | | | |6| | |.<br />
+| | | | |6|2|5|7| |.  | |9| |2| |5|1| | |.  | | |4| |1| |3| | |.  |6|<br />
+|8|3| |9| |2| |.  | |7|6|9|8| | | | |.  | | |5| | | | | | |.  |8| | |1|<br />
+| | | |3|.  \end{sudoku-block}y3 $</p>
+<p>you will have no problem<br />
+solving the puzzle.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bivalue-sudoku-graphs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>hints for micro-sudoku</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/hints-for-micro-sudoku/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/hints-for-micro-sudoku/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 27 Oct 2005 10:16:33 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=159</guid>
+
+					<description><![CDATA[As a quick reply to last posts comment : Another interesting question: How many clues (numbers allready in the grid) do we need a Sudoku&#8230;]]></description>
+										<content:encoded><![CDATA[<p>As a<br />
+quick reply to last posts comment :   </p>
+<blockquote><p> Another<br />
+interesting question: How many clues (numbers allready in the grid) do<br />
+we need a Sudoku puzzle to have in the beginning in order to obtain a<br />
+unique solution?  Comment by A.R.Ray  </p></blockquote>
+<p>   At<br />
+least one student proved that in micro-Sudoku (on a 4&#215;4 grid)<br />
+one needs just 4 hints to get any unique solution (and that 4 is<br />
+minimal). It is an application of the fact that the micro-Sudoku group<br />
+acts on the set of all solutions with just two orbits so one needs to<br />
+check just these two solutions&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/hints-for-micro-sudoku/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>micro-sudoku</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/micro-sudoku/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/micro-sudoku/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 09 Oct 2005 10:15:39 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<category><![CDATA[teaching]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=158</guid>
+
+					<description><![CDATA[One cannot fight fashion&#8230; Following ones own research interest is a pretty frustrating activity. Not only does it take forever to get a paper refereed&#8230;]]></description>
+										<content:encoded><![CDATA[<p>One<br />
+cannot fight fashion&#8230; Following ones own research interest is a<br />
+pretty frustrating activity. Not only does it take forever to get a<br />
+paper refereed  but then you have to motivate why you do these things<br />
+and what their relevance is to other subjects. On the other hand,<br />
+following fashion seems to be motivation enough for most&#8230;<br />
+Sadly, the same begins to apply to teaching. In my Geometry 101 course I<br />
+have to give an introduction to graphs&amp;groups&amp;geometry. So,<br />
+rather than giving a standard intro to graph-theory I thought it would<br />
+be more fun to solve all sorts of classical graph-problems (<a href="http://www.contracosta.cc.ca.us/math/konig.htm">Konigsberger<br />
+bridges</a>, <a href="http://www.maa.org/mathland/mathtrek_8_9_99.html">Instant<br />
+Insanity</a>, <a href="http://www.cut-the-knot.org/do_you_know/3Utilities.shtml">Gas-<br />
+water-electricity</a>, and so on&#8230;)    Sure, these first year<br />
+students are (still) very polite, but I get the distinct feeling that<br />
+they think &#8220;Why on earth should we be interested in these old<br />
+problems when there are much more exciting subjects such as fractals,<br />
+cryptography or string theory?&#8221; Besides, already on the first day<br />
+they made it pretty clear that the only puzzle they are interested in is<br />
+<a href="http://en.wikipedia.org/wiki/Sudoku">Sudoku</a>.<br />
+Next week I&#8217;ll have to introduce groups and I was planning to do<br />
+this via the <a href="http://en.wikipedia.org/wiki/Sudoku">Rubik<br />
+cube</a> but I&#8217;ve learned my lesson. Instead, I&#8217;ll introduce<br />
+symmetry by considering <a href="http://www.cs.rpi.edu/~hollingd/eiw/hw/hw2/hw2.html">micro-<br />
+sudoku</a> that is the baby 4&#215;4 version of the regular 9&#215;9<br />
+Sudoku. The first thing I&#8217;ll do is work out the number of<br />
+different solutions to micro-Sudoku. Remember that in regular Sudoku<br />
+this number is 6,670,903,752,021,072,936,960 (by a computer search<br />
+performed by <a href="http://www.shef.ac.uk/~pm1afj/sudoku/">Bertram<br />
+Felgenhauer</a> ).    For micro-Sudoku there is an interesting<br />
+(but ratther confused) <a href="http://www.setbb.com/phpbb/viewtopic.php?t=27&amp;sid= 3c104443c62da4d68e2878a293341b3a&amp;mforum=sudoku">thread on the<br />
+Sudoku forum</a> and after a lot of guess-work the consensus seems to be<br />
+that there are precisely 288 distinct solutions to micro-Sudoku. In<br />
+fact, this is easy to see and uses symmetry. The symmetric group $S_4$<br />
+acts on the set of all solutions by permuting the four numbers, so one<br />
+may assume that a solution is in the form where the upper-left 2&#215;2<br />
+block is 12 and 34 and the lower right 2&#215;2 block consists of the<br />
+rows ab and cd.    One quickly sees that either this leeds to a<br />
+unique solution or so does the situation with the roles of b and c<br />
+changed. So in all there are $4! \\times \\frac{1}{2} 4!=24 \\times 12 =<br />
+288$ distinct solutions.    Next, one can ask for the number of<br />
+_essentially_ different solutions. That is, consider the action<br />
+of the _Sudoku-symmetry group_ (including things such as<br />
+permuting rows and columns, reflections and rotations of the grid). In<br />
+normal 9&#215;9 Sudoku this number was computed by <a href="http://www.shef.ac.uk/~pm1afj/sudoku/sudgroup.html">Ed Russell<br />
+and Frazer Jarvis</a> to be 5,472,730,538 (again,heavily using the<br />
+computer). For micro-Sudoku the answer is that there are just 2<br />
+essentially different solutions and there is a short nice argument,<br />
+given by &#8216;Nick70&#8242; at the end of the above mentioned <a href="http://www.setbb.com/phpbb/viewtopic.php?t=27&amp;mforum=sudoku">thread</a>.    Looking a bit closer one verifies easily that the<br />
+two Sudoku-group orbits have different sizes. One contains 96 solutions,<br />
+the other 192 solutions. It will be interesting to find out how these<br />
+calculations will be received in class next week&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/micro-sudoku/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>sudoku mania (bis)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/sudoku-mania-bis/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/sudoku-mania-bis/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 27 Sep 2005 15:39:49 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=168</guid>
+
+					<description><![CDATA[Situation : my first class this year, about 20 fresh(wo)men, their second class this year. Me : Okay, who did some mathematics this vacation? (No&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Situation : my first class this year, about 20<br />
+fresh(wo)men, their second class this year.</p>
+<p>Me : Okay, who<br />
+did some mathematics this vacation?</p>
+<p>(No response<br />
+obviously, even if they did, it&#8217;s not a cool thing to<br />
+admit&#8230;)</p>
+<p>Me : Sure, let me rephrase the question :<br />
+who thought about solving a puzzle or played a strategic game this<br />
+vacation?</p>
+<p>(No response, or&#8230; is there?&#8230;.. a<br />
+timid question :</p>
+<p>&#8216;Does Sudoku<br />
+count????&#8217;</p>
+<p>Me : Well, not really but okay<br />
+let&#8217;s rephrase the question : Who solved at least 1 Sudoku this<br />
+vacation?</p>
+<p>IMMEDIATE RESPONSE : about three quarters of all<br />
+students waving their arms!</p>
+<p>Me :<br />
+Oof&#8230;&#8230;.Oh&#8230;&#8230;.Yes???    (to an even more timid<br />
+student raising his arm)</p>
+<p>&#8216;Does doing half a Sudoku<br />
+also counts?&#8217;</p>
+<p>It&#8217;s going to be a tough<br />
+semester&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/sudoku-mania-bis/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

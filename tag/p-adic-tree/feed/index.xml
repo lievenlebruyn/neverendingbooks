@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>p-adic tree &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/p-adic-tree/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 03 Jan 2018 12:22:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>The Big Picture is non-commutative</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 03 Jan 2018 12:22:09 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Bruhat]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[p-adic tree]]></category>
+		<category><![CDATA[Tits]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7469</guid>
+
+					<description><![CDATA[Conway&#8217;s Big Picture consists of all pairs of rational numbers $M,\frac{g}{h}$ with $M > 0$ and $0 \leq \frac{g}{h} < 1$ with $(g,h)=1$. Recall from&#8230;]]></description>
+										<content:encoded><![CDATA[<p><strong>Conway&#8217;s Big Picture</strong> consists of all pairs of rational numbers $M,\frac{g}{h}$ with $M > 0$ and $0 \leq \frac{g}{h} < 1$ with $(g,h)=1$. Recall from <a href="https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24">last time</a> that $M,\frac{g}{h}$ stands for the lattice<br />
+\[<br />
+\mathbb{Z} (M \vec{e}_1 + \frac{g}{h} \vec{e}_2) \oplus \mathbb{Z} \vec{e}_2 \subset \mathbb{Q}^2 \]<br />
+and we associate to it the rational $2 \times 2$ matrix<br />
+\[<br />
+\alpha_{M,\frac{g}{h}} = \begin{bmatrix} M &#038; \frac{g}{h} \\ 0 &#038; 1 \end{bmatrix} \]</p>
+<p>If $M$ is a natural number we write $M \frac{g}{h}$ and call the corresponding lattice <em>number-like</em>, if $g=0$ we drop the zero and write $M$.</p>
+<p>The Big Picture carries a wealth of structures. Today, we will see that it can be factored as the product of <a href="https://en.wikipedia.org/wiki/Building_(mathematics)">Bruhat-Tits buildings</a> for $GL_2(\mathbb{Q}_p)$, over all prime numbers $p$.</p>
+<p>Here&#8217;s the factor-building for $p=2$, which is a $3$-valent tree:</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BuhatTits.png" width=100% ></p>
+<p>To see this, define the <em>distance</em> between lattices to be<br />
+\[<br />
+d(M,\frac{g}{h}~|~N,\frac{i}{j}) = log~Det(q(\alpha_{M,\frac{g}{h}}.\alpha_{N,\frac{i}{j}}^{-1})) \]<br />
+where $q$ is the smallest strictly positive rational number such that $q(\alpha_{M,\frac{g}{h}}.\alpha_{N,\frac{i}{j}}^{-1}) \in GL_2(\mathbb{Z})$.</p>
+<p>We turn the Big Picture into a (coloured) graph by drawing an edge (of colour $p$, for $p$ a prime number) between any two lattices distanced by $log(p)$.</p>
+<p>\[<br />
+\xymatrix{M,\frac{g}{h} \ar@[red]@{-}[rr]|p &#038; &#038; N,\frac{i}{j}} \qquad~\text{iff}~\qquad d(M,\frac{g}{h}~|~N,\frac{i}{j})=log(p) \]</p>
+<p>The $p$-coloured subgraph is $p+1$-valent.</p>
+<p>The $p$-neighbours of the lattice $1 = \mathbb{Z} \vec{e}_1 \oplus \mathbb{Z} \vec{e}_2$ are precisely these $p+1$ lattices:</p>
+<p>\[<br />
+p \qquad \text{and} \qquad \frac{1}{p},\frac{k}{p} \qquad \text{for} \qquad 0 \leq k < p \]
+
+And, multiplying the corresponding matrices with $\alpha_{M,\frac{g}{h}}$ tells us that the $p$-neighbours of $M,\frac{g}{h}$ are then these $p+1$ lattices:
+
+\[
+pM,\frac{pg}{h}~mod~1 \qquad \text{and} \qquad \frac{M}{p},\frac{1}{p}(\frac{g}{h}+k)~mod~1 \qquad \text{for} \qquad 0 \leq k < p \]
+
+
+Here's part of the $2$-coloured neighbourhood of $1$
+
+
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/2tree.png" width=100% ></p>
+<p>To check that the $p$-coloured subgraph is indeed the Bruhat-Tits building of $GL_2(\mathbb{Q}_p)$ it remains to see that it is a tree.</p>
+<p>For this it is best to introduce $p+1$ operators on lattices</p>
+<p>\[<br />
+p \ast  \qquad \text{and} \qquad \frac{k}{p} \ast \qquad \text{for} \qquad 0 \leq k < p \]
+
+defined by left-multiplying $\alpha_{M,\frac{g}{h}}$ by the matrices
+\[
+\begin{bmatrix} p &#038; 0 \\ 0 &#038; 1 \end{bmatrix} \qquad \text{and} \qquad \begin{bmatrix} \frac{1}{p} &#038; \frac{k}{p} \\ 0 &#038; 1 \end{bmatrix} \qquad \text{for} \qquad 0 \leq k < p \]
+
+The lattice $p \ast M,\frac{g}{h}$ lies closer to $1$ than $M,\frac{g}{h}$ (unless $M,\frac{g}{h}=M$ is a number) whereas the lattices $\frac{k}{p} \ast M,\frac{g}{h}$ lie further, so it suffices to show that the $p$ operators
+
+\[
+\frac{0}{p} \ast,~\frac{1}{p} \ast,~\dots~,\frac{p-1}{p} \ast \]
+
+form a free non-commutative monoid.
+
+<br />This follows from the fact that the operator<br />
+\[<br />
+(\frac{k_n}{p} \ast) \circ \dots \circ (\frac{k_2}{p} \ast) \circ (\frac{k_1}{p} \ast) \]<br />
+is given by left-multiplication with the matrix<br />
+\[<br />
+\begin{bmatrix} \frac{1}{p^n} &#038; \frac{k_1}{p^n}+\frac{k_2}{p^{n-1}}+\dots+\frac{k_n}{p} \\ 0 &#038; 1 \end{bmatrix} \]<br />
+which determines the order in which the $k_i$ occur.</p>
+<p>A lattice at distance $n log(p)$ from $1$ can be uniquely written as<br />
+\[<br />
+(\frac{k_{n-l}}{p} \ast) \circ \dots \circ (\frac{k_{l+1}}{p} \ast) \circ (p^l \ast) 1 \]<br />
+which gives us the unique path to it from $1$.</p>
+<p>The Big Picture itself is then the product of these Bruhat-Tits trees over all prime numbers $p$. Decomposing the distance from $M,\frac{g}{h}$ to $1$ as<br />
+\[<br />
+d(M,\frac{g}{h}~|~1) = n_1 log(p_1) + \dots + n_k log(p_k) \]<br />
+will then allow us to find minimal paths from $1$ to $M,\frac{g}{h}$.</p>
+<p>But we should be careful in drawing $2$-dimensional cells (or higher dimensional ones) in this &#8216;product&#8217; of trees as the operators<br />
+\[<br />
+\frac{k}{p} \ast \qquad \text{and} \qquad \frac{l}{q} \ast \]<br />
+for different primes $p$ and $q$ do not commute, in general. The composition<br />
+\[<br />
+(\frac{k}{p} \ast) \circ (\frac{l}{q} \ast) \qquad \text{with matrix} \qquad \begin{bmatrix} \frac{1}{pq} &#038; \frac{kq+l}{pq} \\ 0 &#038; 1 \end{bmatrix} \]<br />
+has as numerator in the upper-right corner $0 \leq kq + l < pq$ and this number can be uniquely(!) written as
+\[
+kq+l = up+v \qquad \text{with} \qquad 0 \leq u < q,~0 \leq v < p \]
+That is, there are unique operators $\frac{u}{q} \ast$ and $\frac{v}{p} \ast$ such that
+\[
+(\frac{k}{p} \ast) \circ (\frac{l}{q} \ast) = (\frac{u}{q} \ast) \circ (\frac{v}{p} \ast) \]
+which determine the $2$-cells
+\[
+\xymatrix{ \bullet \ar@[blue]@{-}[rr]^{\frac{u}{q} \ast} \ar@[red]@{-}[dd]_{\frac{v}{p} \ast} &#038; &#038; \bullet \ar@[red]@{-}[dd]^{\frac{k}{p} \ast} \\ &#038; &#038; \\ \bullet \ar@[blue]@{-}[rr]_{\frac{l}{q} \ast} &#038; &#038; \bullet} \]
+These give us the commutation relations between the free monoids of operators corresponding to different primes.
+
+<br />For the primes $2$ and $3$, relevant in the description of the Moonshine Picture, the commutation relations are</p>
+<p>\[<br />
+(\frac{0}{2} \ast) \circ (\frac{0}{3} \ast) = (\frac{0}{3} \ast) \circ (\frac{0}{2} \ast), \quad<br />
+(\frac{0}{2} \ast) \circ (\frac{1}{3} \ast) = (\frac{0}{3} \ast) \circ (\frac{1}{2} \ast),<br />
+\quad<br />
+(\frac{0}{2} \ast) \circ (\frac{2}{3} \ast) = (\frac{1}{3} \ast) \circ (\frac{0}{2} \ast) \]</p>
+<p>\[<br />
+(\frac{1}{2} \ast) \circ (\frac{0}{3} \ast) = (\frac{1}{3} \ast) \circ (\frac{1}{2} \ast), \quad<br />
+(\frac{1}{2} \ast) \circ (\frac{1}{3} \ast) = (\frac{2}{3} \ast) \circ (\frac{0}{2} \ast),<br />
+\quad<br />
+(\frac{1}{2} \ast) \circ (\frac{2}{3} \ast) = (\frac{2}{3} \ast) \circ (\frac{1}{2} \ast) \]</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

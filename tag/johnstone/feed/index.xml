@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Johnstone &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/johnstone/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 07 Mar 2022 10:27:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>From Mamuth to Elephant</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 07 Mar 2022 10:27:07 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Johnstone]]></category>
+		<category><![CDATA[Noll]]></category>
+		<category><![CDATA[Popoff]]></category>
+		<category><![CDATA[triads]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10369</guid>
+
+					<description><![CDATA[Here, MaMuTh stands for Mathematical Music Theory which analyses the pitch, timing, and structure of works of music. The Elephant is the nickname for the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here, <em>MaMuTh</em> stands for <a href="https://en.wikipedia.org/wiki/Music_and_mathematics">Mathematical Music Theory</a> which analyses the pitch, timing, and structure of works of music.</p>
+<p>The <em>Elephant</em> is the nickname for the &#8216;bible&#8217; of topos theory, <a href="https://www.amazon.com/Sketches-Elephant-Theory-Compendium-Oxford/dp/019852496X">Sketches of an Elephant: A Topos Theory Compendium</a>, a two (three?) volume book, written by Peter Johnstone.</p>
+<p>How can we get as quickly as possible from the MaMuth to the Elephant, musical illiterates such as myself?</p>
+<p>What Mamuth-ers call a <a href="https://en.wikipedia.org/wiki/Pitch_class">pitch class</a> (sounds that are a whole number of octaves apart), is for us a residue modulo $12$, as an octave is usually divided into twelve (half)tones.</p>
+<p>We&#8217;ll just denote them by numbers from $0$ to $11$, or view them as the vertices of a regular $12$-gon, and forget the funny names given to them, as there are several such encodings, and we don&#8217;t know a $G$ from a $D\#$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuth1.png" width=60% /><br />
+</center></p>
+<p>Our regular $12$-gon has exactly $24$ symmetries. Twelve rotations, which they call <em>transpositions</em>, given by the affine transformations<br />
+\[<br />
+T_k~:~x \mapsto x+k~\text{mod}~12 \]<br />
+and twelve reflexions, which they call <em>involutions</em>, given by<br />
+\[<br />
+I_k~:~x \mapsto -x+k~\text{mod}~12 \]<br />
+What for us is the dihedral group $D_{12}$ (all symmetries of the $12$-gon), is for them the $T/I$-group (for transpositions/involutions).</p>
+<p>Let&#8217;s move from individual notes (or pitch classes) to chords (or <a href="https://en.wikipedia.org/wiki/Triad_(music)">triads</a>), that is, three notes played together.</p>
+<p>Not all triples of notes sound nice when played together, that&#8217;s why the most commonly played chords are among the <em>major</em> and <em>minor</em> triads.</p>
+<p>A <a href="https://en.wikipedia.org/wiki/Major_chord">major triad</a> is an ordered triple of elements from $\mathbb{Z}_{12}$ of the form<br />
+\[<br />
+(n,n+4~\text{mod}~12,n+7~\text{mod}~12) \]<br />
+and a <a href="https://en.wikipedia.org/wiki/Minor_chord">minor triad</a> is an ordered triple of the form<br />
+\[<br />
+(n,n+3~\text{mod}~12,n+7~\text{mod}~12) \]<br />
+where the first entry $n$ is called the <em>root</em> of the triad (or chord) and its funny name is then also the name of that chord.</p>
+<p>For us, it is best to view a triad as an inscribed triangle in our regular $12$-gon. The triangles of major and minor triads have edges of different lengths, a small one, a middle, and a large one.</p>
+<p>Starting from the root, and moving clockwise, we encounter in a major chord-triangle first the middle edge, then the small edge, and finally the large edge. For a minor chord-triangle, we have first the small edge, then the middle one, and finally the large edge.</p>
+<p>On the left, two major triads, one with root $0$, the other with root $6$. On the right, two minor triads, also with roots $0$ and $6$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuth2.png" width=100% /><br />
+</center></p>
+<p>(Btw. if you are interested in the full musical story, I strongly recommend the <a href="https://alpof.wordpress.com/">alpof blog</a> by Alexandre Popoff, from which the above picture is taken.)</p>
+<p>Clearly, there are $12$ major triads (one for each root), and $12$ minor triads.</p>
+<p>From the shape of the triad-triangles it is also clear that rotations (transpositions) send major triads to major triads (and minors to minors), and that reflexions (involutions) interchange major with minor triads.</p>
+<p>That is, the dihedral group $D_{12}$ (or if you prefer the $T/I$-group) acts on the set of $24$ major and minor triads, and this action is transitive (an element stabilising a triad-triangle must preserve its type (so is a rotation) and its root (so must be the identity)).</p>
+<p>Can we hear the action of the very special group element $T_6$ (the unique non-trivial central element of $D_{12}$) on the chords?</p>
+<p>This action is not only the transposition by three full tones, but also a point-reflexion with respect to the center of the $12$-gon (see two examples in the picture above). This point reflexion can be compositionally meaningful to refer to two very different upside-down worlds.</p>
+<p>In <a href="https://alpof.wordpress.com/2020/12/06/its-t6-day/">It&#8217;s $T_6$-day</a>, Alexandre Popoff gives several examples. Here&#8217;s one of them, the Ark theme in Indiana Jones – Raiders of the Lost Ark.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/gFDM7JGHGYo?start=160" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>&#8220;The $T_6$ transformation is heard throughout the map room scene (in particular at 2:47 in the video): that the ark is a dreadful object from a very different world is well rendered by the $T_6$ transposition, with its inherent tritone and point reflection.&#8221;</p>
+<p>Let&#8217;s move on in the direction of the Elephant.</p>
+<p>We saw that the only affine map of the form $x \mapsto \pm x + k$ fixing say the major $0$-triad $(0,4,7)$ is the identity map.</p>
+<p>But, we can ask for the collection of all affine maps $x \mapsto a x + b$ fixing this major $0$-triad <em>set-wise</em>, that is, such that<br />
+\[<br />
+\{ b, 4a+b~\text{mod}~12, 7a+b~\text{mod}~2 \} \subseteq \{ 0,4,7 \} \]</p>
+<p>A quick case-by-case analysis shows that there are just eight such maps: the identity and the constant maps<br />
+\[<br />
+x \mapsto x,~x \mapsto 0,~x \mapsto 4, ~x \mapsto 7 \]<br />
+and the four maps<br />
+\[<br />
+\underbrace{x \mapsto 3x+7}_a,~\underbrace{x \mapsto 8x+4}_b,~x \mapsto 9x+4,~x \mapsto 4x \]</p>
+<p>Compositions of such maps again preserve the set $\{ 0,4,7 \}$ so they form a <em>monoid</em>, and a quick inspection with GAP learns that $a$ and $b$ generate this monoid.</p>
+<p><code><br />
+gap> a:=Transformation([10,1,4,7,10,1,4,7,10,1,4,7]);;<br />
+gap> b:=Transformation([12,8,4,12,8,4,12,8,4,12,8,4]);;<br />
+gap> gens:=[a,b];;<br />
+gap> T:=Monoid(gens);<br />
+<transformation monoid of degree 12 with 2 generators>
+gap> Size(T);<br />
+8<br />
+</code></p>
+<p>The monoid $T$ is the <em>triadic monoid</em> of Thomas Noll&#8217;s paper <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.134.5669&#038;rep=rep1&#038;type=pdf">The topos of triads</a>.</p>
+<p>The monoid $T$ can be seen as a one-object category (with endomorphisms the elements of $T$). The corresponding presheaf topos is then the category of all sets equipped with a right $T$-action.</p>
+<p>Actually, Noll considers just one such presheaf (and its sub-presheaves) namely $\mathcal{F}=\mathbb{Z}_{12}$ with the action of $T$ by affine maps described before.</p>
+<p>He is interested in the sheafifications of these presheaves with respect to Grothendieck topologies, so we have to describe those.</p>
+<p>For any monoid category, the subobject classifier $\Omega$ is the set of all right ideals in the monoid.</p>
+<p>Using the <a href="https://www.gap-system.org/Packages/sgpviz.html">GAP sgpviz package</a> we can draw its Cayley graph (red coloured vertices are idempotents in the monoid, the blue vertex is the identity map).</p>
+<p><code><br />
+gap> DrawCayleyGraph(T);<br />
+</code></p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuth3.png" width=100% /><br />
+</center></p>
+<p>The elements of $T$ (vertices) which can be connected by oriented paths (in both ways) in the Cayley graph, such as here $\{ 2,4 \}$, $\{ 3,7 \}$ and $\{ 5,6,8 \}$, will generate the same right ideal in $T$, so distinct right ideals are determined by unidirectional arrows, such as from $1$ to $2$ and $3$ or from $\{ 2,4 \}$ to $5$, or from $\{ 3,7 \}$ to $6$.</p>
+<p>This gives us that $\Omega$ consists of the following six elements:</p>
+<ul>
+<li>$0 = \emptyset$</li>
+<li>$C = \{ 5,6,8 \} = a.T \wedge b.T$</li>
+<li>$L = \{ 2,4,5,6,8 \}=a.T$</li>
+<li>$R = \{ 3,7,5,6,8 \}=b.T$</li>
+<li>$P = \{ 2,3,4,5,6,7,8 \}=a.T \vee b.T$</li>
+<li>$1 = T$</li>
+</ul>
+<p>As a subobject classifier $\Omega$ is itself a presheaf, so wat is the action of the triad monoid $T$ on it? For all $A \in \Omega$, and $s \in T$ the action is given by $A.s = \{ t \in T | s.t \in A \}$ and it can be read off from the Cayley-graph.</p>
+<p>$\Omega$ is a Heyting algebra of which the inclusions, and logical operations can be summarised in the picture below, using the <a href="https://lievenlebruyn.github.io/neverendingbooks/hexboards-and-heytings">Hexboards and Heytings-post</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/hexheyting3.png" width=60% /><br />
+</center></p>
+<p>In this case, Grothendieck topologies coincide with Lawvere-Tierney topologies, which come from closure operators $j~:~\Omega \rightarrow \Omega$ which are order-increasing, idempotent, and compatible with the $T$-action and with the $\wedge$, that is,</p>
+<ul>
+<li>if $A \leq B$, then $j(A) \leq j(B)$</li>
+<li>$j(j(A)) = j(A)$</li>
+<li>$j(A).t=j(A.t)$</li>
+<li>$j(A \wedge B) = j(A) \wedge j(B)$</li>
+</ul>
+<p>Colouring all cells with the same $j$-value alike, and remaining cells $A$ with $j(A)=A$ coloured yellow, we have six such closure operations $j$, that is, Grothendieck topologies.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/mamuth5.png" width=100% /><br />
+</center></p>
+<p>The triadic monoid $T$ acts via affine transformations on the set of pitch classes $\mathbb{Z}_{12}$ and we&#8217;ve defined it such that it preserves the notes $\{ 0,4,7 \}$ of the major $(0,4,7)$-chord, that is, $\{ 0,4,7 \}$ is a subobject of $\mathbb{Z}_{12}$ in the topos of $T$-sets.</p>
+<p>The point of the subobject classifier $\Omega$ is that morphisms to it classify subobjects, so there must be a $T$-equivariant map $\chi$ making the diagram commute (vertical arrows are the natural inclusions)<br />
+\[<br />
+\xymatrix{\{ 0,4,7 \} \ar[r] \ar[d] &#038; 1 \ar[d] \\ \mathbb{Z}_{12} \ar[r]^{\chi} &#038; \Omega} \]</p>
+<p>What does the morphism $\chi$ do on the other pitch classes? Well, it send an element $k \in \mathbb{Z}_{12} = \{ 1,2,\dots,12=0 \}$ to</p>
+<ul>
+<li>$1$ iff $k \in \{ 0,4,7 \}$</li>
+<li>$P$ iff $a(k)$ and $b(k)$ are in $\{ 0,4,7 \}$</li>
+<li>$L$ iff $a(k) \in \{ 0,4,7 \}$ but $b(k)$ is not</li>
+<li>$R$ iff $b(k) \in \{ 0,4,7 \}$ but $a(k)$ is not</li>
+<li>$C$ iff neither $a(k)$ nor $b(k)$ is in $\{ 0,4,7 \}$</li>
+</ul>
+<p>Remember that $a$ and $b$ are the transformations (images of $(1,2,\dots,12)$)<br />
+<code><br />
+a:=Transformation([10,1,4,7,10,1,4,7,10,1,4,7]);;<br />
+b:=Transformation([12,8,4,12,8,4,12,8,4,12,8,4]);;<br />
+</code><br />
+so we see that</p>
+<ul>
+<li>$0,1,4$ are mapped to $1$</li>
+<li>$3$ is mapped to $P$</li>
+<li>$8,11$ are mapped to $L$</li>
+<li>$1,6,9,10$ are mapped to $R$</li>
+<li>$2,5$ are mapped to $C$</li>
+</ul>
+<p>Finally, we can compute the sheafification of the sub-presheaf $\{ 0,4,7 \}$ of $\mathbb{Z}$ with respect to a Grothendieck topology $j$: it consists of the set of those $k \in \mathbb{Z}_{12}$ such that $j(\chi(k)) = 1$.</p>
+<p>The musically interesting Grothendieck topologies are $j_P, j_L$ and $j_R$ with corresponding sheaves:</p>
+<ul>
+<li>For $j_P$ we get the sheaf $\{ 0,3,4,7 \}$ which Mamuth-ers call a <em>Major-Minor Mixture</em> as these are the notes of both the major and minor $0$-triads</li>
+<li>For $j_L$ we get $\{ 0,3,4,7,8,11 \}$ which is an example of an <a href="https://en.wikipedia.org/wiki/Hexatonic_scale">Hexatonic scale</a> (six notes), here they are the notes of the major and minor $0,~4$ and $8$-triads</li>
+<li>For $j_R$ we get $\{ 0,1,3,4,6,7,9,10 \}$ which is an example of an <a href="https://en.wikipedia.org/wiki/Octatonic_scale">Octatonic scale</a> (eight notes), here they are the notes of the major and minor $0,~3,~6$ and $9$-triads</li>
+</ul>
+<p>We could have played the same game starting with the three notes of any other major triad.</p>
+<p>Those in the know will have noticed that so far I&#8217;ve avoided another incarnation of the dihedral $D_{12}$ group in music, namely the $PLR$-group, which explains the notation for the elements of the subobject classifier $\Omega$, but this post is already way too long.</p>
+<p>(to be <a href="https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2">continued</a>&#8230;)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

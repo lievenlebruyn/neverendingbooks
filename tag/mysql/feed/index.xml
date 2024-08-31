@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mysql &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/mysql/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 21 Oct 2017 15:36:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>The joys of running a WordPress blog</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-joys-of-having-a-wordpress-blog/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-joys-of-having-a-wordpress-blog/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 21 Oct 2017 15:36:17 +0000</pubDate>
+				<category><![CDATA[rants]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7290</guid>
+
+					<description><![CDATA[Earlier today, John Duncan (of moonshine fame) emailed he was unable to post a comment to the previous post: &#8220;I went to post a comment&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Earlier today, John Duncan (of moonshine fame) emailed he was unable to post a comment to the <a href="https://lievenlebruyn.github.io/neverendingbooks/pariah-moonshine-and-math-writing">previous post</a>:<br />
+&#8220;I went to post a comment but somehow couldn&#8217;t convince the website to cooperate.&#8221;</p>
+<p>There&#8217;s little point in maintaining a self-hosted blog if people cannot comment on it. If you tried, you got this scary message:</p>
+<p><strong>Catchable fatal error: Object of class WP_Error could not be converted to string in /wp-includes/formatting.php on line 1031</strong></p>
+<p>The days I meddled with wordpress core php-files are long gone, and a quick Google search didn&#8217;t come up with anything helpful.</p>
+<p>In despair, there&#8217;s always the database to consider.</p>
+<p>Here&#8217;s a screenshot of this blog&#8217;s database in <a href="">phpMyAdmin</a>:</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments2.jpg"><img fetchpriority="high" decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments2.jpg" alt="" width="1000" height="389" class="alignnone size-full wp-image-7293" srcset="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments2.jpg 1000w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments2-300x117.jpg 300w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments2-768x299.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>No surprise you cannot comment here, there isn&#8217;t even a <strong>wp_comments</strong> table in the database! (though surprisingly, there&#8217;s a table wp_commentmeta&#8230;)</p>
+<p>Two weeks ago I moved this blog to a new iMac. Perhaps the database got corrupted in the process, or the quick export option of phpMyAdmin doesn&#8217;t include comments (unlikely), or whatever.</p>
+<p>Here&#8217;s what I did to get things working again. It may solve your problem if you don&#8217;t have a backup of another wordpress-blog with a functional wp_comments table.</p>
+<p>1. Set up a new WordPress blog in the <a href="https://codex.wordpress.org/Installing_WordPress">usual way</a>, including a new database, let&#8217;s call it &#8216;newblog&#8217;.</p>
+<p>2. In phpMyAdmin drop all tables in newblog except for wp_comments.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments1.jpg"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments1.jpg" alt="" width="1000" height="525" class="alignnone size-full wp-image-7296" srcset="https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments1.jpg 1000w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments1-300x158.jpg 300w, https://lievenlebruyn.github.io/neverendingbooks/wp-content/uploads/2017/10/comments1-768x403.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>3. Export your blog&#8217;s database, say &#8216;oldblog&#8217;, via the &#8216;quick export&#8217; option in phpMyAdmin to get a file oldblog.sql.</p>
+<p>4. If this file is small you can use phpMyAdmin to import it into newblog. If not you need to do it with this terminal-command</p>
+<p><strong>mysql -h localhost -u root &#8211; p newblog < oldblog.sql</strong></p>
+<p>and have the patience for this to finish.</p>
+<p>5. Change in your wp-config file the oldblog database to newblog.</p>
+<p>Happy commenting!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-joys-of-having-a-wordpress-blog/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

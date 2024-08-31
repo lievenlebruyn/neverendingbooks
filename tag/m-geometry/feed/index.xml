@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>M-geometry &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/m-geometry/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 14 Jan 2008 12:47:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Quiver-superpotentials</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 14 Jan 2008 12:47:27 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/quiver-superpotentials.html</guid>
+
+					<description><![CDATA[It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by the conjugacy class of a cofinite subgroup $\Lambda \subset \Gamma $, or equivalently, to a dessin d&#8217;enfant. We have introduced a <strong>quiver</strong> (aka an oriented graph) which comes from a triangulation of the compactification of $\mathbb{H} / \Lambda $ where $\mathbb{H} $ is the hyperbolic upper half-plane. This quiver is independent of the chosen embedding of the dessin in the Dedeking tessellation. (For more on these terms and constructions, please consult the series <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-dedekind-tessellation.html">Modular subgroups</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monsieur-mathieu.html">Dessins d&#8217;enfants</a>).</p>
+<p>Why are quivers useful? To start, any quiver $Q $ defines a noncommutative algebra, the <strong>path algebra</strong> $\mathbb{C} Q $, which has as a $\mathbb{C} $-basis all oriented paths in the quiver and multiplication is induced by concatenation of paths (when possible, or zero otherwise). Usually, it is quite hard to make actual computations in noncommutative algebras, but in the case of path algebras you can just <strong>see</strong> what happens.</p>
+<p>Moreover, we can also <strong>see</strong> the finite dimensional representations of this algebra $\mathbb{C} Q $. Up to isomorphism they are all of the following form : at each vertex $v_i $ of the quiver one places a finite dimensional vectorspace $\mathbb{C}^{d_i} $ and any arrow in the quiver<br />
+[tex]\xymatrix{\vtx{v_i} \ar[r]^a &amp; \vtx{v_j}}[/tex] determines a linear map between these vertex spaces, that is, to $a $ corresponds a matrix in $M_{d_j \times d_i}(\mathbb{C}) $. These matrices determine how the paths of length one act on the representation, longer paths act via multiplcation of matrices along the oriented path.</p>
+<p>A <strong>necklace</strong> in the quiver is a closed oriented path in the quiver <strong>up to cyclic permutation</strong> of the arrows making up the cycle. That is, we are free to choose the start (and end) point of the cycle. For example, in the one-cycle quiver</p>
+<p>[tex]\xymatrix{\vtx{} \ar[rr]^a &amp; &amp; \vtx{} \ar[ld]^b \\ &amp; \vtx{} \ar[lu]^c &amp;}[/tex]</p>
+<p>the basic necklace can be represented as $abc $ or $bca $ or $cab $. How does a necklace act on a representation? Well, the matrix-multiplication of the matrices corresponding to the arrows gives a square matrix in each of the vertices in the cycle. Though the dimensions of this matrix may vary from vertex to vertex, what does not change (and hence is a property of the necklace rather than of the particular choice of cycle) is the <strong>trace</strong> of this matrix. That is, necklaces give complex-valued functions on representations of $\mathbb{C} Q $ and by a result of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/m-geometry-3.html">Artin and Procesi</a> there are enough of them to distinguish isoclasses of (semi)simple representations! That is, linear combinations a necklaces (aka <strong>super-potentials</strong>) can be viewed, after taking traces, as complex-valued functions on all representations (similar to character-functions).</p>
+<p>In physics, one views these functions as potentials and it then interested in the points (representations) where this function is extremal (minimal) : the <strong>vacua</strong>. Clearly, this does not make much sense in the complex-case but is relevant when we look at the real-case (where we look at skew-Hermitian matrices rather than all matrices). A motivating example (the <strong>Yang-Mills potential</strong>) is given in Example 2.3.2 of Victor Ginzburg&#8217;s paper <a href="http://arxiv.org/abs/math/0612139">Calabi-Yau algebras</a>.</p>
+<p>Let $\Phi $ be a super-potential (again, a linear combination of necklaces) then our commutative intuition tells us that extrema correspond to zeroes of all partial differentials $\frac{\partial \Phi}{\partial a} $ where $a $ runs over all coordinates (in our case, the arrows of the quiver). One can make sense of differentials of necklaces (and super-potentials) as follows : the partial differential with respect to an arrow $a $ occurring in a term of $\Phi $ is defined to be the <strong>path</strong> in the quiver one obtains by removing all 1-occurrences of $a $ in the necklaces (defining $\Phi $) and rearranging terms to get a maximal broken necklace (using the cyclic property of necklaces). An example, for the cyclic quiver above let us take as super-potential $abcabc $ (2 cyclic turns), then for example</p>
+<p>$\frac{\partial \Phi}{\partial b} = cabca+cabca = 2 cabca $</p>
+<p>(the first term corresponds to the first occurrence of $b $, the second to the second). Okay, but then the vacua-representations will be the representations of the quotient-algebra (which I like to call the <strong>vacualgebra</strong>)</p>
+<p>$\mathcal{U}(Q,\Phi) = \frac{\mathbb{C} Q}{(\partial \Phi/\partial a, \forall a)} $</p>
+<p>which in &#8216;physical relevant settings&#8217; (whatever that means&#8230;) turn out to be <strong>Calabi-Yau algebras</strong>.</p>
+<p>But, let us return to the case of subgroups of the modular group and their quivers. Do we have a natural <strong>super-potential</strong> in this case? Well yes, the quiver encoded a triangulation of the compactification of $\mathbb{H}/\Lambda $ and if we choose an orientation it turns out that all &#8216;black&#8217; triangles (with respect to the Dedekind tessellation) have their arrow-sides defining a necklace, whereas for the &#8216;white&#8217; triangles the <strong>reverse</strong> orientation makes the arrow-sides into a necklace. Hence, it makes sense to look at the <strong>cubic</strong> superpotential $\Phi $ being the sum over all triangle-sides-necklaces with a +1-coefficient for the black triangles and a -1-coefficient for the white ones. Let&#8217;s consider an index three example from a previous post</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver3.jpg" style="float:left;margin-right:10px;" ><br />
+[tex]\xymatrix{&amp; &amp; \rho \ar[lld]_d \ar[ld]^f \ar[rd]^e &amp; \\<br />
+i \ar[rrd]_a &amp; i+1 \ar[rd]^b &amp; &amp; \omega \ar[ld]^c \\<br />
+&amp; &amp; 0 \ar[uu]^h \ar@/^/[uu]^g \ar@/_/[uu]_i &amp;}[/tex]</p>
+<p>In this case the super-potential coming from the triangulation is</p>
+<p>$\Phi = -aid+agd-cge+che-bhf+bif $</p>
+<p>and therefore we have a noncommutative algebra $\mathcal{U}(Q,\Phi) $ associated to this index 3 subgroup. Contrary to what I believed at the start of this series, the algebras one obtains in this way from dessins d&#8217;enfants are <strong>far from being Calabi-Yau</strong> (in whatever definition). For example, using a GAP-program written by <a href="http://www.win.ua.ac.be/~rbockl/research/">Raf Bocklandt</a> Ive checked that the growth rate of the above algebra is similar to that of $\mathbb{C}[x] $, so in this case $\mathcal{U}(Q,\Phi) $ can be viewed as a noncommutative curve (with singularities).</p>
+<p>However, this is not the case for all such algebras. For example, the vacualgebra associated to the second index three subgroup (whose fundamental domain and quiver were depicted at the end of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-modular-group-and-superpotentials-2.html">this post</a>) has growth rate similar to that of $\mathbb{C} \langle x,y \rangle $&#8230;</p>
+<p>I have an outlandish conjecture about the growth-behavior of all algebras $\mathcal{U}(Q,\Phi) $ coming from dessins d&#8217;enfants : <strong>the algebra sees what the monodromy representation of the dessin sees of the modular group (or of the third braid group)</strong>.<br />
+I can make this more precise, but perhaps it is wiser to calculate one or two further examples&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Anabelian &#038; Noncommutative Geometry 2</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/anabelian-noncommutative-geometry-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/anabelian-noncommutative-geometry-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 19 Dec 2007 20:20:14 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=56</guid>
+
+					<description><![CDATA[Last time (possibly with help from the survival guide) we have seen that the universal map from the modular group $\Gamma = PSL_2(\mathbb{Z}) $ to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=53">Last time</a> (possibly with help from the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=54">survival guide</a>) we have seen that the universal map from the modular group $\Gamma = PSL_2(\mathbb{Z}) $ to its profinite completion $\hat{\Gamma} = \underset{\leftarrow}{lim}~PSL_2(\mathbb{Z})/N $ (limit over all finite index normal subgroups $N $) gives an embedding of the sets of (continuous) simple finite dimensional representations</p>
+<p>$\mathbf{simp}_c~\hat{\Gamma} \subset \mathbf{simp}~\Gamma $</p>
+<p>and based on the example $\mu_{\infty} = \mathbf{simp}_c~\hat{\mathbb{Z}} \subset \mathbf{simp}~\mathbb{Z} = \mathbb{C}^{\ast} $ we would like the above embedding to be dense in some kind of noncommutative analogon of the <a href="http://en.wikipedia.org/wiki/Zariski_topology">Zariski topology</a> on $\mathbf{simp}~\Gamma $.</p>
+<p>We use the Zariski topology on $\mathbf{simp}~\mathbb{C} \Gamma $ as in <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=38">these</a> <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=39">two</a> <strong>M-geometry</strong> posts (( already, I regret terminology, I should have just called it noncommutative geometry )). So, what&#8217;s this idea in this special case? Let $\mathfrak{g} $ be the vectorspace with basis the conjugacy classes of elements of $\Gamma $ (that is, the space of class functions). As explained <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=39">here</a> it is a consequence of the Artin-Procesi theorem that the linear functions $\mathfrak{g}^{\ast} $ separate finite dimensional (semi)simple representations of $\Gamma $. That is we have an embedding</p>
+<p>$\mathbf{simp}~\Gamma \subset \mathfrak{g}^{\ast} $</p>
+<p>and we can define <strong>closed</strong> subsets of $\mathbf{simp}~\Gamma $ as subsets of simple representations on which a set of class-functions vanish. With this definition of Zariski topology it is immediately clear that the image of $\mathbf{simp}_c~\hat{\Gamma} $ is dense. For, suppose it would be contained in a proper closed subset then there would be a class-function vanishing on all simples of $\hat{\Gamma} $ so, in particular, there should be a bound on the number of simples of finite quotients $\Gamma/N $ which clearly is not the case (just look at the quotients $PSL_2(\mathbb{F}_p) $).</p>
+<p>But then, the same holds if we replace &#8216;simples of $\hat{\Gamma} $&#8217; by &#8216;simple components of permutation representations of $\Gamma $&#8217;. This is the importance of <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=21">Farey symbols</a> to the representation problem of the modular group. They give us a manageable subset of simples which is nevertheless dense in the whole space. To utilize this a natural idea might be to ask what such a permutation representation <strong>can see</strong> of the modular group, or in geometric terms, what the <strong>tangent space</strong> is to $\mathbf{simp}~\Gamma $ in a permutation representation (( more precisely, in the &#8216;cluster&#8217; of points making up the simple components of the representation representation )). We will call this the <strong>modular content</strong> of the permutation representation and to understand it we will have to compute the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=37">tangent quiver</a> $\vec{t}~\mathbb{C} \Gamma $.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/anabelian-noncommutative-geometry-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>M-geometry (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 18 Sep 2007 06:56:26 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Azumaya]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=39</guid>
+
+					<description><![CDATA[For any finite dimensional A-representation S we defined before a character $\chi(S) $ which is an linear functional on the noncommutative functions $\mathfrak{g}_A = A/[A,A]_{vect}&#8230;]]></description>
+										<content:encoded><![CDATA[<p>For any finite dimensional A-representation S we <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=38">defined before</a> a <strong>character</strong> $\chi(S) $ which is an linear functional on the <strong>noncommutative functions</strong> $\mathfrak{g}_A = A/[A,A]_{vect} $ and defined via</p>
+<p>$\chi_a(S) = Tr(a | S) $ for all $a \in A $</p>
+<p>We would like to have enough such characters to separate simples, that is we would like to have an embedding</p>
+<p>$\mathbf{simp}~A \hookrightarrow \mathfrak{g}_A^* $</p>
+<p>from the set of all finite dimensional simple A-representations $\mathbf{simp}~A $ into the linear dual of $\mathfrak{g}_A^* $. This is a consequence of the celebrated <strong>Artin-Procesi theorem</strong>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/artin.jpg" style="float:left;margin-right:10px;" hspace=10 /> <a href="http://en.wikipedia.org/wiki/Michael_Artin">Michael Artin</a> was the first person to approach representation theory via algebraic geometry and geometric invariant theory. In his 1969 classical paper &#8220;On Azumaya algebras and finite dimensional representations of rings&#8221; he introduced the affine scheme $\mathbf{rep}_n~A $ of all n-dimensional representations of A on which the group $GL_n $ acts via basechange, the orbits of which are exactly the isomorphism classes of representations. He went on to use the Hilbert criterium in invariant theory to prove that the closed orbits for this action are exactly the isomorphism classes of <strong>semi-simple</strong> -dimensional representations. Invariant theory tells us that there are enough invariant polynomials to separate closed orbits, so we would be done if the caracters would generate the ring of invariant polynmials, a statement first conjectured in this paper.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/procesi.jpg" style="float:right;margin-left:10px;" hspace=10 /> <a href="http://www.mat.uniroma1.it/~procesi/">Claudio Procesi</a> was able to prove this conjecture in his 1976 paper &#8220;The invariant theory of $n \times n $ matrices&#8221; in which he reformulated the fundamental theorems on $GL_n $-invariants to show that the ring of invariant polynomials of m $n \times n $ matrices under simultaneous conjugation is generated by traces of words in the matrices (and even managed to limit the number of letters in the words required to $n^2+1 $). Using the properties of the Reynolds operator in invariant theory it then follows that the same applies to the $GL_n $-action on the representation schemes $\mathbf{rep}_n~A $.</p>
+<p>So, let us reformulate their result a bit. Assume the affine $\mathbb{C} $-algebra A is generated by the elements $a_1,\ldots,a_m $ then we define a <strong>necklace</strong> to be an equivalence class of words in the $a_i $, where two words are equivalent iff they are the same upto <strong>cyclic</strong> permutation of letters. For example $a_1a_2^2a_1a_3 $ and $a_2a_1a_3a_1a_2 $ determine the same necklace. Remark that traces of different words corresponding to the same necklace have the same value and that the noncommutative functions $\mathfrak{g}_A $ are spanned by necklaces.</p>
+<p>The <strong>Artin-Procesi theorem</strong> then asserts that if S and T are non-isomorphic simple A-representations, then $\chi(S) \not= \chi(T) $ as elements of $\mathfrak{g}_A^* $ and even that they differ on a necklace in the generators of A of length at most $n^2+1 $. Phrased differently, the array of characters of simples evaluated at necklaces is a substitute for the clasical character-table in finite group theory.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>M-geometry (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 17 Sep 2007 07:06:34 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=38</guid>
+
+					<description><![CDATA[Last time we introduced the tangent quiver $\vec{t}~A $ of an affine algebra A to be a quiver on the isoclasses of simple finite dimensional&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=37">Last time</a> we introduced the <strong>tangent quiver</strong> $\vec{t}~A $ of an affine algebra A to be a quiver on the isoclasses of simple finite dimensional representations. When $A=\mathbb{C}[X] $ is the coordinate ring of an affine variety, these vertices are just the points of the variety $X $ and this set has the extra structure of being endowed with the <a href="http://en.wikipedia.org/wiki/Zariski_topology">Zariski topology</a>. For a general, possibly noncommutative algebra, we would like to equip the vertices of $\vec{t}~A $ also with a topology.</p>
+<p>In the commutative case, the Zariski topology has as its closed sets the common zeroes of a set of polynomials on $X $, so we need to generalize the notion of &#8216;functions&#8217; the the noncommutative world. The NC-mantra states that we should view the algebra A as the ring of functions on a (usually virtual) noncommutative space. And, face it, for a commutative variety $X $ the algebra $A=\mathbb{C}[X] $ does indeed do the job. Still, this is a red herring.</p>
+<p>Let&#8217;s consider the easiest noncommutative case, that of the group algebra $\mathbb{C} G $ of a finite group $G $. In this case, the vertices of the tangent quiver $\vec{t}~A $ are the irreducible representations of $G $ and no sane person would consider the full group algebra to be the algebra of functions on this set. However, we do have a good alternative in this case : <a href="http://en.wikipedia.org/wiki/Character_theory">characters</a> which allow us to separate the irreducibles and are a lot more manageable than the full group algebra. For example, if $G $ is the <a href="http://en.wikipedia.org/wiki/Monster_group">monster group</a> then the group algebra has dimension approx $8 \times 10^{53} $ whereas there are just 194 characters to consider&#8230;</p>
+<p>But, can we extend characters to arbitrary noncommutative algebras? and, more important, are there enough of these to separate the simple representations? The first question is easy enough to answer, after all characters are just traces so we can define for every element $a \in A $ and any finite dimensional simple A-representation $S $ the <strong>character</strong></p>
+<p>$\chi_a(S) = Tr(a | S) $</p>
+<p>where $a | S $ is the matrix describing the action of a on S. But, you might say, characters are then just linear functionals on the algebra A so it is natural to view A as the function algebra, right? Wrong! Traces have the nice property that $Tr(ab)=Tr(ba) $ and so they vanish on all commutators $[a,b]=ab-ba $ of A, so characters only carry information of the quotient space</p>
+<p>$\mathfrak{g}_A = \frac{A}{[A,A]_{vect}} $</p>
+<p>where $[A,A]_{vect} $ is the <strong>vectorspace</strong> spanned by all commutators (and <strong>not</strong> the ideal&#8230;). If one is too focussed on commutative geometry one misses this essential simplification as clearly for $A=\mathbb{C}[X] $ being a commutative algebra,</p>
+<p>$[\mathbb{C}[X],\mathbb{C}[X]]_{vect}=0 $ and therefore in this case $\mathfrak{g}_{\mathbb{C}[X]} = \mathbb{C}[X] $</p>
+<p>Ok, but are there enough characters (that is, linear functionals on $\mathfrak{g}_A $, that is elements of the dual space $\mathfrak{g}_A^* $) to separate the simple representations? And, why do I (ab)use Lie-algebra notation $\mathfrak{g}_A $ to denote the vectorspace $A/[A,A]_{vect} $???</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>M-geometry (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 15 Sep 2007 15:47:01 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=37</guid>
+
+					<description><![CDATA[Take an affine $\mathbb{C} $-algebra A (not necessarily commutative). We will assign to it a strange object called the tangent-quiver $\vec{t}~A $, compute it in&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Take an affine $\mathbb{C} $-algebra A (not necessarily commutative). We will assign to it a strange object called the <strong>tangent-quiver</strong> $\vec{t}~A $, compute it in a few examples and later show how it connects with existing theory and how it can be used. This series of posts can be seen as the promised notes of my talks at the <a href="https://lievenlebruyn.github.io/neverendingbooks/ARTS/?page_id=3">GAMAP-workshop</a> but in reverse order&#8230; If some of the LaTeX-pictures are not in the desired spots, please size and resize your browser-window and they will find their intended positions.</p>
+<p>A <strong>vertex</strong> $v $ of $\vec{t}~A $ corresponds to the isomorphism class of a finite dimensional <strong>simple</strong> A-representations $S_v $ and between any two such vertices, say $v $ and $w $, the number of directed <strong>arrows</strong> from $v $ to $w $ is given by the dimension of the Ext-space</p>
+<p>$dim_{\mathbb{C}}~Ext^1_A(S_v,S_w) $</p>
+<p>Recall that this Ext-space counts the equivalence classes of short exact sequences of A-representations</p>
+<p>[tex]\xymatrix{0 \ar[r] &amp; S_w \ar[r] &amp; V \ar[r] &amp; S_v \ar[r] &amp; 0}[/tex]</p>
+<p>where two such sequences (say with middle terms V resp. W) are equivalent if there is an A-isomorphism $V \rightarrow^{\phi} W $ making the diagram below commutative</p>
+<p>[tex]\xymatrix{0 \ar[r] &amp; S_w \ar[r] \ar[d]^{id_{S_w}} &amp; V \ar[r] \ar[d]^{\phi} &amp; S_v \ar[r] \ar[d]^{id_{S_v}} &amp; 0 \\\<br />
+0 \ar[r] &amp; S_w \ar[r] &amp; W \ar[r] &amp; S_v \ar[r] &amp; 0}[/tex]</p>
+<p>The Ext-space measures how many non-split extensions there are between the two simples and is always a finite dimensional vectorspace. So the <strong>tangent quiver</strong> $\vec{t}~A $ has the property that in all vertices there are at most finitely many loops and between any two vertices there are a finite number of directed arrows, but in principle a vertex may be the origin of arrows connecting it to infinitely many other vertices.</p>
+<p>Right, now let us at least motivate the terminology. Let $X $ be a (commutative) affine variety with coordinate ring $A = \mathbb{C}[X] $ then what is $\vec{t}~A $ in this case? To begin, as $\mathbb{C}[X] $ is commutative, all its finite dimensional simple representations are one-dimensional and there is one such for every <strong>point</strong> $x \in X $. Therefore, the vertices of $\vec{t}~A $ correspond to the points of the affine variety $X $. The simple A-representation $S_x $ corresponding to a point $x $ is just evaluating polynomials in $x $. Moreover, if $x \not= y $ then there are no non-split extensions between $S_x $ and $S_y $ (a commutative semi-local algebra splits as a direct sum of locals), therefore in $\vec{t}~A $ there can only be loops and no genuine arrows between different vertices. Finally, the number of loops in the vertex corresponding to the point $x $ can be computed using the fact that the self-extensions can be identified with the <strong>tangent space</strong> at $x $, that is</p>
+<p>$dim_{\mathbb{C}}~Ext^1_{\mathbb{C}[X]}(S_x,S_x) = dim_{\mathbb{C}}~T_x~X $</p>
+<p>That is, if $A=\mathbb{C}[X] $ is the coordinate ring of an affine variety $X $, then the quiver $\vec{t}~A $ is the set of points of $X $ having in each point $x $ as many loops as the dimension of the tangent space $T_x~X $. So, in this case, the quiver $\vec{t}~A $ contains all information about tangent spaces to the variety and that&#8217;s why we call it the <strong>tangent quiver</strong>.</p>
+<p>Let&#8217;s go into the noncommutative wilderness. A first, quite trivial, example is the <strong>group algebra</strong> $A = \mathbb{C} G $ of a finite group $G $, then the simple A-representations are just the irreducible G-representations and as the group algebra is <strong>semi-simple</strong> every short exact sequence splits so all Ext-spaces are zero. That is, in this case the tangent quiver $\vec{t}~A $ in just a finite set of vertices (as many as there are irreducible G-representations) and no arrows nor loops.</p>
+<p>Now you may ask whether there are examples of tangent quivers having arrows apart from loops. So, take another easy finite dimensional example : the <strong>path algebra</strong> $A = \mathbb{C} Q $ of a finite quiver $Q $ <strong>without oriented cycles</strong>. Recall that the path algebra is the vectorspace having as basis all vertices and all oriented paths in the quiver Q (and as there are no cycles, this basis is finite) and multiplication is induced by concatenation of paths. Here an easy example. Suppose the quiver Q looks like</p>
+<p>[tex]\xymatrix{\vtx{} \ar[r] &amp; \vtx{} \ar[r] &amp; \vtx{}}[/tex]</p>
+<p>then the path algebra is 6 dimensional as there are 3 vertices, 2 paths of length one (the arrows) and one path of length two (going from the leftmost to the rightmost vertex). The concatenation rule shows that the three vertices will give three idempotents in A and one easily verifies that the path algebra can be identified with upper-triangular $3 \times 3 $ matrices</p>
+<p>$\mathbb{C} Q \simeq \begin{bmatrix} \mathbb{C} &amp; \mathbb{C} &amp; \mathbb{C} \\\ 0 &amp; \mathbb{C} &amp; \mathbb{C} \\\ 0 &amp; 0 &amp; \mathbb{C} \end{bmatrix} $</p>
+<p>where the diagonal components correspond to the vertices, the first offdiagonal components to the two arrows and the corner component corresponds to the unique path of length two. Right, for a general finite quiver without oriented cycles is the quite easy to see that all finite dimensional simples are one-dimensional and correspond to the vertex-idempotents, that is every simple is of the form $S_v = e_v \mathbb{C} Q e_v $ where $e_v $ is the vertex idempotent. No doubt, you can guess what the <strong>tangent quiver</strong> $\vec{t}~A = \vec{t}~\mathbb{C} Q $ will be, can&#8217;t you?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hexagonal Moonshine (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 13 Jul 2007 10:24:36 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=24</guid>
+
+					<description><![CDATA[Hexagons keep on popping up in the representation theory of the modular group and its close associates. We have seen before that singularities in 2-dimensional&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Hexagons keep on popping up in the representation theory of the modular group and its close associates. We have seen <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=15">before</a> that singularities in 2-dimensional representation varieties of the three string braid group $B_3 $ are &#8216;clanned together&#8217; in hexagons and <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=22">last time</a> Ive mentioned (in passing) that the representation theory of the modular group is controlled by the double quiver of the extended Dynkin diagram $\tilde{A_5} $, which is an hexagon&#8230;</p>
+<p>Today we&#8217;re off to find representations of the extended modular group $\tilde{\Gamma} = PGL_2(\mathbb{Z}) $, which is obtained by adding to the modular group (see <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=23">this post</a> for a proof of generation)</p>
+<p>$\Gamma = \langle U=\begin{bmatrix} 0 &amp; -1 \\\ 1 &amp; 0 \end{bmatrix},V=\begin{bmatrix} 0 &amp; 1 \\\ -1 &amp; 1 \end{bmatrix} \rangle $ the matrix $R=\begin{bmatrix} 0 &amp; 1 \\\ 1 &amp; 0 \end{bmatrix} $</p>
+<p>In terms of generators and relations, one easily verfifies that</p>
+<p>$\tilde{\Gamma} = \langle~U,V,R~|~U^2=R^2=V^3=(RU)^2=(RV)^2=1~\rangle $</p>
+<p>and therefore $\tilde{\Gamma} $ is the <a href="http://unapologetic.wordpress.com/2007/03/03/amalgamated-free-products/">amalgamated free product</a> of the <a href="http://en.wikipedia.org/wiki/Dihedral_group">dihedral groups</a> $D_2 $ and $D_3 $ over their common subgroup $C_2 = \langle~R~\rangle $, that is</p>
+<p>$\tilde{\Gamma} = \langle U,R | U^2=R^2=(RU)^2=1 \rangle \ast_{\langle R | R^2=1 \rangle} \langle V,R | V^3=R^2=(RV)^2=1 \rangle = D_2 \ast_{C_2} D_3 $</p>
+<p>From this description it is easy to find all n-dimensional $\tilde{\Gamma} $-representations $V $ and relate them to quiver-representations. $D_2 = C_2 \times C_2 $ and hence has 4 1-dimensonal simples $S_1,S_2,S_3,S_4 $. Restricting $V\downarrow_{D_2} $ to the subgroup $D_2 $ it decomposes as</p>
+<p>$V \downarrow_{D_2} \simeq S_1^{\oplus a_1} \oplus S_2^{\oplus a_2} \oplus S_3^{\oplus a_3} \oplus S_4^{\oplus a_4} $ with $a_1+a_2+a_3+a_4=n $</p>
+<p>Similarly, because $D_3=S_3 $ has two one-dimensional representations $T,S $ (the trivial and the sign representation) and one simple 2-dimensional representation $W $, restricting $V $ to this subgroup gives a decomposition</p>
+<p>$V \downarrow_{D_3} \simeq T^{b_1} \oplus S^{\oplus b_2} \oplus W^{\oplus b_3} $, this time with $b_1+b_2+2b_3=n $</p>
+<p>Restricting both decompositions further down to the common subgroup $C_2 $ one obtains a $C_2 $-isomorphism $V \downarrow_{D_2} \rightarrow^{\phi} V \downarrow_{D_3} $ which implies also that the above numbers must be chosen such that $a_1+a_3=b_1+b_3 $ and $a_2+a_4=b_2+b_3 $. We can summarize all this info about $V $ in a representation of the quiver</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quivertilde.gif" style="float:left;margin-right:10px;"> Here, the vertex spaces on the left are the iso-typical factors of $V \downarrow_{D_2} $ and those on the right those of $V \downarrow_{D_3} $ and the arrows give the block-components of the $C_2 $-isomorphism $\phi $. The nice things is that one can also reverse this process to get all $\tilde{\Gamma} $-representations from $\theta $-semistable representations of this quiver (having the additional condition that the square matrix made of the arrows is invertible) and isomorphisms of group-representation correspond to those of quiver-representations!</p>
+<p>This proves that for all n the varieties of n-dimensional representations $\mathbf{rep}_n~\tilde{\Gamma} $ are smooth (but have several components corresponding to the different dimension vectors $~(a_1,a_2,a_3,a_4;b_1,b_2,b_3) $ such that $\sum a_i = n = b_1+b_2+2b_3 $.</p>
+<p>The basic principle of _M-geometry_ is that a lot of the representation theory follows from the &#8216;clan&#8217; (see <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=15">this post</a>) determined by the simples of smallest dimensions. In the case of the extended modular group $\tilde{\Gamma} $ it follows that there are exactly 4 one-dimensional simples and exactly 4 2-dimensional simples, corresponding to the dimension vectors</p>
+<p>$\begin{cases} a=(0,0,0,1;0,1,0) \\\ b=(0,1,0,0;0,1,0) \\\ c=(1,0,0,0;1,0,0) \\\ d=(0,0,1,0;1,0,0) \end{cases} $ resp. $\begin{cases} e=(0,1,1,0;0,0,1) \\\ f=(1,0,0,1;0,0,1) \\\ g=(0,0,1,1;0,0,1) \\\ h=(1,1,0,0;0,0,1) \end{cases} $</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/onequivertilde.gif" style="float:left;margin-right:10px;"> If one calculates the &#8216;clan&#8217; of these 8 simples one obtains the double quiver of the graph on the left. Note that a and b appear twice, so one should glue the left and right hand sides together as a Moebius-strip. That is, the clan determining the representation theory of the extended modular group is a Moebius strip made of two hexagons!</p>
+<p>However, one should not focuss too much on the hexagons (that is, the extended Dynkin diagram $\tilde{A_5} $) here. The two &#8216;backbones&#8217; (e&#8211;f and g&#8211;h) have their vertices corresponding to 2-dimensional simples whereas the topand bottom vertices correspond to one-dimensional simples. Hence, the correct way to look at this clan is as two copies of the double quiver of the extended Dynkin diagram $\tilde{D_5} $ glued over their leaf vertices to form a Moebius strip. Remark that the components of the sotropic root of $\tilde{D_5} $ give the dimensions of the corresponding $\tilde{\Gamma} $ simples.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/doubleD5.gif" align=center></p>
+<p>The remarkable ubiquity of (extended) Dynkins never ceases to amaze!</p>
+<p><span id="more-24"></span></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hexagonal Moonshine (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 11 Jul 2007 11:37:09 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=22</guid>
+
+					<description><![CDATA[Delving into finite dimensional representations of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ it is perhaps not too surprising to discover numerical connections with modular&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Delving into finite dimensional representations of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ it is perhaps not too surprising to discover numerical connections with modular functions. Here, one such strange observation and a possible explanation.</p>
+<p>Using the _fact_ that the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is the free group product $C_2 \ast C_3 $ it is fairly easy to see that the variety of all n-dimensional representations $\mathbf{rep}_n~\Gamma $ is smooth (though it contains several connected components). Some of these components will contain simple representations, some will not. Anyway, we are not interested in all n-dimensional representations but in the <strong>isomorphism classes</strong> of such representations. The best algebraic approximation to this problem is by studying the quotient varieties</p>
+<p>$\mathbf{iss}_n~\Gamma = \mathbf{rep}_n~\Gamma // GL(n) $</p>
+<p>under the action of $GL(n) $ by basechange. Geometric invariant theory tells us that the points of this quotient variety correspond to isoclasses of <strong>semi-simple</strong> n-dimensional representations (whence the notation $\mathbf{iss}_n $). Again, these quotient varieties split into several connected components, some of which will have an open subset of points corresponding to <strong>simple</strong> representations.</p>
+<p>It is a natural idea to compute the <strong>codimension</strong> of subvariety of proper semi-simples in the component of maximal dimension containing simple representations. _M-geometry_ allows you to reduce such calculation to quiver-problems. Anyway, if one does this for small values of n one obtains the following sequence of codimension-numbers (starting with $n=1 $</p>
+<p>0,1,1,1,1,3,1,3,3,3,3,5,3,5,5,5,5,7,5,7,&#8230;</p>
+<p>which doesnt seem too exciting before you feed it to <a href="http://www.research.att.com/~njas/sequences/">Sloan&#8217;s integer sequences encyclopedia</a> when one discovers that it is precisely sequence <a href="http://www.research.att.com/~njas/sequences/A063195">A063195</a> which gives the dimensions of weight 2n _cuspidal newforms_<br />
+ for $\Gamma_0(6) $&#8230;</p>
+<p>The optimistic &#8220;moonshine&#8221;-interpretation of this might be that these newforms can be viewed somehow as functions on the varieties of finite dimensional $\Gamma $-representations having the property that they pick out generic simple representations as their non-zeroes.</p>
+<p>Be that as it may (one never knows in these matters), here a more down-to-earth explanation. The sequence <a href="http://www.research.att.com/~njas/sequences/A063195">A063195</a> obviously has a 6-periodicity behaviour so it suffices to understand why the codimension-sequence should have a similar feature (modulo computing the first few terms of it and observing the coincidence with the first few terms of A063195).</p>
+<p>The modular group has exactly 6 one-dimensional representations and if one calculates their clan as in <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=15">hexagonal moonshine (1)</a> one obtains the hexagonal quiver</p>
+<p>[tex]\xymatrix{&amp; \vtx{S_1}  \ar@/^/[dl] \ar@/^/[dr] &amp; \\ \vtx{S_6}  \ar@/^/[ur] \ar@/^/[d] &amp; &amp; \vtx{S_2}  \ar@/^/[ul] \ar@/^/[d] \\  \vtx{S_5}  \ar@/^/[u] \ar@/^/[dr] &amp; &amp; \vtx{S_3}  \ar@/^/[u] \ar@/^/[dl] \\ &amp; \vtx{S_4}  \ar@/^/[ur] \ar@/^/[ul] &amp; }[/tex]</p>
+<p>M-geometry tells us that this clan contains enough information to determine the components of $\mathbf{rep}_n~\Gamma $ that contain simple representations. They correspond to dimension-vectors of this hexagonal quiver, say</p>
+<p>$~(a_1,a_2,a_3,a_4,a_5,a_6) $</p>
+<p>such that $a_i \leq a_{i-1}+a_{i+1} $. Moreover, the component is of maximal dimension if the components $a_i $ are evenly spread over the six vertices.<br />
+This then explains that the codimension sequence we are interested in must satisfy 6-periodicity.</p>
+<p><strong>Reference</strong></p>
+<p>This post corrects the erroneous statement made in <a href="http://www.arxiv.org/abs/math/0610587">math.AG/0610587</a> that the codimension sequence are the dimensions of weight 2n modular forms. The day the paper hit the arXiv I informed the author of the mistakes he made and told him how they could be corrected. Having waited 9 months I&#8217;ve given up hope that a revision/correction is imminent.</p>
+<p><span id="more-22"></span></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hexagonal Moonshine (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 18 Jun 2007 17:15:37 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=15</guid>
+
+					<description><![CDATA[Over at the Arcadian Functor, Kea is continuing her series of blog posts on M-theory (the M is supposed to mean either Monad or Motif).&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Over at the <a href="http://kea-monad.blogspot.com/index.html">Arcadian Functor</a>, Kea is continuing her series of blog posts on M-theory (the M is supposed to mean either Monad or Motif). A recurrent motif in them is the <a href="http://en.wikipedia.org/wiki/Hexagon">hexagon</a> and now I notice hexagons popping up everywhere. I will explain some of these observations here in detail, hoping that someone, more in tune with recent technology, may have a use for them.</p>
+<p>The three string <a href="http://en.wikipedia.org/wiki/Braid_group">braid group</a> $B_3 $ is expected to play a crucial role in understanding <a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a> so we should know more about it, for example about its finite dimensional representations. Now, _M geometry_ is pretty good at classifying finite dimensional representations provided the algebra is &#8220;smooth&#8221; which imples that for every natural number n the variety $\mathbf{rep}_n~A $ of n-dimensional representations of A is a manifold. Unfortunately, the group algebra $A=\mathbb{C} B_3 $ of the three string braid group is singular as we will see in a moment and the hunt for singularities in low dimensional representation varieties will reveal hexagons.</p>
+<p><span id="more-15"></span></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/emilartin.jpg" style="float:left;margin-right:10px;" hspace=20 /> <a href="http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Artin.html">Emil Artin&#8217;s</a> three string braid group has two generators $\sigma_1 $ and $\sigma_2 $ (corresponding to one crossing of the first (resp. last) two strings) and one defining equation</p>
+<p>$\sigma_1 \sigma_2 \sigma_1 = \sigma_2 \sigma_1 \sigma_2 $</p>
+<p>To make the connection with the modular group, it is better to change the generators to $u = \sigma_1 \sigma_2 \sigma_1 $ and $v = \sigma_1 \sigma_2 $ in which case the defining equation becomes $u^2 = v^3 $. Therefore, the variety of all n-dimensional representations of $B_3 $ consists of all pairs of invertible n by n matrices</p>
+<p>$~(A,B) \in GL_n(\mathbb{C}) \times GL_n(\mathbb{C})~:~A^2 = B^3 $</p>
+<p>which is pretty horrible to work out except for small values of n. For example, when n=1 we get the plane cusp curve $a^2=b^3 $ and while this curve has a unique singular point at (0,0), this point does not correspond to a one-dimensional representation of $B_3 $. Hence, $\mathbf{rep}_1~B_3 $ is the Riemann sphere minus two points $&#123; 0,\infty &#125; $ and is therefore a manifold. In M-geometry we are not just interested in these representations as points but also in the different ways in which these points can &#8216;talk to each other&#8217;, or more technical, whether these representations can have non-trivial extensions. Recall that an <strong>extension</strong> of a representation S by a representation S&#8217; is a representation M having S&#8217; as a subrepresentation with quotient-representation S, the trivial extension is the one corresponding to the obvious choice of taking the direct sum of both representations.</p>
+<p>Let us work out these extensions for $S=(a,b) $ and $S&#8217;=(a&#8217;,b&#8217;) $ both one-dimensional representations of $B_3 $. An extension of S by S&#8217; must be two-dimensional and is represented by 2&#215;2 matrices of the form</p>
+<p>$A = \begin{bmatrix} a &amp; \alpha \\\ 0 &amp; a&#8217; \end{bmatrix}~\quad \text{and} \quad~B=\begin{bmatrix} b &amp; \beta \\\ 0 &amp; b&#8217; \end{bmatrix} $</p>
+<p>with $\alpha,\beta \in \mathbb{C} $. Working out the condition that $A^2=B^3 $ leads to the set of equation (using the fact that $a^2=b^3 $ and $~(a&#8217;)^2=(b&#8217;)^3 $</p>
+<p>$ \alpha (a + a&#8217;) =  \beta (b^2+bb&#8217;+(b&#8217;)^2) $</p>
+<p>This leads to one linear relation between $\alpha $ and $\beta $ unless both coefficients are zero. Further, we have to determine when an extension determined by $~(\alpha,\beta) $ is trivial, that is, isomorphic to $S \oplus S&#8217; $. This translates into matrix-terms to the condition whether $~(A,B) = (L_{\lambda}A_0L_{\lambda}^{-1},L_{\lambda}B_0L_{\lambda}^{-1}) $ for the matrices</p>
+<p>$A_0 = \begin{bmatrix} a &amp; 0 \\\ 0 &amp; a&#8217; \end{bmatrix},~\quad B=\begin{bmatrix} b &amp; 0 \\\ 0 &amp; b&#8217; \end{bmatrix}~\quad \text{and} \quad L_{\lambda} = \begin{bmatrix} 1 &amp; \lambda \\\ 0 &amp; 1 \end{bmatrix} $</p>
+<p>for some $\lambda \in \mathbb{C} $. This leads to the additional equations $\alpha = \lambda(a&#8217;-a) $ and $\beta = \lambda(b&#8217;-b) $.</p>
+<p>Summarizing we have that there are NO extensions of S by S&#8217; unless either S=S&#8217; (in which case the isomorphism condition gives no extra condition and hence there is a one-dimensional family of self-extensions of S by itself for every S) or $S \not= S&#8217; $ and the two coefficients of the linear relation between $\alpha $ and $\beta $ are both zero (in which case there is again a one-dimensional family of extensions of S by S&#8217;). The condition on S and S&#8217; for both coefficients to vanish is that</p>
+<p>$a&#8217;=-a $ and either $b&#8217;=\zeta b $ or $b&#8217; = \zeta^2 b $</p>
+<p>for $\zeta $ a third root of unity. Therefore, each one-dimensional $B_3 $-representation $S_1=(a,b) $ (a point on the Riemann sphere minus $0,\infty $) belongs to a unique clan of six one-dimensional representations, having as the other members the representations</p>
+<p>$S_2 = (-a,\zeta b),~S_3=(a,\zeta^2 b),~S_4=(-a,b),~S_5=(a,\zeta b),~S_6=(-a,\zeta^2 b) $</p>
+<p>Different clans don&#8217;t talk to each other and within a clan the lines of communication (the spaces of extensions) can be depicted by the following hexagonal quiver</p>
+<p>[tex]\xymatrix{&amp; \vtx{S_1} \ar@(ul,ur) \ar@/^/[dl] \ar@/^/[dr] &amp; \\\ \vtx{S_6} \ar@(dl,ul) \ar@/^/[ur] \ar@/^/[d] &amp; &amp; \vtx{S_2} \ar@(ur,dr) \ar@/^/[ul] \ar@/^/[d] \\\  \vtx{S_5} \ar@(dl,ul) \ar@/^/[u] \ar@/^/[dr] &amp; &amp; \vtx{S_3} \ar@(ur,dr) \ar@/^/[u] \ar@/^/[dl] \\\ &amp; \vtx{S_4} \ar@(dr,dl) \ar@/^/[ur] \ar@/^/[ul] &amp; }[/tex]</p>
+<p>Having fully analyzed the one-dimensional situation, let&#8217;s turn to $\mathbf{rep}_2~B_3 $ and see that it has singularities and hence that $B_3 $ is not smooth in M-geometry. The three string braid group has a 2-parameter family of simple 2-dimensional representation, whence the component of the representation variety $\mathbf{rep}_2~B_3 $ containing the simples is 5-dimensional. Hence, if this component would be a manifold, the tangent space in every point should be of dimension 5. If M is a semi-simple n-dimensional representation, then the tangent space in M to $\mathbf{rep}_n~B_3 $ is known to be of dimension $n^2 &#8211; dim~Aut(M) + dim~Ext(M,M) $ where $Ext(M,M) $ is the space of self-extensions and $Aut(M) $ is the automorphism group of M.</p>
+<p>Apply this to a semi-simple 2-dimenional representation $M=S \oplus S&#8217; $ where S and S&#8217; determine an edge of an hexagon in a clan. Then,</p>
+<p>$Ext(M,M) = Ext(S,S) \oplus Ext(S,S&#8217;) \oplus Ext(S&#8217;,S) \oplus Ext(S&#8217;,S&#8217;) $</p>
+<p>which by the above calculations is a 4-dimensional space. Further, S being non-isomorphic to S&#8217; it follows from Schur&#8217;s lemma that the automorphism group of M is two-dimensional, totting up to a 6-dimensional tangent space&#8230; so M must be a singularity!</p>
+<p>In fact, one can show that the points in the irreducible component of two-dimensional $B_3 $ representations containing the simples are singular if and only if the representation is semi-simple $M = S \oplus S&#8217; $ with the components either <strong>a vertex of a hexagon (that is S=S&#8217;) or an edge of an hexagon</strong>. In this way, the strange hexagonal clans of one-dimensional braid-representations are the source of singularities for $B_3 $.</p>
+<p>In _another post_ we will see that the hexagonal pattern also pops up in studying representations of the modular group $PSL_2(\mathbb{Z}) $ and the extended modular group $PGL_2(\mathbb{Z}) $. The latter case is pretty interesting as we will encounter a Moebius band made of two hexagons&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

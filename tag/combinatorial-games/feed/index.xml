@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>combinatorial games &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/combinatorial-games/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 10 Jan 2018 12:16:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Chomp and the moonshine thread</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/chomp-and-the-moonshine-thread/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/chomp-and-the-moonshine-thread/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 10 Jan 2018 12:16:41 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Chomp]]></category>
+		<category><![CDATA[combinatorial games]]></category>
+		<category><![CDATA[Graphviz]]></category>
+		<category><![CDATA[Sage]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7610</guid>
+
+					<description><![CDATA[Chomp is a 2-player game, usually played with chocolate bars. The players take turns in choosing one chocolate block and &#8220;eat it&#8221;, together with all&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Chomp">Chomp</a> is a 2-player game, usually played with chocolate bars.</p>
+<p>The players take turns in choosing one chocolate block and &#8220;eat it&#8221;, together with all other blocks that are below it and to its right. There is a catch: the top left block contains poison, so the first player forced to eat it dies, that is, looses the game.</p>
+<p>If you start with a rectangular bar, the first player has a winning strategy, though it may take you too long to actually find the correct first move. See <a href="https://lievenlebruyn.github.io/neverendingbooks/from-chocolate-bars-to-constructivism">this post</a> for the strategy-stealing argument.</p>
+<p>If you label the blocks of the rectangular bar by $(a,b)$ with $0 \leq a \leq k$ and $0 \leq b \leq l$, with the poisonous one being $(0,0)$, then this can be viewed as choosing a divisor $d$ of $N=p^k q^l$ and removing all multiples of $d$ from the set of divisors of $N$. The first person forced to name $1$ looses.</p>
+<p>This allows for higher dimensional versions of Chomp.</p>
+<p>If you start with the set of all divisors of a given natural number $N$, then the strategy-stealing argument shows that the first player has a winning move.</p>
+<p>A general position of the game corresponds to a finite set of integers, closed under taking divisors. At each move the player has to choose an element of this set and remove it as well as all its multiples.</p>
+<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that">thread</a> of $(N|1)$, relevant in understanding a moonshine group of the form $(n|m)+e,f,\dots$ with $N=n \times h$, consists of all divisors of $N$.</p>
+<p>But then, the union of all threads for all <a href="https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups">171 moonshine groups</a> is a position in higher dimensional Chomp.</p>
+<p><strong>Who wins starting from this moonshine thread?</strong></p>
+<p>Perhaps not terribly important, but it forces one to imagine the subgraph of the <a href="">monstrous moonshine picture</a> on the $97$ number-lattices way better than by its Hasse diagram.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/chomp.png"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/chomp.png" width=100%></a></p>
+<p>Click on the image for a larger version.</p>
+<p>By the way, notice the (slight) resemblance with the &#8216;monstrous moonshine painting&#8217; by Atria</p>
+<p><img decoding="async" src="https://i.pinimg.com/originals/c9/32/8d/c9328df1c46c24b87cf8495330dd2d94.jpg"></p>
+<p>Here&#8217;s how the Hasse diagram of the moonshine thread was produced. These are &#8216;notes to self&#8217;, because I tend to forget such things quickly.</p>
+<p>1. Work though the list of 171 moonshine groups in <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.3704&#038;rep=rep1&#038;type=pdf">Monstrous Moonshine</a>, pages 327-329. Add to a list all divisors of $N$ for a group of type $N+e,f,\dots$ or $n|h+e,f,\dots$ with $N=n \times h$. This should give you these $97$ integers:</p>
+<p>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,<br />
+31,32,33,34,35,36,38,39,40,41,42,44,45,46,47,48,50,51,52,54,55,56,57,59,60,62,<br />
+63,64,66,68,69,70,71,72,78,80,84,87,88,90,92,93,94,95,96,104,105,110,112,117,<br />
+119,120,126,136,144,160,168,171,176,180,208,224,252,279,288,360,416</p>
+<p>2. Let $L$ be this list and use <a href="http://www.sagemath.org/">Sage</a>:</p>
+<p><code>P=Poset((L,attrcall("divides")),linear_extension=True)<br />
+H=P.hasse_diagram()<br />
+H.graphviz_string()<br />
+</code></p>
+<p>3. Copy the output to a file, say <em>chomp.dot</em>, and remove all new-line breaks from it.</p>
+<p>4. Install <a href="http://macappstore.org/graphviz-2/">Graphviz on Mac OS X</a>.</p>
+<p>5. In Terminal, type<br />
+<code>dot -Tpng chomp.dot -o chomp.png</code></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/chomp-and-the-moonshine-thread/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

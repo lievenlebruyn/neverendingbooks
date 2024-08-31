@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Harris &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/harris/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 02 Mar 2021 17:50:18 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Borcherds&#8217; favourite numbers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 02 Mar 2021 17:50:18 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Bruhat]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[de Jonquiere]]></category>
+		<category><![CDATA[Eisenbud]]></category>
+		<category><![CDATA[Fischer]]></category>
+		<category><![CDATA[Frenkel]]></category>
+		<category><![CDATA[Griess]]></category>
+		<category><![CDATA[Hardy]]></category>
+		<category><![CDATA[Harris]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Lepowski]]></category>
+		<category><![CDATA[Lie]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[McKay]]></category>
+		<category><![CDATA[Meurman]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[Ono]]></category>
+		<category><![CDATA[Ramanujan]]></category>
+		<category><![CDATA[Steiner]]></category>
+		<category><![CDATA[Stillwell]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8990</guid>
+
+					<description><![CDATA[Whenever I visit someone&#8217;s YouTube or Twitter profile page, I hope to see an interesting banner image. Here&#8217;s the one from Richard Borcherds&#8217; YouTube Channel.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Whenever I visit someone&#8217;s YouTube or Twitter profile page, I hope to see an interesting banner image. Here&#8217;s the one from <a href="https://www.youtube.com/channel/UCIyDqfi_cbkp-RU20aBF-MQ">Richard Borcherds&#8217; YouTube Channel</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BorcherdsNumbers.jpg" width=100% ></p>
+<p>Not too surprisingly for Borcherds, almost all of these numbers are related to the <a href="https://en.wikipedia.org/wiki/Monster_group">monster group</a> or its <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">moonshine</a>.</p>
+<p>Let&#8217;s try to decode them, in no particular order.</p>
+<p><strong>196884</strong></p>
+<p><a href="https://en.wikipedia.org/wiki/John_McKay_(mathematician)">John McKay&#8217;s</a> observation $196884 = 1 + 196883$ was the start of the whole &#8216;monstrous moonshine&#8217; industry. Here, $1$ and $196883$ are the dimensions of the two smallest irreducible representations of the monster simple group, and $196884$ is the first non-trivial coefficient in <a href="https://en.wikipedia.org/wiki/J-invariant">Klein&#8217;s j-function</a> in number theory.</p>
+<p>$196884$ is also the dimension of the space in which <a href="https://en.wikipedia.org/wiki/Robert_Griess">Robert Griess</a> constructed the Monster, following <a href="https://en.wikipedia.org/wiki/Simon_P._Norton">Simon Norton&#8217;s</a> lead that there should be an algebra structure on the monster-representation of that dimension. This algebra is now known as the <a href="https://en.wikipedia.org/wiki/Griess_algebra">Griess algebra</a>.</p>
+<p>Here&#8217;s a recent talk by Griess <a href="https://www.youtube.com/watch?v=Zynb7VKRr-U">&#8220;My life and times with the sporadic simple groups&#8221;</a> in which he tells about his construction of the monster (relevant part starting at 1:15:53 into the movie).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Zynb7VKRr-U?start=4553" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>1729</strong></p>
+<p>1729 is the second (and most famous) <a href="https://en.wikipedia.org/wiki/Taxicab_number">taxicab number</a>. A long time ago I did write a post about the classic Ramanujan-Hardy story <a href="https://en.wikipedia.org/wiki/Ken_Ono">the taxicab curve</a> (note to self: try to tidy up the layout of some old posts!).</p>
+<p>Recently, connections between Ramanujan&#8217;s observation and K3-surfaces were discovered. Emory University has an enticing press release about this: <a href="http://esciencecommons.blogspot.com/2015/10/mathematicians-find-magic-key-to-drive.html">Mathematicians find &#8216;magic key&#8217; to drive Ramanujan&#8217;s taxi-cab number</a>. The paper itself is <a href="https://arxiv.org/abs/1510.00735">here</a>.</p>
+<blockquote><p>“We’ve found that Ramanujan actually discovered a K3 surface more than 30 years before others started studying K3 surfaces and they were even named. It turns out that Ramanujan’s work anticipated deep structures that have become fundamental objects in arithmetic geometry, number theory and physics.&#8221;</p>
+<p><a href="https://en.wikipedia.org/wiki/Ken_Ono">Ken Ono</a></p></blockquote>
+<p><strong>24</strong></p>
+<p>There&#8217;s no other number like $24$ responsible for the existence of sporadic simple groups.</p>
+<p>24 is the length of the <a href="https://en.wikipedia.org/wiki/Binary_Golay_code#:~:text=In%20mathematics%20and%20electronics%20engineering,finite%20sporadic%20groups%20in%20mathematics.">binary Golay code</a>, with isomorphism group the sporadic <a href="https://en.wikipedia.org/wiki/Mathieu_group">Mathieu group</a> $M_24$ and hence all of the other Mathieu-groups as subgroups.</p>
+<p>24 is the dimension of the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a>, with isomorphism group the Conway group $Co_0 = .0$ (dotto), giving us modulo its center the sporadic group $Co_1=.1$ and the other <a href="https://en.wikipedia.org/wiki/Conway_group">Conway groups</a> $Co_2=.2, Co_3=.3$, and all other sporadics of the second generation in the <a href="https://en.wikipedia.org/wiki/Pariah_group">happy family</a> as subquotients (McL,HS,Suz and $HJ=J_2$)</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/SporadicGroups.svg/680px-SporadicGroups.svg.png" width=60% ><br />
+</center></p>
+<p>24 is the central charge of the <a href="https://en.wikipedia.org/wiki/Monster_vertex_algebra">Monster vertex algebra</a> constructed by Frenkel, Lepowski and Meurman. Most experts believe that the Monster&#8217;s reason of existence is that it is the symmetry group of this vertex algebra. John Conway was one among few others hoping for a nicer explanation, as he said in this <a href="https://www.youtube.com/watch?v=lbN8EMcOH5o">interview with Alex Ryba</a>.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/lbN8EMcOH5o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>24 is also an important number in <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a>, see for example the post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24">the defining property of 24</a>. There&#8217;s a lot more to say on this, but I&#8217;ll save it for another day.</p>
+<p><strong>60</strong></p>
+<p>60 is, of course, the order of the smallest non-Abelian simple group, $A_5$, the rotation symmetry group of the icosahedron. $A_5$ is the symmetry group of choice for most viruses <a href="https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19">but not the Corona-virus</a>.</p>
+<p><strong>3264</strong></p>
+<p>3264 is the correct solution to <a href="https://en.wikipedia.org/wiki/Steiner%27s_conic_problem">Steiner&#8217;s conic problem</a> asking for the number of conics in $\mathbb{P}^2_{\mathbb{C}}$ tangent to five given conics in general position.</p>
+<p><center><br />
+<img decoding="async" src="https://www.juliahomotopycontinuation.org/images/given_conics_example.png" width=60% ><br />
+</center></p>
+<p>Steiner himself claimed that there were $7776=6^5$ such conics, but realised later that he was wrong. The correct number was first given by <a href="https://en.wikipedia.org/wiki/Ernest_de_Jonqui%C3%A8res">Ernest de Jonquières</a> in 1859, but a rigorous proof had to await the advent of modern intersection theory.</p>
+<p>Eisenbud and Harris wrote a book on intersection theory in algebraic geometry, freely available online: <a href="https://scholar.harvard.edu/files/joeharris/files/000-final-3264.pdf">3264 and all that</a>.</p>
+<p><strong>248</strong></p>
+<p>248 is the dimension of the exceptional simple Lie group <a href="https://en.wikipedia.org/wiki/E8_(mathematics)">$E_8$</a>. $E_8$ is also connected to the monster group.</p>
+<p>If you take two Fischer involutions in the monster (elements of conjugacy class 2A) and multiply them, the resulting element surprisingly belongs to one of just 9 conjugacy classes:</p>
+<p>1A,2A,2B,3A,3C,4A,4B,5A or 6A</p>
+<p>The orders of these elements are exactly the dimensions of the fundamental root for the extended $E_8$ Dynkin diagram.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/e8monster.png"></p>
+<p>This is yet another moonshine observation by John McKay and I wrote a couple of posts about it and about Duncan&#8217;s solution: <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">the monster graph and McKay&#8217;s observation</a>, and <a href="https://lievenlebruyn.github.io/neverendingbooks/e8-from-moonshine-groups">$E_8$ from moonshine groups</a>.</p>
+<p><strong>163</strong></p>
+<p>163 is a remarkable number because of the &#8216;modular miracle&#8217;<br />
+\[<br />
+e^{\pi \sqrt{163}} = 262537412640768743.99999999999925&#8230; \]<br />
+This is somewhat related to moonshine, or at least to Klein&#8217;s j-function, which by a result of Kronecker&#8217;s detects the classnumber of imaginary quadratic fields $\mathbb{Q}(\sqrt{-D})$ and produces integers if the classnumber is one (as is the case for $\mathbb{Q}(\sqrt{-163})$).</p>
+<p>The details are in the post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-modular-miracle-of-163">the miracle of 163</a>, or in the paper by John Stillwell, <a href="https://www.jstor.org/stable/2695682?seq=1#metadata_info_tab_contents">Modular Miracles</a>, The American Mathematical Monthly, 108 (2001) 70-76.</p>
+<p>Richard Borcherds, the math-vlogger, has an entertaining video about this story: <a href="https://www.youtube.com/watch?v=a9k_QmZbwX8">MegaFavNumbers 262537412680768000</a></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/a9k_QmZbwX8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>His description of the $j$-function (at 4:13 in the movie) is simply hilarious!</p>
+<p>Borcherds connects $163$ to the monster moonshine via the $j$-function, but there&#8217;s another one.</p>
+<p>The monster group has $194$ conjugacy classes and monstrous moonshine assigns a &#8216;moonshine function&#8217; to each conjugacy class (the $j$-function is assigned to the identity element). However, these $194$ functions are not linearly independent and the space spanned by them has dimension exactly $163$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/borcherds-favourite-numbers/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

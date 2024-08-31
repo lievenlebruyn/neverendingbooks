@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Procesi &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/procesi/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 14 Jan 2008 12:47:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Quiver-superpotentials</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 14 Jan 2008 12:47:27 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/quiver-superpotentials.html</guid>
+
+					<description><![CDATA[It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by the conjugacy class of a cofinite subgroup $\Lambda \subset \Gamma $, or equivalently, to a dessin d&#8217;enfant. We have introduced a <strong>quiver</strong> (aka an oriented graph) which comes from a triangulation of the compactification of $\mathbb{H} / \Lambda $ where $\mathbb{H} $ is the hyperbolic upper half-plane. This quiver is independent of the chosen embedding of the dessin in the Dedeking tessellation. (For more on these terms and constructions, please consult the series <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-dedekind-tessellation.html">Modular subgroups</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monsieur-mathieu.html">Dessins d&#8217;enfants</a>).</p>
+<p>Why are quivers useful? To start, any quiver $Q $ defines a noncommutative algebra, the <strong>path algebra</strong> $\mathbb{C} Q $, which has as a $\mathbb{C} $-basis all oriented paths in the quiver and multiplication is induced by concatenation of paths (when possible, or zero otherwise). Usually, it is quite hard to make actual computations in noncommutative algebras, but in the case of path algebras you can just <strong>see</strong> what happens.</p>
+<p>Moreover, we can also <strong>see</strong> the finite dimensional representations of this algebra $\mathbb{C} Q $. Up to isomorphism they are all of the following form : at each vertex $v_i $ of the quiver one places a finite dimensional vectorspace $\mathbb{C}^{d_i} $ and any arrow in the quiver<br />
+[tex]\xymatrix{\vtx{v_i} \ar[r]^a &amp; \vtx{v_j}}[/tex] determines a linear map between these vertex spaces, that is, to $a $ corresponds a matrix in $M_{d_j \times d_i}(\mathbb{C}) $. These matrices determine how the paths of length one act on the representation, longer paths act via multiplcation of matrices along the oriented path.</p>
+<p>A <strong>necklace</strong> in the quiver is a closed oriented path in the quiver <strong>up to cyclic permutation</strong> of the arrows making up the cycle. That is, we are free to choose the start (and end) point of the cycle. For example, in the one-cycle quiver</p>
+<p>[tex]\xymatrix{\vtx{} \ar[rr]^a &amp; &amp; \vtx{} \ar[ld]^b \\ &amp; \vtx{} \ar[lu]^c &amp;}[/tex]</p>
+<p>the basic necklace can be represented as $abc $ or $bca $ or $cab $. How does a necklace act on a representation? Well, the matrix-multiplication of the matrices corresponding to the arrows gives a square matrix in each of the vertices in the cycle. Though the dimensions of this matrix may vary from vertex to vertex, what does not change (and hence is a property of the necklace rather than of the particular choice of cycle) is the <strong>trace</strong> of this matrix. That is, necklaces give complex-valued functions on representations of $\mathbb{C} Q $ and by a result of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/m-geometry-3.html">Artin and Procesi</a> there are enough of them to distinguish isoclasses of (semi)simple representations! That is, linear combinations a necklaces (aka <strong>super-potentials</strong>) can be viewed, after taking traces, as complex-valued functions on all representations (similar to character-functions).</p>
+<p>In physics, one views these functions as potentials and it then interested in the points (representations) where this function is extremal (minimal) : the <strong>vacua</strong>. Clearly, this does not make much sense in the complex-case but is relevant when we look at the real-case (where we look at skew-Hermitian matrices rather than all matrices). A motivating example (the <strong>Yang-Mills potential</strong>) is given in Example 2.3.2 of Victor Ginzburg&#8217;s paper <a href="http://arxiv.org/abs/math/0612139">Calabi-Yau algebras</a>.</p>
+<p>Let $\Phi $ be a super-potential (again, a linear combination of necklaces) then our commutative intuition tells us that extrema correspond to zeroes of all partial differentials $\frac{\partial \Phi}{\partial a} $ where $a $ runs over all coordinates (in our case, the arrows of the quiver). One can make sense of differentials of necklaces (and super-potentials) as follows : the partial differential with respect to an arrow $a $ occurring in a term of $\Phi $ is defined to be the <strong>path</strong> in the quiver one obtains by removing all 1-occurrences of $a $ in the necklaces (defining $\Phi $) and rearranging terms to get a maximal broken necklace (using the cyclic property of necklaces). An example, for the cyclic quiver above let us take as super-potential $abcabc $ (2 cyclic turns), then for example</p>
+<p>$\frac{\partial \Phi}{\partial b} = cabca+cabca = 2 cabca $</p>
+<p>(the first term corresponds to the first occurrence of $b $, the second to the second). Okay, but then the vacua-representations will be the representations of the quotient-algebra (which I like to call the <strong>vacualgebra</strong>)</p>
+<p>$\mathcal{U}(Q,\Phi) = \frac{\mathbb{C} Q}{(\partial \Phi/\partial a, \forall a)} $</p>
+<p>which in &#8216;physical relevant settings&#8217; (whatever that means&#8230;) turn out to be <strong>Calabi-Yau algebras</strong>.</p>
+<p>But, let us return to the case of subgroups of the modular group and their quivers. Do we have a natural <strong>super-potential</strong> in this case? Well yes, the quiver encoded a triangulation of the compactification of $\mathbb{H}/\Lambda $ and if we choose an orientation it turns out that all &#8216;black&#8217; triangles (with respect to the Dedekind tessellation) have their arrow-sides defining a necklace, whereas for the &#8216;white&#8217; triangles the <strong>reverse</strong> orientation makes the arrow-sides into a necklace. Hence, it makes sense to look at the <strong>cubic</strong> superpotential $\Phi $ being the sum over all triangle-sides-necklaces with a +1-coefficient for the black triangles and a -1-coefficient for the white ones. Let&#8217;s consider an index three example from a previous post</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver3.jpg" style="float:left;margin-right:10px;" ><br />
+[tex]\xymatrix{&amp; &amp; \rho \ar[lld]_d \ar[ld]^f \ar[rd]^e &amp; \\<br />
+i \ar[rrd]_a &amp; i+1 \ar[rd]^b &amp; &amp; \omega \ar[ld]^c \\<br />
+&amp; &amp; 0 \ar[uu]^h \ar@/^/[uu]^g \ar@/_/[uu]_i &amp;}[/tex]</p>
+<p>In this case the super-potential coming from the triangulation is</p>
+<p>$\Phi = -aid+agd-cge+che-bhf+bif $</p>
+<p>and therefore we have a noncommutative algebra $\mathcal{U}(Q,\Phi) $ associated to this index 3 subgroup. Contrary to what I believed at the start of this series, the algebras one obtains in this way from dessins d&#8217;enfants are <strong>far from being Calabi-Yau</strong> (in whatever definition). For example, using a GAP-program written by <a href="http://www.win.ua.ac.be/~rbockl/research/">Raf Bocklandt</a> Ive checked that the growth rate of the above algebra is similar to that of $\mathbb{C}[x] $, so in this case $\mathcal{U}(Q,\Phi) $ can be viewed as a noncommutative curve (with singularities).</p>
+<p>However, this is not the case for all such algebras. For example, the vacualgebra associated to the second index three subgroup (whose fundamental domain and quiver were depicted at the end of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-modular-group-and-superpotentials-2.html">this post</a>) has growth rate similar to that of $\mathbb{C} \langle x,y \rangle $&#8230;</p>
+<p>I have an outlandish conjecture about the growth-behavior of all algebras $\mathcal{U}(Q,\Phi) $ coming from dessins d&#8217;enfants : <strong>the algebra sees what the monodromy representation of the dessin sees of the modular group (or of the third braid group)</strong>.<br />
+I can make this more precise, but perhaps it is wiser to calculate one or two further examples&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Anabelian &#038; Noncommutative Geometry 2</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/anabelian-noncommutative-geometry-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/anabelian-noncommutative-geometry-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 19 Dec 2007 20:20:14 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=56</guid>
+
+					<description><![CDATA[Last time (possibly with help from the survival guide) we have seen that the universal map from the modular group $\Gamma = PSL_2(\mathbb{Z}) $ to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=53">Last time</a> (possibly with help from the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=54">survival guide</a>) we have seen that the universal map from the modular group $\Gamma = PSL_2(\mathbb{Z}) $ to its profinite completion $\hat{\Gamma} = \underset{\leftarrow}{lim}~PSL_2(\mathbb{Z})/N $ (limit over all finite index normal subgroups $N $) gives an embedding of the sets of (continuous) simple finite dimensional representations</p>
+<p>$\mathbf{simp}_c~\hat{\Gamma} \subset \mathbf{simp}~\Gamma $</p>
+<p>and based on the example $\mu_{\infty} = \mathbf{simp}_c~\hat{\mathbb{Z}} \subset \mathbf{simp}~\mathbb{Z} = \mathbb{C}^{\ast} $ we would like the above embedding to be dense in some kind of noncommutative analogon of the <a href="http://en.wikipedia.org/wiki/Zariski_topology">Zariski topology</a> on $\mathbf{simp}~\Gamma $.</p>
+<p>We use the Zariski topology on $\mathbf{simp}~\mathbb{C} \Gamma $ as in <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=38">these</a> <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=39">two</a> <strong>M-geometry</strong> posts (( already, I regret terminology, I should have just called it noncommutative geometry )). So, what&#8217;s this idea in this special case? Let $\mathfrak{g} $ be the vectorspace with basis the conjugacy classes of elements of $\Gamma $ (that is, the space of class functions). As explained <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=39">here</a> it is a consequence of the Artin-Procesi theorem that the linear functions $\mathfrak{g}^{\ast} $ separate finite dimensional (semi)simple representations of $\Gamma $. That is we have an embedding</p>
+<p>$\mathbf{simp}~\Gamma \subset \mathfrak{g}^{\ast} $</p>
+<p>and we can define <strong>closed</strong> subsets of $\mathbf{simp}~\Gamma $ as subsets of simple representations on which a set of class-functions vanish. With this definition of Zariski topology it is immediately clear that the image of $\mathbf{simp}_c~\hat{\Gamma} $ is dense. For, suppose it would be contained in a proper closed subset then there would be a class-function vanishing on all simples of $\hat{\Gamma} $ so, in particular, there should be a bound on the number of simples of finite quotients $\Gamma/N $ which clearly is not the case (just look at the quotients $PSL_2(\mathbb{F}_p) $).</p>
+<p>But then, the same holds if we replace &#8216;simples of $\hat{\Gamma} $&#8217; by &#8216;simple components of permutation representations of $\Gamma $&#8217;. This is the importance of <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=21">Farey symbols</a> to the representation problem of the modular group. They give us a manageable subset of simples which is nevertheless dense in the whole space. To utilize this a natural idea might be to ask what such a permutation representation <strong>can see</strong> of the modular group, or in geometric terms, what the <strong>tangent space</strong> is to $\mathbf{simp}~\Gamma $ in a permutation representation (( more precisely, in the &#8216;cluster&#8217; of points making up the simple components of the representation representation )). We will call this the <strong>modular content</strong> of the permutation representation and to understand it we will have to compute the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=37">tangent quiver</a> $\vec{t}~\mathbb{C} \Gamma $.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/anabelian-noncommutative-geometry-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>M-geometry (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 18 Sep 2007 06:56:26 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Azumaya]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=39</guid>
+
+					<description><![CDATA[For any finite dimensional A-representation S we defined before a character $\chi(S) $ which is an linear functional on the noncommutative functions $\mathfrak{g}_A = A/[A,A]_{vect}&#8230;]]></description>
+										<content:encoded><![CDATA[<p>For any finite dimensional A-representation S we <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=38">defined before</a> a <strong>character</strong> $\chi(S) $ which is an linear functional on the <strong>noncommutative functions</strong> $\mathfrak{g}_A = A/[A,A]_{vect} $ and defined via</p>
+<p>$\chi_a(S) = Tr(a | S) $ for all $a \in A $</p>
+<p>We would like to have enough such characters to separate simples, that is we would like to have an embedding</p>
+<p>$\mathbf{simp}~A \hookrightarrow \mathfrak{g}_A^* $</p>
+<p>from the set of all finite dimensional simple A-representations $\mathbf{simp}~A $ into the linear dual of $\mathfrak{g}_A^* $. This is a consequence of the celebrated <strong>Artin-Procesi theorem</strong>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/artin.jpg" style="float:left;margin-right:10px;" hspace=10 /> <a href="http://en.wikipedia.org/wiki/Michael_Artin">Michael Artin</a> was the first person to approach representation theory via algebraic geometry and geometric invariant theory. In his 1969 classical paper &#8220;On Azumaya algebras and finite dimensional representations of rings&#8221; he introduced the affine scheme $\mathbf{rep}_n~A $ of all n-dimensional representations of A on which the group $GL_n $ acts via basechange, the orbits of which are exactly the isomorphism classes of representations. He went on to use the Hilbert criterium in invariant theory to prove that the closed orbits for this action are exactly the isomorphism classes of <strong>semi-simple</strong> -dimensional representations. Invariant theory tells us that there are enough invariant polynomials to separate closed orbits, so we would be done if the caracters would generate the ring of invariant polynmials, a statement first conjectured in this paper.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/procesi.jpg" style="float:right;margin-left:10px;" hspace=10 /> <a href="http://www.mat.uniroma1.it/~procesi/">Claudio Procesi</a> was able to prove this conjecture in his 1976 paper &#8220;The invariant theory of $n \times n $ matrices&#8221; in which he reformulated the fundamental theorems on $GL_n $-invariants to show that the ring of invariant polynomials of m $n \times n $ matrices under simultaneous conjugation is generated by traces of words in the matrices (and even managed to limit the number of letters in the words required to $n^2+1 $). Using the properties of the Reynolds operator in invariant theory it then follows that the same applies to the $GL_n $-action on the representation schemes $\mathbf{rep}_n~A $.</p>
+<p>So, let us reformulate their result a bit. Assume the affine $\mathbb{C} $-algebra A is generated by the elements $a_1,\ldots,a_m $ then we define a <strong>necklace</strong> to be an equivalence class of words in the $a_i $, where two words are equivalent iff they are the same upto <strong>cyclic</strong> permutation of letters. For example $a_1a_2^2a_1a_3 $ and $a_2a_1a_3a_1a_2 $ determine the same necklace. Remark that traces of different words corresponding to the same necklace have the same value and that the noncommutative functions $\mathfrak{g}_A $ are spanned by necklaces.</p>
+<p>The <strong>Artin-Procesi theorem</strong> then asserts that if S and T are non-isomorphic simple A-representations, then $\chi(S) \not= \chi(T) $ as elements of $\mathfrak{g}_A^* $ and even that they differ on a necklace in the generators of A of length at most $n^2+1 $. Phrased differently, the array of characters of simples evaluated at necklaces is a substitute for the clasical character-table in finite group theory.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>THE rationality problem</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-rationality-problem/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-rationality-problem/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 27 Apr 2007 08:27:50 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=300</guid>
+
+					<description><![CDATA[This morning, Esther Beneish arxived the paper The center of the generic algebra of degree p that may contain the most significant advance in my&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/estherbeneish.jpg" align="left" hspace="10" /> This morning, <a href="http://www.cst.cmich.edu/units/mth/gradinfo/Pp/MthBENEISH.html">Esther Beneish</a><br />
+arxived the paper <a href="http://www.arxiv.org/abs/0704.3450">The center of the generic algebra of degree p</a> that may contain the most<br />
+significant advance in my favourite problem for over 15 years! In it she<br />
+claims to prove that the center of the generic division algebra of<br />
+degree p is stably rational for all prime values p.   Let me begin by<br />
+briefly explaining what the problem is all about. Consider one n by n<br />
+matrix A which is sufficiently general, then it will have all its<br />
+eigenvalues distinct, but then it is via the <a href="http://en.wikipedia.org/wiki/Jordan_normal_form">Jordan normal form theorem</a> uniquely<br />
+determined upto conjugation (that is, base change) by its<br />
+<a href="http://en.wikipedia.org/wiki/Characteristic_polynomial">characteristic polynomial</a>. In<br />
+other words, the conjugacy class of a sufficiently general n by n matrix<br />
+depends freely on the coefficients of the characteristic polynomial<br />
+(which are the n elementary symmetric functions in the eigenvalues of<br />
+the matrix).   Now what about <strong>couples</strong> of n by n matrices (A,B) under<br />
+<strong>simultaneous conjugation</strong> (that is all couples of the form $~(g A<br />
+g^{-1}, g B g^{-1}) $ for some invertible n by n matrix g) ??? So,<br />
+does there exist a sort of Jordan normal form for couples of n by n<br />
+matrices which are sufficiently general? That is, are there a set of<br />
+invariants for such couples which determine it is freely upto<br />
+simultaneous conjugation?</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/claudioprocesi.jpg" align="left" hspace="10" /> For couples of 2 by 2 matrices, <a href="http://www.mat.uniroma1.it/~procesi/">Claudio Procesi</a> rediscovered an old<br />
+result due to <a href="http://en.wikipedia.org/wiki/James_Joseph_Sylvester">James Sylvester</a> saying<br />
+that this is indeed the case and that the set of invariants consists of<br />
+the five invariants Tr(A),Tr(B),Det(A),Det(B) and Tr(AB). Now, Claudio<br />
+did a lot more in his paper. He showed that if you could prove this for<br />
+couples of matrices, you can also do it for triples, quadruples even any<br />
+k-tuples of n by n matrices under simultaneous conjugation. He also<br />
+related this problem to the center of the generic division algebra of<br />
+degree n (which was introduced earlier by <a href="http://siba2.unile.it/bib1index/10000814.IDX">Shimshon Amitsur</a> in a rather<br />
+cryptic manner and for a while he simply refused to believe Claudio&#8217;s<br />
+description of this division algebra as the one generated by two<br />
+_generic_ n by n matrices, that is matrices filled with independent<br />
+variables). Claudio also gave the description of the center of this<br />
+algebra as a field of lattice-invariants (over the symmetric group S(n)<br />
+) which was crucial in subsequent investigations. If you are interested<br />
+in the history of this problem, its connections with Brauer group<br />
+problems and invariant theory and a short description of the tricks used<br />
+in proving the results I&#8217;ll mention below, you might have a look at the<br />
+talk <a href="http://www.math.ua.ac.be/~lebruyn/paper/lebruyn1990c_pp.pdf">Centers of Generic Division Algebras, the rationality problem 1965-1990</a><br />
+I gave in Chicago in 1990.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/edformanek.jpg" align="left" hspace="10" /> The case of couples of 3 by 3 matrices was finally<br />
+settled in 1979 by <a href="http://www.chessgames.com/perl/chessplayer?pid=18832">Ed Formanek</a> and a<br />
+year later he was able to solve also the case of couples of 4 by 4<br />
+matrices in a fabulous paper. In it, he used solvability of S(4) in an<br />
+essential way thereby hinting at the possibility that the problem might<br />
+no longer have an affirmative answer for larger values of n. When I read<br />
+his 4&#215;4 paper I believed that someone able to prove such a result must<br />
+have an awesome insight in the inner workings of matrices and decided to<br />
+dedicate myself to this problem the moment I would get a permanent<br />
+job&#8230; . But even then it is a reckless thing to do. Spending all of<br />
+your time to such a difficult problem can be frustrating as there is no<br />
+guarantee you&#8217;ll ever write a paper. Sure, you can find translations of<br />
+the problem and as all good problems it will have connections with other<br />
+subjects such as moduli spaces of vectorbundles and of quiver<br />
+representations, but to do the &#8216;next number&#8217; is another matter.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/christinebessenrodt.jpg" align="left" hspace="10" /> Fortunately, early 1990, together with<br />
+<a href="http://www.iazd.uni-hannover.de/~bessen/">Christine Bessenrodt</a> we were<br />
+able to do the next two &#8216;prime cases&#8217; : couples of 5 by 5 and couples of<br />
+7 by 7 matrices (Katsylo and Aidan Schofield had already proved that if<br />
+you could do it for couples of k by k and l by l matrices and if k and l<br />
+were coprime then you could also do it for couples of kl by kl matrices,<br />
+so the n=6 case was already done). Or did we? Well not quite, our<br />
+methods only allowed us to prove that the center is <strong>stably rational</strong><br />
+that is, it becomes rational by freely adjoining extra variables. There<br />
+are examples known of stably rational fields which are NOT rational, but<br />
+I guess most experts believe that in the case of matrix-invariants<br />
+stable rationality will imply rationality. After this paper both<br />
+Christine and myself decided to do other things as we believed we had<br />
+reached the limits of what the lattice-method could do and we thought a<br />
+new idea was required to go further.  If today&#8217;s paper by Esther turns<br />
+out to be correct, we were wrong. The next couple of days/weeks I&#8217;ll<br />
+have a go at her paper but as my lattice-tricks are pretty rusty this<br />
+may take longer than expected. Still, I see that in a couple of weeks<br />
+there will be a meeting in<br />
+<a href="http://www.mathcs.emory.edu/~skip/conf/Home.html">Atlanta</a> were Esther<br />
+and all experts in the field will be present (among them David Saltman<br />
+and Jean-Louis Colliot-Thelene) so we will know one way or the other<br />
+pretty soon. I sincerely hope Esther&#8217;s proof will stand the test as she<br />
+was the only one courageous enough to devote herself entirely to the<br />
+problem, regardless of slow progress.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-rationality-problem/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Jacobian update</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/jacobian-update/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/jacobian-update/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 13 Nov 2004 18:52:18 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Azumaya]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Jacobian]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=182</guid>
+
+					<description><![CDATA[One way to increase the blogshare-value of this site might be to give readers more of what they want. In fact, there is an excellent&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/crossroads.jpg" alt="" style="float:left;margin-right:10px;" /></p>
+<p>One way to increase the <a href="http://www.blogshares.com/blogs.php?blog=https://lievenlb.local/">blogshare-value</a> of this site might be to<br />
+  give readers more of what they want. In fact, there is an excellent<br />
+  guide for those who really want to increase traffic on their site<br />
+  called <a href="http://www.searchengineworld.com/misc/guide.htm">26<br />
+  Steps to 15k a Day</a>. A somewhat sobering suggestion is rule S :
+  </p>
+<blockquote>
+<p>&#8220;Think about what people want. They<br />
+  aren&#39;t coming to your site to view &#8220;your content&#8221;,<br />
+  they are coming to your site looking for &#8220;their<br />
+  content&#8221;.&#8221;</p>
+</blockquote>
+<p>But how do we know what<br />
+  people want? Well, by paying attention to Google-referrals according<br />
+  to rule U :  </p>
+<blockquote>
+<p>&#8220;The search engines will<br />
+  tell you exactly what they want to be fed &#8211; listen closely, there is<br />
+  gold in referral logs, it&#39;s just a matter of panning for<br />
+  it.&#8221;  </p>
+</blockquote>
+<p>And what do these Google-referrals<br />
+  show over the last couple of days? Well, here are the top recent<br />
+  key-words given to Google to get here :  </p>
+<blockquote>
+<p>13 :<br />
+  carolyn dean jacobian conjecture <br />   11 : carolyn dean jacobian<br />
+  <br />   9 : brauer severi varieties <br />   7 : latexrender <br />
+  7 : brauer severi <br />   7 : spinor bundles <br />   7 : ingalls<br />
+  azumaya <br />   6 : [Unparseable or potentially dangerous latex<br />
+  formula Error 6 ] <br />   6 : jacobian conjecture carolyn dean  </p>
+</blockquote>
+<p>See a pattern? People love to hear right now about<br />
+  the solution of the Jacobian conjecture in the plane by Carolyn Dean.<br />
+  Fortunately, there are a couple of things more I can say about this<br />
+  and it may take a while before you know why there is a photo of Tracy<br />
+  Chapman next to this post&#8230;  </p>
+<p>First, it seems I only got<br />
+  part of the <a href="http://groups.google.com/groups?dq=&amp;hl=en&amp;lr=&amp;group=sci.math.research&amp;selm=d29cmre258j5%40legacy">Melvin Hochster<br />
+  email</a>. Here is the final part I was unaware of (thanks to <a href="http://www.math.columbia.edu/~woit/blog/">not even wrong</a>)
+  </p>
+<blockquote>
+<p>Earlier papers established the following: if<br />
+  there is <br />   a counterexample, the leading forms of $f$ and $g$<br />
+  may <br />   be assumed to have the form $(x^a y^b)^J$ and $(x^a<br />
+  y^b)^K$, <br />   where $a$ and $b$ are relatively prime and neither<br />
+  $J$ <br />   nor $K$ divides the other (Abhyankar, 1977). It is known<br />
+  that <br />   $a$ and $b$ cannot both be $1$ (Lang, 1991) and that one<br />
+  may <br />   assume that $C[f,g]$ does not contain a degree one<br />
+  polynomial <br />   in $x, y$ (Formanek, 1994).  </p>
+</blockquote>
+<p>Let $D_x$ and $D_y$ indicate partial differentiation with respect<br />
+  <br /> to $x$ and $y$, respectively. A difficult result of Bass (1989)<br />
+  <br /> asserts that if $D$ is a non-zero operator that is a polynomial<br />
+  <br /> over $C$ in $x D_x$ and $y D_y$, $G$ is in $C[x,y]$ and $D(G)$<br />
+  <br /> is in $C[f,g]$, then $G$ is in $C[f,g]$.  </p>
+<p>The proof<br />
+  proceeds by starting with $f$ and $g$ that give <br /> a<br />
+  counterexample, and recursively constructing sequences of <br />
+  elements and derivations with remarkable, intricate and <br />
+  surprising relationships. Ultimately, a contradiction is <br />
+  obtained by studying a sequence of positive integers associated <br />
+  with the degrees of the elements constructed. One delicate <br />
+  argument shows that the sequence is bounded. Another delicate <br />
+  argument shows that it is not. Assuming the results described <br />
+  above, the proof, while complicated, is remarkably self-contained <br
+  /> and can be understood with minimal background in algebra.  </p>
+<ul>
+<li>Mel Hochster</li>
+</ul>
+<p>Speaking about the Jacobian<br />
+  conjecture-post at <a href="http://www.math.columbia.edu/~woit/blog/">not even wrong</a> and<br />
+  the discussion in the comments to it : there were a few instances I<br />
+  really wanted to join in but I&#39;ll do it here. To begin, I was a<br />
+  bit surprised of the implicit attack in the post  </p>
+<blockquote>
+<p>Dean hasn&#39;t published any papers in almost 15 years and is<br />
+  nominally a lecturer in mathematics education at Michigan.</p>
+</blockquote>
+<p>But this was immediately addressed and retracted in<br />
+  the comments :  </p>
+<blockquote>
+<p>Just curious. What exactly did<br />
+  you mean by &#8220;nominally a lecturer&#8221;? <br />   Posted by mm<br />
+  at November 10, 2004 10:54 PM  </p>
+</blockquote>
+<p>I don&#39;t know<br />
+  anything about Carolyn Dean personally, just that one place on the<br />
+  Michigan web-site refers to her as a &#8220;lecturer&#8221;, another<br />
+  as a &#8220;visiting lecturer&#8221;. As I&#39;m quite well aware from<br />
+  personal experience, these kinds of titles can refer to all sorts of<br />
+  different kinds of actual positions. So the title doesn&#39;t tell you<br />
+  much, which is what I was awkwardly expressing. <br /> Posted by Peter<br />
+  at November 10, 2004 11:05 PM  </p>
+<p>Well, I know a few things<br />
+  about Carolyn Dean personally, the most relevant being that she is a<br />
+  very careful mathematician. I met her a while back (fall of 1985) at<br />
+  UCSD where she was finishing (or had finished) her Ph.D. If Lance<br />
+  Small&#39;s description of me would have been more reassuring, we<br />
+  might even have ended up sharing an apartment (quod non). Instead I<br />
+  ended up with <a href="http://venere.mat.uniroma1.it/people/procesi/">Claudio<br />
+  Procesi</a>&#8230; Anyway, it was a very enjoyable month with a group<br />
+  of young starting mathematicians and I fondly remember some<br />
+  dinner-parties we organized. The last news I heard about Carolyn was<br />
+  10 to 15 years ago in Oberwolfach when it was rumoured that she had<br />
+  solved the Jacobian conjecture in the plane&#8230; As far as I recall,<br />
+  the method sketched by Hochster in his email was also the one back<br />
+  then. Unfortunately, at the time she still didn&#39;t have all pieces<br />
+  in place and a gap was found (was it by Toby Stafford? or was it<br />
+  Hochster?, I forgot). Anyway, she promptly acknowledged that there was<br />
+  a gap. <br /> At the time I was dubious about the approach (mostly<br />
+  because I was secretly trying to solve it myself) but today my gut<br />
+  feeling is that she really did solve it. In recent years there have<br />
+  been significant advances in polynomial automorphisms (in particular<br />
+  the tame-wild problem) and in the study of the Hilbert scheme of<br />
+  points in the plane (which I always thought might lead to a proof) so<br />
+  perhaps some of these recent results did give Carolyn clues to finish<br />
+  off her old approach? I haven&#39;t seen one letter of the proof so<br />
+  I&#39;m merely speculating here. Anyway, Hochster&#39;s assurance that<br />
+  the proof is correct is good enough for me right now. <br /> Another<br />
+  discussion in the NotEvenWrong-comments was on the issue that several<br />
+  old problems were recently solved by people who devoted themselves for<br />
+  several years solely to that problem and didn&#39;t join the parade of<br />
+  dedicated follower of fashion-mathematicians.  </p>
+<blockquote>
+<p>It is remarkable that the last decade has seen great progress in<br />
+  math (Wiles proving Fermat&#39;s Last Theorem, Perelman proving the<br />
+  Poincare Conjecture, now Dean the Jacobian Conjecture), all achieved<br />
+  by people willing to spend 7 years or more focusing on a single<br />
+  problem. That&#39;s not the way academic research is generally<br />
+  structured, if you want grants, etc. you should be working on much<br />
+  shorter term projects. It&#39;s also remarkable that two out of three<br />
+  of these people didn&#39;t have a regular tenured position.  </p>
+</blockquote>
+<p>I think particle theory should learn from this. If<br />
+  some of the smarter people in the field would actually spend 7 years<br />
+  concentrating on one problem, the field might actually go somewhere<br />
+  instead of being dead in the water <br /> Posted by Peter at November<br />
+  13, 2004 08:56 AM</p>
+<p>Here we come close to a major problem of<br />
+  today&#39;s mathematics. I have the feeling that far too few<br />
+  mathematicians dedicate themselves to problems in which they have a<br />
+  personal interest, independent of what the rest of the world might<br />
+  think about these problems. Far too many resort to doing trendy,<br />
+  technical mathematics merely because it is approved by so called<br />
+  &#39;better&#39; mathematicians. Mind you, I admit that I did fall in<br />
+  that trap myself several times but lately I feel quite relieved to be<br />
+  doing just the things I like to do no matter what the rest may think<br />
+  about it. Here is a little bit of advice to some colleagues : get<br />
+  yourself an <a href="http://www.apple.com/ipod/">iPod</a> and take<br />
+  some time to listen to songs like this one :  </p>
+<blockquote>
+<p>Don&#39;t be tempted by the shiny apple <br />   Don&#39;t you eat<br />
+  of a bitter fruit <br />   Hunger only for a taste of justice <br />
+  Hunger only for a world of truth <br />   &#39;Cause all that you have<br />
+  is your soul  </p>
+</blockquote>
+<p>from Tracy Chapman&#39;s <a href="http://www.lyricscafe.com/c/chapman_tracy/crossroads_10.htm">All<br />
+  that you have is your soul</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/jacobian-update/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>smooth Brauer-Severis</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/smooth-brauer-severis/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/smooth-brauer-severis/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 28 Sep 2004 14:04:14 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/smooth-brauer-severis.html</guid>
+
+					<description><![CDATA[Around the same time Michel Van den Bergh introduced his Brauer-Severi schemes, [Claudio Procesi][1] (extending earlier work of [Bill Schelter][2]) introduced smooth orders as those&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Around the<br />
+same time Michel Van den Bergh introduced his Brauer-Severi schemes,<br />
+[Claudio Procesi][1] (extending earlier work of [Bill Schelter][2])<br />
+introduced smooth orders as those orders $A$ in a central simple algebra<br />
+$\Sigma$ (of dimension $n^2$) such that their representation variety<br />
+$\mathbf{trep}_n~A$ is a smooth variety. Many interesting orders are smooth<br />
+: hereditary orders, trace rings of generic matrices and more generally<br />
+size n approximations of formally smooth algebras (that is,<br />
+non-commutative manifolds). As in the commutative case, every order has<br />
+a Zariski open subset where it is a smooth order.      The relevance of<br />
+this notion to the study of Brauer-Severi varieties is that $X_A$ is a<br />
+smooth variety whenever $A$ is a smooth order. Indeed, the Brauer-Severi<br />
+scheme was the orbit space of the principal $GL_n$-fibration on the<br />
+Brauer-stable representations (see [last time][3]) which form a Zariski<br />
+open subset of the smooth variety $\mathbf{trep}_n~A \times k^n$. In fact,<br />
+in most cases the reverse implication will also hold, that is, if $X_A$<br />
+is smooth then usually A is a smooth order.      However, for low n,<br />
+there are some counterexamples. Consider the so called quantum plane<br />
+ $A_q=k_q[x,y]~:~yx=qxy$ with $~q$ an $n$-th root of unity      then one<br />
+can easily prove (using the fact that the smooth order locus of $A_q$ is<br />
+everything but the origin in the central variety $~\mathbb{A}^2$) that<br />
+the singularities of the Brauer-Severi scheme $X_A$ are the orbits<br />
+corresponding to those nilpotent representations $~\phi : A \rightarrow<br />
+M_n(k)$ which are at the same time singular points in $\mathbf{trep}_n~A$<br />
+and have a cyclic vector. As there are singular points among the<br />
+nilpotent representations, the Brauer-Severi scheme will also be<br />
+singular except perhaps for small values of $n$.      For example, if<br />
+$~n=2$ the defining relation is $~xy+yx=0$ and any trace preserving<br />
+representation has a matrix-description      $~x \rightarrow<br />
+\begin{bmatrix} a &#038; b \\ c &#038; -a \end{bmatrix}~y \rightarrow<br />
+\begin{bmatrix} d &#038; e \\ f &#038; -d \end{bmatrix}$      such that<br />
+$~2ad+bf+ec = 0$. That is,      $~\mathbf{trep}_2~A = \mathbb{V}(2ad+bf+ec)<br />
+\subset \mathbb{A}^6$      which is an hypersurface with a unique<br />
+singular point (the origin). As this point corresponds to the<br />
+zero-representation (which does not have a cyclic vector) the<br />
+Brauer-Severi scheme will be smooth in this case.      [Colin<br />
+Ingalls][4] extended this calculation to show that the Brauer-Severi<br />
+scheme is equally smooth when $~n=3$ but has a unique (!) singular point<br />
+when $~n=4$. So probably all Brauer-Severi schemes for $n \geq 4$ are<br />
+indeed singular. I conjecture that this is a general feature for<br />
+Brauer-Severi schemes of families (depending on the p.i.-degree $n$) of<br />
+non-smooth orders.</p>
+<p>[1]: http://venere.mat.uniroma1.it/people/procesi/<br />
+[2]: http://www.fact-index.com/b/bi/bill_schelter.html<br />
+[3]: https://lievenlebruyn.github.io/neverendingbooks/index.php?p=341<br />
+[4]: http://kappa.math.unb.ca/~colin/</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/smooth-brauer-severis/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bill Schelter’s Maxima</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/bill-schelters-maxima/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/bill-schelters-maxima/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 20 Jan 2004 15:11:01 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=117</guid>
+
+					<description><![CDATA[Bill Schelter was a remarkable man. First, he was a top-class mathematician. If you allow yourself to be impressed, read his proof of the Artin-Procesi&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/maxima.jpg" style="float:left;margin-right:10px;" />   Bill<br />
+Schelter was a remarkable man. First, he was a top-class mathematician.<br />
+If you allow yourself to be impressed, read his proof of the<br />
+<i>Artin-Procesi</i> theorem. Bill was also among the first to take<br />
+<i>non-commutative geometry</i> seriously. Together with Mike Artin he<br />
+investigated a notion of non-commutative integral extensions and he was<br />
+the first to focuss attention to <i>formally smooth algebras</i> (a<br />
+suggestion later taken up by a.o. Cuntz-Quillen and Kontsevich) and a<br />
+relative version with respect to algebras satisfying all identities of<br />
+<i>n x n</i> matrices which (via work of Procesi) led to <i>smooth@n</i><br />
+algebras. To youngsters, he is probably best know as the co-inventor of<br />
+<i>Artin-Schelter regular algebras</i>. I still vividly remember an<br />
+overly enthusiastic talk by him on the subject in Oberwolfach, sometime<br />
+in the late eighties. Secondly, Bill was a genuine <i>Lisp-guru</i> and<br />
+a strong proponent of <i>open source software</i>, see for example his<br />
+<a href="http://swpat.ffii.org/letters/miert/schelter/index.en.html" target="_blank" rel="noopener">petition against software patents</a>. He maintanind<br />
+his own version of Kyoto Common Lisp which developed into <a href="http://www.gnu.org/software/gcl/gcl.html" target="_blank" rel="noopener">Gnu<br />
+Common Lisp</a>. A quote on its history :  </p>
+<blockquote><p>GCL is<br />
+the product of many hands over many years. The original effort was known<br />
+as the Kyoto Common Lisp system, written by Taiichi Yuasa and Masami<br />
+Hagiya in 1984. In 1987 new work was begun by William Schelter, and that<br />
+version of the system was called AKCL (Austin Kyoto Common Lisp). In<br />
+1994 AKCL was released as GCL (GNU Common Lisp) under the GNU public<br />
+library license. The primary purpose of GCL during that phase of it&#8217;s<br />
+existence was to support the Maxima computer algebra system, also<br />
+maintained by Dr. Schelter. It existed largely as a subproject of<br />
+Maxima.</p></blockquote>
+<p> <a href="http://maxima.sourceforge.net/" target="_blank" rel="noopener">Maxima</a> started as Bill&#8217;s version of<br />
+<i>Macsyma</i> an MIT-based symbolic computation program to which he<br />
+added many routines, one of which was <b>Affine</b> a package that<br />
+allowed to do <i>Groebner-like</i> computations in non-commutative<br />
+algebras (implementing <i>Bergman&#8217;s diamond lemma</i>) and which he<br />
+needed to get a grip on <i>3-dimensional Artin-Schelter regular<br />
+algebras</i>. <a href="http://alpha.luc.ac.be/Research/Algebra/Members/michel_id.html" target="_blank" rel="noopener">Michel</a> and me convinced Fred to acquire funds to<br />
+buy us a work-station (costing at the time 20 to 30 iMacs) and have Bill<br />
+flown in from the States with his tape of <i>maxima</i> and let him<br />
+<i>port</i> it to our <i>Dec-station</i>. Antwerp was probably for years<br />
+the only place in the world (apart from MIT) where one could do<br />
+calculations in <i>affine</i> (probably highly illegal at the time).<br />
+Still, lots of people benefitted from this, among others <a href="http://www.uta.edu/math/vancliff/" target="_blank" rel="noopener">Michaela<br />
+Vancliff</a> and <a href="http://math.ruca.ua.ac.be/algebra/member.php?who=kristel.van.rompay" target="_blank" rel="noopener">Kristel Van Rompay</a> in their investigation<br />
+of 4-dimensional Artin-Schelter regular algebras associated to an<br />
+automorphism of a quadric in three-dimensional projective space.<br />
+Yesterday I ran into Bill (alas virtually) by browsing the<br />
+<i>crypto</i>-category of <i>Fink</i>. There it was, <a href="http://fink.sourceforge.net/pdb/package.php/maxima" target="_blank" rel="noopener">maxima</a>, Bill&#8217;s package! I tried to install it<br />
+with the Fink Commander and failed but succeeded from the command line.<br />
+So, if you want to have your own version of it type </p>
+<pre>sudo fink
+install maxima</pre>
+<p> from the Terminal and it will install without<br />
+problems (giving you also a working copy of common lisp). Unfortunately<br />
+I do not remember too much of Macsyma or Affine but there is plenty of<br />
+documentation on the net. Manuals and user guides can be obtained from<br />
+the <a href="http://maxima.sourceforge.net/docs.shtml" target="_blank" rel="noopener">maxima homepage</a> and the University of Texas<br />
+(Bill&#8217;s university) maintains an <a href="http://www.ma.utexas.edu/maxima/maxima_toc.html" target="_blank" rel="noopener">online manual</a>, including a cryptic description of<br />
+some <i>Affine-commands</i>. But probably I&#8217;ll have to send Michaela an<br />
+email asking for some guidance on this&#8230; Here, as a tribute to Bill who<br />
+died in july 2001 the opening banner </p>
+<pre> iMacLieven:~ lieven$
+/sw/bin/maxima Maxima 5.9.0 <a href="http://maxima.sourceforge.net/" target="_blank" rel="noopener">http://maxima.sourceforge.net/</a>
+Distributed under the GNU Public License.
+See the file COPYING.
+Dedicated to the memory of William Schelter.
+This is a development version of Maxima.
+The function bug_report() provides bug reporting information.
+(C1)
+ </pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bill-schelters-maxima/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>spam &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/spam/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 13 Dec 2010 18:44:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>WikiLeaks’ collateral damage : web-anarchy?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/wikileaks-collateral-damage-web-anarchy/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/wikileaks-collateral-damage-web-anarchy/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 13 Dec 2010 18:44:06 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[spam]]></category>
+		<category><![CDATA[WikiLeaks]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3658</guid>
+
+					<description><![CDATA[NeB&#8217;s web-stats are orders of magnitude out of normal behavior, something must be going on&#8230; Spam filter : normally between 10 and 20 spam-comments are&#8230;]]></description>
+										<content:encoded><![CDATA[<p>NeB&#8217;s web-stats are orders of magnitude out of normal behavior, something must be going on&#8230;</p>
+<ul>
+<li>Spam filter : normally between 10 and 20 spam-comments are trapped. They are removed automatically every 14 days so I only look at them when someone complains a valid comment didn&#8217;t get through. This moment, there are <strong>1007</strong> spam-comments held (already 1020 by the time I post this).</li>
+<li>Akismet-plugin : for those who don&#8217;t run a blog, <a href="http://wordpress.org/extend/plugins/akismet/">Akismet</a> is an extremely useful WordPress-plugin getting rid of most spam-comments (before entering the spam-filter). I must admit I don&#8217;t check Akismet-stats regularly but today the message reads : &#8216;Akismet has protected your site from 104,145 spam comments already&#8217; (which is about 10% of all visits&#8230;).</li>
+<li>Mail-notifications : this week my email-account is bombarded with spam-comments to approve. Usually there are 1 to 2 such comments a week, now about 20 a day. Part of the problem was that the Akismet-servers were obstructed earlier this week, but the problem persists.</li>
+<li>Today&#8217;s stats show more than 4000 hits, 500 uniques. About 3 times average.</li>
+</ul>
+<p>Do we all really need to get caught in the cross-fire between WikiLeaks- and government-hackers?</p>
+<p>I have no intention to post my take on WikiLeaks, simply because it won&#8217;t be original. As to Assange&#8217;s problems with justice : until further evidence comes to light I&#8217;m with <a href="http://www.huffingtonpost.com/naomi-wolf/interpol-the-worlds-datin_b_793033.html">Naomi Wolf</a> on this  (thanks <a href="http://pseudomonad.blogspot.com/2010/12/future.html">Kea</a> for the link).</p>
+<p>If NeB goes off-line for a while, you know why&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/wikileaks-collateral-damage-web-anarchy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

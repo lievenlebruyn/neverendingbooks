@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Boston &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/boston/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 01 Apr 2021 09:53:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Ghost metro stations</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/ghost-metro-stations/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/ghost-metro-stations/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 01 Apr 2021 09:53:09 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Boston]]></category>
+		<category><![CDATA[Deutsch]]></category>
+		<category><![CDATA[Haxo]]></category>
+		<category><![CDATA[Mobius]]></category>
+		<category><![CDATA[Paris]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9248</guid>
+
+					<description><![CDATA[In the strange logic of subways I&#8217;ve used a small part of the Parisian metro-map to illustrate some of the bi-Heyting operations on directed graphs.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways">the strange logic of subways</a> I&#8217;ve used a small part of the Parisian metro-map to illustrate some of the bi-Heyting operations on directed graphs.<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/met5.jpg" width=100% ><br />
+</center></p>
+<p>Little did I know that this metro-map gives only a partial picture of the underground network. The Parisian metro has several <a href="https://en.wikipedia.org/wiki/Ghost_stations_of_the_Paris_M%C3%A9tro">ghost stations</a>, that is, stations that have been closed to the public and are no longer used in commercial service. One of these is the <a href="https://en.wikipedia.org/wiki/Haxo_(Paris_M%C3%A9tro)">Haxo metro station</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://www.affiches-parisiennes.com/content/images/2020/01/09/9624/400483456124b9fef2448b-ld.jpg" width=100% ><br />
+Haxo metro station &#8211; <a href="https://www.affiches-parisiennes.com/haxo-le-fantome-oublie-du-grand-paris-9624.html">Photo Credit</a><br />
+</center></p>
+<p>The station is situated on a line which was constructed in the 1920s between Porte des Lilas (line 3bis) and Pré-Saint-Gervais (line 7bis), see light and dark green on the map above . A single track was built linking Place des Fêtes to Porte des Lilas, known as la voie des Fêtes, with one intermediate station, Haxo.</p>
+<p><center><br />
+<img decoding="async" src="http://jcpatat.nerim.net/paris/metro/haxo.gif" width=80%><br />
+</center></p>
+<p>For traffic in the other direction, another track was constructed linking Porte des Lilas to Pré Saint-Gervais, with no intermediate station, called la voie navette. Haxo would have been a single-direction station with only one platform.</p>
+<p>But, it was never used, and no access to street level was ever constructed. Occasional special enthusiast trains call at Haxo for <a href="https://www.flickr.com/photos/fcrozat/245840137/in/set-72157594288422194/">photography</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://www.affiches-parisiennes.com/content/images/2020/01/09/9624/1280px-voiesnavette-fetes-plandesvoies-ld.jpg" width=100%><br />
+</center></p>
+<p>Apart from the Haxo &#8216;station morte&#8217; (dead station), these maps show another surprise, a &#8216;quai mort&#8217; (dead platform) known as <a href="https://www.francetvinfo.fr/culture/cinema/metro-porte-des-lilas-la-station-fantome-reservee-au-cinema_3330561.html">Porte des Lilas &#8211; Cinema</a>. You can hire this platform for a mere 200.000 Euro/per day for <a href="https://fr.wikipedia.org/wiki/Porte_des_Lilas_(m%C3%A9tro_de_Paris)#Station_%C2%AB_Cin%C3%A9ma_%C2%BB">film shooting</a>.</p>
+<p>For example, <a href="https://fr.wikipedia.org/wiki/Le_Fabuleux_Destin_d%27Am%C3%A9lie_Poulain">Le fabuleux destin d&#8217;Amelie Poulin</a> has a scene shot there. In the film the metro station is called &#8216;Abbesses&#8217; (3.06 into the clip)</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/WGD78ycQn_8?start=186" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>There is a project to re-open the ghost station Haxo for public transport. From a mathematical perspective, this may be dangerous.</p>
+<p>Remember <a href="https://lievenlebruyn.github.io/neverendingbooks/the-subway-singularity">the subway singularity?</a></p>
+<p>In the famous story <a href="https://openlab.citytech.cuny.edu/elliseng1710sp2018/files/2018/02/AJ-Deutsch-A-Subway-Named-Mobius.pdf">A subway named Mobius</a> by A. J. Deutsch, the Boylston shuttle on the Boiston subway went into service on March 3rd, tying together the seven principal lines, on four different levels. A day later, train 86 went missing on the Cambridge-Dorchester line&#8230;</p>
+<p>The Harvard algebraist R. Tupelo suggested the train might have hit a node, a singularity. By adding the <a href="https://en.wikipedia.org/wiki/Boylston_(MBTA_station)">Boylston</a> shuttle, the connectivity of the subway system had become infinite…</p>
+<p>Now that we know of the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways">strange logic of subways</a>, an alternative explanation of this accident might be that by adding the Boylston shuttle, the logic of the Boston subway changed dramatically.</p>
+<p>This can also happen in Paris.</p>
+<p>I know, I&#8217;ve linked already to the movie <a href="https://en.wikipedia.org/wiki/Moebius_(1996_film)">‘Moebius’</a> by Gustavo Mosquera, based on Deutsch&#8217;s story, set in Buenos Aires.</p>
+<p>But, if you have an hour to spend, here it is again.</p>
+<p> <iframe src="https://player.vimeo.com/video/70886609?title=0&#038;byline=0&#038;portrait=0" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/ghost-metro-stations/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

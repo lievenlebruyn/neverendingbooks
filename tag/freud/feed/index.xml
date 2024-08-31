@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Freud &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/freud/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 27 Feb 2023 14:41:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>The topology of dreams</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 27 Feb 2023 14:41:39 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[dreams]]></category>
+		<category><![CDATA[fiber]]></category>
+		<category><![CDATA[Freud]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Lacan]]></category>
+		<category><![CDATA[sheaf]]></category>
+		<category><![CDATA[Sibony]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topology]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10937</guid>
+
+					<description><![CDATA[Last May, the meeting Lacan et Grothendieck, l’impossible rencontre? took place in Paris (see this post). Video&#8217;s of that meeting are now available online. Here&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Last May, the meeting <a href="https://sites.google.com/site/dugowsonrecherche/coordinations-colloques/LG">Lacan et Grothendieck, l’impossible rencontre?</a> took place in Paris (see <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendieck-meets-lacan">this post</a>). Video&#8217;s of that meeting are now available online.</p>
+<p>Here&#8217;s the talk by Alain Connes and Patrick Gauthier-Lafaye on their book <a href="https://www.mollat.com/livres/2624527/alain-connes-a-l-ombre-de-grothendieck-et-de-lacan-un-topos-sur-l-inconscient#"> A l&#8217;ombre de Grothendieck et de Lacan : un topos sur l&#8217;inconscient ?</a> (see <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topos-of-unconsciousness">this post</a> ).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/yiXPvueGbsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Let&#8217;s quickly recall their main ideas:</p>
+<p>1. The unconscious is structured as a topos (<a href="https://en.wikipedia.org/wiki/Jacques_Lacan">Jacques Lacan</a> argued it was structured as a language), because we need a framework allowing logic without the law of the excluded middle for Lacan&#8217;s <a href="https://nosubject.com/Sexual_relationship">formulas of sexuation</a> to make some sense at all.</p>
+<p>2. This topos may differs from person to person, so we do not all share the same rules of logic (as observed in real life).</p>
+<p>3. Consciousness is related to the points of the topos (they are not precise on this, neither in the talk, nor the book).</p>
+<p>4. All these individual toposes are ruled by a classifying topos, and they see Lacan&#8217;s work as the very first steps towards trying to describe the unconscious by a geometrical theory (though his formulas are not first order).</p>
+<p>Surely these are intriguing ideas, if only we would know how to construct the topos of someone&#8217;s unconscious.</p>
+<p>Let&#8217;s go looking for clues.</p>
+<p>At the same meeting, there was a talk by <a href="https://fr.wikipedia.org/wiki/Daniel_Sibony">Daniel Sibony</a>: &#8220;Mathématiques et inconscient&#8221;</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/xzYiReWsGVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Sibony started out as mathematician, then turned to psychiatry in the early 70ties. He was acquainted with both Grothendieck and Lacan, and even brought them together once, over lunch, some day in 1973. He makes a one-line appearance in Grothendieck&#8217;s <a href="https://fr.wikipedia.org/wiki/R%C3%A9coltes_et_Semailles">Récoltes et Semailles</a>, when G discribes his friends in <a href="https://fr.wikipedia.org/wiki/Survivre_et_vivre">&#8216;Survivre et Vivre&#8217;</a>:</p>
+<blockquote><p>
+&#8220;Daniel Sibony (who stayed away from this group, while pursuing its evolution out of the corner of a semi-disdainful, smirking eye)&#8221;
+</p></blockquote>
+<p>In his talk, Sibony said he had a similar idea, 50 years before Connes and Gauthier-Lafaye (3.04 into the clip):</p>
+<blockquote><p>
+&#8220;At the same time (early 70ties) I did a seminar in Vincennes, where I was a math professor, on the topology of dreams. At the time I didn&#8217;t have categories at my disposal, but I used fibered spaces instead. I showed how we could interpret dreams with a fibered space. This is consistent with the Freudian idea, except that Freud says we should take the list of words from the story of the dream and look for associations. For me, these associations were in the fibers, and these thoughts on fibers and sheaves have always followed me. And now, after 50 years I find this pretty book by Alain Connes and Patrick Gauthier-Lafaye on toposes, and see that my thoughts on dreams as sheaves and fibered spaces are but a special case of theirs.&#8221;
+</p></blockquote>
+<p>This looks interesting. After all, Freud called dream interpretation the &#8216;royal road&#8217; to the unconscious. &#8220;It is the &#8216;King&#8217;s highway&#8217; along which everyone can travel to discover the truth of unconscious processes for themselves.&#8221;</p>
+<p>Sibony clarifies his idea in the interview <a href="https://www.cairn.info/revue-le-journal-des-psychologues-2015-2-page-49.htm">L&#8217;utilisation des rêves en psychothérapie</a> with Maryse Siksou.</p>
+<blockquote><p>
+&#8220;The dream brings blocks of words, of “compacted” meanings, and we question, according to the good old method, each of these blocks, each of these points and which we associate around (we “unblock” around…), we let each point unfold according to the &#8220;fiber&#8221; which is its own.</p>
+<p>I introduced this notion of the dream as fibered space in an article in the review Scilicet in 1972, and in a seminar that I gave at the University of Vincennes in 1973 under the title &#8220;Topologie et interpretation des rêves&#8221;, to which Jacques Lacan and his close retinue attended throughout the year.</p>
+<p>The idea is that the dream is a sheaf, a bundle of fibers, each of which is associated with a &#8220;word&#8221; of the dream; interpretation makes the fibers appear, and one can pick an element from each, which is of course &#8220;displaced&#8221; in relation to the word that &#8220;produced&#8221; the fiber, and these elements are articulated with other elements taken in other fibers, to finally create a message which, once again, does not necessarily say the meaning of the dream because a dream has as many meanings as recipients to whom it is told, but which produces a strong statement, a relevant statement, which can restart the work.&#8221;
+</p></blockquote>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/dream.png" width=60% ><br />
+</center></p>
+<p>Key images in the dream (the &#8216;points&#8217; of the base-space) can stand for entirely different situations in someone&#8217;s life (the points in the &#8216;fiber&#8217; over an image). The therapist&#8217;s job is to find a suitable &#8216;section&#8217; in this &#8216;sheaf&#8217; to further the theraphy.</p>
+<p>It&#8217;s a bit like translating a sentence from one language to another. Every word (point of the base-space) can have several possible translations with subtle differences (the points in the fiber over the word). It&#8217;s the translator&#8217;s job to find the best &#8216;section&#8217; in this sheaf of possibilities.</p>
+<p>This translation-analogy is used by Daniel Sibony in his paper <a href="https://www.erudit.org/fr/revues/ttr/1998-v11-n2-ttr1489/037336ar.pdf">Traduire la passe</a>:</p>
+<blockquote><p>
+&#8220;It therefore operates just like the dream through articulated choices, from one fiber to another, in a bundle of speaking fibers; it articulates them by seeking the optimal section. In fact, the translation takes place between two fiber bundles, each in a language, but in the starting bundle the choice seems fixed by the initial text. However, more or less consciously, the translator &#8220;bursts&#8221; each word into a larger fiber, he therefore has a bundle of fibers where the given text seems after the fact a singular choice, which will produce another choice in the bundle of the other language.&#8221;
+</p></blockquote>
+<p>This paper also contains a pre-ChatGPT story (we&#8217;re in 1998), in which the language model fails because it has far too few alternatives in its fibers:</p>
+<blockquote><p>
+I felt it during a &#8220;humor festival&#8221; where I was approached by someone (who seemed to have some humor) and who was a robot. We had a brief conversation, very acceptable, beyond the conventional witticisms and knowing sighs he uttered from time to time to complain about the lack of atmosphere, repeating that after all we are not robots.</p>
+<p>I thought at first that it must be a walking walkie-talkie and that in fact I was talking to a guy who was remote control from his cabin. But the object was programmed; the unforeseen effects of meaning were all the more striking. To my question: &#8220;Who created you?&#8221; he answered with a strange word, a kind of technical god.</p>
+<p>I went on to ask him who he thought created me; his answer was immediate: “Oedipus”. (He knew, having questioned me, that I was a psychoanalyst.) The piquancy of his answer pleased me (without Oedipus, at least on a first level, no analyst). These bursts of meaning that we know in children, psychotics, to whom we attribute divinatory gifts — when they only exist, save their skin, questioning us about our being to defend theirs — , these random strokes of meaning shed light on the classic aftermaths where when a tile arrives, we hook it up to other tiles from the past, it ties up the pain by chaining the meaning.</p>
+<p>Anyway, the conversation continuing, the robot asked me to psychoanalyse him; I asked him what he was suffering from. His answer was immediate: “Oedipus”.</p>
+<p>Disappointing and enlightening: it shows that with each &#8220;word&#8221; of the interlocutor, the robot makes correspond a signifying constellation, a fiber of elements; choosing a word in each fiber, he then articulates the whole with obvious sequence constraints: a bit of readability and a certain phrasal push that leaves open the game of exchange. And now, in the fiber concerning the “psy” field, chance or constraint had fixed him on the same word, “Oedipus”, which, by repeating itself, closed the scene heavily.
+</p></blockquote>
+<p>Okay, we have a first potential approximation to Connes and Gauthier-Lafaye&#8217;s elusive topos, a sheaf of possible interpretation of base-words in a language.</p>
+<p>But, the base-space is still rather discrete, or at best linearly ordered. And also in the fibers, and among the sections, there&#8217;s not much of a topology at work.</p>
+<p>Perhaps, we should have a look at applications of topology and/or topos theory in <a href="https://en.wikipedia.org/wiki/Wikipedia:Large_language_models">large language models</a>?</p>
+<p>(tbc)</p>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages">The shape of languages</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>corona &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/corona/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 18 Feb 2021 10:31:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>The symmetries of Covid-19</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 18 Feb 2021 10:31:34 +0000</pubDate>
+				<category><![CDATA[GoV]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[corona]]></category>
+		<category><![CDATA[icosahedron]]></category>
+		<category><![CDATA[octahedron]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8827</guid>
+
+					<description><![CDATA[A natural question these days might be: &#8220;what are the rotational symmetries of the Covid-19 virus?&#8221; Most illustrations show a highly symmetric object, suggesting it&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A natural question these days might be: &#8220;what are the rotational symmetries of the <a href="https://en.wikipedia.org/wiki/Coronavirus">Covid-19 virus</a>?&#8221;</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/corona2.jpg" width=50%><br />
+</center></p>
+<p>Most illustrations show a highly symmetric object, suggesting it might have icosahedral symmetry. In fact, many viruses do have icosahedral symmetry as a result of the <a href="https://www.pnas.org/content/101/44/15556#:~:text=Icosahedral%20symmetry%20is%20ubiquitous%20among%20spherical%20viruses%20(1).&#038;text=The%20capsid%20has%206%205,contain%20six%20subunits%20(hexamers).">&#8216;genetic economy principle&#8217;</a> proposed by Watson and Crick in 1956, resulting in the <a href="https://viralzone.expasy.org/8577#:~:text=The%20Caspar%2DKlug%20Theory%20(CK,center%20of%20each%20triangular%20face.">Caspar-Klug classification</a> of viral capsids.</p>
+<p>But then, perhaps this icosahedral illusion is a result of design decisions illustrators made turning scientific data into pictures. Veronica Falconieri Hays wrote a beautiful article describing the effort going into this: <a href="https://www.scientificamerican.com/article/how-i-built-a-3-d-model-of-the-coronavirus-for-scientific-american/">How I built a 3d-model of the coronavirus for Scientific American</a>. Here&#8217;s her final picture</p>
+<p><center><br />
+<img decoding="async" src="https://static.scientificamerican.com/sciam/assets/Image/20037_SARSCoV2_RenderColorGuide.jpg" width=80%><br />
+</center></p>
+<p>And yes, icosahedral symmetry was one of her design decisions:</p>
+<blockquote><p>The M proteins form pairs, and it is estimated that there are 16–25 M proteins per spike on the surface of the virus. I ended up modeling 10 M protein pairs (so 20 M proteins) per spike in my model.  Some researchers hypothesize that the M proteins form a lattice within the envelope (interacting with an underlying lattice of N proteins; see below). <strong>I decided to use an icosahedral sphere</strong> to create a regular distribution of the M protein dimers to hint at this hypothesis. </p></blockquote>
+<p>The spikes (or S-proteins) are the tentacles in these pictures, and one of the few hard figures on Corona is that <a href="https://en.wikipedia.org/wiki/Coronavirus">&#8216;on average&#8217;</a> there are 74 of them.</p>
+<p>This fact is enough to rule out <a href="https://en.wikipedia.org/wiki/Icosahedral_symmetry">icosahedral symmetry</a>.</p>
+<p>If the icosahedral rotation group (of order $60$, isomorphic to $A_5$) acts on the $74$ spikes, then each orbit consists of $60$ spikes unless that spike lies on a twofold, threefold or fivefold rotation axis, in which cases the number of spikes in its orbit are respectively $30$, $20$ or $12$. So, we can&#8217;t get a total number of $74$ spikes!</p>
+<p>However, just looking at the number of spikes we cannot rule out <a href="https://en.wikipedia.org/wiki/Octahedral_symmetry#:~:text=8%20External%20links-,Details,of%20the%20cubic%20crystal%20system.">octahedral symmetry</a>!</p>
+<p>The octahedral rotation group (of order $24$, isomorphic to $S_4$) will have orbits of size $24$ unless the spike lies on a twofold, threefold or fourfold rotation axis, giving orbits of size $12$, $8$ and $6$ respectively (the midpoints of edges, the vertices and the midpoints of faces of the octahedron), and</p>
+<p>\[<br />
+74 = 24+24+12+8+6 \]</p>
+<p>The most symmetric arrangement of spikes would be to subdivide each of the $8$ triangular faces of the octahedron into $6$ triangles with vertices the midpoint of the face, a vertex and a midpoint of an edge, and then to position the spikes on the axis through the vertices and midpoints of these smaller triangles.</p>
+<p>Googling around I found very few references to symmetries of Covid-19, probably because it has an helical RNA-coil, which seems not to go well with Caspar-Klug type polyhedral viral capsids.</p>
+<p>Here&#8217;s an exception: <a href="https://arxiv.org/pdf/2005.12165.pdf">A structural model for the Coronavirus nucleocapsid</a> by Federico Coscio, Alejandro D. Nadra, and Diego U. Ferreiro.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/truncatedoctahedron.jpg" width=80% ><br />
+</center></p>
+<p>They propose a truncated octahedron as capsid (in transparent brown) with interior a continuous coil packing of blue and cyan helices. The virus membrane with the spikes and M proteins is drawn in blue.</p>
+<p>If you have better info or references on the (conjectural) symmetries of Covid-19, please leave a comment.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

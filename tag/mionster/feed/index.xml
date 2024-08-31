@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mionster &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/mionster/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 19 Jan 2018 10:57:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>the monstrous moonshine picture &#8211; 2</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-monstrous-moonshine-picture-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-monstrous-moonshine-picture-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 19 Jan 2018 10:57:49 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[mionster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7755</guid>
+
+					<description><![CDATA[Time to wrap up my calculations on the moonshine picture, which is the subgraph of Conway&#8217;s Big Picture needed to describe all 171 moonshine groups.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Time to wrap up my calculations on the <strong>moonshine picture</strong>, which is the subgraph of <a href="https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that">Conway&#8217;s Big Picture</a> needed to describe all <a href="https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups">171 moonshine groups</a>.</p>
+<p>No doubt I&#8217;ve made mistakes. All corrections are welcome. The starting point is the list of 171 moonshine groups which are in <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.3704&#038;rep=rep1&#038;type=pdf">the original Monstrous Moonshine paper</a>.</p>
+<p>The backbone is given by the $97$ number lattices, which are closed under taking divisors and were found by <a href="https://lievenlebruyn.github.io/neverendingbooks/chomp-and-the-moonshine-thread">looking at</a> all divisors of the numbers $N=n \times h$ for the 171 moonshine groups of the form $N+e,f,\dots$ or $(n|h)+e,f,\dots$.</p>
+<p>The Hasse-diagram of this poset (under division) is here (click on the image to get a larger version)</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/colouredthread.png" ><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/colouredthread.png" width=100%></a></p>
+<p>There are seven types of coloured numbers, each corresponding to number-lattices which have the same local structure in the moonshine picture, as in <a href="https://lievenlebruyn.github.io/neverendingbooks/moonshines-green-anaconda">the previous post</a>.</p>
+<p>The white numbered lattices have no further edges in the picture.</p>
+<p>The yellow number lattices (2,10,14,18,22,26,32,34,40,68,80,88,90,112,126,144,180,208 = 2M) have local structure</p>
+<p>\[<br />
+\xymatrix{&#038; \color{yellow}{2M} \ar@{-}[r] &#038; M \frac{1}{2}} \]</p>
+<p>The green number lattices (3,15,21,39,57,93,96,120 = 3M) have local structure</p>
+<p>\[<br />
+\xymatrix{M \frac{1}{3} \ar@[red]@{-}[r] &#038; \color{green}{3M} \ar@[red]@{-}[r] &#038; M \frac{2}{3}} \]</p>
+<p>The blue number lattices (4,16,20,28,36,44,52,56,72,104 = 4M) have as local structure</p>
+<p>\[<br />
+\xymatrix{M \frac{1}{2} \ar@{-}[d] &#038; &#038; M \frac{1}{4} \ar@{-}[d] \\<br />
+2M \ar@{-}[r] &#038; \color{blue}{4M} \ar@{-}[r] &#038; 2M \frac{1}{2} \ar@{-}[d] \\<br />
+&#038; &#038; M \frac{3}{4}} \]</p>
+<p>where the leftmost part is redundant as they are already included in the yellow-bit.</p>
+<p>The purple number lattices (6,30,42,48,60 = 6M) have local structure</p>
+<p>\[<br />
+\xymatrix{M \frac{1}{3} \ar@[red]@{-}[d] &#038; 2M \frac{1}{3} &#038; M \frac{1}{6} \ar@[red]@{-}[d] &#038; \\<br />
+3M \ar@{-}[r] \ar@[red]@{-}[d] &#038; \color{purple}{6M} \ar@{-}[r] \ar@[red]@{-}[u] \ar@[red]@{-}[d] &#038; 3M \frac{1}{2} \ar@[red]@{-}[r] \ar@[red]@{-}[d] &#038; M \frac{5}{6} \\<br />
+M \frac{2}{3} &#038; 2M \frac{2}{3} &#038; M \frac{1}{2} &#038; } \]</p>
+<p>where again the lefmost part is redundant, and I forgot to add the central part in the previous post&#8230; (updated now).</p>
+<p>The unique brown number lattice 8 has local structure</p>
+<p>\[<br />
+\xymatrix{&#038; &#038; 1 \frac{1}{4} \ar@{-}[d] &#038; &#038; 1 \frac{1}{8} \ar@{-}[d] &#038; \\<br />
+&#038; 1 \frac{1}{2} \ar@{-}[d] &#038; 2 \frac{1}{2} \ar@{-}[r] \ar@{-}[d] &#038; 1 \frac{3}{4} &#038; 2 \frac{1}{4} \ar@{-}[r] &#038; 1 \frac{5}{8} \\<br />
+1 \ar@{-}[r] &#038; 2 \ar@{-}[r] &#038; 4 \ar@{-}[r] &#038; \color{brown}{8} \ar@{-}[r] &#038; 4 \frac{1}{2} \ar@{-}[d] \ar@{-}[u] &#038; \\<br />
+&#038; &#038; &#038; 1 \frac{7}{8} \ar@{-}[r] &#038; 2 \frac{3}{4} \ar@{-}[r] &#038; 1 \frac{3}{8}} \]</p>
+<p>The local structure in the two central red number lattices (not surprisingly 12 and 24) looks like the image in the previous post, but I have to add some &#8216;forgotten&#8217; lattices.</p>
+<p>That&#8217;ll have to wait&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-monstrous-moonshine-picture-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

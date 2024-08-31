@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Elkies &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/elkies/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 08 Apr 2008 13:58:55 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Surreal numbers &#038; chess</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/surreal-numbers-chess/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/surreal-numbers-chess/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 08 Apr 2008 13:58:55 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/surreal-numbers-chess.html</guid>
+
+					<description><![CDATA[Most chess programs are able to give a numerical evaluation of a position. For example, the position below is considered to be worth +8.7 with&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Most chess programs are able to give a numerical evaluation of a position. For example, the position below is considered to be worth +8.7 with white to move, and, -0.7 with black to move (by a certain program). But, if one applies <strong>combinatorial game theory</strong> as in John Conway&#8217;s <a href="http://www.alibris.co.uk/booksearch?qwork=4836952&amp;matches=25&amp;author=Conway%2C+John+Horton&amp;browse=1&amp;cm_sp=works*listing*title">ONAG</a> and the Berlekamp-Conway-Guy masterpiece <a href="http://www.alibris.co.uk/booksearch?qwork=7245998&amp;matches=42&amp;author=Conway%2C+John+Horton&amp;browse=1&amp;cm_sp=works*listing*title">Winning Ways for your Mathematical Plays</a> it will turn out that the position can be proved to have an <strong>infinitesimal</strong> advantage for white&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/chesssurreal1.jpg" align=center ></p>
+<p>So, what do we mean by this? First some basic rules of combinatorial game theory. To start, we evaluate a position without knowing which player has the move. A <strong>zero-game</strong> is by definition a position in which neither player has a good move, that is, any move by either player quickly leads to losing the game. Hence, a zero-game is a position in which the second player to move wins.</p>
+<p>What is the chess-equivalent of a zero-position game? A position in which neither player has a good move is called a <a href="http://en.wikipedia.org/wiki/Zugzwang">Mutual Zugzwang</a> in chess literature. An example is given by the above position, if we restrict attention only to the 4 pieces in the upper right-hand corner and forget the rest. We don&#8217;t know who has the move, but, White cannot move at all and Black cannot move the King or Bishop without losing the Bishop and allowing White to promote the pawn and win quickly. In CGT-parlance, the upper-right position has value $\{ \emptyset | \emptyset \} = 0 $ where the left options denote the White moves and the right options the Black moves.</p>
+<p>All other values are determined by recursion. For example, consider a position in which White has just one move left before the sitution is again a Mutual Zugzwang, and, Black has no good move whatsoever. After white&#8217;s move, the position will again be a zero-position and Black has no options, so the value of this position would be denoted by $\{ 0 | \emptyset \} $ and we call the value of this position to be $+1 $. Similarly, if white has no options and black has one final move to make, the position would be considered to have value $\{ \emptyset | 0 \}= -1 $.</p>
+<p>Clearly, these are just the three easiest game-values to have and the real kick comes further down the road when one can prove by recursion that some games have non-integer values (such as $\{ 0 | 1 \} = \frac{1}{2} $ for a position in which white has one move to get to a mutual zugzwang and black has a move leading to a position of value $+1 $ (defined as before)), or non-number values such as $\ast = \{ 0 | 0 \} $ where both white and black&#8217;s best move is to get to a mutal zugzwang. Game-values such as $\ast $ are called fuzzy (or confused with zero) and are defined by the property that the first player to move wins.</p>
+<p>Similarly, positive game-values are those positions where White wins, independent of who has the move and negatives are those that Black wins. There is a whole menagery of game-values and the <a href="http://www.amazon.co.uk/Winning-Ways-Your-Mathematical-Plays/dp/1568811306/">WinningWays-booklets</a> give an example based introduction to this fascinating theory.</p>
+<p>Brief as this introduction was, it will allow us to determine the <strong>exact</strong> value of the position in the above diagram. We know already that we can forget about the right-hand upper corner (as this is a zero-position) and concentrate attention to the left-hand side of the board.</p>
+<p>It is easy to see that neither Knight can move without loosing quickly, nor can the pawns on a5 and b7. That is, white has just 2 options : either <strong>c3-c4</strong> (quickly loosing after d5xc4 2. d3xc4,d4-d3 3. Nc1xd3,Na1-b3) or, and this is the only valid option <strong>c3xd4</strong> leading to the position on the left below. Black has only one valid move : <strong>d4xc3</strong> leading to the position on the right below.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/surreal2.jpg" > <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/surreal3.jpg" ></p>
+<p>Clearly, the left-diagram has value 0 as it is a mutual Zugzwang. The position on the right takes a moment&#8217;s thought : White has one move left <strong>d3-d4</strong> leading to a 0-position, whereas black has one move <strong>d5-d4</strong> leading to a position of value -1 (as black still has one move left d6-d5, whereas white has none). That is, the CGT-value of the right-hand position is $\{ 0 | -1 \} $ and therefore, the value of the starting position is precisely equal to</p>
+<p>\[ \{ 0 | \{ 0 | -1 \} \} = +_{1} \]</p>
+<p>(called <strong>tiny-one</strong> among ONAGers)</p>
+<p>It can be shown that $+_1 $ has a positive value (that is, White wins independently of who has the first move) but smaller than any positive number-valued games!</p>
+<p><a href="http://www.math.harvard.edu/~elkies/">Noam Elkies</a> has written a beautiful paper <a href="http://arXiv.org/abs/math/9905198">On numbers and endgames: Combinatorial game theory in chess endgames</a> containing many interesting examples (the example above is an adaptation of his diagram9).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/surreal-numbers-chess/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The M(13)-groupoid (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-m13-groupoid-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-m13-groupoid-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 30 Jul 2007 19:09:48 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blackjack]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=29</guid>
+
+					<description><![CDATA[Conway&#8217;s puzzle M(13) involves the 13 points and 13 lines of $\mathbb{P}^2(\mathbb{F}_3) $. On all but one point numbered counters are placed holding the numbers&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13alpha.gif" style="float:left;margin-right:10px;"> Conway&#8217;s puzzle M(13) involves the 13 points and 13 lines of $\mathbb{P}^2(\mathbb{F}_3) $. On all but one point numbered counters are placed holding the numbers 1,&#8230;,12 and a move involves interchanging one counter and the &#8216;hole&#8217; (the unique point having no counter) and interchanging the counters on the two other points of the line determined by the first two points. In the picture on the left, the lines are respresented by dashes around the circle in between two counters and the points lying on this line are those that connect to the dash either via a direct line or directly via the circle. In the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=17">first part</a> we saw that the group of all reachable positions in <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">Conway&#8217;s M(13) puzzle</a> having the hole at the top positions contains the sporadic simple Mathieu group $M_{12} $ as a subgroup. To see the reverse inclusion we have to recall the definition of the <a href="http://en.wikipedia.org/wiki/Ternary_Golay_code">ternary Golay code</a> named in honour of the Swiss engineer <a href="http://en.wikipedia.org/wiki/Marcel_J._E._Golay">Marcel Golay</a> who discovered in 1949 the <a href="http://en.wikipedia.org/wiki/Binary_Golay_code">binary Golay code</a> that we will encounter _later on_.</p>
+<p>The ternary Golay code $\mathcal{C}_{12} $ is a six-dimenional subspace in $\mathbb{F}_3^{\oplus 12} $ and is spanned by its codewords of weight six (the Hamming distance of $\mathcal{C}_{12} $ whence it is a two-error correcting code). There are $264 = 2 \times 132 $ weight six codewords and they can be obtained from the 132 <strong>hexads</strong>, we encountered before as the winning positions of <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=25">Mathieu&#8217;s blackjack</a>, by replacing the stars by signs + or &#8211; using the following rules. By a <strong>tet</strong> (from tetracodeword) we mean a 3&#215;4 array having 4 +-signs indicating the row-positions of a tetracodeword. For example</p>
+<p>$~\begin{array}{|c|ccc|} \hline   &amp; + &amp;  &amp;  \\   + &amp;  &amp; + &amp;  \\  &amp;   &amp;   &amp; + \\ \hline  + &amp; 0 &amp;  + &amp; &#8211; \end{array} $ is the tet corresponding to the bottom-tetracodeword. $\begin{array}{|c|ccc|} \hline   &amp; + &amp;  &amp;  \\    &amp;  + &amp;  &amp;  \\  &amp;  + &amp;   &amp;  \\ \hline   &amp;  &amp;   &amp;  \end{array} $ A <strong>col</strong> is an array having +-signs along one of the four columns. The <strong>signed hexads</strong> will now be the hexads that can be written as $\mathbb{F}_3 $ vectors as (depending on the column-distributions of the stars in the hexad indicated between brackets)</p>
+<p>$col-col~(3^20^2)\qquad \pm(col+tet)~(31^3) \qquad tet-tet~(2^30) \qquad \pm(col+col-tet)~(2^21^2) $</p>
+<p>For example, the hexad on the right has column-distribution $2^30 $ so its signed versions are of the form tet-tet. The two tetracodewords must have the same digit (-) at place four (so that they cancel and leave an empty column). It is then easy to determine these two tetracodewords giving the signed hexad (together with its negative, obtained by replacing the order of the two codewords)</p>
+<p>$\begin{array}{|c|ccc|} \hline  \ast &amp; \ast &amp;  &amp;  \\   \ast &amp;  &amp; \ast &amp;  \\  &amp;  \ast  &amp;  \ast  &amp;  \\ \hline  &#8211; &amp; + &amp;  0 &amp; &#8211; \end{array} $ signed as<br />
+$\begin{array}{|c|ccc|} \hline  + &amp;  &amp;  &amp;  \\    &amp;  &amp;  &amp;  \\  &amp;  +  &amp;  +  &amp; + \\ \hline  0 &amp; &#8211; &amp;  &#8211; &amp; &#8211; \end{array} &#8211; \begin{array}{|c|ccc|} \hline   &amp; + &amp;  &amp;  \\   + &amp;  &amp; + &amp;  \\  &amp;    &amp;    &amp; + \\ \hline  + &amp; 0 &amp;  + &amp; &#8211; \end{array} = \begin{array}{|c|ccc|} \hline  + &amp; &#8211; &amp;  &amp;  \\   &#8211; &amp;  &amp; &#8211; &amp;  \\  &amp;  +  &amp;  +  &amp;  \\ \hline  &#8211; &amp; + &amp;  0 &amp; &#8211; \end{array}  $</p>
+<p>and similarly for the other cases. As Conway&amp;Sloane remark &#8216;This is one of many cases when the process is easier performed than described&#8217;.</p>
+<p>We have an order two operation mapping a signed hexad to its negative and as these codewords span the Golay code, this determines an order two automorphism of $\mathcal{C}_{12} $. Further, forgetting about signs, we get the Steiner-system S(5,6,12) of hexads for which the automorphism group is $M_{12} $ hence the automorphism group op the ternary Golay code is $2.M_{12} $, the unique nonsplit central extension of $M_{12} $.</p>
+<p>Right, but what is the connection between the Golay code and Conway&#8217;s M(13)-puzzle which is played with points and lines in the projective plane $\mathbb{P}^2(\mathbb{F}_3) $? There are 13 points $\mathcal{P} $ so let us consider a 13-dimensional vectorspace $X=\mathbb{F}_3^{\oplus 13} $ with basis $x_p~:~p \in \mathcal{P} $. That is a vector in X is of the form $\vec{v}=\sum_p v_px_p $ and consider the &#8216;usual&#8217; scalar product $\vec{v}.\vec{w} = \sum_p v_pw_p $ on X. Next, we bring in the lines in $\mathbb{P}^2(\mathbb{F}_3) $.</p>
+<p>For each of the 13 lines  l consider the vector $\vec{l} = \sum_{p \in l} x_p $ with support the four points lying on l and let $\mathcal{C} $ be the subspace (code) of X spanned by the thirteen vectors $\vec{l} $. Vectors $\vec{c},\vec{d} \in \mathcal{C} $ satisfy the remarkable identity $\vec{c}.\vec{d} = (\sum_p c_p)(\sum_p d_p) $. Indeed, both sides are bilinear in $\vec{c},\vec{d} $ so it suffices to check teh identity for two line-vectors $\vec{l},\vec{m} $. The right hand side is then 4.4=16=1 mod 3 which equals the left hand side as two lines either intersect in one point or are equal (and hence have 4 points in common). The identity applied to $\vec{c}=\vec{d} $ gives us (note that the squares in $\mathbb{F}_3 $ are {0,1}) information about the <strong>weight</strong> (that is, the number of non-zero digits) of codewords in $\mathcal{C} $</p>
+<p>$wt(\vec{c})~mod(3) = \sum_p c_p^2 = (\sum_p c_p)^2 \in \{ 0,1 \} $</p>
+<p>Let $\mathcal{C}&#8217; $ be the collection of $\vec{c} \in \mathcal{C} $ of weight zero (modulo 3) then one can verify that $\mathcal{C}&#8217; $ is the orthogonal complement of $\mathcal{C} $ with respect to the scalar product and that the dimension of $\mathcal{C} $ is seven whereas that of $\mathcal{C}&#8217; $ is six.<br />
+Now, let for a point p be $\mathcal{G}_p $ the restriction of</p>
+<p>$\mathcal{C}_p = \{ c \in \mathcal{C}~|~c_p = &#8211; \sum_{q \in \mathcal{P}} c_q \} $</p>
+<p>to the coordinates of $\mathcal{P} &#8211; \{ p \} $, then $\mathcal{G}_p $ is clearly a six dimensional code in a 12-dimensional space. A bit more work shows that $\mathcal{G}_p $ is a self-dual code with minimal weight greater or equal to six, whence it must be the ternary Golay code! Now we are nearly done. _Next time_ we will introduce a <a href="http://en.wikipedia.org/wiki/Reversi">reversi</a>-version of M(13) and use the above facts to deduce that the basic group of the Mathieu-groupoid indeed is the sporadic simple group $M_{12} $.</p>
+<p><strong>References</strong></p>
+<p>Robert L. Griess, &#8220;<a href="http://www.amazon.co.uk/Twelve-Sporadic-Springer-Monographs-Mathematics/dp/3540627782/">Twelve sporadic groups</a>&#8221; chp. 7 &#8216;The ternary Golay code and $2.M_{12} $&#8217;</p>
+<p>John H. Conway and N. J.A. Sloane, &#8220;<a href="http://www.amazon.co.uk/Sphere-Packings-Lattices-Groups-Wissenschaften/dp/0387985859/">Sphere packings, lattices and groups</a>&#8221; chp 11 &#8216;The Golay codes and the Mathieu groups&#8217;</p>
+<p>John H. Conway, Noam D. Elkies and Jeremy L. Martin, &#8216;The Mathieu group $M_{12} $ and its pseudogroup extension $M_{13} $&#8217; <a href="http://arxiv.org/abs/math.GR/0508630">arXiv:math.GR/0508630</a></p>
+<p><span id="more-29"></span></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-m13-groupoid-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Mathieu groupoid (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mathieu-groupoid-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-mathieu-groupoid-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 20 Jun 2007 13:41:02 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=17</guid>
+
+					<description><![CDATA[Conway&#8217;s puzzle M(13) is a variation on the 15-puzzle played with the 13 points in the projective plane $\mathbb{P}^2(\mathbb{F}_3) $. The desired position is given&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/iniposm13.gif" style="float:left;margin-right:10px;" hspace=10> <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">Conway&#8217;s puzzle M(13)</a> is a variation on the 15-puzzle played with the 13 points in the projective plane $\mathbb{P}^2(\mathbb{F}_3) $. The desired position is given on the left where all the counters are placed at at the points having that label (the point corresponding to the hole in the drawing has label 0). A typical move consists in choosing a line in the plane going through the point where the hole is, choose one of the three remaining points on this line and interchange the counter on it for the hole while at the same time interchanging the counters on the other two points. In the drawing on the left, lines correspond to the little-strokes on the circle and edges describe which points lie on which lines. For example, if we want to move counter 5 to the hole we notice that both of them lie on the line represented by the stroke just to the right of the hole and this line contains also the two points with counters 1 and 11, so we have to replace these two counters too in making a move. Today we will describe the groupoid corresponding to this slide-puzzle so if you want to read on, it is best to play a bit with Sebastian Egner&#8217;s <a href="http://www.sebastian-egner.net/m13/">M(13) Java Applet</a> to see the puzzle in action (and to use it to verify the claims made below). Clicking on a counter performs the move taking the counter to the hole.</p>
+<p><span id="more-17"></span></p>
+<p>For the 15-puzzle I&#8217;ve gone to great lengths of detail <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=14">here</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=16">there</a> explaining how a groupoid naturally crops up having as its objects the reachable positions and as its morphisms the legal slide-sequences. Here, I&#8217;ll economize on details. We can encode a position by a permutation in $S_{13} $ by recording the counters (the hole having counter 0) as we move along the circle clockwise starting at the point of label 0 (the top-point). Basic moves transpose two pairs of counters so are given by a product of two transpositions. For example, the move described above from the initial position is $~(0,5)(1,11) $. Again it is clear how to make a groupoid from the reachable positions and the legal move-sequences and how all actual calculations can be done inside the group $S_{13} $. Two small remarks. (1) The situation is more symmetric than in the 15-puzzle. Here we have precisely 12 possible basic moves from any given position corresponding to the 12 non-hole counters which can be thrown into the hole. (2) Related to this, we have another way to encode move-sequences here. For each basic move we can jot down the <strong>label</strong> of the point whose counter we will throw to the hole (note : label, not counter!). The point of this being that we can now describe all reachable positions having the hole at the top point (the label 0 point) as those obtained from a move sequence of the form $~[0-i_1-i_2-\ldots-i_k-0]~ $ for all choices of $i_j $ between 0 and 12. However, not all these sequences give different positions and we want to determine how many distinct such positions we have. They will again form a subgroup of $S_{12} $ and the aim will be to show that this subgroup is the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M12/">sporadic simple Mathieu group</a> $M_{12} $. We will check now that $M_{12} $ is contained in this group. _Next time_ we will prove the other inclusion.</p>
+<p>Clearly, there are several different ways to label the 13 points and lines in the projective plane and unfortunately the choice of the <a href="http://arxiv.org/abs/math/0508630">Conway-Elkies-Martin paper</a> is different from that of the <a href="http://www.sebastian-egner.net/m13/">Java Applet</a>. For example, in the Applet-labeling {1,3,4,8} are on a line, whereas the paper-labeling assumes the following point/line labels</p>
+<p>$l_0 = \{ 0,1,2,3 \}, l_1= \{ 0,4,5,6 \}, l_2 = \{ 0,9,10,11 \}, l_3 = \{ 0,7,8,12 \}, l_4= \{ 1,4,8,9 \} $</p>
+<p>$l_5 = \{ 1,6,7,11 \}, l_6= \{ 1,5,10,12 \}, l_7= \{ 3,5,8,11 \}, l_8 = \{ 3,4,7,10 \} $</p>
+<p>$l_9=\{ 2,4,11,12 \}, l_{10}=\{ 2,6,8,10 \}, l_{11}=\{ 2,5,7,9 \}, l_{12} = \{ 3,6,9,12 \} $</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dictm13.gif" style="float:left;margin-right:10px;" hspace=10> We need to find a dictionary between the two labeling-systems. Again there are several options, but here is the first one I found. Relabeling the points of the Applet as on the left (also indicated is the labeling of the lines)<br />
+we get the labeling of the paper. Hence, to all CEM-paper-sequences we have to apply the <strong>dictionary</strong></p>
+<p>0(0), 1(1), 2(11), 3(5), 4(12), 5(10), 6(4), 7(8), 8(6), 9(2), 10(7), 11(3), 12(9)</p>
+<p>and use the bracketed labels to perform the sequence in the Java Applet. For example, if Conway-Elkies-Martin compute the effect of the move-sequence [0-11-7-9-8-3-0] (read from left to right) then we first have to translate this via the dictionary to the move-sequence [0-3-8-2-6-5-0]. Then, we perform this sequence in the Java-applet (note again : a basic move is indicated by the label of the point to click on NOT the counter) and record the final position.</p>
+<p>Below we depict the final positions for the three move-sequences [0-3-8-2-6-5-0], [0-9-1-2-0-5-6-12-0] and [0-1-8-0-5-4-0-1-8-0] which are our translations of the three basic move-sequences on page 9 of the CEM-paper (from left to right).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13alpha.gif"> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13beta.gif"> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13gamma.gif"></p>
+<p>This gives us three reachable positions having their hole at the top. They correspond to teh following permutations in the symmetric group $S_{12} $ (from left to right)</p>
+<p>$\alpha = (1,10,8,7,2,6,5,3,11,12,4), \beta=(1,9)(2,11)(3,7)(4,10)(5,12)(6,8) $</p>
+<p>$ \gamma=(2,6)(3,11)(5,8)(10,12) $</p>
+<p>Using <a href="http://www.gap-system.org/">GAP</a> (or the arithmetic progression loop description of $M_{12} $ as given in Chp.11 section 18 of <a href="http://www.amazon.co.uk/Sphere-Packings-Lattices-Groups-Wissenschaften/dp/0387985859/">Conway-Sloane</a> modulo relabeling ) we find that the group generated by these three elements is simple and of order 95040 and is isomorphic to the sporadic Mathieu group $M_{12} $.</p>
+<p>This corresponds to the messy part of the 15-puzzle in which we had to find enough reachable positions to generate $A_{15} $. The more conceptual part (the OXO-labeling showing that all positions must belong to $A_{15} $) also has a counterpart here. But, before we can tell that story we have to get into linear codes and in particular the properties of the _tetra-code_&#8230;</p>
+<p><strong>Reference</strong></p>
+<p>John H. Conway, Noam D. Elkies and Jeremy L. Martin &#8220;The Mathieu Group $M_{12} $ and its pseudogroup extension $M_{13} $&#8221; <a href="http://arxiv.org/abs/math/0508630">arXiv-preprint</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-mathieu-groupoid-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Conway’s puzzle M(13)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/conways-puzzle-m13/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/conways-puzzle-m13/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 16 Jun 2007 16:05:11 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blackjack]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=13</guid>
+
+					<description><![CDATA[In the series "Mathieu games" we describe some mathematical games and puzzles connected to simple groups. We will encounter Conway's M(13)-puzzle, the classic Loyd's 15-puzzle and mathematical blackjack based on Mathieu's sporadic simple group M(12).]]></description>
+										<content:encoded><![CDATA[<p>Recently, I&#8217;ve been playing with the idea of writing a book for the general public. Its title is still unclear to me (though an idea might be &#8220;The disposable science&#8221;, better suggestions are of course wellcome) but I&#8217;ve fixed the subtitle as &#8220;Mathematics&#8217; puzzling fall from grace&#8221;. The book&#8217;s concept is simple : I would consider the mathematical puzzles creating an hype over the last three centuries : the <a href="http://bd.thrijswijk.nl/15puzzle/15puzzen.htm">14-15 puzzle</a> for the 19th century, <a href="http://en.wikipedia.org/wiki/Rubik's_Cube">Rubik&#8217;s cube</a> for the 20th century and, of course, <a href="http://en.wikipedia.org/wiki/Sudoku">Sudoku</a> for the present century.</p>
+<p>For each puzzle, I would describe its origin, the mathematics involved and how it can be used to solve the puzzle and, finally, what the differing quality of these puzzles tells us about mathematics&#8217; changing standing in society over the period. Needless to say, the subtitle already gives away my point of view. The final part of the book would then be more optimistic. What kind of puzzles should we promote for mathematical thinking to have a fighting chance to survive in the near future?</p>
+<p><span id="more-13"></span></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/johnconway.jpg" style="float:left;margin-right:10px;" hspace=10 /> One of the puzzles I would propose is $M_{13} $, a sliding game first proposed by <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Horton Conway</a> in 1989 at the fourteenth New York Graph Theory Day. The analysis of the game was taken up by <a href="http://www.math.ku.edu/~jmartin/">Jeremy Martin</a> in his 1996 honors thesis in mathematics <a href="http://www.math.ku.edu/~jmartin/papers/undergrad-thesis.pdf">The Mathieu group M(12) and Conway&#8217;s M(13)-game</a> under the supervision of <a href="http://en.wikipedia.org/wiki/Noam_Elkies">Noam Elkies</a>.</p>
+<p>Two years ago, the three of them joined forces and arXived the paper <a href="http://arxiv.org/abs/math/0508630">The Mathieu group M(12) and its pseudogroup extension M(13)</a>. The game is similar to the 15-puzzle replacing the role played by the simple alternating group $A_{15} $ there with that of the sporadic simple Mathieu group $M_{12} $.</p>
+<p>The game board of $M_{13} $ is the finite projective plane $\mathbb{P}^2(\mathbb{F}_3) $ over the field with three elements $\mathbb{F}_3 $. Recall that the number of points in projective n-space over a finite field of q-elements $\mathbb{P}^n(\mathbb{F}_q)  $ is given by</p>
+<p>$ q^n + q^{n-1} + \cdots + q + 1 $</p>
+<p>Therefore, there are 13=9+3+1 points on the board and as there is a bijection between points and lines in the projective plane, there are also 13 lines on the board, each containing exactly 4=3+1 points and so each point lies on exactly 4 lines.<br />
+Moreover, two distinct points p and q determine a unique line $\overline{pq} $ and two distinct lines l and m have a unique intersection point $l \cap m = &#123; p &#125; $. Clearly it will be hard selling a projective plane board to the general public, so let us depict all this information in a more amenable form such as</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/projplane3.gif" /></p>
+<p>The 13 points are indicated by the small discs around the circle whereas the 13 lines are depicted as small strokes on the circle. All edges (both &#8216;along&#8217; as well &#8216;inside&#8217; the circle) connect a point p and a line l subject to the relation that p lies on the line l in the projective plane $\mathbb{P}^2(\mathbb{F}_3) $.</p>
+<p>The fact that two distinct points determine a unique line corresponds to the fact that for any two small-discs there is a unique small-stroke connecting both small-discs with an edge (note that one or both of these edges may lie on the circle). Similarly, for any two small-strokes the is a unique small-disc connected via edges to the two small-strokes, corresponding to the fact that two lines have a unique point in common.</p>
+<p>A typical position in Conway&#8217;s puzzle $M_{13} $ consists in placing numbered counters, labeled 1 through 12, on 12 of the 13 points leaving one point empty, called the &#8220;hole&#8221;. A basic move consists of the following operation : choose a labeled point, say, p. Then, there is a unique line l (a small-stroke) containing p and the hole and there are two more points say q and r on this line l. The basic move replaces the counters between q and r and moves the counter of p to the hole and the hole to point p. For example, consider the position on the left</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13a.gif" /> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13b.gif" /></p>
+<p>and suppose we want to move the counter 11 to the hole. Hole and 11 determine the unique line represented by the small-stroke immediately to the left of 11. This line contains the further points with counters 8 and 9. Hence, applying the basic move we get the situation on the right hand side. The aim of <strong>Conway&#8217;s game M(13)</strong> is to get the hole at the top point and all counters in order 1,2,&#8230;,12 when moving clockwise along the circle. One can play this puzzle online using the excellent <a href="http://www.sebastian-egner.net/m13/">java-applet</a> by <a href="http://www.sebastian-egner.net/">Sebastian Egner</a>.</p>
+<p>Another time we will make the connection with the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=17">Mathieu groupoid M(13)</a> and the sporadic simple Mathieu group $M_{12} $.</p>
+<p><strong>Reference</strong></p>
+<p>John H. Conway, Noam D. Elkies, and Jeremy L. Martin <a href="http://arxiv.org/abs/math/0508630">&#8220;The Mathieu group M(12) and its pseudogroup extension M(13)&#8221;</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/conways-puzzle-m13/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NeverEndingBooks-games</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-games/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-games/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 13 Jun 2007 13:55:35 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[dvonn]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://localhost/?p=9</guid>
+
+					<description><![CDATA[Here a list of pdf-files of NeverEndingBooks-posts on games, in reverse chronological order. Dvonn 2 overload LatexRender and Dvonn-boards Dvonn 1 mobility A DaVinci chess&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here a list of pdf-files of NeverEndingBooks-posts on games, in reverse chronological order.</p>
+<p><span id="more-12055"></span></p>
+<p><a href="NEBPDFS/144.pdf">Dvonn 2 overload</a></p>
+<p><a href="NEBPDFS/142.pdf">LatexRender and Dvonn-boards</a></p>
+<p><a href="NEBPDFS/141.pdf">Dvonn 1 mobility</a></p>
+<p><a href="NEBPDFS/21.pdf">A DaVinci chess problem</a></p>
+<p><a href="NEBPDFS/19.pdf">Bivalue Sudoku graphs</a></p>
+<p><a href="NEBPDFS/17.pdf">microsudoku.sty</a></p>
+<p><a href="NEBPDFS/15.pdf">A 2006 chess puzzle anyone?</a></p>
+<p><a href="NEBPDFS/12.pdf">Hints for micro-Sudoku</a></p>
+<p><a href="NEBPDFS/11.pdf">Micro-Sudoku</a></p>
+<p><a href="NEBPDFS/8.pdf">Sudoku mania (bis)</a></p>
+<p><a href="NEBPDFS/29.pdf">Sudoku mania</a></p>
+<p><a href="NEBPDFS/271.pdf">SnortGo 2</a></p>
+<p><a href="NEBPDFS/270.pdf">Quintominal dodecahedra</a></p>
+<p><a href="NEBPDFS/28.pdf">Elkies&#8217; puzzles</a></p>
+<p><a href="NEBPDFS/112.pdf">Fox and geese</a></p>
+<p><a href="NEBPDFS/111.pdf">SnortGo</a></p>
+<p><a href="NEBPDFS/103.pdf">ColGo</a></p>
+<p><a href="NEBPDFS/92.pdf">Antwerp sprouts</a></p>
+<p><a href="NEBPDFS/90.pdf">Combinatorial game software</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-games/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The best rejected proposal ever</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-best-rejected-proposal-ever/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-best-rejected-proposal-ever/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 07 Mar 2007 19:17:13 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[dessin d'enfants]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=64</guid>
+
+					<description><![CDATA[The Oscar in the category The Best Rejected Research Proposal in Mathematics (ever) goes to &#8230; Alexander Grothendieck for his proposal Esquisse d&#8217;un Programme, Grothendieck\&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/grothendieck.jpg" style="float:left;margin-right:10px;" /><br />
+The Oscar in<br />
+the category <strong>The Best Rejected Research Proposal in Mathematics<br />
+(ever)</strong>     goes to &#8230; <a href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Grothendieck.html">Alexander Grothendieck</a><br />
+for his proposal <a href="http://www.math.jussieu.fr/~leila/grothendieckcircle/EsquisseFr.pdf">Esquisse d&#8217;un Programme</a>, Grothendieck\&#8217;s research program from 1983, written as<br />
+part of his application for a position at the CNRS, the French<br />
+equivalent of the NSF.  An English translation is<br />
+<a href="http://www.math.jussieu.fr/~leila/grothendieckcircle/EsquisseEng.pdf">available</a>.</p>
+<p>Here is one of the problems discussed :<br />
+  <strong>Give TWO non-trivial elements of<br />
+$Gal(\overline{\mathbb{Q}}/\mathbb{Q}) $</strong>  the _absolute_<br />
+Galois group of the algebraic closure of the rational numbers<br />
+$\overline{\mathbb{Q}} $, that is the group of all<br />
+$\mathbb{Q} $-automorphisms of $\overline{\mathbb{Q}} $. One element<br />
+most of us can give (complex-conjugation) but to find any other<br />
+element turns out to be an extremely difficult task.</p>
+<p>To get a handle on<br />
+this problem, Grothendieck introduced his _&#8217;Dessins d&#8217;enfants&#8217;_<br />
+(Children&#8217;s drawings).  Recall from <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=62">last session</a> the pictures of the<br />
+left and right handed Monsieur Mathieu</p>
+<p><img
+src="https://lievenlebruyn.github.io/neverendingbooks/DATA/twomathieus.jpg"  /></p>
+<p>The left hand side drawing was associated to a map<br />
+$\mathbb{P}^1_{\mathbb{C}} \rightarrow \mathbb{P}^1_{\mathbb{C}} $ which was<br />
+defined over the field $\mathbb{Q} \sqrt{-11} $ whereas the right side<br />
+drawing was associated to the map given when one applies to all<br />
+coefficients the unique non-trivial automorphism in  the Galois group<br />
+$Gal(\mathbb{Q}\sqrt{-11}/\mathbb{Q}) $ (which is<br />
+complex-conjugation). Hence, the Galois group<br />
+$Gal(\mathbb{Q}\sqrt{-11}/\mathbb{Q}) $ acts _faithfully_ on the<br />
+drawings associated to maps $\mathbb{P}^1_{\mathbb{Q}\sqrt{-11}} \rightarrow<br />
+\mathbb{P}^1_{\mathbb{Q}\sqrt{-11}} $ which are ramified only over<br />
+the points $&#123; 0,1,\infty &#125; $.</p>
+<p>Grothendieck&#8217;s idea was to<br />
+extend this to more general maps. Assume that a projective smooth curve<br />
+(a Riemann surface) X is defined over the algebraic numbers<br />
+$\overline{\mathbb{Q}} $ and <strong>assume</strong> that there is a map  $X<br />
+\rightarrow \mathbb{P}^1_{\mathbb{C}} $  ramified only over the points<br />
+$&#123; 0,1,\infty &#125; $, then we can repeat the procedure of last time and<br />
+draw a picture on X consisting of d edges (where d is the degree<br />
+of the map, that is the number of points lying over another point of<br />
+$\mathbb{P}^1_{\mathbb{C}} $) between white resp. black points (the<br />
+points of X lying over 1 (resp. over 0)).</p>
+<p>Call such a drawing a<br />
+<strong>&#8216;dessin d\&#8217;enfant&#8217;</strong> and look at the collection of ALL dessins<br />
+d&#8217;enfants associated to ALL such maps where X runs over ALL curves<br />
+defined over $\overline{\mathbb{Q}} $. On this set, there is an action<br />
+of the <strong>absolute Galois group</strong><br />
+$Gal(\overline{\mathbb{Q}}/\mathbb{Q}) $ and if this action would be<br />
+faithful, then this would give us insight into this<br />
+group.  However, at that time even the existence of a map $X \rightarrow<br />
+\mathbb{P}^1 $ ramified in the three points $&#123; 0,1,\infty &#125; $<br />
+seemed troublesome to prove, as Grothendieck recalls in his proposal</p>
+<blockquote><p> In more erudite terms, could it be true that<br />
+every projective  non-singular algebraic curve defined over a number<br />
+field occurs as a possible ‚ modular curve‚ parametrising<br />
+elliptic curves equipped with a suitable  rigidification? Such a<br />
+supposition seemed so crazy that I was almost embarrassed to submit<br />
+it to the competent people in the domain. Deligne  when I consulted<br />
+him found it crazy indeed, but didn&#8217;t have any counterexample up<br />
+his sleeve. Less than a year later, at the International Congress  in<br />
+Helsinki, the Soviet mathematician Bielyi announced exactly that result,<br />
+ with a proof of disconcerting simplicity which fit into two little<br />
+pages of a  letter of Deligne ‚ never, without a doubt, was such a<br />
+deep and disconcerting  result proved in so few lines! <br />
+In<br />
+the form in which Bielyi states it, his result essentially says that<br />
+ every algebraic curve defined over a number field can be obtained as<br />
+a  covering of the projective line ramified only over the points 0,<br />
+1 and infinity. This result seems to have remained more or less<br />
+unobserved. Yet, it appears  to me to have considerable importance. To<br />
+me, its essential message is  that there is a profound identity<br />
+between the combinatorics of finite maps  on the one hand, and the<br />
+geometry of algebraic curves defined over number fields on the<br />
+other. This deep result, together with the algebraic-  geometric<br />
+interpretation of maps, opens the door onto a new, unexplored  world within reach of all, who pass by without seeing it.
+ </p></blockquote>
+<p>Belyi&#8217;s proof is indeed relatively easy<br />
+(full details can be found in the paper <a href="http://www.math.jussieu.fr/~leila/Fschneps.pdf">Dessins d&#8217;enfants on the<br />
+Riemann sphere</a> by Leila<br />
+Schneps). Roughly it goes as follows : as both X and the map are<br />
+defined over $\overline{\mathbb{Q}} $ the map is only ramified over<br />
+(finitely many) $\overline{\mathbb{Q}} $-points. Let S be the finite<br />
+set of all Galois-conjugates of these points and consider the polynomial</p>
+<p>$f_0(z_0) = \prod_{s \in S} (z_0 -s) \in<br />
+\mathbb{Q}[z_0] $</p>
+<p>Now, do a<br />
+<a href="http://en.wikipedia.org/wiki/Resultant">resultant</a> trick. Consider the<br />
+polynomial  $f_1(z_1) = Res_{z_0}(\frac{d f_0}{d<br />
+z_0},f_0(z_0)-z_1) $  then the roots of $f_1(z_1) $ are exactly the<br />
+finite critical values of $f_0 $, $f_1 $ is again defined over<br />
+$\mathbb{Q} $ and has lower degree (in $z_1 $) than $f_0 $ in $z_1 $.<br />
+Continue this trick a finite number of times untill you have constructed<br />
+a polynomial $f_n(z_n) \in \mathbb{Q}[z_n] $ of degree zero.</p>
+<p>Composing<br />
+the original map with the maps $f_j $ in succession yields that all<br />
+ramified points of this composition are<br />
+$\mathbb{Q} $-points!  Now, we only have to limit the number of<br />
+these ramified $\mathbb{Q} $-points (let us call this set T) to three.</p>
+<p>Take any three elements of T, then there always exist integers $m,n<br />
+\in \mathbb{Z} $ such that the three points go under a linear<br />
+fractional transformation (a Moebius-function associated to a matrix in<br />
+$PGL_2(\mathbb{Q}) $) to $&#123; 0,\frac{m}{m+n},1 &#125; $. Under the<br />
+transformation  $z \rightarrow \frac{(m+n)^{m+n}}{m^m<br />
+n^n}z^m(1-z)^n $  the points 0 and 1 go to 0 and<br />
+$\frac{m}{m+n} $ goes to 1 whence the ramified points of the<br />
+composition are one less in number than T. Continuing in this way we<br />
+can get the set of ramified $\mathbb{Q} $-points of a composition at<br />
+most having three elements and then a final Moebius transformation gets<br />
+them to $&#123; 0,1,\infty &#125; $, done!</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleincolour.jpg" style="float:left;margin-right:10px;" /> As a tribute for this clever<br />
+argument, maps $X \rightarrow \mathbb{P}^1 $ ramified only in 0,1 and<br />
+$\infty $ are now called <strong>Belyi morphisms</strong>.  Here is an example of<br />
+a Belyi-morphism (and the corresponding dessin d&#8217;enfants) associated to<br />
+one of the most famous higher genus curves around : the <a href="http://math.ucr.edu/home/baez/klein.html">Klein<br />
+quartic</a> (if you haven&#8217;t done<br />
+so yet, take your time to go through this marvelous pre-blog post by<br />
+John Baez).</p>
+<p>One can define the Klein quartic as the plane projective<br />
+curve K with defining equation in<br />
+$\mathbb{P}^2_{\\mathbb{C}} $ given by   $X^3Y+Y^3Z+Z^3X = 0 $  K has<br />
+a large group of automorphism, namely the simple group of order<br />
+168  $G = PSL_2(\mathbb{F}_7) =<br />
+SL_3(\mathbb{F}_2) $  It is a classical fact (see for example<br />
+the excellent paper by Noam Elkies <a href="http://www.msri.org/publications/books/Book35/files/elkies.pdf">The Klein quartic in number theory</a>) that the quotient map  $K \rightarrow K/G =<br />
+\mathbb{P}^1_{\mathbb{C}} $  is ramified only in the points<br />
+0,1728 and $\infty $ and the number of points of K lying over them<br />
+are resp. 56, 84 and 24. Now, compose this map with the Moebius<br />
+transormation taking $&#123; 0,1728,\infty &#125; \rightarrow &#123; 0,1,\infty &#125; $<br />
+then the resulting map is a Belyi-map for the Klein quartic.  A<br />
+topological construction of the Klein quartic is fitting 24 heptagons<br />
+together so that three meet in each vertex, see below for the gluing<br />
+data-picture in the hyperbolic plane : the different heptagons are given<br />
+a number but they appear several times telling how they must fit<br />
+together)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleinhepto.jpg" /></p>
+<p>The resulting figure has exactly $\frac{7 \times 24}{2} =<br />
+84 $ edges and the 84 points of K lying over 1 (the white points in<br />
+the dessin) correspond to the midpoints of the edges. There are exactly<br />
+$\frac{7 \times 24}{3}=56 $ vertices corresponding to the 56 points<br />
+lying over 0 (the black points in the dessin). Hence, the dessin<br />
+d\&#8217;enfant associated to the Klein quartic is the figure traced out by<br />
+the edges on K.   Giving each of the 168 half-edges a<br />
+different number one assigns to the white points a permutation of order<br />
+two and to the three-valent black-points a permutation of order three,<br />
+whence to the Belyi map of the Klein quartic corresponds a<br />
+168-dimensional permutation representation of $SL_2(\mathbb{Z}) $,<br />
+which is not so surprising as the group of automorphisms is<br />
+$PSL_2(\mathbb{F}_7) $ and the permutation representation is just the<br />
+regular representation of this group.</p>
+<p>Next time we will see how<br />
+one can always associate to a curve defined over<br />
+$\overline{\mathbb{Q}} $ a permutation representation (via the Belyi<br />
+map and its dessin) of one of the congruence subgroups $\Gamma(2) $ or<br />
+$\Gamma_0(2) $ or of $SL_2(\mathbb{Z}) $ itself.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-best-rejected-proposal-ever/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>a Da Vinci chess problem</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-da-vinci-chess-problem/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-da-vinci-chess-problem/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 30 Dec 2005 13:04:38 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=210</guid>
+
+					<description><![CDATA[2005 was the year that the DaVinci code craze hit Belgium. (I started reading Dan Brown&#8217;s Digital Fortress and Angels and Demons a year before&#8230;]]></description>
+										<content:encoded><![CDATA[<p>2005<br />
+was the year that <a href="http://www.randomhouse.com/doubleday/davinci/">the DaVinci code</a> craze hit Belgium. (I started reading Dan Brown&#8217;s<br />
+<a href="http://math.cofc.edu/faculty/kasman/MATHFICT/mfview.php?callnumber=mf340">Digital Fortress</a> and <a href="http://www.angelsanddemons.it/">Angels and Demons</a> a year<br />
+before on the way back from a Warwick conference and when I read DVC a<br />
+few months later it was an anti-climax&#8230;). Anyway, what better way<br />
+to end 2005 than with a fitting chess problem, composed by <a href="http://www.math.harvard.edu/~elkies/">Noam Elkies</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/elkieschess1.jpg"  > The problem is to give an infinite sequence<br />
+of numbers, the n-th term of the sequence being the number of ways White<br />
+can force checkmate in exactly n moves. With the DVC-hint given, clearly<br />
+only one series can be the solution&#8230; To prove it, note that<br />
+White&#8217;s only non-checkmating moves are with the Bishop traveling<br />
+along the path (g1,h2,g3,h4) and use symmetry to prove that the number<br />
+of paths of length exactly k starting from h2 is the same as those<br />
+starting from g3&#8230;</p>
+<p>If that one was too easy for you,<br />
+consider the same problem for the position</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/elkieschess2.jpg"  ></p>
+<p>Here the solution are the 2-powers of those<br />
+of the first problem. The proof essentially is that White has now two<br />
+ways to deliver checkmate : Na6 and Nd7&#8230; For the solutions and<br />
+more interesting chess-problems consult Noam Elkies&#8217; excellent<br />
+paper <a href="http://arxiv.org/abs/math/0508645">New directions in<br />
+enumerative chess problems</a>. Remains the problem which sequences can<br />
+arise on an $N \\times N$ board with an infinite supply of chess<br />
+pieces!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-da-vinci-chess-problem/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>a 2006 chess puzzle anyone?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-2006-chess-puzzle-anyone/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-2006-chess-puzzle-anyone/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 20 Dec 2005 17:31:23 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=172</guid>
+
+					<description><![CDATA[Noam Elkies is one of those persons I seem to bump into (figuratively speaking) wherever my interests take me. At the moment I&#8217;m reading (long&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.math.harvard.edu/~elkies/">Noam Elkies</a> is one of<br />
+those persons I seem to bump into (figuratively speaking) wherever my<br />
+interests take me. At the moment I&#8217;m reading (long overdue, I<br />
+know, I know) the excellent book <a href="http://www.maths.mq.edu.au/~alf/NotesonFLT.html">Notes on<br />
+Fermat&#8217;s Last Theorem</a> by <a href="http://www.maths.mq.edu.au/~alf/realalf.html">Alf Van der<br />
+Poorten</a>. On page 48, Elkies figures as an innocent bystander in the<br />
+1994 April fools joke e-perpetrated by <a href="http://www.science.ca/scientists/scientistprofile.php?pID=357"><br />
+Henri Darmon</a> in the midst of all confusion about &#8216;the<br />
+gap&#8217; in Wiles&#8217; proof.</p>
+<blockquote><p> There has<br />
+been a really amazing development today on Fermat&#8217;s Last Theorem.<br />
+Noam Elkies has announced a counterexample, so that FLT is not true<br />
+after all! He spoke about this at the institute today. The solution to<br />
+Fermat that he constructs involves an incredibly large prime exponent<br />
+(larger than $10^{20}$), but it is constructive. The main idea seems to<br />
+be a kind of Heegner-point construction, combined with a really<br />
+ingenious descent for passing from the modular curves to the Fermat<br />
+curve. The really difficult part of the argument seems to be to show<br />
+that the field of definition of the solution (which, a priori, is some<br />
+ring class field of an imaginary quadratic field) actually descends to<br />
+$\\mathbb{Q}$. I wasn&#8217;t able to get all the details, which were<br />
+quite intricate&#8230; </p></blockquote>
+<p>Elkies is also an<br />
+excellent composer of chess problems. The next two problems he composed<br />
+as New Year&#8217;s greetings. The problem is : &#8220;How many shortest<br />
+sequences exists (with only white playing) to reach the given<br />
+position?&#8221;</p>
+<p> $\\begin{position}<br />
+\\White(Kb5,Qd1,Rb1,Rh1,Nc3,Ne5,Bc1,Bf1,a2,b2,c4,d2,e2,f3,g3,h2)<br />
+\\end{position}{\\font\\mathbb{C}hess=chess10 \\showboard<br />
+}xc $ </p>
+<p>Here&#8217;s Elkies&#8217; solution<br />
+:</p>
+<p> There are 2004 sequences of the minimal length 12.<br />
+Each consists of the sin-  gle move g3, the 3-move sequence<br />
+c4,Nc3,Rb1, and one of the three 8-move sequences<br />
+ Nf3,Ne5,f3,Kf2,Ke3,Kd3(d4),Kc4(c5),Kb5. The move g3 may be played at<br />
+any point, and  so contributes a factor of 12. If the King goes<br />
+through c5 then the 3- and 8-move sequences  are independent, and can<br />
+be played in $\\binom{11}{3}$ orders. If the King goes through c4 then<br />
+the  entire 8-move sequence must be played before the 3-move sequence<br />
+begins, so there are  only two possibilities, depending on the choice<br />
+of Kd3 or Kd4. Hence the total count is $12(\\binom{11}{3}+2)=2004$ as<br />
+claimed. </p>
+<p>A year later he composed the<br />
+problem</p>
+<p> $\\begin{position}<br />
+\\White(Kh3,Qe4,Rc2,Rh1,Na4,Ng1,Bc1,Bf1,a2,b2,c3,d3,e2,f4,g2,h2)<br />
+\\end{position}{\\font\\mathbb{C}hess=chess10 \\showboard<br />
+}xd $ </p>
+<p>of which Elkies&#8217; solution is<br />
+:</p>
+<p> There are 2005 sequences of the minimal length 14.<br />
+This uses the  happy coincidence $\\binom{14}{4}=1001$. Here White<br />
+plays the 4-move sequence f4,Kf2,Kg3,Kh3  and one of the five<br />
+sequences Nc3,Na4,c3,Qc2,Qe4,d3,Bd2(e3,f4,g5,h6),Rc1,Rc2,Bc1 of<br />
+ length 10. If the Bishop goes to d2 or e3, the sequences are<br />
+independent, and can be  played in $\\binom{14}{4}$ orders. Otherwise<br />
+the Bishop must return to c1 before White plays f4, so  the entire<br />
+10-move sequence must be played before the 4-move sequence begins. Hence<br />
+ the total count is $2 \\binom{14}{4}+3 =<br />
+2005$. </p>
+<p>With just a few weeks remaining, anyone in for<br />
+a 2006 puzzle?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-2006-chess-puzzle-anyone/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the Klein stack</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-klein-stack/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-klein-stack/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 15 Jun 2005 10:40:13 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=322</guid>
+
+					<description><![CDATA[Klein&#8217;s quartic $X$is the smooth plane projective curve defined by $x^3y+y^3z+z^3x=0$ and is one of the most remarkable mathematical objects around. For example, it is&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Klein&#8217;s<br />
+quartic $X$is the smooth plane projective curve defined by<br />
+$x^3y+y^3z+z^3x=0$ and is one of the most remarkable mathematical<br />
+objects around. For example, it is a Hurwitz curve meaning that the<br />
+finite group of symmetries (when the genus is at least two this group<br />
+can have at most $84(g-1)$ elements) is as large as possible, which in<br />
+the case of the quartic is $168$ and the group itself is the unique<br />
+simple group of that order, $G = PSL_2(\mathbb{F}_7)$ also known as<br />
+Klein\&#8217;s group.      John Baez has written a [beautiful page](http://math.ucr.edu/home/baez/klein.html) on the Klein quartic and<br />
+its symmetries. Another useful source of information is a paper by Noam<br />
+Elkies [The Klein quartic in number theory](www.msri.org/publications/books/Book35/files/elkies.pd).<br />
+The quotient map $X \rightarrow X/G \simeq \mathbb{P}^1$ has three<br />
+branch points of orders $2,3,7$ in the points on $\mathbb{P}^1$ with<br />
+coordinates $1728,0,\infty$. These points correspond to the three<br />
+non-free $G$-orbits consisting resp. of $84,56$ and $24$ points.<br />
+Now, remove from $X$ a couple of $G$-orbits to obtain an affine open<br />
+subset $Y$ such that $G$ acts on its cordinate ring $\mathbb{C}[Y]$ and<br />
+form the Klein stack (or hereditary order) $\mathbb{C}[Y] \bigstar G$,<br />
+the skew group algebra. In case the open subset $Y$ contains all<br />
+non-free orbits, the [one quiver](lievenlb.local/master/coursenotes/onequiver.pdf) of this<br />
+qurve has the following shape      $\xymatrix{\vtx{} \ar@/^/[dd] \\<br />
+\\ \vtx{} \ar@/^/[uu]} $    $\xymatrix{&#038; \vtx{} \ar[ddl] &#038; \\<br />
+&#038; &#038; \\ \vtx{} \ar[rr] &#038; &#038; \vtx{} \ar[uul]} $   $\xymatrix{&#038; &#038;<br />
+\vtx{} \ar[dll] &#038; &#038; \\ \vtx{} \ar[d] &#038; &#038; &#038; &#038; \vtx{} \ar[ull] \\ \vtx{}<br />
+\ar[dr] &#038; &#038; &#038; &#038; \vtx{} \ar[u] \\ &#038; \vtx{} \ar[rr] &#038; &#038; \vtx{} \ar[ur]<br />
+&#038;} $      Here, the three components correspond to the three<br />
+non-free orbits and the vertices correspond to the isoclasses of simple<br />
+$\mathbb{C}[Y] \bigstar G$ of dimension smaller than $168$. There are<br />
+two such of dimension $84$, three of dimension $56$ and seven of<br />
+dimension $24$ which I gave the non-imaginative names \&#8217;twins\&#8217;,<br />
+\&#8217;trinity\&#8217; and \&#8217;the dwarfs\&#8217;.      As we want to spice up later this<br />
+Klein stack to a larger group, we need to know the structure of these<br />
+exceptional simples as $G$-representations. Surely, someone must have<br />
+written a paper on the general problem of finding the $G$-structure of<br />
+simples of skew-group algebras $A \bigstar G$, so if you know a<br />
+reference please let me know. I used an old paper by Idun Reiten and<br />
+Christine Riedtmann to do this case (which is easier as the stabilizer<br />
+subgroups are cyclic and hence the induced representations of their<br />
+one-dimensionals correspond to the exceptional simples).  </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-klein-stack/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Elkies’ puzzles</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/elkies-puzzles/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/elkies-puzzles/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 24 Nov 2004 13:34:12 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=217</guid>
+
+					<description><![CDATA[Noam D. Elkies is a Harvard mathematician whose main research interests have to do with lattices and elliptic curves. He is also a very talented&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/elkies.jpg" style="float:left;margin-right:10px;" />   <a href="http://www.math.harvard.edu/~elkies/">Noam D. Elkies</a> is a<br />
+Harvard mathematician whose main research interests have to do with<br />
+lattices and elliptic curves. He is also a very talented composer of<br />
+chess problems. The problem to teh left is a <a href="http://www.janko.at/Retros/Glossary/ProofGame.htm">proof game</a><br />
+in 14 moves. That is, find the UNIQUE legal chess game leading to the<br />
+given situation after the 14th move by black. Elkies has also written a<br />
+beautiful paper <a href="http://www.math.harvard.edu/~elkies/papers/onae.ps.gz">On Numbers<br />
+and Endgames</a> applying combinatorial game theory (a la Winning<br />
+Ways!) to chess-endgames (mutual Zugzwang positions correspond to zero<br />
+positions) and a follow-up article <a href="http://xxx.lanl.gov/abs/math.CO/0011253">Higher Nimbers in pawn<br />
+endgames on large chessboards</a>. Together with <a href="http://www-math.mit.edu/~rstan/">Richard Stanley</a> he wrote a<br />
+paper for the Mathematical Intelligencer called <a href="http://www.math.harvard.edu/~elkies/knight.pdf">The Mathematical<br />
+Knight</a> which is stuffed with chess problems! But perhaps most<br />
+surprising is that he managed to run his own course on <a href="http://abel.math.harvard.edu/~elkies/FS23j.04/">Chess and<br />
+Mathematics</a>! </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/elkies-puzzles/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

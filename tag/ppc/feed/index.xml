@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>PPC &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/ppc/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 09 Jun 2007 16:52:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>bloomsday end</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/bloomsday-end/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/bloomsday-end/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 09 Jun 2007 16:52:30 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[PPC]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=176</guid>
+
+					<description><![CDATA[From time to time you may see here a message that NeverEndingBooks ends on Bloomsday (June 16th). Soon after, I hope to restart with another&#8230;]]></description>
+										<content:encoded><![CDATA[<p>From time to time you may see here a message that NeverEndingBooks ends on Bloomsday (June 16th). Soon after, I hope to restart with another blog at the same URL. For starters, Neverendingbooks refers to my never-ending bookproject on noncommutative geometry started in 1999, a millenium ago&#8230; Today I\&#8217;m correcting the proofs and have even seen the cover-design of the book, supposed to be published in the fall. So, it should be really EndingBook(s), finally. From time to time it is good to start afresh. The next project is still pretty vague to me but it will be a lot more focussed and center around topics like Moonshine, the Monster, the Mathieu groups, Modular forms and group etc. Suggestions for a blogtitle are welcome (M-theory is already taken&#8230;). Besides there are technical problems with the machine running the blog, a new one is expected around June 16th. As I will not be able to clone between the two (one PPC, the new one Intel) I decided to start again from scratch. Anyway, Ive made a database-dump of NeverEndingBooks and will make it available to anyone interested in reading old posts (even the ones with a private-status). Finally, there are other reasons, better kept private. Give me a couple of weeks to resurface. For now, all the best.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bloomsday-end/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mathML and work ahead</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 08 Feb 2007 09:36:55 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[dvonn]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[PPC]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=204</guid>
+
+					<description><![CDATA[It has been a difficult design decision, but I‚Äôm going to replace the LaTeXRender WordPress Plugin for mathML as the default TeX-interface for NeverEndingBooks. I&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It has<br />
+been a difficult design decision, but I‚Äôm going to replace the <a href="http://www.sixthform.info/steve/wordpress/">LaTeXRender WordPress<br />
+Plugin</a> for <a href="http://www.w3.org/Math/">mathML</a> as the<br />
+default TeX-interface for NeverEndingBooks. I will keep LaTeXRender on<br />
+standby as I may have to use exotic packages or commands that iTeX does<br />
+not deliver, but for most math-related posts, MathML will do the job<br />
+nicely (as <a href="http://golem.ph.utexas.edu/category/">the n-category<br />
+cafe</a> shows every day (or even more often)). Not that I stopped being<br />
+a dilettante but I&#8217;m going to do most of my writings (including<br />
+blog-posts) using <a href="http://www.literatureandlatte.com/">Scrivener</a> (more on this<br />
+another time) and Scrivener supports <a href="http://fletcher.freeshell.org/wiki/MultiMarkdown">MultiMarkdown</a> and allows exporting to LaTeX and XHTML (using MathML).</p>
+</p>
+<p>I could never have pulled this off in such a short time without <a href="http://golem.ph.utexas.edu/~distler/blog/">Jacques Distler</a><br />
+more or less on constant stand-by (thanks Jacques!). Looking at the<br />
+times his emails were send I have no idea in which time zone he lives<br />
+(let alone sleeps&#8230;). So, here a walk-through the changes :</p>
+<p>As<br />
+I&#8217;m on WP 2.0.5 I&#8217;ll start with Frederick&#8217; <a href="http://www.ibiblio.org/litlfred/mathBlog/projects/itextomml">post</a>. He tells me I have to install first the itex2MML binary as<br />
+explained <a href="http://golem.ph.utexas.edu/~distler/blog/archives/000367.html">by<br />
+Jacques</a> but I find that there is more recent <a href="http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html"><br />
+material</a> and therefore download the most recent imath2MML-package<br />
+and follow the readme. There is a Mac OSX binary but it&#8217;s not clear<br />
+for what processor (PPC/Intel/Binary) but a quick mail to Jacques learns<br />
+me that it&#8217;s PPC which is fine by me but on the spot he puts a<br />
+universal binary online, so whatever your Mac is you can just download<br />
+the binary, copy it to /usr/local/bin and make sure its chmodded<br />
+755.</p>
+<p>Back to Frederick&#8217;s <a href="http://www.ibiblio.org/litlfred/mathBlog/projects/itextomml">post</a>, download and install the plugin itexToMML.php in the usual way<br />
+(fortunately I spot just in time that I have to change one line saying<br />
+where my itex2MML binary is (in Frederick&#8217;s file it is NOT the default<br />
+location)). You can verify whether the plugin and itex2MML do what they<br />
+are supposed to do by typing a LaTeX-command in a post and save it. The<br />
+output will not produce the desired formula but have a look at the<br />
+source file and see whether there is some mathML code in it. If so,<br />
+fine! If not, go back and check everything.</p>
+<p>If this works, it is<br />
+&#8220;merely&#8221; a problem of getting your mathML served. Frederick suggests<br />
+to unpack wordpress_mathML.zip in the wp-includes directory (but you<br />
+better make sure you have made a copy of the original class.php and<br />
+functions-formatting.php files. In the end I decided against this<br />
+approach (that is, to replace only the functions-formatting.php but NOT<br />
+the class.php file). If you have two or more themes you want to<br />
+maintain, it is probably better to change the headers (because this is<br />
+what we have to do to get mathML served) only in those themes which are<br />
+XML-sound. In my case, the Command Line Interface theme most certainly is NOT!!!).</p>
+<p>Go to your<br />
+theme-files and look for the header.php (or similar) file and replace<br />
+the default header by the code in the addendum to <a href="http://golem.ph.utexas.edu/~distler/blog/archives/000367.html"><br />
+this post</a> within php-tags. If you can go to your blog-page then you<br />
+are in good shape and things should work well (apart possibly from<br />
+layout considerations, see below). Of course, in my case i was greeted<br />
+by &#8221; XML &#8220;yellow screen of death&#8221; (as Jacques calls<br />
+it) and I was convinced I did something wrong, so I tried out several<br />
+useless things for a couple of hours before it dawned on me that the<br />
+reason might just be that my blog-files were not valid XHTML (and the<br />
+new headers are very demanding on serving only well-form XHTML). I had<br />
+to modify all changes I made to sidebars etc. as well as rewrite parts<br />
+of my first posts (I used to take a rather liberal view on writing<br />
+blog-posts, writing a mixture between Markdown and improvised HTML and<br />
+in the process was very lax about closing IMG-tags and the likes).<br />
+But after some time and numerous corrections to the files I got the<br />
+main-page up and running (and even had the mathML served as a readable<br />
+formula) apart from the fact that I barely recognized my own site.</p>
+<p>I printed out source files of the page with and without changed<br />
+headers and couldn‚Äôt find a difference. So, it had to do with the<br />
+CSS-style files, but why on earth would the new headers be picky about<br />
+CSS? But as a last resort, after narrowing the search down to one<br />
+CSS-line, I asked Jacques whether he had an idea what went on. His reply<br />
+will be remembered for quite some time :</p>
+<blockquote><p>A fascinating<br />
+question.  The answer is that it *is* following the CSS directive, but<br />
+in XHTML, &#8216;body&#8217; is not what you think it is.  &#8216;body&#8217; is just big enough<br />
+to contain its content. It does not fill the viewport. &#8216;html&#8217; fills the<br />
+viewport.  The solution (a solution) is described in<br />
+http://golem.ph.utexas.edu/~distler/blog/archives/000203.html
+</p></blockquote>
+<p>Many hours later, I still haven‚Äôt got a clue what<br />
+this is all about, but I blindly followed the hint and surely all<br />
+problems vanished. In short, another day wasted in front of a<br />
+computer-screen.</p>
+<p>At the moment I&#8217;m back to old headers and<br />
+will not be writing mathML for some time as I have the vast job ahead to<br />
+validate all my previous posts to XHTML-standards (if not you would see<br />
+more yellows screens of death than anything else. So, here‚Äôs the<br />
+strategy I&#8217;ll be taking in the weeks ahead (I&#8217;ll sleep on it tonight<br />
+so if any of you think there is a better way, reply quickly)</p>
+<ul>
+<li>rewrite each and every post in proper MultiMarkdown using iTeX for<br />
+the most common math and only resorting to LaTeXRender for exotic things<br />
+(such as Sudoku, Chess, Dvonn) and run these posts through Markdown<br />
+(to get basic HTML and all links in place).</li>
+<li>download these<br />
+files to the WP-database (so that in the CLI-interface you will be able<br />
+to follow all links, but will read all iTeX as TeX-commands (as the<br />
+command line intended after all).</li>
+<li>in the process change all<br />
+broken links to the default permalink-structure (with index.php?p=231 or<br />
+so).</li>
+</ul>
+<p>Clearly, this is a work that will take a couple of<br />
+weeks but it may be fun to reread these old posts and possibly add new<br />
+information about the subjects. When I‚Äôm making these changes, I‚Äôll<br />
+use the new headers so if you are using a smart browser look out for the<br />
+yellow screens. When they happen, either use a dumb browser (such as<br />
+Safari) or go into CLI-interface mode where everything should still<br />
+work. I plan to start with the oldest posts as this seems more fun to<br />
+me.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>command line interface</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/command-line-interface/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/command-line-interface/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 07 Feb 2007 08:43:21 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[PPC]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=228</guid>
+
+					<description><![CDATA[Way back in 1999 I read Neal Stephenson&#8217;s pamphlet In the Beginning ! Was the Command Line and decided I should and would have Linux&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Way<br />
+back in 1999 I read Neal Stephenson&#8217;s pamphlet <a href="http://www.amazon.co.uk/Beginning-Was-Command-Line-Neal-Stephenson/dp/0380815931/sr=8-11/qid=1170864554/ref=pd_ka_11/203-3776750-7074362?ie=UTF8&amp;s=books">In the Beginning ! Was the Command Line</a> and<br />
+decided I should and would have Linux running on my clamshell iBook.<br />
+Needless to say this was (a) a foolish idea and (b) not entirely trivial<br />
+in those dark OS 9-days. Still, I somehow managed with the help op <a href="http://lowendmac.com/ppclinux/index.html">PPC Linux</a> and was<br />
+proudly wearing their T-shirt (at least for a couple of weeks in early<br />
+2000). Fortunately, as a <a href="http://www.kernelthread.com/mac/osx/history.html">brief OS X<br />
+history</a> recalls, OS X was released March 24, 2001 and put an end to<br />
+my Linux-folly and I&#8217;m pretty certain even Neal Stephenson is on Mac OSX<br />
+these days.</p>
+<p>Needless to say I couldn&#8217;t resist installing the <a href="http://themes.wordpress.net/columns/1-column/1418/cli-10/"><br />
+Wordpress CLI-theme</a> the moment I spotted it! A command line<br />
+interface to your blog! awesome! If you want to have a go at the<br />
+original version, take a look at <a href="http://blog.elinc.ca/rodcli/index.php">Rod McFarland&#8217;s blog</a>.<br />
+Just type &#8216;ls&#8217; to the prompt and you&#8217;ll be hooked. Or you can have a<br />
+look at the command line interface of NeverEndingBooks by going to the<br />
+left sidebar and clicking CLI under the &#8216;Command Line Version&#8217; header<br />
+(don&#8217;t be afraid you can always come back by clicking on the<br />
+GUI-interface over there). My design is black on a light-gray background<br />
+and is no where near as cool as the original theme but it was the only<br />
+quick way around some limitations of the CLI-theme.</p>
+<p>The<br />
+CLI-theme operates as a front-end via a small interpreter which draws<br />
+the information directly from the WordPress-database. As a result you<br />
+loose the effect of all post-processing by plugins such as <a href="http://www.michelf.com/projects/php-markdown/">Markdown</a> and <a href="http://www.sixthform.info/steve/wordpress/">LatexRender</a> two of<br />
+the plugins I use most! I could still live with the idea that pure LaTeX<br />
+was served to a CLI-environment between tex-tags, but surely I didn&#8217;t<br />
+want to loose all my links! The quick (and extremely dirty) way around<br />
+it was to resubmit the relevant part of the HTML-source files of the<br />
+GUI-frontend posts to the WP-database. And to serve the same LaTeX-gifs<br />
+to the GUI and CLI interface I needed the backgound to be rather light<br />
+gray (taking #BDBDBD gray would have been much nicer wrt. the cool<br />
+rasterized grayed-images but then some of the more recent LaTeX-gifs<br />
+became partially unreadable). Oh, and in the process I had to update the<br />
+permalink structure, thereby wrecking allmost all internal<br />
+reference-links (but I&#8217;ll sort them out soon, I promise). </p>
+<p>So, a<br />
+lot of work for a rather meagre result. What do I like about the<br />
+CLI-interface (apart from old time nostalgia)? I really like the<br />
+searching facility. Just type &#8216;search yourword&#8217; to the prompt and it<br />
+will give you all posts containing that word (much quicker than in the<br />
+GUI-interface) and if you remember at least one word from a post-title,<br />
+feeding it to the prompt will give you the entire post (or a list of<br />
+posts if the same word appears in different posts). Try out typing<br />
+&#8216;Perelman&#8217; to see what I mean. Besides, bots don&#8217;t seem to know what to<br />
+do with the CLI-interface so for the few days I had this theme as my<br />
+default theme I was alone on NeverEndingBooks mast of the time (which<br />
+helped a lot having to change that many posts). So, whenever I want to<br />
+have the site to myself I&#8217;ll just change the default theme from now<br />
+on.</p>
+<p>Still, I did put back the old GUI as default because the<br />
+CLI-theme still has a few drawbacks. Such as, it is impossible to write<br />
+a sizable comment (not that too many of you do this, but anyway) and<br />
+some other quirks. Still Rod McFarland is working on a version 2 (and<br />
+even set up a <a href="http://code.google.com/p/wordpress-cli/">google-group</a> for<br />
+those who want to code along, and maybe I&#8217;ll join the effort) which<br />
+promises a great improvement and I&#8217;m rather confident that by version<br />
+3.14 it will be in a state that I&#8217;ll have the CLI-interface as my<br />
+default. Until then, I&#8217;ll keep up the two front-ends and allow you to<br />
+toggle as you like (your browser will remember your preference).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/commandline.jpg"></img></p>
+<p>I realize most of you are youngsters and not of my cpu2<br />
+generation so have a hard time imagining how exiting a command line<br />
+prompt is. Fortunately, Neal Stephenson has made the full text of ‚ÄúIn<br />
+the beginning ! was the command line‚Äù <a href="http://www.cryptonomicon.com/beginning.html">available</a> as a<br />
+free download. Print it out and enjoy!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/command-line-interface/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>sage</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/sage/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/sage/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 24 May 2006 09:47:06 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[PPC]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=305</guid>
+
+					<description><![CDATA[SAGE (which stands for &#8216;Software for Algebra and Geometry Experimentation&#8217;) includes and offers an interface to GAP, Singular, Maxima and even PARI as well as&#8230;]]></description>
+										<content:encoded><![CDATA[<p>SAGE<br />
+(which stands for &#8216;Software for Algebra and Geometry<br />
+Experimentation&#8217;) includes and offers an interface to GAP, Singular,<br />
+Maxima and even <a href="http://pari.math.u-bordeaux.fr/">PARI</a> as<br />
+well as an interface to other packages such as Maple, Magma and<br />
+Mathematica (see <a href="http://modular.math.washington.edu/sage/features.html">here</a><br />
+for a full list of its features). More importantly, Sage offers a <a href="http://modular.math.washington.edu/SAGEbin/apple_osx/">binary</a><br />
+for both PPC and Intel-Macs! I did check this out and it runs without<br />
+problems, in fact, after this initial check I installed from the sources<br />
+on my MacBook Pro and after one hour of compiling I did have working<br />
+(though not full) versions of GAP, Maxima and Singular.    At first I<br />
+was a bit worried that only small subsets of the three systems were<br />
+installed, but it is quite easy to extend your Sage with additional<br />
+packages. From the Unix-prompt do a     <code>sage -optional</code><br />
+and you will get a list of all (additional) packages you have already<br />
+installed and those available for installation.  SAGE is pretty well<br />
+documented with tutorials and reference manual to be found <a href="http://modular.math.washington.edu/sage/documentation.html">here</
+a>. Even if you do not want to learn (yet) the Sage-commands but just<br />
+want to continue using the programs under its hood, this is pretty easy.<br />
+For example, to get to Maxima, you only have to type<br />
+<code>!maxima</code> from the sage-prompt to open up a maxima-session<br />
+(and similarly for Gap and Singular).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/sagemaxima.jpg"/></p>
+<p>Bill<br />
+Schelter&#8217;s Affine-package is not included, but you can load and install<br />
+it from the maxima-prompt by <code>load("affine.lisp");</code> but some<br />
+commands such as &#8216;fast_central_elements&#8217; do not seem to<br />
+work as expected (or maybe I forgot the drill over the years, I&#8217;ll try<br />
+it out again).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/sage/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>hold on to those PPC macs</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/hold-on-to-those-ppc-macs/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/hold-on-to-those-ppc-macs/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 22 May 2006 08:53:06 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[PPC]]></category>
+		<category><![CDATA[Tiger]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=307</guid>
+
+					<description><![CDATA[On my return from O a brand new 15inch MacBook Pro lie waiting in my office. By that evening I had wrecked the system to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/macbookpro.jpg" style="float:left;margin-right:10px;" />   On my<br />
+return from <a href="http://www.mfo.de/">O</a> a brand new 15inch <a href="http://www.apple.com/macbookpro/">MacBook Pro</a> lie waiting in<br />
+my office. By that evening I had wrecked the system to the extend that I<br />
+could no longer login and had to reinstall from scratch&#8230; I was<br />
+about to trow it away but tried it out for a few more days and<br />
+eventually began to understand it a bit. In short : the new Intel Macs<br />
+promise to be really good hardware, unfortunately some essential<br />
+software lags behind, so if you want a stress-free Mac-life&#8230; hold<br />
+on to your PPC mac a few months longer. If you are impatient and want to<br />
+learn some of the pitfalls, read on&#8230;    I&#8217;m ashamed to admit this<br />
+but the first thing I did on my new machine was to create a WindowsXP<br />
+partition&#8230; <a href="http://www.apple.com/macosx/bootcamp/">BootCamp</a> does what it<br />
+promises to do and is extremely easy to use once you can start it. The<br />
+installation guide does tell that you jave to update your systems<br />
+software and firmware, but that&#8217;s what you do anyway after a new<br />
+install, right? Wrong! You update the software but _not_ the<br />
+firmware and it took me some time to come to this simple conclusion. How<br />
+to check whether your firmware is up to date? Go under the apple to<br />
+&#8216;About this Mac&#8217;, click on &#8216;More Info&#8217; and look at your<br />
+&#8216;  Boot ROM Version:&#8217; if it says MBP11.0055.B03 you&#8217;re ok, if not<br />
+you have to install the <a href="http://www.apple.com/support/downloads/macbookprosmcfirmwareupdate.html">newest firmware</a> which is a slightly terrifying experience<br />
+with soundsignals included, but works fine. Once this is done, you can<br />
+start BootCamp and have a Windows partition in no time. At a certain<br />
+moment you have to decide on possible partition-formats for the Windows<br />
+part, I choose the &#8216;Fat&#8217; option to be able to swap files across<br />
+the partitions.    Next, what does a mathematician wants from a<br />
+computer? To run LaTeX! I&#8217;ve installed LaTeX on more Macs than I<br />
+remember so I continued on automatic pilot, getting Gerben Wierda&#8217;s <a href="http://ii2.sourceforge.net/">i-Installer</a>, startd it up and<br />
+&#8230; my machine froze! Nothing, not even a &#8216;Force Quit&#8217;, was<br />
+possible any more. Today, there is a clear warning message as the<br />
+i-Installer page (i don&#8217;t recall seeing it there last week, but then it<br />
+is a recent problem. Things broke down on May 11th when I was still in<br />
+O)   </p>
+<blockquote><p> WARNING: i-Installer on Mac OS X 10.4.6 may trigger<br />
+the Mac OS X 10.4.6 bug that partially freezes your system.  May 2006:<br />
+i-Installer did work perfectly on Mac OS X 10.4.3, the version of Tiger<br />
+that was shipped with the Developer Transition Kit. When the first intel<br />
+machines were sold by Apple, these contained 10.4.4 and on that system,<br />
+i-Installer experiences troubles because of problems deep inside Apple&#8217;s<br />
+Frameworks. The only way I could solve this was to make i-Installer a<br />
+PowerPC-only application again and ask for Apple&#8217;s help to determine<br />
+where the problem was. So far, this has been s slow process without any<br />
+noticeable results. The PowerPC-only version worked fine until Apple<br />
+released 10.4.6 and especially the latest upgrades (Security Upgrade<br />
+2006-003 and maybe QuickTime). As I am writing this (May 21) a<br />
+completely updated Mac OS X 10.4.6 on intel will partially freeze in<br />
+various circumstances, triggered by various applications (MatLab,<br />
+i-Installer, etc.). Sadly, the just released MacBook (successor of the<br />
+iBook) is shipping with this broken version of the OS. Hence, there is<br />
+now no i-Installer that reliably works on intel machines with recent OS<br />
+versions and even worse, i-Installer may trigger a nasty bug in recent<br />
+Mac OS X intel versions.  </p></blockquote>
+<p>   Scary isn&#8217;t it? You have a<br />
+brand new expensive machine but cannot typeset a single paper&#8230;<br />
+Fortunately, the <a href="http://www.uoregon.edu/~koch/texshop/obtaining.html">TeXShop<br />
+page</a> not only mentions the problem, but also a workaround</p>
+<blockquote><p> On May 11, 2006, Apple provided security updates for Mac OS<br />
+X. These updates broke i-Installer on Intel (it continues to work on<br />
+PowerPC). If you have an Intel Mac and you have installed this update,<br />
+you must use the MacTeX install package until this problem is fixed.<br />
+Once TeX is installed, it works fine. </p></blockquote>
+<p>   The first<br />
+assertion is true : installing the <a href="http://www.tug.org/~koch/">MacTeX package</a> gives you a working<br />
+TeX-installation, with TeXShop, Excalibur, BibTeX and i-Installer coming<br />
+for free. But don&#8217;t think the i-Installer problem has been solved, I<br />
+tried it out and voila another ice-age&#8230;    So far so good but<br />
+sometimes we like to compute things, don&#8217;t we? Like some commutative<br />
+algebra or algebraic geometry things via <a href="http://www.singular.uni-kl.de/">Singular</a>? I remembered to<br />
+install this via the <a href="http://fink.sourceforge.net/">Fink<br />
+project</a> but already their news-items are not very promissing</p>
+<blockquote><p> A preliminary version of Fink for the Intel architecture is<br />
+now ready. No binary packages are available, and things are still rough<br />
+around the edges, but it should be usable if you are patient!  To<br />
+install it, you need to install the XCode compiler and SDK packages (at<br />
+minimum). Then you need to get the file fink-0.24.14.tar.gz from the<br />
+Sourceforge file release page for Fink, expand the file, and run the<br />
+command ./bootstrap.sh . At the end of the bootstrap process, run fink<br />
+selfupdate and you&#8217;ll get the currently available packages.  At last<br />
+check, there were about 1750 packages in the &#8220;stable&#8221; tree,<br />
+but about 150 of those did not build. When things are truly stable,<br />
+another annoucement will be made here. </p></blockquote>
+<p>   The normal<br />
+FinkCommander didn&#8217;t work either but then I found a version which does<br />
+at <a href="http://homepage.mac.com/charleslo/">Charles K. C. Lo&#8217;s<br />
+Homepage</a>. I verified it by having the fink-TeTeX package installed<br />
+(which works!) and then I wanted to do a Singular-install&#8230; Things<br />
+seemed to start off well (once you change the freferences to install<br />
+also unstable packages) but then the installation procedure halted with<br />
+the message   </p>
+<blockquote><p> Failed: phase compiling: singular-3.0.1-1013<br />
+failed  Before reporting any errors, please run &#8220;fink<br />
+selfupdate&#8221; and try again.  If you continue to have issues, please<br />
+check to see if the FAQ on fink&#8217;s website solves the problem.  If not,<br />
+ask on the fink-users or fink-beginners mailing lists.  As a last<br />
+resort, you can try e-mailing the maintainer directly:          Michael<br />
+Brickenstein bricken at mathematik.uni-kl.de  <strong>Note that many<br />
+fink package maintainers do not (yet) have access to OS X on Intel<br />
+hardware, so you may have better luck on the mailing lists.</strong>
+</p></blockquote>
+<p>   So, maybe I should just donate my MacBook Pro to the<br />
+Fink-project? A similar problem with installing Maxima&#8230; I didn&#8217;t<br />
+even try out GAP via Fink but went for a niversal Unix-installation for<br />
+GAP and this WORKED! even with all packages and tables and the whole I<br />
+dont know what. Thank you, GAPpers, perhaps all algebraists on Intel<br />
+Macs should shift to GroupTheory?    But hey! My Intel-Mac does have a<br />
+WindowsXP partition&#8230; So, I did a binary Windows install of<br />
+Singular and Maxima and both work without problems. Still, it is a<br />
+strange situation. Fortunately, I did resolve these issues but that will<br />
+have to wait until tomorrow&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/hold-on-to-those-ppc-macs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>some smaller steps</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/some-smaller-steps/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/some-smaller-steps/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 13 Sep 2004 13:52:36 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[PPC]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=261</guid>
+
+					<description><![CDATA[It always amazes me how much time I have to waste in trying to get tech-stuff (such as this weblog) working the way I want.&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It<br />
+always amazes me how much time I have to waste in trying to get<br />
+tech-stuff (such as this weblog) working the way I want. You will barely<br />
+notice it but again I spend too much time delving in PHP-scripts,<br />
+sometimes with minor success, most of the time almost wrecking this<br />
+weblog&#8230;  </p>
+<p>An example : it took me a day to figure out why<br />
+this page said there was just 1 visitor online whereas log files showed<br />
+otherwise. The PHP-script I used checked this by looking at the<br />
+IP-address via _REMOTE_ADDR_ which is perfectly OK on an ordinary<br />
+Mac OS 10.3 machine, but _not_ on an OS X-Server! For some reason<br />
+it gives as the REMOTE_ADDR just the IP address of the Server (that<br />
+is, lievenlb.local in this case) so whoever came by this page got<br />
+tagged as 143.129.75.209 and so the script thought there was just one<br />
+person around&#8230; The trivial way around it is changing every<br />
+occurence of REMOTE_ADDR by _HTTP_PC_REMOTE_ADDR_.<br />
+Easy enough but it took me a while to figure it out.  </p>
+<p>Another<br />
+example : over the week-end this weblog got a stalker! There were over<br />
+100 hits from 38.113.198.9, so whoever that is really liked this site<br />
+but didn&#39;t have time to read a thing&#8230; Again, the standard<br />
+solution is to ban the IP-address and most weblog-packages have such a<br />
+tool on their admin-page. But whathever I tried and Googled <a href="http://wordpress.org/">WordPress</a> doesn&#39;t seem to have it<br />
+on board. There were a few hacks and plugins around claiming to do<br />
+something about it but none of them worked! So, I tried more drastic<br />
+actions such as editing .htaccess files which I thought would solve<br />
+everything (again, no problem under 10.3 but _not_ under<br />
+10.3-Server!). Once more, a couple of hours lost trying to figure out<br />
+how to get the firewall of a Mac-Server do what I needed. The upshot is<br />
+that I know now all dark secrets of the _ipfw_ command, so no<br />
+more stalking around this site&#8230;  </p>
+<p>In the process of<br />
+grounding my stalker, I decided that I needed better site-stats than my<br />
+homemade log-file provided. Fortunetely, this time I picked a package<br />
+that worked without too much hassle (one more time I had to make the<br />
+REMOTE_ADDR substitution but apart from that all went well). You will<br />
+see not too much of the power of this stats-package on the page (apart<br />
+from the global counter), I feel that such things are best forgotten<br />
+until something strange occurs (like stalkers, spammers and other<br />
+weirdos). A nice side-effect though was that for the first time I had a<br />
+look at _referring pages_, that is the URL leading to this weblog.<br />
+Lots of Google searches (some strange ones) but today there were also a<br />
+number of referrals from a Chinese blog. I checked it out and it turned<br />
+out to be the brand new <a href="http://xwchen.tianyablog.com/blogger/view_blog.asp?BlogName=xwchen">Math is Math! Life is Life!</a> weblog&#8230;  </p>
+<p>Another time<br />
+consuming thing was getting the BBC-news RSS feeds working in the<br />
+sidebar, so that you still get _some_ feel for reality while<br />
+being trapped here. I am not yet satisfied with the layout under<br />
+Explorer, but then everyone should move on to Safari (so I did give up<br />
+trying to work out the PHP-script).  </p>
+<p>But most time I wasted on<br />
+something that so far has left no trace whatsoever here. A plugin that<br />
+allows specific posts to be read only by registered users (of a certain<br />
+&#39;level&#39;, that is WordPress can give users a level from 0 to 10<br />
+with specific degrees of freedom). But clearly at the same time I wanted<br />
+the rest of the world to have at least some indication of what they were<br />
+missing (such as a title with a nice padlock next to it) but so far I<br />
+didn&#39;t get it working. The only trace of a closed posting would be<br />
+in the sidebar-listing of the ten last posts but gives an error message<br />
+when an unauthorized user clicks on it. So, still a lot of<br />
+headache-sensitive work left to do, but it is about time to get back to<br />
+mathematics&#8230;</p>
+<p><strong>update (febr. 2007)</strong> : the<br />
+padlock-idea is abandoned.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/some-smaller-steps/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Singular via GAP on OSX</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/singular-via-gap-on-osx/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/singular-via-gap-on-osx/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 02 Feb 2004 15:43:12 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[PPC]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=124</guid>
+
+					<description><![CDATA[The GAP-package is very good in working with finite fields or Abelian extensions of the Rational numbers, but sooner or later we will need to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/singular.jpg" />   The<br />
+<a href="http://www.math.rwth-aachen.de:8001/GAP/xxx/gap.html" target="_blank" rel="noopener">GAP-package</a> is very good in working with finite<br />
+fields or Abelian extensions of the Rational numbers, but sooner or<br />
+later we will need to use the coordinate ring or function field of an<br />
+affine variety for which it is hopeless. On the other hand, there is an<br />
+excellent free package to do these calculations : <a href="http://www.singular.uni-kl.de/" target="_blank" rel="noopener">Singular</a>.<br />
+So, the ideal situation for us would be to be able to access Singular<br />
+from <i>within</i> GAP. Fortunately, Marco Costantini and Willem de<br />
+Graaf have written such an interface. Here is how to get in working<br />
+under OS X : One has to download two files from the <a href="http://www.mathematik.uni-kl.de/ftp/pub/Math/Singular/MAC/OsX/" target="_blank" rel="noopener">Singular Mac OS X download page</a> : <i><br />
+Singular-2-0-4-ppcMac-darwin.tar.gz</i> and<br />
+<i>Singular-2-0-4-share.tar.gz</i>. Once they are on your desktop you<br />
+can follow the instructions on the <i>INSTALL.html</i> file in the 2-0-4<br />
+Folder of the expanded <i>Singular-2-0-4-ppcMac-darwin</i>. Keep the<br />
+<i>tar</i>red version and open the INSTALL-file in your browser (to be<br />
+able to copy and paste) and open up the <i>Terminal.</i> Do the analog<br />
+thing to </p>
+<pre>cd /usr/local sudo tar -pxf
+/Users/lieven/Desktop/Singular-2-0-4-ppcMac-darwin.tar sudo tar -pxf
+/Users/lieven/Desktop/Singular-2-0-4-share.tar</pre>
+<p> Then<br />
+follow the instructions making the symbolic links and you have Singular<br />
+working.    The next step is to go to the <a href="http://www.math.rwth-aachen.de:8001/GAP/xxx/tmpsite/Packages/packages.html" target="_blank" rel="noopener">GAP Packages page</a> and go to the<br />
+package <a href="http://www.math.rwth-aachen.de:8001/GAP/xxx/tmpsite/Packages/singular.html" target="_blank" rel="noopener">Singular</a> for full documentation.<br />
+To use <i>Singular</i> in a GAP-session, here is an example</p>
+<pre>gap>
+LoadPackage("singular");
+The GAP interface to Singular
+true
+gap> StartSingular();
+I  Started Singular (version 2004)
+gap> SetInfoLevel( InfoSingular, 2 );
+gap> G:= SymmetricGroup( 3 );;
+gap> R:= PolynomialRing( GF(2), 3 );;
+gap> GeneratorsOfInvariantRing( R, G );
+[ x_1 x_2 x_3, x_1*x_2 x_1*x_3 x_2*x_3, x_1*x_2*x_3 ]
+gap> I:= Ideal( R, last );;
+gap>GroebnerBasis( I );
+I  running GroebnerBasis... I  done
+GroebnerBasis. [ x_1 x_2 x_3, x_2^2 x_2*x_3 x_3^2, x_3^3 ]
+gap>
+ </pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/singular-via-gap-on-osx/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

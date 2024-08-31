@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>superpotential &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/superpotential/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 14 Jan 2008 20:50:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>now what?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/now-what/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/now-what/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 14 Jan 2008 20:50:22 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/now-what.html</guid>
+
+					<description><![CDATA[You may not have noticed, but the really hard work was done behind the scenes, resurrecting about 300 old posts (some of them hidden by&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/connesdummies.jpg" style="float:left;margin-right:10px;" > You may not have noticed, but the really hard work was done behind the scenes, resurrecting about 300 old posts (some of them hidden by giving them &#8216;private&#8217;-status). Ive only deleted about 10 posts with little or no content and am  sorry I&#8217;ve self-destructed about 20-30 hectic posts over the years by pressing the &#8216;delete post&#8217; button. I would have liked to reread them after all the angry mails Ive received. But, as Ive defended myself at the time, and as I continue to do today, a blog only records feelings at a specific moment. Often, the issue is closed for me once Ive put my frustrations in a post, and then Ill forget all about it. Sadly, the gossip-circuit in noncommutative circles is a lot, a lot, slower than my mood swings, so by the time people complain it&#8217;s no longer an issue for me and I tend to delete the post altogether. A blog really is a sort of diary. For example, it only struck me now, rereading the posts of the end of 2006, beginning of 2007, how depressed I must have been at the time. Fortunately, life has improved, somewhat&#8230; Still, after all these reminiscences, the real issue is : what comes next?</p>
+<p>Some of you may have noticed that I&#8217;ve closed the open series on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/tori-crypto-diffie-hellman.html">tori-cryptography</a> and on <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/superpotentials-and-calabi-yaus.html">superpotentials</a> in a rather abrupt manner.  It took me that long to realize that none of you is waiting for this kind of posts. You&#8217;re thinking : if he really wants to show off, let him do his damned thing on the arXiv, a couple of days a year, at worst, and then we can then safely ignore it, like we do with most papers. Isnt&#8217;t that true? Of course it is&#8230;</p>
+<p>So, what are you waiting for?  Here&#8217;s what I believe to be a sensible thing to try out. Over the last 4 years I must have posted well over 50 times what I believe noncommutative geometry is all about, so if you still don&#8217;t know, please consult the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/arxiv-neb">archive</a>, I fear I can only repeat myself. Probably, it is more worthwhile to reach out to other approaches to noncommutative geometry, trying to figure out what, if anything, they are after, without becoming a new-age convert (&#8216;connes-vert&#8217;, I&#8217;d say). The top-left picture may give you an inkling of what I&#8217;m after&#8230; Besides, Im supposed to run a &#8216;capita selecta&#8217; course for third year Bachelors and Ive chosen to read with them the book <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/music-of-the-primes.html">The music of the primes</a> and to expand on the mathematics hinted only at in the book. So, I&#8217;ll totally immerse myself in Connes&#8217; project to solve the Riemann-hypothesis in the upcoming months.</p>
+<p>Again, rereading old posts, it strikes me how much effort I&#8217;ve put into trying to check whether technology can genuinely help mathematicians to do what they want to do more efficiently (all post categorized as iMath).  I plan some series of posts re-exploring these ideas. The first series will be about the overhyped Web-2 thing of social-bookmarking. So, in the next weeks I&#8217;ll go undercover and check out which socialsites are best for mathematicians (in particular, noncommutative geometers) to embrace&#8230;</p>
+<p>Apart from these, admittedly vague, plans I am as always open for suggestions you might have. So, please drop a comment..</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/now-what/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Quiver-superpotentials</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 14 Jan 2008 12:47:27 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/quiver-superpotentials.html</guid>
+
+					<description><![CDATA[It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by the conjugacy class of a cofinite subgroup $\Lambda \subset \Gamma $, or equivalently, to a dessin d&#8217;enfant. We have introduced a <strong>quiver</strong> (aka an oriented graph) which comes from a triangulation of the compactification of $\mathbb{H} / \Lambda $ where $\mathbb{H} $ is the hyperbolic upper half-plane. This quiver is independent of the chosen embedding of the dessin in the Dedeking tessellation. (For more on these terms and constructions, please consult the series <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-dedekind-tessellation.html">Modular subgroups</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monsieur-mathieu.html">Dessins d&#8217;enfants</a>).</p>
+<p>Why are quivers useful? To start, any quiver $Q $ defines a noncommutative algebra, the <strong>path algebra</strong> $\mathbb{C} Q $, which has as a $\mathbb{C} $-basis all oriented paths in the quiver and multiplication is induced by concatenation of paths (when possible, or zero otherwise). Usually, it is quite hard to make actual computations in noncommutative algebras, but in the case of path algebras you can just <strong>see</strong> what happens.</p>
+<p>Moreover, we can also <strong>see</strong> the finite dimensional representations of this algebra $\mathbb{C} Q $. Up to isomorphism they are all of the following form : at each vertex $v_i $ of the quiver one places a finite dimensional vectorspace $\mathbb{C}^{d_i} $ and any arrow in the quiver<br />
+[tex]\xymatrix{\vtx{v_i} \ar[r]^a &amp; \vtx{v_j}}[/tex] determines a linear map between these vertex spaces, that is, to $a $ corresponds a matrix in $M_{d_j \times d_i}(\mathbb{C}) $. These matrices determine how the paths of length one act on the representation, longer paths act via multiplcation of matrices along the oriented path.</p>
+<p>A <strong>necklace</strong> in the quiver is a closed oriented path in the quiver <strong>up to cyclic permutation</strong> of the arrows making up the cycle. That is, we are free to choose the start (and end) point of the cycle. For example, in the one-cycle quiver</p>
+<p>[tex]\xymatrix{\vtx{} \ar[rr]^a &amp; &amp; \vtx{} \ar[ld]^b \\ &amp; \vtx{} \ar[lu]^c &amp;}[/tex]</p>
+<p>the basic necklace can be represented as $abc $ or $bca $ or $cab $. How does a necklace act on a representation? Well, the matrix-multiplication of the matrices corresponding to the arrows gives a square matrix in each of the vertices in the cycle. Though the dimensions of this matrix may vary from vertex to vertex, what does not change (and hence is a property of the necklace rather than of the particular choice of cycle) is the <strong>trace</strong> of this matrix. That is, necklaces give complex-valued functions on representations of $\mathbb{C} Q $ and by a result of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/m-geometry-3.html">Artin and Procesi</a> there are enough of them to distinguish isoclasses of (semi)simple representations! That is, linear combinations a necklaces (aka <strong>super-potentials</strong>) can be viewed, after taking traces, as complex-valued functions on all representations (similar to character-functions).</p>
+<p>In physics, one views these functions as potentials and it then interested in the points (representations) where this function is extremal (minimal) : the <strong>vacua</strong>. Clearly, this does not make much sense in the complex-case but is relevant when we look at the real-case (where we look at skew-Hermitian matrices rather than all matrices). A motivating example (the <strong>Yang-Mills potential</strong>) is given in Example 2.3.2 of Victor Ginzburg&#8217;s paper <a href="http://arxiv.org/abs/math/0612139">Calabi-Yau algebras</a>.</p>
+<p>Let $\Phi $ be a super-potential (again, a linear combination of necklaces) then our commutative intuition tells us that extrema correspond to zeroes of all partial differentials $\frac{\partial \Phi}{\partial a} $ where $a $ runs over all coordinates (in our case, the arrows of the quiver). One can make sense of differentials of necklaces (and super-potentials) as follows : the partial differential with respect to an arrow $a $ occurring in a term of $\Phi $ is defined to be the <strong>path</strong> in the quiver one obtains by removing all 1-occurrences of $a $ in the necklaces (defining $\Phi $) and rearranging terms to get a maximal broken necklace (using the cyclic property of necklaces). An example, for the cyclic quiver above let us take as super-potential $abcabc $ (2 cyclic turns), then for example</p>
+<p>$\frac{\partial \Phi}{\partial b} = cabca+cabca = 2 cabca $</p>
+<p>(the first term corresponds to the first occurrence of $b $, the second to the second). Okay, but then the vacua-representations will be the representations of the quotient-algebra (which I like to call the <strong>vacualgebra</strong>)</p>
+<p>$\mathcal{U}(Q,\Phi) = \frac{\mathbb{C} Q}{(\partial \Phi/\partial a, \forall a)} $</p>
+<p>which in &#8216;physical relevant settings&#8217; (whatever that means&#8230;) turn out to be <strong>Calabi-Yau algebras</strong>.</p>
+<p>But, let us return to the case of subgroups of the modular group and their quivers. Do we have a natural <strong>super-potential</strong> in this case? Well yes, the quiver encoded a triangulation of the compactification of $\mathbb{H}/\Lambda $ and if we choose an orientation it turns out that all &#8216;black&#8217; triangles (with respect to the Dedekind tessellation) have their arrow-sides defining a necklace, whereas for the &#8216;white&#8217; triangles the <strong>reverse</strong> orientation makes the arrow-sides into a necklace. Hence, it makes sense to look at the <strong>cubic</strong> superpotential $\Phi $ being the sum over all triangle-sides-necklaces with a +1-coefficient for the black triangles and a -1-coefficient for the white ones. Let&#8217;s consider an index three example from a previous post</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver3.jpg" style="float:left;margin-right:10px;" ><br />
+[tex]\xymatrix{&amp; &amp; \rho \ar[lld]_d \ar[ld]^f \ar[rd]^e &amp; \\<br />
+i \ar[rrd]_a &amp; i+1 \ar[rd]^b &amp; &amp; \omega \ar[ld]^c \\<br />
+&amp; &amp; 0 \ar[uu]^h \ar@/^/[uu]^g \ar@/_/[uu]_i &amp;}[/tex]</p>
+<p>In this case the super-potential coming from the triangulation is</p>
+<p>$\Phi = -aid+agd-cge+che-bhf+bif $</p>
+<p>and therefore we have a noncommutative algebra $\mathcal{U}(Q,\Phi) $ associated to this index 3 subgroup. Contrary to what I believed at the start of this series, the algebras one obtains in this way from dessins d&#8217;enfants are <strong>far from being Calabi-Yau</strong> (in whatever definition). For example, using a GAP-program written by <a href="http://www.win.ua.ac.be/~rbockl/research/">Raf Bocklandt</a> Ive checked that the growth rate of the above algebra is similar to that of $\mathbb{C}[x] $, so in this case $\mathcal{U}(Q,\Phi) $ can be viewed as a noncommutative curve (with singularities).</p>
+<p>However, this is not the case for all such algebras. For example, the vacualgebra associated to the second index three subgroup (whose fundamental domain and quiver were depicted at the end of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-modular-group-and-superpotentials-2.html">this post</a>) has growth rate similar to that of $\mathbb{C} \langle x,y \rangle $&#8230;</p>
+<p>I have an outlandish conjecture about the growth-behavior of all algebras $\mathcal{U}(Q,\Phi) $ coming from dessins d&#8217;enfants : <strong>the algebra sees what the monodromy representation of the dessin sees of the modular group (or of the third braid group)</strong>.<br />
+I can make this more precise, but perhaps it is wiser to calculate one or two further examples&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the modular group and superpotentials (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-modular-group-and-superpotentials-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-modular-group-and-superpotentials-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 28 Dec 2007 14:10:52 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=115</guid>
+
+					<description><![CDATA[Last time we have that that one can represent (the conjugacy class of) a finite index subgroup of the modular group $\Gamma = PSL_2(\mathbb{Z}) $&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=63">Last time</a> we have that that one can represent (the conjugacy class of) a finite index subgroup of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ by a <strong>Farey symbol</strong> or by a <strong>dessin</strong> or by its <strong>fundamental domain</strong>. Today we will associate a <strong>quiver</strong> to it.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver1.jpg" style="float:left;margin-right:10px;" > For example, the modular group itself is represented by the Farey symbol<br />
+[tex]\xymatrix{\infty \ar@{-}[r]_{\circ} &amp; 0 \ar@{-}[r]_{\bullet} &amp; \infty}[/tex] or by its dessin (the green circle-edge) or by its fundamental domain which is the region of the upper halfplane bounded by the red and blue vertical boundaries. Both the red and blue boundary consist of TWO edges which are identified with each other and are therefore called a and b. These edges carry a natural orientation given by circling counter-clockwise along the boundary of the marked triangle (or clockwise along the boundary of the upper unmarked triangle having $\infty $ as its third vertex). That is the edge a is oriented from $i $ to $0 $ (or from $i $ to $\infty $) and the edge b is oriented from $0 $ to $\rho $ (or from $\infty $ to $\rho $) and the green edge c (which is an inner edge so carries no identifications) from $\rho $ to $i $. That is, the fundamental region consists of two triangles, glued together along their boundary which is the oriented cycle $\vec{abc} $ consistent with the fact that the compactification of $\mathcal{H}/\Gamma $ is the 2-sphere $S^2 = \mathbb{P}^1_{\mathbb{C}} $. Under this identification the triangle-boundary  abc can be seen to circle the equator whereas the top triangle gives the upper half sphere and the lower triangle the lower half sphere. Emphasizing the orientation we can depict the triangle-boundary as the <strong>quiver</strong></p>
+<p>[tex]\xymatrix{i \ar[rd]_a &amp; &amp; \rho \ar[ll]_c \\ &amp; 0 \ar[ru]_b}[/tex]</p>
+<p>embedded in the 2-sphere. Note that <strong>quiver</strong> is just a fancy name for an oriented graph&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver2.jpg" style="float:left;margin-right:10px;" > Okay, let&#8217;s look at the next case, that of the unique index 2 subgroup $\Gamma_2 $ represented by the Farey symbol [tex]\xymatrix{\infty \ar@{-}[r]_{\bullet} &amp; 0 \ar@{-}[r]_{\bullet} &amp; \infty}[/tex] or the dessin (the two green edges) or by its fundamental domain consisting of the 4 triangles where again the left and right vertical boundaries are to be identified in parts.</p>
+<p>That is we have 6 edges on the 2-sphere $\mathcal{H}/\Gamma_2 = S^2 $ all of them oriented by the above rule. So, for example the lower-right triangle is oriented as $\vec{cfb} $. To see how this oriented graph (the quiver) is embedded in $S^2 $ view the big lower region (cdab) as the under hemisphere and the big upper region (abcd) as the upper hemisphere. So, the two green edges together with a and b are the equator and the remaining two yellow edges form the two parts of a bigcircle connecting the north and south pole. That is, the graph are the cut-lines if we cut the sphere in 4 equal parts. The corresponding quiver-picture is</p>
+<p>[tex]\xymatrix{&amp; i \ar@/^/[dd]^f \ar@/_/[dd]_e &amp; \\<br />
+\rho^2 \ar[ru]^d &amp; &amp; \rho \ar[lu]_c \\<br />
+&amp; 0 \ar[lu]^a \ar[ru]_b &amp;}[/tex]</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver3.jpg" style="float:left;margin-right:10px;"> As a mental check, verify that the index 3 subgroup determined by the Farey symbol [tex]\xymatrix{\infty \ar@{-}[r]_{\circ} &amp; 0 \ar@{-}[r]_{\circ} &amp; 1 \ar@{-}[r]_{\circ} &amp; \infty}[/tex] , whose fundamental domain with identifications is given on the left, has as its associated quiver picture</p>
+<p>[tex]\xymatrix{&amp; &amp; \rho \ar[lld]_d \ar[ld]^f \ar[rd]^e &amp; \\<br />
+i \ar[rrd]_a &amp; i+1 \ar[rd]^b &amp; &amp; \omega \ar[ld]^c \\<br />
+&amp; &amp; 0 \ar[uu]^h \ar@/^/[uu]^g \ar@/_/[uu]_i &amp;}[/tex]</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver4.jpg" style="float:right;margin-left:10px;" > whereas the index 3 subgroup determined by the Farey symbol [tex]\xymatrix{\infty \ar@{-}[r]_{1} &amp; 0 \ar@{-}[r]_{1} &amp; 1 \ar@{-}[r]_{\circ} &amp; \infty}[/tex], whose fundamental domain with identifications is depicted on the right, has as its associated quiver</p>
+<p>[tex]\xymatrix{i \ar[rr]^a \ar[dd]^b &amp; &amp; 1 \ar@/^/[ld]^h \ar@/_/[ld]_i \\<br />
+&amp; \rho \ar@/^/[lu]^d \ar@/_/[lu]_e \ar[rd]^f &amp; \\<br />
+0 \ar[ru]^g &amp; &amp; i+1 \ar[uu]^c}[/tex]</p>
+<p>Next time, we will use these quivers to define superpotentials&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-modular-group-and-superpotentials-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the modular group and superpotentials (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-modular-group-and-superpotentials-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-modular-group-and-superpotentials-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 26 Dec 2007 13:36:29 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=63</guid>
+
+					<description><![CDATA[Here I will go over the last post at a more leisurely pace, focussing on a couple of far more trivial examples. Here&#8217;s the goal&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here I will go over the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=61">last post</a> at a more leisurely pace, focussing on a couple of far more trivial examples. Here&#8217;s the goal : <strong>we want to assign a quiver-superpotential to any subgroup of finite index of the modular group</strong>. So fix such a subgroup $\Gamma&#8217; $ of the modular group $\Gamma=PSL_2(\mathbb{Z}) $ and consider the associated permutation representation of $\Gamma $ on the left-cosets $\Gamma/\Gamma&#8217; $. As $\Gamma \simeq C_2 \ast C_3 $ this representation is determined by the action of the order 2 and order 3 generators of the modular group. There are a number of combinatorial gadgets to control the subgroup $\Gamma&#8217; $ and the associated permutation representation : (generalized) <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=21">Farey symbols</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=20">dessins d&#8217;enfants</a>.</p>
+<p>Recall that the modular group acts on the upper-halfplane (the &#8216;hyperbolic plane&#8217;) by Moebius transformations, so to any subgroup $\Gamma&#8217; $ we can associate a fundamental domain for its restricted action. The dessins and the Farey symbols give us a particular choice of these fundamental domains. Let us consider the two most trivial subgroups of all : the modular group itself (so $\Gamma/\Gamma $ is just one element and therefore the associated permutation representation is just the trivial representation) and the unique index two subgroup $\Gamma_2 $ (so there are two cosets $\Gamma/\Gamma_2 $ and the order 2 generator interchanges these two while the order 3 generator acts trivially on them). The fundamental domains of $\Gamma $ (left) and $\Gamma_2 $ (right) are depicted below</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cy2.jpg" style="float:left;margin-right:10px;">  <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cy1.jpg" style="float:right;margin-left:10px;"></p>
+<p>In both cases the fundamental domain is bounded by the thick black (hyperbolic) edges. The left-domain consists of two hyperbolic triangles (the upper domain has $\infty $ as the third vertex) and the right-domain has 4 triangles. In general, if the subgroup $\Gamma&#8217; $ has index n, then its fundamental domain will consist of $2n $ hyperbolic triangles. Note that these triangles are part of the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=18">Dedekind tessellation</a> so really depict the action of $PGL_2(\mathbb{Z} $ and any $\Gamma $-hyperbolic triangle consists of one black and one white triangle in Dedekind&#8217;s coloring. We will indicate the color of a triangle by a black circle if the corresponding triangle is black. Of course, the bounding edges of the fundamental domain need to be identified and the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=21">Farey symbol</a> is a notation device to clarify this. The Farey symbols of the above domains are<br />
+[tex]\xymatrix{\infty \ar@{-}[r]_{\circ} &amp; 0 \ar@{-}[r]_{\bullet} &amp; \infty}[/tex] and [tex]\xymatrix{\infty \ar@{-}[r]_{\bullet} &amp; 0 \ar@{-}[r]_{\bullet} &amp; \infty}[/tex] respectively. In both cases this indicates that the two bounding edges on the left are to be identified as are the two bounding edges on the right (so, in particular, after identification $\infty $ coincides with $0 $). Hence, after identification, the $\Gamma $ domain consists of two triangles on the vertices $&#123; 0,i,\rho &#125; $ (where $\rho=e^{2 \pi i}{6} $) (the blue dots) sharing all three edges, the $\Gamma_2 $ domain consists of 4 triangles on the 4 vertices $&#123; 0,i,\rho,\rho^2 &#125; $ (the blue dots). In general we have three types of vertices : <strong>cusps</strong> (such as 0 or $\infty $), <strong>even vertices</strong> (such as $i $ where there are 4 hyperbolic edges in the Dedekind tessellation) and <strong>odd vertices</strong> (such as $\rho $ and $\rho^2 $ where there are 6 hyperbolic edges in the tessellation).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dessin1.jpg" style="float:left;margin-right:10px;"> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dessin2.jpg" style="float:right;margin-left:10px;"> Another combinatorial gadget assigned to the fundamental domain is the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=19">cuboid tree diagram</a> or <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=20">dessin</a>. It consists of all odd and even vertices on the boundary of the domain, together with all odd and even vertices in the interior. These vertices are then connected with the hyperbolic edges connecting them. If we color the even vertices red and the odds blue we have the indicated dessins for our two examples (the green pictures). An <strong>half-edge</strong> is an edge connecting a red and a blue vertex in the dessin and we number all half-edges. So, the $\Gamma $-dessin has 1 half-edge whereas the $\Gamma_2 $-dessin has two (in general, the number of these half-edges is equal to the index of the subgroup). Observe also that every triangle has exactly one half-edge as one of its three edges. The dessin gives all information to calculate the permutation representation on the coset-set $\Gamma/\Gamma&#8217; $ : the action of the order 2 generator of $\Gamma $ is given by taking for each <strong>internal</strong> red vertex the two-cycle $~(a,b) $ where a and b are the numbers of the two half-edges connected to the red vertex and the action of the order 3 generator is given by taking for every <strong>internal</strong> blue vertex the three cycle $~(c,d,e) $ where c, d and e are the numbers of the three half-edges connected to the blue vertex <strong>in counter-clockwise ordering</strong>. Our two examples above are a bit too simplistic to view this in action. There are no internal blue vertices, so the action of the order 3 generator is trivial in both cases. For $\Gamma $ there is also no red internal vertex, whence this is indeed the trivial representation whereas for $\Gamma_2 $ there is one internal red vertex, so the action of the order 2 generator is given by $~(1,2) $, which is indeed the representation representation on $\Gamma/\Gamma_2 $. In general, if the index of the subgroup $\Gamma&#8217; $ is n, then we call the subgroup of the symmetric group on n letters $S_n $ generated by the action-elements of the order 2 and order 3 generator the <strong>monodromy group</strong> of the permutation representation (or of the subgroup). In the trivial cases here, the monodromy groups are the trivial group (for $\Gamma $) and $C_2 $ (for $\Gamma_2 $).</p>
+<p>As a safety-check let us work out all these concepts in the next simplest examples, those of some subgroups of index 3. Consider the Farey symbols</p>
+<p>[tex]\xymatrix{\infty \ar@{-}[r]_{\circ} &amp; 0 \ar@{-}[r]_{\circ} &amp; 1 \ar@{-}[r]_{\circ} &amp; \infty}[/tex] and<br />
+[tex]\xymatrix{\infty \ar@{-}[r]_{\circ} &amp; 0 \ar@{-}[r]_{1} &amp; 1 \ar@{-}[r]_{1} &amp; \infty}[/tex]</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cy3.jpg" style="float:left;margin-right:10px;"> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cy4.jpg" style="float:right;margin-left:10px;"> In these cases the fundamental domain consists of 6 triangles with the indicated vertices (the blue dots). The distinction between the two is that in the first case, one identifies the two edges of the left, resp. bottom, resp. right boundary (so, in particular, 0,1 and $\infty $ are identified) whereas in the second one identifies the two edges of the left boundary and identifies the edges of the bottom with those of the right boundary (here, 0 is identified only with $\infty $ but also $1+i $ is indetified with $\frac{1}{2}+\frac{1}{2}i $).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dessin3.jpg" style="float:right;margin-left:10px;"> In both cases the dessin seems to be the same (and given by the picture on the right). However, in the first case all three red vertices are distinct hence there are no internal red vertices in this case whereas in the second case we should identify the bottom and right-hand red vertex which then becomes an internal red vertex of the dessin!</p>
+<p>Hence, if we order the three green half-edges 1,2,3 starting with the bottom one and counting counter-clockwise we see that in both cases the action of the order 3-generator of $\Gamma $ is given by the 3-cycle $~(1,2,3) $. The action of the order 2-generator is trivial in the first case, while given by the 2-cycle $~(1,2) $ in the second case. Therefore, the monodromy group is the cylic group $C_3 $ in the first case and is the symmetric group $S_3 $ in the second case.</p>
+<p>Next time we will associate a <strong>quiver</strong> to these vertices and triangles as well as a cubic <strong>superpotential</strong> which will then allow us to define a noncommutative algebra associated to any subgroup of the modular group. The monodromy group of the situation will then reappear as a group of algebra-automorphisms of this noncommutative algebra!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-modular-group-and-superpotentials-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Superpotentials and Calabi-Yaus</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/superpotentials-and-calabi-yaus/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/superpotentials-and-calabi-yaus/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 22 Dec 2007 15:19:44 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=61</guid>
+
+					<description><![CDATA[Yesterday, Jan Stienstra gave a talk at theARTS entitled &#8220;Quivers, superpotentials and Dimer Models&#8221;. He started off by telling that the talk was based on&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, <a href="http://www.math.uu.nl/people/stienstra/">Jan Stienstra</a> gave a talk at <a href="https://lievenlebruyn.github.io/neverendingbooks/ARTS">theARTS</a> entitled &#8220;Quivers, superpotentials and Dimer Models&#8221;. He started off by telling that the talk was based on a paper he put on the arXiv <a href="http://arxiv.org/abs/0711.0464">Hypergeometric Systems in two Variables, Quivers, Dimers and Dessins d&#8217;Enfants</a> but that he was not going to say a thing about dessins but would rather focuss on the connection with superpotentials instead&#8230;pleasing some members of the public, while driving others to utter despair.</p>
+<p>Anyway, it gave me the opportunity to figure out for myself what dessins might have to do with <strong>dimers</strong>, whathever these beasts are. Soon enough he put on a slide containing the definition of a dimer and from that moment on I was lost in my own thoughts&#8230; realizing that a <strong>dessin d&#8217;enfant had to be a dimer for the Dedekind tessellation of its associated Riemann surface!</strong><br />
+and a few minutes later I could slap myself on the head for not having thought of this before :</p>
+<blockquote><p>There is a natural way to associate to a Farey symbol (aka a permutation representation of the modular group) a quiver and a superpotential (aka a necklace) defining (conjecturally) a Calabi-Yau algebra! Moreover, different embeddings of the cuboid tree diagrams in the hyperbolic plane may (again conjecturally) give rise to all sorts of arty-farty fanshi-wanshi dualities&#8230;</p></blockquote>
+<p>I&#8217;ll give here the details of the simplest example I worked out during the talk and will come back to general procedure later, when I&#8217;ve done a reference check. I don&#8217;t claim any originality here and probably all of this is contained in Stienstra&#8217;s paper or in some physics-paper, so if you know of a reference, please leave a comment. Okay, remember the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=18">Dedekind tessellation</a> ?</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dedekind1877.gif" ></p>
+<p>So, all hyperbolic triangles we will encounter below are colored black or white. Now, take a <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=21">Farey symbol</a> and consider its associated <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=18">special polygon</a> in the hyperbolic plane. If we start with the Farey symbol</p>
+<p>[tex]\xymatrix{\infty \ar@{-}_{(1)}[r] &amp; 0 \ar@{-}_{\bullet}[r] &amp; 1 \ar@{-}_{(1)}[r] &amp; \infty} [/tex]</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dimer.jpg" style="float:left;margin-right:10px;"> we get the special polygonal region bounded by the thick edges, the vertical edges are identified as are the two bottom edges. Hence, this fundamental domain has 6 vertices (the 5 blue dots and the point at $i \infty $) and 8 hyperbolic triangles (4 colored black, indicated by a black dot, and 4 white ones).</p>
+<p>Right, now let us associate a <strong>quiver</strong> to this triangulation (which embeds the quiver in the corresponding Riemann surface). The vertices of the triangulation are also the vertices of the quiver (so in our case we are going for a quiver with 6 vertices). Every hyperbolic edge in the triangulation gives one arrow in the quiver between the corresponding vertices. The orientation of the arrow is determined by the color of a triangle of which it is an edge : if the triangle is black, we run around its edges counter-clockwise and if the triangle is white we run over its edges clockwise (that is, the orientation of the arrow is independent of the choice of triangles to determine it). In our example, there is one arrows directed from the vertex at $i $ to the vertex at $0 $, whether you use the black triangle on the left to determine the orientation or the white triangle on the right. If we do this for all edges in the triangulation we arrive at the quiver below</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dimerquiver.jpg" width=500 ></p>
+<p>where x,y and z are the three finite vertices on the $\frac{1}{2} $-axis from bottom to top and where I&#8217;ve used the physics-convention for double arrows, that is there are two F-arrows, two G-arrows and two H-arrows. Observe that the quiver is of <strong>Calabi-Yau type</strong> meaning that there are as much arrows coming into a vertex as there are arrows leaving the vertex.</p>
+<p>Now that we have our quiver we determine the <strong>superpotential</strong> as follows. Fix an orientation on the Riemann surface (for example counter-clockwise) and sum over all black triangles the product of the edge-arrows counterclockwise <strong>MINUS</strong> sum over all white triangles<br />
+the product of the edge arrows counterclockwise. So, in our example we have the cubic superpotential</p>
+<p>$IH&#8217;B+HAG+G&#8217;DF+FEC-BHI-H&#8217;G&#8217;A-GFD-CEF&#8217; $</p>
+<p>From this we get the associated noncommutative algebra, which is the quotient of the path algebra of the above quiver modulo the following &#8216;commutativity relations&#8217;</p>
+<p>$\begin{cases} GH &amp;=G&#8217;H&#8217; \\ IH&#8217; &amp;= IH \\ FE &amp;= F&#8217;E \\ F&#8217;G&#8217; &amp;= FG \\ CF &amp;= CF&#8217; \\ EC &amp;= GD \\ G&#8217;D &amp;= EC \\ HA &amp;= DF \\ DF&#8217; &amp;= H&#8217;A \\ AG &amp;= BI \\ BI &amp;= AG&#8217; \end{cases} $</p>
+<p>and <strong>morally</strong> this should be a Calabi-Yau algebra (( can someone who knows more about CYs verify this? )). This concludes the walk through of the procedure. Summarizing : <strong>to every Farey-symbol one associates a Calabi-Yau quiver and superpotential, possibly giving a Calabi-Yau algebra!</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/superpotentials-and-calabi-yaus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Segal’s formal neighbourhood result</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/segals-formal-neighbourhood-result/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/segals-formal-neighbourhood-result/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 08 Dec 2007 15:53:34 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=50</guid>
+
+					<description><![CDATA[Yesterday, Ed Segal gave a talk at the Arts. His title &#8220;Superpotential algebras from 3-fold singularities&#8221; didnt look too promising to me. And sure enough&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, Ed Segal gave a talk at the <a href="https://lievenlebruyn.github.io/neverendingbooks/ARTS/">Arts</a>. His title &#8220;Superpotential algebras from 3-fold singularities&#8221; didnt look too promising to me. And sure enough it was all there again : stringtheory, D-branes, Calabi-Yaus, superpotentials, all the pseudo-physics babble that spreads virally among the youngest generation of algebraists and geometers.</p>
+<p>Fortunately, his talk did contain a general ringtheoretic gem. After a bit of polishing up this gem, contained in his paper <a href="http://arxiv.org/abs/math/0702539">The A-infinity Deformation Theory of a Point and the Derived Categories of Local Calabi-Yaus</a>, can be stated as follows.</p>
+<p>Let $A $ be a $\mathbb{C} $-algebra and let $M = S_1 \oplus \ldots \oplus S_k $ be a finite dimensional semi-simple representation with distinct simple components. Let $\mathfrak{m} $ be the kernel of the algebra epimorphism $A \rightarrow S $ to the semi-simple algebra $S=End(M) $. Then, the $\mathfrak{m} $-adic completion of $A $ is Morita-equivalent to the completion of a quiver-algebra with relations. The nice thing is that both the quiver and relations come in a canonical way from the $A_{\infty} $-structure on the Ext-algebra $Ext^{\bullet}_A(M,M) $. More precisely, there is an isomorphism</p>
+<p>$\hat{A}_{\mathfrak{m}} \simeq \frac{\hat{T}_S(Ext^1_A(M,M)^{\ast})}{(Im(HMC)^{\ast})} $</p>
+<p>where the homotopy Maurer-Cartan map comes from the $A_{\infty} $ structure maps</p>
+<p>$HMC = \oplus_i m_i~:~T_S(Ext_A^1(M,M)) \rightarrow Ext^2_A(M,M) $</p>
+<p>and hence the defining relations of the completion are given by the image of the dual of this map.</p>
+<p>For ages, Ive known this result in the trivial case of formally smooth algebras (where $Ext^2_A(M,M)=0 $ and hence there are no relations to divide out) and where it is a consequence of a special case of the Cuntz-Quillen &#8220;tubular neighborhood&#8221; result. Completions of formally smooth algebras at semi-simples are Morita equivalent to completions of path algebras. This fact motivated all the local-quiver technology that was developed here in Antwerp over the last decade (see <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=28">my book</a> if you want to know the details).</p>
+<p>Also for 3-dimensional Calabi-Yau algebras it states that the completions at semi-simples are Morita equivalent to completions of quotients of path algebras by the relations coming from a superpotential (aka a necklace) by taking partial noncommutative derivatives. Here the essential ingredient is that $Ext^2_A(M,M)^{\ast} \simeq Ext^1_A(M,M) $ in this case.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/segals-formal-neighbourhood-result/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>2006 paper nominees</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/2006-paper-nominees/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/2006-paper-nominees/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 29 Dec 2006 08:42:49 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=227</guid>
+
+					<description><![CDATA[Here are my nominees for the 2006 paper of the year award in mathematics &#38; mathematical physics : in math.RA : math.RA/0606241 : Notes on&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here are<br />
+my nominees for the 2006 paper of the year award in mathematics &amp;<br />
+mathematical physics :    <strong>in math.RA : math.RA/0606241</strong><br />
+: <a href="http://www.arxiv.org/abs/math.RA/0606241">Notes on A-infinity<br />
+algebras, A-infinity categories and non-commutative geometry. I</a> by<br />
+<a href="http://www.arxiv.org/find/math/1/au:+Kontsevich_M/0/1/0/all/0/1"><br />
+Maxim Kontsevich</a> and <a href="http://www.arxiv.org/find/math/1/au:+Soibelman_Y/0/1/0/all/0/1"><br />
+Yan Soibelman</a>. Here is the abstract :   </p>
+<blockquote><p> We develop<br />
+geometric approach to A-infinity algebras and A-infinity categories<br />
+based on the notion of formal scheme in the category of graded vector<br />
+spaces. Geometric approach clarifies several questions, e.g. the notion<br />
+of homological unit or A-infinity structure on A-infinity functors. We<br />
+discuss Hochschild complexes of A-infinity algebras from geometric point<br />
+of view. The paper contains homological versions of the notions of<br />
+properness and smoothness of projective varieties as well as the<br />
+non-commutative version of Hodge-to-de Rham degeneration conjecture. We<br />
+also discuss a generalization of Deligne&#8217;s conjecture which includes<br />
+both Hochschild chains and cochains. We conclude the paper with the<br />
+description of an action of the PROP of singular chains of the<br />
+topological PROP of 2-dimensional surfaces on the Hochschild chain<br />
+complex of an A-infinity algebra with the scalar product (this action is<br />
+more or less equivalent to the structure of 2-dimensional Topological<br />
+Field Theory associated with an &#8220;abstract&#8221; Calabi-Yau<br />
+manifold). </p></blockquote>
+<p>   <strong>why ?</strong> : Because this paper<br />
+probably gives the correct geometric object associated to a<br />
+non-commutative algebra (a huge coalgebra) and consequently the right<br />
+definition of a map between noncommutative affine schemes. In a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/2006/09/11/coalgebras-and-non-geometry-3/">previous post </a> (and its predecessors) I&#8217;ve<br />
+tried to explain how this links up with my own interpretation and since<br />
+then I&#8217;ve thought more about this, but that will have to wait for<br />
+another time.    <strong>in hep-th : hep-th/0611082</strong> : <a href="http://www.arxiv.org/abs/hep-th/0611082">Children&#8217;s Drawings From<br />
+Seiberg-Witten Curves</a> by  Sujay K. Ashok, Freddy Cachazo, Eleonora<br />
+Dell&#8217;Aquila. Here is the abstract :   </p>
+<blockquote><p> We consider N=2<br />
+supersymmetric gauge theories perturbed by tree level superpotential<br />
+terms near isolated singular points in the Coulomb moduli space. We<br />
+identify the Seiberg-Witten curve at these points with polynomial<br />
+equations used to construct what Grothendieck called &#8220;dessins<br />
+d&#8217;enfants&#8221; or &#8220;children&#8217;s drawings&#8221; on the Riemann<br />
+sphere. From a mathematical point of view, the dessins are important<br />
+because the absolute Galois group Gal(\bar{Q}/Q) acts faithfully on<br />
+them. We argue that the relation between the dessins and Seiberg-Witten<br />
+theory is useful because gauge theory criteria used to distinguish<br />
+branches of N=1 vacua can lead to mathematical invariants that help to<br />
+distinguish dessins belonging to different Galois orbits. For instance,<br />
+we show that the confinement index defined in hep-th/0301006 is a Galois<br />
+invariant. We further make some conjectures on the relation between<br />
+Grothendieck&#8217;s programme of classifying dessins into Galois orbits and<br />
+the physics problem of classifying phases of N=1 gauge theories.
+</p></blockquote>
+<p>   <strong>why ?</strong> : Because this paper gives the<br />
+best introduction I&#8217;ve seen to Grothendieck&#8217;s dessins d&#8217;enfants<br />
+(slightly overdoing it by giving a crash course on elementary Galois<br />
+theory in appendix A) and kept me thinking about dessins and their<br />
+Galois invariants ever since (again, I&#8217;ll come back to this later). </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/2006-paper-nominees/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

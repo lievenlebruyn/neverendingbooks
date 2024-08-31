@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Carlsen &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/carlsen/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 18 Mar 2021 18:01:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>the bongcloud attack</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-bongcloud-attack/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-bongcloud-attack/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 18 Mar 2021 18:01:27 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[bongcloud]]></category>
+		<category><![CDATA[Carlsen]]></category>
+		<category><![CDATA[chess]]></category>
+		<category><![CDATA[Nakamura]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9312</guid>
+
+					<description><![CDATA[In this neverending pandemic there&#8217;s a shortage of stories putting a lasting smile on my face. Here&#8217;s one. If you are at all interested in&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In this neverending pandemic there&#8217;s a shortage of stories putting a lasting smile on my face. Here&#8217;s one.</p>
+<p><center><br />
+<img decoding="async" src="https://video-images.vice.com/articles/6050d7f2156fc5009ab2839b/lede/1615911215714-maxresdefault.jpeg?crop=1xw:0.9993206521739131xh;center,center&#038;resize=1000:*" width=100% ><br />
+</center></p>
+<p>If you are at all interested in chess, you&#8217;ll know by now that some days ago IGMs (that is, international grandmasters for the rest of you) <a href="https://en.wikipedia.org/wiki/Magnus_Carlsen">Magnus Carlsen</a> and <a href="https://en.wikipedia.org/wiki/Hikaru_Nakamura">Hikaru Nakamura</a> opened an official game with a double bongcloud, and couldn&#8217;t stop laughing.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/Bongcloud_Attack">bongcloud attack</a> is the chess opening in which white continues after</p>
+<p>1. e2-e4, e7-e5</p>
+<p>with</p>
+<p>2. Ke1-e2 !</p>
+<p>thereby blocking the diagonals for the bishop and queen, losing the ability to castle, and putting its king in danger.</p>
+<p>If you are left clueless, you should download the free e-book <a href="http://i.4pcdn.org/tg/1401479151063.pdf">Winning with the bongcloud</a> immediately.</p>
+<p>If you are (or were) a chess player, it is the perfect parody to all those books you had to suffer through in order to build up an &#8216;opening repertoire&#8217;.</p>
+<p>If you are new to chess (perhaps after watching <a href="https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(miniseries)">The queen&#8217;s gambit</a>), it gives you a nice selection of easy mate-in-one problems.</p>
+<p>Every possible defence against the bongcloud is illustrated with a &#8216;game&#8217; illustrating the massive advantage the attack gives, ending with a situation in which &#8230; black(!) has a one-move mate.</p>
+<p>One example:</p>
+<p>In the two knight Copacabana tango defense against the bongcloud, that is the position after</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/bongcloud1.jpg" width=50% ><br />
+</center></p>
+<p>the Haight-Asbury (yeah, <a href="https://en.wikipedia.org/wiki/Haight-Ashbury">well</a>) game (Linares, 1987) continued with:</p>
+<p>4. Kg3, Nxe4?<br />
+5. Kh3, d6+<br />
+6. Qg4!, Bxg4<br />
+7. Kxg4, Qf6??<br />
+8. Ne2, h5+??<br />
+9. Kh3!, Nxf2<br />
+10. Kg3!</p>
+<p>giving this position</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/bongcloud2.jpg" width=50% ><br />
+</center></p>
+<p>which &#8216;Winning with the bongcloud&#8217; evaluates as:</p>
+<blockquote><p>White continues his textbook execution of a “pendulum,” swinging back and forth between g3 and h3 to counter every Black threat. With the dynamically placed King, Black’s attack teeters on the edge of petering out. Nxh1 will trap the Black Knight and extinguish the threat.</p>
+<p>In the actual game, play took a different turn as Black continued his h-file pressure. Nonetheless, this game is an excellent example of how 2. …Nc6 is often a wasted tempo in the Bongcloud.
+</p></blockquote>
+<p>Here&#8217;s Nakamura philosophising over the game and the bongcloud. Try to watch at least the first 30 seconds or so to see the commentators reaction to the actual Carlsen-Nakamura game.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/uMzYu-wL0nc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Now, that put a smile on your face, didn&#8217;t it?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-bongcloud-attack/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

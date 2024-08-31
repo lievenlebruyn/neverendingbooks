@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ginzburg &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/ginzburg/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 14 Jan 2008 12:47:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Quiver-superpotentials</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 14 Jan 2008 12:47:27 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/quiver-superpotentials.html</guid>
+
+					<description><![CDATA[It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by the conjugacy class of a cofinite subgroup $\Lambda \subset \Gamma $, or equivalently, to a dessin d&#8217;enfant. We have introduced a <strong>quiver</strong> (aka an oriented graph) which comes from a triangulation of the compactification of $\mathbb{H} / \Lambda $ where $\mathbb{H} $ is the hyperbolic upper half-plane. This quiver is independent of the chosen embedding of the dessin in the Dedeking tessellation. (For more on these terms and constructions, please consult the series <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-dedekind-tessellation.html">Modular subgroups</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monsieur-mathieu.html">Dessins d&#8217;enfants</a>).</p>
+<p>Why are quivers useful? To start, any quiver $Q $ defines a noncommutative algebra, the <strong>path algebra</strong> $\mathbb{C} Q $, which has as a $\mathbb{C} $-basis all oriented paths in the quiver and multiplication is induced by concatenation of paths (when possible, or zero otherwise). Usually, it is quite hard to make actual computations in noncommutative algebras, but in the case of path algebras you can just <strong>see</strong> what happens.</p>
+<p>Moreover, we can also <strong>see</strong> the finite dimensional representations of this algebra $\mathbb{C} Q $. Up to isomorphism they are all of the following form : at each vertex $v_i $ of the quiver one places a finite dimensional vectorspace $\mathbb{C}^{d_i} $ and any arrow in the quiver<br />
+[tex]\xymatrix{\vtx{v_i} \ar[r]^a &amp; \vtx{v_j}}[/tex] determines a linear map between these vertex spaces, that is, to $a $ corresponds a matrix in $M_{d_j \times d_i}(\mathbb{C}) $. These matrices determine how the paths of length one act on the representation, longer paths act via multiplcation of matrices along the oriented path.</p>
+<p>A <strong>necklace</strong> in the quiver is a closed oriented path in the quiver <strong>up to cyclic permutation</strong> of the arrows making up the cycle. That is, we are free to choose the start (and end) point of the cycle. For example, in the one-cycle quiver</p>
+<p>[tex]\xymatrix{\vtx{} \ar[rr]^a &amp; &amp; \vtx{} \ar[ld]^b \\ &amp; \vtx{} \ar[lu]^c &amp;}[/tex]</p>
+<p>the basic necklace can be represented as $abc $ or $bca $ or $cab $. How does a necklace act on a representation? Well, the matrix-multiplication of the matrices corresponding to the arrows gives a square matrix in each of the vertices in the cycle. Though the dimensions of this matrix may vary from vertex to vertex, what does not change (and hence is a property of the necklace rather than of the particular choice of cycle) is the <strong>trace</strong> of this matrix. That is, necklaces give complex-valued functions on representations of $\mathbb{C} Q $ and by a result of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/m-geometry-3.html">Artin and Procesi</a> there are enough of them to distinguish isoclasses of (semi)simple representations! That is, linear combinations a necklaces (aka <strong>super-potentials</strong>) can be viewed, after taking traces, as complex-valued functions on all representations (similar to character-functions).</p>
+<p>In physics, one views these functions as potentials and it then interested in the points (representations) where this function is extremal (minimal) : the <strong>vacua</strong>. Clearly, this does not make much sense in the complex-case but is relevant when we look at the real-case (where we look at skew-Hermitian matrices rather than all matrices). A motivating example (the <strong>Yang-Mills potential</strong>) is given in Example 2.3.2 of Victor Ginzburg&#8217;s paper <a href="http://arxiv.org/abs/math/0612139">Calabi-Yau algebras</a>.</p>
+<p>Let $\Phi $ be a super-potential (again, a linear combination of necklaces) then our commutative intuition tells us that extrema correspond to zeroes of all partial differentials $\frac{\partial \Phi}{\partial a} $ where $a $ runs over all coordinates (in our case, the arrows of the quiver). One can make sense of differentials of necklaces (and super-potentials) as follows : the partial differential with respect to an arrow $a $ occurring in a term of $\Phi $ is defined to be the <strong>path</strong> in the quiver one obtains by removing all 1-occurrences of $a $ in the necklaces (defining $\Phi $) and rearranging terms to get a maximal broken necklace (using the cyclic property of necklaces). An example, for the cyclic quiver above let us take as super-potential $abcabc $ (2 cyclic turns), then for example</p>
+<p>$\frac{\partial \Phi}{\partial b} = cabca+cabca = 2 cabca $</p>
+<p>(the first term corresponds to the first occurrence of $b $, the second to the second). Okay, but then the vacua-representations will be the representations of the quotient-algebra (which I like to call the <strong>vacualgebra</strong>)</p>
+<p>$\mathcal{U}(Q,\Phi) = \frac{\mathbb{C} Q}{(\partial \Phi/\partial a, \forall a)} $</p>
+<p>which in &#8216;physical relevant settings&#8217; (whatever that means&#8230;) turn out to be <strong>Calabi-Yau algebras</strong>.</p>
+<p>But, let us return to the case of subgroups of the modular group and their quivers. Do we have a natural <strong>super-potential</strong> in this case? Well yes, the quiver encoded a triangulation of the compactification of $\mathbb{H}/\Lambda $ and if we choose an orientation it turns out that all &#8216;black&#8217; triangles (with respect to the Dedekind tessellation) have their arrow-sides defining a necklace, whereas for the &#8216;white&#8217; triangles the <strong>reverse</strong> orientation makes the arrow-sides into a necklace. Hence, it makes sense to look at the <strong>cubic</strong> superpotential $\Phi $ being the sum over all triangle-sides-necklaces with a +1-coefficient for the black triangles and a -1-coefficient for the white ones. Let&#8217;s consider an index three example from a previous post</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver3.jpg" style="float:left;margin-right:10px;" ><br />
+[tex]\xymatrix{&amp; &amp; \rho \ar[lld]_d \ar[ld]^f \ar[rd]^e &amp; \\<br />
+i \ar[rrd]_a &amp; i+1 \ar[rd]^b &amp; &amp; \omega \ar[ld]^c \\<br />
+&amp; &amp; 0 \ar[uu]^h \ar@/^/[uu]^g \ar@/_/[uu]_i &amp;}[/tex]</p>
+<p>In this case the super-potential coming from the triangulation is</p>
+<p>$\Phi = -aid+agd-cge+che-bhf+bif $</p>
+<p>and therefore we have a noncommutative algebra $\mathcal{U}(Q,\Phi) $ associated to this index 3 subgroup. Contrary to what I believed at the start of this series, the algebras one obtains in this way from dessins d&#8217;enfants are <strong>far from being Calabi-Yau</strong> (in whatever definition). For example, using a GAP-program written by <a href="http://www.win.ua.ac.be/~rbockl/research/">Raf Bocklandt</a> Ive checked that the growth rate of the above algebra is similar to that of $\mathbb{C}[x] $, so in this case $\mathcal{U}(Q,\Phi) $ can be viewed as a noncommutative curve (with singularities).</p>
+<p>However, this is not the case for all such algebras. For example, the vacualgebra associated to the second index three subgroup (whose fundamental domain and quiver were depicted at the end of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-modular-group-and-superpotentials-2.html">this post</a>) has growth rate similar to that of $\mathbb{C} \langle x,y \rangle $&#8230;</p>
+<p>I have an outlandish conjecture about the growth-behavior of all algebras $\mathcal{U}(Q,\Phi) $ coming from dessins d&#8217;enfants : <strong>the algebra sees what the monodromy representation of the dessin sees of the modular group (or of the third braid group)</strong>.<br />
+I can make this more precise, but perhaps it is wiser to calculate one or two further examples&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>non-geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/non-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/non-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 16 Jun 2006 12:44:51 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=247</guid>
+
+					<description><![CDATA[Here&#8217;s an appeal to the few people working in Cuntz-Quillen-Kontsevich-whoever noncommutative geometry (the one where smooth affine varieties correspond to quasi-free or formally smooth algebras)&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s<br />
+an appeal to the few people working in Cuntz-Quillen-Kontsevich-whoever<br />
+noncommutative geometry (the one where smooth affine varieties<br />
+correspond to quasi-free or formally smooth algebras) : let&#8217;s rename our<br />
+topic and call it <strong>non-geometry</strong>. I didn&#8217;t come up with<br />
+this term, I heard in from Maxim Kontsevich in a talk he gave a couple<br />
+of years ago in Antwerp. There are some good reasons for this name<br />
+change.</p>
+<p>The term _non-commutative geometry_ is already taken by<br />
+much more popular subjects such as _Connes-style noncommutative<br />
+differential geometry_ and _Artin-style noncommutative algebraic<br />
+geometry_. Renaming our topic we no longer have to include footnotes<br />
+(such as the one in the recent <a href="http://www.arxiv.org/abs/math.RA/0606241">Kontsevich-Soibelman<br />
+paper</a>) :</p>
+<blockquote><p>  We use &#8220;formal&#8221; non-commutative geometry<br />
+in tensor categories, which is different from  the non-commutative<br />
+geometry in the sense of Alain Connes.  </p></blockquote>
+<p>or to make a<br />
+distinction between _noncommutative geometry in the small_ (which is<br />
+Artin-style) and _noncommutative geometry in the large_ (which in<br />
+non-geometry) as in the <a href="http://www.arxiv.org/abs/math.AG/0506603">Ginzburg notes</a>. </p>
+<p>Besides, the stress in _non-commutative geometry_ (both in Connes-<br />
+and Artin-style) in on _commutative_. Connes-style might also be called<br />
+&#8216;K-theory of $C^*$-algebras&#8217; and they use the topological<br />
+information of K-theoretic terms in the commutative case as guidance to<br />
+speak about geometrical terms in the nocommutative case. Similarly,<br />
+Artin-style might be called &#8216;graded homological algebra&#8217; and they<br />
+use Serre&#8217;s homological interpretation of commutative geometry to define<br />
+similar concepts for noncommutative algebras. Hence, non-commutative<br />
+geometry is that sort of non-geometry which is almost<br />
+commutative&#8230;</p>
+<p>But the main point of naming our subject<br />
+non-geometry is to remind us not to rely too heavily on our<br />
+(commutative) geometric intuition. For example, we would expect a<br />
+manifold to have a fixed dimension. One way to define the dimension is<br />
+as the trancendence degree of the functionfield. However, from the work<br />
+of Paul Cohn (I learned about it through Aidan Schofield) we know that<br />
+quasi-free algebras usually do&#8217;nt have a specific function ring of<br />
+fractions, rather they have infinitely many good candidates for it and<br />
+these candidates may look pretty unrelated. So, at best we can define a<br />
+_local dimension_ of a noncommutative manifold at a point, say given by<br />
+a simple representation. It follows from the Cunz-Quillen tubular<br />
+neighborhood result that the local ring in such a point is of the<br />
+form</p>
+<p>$M_n(\mathbb{C} \langle \langle z_1,\ldots,z_m \rangle<br />
+\rangle) $</p>
+<p>(this s a noncommutative version of the classical fact<br />
+than the local ring in a point of a d-dimensional manifold is formal<br />
+power series $\mathbb{C} [[ z_1,\ldots,z_d ]] $) but in non-geometry both<br />
+m (the _local_ dimension) and n (the dimension of the simple<br />
+representation) vary from point to point. Still, one can attach to the<br />
+quasi-free algebra A a finite amount of data (in fact, a _finite_ quiver<br />
+and dimension vector) containing enough information to compute the (n,m)<br />
+couples for _all_ simple points (follows from the <a href="http://www.arxiv.org/abs/math.RA/0304196">one quiver to rule them<br />
+all paper</a> or see <a href="http://www.arxiv.org/abs/math.RA/0406618">this</a> for more<br />
+details). </p>
+<p>In fact, one can even extend this to points<br />
+corresponding to semi-simple representations in which case one has to<br />
+replace the matrix-ring above by a ring Morita equivalent to the<br />
+completion of the path algebra of a finite quiver, the _local quiver_ at<br />
+the point (which can also be computer from the one-quiver of A. The<br />
+local coalgebras of distributions at such points of<br />
+Kontsevich&amp;Soibelman are just the dual coalgebras of these local<br />
+algebras (in <a href="http://www.arxiv.org/abs/math.RA/0606241">math.RA/0606241</a> they<br />
+merely deal with the n=1 case but no doubt the general case will appear<br />
+in the second part of their paper).</p>
+<p>The case of the semi-simple<br />
+point illustrates another major difference between commutative geometry<br />
+and non-geometry, whereas commutative simples only have self-extensions<br />
+(so the distribution coalgebra is just the direct sum of all the local<br />
+distributions) noncommutative simples usually have plenty of<br />
+non-isomorphic simples with which they have extensions, so to get at the<br />
+global distribution coalgebra of A one cannot simply add the locals but<br />
+have to embed them in more involved coalgebras.</p>
+<p>The way to do it<br />
+is somewhat concealed in <a href="http://www.math.ua.ac.be/~lebruyn/paper/lebruyn2002d.pdf">the<br />
+third version of my neverending book</a> (the version that most people<br />
+found incomprehensible). Here is the idea : construct a huge uncountable<br />
+quiver by taking as its vertices the isomorphism classes of all simple<br />
+A-representations and with as many arrows between the simple vertices S<br />
+and T as the dimension of the ext-group between these simples (and<br />
+again, these dimensions follow from the knowledge of the one-quiver of<br />
+A). Then, the global coalgebra of distributions of A is the limit over<br />
+all cotensor coalgebras corresponding to finite subquivers). Maybe I&#8217;ll<br />
+revamp this old material in connection with the Kontsevich&amp;Soibelman<br />
+paper(s) for the mini-course I&#8217;m supposed to give in september.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/non-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>necklaces (again)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/necklaces-again/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/necklaces-again/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 23 Mar 2005 09:38:52 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[quivers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=303</guid>
+
+					<description><![CDATA[I have been posting before on the necklace Lie algebra : on Travis Schedler&#39;s extension of the Lie algebra structure to a Lie bialgebra and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I have<br />
+been posting before on the necklace Lie algebra : on Travis<br />
+Schedler&#39;s extension of the Lie algebra structure to a Lie bialgebra<br />
+and its deformation and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=277">more recently</a><br />
+in connection with Michel Van den Bergh&#39;s double Poisson paper. <br /> Yesterday, Victor Ginzburg and Travis Schedler posted their paper <a href="http://www.arxiv.org/abs/math.QA/0503405">Moyal quantization of<br />
+necklace Lie algebras</a> on the arXiv in which they give a Moyal-type<br />
+construction of the Hopf algebra deformation of the necklace Lie<br />
+bialgebra found by Schedler last year. <br /> It would be nice if<br />
+someone worked out a few examples of these constructions in full detail.<br />
+But as often in the case of (wild) quiver situation it is not clear what<br />
+an &#39;interesting&#39; example might be. For the finite and tame case<br />
+we have a full classification by (extended) Dynkin diagrams so a natural<br />
+class of examples but it isn&#39;t clear how to find gems in the<br />
+complement. <br /> One natural source of double quiver situations seems<br />
+to come from what I called the <a href="http://www.arxiv.org/abs/math.RA/0304196">One Quiver</a> of a<br />
+formally smooth algebra. This one quiver of group algebras of some<br />
+interesting arithemetical groups such as the modular group<br />
+$PSL_2(\mathbb{Z}) $ and $SL_2(\mathbb{Z}) $ were calculated before and<br />
+turned out to be consisting of one (resp. two) components which are the<br />
+double of the tame quiver $\tilde{A}_5 $. <br /> To obtain the double of<br />
+a wild quiver situation loook at the group $GL_2(\mathbb{Z}) = D_4<br />
+\bigstar_{D_2} D_6 $. In a previous post<br />
+I thought to have calculated it, but lately I found that this was<br />
+incorrect. Even the version I computed last week still had some mistakes<br />
+as <a href="http://www.math.ua.ac.be/algebra/member.php?who=raf.bocklandt">Raf<br />
+Bocklandt</a> discovered. But as of yesterday we are pretty certain that<br />
+the one quiver for $GL_2(\mathbb{Z}) $ consists of two components. One of<br />
+these is the double quiver of an interesting wild quiver  </p>
+<p>$\xymatrix{&#038; \vtx{} \ar@{=}[rr] \ar@{=}[dd] &#038; &#038; \vtx{} \ar@{=}[dd]<br />
+\\ \vtx{} \ar@{=}[ur] \ar@{=}[rr] \ar@{=}[dd] &#038; &#038; \vtx{} \ar@{.}[ur]<br />
+\ar@{.}[dd] \ar@{=}[dr] \\ &#038; \vtx{} \ar@{.}[rr] \ar@{=}[dr] &#038; &#038; \vtx{}<br />
+\\ \vtx{} \ar@{=}[rr] \ar@{.}[ur] &#038; &#038; \vtx{} \ar@{=}[ur]} $</p>
+<p>where each double line indicates that there is an arrow in each<br />
+direction between the vertices. So, it is an interwoven pattern of one<br />
+big cycle of length 6 (reminiscent of the modular group case) with 4<br />
+cycles of length 5. Perhaps the associated necklace Lie (bi)algebra and<br />
+its deformation might be interesting to work out. <br /> However, the<br />
+second component of the one quiver for $GL_2(\mathbb{Z}) $ is _not_<br />
+symmetric.Maybe I will come back to the calculation of these quivers<br />
+later.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/necklaces-again/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>cotangent bundles</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/cotangent-bundles/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/cotangent-bundles/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 09 Sep 2004 09:40:50 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[quivers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/cotangent-bundles.html</guid>
+
+					<description><![CDATA[The previous post in this sequence was [moduli spaces][1]. Why did we spend time explaining the connection of the quiver $Q~:~\xymatrix{\vtx{} \ar[rr]^a &#038; &#038; \vtx{}&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The<br />
+previous post in this sequence was [moduli spaces][1]. Why did we spend<br />
+time explaining the connection of the quiver<br />
+$Q~:~\xymatrix{\vtx{} \ar[rr]^a &#038; &#038; \vtx{} \ar@(ur,dr)^x} $<br />
+to moduli spaces of vectorbundles on curves and moduli spaces of linear<br />
+control systems? At the start I said we would concentrate on its _double<br />
+quiver_      $\tilde{Q}~:~\xymatrix{\vtx{} \ar@/^/[rr]^a &#038;&#038; \vtx{}<br />
+\ar@(u,ur)^x \ar@(d,dr)_{x^*} \ar@/^/[ll]^{a^*}} $      Clearly,<br />
+this already gives away the answer : if the path algebra $C Q$<br />
+determines a (non-commutative) manifold $M$, then the path algebra $C<br />
+\tilde{Q}$ determines the cotangent bundle of $M$. Recall that for a<br />
+commutative manifold $M$, the cotangent bundle is the vectorbundle<br />
+having at the point $p \in M$ as fiber the linear dual $(T_p M)^*$ of<br />
+the tangent space.      So, why do we claim that $C \tilde{Q}$<br />
+corresponds to the cotangent bundle of $C Q$? Fix a dimension vector<br />
+$\alpha = (m,n)$ then the representation space<br />
+$\mathbf{rep}_{\alpha}~Q = M_{n \times m}(C) \oplus M_n(C)$      is just<br />
+an affine space so in its point the tangent space is the representation<br />
+space itself. To define its linear dual use the non-degeneracy of the<br />
+_trace pairings_      $M_{n \times m}(C) \times M_{m \times n}(C)<br />
+\rightarrow C~:~(A,B) \mapsto tr(AB)$      $M_n(C) \times M_n(C)<br />
+\rightarrow C~:~(C,D) \mapsto tr(CD)$      and therefore the linear dual<br />
+$\mathbf{rep}_{\alpha}~Q^* = M_{m \times n}(C) \oplus M_n(C)$ which is<br />
+the representation space $\mathbf{rep}_{\alpha}~Q^s$ of the quiver<br />
+$Q^s~:~\xymatrix{\vtx{} &#038; &#038; \vtx{} \ar[ll] \ar@(ur,dr)} $<br />
+and therefore we have that the cotangent bundle to the representation<br />
+space $\mathbf{rep}_{\alpha}~Q$      $T^* \mathbf{rep}_{\alpha}~Q =<br />
+\mathbf{rep}_{\alpha}~\tilde{Q}$      Important for us will be that any<br />
+cotangent bundle has a natural _symplectic structure_. For a good<br />
+introduction to this see the [course notes][2] &#8220;Symplectic geometry and<br />
+quivers&#8221; by [Geert Van de Weyer][3].      As a consequence $C \tilde{Q}$<br />
+can be viewed as a non-commutative symplectic manifold with the<br />
+symplectic structure determined by the non-commutative 2-form<br />
+$\omega = da^* da + dx^* dx$      but before we can define all this we<br />
+will have to recall some facts on non-commutative differential forms.<br />
+Maybe [next time][4]. For the impatient : have a look at the paper by<br />
+Victor Ginzburg [Non-commutative Symplectic Geometry, Quiver varieties,<br />
+and Operads][5] or my paper with Raf Bocklandt [Necklace Lie algebras<br />
+and noncommutative symplectic geometry][6].      Now that we have a<br />
+cotangent bundle of $C Q$ is there also a _tangent bundle_ and does it<br />
+again correspond to a new quiver? Well yes, here it is<br />
+$\xymatrix{\vtx{} \ar@/^/[rr]^{a+da} \ar@/_/[rr]_{a-da} &#038; &#038; \vtx{}<br />
+\ar@(u,ur)^{x+dx} \ar@(d,dr)_{x-dx}} $      and the labeling of the<br />
+arrows may help you to work through some sections of the Cuntz-Quillen<br />
+paper&#8230;</p>
+<p>[1]: https://lievenlebruyn.github.io/neverendingbooks/index.php?p=39<br />
+[2]: http://www.win.ua.ac.be/~gvdwey/lectures/symplectic_moment.pdf<br />
+[3]: http://www.win.ua.ac.be/~gvdwey/<br />
+[4]: https://lievenlebruyn.github.io/neverendingbooks/index.php?p=41<br />
+[5]: http://www.arxiv.org/abs/math.QA/0005165<br />
+[6]: http://www.arxiv.org/abs/math.AG/0010030</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/cotangent-bundles/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>nog course outline</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/nog-course-outline/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/nog-course-outline/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 02 Sep 2004 15:33:28 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=71</guid>
+
+					<description><![CDATA[Now that the preparation for my undergraduate courses in the first semester is more or less finished, I can begin to think about the courses&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Now that the preparation for my undergraduate courses in the first semester is more or less finished, I can begin to think about the courses I&#8217;ll give this year in the master class<br />
+non-commutative geometry. For a change I&#8217;d like to introduce the main ideas and concepts by a very concrete example : Ginzburg&#8217;s coadjoint-orbit result for the Calogero-Moser space and its<br />
+relation to the classification of one-sided ideals in the first Weyl algebra. Not only will this example give me the opportunity to say things about formally smooth algebras, non-commutative<br />
+differential forms and even non-commutative symplectic geometry, but it also involves what some people prefer to call _non-commutative algebraic geometry_ (that is the study of graded Noetherian<br />
+rings having excellent homological properties) via the projective space associated to the homogenized Weyl algebra. Besides, I have some affinity with this example. </p>
+<p>A long time ago I introduced<br />
+the moduli spaces for one-sided ideals in the Weyl algebra in <a href="http://www.math.ua.ac.be/~lebruyn/preprints/9249.pdf">Moduli spaces for right ideals of the Weyl algebra</a> and when I was printing a _very_ preliminary version of Ginzburg&#8217;s paper<br />
+<a href="http://www.arxiv.org/abs/math.QA/0005165">Non-commutative Symplectic Geometry, Quiver varieties, and Operads</a> (probably because he send a preview to Yuri Berest and I was in contact with him at the time about the moduli spaces) the<br />
+idea hit me at the printer that the right way to look at the propblem was to consider the quiver </p>
+<p>$\xymatrix{\vtx{} \ar@/^/[rr]^a &#038; &#038;  \vtx{} \ar@(u,ur)^x \ar@(d,dr)_y \ar@/^/[ll]^b} $</p>
+<p>which eventually led to my paper together with Raf Bocklandt <a href="http://www.arxiv.org/abs/math.AG/0010030">Necklace Lie algebras and noncommutative symplectic geometry</a>.</p>
+<p>Apart from this papers I would like to explain the following<br />
+papers by illustrating them on the above example : Michail Kapranov <a href="http://www.arxiv.org/abs/math.AG/9802041">Noncommutative geometry based on commutator expansions</a> Maxim Kontsevich and Alex Rosenberg <a href="http://www.arxiv.org/abs/math.AG/9812158">Noncommutative smooth<br />
+spaces</a> Yuri Berest and George Wilson <a href="http://www.arxiv.org/abs/math.QA/0102190">Automorphisms and Ideals of the Weyl Algebra</a> Yuri Berest and George Wilson <a href="http://www.arxiv.org/abs/math.AG/0104248">Ideal Classes of the Weyl Algebra and Noncommutative Projective<br />
+Geometry</a> Travis Schedler <a href="http://www.arxiv.org/abs/math.QA/0406200">A Hopf algebra quantizing a necklace Lie algebra canonically associated to a quiver</a> and of course the seminal paper by Joachim Cuntz and Daniel Quillen on<br />
+quasi-free algebras and their non-commutative differential forms which, unfortunately, in not available online.</p>
+<p>I plan to write a series of posts here on all this material but I will be very<br />
+happy to get side-tracked by any comments you might have. So please, if you are interested in any of this and want to have more information or explanation do not hesitate to post a comment (only<br />
+your name and email is required to do so, you do not have to register and you can even put some latex-code in your post but such a posting will first have to viewed by me to avoid cluttering of<br />
+nonsense GIFs in my directories).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/nog-course-outline/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the necklace Lie bialgebra</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-necklace-lie-bialgebra/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-necklace-lie-bialgebra/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 11 Jun 2004 09:39:57 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=156</guid>
+
+					<description><![CDATA[Today Travis Schedler posted a nice paper on the arXiv &#8220;A Hopf algebra quantizing a necklace Lie algebra canonically associated to a quiver&#8221;. I heard&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/necklace.jpg" style="float:left;margin-right:10px;" />  Today <a href="http://www.math.uchicago.edu/~trasched/" target="_blank" rel="noopener">Travis Schedler</a> posted a nice paper on the arXiv<br />
+<a href="http://www.arxiv.org/abs/math.QA/0406200" target="_blank" rel="noopener">&#8220;A Hopf algebra quantizing a necklace Lie algebra<br />
+canonically associated to a quiver&#8221;</a>. I heard the first time about<br />
+necklace Lie algebras from Jacques Alev who had heard a talk by Kirillov<br />
+who constructed an infinite dimensional Lie algebra on the monomials in<br />
+two non-commuting variables X and Y (upto cyclic permutation of the<br />
+word, whence &#8216;necklace&#8217;). Later I learned that this Lie algebra was<br />
+defined by Maxim Kontsevich for the free algebra in an even number of<br />
+variables in his &#8220;Formal (non)commutative symplectic geometry&#8221; paper<br />
+(published in the Gelfand seminar proceedings 1993). Later I extended<br />
+this construction together with Raf Bocklandt in <a href="http://www.arxiv.org/abs/math.AG/0010030" target="_blank" rel="noopener">&#8220;Necklace Lie algebras and non-commutative symplectic<br />
+geometry&#8221;</a> (see also Victor Ginzburg&#8217;s paper <a href="http://www.arxiv.org/abs/math.QA/0005165" target="_blank" rel="noopener">&#8220;Non-commutative symplectic geometry, quiver<br />
+varieties and operads&#8221;</a>. Here, the necklace Lie algebra appears from<br />
+(relative) non-commutative differential forms on a symmetric quiver and<br />
+its main purpose is to define invariant symplectic flows on quotient<br />
+varieties of representations of the quiver.<br /> Travis Schedler<br />
+extends this construction in two important ways. First, he shows that<br />
+the Lie-algebra is really a Lie-bialgebra hence there is some sort of<br />
+group-like object acting on all the representation varieties. Even more<br />
+impoprtant, he is able to define a quantization of this structure<br />
+defining a Hopf algebra. In this quantization, necklaces play a role<br />
+similar to that of (projected) flat links in the plane whereas their<br />
+quantization (necklaces with a height) are similar to genuine links in<br />
+3-space.<br /> Sadly, at the moment there is no known natural<br />
+representations for this Hopf algebra playing a similar role to the<br />
+quotient varieties of quiver-varieties in the case of the necklace Lie<br />
+bialgebra.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-necklace-lie-bialgebra/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

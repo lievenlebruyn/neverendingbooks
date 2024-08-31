@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>itouch &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/itouch/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 22 Feb 2008 20:14:11 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>iTouch as network sniffer</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/itouch-as-network-sniffer/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/itouch-as-network-sniffer/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 22 Feb 2008 20:14:11 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[jailbreak]]></category>
+		<category><![CDATA[Leopard]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[warwalking]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/itouch-as-network-sniffer.html</guid>
+
+					<description><![CDATA[In the iTouch warwalking post I was considering trying to gain access to closed networks for innocent purposes such as checking mail, rather than stealing&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/itouch-warwalking.html">iTouch warwalking post</a> I was considering trying to gain access to closed networks for innocent purposes such as checking mail, rather than stealing secret passwords from people allowing you free access to their wireless network, but still, I should have thought of the following possibility</p>
+<p><object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/1koHEpoHL_g&#038;rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/1koHEpoHL_g&#038;rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object></p>
+<p>Here&#8217;s a walk-through :</p>
+<ul>
+<li>type the following command into your iTouch Terminal.app (assuming you&#8217;ve installed the BSD subsystem) :</li>
+</ul>
+<p class="alert">tcpdump -v -s 65535 -w log.txt</p>
+<ul>
+<li>
+<p>once you&#8217;ve collected enough packets, cancel the command (ctrl c), <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/first-things-first-jailbreak.html">AFPd</a> the file from the iTouch to your Mac and open it with <a href="http://www.finkconsulting.com/page7.php">Wireshark</a> (this is the most convenient way to install binaries under Leopard as well as an updated version of X11. For other platforms, or source code, <a href="http://www.wireshark.org/download.html">see here</a>)</p>
+</li>
+<li>
+<p>do whatever black magic you feel you have to perform using Wireshark (the new name for <a href="http://www.ethereal.com/">Ethereal</a>) or <a href="http://sectools.org/crackers.html">other password crackers</a></p>
+</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/itouch-as-network-sniffer/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>yahoo pipes on iTouch</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/yahoo-pipes-on-itouch/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/yahoo-pipes-on-itouch/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 24 Jan 2008 19:54:38 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[GMD]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/yahoo-pipes-on-itouch.html</guid>
+
+					<description><![CDATA[The next thing on my tech-to-do-list : learn all about Yahoo Pipes : Pipes is a powerful composition tool to aggregate, manipulate, and mashup content&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The next thing on my tech-to-do-list : learn all about <a href="http://pipes.yahoo.com/pipes/">Yahoo Pipes</a> :</p>
+<blockquote><p>Pipes is a powerful composition tool to aggregate, manipulate, and mashup content from around the web. Like Unix pipes, simple commands can be combined together to create output that meets your needs. Here are a few popular ways the service can be used:<br />
+    &#8211;   create your ultimate custom feed by combining many feeds into one, then sorting, filtering and translating them.<br />
+    &#8211;   geocode your favorite feeds and browse the items on an interactive map.<br />
+    &#8211;   remix your favorite data sources and use the Pipe to power a new application.<br />
+    &#8211;   build custom vertical search pages that are impossible with ordinary search engines.<br />
+    &#8211;   power widgets/badges on your web site.<br />
+    &#8211;   consume the output of any Pipe in RSS, JSON, KML, and other formats.</p></blockquote>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/pipesviral2.jpg" style="float:left;margin-right:10px;" > I&#8217;ve posted before on setting up your own <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/my-lifestream.html">lifestream</a>, or your own <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/neverending-planet.html">planet</a>, or <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/my-first-scraper.html">scraping feeds</a>, or <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/subscribe-to-my-brain.html">subscribing to my brain</a>, or &#8230; whatever. The good news is : all these ideas are now superseded by Pipes!</p>
+<p>Pipes is a free online service that lets you remix popular feed types and create data mashups using a visual editor. You can use Pipes to run your own web projects, or publish and share your own web services without ever having to write a line of code. You make a Pipe by dragging pre-configured modules onto a canvas and wiring them together in the Pipes Editor. Once you&#8217;ve built a Pipe, you&#8217;ll be able save it on our server and then call it like you would any other feed. Pipes offers output in RSS 2.0, RSS 1.0 (RDF), JSON and Atom formats for maximum flexibility. You can also choose to publish your Pipe and share it with the world, allowing other users to clone it, add their own improvements, or use it as a subcomponent in their own creations.</p>
+<p>This is the essential message to get : <strong>yahoo-pipes allows you to remix the web, filtering out all noise!</strong> And the good news is</p>
+<ol>
+<li>There are plenty of public pipes around to get you going, and   </li>
+<li>Pipes has an <a href="http://blog.pipes.yahoo.com/2007/10/23/iphonepipesyahoocom-access-your-mashup-while-mobile/">iTouch-friendly interface</a> (see above left). All you have to do is to Safari to <a href="http://iphone.pipes.yahoo.com/">iphone.pipes.yahoo.com</a> and use them.  </li>
+</ol>
+<p>Here are a few public-pipes you can use out of the box!</p>
+<ul>
+<li><a href="http://pipes.yahoo.com/pipes/pipe.info?_id=TIvlRVZQ3BGMd5VUjknRlg">iPhone / iPod Touch: The Most Comprehensive Feed Ever!</a>, doing what it promises : giving you the best iTouch-posts without having to roam for them.  </li>
+<li><a href="http://pipes.yahoo.com/pipes/pipe.info?_id=qudHFl3z2xGTWsmGnkartA">JSON Geocoder</a>, returning lat/lon/address info from the the given address.  </li>
+<li><a href="http://pipes.yahoo.com/pipes/pipe.info?_id=EHx1LHi42xG4lmI1XqIxGw">Uber Blog Search</a>, Search all the blogosphere with one query. Hits Google, Ask, Technorati, and icerocket then returns the unique results. Below the web-interface giving the results for &#8216;noncommutative&#8217;&#8230;   </li>
+</ul>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/pipesnoncommutative.jpg" ></p>
+<ul>
+<li><a href="http://pipes.yahoo.com/seeminglee/metasearchalerts">Meta Search Alerts</a> if you want a less &#8216;neverendingbooks&#8217;-based reply   </li>
+</ul>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/pipesnoncommutative2.jpg" ></p>
+<p>and finally, one of my favorites, implementing to some extend the Lifestream-idea (iTouch-interface above left)</p>
+<ul>
+<li><a href="http://pipes.yahoo.com/pipes/pipe.info?_id=KnRADS3w2xGMBhkzlfXiAA">lifefeed &#8211; virable</a>, Easily Aggregate your social whereabouts great for blogs profiles and more! Aggregates Your Feeds From: -Digg -Last.fm -Twitter -Flickr -Del.icio.us and your very own blog Adopt and Improve, enjoy!  </li>
+</ul>
+<p>I&#8217;ll promise to spend some time soon to set up my very own pipes and make them available&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/yahoo-pipes-on-itouch/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Top 5 wp-plugins to improve your bounce-rate</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/top-5-wp-plugins-to-improve-your-bounce-rate/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/top-5-wp-plugins-to-improve-your-bounce-rate/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 18 Jan 2008 13:34:21 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/top-5-wp-plugins-to-improve-your-bounce-rate.html</guid>
+
+					<description><![CDATA[The bounce rate indicates how many web-visitors leave the site without visiting any other pages before a certain session timeout elapses. That is : High&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="http://en.wikipedia.org/wiki/Bounce_Rate">bounce rate</a> indicates how many web-visitors leave the site without visiting any other pages before a certain session timeout elapses. That is :</p>
+<blockquote><p>High bounce rate means the site must be horrible to site visitors and most likely they would never return again. They are not even interested to check other content of the site. First impression counts. </p></blockquote>
+<p>After installing <a href="http://www.google.com/analytics/">google analytics</a> some weeks ago, I noticed a worrying high bounce rate : close to 80%&#8230; At first I thought this was due to the fact that all iTouch fans left the moment they saw a mathematical symbol, but <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/thanks-for-linking.html">further analysis</a> proved me wrong : iTouch fans study posts here a lot longer than the average mathematician. But then, what was the reason? Is this site really so horrible to look at? is the content of such poor quality?</p>
+<p>Anyway, I&#8217;ve tried out a couple of tricks, with surprising effect. The bounce rate dropped from 80% to under 3% and best of all, it appears to stay that low. Here, the google-analytics bounce-rate evolution of the last 3 weeks</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/bouncerate.jpg" width=500 ></p>
+<p>So, what kind of magic voodoo did I perform on january 6th? I&#8217;ve installed a couple of <a href="http://wordpress.org/extend/plugins/">WordPress Plugins</a> and changed the upper part of the entry-page. My basic assumption is that people leave a site when they come to it for specific information (for example via a search engine), do not find the info immediately and don&#8217;t want to spend too much time looking for it. So, I wanted to have all tools to find content on this site right in front of the potential new-comer. Here are the 5 major changes to the header part and the plugins Ive used.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/newtop.jpg" width=500 ></p>
+<p><strong>1 :</strong> Rather than having a monthly-archive in the sidebar providing no more info than the number of posts in a particular month, create a <strong>proper archive page</strong> where visitors can find the titles and links to all posts in reverse chronological ordering. I did use the <a href="http://justinblanton.com/projects/smartarchives/">Smart Archives Plugin</a>.</p>
+<p><strong>2 :</strong> Even better : have a <strong>drop-down archive</strong> right under the header-picture so that visitors can scroll down the list of all posts without having to load another page. Ive used the <a href="http://www.awsom.org/awsom-drop-down-archive/">Awsom Archive Plugin</a>.</p>
+<p><strong>3 :</strong> Let visitors see in a glance what your blog is all about by having a <strong>tag cloud</strong> under the header. I didnt feel like tagging 300 old posts, so I used the <a href="http://wordpress.org/extend/plugins/simple-tags/">Simple Tags Plugin</a> to do it all for me.</p>
+<p><strong>4 :</strong> Have a <strong>welcome message</strong> near the top to aid new visitors (especially when you have, like me, 77.51% of them around). The message disappears after their third visit. It&#8217;s a wonderful idea, made possible by the <a href="http://www.richardkmiller.com/blog/wordpress-plugin-what-would-seth-godin-do">What Would Seth Godin Do-Plugin</a>.</p>
+<p><strong>5 :</strong> Write <strong>series</strong> of posts and have links to the other parts available at the top of the new post. Likely, people are going to check out the other parts for more information. Rather than hard-coding the links by hand, Ive used the <a href="http://remstate.com/2008/01/02/in-series-31-beta-3/">In Series Plugin</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/top-5-wp-plugins-to-improve-your-bounce-rate/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>quick iTouch links</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quick-itouch-links/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quick-itouch-links/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 16 Jan 2008 21:20:40 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[jailbreak]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/quick-itouch-links.html</guid>
+
+					<description><![CDATA[MacBookAir? Is this really the best Apple could come up with? A laptop you can slide under the door or put in an envelop? Yeez&#8230;&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/hotbookair.jpg" width=500 ></p>
+<p><a href="http://www.apple.com/macbookair/">MacBookAir</a>? Is this really the best Apple could come up with? A laptop you can slide under the door or put in an envelop? Yeez&#8230; Probably the hot-air-book is about as thick as an iTouch. The first thing I did was to buy a <a href="http://www.proporta.com/device.php?id=324">leather case</a> to protect the vulnerable thing, making it as thick as a first generation iPod&#8230; (needless to say, when my MacBookPro breaks down, ill replace it with a MacBookAir, clearly!)</p>
+<p>Ranting about MacWorlds : <a href="http://www.wired.com/">Wired</a> has a great article on last year&#8217;s event. Steve Job&#8217;s iPhone presentation is something that will be part of the collective memory when it comes to 2007-recollections. Few people will have realized that the Apple-team didnt have a working prototype a few weeks before&#8230; Here&#8217;s <a href="http://www.wired.com/gadgets/wireless/magazine/16-02/ff_iphone">The Untold Story: How the iPhone Blew Up the Wireless Industry</a>. A good read!</p>
+<p>If you plug in your jailbroken iTouch, you will be asked wether you want to upgrade to 1.1.3, something we all feared for a long time and so it takes just nanoseconds to hit the cancel-button. But, there is good news! <a href="http://rupertgee.wordpress.com/2008/01/16/downgrade-ipod-touch-113-to-111/">Rupert Gee</a> reports that you can downgrade to 1.1.1 and redo jailbreak. I won&#8217;t try it for some time, but still&#8230;</p>
+<p>In the unlikely event that you come here being a mathematician, here&#8217;s what I did with my iTouch today. Ive downloaded the Connes-Marcolli talks on Renormalization and Motives <a href="http://video.google.com/videoplay?docid=3770732113316444945&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=0">part 1</a>, <a href="http://video.google.com/videoplay?docid=-8230150359736309141&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=1">part 2</a>, <a href="http://video.google.com/videoplay?docid=-7256478932132856778&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=2">part 3</a>, <a href="http://video.google.com/videoplay?docid=-8317552883591829152&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=5">part 4</a>, <a href="http://video.google.com/videoplay?docid=-4040719267705507834&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=6">part 5</a>, <a href="http://video.google.com/videoplay?docid=-6203969264735574264&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=4">part 6</a>, <a href="http://video.google.com/videoplay?docid=4153302132976087425&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=3">part 7</a> and <a href="http://video.google.com/videoplay?docid=-1854493949267844517&amp;q=Connes+Marcolli&amp;total=8&amp;start=0&amp;num=10&amp;so=0&amp;type=search&amp;plindex=7">part 8</a> at work. They are in mp4-format so you can load them into iTunes and onto your iTouch!!! Weather is not favorable for outdoor-cycling at the moment, so I used the home-trainer, put the iTouch in front of me and, boy, was I educated&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quick-itouch-links/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>thanks for linking</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/thanks-for-linking/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/thanks-for-linking/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 11 Jan 2008 13:05:12 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/thanks-for-linking.html</guid>
+
+					<description><![CDATA[I&#8217;ve re-installed the Google analytics plugin on december 22nd, so it is harvesting data for three weeks only. Still, it is an interesting tool to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/google-referrals.jpg" width=500 ></p>
+<p>I&#8217;ve re-installed the <a href="http://www.semiologic.com/software/marketing/google-analytics/">Google analytics plugin</a> on december 22nd, so it is harvesting data for three weeks only. Still, it is an interesting tool to gain insight in the social networking aspect of math-blogging, something I&#8217;m still very bad at&#8230;</p>
+<p>Below the list of all blogs referring at least 10 times over this last three weeks. In brackets are the <strong>number of referrals</strong> and included are the <strong>average time Avg.</strong> they spend on this site, as well as the <strong>bounce back rate BB</strong>. It gives me the opportunity to link back to some of their posts, as a small token of gratitude. I may repeat this  in the future, so please keep on linking&#8230;</p>
+<p><a href="http://www.math.columbia.edu/~woit/wordpress/">Not Even Wrong (69)</a> : Avg (1.05 min) BB (52.94%)</p>
+<p>The most recent post of Peter is an update on the <a href="http://www.math.columbia.edu/~woit/wordpress/?p=638">plagiarism scandal</a> on the arXiv.</p>
+<p><a href="http://golem.ph.utexas.edu/category/">The n-category cafe (63)</a> : Avg (2.13 min) BB (50%)</p>
+<p>The one series I followed at the cafe lately was the <a href="http://golem.ph.utexas.edu/category/2008/01/geometric_representation_theor_18.html">Geometric Representation Theory course</a> run by John Baez and James Dolan. They provide downloadable movies as well as notes.</p>
+<p><a href="http://borcherds.wordpress.com/">Richard Borcherd&#8217;s blog (47)</a> : Avg (1.53 min) BB (53.19%)</p>
+<p>It is great to see that Borcherds has taken up blogging again, with a post on the <a href="http://borcherds.wordpress.com/">uselessness of set theory</a>.</p>
+<p><a href="http://kea-monad.blogspot.com/">The Arcadian functor (32)</a> : Avg (3.45 min) BB (34.38 %)</p>
+<p>It is clear from the low bounce-back rate and the high average time spend on this site, that Kea&#8217;s readers and mine have common interests. Often I feel that Kea and I are talking about the same topics, but that our language is so different, that it is difficult for me to spot the precise connection. I definitely should start (for myself) a translation-project of her <a href="http://arcadianfunctor.wordpress.com/category/m-theory/">M-theory posts</a>.</p>
+<p><a href="http://rupertgee.wordpress.com/">RupertGee&#8217;s iBlog (23)</a> : Avg (6.48 min) BB (34.7 %)</p>
+<p>Surprisingly, and contrasting to my <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/sobering-up.html">previous rant</a> iTouch-people (or at least those coming here from Rupert Gee&#8217;s blog) sure take time to read the posts and look for more.</p>
+<p><a href="http://www.arsmathematica.net/">Ars Mathematica (22)</a> : Avg (0:01 min) BB (77,2 %)</p>
+<p>Well, the average time and bounce back rate say it all : people coming here from Ars Mathematica are not interested in longer posts&#8230;</p>
+<p><a href="http://www.ipodtouchfans.com/forums/showthread.php">iTouch Fans Forum (14)</a> : Avg (2:07 min) BB (42.86 %)</p>
+<p>Again, better statistics than I would have expected.</p>
+<p><a href="http://vivatsgasse7.wordpress.com/">Vivatsgasse 7 (13)</a> : Avg (1:51 min) BB (38.46 %)</p>
+<p>I hope these guys haven&#8217;t completely given up on blogging as it is one of my favourites.</p>
+<p><a href="http://www.sixthform.info/maths/">Sixth form mathematics (12)</a> : Avg (1:40 min) BB (25 %)</p>
+<p>My few old posts on LaTeXrender still draw referrals&#8230;</p>
+<p><a href="http://strategicboard.com/index.php">Strategic Boards (12)</a> : Avg (0:01 min) BB (91.67 %)</p>
+<p>People in strategic board games are not really in my game-posts it seems&#8230;</p>
+<p><a href="http://cornellmath.wordpress.com/">The Everything Seminar (11)</a> : Avg (2:04 min) BB (72.73 %)</p>
+<p>Greg Muller has been posting a couple of nice posts on chord diagrams, starting <a href="http://cornellmath.wordpress.com/2007/12/13/chord-diagrams/">here</a>.</p>
+<p><a href="http://noncommutativegeometry.blogspot.com/">Noncommutative Geometry (11)</a> : Avg (3:36 min) BB (27.27 %)</p>
+<p>Well, we are interested in the same thing viewed from different angles, so good average times and a low bounce back rate. Maybe, I should make another attempt to have cross-interaction between the two blogs.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/thanks-for-linking/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>iTouch warwalking</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/itouch-warwalking/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/itouch-warwalking/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 10 Jan 2008 12:50:34 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[warwalking]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=333</guid>
+
+					<description><![CDATA[Four years ago I had a brief fling with wardriving. It went only as far as getting Ethereal to crack the security of our house-network.&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/itouchwar.jpg" style="float:left;margin-right:10px;" > Four years ago I had a brief fling with <a href="http://en.wikipedia.org/wiki/Wardriving">wardriving</a>. It went only as far as getting <a href="http://www.ethereal.com/">Ethereal</a> to crack the security of our house-network. I simply couldn&#8217;t picture myself walking around the neighborhood with my laptop under my arm&#8230; However, jogging around with an iPod will attract far  less attention.</p>
+<p>Starting an iTouch in a network-rich environment you will be asked which network you want to connect to (see for example <a href="http://revver.com/video/416762/ipod-touch-wifi-network-drive-around/">this wardriving video</a>). However, if you need more information on the networks, there is a port of the OSX-tool <a href="http://en.wikipedia.org/wiki/IStumbler">iStumbler</a> for the iPhone/iTouch : <a href="http://code.google.com/p/iphone-wireless/">Stumbler</a> (available also from the Install.app under Network). This morning I flipped open my iTouch in a generic street near the University and was surrounded by 12 wireless networks, 6 of them wide open&#8230;</p>
+<p>One may then ask : what about less innocent wardriving tools such as <a href="http://en.wikipedia.org/wiki/Kismet_%28software%29">Kismet</a> or Ethereal itself? The problem with porting those seems to be that no-one knows whether the iTouch wireless driver can be put into &#8216;promiscuous mode&#8217; (see for example <a href="http://www.hackint0sh.org/forum/showthread.php?t=9700">this thread</a>).</p>
+<p>Once you have collected open networks at your favourite places or have passwords to closed networks, it would be nice if the iTouch would auto-detect these and connect to them without you having to remember the particular name or having to type in username/password combinations. Surprisingly, this is possible thanks to the people at <a href="http://devicescape.com/pub/">devicescape.com</a>. Create a free login, then get <strong>Devicescape Connect</strong> (available under Network) run it and write down the pincode you are given and follow the instructions to complete the installation. You can then edit your Wi-Fi list of desired hotspot or personal networks, together with all login-data. There is a nice <a href="http://db.tidbits.com/article/9182">TidBit article</a> describing devicescape in full detail.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/itouch-warwalking/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>sobering-up</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/sobering-up/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/sobering-up/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 05 Jan 2008 15:05:08 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=249</guid>
+
+					<description><![CDATA[Kea&#8217;s post reminded me to have a look at my search terms (the things people type into search engines to get redirected here). Quite a&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/sobering.jpg" width=500 ></p>
+<p><a href="http://kea-monad.blogspot.com/2008/01/search-term.html">Kea&#8217;s post</a> reminded me to have a look at my <strong>search terms</strong> (the things people type into search engines to get redirected here). Quite a sobering experience&#8230;</p>
+<p>Via <a href="http://www.google.com/analytics/">Google Analytics</a> I learn that 49,51% of traffic comes from Search Engines (compared to 26,17% from Referring Sites and 24,32% from direct hits) so I should take Search Terms more seriously! Above you can find the top-25.</p>
+<p>On 1. there is <strong>neverendingbooks</strong>. Well, some people seem to remember the blog-name, but require google to remember the URL (neverendingbooks.org)&#8230;, okay, fair enough. But from then on&#8230; <strong>all search terms are iTouch related</strong>! The first &#8216;other&#8217; term is <strong>puzzle m</strong> at 24. and believe me things do not improve afterwards. Here the only non-Touch related search terms in the top 100 :</p>
+<ul>
+<li><strong>neverendingbooks.org</strong>  (40)  </li>
+<li><strong>&#8220;puzzle m&#8221;</strong>  (42)  </li>
+<li><strong>moonshine mathematics</strong>  (79)  </li>
+<li><strong>necklace algebra</strong>  (80)  </li>
+<li><strong>&#8220;calabi-yau algebra</strong>  (90)  </li>
+<li><strong>&#8220;dessin d enfant&#8221;</strong>  (91)  </li>
+<li><strong>&#8220;lieven le bruyn&#8221;</strong>  (95)  </li>
+<li><strong>Mathieu group + M(13)</strong>  (97)  </li>
+<li><strong>13 points 5 lines puzzle</strong>  (98)  </li>
+<li><strong>15 itouch sliding puzzle</strong>  (99)  </li>
+</ul>
+<p>the last one is really touching (sic). Is there anybody out there still interested in the mathematics, or should I turn this blog into a <strong>yaib</strong> (yet another iTouch blog) ???</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/sobering-up/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>overloaded iTouch</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/overloaded-itouch/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/overloaded-itouch/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 05 Jan 2008 09:48:52 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[Leopard]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=242</guid>
+
+					<description><![CDATA[A jailbroken iTouch can do many wonderful tricks : by sarting up an AFDd server one can use it in Disk mode, exactly as an&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/overloadiTouch.jpg" style="float:left;margin-right:10px;" > A jailbroken iTouch can do many wonderful tricks : by sarting up an <a href="http://www.eecs.berkeley.edu/~job/afpd/">AFDd server</a> one can use it in Disk mode, exactly as an iPodClassic, one can use it as a WebServer by installing <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=51">Apache and PHP</a> and run a <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=57">Wiki</a>, one can install <a href="http://blog.psmxy.org/pkg-info/openssh/">OpenSSH</a> and secure shell to the rest of the world, one can even turn the iTouch into a music streamer via the <a href="http://www.tuaw.com/2007/10/31/stream-music-from-your-iphone-to-itunes-with-firefly-media-serve/">FireFly server</a>, one can &#8230;</p>
+<p>And all of this on a gadget  with only 116Mb RAM and one processor running at 412MHz&#8230; is asking for overload problems both on memory and battery. A couple of days ago I wanted to start up the iTouch and was greeted by a bright flickering screen and thought I&#8217;d finally bricked it&#8230;</p>
+<p>Fortunately, there&#8217;s a simple lesson to be learned : with every new feature you install, learn <strong>how to switch if off</strong> and <strong>monitor your iTouch</strong> using the <strong>SysInfo.app</strong> (under Utilities) which allows to view basic system info (screenshot below) as well as all active processes.</p>
+<p>Here a few tricks to turn on/off the major consumers :</p>
+<p />
+<p />
+<ol>
+<li>
+<p>To turn off the Apache-sever, ssh into the iTouch and give a <strong>apachectl stop</strong> command (you can always restart it with <strong>apachectl start</strong>.</p>
+</li>
+<li>
+<p>To control OpenSSH, install the <strong>Services.app</strong> (under Utilities) which allows to toggle Wifi, Edge, SSH and Bluetooth on or off (screenshot below).</p>
+</li>
+<li>
+<p>To control APFd, use its control pannel to toggle the <strong>Broadcast active</strong> feature only when you need your iTouch in Disk mode (it will then appear under Shared in your Finder window, at least under Leopard. For more on this see <a href="http://rupertgee.wordpress.com/2007/12/29/mount-ipod-thumb/">Mount and use your iPod touch as a Thumb Drive</a>.</p>
+</li>
+<li>
+<p>To control FireFly, use the UIctl.app (under Multimedia) and scroll down (after staring for about 15 seconds to a white screen) to <strong>org.fireflymediaserver.mt-daapd</strong>, tap it and start or stop the server.</p>
+</li>
+</ol>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/sysinfo.jpg" width=150 > <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/afpd.jpg" width=150 > <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/services.jpg"width=150 ></p>
+<p>Another major consumer is the MobileRSS.app (under Productivity). Maybe I should restrict my subscriptions to the <a href="http://mathbloggers.com/community">hottest blogs only</a>&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/overloaded-itouch/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>IF on iTouch</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/if-on-itouch/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/if-on-itouch/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 03 Jan 2008 09:52:42 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[itouch]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=233</guid>
+
+					<description><![CDATA[Interactive Fiction (IF) describes software simulating environments in which players use text commands to control characters and influence the environment. Works in this form can&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/frotz.jpg" style="float:left;margin-right:10px;" > <a href="http://en.wikipedia.org/wiki/Interactive_fiction">Interactive Fiction (IF)</a>  describes software simulating environments in which players use text commands to control characters and influence the environment. Works in this form can be understood as literary narratives and as computer games. In common usage, the word refers to text adventures, a type of adventure game with text-based input and output. As the text-input is minimal (most commands have 1 letter abbreviations), text-games are ideal to be played on the iTouch.</p>
+<p>Luckily, one of the most popular IF-interfaces, Frotz, is ported to the iPhone/iTouch as <a href="http://code.google.com/p/iphonefrotz/">iPhoneFrotz</a>. The easiest way to install is just to install the Frotz package using Installer.app. Just install the &#8220;Community Sources&#8221; package, which contains the installer repository (which hosts Frotz as well as other games and utilities), then look for Frotz under the Games section.</p>
+<p>A collection of 3 Zork-derivatives (although not the original Infocom titles) is also available in the &#8220;Zork Z-Code&#8221; package.</p>
+<p>There are hundreds of Z-Code games, and no one is likely to package your favorites for easy installation by Installer.app. But the games can be downloaded and copied to the phone without too much trouble.</p>
+<p>Z-Code games are typically have filenames ending in .z3, .z4, .z5 or .z8 (depending on version), although game files from original Infocom media end in .dat. These should be copied to the phone&#8217;s Frotz/Games folder (under /var/root/Media).</p>
+<p>Here is a link to the <a href="http://www.ifarchive.org/">The IF archive</a> and an archive of all <a href="http://wurb.com:80/if/platform/1">Z-games</a>. Another interesting site is the <a href="http://www.inform-fiction.org/I7/Inform%207.html">Inform 7-site</a></p>
+<blockquote><p>Inform is a design system for interactive fiction, a new medium for writers which began with adventure games in the late 1970s and is now used for everything from literary narrative fiction through to plotless conceptual art, and plenty more adventure games too. Since its introduction in 1993, Inform has become a standard tool.<br />
+Three years in the making, Inform 7 is a radical reinvention of the way interactive fiction is designed, guided both by contemporary work in semantics and by the practical experience of some of the world&#8217;s best-known writers of IF.</p>
+<p>In place of traditional computer programming, the design is built by writing natural English-language sentences: <br />
+&#8211; Martha is a woman in the Vineyard.  <br />
+&#8211; The cask is either customs sealed, liable to tax or stolen goods.  <br />
+&#8211; The prevailing wind is a direction that varies.  <br />
+&#8211; The Old Ice House overlooks the Garden.  <br />
+&#8211; A container is bursting if the total weight of things in it is greater than its breaking strain.<br />
+Inform&#8217;s power lie in its ability to describe: to lay down general rules about &#8220;closed doors&#8221;, or &#8220;bursting containers&#8221;, or &#8220;unmarried men liked by Martha&#8221;. At its best, expressing IF in natural language results in source text which is not only quick to write, but very often works first time, and is exceptionally readable.</p></blockquote>
+<p>Inform 7 is available for most platforms and can be downloaded <a href="http://www.inform-fiction.org/I7/Download.html">here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/if-on-itouch/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>top iTouch hacks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/top-itouch-hacks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/top-itouch-hacks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 30 Dec 2007 10:59:28 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[jailbreak]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=178</guid>
+
+					<description><![CDATA[So, you did jailbreak your iTouch and did install some fun or useful stuff via the Install.app &#8230; but then, suddenly, the next program on&#8230;]]></description>
+										<content:encoded><![CDATA[<p>So, you did <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=51">jailbreak</a> your iTouch and did install some fun or useful stuff via the Install.app &#8230; but then, suddenly, the next program on your wish-list fails to install ??!! I know you hate to do drastic things to your iTouch, but sooner or later you&#8217;ll have to do it, so why not NOW?</p>
+<p class="alert">Move the Applications Folder</p>
+<p>The problem is that there are two disk partitions (a small one, meant only to host the apple-software and a large one to contain all your music, videos and stuff) and Install.app installs programs in the <strong>/Apllications</strong> folder on the smaller partition. So, we want to move it to the other partition using a symbolic link trick (as in the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=57">wiki-hack post</a>). Here a walkthrough, more details can be found on <a href="http://kaspers.freeflux.net/blog/archive/2007/10/30/remove-application-space-limit.html">Koos Kasper&#8217;s site</a>.</p>
+<ul>
+<li>Have BSDsubsystem and OpenSSH installed, so that you can ssh into the iTouch.  </li>
+<li>verify that the second line of the /etc/fstab file reads as below (or edit it if necessary, in my case it was already ok, perhaps this is done during jailbreak?) and reboot the iTouch (if you had to change it)  </li>
+</ul>
+<p class="code">/dev/disk0s2 /private/var hfs rw 0 2</p>
+<ul>
+<li>ssh into the iTouch and type in the following commands (to move the folder and make the symbolic link)</li>
+</ul>
+<p class="code">
+cd / <br />
+cp -pr Applications /var/root <br />
+mv Applications Applications.old <br />
+ln -s private/var/root/Applications /Applications
+</p>
+<ul>
+<li>reboot the iTouch, ssh into it and remove the old Application-folder to free space  </li>
+</ul>
+<p class="code">cd / <br />
+rm -rf Applications.old</p>
+<p>From now on, all (most) new programs are installed on the larger partition. If you reinstall the OpenSSH application (as suggested) make sure to remove on your computer the old key for iTouch.</p>
+<p class="alert">Stream your Music!</p>
+<p>I use the iTouch to read my mail, to read RSS feeds, to administer this blog, to VNC to the home-server and when needed to ssh into the computer at work (running this blog) to restart the apache server. Unless I have to write a lot, there is no need to fire up a computer&#8230; But, when someone has a Mac running, I would like to be able to stream the music on my iTouch to hear it loudly. Here&#8217;s the procedure, via <a href="http://rupertgee.wordpress.com/2007/12/28/worldwide-ipod/">Rupert Gee&#8217;s blog</a> :</p>
+<ul>
+<li>Have the Auto-Lock set to &#8220;Never&#8221; in Settings/General  </li>
+<li>Install the UIctl applications (under Utilities)  </li>
+<li>Add a source to Install.app (click on Sources-button lower-right, Edit upper-right and then Add upper-left) http://home.mike.tl/iphone  </li>
+<li>Relaunch Install.app and install FireFlyMediaServer (under Multimedia).  </li>
+<li>Write down the address given during installation to change your password and monitor the Firefly-server (the default root password is &#8216;dottie&#8217; and so the address should be   </li>
+</ul>
+<p class="code">http://root:dottie@127.0.0.1:3689/</p>
+<ul>
+<li>Open up UIctl and scoll down to a line saying &#8220;org.fireflymediaserver.mt-daapd&#8221; and tap on it. Tap on &#8220;load-w&#8221; and then on &#8220;Do It&#8221;  </li>
+<li>Now, at the Mac your iTouch should be vusible under Shared in iTunes, click on it and give the password and your music is available!  </li>
+</ul>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/firefly.jpg" width=500 ></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/top-itouch-hacks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>dessin d&#8217;enfants &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/dessin-denfants/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 07 Mar 2007 19:17:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>The best rejected proposal ever</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-best-rejected-proposal-ever/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-best-rejected-proposal-ever/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 07 Mar 2007 19:17:13 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[dessin d'enfants]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=64</guid>
+
+					<description><![CDATA[The Oscar in the category The Best Rejected Research Proposal in Mathematics (ever) goes to &#8230; Alexander Grothendieck for his proposal Esquisse d&#8217;un Programme, Grothendieck\&#8217;s&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/grothendieck.jpg" style="float:left;margin-right:10px;" /><br />
+The Oscar in<br />
+the category <strong>The Best Rejected Research Proposal in Mathematics<br />
+(ever)</strong>     goes to &#8230; <a href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Grothendieck.html">Alexander Grothendieck</a><br />
+for his proposal <a href="http://www.math.jussieu.fr/~leila/grothendieckcircle/EsquisseFr.pdf">Esquisse d&#8217;un Programme</a>, Grothendieck\&#8217;s research program from 1983, written as<br />
+part of his application for a position at the CNRS, the French<br />
+equivalent of the NSF.  An English translation is<br />
+<a href="http://www.math.jussieu.fr/~leila/grothendieckcircle/EsquisseEng.pdf">available</a>.</p>
+<p>Here is one of the problems discussed :<br />
+  <strong>Give TWO non-trivial elements of<br />
+$Gal(\overline{\mathbb{Q}}/\mathbb{Q}) $</strong>  the _absolute_<br />
+Galois group of the algebraic closure of the rational numbers<br />
+$\overline{\mathbb{Q}} $, that is the group of all<br />
+$\mathbb{Q} $-automorphisms of $\overline{\mathbb{Q}} $. One element<br />
+most of us can give (complex-conjugation) but to find any other<br />
+element turns out to be an extremely difficult task.</p>
+<p>To get a handle on<br />
+this problem, Grothendieck introduced his _&#8217;Dessins d&#8217;enfants&#8217;_<br />
+(Children&#8217;s drawings).  Recall from <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=62">last session</a> the pictures of the<br />
+left and right handed Monsieur Mathieu</p>
+<p><img
+src="https://lievenlebruyn.github.io/neverendingbooks/DATA/twomathieus.jpg"  /></p>
+<p>The left hand side drawing was associated to a map<br />
+$\mathbb{P}^1_{\mathbb{C}} \rightarrow \mathbb{P}^1_{\mathbb{C}} $ which was<br />
+defined over the field $\mathbb{Q} \sqrt{-11} $ whereas the right side<br />
+drawing was associated to the map given when one applies to all<br />
+coefficients the unique non-trivial automorphism in  the Galois group<br />
+$Gal(\mathbb{Q}\sqrt{-11}/\mathbb{Q}) $ (which is<br />
+complex-conjugation). Hence, the Galois group<br />
+$Gal(\mathbb{Q}\sqrt{-11}/\mathbb{Q}) $ acts _faithfully_ on the<br />
+drawings associated to maps $\mathbb{P}^1_{\mathbb{Q}\sqrt{-11}} \rightarrow<br />
+\mathbb{P}^1_{\mathbb{Q}\sqrt{-11}} $ which are ramified only over<br />
+the points $&#123; 0,1,\infty &#125; $.</p>
+<p>Grothendieck&#8217;s idea was to<br />
+extend this to more general maps. Assume that a projective smooth curve<br />
+(a Riemann surface) X is defined over the algebraic numbers<br />
+$\overline{\mathbb{Q}} $ and <strong>assume</strong> that there is a map  $X<br />
+\rightarrow \mathbb{P}^1_{\mathbb{C}} $  ramified only over the points<br />
+$&#123; 0,1,\infty &#125; $, then we can repeat the procedure of last time and<br />
+draw a picture on X consisting of d edges (where d is the degree<br />
+of the map, that is the number of points lying over another point of<br />
+$\mathbb{P}^1_{\mathbb{C}} $) between white resp. black points (the<br />
+points of X lying over 1 (resp. over 0)).</p>
+<p>Call such a drawing a<br />
+<strong>&#8216;dessin d\&#8217;enfant&#8217;</strong> and look at the collection of ALL dessins<br />
+d&#8217;enfants associated to ALL such maps where X runs over ALL curves<br />
+defined over $\overline{\mathbb{Q}} $. On this set, there is an action<br />
+of the <strong>absolute Galois group</strong><br />
+$Gal(\overline{\mathbb{Q}}/\mathbb{Q}) $ and if this action would be<br />
+faithful, then this would give us insight into this<br />
+group.  However, at that time even the existence of a map $X \rightarrow<br />
+\mathbb{P}^1 $ ramified in the three points $&#123; 0,1,\infty &#125; $<br />
+seemed troublesome to prove, as Grothendieck recalls in his proposal</p>
+<blockquote><p> In more erudite terms, could it be true that<br />
+every projective  non-singular algebraic curve defined over a number<br />
+field occurs as a possible ‚ modular curve‚ parametrising<br />
+elliptic curves equipped with a suitable  rigidification? Such a<br />
+supposition seemed so crazy that I was almost embarrassed to submit<br />
+it to the competent people in the domain. Deligne  when I consulted<br />
+him found it crazy indeed, but didn&#8217;t have any counterexample up<br />
+his sleeve. Less than a year later, at the International Congress  in<br />
+Helsinki, the Soviet mathematician Bielyi announced exactly that result,<br />
+ with a proof of disconcerting simplicity which fit into two little<br />
+pages of a  letter of Deligne ‚ never, without a doubt, was such a<br />
+deep and disconcerting  result proved in so few lines! <br />
+In<br />
+the form in which Bielyi states it, his result essentially says that<br />
+ every algebraic curve defined over a number field can be obtained as<br />
+a  covering of the projective line ramified only over the points 0,<br />
+1 and infinity. This result seems to have remained more or less<br />
+unobserved. Yet, it appears  to me to have considerable importance. To<br />
+me, its essential message is  that there is a profound identity<br />
+between the combinatorics of finite maps  on the one hand, and the<br />
+geometry of algebraic curves defined over number fields on the<br />
+other. This deep result, together with the algebraic-  geometric<br />
+interpretation of maps, opens the door onto a new, unexplored  world within reach of all, who pass by without seeing it.
+ </p></blockquote>
+<p>Belyi&#8217;s proof is indeed relatively easy<br />
+(full details can be found in the paper <a href="http://www.math.jussieu.fr/~leila/Fschneps.pdf">Dessins d&#8217;enfants on the<br />
+Riemann sphere</a> by Leila<br />
+Schneps). Roughly it goes as follows : as both X and the map are<br />
+defined over $\overline{\mathbb{Q}} $ the map is only ramified over<br />
+(finitely many) $\overline{\mathbb{Q}} $-points. Let S be the finite<br />
+set of all Galois-conjugates of these points and consider the polynomial</p>
+<p>$f_0(z_0) = \prod_{s \in S} (z_0 -s) \in<br />
+\mathbb{Q}[z_0] $</p>
+<p>Now, do a<br />
+<a href="http://en.wikipedia.org/wiki/Resultant">resultant</a> trick. Consider the<br />
+polynomial  $f_1(z_1) = Res_{z_0}(\frac{d f_0}{d<br />
+z_0},f_0(z_0)-z_1) $  then the roots of $f_1(z_1) $ are exactly the<br />
+finite critical values of $f_0 $, $f_1 $ is again defined over<br />
+$\mathbb{Q} $ and has lower degree (in $z_1 $) than $f_0 $ in $z_1 $.<br />
+Continue this trick a finite number of times untill you have constructed<br />
+a polynomial $f_n(z_n) \in \mathbb{Q}[z_n] $ of degree zero.</p>
+<p>Composing<br />
+the original map with the maps $f_j $ in succession yields that all<br />
+ramified points of this composition are<br />
+$\mathbb{Q} $-points!  Now, we only have to limit the number of<br />
+these ramified $\mathbb{Q} $-points (let us call this set T) to three.</p>
+<p>Take any three elements of T, then there always exist integers $m,n<br />
+\in \mathbb{Z} $ such that the three points go under a linear<br />
+fractional transformation (a Moebius-function associated to a matrix in<br />
+$PGL_2(\mathbb{Q}) $) to $&#123; 0,\frac{m}{m+n},1 &#125; $. Under the<br />
+transformation  $z \rightarrow \frac{(m+n)^{m+n}}{m^m<br />
+n^n}z^m(1-z)^n $  the points 0 and 1 go to 0 and<br />
+$\frac{m}{m+n} $ goes to 1 whence the ramified points of the<br />
+composition are one less in number than T. Continuing in this way we<br />
+can get the set of ramified $\mathbb{Q} $-points of a composition at<br />
+most having three elements and then a final Moebius transformation gets<br />
+them to $&#123; 0,1,\infty &#125; $, done!</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleincolour.jpg" style="float:left;margin-right:10px;" /> As a tribute for this clever<br />
+argument, maps $X \rightarrow \mathbb{P}^1 $ ramified only in 0,1 and<br />
+$\infty $ are now called <strong>Belyi morphisms</strong>.  Here is an example of<br />
+a Belyi-morphism (and the corresponding dessin d&#8217;enfants) associated to<br />
+one of the most famous higher genus curves around : the <a href="http://math.ucr.edu/home/baez/klein.html">Klein<br />
+quartic</a> (if you haven&#8217;t done<br />
+so yet, take your time to go through this marvelous pre-blog post by<br />
+John Baez).</p>
+<p>One can define the Klein quartic as the plane projective<br />
+curve K with defining equation in<br />
+$\mathbb{P}^2_{\\mathbb{C}} $ given by   $X^3Y+Y^3Z+Z^3X = 0 $  K has<br />
+a large group of automorphism, namely the simple group of order<br />
+168  $G = PSL_2(\mathbb{F}_7) =<br />
+SL_3(\mathbb{F}_2) $  It is a classical fact (see for example<br />
+the excellent paper by Noam Elkies <a href="http://www.msri.org/publications/books/Book35/files/elkies.pdf">The Klein quartic in number theory</a>) that the quotient map  $K \rightarrow K/G =<br />
+\mathbb{P}^1_{\mathbb{C}} $  is ramified only in the points<br />
+0,1728 and $\infty $ and the number of points of K lying over them<br />
+are resp. 56, 84 and 24. Now, compose this map with the Moebius<br />
+transormation taking $&#123; 0,1728,\infty &#125; \rightarrow &#123; 0,1,\infty &#125; $<br />
+then the resulting map is a Belyi-map for the Klein quartic.  A<br />
+topological construction of the Klein quartic is fitting 24 heptagons<br />
+together so that three meet in each vertex, see below for the gluing<br />
+data-picture in the hyperbolic plane : the different heptagons are given<br />
+a number but they appear several times telling how they must fit<br />
+together)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleinhepto.jpg" /></p>
+<p>The resulting figure has exactly $\frac{7 \times 24}{2} =<br />
+84 $ edges and the 84 points of K lying over 1 (the white points in<br />
+the dessin) correspond to the midpoints of the edges. There are exactly<br />
+$\frac{7 \times 24}{3}=56 $ vertices corresponding to the 56 points<br />
+lying over 0 (the black points in the dessin). Hence, the dessin<br />
+d\&#8217;enfant associated to the Klein quartic is the figure traced out by<br />
+the edges on K.   Giving each of the 168 half-edges a<br />
+different number one assigns to the white points a permutation of order<br />
+two and to the three-valent black-points a permutation of order three,<br />
+whence to the Belyi map of the Klein quartic corresponds a<br />
+168-dimensional permutation representation of $SL_2(\mathbb{Z}) $,<br />
+which is not so surprising as the group of automorphisms is<br />
+$PSL_2(\mathbb{F}_7) $ and the permutation representation is just the<br />
+regular representation of this group.</p>
+<p>Next time we will see how<br />
+one can always associate to a curve defined over<br />
+$\overline{\mathbb{Q}} $ a permutation representation (via the Belyi<br />
+map and its dessin) of one of the congruence subgroups $\Gamma(2) $ or<br />
+$\Gamma_0(2) $ or of $SL_2(\mathbb{Z}) $ itself.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-best-rejected-proposal-ever/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

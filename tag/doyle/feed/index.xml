@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Doyle &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/doyle/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 24 May 2021 10:15:58 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Imagination and the Impossible</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/imagination-and-the-impossible/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/imagination-and-the-impossible/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 24 May 2021 10:15:58 +0000</pubDate>
+				<category><![CDATA[DesignerMaths]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Doyle]]></category>
+		<category><![CDATA[Escher]]></category>
+		<category><![CDATA[Gilman]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[Thurston]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9823</guid>
+
+					<description><![CDATA[Two more sources I&#8217;d like to draw from for this fall&#8217;s maths for designers-course: 1. Geometry and the Imagination A fantastic collection of handouts for&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Two more sources I&#8217;d like to draw from for this fall&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/designer-maths">maths for designers</a>-course:</p>
+<p>1. <a href="https://math.dartmouth.edu/~doyle/docs/mpls/mpls.pdf">Geometry and the Imagination</a></p>
+<p>A fantastic  collection of handouts for a two week summer workshop entitled ’Geometry and the Imagination’, led by <a href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a>, <a href="https://math.dartmouth.edu/~doyle/">Peter Doyle</a>, <a href="https://en.wikipedia.org/wiki/Jane_Piore_Gilman">Jane Gilman</a> and <a href="https://en.wikipedia.org/wiki/William_Thurston">Bill Thurston</a> at the Geometry Center in Minneapolis, June 1991, based on a course ‘Geometry and the Imagination’ they taught twice before at Princeton.</p>
+<p>Among the goodies a long list of exercises in imagining (always useful to budding architects) and how to compute curvature by peeling potatoes and other vegetables&#8230;</p>
+<p>The course really shines in giving a unified elegant classification of the <a href="https://en.wikipedia.org/wiki/Wallpaper_group">17 wallpaper groups</a>, the <a href="https://en.wikipedia.org/wiki/Frieze_group">7 frieze groups</a> and the <a href="https://mathworld.wolfram.com/SphericalGroup.html#:~:text=There%20are%2014%20families%20of,*%2C%20Nx%2C%20and%20NN.">14 families of spherical groups</a> by using Thurston&#8217;s concept of <a href="https://en.wikipedia.org/wiki/Orbifold">orbifolds</a>.</p>
+<p>If you think this will be too complicated, have a look at the proof that the orbifold Euler characteristic of any symmetry pattern in the plane with bounded fundamental domain is zero :</p>
+<p>Take a large region in the plane that is topologically a disk (i.e. without holes). Its Euler characteristic is $1$. This is approximately equal to $N$ times the orbifold Euler characteristic for some large $N$, so the orbifold Euler characteristic must be $0$.</p>
+<p>This then leads to the Orbifold Shop where they sell orbifold parts:</p>
+<ul>
+<li>a handle for 2 Euros,</li>
+<li>a mirror for 1 Euro,</li>
+<li>a cross-cap for 1 Euro,</li>
+<li>an order $n$ cone point for $(n-1)/n$ Euro,</li>
+<li>an order $n$ corner reflector for $(n-1)/2n$ Euro, if you have the required mirrors to install this piece.</li>
+</ul>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/orbifolds.png" width=100%><br />
+</center></p>
+<p>Here&#8217;s a standard brick wall, with its fundamental domain and corresponding orbifold made from a mirror piece (1 Euro), two order $2$ corner reflectors (each worth $.25$ Euro), and one order $2$ cone point (worth $.5$ Euro). That is, this orbifold will cost you exactly $2$ Euros.</p>
+<p>If you spend exactly $2$ Euros at the Orbifold Shop (and there are $17$ different ways to do this), you will have an orbifold coming from a symmetry pattern in the plane with bounded fundamental domain, that is, one of the $17$ wallpaper patterns.</p>
+<p>For the mathematicians among you desiring more details, please read <a href="https://www.researchgate.net/publication/263488290_The_Orbifold_Notation_for_Two-Dimensional_Groups">The orbifold notation for two-dimensional groups</a> by Conway and Daniel Huson, from which the above picture was taken.</p>
+<p>2. <a href="https://www.jstor.org/stable/1575844?seq=1#metadata_info_tab_contents">On the Cohomology of Impossible Figures</a> by <a href="https://en.wikipedia.org/wiki/Roger_Penrose">Roger Penrose</a></p>
+<p>The aspiring architect should be warned that some constructions are simply not possible in 3D, even when they look convincing on paper, such as Escher&#8217;s <a href="https://en.wikipedia.org/wiki/Waterfall_(M._C._Escher)">Waterfall</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/en/e/e8/Escher_Waterfall.jpg" width=50%><br />
+M.C. Escher, Waterfall &#8211; <a href="https://en.wikipedia.org/wiki/Waterfall_(M._C._Escher)">Photo Credit</a><br />
+</center></p>
+<p>In his paper, Penrose gives a unified approach to debunk such drawings by using cohomology groups.</p>
+<p>Clearly I have no desire to introduce cohomology, but it may still be possible to get the underlying idea across. Let&#8217;s take the <a href="https://en.wikipedia.org/wiki/Penrose_triangle">Penrose triangle</a> (all pictures below taken from Penrose&#8217;s paper)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tribar1.png" width=50%><br />
+</center></p>
+<p>The idea is to break up such a picture in several parts, each of which we do know to construct in 3D (that is, we take a particular cover of our figure). We can slice up the Penrose triangle in three parts, and if you ever played with Lego you&#8217;ll know how to construct each one of them.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tribar2.png" width=50%><br />
+</center></p>
+<p>Next, position the constructed pieces in space as in the picture and decide which of the two ends is closer to you. In $Q_1$ it is clear that point $A_{12}$ is closer to you than $A_{13}$, so we write $A_{12} < A_{13}$.
+
+
+
+<p />
+Similarly, looking at $Q_2$ and $Q_3$ we see that $A_{23} < A_{21}$ and that $A_{31} < A_{32}$.
+
+
+
+<p />
+Next, if we try to reassemble our figure we must glue $A_{12}$ to $A_{21}$, that is $A_{12}=A_{21}$, and similarly $A_{23}=A_{32}$ and $A_{31}=A_{13}$. But, then we get<br />
+\[<br />
+A_{13}=A_{31} < A_{32}=A_{23} < A_{21}=A_{12} < A_{13} \]
+which is clearly absurd.
+
+
+
+<p />Once again, if you have suggestions for more material to be included, please let me know.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/imagination-and-the-impossible/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Everything&#8217;s wrappable to a sphere</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 11 Jan 2018 15:31:22 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Doyle]]></category>
+		<category><![CDATA[Gilman]]></category>
+		<category><![CDATA[Huson]]></category>
+		<category><![CDATA[McKay]]></category>
+		<category><![CDATA[Sebbar]]></category>
+		<category><![CDATA[Thurston]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7627</guid>
+
+					<description><![CDATA[One of the better opening quotes of a paper: &#8220;Even quite ungainly objects, like chairs and tables, will become almost spherical if you wrap them&#8230;]]></description>
+										<content:encoded><![CDATA[<p>One of the better opening quotes of a paper:</p>
+<p><strong>&#8220;Even quite ungainly objects, like chairs and tables, will become almost spherical if you wrap them in enough newspaper.&#8221;</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wrap.jpg"></p>
+<p>The paper in question is <a href="https://people.uwm.edu/ancel/files/2017/04/Conway.Orbifold-Notation-for-Surface-Groups.1990-2d6oy2f.pdf">The orbifold notation for surface groups</a> by John Conway.</p>
+<p>Here&#8217;s Conway talking leisurely about Thurston&#8217;s idea to capture the acting group via the topology of the orbifold space and his own <a href="https://en.wikipedia.org/wiki/Orbifold_notation">notation for such orbifolds</a>.</p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8z6T-7ovA5Q?start=209" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+<p>Here&#8217;s another version of the paper, with illustrations: <a href="https://www.researchgate.net/publication/263488290_The_Orbifold_Notation_for_Two-Dimensional_Groups">The orbifold notation for two-dimensional groups</a>, by Conway and Daniel H. Huson.</p>
+<p>A very accessible account are these lecture notes:</p>
+<p><a href="https://www.math.dartmouth.edu//~doyle/docs/gi/gi.pdf">A field guide to the orbifolds</a>, notes from class on &#8220;Geometry and the Imagination&#8221; in Minneapolis, with John Conway, Peter Doyle, Jane Gilman and Bill Thurston, on June 17–28, 1991.</p>
+<p>And, here are notes by Thurston on <a href="http://library.msri.org/books/gt3m/PDF/1.pdf">The Geometry and Topology of Three-Manifolds</a>, including stuff about orbifolds.</p>
+<p>I came across these papers struggling my way through <a href="http://www.ams.org/journals/proc/2004-132-08/S0002-9939-04-07421-0/S0002-9939-04-07421-0.pdf">On the discrete groups of moonshine</a> by Conway, McKay and Sebbar.</p>
+<p>On the genus $0$ property of moonshine groups they have this to say:</p>
+<p>&#8220;As for groups of the form $(n|h)+e,f,\dots$, the genus can be determined from the fundamental regions using the <a href="https://en.wikipedia.org/wiki/Riemann%E2%80%93Hurwitz_formula">Riemann-Hurwitz formula</a>. Since most of the groups are not subgroups of the modular group, the calculations of the genus, <em>which cannot be produced here because of their length</em>, are carried out by finding the elliptic fixed points and the cone points in the orbifolds attached to the fundamental regions. The Euler characteristic of the orbifold determines the genus of the group. See [paper] for more details on orbifold techniques.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

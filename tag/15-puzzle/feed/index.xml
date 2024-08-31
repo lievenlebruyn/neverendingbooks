@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>15-puzzle &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/15-puzzle/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 06 Feb 2008 10:48:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>censured post : bloggers’ block</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/censured-post-bloggers-block/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/censured-post-bloggers-block/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 06 Feb 2008 10:48:26 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/censured-post-bloggers-block.html</guid>
+
+					<description><![CDATA[Below an up-till-now hidden post, written november last year, trying to explain the long blog-silence at neverendingbooks during october-november 2007&#8230; A couple of months ago&#8230;]]></description>
+										<content:encoded><![CDATA[<p><strong>Below an up-till-now hidden post, written november last year, trying to explain the long blog-silence at neverendingbooks during october-november 2007&#8230;</strong></p>
+<hr />
+<p>A couple of months ago a publisher approached me, out of the blue, to consider writing a book about mathematics for the general audience (in Dutch (?!)). Okay, I  brought this  on myself hinting at the possibility in <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">this post</a></p>
+<blockquote><p>Recently, I&#8217;ve been playing with the idea of writing a book for the general public. Its title is still unclear to me (though an idea might be &#8220;The disposable science&#8221;, better suggestions are of course wellcome) but I&#8217;ve fixed the subtitle as &#8220;Mathematics&#8217; puzzling fall from grace&#8221;. The book&#8217;s concept is simple : I would consider the mathematical puzzles creating an hype over the last three centuries : the 14-15 puzzle for the 19th century, Rubik&#8217;s cube for the 20th century and, of course, Sudoku for the present century.</p>
+<p>For each puzzle, I would describe its origin, the mathematics involved and how it can be used to solve the puzzle and, finally, what the differing quality of these puzzles tells us about mathematics&#8217; changing standing in society over the period. Needless to say, the subtitle already gives away my point of view. The final part of the book would then be more optimistic. What kind of puzzles should we promote for mathematical thinking to have a fighting chance to survive in the near future?</p></blockquote>
+<p>While I still like the idea and am considering the proposal, chances are low this book ever materializes : the blog-title says it all&#8230;</p>
+<p>Then, about a month ago I got some incoming links from a variety of Flemish blogs. From their posts I learned that the leading Science-magazine for the low countries, <a href="http://www.nwtonline.nl/index.lasso?">Natuur, Wetenschap &amp; Techniek</a> (Nature, Science &amp; Technology), featured an article on Flemish science-blogs and that this blog might be among the ones covered. It sure would explain the publisher&#8217;s sudden interest. Of course, by that time the relevant volume of NW&amp;T was out of circulation so I had to order a backcopy to find out what was going on. Here&#8217;s the relevant section, written by their editor <a href="http://www.nanoforum.org/nf06~modul~showresearcher~sent~35~.html">Erick Vermeulen</a> (as well as an attempt to translate it)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/nwt.jpg" width=500 ></p>
+<blockquote><p><strong>Sliding puzzle</strong> For those who want more scientific depth (( their interpretation, not mine )), there is the English blog by Antwerp professor algebra &#038; geometry Lieven Le Bruyn, MoonshineMath (( indicates when the article was written&#8230; )). Le Bruyn offers a number of mathematical descriptions, most of them relating to group theory and in particular the so called monster-group and monstrous moonshine. He mentions some puzzles in passing such as the well known sliding puzzle with 15 pieces sliding horizontally and vertically in a 4 by 4 matrix. Le Bruyn argues that this  &#8217;15-puzzle (( <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=14">The 15-puzzle groupoid</a> ))&#8217; was the hype of the 19th century as was the Rubik cube for the 20th and is Sudoku for the 21st century. <br />
+Interesting is Le Bruyn&#8217;s mathematical description of the M(13)-puzzle (( <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">Conway&#8217;s M(13)-puzzle</a> )) developed by John Conway. It has 13 points on a circle, twelve of them carrying a numbered counter. Every point is connected via lines to all others (( a slight simplification )). Whenever a counter jumps to the empty spot, two others exchange places. Le Bruyn promises the blog-visitor new variants to come (( did I? )). We are curious. <br />
+Of course, the genuine puzzler can leave all this theory for what it is, use the Java-applet (( <a href="http://www.sebastian-egner.net/m13/">Egner&#8217;s M(13)-applet</a> )) and painfully try to move the counters around the circle according to the rules of the game.</p></blockquote>
+<p>Some people crave for this kind of media-attention. On me it merely has a blocking-effect. Still, as the end of my first-semester courses comes within sight, I might try to shake it off&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/censured-post-bloggers-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Mathieu groupoid (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mathieu-groupoid-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-mathieu-groupoid-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 20 Jun 2007 13:41:02 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=17</guid>
+
+					<description><![CDATA[Conway&#8217;s puzzle M(13) is a variation on the 15-puzzle played with the 13 points in the projective plane $\mathbb{P}^2(\mathbb{F}_3) $. The desired position is given&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/iniposm13.gif" style="float:left;margin-right:10px;" hspace=10> <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">Conway&#8217;s puzzle M(13)</a> is a variation on the 15-puzzle played with the 13 points in the projective plane $\mathbb{P}^2(\mathbb{F}_3) $. The desired position is given on the left where all the counters are placed at at the points having that label (the point corresponding to the hole in the drawing has label 0). A typical move consists in choosing a line in the plane going through the point where the hole is, choose one of the three remaining points on this line and interchange the counter on it for the hole while at the same time interchanging the counters on the other two points. In the drawing on the left, lines correspond to the little-strokes on the circle and edges describe which points lie on which lines. For example, if we want to move counter 5 to the hole we notice that both of them lie on the line represented by the stroke just to the right of the hole and this line contains also the two points with counters 1 and 11, so we have to replace these two counters too in making a move. Today we will describe the groupoid corresponding to this slide-puzzle so if you want to read on, it is best to play a bit with Sebastian Egner&#8217;s <a href="http://www.sebastian-egner.net/m13/">M(13) Java Applet</a> to see the puzzle in action (and to use it to verify the claims made below). Clicking on a counter performs the move taking the counter to the hole.</p>
+<p><span id="more-17"></span></p>
+<p>For the 15-puzzle I&#8217;ve gone to great lengths of detail <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=14">here</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=16">there</a> explaining how a groupoid naturally crops up having as its objects the reachable positions and as its morphisms the legal slide-sequences. Here, I&#8217;ll economize on details. We can encode a position by a permutation in $S_{13} $ by recording the counters (the hole having counter 0) as we move along the circle clockwise starting at the point of label 0 (the top-point). Basic moves transpose two pairs of counters so are given by a product of two transpositions. For example, the move described above from the initial position is $~(0,5)(1,11) $. Again it is clear how to make a groupoid from the reachable positions and the legal move-sequences and how all actual calculations can be done inside the group $S_{13} $. Two small remarks. (1) The situation is more symmetric than in the 15-puzzle. Here we have precisely 12 possible basic moves from any given position corresponding to the 12 non-hole counters which can be thrown into the hole. (2) Related to this, we have another way to encode move-sequences here. For each basic move we can jot down the <strong>label</strong> of the point whose counter we will throw to the hole (note : label, not counter!). The point of this being that we can now describe all reachable positions having the hole at the top point (the label 0 point) as those obtained from a move sequence of the form $~[0-i_1-i_2-\ldots-i_k-0]~ $ for all choices of $i_j $ between 0 and 12. However, not all these sequences give different positions and we want to determine how many distinct such positions we have. They will again form a subgroup of $S_{12} $ and the aim will be to show that this subgroup is the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M12/">sporadic simple Mathieu group</a> $M_{12} $. We will check now that $M_{12} $ is contained in this group. _Next time_ we will prove the other inclusion.</p>
+<p>Clearly, there are several different ways to label the 13 points and lines in the projective plane and unfortunately the choice of the <a href="http://arxiv.org/abs/math/0508630">Conway-Elkies-Martin paper</a> is different from that of the <a href="http://www.sebastian-egner.net/m13/">Java Applet</a>. For example, in the Applet-labeling {1,3,4,8} are on a line, whereas the paper-labeling assumes the following point/line labels</p>
+<p>$l_0 = \{ 0,1,2,3 \}, l_1= \{ 0,4,5,6 \}, l_2 = \{ 0,9,10,11 \}, l_3 = \{ 0,7,8,12 \}, l_4= \{ 1,4,8,9 \} $</p>
+<p>$l_5 = \{ 1,6,7,11 \}, l_6= \{ 1,5,10,12 \}, l_7= \{ 3,5,8,11 \}, l_8 = \{ 3,4,7,10 \} $</p>
+<p>$l_9=\{ 2,4,11,12 \}, l_{10}=\{ 2,6,8,10 \}, l_{11}=\{ 2,5,7,9 \}, l_{12} = \{ 3,6,9,12 \} $</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dictm13.gif" style="float:left;margin-right:10px;" hspace=10> We need to find a dictionary between the two labeling-systems. Again there are several options, but here is the first one I found. Relabeling the points of the Applet as on the left (also indicated is the labeling of the lines)<br />
+we get the labeling of the paper. Hence, to all CEM-paper-sequences we have to apply the <strong>dictionary</strong></p>
+<p>0(0), 1(1), 2(11), 3(5), 4(12), 5(10), 6(4), 7(8), 8(6), 9(2), 10(7), 11(3), 12(9)</p>
+<p>and use the bracketed labels to perform the sequence in the Java Applet. For example, if Conway-Elkies-Martin compute the effect of the move-sequence [0-11-7-9-8-3-0] (read from left to right) then we first have to translate this via the dictionary to the move-sequence [0-3-8-2-6-5-0]. Then, we perform this sequence in the Java-applet (note again : a basic move is indicated by the label of the point to click on NOT the counter) and record the final position.</p>
+<p>Below we depict the final positions for the three move-sequences [0-3-8-2-6-5-0], [0-9-1-2-0-5-6-12-0] and [0-1-8-0-5-4-0-1-8-0] which are our translations of the three basic move-sequences on page 9 of the CEM-paper (from left to right).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13alpha.gif"> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13beta.gif"> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13gamma.gif"></p>
+<p>This gives us three reachable positions having their hole at the top. They correspond to teh following permutations in the symmetric group $S_{12} $ (from left to right)</p>
+<p>$\alpha = (1,10,8,7,2,6,5,3,11,12,4), \beta=(1,9)(2,11)(3,7)(4,10)(5,12)(6,8) $</p>
+<p>$ \gamma=(2,6)(3,11)(5,8)(10,12) $</p>
+<p>Using <a href="http://www.gap-system.org/">GAP</a> (or the arithmetic progression loop description of $M_{12} $ as given in Chp.11 section 18 of <a href="http://www.amazon.co.uk/Sphere-Packings-Lattices-Groups-Wissenschaften/dp/0387985859/">Conway-Sloane</a> modulo relabeling ) we find that the group generated by these three elements is simple and of order 95040 and is isomorphic to the sporadic Mathieu group $M_{12} $.</p>
+<p>This corresponds to the messy part of the 15-puzzle in which we had to find enough reachable positions to generate $A_{15} $. The more conceptual part (the OXO-labeling showing that all positions must belong to $A_{15} $) also has a counterpart here. But, before we can tell that story we have to get into linear codes and in particular the properties of the _tetra-code_&#8230;</p>
+<p><strong>Reference</strong></p>
+<p>John H. Conway, Noam D. Elkies and Jeremy L. Martin &#8220;The Mathieu Group $M_{12} $ and its pseudogroup extension $M_{13} $&#8221; <a href="http://arxiv.org/abs/math/0508630">arXiv-preprint</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-mathieu-groupoid-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The 15-puzzle groupoid (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-15-puzzle-groupoid-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-15-puzzle-groupoid-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 19 Jun 2007 15:05:41 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=16</guid>
+
+					<description><![CDATA[In the 15-puzzle groupoid 1 we have seen that the legal positions of the classical 15-puzzle are the objects of a category in which every&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=14">the 15-puzzle groupoid 1</a> we have seen that the legal positions of the classical <a href="http://en.wikipedia.org/wiki/Fifteen_puzzle">15-puzzle</a> are the objects of a category in which every morphism is an isomorphism (a <a href="http://en.wikipedia.org/wiki/Groupoid">groupoid</a> ). Today, we will show that there are exactly  10461394944000 objects (legal positions) in this groupoid. The crucial fact is that positions with the hole in a fixed place can be identified with the elements of the alternating group $A_{15} $, a fact first proved by <a href="http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Story.html">William Edward Story</a> in 1879 in a note published in the American Journal of Mathematics.</p>
+<p>Recall from <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=14">last time</a> that the positions reachable from the initial position can be encoded as $\boxed{\tau} $ where $\tau $ is the permutation on 16 elements (the 15 numbered squares and 16 for the hole) such that $\tau(i) $ tells what number in the position lies on square $i $ of the initial position. The set of all reachable positions are the objects of our category. A morphism $\boxed{\tau} \rightarrow \boxed{\sigma} $ is a legal sequence of slide-moves starting from position $\boxed{\tau} $ and ending at position $\boxed{\sigma} $. That is,</p>
+<p>$\boxed{\sigma} = (16,i_k)(16,i_{k-1}) \cdots (16,i_2)(16,i_1) \boxed{\tau} $</p>
+<p><span id="more-16"></span></p>
+<p>where for every number m between 1 and k we have that the number $i_{m+1} $ is an horizontal or vertical neighbor of the hole in position $\boxed{(16,i_m)\cdots (16,i_1) \tau} $. When we identify such a morphism with the corresponding element $~(16,i_k)\cdots (16,i_2)(16,i_1) \in S_{16} $ we see that it must be the unique element $\sigma \tau^{-1} $ hence there is just one morphism between two objects and they are all invertible, so our category is indeed a groupoid. Can we say something about the length k of such a sequence of slide moves? Well, consider the OXO-drawing on our 4&#215;4 square</p>
+<p>$~\begin{array}{|c|c|c|c|} \hline O &amp; X &amp; O &amp; X \\ \hline  X &amp; O &amp; X &amp; O \\ \hline O &amp; X &amp; O &amp; X \\ \hline X &amp; O &amp; X &amp; O \\ \hline \end{array} $</p>
+<p>One legal slide-move brings an O-hole to an X-hole and an X-hole to an O-hole, so if the holes in $\boxed{\sigma} $ and $\boxed{\tau} $ are of the same type (both O-holes or both X-holes) then the length k of a legal sequence must be even and therefore the permutation $\sigma \tau^{-1} = (16,i_k) \cdots (16,i_1) $ belongs to the simple alternating group $A_{16} $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/puzzleland.jpg" style="float:left;margin-right:10px;" hspace=10 /> In particular, if we take $\tau = () $ the original position we see that if a reachable position $\sigma $ has the hole in the bottom right corner (and hence $\sigma $ fixes 16 so is an element of $S_{15} $) then</p>
+<p>$\sigma \in A_{16} \cap S_{15} = A_{15} $</p>
+<p>and in particular, Loyd&#8217;s 14-15 puzzle has no solution (as it corresponds to the transposition $\sigma=(14,15) \notin A_{15} $. This argument first appeared in print in W.W. Johnson &#8220;Note on the &#8220;15&#8221; puzzle&#8221; Amer. J. Math. 2 (1879) 397-399. We can compose legal sequences leading to positions having their hole at the bottom right in the groupoid showing that such positions can be identified with a subgroup of $A_{15} $. Note that we do NOT claim that we can multiply any two sequences of even length $~(16,i_k) \cdots (16,i_1) $ with $~(16,j_l) \cdots (16,j_1) $ (which would give us the whole of $A_{16} $) but only composable morphisms in the groupoid!</p>
+<p>W.E. Story then went on to show that this subgroup is the full alternating group $A_{15} $ which comes down to finding enough reachable positions, with the hole at the bottom right, to generate the group. We will sketch a more recent argument due to Aaron Archer (Math. Monthly 106 (1999) 793-799). He starts out with another encoding of reachable positions, disregarding the exact placement of the hole. He records the 15-numbers in order along a snakelike path disregarding the hole.</p>
+<p>$\begin{array}{|c|c|c|c|} \hline \rightarrow &amp; \rightarrow &amp; \rightarrow &amp; \downarrow \\ \hline  \downarrow &amp; \leftarrow &amp; \leftarrow &amp; \leftarrow \\ \hline \rightarrow &amp; \rightarrow &amp; \rightarrow &amp; \downarrow \\ \hline \leftarrow &amp; \leftarrow &amp; \leftarrow &amp; \leftarrow \\ \hline \end{array} $ so the position $\begin{array}{|c|c|c|c|} \hline 1 &amp; 2 &amp; 3 &amp; 4 \\ \hline  5 &amp; 6 &amp; 7 &amp; 8 \\ \hline  &amp; 15 &amp; 12 &amp; 14 \\ \hline 13 &amp; 9 &amp; 11 &amp; 10 \\ \hline \end{array} $</p>
+<p>is encoded as $~[1,2,3,4,8,7,6,5,15,12,14,10,11,9,13]~ $. The point being that we can slide the hole along the snakelike path to get a uniquely determined position having the same code but with the hole at another position. For example, sliding the hole along the path upwards to the third square of the upper row we get the position</p>
+<p>$\begin{array}{|c|c|c|c|} \hline 1 &amp; 2 &amp;  &amp; 3 \\ \hline  6 &amp; 7 &amp; 8 &amp; 4 \\ \hline  5 &amp; 15 &amp; 12 &amp; 14 \\ \hline 13 &amp; 9 &amp; 11 &amp; 10 \\ \hline \end{array} $ having the same code.</p>
+<p>This gives a natural one-to-one correspondence between reachable positions having their hole at spot i with those having the hole on spot j, so in order to determine the number of objects in our groupoid, it suffices to count the number of reachable positions with the hole at a specified spot. They are just all the codes and as they form a subgroup of $A_{15} $ it is enough to calculate the permutations induced on a code by just one slide-move. If the slide move is along the snakelike path, it will not alter the code, so we only have to compute 9 remaining slide modes S(1,8), S(2,7), S(3,6), S(7,10), S(6,11), S(5,12), S(9,16), S(10,15) and S(11,14) where the numbers correspond to the order in which we encounter the square along the snakelike path. For example S(1,8) is the slide move changing the hole at position (1,1) to position (2,1). This move has the following effect on a position</p>
+<p>$\begin{array}{|c|c|c|c|} \hline  &amp; a_1 &amp; a_2  &amp; a_3 \\ \hline  a_7 &amp; a_6 &amp; a_5 &amp; a_4 \\ \hline  a_8 &amp; a_9 &amp; a_{10} &amp; a_{11} \\ \hline a_{15} &amp; a_{14} &amp; a_{13} &amp; a_{12} \\ \hline \end{array} $ moving to $\begin{array}{|c|c|c|c|} \hline  a_7 &amp; a_1 &amp; a_2  &amp; a_3 \\ \hline   &amp; a_6 &amp; a_5 &amp; a_4 \\ \hline  a_8 &amp; a_9 &amp; a_{10} &amp; a_{11} \\ \hline a_{15} &amp; a_{14} &amp; a_{13} &amp; a_{12} \\ \hline \end{array} $</p>
+<p>whence it has the effect of changing the code</p>
+<p>$~[a_1,a_2,a_3,a_4,a_5,a_6,a_7,a_8,a_9,a_{10},a_{11},a_{12},a_{13},a_{14},a_{15}]~ $ to the code</p>
+<p>$~[a_7,a_1,a_2,a_3,a_4,a_5,a_6,a_8,a_9,a_{10},a_{11},a_{12},a_{13},a_{14},a_{15}]~ $</p>
+<p>and therefore it corresponds to the permutation $S(1,8)=(1,7,6,5,4,3,2)~ $. Similarly, one calculates that the other slide moves determine the following permutations</p>
+<p>$S(2,7)=(2,6,5,4,3), S(3,6)=(3,5,4), S(5,12)=(5,11,10,9,8,7,6) $</p>
+<p>$ S(6,11)=(6,10,9,8,7), S(7,10)=(7,9,8), S(9,16)=(9,15,14,13,12,11,10) $</p>
+<p>$ S(10,15)=(10,14,13,12,11), S(11,14)=(11,13,12)~ $</p>
+<p>(Ive replaced the permutations in Archer&#8217;s paper by their inverses because I want to have left actions rather than right ones). The only thing left to do is to fire up <a href="http://www.gap-system.org/">GAP</a> (update : or use <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=16#comment-147">Michel&#8217;s comment</a> below) and verify that these permutations do indeed generate the full alternating group $A_{15} $. Summarizing, there are precisely $\frac{1}{2} 15!~ $ reachable positions having their hole in a specified place and as there are 16 possible places for the hole, we get that the total number of reachable positions (or if you prefer, the number of objects in our groupoid) is equal to</p>
+<p>$16 \times \frac{1}{2} 15! = \frac{1}{2} 16! = 10461394944000 $</p>
+<p>and the whole point of the careful group versus groupoid analysis is that one should not make the mistake in interpreting this number as the number of elements of the alternating group $A_{16} $. For those who don&#8217;t like categories but prefer the algebraic notion of a groupoid, their groupoid has</p>
+<p>$~(10461394944000)^2 = 109440784174348763136000000 $</p>
+<p>elements as there is exactly one morphism between two objects.</p>
+<p><strong>References</strong></p>
+<p>Aaron F. Archer, &#8220;A Modern Treatment of the 15 Puzzle&#8221; Mathematical Monthly 106 (1999) 793-799</p>
+<p>W.E. Story, &#8220;Note on the &#8220;15&#8221; puzzle&#8221;, Amer. J. Math. 2 (1879) 399-404</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-15-puzzle-groupoid-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The 15-puzzle groupoid (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-15-puzzle-groupoid-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-15-puzzle-groupoid-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 17 Jun 2007 20:19:52 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=14</guid>
+
+					<description><![CDATA[Before we go deeper into Conway&#8217;s M(13) puzzle, let us consider a more commonly known sliding puzzle: the 15-puzzle. A heated discussion went on a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Before we go deeper into <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">Conway&#8217;s M(13) puzzle</a>, let us consider a more commonly known sliding puzzle: the <a href="http://en.wikipedia.org/wiki/Fifteen_puzzle">15-puzzle</a>. A heated discussion went on a couple of years ago at sci-physics-research, starting with <a href="http://www.lns.cornell.edu/spr/2003-09/msg0053729.html">this message</a>. <a href="http://motls.blogspot.com/">Lubos Motl</a> argued that group-theory is sufficient to analyze the problem and that there is no reason to resort to groupoids (&#8216;The human(oids) who like groupoids&#8230;&#8217; and other goodies, in pre-blog but vintage Motl-speak) whereas &#8216;Jason&#8217; defended his viewpoint that a groupoid is the natural symmetry for this puzzle.</p>
+<p>I&#8217;m mostly with Lubos on this. All relevant calculations are done in the symmetric group $S_{16} $ and (easy) grouptheoretic results such as the distinction between even and odd permutations or the generation of the alternating groups really crack the puzzle. At the same time, if one wants to present this example in class, one has to be pretty careful to avoid confusion between permutations encoding positions and those corresponding to slide-moves. In making such a careful analysis, one is bound to come up with a structure which isn&#8217;t a group, but is precisely what some people prefer to call a groupoid (if not a 2-group&#8230;).</p>
+<p><span id="more-14"></span></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/brandt.jpg" align="left" hspace=10 /> Groupoids are no recent invention but date back to 1926 when <a href="http://en.wikipedia.org/wiki/Heinrich_Brandt">Heinrich Brandt</a> defined what we now know as the &#8216;Brandt groupoid&#8217; in his study of _noncommutative number theory_. He was studying central simple algebras (the noncommutative counterpart of number fields) in which there usually is not a unique &#8216;ring of integers&#8217; (in noncommutative parlance, a maximal order) and fractional ideals have a left- and a right- maximal order associated to it, leading naturally to left- and right- unit elements and the notion of a groupoid.</p>
+<p>The algebraic notion of a groupoid is a set G with a partial multiplication and an everywhere defined inverse satisfying associativity $a \ast (b \ast c) = (a \ast b) \ast c $ whenever the terms are defined. Further, whenever $ a \ast b $ is defined one has $ a^{-1} \ast a \ast b = b $ and $a \ast b \ast b^{-1} = a $ and finally all $a^{-1} \ast a $ and $ a \ast a^{-1} $ are defined (but may be different elements). The categorical definition of a groupoid is even simpler : it is a category in which every morphism is an isomorphism. Both notions are equivalent.</p>
+<p>Recall that the 15-puzzle is a 4&#215;4 slide-puzzle with initial configuration with the hole at the right bottom square (see left) and one can slide the hole one place at a time in vertical or horizontal direction. For example, if one slides the hole along the path 12-11-7-6-2 one ends up with the situation on the right</p>
+<p>$\begin{array}{|c|c|c|c|} \hline 1 &amp; 2 &amp; 3 &amp; 4 \\<br />
+\hline 5 &amp; 6 &amp; 7 &amp; 8 \\ \hline 9 &amp; 10 &amp; 11 &amp; 12 \\ \hline 13 &amp; 14 &amp; 15 &amp; \\ \hline \end{array} $ (initial position)<br />
+$\begin{array}{|c|c|c|c|} \hline 1 &amp;  &amp; 3 &amp; 4 \\<br />
+\hline 5 &amp; 2 &amp; 6 &amp; 8 \\ \hline 9 &amp; 10 &amp; 7 &amp; 11 \\ \hline 13 &amp; 14 &amp; 15 &amp;  12 \\ \hline \end{array} $ (position after 12-11-7-6-2)</p>
+<p>The mathematical aim is to determine the allowed positions, that is those which can be reached from the initial position by making legal slide moves. The puzzle aim is to return to the initial position starting from an allowed position. We will determine the number of allowed positions and why they are the elements of a groupoid.</p>
+<p>We dont want to draw arrays all the time so we need a way to encode a position. Giving the hole label 16 we can record a position by writing down the permutation on 16 letters describing by which label in the given position, the label of the initial position is replaced. For example, the situation on the right arises by leaving 1 to position 1, 2 is replaced by 16, 3,4 and 5 are left in their position but 6 is replaced by 2 and so on. So, we can encode this position by the permutation<br />
+$\sigma = (2,16,12,11,7,6) $ and conversely, given such a permutation we can fill in the entire position encoded by it. We will denote the array or position corresponding to a partition $\tau \in S_{16} $ by the boxed symbol $\boxed{\tau} $.</p>
+<p>Next, we turn to slide-moves. A basic move interchanges the hole (label 16) with a square labeled i (if i is a horizontal or vertical neighbor of the hole in the position) so can be represented by the transposition $~(16,i) $. We can iterate this procedure, a legal move from a position $\boxed{\tau} $ will be a succession of basic-moves written from right to left as is usual in composing permutations</p>
+<p>$~(16,i_k) \cdots (16,i_2)(16,i_1) $</p>
+<p>where legality implies that at each step the label $i_{m+1} $ must be a vertical or horizontal neighbor of the hole in the position reached from $\boxed{\tau} $ after applying the move $~(16,i_m)(16,i_{m-1}) \cdots (16,i_2)(16,i_1) $. Hence, we&#8217;d better have a method to compute the position we obtain from a given position by applying a legal sequence of slide-moves. The rule is : multiply the slide-move-permutation with the position-permutation in the group $S_{16} $ to get the code for the obtained position. In symbols</p>
+<p>$~(16,i_k) \cdots (16,i_2)(16,i_1) \boxed{\tau} = \boxed{(16,i_k) \cdots (16,i_2)(16,i_1) \tau} $</p>
+<p>For example, the initial position corresponds to the identity permutation, that is, is $\boxed{()} $ and applying to it the legal seuence of slides moved along the path 12-11-7-6-2 as before we get the position with code</p>
+<p>$~(16,2)(16,6)(16,7)(16,11)(16,12) \boxed{()} = \boxed{(16,2)(16,6)(16,7)(16,11)(16,12)} = \boxed{(16,12,11,7,6,2)} $</p>
+<p>which is indeed the code of the position obtained above on the right. Right, the basic ingredient to have full understanding of this puzzle are hence the combination of an allowed position together with a legal move-sequence starting from it. Therefore, we will take as our elements all possible combinations $\sigma \boxed{\tau} $ with $\sigma,\tau \in S_{12} $ where $\tau $ is the code of a reachable position and $\sigma = (16,i_l) \cdots (16,i_1) $ is a legal move from that position.</p>
+<p>On this set of elements we only have a partially defined composition rule, for we can only make sense of the composition of moves</p>
+<p>$\sigma_1 \boxed{\tau_1} \ast \sigma_2 \boxed{\tau_2} = \sigma_1 \sigma_2 \boxed{\tau_2} $</p>
+<p>provided $\tau_1 $ is the code of the position reached from $\boxed{\tau_2} $ after applying the move-sequence $\sigma_2 $, that is, the multiplication above is defined if and only if</p>
+<p>$\tau_1 = \sigma_2 \tau_2 $ in $S_{16} $</p>
+<p>All conditions of the algebraic notion of a groupoid are satisfied. For example, every element has an inverse</p>
+<p>$~(\sigma \boxed{\tau})^{-1} = \sigma^{-1} \boxed{\omega} $ where $\omega = \sigma \tau $ in $S_{16} $</p>
+<p>and it is easy to check that all conditions are indeed satisfied. In the categorical definition, the groupoid is the category having as the objects the reachable positions, and morphisms $\boxed{\tau_1} \rightarrow \boxed{\tau_2} $ are of the form $\sigma_1 \boxed{\tau_1} $ such that $\sigma_1 \tau_1 = \tau_2 $ (hence, all morphisms are isomorphisms and there is just one morphism between two objects, namely corresponding to $\sigma_1 = \tau_2 \tau_1^{-1} \in S_{16} $. For example, each object $\boxed{\tau} $ also has an identity morphism $~() \boxed{\tau} $ and again all categorical requirements are met.</p>
+<p>This groupoid we will call the the <strong>15-puzzle groupoid</strong> and <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=16">next time</a> we will determine that it has exactly $\frac{1}{2} 16! $ objects.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-15-puzzle-groupoid-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Conway’s puzzle M(13)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/conways-puzzle-m13/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/conways-puzzle-m13/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 16 Jun 2007 16:05:11 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[blackjack]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=13</guid>
+
+					<description><![CDATA[In the series "Mathieu games" we describe some mathematical games and puzzles connected to simple groups. We will encounter Conway's M(13)-puzzle, the classic Loyd's 15-puzzle and mathematical blackjack based on Mathieu's sporadic simple group M(12).]]></description>
+										<content:encoded><![CDATA[<p>Recently, I&#8217;ve been playing with the idea of writing a book for the general public. Its title is still unclear to me (though an idea might be &#8220;The disposable science&#8221;, better suggestions are of course wellcome) but I&#8217;ve fixed the subtitle as &#8220;Mathematics&#8217; puzzling fall from grace&#8221;. The book&#8217;s concept is simple : I would consider the mathematical puzzles creating an hype over the last three centuries : the <a href="http://bd.thrijswijk.nl/15puzzle/15puzzen.htm">14-15 puzzle</a> for the 19th century, <a href="http://en.wikipedia.org/wiki/Rubik's_Cube">Rubik&#8217;s cube</a> for the 20th century and, of course, <a href="http://en.wikipedia.org/wiki/Sudoku">Sudoku</a> for the present century.</p>
+<p>For each puzzle, I would describe its origin, the mathematics involved and how it can be used to solve the puzzle and, finally, what the differing quality of these puzzles tells us about mathematics&#8217; changing standing in society over the period. Needless to say, the subtitle already gives away my point of view. The final part of the book would then be more optimistic. What kind of puzzles should we promote for mathematical thinking to have a fighting chance to survive in the near future?</p>
+<p><span id="more-13"></span></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/johnconway.jpg" style="float:left;margin-right:10px;" hspace=10 /> One of the puzzles I would propose is $M_{13} $, a sliding game first proposed by <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Horton Conway</a> in 1989 at the fourteenth New York Graph Theory Day. The analysis of the game was taken up by <a href="http://www.math.ku.edu/~jmartin/">Jeremy Martin</a> in his 1996 honors thesis in mathematics <a href="http://www.math.ku.edu/~jmartin/papers/undergrad-thesis.pdf">The Mathieu group M(12) and Conway&#8217;s M(13)-game</a> under the supervision of <a href="http://en.wikipedia.org/wiki/Noam_Elkies">Noam Elkies</a>.</p>
+<p>Two years ago, the three of them joined forces and arXived the paper <a href="http://arxiv.org/abs/math/0508630">The Mathieu group M(12) and its pseudogroup extension M(13)</a>. The game is similar to the 15-puzzle replacing the role played by the simple alternating group $A_{15} $ there with that of the sporadic simple Mathieu group $M_{12} $.</p>
+<p>The game board of $M_{13} $ is the finite projective plane $\mathbb{P}^2(\mathbb{F}_3) $ over the field with three elements $\mathbb{F}_3 $. Recall that the number of points in projective n-space over a finite field of q-elements $\mathbb{P}^n(\mathbb{F}_q)  $ is given by</p>
+<p>$ q^n + q^{n-1} + \cdots + q + 1 $</p>
+<p>Therefore, there are 13=9+3+1 points on the board and as there is a bijection between points and lines in the projective plane, there are also 13 lines on the board, each containing exactly 4=3+1 points and so each point lies on exactly 4 lines.<br />
+Moreover, two distinct points p and q determine a unique line $\overline{pq} $ and two distinct lines l and m have a unique intersection point $l \cap m = &#123; p &#125; $. Clearly it will be hard selling a projective plane board to the general public, so let us depict all this information in a more amenable form such as</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/projplane3.gif" /></p>
+<p>The 13 points are indicated by the small discs around the circle whereas the 13 lines are depicted as small strokes on the circle. All edges (both &#8216;along&#8217; as well &#8216;inside&#8217; the circle) connect a point p and a line l subject to the relation that p lies on the line l in the projective plane $\mathbb{P}^2(\mathbb{F}_3) $.</p>
+<p>The fact that two distinct points determine a unique line corresponds to the fact that for any two small-discs there is a unique small-stroke connecting both small-discs with an edge (note that one or both of these edges may lie on the circle). Similarly, for any two small-strokes the is a unique small-disc connected via edges to the two small-strokes, corresponding to the fact that two lines have a unique point in common.</p>
+<p>A typical position in Conway&#8217;s puzzle $M_{13} $ consists in placing numbered counters, labeled 1 through 12, on 12 of the 13 points leaving one point empty, called the &#8220;hole&#8221;. A basic move consists of the following operation : choose a labeled point, say, p. Then, there is a unique line l (a small-stroke) containing p and the hole and there are two more points say q and r on this line l. The basic move replaces the counters between q and r and moves the counter of p to the hole and the hole to point p. For example, consider the position on the left</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13a.gif" /> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13b.gif" /></p>
+<p>and suppose we want to move the counter 11 to the hole. Hole and 11 determine the unique line represented by the small-stroke immediately to the left of 11. This line contains the further points with counters 8 and 9. Hence, applying the basic move we get the situation on the right hand side. The aim of <strong>Conway&#8217;s game M(13)</strong> is to get the hole at the top point and all counters in order 1,2,&#8230;,12 when moving clockwise along the circle. One can play this puzzle online using the excellent <a href="http://www.sebastian-egner.net/m13/">java-applet</a> by <a href="http://www.sebastian-egner.net/">Sebastian Egner</a>.</p>
+<p>Another time we will make the connection with the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=17">Mathieu groupoid M(13)</a> and the sporadic simple Mathieu group $M_{12} $.</p>
+<p><strong>Reference</strong></p>
+<p>John H. Conway, Noam D. Elkies, and Jeremy L. Martin <a href="http://arxiv.org/abs/math/0508630">&#8220;The Mathieu group M(12) and its pseudogroup extension M(13)&#8221;</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/conways-puzzle-m13/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

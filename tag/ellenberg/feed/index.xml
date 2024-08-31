@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ellenberg &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/ellenberg/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 10 Aug 2019 10:44:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Dessinflateurs</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/dessinflateurs/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/dessinflateurs/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 10 Aug 2019 10:44:13 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Belyi]]></category>
+		<category><![CDATA[dessins]]></category>
+		<category><![CDATA[Ellenberg]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[monodromy]]></category>
+		<category><![CDATA[Wood]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8536</guid>
+
+					<description><![CDATA[I&#8217;m trying to get into the latest Manin-Marcolli paper Quantum Statistical Mechanics of the Absolute Galois Group on how to create from Grothendieck&#8217;s dessins d&#8217;enfant&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m trying to get into the latest Manin-Marcolli paper <a href="https://arxiv.org/abs/1907.13545">Quantum Statistical Mechanics of the Absolute Galois Group</a> on how to create from <a href="https://en.wikipedia.org/wiki/Dessin_d%27enfant">Grothendieck&#8217;s dessins d&#8217;enfant</a> a quantum system, generalising the <a href="https://en.wikipedia.org/wiki/Bost%E2%80%93Connes_system">Bost-Connes system</a> to the non-Abelian part of the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q})$.</p>
+<p>In doing so they want to extend the action of the multiplicative monoid $\mathbb{N}_{\times}$ by power maps on the roots of unity to the action of a larger monoid on all dessins d&#8217;enfants.</p>
+<p>Here they use an idea, originally due to Jordan Ellenberg, worked out by <a href="https://math.berkeley.edu/~mmwood/">Melanie Wood</a> in her paper <a href="https://arxiv.org/abs/math/0304489">Belyi-extending maps and the Galois action on dessins d&#8217;enfants</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://math.berkeley.edu/~mmwood/Pictures/Melanie_Wood.jpg"><br />
+</center></p>
+<p>To grasp this, it&#8217;s best to remember what dessins have to do with Belyi maps, which are maps defined over $\overline{\mathbb{Q}}$<br />
+\[<br />
+\pi : \Sigma \rightarrow \mathbb{P}^1 \]<br />
+from a Riemann surface $\Sigma$ to the complex projective line (aka the 2-sphere), ramified only in $0,1$ and $\infty$. The dessin determining $\pi$ is the 2-coloured graph on the surface $\Sigma$ with as black vertices the pre-images of $0$, white vertices the pre-images of $1$ and these vertices are joined by the lifts of the closed interval $[0,1]$, so the number of edges is equal to the degree $d$ of the map.</p>
+<p>Wood considers a very special subclass of these maps, which she calls Belyi-extender maps, of the form<br />
+\[<br />
+\gamma : \mathbb{P}^1 \rightarrow \mathbb{P}^1 \]<br />
+defined over $\mathbb{Q}$ with the additional property that $\gamma$ maps $\{ 0,1,\infty \}$ into $\{ 0,1,\infty \}$.</p>
+<p>The upshot being that post-compositions of Belyi&#8217;s with Belyi-extenders $\gamma \circ \pi$ are again Belyi maps, and if two Belyi&#8217;s $\pi$ and $\pi&#8217;$ lie in the same Galois orbit, then so must all $\gamma \circ \pi$ and $\gamma \circ \pi&#8217;$.</p>
+<p>The crucial Ellenberg-Wood idea is then to construct &#8220;new Galois invariants&#8221; of dessins by checking existing and easily computable Galois invariants on the dessins of the Belyi&#8217;s $\gamma \circ \pi$.</p>
+<p>For this we need to know how to draw the dessin of $\gamma \circ \pi$ on $\Sigma$ if we know the dessins of $\pi$ and of the Belyi-extender $\gamma$. Here&#8217;s the procedure</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DessinInf.jpg" width=70% ><br />
+</center></p>
+<p>Here, the middle dessin is that of the Belyi-extender $\gamma$ (which in this case is the power map $t \rightarrow t^4$) and the upper graph is the unmarked dessin of $\pi$.</p>
+<p>One has to replace each of the black-white edges in the dessin of $\pi$ by the dessin of the expander $\gamma$, but one must be very careful in respecting the orientations on the two dessins. In the upper picture just one edge is replaced and one has to do this for all edges in a compatible manner.</p>
+<p>Thus, a Belyi-expander $\gamma$ inflates the dessin $\pi$ with factor the degree of $\gamma$. For this reason i prefer to call them <strong>dessinflateurs</strong>, a contraction of dessin+inflator.</p>
+<p>In her paper, Melanie Wood says she can separate dessins for which all known Galois invariants were the same, such as these two dessins,</p>
+<p><center><br />
+<img decoding="async" width=100% src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/testdessins.jpg" ><br />
+</center></p>
+<p>by inflating them with a suitable Belyi-extender and computing the monodromy group of the inflated dessin.</p>
+<p>This monodromy group is the permutation group generated by two elements, the first one gives the permutation on the edges given by walking counter-clockwise around all black vertices, the second by walking around all white vertices.</p>
+<p>For example, by labelling the edges of $\Delta$, its monodromy is generated by the permutations $(2,3,5,4)(1,6)(8,10,9)$ and $(1,3,2)(4,7,5,8)(9,10)$ and GAP tells us that the order of this group is $1814400$. For $\Omega$ the generating permutations are $(1,2)(3,6,4,7)(8,9,10)$ and $(1,2,4,3)(5,6)(7,9,8)$, giving an isomorphic group.</p>
+<p>Let&#8217;s inflate these dessins using the Belyi-extender $\gamma(t) = -\frac{27}{4}(t^3-t^2)$ with corresponding dessin</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/desspoging1.jpg" width=50% ><br />
+</center></p>
+<p>It took me a couple of attempts before I got the inflated dessins correct (as i knew from Wood that this simple extender would not separate the dessins). Inflated $\Omega$ on top:</p>
+<p><center><br />
+<img decoding="async" width=100% src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Dessinflateurs.jpg" ><br />
+</center></p>
+<p>Both dessins give a monodromy group of order $35838544379904000000$.</p>
+<p>Now we&#8217;re ready to do serious work.</p>
+<p>Melanie Wood uses in her paper the extender $\zeta(t)=\frac{27 t^2(t-1)^2}{4(t^2-t+1)^3}$ with associated dessin</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/desspoging2.jpg" width=50% ><br />
+</center></p>
+<p>and says she can now separate the inflated dessins by the order of their monodromy groups. She gets for the inflated $\Delta$ the order $19752284160000$ and for inflated $\Omega$ the order $214066877211724763979841536000000000000$.</p>
+<p>It&#8217;s very easy to make mistakes in these computations, so probably I did something horribly wrong but I get for both $\Delta$ and $\Omega$ that the order of the monodromy group of the inflated dessin is $214066877211724763979841536000000000000$.</p>
+<p>I&#8217;d be very happy when someone would be able to spot the error!</p>
+<p><img decoding="async" width=100% src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BerekeningDelta.jpg" ></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/dessinflateurs/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

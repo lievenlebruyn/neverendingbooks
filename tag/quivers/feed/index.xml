@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>quivers &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/quivers/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 14 May 2011 10:48:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>what have quivers done to students?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-have-quivers-done-to-students/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-have-quivers-done-to-students/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 14 May 2011 10:48:23 +0000</pubDate>
+				<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5049</guid>
+
+					<description><![CDATA[A few years ago a student entered my office asking suggestions for his master thesis. &#8220;I&#8217;m open to any topic as long as it has&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A few years ago a student entered my office asking suggestions for his master thesis.</p>
+<p>&#8220;I&#8217;m open to any topic as long as it has nothing to do with those silly quivers!&#8221;</p>
+<p>At that time not the best of opening-lines to address me and, inevitably, the most disastrous teacher-student-conversation-ever followed (also on my part, i&#8217;m sorry to say).</p>
+<p>This week, <a href="http://wmaz.math.uni-wuppertal.de/reineke/">Markus Reineke</a> had a similar, though less confrontational, experience. Markus gave a mini-course on &#8216;moduli spaces of representations&#8217; in our <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/noncommutative-algebra-and-geometry-master-degree.html">advanced master class</a>. Students loved the way he introduced representation varieties and constructed the space of irreducible representations as a GIT-quotient. In fact, his course was probably the first in that program having an increasing (rather than decreasing) number of students attending throughout the week&#8230;</p>
+<p>In his third lecture he wanted to illustrate these general constructions and what better concrete example to take than representations of quivers? Result : students&#8217; eyes staring blankly at infinity&#8230;</p>
+<p>What is it that quivers do to have this effect on students?</p>
+<p>Perhaps quiver-representations cause them an information-overload.</p>
+<p>Perhaps we should take plenty of time to explain that in going from the quiver (the directed graph) to the path algebra, vertices become idempotents and arrows the remaining generators. These idempotents split a representation space into smaller vertex-spaces, the dimensions of which we collect in a dimension-vector,  the big basechange group splits therefore into a product of small vertex-basechanges and the action of this product on an matrix corresponding to an arrow is merely usual conjugation by the big basechange-group, etc. etc.  Blatant trivialities to someone breathing quivers, but probably we too had to take plenty of time once to disentangle this information-package&#8230;</p>
+<p>But then, perhaps they consider quivers and their representations as too-concrete-old-math-stuff, when there&#8217;s so much high-profile-fancy-math still left to taste.</p>
+<p>When given the option, students prefer you to tell them monstrous-moonshine stories even though they can barely prove simplicity of $A_5$, they want you to give them a short-cut to the Langlands programme but have never had the patience nor the interest to investigate the splitting of primes in quadratic number fields, they want to be taught schemes and their structure sheaves when they still struggle with the notion of a dominant map between varieties&#8230;</p>
+<p>In short, students often like to run before they can crawl.</p>
+<p>Working through the classification of some simple quiver-settings would force their agile feet firmly on the ground. They probably experience this as a waste of time.</p>
+<p>Perhaps, it is time to promote slow math&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-have-quivers-done-to-students/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>what does the monster see?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-does-the-monster-see/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-does-the-monster-see/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 16 Jul 2008 18:12:41 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=440</guid>
+
+					<description><![CDATA[The Monster is the largest of the 26 sporadic simple groups and has order 808 017 424 794 512 875 886 459 904 961 710&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="http://en.wikipedia.org/wiki/Monster_group">Monster</a> is the largest of the 26 sporadic simple groups and has order</p>
+<p>808 017 424 794 512 875 886 459 904 961 710 757 005 754 368 000 000 000</p>
+<p>= 2^46 3^20 5^9 7^6 11^2 13^3 17 19 23 29 31 41 47 59 71.</p>
+<p>It is not so much the size of its order that makes it hard to do actual calculations in the monster, but rather the dimensions of its smallest non-trivial irreducible representations (196 883 for the smallest, 21 296 876 for the next one, and so on).</p>
+<p>In characteristic two there is an irreducible representation of one dimension less (196 882) which appears to be of great use to obtain information. For example, Robert Wilson used it to prove that <a href="http://web.mat.bham.ac.uk/R.A.Wilson/pubs/MHurwitz.ps">The Monster is a Hurwitz group</a>. This means that the Monster is generated by two elements g and h satisfying the relations</p>
+<p>$g^2 = h^3 = (gh)^7 = 1 $</p>
+<p>Geometrically, this implies that the Monster is the automorphism group of a Riemann surface of genus g satisfying the Hurwitz bound 84(g-1)=#Monster. That is,</p>
+<p>g=9619255057077534236743570297163223297687552000000001=42151199 * 293998543 * 776222682603828537142813968452830193</p>
+<p>Or, in analogy with the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-buckyball-curve.html">Klein quartic</a> which can be constructed from 24 heptagons in the tiling of the hyperbolic plane, there is a finite region of the hyperbolic plane, tiled with heptagons, from which we can construct this monster curve by gluing the boundary is a specific way so that we get a Riemann surface with exactly 9619255057077534236743570297163223297687552000000001 holes. This finite part of the hyperbolic tiling (consisting of #Monster/7 heptagons) we&#8217;ll call the <strong>empire of the monster</strong> and we&#8217;d love to describe it in more detail.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/whatdoesmonstersee.jpg"><br />
+</center></p>
+<p>Look at the half-edges of all the heptagons in the empire (the picture above learns that every edge in cut in two by a blue geodesic). They are exactly #Monster such half-edges and they form a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-best-rejected-proposal-ever.html">dessin d&#8217;enfant</a> for the monster-curve.</p>
+<p>If we label these half-edges by the elements of the Monster, then multiplication by g in the monster interchanges the two half-edges making up a heptagonal edge in the empire and multiplication by h in the monster takes a half-edge to the one encountered first by going counter-clockwise in the vertex of the heptagonal tiling. Because g and h generated the Monster, the dessin of the empire is just a concrete realization of the monster.</p>
+<p>Because g is of order two and h is of order three, the two permutations they determine on the dessin, gives a group epimorphism $C_2 \ast C_3 = PSL_2(\mathbb{Z}) \rightarrow \mathbb{M} $ from the <a href="http://en.wikipedia.org/wiki/Modular_group">modular group</a> $PSL_2(\mathbb{Z}) $ onto the Monster-group.</p>
+<p>In noncommutative geometry, the group-algebra of the modular group $\mathbb{C} PSL_2 $ can be interpreted as the coordinate ring of a noncommutative manifold (because it is formally smooth in the sense of <a href="http://arxiv.org/abs/math/9812158">Kontsevich-Rosenberg</a> or Cuntz-Quillen) and the group-algebra of the Monster $\mathbb{C} \mathbb{M} $ itself corresponds in this picture to a finite collection of &#8216;points&#8217; on the manifold. Using this geometric viewpoint we can now ask the question  <strong>What does the Monster see of the modular group?</strong></p>
+<p>To make sense of this question, let us first consider the commutative equivalent : what does a point P see of a commutative variety X?</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/neighborhoods.jpg" ><br />
+</center></p>
+<p>Evaluation of polynomial functions in P gives us an algebra epimorphism $\mathbb{C}[X] \rightarrow \mathbb{C} $ from the coordinate ring of the variety $\mathbb{C}[X] $ onto $\mathbb{C} $ and the kernel of this map is the maximal ideal $\mathfrak{m}_P $ of<br />
+ $\mathbb{C}[X] $ consisting of all functions vanishing in P.</p>
+<p>Equivalently, we can view the point $P= \mathbf{spec}~\mathbb{C}[X]/\mathfrak{m}_P $ as the scheme corresponding to the quotient $\mathbb{C}[X]/\mathfrak{m}_P $. Call this the 0-th formal neighborhood of the point P.</p>
+<p>This sounds pretty useless, but let us now consider higher-order formal neighborhoods. Call the affine scheme $\mathbf{spec}~\mathbb{C}[X]/\mathfrak{m}_P^{n+1} $ the n-th forml neighborhood of P, then the first neighborhood, that is with coordinate ring $\mathbb{C}[X]/\mathfrak{m}_P^2 $ gives us tangent-information. Alternatively, it gives the best linear approximation of functions near P.<br />
+The second neighborhood $\mathbb{C}[X]/\mathfrak{m}_P^3 $ gives us the best quadratic approximation of function near P, etc. etc.</p>
+<p>These successive quotients by powers of the maximal ideal $\mathfrak{m}_P $ form a system of algebra epimorphisms</p>
+<p>$\ldots \frac{\mathbb{C}[X]}{\mathfrak{m}_P^{n+1}} \rightarrow \frac{\mathbb{C}[X]}{\mathfrak{m}_P^{n}} \rightarrow \ldots \ldots \rightarrow \frac{\mathbb{C}[X]}{\mathfrak{m}_P^{2}} \rightarrow \frac{\mathbb{C}[X]}{\mathfrak{m}_P} = \mathbb{C} $</p>
+<p>and its inverse limit $\underset{\leftarrow}{lim}~\frac{\mathbb{C}[X]}{\mathfrak{m}_P^{n}} = \hat{\mathcal{O}}_{X,P} $ is the completion of the local ring in P and contains all the infinitesimal information (to any order) of the variety X in a neighborhood of P. That is, this completion $\hat{\mathcal{O}}_{X,P} $ contains <strong>all information that P can see of the variety X</strong>.</p>
+<p>In case P is a smooth point of X, then X is a manifold in a neighborhood of P and then this completion<br />
+$\hat{\mathcal{O}}_{X,P} $ is isomorphic to the algebra of formal power series $\mathbb{C}[[ x_1,x_2,\ldots,x_d ]] $ where the $x_i $ form a local system of coordinates for the manifold X near P.</p>
+<p>Right, after this lengthy recollection, back to our question <strong>what does the monster see of the modular group?</strong> Well, we have an algebra epimorphism</p>
+<p>$\pi~:~\mathbb{C} PSL_2(\mathbb{Z}) \rightarrow \mathbb{C} \mathbb{M} $</p>
+<p>and in analogy with the commutative case, all information the Monster can gain from the modular group is contained in the $\mathfrak{m} $-adic completion</p>
+<p>$\widehat{\mathbb{C} PSL_2(\mathbb{Z})}_{\mathfrak{m}} = \underset{\leftarrow}{lim}~\frac{\mathbb{C} PSL_2(\mathbb{Z})}{\mathfrak{m}^n} $</p>
+<p>where $\mathfrak{m} $ is the kernel of the epimorphism $\pi $ sending the two free generators of the modular group $PSL_2(\mathbb{Z}) = C_2 \ast C_3 $ to the permutations g and h determined by the dessin of the pentagonal tiling of the Monster&#8217;s empire.</p>
+<p>As it is a hopeless task to determine the Monster-empire explicitly, it seems even more hopeless to determine the kernel $\mathfrak{m} $ let alone the completed algebra&#8230; But, (surprise) we can compute $\widehat{\mathbb{C} PSL_2(\mathbb{Z})}_{\mathfrak{m}} $ as explicitly as in the commutative case we have $\hat{\mathcal{O}}_{X,P} \simeq \mathbb{C}[[ x_1,x_2,\ldots,x_d ]] $ for a point P on a manifold X.</p>
+<p>Here the details : the quotient $\mathfrak{m}/\mathfrak{m}^2 $ has a natural structure of $\mathbb{C} \mathbb{M} $-bimodule. The group-algebra of the monster is a semi-simple algebra, that is, a direct sum of full matrix-algebras of sizes corresponding to the dimensions of the irreducible monster-representations. That is,</p>
+<p>$\mathbb{C} \mathbb{M} \simeq \mathbb{C} \oplus M_{196883}(\mathbb{C}) \oplus M_{21296876}(\mathbb{C}) \oplus \ldots \ldots \oplus M_{258823477531055064045234375}(\mathbb{C}) $</p>
+<p>with exactly 194 components (the number of irreducible Monster-representations). For any $\mathbb{C} \mathbb{M} $-bimodule $M $ one can form the tensor-algebra</p>
+<p>$T_{\mathbb{C} \mathbb{M}}(M) = \mathbb{C} \mathbb{M} \oplus M \oplus (M \otimes_{\mathbb{C} \mathbb{M}} M) \oplus (M \otimes_{\mathbb{C} \mathbb{M}} M \otimes_{\mathbb{C} \mathbb{M}} M) \oplus \ldots \ldots $</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cuntz.jpg"><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/Quillen.jpg"><br />
+</center></p>
+<p>and applying the formal neighborhood theorem for formally smooth algebras (such as $\mathbb{C} PSL_2(\mathbb{Z}) $) due to <a href="http://wwwmath.uni-muenster.de/u/cuntz/cuntz.html">Joachim Cuntz</a> (left) and <a href="http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Quillen.html">Daniel Quillen</a> (right) we have an isomorphism of algebras</p>
+<p>$\widehat{\mathbb{C} PSL_2(\mathbb{Z})}_{\mathfrak{m}} \simeq \widehat{T_{\mathbb{C} \mathbb{M}}(\mathfrak{m}/\mathfrak{m}^2)} $</p>
+<p>where the right-hand side is the completion of the tensor-algebra (at the unique graded maximal ideal) of the $\mathbb{C} \mathbb{M} $-bimodule $\mathfrak{m}/\mathfrak{m}^2 $, so we&#8217;d better describe this bimodule explicitly.</p>
+<p>Okay, so what&#8217;s a bimodule over a semisimple algebra of the form $S=M_{n_1}(\mathbb{C}) \oplus \ldots \oplus M_{n_k}(\mathbb{C}) $? Well,  a <strong>simple</strong> S-bimodule must be either (1) a factor $M_{n_i}(\mathbb{C}) $ with all other factors acting trivially or (2) the full space of rectangular matrices $M_{n_i \times n_j}(\mathbb{C}) $ with the factor $M_{n_i}(\mathbb{C}) $ acting on the left, $M_{n_j}(\mathbb{C}) $ acting on the right and all other factors acting trivially.</p>
+<p>That is, any S-bimodule can be represented by a quiver (that is a directed graph) on k vertices (the number of matrix components) with a loop in vertex i corresponding to each simple factor of type (1) and a directed arrow from i to j corresponding to every simple factor of type (2).</p>
+<p>That is, for the Monster, the bimodule $\mathfrak{m}/\mathfrak{m}^2 $ is represented by a quiver on 194 vertices and now we only have to determine how many loops and arrows there are at or between vertices.</p>
+<p>Using Morita equivalences and standard representation theory of quivers it isn&#8217;t exactly rocket science to determine that the number of arrows between the vertices corresponding to the irreducible Monster-representations $S_i $ and $S_j $ is equal to</p>
+<p>$dim_{\mathbb{C}}~Ext^1_{\mathbb{C} PSL_2(\mathbb{Z})}(S_i,S_j)-\delta_{ij} $</p>
+<p>Now, I&#8217;ve been wasting a lot of time already here explaining what representations of the modular group have to do with quivers (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/why-nag-2.html">here</a> or some other posts in the same series) and for quiver-representations we all know how to compute Ext-dimensions in terms of the Euler-form applied to the dimension vectors.</p>
+<p>Right, so for every Monster-irreducible $S_i $ we have to determine the corresponding dimension-vector $~(a_1,a_2;b_1,b_2,b_3) $ for the quiver</p>
+<p>$\xymatrix{ &amp; &amp; &amp; &amp;<br />
+\vtx{b_1} \\ \vtx{a_1} \ar[rrrru]^(.3){B_{11}} \ar[rrrrd]^(.3){B_{21}}<br />
+\ar[rrrrddd]_(.2){B_{31}} &amp; &amp; &amp; &amp; \\ &amp; &amp; &amp; &amp; \vtx{b_2} \\ \vtx{a_2}<br />
+\ar[rrrruuu]_(.7){B_{12}} \ar[rrrru]_(.7){B_{22}}<br />
+\ar[rrrrd]_(.7){B_{23}} &amp; &amp; &amp; &amp; \\ &amp; &amp; &amp; &amp; \vtx{b_3}} $</p>
+<p>Now the dimensions $a_i $ are the dimensions of the +/-1 eigenspaces for the order 2 element g in the representation and the $b_i $ are the dimensions of the eigenspaces for the order 3 element h. So, we have to determine to which conjugacy classes g and h belong, and from Wilson&#8217;s paper mentioned above these are classes 2B and 3B in standard <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M/">Atlas notation</a>.</p>
+<p>So, for each of the 194 irreducible Monster-representations we look up the character values at 2B and 3B (see below for the first batch of those) and these together with the dimensions determine the dimension vector $~(a_1,a_2;b_1,b_2,b_3) $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/seemonsterchars.jpg"></p>
+<p>For example take the 196883-dimensional irreducible. Its 2B-character is 275 and the 3B-character is 53. So we are looking for a dimension vector such that $a_1+a_2=196883, a_1-275=a_2 $ and $b_1+b_2+b_3=196883, b_1-53=b_2=b_3 $ giving us for that representation the dimension vector of the quiver above $~(98579,98304,65663,65610,65610) $.</p>
+<p>Okay, so for each of the 194 irreducibles $S_i $ we have determined a dimension vector $~(a_1(i),a_2(i);b_1(i),b_2(i),b_3(i)) $, then standard quiver-representation theory asserts that the number of loops in the vertex corresponding to $S_i $ is equal to</p>
+<p>$dim(S_i)^2 + 1 &#8211; a_1(i)^2-a_2(i)^2-b_1(i)^2-b_2(i)^2-b_3(i)^2 $</p>
+<p>and that the number of arrows from vertex $S_i $ to vertex $S_j $ is equal to</p>
+<p>$dim(S_i)dim(S_j) &#8211; a_1(i)a_1(j)-a_2(i)a_2(j)-b_1(i)b_1(j)-b_2(i)b_2(j)-b_3(i)b_3(j) $</p>
+<p>This data then determines completely the $\mathbb{C} \mathbb{M} $-bimodule $\mathfrak{m}/\mathfrak{m}^2 $ and hence the structure of the completion $\widehat{\mathbb{C} PSL_2}_{\mathfrak{m}} $ containing all information the Monster can gain from the modular group.</p>
+<p>But then, one doesn&#8217;t have to go for the full regular representation of the Monster. Any faithful permutation representation will do, so we might as well go for the one of minimal dimension.</p>
+<p>That one is known to correspond to the largest maximal subgroup of the Monster which is known to be a two-fold extension $2.\mathbb{B} $ of the <a href="http://en.wikipedia.org/wiki/Baby_Monster_group">Baby-Monster</a>. The corresponding permutation representation is of dimension 97239461142009186000 and decomposes into Monster-irreducibles</p>
+<p>$S_1 \oplus S_2 \oplus S_4 \oplus S_5 \oplus S_9 \oplus S_{14} \oplus S_{21} \oplus S_{34} \oplus S_{35} $</p>
+<p>(in standard Atlas-ordering) and hence repeating the arguments above we get a quiver on just 9 vertices! The actual numbers of loops and arrows (I forgot to mention this, but the quivers obtained are actually symmetric) obtained were found after laborious computations mentioned in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monstrous-frustrations.html">this post</a> and the details I&#8217;ll make avalable <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/monsterquiver2.html">here</a>.</p>
+<p>Anyone who can spot a relation between the numbers obtained and any other part of mathematics will obtain quantities of genuine (ie. non-Inbev) Belgian beer&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-does-the-monster-see/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Quiver-superpotentials</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 14 Jan 2008 12:47:27 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/quiver-superpotentials.html</guid>
+
+					<description><![CDATA[It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by the conjugacy class of a cofinite subgroup $\Lambda \subset \Gamma $, or equivalently, to a dessin d&#8217;enfant. We have introduced a <strong>quiver</strong> (aka an oriented graph) which comes from a triangulation of the compactification of $\mathbb{H} / \Lambda $ where $\mathbb{H} $ is the hyperbolic upper half-plane. This quiver is independent of the chosen embedding of the dessin in the Dedeking tessellation. (For more on these terms and constructions, please consult the series <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-dedekind-tessellation.html">Modular subgroups</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monsieur-mathieu.html">Dessins d&#8217;enfants</a>).</p>
+<p>Why are quivers useful? To start, any quiver $Q $ defines a noncommutative algebra, the <strong>path algebra</strong> $\mathbb{C} Q $, which has as a $\mathbb{C} $-basis all oriented paths in the quiver and multiplication is induced by concatenation of paths (when possible, or zero otherwise). Usually, it is quite hard to make actual computations in noncommutative algebras, but in the case of path algebras you can just <strong>see</strong> what happens.</p>
+<p>Moreover, we can also <strong>see</strong> the finite dimensional representations of this algebra $\mathbb{C} Q $. Up to isomorphism they are all of the following form : at each vertex $v_i $ of the quiver one places a finite dimensional vectorspace $\mathbb{C}^{d_i} $ and any arrow in the quiver<br />
+[tex]\xymatrix{\vtx{v_i} \ar[r]^a &amp; \vtx{v_j}}[/tex] determines a linear map between these vertex spaces, that is, to $a $ corresponds a matrix in $M_{d_j \times d_i}(\mathbb{C}) $. These matrices determine how the paths of length one act on the representation, longer paths act via multiplcation of matrices along the oriented path.</p>
+<p>A <strong>necklace</strong> in the quiver is a closed oriented path in the quiver <strong>up to cyclic permutation</strong> of the arrows making up the cycle. That is, we are free to choose the start (and end) point of the cycle. For example, in the one-cycle quiver</p>
+<p>[tex]\xymatrix{\vtx{} \ar[rr]^a &amp; &amp; \vtx{} \ar[ld]^b \\ &amp; \vtx{} \ar[lu]^c &amp;}[/tex]</p>
+<p>the basic necklace can be represented as $abc $ or $bca $ or $cab $. How does a necklace act on a representation? Well, the matrix-multiplication of the matrices corresponding to the arrows gives a square matrix in each of the vertices in the cycle. Though the dimensions of this matrix may vary from vertex to vertex, what does not change (and hence is a property of the necklace rather than of the particular choice of cycle) is the <strong>trace</strong> of this matrix. That is, necklaces give complex-valued functions on representations of $\mathbb{C} Q $ and by a result of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/m-geometry-3.html">Artin and Procesi</a> there are enough of them to distinguish isoclasses of (semi)simple representations! That is, linear combinations a necklaces (aka <strong>super-potentials</strong>) can be viewed, after taking traces, as complex-valued functions on all representations (similar to character-functions).</p>
+<p>In physics, one views these functions as potentials and it then interested in the points (representations) where this function is extremal (minimal) : the <strong>vacua</strong>. Clearly, this does not make much sense in the complex-case but is relevant when we look at the real-case (where we look at skew-Hermitian matrices rather than all matrices). A motivating example (the <strong>Yang-Mills potential</strong>) is given in Example 2.3.2 of Victor Ginzburg&#8217;s paper <a href="http://arxiv.org/abs/math/0612139">Calabi-Yau algebras</a>.</p>
+<p>Let $\Phi $ be a super-potential (again, a linear combination of necklaces) then our commutative intuition tells us that extrema correspond to zeroes of all partial differentials $\frac{\partial \Phi}{\partial a} $ where $a $ runs over all coordinates (in our case, the arrows of the quiver). One can make sense of differentials of necklaces (and super-potentials) as follows : the partial differential with respect to an arrow $a $ occurring in a term of $\Phi $ is defined to be the <strong>path</strong> in the quiver one obtains by removing all 1-occurrences of $a $ in the necklaces (defining $\Phi $) and rearranging terms to get a maximal broken necklace (using the cyclic property of necklaces). An example, for the cyclic quiver above let us take as super-potential $abcabc $ (2 cyclic turns), then for example</p>
+<p>$\frac{\partial \Phi}{\partial b} = cabca+cabca = 2 cabca $</p>
+<p>(the first term corresponds to the first occurrence of $b $, the second to the second). Okay, but then the vacua-representations will be the representations of the quotient-algebra (which I like to call the <strong>vacualgebra</strong>)</p>
+<p>$\mathcal{U}(Q,\Phi) = \frac{\mathbb{C} Q}{(\partial \Phi/\partial a, \forall a)} $</p>
+<p>which in &#8216;physical relevant settings&#8217; (whatever that means&#8230;) turn out to be <strong>Calabi-Yau algebras</strong>.</p>
+<p>But, let us return to the case of subgroups of the modular group and their quivers. Do we have a natural <strong>super-potential</strong> in this case? Well yes, the quiver encoded a triangulation of the compactification of $\mathbb{H}/\Lambda $ and if we choose an orientation it turns out that all &#8216;black&#8217; triangles (with respect to the Dedekind tessellation) have their arrow-sides defining a necklace, whereas for the &#8216;white&#8217; triangles the <strong>reverse</strong> orientation makes the arrow-sides into a necklace. Hence, it makes sense to look at the <strong>cubic</strong> superpotential $\Phi $ being the sum over all triangle-sides-necklaces with a +1-coefficient for the black triangles and a -1-coefficient for the white ones. Let&#8217;s consider an index three example from a previous post</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver3.jpg" style="float:left;margin-right:10px;" ><br />
+[tex]\xymatrix{&amp; &amp; \rho \ar[lld]_d \ar[ld]^f \ar[rd]^e &amp; \\<br />
+i \ar[rrd]_a &amp; i+1 \ar[rd]^b &amp; &amp; \omega \ar[ld]^c \\<br />
+&amp; &amp; 0 \ar[uu]^h \ar@/^/[uu]^g \ar@/_/[uu]_i &amp;}[/tex]</p>
+<p>In this case the super-potential coming from the triangulation is</p>
+<p>$\Phi = -aid+agd-cge+che-bhf+bif $</p>
+<p>and therefore we have a noncommutative algebra $\mathcal{U}(Q,\Phi) $ associated to this index 3 subgroup. Contrary to what I believed at the start of this series, the algebras one obtains in this way from dessins d&#8217;enfants are <strong>far from being Calabi-Yau</strong> (in whatever definition). For example, using a GAP-program written by <a href="http://www.win.ua.ac.be/~rbockl/research/">Raf Bocklandt</a> Ive checked that the growth rate of the above algebra is similar to that of $\mathbb{C}[x] $, so in this case $\mathcal{U}(Q,\Phi) $ can be viewed as a noncommutative curve (with singularities).</p>
+<p>However, this is not the case for all such algebras. For example, the vacualgebra associated to the second index three subgroup (whose fundamental domain and quiver were depicted at the end of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-modular-group-and-superpotentials-2.html">this post</a>) has growth rate similar to that of $\mathbb{C} \langle x,y \rangle $&#8230;</p>
+<p>I have an outlandish conjecture about the growth-behavior of all algebras $\mathcal{U}(Q,\Phi) $ coming from dessins d&#8217;enfants : <strong>the algebra sees what the monodromy representation of the dessin sees of the modular group (or of the third braid group)</strong>.<br />
+I can make this more precise, but perhaps it is wiser to calculate one or two further examples&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>quivers versus quilts</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quivers-versus-quilts/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quivers-versus-quilts/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 02 Jan 2008 12:33:08 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=209</guid>
+
+					<description><![CDATA[We have associated to a subgroup of the modular group $PSL_2(\mathbb{Z}) $ a quiver (that is, an oriented graph). For example, one verifies that the&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver4.jpg" style="float:right;margin-left:10px;" > We have <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=115">associated</a> to a subgroup of the modular group $PSL_2(\mathbb{Z}) $ a <strong>quiver</strong> (that is, an oriented graph). For example, one verifies that the fundamental domain of the subgroup $\Gamma_0(2) $ (an index 3 subgroup) is depicted on the right by the region between the thick lines with the identification of edges as indicated. The associated quiver is then</p>
+<p>\[<br />
+\xymatrix{i \ar[rr]^a \ar[dd]^b &amp; &amp; 1 \ar@/^/[ld]^h \ar@/_/[ld]_i \\<br />
+&amp; \rho \ar@/^/[lu]^d \ar@/_/[lu]_e \ar[rd]^f &amp; \\<br />
+0 \ar[ru]^g &amp; &amp; i+1 \ar[uu]^c}<br />
+\]</p>
+<p>The corresponding &#8220;dessin d&#8217;enfant&#8221; are the green edges in the picture. But, the red dot on the left boundary is identied with the red dot on the lower circular boundary, so the dessin of the modular subgroup $\Gamma_0(2) $ is</p>
+<p>\[<br />
+\xymatrix{| \ar@{-}[r] &amp; \bullet \ar@{-}@/^8ex/[r] \ar@{-}@/_8ex/[r] &amp; -}<br />
+\]</p>
+<p>Here, the three red dots (all of them even points in the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=18">Dedekind tessellation</a>) give (after the identification) the two points indicated by a $\mid $ whereas the blue dot (an odd point in the tessellation) is depicted by a $\bullet $. There is another &#8216;quiver-like&#8217; picture associated to this dessin, a <strong>quilt</strong> of the modular subgroup $\Gamma_0(2) $ as studied by <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> and <a href="http://www.math.sjsu.edu/~hsu/">Tim Hsu</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quilt1.jpg" style="float:left;margin-right:10px;" > On the left, a quilt-diagram copied from Hsu&#8217;s book <a href="http://www.amazon.com/exec/obidos/ASIN/3540673970">Quilts : central extensions, braid actions, and finite groups</a>, exercise 3.3.9. This &#8216;quiver&#8217; has also 5 vertices and 7 arrows as our quiver above, so is there a connection?</p>
+<p>A <strong>quilt</strong> is a gadget to study transitive permutation representations of the <strong>braid group</strong> $B_3 $ (rather than its quotient, the modular group $PSL_2(\mathbb{Z}) = B_3/\langle Z \rangle $ where $\langle Z \rangle $ is the cyclic center of $B_3 $. The $Z $-stabilizer subgroup of all elements in a transitive permutation representation of $B_3 $ is the same and hence of the form $\langle Z^M \rangle $ where M is called the <strong>modulus</strong> of the representation. The <strong>arrow-data</strong> of a quilt, that is the direction of certain edges and their labeling with numbers from $\mathbb{Z}/M \mathbb{Z} $ (which have to satisfy some requirements, the <strong>flow rules</strong>, but more about that another time) encode the Z-action on the permutation representation. The dimension of the representation is $M \times k $ where $k $ is the number of half-edges in the dessin. In the above example, the modulus is 5 and the dessin has 3 (half)edges, so it depicts a 15-dimensional permutation representation of $B_3 $.</p>
+<p>If we forget the Z-action (that is, the arrow information), we get a permutation representation of the modular group (that is a dessin). So, if we delete the labels and directions on the edges we get what Hsu calls a <strong>modular quilt</strong>, that is, a picture consisting of thick edges (the dessin) together with dotted edges which are called the <strong>seams</strong> of the modular quilt. The modular quilt is merely another way to depict a fundamental domain of the corresponding subgroup of the modular group. For the above example, we have the indicated correspondences between the fundamental domain of $\Gamma_0(2) $ in the upper half-plane (on the left) and as a modular quilt (on the right)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver4.jpg"  >  <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quilt2.jpg"  ></p>
+<p>That is, we can also get our quiver (or its opposite quiver) from the modular quilt by fixing the orientation of one 2-cell. For example, if we fix the orientation of the 2-cell $\vec{fch} $ we get our quiver back from the modular quilt</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quilt2.jpg" style="float:left;margin-right:10px;" ><br />
+\[<br />
+\xymatrix{i \ar[rr]^a \ar[dd]^b &amp; &amp; 1 \ar@/^/[ld]^h \ar@/_/[ld]_i \\<br />
+&amp; \rho \ar@/^/[lu]^d \ar@/_/[lu]_e \ar[rd]^f &amp; \\<br />
+0 \ar[ru]^g &amp; &amp; i+1 \ar[uu]^c}<br />
+\]</p>
+<p />
+<p>This shows that the quiver (or its opposite) associated to a (conjugacy class of a) subgroup of $PSL_2(\mathbb{Z}) $ does not depend on the choice of embedding of the dessin (or associated <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=19">cuboid tree diagram</a>) in the upper half-plane. For, one can get the modular quilt from the dessin by adding one extra vertex for every connected component of the complement of the dessin (in the example, the two vertices corresponding to 0 and 1) and drawing a triangulation from them (the dotted lines or &#8216;seams&#8217;).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quivers-versus-quilts/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the modular group and superpotentials (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-modular-group-and-superpotentials-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-modular-group-and-superpotentials-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 28 Dec 2007 14:10:52 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=115</guid>
+
+					<description><![CDATA[Last time we have that that one can represent (the conjugacy class of) a finite index subgroup of the modular group $\Gamma = PSL_2(\mathbb{Z}) $&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=63">Last time</a> we have that that one can represent (the conjugacy class of) a finite index subgroup of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ by a <strong>Farey symbol</strong> or by a <strong>dessin</strong> or by its <strong>fundamental domain</strong>. Today we will associate a <strong>quiver</strong> to it.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver1.jpg" style="float:left;margin-right:10px;" > For example, the modular group itself is represented by the Farey symbol<br />
+[tex]\xymatrix{\infty \ar@{-}[r]_{\circ} &amp; 0 \ar@{-}[r]_{\bullet} &amp; \infty}[/tex] or by its dessin (the green circle-edge) or by its fundamental domain which is the region of the upper halfplane bounded by the red and blue vertical boundaries. Both the red and blue boundary consist of TWO edges which are identified with each other and are therefore called a and b. These edges carry a natural orientation given by circling counter-clockwise along the boundary of the marked triangle (or clockwise along the boundary of the upper unmarked triangle having $\infty $ as its third vertex). That is the edge a is oriented from $i $ to $0 $ (or from $i $ to $\infty $) and the edge b is oriented from $0 $ to $\rho $ (or from $\infty $ to $\rho $) and the green edge c (which is an inner edge so carries no identifications) from $\rho $ to $i $. That is, the fundamental region consists of two triangles, glued together along their boundary which is the oriented cycle $\vec{abc} $ consistent with the fact that the compactification of $\mathcal{H}/\Gamma $ is the 2-sphere $S^2 = \mathbb{P}^1_{\mathbb{C}} $. Under this identification the triangle-boundary  abc can be seen to circle the equator whereas the top triangle gives the upper half sphere and the lower triangle the lower half sphere. Emphasizing the orientation we can depict the triangle-boundary as the <strong>quiver</strong></p>
+<p>[tex]\xymatrix{i \ar[rd]_a &amp; &amp; \rho \ar[ll]_c \\ &amp; 0 \ar[ru]_b}[/tex]</p>
+<p>embedded in the 2-sphere. Note that <strong>quiver</strong> is just a fancy name for an oriented graph&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver2.jpg" style="float:left;margin-right:10px;" > Okay, let&#8217;s look at the next case, that of the unique index 2 subgroup $\Gamma_2 $ represented by the Farey symbol [tex]\xymatrix{\infty \ar@{-}[r]_{\bullet} &amp; 0 \ar@{-}[r]_{\bullet} &amp; \infty}[/tex] or the dessin (the two green edges) or by its fundamental domain consisting of the 4 triangles where again the left and right vertical boundaries are to be identified in parts.</p>
+<p>That is we have 6 edges on the 2-sphere $\mathcal{H}/\Gamma_2 = S^2 $ all of them oriented by the above rule. So, for example the lower-right triangle is oriented as $\vec{cfb} $. To see how this oriented graph (the quiver) is embedded in $S^2 $ view the big lower region (cdab) as the under hemisphere and the big upper region (abcd) as the upper hemisphere. So, the two green edges together with a and b are the equator and the remaining two yellow edges form the two parts of a bigcircle connecting the north and south pole. That is, the graph are the cut-lines if we cut the sphere in 4 equal parts. The corresponding quiver-picture is</p>
+<p>[tex]\xymatrix{&amp; i \ar@/^/[dd]^f \ar@/_/[dd]_e &amp; \\<br />
+\rho^2 \ar[ru]^d &amp; &amp; \rho \ar[lu]_c \\<br />
+&amp; 0 \ar[lu]^a \ar[ru]_b &amp;}[/tex]</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver3.jpg" style="float:left;margin-right:10px;"> As a mental check, verify that the index 3 subgroup determined by the Farey symbol [tex]\xymatrix{\infty \ar@{-}[r]_{\circ} &amp; 0 \ar@{-}[r]_{\circ} &amp; 1 \ar@{-}[r]_{\circ} &amp; \infty}[/tex] , whose fundamental domain with identifications is given on the left, has as its associated quiver picture</p>
+<p>[tex]\xymatrix{&amp; &amp; \rho \ar[lld]_d \ar[ld]^f \ar[rd]^e &amp; \\<br />
+i \ar[rrd]_a &amp; i+1 \ar[rd]^b &amp; &amp; \omega \ar[ld]^c \\<br />
+&amp; &amp; 0 \ar[uu]^h \ar@/^/[uu]^g \ar@/_/[uu]_i &amp;}[/tex]</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver4.jpg" style="float:right;margin-left:10px;" > whereas the index 3 subgroup determined by the Farey symbol [tex]\xymatrix{\infty \ar@{-}[r]_{1} &amp; 0 \ar@{-}[r]_{1} &amp; 1 \ar@{-}[r]_{\circ} &amp; \infty}[/tex], whose fundamental domain with identifications is depicted on the right, has as its associated quiver</p>
+<p>[tex]\xymatrix{i \ar[rr]^a \ar[dd]^b &amp; &amp; 1 \ar@/^/[ld]^h \ar@/_/[ld]_i \\<br />
+&amp; \rho \ar@/^/[lu]^d \ar@/_/[lu]_e \ar[rd]^f &amp; \\<br />
+0 \ar[ru]^g &amp; &amp; i+1 \ar[uu]^c}[/tex]</p>
+<p>Next time, we will use these quivers to define superpotentials&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-modular-group-and-superpotentials-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Superpotentials and Calabi-Yaus</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/superpotentials-and-calabi-yaus/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/superpotentials-and-calabi-yaus/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 22 Dec 2007 15:19:44 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=61</guid>
+
+					<description><![CDATA[Yesterday, Jan Stienstra gave a talk at theARTS entitled &#8220;Quivers, superpotentials and Dimer Models&#8221;. He started off by telling that the talk was based on&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, <a href="http://www.math.uu.nl/people/stienstra/">Jan Stienstra</a> gave a talk at <a href="https://lievenlebruyn.github.io/neverendingbooks/ARTS">theARTS</a> entitled &#8220;Quivers, superpotentials and Dimer Models&#8221;. He started off by telling that the talk was based on a paper he put on the arXiv <a href="http://arxiv.org/abs/0711.0464">Hypergeometric Systems in two Variables, Quivers, Dimers and Dessins d&#8217;Enfants</a> but that he was not going to say a thing about dessins but would rather focuss on the connection with superpotentials instead&#8230;pleasing some members of the public, while driving others to utter despair.</p>
+<p>Anyway, it gave me the opportunity to figure out for myself what dessins might have to do with <strong>dimers</strong>, whathever these beasts are. Soon enough he put on a slide containing the definition of a dimer and from that moment on I was lost in my own thoughts&#8230; realizing that a <strong>dessin d&#8217;enfant had to be a dimer for the Dedekind tessellation of its associated Riemann surface!</strong><br />
+and a few minutes later I could slap myself on the head for not having thought of this before :</p>
+<blockquote><p>There is a natural way to associate to a Farey symbol (aka a permutation representation of the modular group) a quiver and a superpotential (aka a necklace) defining (conjecturally) a Calabi-Yau algebra! Moreover, different embeddings of the cuboid tree diagrams in the hyperbolic plane may (again conjecturally) give rise to all sorts of arty-farty fanshi-wanshi dualities&#8230;</p></blockquote>
+<p>I&#8217;ll give here the details of the simplest example I worked out during the talk and will come back to general procedure later, when I&#8217;ve done a reference check. I don&#8217;t claim any originality here and probably all of this is contained in Stienstra&#8217;s paper or in some physics-paper, so if you know of a reference, please leave a comment. Okay, remember the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=18">Dedekind tessellation</a> ?</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dedekind1877.gif" ></p>
+<p>So, all hyperbolic triangles we will encounter below are colored black or white. Now, take a <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=21">Farey symbol</a> and consider its associated <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=18">special polygon</a> in the hyperbolic plane. If we start with the Farey symbol</p>
+<p>[tex]\xymatrix{\infty \ar@{-}_{(1)}[r] &amp; 0 \ar@{-}_{\bullet}[r] &amp; 1 \ar@{-}_{(1)}[r] &amp; \infty} [/tex]</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dimer.jpg" style="float:left;margin-right:10px;"> we get the special polygonal region bounded by the thick edges, the vertical edges are identified as are the two bottom edges. Hence, this fundamental domain has 6 vertices (the 5 blue dots and the point at $i \infty $) and 8 hyperbolic triangles (4 colored black, indicated by a black dot, and 4 white ones).</p>
+<p>Right, now let us associate a <strong>quiver</strong> to this triangulation (which embeds the quiver in the corresponding Riemann surface). The vertices of the triangulation are also the vertices of the quiver (so in our case we are going for a quiver with 6 vertices). Every hyperbolic edge in the triangulation gives one arrow in the quiver between the corresponding vertices. The orientation of the arrow is determined by the color of a triangle of which it is an edge : if the triangle is black, we run around its edges counter-clockwise and if the triangle is white we run over its edges clockwise (that is, the orientation of the arrow is independent of the choice of triangles to determine it). In our example, there is one arrows directed from the vertex at $i $ to the vertex at $0 $, whether you use the black triangle on the left to determine the orientation or the white triangle on the right. If we do this for all edges in the triangulation we arrive at the quiver below</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dimerquiver.jpg" width=500 ></p>
+<p>where x,y and z are the three finite vertices on the $\frac{1}{2} $-axis from bottom to top and where I&#8217;ve used the physics-convention for double arrows, that is there are two F-arrows, two G-arrows and two H-arrows. Observe that the quiver is of <strong>Calabi-Yau type</strong> meaning that there are as much arrows coming into a vertex as there are arrows leaving the vertex.</p>
+<p>Now that we have our quiver we determine the <strong>superpotential</strong> as follows. Fix an orientation on the Riemann surface (for example counter-clockwise) and sum over all black triangles the product of the edge-arrows counterclockwise <strong>MINUS</strong> sum over all white triangles<br />
+the product of the edge arrows counterclockwise. So, in our example we have the cubic superpotential</p>
+<p>$IH&#8217;B+HAG+G&#8217;DF+FEC-BHI-H&#8217;G&#8217;A-GFD-CEF&#8217; $</p>
+<p>From this we get the associated noncommutative algebra, which is the quotient of the path algebra of the above quiver modulo the following &#8216;commutativity relations&#8217;</p>
+<p>$\begin{cases} GH &amp;=G&#8217;H&#8217; \\ IH&#8217; &amp;= IH \\ FE &amp;= F&#8217;E \\ F&#8217;G&#8217; &amp;= FG \\ CF &amp;= CF&#8217; \\ EC &amp;= GD \\ G&#8217;D &amp;= EC \\ HA &amp;= DF \\ DF&#8217; &amp;= H&#8217;A \\ AG &amp;= BI \\ BI &amp;= AG&#8217; \end{cases} $</p>
+<p>and <strong>morally</strong> this should be a Calabi-Yau algebra (( can someone who knows more about CYs verify this? )). This concludes the walk through of the procedure. Summarizing : <strong>to every Farey-symbol one associates a Calabi-Yau quiver and superpotential, possibly giving a Calabi-Yau algebra!</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/superpotentials-and-calabi-yaus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>M-geometry (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 15 Sep 2007 15:47:01 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=37</guid>
+
+					<description><![CDATA[Take an affine $\mathbb{C} $-algebra A (not necessarily commutative). We will assign to it a strange object called the tangent-quiver $\vec{t}~A $, compute it in&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Take an affine $\mathbb{C} $-algebra A (not necessarily commutative). We will assign to it a strange object called the <strong>tangent-quiver</strong> $\vec{t}~A $, compute it in a few examples and later show how it connects with existing theory and how it can be used. This series of posts can be seen as the promised notes of my talks at the <a href="https://lievenlebruyn.github.io/neverendingbooks/ARTS/?page_id=3">GAMAP-workshop</a> but in reverse order&#8230; If some of the LaTeX-pictures are not in the desired spots, please size and resize your browser-window and they will find their intended positions.</p>
+<p>A <strong>vertex</strong> $v $ of $\vec{t}~A $ corresponds to the isomorphism class of a finite dimensional <strong>simple</strong> A-representations $S_v $ and between any two such vertices, say $v $ and $w $, the number of directed <strong>arrows</strong> from $v $ to $w $ is given by the dimension of the Ext-space</p>
+<p>$dim_{\mathbb{C}}~Ext^1_A(S_v,S_w) $</p>
+<p>Recall that this Ext-space counts the equivalence classes of short exact sequences of A-representations</p>
+<p>[tex]\xymatrix{0 \ar[r] &amp; S_w \ar[r] &amp; V \ar[r] &amp; S_v \ar[r] &amp; 0}[/tex]</p>
+<p>where two such sequences (say with middle terms V resp. W) are equivalent if there is an A-isomorphism $V \rightarrow^{\phi} W $ making the diagram below commutative</p>
+<p>[tex]\xymatrix{0 \ar[r] &amp; S_w \ar[r] \ar[d]^{id_{S_w}} &amp; V \ar[r] \ar[d]^{\phi} &amp; S_v \ar[r] \ar[d]^{id_{S_v}} &amp; 0 \\\<br />
+0 \ar[r] &amp; S_w \ar[r] &amp; W \ar[r] &amp; S_v \ar[r] &amp; 0}[/tex]</p>
+<p>The Ext-space measures how many non-split extensions there are between the two simples and is always a finite dimensional vectorspace. So the <strong>tangent quiver</strong> $\vec{t}~A $ has the property that in all vertices there are at most finitely many loops and between any two vertices there are a finite number of directed arrows, but in principle a vertex may be the origin of arrows connecting it to infinitely many other vertices.</p>
+<p>Right, now let us at least motivate the terminology. Let $X $ be a (commutative) affine variety with coordinate ring $A = \mathbb{C}[X] $ then what is $\vec{t}~A $ in this case? To begin, as $\mathbb{C}[X] $ is commutative, all its finite dimensional simple representations are one-dimensional and there is one such for every <strong>point</strong> $x \in X $. Therefore, the vertices of $\vec{t}~A $ correspond to the points of the affine variety $X $. The simple A-representation $S_x $ corresponding to a point $x $ is just evaluating polynomials in $x $. Moreover, if $x \not= y $ then there are no non-split extensions between $S_x $ and $S_y $ (a commutative semi-local algebra splits as a direct sum of locals), therefore in $\vec{t}~A $ there can only be loops and no genuine arrows between different vertices. Finally, the number of loops in the vertex corresponding to the point $x $ can be computed using the fact that the self-extensions can be identified with the <strong>tangent space</strong> at $x $, that is</p>
+<p>$dim_{\mathbb{C}}~Ext^1_{\mathbb{C}[X]}(S_x,S_x) = dim_{\mathbb{C}}~T_x~X $</p>
+<p>That is, if $A=\mathbb{C}[X] $ is the coordinate ring of an affine variety $X $, then the quiver $\vec{t}~A $ is the set of points of $X $ having in each point $x $ as many loops as the dimension of the tangent space $T_x~X $. So, in this case, the quiver $\vec{t}~A $ contains all information about tangent spaces to the variety and that&#8217;s why we call it the <strong>tangent quiver</strong>.</p>
+<p>Let&#8217;s go into the noncommutative wilderness. A first, quite trivial, example is the <strong>group algebra</strong> $A = \mathbb{C} G $ of a finite group $G $, then the simple A-representations are just the irreducible G-representations and as the group algebra is <strong>semi-simple</strong> every short exact sequence splits so all Ext-spaces are zero. That is, in this case the tangent quiver $\vec{t}~A $ in just a finite set of vertices (as many as there are irreducible G-representations) and no arrows nor loops.</p>
+<p>Now you may ask whether there are examples of tangent quivers having arrows apart from loops. So, take another easy finite dimensional example : the <strong>path algebra</strong> $A = \mathbb{C} Q $ of a finite quiver $Q $ <strong>without oriented cycles</strong>. Recall that the path algebra is the vectorspace having as basis all vertices and all oriented paths in the quiver Q (and as there are no cycles, this basis is finite) and multiplication is induced by concatenation of paths. Here an easy example. Suppose the quiver Q looks like</p>
+<p>[tex]\xymatrix{\vtx{} \ar[r] &amp; \vtx{} \ar[r] &amp; \vtx{}}[/tex]</p>
+<p>then the path algebra is 6 dimensional as there are 3 vertices, 2 paths of length one (the arrows) and one path of length two (going from the leftmost to the rightmost vertex). The concatenation rule shows that the three vertices will give three idempotents in A and one easily verifies that the path algebra can be identified with upper-triangular $3 \times 3 $ matrices</p>
+<p>$\mathbb{C} Q \simeq \begin{bmatrix} \mathbb{C} &amp; \mathbb{C} &amp; \mathbb{C} \\\ 0 &amp; \mathbb{C} &amp; \mathbb{C} \\\ 0 &amp; 0 &amp; \mathbb{C} \end{bmatrix} $</p>
+<p>where the diagonal components correspond to the vertices, the first offdiagonal components to the two arrows and the corner component corresponds to the unique path of length two. Right, for a general finite quiver without oriented cycles is the quite easy to see that all finite dimensional simples are one-dimensional and correspond to the vertex-idempotents, that is every simple is of the form $S_v = e_v \mathbb{C} Q e_v $ where $e_v $ is the vertex idempotent. No doubt, you can guess what the <strong>tangent quiver</strong> $\vec{t}~A = \vec{t}~\mathbb{C} Q $ will be, can&#8217;t you?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>down with determinants</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 18 May 2007 17:14:51 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=177</guid>
+
+					<description><![CDATA[The categorical cafe has a guest post by Tom Leinster Linear Algebra Done Right on the book with the same title by Sheldon Axler. I&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="http://golem.ph.utexas.edu/category/">categorical cafe</a> has a guest post by Tom Leinster <a href="http://golem.ph.utexas.edu/category/2007/05/linear_algebra_done_right.html">Linear Algebra Done Right</a> on the book with the same title by <a href="http://www.axler.net/LADR.html">Sheldon Axler</a>. I haven&#8217;t read the book but glanced through his online paper <a href="http://www.axler.net/DwD.html">Down with determinants!</a>. Here is &#8216;his&#8217; proof of the fact that any n by n matrix A has at least one eigenvector. Take a vector $v \in \mathbb{C}^n $, then as the collection of vectors ${ v,A.v,A^2.v,\ldots,A^n.v } $ must be linearly dependent, there are complex numbers $a&#95;i \in \mathbb{C} $ such that $~(a&#95;0 + a&#95;1 A + a&#95;2 A^2 + \ldots + a&#95;n A^n).v = \vec{0} \in \mathbb{C}^n $ But then as $\mathbb{C} $ is algebraically closed the polynomial on the left factors into linear factors $a&#95;0 + a&#95;1 x + a&#95;2 x^2 + \ldots + a&#95;n x^n = c (x-r&#95;1)(x-r&#95;2) \ldots (x-r&#95;n) $ and therefore as $c(A-r&#95;1I&#95;n)(A-r&#95;2I&#95;n) \ldots (A-r&#95;nI&#95;n).v = \vec{0} $ from which it follows that at least one of the linear transformations $A-r&#95;j I&#95;n $ has a non-trivial kernel, whence A has an eigenvector with eigenvalue $r_j $. Okay, fine, nice even, but does this simple minded observation warrant the extreme conclusion of his paper (on page 18) ?</p>
+<blockquote>
+<p>As mathematicians, we often read a nice new proof of a known theorem, enjoy the different approach, but continue to derive our internal understanding from the method we originally learned. This paper aims to change drastically the way mathematicians think about and teach crucial aspects of linear algebra.</p>
+<p>The simple proof of the existence of eigenvalues given in Theorem 2.1 should be the one imprinted in our minds, written on our blackboards, and published in our textbooks. Generalized eigenvectors should become a central tool for the understanding of linear operators. As we have seen, their use leads to natural definitions of multiplicity and the characteristic polynomial. Every mathematician and every linear algebra student should at least remember that the generalized eigenvectors of an operator always span the domain (Proposition 3.4)‚Äîthis crucial result leads to easy proofs of upper-triangular form (Theorem 6.2) and the Spectral Theorem (Theorems 7.5 and 8.3).</p>
+<p>Determinants appear in many proofs not discussed here. If you scrutinize such proofs, you‚Äôll often discover better alternatives without determinants. Down with Determinants!
+  </p></blockquote>
+<p>I welcome all new proofs of known results as they allow instructors to choose the one best suited to their students (and preferable giving more than one proof showing that there is no such thing as &#8216;the best way&#8217; to prove a mathematical result). What worries me is Axler&#8217;s attitude shared by extremists and dogmatics world-wide : they are so blinded by their own right that they impoverish their own lifes (and if they had their way, also that of others) by not willing to consider other alternatives. A few other comments :</p>
+<ol>
+<li>
+<p>I would be far more impressed if he had given a short argument for the one line he skates over in his proof, that of $\mathbb{C} $ being algebraically closed. Does anyone give a proof of this fact anymore or is this one of the few facts we expect first year students to accept on faith?</p>
+<ol>
+<li>
+<p>I dont understand this aversity to the determinant (probably because of its nonlinear character) but at the same time not having any problems with successive powers of matrices. Surely he knows that the determinant is a fixed $~\mathbb{Q}~ $-polynomial in the traces (which are linear!) of powers of the matrix.</p>
+</li>
+<li>
+<p>The essense of linear algebra is that by choosing a basis cleverly one can express a linear operator in a extremely nice matrix form (a canonical form) so that all computations become much more easy. This crucial idea of considering different bases and their basechange seems to be missing from Axler&#8217;s approach. Moreover, I would have thought that everyone would know these days that &#8216;linear algebra done right&#8217; is a well developed topic called &#8216;representation theory of quivers&#8217; but I realize this might be viewed as a dogmatic statement. Fortunately someone else is giving the basic linear algebra courses here in Antwerp so students are spared my private obsessions (at least the first few years&#8230;). In &#91;his post&#93;(http://golem.ph.utexas.edu/category/2007/05/ linear&#95;algebra&#95;done_right.html) Leistner askes &#8220;What are determinants good for?&#8221; I cannot resist mentioning a trivial observation I made last week when thinking once again about <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=318">THE rationality problem</a> and which may be well known to others. Recall from the previous post that rationality of the quotient variety of matrix-couples $~(A,B) \in M&#95;n(\mathbb{C}) \oplus M&#95;n(\mathbb{C}) / GL&#95;n $ under &#95;simultaneous conjugation_ is a very hard problem. On the other hand, the &#8216;near miss&#8217; problem of the quotient variety of matrix-couples $ { (A,B)~|~det(A)=0~} / GL&#95;n $ is completely trivial. It is rational for all n. Here is a one-line proof. Consider the quiver $\xymatrix{\vtx{} \ar@/^2ex/[rr] &amp; &amp; \vtx{} \ar@(ur,dr) \ar@/^2ex/[ll]} $ then the dimension vector (n-1,n) is a Schur root and the first fundamental theorem of $GL&#95;n $ (see for example Hanspeter Krafts excellent book on invariant theory) asserts that the corresponding quotient variety is the one above. The result then follows from Aidan Schofield&#8217;s paper <a href="http://www.arxiv.org/abs/math/9911014">Birational classification of moduli spaces of representations of quivers</a>. Btw. in this special case one does not have to use the full force of Aidan&#8217;s result. <a href="http://www.math.ubc.ca/~reichst/">Zinovy Reichstein</a>, who keeps me updated on events in <a href="http://www.mathcs.emory.edu/~skip/conf/Home.html">Atlanta</a>, emailed the following elegant short proof Here is an outline of a geometric proof. Let $X = {(A, B) : det(A) = 0} &#92;subset M&#95;n^2 $ and $Y = \mathbb{P}^{n-1} &#92;times M&#95;n $. Applying the no-name lemma to the $PGL&#95;n $-equivariant dominant rational map $~X \rightarrow Y $ given by $~(A, B) &#92;rightarrow (Ker(A), B) $ (which makes X into a vector bundle over a dense open $PGL&#95;n $-invariant subset of Y), we see that $X//PGL&#95;n $ is rational over $Y//PGL&#95;n $ On the other hand, $Y//PGLn = M&#95;n//PGL&#95;n $ is an affine space. Thus $X//PGL_n $ is rational. The moment I read this I knew how to do this quiver-wise and that it is just another Brauer-Severi type argument so completely inadequate to help settling the genuine matrix-problem. Update on the <a href="http://www.arxiv.org/abs/0704.3450">paper by Esther Beneish</a> : Esther did submit the paper in february.</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>recap and outlook</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/recap-and-outlook/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/recap-and-outlook/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 07 May 2007 08:08:40 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=297</guid>
+
+					<description><![CDATA[After a lengthy spring-break, let us continue with our course on noncommutative geometry and $SL_2(\mathbb{Z}) $-representations. Last time, we have explained Grothendiecks mantra that all&#8230;]]></description>
+										<content:encoded><![CDATA[<p>After a lengthy spring-break, let us continue with our course on noncommutative geometry and $SL_2(\mathbb{Z}) $-representations. Last time, we have explained Grothendiecks mantra that <strong>all algebraic curves defined over number fields are contained in the profinite compactification<br />
+$\widehat{SL&#95;2(\mathbb{Z})} = \underset{\leftarrow}{lim}~SL&#95;2(\mathbb{Z})/N $ of the modular group $SL_2(\mathbb{Z}) $ and in the knowledge of a certain subgroup G of its group of outer automorphisms</strong>. In particular we have seen that many curves defined over the algebraic numbers $\overline{\mathbb{Q}} $ correspond to permutation representations of $SL&#95;2(\mathbb{Z}) $. The profinite compactification $\widehat{SL&#95;2}=\widehat{SL_2(\mathbb{Z})} $ is a continuous group, so it makes sense to consider its <strong>continuous</strong> n-dimensional representations $\mathbf{rep}&#95;n^c~\widehat{SL&#95;2} $ Such representations are known to have a finite image in $GL&#95;n(\mathbb{C}) $ and therefore we get an embedding $\mathbf{rep}&#95;n^c~\widehat{SL&#95;2} \hookrightarrow \mathbf{rep}&#95;n^{ss}~SL&#95;n(\mathbb{C}) $ into all n-dimensional (semi-simple) representations of $SL&#95;2(\mathbb{Z}) $. We consider such semi-simple points as <strong>classical objects</strong> as they are determined by &#8211; curves defined over $\overline{Q} $ &#8211; representations of (sporadic) finite groups &#8211; modlart data of fusion rings in RCTF &#8211; etc&#8230; To get a feel for the distinction between these continuous representations of the cofinite completion and all representations, consider the case of $\hat{\mathbb{Z}} = \underset{\leftarrow}{lim}~\mathbb{Z}/n \mathbb{Z} $. Its one-dimensional continuous representations are determined by roots of unity, whereas all one-dimensional (necessarily simple) representations of $\mathbb{Z}=C&#95;{\infty} $ are determined by all elements of $\mathbb{C} $. Hence, the image of $\mathbf{rep}&#95;1^c~\hat{\mathbb{Z}} \hookrightarrow \mathbf{rep}&#95;1~C&#95;{\infty} $ is contained in the unit circle</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/unitcircle.jpg" alt="" /></p>
+<p>and though these points are very special there are enough of them (technically, they form a Zariski dense subset of all representations). Our aim will be twofold : (1) when viewing a classical object as a representation of $SL_2(\mathbb{Z}) $ we can define its <strong>modular content</strong> (which will be the noncommutative tangent space in this classical point to the noncommutative manifold of $SL&#95;2(\mathbb{Z}) $). In this way we will associate noncommutative gadgets to our classical object (such as orders in central simple algebras, infinite dimensional Lie algebras, noncommutative potentials etc. etc.) which give us new tools to study these objects. (2) conversely, as we control the tangentspaces in these special points, they will allow us to determine other $SL&#95;2(\mathbb{Z}) $-representations and as we vary over all classical objects, we hope to get ALL finite dimensional modular representations. I agree this may all sound rather vague, so let me give one example we will work out in full detail later on. <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=297">Remember</a> that one can reconstruct the sporadic simple Mathieu group $M_{24} $ from the dessin d&#8217;enfant</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/mathieuZvonkin.jpg" alt="" /></p>
+<dl>
+<dt>This</dt>
+<dt>dessin determines a 24-dimensional permutation representation (of</dt>
+<dt>$M&#95;{24} $ as well of $SL&#95;2(\mathbb{Z}) $) which</dt>
+<dt>decomposes as the direct sum of the trivial representation and a simple</dt>
+<dt>23-dimensional representation. We will see that the noncommutative</dt>
+<dt>tangent space in a semi-simple representation of</dt>
+<dt>$SL_2(\mathbb{Z}) $ is determined by a <strong>quiver</strong> (that is, an</dt>
+<dt>oriented graph) on as many vertices as there are non-isomorphic simple</dt>
+<dt>components. In this special case we get the quiver on two points</dt>
+<dt>$\xymatrix{\vtx{} \ar@/^2ex/[rr] &amp; &amp; \vtx{} \ar@/^2ex/[ll]</dt>
+<dt>\ar@{=>}@(ur,dr)^{96} } $ with just one arrow in each direction</dt>
+<dt>between the vertices and 96 loops in the second vertex. To the</dt>
+<dt>experienced tangent space-reader this picture (and in particular that</dt>
+<dt>there is a unique cycle between the two vertices) tells the remarkable</dt>
+<dt>fact that there is **a distinguished one-parameter family of</dt>
+<dt>24-dimensional simple modular representations degenerating to the</dt>
+<dt>permutation representation of the largest Mathieu-group**. Phrased</dt>
+<dt>differently, there is a specific noncommutative modular Riemann surface</dt>
+<dt>associated to $M_{24} $, which is a new object (at least as far</dt>
+<dt>as I&#8217;m aware) associated to this most remarkable of sporadic groups.</dt>
+<dt>Conversely, from the matrix-representation of the 24-dimensional</dt>
+<dt>permutation representation of $M_{24} $ we obtain representants</dt>
+<dt>of all of this one-parameter family of simple</dt>
+<dt>$SL_2(\mathbb{Z}) $-representations to which we can then perform</dt>
+<dt>noncommutative flow-tricks to get a Zariski dense set of all</dt>
+<dt>24-dimensional simples lying in the same component. (Btw. there are</dt>
+<dt>also such noncommutative Riemann surfaces associated to the other</dt>
+<dt>sporadic Mathieu groups, though not to the other sporadics&#8230;) So this</dt>
+<dt>is what we will be doing in the upcoming posts (10) : explain what a</dt>
+<dt>noncommutative tangent space is and what it has to do with quivers (11)</dt>
+<dd>what is the noncommutative manifold of $SL_2(\mathbb{Z}) $? and what is its connection with the Kontsevich-Soibelman coalgebra? (12)</dd>
+<dd>is there a noncommutative compactification of $SL_2(\mathbb{Z}) $? (and other arithmetical groups) (13) : how does one calculate the noncommutative curves associated to the Mathieu groups? (14) : whatever comes next&#8230; (if anything).</dd>
+</dl>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/recap-and-outlook/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>master class 2007</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/master-class-2007/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/master-class-2007/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 09 Feb 2007 08:46:38 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=229</guid>
+
+					<description><![CDATA[Next week our master programme on noncommutative geometry will start. Here is the list of all international mini-courses (8 hours each) and firm or tentative&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Next<br />
+week our <strong>master programme on noncommutative geometry</strong><br />
+will start. Here is the list of all international mini-courses (8 hours<br />
+each) and firm or tentative dates. For the latest update, it is always<br />
+best to check with the <a href="http://www.math.ua.ac.be/algebra/seminar.php">Arts seminar<br />
+website</a>.</p>
+</p>
+<ul>
+<li>
+<p><a href="http://www.mathematik.uni-muenchen.de/personen/hjschneider_en.php">Hans-Juergen Schneider</a> (Munich) &#8220;Hopf Galois extensions and<br />
+quotient theory of Hopf algebras&#8221;. February 20-23 each day from<br />
+10h30-12h30.  </p>
+</li>
+<li>
+<p><a href="http://wmaz1.math.uni-wuppertal.de/reineke/">Markus Reineke</a><br />
+(Wuppertal) &#8220;Representations of quivers&#8221;. February 27-28, March 1-2<br />
+each day from 10h30-12h30.  </p>
+</li>
+<li><a href="http://www.math.ua.ac.be/algebra/member.php?who=artur.ruuge"><br />
+Arthur Ruuge</a> (Moscow) &#8220;Semiclassical approximation of quantum<br />
+mechanics&#8221;. March 6-9 each day from 10h30-12h30.  </li>
+<li>Rupert Yu<br />
+(Poitiers) in March or April.  </li>
+<li>Isar Stubbe (Antwerp) in April.
+ </li>
+<li>Fred Van Oystayen (Antwerp) in April.  </li>
+<li>Raf<br />
+Bocklandt (Antwerp) in April or May.  </li>
+<li>Goro Kato (Los Angeles)<br />
+in May.  </li>
+<li>Florin Panaite (Bucharest) in May.  </li>
+<li>Pjotr<br />
+Hajac (Warsaw) in June.  </li>
+</ul>
+<p>Apart from these mini-courses<br />
+there will be four regular courses (approx. 30hrs each) during the whole<br />
+semester. </p>
+<ul>
+<li>Raf Bocklandt &#8220;Knot theory&#8221;.  </li>
+<li>Lieven Le Bruyn &#8220;Noncommutative geometry&#8221;.  </li>
+<li>Geert Van<br />
+de Weyer &#8220;Quantum groups&#8221;.  </li>
+<li>Fred Van Oysyaeyen<br />
+&#8220;Noncommutative algebra&#8221;.  </li>
+</ul>
+<p>&lt;</p>
+<p>p>Dates and places of all<br />
+lectures will be made available through the <a href="http://www.math.ua.ac.be/algebra/seminar.php">Arts seminar<br />
+site</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/master-class-2007/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

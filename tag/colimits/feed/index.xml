@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>colimits &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/colimits/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 07 Jan 2015 08:02:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Children have always loved colimits</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 07 Jan 2015 08:02:27 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[ChadOrzel]]></category>
+		<category><![CDATA[colimits]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[presheaves]]></category>
+		<category><![CDATA[sga4hipsters]]></category>
+		<category><![CDATA[Spivak]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=6152</guid>
+
+					<description><![CDATA[If Chad Orzel is able to teach quantum theory to his dog, surely it must be possible to explain schemes, stacks, toposes and motives to&#8230;]]></description>
+										<content:encoded><![CDATA[<p>If Chad Orzel is able <a href="http://www.amazon.co.uk/How-Teach-Quantum-Physics-Your/dp/1851687793" title="How to teach quantum theory to your dog" target="_blank" rel="noopener">to teach quantum theory to his dog</a>, surely it must be possible to explain schemes, stacks, toposes and motives to hipsters?</p>
+<p>Perhaps an idea for a series of posts?</p>
+<p>It&#8217;s early days yet. So far, I&#8217;ve only added the tag <a href="https://lievenlebruyn.github.io/neverendingbooks/tag/sga4hipsters" title="tagged sga4hipsters" target="_blank" rel="noopener">sga4hipsters</a> (pun intended) and googled around for &#8216;real-life&#8217; applications of sheaves, cohomology, and worse.</p>
+<p>Sooner or later one ends up at David Spivak&#8217;s <a href="http://math.mit.edu/~dspivak/" title="David Spivak MIT webpage">MIT-webpage</a>.</p>
+<p>David has written a book &#8220;category theory for scientists&#8221; and has several papers on applications of category theory to databases.</p>
+<p>There&#8217;s also this hilarious abstract, reproduced below, of a talk he gave in 2007 at <a href="https://math.berkeley.edu/~mcf/2007/" title="many cheerful facts" target="_blank" rel="noopener">many cheerful facts</a>.</p>
+<p>If this guy ever decides to write a novel, I&#8217;ll pre-order it on the spot.</p>
+<p><img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/colims.jpg" width=100% ></p>
+<p><strong>Presheaf, the cobbler.</strong><br />
+<strong><em>by David Spivak</em></strong></p>
+<p>Children have always loved colimits.</p>
+<p>Whether it be sorting their blocks according to color, gluing a pair of googly eyes and a pipe-cleaner onto a piece of yellow construction paper, or simply eating a peanut butter sandwich, colimits play a huge role in their lives.</p>
+<p>But what happens when their category doesn’t have enough colimits?</p>
+<p>In today’s ”ownership” society, what usually happens is that the parents upgrade their child’s category to a Presheaf category. Then the child can cobble together crazy constructions to his heart’s content.</p>
+<p>Sometimes, a kid comes up to you with an FM radio she built out of tinkertoys, and says<br />
+”look what I made! I call it ’182 transisters, 11 diodes, 6 plastic walls, 3 knobs,&#8230;’”</p>
+<p>They seem to go on about the damn thing forever.</p>
+<p>Luckily, Grothendieck put a stop to this madness.</p>
+<p>He used to say to them, ever so gently, ”I’m sorry, kid. I’m really proud of you for making this ’182 transistors’ thing, but I’m afraid it already has a name. It’s called a radio.</p>
+<p>And thus Grothendieck apologies were born.</p>
+<p>Two years later, Grothendieck topologies were born of the same concept.</p>
+<p>In this talk, I will teach you to build a radio (that really works!) using only a category of presheaves, and then I will tell you about the patent-police, known as Grothendieck topologies.</p>
+<p>God willing, I will get through SGA 4 and Lurie’s book on Higher Topos Theory.&#8221;</p>
+<p><strong>Further reading:</strong></p>
+<p>David Spivak&#8217;s book (old version, but freely available) <a href="http://math.mit.edu/~dspivak/CT4S.pdf" title="Category theory for scientists" target="_blank" rel="noopener">Category theory for scientists</a>.</p>
+<p>The published version, available from <a href="http://www.amazon.com/Category-Theory-Sciences-David-Spivak/dp/0262028131" target="_blank" rel="noopener">Amazon</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

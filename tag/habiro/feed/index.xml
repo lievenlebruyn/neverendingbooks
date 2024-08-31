@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Habiro &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/habiro/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 02 Feb 2018 09:13:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>From the Da Vinci code to Habiro</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-habiro/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-habiro/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 02 Feb 2018 09:13:06 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Brown]]></category>
+		<category><![CDATA[Habiro]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7973</guid>
+
+					<description><![CDATA[The Fibonacci sequence reappears a bit later in Dan Brown&#8217;s book &#8216;The Da Vinci Code&#8217; where it is used to login to the bank account&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The Fibonacci sequence reappears a bit later in Dan Brown&#8217;s book <a href="https://en.wikipedia.org/wiki/The_Da_Vinci_Code">&#8216;The Da Vinci Code&#8217;</a> where it is used to login to the bank account of Jacques Sauniere at the fictitious Parisian branch of the Depository Bank of Zurich.</p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x55ONOC6DS8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-galois">Last time</a> we saw that the Hankel matrix of the Fibonacci series $F=(1,1,2,3,5,\dots)$ is invertible over $\mathbb{Z}$<br />
+\[<br />
+H(F) = \begin{bmatrix} 1 &#038; 1 \\ 1 &#038; 2 \end{bmatrix} \in SL_2(\mathbb{Z}) \]<br />
+and we can use the rule for the co-multiplication $\Delta$ on $\Re(\mathbb{Q})$, the algebra of rational linear recursive sequences, to determine $\Delta(F)$.</p>
+<p>For a general integral linear recursive sequence the corresponding Hankel matrix is invertible over $\mathbb{Q}$, but rarely over $\mathbb{Z}$. So we need another approach to compute the co-multiplication on $\Re(\mathbb{Z})$.</p>
+<p>Any integral sequence $a = (a_0,a_1,a_2,\dots)$ can be seen as defining a $\mathbb{Z}$-linear map $\lambda_a$ from the integral polynomial ring $\mathbb{Z}[x]$ to $\mathbb{Z}$ itself via the rule $\lambda_a(x^n) = a_n$.</p>
+<p>If $a \in \Re(\mathbb{Z})$, then there is a monic polynomial with integral coefficients of a certain degree $n$</p>
+<p>\[<br />
+f(x) = x^n + b_1 x^{n-1} + b_2 x^{n-2} + \dots + b_{n-1} x + b_n \]</p>
+<p>such that for every integer $m$ we have that</p>
+<p>\[<br />
+a_{m+n} + b_1 a_{m+n-1} + b_2 a_{m+n-2} + \dots + b_{n-1} a_{m+1} + a_m = 0 \]</p>
+<p>Alternatively, we can look at $a$ as defining a $\mathbb{Z}$-linear map $\lambda_a$ from the quotient ring $\mathbb{Z}[x]/(f(x))$ to $\mathbb{Z}$.</p>
+<p>The multiplicative structure on $\mathbb{Z}[x]/(f(x))$ dualizes to a co-multiplication $\Delta_f$ on the set of all such linear maps $(\mathbb{Z}[x]/(f(x)))^{\ast}$ and we can compute $\Delta_f(a)$.</p>
+<p>We see that the set of all integral linear recursive sequences can be identified with the direct limit<br />
+\[<br />
+\Re(\mathbb{Z}) = \underset{\underset{f|g}{\rightarrow}}{lim}~(\frac{\mathbb{Z}[x]}{(f(x))})^{\ast} \]<br />
+(where the directed system is ordered via division of monic integral polynomials) and so is equipped with a co-multiplication $\Delta = \underset{\rightarrow}{lim}~\Delta_f$.</p>
+<p>Btw. the ring structure on $\Re(\mathbb{Z}) \subset (\mathbb{Z}[x])^{\ast}$ comes from restricting to $\Re(\mathbb{Z})$ the dual structures of the co-ring structure on $\mathbb{Z}[x]$ given by<br />
+\[<br />
+\Delta(x) = x \otimes x \quad \text{and} \quad \epsilon(x) = 1 \]</p>
+<p>From this description it is clear that you need to know a hell of a lot number theory to describe this co-multiplication explicitly.</p>
+<p>As most of us prefer to work with rings rather than co-rings it is a good idea to begin to study this co-multiplication $\Delta$ by looking at the dual ring structure of<br />
+\[<br />
+\Re(\mathbb{Z})^{\ast} = \underset{\underset{ f | g}{\leftarrow}}{lim}~\frac{\mathbb{Z}[x]}{(f(x))} \]<br />
+This is the completion of $\mathbb{Z}[x]$ at the multiplicative set of all monic integral polynomials.</p>
+<p>This is a horrible ring and very little is known about it. Some general remarks were proved by Kazuo Habiro in his paper <a href="https://arxiv.org/abs/math/0209324">Cyclotomic completions of polynomial rings</a>.</p>
+<p>In fact, Habiro got interested is a certain subring of $\Re(\mathbb{Z})^{\ast}$ which we now know as the <strong>Habiro ring</strong> and which seems to be a red herring is all stuff about the <a href="https://en.wikipedia.org/wiki/Field_with_one_element">field with one element</a>, $\mathbb{F}_1$ (more on this another time). Habiro&#8217;s ring is</p>
+<p>\[<br />
+\widehat{\mathbb{Z}[q]} = \underset{\underset{n|m}{\leftarrow}}{lim}~\frac{\mathbb{Z}[q]}{(q^n-1)} \]</p>
+<p>and its elements are all formal power series of the form<br />
+\[<br />
+a_0 + a_1 (q-1) + a_2 (q^2-1)(q-1) + \dots + a_n (q^n-1)(q^{n-1}-1) \dots (q-1) + \dots \]<br />
+with all coefficients $a_n \in \mathbb{Z}$.</p>
+<p>Here&#8217;s a funny property of such series. If you evaluate them at $q \in \mathbb{C}$ these series are likely to diverge almost everywhere, <strong>but</strong> they do converge in all roots of unity!</p>
+<p>Some people say that these functions are &#8216;leaking out of the roots of unity&#8217;.</p>
+<p>If the ring $\Re(\mathbb{Z})^{\ast}$ is controlled by the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q})$, then Habiro&#8217;s ring is controlled by the abelianzation $Gal(\overline{\mathbb{Q}}/\mathbb{Q})^{ab} \simeq \hat{\mathbb{Z}}^{\ast}$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-habiro/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

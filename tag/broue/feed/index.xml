@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Broue &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/broue/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 04 Jan 2022 19:42:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Huawei and French mathematics</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 19:42:59 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Broue]]></category>
+		<category><![CDATA[Cartier]]></category>
+		<category><![CDATA[Figalli]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[Lafforgue]]></category>
+		<category><![CDATA[Lions]]></category>
+		<category><![CDATA[Schapira]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9943</guid>
+
+					<description><![CDATA[Huawei, the Chinese telecom giant, appears to support (and divide) the French mathematical community. I was surprised to see that Laurent Lafforgue&#8217;s affiliation recently changed&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Huawei, the Chinese telecom giant, appears to support (and divide) the French mathematical community.</p>
+<p>I was surprised to see that <a href="https://en.wikipedia.org/wiki/Laurent_Lafforgue">Laurent Lafforgue&#8217;s</a> affiliation recently changed from &#8216;IHES&#8217; to &#8216;Huawei&#8217;, for example <a href="https://utge.lakecomoschool.org/">here</a> as one of the organisers of the Lake Como conference on &#8216;Unifying themes in geometry&#8217;.</p>
+<p>Judging from this short Huawei-clip (in French) he thoroughly enjoys his new position.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/EqrNLuN5Bfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Huawei <a href="https://inf.news/en/science/0b03792c7ee5879f723ea9ffaa608e60.html">claims</a> that &#8216;Three more winners of the highest mathematics award have now joined Huawei&#8217;:</p>
+<p>&#8211; <a href="https://en.wikipedia.org/wiki/Maxim_Kontsevich">Maxim Kontsevich</a>, (IHES) Fields medal 1998</p>
+<p>&#8211; <a href="https://en.wikipedia.org/wiki/Pierre-Louis_Lions">Pierre-Louis Lions</a> (College de France) Fields medal 1994</p>
+<p>&#8211; <a href="https://en.wikipedia.org/wiki/Alessio_Figalli">Alessio Figalli</a> (ETH) Fields medal 2018</p>
+<p>These news-stories seem to have been G-translated from the Chinese, resulting in misspellings and perhaps other inaccuracies. Maxim&#8217;s research field is described as &#8216;kink theory&#8217; (LoL).</p>
+<p>Apart from luring away Fields medallist, Huawei set up last year the brand new <a href="https://www.huawei.com/fr/news/fr/2020/centre-lagrange">Huawei Lagrange Research Center</a> in the posh 7th arrondissement de Paris. (This &#8216;Lagrange Center&#8217; is different from the <a href="http://ilp.upmc.fr/">Lagrange Institute in Paris</a> devoted to astronomy and physics.)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/LagrangeCenter.jpg" width=100% \><br />
+</center></p>
+<p>It aims to host about 30 researchers in mathematics and computer science, giving them the opportunity to live in the &#8216;unique eco-system of Paris, having the largest group of mathematicians in the world, as well as the best universities&#8217;.</p>
+<p>Last May, <a href="https://en.wikipedia.org/wiki/Michel_Brou%C3%A9">Michel Broué</a> authored an open letter to the French mathematical community <a href="https://blogs.mediapart.fr/michel-broue/blog/180521/dans-un-hotel-particulier-du-7eme-arrondissement-de-paris">Dans un hotel particulier du 7eme arrondissement de Paris</a> (in French). A G-translation of the final part of this open letter:</p>
+<p>&#8220;In the context of a very insufficient research and development effort in France, and bleak prospects for our young researchers, it is tempting to welcome the creation of the Lagrange center. We welcome the rise of Chinese mathematics to the highest level, and we are obviously in favour of scientific cooperation with our Chinese colleagues.</p>
+<p>But in view of the role played by Huawei in the repression in Xinjiang and potentially everywhere in China, we call on mathematicians and computer scientists already engaged to withdraw from this project. We ask all researchers not to participate in the activities of this center, as we ourselves are committed to doing.&#8221;</p>
+<p>Among the mathematicians signing the letter are <a href="https://en.wikipedia.org/wiki/Pierre_Cartier_(mathematician)">Pierre Cartier</a> and <a href="https://en.wikipedia.org/wiki/Pierre_Schapira_(mathematician)">Pierre Schapira</a>.</p>
+<p>To be continued.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

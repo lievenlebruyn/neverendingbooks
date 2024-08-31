@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Minhyong Kim &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/minhyong-kim/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 03 Dec 2017 09:53:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Arithmetic topology in Quanta</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/arithmetic-topology-in-quanta/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/arithmetic-topology-in-quanta/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2017 09:53:09 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[arithmetic topology]]></category>
+		<category><![CDATA[knots]]></category>
+		<category><![CDATA[Minhyong Kim]]></category>
+		<category><![CDATA[primes]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7374</guid>
+
+					<description><![CDATA[Consider subscribing to the feed of the mathematics section of Quantamagazine. The articles there are invariably of high quality and quite informative. Their latest is&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Consider subscribing to the feed of the <a href="https://www.quantamagazine.org/mathematics/">mathematics section of Quantamagazine</a>.</p>
+<p>The articles there are invariably of high quality and quite informative.</p>
+<p>Their latest is <a href="https://www.quantamagazine.org/secret-link-uncovered-between-pure-math-and-physics-20171201/">Secret Link Uncovered Between Pure Math and Physics</a> by Kevin Hartnett.</p>
+<p>It features the work by number-theorist <a href="https://www.maths.ox.ac.uk/people/minhyong.kim">Minhyong Kim</a> of Oxford University.</p>
+<p><center><br />
+<img decoding="async" src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2017/12/MHK_2K_01.jpg"><br />
+</center></p>
+<p>In it, Minhyong Kim comes out of the closet, revealing that many of his results on rational points of algebraic curves were inspired by analogies he sees between number theory and physics.</p>
+<p>So far he refrained from mentioning this inspiration in papers because “Number theorists are a pretty tough-minded group of people,” he said.</p>
+<p>Yesterday, Peter Woit had a post on this <a href="http://www.math.columbia.edu/~woit/wordpress/?p=9777">on his blog &#8216;Not Even Wrong&#8217;</a>, stuffed with interesting links to recent talks and papers by Minhyong Kim.</p>
+<p>Minhyong Kim&#8217;s ideas grew out the topic of <a href="https://ncatlab.org/nlab/show/arithmetic+topology">arithmetic topology</a>, that is, the analogy between number rings and $3$-dimensional compact manifolds and between their prime ideals and embedded knots.</p>
+<p>In this analogy, which is based on the similarity between finite connected covers of manifolds on the one hand and connected etale extensions of rings on the other, the prime spectrum of $\mathbb{Z}$ should correspond (due to Minkowski&#8217;s result on discriminants and Perelman&#8217;s proof of the Poincare-conjecture) to the $3$-sphere $S^3$.</p>
+<p>I&#8217;ve written more about this analogy here:</p>
+<p>&#8211; <a href="https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary">Mazur&#8217;s knotty dictionary</a>.</p>
+<p>&#8211; <a href="https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime">What is the knot associated to a prime?</a></p>
+<p>&#8211; <a href="https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy">Who dreamed up the knots=primes analogy?</a></p>
+<p>&#8211; <a href="https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy">The birthday of the primes=knots analogy</a>.</p>
+<p>And probably I&#8217;ll mention it later this month when I give a couple of talks at the <a href="https://thefunseminarsghent.wordpress.com/">$\mathbb{F}_1$-seminar in Ghent</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/arithmetic-topology-in-quanta/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

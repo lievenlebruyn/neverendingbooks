@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Brauer &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/brauer/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 22 Apr 2009 17:39:47 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>the monster graph and McKay’s observation</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2009 17:39:47 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1541</guid>
+
+					<description><![CDATA[While the verdict on a neolithic Scottish icosahedron is still open, let us recall Kostant&#8217;s group-theoretic construction of the icosahedron from its rotation-symmetry group $A_5&#8230;]]></description>
+										<content:encoded><![CDATA[<p>While the verdict on a neolithic Scottish icosahedron is <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-scottish-solids-hoax.html">still open</a>, let us <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-buckyball-symmetries.html">recall</a> Kostant&#8217;s group-theoretic construction of the icosahedron from its rotation-symmetry group $A_5 $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/KostantIcosahedronSmall.jpg" style="float:right;margin-left:10px;" hspace=10>The alternating group $A_5 $ has two conjugacy classes of order 5 elements, both consisting of exactly 12 elements. Fix one of these conjugacy classes, say $C $ and construct a graph with vertices the 12 elements of $C $ and an edge between two $u,v \in C $ if and only if the group-product $u.v \in C $ still belongs to the same conjugacy class.</p>
+<p>Observe that this relation is symmetric as from $u.v = w \in C $ it follows that $v.u=u^{-1}.u.v.u = u^{-1}.w.u \in C $. The graph obtained is the icosahedron, depicted on the right with vertices written as words in two adjacent elements u and v from $C $, as indicated.</p>
+<p>Kostant writes : &#8220;Normally it is not a common practice in group theory to consider whether or not the product of two elements in a conjugacy class is again an element in that conjugacy class. However such a consideration here turns out to be quite productive.&#8221;</p>
+<p>Still, similar constructions have been used in other groups as well, in particular in the study of the largest sporadic group, the <a href="http://en.wikipedia.org/wiki/Monster_group">monster group</a> $\mathbb{M} $.</p>
+<p>There is one important catch. Whereas it is quite trivial to multiply two permutations and verify whether the result is among 12 given ones, for most of us mortals it is impossible to do actual calculations in the monster. So, we&#8217;d better have an alternative way to get at the icosahedral graph using only $A_5 $-data that is also available for the monster group, such as its <a href="http://en.wikipedia.org/wiki/Character_table">character table</a>.</p>
+<p>Let $G $ be any finite group and consider three of its conjugacy classes $C(i),C(j) $ and $C(k) $. For any element $w \in C(k) $ we can compute from the character table of $G $ the number of different products $u.v = w $ such that $u \in C(i) $ and $v \in C(j) $. This number is given by the formula</p>
+<p>$\frac{|G|}{|C_G(g_i)||C_G(g_j)|} \sum_{\chi} \frac{\chi(g_i) \chi(g_j) \overline{\chi(g_k)}}{\chi(1)} $</p>
+<p>where the sum is taken over all irreducible characters $\chi $ and where $g_i \in C(i),g_j \in C(j) $ and $g_k \in C(k) $. Note also that $|C_G(g)| $ is the number of $G $-elements commuting with $g $ and that this number is the order of $G $ divided by the number of elements in the conjugacy class of $g $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/chartableA5.jpg" style="float:left;margin-right:10px;" hspace=10>The character table of $A_5 $ is given on the left : the five columns correspond to the different conjugacy classes of elements of order resp. 1,2,3,5 and 5 and the rows are the character functions of the 5 irreducible representations of dimensions 1,3,3,4 and 5.</p>
+<p>Let us fix the 4th conjugacy class, that is 5a, as our class $C $. By the general formula, for a fixed $w \in C $ the number of different products $u.v=w $ with $u,v \in C $ is equal to</p>
+<p>$\frac{60}{25}(\frac{1}{1} + \frac{(\frac{1+\sqrt{5}}{2})^3}{3} + \frac{(\frac{1-\sqrt{5}}{2})^3}{3} &#8211; \frac{1}{4} + \frac{0}{5}) = \frac{60}{25}(1 + \frac{4}{3} &#8211; \frac{1}{4}) = 5 $</p>
+<p>Because for each $x \in C $ also its inverse $x^{-1} \in C $, this can be rephrased by saying that there are exactly 5 different products $w^{-1}.u \in C $, or equivalently, that the valency of every vertex $w^{-1} \in C $ in the graph is exactly 5.</p>
+<p>That is, our graph has 12 vertices, each with exactly 5 neighbors, and with a bit of extra work one can show it to be the icosahedral graph.</p>
+<p>For the monster group, the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M/">Atlas</a> tells us that it has exactly 194 irreducible representations (and hence also 194 conjugacy classes). Of these conjugacy classes, the involutions (that is the elements of order 2) are of particular importance.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/BFischer.jpg" style="float:right;margin-left:10px;" hspace=10>There are exactly 2 conjugacy classes of involutions, usually denoted 2A and 2B. Involutions in class 2A are called &#8220;Fischer-involutions&#8221;, after <a href="http://en.wikipedia.org/wiki/Bernd_Fischer">Bernd Fischer</a>, because their centralizer subgroup is an extension of Fischer&#8217;s <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/B/">baby Monster sporadic group</a>.</p>
+<p>Likewise, involutions in class 2B are usually called &#8220;Conway-involutions&#8221; because their centralizer subgroup is an extension of the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co1/">largest Conway sporadic group</a>.</p>
+<p>Let us define the <strong>monster graph</strong> to be the graph having as its vertices the Fischer-involutions and with an edge between two of them $u,v \in 2A $ if and only if their product $u.v $ is again a Fischer-involution.</p>
+<p>Because the centralizer subgroup is $2.\mathbb{B} $, the number of vertices is equal to $97239461142009186000 = 2^4 * 3^7 * 5^3 * 7^4 * 11 * 13^2 * 29 * 41 * 59 * 71 $.</p>
+<p>From the general result recalled before we have that the valency in all vertices is equal and to determine it we have to use the character table of the monster and the formula. Fortunately <a href="http://www-gap.mcs.st-and.ac.uk/Manuals/doc/htm/ref/chapters.htm">GAP</a> provides the function <a href="http://www-gap.mcs.st-and.ac.uk/Manuals/doc/htm/ref/CHAP069.htm">ClassMultiplicationCoefficient</a> to do this without making errors.</p>
+<p><code><br />
+gap> table:=CharacterTable("M");<br />
+CharacterTable( "M" ) <br />
+gap> ClassMultiplicationCoefficient(table,2,2,2); <br />
+27143910000 <br />
+</code></p>
+<p>Perhaps noticeable is the fact that the prime decomposition of the valency $27143910000 = 2^4 * 3^4 * 5^4 * 23 * 31 * 47 $ is symmetric in the three smallest and three largest prime factors of the baby monster order.</p>
+<p>Robert Griess proved that one can recover the monster group $\mathbb{M} $ from the monster graph as its automorphism group!</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/JohnMcKay.jpg" style="float:left;margin-right:10px;" hspace=10>As in the case of the icosahedral graph, the number of vertices and their common valency does not determine the monster graph uniquely. To gain more insight, we would like to know more about the sizes of minimal circuits in the graph, the number of such minimal circuits going through a fixed vertex, and so on.</p>
+<p>Such an investigation quickly leads to a careful analysis which other elements can be obtained from products $u.v $ of two Fischer involutions $u,v \in 2A $. We are in for a major surprise, first observed by <a href="http://cjournal.concordia.ca/journalarchives/2006-07/apr_19/009196.shtml">John McKay</a>:</p>
+<p>Printing out the number of products of two Fischer-involutions giving an element in the i-th conjugacy class of the monster,<br />
+where i runs over all 194 possible classes, we get the following string of numbers :</p>
+<p><code><br />
+97239461142009186000, 27143910000, 196560, 920808, 0, 3, 1104, 4, 0, 0, 5, 0,<br />
+6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br />
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0<br />
+</code></p>
+<p>That is, the elements of only 9 conjugacy classes can be written as products of two Fischer-involutions! These classes are :</p>
+<ul>
+<li>1A = { 1 } written in 97239461142009186000 different ways (after all involutions have order two)  </li>
+<li>2A, each element of which can be written in exactly 27143910000 different ways (the valency)  </li>
+<li>2B, each element of which can be written in exactly 196560 different ways. Observe that this is the kissing number of the <a href="http://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> leading to a <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/2Co1G1-p196560B0">permutation representation</a> of $2.Co_1 $.  </li>
+<li>3A, each element of which can be written in exactly 920808 ways. Note that this number gives a <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/Mmax3G0-p920808B0">permutation representation</a> of the maximal monster subgroup $3.Fi_{24}&#8217; $.  </li>
+<li>3C, each element of which can be written in exactly 3 ways.  </li>
+<li>4A, each element of which can be written in exactly 1104 ways.  </li>
+<li>4B, each element of which can be written in exactly 4 ways.  </li>
+<li>5A, each element of which can be written in exactly 5 ways.  </li>
+<li>6A, each element of which can be written in exactly 6 ways.  </li>
+</ul>
+<p>Let us forget about the actual numbers for the moment and concentrate on the orders of these 9 conjugacy classes : 1,2,2,3,3,4,4,5,6. These are precisely the components of the fundamental root of the <a href="http://www-math.mit.edu/~lesha/dynkin-diagrams.html">extended Dynkin diagram</a> $\tilde{E_8} $!</p>
+<p>This is the content of <strong>John McKay&#8217;s E(8)-observation</strong> : there should be a precise relation between the nodes of the extended Dynkin diagram and these 9 conjugacy classes in such a way that the order of the class corresponds to the component of the fundamental root. More precisely, one conjectures the following correspondence</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/e8monster.jpg" ><br />
+</center></p>
+<p>This is similar to the classical <a href="http://math.ucr.edu/home/baez/ADE.html">McKay correspondence</a> between finite subgroups of $SU(2) $ and extended Dynkin diagrams (the binary icosahedral group corresponding to extended E(8)). In that correspondence, the nodes of the Dynkin diagram correspond to irreducible representations of the group and the edges are determined by the decompositions of tensor-products with the fundamental 2-dimensional representation.</p>
+<p>Here, however, the nodes have to correspond to conjugacy classes (rather than representations) and we have to look for another procedure to arrive at the required edges! An exciting proposal has been put forward recently by <a href="http://www.math.harvard.edu/~jfd/">John Duncan</a> in his paper <a href="http://arxiv.org/abs/0810.1465">Arithmetic groups and the affine E8 Dynkin diagram</a>.</p>
+<p>It will take us a couple of posts to get there, but for now, let&#8217;s give the gist of it : <a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a> gives a correspondence between conjugacy classes of the monster and certain arithmetic subgroups of $PSL_2(\mathbb{R}) $ commensurable with the modular group $\Gamma = PSL_2(\mathbb{Z}) $. The edges of the extended Dynkin E(8) diagram are then given by the configuration of the arithmetic groups corresponding to the indicated 9 conjugacy classes!  (to be continued&#8230;)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the future of this blog (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-future-of-this-blog-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-future-of-this-blog-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 14 Aug 2008 18:19:00 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=445</guid>
+
+					<description><![CDATA[is decided : I&#8217;ll keep maintaining this URL until new-year&#8217;s eve. At that time I&#8217;ll be blogging here for 5 years&#8230; The few encounters I&#8217;ve&#8230;]]></description>
+										<content:encoded><![CDATA[<p>is decided : I&#8217;ll keep maintaining this URL until new-year&#8217;s eve. At that time I&#8217;ll be blogging here for 5 years&#8230;</p>
+<p>The few encounters I&#8217;ve had with architects, taught me this basic lesson of life : the main function of several rooms in a house changes every 5 years (due to children and yourself getting older).</p>
+<p>So, from january 1st 2009, I&#8217;ll be moving out of here. I will leave the neverendingbooks-site intact for some time to come, so there is no need for you to start archiving it en masse, yet.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-future-of-this-blog.html">Previously</a> I promised to reconsider this blog&#8217;s future over a short vacation, but as vacation is looking to be as illusory as the 24-dimensional monster-manifold, I spend my time throwing up ideas into thin and, it seems, extremely  virtual air.</p>
+<p>Some of you will think this is a gimmick, aiming to attract more comments (there is no post getting more responses than an imminent-end-to-this-blog-post) but then I hope to have settled this already. Neverendingbooks will die on 31st of december 2008. The only remaining issue being : do I keep on blogging or do I look for another time-consumer such as growing tomatoes or, more probably, collecting single malts&#8230;</p>
+<p>For reasons I&#8217;ve stated before, I can see little future in anything but a <strong>conceptual-, group-</strong> blog. The first part I can deal with, but for the second I&#8217;ll be relying on others. So, all I can do is offer formats hoping that some of you are willing to take the jump and try it out together.</p>
+<p>Such as in the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/bloomsday-2-bistromath.html">bloomsday-post</a> where I sketched the <strong>BistroMath</strong> blog-concept. Perhaps you thought I was just kidding, hoping for people to commit themselves and them calling &#8220;Gotcha&#8230;&#8221;. Believe me, 30 years of doing mathematics have hardwired my brains such that I always genuinely believe in the things I write down at the moment I do (but equally, if someone offers me enough evidence to the contrary, I&#8217;ll drop any idea on the spot).</p>
+<p>I still think the BistroMath-project has the potential of leading to a bestseller but Ive stated I was not going to pursue the idea if not at least 5 people were willing to join and at least 1 publisher showed an interest. Ironically, I got 2 publishers interested but NO contributors&#8230; End of that idea.</p>
+<p>Today I offer another conceptual group-blog : <strong>the Noether-boys seminar</strong> (with tagline ; _the noncommutative experts&#8217; view on 21st century mathematics_). And to make it a bit more concrete Ive even designed a potential home-page :</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/NBS.jpg"><br />
+</center></p>
+<p>So, what&#8217;s the deal? In the 1930-ties <a href="http://www-gap.dcs.st-and.ac.uk/~history/Biographies/Noether_Emmy.html">Emmy Noether</a> collected around her in Goettingen an exceptionally strong group of students and collaborators (among them : Deuring, Fitting, Levitski, Schilling, Tsen, Weber, Witt, VanderWaerden, Brauer, Artin, Hasse, MacLane, Bernays, Tausky, Alexandrov&#8230; to name a few).</p>
+<p>Collectively, they were know as the &#8220;Noether-boys&#8221; (or &#8220;Noether-Knaben&#8221; or &#8220;Trabanten&#8221; in German) and combined seminar with a hike to the nearby hills or late-night-overs at Emmy&#8217;s apartment. (Btw. there&#8217;s nothing sexist about Noether-<strong>boys</strong>. When she had to leave Germany for Bryn Mawr College, she replaced her boys to form a group of Noether-girls, and even in Goettingen there were several women in the crowd).</p>
+<p>They were the first generation of mathematicians going noncommutative and had to struggle a bit to get their ideas accepted.<br />
+I&#8217;d like to know what they might think about the current state of mathematics in which noncommutativity seems to be generally accepted, even demanded if you want to act fashionable.</p>
+<p>I&#8217;m certain half of the time they would curse intensely, and utter something like &#8216;steht shon alles bei Frau Noether&#8230;&#8217; (as Witt is witnessed to have done at least once), and about half the time they might get genuinely interested, and be willing to try and explain the events leading up to this to their fellow &#8220;Trabanten&#8221;. Either way, it would provide excellent blog-posts.</p>
+<p>So I&#8217;m looking for people willing to borrow the identity of one of the Noether-boys or -girls. That is, you have to be somewhat related to their research and history to offer a plausible reaction to recent results in either noncommutative algebra, noncommutative geometry or physics. Assuming their identity you will then blog to express your (that is, &#8216;their&#8217;) opinion and interact with your fellow Trabanten as might have been the case in the old days&#8230;</p>
+<p>I&#8217;d like to keep Emmy Noether for the admin-role of the blog but all other characters are free at this moment (except I&#8217;m hoping that no-one will choose my favourite role, which is probably the least expected of them anyway).</p>
+<p>So please, if you think this concept might lead to interesting blogging, contact me! If I don&#8217;t get any positives in this case either, I might think about yet another concept (or instead may give up entirely).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-future-of-this-blog-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>what does the monster see?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-does-the-monster-see/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-does-the-monster-see/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 16 Jul 2008 18:12:41 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=440</guid>
+
+					<description><![CDATA[The Monster is the largest of the 26 sporadic simple groups and has order 808 017 424 794 512 875 886 459 904 961 710&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="http://en.wikipedia.org/wiki/Monster_group">Monster</a> is the largest of the 26 sporadic simple groups and has order</p>
+<p>808 017 424 794 512 875 886 459 904 961 710 757 005 754 368 000 000 000</p>
+<p>= 2^46 3^20 5^9 7^6 11^2 13^3 17 19 23 29 31 41 47 59 71.</p>
+<p>It is not so much the size of its order that makes it hard to do actual calculations in the monster, but rather the dimensions of its smallest non-trivial irreducible representations (196 883 for the smallest, 21 296 876 for the next one, and so on).</p>
+<p>In characteristic two there is an irreducible representation of one dimension less (196 882) which appears to be of great use to obtain information. For example, Robert Wilson used it to prove that <a href="http://web.mat.bham.ac.uk/R.A.Wilson/pubs/MHurwitz.ps">The Monster is a Hurwitz group</a>. This means that the Monster is generated by two elements g and h satisfying the relations</p>
+<p>$g^2 = h^3 = (gh)^7 = 1 $</p>
+<p>Geometrically, this implies that the Monster is the automorphism group of a Riemann surface of genus g satisfying the Hurwitz bound 84(g-1)=#Monster. That is,</p>
+<p>g=9619255057077534236743570297163223297687552000000001=42151199 * 293998543 * 776222682603828537142813968452830193</p>
+<p>Or, in analogy with the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-buckyball-curve.html">Klein quartic</a> which can be constructed from 24 heptagons in the tiling of the hyperbolic plane, there is a finite region of the hyperbolic plane, tiled with heptagons, from which we can construct this monster curve by gluing the boundary is a specific way so that we get a Riemann surface with exactly 9619255057077534236743570297163223297687552000000001 holes. This finite part of the hyperbolic tiling (consisting of #Monster/7 heptagons) we&#8217;ll call the <strong>empire of the monster</strong> and we&#8217;d love to describe it in more detail.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/whatdoesmonstersee.jpg"><br />
+</center></p>
+<p>Look at the half-edges of all the heptagons in the empire (the picture above learns that every edge in cut in two by a blue geodesic). They are exactly #Monster such half-edges and they form a <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-best-rejected-proposal-ever.html">dessin d&#8217;enfant</a> for the monster-curve.</p>
+<p>If we label these half-edges by the elements of the Monster, then multiplication by g in the monster interchanges the two half-edges making up a heptagonal edge in the empire and multiplication by h in the monster takes a half-edge to the one encountered first by going counter-clockwise in the vertex of the heptagonal tiling. Because g and h generated the Monster, the dessin of the empire is just a concrete realization of the monster.</p>
+<p>Because g is of order two and h is of order three, the two permutations they determine on the dessin, gives a group epimorphism $C_2 \ast C_3 = PSL_2(\mathbb{Z}) \rightarrow \mathbb{M} $ from the <a href="http://en.wikipedia.org/wiki/Modular_group">modular group</a> $PSL_2(\mathbb{Z}) $ onto the Monster-group.</p>
+<p>In noncommutative geometry, the group-algebra of the modular group $\mathbb{C} PSL_2 $ can be interpreted as the coordinate ring of a noncommutative manifold (because it is formally smooth in the sense of <a href="http://arxiv.org/abs/math/9812158">Kontsevich-Rosenberg</a> or Cuntz-Quillen) and the group-algebra of the Monster $\mathbb{C} \mathbb{M} $ itself corresponds in this picture to a finite collection of &#8216;points&#8217; on the manifold. Using this geometric viewpoint we can now ask the question  <strong>What does the Monster see of the modular group?</strong></p>
+<p>To make sense of this question, let us first consider the commutative equivalent : what does a point P see of a commutative variety X?</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/neighborhoods.jpg" ><br />
+</center></p>
+<p>Evaluation of polynomial functions in P gives us an algebra epimorphism $\mathbb{C}[X] \rightarrow \mathbb{C} $ from the coordinate ring of the variety $\mathbb{C}[X] $ onto $\mathbb{C} $ and the kernel of this map is the maximal ideal $\mathfrak{m}_P $ of<br />
+ $\mathbb{C}[X] $ consisting of all functions vanishing in P.</p>
+<p>Equivalently, we can view the point $P= \mathbf{spec}~\mathbb{C}[X]/\mathfrak{m}_P $ as the scheme corresponding to the quotient $\mathbb{C}[X]/\mathfrak{m}_P $. Call this the 0-th formal neighborhood of the point P.</p>
+<p>This sounds pretty useless, but let us now consider higher-order formal neighborhoods. Call the affine scheme $\mathbf{spec}~\mathbb{C}[X]/\mathfrak{m}_P^{n+1} $ the n-th forml neighborhood of P, then the first neighborhood, that is with coordinate ring $\mathbb{C}[X]/\mathfrak{m}_P^2 $ gives us tangent-information. Alternatively, it gives the best linear approximation of functions near P.<br />
+The second neighborhood $\mathbb{C}[X]/\mathfrak{m}_P^3 $ gives us the best quadratic approximation of function near P, etc. etc.</p>
+<p>These successive quotients by powers of the maximal ideal $\mathfrak{m}_P $ form a system of algebra epimorphisms</p>
+<p>$\ldots \frac{\mathbb{C}[X]}{\mathfrak{m}_P^{n+1}} \rightarrow \frac{\mathbb{C}[X]}{\mathfrak{m}_P^{n}} \rightarrow \ldots \ldots \rightarrow \frac{\mathbb{C}[X]}{\mathfrak{m}_P^{2}} \rightarrow \frac{\mathbb{C}[X]}{\mathfrak{m}_P} = \mathbb{C} $</p>
+<p>and its inverse limit $\underset{\leftarrow}{lim}~\frac{\mathbb{C}[X]}{\mathfrak{m}_P^{n}} = \hat{\mathcal{O}}_{X,P} $ is the completion of the local ring in P and contains all the infinitesimal information (to any order) of the variety X in a neighborhood of P. That is, this completion $\hat{\mathcal{O}}_{X,P} $ contains <strong>all information that P can see of the variety X</strong>.</p>
+<p>In case P is a smooth point of X, then X is a manifold in a neighborhood of P and then this completion<br />
+$\hat{\mathcal{O}}_{X,P} $ is isomorphic to the algebra of formal power series $\mathbb{C}[[ x_1,x_2,\ldots,x_d ]] $ where the $x_i $ form a local system of coordinates for the manifold X near P.</p>
+<p>Right, after this lengthy recollection, back to our question <strong>what does the monster see of the modular group?</strong> Well, we have an algebra epimorphism</p>
+<p>$\pi~:~\mathbb{C} PSL_2(\mathbb{Z}) \rightarrow \mathbb{C} \mathbb{M} $</p>
+<p>and in analogy with the commutative case, all information the Monster can gain from the modular group is contained in the $\mathfrak{m} $-adic completion</p>
+<p>$\widehat{\mathbb{C} PSL_2(\mathbb{Z})}_{\mathfrak{m}} = \underset{\leftarrow}{lim}~\frac{\mathbb{C} PSL_2(\mathbb{Z})}{\mathfrak{m}^n} $</p>
+<p>where $\mathfrak{m} $ is the kernel of the epimorphism $\pi $ sending the two free generators of the modular group $PSL_2(\mathbb{Z}) = C_2 \ast C_3 $ to the permutations g and h determined by the dessin of the pentagonal tiling of the Monster&#8217;s empire.</p>
+<p>As it is a hopeless task to determine the Monster-empire explicitly, it seems even more hopeless to determine the kernel $\mathfrak{m} $ let alone the completed algebra&#8230; But, (surprise) we can compute $\widehat{\mathbb{C} PSL_2(\mathbb{Z})}_{\mathfrak{m}} $ as explicitly as in the commutative case we have $\hat{\mathcal{O}}_{X,P} \simeq \mathbb{C}[[ x_1,x_2,\ldots,x_d ]] $ for a point P on a manifold X.</p>
+<p>Here the details : the quotient $\mathfrak{m}/\mathfrak{m}^2 $ has a natural structure of $\mathbb{C} \mathbb{M} $-bimodule. The group-algebra of the monster is a semi-simple algebra, that is, a direct sum of full matrix-algebras of sizes corresponding to the dimensions of the irreducible monster-representations. That is,</p>
+<p>$\mathbb{C} \mathbb{M} \simeq \mathbb{C} \oplus M_{196883}(\mathbb{C}) \oplus M_{21296876}(\mathbb{C}) \oplus \ldots \ldots \oplus M_{258823477531055064045234375}(\mathbb{C}) $</p>
+<p>with exactly 194 components (the number of irreducible Monster-representations). For any $\mathbb{C} \mathbb{M} $-bimodule $M $ one can form the tensor-algebra</p>
+<p>$T_{\mathbb{C} \mathbb{M}}(M) = \mathbb{C} \mathbb{M} \oplus M \oplus (M \otimes_{\mathbb{C} \mathbb{M}} M) \oplus (M \otimes_{\mathbb{C} \mathbb{M}} M \otimes_{\mathbb{C} \mathbb{M}} M) \oplus \ldots \ldots $</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/cuntz.jpg"><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/Quillen.jpg"><br />
+</center></p>
+<p>and applying the formal neighborhood theorem for formally smooth algebras (such as $\mathbb{C} PSL_2(\mathbb{Z}) $) due to <a href="http://wwwmath.uni-muenster.de/u/cuntz/cuntz.html">Joachim Cuntz</a> (left) and <a href="http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Quillen.html">Daniel Quillen</a> (right) we have an isomorphism of algebras</p>
+<p>$\widehat{\mathbb{C} PSL_2(\mathbb{Z})}_{\mathfrak{m}} \simeq \widehat{T_{\mathbb{C} \mathbb{M}}(\mathfrak{m}/\mathfrak{m}^2)} $</p>
+<p>where the right-hand side is the completion of the tensor-algebra (at the unique graded maximal ideal) of the $\mathbb{C} \mathbb{M} $-bimodule $\mathfrak{m}/\mathfrak{m}^2 $, so we&#8217;d better describe this bimodule explicitly.</p>
+<p>Okay, so what&#8217;s a bimodule over a semisimple algebra of the form $S=M_{n_1}(\mathbb{C}) \oplus \ldots \oplus M_{n_k}(\mathbb{C}) $? Well,  a <strong>simple</strong> S-bimodule must be either (1) a factor $M_{n_i}(\mathbb{C}) $ with all other factors acting trivially or (2) the full space of rectangular matrices $M_{n_i \times n_j}(\mathbb{C}) $ with the factor $M_{n_i}(\mathbb{C}) $ acting on the left, $M_{n_j}(\mathbb{C}) $ acting on the right and all other factors acting trivially.</p>
+<p>That is, any S-bimodule can be represented by a quiver (that is a directed graph) on k vertices (the number of matrix components) with a loop in vertex i corresponding to each simple factor of type (1) and a directed arrow from i to j corresponding to every simple factor of type (2).</p>
+<p>That is, for the Monster, the bimodule $\mathfrak{m}/\mathfrak{m}^2 $ is represented by a quiver on 194 vertices and now we only have to determine how many loops and arrows there are at or between vertices.</p>
+<p>Using Morita equivalences and standard representation theory of quivers it isn&#8217;t exactly rocket science to determine that the number of arrows between the vertices corresponding to the irreducible Monster-representations $S_i $ and $S_j $ is equal to</p>
+<p>$dim_{\mathbb{C}}~Ext^1_{\mathbb{C} PSL_2(\mathbb{Z})}(S_i,S_j)-\delta_{ij} $</p>
+<p>Now, I&#8217;ve been wasting a lot of time already here explaining what representations of the modular group have to do with quivers (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/why-nag-2.html">here</a> or some other posts in the same series) and for quiver-representations we all know how to compute Ext-dimensions in terms of the Euler-form applied to the dimension vectors.</p>
+<p>Right, so for every Monster-irreducible $S_i $ we have to determine the corresponding dimension-vector $~(a_1,a_2;b_1,b_2,b_3) $ for the quiver</p>
+<p>$\xymatrix{ &amp; &amp; &amp; &amp;<br />
+\vtx{b_1} \\ \vtx{a_1} \ar[rrrru]^(.3){B_{11}} \ar[rrrrd]^(.3){B_{21}}<br />
+\ar[rrrrddd]_(.2){B_{31}} &amp; &amp; &amp; &amp; \\ &amp; &amp; &amp; &amp; \vtx{b_2} \\ \vtx{a_2}<br />
+\ar[rrrruuu]_(.7){B_{12}} \ar[rrrru]_(.7){B_{22}}<br />
+\ar[rrrrd]_(.7){B_{23}} &amp; &amp; &amp; &amp; \\ &amp; &amp; &amp; &amp; \vtx{b_3}} $</p>
+<p>Now the dimensions $a_i $ are the dimensions of the +/-1 eigenspaces for the order 2 element g in the representation and the $b_i $ are the dimensions of the eigenspaces for the order 3 element h. So, we have to determine to which conjugacy classes g and h belong, and from Wilson&#8217;s paper mentioned above these are classes 2B and 3B in standard <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M/">Atlas notation</a>.</p>
+<p>So, for each of the 194 irreducible Monster-representations we look up the character values at 2B and 3B (see below for the first batch of those) and these together with the dimensions determine the dimension vector $~(a_1,a_2;b_1,b_2,b_3) $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/seemonsterchars.jpg"></p>
+<p>For example take the 196883-dimensional irreducible. Its 2B-character is 275 and the 3B-character is 53. So we are looking for a dimension vector such that $a_1+a_2=196883, a_1-275=a_2 $ and $b_1+b_2+b_3=196883, b_1-53=b_2=b_3 $ giving us for that representation the dimension vector of the quiver above $~(98579,98304,65663,65610,65610) $.</p>
+<p>Okay, so for each of the 194 irreducibles $S_i $ we have determined a dimension vector $~(a_1(i),a_2(i);b_1(i),b_2(i),b_3(i)) $, then standard quiver-representation theory asserts that the number of loops in the vertex corresponding to $S_i $ is equal to</p>
+<p>$dim(S_i)^2 + 1 &#8211; a_1(i)^2-a_2(i)^2-b_1(i)^2-b_2(i)^2-b_3(i)^2 $</p>
+<p>and that the number of arrows from vertex $S_i $ to vertex $S_j $ is equal to</p>
+<p>$dim(S_i)dim(S_j) &#8211; a_1(i)a_1(j)-a_2(i)a_2(j)-b_1(i)b_1(j)-b_2(i)b_2(j)-b_3(i)b_3(j) $</p>
+<p>This data then determines completely the $\mathbb{C} \mathbb{M} $-bimodule $\mathfrak{m}/\mathfrak{m}^2 $ and hence the structure of the completion $\widehat{\mathbb{C} PSL_2}_{\mathfrak{m}} $ containing all information the Monster can gain from the modular group.</p>
+<p>But then, one doesn&#8217;t have to go for the full regular representation of the Monster. Any faithful permutation representation will do, so we might as well go for the one of minimal dimension.</p>
+<p>That one is known to correspond to the largest maximal subgroup of the Monster which is known to be a two-fold extension $2.\mathbb{B} $ of the <a href="http://en.wikipedia.org/wiki/Baby_Monster_group">Baby-Monster</a>. The corresponding permutation representation is of dimension 97239461142009186000 and decomposes into Monster-irreducibles</p>
+<p>$S_1 \oplus S_2 \oplus S_4 \oplus S_5 \oplus S_9 \oplus S_{14} \oplus S_{21} \oplus S_{34} \oplus S_{35} $</p>
+<p>(in standard Atlas-ordering) and hence repeating the arguments above we get a quiver on just 9 vertices! The actual numbers of loops and arrows (I forgot to mention this, but the quivers obtained are actually symmetric) obtained were found after laborious computations mentioned in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monstrous-frustrations.html">this post</a> and the details I&#8217;ll make avalable <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA/monsterquiver2.html">here</a>.</p>
+<p>Anyone who can spot a relation between the numbers obtained and any other part of mathematics will obtain quantities of genuine (ie. non-Inbev) Belgian beer&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-does-the-monster-see/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Looking for F_un</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/looking-for-f_un/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/looking-for-f_un/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 03 Jun 2008 10:16:37 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=424</guid>
+
+					<description><![CDATA[There are only a handful of human activities where one goes to extraordinary lengths to keep a dream alive, in spite of overwhelming evidence :&#8230;]]></description>
+										<content:encoded><![CDATA[<p>There are only a handful of human activities where one goes to extraordinary lengths to keep a dream alive, in spite of overwhelming evidence : religion, theoretical physics, supporting the Belgian football team and &#8230;  mathematics.</p>
+<p>In recent years several people spend a lot of energy looking for properties of an elusive object : <strong>the field with one element</strong> $\mathbb{F}_1 $, or in French : &#8220;F-un&#8221;. The topic must have reached a level of maturity as there was a conference dedicated entirely to it : <a href="http://www.math.vanderbilt.edu/~ncgoa/workshop2008.html">NONCOMMUTATIVE GEOMETRY AND GEOMETRY OVER THE FIELD WITH ONE ELEMENT</a>.</p>
+<p>In this series I&#8217;d like to find out what the fuss is all about, why people would like it to exist and what it has to do with noncommutative geometry. However, before we start two remarks :</p>
+<p>The field $\mathbb{F}_1 $ <strong>does not exist</strong>, so don&#8217;t try to make sense of sentences such as &#8220;The ‘field with one element’ is the free algebraic monad generated by one constant (p.26), or the universal generalized ring with zero (p.33)&#8221; in the <a href="http://en.wikipedia.org/wiki/Field_with_one_element">wikipedia-entry</a>. The simplest proof is that in any (unitary) ring we have $0 \not= 1 $ so any ring must contain at least two elements. A more highbrow version : the ring of integers $\mathbb{Z} $ is the initial object in the category of unitary rings, so it cannot be an algebra over anything else.</p>
+<p>The second remark is that several people have already written blog-posts about $\mathbb{F}_1 $. Here are a few I know of : David Corfield at the <a href="http://golem.ph.utexas.edu/category/2007/04/the_field_with_one_element.html">n-category cafe</a> and at his <a href="http://www.dcorfield.pwp.blueyonder.co.uk/2005/11/november-1-12.html">old blog</a>, Noah Snyder at the <a href="http://sbseminar.wordpress.com/2007/08/14/the-field-with-one-element/">secret blogging seminar</a>, Kea at the <a href="http://kea-monad.blogspot.com/2008/06/m-theory-lesson-193.html">Arcadian functor</a>, AC and K. Consani at <a href="http://noncommutativegeometry.blogspot.com/2008/05/ncg-and-fun.html">Noncommutative geometry</a> and John Baez wrote about it in his <a href="http://math.ucr.edu/home/baez/week259.html">weekly finds</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/Riemann.jpg" hspace=10 style="float:left;margin-right:10px;" > The dream we like to keep alive is that we will prove the <a href="http://en.wikipedia.org/wiki/Riemann_hypothesis">Riemann hypothesis</a> one fine day by lifting Weil&#8217;s proof of it in the case of curves over finite fields to rings of integers.</p>
+<p>Even if you don&#8217;t know a word about Weil&#8217;s method, if you think about it for a couple of minutes, there are two immediate formidable problems with this strategy.</p>
+<p>For most people this would be evidence enough to discard the approach, but, we mathematicians have found extremely clever ways for going into denial.</p>
+<p>The first problem is that if we want to think of $\mathbf{spec}(\mathbb{Z}) $ (or rather its completion adding the infinite place) as a curve over some field, then $\mathbb{Z} $ must be an algebra over this field. However, no such field can exist&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/soule.jpg" hspace=10 style="float:right;margin-left:10px;" > No problem! If there is no such field, let us invent one, and call it $\mathbb{F}_1 $. But, it is a bit hard to do geometry over an illusory field. <a href="http://www.ihes.fr/~soule/">Christophe Soule</a> succeeded in defining varieties over $\mathbb{F}_1 $ in a <a href="http://www.mpim-bonn.mpg.de/digitalAssets/456_MPI-1999-50-m.ps">talk at the 1999 Arbeitstagung</a> and in a more recent write-up of it : <a href="http://www.alainconnes.org/docs/soule.pdf">Les varietes sur le corps a un element</a>.</p>
+<p>We will come back to this in more detail later, but for now, here&#8217;s the main idea. Consider an existent field $k $ and an algebra $k \rightarrow R $ over it. Now study the properties of the functor (extension of scalars) from $k $-schemes to $R $-schemes. Even if there is no morphism $\mathbb{F}_1 \rightarrow \mathbb{Z} $, let us assume it exists and define $\mathbb{F}_1 $-varieties by requiring that these guys should satisfy the properties found before for extension of scalars on schemes defined over a field by going to schemes over an algebra (in this case, $\mathbb{Z} $-schemes). Roughly speaking this defines $\mathbb{F}_1 $-schemes as subsets of points of suitable $\mathbb{Z} $-schemes.</p>
+<p>But, this is just one half of the story. He adds to such an $\mathbb{F}_1 $-variety extra topological data &#8216;at infinity&#8217;, an idea he attributes to J.-B. Bost. This added feature is a $\mathbb{C} $-algebra $\mathcal{A}_X $, which does not necessarily have to be commutative. He only writes : &#8220;Par ignorance, nous resterons tres evasifs sur les proprietes requises sur cette $\mathbb{C} $-algebre.&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/connes.jpg" width=200 hspace=10 style="float:left;margin-right:10px;" > The algebra $\mathcal{A}_X $ originates from trying to bypass the second major obstacle with the Weil-Riemann-strategy. On a smooth projective curve all points look similar as is clear for example by noting that the completions of all local rings are isomorphic to the formal power series $k[[x]] $ over the basefield, in particular there is no distinction between &#8216;finite&#8217; points and those lying at &#8216;infinity&#8217;.</p>
+<p>The completions of the local rings of points in $\mathbf{spec}(\mathbb{Z}) $ on the other hand are completely different, for example, they have residue fields of different characteristics&#8230; Still, local class field theory asserts that their quotient fields have several common features. For example, their <a href="http://en.wikipedia.org/wiki/Brauer_group">Brauer groups</a> are all isomorphic to $\mathbb{Q}/\mathbb{Z} $. However, as $Br(\mathbb{R}) = \mathbb{Z}/2\mathbb{Z} $ and $Br(\mathbb{C}) = 0 $, even then there would be a clear distinction between the finite primes and the place at infinity&#8230;</p>
+<p><a href="http://www.alainconnes.org/en/">Alain Connes</a> came up with an extremely elegant solution to bypass this problem in <a href="http://www.alainconnes.org/docs/imufinal.pdf">Noncommutative geometry and the Riemann zeta function</a>. He proposes to replace finite dimensional central simple algebras in the definition of the Brauer group by AF (for Approximately Finite dimensional)-central simple algebras over $\mathbb{C} $. This is the origin and the importance of the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bost-connes-hecke-algebra.html">Bost-Connes algebra</a>.</p>
+<p>We will come back to most of this in more detail later, but for the impatient, Connes has written a paper together with Caterina Consani and Matilde Marcolli <a href="http://www.alainconnes.org/docs/funBC.pdf">Fun with $\mathbb{F}_1 $</a> relating the Bost-Connes algebra to the field with one element.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/looking-for-f_un/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Farey symbols of sporadic groups</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/farey-symbols-of-sporadic-groups/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/farey-symbols-of-sporadic-groups/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 20 Mar 2008 19:30:35 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/farey-symbols-of-sporadic-groups.html</guid>
+
+					<description><![CDATA[John Conway once wrote : There are almost as many different constructions of $M_{24} $ as there have been mathematicians interested in that most remarkable&#8230;]]></description>
+										<content:encoded><![CDATA[<p>John Conway once wrote :</p>
+<blockquote><p>There are almost as many different constructions of $M_{24} $ as there have been mathematicians interested in that most remarkable of all finite groups.</p></blockquote>
+<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-inguanodon-dissected.html">the inguanodon post</a> Ive added yet another construction of the Mathieu groups $M_{12} $ and $M_{24} $ starting from (half of) the <a href="http://en.wikipedia.org/wiki/Farey_sequence">Farey sequences</a> and the associated cuboid tree diagram obtained by demanding that all edges are odd. In this way the Mathieu groups turned out to be part of a (conjecturally) infinite sequence of simple groups, starting <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/more-iguanodons-via-kfareysage.html">as follows</a> :</p>
+<p>$L_2(7),M_{12},A_{16},M_{24},A_{28},A_{40},A_{48},A_{60},A_{68},A_{88},A_{96},A_{120},A_{132},A_{148},A_{164},A_{196},\ldots $</p>
+<p>It is quite easy to show that none of the other sporadics will appear in this sequence via their known permutation representations. Still, several of the sporadic simple groups are generated by an element of order two and one of order three, so they are determined by a finite dimensional permutation representation of the modular group $PSL_2(\mathbb{Z}) $ and hence are hiding in a special polygonal region of the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-dedekind-tessellation.html">Dedekind&#8217;s tessellation</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dedekind1877.gif" align=center ></p>
+<p>Let us try to figure out where the sporadic with the next simplest permutation representation is hiding : the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/J2/">second Janko group</a> $J_2 $, via its <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/J2G1-p100B0">100-dimensional permutation representation</a>. The Atlas tells us that the order two and three generators act as</p>
+<pre>
+e:= (1,84)(2,20)(3,48)(4,56)(5,82)(6,67)(7,55)(8,41)(9,35)(10,40)(11,78)(12, 100)(13,49)(14,37)(15,94)(16,76)(17,19)(18,44)(21,34)(22,85)(23,92)(24, 57)(25,75)(26,28)(27,64)(29,90)(30,97)(31,38)(32,68)(33,69)(36,53)(39,61) (42,73)(43,91)(45,86)(46,81)(47,89)(50,93)(51,96)(52,72)(54,74)(58,99) (59,95)(60,63)(62,83)(65,70)(66,88)(71,87)(77,98)(79,80);
+
+v:= (1,80,22)(2,9,11)(3,53,87)(4,23,78)(5,51,18)(6,37,24)(8,27,60)(10,62,47) (12,65,31)(13,64,19)(14,61,52)(15,98,25)(16,73,32)(17,39,33)(20,97,58) (21,96,67)(26,93,99)(28,57,35)(29,71,55)(30,69,45)(34,86,82)(38,59,94) (40,43,91)(42,68,44)(46,85,89)(48,76,90)(49,92,77)(50,66,88)(54,95,56) (63,74,72)(70,81,75)(79,100,83);
+</pre>
+<p>But as the <a href="http://www.public.iastate.edu/~kurthc/research/kfarey011408.zip">kfarey.sage package</a> written by <a href="http://www.public.iastate.edu/~kurthc/index.html">Chris Kurth</a> calculates the Farey symbol using the L-R generators, we use GAP to find those</p>
+<pre>
+L = e*v^-1  and  R=e*v^-2 so
+
+L=(1,84,22,46,70,12,79)(2,58,93,88,50,26,35)(3,90,55,7,71,53,36)(4,95,38,65,75,98,92)(5,86,69,39,14,6,96)(8,41,60,72,61,17, 64)(9,57,37,52,74,56,78)(10,91,40,47,85,80,83)(11,23,49,19,33,30,20)(13,77,15,59,54,63,27)(16,48,87,29,76,32,42)(18,68, 73,44,51,21,82)(24,28,99,97,45,34,67)(25,81,89,62,100,31,94)
+
+R=(1,84,80,100,65,81,85)(2,97,69,17,13,92,78)(3,76,73,68,16,90,71)(4,54,72,14,24,35,11)(5,34,96,18,42,32,44)(6,21,86,30,58, 26,57)(7,29,48,53,36,87,55)(8,41,27,19,39,52,63)(9,28,93,66,50,99,20)(10,43,40,62,79,22,89)(12,83,47,46,75,15,38)(23,77, 25,70,31,59,56)(33,45,82,51,67,37,61)(49,64,60,74,95,94,98)
+</pre>
+<p>Defining these permutations in sage and using kfarey, this gives us the Farey-symbol of the associated permutation representation</p>
+<pre>
+L=SymmetricGroup(Integer(100))("(1,84,22,46,70,12,79)(2,58,93,88,50,26,35)(3,90,55,7,71,53,36)(4,95,38,65,75,98,92)(5,86,69,39,14,6,96)(8,41,60,72,61,17, 64)(9,57,37,52,74,56,78)(10,91,40,47,85,80,83)(11,23,49,19,33,30,20)(13,77,15,59,54,63,27)(16,48,87,29,76,32,42)(18,68, 73,44,51,21,82)(24,28,99,97,45,34,67)(25,81,89,62,100,31,94)")
+
+R=SymmetricGroup(Integer(100))("(1,84,80,100,65,81,85)(2,97,69,17,13,92,78)(3,76,73,68,16,90,71)(4,54,72,14,24,35,11)(5,34,96,18,42,32,44)(6,21,86,30,58, 26,57)(7,29,48,53,36,87,55)(8,41,27,19,39,52,63)(9,28,93,66,50,99,20)(10,43,40,62,79,22,89)(12,83,47,46,75,15,38)(23,77, 25,70,31,59,56)(33,45,82,51,67,37,61)(49,64,60,74,95,94,98)")
+
+sage: FareySymbol("Perm",[L,R])
+
+[[0, 1, 4, 3, 2, 5, 18, 13, 21, 71, 121, 413, 292, 463, 171, 50, 29, 8, 27, 46, 65, 19, 30, 11, 3, 10, 37, 64, 27, 17, 7, 4, 5], [1, 1, 3, 2, 1, 2, 7, 5, 8, 27, 46, 157, 111, 176, 65, 19, 11, 3, 10, 17, 24, 7, 11, 4, 1, 3, 11, 19, 8, 5, 2, 1, 1], [-3, 1, 4, 4, 2, 3, 6, -3, 7, 13, 14, 15, -3, -3, 15, 14, 11, 8, 8, 10, 12, 12, 10, 9, 5, 5, 9, 11, 13, 7, 6, 3, 2, 1]]
+</pre>
+<p>Here, the first string gives the numerators of the cusps, the second the denominators and the third gives the pairing information (where [tex[-2 $ denotes an even edge and $-3 $ an odd edge. Fortunately, kfarey also allows us to draw the special polygonal region determined by a Farey-symbol. So, here it is (without the pairing data) :</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/janko2.jpg" align=center ></p>
+<p>the hiding place of $J_2 $&#8230;</p>
+<p>It would be nice to have (a) other Farey-symbols associated to the second Janko group, hopefully showing a pattern that one can extend into an infinite family as in the inguanodon series and (b) to determine Farey-symbols of more sporadic groups.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/farey-symbols-of-sporadic-groups/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Iguanodon series of simple groups</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/iguanodon-series-of-simple-groups/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/iguanodon-series-of-simple-groups/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 07 Nov 2007 16:27:11 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=41</guid>
+
+					<description><![CDATA[Bruce Westbury has a page on recent work on series of Lie groups including exceptional groups. Moreover, he did put his slides of a recent&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.warwick.ac.uk/~masdbn/series.html">Bruce Westbury</a> has a page on recent work on series of Lie groups including exceptional groups. Moreover, he did put his <a href="http://www.mpim-bonn.mpg.de/digitalAssets/2327_westbury.pdf">slides</a> of a recent talk (probably at MPI) online.</p>
+<p>Probably, someone considered a similar problem for simple groups. Are there natural constructions leading to a series of finite simple groups including some sporadic groups as special members ? In particular, does the following sequence appear somewhere ?</p>
+<p>$L_2(7), M_{12}, A_{16}, M_{24}, A_{28}, A_{40}, A_{48}, A_{60}, \ldots $</p>
+<p>Here, $L_2(7) $ is the simple group of order 168 (the automorphism group of the Klein quartic), $M_{12} $ and $M_{24} $ are the sporadic Mathieu groups and the $A_n $ are the alternating simple groups.</p>
+<p>I&#8217;ve stumbled upon this series playing around with <a href="http://en.wikipedia.org/wiki/Farey_sequence">Farey sequences</a> and their associated &#8216;dessins d&#8217;enfants&#8217; (I&#8217;ll come back to the details of the construction another time) and have dubbed this sequence the <strong>Iguanodon</strong> series because the shape of the doodle leading to its first few terms</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/inguo1.gif" align=center /></p>
+<p>reminded me of the <a href="http://en.wikipedia.org/wiki/Iguanodon">Iguanodons of Bernissart</a> (btw. this sketch outlines the construction to the experts). <strong>Conjecturally</strong>, all groups appearing in this sequence are simple and probably all of them (except for the first few) will be alternating.</p>
+<p>I did verify that none of the known low-dimensional permutation representations of other sporadic groups appear in the series. However, there are plenty of similar sequences one can construct from the Farey sequences, and it would be nice if one of them would contain the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co1/">Conway group</a> $Co_1 $. (to be continued)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/iguanodon-series-of-simple-groups/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Mathieu groupoid (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mathieu-groupoid-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-mathieu-groupoid-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 20 Jun 2007 13:41:02 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[15-puzzle]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Elkies]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=17</guid>
+
+					<description><![CDATA[Conway&#8217;s puzzle M(13) is a variation on the 15-puzzle played with the 13 points in the projective plane $\mathbb{P}^2(\mathbb{F}_3) $. The desired position is given&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/iniposm13.gif" style="float:left;margin-right:10px;" hspace=10> <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=13">Conway&#8217;s puzzle M(13)</a> is a variation on the 15-puzzle played with the 13 points in the projective plane $\mathbb{P}^2(\mathbb{F}_3) $. The desired position is given on the left where all the counters are placed at at the points having that label (the point corresponding to the hole in the drawing has label 0). A typical move consists in choosing a line in the plane going through the point where the hole is, choose one of the three remaining points on this line and interchange the counter on it for the hole while at the same time interchanging the counters on the other two points. In the drawing on the left, lines correspond to the little-strokes on the circle and edges describe which points lie on which lines. For example, if we want to move counter 5 to the hole we notice that both of them lie on the line represented by the stroke just to the right of the hole and this line contains also the two points with counters 1 and 11, so we have to replace these two counters too in making a move. Today we will describe the groupoid corresponding to this slide-puzzle so if you want to read on, it is best to play a bit with Sebastian Egner&#8217;s <a href="http://www.sebastian-egner.net/m13/">M(13) Java Applet</a> to see the puzzle in action (and to use it to verify the claims made below). Clicking on a counter performs the move taking the counter to the hole.</p>
+<p><span id="more-17"></span></p>
+<p>For the 15-puzzle I&#8217;ve gone to great lengths of detail <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=14">here</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=16">there</a> explaining how a groupoid naturally crops up having as its objects the reachable positions and as its morphisms the legal slide-sequences. Here, I&#8217;ll economize on details. We can encode a position by a permutation in $S_{13} $ by recording the counters (the hole having counter 0) as we move along the circle clockwise starting at the point of label 0 (the top-point). Basic moves transpose two pairs of counters so are given by a product of two transpositions. For example, the move described above from the initial position is $~(0,5)(1,11) $. Again it is clear how to make a groupoid from the reachable positions and the legal move-sequences and how all actual calculations can be done inside the group $S_{13} $. Two small remarks. (1) The situation is more symmetric than in the 15-puzzle. Here we have precisely 12 possible basic moves from any given position corresponding to the 12 non-hole counters which can be thrown into the hole. (2) Related to this, we have another way to encode move-sequences here. For each basic move we can jot down the <strong>label</strong> of the point whose counter we will throw to the hole (note : label, not counter!). The point of this being that we can now describe all reachable positions having the hole at the top point (the label 0 point) as those obtained from a move sequence of the form $~[0-i_1-i_2-\ldots-i_k-0]~ $ for all choices of $i_j $ between 0 and 12. However, not all these sequences give different positions and we want to determine how many distinct such positions we have. They will again form a subgroup of $S_{12} $ and the aim will be to show that this subgroup is the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M12/">sporadic simple Mathieu group</a> $M_{12} $. We will check now that $M_{12} $ is contained in this group. _Next time_ we will prove the other inclusion.</p>
+<p>Clearly, there are several different ways to label the 13 points and lines in the projective plane and unfortunately the choice of the <a href="http://arxiv.org/abs/math/0508630">Conway-Elkies-Martin paper</a> is different from that of the <a href="http://www.sebastian-egner.net/m13/">Java Applet</a>. For example, in the Applet-labeling {1,3,4,8} are on a line, whereas the paper-labeling assumes the following point/line labels</p>
+<p>$l_0 = \{ 0,1,2,3 \}, l_1= \{ 0,4,5,6 \}, l_2 = \{ 0,9,10,11 \}, l_3 = \{ 0,7,8,12 \}, l_4= \{ 1,4,8,9 \} $</p>
+<p>$l_5 = \{ 1,6,7,11 \}, l_6= \{ 1,5,10,12 \}, l_7= \{ 3,5,8,11 \}, l_8 = \{ 3,4,7,10 \} $</p>
+<p>$l_9=\{ 2,4,11,12 \}, l_{10}=\{ 2,6,8,10 \}, l_{11}=\{ 2,5,7,9 \}, l_{12} = \{ 3,6,9,12 \} $</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dictm13.gif" style="float:left;margin-right:10px;" hspace=10> We need to find a dictionary between the two labeling-systems. Again there are several options, but here is the first one I found. Relabeling the points of the Applet as on the left (also indicated is the labeling of the lines)<br />
+we get the labeling of the paper. Hence, to all CEM-paper-sequences we have to apply the <strong>dictionary</strong></p>
+<p>0(0), 1(1), 2(11), 3(5), 4(12), 5(10), 6(4), 7(8), 8(6), 9(2), 10(7), 11(3), 12(9)</p>
+<p>and use the bracketed labels to perform the sequence in the Java Applet. For example, if Conway-Elkies-Martin compute the effect of the move-sequence [0-11-7-9-8-3-0] (read from left to right) then we first have to translate this via the dictionary to the move-sequence [0-3-8-2-6-5-0]. Then, we perform this sequence in the Java-applet (note again : a basic move is indicated by the label of the point to click on NOT the counter) and record the final position.</p>
+<p>Below we depict the final positions for the three move-sequences [0-3-8-2-6-5-0], [0-9-1-2-0-5-6-12-0] and [0-1-8-0-5-4-0-1-8-0] which are our translations of the three basic move-sequences on page 9 of the CEM-paper (from left to right).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13alpha.gif"> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13beta.gif"> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/m13gamma.gif"></p>
+<p>This gives us three reachable positions having their hole at the top. They correspond to teh following permutations in the symmetric group $S_{12} $ (from left to right)</p>
+<p>$\alpha = (1,10,8,7,2,6,5,3,11,12,4), \beta=(1,9)(2,11)(3,7)(4,10)(5,12)(6,8) $</p>
+<p>$ \gamma=(2,6)(3,11)(5,8)(10,12) $</p>
+<p>Using <a href="http://www.gap-system.org/">GAP</a> (or the arithmetic progression loop description of $M_{12} $ as given in Chp.11 section 18 of <a href="http://www.amazon.co.uk/Sphere-Packings-Lattices-Groups-Wissenschaften/dp/0387985859/">Conway-Sloane</a> modulo relabeling ) we find that the group generated by these three elements is simple and of order 95040 and is isomorphic to the sporadic Mathieu group $M_{12} $.</p>
+<p>This corresponds to the messy part of the 15-puzzle in which we had to find enough reachable positions to generate $A_{15} $. The more conceptual part (the OXO-labeling showing that all positions must belong to $A_{15} $) also has a counterpart here. But, before we can tell that story we have to get into linear codes and in particular the properties of the _tetra-code_&#8230;</p>
+<p><strong>Reference</strong></p>
+<p>John H. Conway, Noam D. Elkies and Jeremy L. Martin &#8220;The Mathieu Group $M_{12} $ and its pseudogroup extension $M_{13} $&#8221; <a href="http://arxiv.org/abs/math/0508630">arXiv-preprint</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-mathieu-groupoid-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>neverendingbooks-geometry (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 12 Jun 2007 12:32:56 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Azumaya]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Jacobian]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://localhost/?p=6</guid>
+
+					<description><![CDATA[Here pdf-files of older NeverEndingBooks-posts on geometry. For more recent posts go here. Seen this quiver? Necklaces (again) B for bricks A for aggregates From&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here pdf-files of older NeverEndingBooks-posts on geometry. For more recent posts <a href="index.php?p=5">go here</a>.</p>
+<p><span id="more-12052"></span></p>
+<p><a href="NEBPDFS/53.pdf">Seen this quiver?</a></p>
+<p><a href="NEBPDFS/282.pdf">Necklaces (again)</a></p>
+<p><a href="NEBPDFS/281.pdf">B for bricks</a></p>
+<p><a href="NEBPDFS/52.pdf">A for aggregates</a></p>
+<p><a href="NEBPDFS/51.pdf">From Galois to NOG</a></p>
+<p><a href="NEBPDFS/50.pdf">Jacobian update 2</a></p>
+<p><a href="NEBPDFS/256.pdf">Jacobian update</a></p>
+<p><a href="NEBPDFS/265.pdf">Congrats Carolyn!</a></p>
+<p><a href="NEBPDFS/48.pdf">Double Poisson algebras</a></p>
+<p><a href="NEBPDFS/44.pdf">Hyper-resolutions</a></p>
+<p><a href="NEBPDFS/43.pdf">Smooth Brauer-Severis</a></p>
+<p><a href="NEBPDFS/42.pdf">Brauer-Severi varieties</a></p>
+<p><a href="NEBPDFS/41.pdf">Curvatures</a></p>
+<p><a href="NEBPDFS/74.pdf">Differential forms</a></p>
+<p><a href="NEBPDFS/40.pdf">Cotangent bundles</a></p>
+<p><a href="NEBPDFS/39.pdf">Moduli spaces</a></p>
+<p><a href="NEBPDFS/37.pdf">Representation spaces</a></p>
+<p><a href="NEBPDFS/36.pdf">Quiver representations</a></p>
+<p><a href="NEBPDFS/35.pdf">Algebraic vs. differential NOG</a></p>
+<p><a href="NEBPDFS/34.pdf">Path algebras</a></p>
+<p><a href="NEBPDFS/241.pdf">Nog course outline</a></p>
+<p><a href="NEBPDFS/33.pdf">The Azumaya locus does determine the order</a></p>
+<p><a href="NEBPDFS/246.pdf">Differential geometry</a></p>
+<p><a href="NEBPDFS/240.pdf">The one quiver for GL(2,Z)</a></p>
+<p><a href="NEBPDFS/138.pdf">The necklace Lie bialgebra</a></p>
+<p><a href="NEBPDFS/137.pdf">More noncommutative manifolds</a></p>
+<p><a href="NEBPDFS/135.pdf">Points and lines</a></p>
+<p><a href="NEBPDFS/125.pdf">Projects in noncommutative geometry</a></p>
+<p><a href="NEBPDFS/118.pdf">Noncommutative geometry 2</a></p>
+<p><a href="NEBPDFS/115.pdf">Noncommutative geometry 1</a></p>
+<p><a href="NEBPDFS/113.pdf">A noncommutative Grothendieck topology</a></p>
+<p><a href="NEBPDFS/116.pdf">Connected component coalgebra</a></p>
+<p><a href="NEBPDFS/100.pdf">NOG master class update</a></p>
+<p><a href="NEBPDFS/93.pdf">NOG master class</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NeverEndingBooks-groups</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-groups/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-groups/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 11 Jun 2007 12:56:01 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[symmetry]]></category>
+		<guid isPermaLink="false">http://localhost/?p=7</guid>
+
+					<description><![CDATA[Here a collection of pdf-files of NeverEndingBooks-posts on groups, in reverse chronological order. Devilish symmetries Permutation representations of monodromy groups The cartographers family 2 The&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here a collection of pdf-files of NeverEndingBooks-posts on groups, in reverse chronological order.</p>
+<p><span id="more-12053"></span></p>
+<p><a href="NEBPDFS/314.pdf">Devilish symmetries</a></p>
+<p><a href="NEBPDFS/309.pdf">Permutation representations of monodromy groups</a></p>
+<p><a href="NEBPDFS/302.pdf">The cartographers family 2</a></p>
+<p><a href="NEBPDFS/299.pdf">The cartographers family 1</a></p>
+<p><a href="NEBPDFS/298.pdf">The father of all beamer talks</a></p>
+<p><a href="NEBPDFS/297.pdf">Monsieur Mathieu</a></p>
+<p><a href="NEBPDFS/191.pdf">Football representation theory</a></p>
+<p><a href="NEBPDFS/189.pdf">Symmetry and the monster</a></p>
+<p><a href="NEBPDFS/49.pdf">Scottish solids</a></p>
+<p><a href="NEBPDFS/47.pdf">Simple groups</a></p>
+<p><a href="NEBPDFS/46.pdf">Icosahedral group</a></p>
+<p><a href="NEBPDFS/45.pdf">A cosmic Galois group?</a></p>
+<p><a href="NEBPDFS/244.pdf">Explaining symmetry</a></p>
+<p><a href="NEBPDFS/38.pdf">Megaminx</a></p>
+<p><a href="NEBPDFS/133.pdf">25 years monstrous moonshine</a></p>
+<p><a href="NEBPDFS/127.pdf">Borcherd&#8217;s monster papers</a></p>
+<p><a href="NEBPDFS/110.pdf">Galois and the Brauer group</a></p>
+<p><a href="NEBPDFS/108.pdf">Brauer&#8217;s forgotten group</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-groups/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>down with determinants</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 18 May 2007 17:14:51 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=177</guid>
+
+					<description><![CDATA[The categorical cafe has a guest post by Tom Leinster Linear Algebra Done Right on the book with the same title by Sheldon Axler. I&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="http://golem.ph.utexas.edu/category/">categorical cafe</a> has a guest post by Tom Leinster <a href="http://golem.ph.utexas.edu/category/2007/05/linear_algebra_done_right.html">Linear Algebra Done Right</a> on the book with the same title by <a href="http://www.axler.net/LADR.html">Sheldon Axler</a>. I haven&#8217;t read the book but glanced through his online paper <a href="http://www.axler.net/DwD.html">Down with determinants!</a>. Here is &#8216;his&#8217; proof of the fact that any n by n matrix A has at least one eigenvector. Take a vector $v \in \mathbb{C}^n $, then as the collection of vectors ${ v,A.v,A^2.v,\ldots,A^n.v } $ must be linearly dependent, there are complex numbers $a&#95;i \in \mathbb{C} $ such that $~(a&#95;0 + a&#95;1 A + a&#95;2 A^2 + \ldots + a&#95;n A^n).v = \vec{0} \in \mathbb{C}^n $ But then as $\mathbb{C} $ is algebraically closed the polynomial on the left factors into linear factors $a&#95;0 + a&#95;1 x + a&#95;2 x^2 + \ldots + a&#95;n x^n = c (x-r&#95;1)(x-r&#95;2) \ldots (x-r&#95;n) $ and therefore as $c(A-r&#95;1I&#95;n)(A-r&#95;2I&#95;n) \ldots (A-r&#95;nI&#95;n).v = \vec{0} $ from which it follows that at least one of the linear transformations $A-r&#95;j I&#95;n $ has a non-trivial kernel, whence A has an eigenvector with eigenvalue $r_j $. Okay, fine, nice even, but does this simple minded observation warrant the extreme conclusion of his paper (on page 18) ?</p>
+<blockquote>
+<p>As mathematicians, we often read a nice new proof of a known theorem, enjoy the different approach, but continue to derive our internal understanding from the method we originally learned. This paper aims to change drastically the way mathematicians think about and teach crucial aspects of linear algebra.</p>
+<p>The simple proof of the existence of eigenvalues given in Theorem 2.1 should be the one imprinted in our minds, written on our blackboards, and published in our textbooks. Generalized eigenvectors should become a central tool for the understanding of linear operators. As we have seen, their use leads to natural definitions of multiplicity and the characteristic polynomial. Every mathematician and every linear algebra student should at least remember that the generalized eigenvectors of an operator always span the domain (Proposition 3.4)‚Äîthis crucial result leads to easy proofs of upper-triangular form (Theorem 6.2) and the Spectral Theorem (Theorems 7.5 and 8.3).</p>
+<p>Determinants appear in many proofs not discussed here. If you scrutinize such proofs, you‚Äôll often discover better alternatives without determinants. Down with Determinants!
+  </p></blockquote>
+<p>I welcome all new proofs of known results as they allow instructors to choose the one best suited to their students (and preferable giving more than one proof showing that there is no such thing as &#8216;the best way&#8217; to prove a mathematical result). What worries me is Axler&#8217;s attitude shared by extremists and dogmatics world-wide : they are so blinded by their own right that they impoverish their own lifes (and if they had their way, also that of others) by not willing to consider other alternatives. A few other comments :</p>
+<ol>
+<li>
+<p>I would be far more impressed if he had given a short argument for the one line he skates over in his proof, that of $\mathbb{C} $ being algebraically closed. Does anyone give a proof of this fact anymore or is this one of the few facts we expect first year students to accept on faith?</p>
+<ol>
+<li>
+<p>I dont understand this aversity to the determinant (probably because of its nonlinear character) but at the same time not having any problems with successive powers of matrices. Surely he knows that the determinant is a fixed $~\mathbb{Q}~ $-polynomial in the traces (which are linear!) of powers of the matrix.</p>
+</li>
+<li>
+<p>The essense of linear algebra is that by choosing a basis cleverly one can express a linear operator in a extremely nice matrix form (a canonical form) so that all computations become much more easy. This crucial idea of considering different bases and their basechange seems to be missing from Axler&#8217;s approach. Moreover, I would have thought that everyone would know these days that &#8216;linear algebra done right&#8217; is a well developed topic called &#8216;representation theory of quivers&#8217; but I realize this might be viewed as a dogmatic statement. Fortunately someone else is giving the basic linear algebra courses here in Antwerp so students are spared my private obsessions (at least the first few years&#8230;). In &#91;his post&#93;(http://golem.ph.utexas.edu/category/2007/05/ linear&#95;algebra&#95;done_right.html) Leistner askes &#8220;What are determinants good for?&#8221; I cannot resist mentioning a trivial observation I made last week when thinking once again about <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=318">THE rationality problem</a> and which may be well known to others. Recall from the previous post that rationality of the quotient variety of matrix-couples $~(A,B) \in M&#95;n(\mathbb{C}) \oplus M&#95;n(\mathbb{C}) / GL&#95;n $ under &#95;simultaneous conjugation_ is a very hard problem. On the other hand, the &#8216;near miss&#8217; problem of the quotient variety of matrix-couples $ { (A,B)~|~det(A)=0~} / GL&#95;n $ is completely trivial. It is rational for all n. Here is a one-line proof. Consider the quiver $\xymatrix{\vtx{} \ar@/^2ex/[rr] &amp; &amp; \vtx{} \ar@(ur,dr) \ar@/^2ex/[ll]} $ then the dimension vector (n-1,n) is a Schur root and the first fundamental theorem of $GL&#95;n $ (see for example Hanspeter Krafts excellent book on invariant theory) asserts that the corresponding quotient variety is the one above. The result then follows from Aidan Schofield&#8217;s paper <a href="http://www.arxiv.org/abs/math/9911014">Birational classification of moduli spaces of representations of quivers</a>. Btw. in this special case one does not have to use the full force of Aidan&#8217;s result. <a href="http://www.math.ubc.ca/~reichst/">Zinovy Reichstein</a>, who keeps me updated on events in <a href="http://www.mathcs.emory.edu/~skip/conf/Home.html">Atlanta</a>, emailed the following elegant short proof Here is an outline of a geometric proof. Let $X = {(A, B) : det(A) = 0} &#92;subset M&#95;n^2 $ and $Y = \mathbb{P}^{n-1} &#92;times M&#95;n $. Applying the no-name lemma to the $PGL&#95;n $-equivariant dominant rational map $~X \rightarrow Y $ given by $~(A, B) &#92;rightarrow (Ker(A), B) $ (which makes X into a vector bundle over a dense open $PGL&#95;n $-invariant subset of Y), we see that $X//PGL&#95;n $ is rational over $Y//PGL&#95;n $ On the other hand, $Y//PGLn = M&#95;n//PGL&#95;n $ is an affine space. Thus $X//PGL_n $ is rational. The moment I read this I knew how to do this quiver-wise and that it is just another Brauer-Severi type argument so completely inadequate to help settling the genuine matrix-problem. Update on the <a href="http://www.arxiv.org/abs/0704.3450">paper by Esther Beneish</a> : Esther did submit the paper in february.</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

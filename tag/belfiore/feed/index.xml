@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Belfiore &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/belfiore/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 16 Jan 2022 15:09:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Deep learning and toposes</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 16 Jan 2022 15:09:30 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Belfiore]]></category>
+		<category><![CDATA[Bennequin]]></category>
+		<category><![CDATA[Fong]]></category>
+		<category><![CDATA[locale]]></category>
+		<category><![CDATA[neural networks]]></category>
+		<category><![CDATA[poset]]></category>
+		<category><![CDATA[Spivak]]></category>
+		<category><![CDATA[toposes]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10027</guid>
+
+					<description><![CDATA[Judging from this and that paper, deep learning is the string theory of the 2020s for geometers and representation theorists. String theory is the 90s&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Judging from <a href="https://arxiv.org/abs/2101.11487">this</a> and <a href="https://arxiv.org/abs/2007.12213">that</a> paper, <a href="https://en.wikipedia.org/wiki/Deep_learning">deep learning</a> is the string theory of the 2020s for geometers and representation theorists.</p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">String theory is the 90s answer to the tears of algebraic geometers worldwide trying to write the &quot;Applications&quot; part of their grant proposals. <a href="https://t.co/AboZ5WkPtc">https://t.co/AboZ5WkPtc</a></p>
+<p>&mdash; algebraic geometer BLM (@BarbaraFantechi) <a href="https://twitter.com/BarbaraFantechi/status/1471804656712134659?ref_src=twsrc%5Etfw">December 17, 2021</a></p></blockquote>
+<p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>If you want to know quickly what neural networks <em>really</em> are, I can recommend the post <a href="https://bdtechtalks.com/2021/01/28/deep-learning-explainer/">demystifying deep learning</a>.</p>
+<p>The typical layout of a deep neural network has an <em>input layer</em> $L_0$ allowing you to feed $N_0$ numbers to the system (a vector $\vec{v_0} \in \mathbb{R}^{N_0}$), an <em>output layer</em> $L_p$ spitting $N_p$ numbers back (a vector $\vec{v_p} \in \mathbb{R}^{N_p}$), and $p-1$ <em>hidden layers</em> $L_1,\dots,L_{p-1}$ where all the magic happens. The hidden layer $L_i$ has $N_i$ <em>virtual neurons</em>, their states giving a vector $\vec{v_i} \in \mathbb{R}^{N_i}$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DNN.jpg" width=100% /><br />
+Picture taken from <a href="https://arxiv.org/abs/2108.04751">Logical informations cells I</a><br />
+</center></p>
+<p>For simplicity let&#8217;s assume all neurons in layer $L_i$ are wired to every neuron in layer $L_{i+1}$, the relevance of these connections given by a matrix of <em>weights</em> $W_i \in M_{N_{i+1} \times N_i}(\mathbb{R})$.</p>
+<p>If at any given moment the &#8216;state&#8217; of the neural network is described by the state-vectors $\vec{v_1},\dots,\vec{v_{p-1}}$ and the weight-matrices $W_0,\dots,W_p$, then an input $\vec{v_0}$ will typically result in new states of the neurons in layer $L_1$ given by</p>
+<p>\[<br />
+\vec{v_1}&#8217; = c_0(W_0.\vec{v_0}+\vec{v_1}) \]</p>
+<p>which will then give new states in layer $L_2$</p>
+<p>\[<br />
+\vec{v_2}&#8217; = c_1(W_1.\vec{v_1}&#8217;+\vec{v_2}) \]</p>
+<p>and so on, rippling through the network, until we get as the output</p>
+<p>\[<br />
+\vec{v_p} = c_{p-1}(W_{p-1}.\vec{v_{p-1}}&#8217;) \]</p>
+<p>where all the $c_i$ are fixed smooth <em>activation functions</em> $c_i : \mathbb{R}^{N_{i+1}} \rightarrow \mathbb{R}^{N_{i+1}}$.</p>
+<p>This is just the dynamic, or forward working of the network.</p>
+<p>The <em>learning</em> happens by comparing the computed output with the expected output, and working backwards through the network to alter slightly the state-vectors in all layers, and the weight-matrices between them. This process is called <a href="https://en.wikipedia.org/wiki/Backpropagation"><em>back-propagation</em></a>, and involves the <em>gradient descent</em> procedure.</p>
+<p>Even from this (over)simplified picture it seems doubtful that <em>set valued (!)</em> toposes are suitable to describe deep neural networks, as the <a href="https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory">Paris-Huawei-topos-team</a> claims in their recent paper <a href="https://arxiv.org/abs/2106.14587">Topos and Stacks of Deep Neural Networks</a>.</p>
+<p>Still, there is a vast generalisation of neural networks: <em>learners</em>, developed by <a href="http://www.brendanfong.com/">Brendan Fong</a>, <a href="https://math.mit.edu/~dspivak/">David Spivak</a> and <a href="http://www.normalesup.org/~tuyeras/">Remy Tuyeras</a> in their paper <a href="https://arxiv.org/abs/1711.10455">Backprop as Functor: A compositional perspective on supervised learning</a> (which btw is an excellent introduction for mathematicians to neural networks).</p>
+<p>For any two sets $A$ and $B$, a <em>learner</em> $A \rightarrow B$ is a tuple $(P,I,U,R)$ where</p>
+<ul>
+<li>$P$ is a set, a <em>parameter space</em> of some functions from $A$ to $B$.</li>
+<li>$I$ is the <em>interpretation map</em> $I : P \times A \rightarrow B$ describing the functions in $P$.</li>
+<li>$U$ is the <em>update map</em> $U : P \times A \times B \rightarrow P$, part of the learning procedure. The idea is that $U(p,a,b)$ is a map which sends $a$ closer to $b$ than the map $p$ did.</li>
+<li>$R$ is the <em>request map</em> $R : P \times A \times B \rightarrow A$, the other part of the learning procedure. The idea is that the new element $R(p,a,b)=a&#8217;$ in $A$ is such that $p(a&#8217;)$ will be closer to $b$ than $p(a)$ was.</li>
+</ul>
+<p>The request map is also crucial is defining the <em>composition</em> of two learners $A \rightarrow B$ and $B \rightarrow C$. $\mathbf{Learn}$ is the (symmetric, monoidal) category with objects all sets and morphisms equivalence classes of learners (defined in the natural way).</p>
+<p>In this way we can view a deep neural network with $p$ layers as before to be the composition of $p$ learners<br />
+\[<br />
+\mathbb{R}^{N_0} \rightarrow \mathbb{R}^{N_1} \rightarrow \mathbb{R}^{N_2} \rightarrow \dots \rightarrow \mathbb{R}^{N_p} \]<br />
+where the learner describing the transition from the $i$-th to the $i+1$-th layer is given by the equivalence class of data $(A_i,B_i,P_i,I_i,U_i,R_i)$ with<br />
+\[<br />
+A_i = \mathbb{R}^{N_i},~B_i = \mathbb{R}^{N_{i+1}},~P_i = M_{N_{i+1} \times N_i}(\mathbb{R}) \times \mathbb{R}^{N_{i+1}} \]<br />
+and interpretation map for $p = (W_i,\vec{v}_{i+1}) \in P_i$<br />
+\[<br />
+I_i(p,\vec{v_i}) = c_i(W_i.\vec{v_i}+\vec{v}_{i+1}) \]<br />
+The update and request maps (encoding back-propagation and gradient-descent in this case) are explicitly given in theorem III.2 of the paper, and they behave functorial (whence the title of the paper).</p>
+<p>More generally, we will now associate objects of a topos (actually just sheaves over a simple topological space) to a network op $p$ learners<br />
+\[<br />
+A_0 \rightarrow A_1 \rightarrow A_2 \rightarrow \dots \rightarrow A_p \]<br />
+inspired by section I.2 of <a href="https://arxiv.org/abs/2106.14587">Topos and Stacks of Deep Neural Networks</a>.</p>
+<p>The underlying category will be the poset-category (the opposite of the ordering of the layers)<br />
+\[<br />
+0 \leftarrow 1 \leftarrow 2 \leftarrow \dots \leftarrow p \]<br />
+The presheaf on a poset is a locale and in this case even the topos of sheaves on the topological space with $p+1$ nested open sets.<br />
+\[<br />
+X = U_0 \supseteq U_1 \supseteq U_2 \supseteq \dots \supseteq U_p = \emptyset \]<br />
+If the learner $A_i \rightarrow A_{i+1}$ is (the equivalence class) of the tuple $(A_i,A_{i+1},P_i,I_i,U_i,R_i)$ we will now describe two sheaves $\mathcal{W}$ and $\mathcal{X}$ on the topological space $X$.</p>
+<p>$\mathcal{W}$ has as sections $\Gamma(\mathcal{W},U_i) = \prod_{j=i}^{p-1} P_i$ and the obvious projection maps as the restriction maps.</p>
+<p>$\mathcal{X}$ has as sections $\Gamma(\mathcal{X},U_i) = A_i \times \Gamma(\mathcal{W},U_i)$ and restriction map to the next smaller open<br />
+\[<br />
+\rho^i_{i+1}~:~\Gamma(\mathcal{X},U_i) \rightarrow \Gamma(\mathcal{X},U_{i+1}) \qquad (a_i,(p_i,p&#8217;)) \mapsto (p_i(a_i),p&#8217;) \]<br />
+and other retriction maps by composition.</p>
+<p>A major result in <a href="https://arxiv.org/abs/2106.14587">Topos and Stacks of Deep Neural Networks</a> is that back-propagation is a natural transformation, that is, a sheaf-morphism $\mathcal{X} \rightarrow \mathcal{X}$.</p>
+<p>In this general setting of layered learners we can always define a map on the sections of $\mathcal{X}$ (for every open $U_i$), $\Gamma(\mathcal{X},U_i) \rightarrow \Gamma(\mathcal{X},U_i)$<br />
+\[<br />
+(a_,(p_i,p&#8217;)) \mapsto (R(p_i,a_i,p_i(a_i)),(U(p_i,a_i,p_i(a_i)),p&#8217;) \]<br />
+But, in order for this to define a sheaf-morphism, compatible with the restrictions, we will have to impose restrictions on the update and restriction maps of the learners, in general.</p>
+<p>Still, in the special case of deep neural networks, this compatibility follows from the functoriality property of <a href="https://arxiv.org/abs/1711.10455">Backprop as Functor: A compositional perspective on supervised learning</a>.</p>
+<p>To be continued.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Huawei and topos theory</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 05 Jan 2022 11:09:55 +0000</pubDate>
+				<category><![CDATA[france]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Belfiore]]></category>
+		<category><![CDATA[Bennequin]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[Lafforgue]]></category>
+		<category><![CDATA[toposes]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9967</guid>
+
+					<description><![CDATA[Apart from the initiatives I mentioned last time, Huawei set up a long term collaboration with the IHES, the Huawei Young Talents Program. &#8220;Every year,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Apart from the initiatives I mentioned <a href="https://lievenlebruyn.github.io/neverendingbooks/huawei-and-french-mathematics">last time</a>, Huawei set up a long term collaboration with the IHES, the <a href="https://www.ihes.fr/en/launch-huawei-young-talents-program/">Huawei Young Talents Program</a>.</p>
+<p>&#8220;Every year, the Huawei Young Talents Program will fund on average 7 postdoctoral fellowships that will be awarded by the Institute’s Scientific Council, only on the basis of scientific excellence. The fellows will collaborate with the Institute’s permanent professors and work on topics of their interest.&#8221;</p>
+<p>Over the next ten years, Huawei will invest 5 million euros in this program, and an additional 1 million euros goes into the creation of the &#8216;Huawei Chair in Algebraic Geometry&#8217;. It comes as no particular surprise that the first chairholder is <a href="https://en.wikipedia.org/wiki/Laurent_Lafforgue">Laurent Lafforgue</a>.</p>
+<p>At the launch of this Young Talents Program in November 2020, Lafforgue gave a talk on <a href="https://www.youtube.com/watch?v=LP4pANpKrcs">The creative power of categories: History and some new perspectives</a>.</p>
+<p>The latter part of the talk (starting at 47:50) clarifies somewhat Huawei&#8217;s interest in topos theory, and what Lafforgue (and others) hope to get out of their collaboration with the telecom company.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/LP4pANpKrcs?start=2870" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Clearly, Huawei is interested in <a href="https://en.wikipedia.org/wiki/Deep_learning">deep neural networks</a>, and if you can convince them your expertise is useful in that area, perhaps they&#8217;ll trow some money at you.</p>
+<p><a href="https://scholar.google.fr/citations?user=foOK-F8AAAAJ&#038;hl=fr">Jean-Claude Belfiore</a>, another mathematician turned Huaweian, is convinced topos theory is the correct tool to study DNNs. Here&#8217;s his Huawei-clip from which it is clear he was originally hired to improve <a href="https://www.ft.com/brandsuite/huawei/huawei-rolls-out-the-red-carpet-for-science/index.html">Huawei&#8217;s polar code</a>.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/JAEMEwYqSto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>At the 2018 IHES-Topos conference he gave the talk <a href="https://www.youtube.com/watch?v=-wnz9ADf8zk">Toposes for Wireless Networks: An idea whose time has come</a>, and recently he arXived the paper <a href="https://arxiv.org/abs/2106.14587">Topos and Stacks of Deep Neural Networks</a>, written jointly with <a href="https://en.wikipedia.org/wiki/Daniel_Bennequin">Daniel Bennequin</a>. Probably, I&#8217;ll come back to this paper another time, for now, the nForum has <a href="https://nforum.ncatlab.org/discussion/13133/understanding-preprint-topos-and-stacks-of-deep-neural-networks/">this page</a> on it.</p>
+<p>Towards the end of his talk, Lafforgue suggests the idea of creating an institute devoted to toposes and their applications, endorsed by IHES and supported by Huawei. Surely he knows that the <a href="https://topos.institute/">Topos Institute</a> already exists.</p>
+<p>And, if you wonder why Huawei trows money at IHES rather than your university, I leave you with Lafforgue&#8217;s parting words:</p>
+<p>&#8220;IHES professors are able to think and evaluate for themselves, whereas most mathematicians just follow &#8216;group thinking'&#8221;</p>
+<p>Ouch!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

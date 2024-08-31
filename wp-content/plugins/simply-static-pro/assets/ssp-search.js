@@ -28,30 +28,48 @@ if (null !== fuse_config_element) {
         }
     }
 
-    function loadConfig(callback) {
-        let xobj = new XMLHttpRequest();
-        xobj.overrideMimeType("application/json");
-        xobj.open('GET', config_url, false);
-        xobj.onreadystatechange = function () {
-            if (xobj.readyState == 4 && xobj.status == "200") {
-                // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-                callback(xobj.responseText);
+
+
+    async function loadConfig(callback) {
+
+        try {
+            const response = await fetch( config_url, {
+                headers: {
+                    "Content-Type": "application/json",
+                }
+            });
+            if (!response.ok) {
+                throw new Error(`Response status: ${response.status}`);
             }
-        };
-        xobj.send(null);
+
+            const json = await response.text();
+            callback(json);
+
+        } catch (error) {
+            console.error(error.message);
+        }
+
+
     }
 
-    function loadIndex(callback) {
-        let xobj = new XMLHttpRequest();
-        xobj.overrideMimeType("application/json");
-        xobj.open('GET', index_url, false);
-        xobj.onreadystatechange = function () {
-            if (xobj.readyState == 4 && xobj.status == "200") {
-                // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-                callback(xobj.responseText);
+    async function loadIndex(callback) {
+        try {
+            const response = await fetch( index_url, {
+                headers: {
+                    "Content-Type": "application/json",
+                }
+            });
+            if (!response.ok) {
+                throw new Error(`Response status: ${response.status}`);
             }
-        };
-        xobj.send(null);
+
+            const json = await response.text();
+            callback(json);
+
+        } catch (error) {
+            console.error(error.message);
+        }
+
     }
 
     loadIndex(function (response) {

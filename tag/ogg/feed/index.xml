@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ogg &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/ogg/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 20 Jan 2018 13:56:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>a non-commutative Jack Daniels problem</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 20 Jan 2018 13:56:06 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Duncan]]></category>
+		<category><![CDATA[Jack Daniels]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[Ogg]]></category>
+		<category><![CDATA[Ono]]></category>
+		<category><![CDATA[Pizer]]></category>
+		<category><![CDATA[Plazas]]></category>
+		<category><![CDATA[Ricard]]></category>
+		<category><![CDATA[Tits]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7776</guid>
+
+					<description><![CDATA[At a seminar at the College de France in 1975, Tits wrote down the order of the monster group \[ \# \mathbb{M} = 2^{46}.3^{20}.5^9.7^6.11^2.13^3.17·19·23·29·31·41·47·59·71 \]&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/jackdanielsMoonshine.jpg"></p>
+<p>At a seminar at the College de France in 1975, Tits wrote down the order of the monster group</p>
+<p>\[<br />
+\# \mathbb{M} = 2^{46}.3^{20}.5^9.7^6.11^2.13^3.17·19·23·29·31·41·47·59·71 \]</p>
+<p><a href="https://en.wikipedia.org/wiki/Andrew_Ogg">Andrew Ogg</a>, who attended the talk, noticed that the prime divisors are precisely the primes $p$ for which the characteristic $p$ super-singular $j$-invariants are all defined over $\mathbb{F}_p$.</p>
+<p>Here&#8217;s Ogg&#8217;s paper on this: <a href="http://www.numdam.org/article/SDPP_1974-1975__16_1_A4_0.pdf">Automorphismes de courbes modulaires</a>,  Séminaire Delange-Pisot-Poitou. Théorie des nombres, tome 16, no 1 (1974-1975).</p>
+<p>Ogg offered a bottle of Jack Daniels for an explanation of this coincidence.</p>
+<p>Even <a href="https://en.wikipedia.org/wiki/Richard_Borcherds">Richard Borcherds</a> didn&#8217;t claim the bottle of Jack Daniels, though his proof of the monstrous moonshine conjecture is believed to be the best explanation, at present.</p>
+<p>A few years ago, John Duncan and Ken Ono posted a paper <a href="https://arxiv.org/abs/1411.5354">&#8220;The Jack Daniels Problem&#8221;</a>, in which they prove that monstrous moonshine implies that if $p$ is not one of Ogg&#8217;s primes it cannot be a divisor of $\# \mathbb{M}$. However, the other implication remains mysterious.</p>
+<p>Duncan and Ono say:</p>
+<p>&#8220;This discussion does not prove that every $p ∈ \text{Ogg}$ divides $\# \mathbb{M}$. It merely explains how the first principles of moonshine suggest this implication. Monstrous moonshine is the proof. Does this then provide a completely satisfactory solution to Ogg’s problem? Maybe or maybe not. Perhaps someone will one day furnish a map from the characteristic $p$ supersingular $j$-invariants to elements of order $p$ where the group structure of $\mathbb{M}$ is apparent.&#8221;</p>
+<p>I don&#8217;t know whether they claimed the bottle, anyway.</p>
+<p>But then, what is the <strong>non-commutative Jack Daniels Problem</strong>?</p>
+<p>A footnote on the first page of Conway and Norton&#8217;s &#8216;Monstrous Moonshine&#8217; paper says:</p>
+<p>&#8220;Very recently, A. Pizer has shown these primes are the only ones that satisfy a certain conjecture of Hecke from 1936 relating modular forms of weight $2$ to quaternion algebra theta-series.&#8221;</p>
+<p>Pizer&#8217;s paper is <a href="https://msp.org/pjm/1978/79-2/pjm-v79-n2-p16-s.pdf">&#8220;A note on a conjecture of Hecke&#8221;</a>.</p>
+<p>Maybe there&#8217;s a connection between monstrous moonshine and the arithmetic of integral quaternion algebras. Some hints:</p>
+<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative">commutation relations in the Big Picture</a> are reminiscent of the <a href="http://www.m-hikari.com/imf/imf-2012/41-44-2012/perngIMF41-44-2012.pdf">meta-commutation relations for Hurwitz quaternions</a>, originally due to Conway in his booklet on Quaternions and Octonions.</p>
+<p>The fact that the $p$-tree in the Big Picture has valency $p+1$ comes from the fact that the Brauer-Severi of $M_2(\mathbb{F}_p)$ is $\mathbb{P}^1_{\mathbb{F}_p}$. In fact, the Big Picture should be related to the Brauer-Severi scheme of $M_2(\mathbb{Z})$.</p>
+<p>Then, there&#8217;s Jorge Plazas claiming that Connes-Marcolli&#8217;s $GL_2$-system <a href="https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine">might be related to moonshine</a>.</p>
+<p>One of the first things I&#8217;ll do when I return is to run to the library and get our copy of Shimura&#8217;s &#8216;Introduction to the arithmetic theory of automorphic functions&#8217;.</p>
+<p>Btw. the bottle in the title image is not a Jack Daniels but the remains of a bottle of Ricard, because I&#8217;m still in the French mountains.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

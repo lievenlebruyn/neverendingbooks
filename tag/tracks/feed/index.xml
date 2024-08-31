@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tracks &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/tracks/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 09 Jul 2011 12:56:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>eBook &#8211; ePub : comments</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/ebook-the-bourbaki-code-v1-0/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/ebook-the-bourbaki-code-v1-0/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 09 Jul 2011 12:56:22 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[bourbaki]]></category>
+		<category><![CDATA[Bourbaki code]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[tracks]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5545</guid>
+
+					<description><![CDATA[There were some great comments by Peter before this post was taken offline. So, here they are, once again.]]></description>
+										<content:encoded><![CDATA[<p>There were some great comments by Peter before this post was taken offline. So, here they are, once again.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/ebook-the-bourbaki-code-v1-0/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>get your brain subscribed to</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/get-your-brain-subscribed-to/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/get-your-brain-subscribed-to/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 08 Feb 2006 08:10:30 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[foaf]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[tracks]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=286</guid>
+
+					<description><![CDATA[In the &#8216;subscribe to my brain&#8217; post I promised to blog on how-to get your own button up and running on your homepage. It seems&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In the<br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=238">&#8216;subscribe<br />
+to my brain&#8217; post</a> I promised to blog on how-to get your own </p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/brain.png"/></p>
+<p>button up and running on your homepage.  It seems rather unlikely<br />
+that I&#8217;ll ever keep that promise if I don&#8217;t do it right away. So, here<br />
+we go for a quick tour :</p>
+<p><strong>step 1 : set up a rudimentary<br />
+FoaF-file</strong> : read the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/foaf/">FoaF post</a> if<br />
+you dont know what it&#8217;s all about. The easiest way to get a simple<br />
+FoaF-file of your own is to go to the <a href="http://www.ldodds.com/foaf/foaf-a-matic.html">FoaF-a-matic<br />
+webpage</a> and fill in the details you feel like broadcasting over the<br />
+web, crucial is your name and email information (for later use) but<br />
+clearly the more details you fill out and the more Friends you add the<br />
+more useful your file becomes. Click on the &#8216;foaf-me&#8217; button and<br />
+copy the content created. Observe that there is no sign of my email<br />
+adress, it is encrypted in the _mbox_sha1sum_ data. Give this<br />
+file a name like _foaf.rdf_ or _myname.rdf_ and put it on<br />
+your webserver to make it accessible. Also copy your<br />
+_mbox_sha1sum_ info for later <a href="http://rdfweb.org/topic/Smushing">smushing</a>.</p>
+<p><strong>step 2 : subscribe to online services and modify your<br />
+online-life accordingly</strong> : probably you have already a few of<br />
+these accounts, but if not, take a free subscription just for fun and<br />
+(hopefully) later usage to the following sites :</p>
+<ul>
+<li><a href="http://del.icio.us/">del.icio.us</a> a social bookmarks manager
+</li>
+<li><a href="http://www.citeulike.org/">citeUlike</a> a service to<br />
+organise your academic papers  </li>
+<li><a href="http://www.connotea.org/">connotea</a> a reference management<br />
+service for scientists  </li>
+<li><a href="http://www.bloglines.com/">bloglines</a> a web-based personal news<br />
+aggregator  </li>
+<li><a href="http://www.43things.com/">43things</a> a<br />
+&#8216;What do you want to do with your life?&#8217; service  </li>
+<li><a href="http://www.audioscrobbler.net/">audioscrobbler</a> a database that<br />
+tracks listening habits and does wonderful things with statistics  </li>
+<li><a href="http://www.backpackit.com/">backpackit</a> a &#8216;be better organized&#8217; service (Update october 2017 : Tom Howard emails: &#8220;I thought I’d reach out because we’ve just updated our guide which reviews the best alternatives to Backpack. Here’s the <a href="https://blogging.im/backpack-alternatives">link</a>&#8221;   </li>
+<li><a href="http://www.flickr.com/">flickr</a> an online photo management and<br />
+sharing application  </li>
+<li><a href="http://www.technorati.com/">technorati</a> a Google-for-weblogs
+</li>
+<li><a href="http://upcoming.org/">upcoming</a> a social event<br />
+calendar  </li>
+<li><a href="http://webjay.org/">webjay</a> a playlist<br />
+community  </li>
+</ul>
+<p>So far, I&#8217;m addicted to del.icio.us and use<br />
+citeUlike but hardly any of the others (but I may come back to this<br />
+later). The great thing about these services is that you get more<br />
+value-information back if you feed more into the system. For example, if<br />
+you use del.icio.us as your &#8216;public&#8217; bookmarks-file you get to<br />
+know how many other people have bookmarked the same site and you can<br />
+access their full bookmarks which often is a far more sensible way to<br />
+get at the information you are after than mindless Googling. So, whereas<br />
+I was at first a bit opposed to the exhibisionist-character of these<br />
+services (after all, anyone with web-access can have a look at<br />
+&#8216;your&#8217; info), I&#8217;ve learned that the &#8216;social&#8217; feature of<br />
+these services can be beneficial to get the right information I want.<br />
+Hence, the hardest part is not to get an account with these services but<br />
+to adopt your surfing behavior in such a way that you maximize this<br />
+added value. And, as I mentioned before, I&#8217;m doing badly myself but hope<br />
+that things will improve&#8230;</p>
+<p><strong>step 3 : turn these<br />
+accounts into an OPML file</strong> : Knowing the URL of your foaf-file<br />
+and sha1-info (step 1) and your online accounts, go to the <a
+href="http://www.ldodds.com/foaf/online-account">FOAF Online Account<br />
+Description Generator</a> and feed it with your data. You will then get<br />
+another foaf-file back (save the source in a file such as<br />
+_accounts.rdf_ and put it on your webserver). Read the Lost Boy&#8217;s<br />
+posts <a href="http://www.ldodds.com/blog/archives/000217.html">Subscribe to my<br />
+brain</a> and <a href="http://www.ldodds.com/blog/archives/000218.html">foaf:<br />
+OnlineAccount Generator</a> for more background info. Then, use the <a href="http://www.ldodds.com/foaf/brain-subscribe">SubscribeToMyBrain-<br />
+form</a> to get an OPML-file out of the account.rdf file and your sha1.<br />
+Save the source as _mybrain.opml_.</p>
+<p><strong>step 4 :<br />
+add/delete information you want</strong> : The above method uses generic<br />
+schemes to deduce relevant RSS-data from an account name, which works<br />
+for some services, but doesn&#8217;t for all. So, if you happen to know the<br />
+URL of RSS-feeds for one of these services, you can always add it<br />
+manually to the OPML-file (or delete data you don&#8217;t want to<br />
+publish&#8230;). My own attitude is to make all public web-data<br />
+available and to leave it to the subscriber to unsubscribe those parts<br />
+of my brain (s)he is not interested in. I know there are people whoo are<br />
+mainly interested to find out whether I put another paper online, would<br />
+tolerate some weblog-posts but have no interest in my musical tast,<br />
+whereas there are others who would like me to post more on 43things,<br />
+flickr or upcoming and don&#8217;t give a damn about my mathematics&#8230;<br />
+Apart from these online subscriptions, it is also a good idea to include<br />
+additional RSS-feeds you produce, such as those of your weblog or use my<br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=239">Perl<br />
+script</a> to have your own arXiv-feeds.</p>
+<p><strong>step 5 : make<br />
+your &#8216;subscribe to my brain&#8217;-button</strong> : Now, put the<br />
+OPML-file on your webserver, put the button</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/brain.png"/></p>
+<p>on your<br />
+homepage and link it to the file. Also, add information on your site,<br />
+similar to the one I gave in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=238">my own<br />
+subscription post</a> so that your readers know what to do when do want<br />
+to subscribe to (parts of) your brain. Finally, (and optionally though<br />
+I&#8217;d wellcome it) send me an email with your URL so that I can subscribe<br />
+(next time you&#8217;re in Antwerp I&#8217;ll buy you a beer) and for the first few<br />
+who do so and are working in noncommutative geometry and/or<br />
+noncommutative algebra, I&#8217;ll send a copy of a <a href="http://www.lulu.com/neverendingbooks">neverending book</a>. Mind<br />
+you, this doesn&#8217;t apply to local people, I&#8217;m already subscribed to their<br />
+brain on a daily basis&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/get-your-brain-subscribed-to/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>tiger tracks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/tiger-tracks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/tiger-tracks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 13 Jun 2005 08:17:21 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Tiger]]></category>
+		<category><![CDATA[tracks]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=288</guid>
+
+					<description><![CDATA[I got Tracks working under Tiger by trial and error starting with a suggestion from Jan who found a fix here. From this I stumbled&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I got<br />
+Tracks working under Tiger by trial and error starting with a suggestion<br />
+from Jan who found a fix <a href="http://www.macosxhints.com/article.php?story=20050526080438129#comments">here</a>. From this I stumbled on for an hour or so on my iMac<br />
+untill near the very end I found that the tracks-page <a href="http://dev.rousette.org.uk/wiki/Tracks/Install/Mac">itself</a> now<br />
+has a Tiger-section. So, let&#8217;s try to do it all over again from fresh on<br />
+my regular machine (a little iBook).  </p>
+<p>Start with <a href="http://wiki.rubyonrails.com/rails/show/HowtoInstallOnOSXTiger"><br />
+this page</a> and read it all the way to the comments. There is a<br />
+comment by Jamie on installing Rails and MySQL on a fresh Tiger which<br />
+looks like the thing I want followed immediately by another post by Jose<br />
+Marinez on <a href="http://jmarinez.typepad.com/blog/2005/06/installing_ruby.html"><br />
+Installing Ruby on Rails on Tiger</a> which I decided to follow by the<br />
+letter (with one noticeable exception!). So first I downloaded the <a href="http://users.tpg.com.au/aarnold/Ruby%20on%20Rails.zip">Rails<br />
+installer on Tiger</a>. Next, an install of the Standard version  of<br />
+MySQL. I used <a href="http://dev.mysql.com/downloads/mysql/4.0.html">version 4.0 for OS<br />
+X 10.3 !!!! NOT 4.1 !!!!</a>. I installed MySQL and the StartUpItem.<br />
+Next, I opened Terminal and typed the following commands</p>
+<p>&#8211; cd<br />
+/usr/local/mysql<br /> &#8211; sudo chown -R mysql data/<br /> &#8211; sudo echo<br
+/> &#8211; sudo ./bin/mysqld_safe &#038;  </p>
+<p>and verified it by performing a<br />
+simple test</p>
+<p>/usr/local/mysql/bin/mysql test</p>
+<p>Next, I<br />
+secured everything by having a root-password</p>
+<p>/usr/local/mysql/bin/mysqladmin -u root password<br />
+<strong>__</strong>*</p>
+<p>Then I remembered that I&#8217;d better<br />
+not have to type the whole path so I did a</p>
+<p>echo &#8216;export<br />
+PATH=/usr/local/mysql/bin:$PATH&#8217; >> ~/.bash_profile</p>
+<p>Also, I want<br />
+to admin MySQL via <a href="http://www.phpmyadmin.net/home_page/index.php">phpmyadmin</a> so I<br />
+installed it. Then I enabled my webserver to use PHP using <a href="http://phpmac.com/articles.php?view=225">this post</a> though I<br />
+did use vi rather than pico! Next, i did a check whether everything<br />
+worked fine by typing in safari</p>
+<p>http://localhost/~lieven/phpmyadmin/index.php</p>
+<p>Followed by<br />
+a</p>
+<p>sudo gem install mysql ‚Äì<br />
+‚Äìwith-mysql-dir=/usr/local/mysql</p>
+<p>Now, it is time to get the <a href="http://www.rousette.org.uk/projects/downloads/">Tracks-package</a><br />
+and to follow <a href="http://dev.rousette.org.uk/file/trunk/tracks/doc/README.txt?rev=72
+">these instructions</a> And, it works! Here is the proof :</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/tigertracks.jpg" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/tiger-tracks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>balm or poison</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/balm-or-poison/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/balm-or-poison/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 09 May 2005 06:20:14 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Tiger]]></category>
+		<category><![CDATA[tracks]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=274</guid>
+
+					<description><![CDATA[Don&#8217;t try to follow the previous post unless you want to end up in a neverending (sic!) series of re-installs, unrecognized harddisks at start-up and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Don&#8217;t try<br />
+to follow the previous post unless you want to end up in a neverending<br />
+(sic!) series of re-installs, unrecognized harddisks at start-up and a<br />
+few kernel-panics!  </p>
+<p>At this moment I know of NO safe way to use <a href="http://www.bombich.com/software/ccc.html">Carbon Copy Cloner</a><br />
+to make a bootable clone of my HD. Here is the only way I managed to<br />
+make a bootable copy :</p>
+<p>&#8211; before you start, click on the<br />
+target-partition of the external HD and use _File/Get Info_ and<br />
+uncheck under _Ownership &#038; Permissions_ the box _Ignore<br />
+ownership on this volume_<br /> &#8211; this might be enough for you but I<br />
+had to use DiskUtility to _Erase_ the externet HD-partition.<br
+/> &#8211; then follow the previous post (that is do _sudo open_ on CCC<br />
+and then proceed as usual <strong>BUT</strong> make sure in your<br />
+prefernces only the box _Make Bootable_ is checked and certainly<br />
+no syncing-options!)   </p>
+<p>A bit too drastic for me. Its a bit like<br />
+: make a DMG of your MacintoshHD and do a restore on an empty external<br />
+partition. It seems that Tiger and Panther have very different<br />
+DNA-samples bringing a lot of excellent free- and shareware developers<br />
+near a nervous breakdown. Have the Apple-people ever heard of something<br />
+like _backwards compatibility_? Anyway, I&#8217;m not going to try<br />
+making another backup again until Mike Bombich has released a<br />
+Tiger-version of CCC!</p>
+<p>Also, don&#8217;t try to follow the suggestions<br />
+of my <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=65">Tracks<br />
+post</a>. It certainly is not enough to get tracks running under Tiger<br />
+(and probably also not under Panther as at the time I did a strange mix<br />
+of following this path and doing some manual installs using the <a href="http://hivelogic.com/archives/2005/03/18/ruby_install/">Hivelogic<br />
+page</a>. This time, I got strange errors coming from the Ruby-MySQL<br />
+dialogue. I&#8217;m not going to try installing MySQL, PHP and Tracks before<br />
+someone like <a href="http://www.entropy.ch/software/macosx/mysql/">Marc<br />
+Lyanage</a> tells that it is safe to use the Panther-packages under<br />
+Tiger!</p>
+<p>So, for the moment I&#8217;m just going to use my minimal<br />
+system (Tiger+Xcode Tools+TeX (following the instructions from <a href="http://www.uoregon.edu/~koch/texshop/obtaining.html">this page</a><br />
+)+some excellent free and shareware like <a href="http://www.devon-technologies.com/products/devonthink/overview.php">DevonThink</a>  , <a href="http://www.kainjow.com/pod2go/">Pod2Go</a><br />
+, <a href="http://flyingmeat.com/voodoopad/">VoodooPad</a> , <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a> ,<br />
+<a href="http://quicksilver.blacktree.com/">QuickSilver</a> , <a href="http://www.panic.com/transmit/index.html">Transmit</a> and  <a href="http://ranchero.com/netnewswire/">NetNewsWire</a>  ) until the<br />
+experts have tamed Tiger. Meanwhile, I&#8217;ll just confine myself to the<br />
+_Dashboard-Kintergarten_ !</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/balm-or-poison/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>tiger days 1</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/tiger-days-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/tiger-days-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 08 May 2005 07:24:28 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[Tiger]]></category>
+		<category><![CDATA[tracks]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=290</guid>
+
+					<description><![CDATA[It should be really day 2 but yesterday evening I was a bit overoptimistic and tried to get MySQL, Ruby, Rails &#38; Tracks installed and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It<br />
+should be really day 2 but yesterday evening I was a bit overoptimistic<br />
+and tried to get MySQL, Ruby, Rails &amp; Tracks installed and in the<br />
+process totally wrecked my Ruby-system (and probably a few things more).<br />
+Besides, I found out that the _Carbon Copy Cloner_ work-around<br />
+doesn\&#8217;t really work (that is, one canNOT boot from the cloned copy)<br />
+etc. etc. In short, a lot of frustration. So today, I started all over<br />
+again (using the install notes below to guide me and so I could reduce<br />
+the total time to about 2 hrs). But, as this was the easy bit (still to<br />
+come : MySQL, PHP, WordPress+LatexRender, Ruby&amp;Tracks etc.) and I<br />
+don\&#8217;t want to redo everything again when I do something horribly wrong<br />
+I changed my overall tactics. I\&#8217;ll keep identical copies on my iBook<br />
+and on my iMac and do the next batch of installs on just one machine and<br />
+check whether everything works before syncing it to the other. If<br />
+something gets messed up I resync to the state of the previous day. Just<br />
+one question left : what program to use for the backup/restore now that<br />
+CCC seems to be broken? Fortunately, there is still <a href="http://sourceforge.net/projects/psyncx/">PsyncX</a> which still<br />
+seems to work fine (at least today&#8230;). Below, for what it is worth,<br />
+yesterday\&#8217;s log of events :  </p>
+<p>Okay, I checked that I can still<br />
+TeX papers and connect to the printer on the iMac (after Archive/Install<br />
+to Tiger). Most other things have broken down, such as my <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=271">mind on tracks</a><br />
+and my MySQL-database, but I\&#8217;m quite hopeful I can rebuild them all.<br />
+So, time for a drastic _Erase/Install_ on my iBook.   </p>
+<p><strong>12:04</strong> : One final safety check. Connect the external<br />
+HD, select the _Carbon Copy Cloned_ partition as StartUp Disk and<br />
+do a Restart to verify that it can be cloned back should everything go<br />
+terribly wrong. Seems to work nicely, so change again from StartUp disk,<br />
+restart and disconnect the external HD.  </p>
+<p><strong>12:16</strong><br />
+: Printed the <a href="http://www.macdevcenter.com/lpt/a/5825">macdevcenter install<br />
+tips</a> and made a fresh pot of coffee. Took the unread part of the<br />
+newspaper with me, connected Jan\&#8217;s iPod, made it the new StartUp disk<br />
+and did another Restart.  </p>
+<p><strong>12:24</strong> : Selected<br />
+\&#8217;English\&#8217; as the main language. Selected _DiskUtility_ from the<br />
+_Utilities_ menu (before you have to select a Disk destination).<br />
+Selected the HD, clicked _Erase_ and choose _Erase Free<br />
+Space_ first, then choose the SecurityOption to \&#8217;zero out data\&#8217;.<br />
+(Both steps require a lot of extra time but what is the point of doing<br />
+an Erase if you don\&#8217;t erase properly? Btw. the macdev-article does not<br />
+agree with me on this point.) Meanwhile, had some coffee and a<br />
+read&#8230;  </p>
+<p><strong>13:23</strong> : Did quit DiskUtility<br />
+which brought me back to the Installer. Selected the HD and clicked on<br />
+_Options_ to select Erase&amp;Install and clicked Continue. Then<br />
+clicked on _Custom Install_ to choose which Packages to Install.<br />
+Did choose _all_ Printer Drivers but in _Language<br />
+Translations_ only selected : French, German and Dutch. Didn\&#8217;t<br />
+select X11! Clicked : _Install_ and had yet another cup of<br />
+coffee&#8230;  </p>
+<p><strong>13:45</strong> : Restarted! Got me into<br />
+the SetupAssistant. Didn\&#8217;t choose to transfer info from another Mac. It<br />
+selected our wireless network immediately, and asked me for my .Mac<br />
+account info. Did create my main account and finished at<br />
+<strong>13:53</strong> Only had to stop iTunes from wanting to put<br />
+PodSoftware onto the connected iPod&#8230; Checked for SoftwareUpdate<br />
+but there was none. Am connected to internet but had to add my other<br />
+mail-account. Done and received email at <strong>14:05</strong> Found<br />
+our Printer but did gray out two-sided printing (have to remember later<br />
+how I did set this up&#8230;).  </p>
+<p><strong>14:12</strong> : Time<br />
+to add the _Xcode Tools_ : opened the folder on the iPod and<br />
+clicked on _XcodeTools.mpkg_ . Followed he default installation.<br />
+Finished and deconnected the iPod at <strong>14:24</strong> Took a break<br />
+to decide how to continue. (21.97Gb available) Update today : do a<br />
+custom install using also cross-development!  </p>
+<p><strong>14:37</strong> : Okay, first things first : get myself a<br />
+working TeX-system starting from <a href="http://www.uoregon.edu/~koch/texshop/obtaining.html">this page</a><br />
+to get the latest version of TeXShop and the i-Installer and place both<br />
+in the Applications folder and in the Dock. Placed the _To Your<br />
+Library_ folder of TeXShop in my ~/Library (containing the texmf<br />
+etc. path for pdfsync). Then followed <a href="http://www.uoregon.edu/~koch/texshop/installing.html">this<br />
+page</a> and the i-Installer to install the packages in the right order<br />
+:  </p>
+<ul>
+<li>FreeType 2   </li>
+<li>libwmf   </li>
+<li>Ghostscript<br />
+8   </li>
+<li>ImageMagick   </li>
+<li>FontForge   </li>
+<li>TeX (did a<br />
+Full install with 2005 Devel.)   </li>
+</ul>
+<p>Had a brief look<br />
+through the other packages and maybe I\&#8217;ll install _Latex to RTF_<br />
+and _RTF 2 Latex_ later. Created a _DMG_ folder and put<br />
+the downloaded disk images into it. Created a_PAPERS_ folder and<br />
+transferred the last version of the paper with Stijn to check TeX but<br />
+clearly it couldn\&#8217;t find the _diagrams.sty_ file (I know I have<br />
+to quit using this, but I\&#8217;ll better get it over for backward<br />
+compatibility; put it into ~/Library/texmf/tex/latex/. Ran TeX again<br />
+without problems this time and checked the nice source-PDF syncing<br />
+(apple-click to jump). Finished : <strong>15:37</strong>  </p>
+<p><strong>15:56</strong> : As long as administration sends me<br />
+_Word_ documents and expects me to read them, I have no choice<br />
+but to install _Office X_ . The upshot was that while searching<br />
+for the OfficeCD I found also the HP LaserJet 1320 CD and installed the<br />
+driver so now I can print 2-sided (using Printer Setup Utility) . Done :<br />
+<strong>16:15</strong>  </p>
+<p><strong>16:45</strong> : Used the<br />
+_.mac System Preference_ to get syncing started with my iDisk to<br />
+get adresses, calendars and passwords etc. on my iBook. Also filled in<br />
+the Sharing Preferences. Now that I have the passwords at hand, it is<br />
+time to get the latest versions of some of the shareware I own (and copy<br />
+their disk image to the DMG folder)  </p>
+<ul>
+<li><a href="http://www.devon-technologies.com/products/devonthink/overview.php">DevonThink</a>   </li>
+<li><a
+href="http://www.devon-technologies.com/products/devonagent/overview.php">DenonAgent</a>   </li>
+<li>Pod2Go : the <a href="http://www.kainjow.com/pod2go/">site</a> seems to be down at the<br />
+moment but fortunately, I have a disk image of it which will have to do<br />
+for now (note to self : check later whether the site is permanently<br />
+dead&#8230;) Update today : it is up and running again&#8230;  </li>
+</ul>
+<p>and while I\&#8217;m at it I may as well get my wallet out and<br />
+purchase the full version of _Lite_ versions I like and use a lot<br />
+:  </p>
+<ul>
+<li><a href="http://flyingmeat.com/voodoopad/">VoodooPad</a>   </li>
+<li><a href="http://ranchero.com/netnewswire/">NetNewsWire</a>   </li>
+<li><a href="http://www.panic.com/transmit/index.html">Transmit</a>   </li>
+</ul>
+<p>Fortunately, there is also a lot of excellent freeware that I<br />
+want to use   </p>
+<ul>
+<li><a href="http://quicksilver.blacktree.com/">QuickSilver</a>   </li>
+<li><a href="http://www.bombich.com/software/ccc.html">Carbon Copy Cloner</a><br />
+Update today : skip and use PsyncX instead.   </li>
+<li><a href="http://cocoamysql.sourceforge.net/">CocoaMySQL</a>   </li>
+<li><a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>   </li>
+</ul>
+<p>One of the following days : MySQL, PHP and perhaps Tracks but<br />
+first I desperately need to do some maths to kick off from all this<br />
+nonsense&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/tiger-days-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mind on tracks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mind-on-tracks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mind-on-tracks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 02 May 2005 19:25:43 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[GTD]]></category>
+		<category><![CDATA[tracks]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=271</guid>
+
+					<description><![CDATA[I just started putting my mind on tracks but it will take me a couple of days to offload most of the crap that keeps&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/mindontracks.jpg" /></p>
+<p>I just<br />
+started putting my mind on <a href="http://www.rousette.org.uk/projects/">tracks</a> but it will take<br />
+me a couple of days to offload most of the crap that keeps me awake at<br />
+night. There are three main components to Tracks: Next actions, Contexts<br />
+and Projects.  </p>
+<p>&#8220;<strong>Contexts</strong> are very flexible, and can<br />
+be places, states of mind or modes of working in which actions can be<br />
+taken. Next actions can be assigned to and sorted by context so that you<br />
+know when you are able to make progress with items. e.g. &#8220;Library&#8221;,<br />
+&#8220;Shops&#8221; or &#8220;Tired&#8221;.&#8221; So far I added only 10 contexts : _@inbox_,<br />
+_@books_, _@email_, _@home_, _@neverending_,<br />
+_@courses_, _@other_, _@papers_, _@computer_<br />
+and _@personal_. Probably I&#8217;ll have to add others such as<br />
+_@refereeing_ etc.</p>
+<p>&#8220;<strong>Projects</strong>  : any goal<br />
+which requires more than one next action to take it to completion is a<br />
+Project. In Tracks, you can view your next actions by Project.&#8221; So far I<br />
+added the first few things that came to mind ranging from small-easy<br />
+things such as <a href="http://flyingmeat.com/voodoopad/">_Learn<br />
+VoodooPad_</a> over _Paper with Jan_ to neverending-things<br />
+like Write nag@n !</p>
+<p>&#8220;<strong>Next<br />
+actions</strong> : These are the heart of GTD. They are the very next<br />
+physical action that can be taken on something. It&#8217;s best to phrase<br />
+these in an active way e.g. &#8220;Call Bob about the committee meeting&#8221; or<br />
+&#8220;Search for a reputable garage&#8221;.&#8221; Up to now I merely added the next<br />
+foreseeable action in each project together with a few urgent persoanl<br />
+matters. It is a good idea to give each of these a deadline so they<br />
+appear on the screen with a color-code giving the date and red (urgent),<br />
+orange (coming up) to green (some day). I realize I&#8217;ve been rather<br />
+relaxed about my projects so far!</p>
+<p>More information on tracks can<br />
+be found <a href="http://dev.rousette.org.uk/wiki">here</a>. Try it<br />
+out!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mind-on-tracks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>tracks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/tracks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/tracks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 27 Apr 2005 19:21:42 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[GTD]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[tracks]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=270</guid>
+
+					<description><![CDATA[Perhaps I can surprise you by admitting that I&#8217;ve spend a lot of time lately getting through Getting Things Done: The Art of Stress-free Productivity,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Perhaps I<br />
+can surprise you by admitting that I&#8217;ve spend a lot of time lately<br />
+getting through <a href="http://www.amazon.co.uk/exec/obidos/ASIN/0749922648/qid=1114626476/sr=8-1/ref=sr_8_xs_ap_i1_xgl/026-4789491-9030823">Getting Things Done:<br />
+The Art of Stress-free Productivity</a>, 250+ pages of management<br />
+babble. Probably you will even be shocked when I tell you that this book<br />
+is published in the same series as _Body Talk at Work_,<br />
+_Corporate Charisma_, _More Time Less Stress_, _Mrs<br />
+Moneypenny : Survival in the City_ and more of these. All in all, it<br />
+wasn&#8217;t so bad. It is a bit pompous at times, could be 50% condensed but<br />
+I wanted to find out first hand what all the <strong>GTD</strong> hype<br />
+was about (see <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=143">this post</a> for<br />
+some of the more interesting links).  </p>
+<p>I&#8217;m not looking for a miracle<br />
+method to become more productive or focussed (although I wouldn&#8217;t mind<br />
+either at the moment). No, my main motivation is simply : I want to be<br />
+able to sleep better!</p>
+<p>This requires some explaining. The last<br />
+couple of months, I regularly wake up in the middle of the night and as<br />
+there are plenty of things on my mind, I start brooding on them and,<br />
+more often than not, loose a couple of hours sleep/night. And these<br />
+quickly add up! Now, the basis of the GTD-mantra is getting all the<br />
+_stuff_ out of your head to reach the _mind like water_<br />
+state whatever that means. And I can see some sense in putting all your<br />
+current projects and worries somewhere on paper or computer, setting up<br />
+a system that forces you to read through these lists at regular<br />
+intervals, plan _next actions_ and update the lists accordingly.<br />
+If you trust this system it just may free your mind from all the<br />
+stuff!</p>
+<p>At a later stage I may end up setting up such a system<br />
+following the suggestions of the <a href="http://www.devon-technologies.com/phpBB2/viewtopic.php?t=904"><br />
+DevonThink Forum</a> or using <a href="http://www.tyborg.com/2003/07/28/software-gadget-voodoopad"><br />
+VoodooPad</a> but at the moment all I want is to offload my mind as<br />
+quickly as possible to a GTD-able database. </p>
+<p>Fortunately, <a href="http://www.rousette.org.uk/blog/">But She&#8217;s a Girl</a> has<br />
+compiled such a system : <a href="http://www.rousette.org.uk/projects/">Tracks, a GTD Web<br />
+Application</a>. At first I did the mistake following the generic<br />
+install instructions and quickly got lost in downloading packages from<br />
+SourceForge etc. until I found that there was an easy <a href="http://dev.rousette.org.uk/wiki/Tracks/Install/Mac">Mac OS X<br />
+Install Page</a>. There is a <a href="http://homepage.mac.com/discord/Ruby/">Ruby and Rails .dmg<br />
+package</a> but first you have to install <a href="http://tcltkaqua.sourceforge.net/">Tcl/Tk Aqua</a>. After these<br />
+easy steps, you have to follow the <a href="http://dev.rousette.org.uk/file/trunk/tracks/doc/README.txt?rev=72
+">install man page</a> which involves setting up a MySQL database and<br />
+filling it with the required tables (I have been using<br />
+<strong>phpmyadmin</strong> for this, but discovered in the process <a href="http://cocoamysql.sourceforge.net/">CocoaMySQL</a> which makes all<br />
+this even simpler). Finally, you have to get to prompt-level and type<br />
+the magic commands</p>
+<p>_cd Sites/tracks_</p>
+<p>_ruby<br />
+script/server &#8220;&#8221;environment=production&#8221; port=3030_</p>
+<p>(note<br />
+to self : make this a StartUp item as otherwise you have to redo this<br />
+step whenever you want to add material). Then,<br />
+_http://127.0.0.1:3030/login/signup_ gets you to a nice<br />
+webpage-interface and you can start to offload your mind of<br />
+_stuff_. I&#8217;ll report later whether it did have any effect at<br />
+all!.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/tracks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>home jukebox</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/home-jukebox/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/home-jukebox/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 04 Dec 2004 19:31:46 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[tracks]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=195</guid>
+
+					<description><![CDATA[I am trying to put all our music onto one old iMac to make a HomeJukeBox but ran into an annoying problem. I discovered a&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/tracknames.jpg" alt="" style="float:left;margin-right:10px;" /><br />
+I am trying to put all our music onto one old iMac to make a<br />
+HomeJukeBox but ran into an annoying problem. I discovered a pile of 70<br />
+Audio-CDs which PD1 ripped away <br /> from home (and more importantly,<br />
+away <br /> from internet-access) so if you feed them to iTunes they<br />
+only display Track01, Track02 etc. that is, _no_ songtitles,<br />
+_no_ artist name, _no_ album information etc. making them<br />
+pretty useless for my purposes. Fortunately PD1 wrote on each CD the<br />
+Artist and Album names giving me at least a fighting chance to get all<br />
+information. Here is how I managed to do this without too much typing<br />
+(probably there are other and better methods around but as I am still<br />
+waiting for my copy of <a href="http://www.oreilly.com/catalog/ipodtuneshks/index.html">iPod and<br />
+iTunes Hacks</a> to arrive and as I am not the world most adventurous<br />
+person I prefer to stick with the first method I tried that<br />
+worked).\\r\\nI had a look at the huge collection of <a href="http://www.malcolmadams.com/itunes/index.php">Doug&#39;s<br />
+AppleScripts for iTunes</a> and found on his &#39;internet-section&#39;<br />
+the script <a href="http://www.malcolmadams.com/itunes/scripts/scripts11.php?page=1#cddbsafarikit">CDDB Safari Kit v2.2.1</a> which he describes as<br />
+\\r\\n</p>
+<blockquote>
+<p>These two AppleScripts, &#8220;CDDB<br />
+Safari&#8221; and &#8220;CDDB Tracks to iTunes via Safari&#8221;, assist<br />
+in finding and retrieving Album track names, Album, Artist, and Year<br />
+from Gracenote&#39;s CDDB website using Apple&#39;s Safari browser.</p>
+</blockquote>
+<p>\\r\\nAs this is pretty much what I want, I downloaded<br />
+these 2 AppleScripts and put them into my<br />
+<strong>~Library/iTunes/Scripts</strong> folder (you probably will have<br />
+to create the Scripts folder) making them available from the Script-menu<br />
+in iTunes. \\r\\nNow, insert a CD and double-click on its icon in iTunes<br />
+so that its Track 01 Track 02 etc. appear in a separate window. Single<br />
+click on a Track to get it marked and then open the <strong>CDDB<br />
+Safari</strong> script from the iTunes-script-menu. A pop-up menu<br />
+appears asking you what info you like to find. Click on Album or Artist<br />
+to mark them and then click on the highlighted <strong>Search<br />
+CDDB</strong> button and Safari will take you to the <a href="http://www.gracenote.com/music/">Gracenote: Search CDDB</a> site.<br />
+Fill in either Artist name or Album name and hit Search. If you are<br />
+lucky a list of all song-titles will appear or (in case their are<br />
+several options) a list of all relevant Artist/Album combinations from<br />
+which you have to click the relevant one and you will get the<br />
+songtitle-list. Go back to iTunes and open the <strong>CDDB Tracks to<br />
+iTunes via Safari</strong> script again from the iTunes-script-menu. You<br />
+will be guided through the process : it will collect the song-titles and<br />
+ask you to use them or not and afterwards it will also ask you to add<br />
+Artist-Album-Year info as well, single click on all info you want to<br />
+include and press Yes and thank the Script for all its work. Close the<br />
+iTunes window and drag the CD icon (which now has the appropriate name)<br />
+to the desired playlist and all lost information is regained! There are<br />
+a few caveats : check whether the number of songtitles on the<br />
+Gracenote-page matches that on your CD and pray that PD1 has not made<br />
+her personal sublist of tracks&#8230; further some extremely alternative<br />
+CDs are not in the database (out of the 50 I tried so far only one<br />
+failed) and finally there seems to be a problem with French accents.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/home-jukebox/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

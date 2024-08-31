@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>musical sequence &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/musical-sequence/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 02 Mar 2021 07:21:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Conway&#8217;s musical sequences</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 02 Mar 2021 07:21:17 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[GoV]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[cut-and-project]]></category>
+		<category><![CDATA[musical sequence]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[Penrose tiling]]></category>
+		<category><![CDATA[tilings]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8955</guid>
+
+					<description><![CDATA[Before we&#8217;ll come to applications of quasicrystals to viruses it is perhaps useful to illustrate essential topics such as deflation, inflation, aperiodicity, local isomorphism and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Before we&#8217;ll come to applications of <a href="https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals">quasicrystals to viruses</a> it is perhaps useful to illustrate essential topics such as deflation, inflation, aperiodicity, local isomorphism and the cut-and project method in the simplest of cases, that of $1$-dimensional tilings.</p>
+<p>We want to tile the line $\mathbb{R}^1$ with two kinds of tiles, short ($S$) and ($L$) long intervals, differing by a <a href="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio</a> factor $\tau=\tfrac{1}{2}(1+\sqrt{5}) \approx 1.618$.<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cms1.jpg" width=50% ><br />
+</center></p>
+<p>Clearly, no two tiles may overlap and we impose a <strong>gluing restriction</strong>: there can be no two consecutive $S$-intervals in the tiling, and no three consecutive $L$-intervals.</p>
+<p>The <strong>code</strong> of a tiling is a doubly infinite word in $S$ and $L$ such that there are no two consecutive $S$&#8217;s nor three consecutive $L$&#8217;s. For example<br />
+\[<br />
+\sigma = \dots LSLLSLS\underline{L}LSLLSL \dots \]<br />
+We underline one tile to distinguish the sequence from shifts of it.</p>
+<p><strong>Conway&#8217;s musical sequences</strong> will be special codes (or tilings), allowing for the inverse operations of <strong>inflation</strong> and <strong>deflation</strong>, terms coined by <a href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> in relation to Penrose tilings. The musical sequences are important to understand Conway&#8217;s worms (sometimes called &#8220;wormholes&#8221;) which are strings of Long and Short bow ties in a Penrose tiling, and to measure the distances between Amman bars. In fact, many of the properties of Penrose tilings and $3$-dimensional quasicrystals (for example, local isomorphism) have their counterparts for tilings having a musical sequence as code.</p>
+<p><center><br />
+<img decoding="async" src="https://static01.nyt.com/images/2020/04/18/obituaries/14Conway1/14Conway1-facebookJumbo.jpg" width=80%><br />
+</center></p>
+<p>Conway&#8217;s investigations of Penrose tiles held up work on the <a href="https://en.wikipedia.org/wiki/ATLAS_of_Finite_Groups">ATLAS-project</a> and caused some problems at home:</p>
+<blockquote><p>&#8220;In pursuing his investigations, he unsurped some of his wife Eileen&#8217;s territory, covering the dining table with an infinite nuisance of tiles. He cut them out himself, causing his right hand to hurt with cramps for days. To Eileen&#8217;s dismay, he studied the dining table mosaic for a year, relegating family meals to the kitchen and prohibiting dinner parties.&#8221;</p>
+<p>From <a href="https://siobhanroberts.com/genius-at-play/">&#8220;Genius at Play &#8211; The curious mind of John Horton Conway&#8221;</a> by Siobhan Roberts
+</p></blockquote>
+<p>Let&#8217;s investigate inflation and deflation of these tilings.</p>
+<p>The point of the golden factor $\tau$ is to allow for <strong>deflation</strong>. That is, we can replace a tiling by another one with tiles $S$ and $L$ both a factor $\tfrac{1}{\tau}=\tau-1 \approx 0.618$ smaller than the original tiles. If the original $S$-tile has length $a$ (and the $L$-tile length $\tau a$), then the new tile $S$ wil have length $\tfrac{1}{\tau}a$ and the new $L$-tile length $a$.<br />
+We do this by replacing each old $S$-tile by a new $L$-tile, and to break up any old $L$-tile in a new $L$ and new $S$-tile, as $\tau a = a + \tfrac{1}{\tau}a$ (note that $\tau^2=\tau+1$)<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cms2.jpg" width=70% ><br />
+</center></p>
+<p>To get the code of the deflated tiling we replace each letter $S$ by a letter $L$ and each $L$ by $LS$. The underlined letter will be the first letter of the deflated underlined letter in the original sequence. The deflated sequence of the one above is<br />
+\[<br />
+def(\sigma) = \dots LSLLSLSLLSL\underline{L}SLSLLSLSLLS \dots \]<br />
+and it is easy to see that the deflated tiling satisfies again the gluing condition.</p>
+<p>Certain of these tilings (not all!) allow for an inverse to deflation, called <strong>inflation</strong>, increasing the size of the tiles by a factor $\tau$.</p>
+<p>Starting from a tiling we divide each $L$-tile in half and these mid-points will be end-points of the tiles in the new tiling, erasing all endpoints of the original one. The inflated tiling will have two sorts of tiles, a new short one $S$ of length $\tau a$ obtained from the end-half of an original $L$-tile, followed b the start-half of an original $L$-tile, and a new long tile $L$ of length $\tau^2 a = (\tau+1) a$, made of the end-half of an original $L$, followed by an original $S$, followed by the start-half of an original $L$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cms3.jpg" width=70% ><br />
+</center></p>
+<p>We get the code of the inflated tiling by replacing first each $L$ by $ll$ and subsequently replace each word $lSl$ by a letter $L$ and each $ll$ by $S$. An example,<br />
+\[<br />
+\sigma = \dots LSLLSLSLLSL\underline{L}SLSLLSLSLLS \dots \\<br />
+\dots llSllllSllSllllSlll\underline{l}SllSllllSllSllllS \dots \\<br />
+inf(\sigma) = \dots (l)LSLLSLS\underline{L}LSLLS(lS) \dots \]</p>
+<p>But, the inflated tiling may no longer satisfy the gluing condition. An example<br />
+\[<br />
+\dots LSLSLSL \dots \mapsto \dots llSllSllSll \dots \mapsto \dots (l)LLL(l) \dots \]</p>
+<p>A <strong>Conway musical sequence</strong> is the code of a tiling $\sigma$ such that all its consecutive inflations $inf^n(\sigma)$ satisfy the gluing condition. For the corresponding <strong>Conway tiling</strong> $\sigma$ we have that<br />
+\[<br />
+def(inf(\sigma))=\sigma=inf(def(\sigma)) \]</p>
+<p>Let&#8217;s construct at least two such Conway tilings (later we&#8217;ll see that there are uncountably many). Take $C_n=def^n(LS\underline{L})$ and write it in a special form to highlight symmetries.<br />
+\begin{eqnarray*}<br />
+C_0 =&#038; (L.S)\underline{L} \\<br />
+C_1 =&#038; L(S.L)\underline{L}S \\<br />
+C_2 =&#038; LSL(L.S)\underline{L}SL \\<br />
+C_3 =&#038; LSLLSL(S.L)\underline{L}SLLS \\<br />
+C_4 =&#038; LSLLSLSLLSL(L.S)\underline{L}SLLSLSL<br />
+\end{eqnarray*}</p>
+<p>The even terms have middle-part $(L.S)$ and the odd ones $(S.L)$. The remaing left and right parts are each others reflexion (or part of it). This is easily seen by induction as are the inclusions<br />
+\[<br />
+C_0 \subset C_2 \subset C_4 \subset \dots \subset C_{even}  \quad \text{and} \quad C_1 \subset C_3 \subset C_5 \subset \dots \subset C_{odd} \]</p>
+<p>$C_{even}$ and $C_{odd}$ are special Conway musical sequences, called the <strong>middle $C$-sequences</strong>, and are each others inflation and deflation. If you are familiar with Penrose tilings, these are the $1$-dimensional counterparts of the cartwheel Penrose tiling (here with the $10$ Conway worms emanating from the center, and with the borders of the first few cartwheels drawn).</p>
+<p><center><br />
+<img decoding="async" src="https://ksuweb.kennesaw.edu/~sedwar77/tile/aperiodic/penrose2/worms.gif" width=80% ><br />
+</center></p>
+<p>A direct consequence of inflation on Conway&#8217;s musical sequences is that the corresponding tiling is <strong>aperiodic</strong>, that is, it has no translation symmetry.</p>
+<p>For, inflation only depends on the local configuration of tiles, so if translation by $R$ is a symmetry of a musical sequence $\sigma$ then it is also a symmetry of $inf(\sigma)$, and so also of $inf^n(\sigma)$. But for large $n$ we will have that $R < \tau^n a$ (with $a$ the size of the tiles in $\sigma$). But then a tile in $inf^n(\sigma)$ and its translation by $R$ must overlap which is impossible if $+R$ is a translation symmetry of $inf^n(\sigma)$. Done!
+
+
+
+<p />Returning to the middle C-sequences, what was the point of starting with $C_0 = LSL$? Well, it follows directly from the gluing restrictions that any letter in a musical sequence is part of a subword $LSL$ of $\sigma$. But then, every finite subword $W$ of $\sigma$ is also a subword of $C_{2n}$ for some large $n$.</p>
+<p />For, let $d$ be the length of the interval corresponding to $W$ and choose $n$ such that $d > \tau^{2n} a$ then the interval of the line corresponding to $W$ is contained in a single tile in $inf^{2n}(\sigma)$ and this tile belongs to a subword $LSL$ of $inf^{2n}(\sigma)$. But then $W$ will be a subword of the $2n$-th deflation of that interval $LSL \subset inf^{2n}(\sigma)$, which is $C_{2n}$.</p>
+<p />Or, as Conway would phrase it with respect to Penrose tilings (quote again from Siobhan Roberts&#8217; book)</p>
+<blockquote><p>&#8220;Every points is in the cartwheel somewhere. If you jab your finger anywhere, on any point anywhere on teh pattern, you are part of a cartwheel. The whole ting is overlapping cartwheels.&#8221;</p></blockquote>
+<p />An immediate consequence is the <strong>local isomorphism theorem</strong>: Every subword of a musical sequence $\sigma$ appears infinitely many times as subword of any other musical sequence. That is, one cannot distinguish two tilings of the line with musical sequence codes from each other by looking at finite intervals!</p>
+<p />The argument is similar to the one above. The finite interval corresponding to the subword lies in a unique tile of $inf^n(\sigma)$ for $n$ large enough. Now, take another musical sequence $\mu$ and consider any of the infinitely many tiles of the same type  in $inf^n(\mu)$, then $def^n$ of such a tile will contain the subword in $\phi$.</p>
+<p />Another time, we&#8217;ll see that musical sequences can be produced by the &#8216;cut-and-project&#8217;-method (what I called the &#8216;windows&#8217;-method <a href="https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals">before</a>).<br />
+This time we will project parts of the standard $2$-dimensional lattice $\mathbb{Z}^2$ onto the line, which is a lot easier to visualise than de Bruijn&#8217;s projection from $\mathbb{R}^5$ to produce Penrose tilings or the projection from six dimensional space to harvest quasicrystals.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

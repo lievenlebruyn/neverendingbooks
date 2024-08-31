@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
 	<item>
 		<title>The $\mathbb{F}_1$ World Seminar</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/</link>
@@ -769,7 +769,7 @@ J(k_1 \tau) J(k_2 \tau) \dots J(k_l \tau) \]</p>
 <p>Likewise the vectors $x(p),y(p)$ and $z(p)$ must all lie in the one-dimensional space $W_3 = \mathbb{C}$, that is, the right-hand side matrix above must have rank one and hence $p$ is a point in the image of $\mathbb{P}^2$ under the Veronese.</p>
 <p>That is, $Gr(m,V)$ is isomorphic to the intersection of this image with the hyper-plane and hence is isomorphic to the elliptic curve.</p>
 <p>The general case is similar as one can view any projective subvariety $X \rightarrow \mathbb{P}^n$ as isomorphic to the intersection of the image of a specific $d$-uple Veronese embedding $\mathbb{P}^n \rightarrow \mathbb{P}^N$ with a number of hyper-planes in $\mathbb{P}^N$.</p>
-<p><strong>ADDED</strong> For those desperate to read the original comments-section, here&#8217;s the <a href="http://web.archive.org/web/20120918072747/https://lievenlebruyn.github.io/neverendingbooks/index.php/quiver-grassmannians-can-be-anything.html">link</a>.</p>
+<p><strong>ADDED</strong> For those desperate to read the original comments-section, here&#8217;s the <a href="http://web.archive.org/web/20120918072747/https://lievenlb.local/index.php/quiver-grassmannians-can-be-anything.html">link</a>.</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quiver-grassmannians-can-be-anything/feed/</wfw:commentRss>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>reciprocity laws &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/reciprocity-laws/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 02 Jan 2011 10:57:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>What is the knot associated to a prime?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 02 Jan 2011 10:57:35 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arithmetic topology]]></category>
+		<category><![CDATA[etale cohomology]]></category>
+		<category><![CDATA[fundamental group]]></category>
+		<category><![CDATA[knots]]></category>
+		<category><![CDATA[prime numbers]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[reciprocity laws]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3975</guid>
+
+					<description><![CDATA[Sometimes a MathOverflow question gets deleted before I can post a reply&#8230; Yesterday (New-Year) PD1&#38;2 were visiting, so I merely bookmarked the What is the&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Sometimes a MathOverflow question gets <a href="http://meta.mathoverflow.net/discussion/792/deleted-questions-with-possibly-substantive-answers/#Item_0">deleted</a> before I can post a reply&#8230;</p>
+<p>Yesterday (New-Year) PD1&amp;2 were visiting, so I merely bookmarked the <a href="http://meta.mathoverflow.net/discussion/873/question-what-is-the-knot-associated-to-a-prime-disappeared/#Item_0">What is the knot associated to a prime?</a>-topic, promising myself to reply to it this morning, only to find out that the page no longer exists.</p>
+<p>From what I recall, the OP interpreted one of my slides of the April 1st-Alumni talk</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/knots23.jpg"></p>
+<p>as indicating that there might be a procedure to assign to a prime number a specific knot. Here&#8217;s the little I know about this :</p>
+<p>Artin-Verdier duality in etale cohomology suggests that $Spec(\mathbb{Z}) $ is a 3-dimensional manifold, as Barry Mazur pointed out in <a href="http://www.numdam.org/numdam-bin/fitem?id=ASENS_1973_4_6_4_521_0">this paper</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/ArtinVerdier.jpg"></p>
+<p>The theory of discriminants shows that there are no non-trivial global etale extensions of $Spec(\mathbb{Z}) $, whence its (algebraic) fundamental group should be trivial. By Poincare-Perelman this then implies that one should view $Spec(\mathbb{Z}) $ as the three-sphere $S^3 $. Note that there is no ambiguity in this direction. However, as there are other rings of integers in number fields having trivial fundamental group, the correspondence is not perfect.</p>
+<p>Okay, but then primes should correspond to certain submanifolds of $S^3 $ and as the algebraic fundamental group of $Spec(\mathbb{F}_p) $ is the profinite completion of $\mathbb{Z} $, the first option that comes to mind are circles</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/primescircles.jpg"></p>
+<p>Hence, primes might be viewed as circles embedded in $S^3 $, that is, as knots! But which knots? Well, as far as I know, nobody has a procedure to assign a knot to a prime number, let alone one having p crossings. What <strong>is</strong> known, however, is that different primes must correspond to different knots</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/differentprimes.jpg"></p>
+<p>because the algebraic fundamental groups of $Spec(\mathbb{Z})- &#123; p &#125; $ differ for distinct primes. This was the statement I wanted to illustrate in the first slide.</p>
+<p>But, the story goes a lot further. Knots may be linked and one can detect this by calculating the link-number, which is symmetric in the two knots. In number theory, the Legendre symbol, plays a similar role thanks to quadratic reciprocity</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Legendre.jpg"></p>
+<p>and hence we can view the Legendre symbol as indicating whether the knots corresponding to different primes are linked or not. Whereas it is natural in knot theory to investigate whether collections of 3, 4 or 27 knots are intricately linked (or not), few people would consider the problem whether one collection of 27 primes differs from another set of 27 primes worthy of investigation.</p>
+<p>There&#8217;s one noteworthy exception, the <a href="http://digitalcommons.mcmaster.ca/dissertations/AAINR36051/">Redei symbol</a> which we can now view as giving information about the link-behavior of the knots associated to three different primes. For example, one can hunt for prime-triples whose knots link as the Borromean rings</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Redei.jpg"></p>
+<p>(note that the knots corresponding to the three primes are not the unknot but more complicated). Here&#8217;s where the story gets interesting : in number-theory one would like to discover &#8216;higher reciprocity laws&#8217; (for collections of n prime numbers) by imitating higher-link invariants in knot-theory. This should be done by trying to correspond filtrations on the fundamental group of the knot-complement to that of the algebraic fundamental group of $Spec(\mathbb{Z})-&#123; p &#125; $ This project is called <a href="http://en.wikipedia.org/wiki/Arithmetic_topology">arithmetic topology</a></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/arithmetictopology.jpg"></p>
+<p>Perhaps I should make a pod- or vod-cast of that 20 minute talk, one day&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

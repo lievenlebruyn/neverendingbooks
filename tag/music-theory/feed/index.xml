@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>music theory &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/music-theory/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 22 Feb 2021 09:16:16 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Scholze&#8217;s condensed sets and Mazzola&#8217;s path to creativity</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/scholzes-condensed-sets-and-mazzolas-path-to-creativity/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/scholzes-condensed-sets-and-mazzolas-path-to-creativity/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 22 Feb 2021 09:16:16 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Clausen]]></category>
+		<category><![CDATA[condensed math]]></category>
+		<category><![CDATA[Mazzola]]></category>
+		<category><![CDATA[music theory]]></category>
+		<category><![CDATA[Scholze]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8787</guid>
+
+					<description><![CDATA[Some months ago, Peter Scholze wrote a guest post on the Xena-blog: Liquid tensor experiment, proposing a challenge to formalise the proof of one of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Some months ago, <a href="https://en.wikipedia.org/wiki/Peter_Scholze">Peter Scholze </a> wrote a guest post on the <a href="https://xenaproject.wordpress.com/">Xena-blog</a>: <a href="https://xenaproject.wordpress.com/2020/12/05/liquid-tensor-experiment/">Liquid tensor experiment</a>, proposing a challenge to formalise the proof of one of his results with <a href="https://www.math.ku.dk/english/about/news/new-names/dustin-clausen-associate-professor/">Dustin Clausen</a> on <a href="http://www.math.uni-bonn.de/people/scholze/Condensed.pdf">condensed mathematics</a>.</p>
+<p>Scholze and Clausen ran a masterclass in Copenhagen on condensed mathematics, which you can binge watch on <a href="https://www.youtube.com/hashtag/condensedmathematics">YouTube</a> starting here</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/PHm4bYziyug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Scholze also gave two courses on the material in Bonn of which the notes are available <a href=""http://www.math.uni-bonn.de/people/scholze/Condensed.pdf">here</a> and <a href="http://www.math.uni-bonn.de/people/scholze/Analytic.pdf">here</a>.</p>
+<blockquote><p>Condensed mathematics claims that topological spaces are the wrong definition, and that one should replace them with the slightly different notion of condensed sets.</p></blockquote>
+<p>So, let&#8217;s find out what a condensed set is.</p>
+<blockquote><p>Definition: Condensed sets are sheaves (of sets) on the pro-étale site of a point.</p></blockquote>
+<p>(there&#8217;s no danger we&#8217;ll have to rewrite our undergraduate topology courses just yet&#8230;)</p>
+<p>In his blogpost, Scholze motivates this paradigm shift by observing that the category of topological Abelian groups is not Abelian (if you put a finer topology on the same group then the identity map is not an isomorphism but doesn&#8217;t have a kernel nor cokernel) whereas the category of condensed Abelian groups is.</p>
+<p>It was another Clausen-Scholze result in the blogpost that caught my eye.</p>
+<p>But first, for something completely different.</p>
+<p>In <a href="https://www.springer.com/us/book/9783642245169">&#8220;Musical creativity&#8221;</a>, <a href="https://en.wikipedia.org/wiki/Guerino_Mazzola">Guerino Mazzola</a> and co-authors introduce a seven steps path to creativity.</p>
+<p><center><br />
+<img decoding="async" src="https://media.s-bol.com/yQyZwQmZnxR/792x1200.jpg" width=45% ><br />
+</center></p>
+<p>Here they are:</p>
+<ol>
+<li>Exhibiting the open question</li>
+<li>Identifying the semiotic context</li>
+<li>Finding the question&#8217;s critical sign</li>
+<li>Identifying the concept&#8217;s walls</li>
+<li>Opening the walls</li>
+<li>Displaying extended wall perspectives</li>
+<li>Evaluating the extended walls</li>
+</ol>
+<p>Looks like a recipe from distant flower-power pot-infused times, no?</p>
+<p>In <a href="http://repmus.ircam.fr/_media/moreno/Andreatta_Creativity_MCM2013.pdf">Towards a Categorical Theory of Creativity for Music, Discourse, and Cognition</a>, Mazzola, <a href="https://en.wikipedia.org/wiki/Andr%C3%A9e_Ehresmann">Andrée Ehresmann</a> and co-authors relate these seven steps to the <a href="https://en.wikipedia.org/wiki/Yoneda_lemma">Yoneda lemma</a>.</p>
+<ol>
+<li>Exhibiting the open question = to understand the object $A$</li>
+<li> Identifying the semiotic context = to describe the category $\mathbf{C}$ of which $A$ is an object</li>
+<li>Finding the question’s critical sign = $A$ (?!)</li>
+<li> Identifying the concept’s walls = the uncontrolled behaviour of the Yoneda functor<br />
+\[<br />
+@A~:~\mathbf{C} \rightarrow \mathbf{Sets} \qquad C \mapsto Hom_{\mathbf{C}}(C,A) \]</li>
+<li>Opening the walls = finding an objectively creative subcategory $\mathbf{A}$ of $\mathbf{C}$</li>
+<li> Displaying extended wall perspectives = calculate the colimit $C$ of a creative diagram</li>
+<li>Evaluating the extended walls = try to understand $A$ via the isomorphism $C \simeq A$.</li>
+</ol>
+<p>(Actually, I first read about these seven categorical steps in another paper which might put a smile on your face: <a href="https://www.semanticscholar.org/paper/The-Yoneda-Path-to-the-Buddhist-Monk-Blend-Schorlemmer-Confalonieri/e5058938efde91c265d04592a6066e3aeac157e2">The Yoneda path to the Buddhist monk blend</a>.)</p>
+<p>Remains to know what a &#8216;creative&#8217; subcategory is.</p>
+<blockquote><p>The creative moment comes in here: could we not find a subcategory<br />
+$\mathbf{A}$ of $\mathbf{C}$ such that the functor<br />
+\[<br />
+Yon|_{\mathbf{A}}~:~\mathbf{C} \rightarrow \mathbf{PSh}(\mathbf{A}) \qquad A \mapsto  @A|_{\mathbf{A}} \]<br />
+is still fully faithful? We call such a subcategory creative, and it is a major task in category theory to find creative categories which are as small as possible.
+</p></blockquote>
+<p>All the ingredients are here, but I had to read Peter Scholze&#8217;s blogpost before the penny dropped.</p>
+<p>Let&#8217;s try to view condensed sets as the result of a creative process.</p>
+<ol>
+<li>Exhibiting the open question: you are a topologist and want to understand a particular compact Hausdorff space $X$.</li>
+<li>Identifying the semiotic context: you are familiar with working in the category $\mathbf{Tops}$ of all topological spaces with continuous maps as morphisms.</li>
+<li>Finding the question’s critical sign: you want to know what differentiates your space $X$ from all other topological spaces.</li>
+<li>Identifying the concept’s walls: you can probe your space $X$ with continuous maps from other topological spaces. That is, you can consider the contravariant functor (or presheaf on $\mathbf{Tops}$)<br />
+\[<br />
+@X~:~\mathbf{Tops} \rightarrow \mathbf{Sets} \qquad Y \mapsto Cont(Y,X) \]<br />
+and Yoneda tells you that this functor, up to equivalence, determines the space $X$ upto homeomorphism.</li>
+<li>Opening the walls: <a href-="https://en.wikipedia.org/wiki/Tychonoff%27s_theorem">Tychonoff</a> tells you that  among all compact Hausdorff spaces there&#8217;s a class of pretty weird examples: inverse limits of finite sets (or a bit pompous: the pro-etale site of a point). These limits form a subcategory $\mathbf{ProF}$ of $\mathbf{Tops}$.</li>
+<li>Displaying extended wall perspectives: for every inverse limit $F \in \mathbf{ProF}$ (for &#8216;pro-finite sets&#8217;) you can look at the set $\mathbf{X}(F)=Cont(F,X)$ of all continuous maps from $F$ to $X$ (that is, all probes of $X$ by $F$) and this functor<br />
+\[<br />
+\mathbf{X}=@X|_{\mathbf{ProF}}~:~\mathbf{ProF} \rightarrow \mathbf{Sets} \qquad F \mapsto \mathbf{X}(F) \]<br />
+is a sheaf on the pre-etale site of a point, that is, $\mathbf{X}$ is the condensed set associated to $X$.</li>
+<li>Evaluating the extended walls: Clausen and Scholze observe that the assignment $X \mapsto \mathbf{X}$ embeds compact Hausdorff spaces fully faithful into condensed sets, so we can recover $X$ up to homeomorphism as a colimit from the condenset set $\mathbf{X}$. Or, in Mazzola&#8217;s terminology: $\mathbf{ProF}$ is a creative subcategory of $\mathbf{(cH)Tops}$ (all compact Hausdorff spaces).</li>
+</ol>
+<p>It would be nice if someone would come up with a new notion for me to understand Mazzola&#8217;s  other opus <a href="https://www.springer.com/gp/book/9783319644332">&#8220;The topos of music&#8221;</a> (now reprinted as a four volume series).</p>
+<p><center><br />
+<img decoding="async" src="https://media.s-bol.com/Bl91NG1MBxX/847x1200.jpg" width=45% ><br />
+</center></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/scholzes-condensed-sets-and-mazzolas-path-to-creativity/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

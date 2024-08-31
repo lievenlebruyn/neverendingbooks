@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>anabelian &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/anabelian/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 13 Dec 2008 12:46:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Mumford’s treasure map</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mumfords-treasure-map/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mumfords-treasure-map/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 13 Dec 2008 12:46:30 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[nonsense]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=513</guid>
+
+					<description><![CDATA[In the series "Brave new geometries" we give an introduction to 'strange' but exciting new ideas. We start with Grothendieck's scheme-revolution, go on with Soule's geometry over the field with one element, Mazur's arithmetic topology, Grothendieck's anabelian geometry, Connes' noncommutative geometry etc.]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/MumfordP.jpg" style="float:right;margin-left:10px;"><br />
+<a href="http://www.dam.brown.edu/people/mumford/">David Mumford</a> did receive earlier this year the 2007 AMS Leroy P. <a href="http://www.ams.org/ams/press/steele2007-exposition.html">Steele Prize</a> for Mathematical Exposition. The jury honors Mumford for &#8220;his beautiful expository accounts of a host of aspects of algebraic geometry&#8221;. Not surprisingly, the first work they mention are his mimeographed notes of the first 3 chapters of a course in algebraic geometry, usually called &#8220;Mumford&#8217;s <font color="red">red</font> book&#8221; because the notes were wrapped in a red cover. In 1988, the notes were <a href="http://www.springer.com/math/algebra/book/978-3-540-63293-1?detailsPage=otherBooks&#038;CIPageCounter=CI_MORE_BOOKS_BY_AUTHOR0">reprinted</a> by Springer-Verlag. Unfortnately, the only red they preserved was in the title.</p>
+<p>The AMS describes the importance of the  <font color="red">red</font> book as follows. &#8220;This is one of the few books that attempt to convey in pictures some of the highly abstract notions that arise in the field of algebraic geometry. In his response upon receiving the prize, Mumford recalled that some of his drawings from The Red Book were included in a collection called Five Centuries of French Mathematics. This seemed fitting, he noted: &#8220;After all, it was the French who started impressionist painting and isn&#8217;t this just an impressionist scheme for rendering geometry?&#8221;&#8221;</p>
+<p>These days it is perfectly possible to get a good grasp on difficult concepts from algebraic geometry by reading blogs, watching YouTube or plugging in equations to sophisticated math-programs. In the early seventies though, if you wanted to know what <a href="http://www.grothendieckcircle.org/">Grothendieck&#8217;s</a> scheme-revolution was all about you had no choice but to wade through the <a href="http://www.math.jussieu.fr/~leila/grothendieckcircle/pubtexts.php">EGA&#8217;s</a> and SGA&#8217;s and they were notorious for being extremely user-unfriendly regarding illustrations&#8230;</p>
+<p>So the few depictions of schemes available, drawn by people sufficiently fluent in Grothendieck&#8217;s new geometric language had no less than treasure-map-cult-status and were studied in minute detail. Mumford&#8217;s <font color="red">red</font> book was a gold mine for such treasure maps. Here&#8217;s my favorite one, scanned from the original mimeographed notes (it looks somewhat tidier in the Springer-version)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/mumforddrawing.jpg"><br />
+</center></p>
+<p>It is the first depiction of $\mathbf{spec}(\mathbb{Z}[x]) $, the affine scheme of the ring $\mathbb{Z}[x] $ of all integral polynomials. Mumford calls it the&#8221;arithmetic surface&#8221; as the picture resembles the one he made before of the affine scheme $\mathbf{spec}(\mathbb{C}[x,y]) $ corresponding to the two-dimensional complex affine space $\mathbb{A}^2_{\mathbb{C}} $. Mumford adds that the arithmetic surface is &#8216;the first example which has a real mixing of arithmetic and geometric properties&#8217;.</p>
+<p>Let&#8217;s have a closer look at the treasure map. It introduces some new signs which must have looked exotic at the time, but have since become standard tools to depict algebraic schemes.</p>
+<p>For starters, recall that the underlying topological space of $\mathbf{spec}(\mathbb{Z}[x]) $ is the set of all <a href="http://en.wikipedia.org/wiki/Prime_ideal">prime ideals</a> of the integral polynomial ring $\mathbb{Z}[x] $, so the map tries to list them all as well as their inclusions/intersections.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/MumfordGenericpoint.jpg" style="float:left;margin-right:10px;" hspace=10 > The doodle in the right upper corner depicts the <a href="http://en.wikipedia.org/wiki/Generic_point">&#8216;generic point&#8217;</a> of the scheme. That is, the geometric object corresponding to the prime ideal $~(0) $ (note that $\mathbb{Z}[x] $ is an <a href="http://en.wikipedia.org/wiki/Integral_domain">integral domain</a>). Because the zero ideal is contained in any other prime ideal, the algebraic/geometric mantra (&#8220;inclusions reverse when shifting between algebra and geometry&#8221;) asserts that the gemetric object corresponding to $~(0) $ should contain all other geometric objects of the arithmetic plane, so it is just the whole plane! Clearly, it is rather senseless to depict this fact by coloring the whole plane black as then we wouldn&#8217;t be able to see the finer objects. Mumford&#8217;s solution to this is to draw a hairy ball, which in this case, is sufficiently thick to include fragments going in every possible direction. In general, one should read these doodles as saying that the geometric object represented by this doodle contains all other objects seen elsewhere in the picture if the hairy-ball-doodle includes stuff pointing in the direction of the smaller object. So, in the case of the object corresponding to $~(0) $, the doodle has pointers going everywhere, saying that the geometric object contains all other objects depicted.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/MumfordHorizontal.jpg" style="float:right;margin-left:10px;" hspace=10 >Let&#8217;s move over to the doodles in the lower right-hand corner. They represent the geometric object corresponding to principal prime ideals of the form $~(p(x)) $, where $p(x) $ in an <a href="http://en.wikipedia.org/wiki/Irreducible_polynomial">irreducible polynomial</a> over the integers, that is, a polynomial which we cannot write as the product of two smaller integral polynomials. The objects corresponding to such prime ideals should be thought of as &#8216;horizontal&#8217; curves in the plane.</p>
+<p>The doodles depicted correspond to the prime ideal $~(x) $, containing all polynomials divisible by $x $ so when we divide it out we get, as expected, a domain $\mathbb{Z}[x]/(x) \simeq \mathbb{Z} $, and the one corresponding to the ideal $~(x^2+1) $, containing all polynomials divisible by $x^2+1 $, which can be proved to be a prime ideals of $\mathbb{Z}[x] $ by observing that after factoring out we get $\mathbb{Z}[x]/(x^2+1) \simeq \mathbb{Z}[i] $, the domain of all <a href="http://en.wikipedia.org/wiki/Gaussian_integers">Gaussian integers</a> $\mathbb{Z}[i] $. The corresponding doodles (the &#8216;generic points&#8217; of the curvy-objects) have a predominant horizontal component as they have the express the fact that they depict horizontal curves in the plane. It is no coincidence that the doodle of $~(x^2+1) $ is somewhat bulkier than the one of $~(x) $ as the later one must only depict the fact that all points lying on the straight line to its left belong to it, whereas the former one must claim inclusion of all points lying on the &#8216;quadric&#8217; it determines.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/MumfordVerical.jpg" style="float:left;margin-right:10px;" hspace=10 >Apart from these &#8216;horizontal&#8217; curves, there are also &#8216;vertical&#8217; lines corresponding to the principal prime ideals $~(p) $, containing the polynomials, all of which coefficients are divisible by the prime number $p $. These are indeed prime ideals of $\mathbb{Z}[x] $, because their quotients are<br />
+$\mathbb{Z}[x]/(p) \simeq (\mathbb{Z}/p\mathbb{Z})[x] $ are domains, being the ring of polynomials over the <a href="http://en.wikipedia.org/wiki/Finite_field">finite field</a> $\mathbb{Z}/p\mathbb{Z} = \mathbb{F}_p $. The doodles corresponding to these prime ideals have a predominant vertical component (depicting the &#8216;vertical&#8217; lines) and have a uniform thickness for all prime numbers $p $ as each of them only has to claim ownership of the points lying on the vertical line under them.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/MumfordPoints.jpg" style="float:right;margin-left:10px;" hspace=10 >Right! So far we managed to depict the zero prime ideal (the whole plane) and the principal prime ideals of $\mathbb{Z}[x] $ (the horizontal curves and the vertical lines). Remains to depict the <a href="http://en.wikipedia.org/wiki/Maximal_ideal">maximal ideals</a>. These are all known to be of the form<br />
+$\mathfrak{m} = (p,f(x)) $<br />
+where $p $ is a prime number and $f(x) $ is an irreducible integral polynomial, which remains irreducible when reduced modulo $p $ (that is, if we reduce all coefficients of the integral polynomial $f(x) $ modulo $p $ we obtain an irreducible polynomial in $~\mathbb{F}_p[x] $). By the algebra/geometry mantra mentioned before, the geometric object corresponding to such a maximal ideal can be seen as the &#8216;intersection&#8217; of an horizontal curve (the object corresponding to the principal prime ideal $~(f(x)) $) and a vertical line (corresponding to the prime ideal $~(p) $). Because maximal ideals do not contain any other prime ideals, there is no reason to have a doodle associated to $\mathfrak{m} $ and we can just depict it by a &#8220;point&#8221; in the plane, more precisely the intersection-point of the horizontal curve with the vertical line determined by $\mathfrak{m}=(p,f(x)) $. Still, Mumford&#8217;s treasure map doesn&#8217;t treat all &#8220;points&#8221; equally. For example, the point corresponding to the maximal ideal $\mathfrak{m}_1 = (3,x+2) $ is depicted by a solid dot $\mathbf{.} $, whereas the point corresponding to the maximal ideal $\mathfrak{m}_2 = (3,x^2+1) $ is represented by a fatter point $\circ $. The distinction between the two &#8216;points&#8217; becomes evident when we look at the corresponding quotients (which we know have to be fields). We have</p>
+<p>$\mathbb{Z}[x]/\mathfrak{m}_1 = \mathbb{Z}[x]/(3,x+2)=(\mathbb{Z}/3\mathbb{Z})[x]/(x+2) = \mathbb{Z}/3\mathbb{Z} = \mathbb{F}_3 $ whereas $\mathbb{Z}[x]/\mathfrak{m}_2 = \mathbb{Z}[x]/(3,x^2+1) = \mathbb{Z}/3\mathbb{Z}[x]/(x^2+1) = \mathbb{F}_3[x]/(x^2+1) = \mathbb{F}_{3^2} $</p>
+<p>because the polynomial $x^2+1 $ remains irreducible over $\mathbb{F}_3 $, the quotient $\mathbb{F}_3[x]/(x^2+1) $ is no longer the prime-field $\mathbb{F}_3 $ but a quadratic field extension of it, that is, the <a href="http://en.wikipedia.org/wiki/Maximal_ideal">finite field</a> consisting of 9 elements $\mathbb{F}_{3^2} $. That is, we represent the &#8216;points&#8217; lying on the vertical line corresponding to the principal prime ideal $~(p) $ by a solid dot . when their quotient (aka <a href="http://en.wikipedia.org/wiki/Residue_field">residue field</a> is the prime field $~\mathbb{F}_p $, by a bigger point $\circ $ when its residue field is the finite field $~\mathbb{F}_{p^2} $, by an even fatter point $\bigcirc $ when its residue field is $~\mathbb{F}_{p^3} $ and so on, and on. The larger the residue field, the &#8216;fatter&#8217; the corresponding point.</p>
+<p>In fact, the &#8216;fat-point&#8217; signs in Mumford&#8217;s treasure map are an attempt to depict the fact that an affine scheme contains a lot more information than just the set of all prime ideals. In fact, an affine scheme determines (and is determined by) a &#8220;functor of points&#8221;. That is, to every field (or even every commutative ring) the affine scheme assigns the set of its &#8216;points&#8217; defined over that field (or ring). For example, the $~\mathbb{F}_p $-points of $\mathbf{spec}(\mathbb{Z}[x]) $ are the solid . points on the vertical line $~(p) $, the $~\mathbb{F}_{p^2} $-points of $\mathbf{spec}(\mathbb{Z}[x]) $ are the solid . points and the slightly bigger $\circ $ points on that vertical line, and so on.</p>
+<p>This concludes our first attempt to decypher Mumford&#8217;s drawing, but if we delve a bit deeper, we are bound to find even more treasures&#8230; (to be <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/manins-geometric-axis">continued</a>).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mumfords-treasure-map/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>This week at F_un Mathematics (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/this-week-at-f_un-mathematics-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/this-week-at-f_un-mathematics-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 11 Oct 2008 13:19:02 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=450</guid>
+
+					<description><![CDATA[Some links to posts on Soule's algebraic geometry over the field with one element.]]></description>
+										<content:encoded><![CDATA[<p>In case you haven&#8217;t noticed it yet : I&#8217;m not living here anymore.</p>
+<p>My blogging is (at least for the moment) transfered to the <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/">F&#95;un Mathematics blog</a> which <a href="http://www.math.columbia.edu/%7Ewoit/wordpress/?p=971">some</a> prefer to call the &#8220;ceci n&#8217;est pas un corps&#8221;-blog, which is very fine with me.</p>
+<p><a href="http://www.ugr.es/~jlopez/">Javier</a> gave a talk at MPI on Soule&#8217;s approach to algebraic geometry over the elusive field with one element $\mathbb{F}_1 $ and wrote two posts about it <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/the-skeleton-of-soules-f_un-geometry.html">The skeleton of Soule&#8217;s F_un geometry</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/gadgets-a-la-soule.html">Gadgets a la Soule</a>. The rough idea being that a variety over the field with one element only acquires flesh after a base extension to $\mathbb{Z} $ and to cyclotomic integers.</p>
+<p>I did some posts on a related (but conceptually somewhat easier) approach due to Alain Connes and Katia Consani. I&#8217;ve tried to explain their construction at the level of (mature) undergraduate students. So far, there are three posts <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-1.html">part1</a>, <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-2.html">part2</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-3.html">part3</a>. Probably there is one more session to come in which I will explain why they need functors to graded sets.</p>
+<p>In the weeks to come we plan to post about applications of this F&#95;un-geometry to noncommutative geometry (the Bost-Connes system) and Grothendieck&#8217;s anabelian geometry (the theory of dessins d&#8217;enfant). I&#8217;ll try to leave a short account of the main posts here, but clearly you are invited to feed your feedreader <a href="feed://matrix.cmi.ua.ac.be/fun/index.php/feed">this</a>.</p>
+<p>Perhaps I&#8217;ll return here for a week mid november to do some old-fashioned vacation blogging. I have to admit I did <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/44-322829n-4-050861e.html">underestimate Numeo.fr</a>. Rumours have it that our place is connected wirelessly to the web&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/this-week-at-f_un-mathematics-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>recycled : dessins</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/recycled-dessins/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/recycled-dessins/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 27 Dec 2007 14:56:40 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=79</guid>
+
+					<description><![CDATA[In a couple of days I&#8217;ll be blogging for 4 years&#8230; and I&#8217;m in the process of resurrecting about 300 posts from a database-dump made&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In a couple of days I&#8217;ll be blogging for 4 years&#8230; and I&#8217;m in the process of resurrecting about 300 posts from a database-dump made in june. For example <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=68">here&#8217;s</a> my first post ever which is rather naive. This conversion program may last for a couple of weeks and I apologize for all unwanted pingbacks it will produce.</p>
+<p>I&#8217;ll try to convert chunks of related posts in one go, so that I can at least give them correct self-references. Today&#8217;s work consisted in rewriting the posts of my virtual course, in march of this year, on dessins d&#8217;enfants and its connection to noncommutative geometry (a precursor of what Ive been blogging about recently). These posts were available through the <a href="https://lievenlebruyn.github.io/neverendingbooks/NEBPDFS">PDF-archive</a> but are from now on open to the internal search-function. Here are the internal links and a short description of their contents</p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=64">The best rejected proposal ever</a> on Grothendieck&#8217;s programme and Belyi maps.  </li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=62">Monsieur Mathieu</a> on the dessins of $M_{12} $ and $M_{24} $.  </li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=65">The cartographers&#8217; groups 1</a> on the free product structure of $PSL_2(\mathbb{Z}) $ and related groups.  </li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=66">The cartographers&#8217; groups 2</a> continuation and a simpler proof due to Alperin.  </li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=75">Anabelian geometry</a> on sources of representations of the modular group.  </li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=76">The noncommutative manifold of a Riemann surface</a> a mental picture to get all finite dimensional representations of the coordinate ring of a curve.  </li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=77">Noncommutative curves and their manifolds</a> extension to twisted curves.  </li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=78">Permutation representations of monodromy groups</a> how dessins give such representations.  </li>
+</ul>
+<p>Besides, I&#8217;ve added a few scattered old posts, many more to follow&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/recycled-dessins/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Anabelian &#038; Noncommutative Geometry 2</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/anabelian-noncommutative-geometry-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/anabelian-noncommutative-geometry-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 19 Dec 2007 20:20:14 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=56</guid>
+
+					<description><![CDATA[Last time (possibly with help from the survival guide) we have seen that the universal map from the modular group $\Gamma = PSL_2(\mathbb{Z}) $ to&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=53">Last time</a> (possibly with help from the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=54">survival guide</a>) we have seen that the universal map from the modular group $\Gamma = PSL_2(\mathbb{Z}) $ to its profinite completion $\hat{\Gamma} = \underset{\leftarrow}{lim}~PSL_2(\mathbb{Z})/N $ (limit over all finite index normal subgroups $N $) gives an embedding of the sets of (continuous) simple finite dimensional representations</p>
+<p>$\mathbf{simp}_c~\hat{\Gamma} \subset \mathbf{simp}~\Gamma $</p>
+<p>and based on the example $\mu_{\infty} = \mathbf{simp}_c~\hat{\mathbb{Z}} \subset \mathbf{simp}~\mathbb{Z} = \mathbb{C}^{\ast} $ we would like the above embedding to be dense in some kind of noncommutative analogon of the <a href="http://en.wikipedia.org/wiki/Zariski_topology">Zariski topology</a> on $\mathbf{simp}~\Gamma $.</p>
+<p>We use the Zariski topology on $\mathbf{simp}~\mathbb{C} \Gamma $ as in <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=38">these</a> <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=39">two</a> <strong>M-geometry</strong> posts (( already, I regret terminology, I should have just called it noncommutative geometry )). So, what&#8217;s this idea in this special case? Let $\mathfrak{g} $ be the vectorspace with basis the conjugacy classes of elements of $\Gamma $ (that is, the space of class functions). As explained <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=39">here</a> it is a consequence of the Artin-Procesi theorem that the linear functions $\mathfrak{g}^{\ast} $ separate finite dimensional (semi)simple representations of $\Gamma $. That is we have an embedding</p>
+<p>$\mathbf{simp}~\Gamma \subset \mathfrak{g}^{\ast} $</p>
+<p>and we can define <strong>closed</strong> subsets of $\mathbf{simp}~\Gamma $ as subsets of simple representations on which a set of class-functions vanish. With this definition of Zariski topology it is immediately clear that the image of $\mathbf{simp}_c~\hat{\Gamma} $ is dense. For, suppose it would be contained in a proper closed subset then there would be a class-function vanishing on all simples of $\hat{\Gamma} $ so, in particular, there should be a bound on the number of simples of finite quotients $\Gamma/N $ which clearly is not the case (just look at the quotients $PSL_2(\mathbb{F}_p) $).</p>
+<p>But then, the same holds if we replace &#8216;simples of $\hat{\Gamma} $&#8217; by &#8216;simple components of permutation representations of $\Gamma $&#8217;. This is the importance of <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=21">Farey symbols</a> to the representation problem of the modular group. They give us a manageable subset of simples which is nevertheless dense in the whole space. To utilize this a natural idea might be to ask what such a permutation representation <strong>can see</strong> of the modular group, or in geometric terms, what the <strong>tangent space</strong> is to $\mathbf{simp}~\Gamma $ in a permutation representation (( more precisely, in the &#8216;cluster&#8217; of points making up the simple components of the representation representation )). We will call this the <strong>modular content</strong> of the permutation representation and to understand it we will have to compute the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=37">tangent quiver</a> $\vec{t}~\mathbb{C} \Gamma $.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/anabelian-noncommutative-geometry-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Anabelian vs. Noncommutative Geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/anabelian-vs-noncommutative-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/anabelian-vs-noncommutative-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 12 Dec 2007 20:33:29 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=53</guid>
+
+					<description><![CDATA[This is how my attention was drawn to what I have since termed anabelian algebraic geometry, whose starting point was exactly a study (limited for&#8230;]]></description>
+										<content:encoded><![CDATA[<blockquote><p>This is how my attention was drawn to what I have since termed<br />
+<strong>anabelian algebraic geometry</strong>, whose starting point was exactly a study<br />
+(limited for the moment to characteristic zero) of the action of absolute<br />
+Galois groups (particularly the groups $Gal(\overline{K}/K) $, where K is an extension of finite type of the prime field) on (profinite) geometric fundamental<br />
+groups of algebraic varieties (defined over K), and more particularly (breaking with a well-established tradition) fundamental groups which are very far<br />
+from abelian groups (and which for this reason I call <strong>anabelian</strong>). Among<br />
+these groups, and very close to the group $\hat{\pi}_{0,3} $ , there is the profinite compactification of the modular group $SL_2(\mathbb{Z}) $, whose quotient by its centre<br />
+$\{ \pm 1 \} $ contains the former as congruence subgroup mod 2, and can also be<br />
+interpreted as an oriented cartographic group, namely the one classifying triangulated oriented maps (i.e. those whose faces are all triangles or<br />
+monogons).
+</p></blockquote>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/agzen.jpg" style="float:left;margin-right:10px;"> The above text is taken from <a href="http://en.wikipedia.org/wiki/Alexander_Grothendieck">Alexander Grothendieck</a>&#8216;s visionary text <a href="http://www.math.jussieu.fr/~leila/grothendieckcircle/EsquisseEng.pdf">Sketch of a Programme</a>. He was interested in the permutation representations of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ as they correspond via Belyi-maps and his own notion of <a href="http://en.wikipedia.org/wiki/Dessin_d'enfant">dessins d&#8217;enfants</a> to smooth projective curves defined over $\overline{\mathbb{Q}} $. One can now study the action of the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q}) $ on these curves and their associated dessins. Because every permutation representation of $\Gamma $ factors over a finite quotient this gives an action of the absolute Galois group as automorphisms on the profinite compactification</p>
+<p>$\hat{\Gamma} = \underset{\leftarrow}{lim}~\Gamma/N $</p>
+<p>where the limit is taken over all finite index normal subgroups $N \triangleleft PSL_2(\mathbb{Z}) $. In this way one realizes the absolute Galois group as a subgroup of the outer automorphism group of the profinite group $\hat{\Gamma} $. As a profinite group is a compact topological group one should study its <strong>continuous</strong> finite dimensional representations which are precisely those factoring through a finite quotient. In the case of $\hat{\Gamma} $ the <strong>simple continuous representations</strong> $\mathbf{simp}_c~\hat{\Gamma} $ are precisely the components of the permutation representations of the modular group. So in a sense, anabelian geometry is the study of these continuous simples together wirth the action of the absolute Galois group on it.</p>
+<p>In <strong>noncommutative geometry</strong> we are interested in a related representation theoretic problem. We would love to know the simple finite dimensional representations $\mathbf{simp}~\Gamma $ of the modular group as this would give us all simples of the three string braid group $B_3 $. So a natural question presents itself : how are these two &#8216;geometrical&#8217; objects $\mathbf{simp}_c~\hat{\Gamma} $ (anabelian) and $\mathbf{simp}~\Gamma $ (noncommutative) related and can we use one to get information about the other?</p>
+<p>This is all rather vague  so far, so let us work out a trivial case to get some intuition. Consider the profinite completion of the infinite Abelian group</p>
+<p>$\hat{\mathbb{Z}} = \underset{\leftarrow}{lim}~\mathbb{Z}/n\mathbb{Z} = \prod_p \hat{\mathbb{Z}}_p $</p>
+<p>As all simple representations of an Abelian group are one-dimensional and because all continuous ones factor through a finite quotient $\mathbb{Z}/n\mathbb{Z} $ we see that in this case</p>
+<p>$\mathbf{simp}_c~\hat{\mathbb{Z}} = \mu_{\infty} $</p>
+<p>is the set of all roots of unity. On the other hand, the simple representations of $\mathbb{Z} $ are also one-dimensional and are determined by the image of the generator so</p>
+<p>$\mathbf{simp}~\mathbb{Z} = \mathbb{C} &#8211; &#123; 0 &#125; = \mathbb{C}^* $</p>
+<p>Clearly we have an embedding $\mu_{\infty} \subset \mathbb{C}^* $ and the roots of unity are even <strong>dense</strong> in the Zariski topology. This might look a bit strange at first because clearly all roots of unity lie on the unit circle which &#8216;should be&#8217; their closure in the complex plane, but that&#8217;s because we have a real-analytic intuition. Remember that the Zariski topology of $\mathbb{C}^*$ is just the cofinite topology, so any closed set containing the infinitely many roots of unity should be the whole space!</p>
+<p>Let me give a pedantic alternative proof of this (but one which makes it almost trivial that a similar result should be true for most profinite completions&#8230;). If $c $ is the generator of $\mathbb{Z} $ then the different conjugacy classes are precisely the singletons $c^n $. Now suppose that there is a polynomial $a_0+a_1x+\ldots+a_mx^m $ vanishing on all the continuous simples of $\hat{\mathbb{Z}} $ then this means that the dimensions of the character-spaces of all finite quotients $\mathbb{Z}/n\mathbb{Z} $ should be bounded by $m $ (for consider $x $ as the character of $c $), which is clearly absurd.</p>
+<p>Hence, whenever we have a finitely generated group $G $ for which there is no bound on the number of irreducibles for finite quotients, then <strong>morally</strong> the continuous simple space for the profinite completion</p>
+<p>$\mathbf{simp}_c~\hat{G} \subset \mathbf{simp}~G $</p>
+<p>should be dense in the Zariski topology on the noncommutative space of simple finite dimensional representations of $G $. In particular, this should be the case for the modular group $PSL_2(\mathbb{Z}) $.</p>
+<p>There is just one tiny problem : unlike the case of $\mathbb{Z} $ for which this space is an ordinary (ie. commutative) affine variety $\mathbb{C}^* $, what do we mean by the &#8220;Zariski topology&#8221; on the noncommutative space $\mathbf{simp}~PSL_2(\mathbb{Z}) $ ? Next time we will clarify what this might be and show that indeed in this case the subset</p>
+<p>$\mathbf{simp}_c~\hat{\Gamma} \subset \mathbf{simp}~\Gamma $</p>
+<p>will be a Zariski closed subset!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/anabelian-vs-noncommutative-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>neverendingbooks-geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 12 Jun 2007 12:01:04 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Jacobian]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://localhost/?p=5</guid>
+
+					<description><![CDATA[Here a list of saved pdf-files of previous NeverEndingBooks-posts on geometry in reverse chronological order. The rationality problem The Manin-Marcolli cave The taxicab curve Anabelian&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here a list of saved pdf-files of previous NeverEndingBooks-posts on geometry in reverse chronological order.</p>
+<p><span id="more-12051"></span></p>
+<p><a href="NEBPDFS/318.pdf">The rationality problem</a></p>
+<p><a href="NEBPDFS/313.pdf">The Manin-Marcolli cave</a></p>
+<p><a href="NEBPDFS/312.pdf">The taxicab curve</a></p>
+<p><a href="NEBPDFS/305.pdf">Anabelian geometry</a></p>
+<p><a href="NEBPDFS/307.pdf">Noncommutative curves and their manifolds</a></p>
+<p><a href="NEBPDFS/306.pdf">The noncommutative manifold of a Riemann surface</a></p>
+<p><a href="NEBPDFS/295.pdf">The best rejected proposal ever</a></p>
+<p><a href="NEBPDFS/296.pdf">Noncommutative geometry &#8211; a medieval science?</a></p>
+<p><a href="NEBPDFS/239.pdf">Master class 2007</a></p>
+<p><a href="NEBPDFS/228.pdf">2006 paper nominees</a></p>
+<p><a href="NEBPDFS/212.pdf">Coalgebras and non-geometry 3</a></p>
+<p><a href="NEBPDFS/210.pdf">Coalgebras and non-geometry 2</a></p>
+<p><a href="NEBPDFS/201.pdf">Coalgebras and non-geometry 1</a></p>
+<p><a href="NEBPDFS/208.pdf">Krull and Paris</a></p>
+<p><a href="NEBPDFS/207.pdf">Noncommutative at Newton</a></p>
+<p><a href="NEBPDFS/200.pdf">Noncommutative Fourier transforms</a></p>
+<p><a href="NEBPDFS/199.pdf">Non-(commutative) geometry</a></p>
+<p><a href="NEBPDFS/197.pdf">Non-geometry</a></p>
+<p><a href="NEBPDFS/195.pdf">A good day at the arXiv</a></p>
+<p><a href="NEBPDFS/184.pdf">Noncommutative geometry master class</a></p>
+<p><a href="NEBPDFS/174.pdf">Noncommutative complete intersections</a></p>
+<p><a href="NEBPDFS/167.pdf">Master program 2006</a></p>
+<p><a href="NEBPDFS/165.pdf">Noncommutative topology 4</a></p>
+<p><a href="NEBPDFS/161.pdf">Noncommutative topology 3</a></p>
+<p><a href="NEBPDFS/160.pdf">Noncommutative topology 2</a></p>
+<p><a href="NEBPDFS/157.pdf">Noncommutative topology 1</a></p>
+<p><a href="NEBPDFS/140.pdf">Alain Connes on &#8230; everything</a></p>
+<p><a href="NEBPDFS/18.pdf">Jacobian conjecture remains open</a></p>
+<p><a href="NEBPDFS/68.pdf">The Klein stack</a></p>
+<p><a href="NEBPDFS/66.pdf">Sexing-up curves</a></p>
+<p><a href="NEBPDFS/56.pdf">Why nag? 3</a></p>
+<p><a href="NEBPDFS/283.pdf">Granada Notes</a></p>
+<p><a href="NEBPDFS/55.pdf">Why nag? 2</a></p>
+<p><a href="NEBPDFS/54.pdf">Why nag? 1</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>anabelian geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/anabelian-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/anabelian-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 22 Mar 2007 05:41:25 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=75</guid>
+
+					<description><![CDATA[Last time we saw that a curve defined over $\overline{\mathbb{Q}} $ gives rise to a permutation representation of $PSL_2(\mathbb{Z}) $ or one of its subgroups&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/?p=64">Last time</a> we saw<br />
+that a curve defined over $\overline{\mathbb{Q}} $ gives rise<br />
+to a permutation representation of $PSL_2(\mathbb{Z}) $ or one<br />
+of its subgroups $\Gamma_0(2) $ (of index 2) or<br />
+$\Gamma(2) $ (of index 6).  As the corresponding<br />
+monodromy group is finite, this representation factors through a normal<br />
+subgroup of finite index, so it makes sense to look at the <strong>profinite<br />
+completion</strong> of $SL_2(\mathbb{Z}) $, which is the inverse limit<br />
+of finite<br />
+groups  $\underset{\leftarrow}{lim}~SL_2(\mathbb{Z})/N $<br />
+where N ranges over all normalsubgroups of finite index. These<br />
+profinte completions are horrible beasts even for easy groups such as<br />
+$\mathbb{Z} $. Its profinite completion<br />
+is</p>
+<p>$\underset{\leftarrow}{lim}~\mathbb{Z}/n\mathbb{Z} =<br />
+\prod_p \hat{\mathbb{Z}}_p $</p>
+<p>where the right hand side<br />
+product of p-adic integers ranges over all prime numbers!  The<br />
+_absolute Galois group_<br />
+$G=Gal(\overline{\mathbb{Q}}/\mathbb{Q}) $ acts on all curves<br />
+defined over $\overline{\mathbb{Q}} $ and hence (via the Belyi<br />
+maps ans the corresponding monodromy permutation representation) there<br />
+is an action of $G $ on the profinite completions of the<br />
+carthographic groups.</p>
+<p>This is what Grothendieck calls <strong>anabelian<br />
+algebraic geometry</strong></p>
+<blockquote><p> Returning to the general<br />
+case, since finite maps can be interpreted as  coverings over<br />
+$\overline{\mathbb{Q}} $ of an algebraic curve defined over<br />
+the prime field $~\mathbb{Q} $ itself,  it follows that the<br />
+Galois group $G $ of $\overline{\mathbb{Q}} $ over<br />
+$~\mathbb{Q} $ acts on the category of these  maps in a<br />
+natural way. <br /> For instance, the operation of an automorphism<br />
+ $~\gamma \in G $ on a spherical map given by the rational<br />
+function above is obtained  by applying $~\gamma $ to the<br />
+coefficients of the polynomials P , Q. Here, then, is  that<br />
+mysterious group $G $ intervening as a transforming agent on<br />
+topologico-  combinatorial forms of the most elementary possible<br />
+nature, leading us to  ask questions like: are such and such oriented<br />
+maps ‚conjugate or: exactly  which are the conjugates of a given<br />
+oriented map? (Visibly, there is only a  finite number of these). <br
+/> I considered some concrete cases (for coverings of low degree) by<br />
+various methods, J. Malgoire considered some others ‚ I doubt that<br />
+there is  a uniform method for solving the problem by computer. My<br />
+reflection  quickly took a more conceptual path, attempting to<br />
+apprehend the nature of this action of G. <br /> One sees immediately<br />
+that roughly speaking, this  action is expressed by a certain<br />
+outer action of G on the profinite com-  pactification of the<br />
+oriented cartographic group $C_+^2 = \Gamma_0(2) $ , and this<br />
+action in its  turn is deduced by passage to the quotient of the<br />
+canonical outer action of  G on the profinite fundamental group<br />
+$\hat{\pi}_{0,3} $ of <br
+/> $(U_{0,3})_{\overline{\mathbb{Q}}} $  where<br />
+$U_{0,3} $ denotes  the typical curve of genus 0 over the<br />
+prime field Q, with three points re-  moved. <br /> This is how my<br />
+attention was drawn to what I have since termed  <strong>anabelian<br />
+algebraic geometry</strong>, whose starting point was exactly a study<br />
+ (limited for the moment to characteristic zero) of the action of<br />
+absolute  Galois groups (particularly the groups Gal(K/K),<br />
+where K is an extension of finite type of the prime field) on<br />
+(profinite) geometric fundamental  groups of algebraic varieties<br />
+(defined over K), and more particularly (break-  ing with a<br />
+well-established tradition) fundamental groups which are very far<br />
+ from abelian groups (and which for this reason I call<br />
+anabelian). <br /> Among  these groups, and very close to<br />
+the group $\hat{\pi}_{0,3} $ , there is the profinite<br />
+compactification of the modular group $Sl_2(\mathbb{Z}) $,<br />
+whose quotient by its centre  ±1 contains the former as congruence<br />
+subgroup mod 2, and can also be  interpreted as an oriented<br />
+cartographic group, namely the one classifying triangulated<br />
+oriented maps (i.e. those whose faces are all triangles or<br />
+ monogons).  </p></blockquote>
+<p>and a bit further, on page<br />
+250</p>
+<blockquote><p> I would like to conclude this rapid outline<br />
+with a few words of commentary on the truly unimaginable richness<br />
+of a typical anabelian group such  as $SL_2(\mathbb{Z}) $<br />
+ doubtless the most remarkable discrete infinite group ever<br />
+encountered, which appears in a multiplicity of avatars (of which<br />
+certain have been briefly touched on in the present report), and which<br />
+from the  point of view of Galois-Teichmuller theory can be<br />
+considered as the fundamental ‚building block‚ of the<br />
+Teichmuller tower <br /> The element of the  structure of<br />
+$Sl_2(\mathbb{Z}) $ which fascinates me above all is of course<br />
+the outer  action of G on its profinite compactification. By<br />
+Bielyi&#8217;s theorem, taking the profinite compactifications of subgroups<br />
+of finite index of $Sl_2(\mathbb{Z}) $,  and the induced<br />
+outer action (up to also passing to an open subgroup of  G), we<br />
+essentially find the fundamental groups of all algebraic curves (not<br />
+ necessarily compact) defined over number fields K, and the outer<br />
+action of  $Gal(\overline{K}/K) $ on them  at least it is<br />
+true that every such fundamental group  appears as a quotient of one<br />
+of the first groups. <br /> Taking the anabelian  yoga<br />
+(which remains conjectural) into account, which says that an anabelian<br />
+algebraic curve over a number field K (finite extension of Q) is<br />
+ known up to isomorphism when we know its mixed fundamental group (or<br />
+ what comes to the same thing, the outer action of<br />
+$Gal(\overline{K}/K) $ on its profinite geometric<br />
+fundamental group), we can thus say that <br /> <strong>all algebraic<br />
+curves defined over number fields are contained in the profinite<br />
+compactification  $\widehat{SL_2(\mathbb{Z})} $ and in the<br />
+knowledge of a certain subgroup G of its group of outer<br />
+automorphisms!</strong> </p></blockquote>
+<p>To study the absolute<br />
+Galois group $Gal(\overline{\mathbb{\mathbb{Q}}}/\mathbb{Q}) $ one<br />
+investigates its action on dessins denfants. Each dessin will be part of<br />
+a finite family of dessins which form one orbit under the Galois action<br />
+and one needs to find invarians to see whether two dessins might belong<br />
+to the same orbit. Such invariants are called _Galois invariants_ and<br />
+quite a few of them are known.</p>
+<p>Among these the easiest to compute<br />
+are</p>
+<ul>
+<li>the valency list of a dessin : that is the valencies of all<br />
+vertices of the same type in a dessin   </li>
+<li>the monodromy group of a dessin : the subgroup of the symmetric group $S_d $ where d is<br />
+the number of edges in the dessin  generated by the partitions $\tau_0 $<br />
+and $\tau_1 $    For example, we have <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=62">seen<br />
+before</a> that the two<br />
+Mathieu-dessins  </li>
+</ul>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/twomathieus.jpg"  /></p>
+<p>form a Galois orbit. As graphs (remeber we have to devide each<br />
+of the edges into two and the midpoints of these halfedges form one type<br />
+of vertex, the other type are the black vertices in the graphs) these<br />
+are isomorphic, but NOT as dessins as we have to take the embedding of<br />
+them on the curve into account. However, for both dessins the valency<br />
+lists are  (white) : (2,2,2,2,2,2) and (black) :<br />
+(3,3,3,1,1,1)  and one verifies that both monodromy groups are<br />
+isomorphic to the Mathieu simple group $M_{12} $ though they are<br />
+not conjugated as subgroups of $S_{12} $.</p>
+<p>Recently, new<br />
+Galois invariants were obtained from physics. In <a href="http://www.arxiv.org/abs/hep-th/0611082/">Children&#8217;s drawings<br />
+from Seiberg-Witten curves</a><br />
+the authors argue that there is a close connection between Grothendiecks<br />
+programme of classifying dessins into Galois orbits and the physics<br />
+problem of classifying phases of N=1 gauge theories&#8230;</p>
+<p>Apart<br />
+from curves defined over $\overline{\mathbb{Q}} $ there are<br />
+other sources of semi-simple $SL_2(\mathbb{Z}) $<br />
+representations. We will just mention two of them and may return to them<br />
+in more detail later in the course.</p>
+<p><strong>Sporadic simple groups and<br />
+their representations</strong> There are 26 exceptional finite simple groups<br />
+and as all of them are generated by two elements, there are epimorphisms<br />
+$\Gamma(2) \rightarrow S $ and hence all their representations<br />
+are also semi-simple $\Gamma(2) $-representations. In fact,<br />
+looking at the list of &#8216;standard generators&#8217; of the sporadic<br />
+simples</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/gensporadics.jpg" alt="" /></p>
+<p>(here the conjugacy classes of the generators follow the<br />
+notation of the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/">Atlas project</a>) we see that all but<br />
+possibly one are epimorphic images of $\Gamma_0(2) = C_2 \ast<br />
+C_{\infty} $ and that at least 12 of then are epimorphic images<br />
+of $PSL_2(\mathbb{Z}) = C_2 \ast<br />
+C_3 $.</p>
+<p><strong>Rational conformal field theories</strong>  Another<br />
+source of $SL_2(\mathbb{Z}) $ representations is given by the<br />
+modular data associated to rational conformal field theories.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/moonshinebeyond.jpg" style="float:left;margin-right:10px;"> These<br />
+representations also factor through a quotient by a finite index normal<br />
+subgroup and are therefore again semi-simple<br />
+$SL_2(\mathbb{Z}) $-representations. For a readable<br />
+introduction to all of this see chapter 6 \&#8221;Modular group<br />
+representations throughout the realm\&#8221; of the<br />
+book   <a href="http://www.amazon.co.uk/Moonshine-Beyond-Monster-Connecting-Mathematical/dp/0521835313">Moonshine beyond the monster  the bridge connecting algebra, modular forms and physics</a> by <a href="http://www.math.ualberta.ca/~tgannon/">Terry<br />
+Gannon</a>. In fact, the whole book<br />
+is a good read. It introduces a completely new type of scientific text,<br />
+that of a neverending survey paper&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/anabelian-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>permutation representations of monodromy groups</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/permutation-representations-of-monodromy-groups/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/permutation-representations-of-monodromy-groups/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 20 Mar 2007 14:22:09 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=78</guid>
+
+					<description><![CDATA[Today we will explain how curves defined over $\overline{\mathbb{Q}} $ determine permutation representations of the carthographic groups. We have seen that any smooth projective curve&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Today we will explain how curves defined over<br />
+$\overline{\mathbb{Q}} $ determine permutation representations<br />
+of the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=65">carthographic groups</a>.  We <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=64">have seen</a> that any smooth projective<br />
+curve $C $ (a Riemann surface) defined over the algebraic<br />
+closure $\overline{\mathbb{Q}} $ of the rationals, defines a<br />
+_Belyi map_  $\xymatrix{C \ar[rr]^{\pi} &amp; &amp; \mathbb{P}^1} $  which is only ramified over the three points<br />
+$\\{ 0,1,\infty \\} $. By this we mean that there are<br />
+exactly $d $ points of $C $ lying over any other point<br />
+of $\mathbb{P}^1 $ (we call $d $ the degree of<br />
+$\pi $) and that the number of points over $~0,1~ $ and<br />
+$~\infty $ is smaller than $~d $. To such a map we<br />
+associate a _dessin d\&#8217;enfant_, a drawing on $C $ linking the<br />
+pre-images of $~0 $ and $~1 $ with exactly $d $<br />
+edges (the preimages of the open unit-interval).  Next, we look at<br />
+the preimages of $~0 $ and associate a permutation<br />
+$\tau_0 $ of $~d $ letters to it by cycling<br />
+counter-clockwise around these preimages and recording the edges we<br />
+meet. We repeat this procedure for the preimages of $~1 $ and<br />
+get another permutation $~\tau_1 $. That is, we obtain a<br />
+subgroup of the symmetric group  $ \langle \tau_0,\tau_1<br />
+\rangle \subset S_d $  which is called the <strong>monodromy<br />
+group</strong> of the covering $\pi $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dessinA8" style="float:left;margin-right:10px;"> For example, the<br />
+dessin  on the right  is<br />
+associated to a degree $8 $ map $\mathbb{P}^1 \rightarrow<br />
+\mathbb{P}^1 $ and if we let the black (resp. starred) vertices be<br />
+the preimages of $~0 $ (respectively of $~1 $), then the<br />
+corresponding partitions are  $\tau_0 = (2,3)(1,4,5,6) $<br />
+and $\tau_1 = (1,2,3)(5,7,8) $  and the monodromy group<br />
+is the alternating group $A_8 $ (use<br />
+<a href="http://www.gap-system.org/">GAP</a> ).</p>
+<p>But wait! The map is also<br />
+ramified in $\infty $ so why don\&#8217;t we record also a<br />
+permutation $\tau_{\infty} $ and are able to compute it from<br />
+the dessin? (Note that all three partitions are needed if we want to<br />
+reconstruct $C $ from the $~d $ sheets as they encode in<br />
+which order the sheets fit together around the preimages).   Well,<br />
+the monodromy group of a $\mathbb{P}^1 $ covering ramified only<br />
+in three points is an epimorphic image of the <a href="http://en.wikipedia.org/wiki/Fundamental_group">fundamental<br />
+group</a> of the sphere<br />
+minus three points  $\pi_1(\mathbb{P}^1 &#8211; &#123; 0,1,\infty<br />
+&#125;) $   That is, the group of all loops beginning and<br />
+ending in a basepoint upto homotopy (that is, two such loops are the<br />
+same if they can be transformed into each other in a continuous way<br />
+while avoiding the three points).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/fund3sphere.jpg" style="float:right;margin-left:10px;"> This group is generated by loops<br />
+$\sigma_i $ running from the basepoint to nearby the i-th<br />
+point, doing a counter-clockwise walk around it and going back to be<br />
+basepoint $Q_0 $    and the epimorphism to the monodromy group is given by sending</p>
+<p>$\sigma_1 \mapsto \tau_0~\quad~\sigma_2 \mapsto<br />
+\tau_1~\quad~\sigma_3 \mapsto \tau_{\infty} $</p>
+<p>Now,<br />
+these three generators are not independent. In fact, this fundamental<br />
+group is</p>
+<p>$\pi_1(\mathbb{P}^1 &#8211; \\{ 0,1,\infty \\}) =<br />
+\langle \sigma_1,\sigma_2,\sigma_3~\mid~\sigma_1 \sigma_2<br />
+\sigma_3 = 1 \rangle $</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/fund1sphere.jpg" style="float:left;margin-right:10px;" > To understand this, let us begin<br />
+with an easier case, that of the sphere minus one point.   The fundamental group of the plane minus one point is<br />
+$~\mathbb{Z} $ as it encodes how many times we walk around the<br />
+point. However, on the sphere the situation is different as we can make<br />
+our walk around the point longer and longer until the whole walk is done<br />
+at the backside of the sphere and then we can just contract our walk to<br />
+the basepoint. So, there is just one type of walk on a sphere minus one<br />
+point (upto homotopy) whence this fundamental group is trivial. Next,<br />
+let us consider the sphere minus two points</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/fund2sphere.jpg" style="float:right;margin-left:10px;" ><br />
+Repeat the foregoing to the walk $\sigma_2 $, that<br />
+is, strech the upper part of the circular tour all over the backside of<br />
+the sphere and then we see that we can move it to fit with the walk<br />
+$\sigma_1$ BUT for the orientation of the walk! That is, if we do this<br />
+modified walk $\sigma_1 \sigma_2^{\&#8217;} $ we just made the<br />
+trivial walk. So, this fundamental group is  $\langle<br />
+\sigma_1,\sigma_2~\mid~\sigma_1 \sigma_2 = 1 \rangle =<br />
+\mathbb{Z} $  This is also the proof of the above claim. For,<br />
+we can modify the third walk $\sigma_3 $ continuously so that<br />
+it becomes the walk   $\sigma_1 \sigma_2 $   but<br />
+with the <strong>reversed orientation</strong> !  As $\sigma_3 =<br />
+(\sigma_1 \sigma_2)^{-1} $ this allows us to compute the<br />
+\&#8217;missing\&#8217; permutation  $\tau_{\infty} = (\tau_0<br />
+\tau_1)^{-1} $  In the example above, we obtain<br />
+$\tau_{\infty}= (1,2,6,5,8,7,4)(3) $ so it has two cycles<br />
+corresponding to the fact that the dessin has two regions (remember we<br />
+should draw ths on the sphere) : the head and the outer-region. Hence,<br />
+the pre-images of $\infty$ correspond to the different regions of the<br />
+dessin on the curve $C $.   For another example,<br />
+consider the degree 168 map</p>
+<p>$K \rightarrow \mathbb{P}^1 $</p>
+<p>which is the modified orbit map for the action of<br />
+  $PSL_2(\mathbb{F}_7) $   on the Klein quartic.<br />
+The corresponding dessin is the heptagonal construction of the Klein<br />
+quartic</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/kleinhepto.jpg" /></p>
+<p>Here, the pre-images of 1 correspond to the midpoints of the<br />
+84 edges of the polytope whereas the pre-images of 0 correspond to the<br />
+56 vertices. We can label the 168 half-edges by numbers such that<br />
+$\tau_0 $ and $\tau_1 $ are the standard generators b<br />
+resp. a of the 168-dimensional regular representation (see the <a href="http://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/L27G1-p168B0">atlas<br />
+page</a> ).<br />
+Calculating with GAP the element  $\tau_{\infty} = (\tau_0<br />
+\tau_1)^{-1} = (ba)^{-1} $  one finds that this permutation<br />
+consists of  24 cycles of length 7, so again, the pre-images of<br />
+$\infty $ lie one in each of the 24 heptagonal regions of the<br />
+Klein quartic.  Now, we are in a position to relate curves defined<br />
+over $\overline{Q} $ via their Belyi-maps and corresponding<br />
+dessins to   Grothendiecks carthographic groups $\Gamma(2) $,<br />
+$\Gamma_0(2) $ and $SL_2(\mathbb{Z}) $.  The<br />
+dessin gives a permutation representation of the monodromy group and<br />
+because the fundamental group of the sphere minus three<br />
+points  $\pi_1(\mathbb{P}^1 &#8211; \\{ 0,1,\infty \\}) =<br />
+\langle \sigma_1,\sigma_2,\sigma_3~\mid~\sigma_1 \sigma_2<br />
+\sigma_3 = 1 \rangle = \langle \sigma_1,\sigma_2<br />
+\rangle $  is the free group op two generators, we see that<br />
+any dessin determines a permutation representation of the congruence<br />
+subgroup $\Gamma(2) $ (see <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=302">this<br />
+post</a> where we proved that this<br />
+group is free).  A <strong>clean dessin</strong> is one for which one type of<br />
+vertex has all its valancies (the number of edges in the dessin meeting<br />
+the vertex) equal to one or two. (for example, the pre-images of 1 in<br />
+the Klein quartic-dessin or the pre-images of 1 in the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=297">monsieur Mathieu<br />
+example</a> ) The corresponding<br />
+permutation $\tau_1 $ then consists of 2-cycles and hence the<br />
+monodromy group gives a permutation representation of the free<br />
+product  $C_{\infty} \ast C_2 =<br />
+\Gamma_0(2) $  Finally, a clean dessin is said to be a<br />
+<strong>quilt dessin</strong> if also the other type of vertex has all its valancies<br />
+equal to one or three (as in the Klein quartic or Mathieu examples).<br />
+Then, the corresponding permutation has order 3 and for these<br />
+quilt-dessins the monodromy group gives a permutation representation of<br />
+the free product  $C_2 \ast C_3 =<br />
+PSL_2(\mathbb{Z}) $   Next time we will see how this lead<br />
+Grothendieck to his anabelian geometric approach to the absolute Galois<br />
+group.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/permutation-representations-of-monodromy-groups/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>noncommutative bookmarks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-bookmarks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-bookmarks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 27 Feb 2007 09:17:17 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=202</guid>
+
+					<description><![CDATA[At last, some excitement about noncommutative geometry in the blogosphere. From what I deduce from reading the first posts, Arup Pal set up a new&#8230;]]></description>
+										<content:encoded><![CDATA[<p>At<br />
+last, some excitement about noncommutative geometry in the blogosphere.
+</p>
+</p>
+<p>From what I deduce from reading the first posts, <a href="http://www.isid.ac.in/~arup/">Arup Pal</a> set up a new blog<br />
+called <a href="http://noncommutativegeometry.blogspot.com/">Noncommutative<br />
+Geometry</a> and subsequently handed it over to <a href="http://www.math.uwo.ca/~masoud/cv/">Masoud Khalkhali</a> who then<br />
+got Alain Connes to post on it who, in turn, is asking people to submit<br />
+posts, such as todays post by <a href="http://www.math.ohio-state.edu/~goss/">David Goss</a>. </p>
+<p>Somehow, most people refer to the Noncommutative Geometry blog as<br />
+&#8220;Alain Connes&#8217; blog&#8221; (for example  <a href="http://doctorgero.livejournal.com/32369.html">Doctor Gero</a>, <a href="http://www.math.columbia.edu/~woit/wordpress/?p=526">Not Even<br />
+Wrong</a>, <a href="http://golem.ph.utexas.edu/category/2007/02/how_to_write_mathematics_badly.html">the n-category cafe</a> and<br />
+possibly many others). </p>
+<p>David Corfield <a href="http://golem.ph.utexas.edu/category/2007/02/noncommutative_geometry_blog.html">over at the n-category cafe</a> stops<br />
+short of suggesting to rename (by analogy) NeverEndingBooks into<br />
+Kontsevich&#8217;s blog</p>
+<blockquote><p>A new blog Noncommutative Geometry<br />
+has begun, which appears to be of the Connesian variety. (Connes himself<br />
+has already commented there.) We mentioned a couple of weeks ago that<br />
+there are different flavours of noncommutative geometry. The<br />
+Kontsevichian variety, nongeometry, finds its blog voice in Lieven Le<br />
+Bruyn‚Äôs NeverEndingBooks. It would be interesting to see some<br />
+interaction.</p></blockquote>
+<p>I don&#8217;t think I will opt for a dialectic<br />
+response to the <a href="http://noncommutativegeometry.blogspot.com/index.html">Noncommutative Geometry Blog</a>, although I realize this would result<br />
+in more enjoyable reading for some of you&#8230;</p>
+<p>For starters,<br />
+I&#8217;ve signed up to another flagship of noncommutative<br />
+_differential_ geometry : <a href="http://www.noncommutativegeometry.net/">noncommutativegeometry.net</a>, though it is unclear to me what action (if any) is<br />
+going on over there.</p>
+<p>Further, I plan to move my talks at the <a href="http://www.math.ua.ac.be/algebra/seminar.php">master class<br />
+noncommutative geometry</a> to the virtual lecture room of this blog,<br />
+hoping to get the desired interaction. We&#8217;ll start later this week and<br />
+the pace will be pretty easy going.  A tentative title might be<br />
+&#8220;Anabelian versus Noncommutative Geometry&#8221;.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-bookmarks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

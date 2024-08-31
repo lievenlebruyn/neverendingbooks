@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>coalgebras &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/coalgebras/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 19 May 2009 16:56:50 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Pollock your own noncommutative space</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 19 May 2009 16:56:50 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[paintings]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=1839</guid>
+
+					<description><![CDATA[I really like Matilde Marcolli&#8217;s idea to use some of Jackson Pollock&#8217;s paintings as metaphors for noncommutative spaces. In her talk she used this painting&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I really like Matilde Marcolli&#8217;s <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/views-of-noncommutative-spaces.html">idea</a> to use some of Jackson Pollock&#8217;s paintings as metaphors for noncommutative spaces. In her talk she used this painting</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PollockNCG.jpg"><br />
+</center></p>
+<p>and refered to it (as did I in my post) as : Jackson Pollock “Untitled N.3”. Before someone writes a post &#8216;The Pollock noncommutative space hoax&#8217; (similar to <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-scottish-solids-hoax.html">my own</a> post) let me point out that I am well aware of the controversy surrounding this painting.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/PollockContreversy.jpg" style="float:right;margin-left:10px;" hspace=10>This painting is among 32 works recently discovered and initially attributed to Pollock.<br />
+In fact, I&#8217;ve already told part of the story in <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/doodles-worth-millions-or-not.html">Doodles worth millions (or not)?</a> (thanks to <a href="http://www.gittte.be/">PD1</a>). The story involves the people on the right : from left to right, Jackson Pollock, his wife Lee Krasner, Mercedes Matter and her son Alex Matter.</p>
+<p>Alex Matter, whose father, Herbert, and mother, Mercedes, were artists and friends of Jackson Pollock, discovered after his mother died a group of small drip paintings in a storage locker in Wainscott, N.Y. which he believed to be authentic Pollocks.</p>
+<p>Read the post mentioned above if you want to know how mathematics screwed up his plan, or much better, reed the article <a href="http://blog.cleveland.com/pdextra/2007/10/anatomy_of_the_jackson_pollock.html">Anatomy of the Jackson Pollock controversy</a> by Stephen Litt.</p>
+<p>So, perhaps the painting above was not the smartest choice, but we could take any other genuine Pollock &#8216;drip-painting&#8217;, a technique he taught himself towards the end of 1946 to make an image by splashing, pouring, sloshing colors onto the canvas. Typically, such a painting consists of blops of paint, connected via thin drip-lines.</p>
+<p>What does this have to do with noncommutative geometry? Well, consider the blops as &#8216;points&#8217;. In commutative geometry, distinct points cannot share tangent information ((technically : a commutative semi-local ring splits as the direct sum of local rings and this does no longer hold for a noncommutative semi-local ring)). In the noncommutative world though, they can!, or if you want to phrase it like this, noncommutative points &#8216;can talk to each other&#8217;. And, that&#8217;s what we cherish in those drip-lines.</p>
+<p>But then, if two points share common tangent informations, they must be awfully close to each other&#8230; so one might imagine these Pollock-lines to be strings holding these points together. Hence, it would make more sense to consider the &#8216;Pollock-quotient-painting&#8217;, that is, the space one gets after dividing out the relation &#8216;connected by drip-lines&#8217; ((my guess is that Matilde thinks of the lines as the action of a group on the points giving a topological horrible quotient space, and thats precisely where noncommutative geometry shines)).</p>
+<p>For this reason, my own mental picture of a genuinely noncommutative space  ((that is, the variety corresponding to a huge noncommutative algebra such as free algebras, group algebras of arithmetic groups or fundamental groups)) looks more like the picture below</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/LeBruynNCG.jpg"><br />
+</center></p>
+<p>The colored blops you see are really sets of points which you might view as, say, a  FacebookGroup ((technically, think of them as the connected components of isomorphism classes of finite dimensional simple representations of your favorite noncommutative algebra)). Some chatter may occur between two distinct FacebookGroups, the more chatter the thicker the connection depicted ((technically, the size of the connection is the dimension of the ext-group between generic simples in the components)). Now, there are some tiny isolated spots (say blue ones in the upper right-hand quadrant). These should really be looked at as remote clusters of noncommutative points (sharing no (tangent) information whatsoever with the blops in the foregound). If we would zoom into them beyond the Planck scale (if I&#8217;m allowed to say a bollock-word in a Pollock-post) they might reveal again a whole universe similar to the interconnected blops upfront.</p>
+<p>The picture was produced using the fabulous <a href="http://www.jacksonpollock.org/">Pollock engine</a>. Just use your mouse to draw and click to change colors in order to produce your very own noncommutative space!</p>
+<p>For the mathematicians still around, this may sound like a lot of Pollock-bollocks but can be made precise. See my note <a href="http://arxiv.org/abs/0805.2377">Noncommutative geometry and dual coalgebras</a> for a very terse reading. Now that coalgebras are <a href="http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html">gaining popularity</a>, I really should write a more readable account of it, including some fanshi-wanshi examples&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>noncommutative F_un geometry (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 17 Oct 2008 12:14:09 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=459</guid>
+
+					<description><![CDATA[We use Kontsevich's idea of thin varieties to define complexified varieties over F\_un.]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/towards-noncommutative-f_un-geometry.html">Last time</a> we tried to generalize the <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-1.html">Connes-Consani</a> approach to commutative algebraic geometry over the field with one element $\mathbb{F}_1 $ to the noncommutative world by considering covariant functors</p>
+<p>$N~:~\mathbf{groups} \rightarrow \mathbf{sets} $</p>
+<p>which over $\mathbb{C} $ resp. $\mathbb{Z} $ become visible by a complex (resp. integral) algebra having suitable universal properties.</p>
+<p>However, we didn&#8217;t specify what we meant by a complex noncommutative variety (resp. an integral noncommutative scheme). In particular, we claimed that the $\mathbb{F}_1 $-&#8216;points&#8217; associated to the functor</p>
+<p>$D~:~\mathbf{groups} \rightarrow \mathbf{sets} \qquad G \mapsto G_2 \times G_3 $ (here $G_n $ denotes all elements of order $n $ of $G $)</p>
+<p>were precisely the modular dessins d&#8217;enfants of Grothendieck, but didn&#8217;t give details. We&#8217;ll try to do this now.</p>
+<p>For algebras over a field we follow the definition, due to <a href="http://arxiv.org/abs/math/0606241">Kontsevich and Soibelman</a>, of so called &#8220;noncommutative <strong>thin</strong> schemes&#8221;. Actually, the <strong>thinness</strong>-condition is implicit in both Soule&#8217;s-approach as that of Connes and Consani : we do not consider R-points in general, but only those of rings R which are finite and flat over our basering (or field).</p>
+<p>So, what is a <strong>noncommutative thin scheme</strong> anyway? Well, its a covariant functor (commuting with finite projective limits)</p>
+<p>$\mathbb{X}~:~\mathbf{Alg}^{fd}_k \rightarrow \mathbf{sets} $</p>
+<p>from finite-dimensional (possibly noncommutative) $k $-algebras to sets. Now, the usual dual-space operator gives an anti-equivalence of categories</p>
+<p>$\mathbf{Alg}^{fd}_k \leftrightarrow \mathbf{Coalg}^{fd}_k \qquad A=C^* \leftrightarrow C=A^* $</p>
+<p>so a thin scheme can also be viewed as a contra-variant functor (commuting with finite direct limits)</p>
+<p>$\mathbb{X}~:~\mathbf{Coalg}^{fd}_k \rightarrow \mathbf{Sets} $</p>
+<p>In particular, we are interested to associated to any {tex]k $-algebra $A $ its <strong>representation functor</strong> :</p>
+<p>$\mathbf{rep}(A)~:~\mathbf{Coalg}^{fd}_k \rightarrow \mathbf{Sets} \qquad C \mapsto Alg_k(A,C^*) $</p>
+<p>This may look strange at first sight, but $C^* $ is a finite dimensional algebra and any $n $-dimensional representation of $A $ is an algebra map $A \rightarrow M_n(k) $ and we take $C $ to be the dual coalgebra of this image.</p>
+<p>Kontsevich and Soibelman proved that every noncommutative thin scheme $\mathbb{X} $ is representable by a $k $-coalgebra. That is, there exists a unique coalgebra $C_{\mathbb{X}} $ (which they call the coalgebra of &#8216;distributions&#8217; of $\mathbb{X} $) such that for every finite dimensional $k $-algebra $B $ we have</p>
+<p>$\mathbb{X}(B) = Coalg_k(B^*,C_{\mathbb{X}}) $</p>
+<p>In the case of interest to us, that is for the functor $\mathbf{rep}(A) $ the coalgebra of distributions is <strong>Kostant&#8217;s dual coalgebra</strong> $A^o $. This is the not the full linear dual of $A $ but contains only those linear functionals on $A $ which factor through a finite dimensional quotient.</p>
+<p>So? You&#8217;ve exchanged an algebra $A $ for some coalgebra $A^o $, but where&#8217;s the geometry in all this? Well, let&#8217;s look at the commutative case. Suppose $A= \mathbb{C}[X] $ is the coordinate ring of a smooth affine variety $X $, then its dual coalgebra looks like</p>
+<p>$\mathbb{C}[X]^o = \oplus_{x \in X} U(T_x(X)) $</p>
+<p>the direct sum of all universal (co)algebras of tangent spaces at points $x \in X $. But how do we get the variety out of this? Well, any coalgebra has a <strong>coradical</strong> (being the sun of all simple subcoalgebras) and in the case just mentioned we have</p>
+<p>$corad(\mathbb{C}[X]^o) = \oplus_{x \in X} \mathbb{C} e_x $</p>
+<p>so every point corresponds to a unique simple component of the coradical. In the general case, the coradical of the dual coalgebra $A^o $ is the direct sum of all simple finite dimensional representations of $A $. That is, the direct summands of the coalgebra give us a noncommutative variety whose points are the simple representations, and the remainder of the coalgebra of distributions accounts for infinitesimal information on these points (as do the tangent spaces in the commutative case).</p>
+<p>In fact, it was a surprise to me that one can describe the dual coalgebra quite explicitly, and that $A_{\infty} $-structures make their appearance quite naturally. See <a href="http://arxiv.org/abs/0805.2377">this paper</a> if you&#8217;re in for the details on this.</p>
+<p>That settles the problem of what we mean by the noncommutative variety associated to a complex algebra. But what about the integral case? In the above, we used extensively the theory of Kostant-duality which works only for algebras over fields&#8230;</p>
+<p>Well, not quite. In the case of $\mathbb{Z} $ (or more general, of Dedekind domains) one can repeat Kostant&#8217;s proof word for word provided one takes as the definition of the dual $\mathbb{Z} $-coalgebra<br />
+of an algebra (which is $\mathbb{Z} $-torsion free)</p>
+<p>$A^o = &#123; f~:~A \rightarrow \mathbb{Z}~:~A/Ker(f)~\text{is finitely generated and torsion free}~&#125; $</p>
+<p>(over general rings there may be also variants of this duality, as in <a href="http://books.google.com/books?hl=en&amp;id=u0slIpdBjYUC&amp;dq=Joyal+Street+Quantum+groups+current+algebra&amp;printsec=frontcover&amp;source=web&amp;ots=YnWkAV4k9k&amp;sig=p9DpIEr7Ya4ssfjXlWWFDI3GndE&amp;sa=X&amp;oi=book_result&amp;resnum=4&amp;ct=result">Street&#8217;s book an Quantum groups</a>). Probably lots of people have come up with this, but the only explicit reference I have is to the <a href="http://www.math.ua.ac.be/~lebruyn/LeBruyn1981a.pdf">first paper I&#8217;ve ever written</a>. So, also for algebras over $\mathbb{Z} $ we can define a suitable noncommutative integral scheme (the coradical approach accounts only for the maximal ideals rather than all primes, but somehow this is implicit in all approaches as we consider only <strong>thin</strong> schemes).</p>
+<p>Fine! So, we can make sense of the noncommutative geometrical objects corresponding to the group-algebras $\mathbb{C} \Gamma $ and $\mathbb{Z} \Gamma $ where $\Gamma = PSL_2(\mathbb{Z}) $ is the modular group (the algebras corresponding to the $G \mapsto G_2 \times G_3 $-functor). But, what might be the points of the noncommutative scheme corresponding to $\mathbb{F}_1 \Gamma $???</p>
+<p>Well, let&#8217;s continue the path cut out before. &#8220;Points&#8221; should correspond to finite dimensional &#8220;simple representations&#8221;. Hence, what are the finite dimensional simple $\mathbb{F}_1 $-representations of $\Gamma $? (Or, for that matter, of any group $G $)</p>
+<p>Here we come back to <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/f_un-and-group-representations.html">Javier&#8217;s post on this</a> : a finite dimensional $\mathbb{F}_1 $-vectorspace is a finite set. A $\Gamma $-representation on this set (of n-elements) is a group-morphism</p>
+<p>$\Gamma \rightarrow GL_n(\mathbb{F}_1) = S_n $</p>
+<p>hence it gives a permutation representation of $\Gamma $ on this set. But then, if finite dimensional $\mathbb{F}_1 $-representations of $\Gamma $ are the finite permutation representations, then the <strong>simple</strong> ones are the <strong>transitive</strong> permutation representations. That is, the points of the noncommutative scheme corresponding to $\mathbb{F}_1 \Gamma $ are the conjugacy classes of subgroups $H \subset \Gamma $ such that $\Gamma/H $ is finite. But these are exactly the modular dessins d&#8217;enfants introduced by Grothendieck as I explained a while back elsewhere (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/modular-quilts-and-cuboid-tree-diagrams.html">this post</a> and others in the same series).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>F_un with Manin</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/f_un-with-manin/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/f_un-with-manin/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 10 Sep 2008 16:26:11 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=446</guid>
+
+					<description><![CDATA[Amidst all LHC-noise, Yuri I. Manin arXived today an interesting paper Cyclotomy and analytic geometry over $\mathbb{F}_1 $. The paper gives a nice survey of&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/manin.jpg" style="float:left;margin-right:10px;" hspace=10 > Amidst all LHC-noise, <a href="http://en.wikipedia.org/wiki/Yuri_Manin">Yuri I. Manin</a> arXived today an interesting paper <a href="http://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1 $</a>.</p>
+<p>The paper gives a nice survey of the existent literature and focusses on the crucial role of roots of unity in the algebraic geometry over the non-existent field with one element $\mathbb{F}_1 $ (in French called &#8216;F-un&#8217;). I have tried to do a couple of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-f_un-folklore.html">posts</a> on F-un some time ago but now realize, reading Manin&#8217;s paper, I may have given up way too soon&#8230;</p>
+<p>At several places in the paper, Manin hints at a possible <strong>noncommutative geometry</strong> over $\mathbb{F}_1 $ :</p>
+<blockquote><p>This is the appropriate place to stress that in a wider context of <a href="http://arxiv.org/abs/math.AG/0509684">Toen-Vaqui &#8216;Au-dessous de Spec Z&#8217;</a>, or eventually in noncommutative $\mathbb{F}_1 $-geometry, teh spectrum of $\mathbb{F}_1 $ loses its privileged position as a final object of a geometric category. For example, in noncommutative geometry, or in an appropriate category of stacks, the quotient of this spectrum modulo the trivial action of a group must lie below this spectrum. </p>
+<p>Soule&#8217;s algebras $\mathcal{A}_X $ are a very important element of the structure, in particular, because they form a bridge to Arakelov geometry. Soule uses concrete choices of them in order to produce &#8216;just right&#8217; supply of morphisms, without a priori constraining these choices formally. In this work, we use these algebras and their version also to pave a way to the analytic (and possibly non-commutative) geometry over $\mathbb{F}_1 $.</p></blockquote>
+<p>Back when I was writing the first batch of F-un posts, I briefly contemplated the possibility of a noncommutative geometry over $\mathbb{F}_1 $, but quickly forgot about it because I thought it would be forced to reduce to commutative geometry.</p>
+<p>Here is the quick argument : noncommutative geometry is really the study of coalgebras (see for example <a href="http://arxiv.org/abs/0805.2377">my paper</a> or if you prefer more trustworthy sources the <a href="http://arxiv.org/abs/math/0606241v2">Kontsevich-Soibelman paper</a>). Now, unless I made a mistake, I think all coalgebras over $\mathbb{F}_1 $ must be co-commutative (even group-like), so reducing to commutative geometry.</p>
+<p>Surely, I&#8217;m missing something&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/f_un-with-manin/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>neverendingbooks-geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 12 Jun 2007 12:01:04 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Jacobian]]></category>
+		<category><![CDATA[Klein]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://localhost/?p=5</guid>
+
+					<description><![CDATA[Here a list of saved pdf-files of previous NeverEndingBooks-posts on geometry in reverse chronological order. The rationality problem The Manin-Marcolli cave The taxicab curve Anabelian&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here a list of saved pdf-files of previous NeverEndingBooks-posts on geometry in reverse chronological order.</p>
+<p><span id="more-12051"></span></p>
+<p><a href="NEBPDFS/318.pdf">The rationality problem</a></p>
+<p><a href="NEBPDFS/313.pdf">The Manin-Marcolli cave</a></p>
+<p><a href="NEBPDFS/312.pdf">The taxicab curve</a></p>
+<p><a href="NEBPDFS/305.pdf">Anabelian geometry</a></p>
+<p><a href="NEBPDFS/307.pdf">Noncommutative curves and their manifolds</a></p>
+<p><a href="NEBPDFS/306.pdf">The noncommutative manifold of a Riemann surface</a></p>
+<p><a href="NEBPDFS/295.pdf">The best rejected proposal ever</a></p>
+<p><a href="NEBPDFS/296.pdf">Noncommutative geometry &#8211; a medieval science?</a></p>
+<p><a href="NEBPDFS/239.pdf">Master class 2007</a></p>
+<p><a href="NEBPDFS/228.pdf">2006 paper nominees</a></p>
+<p><a href="NEBPDFS/212.pdf">Coalgebras and non-geometry 3</a></p>
+<p><a href="NEBPDFS/210.pdf">Coalgebras and non-geometry 2</a></p>
+<p><a href="NEBPDFS/201.pdf">Coalgebras and non-geometry 1</a></p>
+<p><a href="NEBPDFS/208.pdf">Krull and Paris</a></p>
+<p><a href="NEBPDFS/207.pdf">Noncommutative at Newton</a></p>
+<p><a href="NEBPDFS/200.pdf">Noncommutative Fourier transforms</a></p>
+<p><a href="NEBPDFS/199.pdf">Non-(commutative) geometry</a></p>
+<p><a href="NEBPDFS/197.pdf">Non-geometry</a></p>
+<p><a href="NEBPDFS/195.pdf">A good day at the arXiv</a></p>
+<p><a href="NEBPDFS/184.pdf">Noncommutative geometry master class</a></p>
+<p><a href="NEBPDFS/174.pdf">Noncommutative complete intersections</a></p>
+<p><a href="NEBPDFS/167.pdf">Master program 2006</a></p>
+<p><a href="NEBPDFS/165.pdf">Noncommutative topology 4</a></p>
+<p><a href="NEBPDFS/161.pdf">Noncommutative topology 3</a></p>
+<p><a href="NEBPDFS/160.pdf">Noncommutative topology 2</a></p>
+<p><a href="NEBPDFS/157.pdf">Noncommutative topology 1</a></p>
+<p><a href="NEBPDFS/140.pdf">Alain Connes on &#8230; everything</a></p>
+<p><a href="NEBPDFS/18.pdf">Jacobian conjecture remains open</a></p>
+<p><a href="NEBPDFS/68.pdf">The Klein stack</a></p>
+<p><a href="NEBPDFS/66.pdf">Sexing-up curves</a></p>
+<p><a href="NEBPDFS/56.pdf">Why nag? 3</a></p>
+<p><a href="NEBPDFS/283.pdf">Granada Notes</a></p>
+<p><a href="NEBPDFS/55.pdf">Why nag? 2</a></p>
+<p><a href="NEBPDFS/54.pdf">Why nag? 1</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>coalgebras and non-geometry 3</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/coalgebras-and-non-geometry-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/coalgebras-and-non-geometry-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 11 Sep 2006 13:05:29 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=163</guid>
+
+					<description><![CDATA[Last time we saw that the _coalgebra of distributions_ of a noncommutative manifold can be described as a coalgebra Takeuchi-equivalent to the path coalgebra of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Last<br />
+time  we saw that the _coalgebra of distributions_ of a<br />
+noncommutative manifold can be described as a coalgebra<br />
+Takeuchi-equivalent to the path coalgebra of a huge quiver. This<br />
+infinite quiver has as its vertices the isomorphism classes of finite<br />
+dimensional simple representations of the qurve A (the coordinate ring<br />
+of the noncommutative manifold) and there are as many directed arrows<br />
+between the vertices corresponding to the simples S and T as is the<br />
+dimension of $Ext^1_A(S,T) $.  </p>
+<p>The fact that this<br />
+coalgebra of distributions is equivalent to the path coalgebra of<br />
+_some_ quiver is in the <a href="http://www.arxiv.org/abs/math.RA/0606241">Kontsevich-Soibelman<br />
+paper</a> though it would have been nice if they had given reference for<br />
+this fact to the paper <a href="http://www.arxiv.org/abs/math.CT/0602016">Wedge Products and<br />
+Cotensor Coalgebras in Monoidal Categories</a> by Ardizzoni or to<br />
+previous work  by P. Jara, D. Llena, L. Merino and D. Stefan,<br />
+&#8220;Hereditary and formally smooth coalgebras&#8221;, Algebr.<br />
+Represent. Theory 8 (2005), 363-374. In those papers it is shown that a<br />
+ coalgebra with coseparable coradical is hereditary if and only if it<br />
+is  formally smooth if and only if it is a cotensor coalgebra of some<br />
+bicomodule.</p>
+<p>  At first this looks just like the dual version of<br />
+the classical result that a finite dimensional hereditary algebra is<br />
+Morita equivalent to the path algebra of a quiver (which is indeed what<br />
+the proof does) but again the condition that the coradical is<br />
+coseparable does not require the coradical to be finite dimensional&#8230;<br />
+In our case, the coradical is indeed coseparable being the direct sum<br />
+over all matrix coalgebras corresponding to the simple representations.<br />
+Hence, we can again recover the _points_ of our noncommutative manifold<br />
+from the direct summands of the coradical.  Fortunately, one can<br />
+compute this huge coalgebra of distributions from a small quiver, the<br />
+_one quiver to rule them all_, but as I&#8217;ve been babbling about all of<br />
+this here [numerous<br />
+times](https://lievenlebruyn.github.io/neverendingbooks/?s=one+quiver%29 I&#8217;ll let the<br />
+interested find out for themselves how you use it (a) to get at the<br />
+isoclasses of all simples (hint : morally they are the smooth points of<br />
+the quotient varieties of n-dimensional representations and enough tools<br />
+have been developed recently to spot some fake simples, that is smooth<br />
+proper semi-simple points) and (b) to compute the _ragball_, that is the<br />
+huge quiver with vertex set the simples and arows as described<br />
+above.  Over the years I&#8217;ve calculated several one-quivers for a<br />
+variety of qurves (such as amalgamated free products of finite groups<br />
+and smooth curves). If you are in for a puzzle, try to determine it for<br />
+the qurve  $~(\mathbb{C}[x] \ast C_2) \ast_{\mathbb{C}<br />
+C_2} \mathbb{C} PSL_2(\mathbb{Z}) \ast_{\mathbb{C} C_3}<br />
+(\mathbb{C}[x] \ast C_3) $  The answer is a mysterious<br />
+hexagon </p>
+<p> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/mysteriehexagon.jpg" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/coalgebras-and-non-geometry-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>coalgebras and non-geometry 2</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/coalgebras-and-non-geometry-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/coalgebras-and-non-geometry-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 07 Sep 2006 10:34:20 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=320</guid>
+
+					<description><![CDATA[Last time we have seen that the _coalgebra of distributions_ of an affine smooth variety is the direct sum (over all points) of the dual&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=319">Last time</a> we<br />
+have seen that the _coalgebra of distributions_ of an affine smooth<br />
+variety is the direct sum (over all points) of the dual to the etale<br />
+local algebras which are all of the form $\mathbb{C}[[<br />
+x_1,\ldots,x_d ]] $ where $d $ is the dimension of the<br />
+variety.  Generalizing this to _non-commutative_ manifolds, the first<br />
+questions are : &#8220;What is the analogon of the power-series algebra?&#8221; and<br />
+do all &#8216;points&#8217; of our non-commutative manifold do have such local<br />
+algebras?  Surely, we no longer expect the variables to commute, so a<br />
+non-commutative version of the power series algebra should be<br />
+$\mathbb{C} \langle \langle x_1,\ldots,x_d \rangle \rangle $,<br />
+the ring of formal power series in non-commuting variables. However,<br />
+there is still another way to add non-commutativity and that is to go<br />
+from an algebra to matrices over the algebra. So, in all we would expect<br />
+to be our _local algebras_ at points of our non-commutative manifold to<br />
+be isomorphic to  $M_n(\mathbb{C} \langle \langle x_1,\ldots,x_d<br />
+\rangle \rangle) $  As to the second question : _qurves_ (that is,<br />
+the coordinate rings of non-commutative manifolds) do have such algebras<br />
+as local rings provided we take as the &#8216;points&#8217; of the non-commutative<br />
+variety the set of all _simple_ finite dimensional representations of<br />
+the qurve. This is a consequence of the _tubular neighborhood theorem_<br />
+due to [Cuntz](http://wwwmath.uni-muenster.de/u/cuntz/cuntz.html) and<br />
+[Quillen](http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Quillen.html). In more details :  If A is a qurve, then a simple<br />
+$n $-dimensional representation corresponds to an epimorphism<br />
+$\pi~:~A \rightarrow S = M_n(\mathbb{C}) $ and if we take<br />
+$\mathfrak{m}=Ker(\pi) $, then<br />
+$M=\mathfrak{m}/\mathfrak{m}^2 $ is an $S $-bimodule and<br />
+the $\mathfrak{m} $-adic completion of A is isomorphic to the<br />
+completed tensor-algebra   $\hat{T}_S(M) \simeq M_n(\mathbb{C}<br />
+\langle \langle x_1,\ldots,x_d \rangle \rangle) $  In contrast with<br />
+the commutative case however where the dimension remains constant over<br />
+all points, here the numbers n and d can change from simple to simple.<br />
+For n this is clear as it gives the dimension of the simple<br />
+representation, but also d changes (it is the local dimension of the<br />
+variety classifying simple representations of the same dimension). Here<br />
+an easy example :  Consider the skew group algebra $A =<br />
+\mathbb{C}[x] \star C_2 $ with the action given by sending $x<br />
+\mapsto -x $. Then A is a qurve and its center is<br />
+$\mathbb{C}[y] $ with $y=x^2 $. Over any point $y<br />
+\not= 0 $ there is a unique simple 2-dimensional representation of A<br />
+giving the local algebra $M_2(\mathbb{C}[[y]]) $. If<br />
+$y=0 $ the situation is more complicated as the local structure<br />
+of A is given by the algebra  $\begin{bmatrix} \mathbb{C}[[y]] &#038;<br />
+\mathbb{C}[[y]] \\ (y) &#038; \mathbb{C}[[y]] \end{bmatrix} $  So, over<br />
+this point there are precisely 2 one-dimensional simple representations<br />
+corresponding to the maximal ideals  $\mathfrak{m}_1 =<br />
+\begin{bmatrix} (y) &#038; \mathbb{C}[[y]] \\ (y) &#038; \mathbb{C}[[y]]<br />
+\end{bmatrix}~\qquad \text{and}~\qquad \mathfrak{m}_2 = \begin{bmatrix}<br />
+\mathbb{C}[[y]] &#038; \mathbb{C}[[y]] \\ (y) &#038; (y) \end{bmatrix} $  and<br />
+both ideals are idempotent, that is $\mathfrak{m}_i^2 =<br />
+\mathfrak{m}_i $ whence the corresponding bimodule $M_i =<br />
+0 $ so the local algebra in either of these two points is just<br />
+$\mathbb{C} $.  Ok, so the comleted local algebra at each point<br />
+is of the form $M_n(\mathbb{C}\langle \langle x_1,\ldots,x_d \rangle<br />
+\rangle) $, but what is the corresponding dual coalgebra. Well,<br />
+$\mathbb{C} \langle \langle x_1,\ldots,x_d \rangle \rangle $ is<br />
+the algebra dual to the _cofree coalgebra_ on $V = \mathbb{C} x_1 +<br />
+\ldots + \mathbb{C}x_d $. As a vectorspace this is the<br />
+tensor-algebra $T(V) = \mathbb{C} \langle x_1,\ldots,x_d<br />
+\rangle $ with the coalgebra structure induced by the bialgebra<br />
+structure defined by taking all varaibales to be primitives, that is<br />
+$\Delta(x_i) = x_i \otimes 1 + 1 \otimes x_i $. That is, the<br />
+coproduct on a monomial gives all different expressions $m_1 \otimes<br />
+m_2 $ such that $m_1m_2 = m $. For example,<br />
+$\Delta(x_1x_2) = x_1x_2 \otimes 1 + x_1 \otimes x_2 + 1 \otimes<br />
+x_1x_2 $.  On the other hand, the dual coalgebra of<br />
+$M_n(\mathbb{C}) $ is the _matrix coalgebra_ which is the<br />
+$n^2 $-dimensional vectorspace $\mathbb{C}e_{11} + \ldots +<br />
+\mathbb{C}e_{nn} $ with comultiplication  $\Delta(e_{ij}) =<br />
+\sum_k e_{ik} \otimes e_{kj} $  The coalgebra corresponding to the<br />
+local algebra $M_n(\mathbb{C}\langle \langle x_1,\ldots,x_d \rangle<br />
+\rangle) $ is then the tensor-coalgebra of the matrix coalgebra and<br />
+the cofree coalgebra.  Having obtained the coalgebra at each point<br />
+(=simple representation) of our noncommutative manifold one might think<br />
+that the _coalgebra of non-commutative distributions_ should be the<br />
+direct sum of all this coalgebras, summed over all points, as in the<br />
+commutative case. But then we would forget about a major difference<br />
+between the commutative and the non-commutative world : distinct simples<br />
+can have non-trivial extensions!  The mental picture one might have<br />
+about simples having non-trivial extensions is that these points lie<br />
+&#8216;infinitesimally close&#8217; together. In the $\mathbb{C}[x] \star<br />
+C_2 $ example above, the two one-dimensional simples have<br />
+non-trivial extensions so they should be thought of as a cluster of two<br />
+infinitesimally close points corresponding to the point $y=0 $<br />
+(that is, this commutative points splits into two non-commutative<br />
+points). Btw. this is the reason why non-commutative algebras can be<br />
+used to resolve commutative singularities (excessive tangents can be<br />
+split over several non-commutative points).  While this is still pretty<br />
+harmless when the algebra is finite over its center (as in the above<br />
+example where only the two one-dimensionals have extensions), the<br />
+situation becomes weird over general qurves as &#8216;usually&#8217; distinct<br />
+simples have non-trivial extensions. For example, for the free algebra<br />
+$\mathbb{C}\langle x,y \rangle $ this is true for all simples&#8230;<br />
+So, if we want to continue using this image of points lying closely<br />
+together this immediately means that non-commutative &#8216;affine&#8217; manifolds<br />
+behave like compact ones (in fact, it turns out to be pretty difficult<br />
+to &#8216;glue&#8217; together qurves into &#8216;bigger&#8217; non-commutative manifolds, apart<br />
+from the quiver examples of [this old<br />
+paper](http://www.arxiv.org/abs/math.AG/9907136)).  So, how to bring<br />
+this new information into our coalgebra of distributions? Well, let&#8217;s<br />
+repeat the previous argument not with just one point but with a set of<br />
+finitely many points. Then we have a _semi-simple algebra_ quotient<br />
+$\pi~:~A \rightarrow S = M_{n_1}(\mathbb{C}) \oplus \ldots \oplus<br />
+M_{n_k}(\mathb{C}) $  and taking again<br />
+$\mathfrak{m}=Ker(\pi) $ and<br />
+$M=\mathfrak{m}/\mathfrak{m}^2 $, then $M $ is again an<br />
+S-bimodule. Now, any S-bimodule can be encoded into a _quiver_  Q on k<br />
+points, the number of arrows from vertex i to vertex j being the number<br />
+of components in M of the form $M_{n_i \times<br />
+n_j}(\mathbb{C}) $. Again, it follows from the tubular neighborhood<br />
+theorem that the $\mathfrak{m} $-adic completion of A is<br />
+isomorphic to the completion of an algebra Morita equivalent to the<br />
+_path algebra_  $\mathbb{C} Q $ (being the tensor algebra<br />
+$T_S(M) $).  As all the local algebras of the points are<br />
+quotients of this quiver-like completion, on the coalgebra level our<br />
+local coalgebras will be sub coalgebras of the coalgebra which is<br />
+co-Morita equivalent (and believe it or not but coalgebraists have a<br />
+name for this : _Takeuchi equivalence_) to the _quiver coalgebra_ which<br />
+is the vectorspace of the path algebra $\mathbb{C} Q $ with<br />
+multiplication induced by making all arrows from i to j skew-primitives,<br />
+that is, $\Delta(a) = e_i \otimes a + a \otimes e_j $ where the<br />
+$e_i $ are group-likes corresponding to the vertices.  If all of<br />
+ths is a bit too much co to take in at once, I suggest the paper by Bill<br />
+Chin [A brief introduction to coalgebra representation<br />
+theory](http://condor.depaul.edu/~wchin/crt.pdf#search=%22%22A%20brief%20introduction%20to%20coalgebra%20representation%20theory%22%22).  The<br />
+_coalgebra of noncommutative distributions_ we are after at is now the<br />
+union of all these Takeuchi-equivalent quiver coalgebras. In easy<br />
+examples such as the $\mathbb{C}[x] \star C_2 $-example this<br />
+coalgebra is still pretty small (the sum of the local coalgebras<br />
+corresponding to the local algebras $M_2(\mathbb{C}[[x]]) $<br />
+summed over all points $y \not= 0 $ summed with the quiver<br />
+coalgebra of the quiver  $\xymatrix{\vtx{} \ar@/^/[rr] &#038; &#038; \vtx{}<br />
+\ar@/^/[ll]} $  In general though this is a huge object and we would<br />
+like to have a recipe to construct it from a manageable _blue-print_ and<br />
+that is what we will do next time. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/coalgebras-and-non-geometry-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>coalgebras and non-geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/coalgebras-and-non-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/coalgebras-and-non-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 06 Sep 2006 10:30:16 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[quivers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=319</guid>
+
+					<description><![CDATA[In this series of posts I&#8217;ll try to make at least part of the recent [Kontsevich-Soibelman paper](http://www.arxiv.org/abs/math.RA/0606241) a bit more accessible to algebraists. In non-geometry,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In this<br />
+series of posts I&#8217;ll try to make at least part of the recent<br />
+[Kontsevich-Soibelman paper](http://www.arxiv.org/abs/math.RA/0606241) a<br />
+bit more accessible to algebraists.  In non-geometry, the algebras<br />
+corresponding to *smooth affine varieties* I&#8217;ll call **qurves** (note<br />
+that they are called **quasi-free algebras** by Cuntz &#038; Quillen and<br />
+**formally smooth** by Kontsevich). By definition, a qurve in an affine<br />
+$\mathbb{C} $-algebra A having the lifting property for algebra<br />
+maps through nilpotent ideals (extending Grothendieck&#8217;s characterization<br />
+of smooth affine algebras in the commutative case).  Examples of qurves<br />
+are : finite dimensional semi-simple algebras (for example, group<br />
+algebras $\mathbb{C} G $ of finite groups), coordinate rings of<br />
+smooth affine curves  or a noncommutative mixture of both, skew-group<br />
+algebras $\mathbb{C}[X] \ast G $ whenever G is a finite group of<br />
+automorphisms of the affine curve X. These are Noetherian examples but<br />
+in general a qurve is quite far from being Noetherian. More typical<br />
+examples of qurves are : free algebras $\mathbb{C} \langle<br />
+x_1,\ldots,x_k \rangle  $ and path algebras of finite quivers<br />
+$~\mathbb{C} Q $. Recall that a finite quiver Q s just a<br />
+directed graph and its path algebra is the vectorspace spanned by all<br />
+directed paths in Q with multiplication induced by concatenation of<br />
+paths.  Out of these building blocks one readily constructs more<br />
+involved qurves via universal algebra operations such as (amalgamated)<br />
+free products, universal localizations etc. In this way, the<br />
+groupalgebra of the modular group $SL_2(\mathbb{Z}) $ (as well<br />
+as that of a congruence subgroup) is a qurve and one can mix groups with<br />
+finite groupactions on curves to get qurves like  $ (\mathbb{C}[X]<br />
+\ast G) \ast_{\mathbb{C} H} \mathbb{C} M $  whenever H is a common<br />
+subgroup of the finite groups G and M. So we have a huge class of<br />
+qurve-examples obtained from mixing finite and arithmetic groups with<br />
+curves and quivers. Qurves can we used as *machines* generating<br />
+interesting $A_{\infty} $-categories.  Let us start by recalling<br />
+some facts about finite closed subschemes of an affine smooth variety Y<br />
+in the commutative case. Let **fdcom** be the category of all finite<br />
+dimensional commutative $\mathbb{C} $-algebras with morphisms<br />
+being onto algebra morphisms, then the study of finite closed subschemes<br />
+of Y is essentially the study of the covariant functor  **fdcom** &#8211;><br />
+**sets**  assigning to a f.d. commutative algebra S the set of all onto<br />
+algebra maps from $\mathbb{C}[Y] $ to S. S being a f.d.<br />
+commutative semilocal algebra is the direct sum of local factors  $S<br />
+\simeq S_1 \oplus \ldots \oplus S_k $  where each factor has a<br />
+unique maximal ideal (a unique point in Y). Hence, our study reduces to<br />
+f.d. commutative images with support in a fixed point p of Y. But all<br />
+such quotients are also quotients of the completion of the local ring of<br />
+Y at p which (because Y is a smooth variety, say of dimension n) is<br />
+isomorphic to formal power series<br />
+$~\mathbb{C}[[x_1,\ldots,x_n]] $. So the local question, at any<br />
+point p of Y,  reduces to finding all settings<br />
+$\mathbb{C}[[x_1,\ldots,x_n]] \twoheadrightarrow S<br />
+\twoheadrightarrow \mathbb{C} $  Now, we are going to do something<br />
+strange (at least to an algebraist), we&#8217;re going to take duals and<br />
+translate the above sequence into a coalgebra statement. Clearly, the<br />
+dual $S^{\ast} $ of any finite dimensional commutative algebra<br />
+is a finite dimensional cocommutative coalgebra. In particular<br />
+$\mathbb{C}^{\ast} \simeq \mathbb{C} $ where the<br />
+comultiplication makes 1 into a grouplike element, that is<br />
+$\Delta(1) = 1 \otimes 1 $.  As long as the (co)algebra is<br />
+finite dimensional this duality works as expected : onto maps correspond<br />
+to inclusions, an ideal corresponds to a sub-coalgebra a sub-algebra<br />
+corresponds to a co-ideal, so in particular a local commutative algebra<br />
+corresponds to an pointed irreducible cocommutative coalgebra (a<br />
+coalgebra is said to be irreducible if any two non-zero subcoalgebras<br />
+have non-zero intersection, it is called simple if it has no non-zero<br />
+proper subcoalgebras and is called pointed if all its simple<br />
+subcoalgebras are one-dimensional.  But what about infinite dimensional<br />
+algebras such as formal power series? Well, here the trick is not to<br />
+take all dual functions but only those linear functions whose kernel<br />
+contains a cofinite ideal (which brings us back to the good finite<br />
+dimensional setting). If one takes only those good linear functionals,<br />
+the &#8216;fancy&#8217;-dual $A^o $of an algebra A is indeed a coalgebra. On<br />
+the other hand, the full-dual of a coalgebra is always an algebra. So,<br />
+between commutative algebras and cocommutative coalgebras we have a<br />
+duality by associating to an algebra its fancy-dual and to a coalgebra<br />
+its full-dual (all this is explained in full detail in chapter VI of<br />
+Moss Sweedler&#8217;s book &#8216;Hopf algebras&#8217;). So, we can dualize the above pair<br />
+of onto maps to get coalgebra inclusions  $\mathbb{C} \subset<br />
+S^{\ast} \subset U(\mathfrak{a}) $  where the rightmost coalgebra is<br />
+the coalgebra structure on the enveloping algebra of the Abelian Lie<br />
+algebra of dimension n (in which all Lie-elements are primitive, that is<br />
+$\Delta(x) = x \otimes 1 + 1 \otimes x $ and indeed we have that<br />
+$U(\mathfrak{a})^{\ast} \simeq \mathbb{C}[[x_1,\ldots,x_n]] $.<br />
+We have translated our local problem to finding all f.d. subcoalgebras<br />
+(containing the unique simple) of the enveloping algebra. But what is<br />
+the point of this translation? Well, we are not interested in the local<br />
+problem, but in the global problem, so we somehow have to **sum over all<br />
+points**. Now, on the algebra level that is a problem because the sum of<br />
+all local power series rings over all points is no longer an algebra,<br />
+whereas the direct sum of all pointed irreducible coalgebras  $~B_Y<br />
+= \oplus_{p \in Y} U(\mathfrak{a}_p)  $  is again a coalgebra! That<br />
+is, we have found a huge coalgebra (which we call the coalgebra of<br />
+&#8216;distributions&#8217; on Y) such that for every f.d. commutative algebra S we<br />
+have  $Hom_{comm alg}(\mathbb{C}[Y],S) \simeq Hom_{cocomm<br />
+coalg}(S^{\ast},B_Y) $  Can we get Y back from this coalgebra of<br />
+districutions? Well, in a way, the points of Y correspond to the<br />
+group-like elements, and if g is the group-like corresponding to a point<br />
+p, we can recover the tangent-space at p back as the g-primitive<br />
+elements of the coalgebra of distributions, that is the elements such<br />
+that $\Delta(x) = x \otimes g + g \otimes x $. Observe that in<br />
+this commutative case, there are no **skew-primitives**, that is<br />
+elements such that $\Delta(x) = x \otimes g + h \otimes x $ for<br />
+different group-likes g and h. This is the coalgebra translation of the<br />
+fact that a f.d. semilocal commutative algebra is the direct sum of<br />
+local components.  This is something that will definitely change if we<br />
+try to extend the above to the case of qurves (to be continued).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/coalgebras-and-non-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>non-geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/non-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/non-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 16 Jun 2006 12:44:51 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=247</guid>
+
+					<description><![CDATA[Here&#8217;s an appeal to the few people working in Cuntz-Quillen-Kontsevich-whoever noncommutative geometry (the one where smooth affine varieties correspond to quasi-free or formally smooth algebras)&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s<br />
+an appeal to the few people working in Cuntz-Quillen-Kontsevich-whoever<br />
+noncommutative geometry (the one where smooth affine varieties<br />
+correspond to quasi-free or formally smooth algebras) : let&#8217;s rename our<br />
+topic and call it <strong>non-geometry</strong>. I didn&#8217;t come up with<br />
+this term, I heard in from Maxim Kontsevich in a talk he gave a couple<br />
+of years ago in Antwerp. There are some good reasons for this name<br />
+change.</p>
+<p>The term _non-commutative geometry_ is already taken by<br />
+much more popular subjects such as _Connes-style noncommutative<br />
+differential geometry_ and _Artin-style noncommutative algebraic<br />
+geometry_. Renaming our topic we no longer have to include footnotes<br />
+(such as the one in the recent <a href="http://www.arxiv.org/abs/math.RA/0606241">Kontsevich-Soibelman<br />
+paper</a>) :</p>
+<blockquote><p>  We use &#8220;formal&#8221; non-commutative geometry<br />
+in tensor categories, which is different from  the non-commutative<br />
+geometry in the sense of Alain Connes.  </p></blockquote>
+<p>or to make a<br />
+distinction between _noncommutative geometry in the small_ (which is<br />
+Artin-style) and _noncommutative geometry in the large_ (which in<br />
+non-geometry) as in the <a href="http://www.arxiv.org/abs/math.AG/0506603">Ginzburg notes</a>. </p>
+<p>Besides, the stress in _non-commutative geometry_ (both in Connes-<br />
+and Artin-style) in on _commutative_. Connes-style might also be called<br />
+&#8216;K-theory of $C^*$-algebras&#8217; and they use the topological<br />
+information of K-theoretic terms in the commutative case as guidance to<br />
+speak about geometrical terms in the nocommutative case. Similarly,<br />
+Artin-style might be called &#8216;graded homological algebra&#8217; and they<br />
+use Serre&#8217;s homological interpretation of commutative geometry to define<br />
+similar concepts for noncommutative algebras. Hence, non-commutative<br />
+geometry is that sort of non-geometry which is almost<br />
+commutative&#8230;</p>
+<p>But the main point of naming our subject<br />
+non-geometry is to remind us not to rely too heavily on our<br />
+(commutative) geometric intuition. For example, we would expect a<br />
+manifold to have a fixed dimension. One way to define the dimension is<br />
+as the trancendence degree of the functionfield. However, from the work<br />
+of Paul Cohn (I learned about it through Aidan Schofield) we know that<br />
+quasi-free algebras usually do&#8217;nt have a specific function ring of<br />
+fractions, rather they have infinitely many good candidates for it and<br />
+these candidates may look pretty unrelated. So, at best we can define a<br />
+_local dimension_ of a noncommutative manifold at a point, say given by<br />
+a simple representation. It follows from the Cunz-Quillen tubular<br />
+neighborhood result that the local ring in such a point is of the<br />
+form</p>
+<p>$M_n(\mathbb{C} \langle \langle z_1,\ldots,z_m \rangle<br />
+\rangle) $</p>
+<p>(this s a noncommutative version of the classical fact<br />
+than the local ring in a point of a d-dimensional manifold is formal<br />
+power series $\mathbb{C} [[ z_1,\ldots,z_d ]] $) but in non-geometry both<br />
+m (the _local_ dimension) and n (the dimension of the simple<br />
+representation) vary from point to point. Still, one can attach to the<br />
+quasi-free algebra A a finite amount of data (in fact, a _finite_ quiver<br />
+and dimension vector) containing enough information to compute the (n,m)<br />
+couples for _all_ simple points (follows from the <a href="http://www.arxiv.org/abs/math.RA/0304196">one quiver to rule them<br />
+all paper</a> or see <a href="http://www.arxiv.org/abs/math.RA/0406618">this</a> for more<br />
+details). </p>
+<p>In fact, one can even extend this to points<br />
+corresponding to semi-simple representations in which case one has to<br />
+replace the matrix-ring above by a ring Morita equivalent to the<br />
+completion of the path algebra of a finite quiver, the _local quiver_ at<br />
+the point (which can also be computer from the one-quiver of A. The<br />
+local coalgebras of distributions at such points of<br />
+Kontsevich&amp;Soibelman are just the dual coalgebras of these local<br />
+algebras (in <a href="http://www.arxiv.org/abs/math.RA/0606241">math.RA/0606241</a> they<br />
+merely deal with the n=1 case but no doubt the general case will appear<br />
+in the second part of their paper).</p>
+<p>The case of the semi-simple<br />
+point illustrates another major difference between commutative geometry<br />
+and non-geometry, whereas commutative simples only have self-extensions<br />
+(so the distribution coalgebra is just the direct sum of all the local<br />
+distributions) noncommutative simples usually have plenty of<br />
+non-isomorphic simples with which they have extensions, so to get at the<br />
+global distribution coalgebra of A one cannot simply add the locals but<br />
+have to embed them in more involved coalgebras.</p>
+<p>The way to do it<br />
+is somewhat concealed in <a href="http://www.math.ua.ac.be/~lebruyn/paper/lebruyn2002d.pdf">the<br />
+third version of my neverending book</a> (the version that most people<br />
+found incomprehensible). Here is the idea : construct a huge uncountable<br />
+quiver by taking as its vertices the isomorphism classes of all simple<br />
+A-representations and with as many arrows between the simple vertices S<br />
+and T as the dimension of the ext-group between these simples (and<br />
+again, these dimensions follow from the knowledge of the one-quiver of<br />
+A). Then, the global coalgebra of distributions of A is the limit over<br />
+all cotensor coalgebras corresponding to finite subquivers). Maybe I&#8217;ll<br />
+revamp this old material in connection with the Kontsevich&amp;Soibelman<br />
+paper(s) for the mini-course I&#8217;m supposed to give in september.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/non-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>connected component coalgebra</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/connected-component-coalgebra/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/connected-component-coalgebra/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 05 Feb 2004 20:09:11 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[coalgebras]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=134</guid>
+
+					<description><![CDATA[Never thought that I would ever consider Galois descent of semigroup coalgebras but in preparing for my talks for the master-class it came about naturally.&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/semigroup.jpg" style="float:left;margin-right:10px;" /><br />
+Never thought that I would ever consider Galois descent of <i>semigroup<br />
+coalgebras</i> but in preparing for my talks for the master-class it<br />
+came about naturally. Let <b>A</b> be a formally smooth algebra<br />
+(sometimes called a quasi-free algebra, I prefer the terminology<br />
+noncommutative curve) over an arbitrary base-field <b>k</b>. What, if<br />
+anything, can be said about the connected components of the affine<br />
+<b>k</b>-schemes <b>rep(n,A)</b> of <b>n</b>-dimensional representations<br />
+of <b>A</b>? If <b>k</b> is algebraically closed, then one can put a<br />
+commutative semigroup structure on the connected components induced by<br />
+the <i>sum map</i></p>
+<pre><b>rep(n,A) x rep(m,A) -> rep(n + m,A)   :  (M,N)
+-> M + N</b></pre>
+<p> as introduced and studied by <a href="http://www.calpoly.edu/~kmorriso/" target="_blank" rel="noopener">Kent<br />
+Morrison</a> a long while ago. So what would be a natural substitute for<br />
+this if <b>k</b> is arbitrary? Well, define <b>pi(n)</b> to be the<br />
+<i>maximal</i> unramified sub <b>k</b>-algebra of <b>k(rep(n,A))</b>,<br />
+the coordinate ring of <b>rep(n,A)</b>, then corresponding to the<br />
+sum-map above is a map</p>
+<pre><b>pi(n + m) -> pi(n) \\otimes
+pi(m)</b></pre>
+<p> and these maps define on the <i>graded<br />
+space</i></p>
+<pre><b>Pi(A) = pi(0) + pi(1) + pi(2) + ...</b></pre>
+<p> the<br />
+structure of a graded commutative <b>k</b>-coalgebra with<br />
+comultiplication </p>
+<pre><b>pi(n) -> sum(a + b=n) pi(a) \\otimes
+pi(b)</b></pre>
+<p> The relevance of <b>Pi(A)</b> is that if we consider it<br />
+over the algebraic closure <b>K</b> of <b>k</b> we get the <i>semigroup<br />
+coalgebra</i></p>
+<pre><b>K G  with  g -> sum(h.h\' = g) h \\otimes
+h\'</b></pre>
+<p> where <b>G</b> is Morrison\&#8217;s connected component<br />
+semigroup. That is, <b>Pi(A)</b> is a <b>k</b>-form of this semigroup<br />
+coalgebra. Perhaps it is a good project for one of the students to work<br />
+this out in detail (and correct possible mistakes I made) and give some<br />
+concrete examples for formally smooth algebras <b>A</b>. If you know of<br />
+a reference on this, please let me know.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/connected-component-coalgebra/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

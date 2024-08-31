@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>braid group &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/braid-group/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 15 Jun 2008 16:51:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>F_un and braid groups</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/f_un-and-braid-groups/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/f_un-and-braid-groups/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 15 Jun 2008 16:51:01 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=429</guid>
+
+					<description><![CDATA[Recall that an n-braid consists of n strictly descending elastic strings connecting n inputs at the top (named 1,2,&#8230;,n) to n outputs at the bottom&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-1.jpg" hspace=10 style="float:left;margin-right:10px;" > Recall that an n-braid consists of n strictly descending elastic strings connecting n inputs at the top (named 1,2,&#8230;,n) to n outputs at the bottom (labeled 1,2,&#8230;,n) upto isotopy (meaning that we may pull and rearrange the strings in any way possible within 3-dimensional space). We can always change the braid slightly such that we can divide the interval between in- and output in a number of subintervals such that in each of those there is at most one crossing.</p>
+<p>n-braids can be multiplied by putting them on top of each other and connecting the outputs of the first braid trivially to the inputs of the second. For example the 5-braid on the left can be written as $B=B_1.B_2 $ with $B_1 $ the braid on the top 3 subintervals and $B_2 $ the braid on the lower 5 subintervals.</p>
+<p>In this way (and using our claim that there can be at most 1 crossing in each subinterval) we can write any n-braid as a word in the generators $\sigma_i $ (with $1 \leq i &lt; n $) being the overcrossing between inputs i and i+1. Observe that the undercrossing is then the inverse $\sigma_i^{-1} $. For example, the braid on the left corresponds to the word</p>
+<p>$\sigma_1^{-1}.\sigma_2^{-1}.\sigma_1^{-1}.\sigma_2.\sigma_3^{-1}.\sigma_4^{-1}.\sigma_3^{-1}.\sigma_4 $</p>
+<p>Clearly there are relations among words in the generators. The easiest one we have already used implicitly namely that $\sigma_i.\sigma_i^{-1} $ is the trivial braid. <a href="http://en.wikipedia.org/wiki/Emil_Artin">Emil Artin</a> proved in the 1930-ies that all such relations are consequences of two sets of &#8216;obvious&#8217; relations. The first being commutation relations between crossings when the strings are far enough from each other. That is we have</p>
+<p>$\sigma_i . \sigma_j = \sigma_j . \sigma_i $ whenever $|i-j| \geq 2 $</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/braidcomm1.jpg"> = <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/braidcomm2.jpg"><br />
+</center></p>
+<p>The second basic set of relations involves crossings using a common string</p>
+<p>$\sigma_i.\sigma_{i+1}.\sigma_i = \sigma_{i+1}.\sigma_i.\sigma_{i+1} $</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/braidYB1.jpg">=<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/braidYB2.jpg"><br />
+</center></p>
+<p>Starting with the 5-braid at the top, we can use these relations to reduce it to a simpler form. At each step we have outlined to region where the relations are applied</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-2.jpg" width=150 > =<br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-3.jpg" width=150 > =<br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-4.jpg" width=150 > =<br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/testbraid-5.jpg" width=150 ><br />
+</center></p>
+<p>These beautiful braid-pictures were produced using the <strong>braid-metapost</strong> program written by <a href="http://stijnsymens.wordpress.com/2008/03/18/drawing-braids-using-metapost/">Stijn Symens</a>.</p>
+<p>Tracing a string from an input to an output assigns to an n-braid a permutation on n letters. In the above example, the permutation is $~(1,2,4,5,3) $. As this permutation doesn&#8217;t change under applying basic reduction, this gives a group-morphism</p>
+<p>$\mathbb{B}_n \rightarrow S_n $</p>
+<p>from the <strong>braid group on n strings</strong> $\mathbb{B}_n $ to the symmetric group. We have seen <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-f_un-folklore.html">before</a> that the symmetric group $S_n $ has a F-un interpretation as the linear group $GL_n(\mathbb{F}_1) $ over the field with one element. Hence, we can ask whether there is also a F-un interpretation of the n-string braid group and of the above group-morphism.</p>
+<p>Kapranov and Smirnov suggest in <a href="https://lievenlebruyn.github.io/neverendingbooks/KapranovSmirnov.pdf">their paper</a> that the n-string braid group $\mathbb{B}_n \simeq GL_n(\mathbb{F}_1[t]) $ is the general linear group over the polynomial ring $\mathbb{F}_1[t] $ over the field with one element and that the evaluation morphism (setting t=0)</p>
+<p>$GL_n(\mathbb{F}_1[t]) \rightarrow GL_n(\mathbb{F}1) $ gives the groupmorphism $\mathbb{B}_n \rightarrow S_n $</p>
+<p>The rationale behind this analogy is a theorem of <a href="http://en.wikipedia.org/wiki/Vladimir_Drinfeld">Drinfeld</a>&#8216;s saying that over a finite field $\mathbb{F}_q $, the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/profinite-groups-survival-guide.html">profinite completion</a> of $GL_n(\mathbb{F}_q[t]) $ is embedded in the fundamental group of the space of q-polynomials of degree n in much the same way as the n-string braid group $\mathbb{B}_n $ is the fundamental group of the space of complex polynomials of degree n without multiple roots.</p>
+<p>And, now that we know the basics of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/absolute-linear-algebra.html">absolute linear algebra</a>, we can give an absolute braid-group representation</p>
+<p>$\mathbb{B}_n = GL_n(\mathbb{F}_1[t]) \rightarrow GL_n(\mathbb{F}_{1^n}) $</p>
+<p>obtained by sending each generator $\sigma_i $ to the matrix over $\mathbb{F}_{1^n} $ (remember that $\mathbb{F}_{1^n} = (\mu_n)^{\bullet} $ where $\mu_n = \langle \epsilon_n \rangle $ are the n-th roots of unity)</p>
+<p>$\sigma_i \mapsto \begin{bmatrix}<br />
+1_{i-1} &amp; &amp; &amp; \\<br />
+&amp; 0 &amp; \epsilon_n &amp; \\<br />
+&amp; \epsilon_n^{-1} &amp; 0 &amp; \\<br />
+&amp; &amp; &amp; 1_{n-1-i} \end{bmatrix} $</p>
+<p>and it is easy to see that these matrices do indeed satisfy Artin&#8217;s defining relations for $\mathbb{B}_n $.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/f_un-and-braid-groups/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Quiver-superpotentials</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 14 Jan 2008 12:47:27 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/quiver-superpotentials.html</guid>
+
+					<description><![CDATA[It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by the conjugacy class of a cofinite subgroup $\Lambda \subset \Gamma $, or equivalently, to a dessin d&#8217;enfant. We have introduced a <strong>quiver</strong> (aka an oriented graph) which comes from a triangulation of the compactification of $\mathbb{H} / \Lambda $ where $\mathbb{H} $ is the hyperbolic upper half-plane. This quiver is independent of the chosen embedding of the dessin in the Dedeking tessellation. (For more on these terms and constructions, please consult the series <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-dedekind-tessellation.html">Modular subgroups</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monsieur-mathieu.html">Dessins d&#8217;enfants</a>).</p>
+<p>Why are quivers useful? To start, any quiver $Q $ defines a noncommutative algebra, the <strong>path algebra</strong> $\mathbb{C} Q $, which has as a $\mathbb{C} $-basis all oriented paths in the quiver and multiplication is induced by concatenation of paths (when possible, or zero otherwise). Usually, it is quite hard to make actual computations in noncommutative algebras, but in the case of path algebras you can just <strong>see</strong> what happens.</p>
+<p>Moreover, we can also <strong>see</strong> the finite dimensional representations of this algebra $\mathbb{C} Q $. Up to isomorphism they are all of the following form : at each vertex $v_i $ of the quiver one places a finite dimensional vectorspace $\mathbb{C}^{d_i} $ and any arrow in the quiver<br />
+[tex]\xymatrix{\vtx{v_i} \ar[r]^a &amp; \vtx{v_j}}[/tex] determines a linear map between these vertex spaces, that is, to $a $ corresponds a matrix in $M_{d_j \times d_i}(\mathbb{C}) $. These matrices determine how the paths of length one act on the representation, longer paths act via multiplcation of matrices along the oriented path.</p>
+<p>A <strong>necklace</strong> in the quiver is a closed oriented path in the quiver <strong>up to cyclic permutation</strong> of the arrows making up the cycle. That is, we are free to choose the start (and end) point of the cycle. For example, in the one-cycle quiver</p>
+<p>[tex]\xymatrix{\vtx{} \ar[rr]^a &amp; &amp; \vtx{} \ar[ld]^b \\ &amp; \vtx{} \ar[lu]^c &amp;}[/tex]</p>
+<p>the basic necklace can be represented as $abc $ or $bca $ or $cab $. How does a necklace act on a representation? Well, the matrix-multiplication of the matrices corresponding to the arrows gives a square matrix in each of the vertices in the cycle. Though the dimensions of this matrix may vary from vertex to vertex, what does not change (and hence is a property of the necklace rather than of the particular choice of cycle) is the <strong>trace</strong> of this matrix. That is, necklaces give complex-valued functions on representations of $\mathbb{C} Q $ and by a result of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/m-geometry-3.html">Artin and Procesi</a> there are enough of them to distinguish isoclasses of (semi)simple representations! That is, linear combinations a necklaces (aka <strong>super-potentials</strong>) can be viewed, after taking traces, as complex-valued functions on all representations (similar to character-functions).</p>
+<p>In physics, one views these functions as potentials and it then interested in the points (representations) where this function is extremal (minimal) : the <strong>vacua</strong>. Clearly, this does not make much sense in the complex-case but is relevant when we look at the real-case (where we look at skew-Hermitian matrices rather than all matrices). A motivating example (the <strong>Yang-Mills potential</strong>) is given in Example 2.3.2 of Victor Ginzburg&#8217;s paper <a href="http://arxiv.org/abs/math/0612139">Calabi-Yau algebras</a>.</p>
+<p>Let $\Phi $ be a super-potential (again, a linear combination of necklaces) then our commutative intuition tells us that extrema correspond to zeroes of all partial differentials $\frac{\partial \Phi}{\partial a} $ where $a $ runs over all coordinates (in our case, the arrows of the quiver). One can make sense of differentials of necklaces (and super-potentials) as follows : the partial differential with respect to an arrow $a $ occurring in a term of $\Phi $ is defined to be the <strong>path</strong> in the quiver one obtains by removing all 1-occurrences of $a $ in the necklaces (defining $\Phi $) and rearranging terms to get a maximal broken necklace (using the cyclic property of necklaces). An example, for the cyclic quiver above let us take as super-potential $abcabc $ (2 cyclic turns), then for example</p>
+<p>$\frac{\partial \Phi}{\partial b} = cabca+cabca = 2 cabca $</p>
+<p>(the first term corresponds to the first occurrence of $b $, the second to the second). Okay, but then the vacua-representations will be the representations of the quotient-algebra (which I like to call the <strong>vacualgebra</strong>)</p>
+<p>$\mathcal{U}(Q,\Phi) = \frac{\mathbb{C} Q}{(\partial \Phi/\partial a, \forall a)} $</p>
+<p>which in &#8216;physical relevant settings&#8217; (whatever that means&#8230;) turn out to be <strong>Calabi-Yau algebras</strong>.</p>
+<p>But, let us return to the case of subgroups of the modular group and their quivers. Do we have a natural <strong>super-potential</strong> in this case? Well yes, the quiver encoded a triangulation of the compactification of $\mathbb{H}/\Lambda $ and if we choose an orientation it turns out that all &#8216;black&#8217; triangles (with respect to the Dedekind tessellation) have their arrow-sides defining a necklace, whereas for the &#8216;white&#8217; triangles the <strong>reverse</strong> orientation makes the arrow-sides into a necklace. Hence, it makes sense to look at the <strong>cubic</strong> superpotential $\Phi $ being the sum over all triangle-sides-necklaces with a +1-coefficient for the black triangles and a -1-coefficient for the white ones. Let&#8217;s consider an index three example from a previous post</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver3.jpg" style="float:left;margin-right:10px;" ><br />
+[tex]\xymatrix{&amp; &amp; \rho \ar[lld]_d \ar[ld]^f \ar[rd]^e &amp; \\<br />
+i \ar[rrd]_a &amp; i+1 \ar[rd]^b &amp; &amp; \omega \ar[ld]^c \\<br />
+&amp; &amp; 0 \ar[uu]^h \ar@/^/[uu]^g \ar@/_/[uu]_i &amp;}[/tex]</p>
+<p>In this case the super-potential coming from the triangulation is</p>
+<p>$\Phi = -aid+agd-cge+che-bhf+bif $</p>
+<p>and therefore we have a noncommutative algebra $\mathcal{U}(Q,\Phi) $ associated to this index 3 subgroup. Contrary to what I believed at the start of this series, the algebras one obtains in this way from dessins d&#8217;enfants are <strong>far from being Calabi-Yau</strong> (in whatever definition). For example, using a GAP-program written by <a href="http://www.win.ua.ac.be/~rbockl/research/">Raf Bocklandt</a> Ive checked that the growth rate of the above algebra is similar to that of $\mathbb{C}[x] $, so in this case $\mathcal{U}(Q,\Phi) $ can be viewed as a noncommutative curve (with singularities).</p>
+<p>However, this is not the case for all such algebras. For example, the vacualgebra associated to the second index three subgroup (whose fundamental domain and quiver were depicted at the end of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-modular-group-and-superpotentials-2.html">this post</a>) has growth rate similar to that of $\mathbb{C} \langle x,y \rangle $&#8230;</p>
+<p>I have an outlandish conjecture about the growth-behavior of all algebras $\mathcal{U}(Q,\Phi) $ coming from dessins d&#8217;enfants : <strong>the algebra sees what the monodromy representation of the dessin sees of the modular group (or of the third braid group)</strong>.<br />
+I can make this more precise, but perhaps it is wiser to calculate one or two further examples&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>quivers versus quilts</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quivers-versus-quilts/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quivers-versus-quilts/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 02 Jan 2008 12:33:08 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=209</guid>
+
+					<description><![CDATA[We have associated to a subgroup of the modular group $PSL_2(\mathbb{Z}) $ a quiver (that is, an oriented graph). For example, one verifies that the&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver4.jpg" style="float:right;margin-left:10px;" > We have <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=115">associated</a> to a subgroup of the modular group $PSL_2(\mathbb{Z}) $ a <strong>quiver</strong> (that is, an oriented graph). For example, one verifies that the fundamental domain of the subgroup $\Gamma_0(2) $ (an index 3 subgroup) is depicted on the right by the region between the thick lines with the identification of edges as indicated. The associated quiver is then</p>
+<p>\[<br />
+\xymatrix{i \ar[rr]^a \ar[dd]^b &amp; &amp; 1 \ar@/^/[ld]^h \ar@/_/[ld]_i \\<br />
+&amp; \rho \ar@/^/[lu]^d \ar@/_/[lu]_e \ar[rd]^f &amp; \\<br />
+0 \ar[ru]^g &amp; &amp; i+1 \ar[uu]^c}<br />
+\]</p>
+<p>The corresponding &#8220;dessin d&#8217;enfant&#8221; are the green edges in the picture. But, the red dot on the left boundary is identied with the red dot on the lower circular boundary, so the dessin of the modular subgroup $\Gamma_0(2) $ is</p>
+<p>\[<br />
+\xymatrix{| \ar@{-}[r] &amp; \bullet \ar@{-}@/^8ex/[r] \ar@{-}@/_8ex/[r] &amp; -}<br />
+\]</p>
+<p>Here, the three red dots (all of them even points in the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=18">Dedekind tessellation</a>) give (after the identification) the two points indicated by a $\mid $ whereas the blue dot (an odd point in the tessellation) is depicted by a $\bullet $. There is another &#8216;quiver-like&#8217; picture associated to this dessin, a <strong>quilt</strong> of the modular subgroup $\Gamma_0(2) $ as studied by <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> and <a href="http://www.math.sjsu.edu/~hsu/">Tim Hsu</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quilt1.jpg" style="float:left;margin-right:10px;" > On the left, a quilt-diagram copied from Hsu&#8217;s book <a href="http://www.amazon.com/exec/obidos/ASIN/3540673970">Quilts : central extensions, braid actions, and finite groups</a>, exercise 3.3.9. This &#8216;quiver&#8217; has also 5 vertices and 7 arrows as our quiver above, so is there a connection?</p>
+<p>A <strong>quilt</strong> is a gadget to study transitive permutation representations of the <strong>braid group</strong> $B_3 $ (rather than its quotient, the modular group $PSL_2(\mathbb{Z}) = B_3/\langle Z \rangle $ where $\langle Z \rangle $ is the cyclic center of $B_3 $. The $Z $-stabilizer subgroup of all elements in a transitive permutation representation of $B_3 $ is the same and hence of the form $\langle Z^M \rangle $ where M is called the <strong>modulus</strong> of the representation. The <strong>arrow-data</strong> of a quilt, that is the direction of certain edges and their labeling with numbers from $\mathbb{Z}/M \mathbb{Z} $ (which have to satisfy some requirements, the <strong>flow rules</strong>, but more about that another time) encode the Z-action on the permutation representation. The dimension of the representation is $M \times k $ where $k $ is the number of half-edges in the dessin. In the above example, the modulus is 5 and the dessin has 3 (half)edges, so it depicts a 15-dimensional permutation representation of $B_3 $.</p>
+<p>If we forget the Z-action (that is, the arrow information), we get a permutation representation of the modular group (that is a dessin). So, if we delete the labels and directions on the edges we get what Hsu calls a <strong>modular quilt</strong>, that is, a picture consisting of thick edges (the dessin) together with dotted edges which are called the <strong>seams</strong> of the modular quilt. The modular quilt is merely another way to depict a fundamental domain of the corresponding subgroup of the modular group. For the above example, we have the indicated correspondences between the fundamental domain of $\Gamma_0(2) $ in the upper half-plane (on the left) and as a modular quilt (on the right)</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver4.jpg"  >  <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quilt2.jpg"  ></p>
+<p>That is, we can also get our quiver (or its opposite quiver) from the modular quilt by fixing the orientation of one 2-cell. For example, if we fix the orientation of the 2-cell $\vec{fch} $ we get our quiver back from the modular quilt</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quilt2.jpg" style="float:left;margin-right:10px;" ><br />
+\[<br />
+\xymatrix{i \ar[rr]^a \ar[dd]^b &amp; &amp; 1 \ar@/^/[ld]^h \ar@/_/[ld]_i \\<br />
+&amp; \rho \ar@/^/[lu]^d \ar@/_/[lu]_e \ar[rd]^f &amp; \\<br />
+0 \ar[ru]^g &amp; &amp; i+1 \ar[uu]^c}<br />
+\]</p>
+<p />
+<p>This shows that the quiver (or its opposite) associated to a (conjugacy class of a) subgroup of $PSL_2(\mathbb{Z}) $ does not depend on the choice of embedding of the dessin (or associated <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=19">cuboid tree diagram</a>) in the upper half-plane. For, one can get the modular quilt from the dessin by adding one extra vertex for every connected component of the complement of the dessin (in the example, the two vertices corresponding to 0 and 1) and drawing a triangulation from them (the dotted lines or &#8216;seams&#8217;).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quivers-versus-quilts/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Anabelian vs. Noncommutative Geometry</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/anabelian-vs-noncommutative-geometry/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/anabelian-vs-noncommutative-geometry/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 12 Dec 2007 20:33:29 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[anabelian]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[profinite]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=53</guid>
+
+					<description><![CDATA[This is how my attention was drawn to what I have since termed anabelian algebraic geometry, whose starting point was exactly a study (limited for&#8230;]]></description>
+										<content:encoded><![CDATA[<blockquote><p>This is how my attention was drawn to what I have since termed<br />
+<strong>anabelian algebraic geometry</strong>, whose starting point was exactly a study<br />
+(limited for the moment to characteristic zero) of the action of absolute<br />
+Galois groups (particularly the groups $Gal(\overline{K}/K) $, where K is an extension of finite type of the prime field) on (profinite) geometric fundamental<br />
+groups of algebraic varieties (defined over K), and more particularly (breaking with a well-established tradition) fundamental groups which are very far<br />
+from abelian groups (and which for this reason I call <strong>anabelian</strong>). Among<br />
+these groups, and very close to the group $\hat{\pi}_{0,3} $ , there is the profinite compactification of the modular group $SL_2(\mathbb{Z}) $, whose quotient by its centre<br />
+$\{ \pm 1 \} $ contains the former as congruence subgroup mod 2, and can also be<br />
+interpreted as an oriented cartographic group, namely the one classifying triangulated oriented maps (i.e. those whose faces are all triangles or<br />
+monogons).
+</p></blockquote>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/agzen.jpg" style="float:left;margin-right:10px;"> The above text is taken from <a href="http://en.wikipedia.org/wiki/Alexander_Grothendieck">Alexander Grothendieck</a>&#8216;s visionary text <a href="http://www.math.jussieu.fr/~leila/grothendieckcircle/EsquisseEng.pdf">Sketch of a Programme</a>. He was interested in the permutation representations of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ as they correspond via Belyi-maps and his own notion of <a href="http://en.wikipedia.org/wiki/Dessin_d'enfant">dessins d&#8217;enfants</a> to smooth projective curves defined over $\overline{\mathbb{Q}} $. One can now study the action of the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q}) $ on these curves and their associated dessins. Because every permutation representation of $\Gamma $ factors over a finite quotient this gives an action of the absolute Galois group as automorphisms on the profinite compactification</p>
+<p>$\hat{\Gamma} = \underset{\leftarrow}{lim}~\Gamma/N $</p>
+<p>where the limit is taken over all finite index normal subgroups $N \triangleleft PSL_2(\mathbb{Z}) $. In this way one realizes the absolute Galois group as a subgroup of the outer automorphism group of the profinite group $\hat{\Gamma} $. As a profinite group is a compact topological group one should study its <strong>continuous</strong> finite dimensional representations which are precisely those factoring through a finite quotient. In the case of $\hat{\Gamma} $ the <strong>simple continuous representations</strong> $\mathbf{simp}_c~\hat{\Gamma} $ are precisely the components of the permutation representations of the modular group. So in a sense, anabelian geometry is the study of these continuous simples together wirth the action of the absolute Galois group on it.</p>
+<p>In <strong>noncommutative geometry</strong> we are interested in a related representation theoretic problem. We would love to know the simple finite dimensional representations $\mathbf{simp}~\Gamma $ of the modular group as this would give us all simples of the three string braid group $B_3 $. So a natural question presents itself : how are these two &#8216;geometrical&#8217; objects $\mathbf{simp}_c~\hat{\Gamma} $ (anabelian) and $\mathbf{simp}~\Gamma $ (noncommutative) related and can we use one to get information about the other?</p>
+<p>This is all rather vague  so far, so let us work out a trivial case to get some intuition. Consider the profinite completion of the infinite Abelian group</p>
+<p>$\hat{\mathbb{Z}} = \underset{\leftarrow}{lim}~\mathbb{Z}/n\mathbb{Z} = \prod_p \hat{\mathbb{Z}}_p $</p>
+<p>As all simple representations of an Abelian group are one-dimensional and because all continuous ones factor through a finite quotient $\mathbb{Z}/n\mathbb{Z} $ we see that in this case</p>
+<p>$\mathbf{simp}_c~\hat{\mathbb{Z}} = \mu_{\infty} $</p>
+<p>is the set of all roots of unity. On the other hand, the simple representations of $\mathbb{Z} $ are also one-dimensional and are determined by the image of the generator so</p>
+<p>$\mathbf{simp}~\mathbb{Z} = \mathbb{C} &#8211; &#123; 0 &#125; = \mathbb{C}^* $</p>
+<p>Clearly we have an embedding $\mu_{\infty} \subset \mathbb{C}^* $ and the roots of unity are even <strong>dense</strong> in the Zariski topology. This might look a bit strange at first because clearly all roots of unity lie on the unit circle which &#8216;should be&#8217; their closure in the complex plane, but that&#8217;s because we have a real-analytic intuition. Remember that the Zariski topology of $\mathbb{C}^*$ is just the cofinite topology, so any closed set containing the infinitely many roots of unity should be the whole space!</p>
+<p>Let me give a pedantic alternative proof of this (but one which makes it almost trivial that a similar result should be true for most profinite completions&#8230;). If $c $ is the generator of $\mathbb{Z} $ then the different conjugacy classes are precisely the singletons $c^n $. Now suppose that there is a polynomial $a_0+a_1x+\ldots+a_mx^m $ vanishing on all the continuous simples of $\hat{\mathbb{Z}} $ then this means that the dimensions of the character-spaces of all finite quotients $\mathbb{Z}/n\mathbb{Z} $ should be bounded by $m $ (for consider $x $ as the character of $c $), which is clearly absurd.</p>
+<p>Hence, whenever we have a finitely generated group $G $ for which there is no bound on the number of irreducibles for finite quotients, then <strong>morally</strong> the continuous simple space for the profinite completion</p>
+<p>$\mathbf{simp}_c~\hat{G} \subset \mathbf{simp}~G $</p>
+<p>should be dense in the Zariski topology on the noncommutative space of simple finite dimensional representations of $G $. In particular, this should be the case for the modular group $PSL_2(\mathbb{Z}) $.</p>
+<p>There is just one tiny problem : unlike the case of $\mathbb{Z} $ for which this space is an ordinary (ie. commutative) affine variety $\mathbb{C}^* $, what do we mean by the &#8220;Zariski topology&#8221; on the noncommutative space $\mathbf{simp}~PSL_2(\mathbb{Z}) $ ? Next time we will clarify what this might be and show that indeed in this case the subset</p>
+<p>$\mathbf{simp}_c~\hat{\Gamma} \subset \mathbf{simp}~\Gamma $</p>
+<p>will be a Zariski closed subset!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/anabelian-vs-noncommutative-geometry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hexagonal Moonshine (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 13 Jul 2007 10:24:36 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=24</guid>
+
+					<description><![CDATA[Hexagons keep on popping up in the representation theory of the modular group and its close associates. We have seen before that singularities in 2-dimensional&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Hexagons keep on popping up in the representation theory of the modular group and its close associates. We have seen <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=15">before</a> that singularities in 2-dimensional representation varieties of the three string braid group $B_3 $ are &#8216;clanned together&#8217; in hexagons and <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=22">last time</a> Ive mentioned (in passing) that the representation theory of the modular group is controlled by the double quiver of the extended Dynkin diagram $\tilde{A_5} $, which is an hexagon&#8230;</p>
+<p>Today we&#8217;re off to find representations of the extended modular group $\tilde{\Gamma} = PGL_2(\mathbb{Z}) $, which is obtained by adding to the modular group (see <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=23">this post</a> for a proof of generation)</p>
+<p>$\Gamma = \langle U=\begin{bmatrix} 0 &amp; -1 \\\ 1 &amp; 0 \end{bmatrix},V=\begin{bmatrix} 0 &amp; 1 \\\ -1 &amp; 1 \end{bmatrix} \rangle $ the matrix $R=\begin{bmatrix} 0 &amp; 1 \\\ 1 &amp; 0 \end{bmatrix} $</p>
+<p>In terms of generators and relations, one easily verfifies that</p>
+<p>$\tilde{\Gamma} = \langle~U,V,R~|~U^2=R^2=V^3=(RU)^2=(RV)^2=1~\rangle $</p>
+<p>and therefore $\tilde{\Gamma} $ is the <a href="http://unapologetic.wordpress.com/2007/03/03/amalgamated-free-products/">amalgamated free product</a> of the <a href="http://en.wikipedia.org/wiki/Dihedral_group">dihedral groups</a> $D_2 $ and $D_3 $ over their common subgroup $C_2 = \langle~R~\rangle $, that is</p>
+<p>$\tilde{\Gamma} = \langle U,R | U^2=R^2=(RU)^2=1 \rangle \ast_{\langle R | R^2=1 \rangle} \langle V,R | V^3=R^2=(RV)^2=1 \rangle = D_2 \ast_{C_2} D_3 $</p>
+<p>From this description it is easy to find all n-dimensional $\tilde{\Gamma} $-representations $V $ and relate them to quiver-representations. $D_2 = C_2 \times C_2 $ and hence has 4 1-dimensonal simples $S_1,S_2,S_3,S_4 $. Restricting $V\downarrow_{D_2} $ to the subgroup $D_2 $ it decomposes as</p>
+<p>$V \downarrow_{D_2} \simeq S_1^{\oplus a_1} \oplus S_2^{\oplus a_2} \oplus S_3^{\oplus a_3} \oplus S_4^{\oplus a_4} $ with $a_1+a_2+a_3+a_4=n $</p>
+<p>Similarly, because $D_3=S_3 $ has two one-dimensional representations $T,S $ (the trivial and the sign representation) and one simple 2-dimensional representation $W $, restricting $V $ to this subgroup gives a decomposition</p>
+<p>$V \downarrow_{D_3} \simeq T^{b_1} \oplus S^{\oplus b_2} \oplus W^{\oplus b_3} $, this time with $b_1+b_2+2b_3=n $</p>
+<p>Restricting both decompositions further down to the common subgroup $C_2 $ one obtains a $C_2 $-isomorphism $V \downarrow_{D_2} \rightarrow^{\phi} V \downarrow_{D_3} $ which implies also that the above numbers must be chosen such that $a_1+a_3=b_1+b_3 $ and $a_2+a_4=b_2+b_3 $. We can summarize all this info about $V $ in a representation of the quiver</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quivertilde.gif" style="float:left;margin-right:10px;"> Here, the vertex spaces on the left are the iso-typical factors of $V \downarrow_{D_2} $ and those on the right those of $V \downarrow_{D_3} $ and the arrows give the block-components of the $C_2 $-isomorphism $\phi $. The nice things is that one can also reverse this process to get all $\tilde{\Gamma} $-representations from $\theta $-semistable representations of this quiver (having the additional condition that the square matrix made of the arrows is invertible) and isomorphisms of group-representation correspond to those of quiver-representations!</p>
+<p>This proves that for all n the varieties of n-dimensional representations $\mathbf{rep}_n~\tilde{\Gamma} $ are smooth (but have several components corresponding to the different dimension vectors $~(a_1,a_2,a_3,a_4;b_1,b_2,b_3) $ such that $\sum a_i = n = b_1+b_2+2b_3 $.</p>
+<p>The basic principle of _M-geometry_ is that a lot of the representation theory follows from the &#8216;clan&#8217; (see <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=15">this post</a>) determined by the simples of smallest dimensions. In the case of the extended modular group $\tilde{\Gamma} $ it follows that there are exactly 4 one-dimensional simples and exactly 4 2-dimensional simples, corresponding to the dimension vectors</p>
+<p>$\begin{cases} a=(0,0,0,1;0,1,0) \\\ b=(0,1,0,0;0,1,0) \\\ c=(1,0,0,0;1,0,0) \\\ d=(0,0,1,0;1,0,0) \end{cases} $ resp. $\begin{cases} e=(0,1,1,0;0,0,1) \\\ f=(1,0,0,1;0,0,1) \\\ g=(0,0,1,1;0,0,1) \\\ h=(1,1,0,0;0,0,1) \end{cases} $</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/onequivertilde.gif" style="float:left;margin-right:10px;"> If one calculates the &#8216;clan&#8217; of these 8 simples one obtains the double quiver of the graph on the left. Note that a and b appear twice, so one should glue the left and right hand sides together as a Moebius-strip. That is, the clan determining the representation theory of the extended modular group is a Moebius strip made of two hexagons!</p>
+<p>However, one should not focuss too much on the hexagons (that is, the extended Dynkin diagram $\tilde{A_5} $) here. The two &#8216;backbones&#8217; (e&#8211;f and g&#8211;h) have their vertices corresponding to 2-dimensional simples whereas the topand bottom vertices correspond to one-dimensional simples. Hence, the correct way to look at this clan is as two copies of the double quiver of the extended Dynkin diagram $\tilde{D_5} $ glued over their leaf vertices to form a Moebius strip. Remark that the components of the sotropic root of $\tilde{D_5} $ give the dimensions of the corresponding $\tilde{\Gamma} $ simples.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/doubleD5.gif" align=center></p>
+<p>The remarkable ubiquity of (extended) Dynkins never ceases to amaze!</p>
+<p><span id="more-24"></span></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hexagonal Moonshine (1)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-1/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-1/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 18 Jun 2007 17:15:37 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[hexagonal]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=15</guid>
+
+					<description><![CDATA[Over at the Arcadian Functor, Kea is continuing her series of blog posts on M-theory (the M is supposed to mean either Monad or Motif).&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Over at the <a href="http://kea-monad.blogspot.com/index.html">Arcadian Functor</a>, Kea is continuing her series of blog posts on M-theory (the M is supposed to mean either Monad or Motif). A recurrent motif in them is the <a href="http://en.wikipedia.org/wiki/Hexagon">hexagon</a> and now I notice hexagons popping up everywhere. I will explain some of these observations here in detail, hoping that someone, more in tune with recent technology, may have a use for them.</p>
+<p>The three string <a href="http://en.wikipedia.org/wiki/Braid_group">braid group</a> $B_3 $ is expected to play a crucial role in understanding <a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a> so we should know more about it, for example about its finite dimensional representations. Now, _M geometry_ is pretty good at classifying finite dimensional representations provided the algebra is &#8220;smooth&#8221; which imples that for every natural number n the variety $\mathbf{rep}_n~A $ of n-dimensional representations of A is a manifold. Unfortunately, the group algebra $A=\mathbb{C} B_3 $ of the three string braid group is singular as we will see in a moment and the hunt for singularities in low dimensional representation varieties will reveal hexagons.</p>
+<p><span id="more-15"></span></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/emilartin.jpg" style="float:left;margin-right:10px;" hspace=20 /> <a href="http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Artin.html">Emil Artin&#8217;s</a> three string braid group has two generators $\sigma_1 $ and $\sigma_2 $ (corresponding to one crossing of the first (resp. last) two strings) and one defining equation</p>
+<p>$\sigma_1 \sigma_2 \sigma_1 = \sigma_2 \sigma_1 \sigma_2 $</p>
+<p>To make the connection with the modular group, it is better to change the generators to $u = \sigma_1 \sigma_2 \sigma_1 $ and $v = \sigma_1 \sigma_2 $ in which case the defining equation becomes $u^2 = v^3 $. Therefore, the variety of all n-dimensional representations of $B_3 $ consists of all pairs of invertible n by n matrices</p>
+<p>$~(A,B) \in GL_n(\mathbb{C}) \times GL_n(\mathbb{C})~:~A^2 = B^3 $</p>
+<p>which is pretty horrible to work out except for small values of n. For example, when n=1 we get the plane cusp curve $a^2=b^3 $ and while this curve has a unique singular point at (0,0), this point does not correspond to a one-dimensional representation of $B_3 $. Hence, $\mathbf{rep}_1~B_3 $ is the Riemann sphere minus two points $&#123; 0,\infty &#125; $ and is therefore a manifold. In M-geometry we are not just interested in these representations as points but also in the different ways in which these points can &#8216;talk to each other&#8217;, or more technical, whether these representations can have non-trivial extensions. Recall that an <strong>extension</strong> of a representation S by a representation S&#8217; is a representation M having S&#8217; as a subrepresentation with quotient-representation S, the trivial extension is the one corresponding to the obvious choice of taking the direct sum of both representations.</p>
+<p>Let us work out these extensions for $S=(a,b) $ and $S&#8217;=(a&#8217;,b&#8217;) $ both one-dimensional representations of $B_3 $. An extension of S by S&#8217; must be two-dimensional and is represented by 2&#215;2 matrices of the form</p>
+<p>$A = \begin{bmatrix} a &amp; \alpha \\\ 0 &amp; a&#8217; \end{bmatrix}~\quad \text{and} \quad~B=\begin{bmatrix} b &amp; \beta \\\ 0 &amp; b&#8217; \end{bmatrix} $</p>
+<p>with $\alpha,\beta \in \mathbb{C} $. Working out the condition that $A^2=B^3 $ leads to the set of equation (using the fact that $a^2=b^3 $ and $~(a&#8217;)^2=(b&#8217;)^3 $</p>
+<p>$ \alpha (a + a&#8217;) =  \beta (b^2+bb&#8217;+(b&#8217;)^2) $</p>
+<p>This leads to one linear relation between $\alpha $ and $\beta $ unless both coefficients are zero. Further, we have to determine when an extension determined by $~(\alpha,\beta) $ is trivial, that is, isomorphic to $S \oplus S&#8217; $. This translates into matrix-terms to the condition whether $~(A,B) = (L_{\lambda}A_0L_{\lambda}^{-1},L_{\lambda}B_0L_{\lambda}^{-1}) $ for the matrices</p>
+<p>$A_0 = \begin{bmatrix} a &amp; 0 \\\ 0 &amp; a&#8217; \end{bmatrix},~\quad B=\begin{bmatrix} b &amp; 0 \\\ 0 &amp; b&#8217; \end{bmatrix}~\quad \text{and} \quad L_{\lambda} = \begin{bmatrix} 1 &amp; \lambda \\\ 0 &amp; 1 \end{bmatrix} $</p>
+<p>for some $\lambda \in \mathbb{C} $. This leads to the additional equations $\alpha = \lambda(a&#8217;-a) $ and $\beta = \lambda(b&#8217;-b) $.</p>
+<p>Summarizing we have that there are NO extensions of S by S&#8217; unless either S=S&#8217; (in which case the isomorphism condition gives no extra condition and hence there is a one-dimensional family of self-extensions of S by itself for every S) or $S \not= S&#8217; $ and the two coefficients of the linear relation between $\alpha $ and $\beta $ are both zero (in which case there is again a one-dimensional family of extensions of S by S&#8217;). The condition on S and S&#8217; for both coefficients to vanish is that</p>
+<p>$a&#8217;=-a $ and either $b&#8217;=\zeta b $ or $b&#8217; = \zeta^2 b $</p>
+<p>for $\zeta $ a third root of unity. Therefore, each one-dimensional $B_3 $-representation $S_1=(a,b) $ (a point on the Riemann sphere minus $0,\infty $) belongs to a unique clan of six one-dimensional representations, having as the other members the representations</p>
+<p>$S_2 = (-a,\zeta b),~S_3=(a,\zeta^2 b),~S_4=(-a,b),~S_5=(a,\zeta b),~S_6=(-a,\zeta^2 b) $</p>
+<p>Different clans don&#8217;t talk to each other and within a clan the lines of communication (the spaces of extensions) can be depicted by the following hexagonal quiver</p>
+<p>[tex]\xymatrix{&amp; \vtx{S_1} \ar@(ul,ur) \ar@/^/[dl] \ar@/^/[dr] &amp; \\\ \vtx{S_6} \ar@(dl,ul) \ar@/^/[ur] \ar@/^/[d] &amp; &amp; \vtx{S_2} \ar@(ur,dr) \ar@/^/[ul] \ar@/^/[d] \\\  \vtx{S_5} \ar@(dl,ul) \ar@/^/[u] \ar@/^/[dr] &amp; &amp; \vtx{S_3} \ar@(ur,dr) \ar@/^/[u] \ar@/^/[dl] \\\ &amp; \vtx{S_4} \ar@(dr,dl) \ar@/^/[ur] \ar@/^/[ul] &amp; }[/tex]</p>
+<p>Having fully analyzed the one-dimensional situation, let&#8217;s turn to $\mathbf{rep}_2~B_3 $ and see that it has singularities and hence that $B_3 $ is not smooth in M-geometry. The three string braid group has a 2-parameter family of simple 2-dimensional representation, whence the component of the representation variety $\mathbf{rep}_2~B_3 $ containing the simples is 5-dimensional. Hence, if this component would be a manifold, the tangent space in every point should be of dimension 5. If M is a semi-simple n-dimensional representation, then the tangent space in M to $\mathbf{rep}_n~B_3 $ is known to be of dimension $n^2 &#8211; dim~Aut(M) + dim~Ext(M,M) $ where $Ext(M,M) $ is the space of self-extensions and $Aut(M) $ is the automorphism group of M.</p>
+<p>Apply this to a semi-simple 2-dimenional representation $M=S \oplus S&#8217; $ where S and S&#8217; determine an edge of an hexagon in a clan. Then,</p>
+<p>$Ext(M,M) = Ext(S,S) \oplus Ext(S,S&#8217;) \oplus Ext(S&#8217;,S) \oplus Ext(S&#8217;,S&#8217;) $</p>
+<p>which by the above calculations is a 4-dimensional space. Further, S being non-isomorphic to S&#8217; it follows from Schur&#8217;s lemma that the automorphism group of M is two-dimensional, totting up to a 6-dimensional tangent space&#8230; so M must be a singularity!</p>
+<p>In fact, one can show that the points in the irreducible component of two-dimensional $B_3 $ representations containing the simples are singular if and only if the representation is semi-simple $M = S \oplus S&#8217; $ with the components either <strong>a vertex of a hexagon (that is S=S&#8217;) or an edge of an hexagon</strong>. In this way, the strange hexagonal clans of one-dimensional braid-representations are the source of singularities for $B_3 $.</p>
+<p>In _another post_ we will see that the hexagonal pattern also pops up in studying representations of the modular group $PSL_2(\mathbb{Z}) $ and the extended modular group $PGL_2(\mathbb{Z}) $. The latter case is pretty interesting as we will encounter a Moebius band made of two hexagons&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/hexagonal-moonshine-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>devilish symmetries</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/devilish-symmetries/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/devilish-symmetries/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 02 Apr 2007 08:29:08 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=232</guid>
+
+					<description><![CDATA[In another post we introduced Minkowski&#8217;s question-mark function, aka the devil&#8217;s straircase and related it to Conways game of _contorted fractions_. Side remark : over&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=201">another post</a> we introduced<br />
+<a href="http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Minkowski.html">Minkowski&#8217;s</a> question-mark function, aka <strong>the devil&#8217;s straircase</strong><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/devil1.jpg" alt="" />  and related it to<br />
+Conways game of _contorted fractions_. Side remark : over at <a href="http://scienceblogs.com/goodmath/">Good Math, Bad Math</a> Mark Chu-Carroll is running<br />
+a mini-series on numbers&amp;games, so far there is a post on <a href="http://scienceblogs.com/goodmath/2007/03/introducing_the_surreal_number_2.php">surreal numbers</a>,<br />
+<a href="http://scienceblogs.com/goodmath/2007/03/surreal_arithmetic_edited_reru_1.php">surreal arithmetic</a> and the connection with<br />
+<a href="http://scienceblogs.com/goodmath/2007/04/post_3.php">games</a> but<br />
+probably this series will go on for some time.</p>
+<p>About a year ago I had<br />
+an email-exchange with <a href="http://linas.org/">Linas Vepstas</a> because I was<br />
+intrigued by one of his online publications linking the fractal<br />
+symmetries of the devil&#8217;s staircase to the modular group. Unfortunately,<br />
+his paper contained some inaccuracies and I&#8217;m happy some of my comments<br />
+made it into his rewrite <a href="http://linas.org/math/chap-minkowski.pdf">The Minkowski question mark, GL(2,Z) and the<br />
+modular group</a>. Still, several<br />
+mistakes remain so read this paper only modulo his own caveat</p>
+<blockquote><p> XXXX This paper is unfinished. Although this version<br />
+corrects a number of serious  errors in the previous drafts, it is still<br />
+misleading and confusing in many ways. The second  half, in particular<br />
+must surely contain errors and mis-statements! Caveat emptor! XXXX
+</p></blockquote>
+<p>For example, on page 15 of the march 24-version he claims<br />
+that the third braid group $B_3 \simeq SL_2(\mathbb{Z}) $ which<br />
+would make life, mathematics and even physics a lot easier, but<br />
+unfortunately is not true. Recall that Artin&#8217;s defining relation for the<br />
+3-string braid group is $\sigma_1 \sigma_2 \sigma_1 = \sigma_2<br />
+\sigma_1 \sigma_2 $ as can be seen because the 3-strings below can<br />
+be transformed into each other<br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/braid3.jpg" alt="" />  But from this<br />
+relation it follows that $c=(\sigma_1 \sigma_2 \sigma_1)^2 $ is<br />
+a central element in $B_3 $ and it is not difficult to verify<br />
+that indeed  $B_3/ \langle c \rangle \simeq PSL_2(\mathbb{Z}) $<br />
+and $B_3/ \langle c^2 \rangle \simeq SL_2(\mathbb{Z}) $  An easy<br />
+way to see that the third braid group and the modular group are quite<br />
+different is to look at their one-dimensional representations. Any<br />
+group-map $B_3 \rightarrow \mathbb{C}^_ $ is determined by<br />
+non-zero complex numbers x and y satisfying $x^2y=y^2x $ so are<br />
+parametrized by the torus $\mathbb{C}^_ $ whereas there are only<br />
+6 one-dimensional representations of $PSL_2(\mathbb{Z}) = C_2 \ast<br />
+C_3 $ (and similarly, there are only 12 one-dimensional<br />
+$SL_2(\mathbb{Z}) $-representations). Btw. for those still<br />
+interested in noncommutative geometry : $&#40;P)SL_2(\mathbb{Z}) $<br />
+are noncommutative manifolds whereas $B_3 $ is definitely<br />
+singular, if I ever get to the definitions of  all of this&#8230;  Still,<br />
+there is a gem contained in Linas&#8217; paper and here&#8217;s my reading of it :<br />
+the fractal symmetries of the devil&#8217;s staircase form a generating<br />
+sub-semigroup $C_2 \ast \mathbb{N} $ of<br />
+$GL_2(\mathbb{Z}) $ .  To begin, let us recall that the<br />
+question-mark function is defined in terms of continued fraction<br />
+expressions. So, what group of symmetries may be around the corner?<br />
+Well, if $a = \langle a_0;a_1,a_2,\ldots \rangle $ is the<br />
+continued fraction of a (see <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=201">this<br />
+post</a> for details) then if we<br />
+look at the n-th approximations $\frac{p_n}{q_n} $ (that is, the<br />
+rational numbers obtained after breaking off the continued fraction at<br />
+step n) it is failrly easy to show that  $\begin{bmatrix} p_n &amp;<br />
+p_{n-1} \\ q_n &amp; q_{n-1} \end{bmatrix} \in GL_2(\mathbb{Z}) $  and<br />
+recall (again) that this group acts on<br />
+$\mathbb{P}^1_{\mathbb{C}} $ via Moebius transformations<br />
+$\begin{bmatrix} a &amp; b \ c &amp; d \end{bmatrix} $ via $z<br />
+\mapsto \frac{az+b}{cz+d} $   One of the symmetries is easy to spot<br />
+(reflexion along the 1/2-axis)  <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/devil1R.jpg" />  That is, $?(x-1) = 1 &#8211; ?(x) $  Observe that the left-hand<br />
+side transformation is given by the Moebius transformation determined by<br />
+the matrix  $r = \begin{bmatrix} -1 &amp; 1 \\ 0 &amp; 1 \end{bmatrix} \in<br />
+GL_2(\mathbb{Z}) $  Other symmetries are harder to see as they are<br />
+_fractal symmetries_, that is they are self-symmetries but at different<br />
+scales. For example, let us blow-up the ?-function at the interval<br />
+[1/3,1/2] and compare it with the function at the interval [1/2,1]  <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/devil1L.jpg" width=500 ><br />
+which has the same graph, while halving the function value. More<br />
+generally, substituting the ?-function definition using continued<br />
+fraction expressions one verifies that   $?(\frac{x}{x+1}) =<br />
+\frac{1}{2} ?(x) $  and this time the left-hand transformation is<br />
+determined by the matrix  $g = \begin{bmatrix} 1 &amp; 0 \\ 1 &amp; 1<br />
+\end{bmatrix} \in GL_2(\mathbb{Z}) $  We obtain a semi-group $S<br />
+= \langle r,g \rangle $ of fractal symmetries which are induced (the<br />
+right hand sides of the above expressions) via a 2-dimensional<br />
+representation of S  $S \rightarrow GL_2(\mathbb{C})~\qquad r<br />
+\mapsto \begin{bmatrix} 1 &amp; 0 \\ 1 &amp; -1 \end{bmatrix}~\qquad g \mapsto<br />
+\begin{bmatrix} 1 &amp; 0 \\ 0 &amp; \frac{1}{2} \end{bmatrix} $  acting<br />
+via left-multiplication on the two-dimensional vectorspace<br />
+$\mathbb{C}1+\mathbb{C}x $.  We claim that S is the free<br />
+semi-group $C_2 \ast \mathbb{N} $. Clearly, $r^2=1 $ and<br />
+g is of infinite order, but we have to show that no expression of the<br />
+form  $rg^{i_1}rg^{i_2}r \ldots rg^{i_l}r $  can be the identity<br />
+in S. We will prove this by computing its action on the continued<br />
+fraction expression of $a = \langle 0;a_0,a_1,\ldots \rangle $.<br />
+It is a pleasant exercise to show that  $g. \langle 0;a_1,a_2,\ldots<br />
+\rangle = \langle 0;a_1+1,a_2,\ldots \rangle  $ whence by induction<br />
+$g^n. \langle 0;a_1,a_2,\ldots \rangle = \langle 0;a_1+n,a_2,\ldots<br />
+\rangle  $  Moreover, the action on r is given by  $r. \langle<br />
+0;a_1,a_2,\ldots \rangle = \langle 0;1,a_1-1,a_2,\ldots \rangle $ if<br />
+$a_1 \not= 1 $ whereas  $r. \langle 0;1,a_2,a_3,\ldots<br />
+\rangle = \langle 0;a_2+1,a_3,\ldots \rangle $  But then, as a<br />
+consequence we have that  $g^{n-1}rg . \langle 0;a_1,a_2,\ldots<br />
+\rangle = \langle 0;n,a_1,a_2,\ldots \rangle $  and iterating this<br />
+procedure gives us finally that an expression   $g^{j-1} r g^k r g^l<br />
+r \ldots g^z r g = (g^{j-1} r g)(g^{k-1} r g)(g^{l-1} r g) \ldots<br />
+(g^{z-1} r g) $  acts on $a = \langle 0;a_1,a_2,\ldots<br />
+\rangle $ by sending it to  $\langle<br />
+0;j,k,l,\ldots,z,a_1,a_2,\ldots \rangle $  whence such an expression<br />
+can never act as the identity element, proving that indeed $S \simeq<br />
+C_2 \ast \mathbb{N} $.  As for the second claim, recall from <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=299">this<br />
+post</a> that<br />
+$GL_2(\mathbb{Z}) $ is generated by the matrices  $U =<br />
+\begin{bmatrix} 0 &amp; -1 \ 1 &amp; 0 \end{bmatrix}~\quad V = \begin{bmatrix}<br />
+0 &amp; 1 \ -1 &amp; 1 \end{bmatrix}~\quad R = \begin{bmatrix} 0 &amp; 1 \ 1 &amp; 0<br />
+\end{bmatrix} $  and a straightforward verification shows that<br />
+$r = RV,~\quad g = VU $ and  $R = g^{-1}rg,~\quad<br />
+V=g^{-1}rgr,\quad U=rg^{-1}rg^2 $  whence, indeed, the semi-group S<br />
+generates the whole of $GL_2(\mathbb{Z}) $!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/devilish-symmetries/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Duskin &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/duskin/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 10 Jan 2022 13:31:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Grothendieck talks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-talks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-talks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 10 Jan 2022 13:31:42 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Caramello]]></category>
+		<category><![CDATA[Duskin]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Lawvere]]></category>
+		<category><![CDATA[McLarty]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9996</guid>
+
+					<description><![CDATA[In 2017-18, the seminar Lectures grothendieckiennes took place at the ENS in Paris. Among the speakers were Alain Connes, Pierre Cartier, Laurent Lafforgue and Georges&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In 2017-18, the seminar <a href="https://www.ens.psl.eu/agenda/lectures-grothendieckiennes/2018-06-05t160000">Lectures grothendieckiennes</a> took place at the ENS in Paris. Among the speakers were Alain Connes, Pierre Cartier, Laurent Lafforgue and <a href="https://webusers.imj-prg.fr/~georges.maltsiniotis/">Georges Maltsiniotis</a>.</p>
+<p>Olivia Caramello, who also contributed to the seminar, posts on her blog <a href="https://aroundtoposes.com/lectures-grothendieckiennes/">Around Toposes</a> that the proceedings of this lectures series is now available <a href="https://smf.emath.fr/publications/lectures-grothendieckiennes">from the SMF</a>.</p>
+<p>Olivia&#8217;s blogpost links also to the <a href="https://www.youtube.com/playlist?list=PLt6rik8WDbuRC4pwgKQOnb7NPGG1oJ4Fo">YouTube channel of the seminar</a>. Several of these talks are well worth your time watching.</p>
+<p>If you are at all interested in toposes and their history, and if you have 90 minutes to kill, I strongly recommend watching <a href="https://en.wikipedia.org/wiki/Colin_McLarty">Colin McLarthy&#8217;s</a> talk <a href="https://www.youtube.com/watch?v=5AR55ZsHmKI&#038;list=PLt6rik8WDbuRC4pwgKQOnb7NPGG1oJ4Fo&#038;index=9">Grothendieck&#8217;s 1973 topos lectures</a>:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/5AR55ZsHmKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>In 1973, Grothendieck gave three lectures series at the Department of Mathematics of SUNY at Buffalo, the first on &#8216;Algebraic Geometry&#8217;, the second on &#8216;The Theory of Algebraic Groups&#8217; and the third one on &#8216;Topos Theory&#8217;.</p>
+<p>All of these Grothendieck talks were audio(!)-taped by <a href="http://nlab-pages.s3.us-east-2.amazonaws.com/nlab/show/John+Duskin">John (Jack) Duskin</a>, who kept and preserved them with the help of <a href="https://en.wikipedia.org/wiki/William_Lawvere">William Lawvere</a>. They constitute more than 100 hours of rare <a href="https://mathoverflow.net/questions/2596/are-there-any-recordings-of-grothendieck-online">recordings of Grothendieck</a>.</p>
+<p>This MathOverflow (soft) question links to <a href="https://v1.archmathsci.org/catalogue/general-chronology-of-recordings-since-1973/chronology-of-recordings-1973-1980/1973-recordings/">this page</a> stating:</p>
+<p>&#8220;The copyright of all these recordings is that of the Department of Mathematics of  SUNY at Buffalo to whose representatives, in particular Professors Emeritus Jack DUSKIN and Bill LAWVERE exceptional thanks are due both for the preservation and transmission of this historic archive,  the only substantial archive of recordings of courses given by one of the greatest mathematicians of all time,  whose work and ideas exercised arguably the most profound influence of any individual figure in shaping the mathematics of the second half od the 20th Century. The material which it is proposed to make available here, with their agreement, will form a mirror site to the principal site entitled “Grothendieck at Buffalo” (url:   ).&#8221;</p>
+<p>Sadly, the URL is still missing.</p>
+<p>Fortunately, another answer links to the Grothendieck project <a href="https://agrothendieck.github.io/">Thèmes pour une Harmonie</a> by <a href="https://carmonamateo.github.io/">Mateo Carmona</a>. If you scroll down to the 1973-section, you&#8217;ll find there all of the recordings of these three Grothendieck series of talks!</p>
+<p>To whet your appetite, here&#8217;s the first part of his talk on topos theory on April 4th, 1973:</p>
+<p><audio controls><source src="horse.ogg" type="audio/ogg"><source src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GrothTopos1.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></p>
+<p>For all subsequent recordings of his talks in the Topos Theory series on May 11th, May 18th, May 25th, May 30th, June 4th, June 6th, June 20th, June 27th, July 2nd, July 10th, July 11th and July 12th, please consult Mateo&#8217;s <a href="https://agrothendieck.github.io/">website</a> (under section 1973).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-talks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

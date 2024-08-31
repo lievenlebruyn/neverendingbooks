@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>representation schemes &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/representation-schemes/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 26 Dec 2010 21:25:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Lists 2010 : MathOverflow bookmarks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 26 Dec 2010 21:25:39 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[Field with one element]]></category>
+		<category><![CDATA[Frobenius]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Langlands]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[representation schemes]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3869</guid>
+
+					<description><![CDATA[A few MathOverflow threads I bookmarked in 2010 for various reasons. Honest answer : Applications of algebraic geometry over a field with one element. James&#8230;]]></description>
+										<content:encoded><![CDATA[<p>A few <a href="http://mathoverflow.net/">MathOverflow</a> threads I bookmarked in 2010 for various reasons.</p>
+<ul>
+<li>Honest answer : <a href="http://mathoverflow.net/questions/23394/applications-of-algebraic-geometry-over-a-field-with-one-element">Applications of algebraic geometry over a field with one element</a>. <a href="http://mathoverflow.net/questions/23394/applications-of-algebraic-geometry-over-a-field-with-one-element/23418#23418">James Borger&#8217;s answer</a> : &#8220;I&#8217;m confident that the answer to the original question is no. There are hardly any theorems at all in the subject, much less ones with external applications! In other words, if no further progress is ever made in any of the directions people have pursued, everything will likely be forgotten&#8221; </li>
+<li>Unknown result (at least to me) : <a href="http://mathoverflow.net/questions/14076/irreducibility-of-polynomials-in-two-variables">Irreducibility of polynomials in two variables</a>. <a href="http://mathoverflow.net/questions/14076/irreducibility-of-polynomials-in-two-variables/14084#14084">Graham Leuschke&#8217;s</a> &#8220;all-time leading candidate for Most Preposterous Theorem Ever&#8221;, proved using the classification of the finite simple groups. </li>
+<li>Should know example (but don&#8217;t) : <a href="http://mathoverflow.net/questions/21380/algebra-a-with-speca-reduced-and-rep-na-non-reduced">Algebra A with Spec(A) reduced and Rep_n(A) non-reduced</a>. Algebras being commutative here and even the existence of an example with Spec(A) is smooth is open. Peter Samuelson : &#8221; My guess would be yes for both, but I&#8217;m not sure how to find one for either one.&#8221; </li>
+<li>Great list : <a href="http://mathoverflow.net/questions/49993/the-frobenius-morphism">The Frobenius morphism</a>. David Ben-Zvi&#8217;s &#8220;outdated collection of intuitive ways to think about raising to the p-th power&#8221;.</li>
+<li>Overrated answer : <a href="http://mathoverflow.net/questions/41253/who-fixed-the-topology-on-ideles">who fixed the topology on ideles?</a>. <a href="http://mathoverflow.net/questions/41253/who-fixed-the-topology-on-ideles/41332#41332">John Tate&#8217;s answer</a> &#8220;When I wrote my thesis I used what seemed to me to be the obvious topology without going into the history of the matter.&#8221; got 73 votes&#8230; </li>
+<li>Langlands for dummies : <a href="http://mathoverflow.net/questions/43240/what-is-the-l-function-version-of-quadratic-reciprocity">What is the L-function version of quadratic reciprocity?</a>. Sometimes working through the easiest non-trivial example gives more insight than several survey papers.</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

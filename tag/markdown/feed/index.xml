@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>markdown &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/markdown/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 07 Dec 2010 08:22:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Link problems : Markdown versus latex2wp.py</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/link-problems-markdown-versus-latex2wp-py/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/link-problems-markdown-versus-latex2wp-py/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 07 Dec 2010 08:22:00 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3413</guid>
+
+					<description><![CDATA[As John Baez (and hopefully others) noticed most links here on NeB are now screwed up. For years I&#8217;ve used the Markdown syntax to include&#8230;]]></description>
+										<content:encoded><![CDATA[<p>As <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/arnolds-trinities-version-20.html/comment-page-1#comment-9435">John Baez</a> (and hopefully others) noticed most links here on NeB are now screwed up.</p>
+<p>For years I&#8217;ve used <a href="http://daringfireball.net/projects/markdown/syntax">the Markdown syntax</a> to include links in posts (that is something like [this is what you see](and here is the URL)). NeB used an older version ( Version 1.0.1k) of <a href="http://michelf.com/projects/php-markdown/">php Markdown</a> to convert these to proper links (as I did have problems with the newer version).</p>
+<p>Ever since the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/return-to-latex.html">Return to LaTeX</a> post, I&#8217;m trying to re-educate myself to write posts in LaTeX and convert them into wp-format using the <a href="http://lucatrevisan.wordpress.com/latex-to-wordpress/">Latex2WP python script</a>.</p>
+<p>Unfortunately this script doesn&#8217;t go together nicely with the Markdown-syntax, forcing me to go over the converted latex-file almost line by line fixing errors in order to be able to post. Not the time-saver I had in mind&#8230;</p>
+<p>I hope to post a lot of new material once the semester finishes and therefore disabled the Markdown-plugin. This causes all links to remain in Markdown-format, which is a nuisance but, if you really want to follow the link it is still there for you to copy-paste. Depending on how exciting the christmas-break will be I&#8217;ll try to hard-code the links in some of the more popular posts.</p>
+<p>If someone knows of an elegant solution, such as a micro-markdown wp-plugin only parsing links, please drop a comment.</p>
+<p>UPDATE : I have downloaded the <a href="http://wordpress.org/extend/plugins/markdown-quicktags/">Markdown quicktags</a> plugin. It replaces the standard HTML-editor of WordPress with a Markdown-editor. There is an option &#8220;Render&#8221; which transforms Markdown to HTML and then updating the post will save the HTML-version. This looks like a relative quick way to get my old post-links back. So far, I&#8217;ve rescued the posts of the last year, more later. Hopefully, this causes no overload in your RSS-aggregator&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/link-problems-markdown-versus-latex2wp-py/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Writing &#038; Blogging</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/writing-blogging/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/writing-blogging/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 27 Feb 2008 19:04:34 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/writing-blogging.html</guid>
+
+					<description><![CDATA[Terry Tao is reworking some of his better blogposts into a book, to be published by the AMS (here&#8217;s a preliminary version of the book&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Terry Tao is <a href="http://terrytao.wordpress.com/2008/01/25/book-version-of-the-blog/">reworking</a> some of his better blogposts into a book, to be published by the AMS (here&#8217;s a <a href="http://terrytao.files.wordpress.com/2008/01/whatsnew.pdf">preliminary version</a> of the book &#8220;What&#8217;s New?&#8221;)</p>
+<blockquote><p>After some thought, I decided not to transcribe all of my posts from last year (there are 93 of them!), but instead to restrict attention to those articles which (a) have significant mathematical content, (b) are not announcements of material that will be published elsewhere, and (c) are not primarily based on a talk given by someone else. As it turns out, this still leaves about 33 articles from 2007, leading to a decent-sized book of a couple hundred pages in length.</p></blockquote>
+<p>If you have a blog and want to turn it into a LaTeX-book, there&#8217;s no need to transcribe or copy every single post, thanks to the <a href="http://xhtml-css.com/wptex/index.html">WPTeX tool</a>. Note that this is NOT a WP-plugin, but a (simple at that) php-program which turns all posts into a <strong>bookcontent.tex</strong> file. This file can then be edited further into a proper book.</p>
+<p>Unfortunately, the present version chokes on <a href="http://www.mayer.dial.pipex.com/tex.htm">LaTeXrender</a>-code (which is easy enough to solve doing a global &#8216;find-and-replace&#8217; of the tex-tags by dollar-signs) but worse, on <a href="http://daringfireball.net/projects/markdown/">Markdown</a>-code&#8230; But then, someone fluent in php-regex will have no problems extending the <strong>libs/functions.php</strong> file (I hope&#8230;).</p>
+<p>At the moment I&#8217;m considering turning the Mathieu-games-posts into a booklet. A possible title might be <strong>Math<font color =red>i</font>e<font color=red>u</font>matical Games</strong>. Rereading them (and other posts) I regret to be such an impatient blogger. Often I&#8217;m interested in something and start writing posts about it without knowing where or when I&#8217;ll land. This makes my posts a lot harder to get through than they might have been, if I would blog only after having digested the material myself&#8230; Typical recent examples are the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/key-compression.html">tori-crypto-posts</a> and the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bost-connes-coset-space.html">Bost-Connes algebra posts</a>.</p>
+<p>So, I still have a lot to learn from other bloggers I admire, such as <a href="http://www.jenniferouellette-writes.com/">Jennifer Ouellette</a> who maintains the <a href="http://twistedphysics.typepad.com/cocktail_party_physics/">Coctail Party Physics blog</a>. At the moment, Jennifer is resident blogger-journalist at the <a href="http://www.kitp.ucsb.edu/">Kavli Institute</a> where she is running a <a href="http://www.kitp.ucsb.edu/activities/journalist/current_talks.php">&#8220;Journal Club&#8221; workshop</a> giving ideas on how to write better about science.</p>
+<blockquote><p>But the KITP is also committed to fostering scientific communication. That&#8217;s where I come in. Each Friday through April 26th, I&#8217;ll be presiding over a &#8220;Journal Club&#8221; meeting focusing on some aspect of communicating science.
+</p></blockquote>
+<p>Her most recent talk was entitled <a href="http://online.itp.ucsb.edu/online/resident/ouellette2/">To Blog or Not to Blog? That is the Question</a> and you can find  the slides as well as a QuickTime movie of her talk. They even plan to set up a blog for the participants of the workshop. I will surely follow the rest of her course with keen interest!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/writing-blogging/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NeB on Leopard and iPhone</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neb-on-leopard-and-iphone/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neb-on-leopard-and-iphone/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 07 Dec 2007 20:15:20 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Leopard]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[Tiger]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=49</guid>
+
+					<description><![CDATA[If you have an iPhone or iPod Touch and point your Safari browser to this blog you can now view it in optimised format, thanks&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/iphone.jpg" style="float:left;margin-right:10px;"> If you have an iPhone or iPod Touch and point your Safari browser to <a href="https://lievenlebruyn.github.io/neverendingbooks/">this blog</a> you can now view it in optimised format, thanks to the <a href="http://iwphone.contentrobot.com/">iWPhone WordPress Plugin and Theme</a>. I&#8217;ve only changed the CSS slightly to have the same greeny look-and-feel of the current <a href="http://www.deanjrobinson.com/wordpress/redoable">redoable theme</a>.</p>
+<p>Upgrading a WordPress-blog running under Tiger (Mac OS 10.4) to <a href="http://www.apple.com/macosx/">Leopard</a> produces a few anxiety moments. All of the standard tools (Apache, PHP and MySQL) seem no longer to work as before. For those of you who do not want to waste too much time over it, I&#8217;ll walk through the process.</p>
+<p>After upgrading to Leopard you want to check whether your blog is still alive, so you fire up Safari and will be greeted by the message that Safari cannot find your server. Sure enough you forgot to start the WebServer in SystemPreferences/Sharing/Web Sharing. Having fixed this you will see the default Apache-screen because Leopard put these default-files in your webserver-root directory (/Library/WebServer/Documents). In case you installed your blog under a user account you will get a message that you enter forbidden territory, see below for the solution to that problem. Having removed all those index.html files (making sure NOT to delete the index.php of your blog) a more serious problem presents itself : you see the text-version of index.php meaning that PHP isnt working. You check the /etc/httpd/httpd.conf file and it still contains all the changes you made to it to get PHP running under Tiger, so what is going on?</p>
+<p>Googling for something like &#8216;enabling PHP under Leopard&#8217; you&#8217;ll discover that the configuration file used by the webserver is in a different location. It now resides at /private/etc/apache2/httpd.conf. You will have to remove the hash sign (#) at the beginning of line 114 so that it reads</p>
+<p class="code">LoadModule php5_module    libexec/apache2/libphp5.so
+</p>
+<p>Next, you have to create a php.ini file and change one line. The first thing is settled by the following Terminal-commands</p>
+<p class="code">
+cd /private/etc<br />
+sudo cp php.ini.default php.ini
+</p>
+<p>and in the php.ini you have to modify line 305 so that it becomes (removing the latter part of the line)</p>
+<p class="code">error_reporting = E_ALL
+</p>
+<p>Restarting the webserver enables PHP. If you need more details check out the article <a href="http://foundationphp.com/tutorials/php_leopard.php">Enabling PHP and Apache in Leopard</a>. However, you are not quite done yet. Your blog will now show the WordPress-page that something is wrong with your mysql-database. However, mysql seems to be running fine as you can check from the Terminal so PHP cannot find it.</p>
+<p>To remedy this, you have to add the locations (after the = sign) in the follwing two lines of the php.ini file</p>
+<p class="code">mysql.default_socket = /private/tmp/mysql.sock <br />
+mysqli.default_socket = /private/tmp/mysql.sock</p>
+<p>Restarting the webserver should resolve the problem. But then your blog can still choke on old PHP-code in one of the plugins you use. In my case I was using an ancient version of the <a href="http://michelf.com/projects/php-markdown/">PHP-Markdown plugin</a> but after replacing it with the newest version NeB looked just like I left it with Tiger&#8230;</p>
+<p>A final point : webpages stored in personal Sites-folders cannot be served by Apache2 and will produce a message that you have not enough privileges to view the page. To resolve this, type the following command from the Terminal</p>
+<p class="code">sudo cp /private/etc/httpd/users/*.conf  /private/etc/Apache2/users</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neb-on-leopard-and-iphone/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>bookmarks tuesday cleanup</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/bookmarks-tuesday-cleanup/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/bookmarks-tuesday-cleanup/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 20 Feb 2007 18:18:47 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[GTD]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=69</guid>
+
+					<description><![CDATA[Geeky Mom : Why am I blogging?. Been there before. Sooner or later all non-pseudonomenous bloggers are faced with the same dilemmas. There&#8217;s really no&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="http://geekymom.blogspot.com/2007/02/why-am-i-blogging.html"><br />
+Geeky Mom : Why am I blogging?</a>. Been there before. Sooner or later<br />
+all non-pseudonomenous bloggers are faced with the same dilemmas.<br />
+There&#8217;s really no answer or advice to give except : blog when you feel<br />
+like it, if not do something different, after all its just one of those<br />
+billion of blogs around.</p>
+</p>
+<p><a href="http://www.xm1math.net/texmaker/">Texmaker</a> : another<br />
+LaTeX-frontend, possibly having a few extras such as : a structure-pane<br />
+including labels you gave to formulas, theorems etc. (click on them<br />
+brings you to them). Intend to use it now as I&#8217;m in another rewrite of<br />
+<strong>the</strong> never-ending-book..</p>
+<p><a href="http://microformats.org/">Microformats</a> : &#8220;Designed for<br />
+humans first and machines second, microformats are a set of simple, open<br />
+data formats built upon existing and widely adopted standards.&#8221; May<br />
+have another look.</p>
+<p><a href="http://quicksilver.blacktree.com/">Quicksilver</a> : a recurring<br />
+link. At times when I feel learning key-strokes may save me a lot of<br />
+time I have (another) go at Quicksilver. Last week, Ive reinstalled this<br />
+blog more or less post by post and used keystrokes to send a line in the<br />
+SQL-file of the database dump of NEB as a clipping to Scrivener to<br />
+MultiMarkdown it further. I used the app <a href="http://www.macupdate.com/info.php/id/20192">Service Scrubber</a><br />
+to define my own key-strokes. Must have another go at Quicksilver soon.<br />
+Im sure it distinguishes ‚&#8221;power mac users&#8221; from the rest of<br />
+us.</p>
+<p><a href="http://wiki.jeffsandquist.com/default.aspx/GTD/GTDTools.html"><br />
+List of GTDTools</a> : a good list of GTD-software. I&#8217;m probably just<br />
+too chaotic for GTD to improve my workflow but somehow I cannot resist<br />
+trying some of these things out.</p>
+<p><a href="http://lifedev.net/">LifeDEV</a> : One of those sites that tells<br />
+me I should take GTD more seriously</p>
+<p><a href="http://www.jimmcgowan.net/Site/DoIt.html">DoIt</a> : One of<br />
+these GTD-tools. It is said to go well with Quicksilver, so maybe, one<br />
+day.</p>
+<p><a href="http://www.freeverse.com/think/">Think</a><br />
+: Here a little seemingly completely useless tool which works well (at<br />
+least for me). No, it does not make you think, but at least it helps you<br />
+while you are thinking (or doing anything a bit focussed). Install it<br />
+and enjoy! The principle is that it just blocks out all other open<br />
+windows (and there are keystrokes (yes, again) to get you quickly in<br />
+and out.) Besides, it looks great. It&#8217;s in my dock and this says it<br />
+all</p>
+<p><a href="http://thinkature.com/">Thinkature</a> :<br />
+a brainstorming tool. Dont know why I did bookmark this. Perhaps one<br />
+day, a few years from now</p>
+<p><a
+href="http://www.archive.org/details/lecture11461">Stafford Talk</a> :<br />
+a talk by Toby Stafford I came across by accident. Maybe there are other<br />
+interesting talks on the site?</p>
+<p><a
+href="http://scq.ubc.ca/sciencescouts/">Science Scouts</a> : a great<br />
+idea! Give yourself badges for how well you do science (or talk/write<br />
+about science). Have to collect my badges soon. I&#8217;m sure this only<br />
+works for people with a scouting-history, but who<br />
+knows?</p>
+<p><a
+href="http://www.macresearch.org/">MacResearch</a> : Here&#8217;s a site<br />
+that may become useful. MacResearch.org is an open and independent<br />
+community for scientists using Mac OS X and related hardware in their<br />
+research. It is the mission of this site to cultivate a knowledgeable<br />
+and vibrant community of researchers to exchange ideas and information,<br />
+and collectively escalate the prominence of Apple technologies in the<br />
+scientific research community. They have some interesting articles<br />
+and tutorials on e.g. DevonThink and BibDesk etc. Worth to<br />
+revisit.</p>
+<p><a
+href="http://www.nature.com/nature/journal/v445/n7129/full/445700a.html
+">Jennifer in love</a> : well‚ should I say something about this?<br />
+probably best not.</p>
+<p><a
+href="http://www.jnd.org/dn.mss/ui_breakthroughcomma.html"><br />
+Breakthrough CLI</a> : another pamphlet in favor of the Command Line! A<br />
+must read for those who perfer GUIs to CLIs.</p>
+<p>&lt;</p>
+<p>p><a
+href="http://blog.elinc.ca/rod/2007/02/17/dum-de-doo/">CLI &#8211; the<br />
+site</a> : Rod is working hard on CLI-20. Whenever he releases version<br />
+2.0, neverendingbooks will be among the first sites to run it. I still<br />
+love the idea.</p>
+<p><a
+href="http://golem.ph.utexas.edu/category/2007/02/why_do_i_bother.html\
+">Why do I bother?</a> : an n-category post I got briefly interested in,<br />
+but was somehow flooded by professional<br />
+math-philosophers</p>
+<p><a
+href="http://jonstraveladventures.blogspot.com/2007/02/newtonian-legacy
+-reviewed.html">Newton Legacy Reviewed</a> : just that, a first review<br />
+on the next bookmark.</p>
+<p><a
+href="http://www.hep.phys.soton.ac.uk/~evans/NL/bits.html">the Newton<br />
+Legacy</a> : a free online book, a murder mystery with a physics touch.<br />
+Perhaps this is the best investment of time/energy : write a popular<br />
+science book rather than another paper. Read half way through it (sorry<br />
+but not the best prose Ive read so far), may continue but was held up<br />
+reading a (real) murder mystery Equinox featuring also Newton and<br />
+alchemy (must be in the air somehow), also not the best mystery read<br />
+so far</p>
+<p><a
+href="http://skepchick.org/blog/?p=390">Stalking with Googleearth</a><br />
+: no comment</p>
+<p>(to be continued)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/bookmarks-tuesday-cleanup/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mathML and work ahead</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 08 Feb 2007 09:36:55 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[dvonn]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[PPC]]></category>
+		<category><![CDATA[sudoku]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=204</guid>
+
+					<description><![CDATA[It has been a difficult design decision, but I‚Äôm going to replace the LaTeXRender WordPress Plugin for mathML as the default TeX-interface for NeverEndingBooks. I&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It has<br />
+been a difficult design decision, but I‚Äôm going to replace the <a href="http://www.sixthform.info/steve/wordpress/">LaTeXRender WordPress<br />
+Plugin</a> for <a href="http://www.w3.org/Math/">mathML</a> as the<br />
+default TeX-interface for NeverEndingBooks. I will keep LaTeXRender on<br />
+standby as I may have to use exotic packages or commands that iTeX does<br />
+not deliver, but for most math-related posts, MathML will do the job<br />
+nicely (as <a href="http://golem.ph.utexas.edu/category/">the n-category<br />
+cafe</a> shows every day (or even more often)). Not that I stopped being<br />
+a dilettante but I&#8217;m going to do most of my writings (including<br />
+blog-posts) using <a href="http://www.literatureandlatte.com/">Scrivener</a> (more on this<br />
+another time) and Scrivener supports <a href="http://fletcher.freeshell.org/wiki/MultiMarkdown">MultiMarkdown</a> and allows exporting to LaTeX and XHTML (using MathML).</p>
+</p>
+<p>I could never have pulled this off in such a short time without <a href="http://golem.ph.utexas.edu/~distler/blog/">Jacques Distler</a><br />
+more or less on constant stand-by (thanks Jacques!). Looking at the<br />
+times his emails were send I have no idea in which time zone he lives<br />
+(let alone sleeps&#8230;). So, here a walk-through the changes :</p>
+<p>As<br />
+I&#8217;m on WP 2.0.5 I&#8217;ll start with Frederick&#8217; <a href="http://www.ibiblio.org/litlfred/mathBlog/projects/itextomml">post</a>. He tells me I have to install first the itex2MML binary as<br />
+explained <a href="http://golem.ph.utexas.edu/~distler/blog/archives/000367.html">by<br />
+Jacques</a> but I find that there is more recent <a href="http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html"><br />
+material</a> and therefore download the most recent imath2MML-package<br />
+and follow the readme. There is a Mac OSX binary but it&#8217;s not clear<br />
+for what processor (PPC/Intel/Binary) but a quick mail to Jacques learns<br />
+me that it&#8217;s PPC which is fine by me but on the spot he puts a<br />
+universal binary online, so whatever your Mac is you can just download<br />
+the binary, copy it to /usr/local/bin and make sure its chmodded<br />
+755.</p>
+<p>Back to Frederick&#8217;s <a href="http://www.ibiblio.org/litlfred/mathBlog/projects/itextomml">post</a>, download and install the plugin itexToMML.php in the usual way<br />
+(fortunately I spot just in time that I have to change one line saying<br />
+where my itex2MML binary is (in Frederick&#8217;s file it is NOT the default<br />
+location)). You can verify whether the plugin and itex2MML do what they<br />
+are supposed to do by typing a LaTeX-command in a post and save it. The<br />
+output will not produce the desired formula but have a look at the<br />
+source file and see whether there is some mathML code in it. If so,<br />
+fine! If not, go back and check everything.</p>
+<p>If this works, it is<br />
+&#8220;merely&#8221; a problem of getting your mathML served. Frederick suggests<br />
+to unpack wordpress_mathML.zip in the wp-includes directory (but you<br />
+better make sure you have made a copy of the original class.php and<br />
+functions-formatting.php files. In the end I decided against this<br />
+approach (that is, to replace only the functions-formatting.php but NOT<br />
+the class.php file). If you have two or more themes you want to<br />
+maintain, it is probably better to change the headers (because this is<br />
+what we have to do to get mathML served) only in those themes which are<br />
+XML-sound. In my case, the Command Line Interface theme most certainly is NOT!!!).</p>
+<p>Go to your<br />
+theme-files and look for the header.php (or similar) file and replace<br />
+the default header by the code in the addendum to <a href="http://golem.ph.utexas.edu/~distler/blog/archives/000367.html"><br />
+this post</a> within php-tags. If you can go to your blog-page then you<br />
+are in good shape and things should work well (apart possibly from<br />
+layout considerations, see below). Of course, in my case i was greeted<br />
+by &#8221; XML &#8220;yellow screen of death&#8221; (as Jacques calls<br />
+it) and I was convinced I did something wrong, so I tried out several<br />
+useless things for a couple of hours before it dawned on me that the<br />
+reason might just be that my blog-files were not valid XHTML (and the<br />
+new headers are very demanding on serving only well-form XHTML). I had<br />
+to modify all changes I made to sidebars etc. as well as rewrite parts<br />
+of my first posts (I used to take a rather liberal view on writing<br />
+blog-posts, writing a mixture between Markdown and improvised HTML and<br />
+in the process was very lax about closing IMG-tags and the likes).<br />
+But after some time and numerous corrections to the files I got the<br />
+main-page up and running (and even had the mathML served as a readable<br />
+formula) apart from the fact that I barely recognized my own site.</p>
+<p>I printed out source files of the page with and without changed<br />
+headers and couldn‚Äôt find a difference. So, it had to do with the<br />
+CSS-style files, but why on earth would the new headers be picky about<br />
+CSS? But as a last resort, after narrowing the search down to one<br />
+CSS-line, I asked Jacques whether he had an idea what went on. His reply<br />
+will be remembered for quite some time :</p>
+<blockquote><p>A fascinating<br />
+question.  The answer is that it *is* following the CSS directive, but<br />
+in XHTML, &#8216;body&#8217; is not what you think it is.  &#8216;body&#8217; is just big enough<br />
+to contain its content. It does not fill the viewport. &#8216;html&#8217; fills the<br />
+viewport.  The solution (a solution) is described in<br />
+http://golem.ph.utexas.edu/~distler/blog/archives/000203.html
+</p></blockquote>
+<p>Many hours later, I still haven‚Äôt got a clue what<br />
+this is all about, but I blindly followed the hint and surely all<br />
+problems vanished. In short, another day wasted in front of a<br />
+computer-screen.</p>
+<p>At the moment I&#8217;m back to old headers and<br />
+will not be writing mathML for some time as I have the vast job ahead to<br />
+validate all my previous posts to XHTML-standards (if not you would see<br />
+more yellows screens of death than anything else. So, here‚Äôs the<br />
+strategy I&#8217;ll be taking in the weeks ahead (I&#8217;ll sleep on it tonight<br />
+so if any of you think there is a better way, reply quickly)</p>
+<ul>
+<li>rewrite each and every post in proper MultiMarkdown using iTeX for<br />
+the most common math and only resorting to LaTeXRender for exotic things<br />
+(such as Sudoku, Chess, Dvonn) and run these posts through Markdown<br />
+(to get basic HTML and all links in place).</li>
+<li>download these<br />
+files to the WP-database (so that in the CLI-interface you will be able<br />
+to follow all links, but will read all iTeX as TeX-commands (as the<br />
+command line intended after all).</li>
+<li>in the process change all<br />
+broken links to the default permalink-structure (with index.php?p=231 or<br />
+so).</li>
+</ul>
+<p>Clearly, this is a work that will take a couple of<br />
+weeks but it may be fun to reread these old posts and possibly add new<br />
+information about the subjects. When I‚Äôm making these changes, I‚Äôll<br />
+use the new headers so if you are using a smart browser look out for the<br />
+yellow screens. When they happen, either use a dumb browser (such as<br />
+Safari) or go into CLI-interface mode where everything should still<br />
+work. I plan to start with the oldest posts as this seems more fun to<br />
+me.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mathml-and-work-ahead/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>command line interface</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/command-line-interface/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/command-line-interface/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 07 Feb 2007 08:43:21 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[PPC]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=228</guid>
+
+					<description><![CDATA[Way back in 1999 I read Neal Stephenson&#8217;s pamphlet In the Beginning ! Was the Command Line and decided I should and would have Linux&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Way<br />
+back in 1999 I read Neal Stephenson&#8217;s pamphlet <a href="http://www.amazon.co.uk/Beginning-Was-Command-Line-Neal-Stephenson/dp/0380815931/sr=8-11/qid=1170864554/ref=pd_ka_11/203-3776750-7074362?ie=UTF8&amp;s=books">In the Beginning ! Was the Command Line</a> and<br />
+decided I should and would have Linux running on my clamshell iBook.<br />
+Needless to say this was (a) a foolish idea and (b) not entirely trivial<br />
+in those dark OS 9-days. Still, I somehow managed with the help op <a href="http://lowendmac.com/ppclinux/index.html">PPC Linux</a> and was<br />
+proudly wearing their T-shirt (at least for a couple of weeks in early<br />
+2000). Fortunately, as a <a href="http://www.kernelthread.com/mac/osx/history.html">brief OS X<br />
+history</a> recalls, OS X was released March 24, 2001 and put an end to<br />
+my Linux-folly and I&#8217;m pretty certain even Neal Stephenson is on Mac OSX<br />
+these days.</p>
+<p>Needless to say I couldn&#8217;t resist installing the <a href="http://themes.wordpress.net/columns/1-column/1418/cli-10/"><br />
+Wordpress CLI-theme</a> the moment I spotted it! A command line<br />
+interface to your blog! awesome! If you want to have a go at the<br />
+original version, take a look at <a href="http://blog.elinc.ca/rodcli/index.php">Rod McFarland&#8217;s blog</a>.<br />
+Just type &#8216;ls&#8217; to the prompt and you&#8217;ll be hooked. Or you can have a<br />
+look at the command line interface of NeverEndingBooks by going to the<br />
+left sidebar and clicking CLI under the &#8216;Command Line Version&#8217; header<br />
+(don&#8217;t be afraid you can always come back by clicking on the<br />
+GUI-interface over there). My design is black on a light-gray background<br />
+and is no where near as cool as the original theme but it was the only<br />
+quick way around some limitations of the CLI-theme.</p>
+<p>The<br />
+CLI-theme operates as a front-end via a small interpreter which draws<br />
+the information directly from the WordPress-database. As a result you<br />
+loose the effect of all post-processing by plugins such as <a href="http://www.michelf.com/projects/php-markdown/">Markdown</a> and <a href="http://www.sixthform.info/steve/wordpress/">LatexRender</a> two of<br />
+the plugins I use most! I could still live with the idea that pure LaTeX<br />
+was served to a CLI-environment between tex-tags, but surely I didn&#8217;t<br />
+want to loose all my links! The quick (and extremely dirty) way around<br />
+it was to resubmit the relevant part of the HTML-source files of the<br />
+GUI-frontend posts to the WP-database. And to serve the same LaTeX-gifs<br />
+to the GUI and CLI interface I needed the backgound to be rather light<br />
+gray (taking #BDBDBD gray would have been much nicer wrt. the cool<br />
+rasterized grayed-images but then some of the more recent LaTeX-gifs<br />
+became partially unreadable). Oh, and in the process I had to update the<br />
+permalink structure, thereby wrecking allmost all internal<br />
+reference-links (but I&#8217;ll sort them out soon, I promise). </p>
+<p>So, a<br />
+lot of work for a rather meagre result. What do I like about the<br />
+CLI-interface (apart from old time nostalgia)? I really like the<br />
+searching facility. Just type &#8216;search yourword&#8217; to the prompt and it<br />
+will give you all posts containing that word (much quicker than in the<br />
+GUI-interface) and if you remember at least one word from a post-title,<br />
+feeding it to the prompt will give you the entire post (or a list of<br />
+posts if the same word appears in different posts). Try out typing<br />
+&#8216;Perelman&#8217; to see what I mean. Besides, bots don&#8217;t seem to know what to<br />
+do with the CLI-interface so for the few days I had this theme as my<br />
+default theme I was alone on NeverEndingBooks mast of the time (which<br />
+helped a lot having to change that many posts). So, whenever I want to<br />
+have the site to myself I&#8217;ll just change the default theme from now<br />
+on.</p>
+<p>Still, I did put back the old GUI as default because the<br />
+CLI-theme still has a few drawbacks. Such as, it is impossible to write<br />
+a sizable comment (not that too many of you do this, but anyway) and<br />
+some other quirks. Still Rod McFarland is working on a version 2 (and<br />
+even set up a <a href="http://code.google.com/p/wordpress-cli/">google-group</a> for<br />
+those who want to code along, and maybe I&#8217;ll join the effort) which<br />
+promises a great improvement and I&#8217;m rather confident that by version<br />
+3.14 it will be in a state that I&#8217;ll have the CLI-interface as my<br />
+default. Until then, I&#8217;ll keep up the two front-ends and allow you to<br />
+toggle as you like (your browser will remember your preference).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/commandline.jpg"></img></p>
+<p>I realize most of you are youngsters and not of my cpu2<br />
+generation so have a hard time imagining how exiting a command line<br />
+prompt is. Fortunately, Neal Stephenson has made the full text of ‚ÄúIn<br />
+the beginning ! was the command line‚Äù <a href="http://www.cryptonomicon.com/beginning.html">available</a> as a<br />
+free download. Print it out and enjoy!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/command-line-interface/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>latexrender plugin for wordpress under tiger</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/latexrender-plugin-for-wordpress-under-tiger/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/latexrender-plugin-for-wordpress-under-tiger/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 05 Sep 2005 15:26:28 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[Tiger]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=165</guid>
+
+					<description><![CDATA[Promises and pie-crusts are made to be broken, a wiser man once said. Still, promises have a much longer life-span and sometimes their real content&#8230;]]></description>
+										<content:encoded><![CDATA[<p> Promises and pie-crusts are made to be broken, a <a href="http://www.incompetech.com/authors/swift/">wiser man</a> once<br />
+  said. Still, promises have a much longer life-span and sometimes their<br />
+  real content becomes redundant over time.</p>
+<p>A year ago, I<br />
+  promised<br />
+  to document how I got the <a href="http://sixthform.info/steve/wordpress/index.php?cat=2"><br />
+  LaTeXRender Plugin for WordPress</a> working under OS X. The procedure<br />
+  consisted of some trial-and-error operations, installing non-standard<br />
+  versions of software and hardcoding certain directories throughout<br />
+  certain files&#8230;</p>
+<p>Not something I was looking forward<br />
+  to when I decided to upgrade this <a href="http://www.wordpress.org/">WordPress</a> blog but,<br />
+  surprisingly, things went pretty smoothly this time (Mac-technology<br />
+  has improved a lot). So, please don&#8217;t worry too much about <a href="http://sixthform.info/steve/wordpress/index.php?p=23">this<br />
+  post</a> and follow the (late) instructions below.</p>
+<p>First<br />
+  things first : I will assume you have the &#8216;generic&#8217; LaTeX<br />
+  running under Tiger (10.4),that is, use the <a href="http://www.rna.nl/ii.html">i-Installer</a> to download BOTH<br />
+  LaTeX and Imagemagick! Further, in order to get WordPress up and<br />
+  running, have <a href="http://dev.mysql.com/downloads/mysql/4.0.html">the standard<br />
+  MySQL 4.0 package</a> installed for 10.3 (<strong>not</strong> version<br />
+  4.1&#8230;) and don&#8217;t use the generic Mac-PHP version, but<br />
+  instead download <a href="http://www.entropy.ch/software/macosx/php/">Marc<br />
+  Liyanage&#8217;s PHP5 package</a> which has plenty of additional<br />
+  packages installed (notably, GDlib and MCRYPT which comes in handy if<br />
+  you want to fight spam-comments using <a href="http://www.blueeye.us/wordpress/?p=5">BotCheck</a>).</p>
+<p> \r<br />
+  \n</p>
+<p>Download <a href="http://sixthform.info/steve/wordpress/index.php">wp-<br />
+  latexrender.zip</a> and follow the instructions given to the letter<br />
+  (there is one undocumented extra directory you have to fill in at the<br />
+  start of the <strong>latexrender-plugin.php</strong> file). There is<br />
+  just one additional thing to do. Find in the<br />
+  <strong>class.latexrender.php</strong> file the line starting<br />
+  with</p>
+<pre>// convert dvi file to postscript using
+  dvips</pre>
+<p>  and include the following lines just before it<br />
+  :  </p>
+<pre>// begin of workaround // extending the PATH
+  environmental variable Soldpath =
+  getenv(‚ÄúPATH‚Äù); Swhere_imagemagick_is =
+  ‚Äú/usr/local/bin‚Äù; if (Soldpath) { Swhere_imagemagick_is .=
+  ‚Äú:Soldpath‚Äù;} putenv(‚ÄúPATH=Swhere_imagemagick_is‚Äù); //
+  end of workaround </pre>
+<p>activate the plugin and it<br />
+  should work! Still, there are three things you may want to change. In<br />
+  the <strong>latex.php</strong> file uncomment the indicated lines as<br />
+  you will be using htmlArea to input your posts. In addition, if you<br />
+  have the MarkDown-plugin enabled, it is best to append additional<br />
+  lines such as</p>
+<pre> Slatex_formula =
+  str_replace(‚Äú_‚Äù,‚Äù_‚Äù,Slatex_formula);     Slatex_formula
+  =
+  str_replace(‚Äú_‚Äù,‚Äù_‚Äù,Slatex_formula); </pre>
+<p>(<br />
+  between the first &#8221; &#8221; should be the beginning and end<br />
+  em-tag respectively) or underscores will be interpreted as em-tags.<br />
+  If you run into additional similar problems, the procedure is to<br />
+  comment-out the line</p>
+<pre>
+  unlink(Sthis->_tmp_dir.‚Äù/‚Äù.Sthis->_tmp_filename.‚Äù.tex‚Äù);
+  </pre>
+<p>  near the end of  class.latexrender.php  , look in the<br />
+  tmp directory for the TeX-file, detect the problem and add similar<br />
+  lines to the ones above to solve it.  Another useful thing to do<br />
+  is to add TeX-packages in the class.latexrender.php file. My own<br />
+  version has the following predefined symbols and loaded<br />
+  packages  </p>
+<pre> function wrap_formula(Slatex_formula) {
+  Sstring  =
+  ‚Äú\\documentclass[‚Äú.Sthis->_font_size.‚Äùpt]{‚Äú.Sthis->_latexclass
+  .‚Äù}\\n‚Äù;  Sstring .=
+  ‚Äú\\usepackage[latin1]{inputenc}\\n‚Äù;  Sstring .=
+  ‚Äú\\usepackage{amsmath}\\n‚Äù;  Sstring .=
+  ‚Äú\\usepackage{amsfonts}\\n‚Äù;  Sstring .=
+  ‚Äú\\usepackage{amssymb}\\n‚Äù;  Sstring .=
+  ‚Äú\\usepackage{xy}\\n‚Äù;  Sstring .=
+  ‚Äú\\xyoption{all}\\n‚Äù;  Sstring .=
+  ‚Äú\\\\newcommand{\\vtx}[1]{*+[o][F-]{Scriptscriptstyle
+  #1}}\\n‚Äù;  Sstring .= ‚Äú\\\\newcommand{\\mathbb{C}c}{\\Bbbk}\\n‚Äù;
+  Sstring .= ‚Äú\\\\newcommand{\\mathbb{C}}{\\mathbb{C}}\\n‚Äù;  Sstring .=
+  ‚Äú\\\\newcommand{\\mathbb{Q}}{\\mathbb{Q}}\\n‚Äù;  Sstring .=
+  ‚Äú\\\\newcommand{\\mathbb{Z}}{\\mathbb{Z}}\\n‚Äù;  Sstring .=
+  ‚Äú\\\\newcommand{\\mathbb{N}}{\\mathbb{N}}\\n‚Äù;  Sstring .=
+  ‚Äú\\\\newcommand{\\mathbf}[1]{{\\\\text{\\em \\usefont{OT1}{cmtt}{m}{n}
+  #1}}}\\n‚Äù;  Sstring .= ‚Äú\\pagestyle{empty}\\n‚Äù;  Sstring
+  .= ‚Äú\\begin{document}\\n‚Äù;  Sstring .=
+  ‚ÄúS‚Äù.Slatex_formula.‚ÄùS\\n‚Äù;  Sstring .=
+  ‚Äú\\end{document}\\n‚Äù;          return Sstring;     }
+  </pre>
+<p>   which, among other things, allow all commenters to add<br />
+  quiver-pictures using xymatrix and vtx to depict vertices. Oh yes, you<br />
+  can allow comments to include LaTeX-code by uncommenting the<br />
+  line   </p>
+<pre>  // add_filter(‚Äòcomment_text‚Äô,
+  ‚Äòaddlatex‚Äô); </pre>
+<p>in the latexrender-plugin.php<br />
+  file (but before you do make sure you have spam under control, such as<br />
+  with BotCheck mentioned above). That&#8217;s all for now. If you want<br />
+  to use TeX in a comment, make sure to put the code between tags [ tex<br />
+  ] and [ /tex ] (omitting the extra spaces). If you want me to add<br />
+  other LaTeX-packages, leave a comment.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/latexrender-plugin-for-wordpress-under-tiger/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>markLaTeXdown</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/marklatexdown/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/marklatexdown/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 20 May 2005 19:18:54 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=269</guid>
+
+					<description><![CDATA[Clearly, an extended version of Markdown including LaTeX-commands would be useful for mathematicians and surely I&#8217;m not the first to think about this. In fact,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Clearly,<br />
+an extended version of <a href="http://daringfireball.net/projects/markdown/">Markdown</a><br />
+including LaTeX-commands would be useful for mathematicians and surely<br />
+I&#8217;m not the first to think about this. In fact, I found a somewhat<br />
+pompous text <a href="http://www.luxagraf.com/archives/mac_os_x/hifitext">New adventures<br />
+if hifi text</a> by someone claiming to have done precisely that (though<br />
+he doesn&#8217;t give much details nor post a version of his altered program).</p>
+<p>Still, it is pretty clear how to convert a _Markdown+LaTeX_<br />
+textfile to plain LaTeX (at least for <a href="http://www.anaesthetist.com/mnm/perl/regex.htm">regex-lovers</a><br />
+). Modify the _Markdown.pl_ script so that the Markdown markup is<br />
+translated not to HTML-tags but to LaTeX-commands. </p>
+<p>More<br />
+interesting material can be found in a thread on _Markdown and<br />
+Mathematics_ starting with <a href="http://six.pairlist.net/pipermail/markdown-discuss/2004-April/000369.html">this post</a>. In it, they search for a good way to include<br />
+LaTeX-mathematical commands in a MarkDown text. In fact, this is part of<br />
+a more general quest for a good _escape character_ in Markdown to<br />
+create _Markdown plus something_ versions. They opt for<br />
+<strong>{{</strong> and <strong>}}</strong> rather than the usual<br />
+<strong>$</strong> signs. </p>
+<p>I think the alternatives <strong>[<br />
+tex ]</strong> and <strong>[ /tex ]</strong> are slightly better because<br />
+then you could feed the text to a functional <a href="http://wordpress.org/">WordPress</a> installation with the <a href="http://www.mayer.dial.pipex.com/latexrender/latexrender.htm"><br />
+LaTeXRender</a> plugin installed  and copy the relevant part from the HTML-source of<br />
+the resulting post to get a HTML-version of the mathematical text with<br />
+all LaTeX-code converted to pictures. Clearly, typing the suggested tags<br />
+is somewhat cumbersome so I would type them using the<br />
+<strong>{{</strong> and <strong>}}</strong> proposal (one<br />
+<strong>{</strong> is not enough because a lot a LaTeX code uses single<br />
+curly brackets) and then do a global replace to get the<br />
+LaTeXRender-tags.</p>
+<p>Even more interesting would be to have a<br />
+version of the <strong>html2txt.py</strong> script for LaTeX, that is,<br />
+converting a LaTeX-file to Markdown + LaTeXcode which would give an easy<br />
+way to convert your existing papers to HTML if you feed the LaTeXRender<br />
+plugin with all the required newcommands and packages.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/marklatexdown/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>markdown2use</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/markdown2use/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/markdown2use/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 19 Apr 2005 19:15:11 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=268</guid>
+
+					<description><![CDATA[Here some possible uses of Markdown and the HumaneText Service. As an example, let us take the noncommutative geometry &#038; algebra page maintained by Paul&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here some<br />
+possible uses of <a href="http://daringfireball.net/projects/markdown/">Markdown</a> and the<br />
+<a href="http://gu.st/proj/HumaneText.service/">HumaneText Service</a>.<br />
+As an example, let us take the <a href="http://www.math.washington.edu/~smith/Research/research.html"><br />
+noncommutative geometry &#038; algebra page</a> maintained by Paul Smith.</p>
+<p>If you copy the source of this page to BBEdit and use the<br />
+<strong>html2txt.py</strong> script in the <strong>#!</strong> menu (see<br />
+<a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=100">this post</a>)<br />
+you get a nicely readable Markdown-file which strips the page of all its<br />
+layout and which is easy to modify, for example to include author and<br />
+URL at the start, remove some additional empty lines, make relative URLs<br />
+absolute and so on. </p>
+<p>Applying the <strong>Markdown.pl</strong><br />
+script to it one gets a nice <a href="http://www.math.ua.ac.be/~lebruyn/paul.html">RetroCool</a> version<br />
+of the page. For starters, this gives a way to make your own collection<br />
+of websites you like in a uniform layout (of course, later on you can<br />
+add your own CSS to them).</p>
+<p>More important is that the<br />
+Markdown-version (see <a href="http://www.math.ua.ac.be/~lebruyn/paulmarkdown.txt">here</a> for<br />
+the text-file) is extremely readable and allows to _mine_ all<br />
+links easily (as you can see all links contained in the HTML-page are<br />
+referenced together at the end of the file). So, this is a quick way to<br />
+collect homepage- and email-links from link-pages.</p>
+<p>Btw. there<br />
+are different ways to include links in a markdown text, for example I<br />
+like to write it immediately after the reference, so doing a Markdown.pl<br />
+followed by a html2txt.py doesn&#8217;t have to reproduce your original file<br />
+and fortunately you will always end up with a file having all links<br />
+referenced at the end. So, this procedure allows you to have uniformity<br />
+in a collection of markdown-files.</p>
+<p>Equally important for me (for<br />
+later use in an intelligent database using <a href="http://www.devon-technologies.com/products/devonthink/overview.php">DevonThink</a> ) is that the Markdown file is the best way to safe the<br />
+HTML file in the database (as a RTF file) while maintaining readability<br />
+(which is important when DevonThink returns snippets of<br />
+information).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/markdown2use/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>markdown</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/markdown/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/markdown/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 17 Apr 2005 19:11:25 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[GTD]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=267</guid>
+
+					<description><![CDATA[The nerd implimentation of GTD is based on plain text-files, or more precisely &#8211; all lists in text files, kept in directory &#8220;~/Documents/txt&#8221; &#8211; all&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="http://www.43folders.com/2004/09/how_does_a_nerd.html">nerd<br />
+implimentation of GTD</a> is based on plain text-files, or more<br />
+precisely  </p>
+<p>&#8211; all lists in text files, kept in directory<br />
+&#8220;~/Documents/txt&#8221;<br /> &#8211; all documents maintained in Markdown for easy<br />
+HTML conversion  </p>
+<p>I&#8217;ve been writing HTML-code since the times<br />
+that the best browser around was something called <a href="http://www.ncsa.uiuc.edu/Divisions/PublicAffairs/MosaicHistory/history.html">NCSA Mosaic</a> so I&#8217;ve never paid too much attention to<br />
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a><br />
+before. Here is its main purpose</p>
+<blockquote>
+<p>Markdown is a<br />
+text-to-HTML conversion tool for web writers. Markdown allows you to<br />
+write using 	an easy-to-read, easy-to-write plain text format, then<br />
+convert it to structurally valid XHTML (or >HTML). 	Thus, Markdown is<br />
+two things: (1) a plain text formatting syntax; and (2) a software tool,<br />
+	written in Perl, that converts the plain text formatting to<br />
+HTML.</p>
+</blockquote>
+<p>An example of Markdown-code followed by its<br />
+HTML-output can be seen at the <a href="http://bluecloth.rubyforge.org/">BlueCloth website</a> and I have<br />
+to agree that the Markdown text is very legible. I&#8217;ve been playing<br />
+around with Markdown for a couple of days now (in fact this post is<br />
+written in Markdown as WordPress has a Markdown-plugin) and have found a<br />
+few uses for it (more on this another time). Essential sites to visit if<br />
+you want to learn some Markdown are : its <a href="http://daringfireball.net/projects/markdown/basics">basic<br />
+syntax</a> and in the rare cases that this doesn&#8217;t do what you want to<br />
+do there is also a <a href="http://daringfireball.net/projects/markdown/syntax">full<br />
+syntax</a> page.</p>
+<p>If you want to use Markdown to write your<br />
+HTML-pages you need to be able to convert Markdown to HTML (and<br />
+conversely although the uses for this are not immediately clear, but<br />
+there are plenty of good reasons!). That&#8217;s what the<br />
+<strong>Markdown.pl</strong> Perl-script does for you (one way) and the<br />
+Python-script <strong>html2text.py</strong> (to be found <a href="http://www.aaronsw.com/2002/html2text/">here</a>) (the other<br />
+way).</p>
+<p>To get them working using <a href="http://www.barebones.com/products/bbedit/index.shtml">BBedit</a><br />
+all you have to do is to put them in the _BBEdit Support/Unix<br />
+Support/Unix Filters_ directory (to be found in the BBEdit-folder in<br />
+_/Applications_). Then, if you have written a Markdown-text, do a<br />
+_Select All_ go to the <strong>!#</strong> menu and look for<br />
+Markdown.pl under _Unix Filters_ and voila, you have valid XHTML<br />
+(the other direction is similar).</p>
+<p>This is a bit of work and one<br />
+would like to do both operations in nearly all Applications using the<br />
+_Services Menu_ (in fact, until a few weeks ago I had no clue<br />
+that there was something as useful as this menu hidden under the<br />
+program-name-menu of any Cocoa-program!). This is best done using <a href="http://gu.st/proj/HumaneText.service/">HumaneText.service</a>. The<br />
+installation is really as siimple as they say on this page (although it<br />
+took me a couple of trials before it worked, and I use the Services-menu<br />
+rather than the keystroke-shortcuts). </p>
+<p><strong>HumaneText</strong> works perfectly with TextEdit,<br />
+SubEthaEdit and (probably more important to mathematicians) TeXShop and<br />
+iTeXMac (the two most common front-ends for (La)TeX under OS X). A<br />
+noteworthy exception is BBEdit (hence the above laborious work-around).<br />
+Sometimes there are problems with punctuation in the conversion but you<br />
+can get around this using <a href="http://daringfireball.net/projects/smartypants/">SmartyPants</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/markdown/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

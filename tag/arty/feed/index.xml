@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>arty &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/arty/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 13 May 2011 13:41:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Art and the absolute point (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 13 May 2011 13:41:51 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[Marcolli]]></category>
+		<category><![CDATA[paintings]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=5001</guid>
+
+					<description><![CDATA[Last time we did recall Manin&#8217;s comparisons between some approaches to geometry over the absolute point $\pmb{spec}(\mathbb{F}_1)$ and trends in the history of art. In&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/absolutpoint.jpg" align=left hspace=10> <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/art-and-the-absolute-point.html">Last time</a> we did recall Manin&#8217;s comparisons between some approaches to geometry over the absolute point $\pmb{spec}(\mathbb{F}_1)$ and trends in the history of art.</p>
+<p>In the comments to that post, <a href="http://www.ucl.ac.uk/~ucahjlo/">Javier Lopez-Pena</a> wrote that he and <a href="http://www.sci.ccny.cuny.edu/~lorscheid/">Oliver Lorscheid</a> briefly contemplated the idea of extending Manin&#8217;s artsy-dictionary to all approaches they did draw on their <a href="http://arxiv.org/abs/0909.0069">Map of $\mathbb{F}_1$-land</a>. </p>
+<p>So this time, we will include here Javier&#8217;s and Oliver&#8217;s insights on the colored pieces below in their map : CC=Connes-Consani, Generalized torified schemes=Lopez Pena-Lorscheid, Generalized schemes with 0=Durov and, this time, $\Lambda$=Manin-Marcolli.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/F1land2.jpg"></p>
+<p><strong>Durov : romanticism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/romanticism.jpg"></p>
+<p>In his 568 page long Ph.D. thesis <a href="http://arxiv.org/abs/0704.2030">New Approach to Arakelov Geometry</a> Nikolai Durov introduces a vast generalization of classical algebraic geometry in which both Arakelov geometry and a more exotic geometry over $\mathbb{F}_1$ fit naturally. Because there were great hopes and expectations it would lead to a big extension of algebraic geometry, Javier and Oliver associate this approach to <a href="http://en.wikipedia.org/wiki/Romanticism">romantism</a>. From wikipedia : &#8220;The modern sense of a romantic character may be expressed in Byronic ideals of a gifted, perhaps misunderstood loner, creatively following the dictates of his inspiration rather than the standard ways of contemporary society.&#8221;</p>
+<p><strong>Manin and Marcolli : impressionism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/impressionism.jpg"></p>
+<p>Yuri I. Manin in <a href="http://arxiv.org/abs/0809.1564">Cyclotomy and analytic geometry over $\mathbb{F}_1$</a> and Matilde Marcolli in <a href="http://arxiv.org/abs/0901.3167">Cyclotomy and endomotives</a> develop a theory of analytic geometry over $\mathbb{F}_1$ based on analytic functions &#8216;leaking out of roots of unity&#8217;. Javier and Oliver depict such functions as &#8216;thin, but visible brush strokes at roots of 1&#8217; and therefore associate this approach to <a href="http://en.wikipedia.org/wiki/Impressionism">impressionism</a>. Frow wikipedia : &#8216;Characteristics of Impressionist paintings include: relatively small, thin, yet visible brush strokes; open composition; emphasis on accurate depiction of light in its changing qualities (often accentuating the effects of the passage of time); common, ordinary subject matter; the inclusion of movement as a crucial element of human perception and experience; and unusual visual angles.&#8217;</p>
+<p><strong>Connes and Consani : cubism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/cubism.jpg"></p>
+<p>In <a href="http://arxiv.org/abs/0809.2926">On the notion of geometry over $\mathbb{F}_1$</a> Alain Connes and Katia Consani develop their extension of Soule&#8217;s approach. A while ago I&#8217;ve done a couple of posts on this <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-1.html">here</a>, <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-2.html">here</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/fun/index.php/connes-consani-for-undergraduates-3.html">here</a>. Javier and Oliver associate this approach to <a href="http://en.wikipedia.org/wiki/Cubism">cubism</a> (a.o. Pablo Picasso and Georges Braque) because of the weird juxtapositions of the simple monoidal pieces in this approach.</p>
+<p><strong>Lopez-Pena and Lorscheid : deconstructivism</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/deconstructivism.jpg"></p>
+<p>Torified varieties and schemes were introduced by Javier Lopez-Pena and Oliver Lorscheid in <a href="http://arxiv.org/abs/0903.2173">Torified varieties and their geometries over $\mathbb{F}_1$</a> to get lots of examples of varieties over the absolute point in the sense of both Soule and Connes-Consani. Because they were fragmenting schemes into their &#8220;fundamental pieces&#8221; they associate their approach to <a href="http://en.wikipedia.org/wiki/Deconstructivism">deconstructivism</a>.</p>
+<p>Another time I&#8217;ll sketch my own arty-farty take on all this.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Books Ngram for your upcoming parties</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/books-ngram-for-your-upcoming-parties/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/books-ngram-for-your-upcoming-parties/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 19 Dec 2010 13:29:12 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[books ngram]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Hopf algebras]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[noncommutative geometry]]></category>
+		<category><![CDATA[quantum groups]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=3690</guid>
+
+					<description><![CDATA[No christmas- or new-years family party without heated discussions. Often on quite silly topics. For example, which late 19th-century bookcharacter turned out to be most&#8230;]]></description>
+										<content:encoded><![CDATA[<p>No christmas- or new-years family party without heated discussions. Often on quite silly topics.</p>
+<p>For example, which late 19th-century bookcharacter turned out to be most influential in the 20th century? <a href="http://en.wikipedia.org/wiki/Dracula">Dracula</a>, from the 1897 novel by Irish author Bram Stoker or Sir Arthur Conan Doyle&#8217;s <a href="http://en.wikipedia.org/wiki/Sherlock_Holmes">Sherlock Holmes</a> who made his first appearance in 1887?</p>
+<p>Well, this year you can spice up such futile discussions by going over to Google Labs <a href="http://ngrams.googlelabs.com/graph?content=Atlantis%2CEl+Dorado&amp;year_start=1800&amp;year_end=2000&amp;corpus=0&amp;smoothing=0">Books Ngram Viewer</a>, specify the time period of interest to you and the relevant search terms and in no time it spits back a graph comparing the number of books mentioning these terms.</p>
+<p>Here&#8217;s the 20th-century graph for &#8216;Dracula&#8217; (blue), compared to &#8216;Sherlock Holmes&#8217; (red).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/draculaholmes.jpg"></p>
+<p>The verdict being that Sherlock was the more popular of the two for the better part of the century, but in the end the vampire bit the detective. Such graphs lead to lots of new questions, such as : why was Holmes so popular in the early 30ties? and in WW2? why did Dracula become popular in the late 90ties? etc. etc.</p>
+<p>Clearly, once you&#8217;ve used Books Ngram it&#8217;s a dangerous time-waster. Below, the graphs in the time-frame 1980-2008 for <a href="http://en.wikipedia.org/wiki/Alain_Connes">Alain Connes</a> (blue), <a href="http://en.wikipedia.org/wiki/Noncommutative_geometry">noncommutative geometry</a> (red), <a href="http://en.wikipedia.org/wiki/Hopf_algebra">Hopf algebras</a> (green) and <a href="http://en.wikipedia.org/wiki/Quantum_group">quantum groups</a> (yellow).</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/noncgeoquantum.jpg"></p>
+<p>It illustrates the simultaneous rise and fall of both quantum groups and Hopf algebras, whereas the noncommutative geometry-graph follows that of Alain Connes with a delay of about 2 years. I&#8217;m sure you&#8217;ll find a good use for this splendid tool&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/books-ngram-for-your-upcoming-parties/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Writing &#038; Blogging</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/writing-blogging/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/writing-blogging/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 27 Feb 2008 19:04:34 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[latexrender]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/writing-blogging.html</guid>
+
+					<description><![CDATA[Terry Tao is reworking some of his better blogposts into a book, to be published by the AMS (here&#8217;s a preliminary version of the book&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Terry Tao is <a href="http://terrytao.wordpress.com/2008/01/25/book-version-of-the-blog/">reworking</a> some of his better blogposts into a book, to be published by the AMS (here&#8217;s a <a href="http://terrytao.files.wordpress.com/2008/01/whatsnew.pdf">preliminary version</a> of the book &#8220;What&#8217;s New?&#8221;)</p>
+<blockquote><p>After some thought, I decided not to transcribe all of my posts from last year (there are 93 of them!), but instead to restrict attention to those articles which (a) have significant mathematical content, (b) are not announcements of material that will be published elsewhere, and (c) are not primarily based on a talk given by someone else. As it turns out, this still leaves about 33 articles from 2007, leading to a decent-sized book of a couple hundred pages in length.</p></blockquote>
+<p>If you have a blog and want to turn it into a LaTeX-book, there&#8217;s no need to transcribe or copy every single post, thanks to the <a href="http://xhtml-css.com/wptex/index.html">WPTeX tool</a>. Note that this is NOT a WP-plugin, but a (simple at that) php-program which turns all posts into a <strong>bookcontent.tex</strong> file. This file can then be edited further into a proper book.</p>
+<p>Unfortunately, the present version chokes on <a href="http://www.mayer.dial.pipex.com/tex.htm">LaTeXrender</a>-code (which is easy enough to solve doing a global &#8216;find-and-replace&#8217; of the tex-tags by dollar-signs) but worse, on <a href="http://daringfireball.net/projects/markdown/">Markdown</a>-code&#8230; But then, someone fluent in php-regex will have no problems extending the <strong>libs/functions.php</strong> file (I hope&#8230;).</p>
+<p>At the moment I&#8217;m considering turning the Mathieu-games-posts into a booklet. A possible title might be <strong>Math<font color =red>i</font>e<font color=red>u</font>matical Games</strong>. Rereading them (and other posts) I regret to be such an impatient blogger. Often I&#8217;m interested in something and start writing posts about it without knowing where or when I&#8217;ll land. This makes my posts a lot harder to get through than they might have been, if I would blog only after having digested the material myself&#8230; Typical recent examples are the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/key-compression.html">tori-crypto-posts</a> and the <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-bost-connes-coset-space.html">Bost-Connes algebra posts</a>.</p>
+<p>So, I still have a lot to learn from other bloggers I admire, such as <a href="http://www.jenniferouellette-writes.com/">Jennifer Ouellette</a> who maintains the <a href="http://twistedphysics.typepad.com/cocktail_party_physics/">Coctail Party Physics blog</a>. At the moment, Jennifer is resident blogger-journalist at the <a href="http://www.kitp.ucsb.edu/">Kavli Institute</a> where she is running a <a href="http://www.kitp.ucsb.edu/activities/journalist/current_talks.php">&#8220;Journal Club&#8221; workshop</a> giving ideas on how to write better about science.</p>
+<blockquote><p>But the KITP is also committed to fostering scientific communication. That&#8217;s where I come in. Each Friday through April 26th, I&#8217;ll be presiding over a &#8220;Journal Club&#8221; meeting focusing on some aspect of communicating science.
+</p></blockquote>
+<p>Her most recent talk was entitled <a href="http://online.itp.ucsb.edu/online/resident/ouellette2/">To Blog or Not to Blog? That is the Question</a> and you can find  the slides as well as a QuickTime movie of her talk. They even plan to set up a blog for the participants of the workshop. I will surely follow the rest of her course with keen interest!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/writing-blogging/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A cat called CEILIDH</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-cat-called-ceilidh/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-cat-called-ceilidh/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 07 Jan 2008 08:23:02 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arty]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=250</guid>
+
+					<description><![CDATA[We will see later that the cyclic subgroup $T_6 \subset \mathbb{F}_{p^6}^* $ is a 2-dimensional torus. Take a finite set of polynomials $f_i(x_1,\ldots,x_k) \in \mathbb{F}_p[x_1,\ldots,x_k]&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/catceilidh.jpg" style="float:left;margin-right:10px;" > We will see later that the cyclic subgroup $T_6 \subset \mathbb{F}_{p^6}^* $ is a <strong>2-dimensional torus</strong>.</p>
+<p>Take a finite set of polynomials $f_i(x_1,\ldots,x_k) \in \mathbb{F}_p[x_1,\ldots,x_k] $ and consider for every fieldextension $\mathbb{F}_p \subset \mathbb{F}_q $ the set of all k-tuples  satisfying all these polynomials and call this set</p>
+<p>$X(\mathbb{F}_q) = &#123; (a_1,\ldots,a_k) \in \mathbb{F}_q^k~:~f_i(a_1,\ldots,a_k) = 0~\forall i &#125; $</p>
+<p>Then, $T_6 $ being a 2-dimensional torus roughly means that we can find a system of polynomials such that<br />
+$T_6 = X(\mathbb{F}_p) $ and over the algebraic closure $\overline{\mathbb{F}}_p $ we have $X(\overline{\mathbb{F}}_p) = \overline{\mathbb{F}}_p^* \times \overline{\mathbb{F}}_p^* $ and $T_6 $ is a subgroup of this product group.</p>
+<p>It is known that all 2-dimensional tori are <strong>rational</strong>. In particular, this means that we can write down maps defined by rational functions (fractions of polynomials) $f~:~T_6 \rightarrow \mathbb{F}_p \times \mathbb{F}_p $ and $j~:~\mathbb{F}_p \times \mathbb{F}_p \rightarrow T_6 $ which define a bijection between the points where f and j are defined (that is, possibly excluding zeroes of polynomials appearing in denumerators in the definition of the maps f or j). But then, we can use to map f to represent &#8216;most&#8217; elements of $T_6 $ by just 2 pits, exactly as in the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=243">XTR-system</a>.</p>
+<p>Making the rational maps f and j explicit and checking where they are ill-defined is precisely what <a href="http://www.math.uci.edu/~krubin/">Karl Rubin</a> and <a href="http://www.math.uci.edu/~asilverb/">Alice Silverberg</a> did in their <strong>CEILIDH-system</strong>. The acronym CEILIDH (which they like us to pronounce as &#8216;cayley&#8217;) stands for <strong>Compact Efficient Improves on LUC, Improves on Diffie-Hellman</strong>&#8230;</p>
+<p>A <a href="http://en.wikipedia.org/wiki/Ceilidh">Cailidh</a> is a Scots Gaelic word meaning &#8216;visit&#8217; and stands for a &#8216;traditional Scottish gathering&#8217;.</p>
+<blockquote><p>Between 1997 and 2001 the Scottish ceilidh grew in popularity again amongst youths. Since then a subculture in some Scottish cities has evolved where some people attend ceilidhs on a regular basis and at the ceilidh they find out from the other dancers when and where the next ceilidh will be. <br />
+Privately organised ceilidhs are now extremely common, where bands are hired, usually for evening entertainment for a wedding, birthday party or other celebratory event. These bands vary in size, although are commonly made up of between 2 and 6 players. The appeal of the Scottish ceilidh is by no means limited to the younger generation, and dances vary in speed and complexity in order to accommodate most age groups and levels of ability.</p></blockquote>
+<p>Anyway, let us give the details of the Rubin-Silverberg approach. Take a large prime number p congruent to 2,6,7 or 11 modulo 13 and such that $\Phi_6(p)=p^2-p+1 $ is again a prime number. Then, if $\zeta $ is a 13-th root of unity we have that $\mathbb{F}_{p^{12}} = \mathbb{F}_p(\zeta) $. Consider the elements</p>
+<p>$\begin{cases} z = \zeta + \zeta^{-1} \\ y = \zeta+\zeta^{-1}+\zeta^5+\zeta^{-5} \end{cases} $</p>
+<p>Then, for every $~(u,v) \in \mathbb{F}_p \times \mathbb{F}_p $ define the map $j $ to $T_6 $ by</p>
+<p>$j(u,v) = \frac{r-s \sqrt{13}}{r+s \sqrt{13}} \in T_6 $</p>
+<p>and one can verify that this is indeed an element of $T_6 $ provided we take</p>
+<p>$\begin{cases} r = (3(u^2+v^2)+7uv+34u+18v+40)y^2+26uy-(21u(3+v)+9(u^2+v^2)+28v+42) \\<br />
+s = 3(u^2+v^2)+7uv+21u+18v+14 \end{cases} $</p>
+<p>Conversely, for $t \in T_6 $ write $t=a + b \sqrt{13} $ using the basis $\mathbb{F}_{p^6} = \mathbb{F}_{p^3}1 \oplus \mathbb{F}_{p^3} \sqrt{13} $, so $a,b \in \mathbb{F}_{p^3} $ and consequently write</p>
+<p>$\frac{1+a}{b} = w y^2 + u (y + \frac{y^2}{2}) + v $</p>
+<p>with $u,v,w \in \mathbb{F}_p $ using the basis $&#123; y^2.y+\frac{y^2}{2},1 &#125; $ of $\mathbb{F}_{p^3}/\mathbb{F}_p $. Okay, then the invers of $j $ iis the map $f~:~T_6 \rightarrow \mathbb{F}_p \times \mathbb{F}_p $ given by</p>
+<p>$f(t) = (\frac{u}{w+1},\frac{v-3}{w+1}) $</p>
+<p>and it takes some effort to show that f and j are indeed each other inverses, that j is defined on all points of $\mathbb{F}_p \times \mathbb{F}_p $ and that f is defined everywhere except at the two points<br />
+$&#123; 1,-2z^5+6z^3-4z-1 &#125; \subset T_6 $. Therefore, as long as we avoid these two points in our Diffie-Hellman key exchange, we can perform it using just $2=\phi(6) $ pits : I will send you $f(g^a) $ allowing you to compute our shared key $f(g^{ab}) $ or $g^{ab} $ from my data and your secret number b.</p>
+<p>But, where&#8217;s the cat in all of this? Unfortunately, the cat is dead&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/ceilidh.jpg" width=500 ></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-cat-called-ceilidh/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Superpotentials and Calabi-Yaus</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/superpotentials-and-calabi-yaus/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/superpotentials-and-calabi-yaus/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 22 Dec 2007 15:19:44 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=61</guid>
+
+					<description><![CDATA[Yesterday, Jan Stienstra gave a talk at theARTS entitled &#8220;Quivers, superpotentials and Dimer Models&#8221;. He started off by telling that the talk was based on&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, <a href="http://www.math.uu.nl/people/stienstra/">Jan Stienstra</a> gave a talk at <a href="https://lievenlebruyn.github.io/neverendingbooks/ARTS">theARTS</a> entitled &#8220;Quivers, superpotentials and Dimer Models&#8221;. He started off by telling that the talk was based on a paper he put on the arXiv <a href="http://arxiv.org/abs/0711.0464">Hypergeometric Systems in two Variables, Quivers, Dimers and Dessins d&#8217;Enfants</a> but that he was not going to say a thing about dessins but would rather focuss on the connection with superpotentials instead&#8230;pleasing some members of the public, while driving others to utter despair.</p>
+<p>Anyway, it gave me the opportunity to figure out for myself what dessins might have to do with <strong>dimers</strong>, whathever these beasts are. Soon enough he put on a slide containing the definition of a dimer and from that moment on I was lost in my own thoughts&#8230; realizing that a <strong>dessin d&#8217;enfant had to be a dimer for the Dedekind tessellation of its associated Riemann surface!</strong><br />
+and a few minutes later I could slap myself on the head for not having thought of this before :</p>
+<blockquote><p>There is a natural way to associate to a Farey symbol (aka a permutation representation of the modular group) a quiver and a superpotential (aka a necklace) defining (conjecturally) a Calabi-Yau algebra! Moreover, different embeddings of the cuboid tree diagrams in the hyperbolic plane may (again conjecturally) give rise to all sorts of arty-farty fanshi-wanshi dualities&#8230;</p></blockquote>
+<p>I&#8217;ll give here the details of the simplest example I worked out during the talk and will come back to general procedure later, when I&#8217;ve done a reference check. I don&#8217;t claim any originality here and probably all of this is contained in Stienstra&#8217;s paper or in some physics-paper, so if you know of a reference, please leave a comment. Okay, remember the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=18">Dedekind tessellation</a> ?</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dedekind1877.gif" ></p>
+<p>So, all hyperbolic triangles we will encounter below are colored black or white. Now, take a <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=21">Farey symbol</a> and consider its associated <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=18">special polygon</a> in the hyperbolic plane. If we start with the Farey symbol</p>
+<p>[tex]\xymatrix{\infty \ar@{-}_{(1)}[r] &amp; 0 \ar@{-}_{\bullet}[r] &amp; 1 \ar@{-}_{(1)}[r] &amp; \infty} [/tex]</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dimer.jpg" style="float:left;margin-right:10px;"> we get the special polygonal region bounded by the thick edges, the vertical edges are identified as are the two bottom edges. Hence, this fundamental domain has 6 vertices (the 5 blue dots and the point at $i \infty $) and 8 hyperbolic triangles (4 colored black, indicated by a black dot, and 4 white ones).</p>
+<p>Right, now let us associate a <strong>quiver</strong> to this triangulation (which embeds the quiver in the corresponding Riemann surface). The vertices of the triangulation are also the vertices of the quiver (so in our case we are going for a quiver with 6 vertices). Every hyperbolic edge in the triangulation gives one arrow in the quiver between the corresponding vertices. The orientation of the arrow is determined by the color of a triangle of which it is an edge : if the triangle is black, we run around its edges counter-clockwise and if the triangle is white we run over its edges clockwise (that is, the orientation of the arrow is independent of the choice of triangles to determine it). In our example, there is one arrows directed from the vertex at $i $ to the vertex at $0 $, whether you use the black triangle on the left to determine the orientation or the white triangle on the right. If we do this for all edges in the triangulation we arrive at the quiver below</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dimerquiver.jpg" width=500 ></p>
+<p>where x,y and z are the three finite vertices on the $\frac{1}{2} $-axis from bottom to top and where I&#8217;ve used the physics-convention for double arrows, that is there are two F-arrows, two G-arrows and two H-arrows. Observe that the quiver is of <strong>Calabi-Yau type</strong> meaning that there are as much arrows coming into a vertex as there are arrows leaving the vertex.</p>
+<p>Now that we have our quiver we determine the <strong>superpotential</strong> as follows. Fix an orientation on the Riemann surface (for example counter-clockwise) and sum over all black triangles the product of the edge-arrows counterclockwise <strong>MINUS</strong> sum over all white triangles<br />
+the product of the edge arrows counterclockwise. So, in our example we have the cubic superpotential</p>
+<p>$IH&#8217;B+HAG+G&#8217;DF+FEC-BHI-H&#8217;G&#8217;A-GFD-CEF&#8217; $</p>
+<p>From this we get the associated noncommutative algebra, which is the quotient of the path algebra of the above quiver modulo the following &#8216;commutativity relations&#8217;</p>
+<p>$\begin{cases} GH &amp;=G&#8217;H&#8217; \\ IH&#8217; &amp;= IH \\ FE &amp;= F&#8217;E \\ F&#8217;G&#8217; &amp;= FG \\ CF &amp;= CF&#8217; \\ EC &amp;= GD \\ G&#8217;D &amp;= EC \\ HA &amp;= DF \\ DF&#8217; &amp;= H&#8217;A \\ AG &amp;= BI \\ BI &amp;= AG&#8217; \end{cases} $</p>
+<p>and <strong>morally</strong> this should be a Calabi-Yau algebra (( can someone who knows more about CYs verify this? )). This concludes the walk through of the procedure. Summarizing : <strong>to every Farey-symbol one associates a Calabi-Yau quiver and superpotential, possibly giving a Calabi-Yau algebra!</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/superpotentials-and-calabi-yaus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the secret life of numbers</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-secret-life-of-numbers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-secret-life-of-numbers/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 11 Jan 2007 18:34:48 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=91</guid>
+
+					<description><![CDATA[Just read/glanced through another math-for-the-masses book : [The secret life of numbers](http://www.amazon.co.uk/Secret-Life-Numbers-Pieces-Mathematicians/dp/0309096588/sr=81/qid=1168541999/ref=sr_1_1/203-3776750-7074362?ie=UTF8&#038;s=books) by [George G. Szpiro](http://www.citebase.org/search?submit=1&#038;author=Szpiro%2C+George+G.). The subtitle made me buy the book : **50&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Just read/glanced through another math-for-the-masses book : [The secret life of numbers](http://www.amazon.co.uk/Secret-Life-Numbers-Pieces-Mathematicians/dp/0309096588/sr=81/qid=1168541999/ref=sr_1_1/203-3776750-7074362?ie=UTF8&#038;s=books) by [George G.<br />
+Szpiro](http://www.citebase.org/search?submit=1&#038;author=Szpiro%2C+George+G.). The subtitle made me buy the book : **50 easy pieces on how<br />
+mathematicians work and think** Could be fun, I thought, certainly after<br />
+reading the Amazon-blurb :  </p>
+<blockquote><p> Most of us picture<br />
+mathematicians laboring before a chalkboard, scribbling numbers and<br />
+obscure symbols as they mutter unintelligibly. This lighthearted (but<br />
+realistic) sneak-peak into the everyday world of mathematicians turns<br />
+that stereotype on its head. Most people have little idea what<br />
+mathematicians do or how they think. It&#8217;s often difficult to see how<br />
+their seemingly arcane and esoteric work applies to our own everyday<br />
+lives. But mathematics also holds a special allure for many people. We<br />
+are drawn to its inherent beauty and fascinated by its complexity &#8211; but<br />
+often intimidated by its presumed difficulty. \&#8221;The Secret Life of<br />
+Numbers\&#8221; opens our eyes to the joys of mathematics, introducing us to<br />
+the charming, often whimsical side, of the<br />
+discipline. </p></blockquote>
+<p>  Please correct me when I&#8217;m wrong,<br />
+but I found just one out of 50 pieces which remotely fulfills this<br />
+promise : &#8216;Cozy Zurich&#8217; ((on the awesome technical support a lecturer<br />
+in Zurich is rumoured to receive)). Still, there are some other pieces<br />
+worth reading,   1. &#8216;A puzzle by any other name&#8217; ((On the<br />
+Collatz problem)) 2. &#8216;Twins, cousins and sexy primes&#8217;  ((How<br />
+reasearch into the twin primes problem led to the discovery of a<br />
+Pentium-bug)) 3. &#8216;Proving the proof&#8217; ((On Kepler&#8217;s problem)) 4.<br />
+&#8216;Has Poincare&#8217;s conjecture finally been solved&#8217; ((Of course it has<br />
+been)) 5. &#8216;Late tribute to a tragic hero&#8217; ((On Abel&#8217;s life and<br />
+prize)) 6. &#8216;God&#8217;s gift to science?&#8217; ((Stephen Wolfram<br />
+bashing))  to single out a few, embedded in a soup made out of the<br />
+usual suspects (knots, chaos, RSA etc.). But, all in all, I fear the<br />
+book doesn&#8217;t fulfill its promises and once again it demonstrates how<br />
+little &#8216;math-substance&#8217; one is able to put in a book for a general<br />
+audience. But let us end with a quote from the preface that I really<br />
+like :  </p>
+<blockquote><p> Whenever a socialite shows off his flair<br />
+at a coctail party by reciting a stanza from an obscure poem, he is<br />
+considered well-read and full of wit. Not much ado can be made with the<br />
+recitation of a mathematical formula, however. At most, one may expect a<br />
+few pitying glances and the title &#8216;party&#8217;s most nerdy guest&#8217;. To the<br />
+concurring nods of the cocktail crowd, most bystanders will admit that<br />
+they are no good at math, never have been, and never will be. <br
+/>  Actually, this is quite astonishing. Imagine your lawyer<br />
+telling you that he is no good at spelling, your dentist proudly<br />
+proclaiming that she speaks n foreign language, and your financial<br />
+advisor admitting with glee that he always mixes up Voltaire with<br />
+Moliere. With ample reason one would consider such people as ignorant.<br />
+Not so with mathematics. Shortcomings in this intellectual discipline<br />
+are met with understanding by everyone. </p></blockquote>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-secret-life-of-numbers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Krull &#038; Paris</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/krull-paris/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/krull-paris/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 05 Sep 2006 07:36:39 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[teaching]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=225</guid>
+
+					<description><![CDATA[The Category-Cafe ran an interesting post The history of n-categories claiming that &#8220;mathematicians&#8217; histories are largely &#8216;Royal-road-to-me&#8217; accounts&#8221; To my mind a key difference is&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The<br />
+Category-Cafe ran an interesting post <a href="http://golem.ph.utexas.edu/category/2006/09/the_history_of_ncategories.html">The history of n-categories</a><br />
+claiming that &#8220;mathematicians&#8217; histories are largely<br />
+&#8216;Royal-road-to-me&#8217; accounts&#8221;   </p>
+<blockquote><p> To my mind a key<br />
+difference is the historians&#8217; emphasis in their histories that things<br />
+could have turned out very differently, while the mathematicians tend to<br />
+tell a story where we learn how the present has emerged out of the past,<br />
+giving the impression that things were always going to turn out not very<br />
+dissimilarly to the way they have, even if in retrospect the course was<br />
+quite tortuous. </p></blockquote>
+<p>   Over the last weeks I&#8217;ve been writing up<br />
+the notes of a course on &#8216;Elementary Algebraic Geometry&#8217; that I&#8217;ll<br />
+be teaching this year in Bach3. These notes are split into three<br />
+historical periods more or less corresponding to major conceptual leaps<br />
+in the subject : (1890-1920) ideals in polynomial rings (1920-1950)<br />
+intrinsic definitions using the coordinate ring (1950-1970) scheme<br />
+theory. Whereas it is clear to take Hilbert&amp;Noether as the leading<br />
+figures of the first period and Serre&amp;Grothendieck as those of the<br />
+last, the situation for the middle period is less clear to me.     At<br />
+first I went for the widely accepted story, as for example phrased by <a href="http://www.maths.warwick.ac.uk/~miles/">Miles Reid</a> in the<br />
+Final Comments to his <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0521356628?v=glance">Undergraduate Algebraic Geometry</a> course.   </p>
+<blockquote><p> &#8230;<br />
+rigorous foundations for algebraic geometry were laid in the 1920s and<br />
+1930s by van der Waerden, Zariski and Weil (van der Waerden&#8217;s<br />
+contribution is often suppressed, apparently because a number of<br />
+mathematicians of the immediate post-war period, including some of the<br />
+leading algebraic geometers, considered him a Nazi collaborator).
+</p></blockquote>
+<p>   But then I read <a href="http://www.math.jussieu.fr/~leila/grothendieckcircle/mclarty1.pdf#search=%22rising%20sea%20grothendieck%22">The Rising Sea: Grothendieck<br />
+on simplicity and generality I</a> by Colin McLarty and stumbled upon<br />
+the following paragraph   </p>
+<blockquote><p> From Emmy Noether&#8217;s viewpoint,<br />
+then, it was natural to look at prime ideals  instead of classical and<br />
+generic points‚Äîor, as we would more likely say today, to  identify<br />
+points with prime ideals. Her associate Wolfgang Krull did this. He gave<br />
+ a lecture in Paris before the Second World War on algebraic geometry<br />
+taking all  prime ideals as points, and using a Zariski topology (for<br />
+which see any current  textbook on algebraic geometry). He did this over<br />
+any ring, not only polynomial  rings like C[x, y]. The generality was<br />
+obvious from the Noether viewpoint, since  all the properties needed for<br />
+the definition are common to all rings. The expert  audience laughed at<br />
+him and he abandoned the idea.  </p></blockquote>
+<p>   The story seems to be<br />
+due to Jurgen Neukirch&#8217;s &#8216;Erinnerungen an Wolfgang Krull&#8217;<br />
+published in &#8216;Wolfgang Krull : Gesammelte Abhandlungen&#8217; (P.<br />
+Ribenboim, editor) but as our library does not have this book I would<br />
+welcome any additional information such as : when did Krull give this<br />
+talk in Paris? what was its precise content? did he introduce the prime<br />
+spectrum in it? and related to this : when and where did Zariski<br />
+introduce &#8216;his&#8217; topology? Answers anyone?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/krull-paris/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>simple group of order 2</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/simple-group-of-order-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/simple-group-of-order-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 27 Aug 2006 08:03:47 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[Klein]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=85</guid>
+
+					<description><![CDATA[The Klein Four Group is an a capella group from the maths department of Northwestern. Below a link to one of their songs (grabbed from&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href=\"http://www.kleinfour.com/\">The Klein Four Group</a> is an a<br />
+capella group from the maths department of Northwestern. Below a link to<br />
+one of their songs (grabbed from <a href=\"http://ppcook.blogspot.com/\">P.P. Cook&#8217;s Tangent Space</a><br />
+).</p>
+<p><object width="400" height="330"><param name="movie" value="http://www.youtube.com/v/UTby_e4-Rhg"></param><embed src="http://www.youtube.com/v/UTby_e4-Rhg" type="application/x-shockwave-flash" width="400" height="330"></embed></object></p>
+<p> <strong>Finite<br />
+Simple Group (of order two)</strong></p>
+<p>A Klein Four original by<br />
+Matt Salomone</p>
+<p /><verbatim><br />The path of love is never<br />
+smooth<br />But mine&#8217;s continuous for you<br />You&#8217;re the upper bound in the chains of my heart<br />You&#8217;re my Axiom of Choice, you know it&#8217;s true <br /> But lately our relation&#8217;s not so well-defined<br />And<br />
+I just can&#8217;t function without you<br />I&#8217;ll prove my<br />
+proposition and I&#8217;m sure you&#8217;ll find<br />We&#8217;re a<br />
+finite simple group of order two<br />  I&#8217;m losing my<br />
+identity<br />I&#8217;m getting tensor every day<br />And<br />
+without loss of generality<br />I will assume that you feel the same<br />
+way<br /> Since every time I see you, you just quotient out<br />The faithful image that I map into<br />But when we&#8217;re<br />
+one-to-one you&#8217;ll see what I&#8217;m about<br />&#8216;Cause<br />
+we&#8217;re a finite simple group of order two <br />Our equivalence<br />
+was stable,<br />A principal love bundle sitting deep inside<br />But then you drove a wedge between our two-forms<br />Now<br />
+everything is so complexified <br /> When we first met, we simply<br />
+connected<br />My heart was open but too dense<br />Our system<br />
+was already directed<br />To have a finite limit, in some sense </p>
+<p> I&#8217;m living in the kernel of a rank-one map<br />From my<br />
+domain, its image looks so blue,<br />&#8216;Cause all I see are<br />
+zeroes, it&#8217;s a cruel trap<br />But we&#8217;re a finite simple<br />
+group of order two <br /> I&#8217;m not the smoothest operator in my<br />
+class,<br />But we&#8217;re a mirror pair, me and you,<br />So<br />
+let&#8217;s apply forgetful functors to the past<br />And be a<br />
+finite simple group, a finite simple group,<br />Let&#8217;s be a<br />
+finite simple group of order two<br />(Oughter: &#8220;Why not<br />
+three?&#8221;) <br /> I&#8217;ve proved my proposition now, as you<br />
+can see,<br />So let&#8217;s both be associative and free<br />And by corollary, this shows you and I to be<br />Purely<br />
+inseparable. Q. E. D.<br /></verbatim>  </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/simple-group-of-order-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>neverending.sty</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingsty/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingsty/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 23 Jun 2005 06:42:13 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[mac]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=279</guid>
+
+					<description><![CDATA[You don&#8217;t know how lucky you are to be able to begin a LaTeX-document with something like \documentclass[a4]{amsart}. This simple line tells the machine what&#8230;]]></description>
+										<content:encoded><![CDATA[<p>You don&#8217;t<br />
+know how lucky you are to be able to begin a LaTeX-document with<br />
+something like <code>\documentclass[a4]{amsart}</code>. This simple line<br />
+tells the machine what the size of paper is it has to print to, which<br />
+part of that paper has to be filled with text, what the design of<br />
+titles, sections etc. is (and probably more). Just convince yourself<br />
+(for the sake of argument) that you want to produce a readable<br />
+mathematical book on  paper of dimensions say 6 by 9 inch. How would you<br />
+do this? Simple : all you have to do is to adjust certain TeX-parameters<br />
+the way you want! Well, that&#8217;s exactly what the _neverendingbooks<br />
+design department_ has been doing for the last couple of weeks!</p>
+<p>The package we would use was easy enough to find. A long time ago, <a href="http://www.win.ua.ac.be/~gvdwey/">Geert</a> suggested that we<br />
+should use the  <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/memoir/"><br />
+memoir package</a>. The fun starts the moment you are foolish enough to<br />
+print the manual : 300 pages! After an inspiring account of<br />
+book-printing basics over the ages, you are told that you have total<br />
+freedom to set your _stock paper size_, how it needs to be<br />
+_trimmed_ to get the final result, how you should designs<br />
+everything from the title, over abstract, acknowledgement, thanks, table<br />
+of contents contents, dedications etc. down to chapter, section and page<br />
+styles. In short : ULTIMATE FREEDOM!!!</p>
+<p>But, as some of you may<br />
+know from experience, there is nothing more frightening to the moderate<br />
+autist (and frankly, are there any other mathematicians?) than ultimate<br />
+freedom! So, we set up a task-force, had daily brain-storm sessions,<br />
+produced numerous trial-prints and eventually came out with something<br />
+that came very close to the _better designed book_. Let&#8217;s face it<br />
+: can you name me _one_ (yeah right, just 1) well-designed<br />
+mathematical book? If you don&#8217;t believe me, browse through the recent<br />
+mathematics-books on <a href="http://www.amazon.co.uk/exec/obidos/tg/browse/-/278320/ref=br_bx_1_c_2_2/202-3727072-9602214">amazon</a> (as our design-department<br />
+did for a whole week-end, deprived of beverages and other pleasures).<br />
+Found anything? Yes?? Please, please let us know! On the other hand, if<br />
+you browse through the <a href="http://www.amazon.co.uk/exec/obidos/tg/new-for-you/new-releases/-/books/91/ref=br_b_nr_mor/202-3727072-9602214">Art, architecture and<br />
+photography section</a> you will spot several extremely good-looking<br />
+books very soon. Well, after a week we succeeded in designing the<br />
+_arty-farty-fanshi-wanshi_ (as PD1 would name it, jealous that<br />
+she was not in on the fun) mathematical book! And, what did we do with<br />
+the labours of all this hard work? NOTHING! We simply dropped the whole<br />
+idea (if you are a graphics-designer trying to survive within a<br />
+mathematics publishing firm (not easy we know, you have all our<br />
+sympathy) and want to do something more fun, contact us and if we can<br />
+reach an adequate financial agreement we will be happy to send you our<br />
+ideas).</p>
+<p>So, what went wrong? Nothing really, it just dawned on<br />
+us that _NeverEndingBooks.org_ should not go for the<br />
+better-designed mathematics book. All our (potential) authors can<br />
+publish as easily at <a href="http://www.oup.co.uk/">Oxford University<br />
+Press</a>, the <a href="http://www.ems-ph.org/">European Mathematical<br />
+Society</a> or, if they have no moral objection, at the AMS. So, why<br />
+would they choose us instead of these more established publishing<br />
+houses? Just because our books look slightly (well let&#8217;s face it : a<br />
+lot) better? Probably not. We, at neverendingbooks.org should not go for<br />
+the better-designed book, we should not go for the book concept at all,<br />
+we should invent something entirely NEW &#038; SEXY &#038; USABLE &#038; DESIRING &#038; (I<br />
+hope you get the drift!). Next time, I&#8217;ll let you in on the first ideas<br />
+of our design-department!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingsty/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>markdown</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/markdown/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/markdown/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 17 Apr 2005 19:11:25 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[GTD]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[markdown]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=267</guid>
+
+					<description><![CDATA[The nerd implimentation of GTD is based on plain text-files, or more precisely &#8211; all lists in text files, kept in directory &#8220;~/Documents/txt&#8221; &#8211; all&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="http://www.43folders.com/2004/09/how_does_a_nerd.html">nerd<br />
+implimentation of GTD</a> is based on plain text-files, or more<br />
+precisely  </p>
+<p>&#8211; all lists in text files, kept in directory<br />
+&#8220;~/Documents/txt&#8221;<br /> &#8211; all documents maintained in Markdown for easy<br />
+HTML conversion  </p>
+<p>I&#8217;ve been writing HTML-code since the times<br />
+that the best browser around was something called <a href="http://www.ncsa.uiuc.edu/Divisions/PublicAffairs/MosaicHistory/history.html">NCSA Mosaic</a> so I&#8217;ve never paid too much attention to<br />
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a><br />
+before. Here is its main purpose</p>
+<blockquote>
+<p>Markdown is a<br />
+text-to-HTML conversion tool for web writers. Markdown allows you to<br />
+write using 	an easy-to-read, easy-to-write plain text format, then<br />
+convert it to structurally valid XHTML (or >HTML). 	Thus, Markdown is<br />
+two things: (1) a plain text formatting syntax; and (2) a software tool,<br />
+	written in Perl, that converts the plain text formatting to<br />
+HTML.</p>
+</blockquote>
+<p>An example of Markdown-code followed by its<br />
+HTML-output can be seen at the <a href="http://bluecloth.rubyforge.org/">BlueCloth website</a> and I have<br />
+to agree that the Markdown text is very legible. I&#8217;ve been playing<br />
+around with Markdown for a couple of days now (in fact this post is<br />
+written in Markdown as WordPress has a Markdown-plugin) and have found a<br />
+few uses for it (more on this another time). Essential sites to visit if<br />
+you want to learn some Markdown are : its <a href="http://daringfireball.net/projects/markdown/basics">basic<br />
+syntax</a> and in the rare cases that this doesn&#8217;t do what you want to<br />
+do there is also a <a href="http://daringfireball.net/projects/markdown/syntax">full<br />
+syntax</a> page.</p>
+<p>If you want to use Markdown to write your<br />
+HTML-pages you need to be able to convert Markdown to HTML (and<br />
+conversely although the uses for this are not immediately clear, but<br />
+there are plenty of good reasons!). That&#8217;s what the<br />
+<strong>Markdown.pl</strong> Perl-script does for you (one way) and the<br />
+Python-script <strong>html2text.py</strong> (to be found <a href="http://www.aaronsw.com/2002/html2text/">here</a>) (the other<br />
+way).</p>
+<p>To get them working using <a href="http://www.barebones.com/products/bbedit/index.shtml">BBedit</a><br />
+all you have to do is to put them in the _BBEdit Support/Unix<br />
+Support/Unix Filters_ directory (to be found in the BBEdit-folder in<br />
+_/Applications_). Then, if you have written a Markdown-text, do a<br />
+_Select All_ go to the <strong>!#</strong> menu and look for<br />
+Markdown.pl under _Unix Filters_ and voila, you have valid XHTML<br />
+(the other direction is similar).</p>
+<p>This is a bit of work and one<br />
+would like to do both operations in nearly all Applications using the<br />
+_Services Menu_ (in fact, until a few weeks ago I had no clue<br />
+that there was something as useful as this menu hidden under the<br />
+program-name-menu of any Cocoa-program!). This is best done using <a href="http://gu.st/proj/HumaneText.service/">HumaneText.service</a>. The<br />
+installation is really as siimple as they say on this page (although it<br />
+took me a couple of trials before it worked, and I use the Services-menu<br />
+rather than the keystroke-shortcuts). </p>
+<p><strong>HumaneText</strong> works perfectly with TextEdit,<br />
+SubEthaEdit and (probably more important to mathematicians) TeXShop and<br />
+iTeXMac (the two most common front-ends for (La)TeX under OS X). A<br />
+noteworthy exception is BBEdit (hence the above laborious work-around).<br />
+Sometimes there are problems with punctuation in the conversion but you<br />
+can get around this using <a href="http://daringfireball.net/projects/smartypants/">SmartyPants</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/markdown/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>de Bruijn &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/de-bruijn/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 28 Mar 2023 13:54:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>an einStein</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 28 Mar 2023 13:54:57 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[GoV]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[aperiodic]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[de Bruijn]]></category>
+		<category><![CDATA[deflation]]></category>
+		<category><![CDATA[einstein]]></category>
+		<category><![CDATA[Goodman-Strauss]]></category>
+		<category><![CDATA[gov]]></category>
+		<category><![CDATA[inflation]]></category>
+		<category><![CDATA[Kaplan]]></category>
+		<category><![CDATA[Myers]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[Smith]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=11170</guid>
+
+					<description><![CDATA[On March 20th, David Smith, Joseph Myers, Craig Kaplan and Chaim Goodman-Strauss announced on the arXiv that they&#8217;d found an ein-Stein (a stone), that is,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>On March 20th, David Smith, Joseph Myers, Craig Kaplan and Chaim Goodman-Strauss announced on the <a href="https://arxiv.org/abs/2303.10798">arXiv</a> that they&#8217;d found an ein-Stein (a stone), that is, one piece to tile the entire plane, in uncountably many different ways, all of them non-periodic (that is, the pattern does not even allow a translation symmetry).</p>
+<p>This einStein, called the &#8216;hat&#8217; (some prefer &#8216;t-shirt&#8217;), has a very simple form : you take the most symmetric of all plane tessellations, $\ast 632$ in Conway&#8217;s notation, and glue sixteen copies of its orbifold (or if you so prefer, eight &#8216;kites&#8217;) to form the gray region below:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/einstein1.png" width=80%><br />
+(all images copied from <a href="https://arxiv.org/abs/2303.10798">the aperiodic monotile paper</a>)<br />
+</center></p>
+<p>Surprisingly, you do not even need to impose gluing conditions (unlike in the two-piece aperiodic <a href="https://en.wikipedia.org/wiki/Penrose_tiling#:~:text=The%20kite%20is%20a%20quadrilateral,%2C%2072%20and%2072%20degrees).">kite and dart Penrose tilings</a>), but you&#8217;ll need flipped hats to fill up the gaps left.</p>
+<p>A few years ago, I wrote some posts on Penrose tilings, including details on inflation and deflation, aperiodicity, uncountability, Conway worms, and more:</p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/penroses-aperiodic-tilings">Penrose&#8217;s aperiodic tilings</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences">Conway&#8217;s musical sequences</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences-2">Conway&#8217;s musical sequences (2)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids">de Bruijn&#8217;s pentagrids</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2">de Bruijn&#8217;s pentagrids (2)</a></li>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry">Penrose tilings and non-commutative geometry</a></li>
+</ul>
+<p>To prove that hats tile the plane, and do so aperiodically, the authors do not apply inflation and deflation directly on the hats, but rather on associated tilings by &#8216;meta-tiles&#8217; (rough outlines of blocks of hats). To understand these meta-tiles it is best to look at a large patch of hats:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/einstein2.png" width=100%><br />
+</center></p>
+<p>Here, the dark-blue hats are the &#8216;flipped&#8217; ones, and the thickened outline around the central one gives the boundary of the &#8217;empire&#8217; of a flipped hat, that is, the collection of all forced tiles around it. So, around each flipped hat we find such an empire, possibly with different orientation. Also note that most of the white hats (there are also isolated white hats at the centers of triangles of dark-blue hats) make up &#8216;lines&#8217; similar to the Conway worms in the case of the Penrose tilings. We can break up these &#8216;worms&#8217; into &#8216;propeller-blades&#8217; (gray) and &#8216;parallelograms&#8217; (white). This gives us four types of blocks, the &#8216;meta-tiles&#8217;:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/einstein3.png" width=60%><br />
+</center></p>
+<p>The empire of a flipped hat consists of an H-block (for Hexagon) made of one dark-blue (flipped) and three light-blue (ordinary) hats, one P-block (for Parallelogram), one F-block (for Fylfot, a propellor blade), and one T-block (for Triangle) for the remaining hat.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/einstein4.png" width=80%><br />
+</center></p>
+<p>The H,T and P blocks have rotational symmetries, whereas the underlying block of hats does not. So we mark the intended orientation of the hats by an arrow, pointing to the side having two or three hat-pieces sticking out.</p>
+<p>Any hat-tiling gives us a tiling with the meta-tile pieces H,T,P and F. Conversely, not every tiling by meta-tiles has an underlying hat-tiling, so we have to impose gluing conditions on the H,T,P and F-pieces. We can do this by using the boundary of the underlying hat-block, cutting away and adding hat-parts. Then, any H,T,P and F-tiling satisfying these gluing conditions will come from an underlying hat-tiling.</p>
+<p>The idea is now to devise &#8216;inflation&#8217;- and &#8216;deflation&#8217;-rules for the H,T,P and F-pieces. For &#8216;inflation&#8217; start from a tiling satisfying the gluing (and orientation) conditions, and look for the central points of the propellors (the thick red points in the middle picture).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/einstein5.png" width=80%><br />
+</center></p>
+<p>These points will determine the shape of the larger H,T,P and F-pieces, together with their orientations. The authors provide <a href="https://cs.uwaterloo.ca/~csk/hat/app.html">an applet</a> to see these inflations in action.</p>
+<p>Choose your meta-tile (H,T,P or F), then click on &#8216;Build Supertiles&#8217; a number of times to get larger and larger tilings, and finally unmark the &#8216;Draw Supertiles&#8217; button to get a hat-tiling.</p>
+<p>For &#8216;deflation&#8217; we can cut up H,T,P and F-pieces into smaller ones as in the pictures below:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/einstein6.png" width=80%><br />
+</center></p>
+<p>Clearly, the hard part is to verify that these &#8216;inflated&#8217; and &#8216;deflated&#8217; tilings still satisfy the gluing conditions, so that they will have an underlying hat-tiling with larger (resp. smaller) hats.</p>
+<p>This calls for a lengthy case-by-case analysis which is the core-part of the paper and depends on computer-verification.</p>
+<p>Once this is verified, aperiodicity follows as in the case of Penrose tilings. Suppose a tiling is preserved under translation by a vector $\vec{v}$. As &#8216;inflation&#8217; and &#8216;deflation&#8217; only depend on the direct vicinity of a tile, translation by $\vec{v}$ is also a symmetry of the inflated tiling. Now, iterate this process until the diameter of the large tiles becomes larger than the length of $\vec{v}$ to obtain a contradiction.</p>
+<p>Siobhan Roberts wrote a fine article <a href="https://www.nytimes.com/2023/03/28/science/mathematics-tiling-einstein.html">Elusive ‘Einstein’ Solves a Longstanding Math Problem</a> for the NY-times on this einStein.</p>
+<p>It would be nice to try this strategy on other symmetric tilings: break the symmetry by gluing together a small number of its orbifolds in such a way that this extended tile (possibly with its reversed image) tile the plane, and find out whether you discovered a new einStein!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>de Bruijn&#8217;s pentagrids (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 17 Mar 2021 09:38:39 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[GoV]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[D5]]></category>
+		<category><![CDATA[de Bruijn]]></category>
+		<category><![CDATA[hyperoctahedral group]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[pentagrid]]></category>
+		<category><![CDATA[Young]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9284</guid>
+
+					<description><![CDATA[Last time we&#8217;ve seen that de Bruijn&#8217;s pentagrids determined the vertices of Penrose&#8217;s P3-aperiodic tilings. These vertices can also be obtained by projecting a window&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids">Last time</a> we&#8217;ve seen that de Bruijn&#8217;s pentagrids determined the vertices of Penrose&#8217;s P3-aperiodic tilings.</p>
+<p>These vertices can also be obtained by projecting a window of the standard hypercubic lattice $\mathbb{Z}^5$ by the <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences-2">cut-and-project</a>-method.</p>
+<p>We&#8217;ll bring in representation theory by forcing this projection to be compatible with a $D_5$-subgroup of the symmetries of $\mathbb{Z}^5$, which explains why Penrose tilings have a local $D_5$-symmetry.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/D5region.jpg" width=70% ><br />
+</center></p>
+<p>The symmetry group of the standard $n$-dimensional hypercubic lattice<br />
+\[<br />
+\mathbb{Z} \vec{e}_1 + \dots + \mathbb{Z} \vec{e}_n \subset \mathbb{R}^n \]<br />
+is the <a href="https://en.wikipedia.org/wiki/Hyperoctahedral_group">hyperoctahedral group</a> of all signed $n \times n$ permutation matrices<br />
+\[<br />
+B_n = C_2^n \rtimes S_n \]<br />
+in which all $n$-permutations $S_n$ act on the group $C_2^n = \{ 1,-1 \}^n$ of all signs. The signed permutation $n \times n$ matrix corresponding to an element $(\vec{a},\pi) \in B_n$ is given by<br />
+\[<br />
+T_{ij} = T(\vec{a},\pi)_{ij} = a_j \delta_{i,\pi(j)} \]<br />
+The represenation theory of $B_n$ was worked out in 1930 by the British mathematician and clergyman <a href="https://en.wikipedia.org/wiki/Alfred_Young">Alfred Young</a><br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Young.jpg" width=40% ><br />
+</center><br />
+We want to do explicit calculations in $B_n$ using a computational system such as <a href="https://www.gap-system.org/">GAP</a>, so it is best to describe $B_n$ as a permutation subgroup of $S_{2n}$ via the morphism<br />
+\[<br />
+ \tau((\vec{a},\pi))(k) = \begin{cases} \pi(k)+n \delta_{-1,a_k}~\text{if $1 \leq k \leq n$} \\<br />
+\pi(k-n)+n(1-\delta_{-1,a_{k-n}})~\text{if $n+1 \leq k \leq 2n$} \end{cases} \]<br />
+the image is generated by the permutations<br />
+\[<br />
+\begin{cases}<br />
+\alpha = (1,2)(n+1,n+2), \\<br />
+\beta=(1,2,\dots,n)(n+1,n+2,\dots,2n), \\<br />
+\gamma=(n,2n)<br />
+\end{cases}<br />
+ \]<br />
+and to a permutation $\sigma \in \tau(B_n) \subset S_{2n}$ we assign the signed permutation $n \times n$ matrix $T_{\sigma}=T(\tau^{-1}(\pi))$.</p>
+<p>We use GAP to set up $B_5$ from these generators and determine all its conjugacy classes of subgroups. It turns out that $B_5$ has no less than $953$ different conjugacy classes of subgroups.<br />
+<verbatim><br />
+gap> B5:=Group((1,2)(6,7),(1,2,3,4,5)(6,7,8,9,10),(5,10));<br />
+Group([ (1,2)(6,7), (1,2,3,4,5)(6,7,8,9,10), (5,10) ])<br />
+gap> Size(B5);<br />
+3840<br />
+gap> C:=ConjugacyClassesSubgroups(B5);;<br />
+gap> Length(C);<br />
+953<br />
+</verbatim><br />
+But we are only interested in the subgroups isomorphic to $D_5$. So, first we make a sublist of all conjugacy classes of subgroups of order $10$, and then we go through this list one-by-one and look for an explicit isomorphism between $D_5 = \langle x,y~|~x^5=e=y^2,~xyx=y \rangle$ and a representative of the class (or get a &#8216;fail&#8217; is this subgroup is not isomorphic to $D_5$).<br />
+<verbatim><br />
+gap> C10:=Filtered(C,x->Size(Representative(x))=10);;<br />
+gap> Length(C10);<br />
+3<br />
+gap> s10:=List(C10,Representative);<br />
+[ Group([ (2,5)(3,4)(7,10)(8,9), (1,5,4,3,2)(6,10,9,8,7) ]),<br />
+  Group([ (1,6)(2,5)(3,4)(7,10)(8,9), (1,10,9,3,2)(4,8,7,6,5) ]),<br />
+  Group([ (1,6)(2,7)(3,8)(4,9)(5,10), (1,2,8,4,10)(3,9,5,6,7) ]) ]<br />
+gap> D:=DihedralGroup(10);
+<pc group of size 10 with 2 generators>
+gap> IsomorphismGroups(D,s10[1]);<br />
+[ f1, f2 ] -> [ (2,5)(3,4)(7,10)(8,9), (1,5,4,3,2)(6,10,9,8,7) ]<br />
+gap> IsomorphismGroups(D,s10[2]);<br />
+[ f1, f2 ] -> [ (1,6)(2,5)(3,4)(7,10)(8,9), (1,10,9,3,2)(4,8,7,6,5) ]<br />
+gap> IsomorphismGroups(D,s10[3]);<br />
+fail<br />
+gap> IsCyclic(s10[3]);<br />
+true<br />
+</verbatim><br />
+Of the three (conjugacy classes of) subgroups of order $10$, two are isomorphic to $D_5$, and the third one to $C_{10}$. Next, we have to transform the generating permutations into signed $5 \times 5$ permutation matrices using the bijection $\tau^{-1}$.<br />
+\[<br />
+\begin{array}{c|c}<br />
+\sigma &#038; (\vec{a},\pi) \\<br />
+\hline<br />
+(2,5)(3,4)(7,10)(8,9) &#038; ((1,1,1,1,1),(2,5)(3,4)) \\<br />
+(1,5,4,3,2)(6,10,9,8,7) &#038; ((1,1,1,1,1)(1,5,4,3,2)) \\<br />
+(1,6)(2,5)(3,4)(7,10)(8,9) &#038; ((-1,1,1,1,1),(2,5)(3,4)) \\<br />
+(1,10,9,3,2)(4,8,7,6,5) &#038; ((-1,1,1,-1,1),(1,5,4,3,2))<br />
+\end{array}<br />
+\]<br />
+giving the signed permutation matrices<br />
+\[<br />
+\begin{array}{c|cc}<br />
+&#038; x &#038; y \\<br />
+\hline<br />
+A &#038; \begin{bmatrix}<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 1 \\<br />
+1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \end{bmatrix} &#038;<br />
+\begin{bmatrix} 1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 1 \\<br />
+0 &#038; 0 &#038; 0 &#038; 1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \end{bmatrix}  \\<br />
+\hline<br />
+B &#038; \begin{bmatrix}<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; -1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 1 \\<br />
+-1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \end{bmatrix} &#038;<br />
+\begin{bmatrix}<br />
+-1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 1 \\<br />
+0 &#038; 0 &#038; 0 &#038; 1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \end{bmatrix}<br />
+\end{array}<br />
+\]<br />
+$D_5$ has $4$ conjugacy classes with representatives $e,y,x$ and $x^2$. the<br />
+<strong>character table</strong> of $D_5$ is<br />
+\[<br />
+\begin{array}{c|cccc}<br />
+&#038; (1) &#038; (2) &#038; (2) &#038; (5) \\<br />
+&#038; 1_a &#038; 5_1 &#038; 5_2 &#038; 2_a \\<br />
+D_5 &#038; e &#038; x &#038; x^2 &#038; y \\<br />
+\hline<br />
+T &#038; 1 &#038; 1 &#038; 1 &#038; 1 \\<br />
+V &#038; 1 &#038; 1 &#038; 1 &#038; -1 \\<br />
+W_1 &#038; 2 &#038; \tfrac{-1+ \sqrt{5}}{2} &#038; \tfrac{-1 -\sqrt{5}}{2} &#038; 0 \\<br />
+W_2 &#038; 2 &#038; \tfrac{-1 -\sqrt{5}}{2} &#038; \tfrac{-1+\sqrt{5}}{2}  &#038; 0<br />
+\end{array}<br />
+\]<br />
+Using the signed permutation matrices it is easy to determine the characters of the $5$-dimensional representations $A$ and $B$<br />
+\[<br />
+\begin{array}{c|cccc}<br />
+D_5 &#038; e &#038; x &#038; x^2 &#038; y \\<br />
+\hline<br />
+A &#038; 5 &#038; 0 &#038; 0 &#038; 1 \\<br />
+B &#038; 5 &#038; 0 &#038; 0 &#038; -1<br />
+\end{array}<br />
+\]<br />
+decomosing into $D_5$-irreducibles as<br />
+\[<br />
+A \simeq T \oplus W_1 \oplus W_2 \quad \text{and} \quad B \simeq V \oplus W_1 \oplus W_2 \]<br />
+Representation $A$ realises $D_5$ as a rotation symmetry group of the hypercube lattice $\mathbb{Z}^5$ in $\mathbb{R}^5$, and next we have to find a $D_5$-projection $\mathbb{R}^5=A \rightarrow W_1 = \mathbb{R}^2$.</p>
+<p>As a complex representation $A \downarrow_{C_5}$ decomposes as a direct sum of $1$-dimensional representations<br />
+\[<br />
+A \downarrow_{C_5} = V_1 \oplus V_{\zeta} \oplus V_{\zeta^2} \oplus V_{\zeta^3} \oplus V_{\zeta^4} \]<br />
+where $\zeta = e^{2 \pi i /5}$ and where the action of $x$ on $V_{\zeta^i}=\mathbb{C} v_i$ is given by $x.v_i = \zeta^i v_i$. The $x$-eigenvectors in $\mathbb{C}^5$ are<br />
+\[<br />
+\begin{cases}<br />
+v_0 = (1,1,1,1,1) \\<br />
+v_1 = (1,\zeta,\zeta^2,\zeta^3,\zeta^4) \\<br />
+v_2 =(1,\zeta^2,\zeta^4,\zeta,\zeta^3) \\<br />
+v_3 = (1,\zeta^3,\zeta,\zeta^4,\zeta^2) \\<br />
+v_4 = (1,\zeta^4,\zeta^3,\zeta^2,\zeta)<br />
+\end{cases}<br />
+\]<br />
+The action of $y$ on these vectors is given by $y.v_i = v_{5-i}$ because<br />
+\[<br />
+x.(y.v_i) = (xy).v_i=(yx^{-1}).v_i=y.(x^{-1}.v_i) = y.(\zeta^{-i} v_i) = \zeta^{-1} (y.v_i) \]<br />
+and therefore $y.v_i$ is an $x$-eigenvector with eigenvalue $\zeta^{5-i}$. As a complex $D_5$-representation, the factors of $A$ are therefore<br />
+\[<br />
+T = \mathbb{C} v_0, \quad W_1 = \mathbb{C} v_1 + \mathbb{C} v_4, \quad \text{and} \quad W_2 = \mathbb{C} v_2 + \mathbb{C} v_3 \]<br />
+But we want to consider $A$ as a real representation. As $\zeta^j = cos(\tfrac{2 \pi j}{5})+i~sin(\tfrac{2 \pi j}{5}) = c_j + i s_j$ hebben we can take the vectors in $\mathbb{R}^5$<br />
+\[<br />
+\begin{cases}<br />
+\frac{1}{2}(v_1+v_4) =  (1,c_1,c_2,c_3,c_4)= u_1 \\<br />
+-\frac{1}{2}i(v_1-v_4) = (0,s_1,s_2,s_3,s_4) = u_2 \\<br />
+\frac{1}{2}(v_2+v_3) =  (1,c_2,c_4,c1,c3)= w_1 \\<br />
+-\frac{1}{2}i(v_2-v_3) = (0,s_2,s_4,s_1,s_3)= w_2<br />
+\end{cases}<br />
+\]<br />
+and $A$ decomposes as a real $D_5$-representation with<br />
+\[<br />
+T = \mathbb{R} v_0, \quad W_1 = \mathbb{R} u_1 + \mathbb{R} u_2, \quad \text{and} \quad W_2 = \mathbb{R} w_1 + \mathbb{R} w_2 \]<br />
+and if we identify $\mathbb{C}$ with $\mathbb{R}^2$ via $z \leftrightarrow (Re(z),Im(z))$ we can describe the $D_5$-projection morphism $\pi_{W_1}~:~\mathbb{R}^5=A \rightarrow W_1=\mathbb{R}^2$ via<br />
+\[  (y_0,y_1,y_2,y_3,y_4) \mapsto y_0+y_1 \zeta + y_2 \zeta^2 + y_3 \zeta^3 + y_4 \zeta^4 = \sum_{i=0}^4 y_i (c_i,s_i) \]<br />
+Note also that $W_1$ is the orthogonal complement of $T \oplus W_2$, so is equal to the linear subspace in $\mathbb{R}^5$ determined by the three linear equations<br />
+\[<br />
+\begin{cases}<br />
+\sum_{i=0}^4 x_i = 0 \\<br />
+\sum_{i=0}^4 c_{2i} x_i = 0 \\<br />
+\sum_{i=0}^4 s_{2i} x_i = 0<br />
+\end{cases}<br />
+\]<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/pentagrid2.jpg" width=55% ><br />
+</center></p>
+<p />
+Okay, now take the Rhombic tiling corresponding to the regular pentagrid defined by $\gamma_0, \dots, \gamma_4$ satisfying $\sum_{i=0}^4 \gamma_i = 0$. Let $\vec{k}=(k_0,\dots,k_4) \in \mathbb{Z}^5$ and define the <strong>open hypercube</strong> $H_{\vec{k}}$ corresponding to $\vec{k}$ as the set of points<br />
+\[<br />
+(x_0,\dots,x_4) \in \mathbb{R}^5~:~\forall 0 \leq i \leq 4~:~k_i &#8211; 1 < x_i < k_i \]
+From the vector $\vec{\gamma} = (\gamma_0,\dots,\gamma_4)$ determining the Rhombic tiling we define the $2$-dimensional plane $P_{\vec{\gamma}}$ in $\mathbb{R}^5$ given by the equations
+\[
+\begin{cases}
+\sum_{i=0}^4 x_i = 0 \\
+\sum_{i=0}^4 c_{2i} (x_i - \gamma_i) = 0 \\
+\sum_{i=0}^4 s_{2i} (x_i - \gamma_i) = 0
+\end{cases}
+\]
+The point being that $P_{\vec{\gamma}}$ is the linear plane $W_1$ in $\mathbb{R}^5$ translated over the vector $\vec{\gamma}$, so it is parallel to $W_1$. Here's the punchline:
+
+
+
+<p />
+<strong>de Bruijn&#8217;s theorem</strong>: The vertices of the Rhombic tiling produced by the regular pentagrid with parameters $\vec{\gamma}=(\gamma_0,\dots,\gamma_4)$ are the points<br />
+\[<br />
+\sum_{i=0}^4 k_i (c_i,s_i) \]<br />
+with $\vec{k}=(k_0,\dots,k_4) \in \mathbb{Z}^5$ such that $H_{\vec{k}} \cap P_{\vec{\gamma}} \not= \emptyset$.</p>
+<p />
+To see this, let $\vec{x} = (x_0,\dots,x_4) \in P_{\vec{\gamma}}$, then $\vec{x}-\vec{\gamma} \in W_1$, but then there is a vector $\vec{y} \in \mathbb{R}^2$ such that<br />
+\[<br />
+x_j &#8211; \gamma_j = \vec{y}.\vec{v}_j \quad \forall~0 \leq j \leq 4 \]<br />
+But then, with $k_j=\lceil \vec{y}.\vec{v}_j + \gamma_j \rceil$ we have that $\vec{x} \in H_{\vec{k}}$ and we note that $V(\vec{y}) = \sum_{i=0}^4 k_i \vec{v}_i$ is a vetex of the Rhombic tiling associated to the regular pentagrid parameters $\vec{\gamma}=(\gamma_0,\dots,\gamma_4)$.</p>
+<p />Here we used regularity of the pentagrid in order to have that $k_j=\vec{y}.\vec{v}_j + \gamma_j$ can happen for at most two $j$&#8217;s, so we can manage to vary $\vec{y}$ a little in order to have $\vec{x}$ in the open hypercube.</p>
+<p />
+Here&#8217;s what we did so far: we have identified $D_5$ as a group of rotations in $\mathbb{R}^5$, preserving the hypercube-lattice $\mathbb{Z}^5$ in $\mathbb{R}^5$. If the $2$-plane $P_{\vec{\gamma}}$ is left stable under these rotations, then because rotations preserve distances, also the subset of lattice-points<br />
+\[<br />
+S_{\vec{\gamma}} = \{ (k_0,\dots,k_4)~|~H_{\vec{k}} \cap P_{\vec{\gamma}} \not= \emptyset \}  \subset \mathbb{Z}^5 \]<br />
+is left stable under the $D_5$-action. But, because the map<br />
+\[<br />
+(k_0,\dots,k_4) \mapsto \sum_{i=0}^4 k_i (c_i,s_i) \]<br />
+is the $D_5$-projection map $\pi : A \rightarrow W_1$, the vertices of the associated Rhombic tiling must be stable under the $D_5$-action on $W_1$, meaning that the Rhombic tiling should have a global $D_5$-symmetry.</p>
+<p />
+Sadly, the only plane $P_{\vec{\gamma}}$ left stable under all rotations of $D_5$ is when $\vec{\gamma} = \vec{0}$, which is an <strong>exceptionally singular</strong> pentagrid. If we project this situation we do indeed get an image with global $D_5$-symmetry<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/projectionexcepsingular.jpg" width=80% ><br />
+</center><br />
+but it is <strong>not</strong> a Rhombic tiling. What&#8217;s going on?</p>
+<p />
+Because this post is already dragging on for far too long (TL;DR), we&#8217;ll save the investigation of projections of singular pentagrids, how they differ from the regular situation, and how they determine multiple Rhombic tilings, for another time.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>de Bruijn&#8217;s pentagrids</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 11 Mar 2021 14:56:06 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[GoV]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[de Bruijn]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[Penrose tiling]]></category>
+		<category><![CDATA[rhombic tiling]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9227</guid>
+
+					<description><![CDATA[In a Rhombic tiling (aka a Penrose P3 tiling) we can identify five ribbons. Opposite sides of a rhomb are parallel. We may form a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In a Rhombic tiling (aka a <a href="https://lievenlebruyn.github.io/neverendingbooks/penroses-aperiodic-tilings">Penrose P3 tiling</a>) we can identify five <strong>ribbons</strong>.</p>
+<p>Opposite sides of a rhomb are parallel. We may form a ribbon by attaching rhombs along opposite sides. There are five directions taken by sides, so there are five families of ribbons that do not intersect, determined by the side directions.</p>
+<p>Every ribbon determines a skeleton curve through the midpoints of opposite sides of the rhombs. If we straighten these skeleton curves we get a de Bruijn&#8217;s pentagrid.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/penta1.jpg" width=100% ><br />
+</center></p>
+<p>A <strong>pentagrid</strong> is a grid of the plane consisting of five families of parallel lines, at angles multiples of $72^o = 360^o/5$, and with each family consisting of parallel lines with a <strong>spacing</strong> given by a number $\gamma_i$ for $0 \leq i \leq 4$, satisfying<br />
+\[<br />
+\gamma_0+\gamma_1+\gamma_2+\gamma_3+\gamma_4=0 \]</p>
+<p>The points of the plane in the $j$-th family of the pentagrid are<br />
+\[<br />
+\{ \vec{x} \in \mathbb{R}^2~|~\vec{x}.\vec{v}_j + \gamma_j \in \mathbb{Z} \} \]<br />
+where $\vec{v}_j = \zeta^j = (cos(2 \pi j/5),sin(2 \pi j/5))$.</p>
+<p>A pentagrid is <strong>regular</strong> if no point in $\mathbb{R}^2$ belongs to more than two of the five grids. For almost all choices $\gamma_0,\dots,\gamma_4$ the corresponding pentagrid is regular. The <strong>pentagrid coordinates</strong> of a point $\vec{x} \in \mathbb{R}^2$ are the five integers $(K_0(\vec{x}),\dots,K_4(\vec{x}) \in \mathbb{Z}^5$ defined by<br />
+\[<br />
+K_j(\vec{x}) = \lceil \vec{x}.\vec{v}_j + \gamma_j \rceil \]<br />
+with $\lceil r \rceil$ the smallest integer greater of equal to $r$, and clearly the function $K_j(\vec{x})$ is constant in regions between the $j$-th grid lines.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/penta2.jpg" width=40% ><br />
+</center></p>
+<p>With these pentagrid-coordinates one can associate a <strong>vertex</strong> to any point $\vec{x} \in \mathbb{R}^2$<br />
+\[<br />
+V(\vec{x}) = \sum_{j=0}^4 K_j(\vec{x}) \vec{v}_j \]<br />
+which is constant in regions between grid lines.</p>
+<p>Here&#8217;s <strong><a href="https://en.wikipedia.org/wiki/Nicolaas_Govert_de_Bruijn">de Bruijn</a>&#8216;s result</strong>:</p>
+<p>For $\vec{x}$ running over $\mathbb{R}^2$, the vertices $V(\vec{x})$ coming from a pentagrid determine a Rhombic tiling of the plane. Even better, every Rhombic tiling comes from a pentagrid.</p>
+<p><center><br />
+<img decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Nicolaas_de_Bruijn.jpg/440px-Nicolaas_de_Bruijn.jpg" width=40% ><br />
+</center></p>
+<p>We&#8217;ll prove this for regular pentagrids (the singular case follows from a small deformation).</p>
+<p>Any intersection point $\vec{x}_0$ of the pentagrid belongs to exactly two families of parallel lines, so we have two integers $r$ and $s$ with $0 \leq r < s \leq 4$ and integers $k_r,k_s \in \mathbb{Z}$ such that $\vec{x}_0$ is determined by the equations
+\[
+\begin{cases}
+\vec{x}.\vec{v}_r + \gamma_r = k_r \\ \vec{x}.\vec{v}_s + \gamma_s = k_s \end{cases} \]
+In a small neighborhood of $\vec{x}_0$, $V(\vec{x})$ takes the values of four vertices of a rhomb. These vertices are associated to the $5$-tuples in $\mathbb{Z}^5$ given by
+\[
+(K_0(\vec{x}_0),\dots,K_4(\vec{x}_0))+\epsilon_1 (\delta_{0r},\dots,\delta_{4r})+\epsilon_2 (\delta_{0s},\dots,\delta_{4s}) \]
+with $\epsilon_1,\epsilon_2 \in \{ 0,1 \}$.
+
+So, the intersection points of the regular pentagrid lines correspond to rhombs, and the regions between the grid lines (which are called <strong>meshes</strong>) correspond to vertices, whose positions are given by $V(\vec{x})$.</p>
+<p>Observe that these four vertices give a thin rhombus if the angle between $\vec{v}_r$ and $\vec{v}_s$ is $144^o$ and determine a thick rhombus if the angle is $72^o$.</p>
+<p>Not all pentagrid coordinates $(k_0,\dots,k_4)$ occur in the tiling though. For $\vec{x} \in \mathbb{R}^2$ we have<br />
+\[<br />
+K_j(\vec{x}) = \vec{x}.\vec{v}_j + \gamma_j + \lambda_j(\vec{x}) \]<br />
+with $0 \leq \lambda_j(\vec{x}) < 1$. In a regular pentagrid at most two of the $\lambda_j(\vec{x})$ can be zero and so we have
+\[
+0 < \lambda_0(\vec{x}) + \dots + \lambda_4(\vec{x}) < 5 \]
+and we have assumed that $\gamma_0 + \dots + \gamma_4 = 0$, giving us
+\[
+\sum_{j=0}^4 K_j(\vec{x}) = \vec{x}.(\sum_{j=0}^4 \vec{v}_j) + \sum_{j=0}^4 \gamma_j + \sum_{j=0}^4 \lambda_j(\vec{x}) = \sum_{j=0}^4 \lambda_j(\vec{x}) \]
+The left hand side must be an integers and the right hand side a number strictly between $0$ and $5$. This defines the <strong>index of a vertex</strong><br />
+\[<br />
+ind(\vec{x}) = \sum_{j=0}^4 K_j(\vec{x}) \in \{ 1,2,3,4 \} \]<br />
+Therefore, every vertex in the tiling may be represented as<br />
+\[<br />
+k_0 \vec{v}_0 + \dots + k_4 \vec{v}_4 \]<br />
+with $(k_0,\dots,k_4) \in \mathbb{Z}^5$ satisfying $\sum_{j=0}^4 k_j \in \{ 1,2,3,4 \}$. If we move a point along the edges of a rhombus, we note that the index increases by $1$ in the directions of $\vec{v}_0,\dots,\vec{v}_4$ and decreases by $1$ in the directions $-\vec{v}_0,\dots,-\vec{v}_4$.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/penta3.jpg" width=80% ><br />
+</center></p>
+<p>It follows that the index-values of the vertices of a <strong>thick rhombus</strong> are either $1$ and $3$ at the $72^o$ angles and $2$ at the $108^o$ angles, or they are $2$ and $4$ at the $72^o$ angles, and $3$ at the $108^o$ angles. For a <strong>thin rhombus</strong> the index-values must be either $1$ and $3$ at the $144^o$ angles and $2$ at the $36^o$ angles, or $2$ and $4$ at the $144^o$ angles and $3$ at the $36^o$ angles.</p>
+<p>We still have to show that this gives a legal Rhombic tiling, that is, that the gluing restrictions of Penrose&#8217;s rhombs are satisfied.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/rhombsmatching.jpg" width=30% ><br />
+</center></p>
+<p>We do this by orienting and colouring the edges of the thin and thick rhombus towards the vertex defined by the semi-circles on the rhombus-pieces. Edges connecting a point of index $3$ to a point of index $2$ are coloured red, edges connecting a point of index $1$ to a point of index $2$, or connecting a point of index $3$ to one of index $4$ are coloured blue.</p>
+<p>We orient green edges pointing from index $2$ to index $1$, or from index $3$ to index $4$. As this orientation depends only on the index-values of the vertices, two rhombs sharing a common green edge also have the same orientation on that edge.</p>
+<p>On each individual rhomb, knowing the green edges and their orientation forced the red edges and their orientation, but we still have to show that if two rhombs share a common red edge, this edge has the same orientation on both (note in the picture above that a red edge can both flow from $2$ to $3$ as well as from $3$ to $2$).</p>
+<p>From the gluing conditions of Penrose&#8217;s rhombs we see that if  $PQ$ be a red edge, in common to two rhombs, and these rhombs have angle $\alpha$ resp. $\beta$ in $P$, then $\alpha$ and $\beta$ must be both less that $90^o$ or both bigger than $90^o$. We translate this in terms of the pentragrid.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/penta4.jpg" width=80% ><br />
+</center></p>
+<p>The two rhombs correspond to two intersection points $A$ and $B$, and we may assume that they both lie on a line $l$ of family $0$ of parallel lines (other cases are treated similarly by cyclic permutation), and that $A$ is an intersection with a family $p$-line and $B$ with a family $q$-line, with $p,q \in \{ 1,2,3,4 \}$. The interval $AB$ crosses the unique edge common to the two rhombs determined by $A$ and $B$, and we call the interval $AB$ red if $\sum_j K_j(\vec{x})$ is $2$ on one side of $AB$ and $3$ on the other side. The claim about the angles $\alpha$ and $\beta$ above now translates to: if $AB$ is red, then $p+q$ is odd (in the picture above $p=1$ and $q=2$).</p>
+<p>By a transformation we may assume that $\gamma_0=0$ and that $l$ is the $Y$-axis. For every $y \in \mathbb{R}$ we then get<br />
+\[<br />
+\begin{cases}<br />
+K_1(0,y) = \lceil y .sin(2 \pi/5) + \gamma_1 \rceil \\<br />
+K_2(0,y) = \lceil y .sin(4 \pi/5) + \gamma_2 \rceil \\<br />
+K_3(0,y) = \lceil -y .sin(4 \pi/5) + \gamma_3 \rceil \\<br />
+K_4(0,y) = \lceil -y .sin(2 \pi/5) + \gamma_4 \rceil<br />
+\end{cases}<br />
+\]<br />
+and $\gamma_1+\gamma_4$ and $\gamma_2+\gamma_3$ are not integers (otherwise the pentagrid is not regular). If $y$ runs from $-\infty$ to $+\infty$ we find that<br />
+\[<br />
+K_1(0,y)+K_4(0,y) &#8211; \lceil \gamma_1 + \gamma_4 \rceil = \begin{cases} 0 \\ 1 \end{cases} \]<br />
+with jumps from $0$ to $1$ at places where $(\lceil \gamma_1 + \gamma_4 \rceil &#8211; \gamma_1)/sin(2 \pi/5) \in \mathbb{Z}$ and from $1$ to $0$ when $\gamma_4/sin(2 \pi/5) \in \mathbb{Z}$. (A similar result holds replacing $K_1,K_4,\gamma_1,\gamma_4,sin(2 \pi/5)$ by $K_2,K_3,\gamma_2,\gamma_3,sin(4 \pi/5)$.</p>
+<p>Because the points on $l$ intersecting with $1$-family and $4$-family gridlines alternate (and similarly for $2$- and $3$-family gridlines) we know already that $p \not= q$. If we assume that $p+q$ is even, we have two possibilities, either $\{p,g \}=\{ 1,3 \}$ or $\{ 2,4 \}$. As $\gamma_0=0$ we have $\gamma_1+\gamma_2+\gamma_3+\gamma_4=0$ and therefore<br />
+\[<br />
+\lceil \gamma_1 + \gamma_4 \rceil + \lceil \gamma_2+\gamma_3 \rceil = 1 \]<br />
+It then follows that $K_1(0,y)+K_2(0,y)+K_3(0,y)+K_4(0,y) = 1$ or $3$ between the points $A$ and $B$. Therefore $K_0(y,0) + \dots + K_4(0,y)$ is either $1$ on the left side and $2$ on the right side, or is $3$ on the left side and $4$ on the right side, so $AB$ must be green, a contradiction. Therefore, $p+q$ is odd, and the orientation of the red edge in both rhombs is the same. Done!</p>
+<p>An alternative way to see this correspondence between regular pentagrids and Rhombic tilings as as follows. To every intersection of two gridlines we assign a rhombus, a thin one if they meet at an acute angle of $36^o$ and a thich one if this angle is $72^o$, with the long diagonal dissecting the obtuse angle.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/penta5.jpg" width=50% ><br />
+</center></p>
+<p>Do this for all intersections, surrounding a given mesh.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/penta6.jpg" width=70% ><br />
+</center></p>
+<p>Attach the rhombs by translating them towards the mesh, and finally draw the colours of the edges.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/penta7.jpg" width=70% ><br />
+</center></p>
+<p>Another time, we will connect this to the <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences-2">cut-and-project method</a>, using the representation theory of $D_5$.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>GoV 2 : Viruses and quasi-crystals</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 26 Feb 2021 11:14:00 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[GoV]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[de Bruijn]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[quasicrystal]]></category>
+		<category><![CDATA[Twarock]]></category>
+		<category><![CDATA[Zappa]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8940</guid>
+
+					<description><![CDATA[If you look around for mathematical theories of the structure of viruses, you quickly end up with the work of Raidun Twarock and her group&#8230;]]></description>
+										<content:encoded><![CDATA[<p>If you look around for mathematical theories of the structure of viruses, you quickly end up with the work of <a href="https://www.york.ac.uk/maths/staff/reidun-twarock/">Raidun Twarock</a> and her group at the University of York.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/virustiling1.jpg" width=70%><br />
+</center></p>
+<p>We&#8217;ve <a href="https://lievenlebruyn.github.io/neverendingbooks/gov-1-geometry-of-viruses">seen</a> her proposal to extend the Caspar-Klug classification of viruses. Her novel idea to distribute proteins on the viral capsid along Penrose-like tilings shouldn&#8217;t be taken too literally. The inherent aperiodic nature of <a href="https://en.wikipedia.org/wiki/Penrose_tiling">Penrose tiles</a> doesn&#8217;t go together well with perfect tilings of the sphere.</p>
+<p>Instead, the observation that these capsid tilings resemble somewhat Penrose tilings is a side-effect of another great idea of the York group. Recently, they borrowed techniques from the theory of <a href="https://en.wikipedia.org/wiki/Quasicrystal">quasicrystals</a> to gain insight in the inner structure of viruses, in particular on the interaction of the capsid with the genome.</p>
+<p>By the <a href="https://en.wikipedia.org/wiki/Crystallographic_restriction_theorem#:~:text=The%20crystallographic%20restriction%20theorem%20in,fold%2C%20and%206%2Dfold.&#038;text=Crystals%20are%20modeled%20as%20discrete,finite%20translations%20(Coxeter%201989).">crystallographic restriction theorem</a> no $3$-dimensional lattice can have icosahedral symmetry. But, we can construct aperiodic structures (quasicrystals) which have local icosahedral structure, much like Penrose tilings have local $D_5$-symmetry</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/PenroseTiling1.jpg" width=100% ></p>
+<p>This is best explained by <a href="https://en.wikipedia.org/wiki/Nicolaas_Govert_de_Bruijn">de Bruijn</a>&#8216;s theory of pentagrids (more on that another time). Here I&#8217;ll just mention the representation-theoretic idea.</p>
+<p>The isometry group of the standard $5$-dimensional lattice $\mathbb{Z}^5$ is the group of all signed permutation $5 \times 5$ matrices $B_5$ (Young&#8217;s <a href="https://en.wikipedia.org/wiki/Hyperoctahedral_group">hyperoctahedral group</a>). There are two distinct conjugacy classes of subgroups in $B_5$ isomorphic to $D_5$, one such subgroup generated by the permutation matrices<br />
+\[<br />
+x= \begin{bmatrix}<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 1 \\<br />
+1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \end{bmatrix} \qquad \text{and} \qquad<br />
+y = \begin{bmatrix} 1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 1 \\<br />
+0 &#038; 0 &#038; 0 &#038; 1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \end{bmatrix}  \]<br />
+The traces of $x,x^2$ and $y$, together with the <a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/1/D5.html">character table of $D_5$</a> tell us that this $5$-dimensional $D_5$-representation splits as the direct sum of the trivial representation and of the two irreducible $2$-dimensional representations.<br />
+\[<br />
+\mathbb{R}^5 = A \simeq T \oplus W_1 \oplus W_2 \]<br />
+with $T = \mathbb{R} d$, $W_1 = \mathbb{R} u_1 + \mathbb{R} u_2$ and $W_2 = \mathbb{R} w_1 + \mathbb{R} w_2$ where<br />
+\[<br />
+\begin{cases}<br />
+(1,1,1,1,1)=d \\<br />
+(1,c_1,c_2,c_3,c_4)= u_1 \\<br />
+(0,s_1,s_2,s_3,s_4) = u_2 \\<br />
+(1,c_2,c_4,c1,c3)= w_1 \\<br />
+(0,s_2,s_4,s_1,s_3)= w_2<br />
+\end{cases}<br />
+\]<br />
+and $c_j=cos(2\pi j/5)$ and $s_j=sin(2 \pi/5)$. We have a $D_5$-projection<br />
+\[<br />
+\pi : A \rightarrow W_1 \quad (y_0,\dots,y_4) \mapsto \sum_{i=0}^4 y_i(c_i u_1+s_i u_2) \]<br />
+The projection maps the vertices of the $5$-dimensional hypercube to a planar configuration with $D_5$-symmetry.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/5cube.jpg" width=50% ><br />
+</center></p>
+<p>de Bruijn&#8217;s results say that if we take suitable &#8216;windows&#8217; of lattice-points in $\mathbb{Z}^5$ and project them via the $D_5$-equivariant map $\pi$ onto the plane, then the images of these lattice points become the vertices of a <a href="https://en.wikipedia.org/wiki/Penrose_tiling#Rhombus_tiling_(P3)">rhombic Penrose tiling</a> (and we get all such tilings by choosing our window carefully).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Penrosetiling.jpg" width=80% ><br />
+</center></p>
+<p>This explains why Penrose tilings have a local $D_5$-symmetry. I&#8217;ll try to come back to de Bruijn&#8217;s papers in future posts.</p>
+<p>But, let&#8217;s go back to viruses and the work of Twarock&#8217;s group using methods from quasicrystals. Such aperiodic structures with a local icosahedral symmetry can be constructed along similar lines. This time one starts with the standard $6$-dimensional lattice $\mathbb{Z^6}$ with isometry group $B_6$ (signed $6 \times 6$ permutation matrices).</p>
+<p>This group has three conjugacy classes of subgroups isomorphic to $A_5$, but for only one of them this $6$-dimensional representation decomposes as the direct sum of the two irreducible $3$-dimensional <a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/1/A5.html">representations of $A_5$</a> (the decompositions in the two other cases contain an irreducible of dimension $4$ or $5$ together with trivial factor(s)). A representant of the crystallographic relevant case is given by the signed permutation matrices<br />
+\[<br />
+x= \begin{bmatrix}<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; -1 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; -1 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; -1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 0 &#038; -1<br />
+\end{bmatrix} \qquad \text{and} \qquad y=<br />
+\begin{bmatrix}<br />
+0 &#038; 0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 \\<br />
+1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 1 &#038; 0 &#038; 0 &#038; 0 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; -1 &#038; 0 \\<br />
+0 &#038; 0 &#038; 0 &#038; 0 &#038; 0 &#038; 1  \\<br />
+0 &#038; 0 &#038; 0 &#038; -1 &#038; 0 &#038; 0<br />
+\end{bmatrix} \]</p>
+<p>Again, using suitable windows of $\mathbb{Z}^6$-lattice points and using the $A_5$-equivariant projection to one of the two $3$-dimensional components, one obtains quasicrystals with local $A_5$-symmetry.</p>
+<p>In this $3$-dimensional case the replacements of the thick and thin rhombi are these four parallellepipeda, known as the Amman blocks<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/AmmanTiles.jpg" width=60% ><br />
+</center></p>
+<p>which must be stacked together obeying the gluing condition that dots of the same colour must be adjacent.</p>
+<p>Has anyone looked at a possible connection between the four Amman blocks (which come in pairs) and the four (paired) nucleotides in DNA? Just an idle thought&#8230;</p>
+<p>These blocks grow into quasicrystals with local icosahedral symmetry.<br />
+<center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tiling3D2.jpg" width=80% ><br />
+</center></p>
+<p>The faces on the boundary of such a sphere-like quasicrystal then look a lot like a Penrose tiling.</p>
+<p>How can we connect these group and representation-theoretic ideas to the structure of viruses? Here&#8217;s another thought-provoking proposal coming from the York group.</p>
+<p>Take the $A_5$ subgroup of the hyperoctahedral group in six dimensiona $B_6$ generated by the above two matrices (giving a good $A_5$-equivariant projection $\pi$ to three dimensional space) and consider an intermediate group<br />
+\[<br />
+A_5 \subsetneq G \subseteq B_6 \]<br />
+Take a point in $\mathbb{R}^6$ and look at its orbit under the isometries of $G$, then all these points have the same distance from the origin in $\mathbb{R}^6$. Now, project this orbit under $\pi$ to get a collection of points in $\mathbb{R}^3$.</p>
+<p>As $\pi$ is only $A_5$-equivariant (and not $G$-equivariant) the image points may lie in different shells from the origin. We can try to relate these shells of points to observational data on the inner structures of viruses.</p>
+<p>Here&#8217;s a pretty convincing instance of such a correlation, taken from the thesis by Emilio Zappa <a href="http://etheses.whiterose.ac.uk/10124/1/Zappa%20PhD%20Thesis%20NEW.pdf">&#8220;New group theoretical methods for applications in virology and quasicrystals&#8221;</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/hepatitis.jpg" width=80% ><br />
+</center></p>
+<p>This is the inner structure of the Hepatitis B virus, showing the envelope (purple), capsid protein (cream) and genome (light blue). The coloured dots are the image points in the different shells around the origin.</p>
+<p>Do viruses invade us from the sixth dimension??</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

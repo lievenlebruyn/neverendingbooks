@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>vetex algebra &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/vetex-algebra/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 30 Apr 2021 10:35:55 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>a monstrous unimodular lattice</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 30 Apr 2021 10:35:55 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Carnahan]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[lattice]]></category>
+		<category><![CDATA[Leech]]></category>
+		<category><![CDATA[Niemeier]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[vetex algebra]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9722</guid>
+
+					<description><![CDATA[An integral $n$-dimensional lattice $L$ is the set of all integral linear combinations \[ L = \mathbb{Z} \lambda_1 \oplus \dots \oplus \mathbb{Z} \lambda_n \] of&#8230;]]></description>
+										<content:encoded><![CDATA[<p>An integral $n$-dimensional lattice $L$ is the set of all integral linear combinations<br />
+\[<br />
+L = \mathbb{Z} \lambda_1 \oplus \dots \oplus \mathbb{Z} \lambda_n \]<br />
+of base vectors $\{ \lambda_1,\dots,\lambda_n \}$ of $\mathbb{R}^n$, equipped with the usual (positive definite) inner product, satisfying<br />
+\[<br />
+(\lambda, \mu ) \in \mathbb{Z} \quad \text{for all $\lambda,\mu \in \mathbb{Z}$.} \]<br />
+But then, $L$ is contained in its dual lattice $L^* = Hom_{\mathbb{Z}}(L,\mathbb{Z})$, and if $L = L^*$ we say that $L$ is <em>unimodular</em>.</p>
+<p>If all $(\lambda,\lambda) \in 2 \mathbb{Z}$, we say that $L$ is an <em>even</em> lattice. Even unimodular lattices (such as the <a href="https://en.wikipedia.org/wiki/E8_lattice">$E_8$-lattice</a> or the $24$ <a href="https://en.wikipedia.org/wiki/Niemeier_lattice">Niemeier lattices</a>) are wonderful objects, but they can only live in dimensions $n$ which are multiples of $8$.</p>
+<p>Just like the <a href="https://en.wikipedia.org/wiki/Conway_group">Conway group</a> $Co_0 = .0$ is the group of rotations of the <a href="https://en.wikipedia.org/wiki/Leech_lattice">Leech lattice</a> $\Lambda$, one might ask whether there is a very special lattice on which the <a href="https://en.wikipedia.org/wiki/Monster_group">Monster group</a> $\mathbb{M}$ acts faithfully by rotations. If such a lattice exists, it must live in dimension at least $196883$.</p>
+<p><center><br />
+<img decoding="async" src="https://i.guim.co.uk/img/media/bc95794cf65cea461c38998357310576053a8cf9/0_55_1024_614/master/1024.jpg?width=445&#038;quality=45&#038;auto=format&#038;fit=max&#038;dpr=2&#038;s=48bd9bddca846a7afae589fd4fea01a3" width=100%><br />
+Simon Norton (1952-2019) &#8211; <a href="https://www.theguardian.com/education/2019/feb/22/simon-norton-obituary">Photo Credit</a><br />
+</center></p>
+<p>A first hint of such a lattice is in Conway&#8217;s original paper <a href="https://eudml.org/doc/143210">A simple construction for the Fischer-Griess monster group</a> (but not in the corresponding chapter 29 of <a href="http://neilsloane.com/doc/splag.html">SPLAG</a>).</p>
+<p>Conway writes that <a href="https://en.wikipedia.org/wiki/Simon_P._Norton">Simon Norton</a> showed &#8216;by a very simple computations that does not even require knowledge of the conjugacy classes, that any $198883$-dimensional representation of the Monster must support an invariant algebra&#8217;, which, after adding an identity element $1$, we now know as the $196884$-dimensional <a href="https://en.wikipedia.org/wiki/Griess_algebra">Griess algebra</a>.</p>
+<p>Further, on page 529, Conway writes:</p>
+<blockquote><p>Norton has shown that the lattice $L$ spanned by vectors of the form $1,t,t \ast t&#8217;$, where $t$ and $t&#8217;$ are transposition vectors, is closed under the algebra multiplication and integral with respect to the doubled inner product $2(u,v)$. The dual quotient $L^*/L$ is cyclic of order some power of $4$, and we believe that in fact $L$ is unimodular.</p></blockquote>
+<p>Here, transposition vectors correspond to transpositions in $\mathbb{M}$, that is, elements of conjugacy class $2A$.</p>
+<p>I only learned about this lattice yesterday via the MathOverflow-post <a href="https://mathoverflow.net/questions/363373/a-lattice-with-monster-group-symmetries">A lattice with Monster group symmetries</a> by <a href="https://mathoverflow.net/users/39521/adam-p-goucher">Adam P. Goucher</a>.</p>
+<p>In his post, Adam considers the $196883$-dimensional lattice $L&#8217; = L \cap 1^{\perp}$ (which has $\mathbb{M}$ as its rotation symmetry group), and asks for the minimal norm (squared) of a lattice point, which he believes is $448$, and for the number of minimal vectors in the lattice, which might be<br />
+\[<br />
+2639459181687194563957260000000 = 9723946114200918600 \times 27143910000 \]<br />
+the number of oriented arcs in the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">Monster graph</a>.</p>
+<p>Here, the Monster graph has as its vertices the elements of $\mathbb{M}$ in conjugacy class $2A$ (which has $9723946114200918600$ elements) and with an edge between two vertices if their product in $\mathbb{M}$ again belongs to class $2A$, so the valency of the graph must be $27143910000$, as explained in  that old post <a href="https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation">the monster graph and McKay&#8217;s observation</a>.</p>
+<p>When I asked Adam whether he had more information about his lattice, he kindly informed me that Borcherds told him that the Norton lattice $L$ didn&#8217;t turn out to be unimodular after all, but that a unimodular lattice with monstrous symmetry had been constructed by <a href="http://www.math.tsukuba.ac.jp/~carnahan/">Scott Carnahan</a> in the paper <a href="https://www.emis.de/journals/SIGMA/2019/030/sigma19-030.pdf">A Self-Dual Integral Form of the Moonshine Module</a>.</p>
+<p><center><br />
+<img decoding="async" src="http://www.math.tsukuba.ac.jp/~carnahan/board.jpeg" width=100%><br />
+Scott Carnahan &#8211; <a href="http://www.math.tsukuba.ac.jp/~carnahan/">Photo Credit</a><br />
+</center></p>
+<p>The major steps (or better, the little bit of it I could grasp in this short time) in the construction of this unimodular $196884$-dimensional monstrous lattice might put a smile on your face if you are an affine scheme aficionado.</p>
+<p>Already in his paper <a href="https://math.berkeley.edu/~reb/papers/va/va.pdf">Vertex algebras, Kac-Moody algebras, and the Monster</a>, Richard Borcherds described an integral form of any lattice vertex algebra. We&#8217;ll be interested in the lattice vertex algebra $V_{\Lambda}$ constructed from the Leech lattice $\Lambda$ and call its integral form $(V_{\Lambda})_{\mathbb{Z}}$.</p>
+<p>One constructs the <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine#The_monster_module">Moonshine module</a> $V^{\sharp}$ from $V_{\Lambda}$ by a process called &#8216;cyclic orbifolding&#8217;, a generalisation of the <a href="https://www.elsevier.com/books/vertex-operator-algebras-and-the-monster/frenkel/978-0-12-267065-7">original construction</a> by Frenkel, Lepowsky and Meurman. In fact, there are now no less than <a href="https://arxiv.org/abs/1707.02954">51 constructions of the moonshine module</a>.</p>
+<p>One starts with a fixed point free rotation $r_p$ of $\Lambda$ in $Co_0$ of prime order $p \in \{ 2,3,5,7,13 \}$, which one can lift to an automorphism $g_p$ of the vertex algebra $V_{\Lambda}$ of order $p$ giving an isomorphism $V_{\Lambda}/g_p \simeq V^{\sharp}$ of vertex operator algebras over $\mathbb{C}$.</p>
+<p>For two distinct primes $p,p&#8217; \in \{ 2,3,5,7,13 \}$ if $Co_0$ has an element of order $p.p&#8217;$ one can find one such $r_{pp&#8217;}$ such that $r_{pp&#8217;}^p=r_{p&#8217;}$ and $r_{pp&#8217;}^{p&#8217;}=r_p$, and one can lift $r_{pp&#8217;}$ to an automorphism $g_{pp&#8217;}$ of $V_{\Lambda}$ such that $V_{\Lambda}/g_{pp&#8217;} \simeq V_{\Lambda}$ as vertex operator algebras over $\mathbb{C}$.</p>
+<p>Problem is that these lifts of automorphisms and the isomorphisms are not compatible with the integral form $(V_{\Lambda})_{\mathbb{Z}}$ of $V_{\Lambda}$, but &#8216;essentially&#8217;, they can be performed on<br />
+\[<br />
+(V_{\Lambda})_{\mathbb{Z}} \otimes_{\mathbb{Z}} \mathbb{Z}[\frac{1}{pp&#8217;},\zeta_{2pp&#8217;}] \]<br />
+where $\zeta_{2pp&#8217;}$ is a primitive $2pp&#8217;$-th root of unity. These then give a $\mathbb{Z}[\tfrac{1}{pp&#8217;},\zeta_{2pp&#8217;}]$-form on $V^{\sharp}$.</p>
+<p>Next, one uses a lot of subgroup information about $\mathbb{M}$ to prove that these $\mathbb{Z}[\tfrac{1}{pp&#8217;},\zeta_{2pp&#8217;}]$-forms of $V^{\sharp}$ have $\mathbb{M}$ as their automorphism group.</p>
+<p>Then, using all his for different triples in $\{ 2,3,5,7,13 \}$ one can glue and use faithfully flat descent to get an integral form $V^{\sharp}_{\mathbb{Z}}$ of the moonshine module with monstrous symmetry and such that the inner product on $V^{\sharp}_{\mathbb{Z}}$ is positive definite.</p>
+<p>Finally, one looks at the weight $2$ subspace of $V^{\sharp}_{\mathbb{Z}}$ which gives us <del datetime="2021-04-30T15:00:49+00:00">our</del> <em>Carnahan&#8217;s</em> $196884$-dimensional unimodular lattice with monstrous symmetry!</p>
+<p>Beautiful as this is, I guess it will be a heck of a project to deduce even the simplest of facts about this wonderful lattice from running through this construction.</p>
+<p>For example, what is the minimal length of vectors? What is the number of minimal length vectors? And so on. All info you might have is very welcome.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

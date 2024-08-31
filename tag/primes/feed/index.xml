@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>primes &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/primes/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 03 Dec 2017 09:53:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Arithmetic topology in Quanta</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/arithmetic-topology-in-quanta/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/arithmetic-topology-in-quanta/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2017 09:53:09 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[arithmetic topology]]></category>
+		<category><![CDATA[knots]]></category>
+		<category><![CDATA[Minhyong Kim]]></category>
+		<category><![CDATA[primes]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7374</guid>
+
+					<description><![CDATA[Consider subscribing to the feed of the mathematics section of Quantamagazine. The articles there are invariably of high quality and quite informative. Their latest is&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Consider subscribing to the feed of the <a href="https://www.quantamagazine.org/mathematics/">mathematics section of Quantamagazine</a>.</p>
+<p>The articles there are invariably of high quality and quite informative.</p>
+<p>Their latest is <a href="https://www.quantamagazine.org/secret-link-uncovered-between-pure-math-and-physics-20171201/">Secret Link Uncovered Between Pure Math and Physics</a> by Kevin Hartnett.</p>
+<p>It features the work by number-theorist <a href="https://www.maths.ox.ac.uk/people/minhyong.kim">Minhyong Kim</a> of Oxford University.</p>
+<p><center><br />
+<img decoding="async" src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2017/12/MHK_2K_01.jpg"><br />
+</center></p>
+<p>In it, Minhyong Kim comes out of the closet, revealing that many of his results on rational points of algebraic curves were inspired by analogies he sees between number theory and physics.</p>
+<p>So far he refrained from mentioning this inspiration in papers because “Number theorists are a pretty tough-minded group of people,” he said.</p>
+<p>Yesterday, Peter Woit had a post on this <a href="http://www.math.columbia.edu/~woit/wordpress/?p=9777">on his blog &#8216;Not Even Wrong&#8217;</a>, stuffed with interesting links to recent talks and papers by Minhyong Kim.</p>
+<p>Minhyong Kim&#8217;s ideas grew out the topic of <a href="https://ncatlab.org/nlab/show/arithmetic+topology">arithmetic topology</a>, that is, the analogy between number rings and $3$-dimensional compact manifolds and between their prime ideals and embedded knots.</p>
+<p>In this analogy, which is based on the similarity between finite connected covers of manifolds on the one hand and connected etale extensions of rings on the other, the prime spectrum of $\mathbb{Z}$ should correspond (due to Minkowski&#8217;s result on discriminants and Perelman&#8217;s proof of the Poincare-conjecture) to the $3$-sphere $S^3$.</p>
+<p>I&#8217;ve written more about this analogy here:</p>
+<p>&#8211; <a href="https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary">Mazur&#8217;s knotty dictionary</a>.</p>
+<p>&#8211; <a href="https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime">What is the knot associated to a prime?</a></p>
+<p>&#8211; <a href="https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy">Who dreamed up the knots=primes analogy?</a></p>
+<p>&#8211; <a href="https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy">The birthday of the primes=knots analogy</a>.</p>
+<p>And probably I&#8217;ll mention it later this month when I give a couple of talks at the <a href="https://thefunseminarsghent.wordpress.com/">$\mathbb{F}_1$-seminar in Ghent</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/arithmetic-topology-in-quanta/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Who dreamed up the primes=knots analogy?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 16 May 2011 12:17:45 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[knots]]></category>
+		<category><![CDATA[Manin]]></category>
+		<category><![CDATA[MathOverflow]]></category>
+		<category><![CDATA[Mazur]]></category>
+		<category><![CDATA[Mumford]]></category>
+		<category><![CDATA[nonsense]]></category>
+		<category><![CDATA[primes]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4906</guid>
+
+					<description><![CDATA[One of the more surprising analogies around is that prime numbers can be viewed as knots in the 3-sphere $S^3$. The motivation behind it is&#8230;]]></description>
+										<content:encoded><![CDATA[<p>One of the more surprising analogies around is that prime numbers can be viewed as knots in the 3-sphere $S^3$. The motivation behind it is that the (etale) fundamental group of $\pmb{spec}(\mathbb{Z}/(p))$ is equal to (the completion) of the fundamental group of a circle $S^1$ and that the embedding</p>
+<p>$\pmb{spec}(\mathbb{Z}/(p)) \subset \pmb{spec}(\mathbb{Z})$</p>
+<p>embeds this circle as a knot in a 3-dimensional simply connected manifold which, after Perelman, has to be $S^3$. For more see the <a href="https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime">what is the knot associated to a prime?-post</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/primescircles.jpg"></p>
+<p>In recent months new evidence has come to light allowing us to settle the genesis of this marvelous idea.</p>
+<p><strong>1. The former consensus</strong></p>
+<p>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/BarryMazur85.jpg" align=left hspace=10 > Until now, the generally accepted view (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mazurs-dictionary.html">the &#8216;Mazur-dictionary-post&#8217;</a> or <a href="http://arxiv.org/abs/0904.3399">Morishita&#8217;s expository paper</a>) was that the analogy between knots and primes was first pointed out by <a href="http://en.wikipedia.org/wiki/Barry_Mazur">Barry Mazur</a> in the middle of the 1960&#8217;s when preparing for his lectures at the Summer Conference on Algebraic Geometry, at Bowdoin, in 1966. The lecture notes where later published in 1973 in the Annales of the ENS as &#8216;Notes on etale cohomology of number fields&#8217;.</p>
+<p>For further use in this series of posts, please note the acknowledgement at the bottom of the first page, reproduced below : &#8220;It gives me pleasure to thank J.-P. Serre for his vigorous editing and his suggestions and corrections, which led to this revised version.&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/Mazur1973.jpg"></p>
+<p>Independently, <a href="http://en.wikipedia.org/wiki/Yuri_I._Manin">Yuri I. Manin</a> spotted the same analogy at around the same time. However, this point of view was quickly forgotten in favor of the more classical one of viewing number fields as analogous to algebraic function fields of one variable. Subsequently, in the mid 1990&#8217;s <a href="http://www.math.toronto.edu/kapranov/">Mikhail Kapranov</a> and <a href="http://books.google.com/books?id=nLaWI8Rc9RYC&amp;dq=Alexander+Reznikov&amp;printsec=frontcover&amp;source=bl&amp;ots=GoAknn2TfZ&amp;sig=eHgN5X04za1PgSfIq2_zhM-D-LQ&amp;hl=en&amp;sa=X&amp;oi=book_result&amp;resnum=3&amp;ct=result">Alexander Reznikov</a> took up the analogy between number fields and 3-manifolds again, and called the resulting study <a href="http://en.wikipedia.org/wiki/Arithmetic_topology">arithmetic topology</a>.</p>
+<p><strong>2. The new evidence</strong></p>
+<p>On december 13th 2010, <a href="http://mathoverflow.net/users/10909/david-feldman">David Feldman</a> posted a MathOverflow-question <a href="http://mathoverflow.net/questions/49303/mazurs-unpublished-manuscript-on-primes-and-knots">Mazur’s unpublished manuscript on primes and knots?</a>. He wrote : &#8220;The story of the analogy between knots and primes, which now has a literature, started with an unpublished note by Barry Mazur. I&#8217;m not absolutely sure this is the one I mean, but in his paper, Analogies between group actions on 3-manifolds and number fields, Adam Sikora cites <strong>B. Mazur, Remarks on the Alexander polynomial, unpublished notes.</strong>&#8220;</p>
+<p>Two months later, on february 15th David Feldman suddenly found the missing preprint in his mail-box and made it <a href="http://ifile.it/rodc5is/mazur.pdf">available</a>. The preprint is now also available from Barry Mazur&#8217;s <a href="http://www.math.harvard.edu/~mazur/">website</a>. Mazur adds the following comment :</p>
+<p>&#8220;In 1963 or 1964 I wrote an article <a href="http://www.math.harvard.edu/~mazur/papers/alexander_polynomial.pdf">Remarks on the Alexander Polynomial [PDF]</a> about the analogy between knots in the three-dimensional sphere and prime numbers (and, correspondingly, the relationship between the Alexander polynomial and Iwasawa Theory). I distributed some copies of my article but never published it, and I misplaced my own copy. In subsequent years I have had many requests for my article and would often try to search through my files to find it, but never did. A few weeks ago Minh-Tri Do asked me for my article, and when I said I had none, he very kindly went on the web and magically found a scanned copy of it. I&#8217;m extremely grateful to Minh-Tri Do for his efforts (and many thanks, too, to David Feldman who provided the lead).&#8221;</p>
+<p>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/DavidMumford.jpg" align=right hspace=10 ><br />
+The opening paragraph of this unpublished preprint contains a major surprise!</p>
+<p> Mazur points to <a href="http://en.wikipedia.org/wiki/David_Mumford">David Mumford</a> as the originator of the &#8216;primes-are-knots&#8217; idea : &#8220;Mumford has suggested a most elegant model as a geometric interpretation of the above situation : $\pmb{spec}(\mathbb{Z}/p\mathbb{Z})$ is like a one-dimensional knot in $\pmb{spec}(\mathbb{Z})$ which is like a simply connected three-manifold.&#8221;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/MazurPreprint.jpg"></p>
+<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy"> a later post</a> we will show that one can even pinpoint the time and place when and where this analogy was first dreamed-up to within a few days and a couple of miles.</p>
+<p>For the impatient among you, have a sneak preview of the cradle of birth of the primes=knots idea&#8230;</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/quizz1.jpg"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Atkin &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/atkin/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 05 Jan 2018 11:03:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Snakes, spines, threads and all that</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 05 Jan 2018 11:03:27 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[number theory]]></category>
+		<category><![CDATA[Atkin]]></category>
+		<category><![CDATA[congruence subgroup]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Lehner]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7524</guid>
+
+					<description><![CDATA[Conway introduced his Big Picture to make it easier to understand and name the groups appearing in Monstrous Moonshine. For $M \in \mathbb{Q}_+$ and $0&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Conway introduced his <a href="https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative">Big Picture</a> to make it easier to understand and name the groups appearing in <a href="https://en.wikipedia.org/wiki/Monstrous_moonshine">Monstrous Moonshine</a>.</p>
+<p>For $M \in \mathbb{Q}_+$ and $0 \leq \frac{g}{h} < 1$, $M,\frac{g}{h}$ denotes (the projective equivalence class of) the lattice
+\[
+\mathbb{Z} (M \vec{e}_1 + \frac{g}{h} \vec{e}_2) \oplus \mathbb{Z} \vec{e}_2 \]
+which we also like to represent by the $2 \times 2$ matrix
+\[
+\alpha_{M,\frac{g}{h}} = \begin{bmatrix} M &#038; \frac{g}{h} \\ 0 &#038; 1 \end{bmatrix} \]
+A subgroup $G$ of $GL_2(\mathbb{Q})$ is said to <em>fix</em> $M,\frac{g}{h}$ if<br />
+\[<br />
+\alpha_{M,\frac{g}{h}}.G.\alpha_{M,\frac{g}{h}}^{-1} \subset SL_2(\mathbb{Z}) \]<br />
+The full group of all elements fixing $M,\frac{g}{h}$ is the conjugate<br />
+\[<br />
+\alpha_{M,\frac{g}{h}}^{-1}.SL_2(\mathbb{Z}).\alpha_{M,\frac{g}{h}} \]<br />
+For a <em>number lattice</em> $N=N,0$ the elements of this group are all of the form<br />
+\[<br />
+\begin{bmatrix} a &#038; \frac{b}{N} \\ cN &#038; d \end{bmatrix} \qquad \text{with} \qquad \begin{bmatrix} a &#038; b \\ c &#038; d \end{bmatrix} \in SL_2(\mathbb{Z}) \]<br />
+and the intersection with $SL_2(\mathbb{Z})$ (which is the group of all elements fixing the lattice $1=1,0$) is the congruence subgroup<br />
+\[<br />
+\Gamma_0(N) = \{ \begin{bmatrix} a &#038; b \\ cN &#038; d \end{bmatrix}~|~ad-Nbc = 1 \} \]<br />
+Conway argues that this is the real way to think of $\Gamma_0(N)$, as the joint stabilizer of the two lattices $N$ and $1$!</p>
+<p>The <a href="https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24">defining definition of 24</a> tells us that $\Gamma_0(N)$ fixes more lattices. In fact, it fixes exactly the latices $M \frac{g}{h}$ such that<br />
+\[<br />
+1~|~M~|~\frac{N}{h^2} \quad \text{with} \quad h^2~|~N \quad \text{and} \quad h~|~24 \]<br />
+Conway calls the sub-graph of the Big Picture on these lattices the <strong>snake</strong> of $(N|1)$.</p>
+<p>Here&#8217;s the $(60|1)$-snake (note that $60=2^2.3.5$ so $h=1$ or $h=2$ and edges corresponding to the prime $2$ are coloured red, those for $3$ green and for $5$ blue).</p>
+<p>\[<br />
+\xymatrix{&#038; &#038; &#038; 15 \frac{1}{2} \ar@[red]@{-}[dd] &#038; &#038; \\<br />
+&#038; &#038; 5 \frac{1}{2} \ar@[red]@{-}[dd] &#038; &#038; &#038; \\<br />
+&#038; 15 \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 30 \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 60 \ar@[blue]@{-}[dd] \\<br />
+5 \ar@[green]@{-}[ru] \ar@[blue]@{-}[dd] \ar@[red]@{-}[rr] &#038; &#038; 10 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 20 \ar@[green]@{-}[ru] \ar@[blue]@{-}[dd] &#038; \\<br />
+&#038; 3 \ar@[red]@{-}[rr] &#038; &#038; 6 \ar@[red]@{-}[rr] \ar@[red]@{-}[dd] &#038; &#038; 12 \\<br />
+1 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr] &#038; &#038; 2 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr] \ar@[red]@{-}[dd] &#038; &#038; 4 \ar@[green]@{-}[ru] &#038; \\<br />
+&#038; &#038; &#038; 3\frac{1}{2} &#038; &#038; \\<br />
+&#038; &#038; 1 \frac{1}{2} &#038; &#038; &#038;} \]</p>
+<p>The sub-graph of lattices fixed by $\Gamma_0(N)$ for $h=1$, that is all number-lattices $M=M,0$ for $M$ a divisor of $N$ is called the <strong>thread</strong> of $(N|1)$. Here&#8217;s the $(60|1)$-thread</p>
+<p>\[<br />
+\xymatrix{<br />
+&#038; 15 \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 30 \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 60 \ar@[blue]@{-}[dd] \\<br />
+5 \ar@[green]@{-}[ru] \ar@[blue]@{-}[dd] \ar@[red]@{-}[rr] &#038; &#038; 10 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 20 \ar@[green]@{-}[ru] \ar@[blue]@{-}[dd] &#038; \\<br />
+&#038; 3 \ar@[red]@{-}[rr] &#038; &#038; 6 \ar@[red]@{-}[rr]  &#038; &#038; 12 \\<br />
+1 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr] &#038; &#038; 2 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr]  &#038; &#038; 4 \ar@[green]@{-}[ru] &#038;<br />
+} \]</p>
+<p>If $N$ factors as $N = p_1^{e_1} p_2^{e_2} \dots p_k^{e_k}$ then the $(N|1)$-thread is the product of the $(p_i^{e_i}|1)$-threads and has a symmetry group of order $2^k$.</p>
+<p>It is generated by $k$ involutions, each one the reflexion in one $(p_i^{e_i}|1)$-thread and the identity on the other $(p_j^{e_j}|1)$-threads.<br />
+In the $(60|1)$-thread these are the reflexions in the three mirrors of the figure.</p>
+<p>So, there is one involution for every divisor $e$ of $N$ such that $(e,\frac{N}{e})=1$. For such an $e$ there are matrices, with $a,b,c,d \in \mathbb{Z}$, of the form<br />
+\[<br />
+W_e = \begin{bmatrix} ae &#038; b \\ cN &#038; de \end{bmatrix} \quad \text{with} \quad ade^2-bcN=e \]<br />
+Think of <a href="https://en.wikipedia.org/wiki/B%C3%A9zout%27s_identity">Bezout</a> and use that $(e,\frac{N}{e})=1$.</p>
+<p>Such $W_e$ normalizes $\Gamma_0(N)$, that is, for any $A \in \Gamma_0(N)$ we have that $W_e.A.W_e^{-1} \in \Gamma_0(N)$. Also, the determinant of $W_e^e$ is equal to $e^2$ so we can write $W_e^2 = e A$ for some $A \in \Gamma_0(N)$.</p>
+<p>That is, the transformation $W_e$ (left-multiplication) sends any lattice in the thread or snake of $(N|1)$ to another such lattice (up to projective equivalence) and if we apply $W_e^2$ if fixes each such lattice (again, up to projective equivalence), so it is the desired reflexion corresponding with $e$.</p>
+<p>Consider the subgroup of $GL_2(\mathbb{Q})$ generated by $\Gamma_0(N)$ and some of these matrices $W_e,W_f,\dots$ and denote by $\Gamma_0(N)+e,f,\dots$ the quotient modulo positive scalar matrices, then<br />
+\[<br />
+\Gamma_0(N) \qquad \text{is a normal subgroup of} \qquad \Gamma_0(N)+e,f,\dots \]<br />
+with quotient isomorphic to some $(\mathbb{Z}/2\mathbb{Z})^l$ isomorphic to the subgroup generated by the involutions corresponding to $e,f,\dots$.</p>
+<p>More generally, consider the $(n|h)$-thread for number lattices $n=n,0$ and $h=h,0$ such that $h | n$ as the sub-graph on all number lattices $l=l,0$ such that $h | l | n$. If we denote with $\Gamma_0(n|h)$ the point-wise stabilizer of $n$ and $h$, then we have that<br />
+\[<br />
+\Gamma(n|h) = \begin{bmatrix} h &#038; 0 \\ 0 &#038; 1 \end{bmatrix}^{-1}.\Gamma_0(\frac{n}{h}).\begin{bmatrix} h &#038; 0 \\ 0 &#038; 1 \end{bmatrix} \]<br />
+and we can then denote with<br />
+\[<br />
+\Gamma_0(n|h)+e,f,\dots \]<br />
+the conjugate of the corresponding group $\Gamma_0(\frac{n}{h})+e,f,\dots$.</p>
+<p>If $h$ is the largest divisor of $24$ such that $h^2$ divides $N$, then Conway calls the <strong>spine</strong> of the $(N|1)$-snake the subgraph on all lattices of the snake whose distance from its periphery is exactly $log(h)$.</p>
+<p>For $N=60$, $h=2$ and so the spine of the $(60|1)$-snake is the central piece connected with double black edges</p>
+<p>\[<br />
+\xymatrix{&#038; &#038; &#038; 15 \frac{1}{2} \ar@[red]@{-}[dd] &#038; &#038; \\<br />
+&#038; &#038; 5 \frac{1}{2} \ar@[red]@{-}[dd] &#038; &#038; &#038; \\<br />
+&#038; 15 \ar@[red]@{-}[rr] \ar@[blue]@{-}[dd] &#038; &#038; 30 \ar@[red]@{-}[rr] \ar@[black]@{=}[dd] &#038; &#038; 60 \ar@[blue]@{-}[dd] \\<br />
+5 \ar@[green]@{-}[ru] \ar@[blue]@{-}[dd] \ar@[red]@{-}[rr] &#038; &#038; 10 \ar@[black]@{=}[ru] \ar@[red]@{-}[rr] \ar@[black]@{=}[dd] &#038; &#038; 20 \ar@[green]@{-}[ru] \ar@[blue]@{-}[dd] &#038; \\<br />
+&#038; 3 \ar@[red]@{-}[rr] &#038; &#038; 6 \ar@[red]@{-}[rr] \ar@[red]@{-}[dd] &#038; &#038; 12 \\<br />
+1 \ar@[green]@{-}[ru] \ar@[red]@{-}[rr] &#038; &#038; 2 \ar@[black]@{=}[ru] \ar@[red]@{-}[rr] \ar@[red]@{-}[dd] &#038; &#038; 4 \ar@[green]@{-}[ru] &#038; \\<br />
+&#038; &#038; &#038; 3\frac{1}{2} &#038; &#038; \\<br />
+&#038; &#038; 1 \frac{1}{2} &#038; &#038; &#038;} \]</p>
+<p>which is the $(30|2)$-thread.</p>
+<p>The upshot of all this is to have a visual proof of the <strong>Atkin-Lehner theorem</strong> which says that the full normalizer of $\Gamma_0(N)$ is the group $\Gamma_0(\frac{N}{h}|h)+$ (that is, adding all involutions) where $h$ is the largest divisor of $24$ for which $h^2|N$.</p>
+<p>Any element of this normalizer must take every lattice in the $(N|1)$-snake fixed by $\Gamma_0(N)$ to another such lattice. Thus it follows that it must take the snake to itself.<br />
+Conversely, an element that takes the snake to itself must conjugate into itself the group of all matrices that fix every point of the snake, that is to say, must normalize $\Gamma_0(N)$.</p>
+<p>But the elements that take the snake to itself are precisely those that take the spine to itself, and since this spine is just the $(\frac{N}{h}|h)$-thread, this group is just $\Gamma_0(\frac{N}{h}|h)+$.</p>
+<p><strong>Reference</strong>: J.H. Conway, &#8220;Understanding groups like $\Gamma_0(N)$&#8221;, in &#8220;Groups, Difference Sets, and the Monster&#8221;, Walter de Gruyter-Berlin-New York, 1996</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

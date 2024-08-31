@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Shor &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/shor/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sat, 13 Mar 2021 10:08:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Teapot supremacy</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/teapot-supremacy/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/teapot-supremacy/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 13 Mar 2021 10:08:33 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[Borcherds]]></category>
+		<category><![CDATA[Grover]]></category>
+		<category><![CDATA[Koblitz]]></category>
+		<category><![CDATA[Menezes]]></category>
+		<category><![CDATA[quantum comuters]]></category>
+		<category><![CDATA[Shor]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9078</guid>
+
+					<description><![CDATA[No, this is not another timely post about the British Royal family. It&#8217;s about Richard Borcherds&#8217; &#8220;teapot test&#8221; for quantum computers. A lot of money&#8230;]]></description>
+										<content:encoded><![CDATA[<p>No, this is not another timely post about the British Royal family.</p>
+<p>It&#8217;s about Richard Borcherds&#8217; &#8220;teapot test&#8221; for <a href="https://en.wikipedia.org/wiki/Quantum_computing">quantum computers</a>.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/teapot.jpg" width=100% ><br />
+</center></p>
+<p>A lot of money is being thrown at the quantum computing hype, causing people to leave academia for quantum computing firms. A recent example (<a href="https://press.vub.ac.be/vub-alumnus-bob-coecke-to-head-cambridge-quantum-computing">hitting the press</a> even in Belgium) being the <a href="https://www.prnewswire.com/news-releases/cambridge-quantum-computing-appoints-oxford-university-professor-bob-coecke-as-chief-scientist-301200425.html">move of Bob Coecke</a> from Oxford University to <a href="https://cambridgequantum.com/">Cambridge Quantum Computing</a>.</p>
+<p>Sure, quantum computing is an enticing idea, and we have fantastic quantum algorithms such as <a href="https://en.wikipedia.org/wiki/Shor%27s_algorithm">Shor&#8217;s factorisation algorithm</a> and <a href="https://en.wikipedia.org/wiki/Grover%27s_algorithm">Grover&#8217;s search algorithm</a>.</p>
+<p>The (engineering) problem is building quantum computers with a large enough number of qubits, which is very difficult due to <a href="https://en.wikipedia.org/wiki/Quantum_decoherence">quantum decoherence</a>. To an outsider it may appear that the number of qubits in a working quantum computer is growing at best linearly, if not logarithmic, in sharp contrast to <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore&#8217;s law</a> for classical computers, stating that the number of transistors in an integrated circuit doubles every two years.</p>
+<p>Quantum computing evangelists assure us that this is nonsense, and that we should replace Moore&#8217;s law by <a href="https://hackernoon.com/nevens-law-paradigm-shift-in-quantum-computers-e6c429ccd1fc">Neven&#8217;s law</a> claiming that the computing power of quantum computers will grow not just exponentially, but doubly exponentially!</p>
+<p>What is behind these exaggerated claims?</p>
+<p>In 2015 the NSA released a policy statement on the need for <a href="https://en.wikipedia.org/wiki/Post-quantum_cryptography">post-quantum cryptography</a>. In the paper <a href="https://eprint.iacr.org/2015/1018.pdf">&#8220;A riddle wrapped in an enigma&#8221;</a>, <a href="https://en.wikipedia.org/wiki/Neal_Koblitz">Neil Koblitz</a> and <a href="https://en.wikipedia.org/wiki/Alfred_Menezes">Alfred Menezes</a> carefully examined NSA&#8217;s possible strategies behind this assertion.</p>
+<p>Can the NSA break <a href="https://csrc.nist.gov/projects/post-quantum-cryptography">PQC</a>? Can the NSA break <a href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)">RSA</a>? Does the NSA believes that <a href="https://crypto.stackexchange.com/questions/35343/rsa-3072-is-65-536-more-difficult-to-factor-than-2048">RSA-3072</a> is much more quantum-resistant than <a href="https://en.wikipedia.org/wiki/Elliptic-curve_cryptography">ECC-256</a> and even ECC-384?, and so on.</p>
+<p>Perhaps the most plausible of all explanations is this one : the NSA is using a diversion strategy aimed at Russia and China.</p>
+<blockquote><p>Suppose that the NSA believes that, although a large-scale quantum computer might eventually be built, it will be hugely expensive. From a cost standpoint it will be less analogous to Alan Turing’s bombe than to the Manhattan Project or the Apollo program, and it will be within the capabilities of only a small number of nation-states and huge corporations.</p>
+<p>Suppose also that, in thinking about the somewhat adversarial relationship that still exists between the U.S. and both China and Russia, especially in the area of cybersecurity, the NSA asked itself “How did we win the Cold War? The main strategy was to goad the Soviet Union into an arms race that it could not afford, essentially bankrupting it. Their GNP was so much less than ours, what was a minor set-back for our economy was a major disaster for theirs. It was a great strategy. Let’s try it again.”</p></blockquote>
+<p>This brings us to the claim of <a href="https://en.wikipedia.org/wiki/Quantum_supremacy">quantum supremacy</a>, that is, demonstrating that a programmable quantum device can solve a problem that no classical computer can solve in any feasible amount of time.</p>
+<p>In 2019, Google claimed &#8220;to have reached quantum supremacy with an array of 54 qubits out of which 53 were functional, which were used to perform a series of operations in 200 seconds that would take a supercomputer about 10,000 years to complete&#8221;. In December 2020, a group based in USTC reached quantum supremacy by implementing a type of Boson sampling on 76 photons with their photonic quantum computer. They stated that to generate the number of samples the quantum computer generates in 20 seconds, a classical supercomputer would require 600 million years of computation.</p>
+<p>Richard Borcherds rants against the type of problems used to claim quantum &#8216;supremacy&#8217;. He proposes the &#8216;teapot problem&#8217; which a teapot can solve instantaneously, but will be impossibly hard for classical (and even quantum) computers. That is, any teapot achieves &#8216;teapot supremacy&#8217; over classical and quantum computers!</p>
+<p>Another point of contention are the &#8216;real-life applications&#8217; quantum computers are said to be used for. Probably he is referring to <a href="https://www.volkswagen-newsroom.com/en/press-releases/volkswagen-optimizes-traffic-flow-with-quantum-computers-5507">Volkswagen&#8217;s plan for traffic optimization with a D-Wave quantum computer in Lisbon</a>.</p>
+<blockquote><p>&#8220;You could give these guys a time machine and all they&#8217;d use it for was going back to watch some episodes of some soap opera they missed&#8221;</p></blockquote>
+<p>Enjoy!</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/sFhhQRxWTIM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/teapot-supremacy/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

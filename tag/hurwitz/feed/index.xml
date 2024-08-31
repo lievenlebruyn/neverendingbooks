@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hurwitz &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/hurwitz/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 18 Oct 2011 14:40:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>meanwhile, at angs+</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/meanwhile-at-angs/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/meanwhile-at-angs/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 18 Oct 2011 14:40:22 +0000</pubDate>
+				<category><![CDATA[absolute]]></category>
+		<category><![CDATA[Hurwitz]]></category>
+		<category><![CDATA[Smirnov]]></category>
+		<guid isPermaLink="false">http://192.168.0.163/?p=5748</guid>
+
+					<description><![CDATA[We&#8217;ve had three seminar-sessions so far, and the seminar-blog &#8216;angs+&#8217; contains already 20 posts and counting. As blogging is not a linear activity, I will&#8230;]]></description>
+										<content:encoded><![CDATA[<p>We&#8217;ve had three seminar-sessions so far, and the seminar-blog <a href="http://www.noncommutative.org/" title="angst">&#8216;angs+&#8217;</a> contains already 20 posts and counting. As blogging is not a linear activity, I will try to post here at regular intervals to report on the ground we&#8217;ve covered in the seminar, providing  links to the original angs+ posts.</p>
+<p>This year&#8217;s goal is to obtain a somewhat definite verdict on the <a href="http://en.wikipedia.org/wiki/Field_with_one_element" title="field with one element">field-with-one-element hype</a>.</p>
+<p>In short, the plan is to outline Smirnov&#8217;s approach to the ABC-conjecture using geometry over $\mathbb{F}_1$, to describe Borger&#8217;s idea for such an $\mathbb{F}_1$-geometry and to test it on elusive objects such as $\mathbb{P}^1_{\mathbb{F}_1} \times_{\mathbb{F}_1} \mathsf{Spec}(\mathbb{Z})$ (relevant in Smirnov&#8217;s paper) and $\mathsf{Spec}(\mathbb{Z}) \times_{\mathbb{F}_1} \mathsf{Spec}(\mathbb{Z})$ (relevant to the Riemann hypothesis).</p>
+<p>We did start with an historic overview, using recently surfaced material such as the <a href="http://www.noncommutative.org/index.php/the-smirnov-letters " title="Smirnov letters">Smirnov letters</a>. Next, we did recall some standard material on the geometry of <a href="http://www.noncommutative.org/index.php/0-geometry-curves " title="curves">smooth projective curves</a> over finite fields, their <a href="http://www.noncommutative.org/index.php/0-geometry-genus " title="genus">genus</a> leading up to the <a href="http://www.noncommutative.org/index.php/0-geometry-hurwitz " title="Hurwitz formula">Hurwitz formula</a> relating the genera in a cover of curves.</p>
+<p>Using this formula, a version of the classical <a href="http://www.noncommutative.org/index.php/the-abc-conjecture " title="ABC-conjecture">ABC-conjecture</a> in number theory can be proved quite easily for <a href="http://www.noncommutative.org/index.php/abc-theorem-for-curves " title="ABC for curves">curves</a>.</p>
+<p>By analogy, Smirnov tried to prove the original ABC-conjecture by viewing $\mathsf{Spec}(\mathbb{Z})$ as a &#8216;curve&#8217; over $\mathbb{F}_1$. Using the connection between the geometric points of the projective line over the finite field $\mathbb{F}_p$ and roots of unity of order coprime to $p$, we identify <a href="http://www.noncommutative.org/index.php/what-is-mathbbp1-over-mathbbf_1 " title="projective line over F1">$\mathbb{P}^1_{\mathbb{F}_1}$</a> with the set of all roots of unity together with $\{ [0],[\infty] \}$. Next, we describe the schematic points of the &#8216;curve&#8217; <a href="http://www.noncommutative.org/index.php/what-is-the-curve-specz " title="Spec(Z)">$\mathsf{Spec}(\mathbb{Z})$</a> and explain why one should take as the degree of the &#8216;point&#8217; $(p)$ (for a prime number $p$) the non-sensical value $log(p)$.</p>
+<p>To me, the fun starts with Smirnov&#8217;s proposal to associate to any rational number $q = \tfrac{a}{b} \in \mathbb{Q} &#8211; \{ \pm 1 \}$ a cover of curves</p>
+<p>$q~:~\mathsf{Spec}(\mathbb{Z}) \rightarrow \mathbb{P}^1_{\mathbb{F}_1}$</p>
+<p>by mapping primes dividing $a$ to $[0]$, primes dividing $b$ to $[\infty]$, sending the real valuation to $[0]$ or $[\infty]$ depending onw whether or not $b > a$ and finally sending a prime $p$ not involved in $a$ or $b$ to $[n]$ where $n$ is the order of the unit $\overline{a}.\overline{b}^{-1}$ in the finite cyclic group $\mathbb{F}_p^*$. Somewhat surprisingly, it does follow from Zsigmondy&#8217;s theorem that this is indeed <a href="http://www.noncommutative.org/index.php/rational-numbers-and-covers " title="covers from Spec(Z) to P^1">a finite cover</a> for most values of $q$. A noteworthy exception being the map for $q=2$ (which fails to be a cover at $[6]$) and of which <a href="http://pbelmans.wordpress.com/" title="Pieter Belmans blog">Pieter Belmans</a> did draw this beautiful graph</p>
+<p><img decoding="async" src="http://www.noncommutative.org/DATA/MersenneGraph.jpg"></p>
+<p>True believers in $\mathbb{F}_1$ might <a href="http://www.noncommutative.org/index.php/the-exceptional-map-and-mersenne-primes " title="Mersenne">conclude from this graph</a> that there should only be finitely many Mersenne primes&#8230; Further, the full ABC-conjecture <a href="http://www.noncommutative.org/index.php/smirnovs-hurwitz-conjecture " title="F1 and ABC">would follow</a> from a natural version of the Hurwitz formula for such covers.</p>
+<p>(to be continued)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/meanwhile-at-angs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

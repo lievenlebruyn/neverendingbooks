@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ghomi &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/ghomi/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 31 Jan 2018 10:04:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>The return of the Scottish solids</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-return-of-the-scottish-solids/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-return-of-the-scottish-solids/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 31 Jan 2018 10:04:42 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Baez]]></category>
+		<category><![CDATA[Challifour]]></category>
+		<category><![CDATA[Ghomi]]></category>
+		<category><![CDATA[Platonic solids]]></category>
+		<category><![CDATA[Roberts]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7949</guid>
+
+					<description><![CDATA[In Januari&#8217;s issue of the Notices of the AMS there&#8217;s a paper by Mohammad Ghomi Dürer’s Unfolding Problem for Convex Polyhedra. Here are the opening&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In Januari&#8217;s issue of the Notices of the AMS there&#8217;s a paper by Mohammad Ghomi <a href="http://www.ams.org/journals/notices/201801/rnoti-p25.pdf">Dürer’s Unfolding Problem for Convex Polyhedra</a>.</p>
+<p>Here are the opening lines:</p>
+<p>&#8220;Convex polyhedra are among the oldest mathematical objects. Indeed the five platonic solids, which constitute the climax of Euclid’s books, were already known to the ancient people of Scotland some 4,000 years ago; see Figure 1.&#8221;</p>
+<p><img decoding="async" src="https://lh3.googleusercontent.com/-aBVGwacGMys/WnB9vPI7WQI/AAAAAAAAHLA/7s-Erg3E-gklcedG0C_yz2vrVdqXwQkbACJoC/w1060-h716-n-rw/623f69e3-630f-4ba0-9972-d994049773d0"></p>
+<p>It sure would make a good story, the (ancient) Scotts outsmarting the Greek in discovering the five Platonic solids. Sadly, the truth is different.</p>
+<p>Once again, hat tip to <a href="https://plus.google.com/+DavidRoberts">+David Roberts on Google+</a> for commenting on the AMS announcement and for linking to <a href="http://math.ucr.edu/home/baez/icosahedron/">a post by John Baez</a> and a couple of older posts here refuting this claim.</p>
+<p><!-- Place this tag where you want the widget to render. --><br />
+<center></p>
+<div class="g-post" data-href="https://plus.google.com/u/0/+AmsOrg/posts/FFaFD8LQ7Ld"></div>
+<p></center></p>
+<p>Perhaps the most readable of the two posts is:</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/scottish-solids-final-comments">Scottish solids, final(?) comments</a></p>
+<p>in which I tell the story of the <a href="https://lievenlebruyn.github.io/neverendingbooks/the-scottish-solids-hoax">original post</a> and its aftermath. The bottom-line is this:</p>
+<p><strong>Summarizing</strong> : the Challifour photograph is not taken at the Ashmolean museum, but at the National Museum of Scotland in Edinburgh and consists of 5 of their artifacts (or 4 if ball 3 and 4 are identical) vaguely resembling  cube, tetrahedron, dodecahedron (twice) and octahedron. The fifth Platonic solid, the icosahedron, remains elusive.</p>
+<p>David Roberts drafted <a href="https://drive.google.com/file/d/1ckRg7bxVnndBooXXe19lqpoJqOrk3fUL/view">a letter to the editor of the Notices of the AMS</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-return-of-the-scottish-solids/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

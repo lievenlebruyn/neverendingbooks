@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>necklace &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/necklace/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Mon, 14 Jan 2008 12:47:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Quiver-superpotentials</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 14 Jan 2008 12:47:27 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[braid group]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/quiver-superpotentials.html</guid>
+
+					<description><![CDATA[It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by&#8230;]]></description>
+										<content:encoded><![CDATA[<p>It&#8217;s been a while, so let&#8217;s include a recap : a (transitive) permutation representation of the modular group $\Gamma = PSL_2(\mathbb{Z}) $ is determined by the conjugacy class of a cofinite subgroup $\Lambda \subset \Gamma $, or equivalently, to a dessin d&#8217;enfant. We have introduced a <strong>quiver</strong> (aka an oriented graph) which comes from a triangulation of the compactification of $\mathbb{H} / \Lambda $ where $\mathbb{H} $ is the hyperbolic upper half-plane. This quiver is independent of the chosen embedding of the dessin in the Dedeking tessellation. (For more on these terms and constructions, please consult the series <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-dedekind-tessellation.html">Modular subgroups</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/monsieur-mathieu.html">Dessins d&#8217;enfants</a>).</p>
+<p>Why are quivers useful? To start, any quiver $Q $ defines a noncommutative algebra, the <strong>path algebra</strong> $\mathbb{C} Q $, which has as a $\mathbb{C} $-basis all oriented paths in the quiver and multiplication is induced by concatenation of paths (when possible, or zero otherwise). Usually, it is quite hard to make actual computations in noncommutative algebras, but in the case of path algebras you can just <strong>see</strong> what happens.</p>
+<p>Moreover, we can also <strong>see</strong> the finite dimensional representations of this algebra $\mathbb{C} Q $. Up to isomorphism they are all of the following form : at each vertex $v_i $ of the quiver one places a finite dimensional vectorspace $\mathbb{C}^{d_i} $ and any arrow in the quiver<br />
+[tex]\xymatrix{\vtx{v_i} \ar[r]^a &amp; \vtx{v_j}}[/tex] determines a linear map between these vertex spaces, that is, to $a $ corresponds a matrix in $M_{d_j \times d_i}(\mathbb{C}) $. These matrices determine how the paths of length one act on the representation, longer paths act via multiplcation of matrices along the oriented path.</p>
+<p>A <strong>necklace</strong> in the quiver is a closed oriented path in the quiver <strong>up to cyclic permutation</strong> of the arrows making up the cycle. That is, we are free to choose the start (and end) point of the cycle. For example, in the one-cycle quiver</p>
+<p>[tex]\xymatrix{\vtx{} \ar[rr]^a &amp; &amp; \vtx{} \ar[ld]^b \\ &amp; \vtx{} \ar[lu]^c &amp;}[/tex]</p>
+<p>the basic necklace can be represented as $abc $ or $bca $ or $cab $. How does a necklace act on a representation? Well, the matrix-multiplication of the matrices corresponding to the arrows gives a square matrix in each of the vertices in the cycle. Though the dimensions of this matrix may vary from vertex to vertex, what does not change (and hence is a property of the necklace rather than of the particular choice of cycle) is the <strong>trace</strong> of this matrix. That is, necklaces give complex-valued functions on representations of $\mathbb{C} Q $ and by a result of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/m-geometry-3.html">Artin and Procesi</a> there are enough of them to distinguish isoclasses of (semi)simple representations! That is, linear combinations a necklaces (aka <strong>super-potentials</strong>) can be viewed, after taking traces, as complex-valued functions on all representations (similar to character-functions).</p>
+<p>In physics, one views these functions as potentials and it then interested in the points (representations) where this function is extremal (minimal) : the <strong>vacua</strong>. Clearly, this does not make much sense in the complex-case but is relevant when we look at the real-case (where we look at skew-Hermitian matrices rather than all matrices). A motivating example (the <strong>Yang-Mills potential</strong>) is given in Example 2.3.2 of Victor Ginzburg&#8217;s paper <a href="http://arxiv.org/abs/math/0612139">Calabi-Yau algebras</a>.</p>
+<p>Let $\Phi $ be a super-potential (again, a linear combination of necklaces) then our commutative intuition tells us that extrema correspond to zeroes of all partial differentials $\frac{\partial \Phi}{\partial a} $ where $a $ runs over all coordinates (in our case, the arrows of the quiver). One can make sense of differentials of necklaces (and super-potentials) as follows : the partial differential with respect to an arrow $a $ occurring in a term of $\Phi $ is defined to be the <strong>path</strong> in the quiver one obtains by removing all 1-occurrences of $a $ in the necklaces (defining $\Phi $) and rearranging terms to get a maximal broken necklace (using the cyclic property of necklaces). An example, for the cyclic quiver above let us take as super-potential $abcabc $ (2 cyclic turns), then for example</p>
+<p>$\frac{\partial \Phi}{\partial b} = cabca+cabca = 2 cabca $</p>
+<p>(the first term corresponds to the first occurrence of $b $, the second to the second). Okay, but then the vacua-representations will be the representations of the quotient-algebra (which I like to call the <strong>vacualgebra</strong>)</p>
+<p>$\mathcal{U}(Q,\Phi) = \frac{\mathbb{C} Q}{(\partial \Phi/\partial a, \forall a)} $</p>
+<p>which in &#8216;physical relevant settings&#8217; (whatever that means&#8230;) turn out to be <strong>Calabi-Yau algebras</strong>.</p>
+<p>But, let us return to the case of subgroups of the modular group and their quivers. Do we have a natural <strong>super-potential</strong> in this case? Well yes, the quiver encoded a triangulation of the compactification of $\mathbb{H}/\Lambda $ and if we choose an orientation it turns out that all &#8216;black&#8217; triangles (with respect to the Dedekind tessellation) have their arrow-sides defining a necklace, whereas for the &#8216;white&#8217; triangles the <strong>reverse</strong> orientation makes the arrow-sides into a necklace. Hence, it makes sense to look at the <strong>cubic</strong> superpotential $\Phi $ being the sum over all triangle-sides-necklaces with a +1-coefficient for the black triangles and a -1-coefficient for the white ones. Let&#8217;s consider an index three example from a previous post</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/quiver3.jpg" style="float:left;margin-right:10px;" ><br />
+[tex]\xymatrix{&amp; &amp; \rho \ar[lld]_d \ar[ld]^f \ar[rd]^e &amp; \\<br />
+i \ar[rrd]_a &amp; i+1 \ar[rd]^b &amp; &amp; \omega \ar[ld]^c \\<br />
+&amp; &amp; 0 \ar[uu]^h \ar@/^/[uu]^g \ar@/_/[uu]_i &amp;}[/tex]</p>
+<p>In this case the super-potential coming from the triangulation is</p>
+<p>$\Phi = -aid+agd-cge+che-bhf+bif $</p>
+<p>and therefore we have a noncommutative algebra $\mathcal{U}(Q,\Phi) $ associated to this index 3 subgroup. Contrary to what I believed at the start of this series, the algebras one obtains in this way from dessins d&#8217;enfants are <strong>far from being Calabi-Yau</strong> (in whatever definition). For example, using a GAP-program written by <a href="http://www.win.ua.ac.be/~rbockl/research/">Raf Bocklandt</a> Ive checked that the growth rate of the above algebra is similar to that of $\mathbb{C}[x] $, so in this case $\mathcal{U}(Q,\Phi) $ can be viewed as a noncommutative curve (with singularities).</p>
+<p>However, this is not the case for all such algebras. For example, the vacualgebra associated to the second index three subgroup (whose fundamental domain and quiver were depicted at the end of <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/the-modular-group-and-superpotentials-2.html">this post</a>) has growth rate similar to that of $\mathbb{C} \langle x,y \rangle $&#8230;</p>
+<p>I have an outlandish conjecture about the growth-behavior of all algebras $\mathcal{U}(Q,\Phi) $ coming from dessins d&#8217;enfants : <strong>the algebra sees what the monodromy representation of the dessin sees of the modular group (or of the third braid group)</strong>.<br />
+I can make this more precise, but perhaps it is wiser to calculate one or two further examples&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/quiver-superpotentials/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>sobering-up</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/sobering-up/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/sobering-up/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 05 Jan 2008 15:05:08 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[itouch]]></category>
+		<category><![CDATA[Mathieu]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=249</guid>
+
+					<description><![CDATA[Kea&#8217;s post reminded me to have a look at my search terms (the things people type into search engines to get redirected here). Quite a&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/sobering.jpg" width=500 ></p>
+<p><a href="http://kea-monad.blogspot.com/2008/01/search-term.html">Kea&#8217;s post</a> reminded me to have a look at my <strong>search terms</strong> (the things people type into search engines to get redirected here). Quite a sobering experience&#8230;</p>
+<p>Via <a href="http://www.google.com/analytics/">Google Analytics</a> I learn that 49,51% of traffic comes from Search Engines (compared to 26,17% from Referring Sites and 24,32% from direct hits) so I should take Search Terms more seriously! Above you can find the top-25.</p>
+<p>On 1. there is <strong>neverendingbooks</strong>. Well, some people seem to remember the blog-name, but require google to remember the URL (neverendingbooks.org)&#8230;, okay, fair enough. But from then on&#8230; <strong>all search terms are iTouch related</strong>! The first &#8216;other&#8217; term is <strong>puzzle m</strong> at 24. and believe me things do not improve afterwards. Here the only non-Touch related search terms in the top 100 :</p>
+<ul>
+<li><strong>neverendingbooks.org</strong>  (40)  </li>
+<li><strong>&#8220;puzzle m&#8221;</strong>  (42)  </li>
+<li><strong>moonshine mathematics</strong>  (79)  </li>
+<li><strong>necklace algebra</strong>  (80)  </li>
+<li><strong>&#8220;calabi-yau algebra</strong>  (90)  </li>
+<li><strong>&#8220;dessin d enfant&#8221;</strong>  (91)  </li>
+<li><strong>&#8220;lieven le bruyn&#8221;</strong>  (95)  </li>
+<li><strong>Mathieu group + M(13)</strong>  (97)  </li>
+<li><strong>13 points 5 lines puzzle</strong>  (98)  </li>
+<li><strong>15 itouch sliding puzzle</strong>  (99)  </li>
+</ul>
+<p>the last one is really touching (sic). Is there anybody out there still interested in the mathematics, or should I turn this blog into a <strong>yaib</strong> (yet another iTouch blog) ???</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/sobering-up/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Superpotentials and Calabi-Yaus</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/superpotentials-and-calabi-yaus/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/superpotentials-and-calabi-yaus/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 22 Dec 2007 15:19:44 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arty]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Dedekind]]></category>
+		<category><![CDATA[hyperbolic]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[permutation representation]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[Riemann]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=61</guid>
+
+					<description><![CDATA[Yesterday, Jan Stienstra gave a talk at theARTS entitled &#8220;Quivers, superpotentials and Dimer Models&#8221;. He started off by telling that the talk was based on&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, <a href="http://www.math.uu.nl/people/stienstra/">Jan Stienstra</a> gave a talk at <a href="https://lievenlebruyn.github.io/neverendingbooks/ARTS">theARTS</a> entitled &#8220;Quivers, superpotentials and Dimer Models&#8221;. He started off by telling that the talk was based on a paper he put on the arXiv <a href="http://arxiv.org/abs/0711.0464">Hypergeometric Systems in two Variables, Quivers, Dimers and Dessins d&#8217;Enfants</a> but that he was not going to say a thing about dessins but would rather focuss on the connection with superpotentials instead&#8230;pleasing some members of the public, while driving others to utter despair.</p>
+<p>Anyway, it gave me the opportunity to figure out for myself what dessins might have to do with <strong>dimers</strong>, whathever these beasts are. Soon enough he put on a slide containing the definition of a dimer and from that moment on I was lost in my own thoughts&#8230; realizing that a <strong>dessin d&#8217;enfant had to be a dimer for the Dedekind tessellation of its associated Riemann surface!</strong><br />
+and a few minutes later I could slap myself on the head for not having thought of this before :</p>
+<blockquote><p>There is a natural way to associate to a Farey symbol (aka a permutation representation of the modular group) a quiver and a superpotential (aka a necklace) defining (conjecturally) a Calabi-Yau algebra! Moreover, different embeddings of the cuboid tree diagrams in the hyperbolic plane may (again conjecturally) give rise to all sorts of arty-farty fanshi-wanshi dualities&#8230;</p></blockquote>
+<p>I&#8217;ll give here the details of the simplest example I worked out during the talk and will come back to general procedure later, when I&#8217;ve done a reference check. I don&#8217;t claim any originality here and probably all of this is contained in Stienstra&#8217;s paper or in some physics-paper, so if you know of a reference, please leave a comment. Okay, remember the <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=18">Dedekind tessellation</a> ?</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dedekind1877.gif" ></p>
+<p>So, all hyperbolic triangles we will encounter below are colored black or white. Now, take a <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=21">Farey symbol</a> and consider its associated <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=18">special polygon</a> in the hyperbolic plane. If we start with the Farey symbol</p>
+<p>[tex]\xymatrix{\infty \ar@{-}_{(1)}[r] &amp; 0 \ar@{-}_{\bullet}[r] &amp; 1 \ar@{-}_{(1)}[r] &amp; \infty} [/tex]</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dimer.jpg" style="float:left;margin-right:10px;"> we get the special polygonal region bounded by the thick edges, the vertical edges are identified as are the two bottom edges. Hence, this fundamental domain has 6 vertices (the 5 blue dots and the point at $i \infty $) and 8 hyperbolic triangles (4 colored black, indicated by a black dot, and 4 white ones).</p>
+<p>Right, now let us associate a <strong>quiver</strong> to this triangulation (which embeds the quiver in the corresponding Riemann surface). The vertices of the triangulation are also the vertices of the quiver (so in our case we are going for a quiver with 6 vertices). Every hyperbolic edge in the triangulation gives one arrow in the quiver between the corresponding vertices. The orientation of the arrow is determined by the color of a triangle of which it is an edge : if the triangle is black, we run around its edges counter-clockwise and if the triangle is white we run over its edges clockwise (that is, the orientation of the arrow is independent of the choice of triangles to determine it). In our example, there is one arrows directed from the vertex at $i $ to the vertex at $0 $, whether you use the black triangle on the left to determine the orientation or the white triangle on the right. If we do this for all edges in the triangulation we arrive at the quiver below</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/dimerquiver.jpg" width=500 ></p>
+<p>where x,y and z are the three finite vertices on the $\frac{1}{2} $-axis from bottom to top and where I&#8217;ve used the physics-convention for double arrows, that is there are two F-arrows, two G-arrows and two H-arrows. Observe that the quiver is of <strong>Calabi-Yau type</strong> meaning that there are as much arrows coming into a vertex as there are arrows leaving the vertex.</p>
+<p>Now that we have our quiver we determine the <strong>superpotential</strong> as follows. Fix an orientation on the Riemann surface (for example counter-clockwise) and sum over all black triangles the product of the edge-arrows counterclockwise <strong>MINUS</strong> sum over all white triangles<br />
+the product of the edge arrows counterclockwise. So, in our example we have the cubic superpotential</p>
+<p>$IH&#8217;B+HAG+G&#8217;DF+FEC-BHI-H&#8217;G&#8217;A-GFD-CEF&#8217; $</p>
+<p>From this we get the associated noncommutative algebra, which is the quotient of the path algebra of the above quiver modulo the following &#8216;commutativity relations&#8217;</p>
+<p>$\begin{cases} GH &amp;=G&#8217;H&#8217; \\ IH&#8217; &amp;= IH \\ FE &amp;= F&#8217;E \\ F&#8217;G&#8217; &amp;= FG \\ CF &amp;= CF&#8217; \\ EC &amp;= GD \\ G&#8217;D &amp;= EC \\ HA &amp;= DF \\ DF&#8217; &amp;= H&#8217;A \\ AG &amp;= BI \\ BI &amp;= AG&#8217; \end{cases} $</p>
+<p>and <strong>morally</strong> this should be a Calabi-Yau algebra (( can someone who knows more about CYs verify this? )). This concludes the walk through of the procedure. Summarizing : <strong>to every Farey-symbol one associates a Calabi-Yau quiver and superpotential, possibly giving a Calabi-Yau algebra!</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/superpotentials-and-calabi-yaus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Segal’s formal neighbourhood result</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/segals-formal-neighbourhood-result/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/segals-formal-neighbourhood-result/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 08 Dec 2007 15:53:34 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Calabi-Yau]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[simples]]></category>
+		<category><![CDATA[superpotential]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=50</guid>
+
+					<description><![CDATA[Yesterday, Ed Segal gave a talk at the Arts. His title &#8220;Superpotential algebras from 3-fold singularities&#8221; didnt look too promising to me. And sure enough&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Yesterday, Ed Segal gave a talk at the <a href="https://lievenlebruyn.github.io/neverendingbooks/ARTS/">Arts</a>. His title &#8220;Superpotential algebras from 3-fold singularities&#8221; didnt look too promising to me. And sure enough it was all there again : stringtheory, D-branes, Calabi-Yaus, superpotentials, all the pseudo-physics babble that spreads virally among the youngest generation of algebraists and geometers.</p>
+<p>Fortunately, his talk did contain a general ringtheoretic gem. After a bit of polishing up this gem, contained in his paper <a href="http://arxiv.org/abs/math/0702539">The A-infinity Deformation Theory of a Point and the Derived Categories of Local Calabi-Yaus</a>, can be stated as follows.</p>
+<p>Let $A $ be a $\mathbb{C} $-algebra and let $M = S_1 \oplus \ldots \oplus S_k $ be a finite dimensional semi-simple representation with distinct simple components. Let $\mathfrak{m} $ be the kernel of the algebra epimorphism $A \rightarrow S $ to the semi-simple algebra $S=End(M) $. Then, the $\mathfrak{m} $-adic completion of $A $ is Morita-equivalent to the completion of a quiver-algebra with relations. The nice thing is that both the quiver and relations come in a canonical way from the $A_{\infty} $-structure on the Ext-algebra $Ext^{\bullet}_A(M,M) $. More precisely, there is an isomorphism</p>
+<p>$\hat{A}_{\mathfrak{m}} \simeq \frac{\hat{T}_S(Ext^1_A(M,M)^{\ast})}{(Im(HMC)^{\ast})} $</p>
+<p>where the homotopy Maurer-Cartan map comes from the $A_{\infty} $ structure maps</p>
+<p>$HMC = \oplus_i m_i~:~T_S(Ext_A^1(M,M)) \rightarrow Ext^2_A(M,M) $</p>
+<p>and hence the defining relations of the completion are given by the image of the dual of this map.</p>
+<p>For ages, Ive known this result in the trivial case of formally smooth algebras (where $Ext^2_A(M,M)=0 $ and hence there are no relations to divide out) and where it is a consequence of a special case of the Cuntz-Quillen &#8220;tubular neighborhood&#8221; result. Completions of formally smooth algebras at semi-simples are Morita equivalent to completions of path algebras. This fact motivated all the local-quiver technology that was developed here in Antwerp over the last decade (see <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=28">my book</a> if you want to know the details).</p>
+<p>Also for 3-dimensional Calabi-Yau algebras it states that the completions at semi-simples are Morita equivalent to completions of quotients of path algebras by the relations coming from a superpotential (aka a necklace) by taking partial noncommutative derivatives. Here the essential ingredient is that $Ext^2_A(M,M)^{\ast} \simeq Ext^1_A(M,M) $ in this case.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/segals-formal-neighbourhood-result/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>M-geometry (3)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-3/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-3/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 18 Sep 2007 06:56:26 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Azumaya]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[M-geometry]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[simples]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=39</guid>
+
+					<description><![CDATA[For any finite dimensional A-representation S we defined before a character $\chi(S) $ which is an linear functional on the noncommutative functions $\mathfrak{g}_A = A/[A,A]_{vect}&#8230;]]></description>
+										<content:encoded><![CDATA[<p>For any finite dimensional A-representation S we <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=38">defined before</a> a <strong>character</strong> $\chi(S) $ which is an linear functional on the <strong>noncommutative functions</strong> $\mathfrak{g}_A = A/[A,A]_{vect} $ and defined via</p>
+<p>$\chi_a(S) = Tr(a | S) $ for all $a \in A $</p>
+<p>We would like to have enough such characters to separate simples, that is we would like to have an embedding</p>
+<p>$\mathbf{simp}~A \hookrightarrow \mathfrak{g}_A^* $</p>
+<p>from the set of all finite dimensional simple A-representations $\mathbf{simp}~A $ into the linear dual of $\mathfrak{g}_A^* $. This is a consequence of the celebrated <strong>Artin-Procesi theorem</strong>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/artin.jpg" style="float:left;margin-right:10px;" hspace=10 /> <a href="http://en.wikipedia.org/wiki/Michael_Artin">Michael Artin</a> was the first person to approach representation theory via algebraic geometry and geometric invariant theory. In his 1969 classical paper &#8220;On Azumaya algebras and finite dimensional representations of rings&#8221; he introduced the affine scheme $\mathbf{rep}_n~A $ of all n-dimensional representations of A on which the group $GL_n $ acts via basechange, the orbits of which are exactly the isomorphism classes of representations. He went on to use the Hilbert criterium in invariant theory to prove that the closed orbits for this action are exactly the isomorphism classes of <strong>semi-simple</strong> -dimensional representations. Invariant theory tells us that there are enough invariant polynomials to separate closed orbits, so we would be done if the caracters would generate the ring of invariant polynmials, a statement first conjectured in this paper.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/procesi.jpg" style="float:right;margin-left:10px;" hspace=10 /> <a href="http://www.mat.uniroma1.it/~procesi/">Claudio Procesi</a> was able to prove this conjecture in his 1976 paper &#8220;The invariant theory of $n \times n $ matrices&#8221; in which he reformulated the fundamental theorems on $GL_n $-invariants to show that the ring of invariant polynomials of m $n \times n $ matrices under simultaneous conjugation is generated by traces of words in the matrices (and even managed to limit the number of letters in the words required to $n^2+1 $). Using the properties of the Reynolds operator in invariant theory it then follows that the same applies to the $GL_n $-action on the representation schemes $\mathbf{rep}_n~A $.</p>
+<p>So, let us reformulate their result a bit. Assume the affine $\mathbb{C} $-algebra A is generated by the elements $a_1,\ldots,a_m $ then we define a <strong>necklace</strong> to be an equivalence class of words in the $a_i $, where two words are equivalent iff they are the same upto <strong>cyclic</strong> permutation of letters. For example $a_1a_2^2a_1a_3 $ and $a_2a_1a_3a_1a_2 $ determine the same necklace. Remark that traces of different words corresponding to the same necklace have the same value and that the noncommutative functions $\mathfrak{g}_A $ are spanned by necklaces.</p>
+<p>The <strong>Artin-Procesi theorem</strong> then asserts that if S and T are non-isomorphic simple A-representations, then $\chi(S) \not= \chi(T) $ as elements of $\mathfrak{g}_A^* $ and even that they differ on a necklace in the generators of A of length at most $n^2+1 $. Phrased differently, the array of characters of simples evaluated at necklaces is a substitute for the clasical character-table in finite group theory.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/m-geometry-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>neverendingbooks-geometry (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 12 Jun 2007 12:32:56 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Azumaya]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Jacobian]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://localhost/?p=6</guid>
+
+					<description><![CDATA[Here pdf-files of older NeverEndingBooks-posts on geometry. For more recent posts go here. Seen this quiver? Necklaces (again) B for bricks A for aggregates From&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here pdf-files of older NeverEndingBooks-posts on geometry. For more recent posts <a href="index.php?p=5">go here</a>.</p>
+<p><span id="more-12052"></span></p>
+<p><a href="NEBPDFS/53.pdf">Seen this quiver?</a></p>
+<p><a href="NEBPDFS/282.pdf">Necklaces (again)</a></p>
+<p><a href="NEBPDFS/281.pdf">B for bricks</a></p>
+<p><a href="NEBPDFS/52.pdf">A for aggregates</a></p>
+<p><a href="NEBPDFS/51.pdf">From Galois to NOG</a></p>
+<p><a href="NEBPDFS/50.pdf">Jacobian update 2</a></p>
+<p><a href="NEBPDFS/256.pdf">Jacobian update</a></p>
+<p><a href="NEBPDFS/265.pdf">Congrats Carolyn!</a></p>
+<p><a href="NEBPDFS/48.pdf">Double Poisson algebras</a></p>
+<p><a href="NEBPDFS/44.pdf">Hyper-resolutions</a></p>
+<p><a href="NEBPDFS/43.pdf">Smooth Brauer-Severis</a></p>
+<p><a href="NEBPDFS/42.pdf">Brauer-Severi varieties</a></p>
+<p><a href="NEBPDFS/41.pdf">Curvatures</a></p>
+<p><a href="NEBPDFS/74.pdf">Differential forms</a></p>
+<p><a href="NEBPDFS/40.pdf">Cotangent bundles</a></p>
+<p><a href="NEBPDFS/39.pdf">Moduli spaces</a></p>
+<p><a href="NEBPDFS/37.pdf">Representation spaces</a></p>
+<p><a href="NEBPDFS/36.pdf">Quiver representations</a></p>
+<p><a href="NEBPDFS/35.pdf">Algebraic vs. differential NOG</a></p>
+<p><a href="NEBPDFS/34.pdf">Path algebras</a></p>
+<p><a href="NEBPDFS/241.pdf">Nog course outline</a></p>
+<p><a href="NEBPDFS/33.pdf">The Azumaya locus does determine the order</a></p>
+<p><a href="NEBPDFS/246.pdf">Differential geometry</a></p>
+<p><a href="NEBPDFS/240.pdf">The one quiver for GL(2,Z)</a></p>
+<p><a href="NEBPDFS/138.pdf">The necklace Lie bialgebra</a></p>
+<p><a href="NEBPDFS/137.pdf">More noncommutative manifolds</a></p>
+<p><a href="NEBPDFS/135.pdf">Points and lines</a></p>
+<p><a href="NEBPDFS/125.pdf">Projects in noncommutative geometry</a></p>
+<p><a href="NEBPDFS/118.pdf">Noncommutative geometry 2</a></p>
+<p><a href="NEBPDFS/115.pdf">Noncommutative geometry 1</a></p>
+<p><a href="NEBPDFS/113.pdf">A noncommutative Grothendieck topology</a></p>
+<p><a href="NEBPDFS/116.pdf">Connected component coalgebra</a></p>
+<p><a href="NEBPDFS/100.pdf">NOG master class update</a></p>
+<p><a href="NEBPDFS/93.pdf">NOG master class</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>necklaces (again)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/necklaces-again/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/necklaces-again/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 23 Mar 2005 09:38:52 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[modular]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[quivers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=303</guid>
+
+					<description><![CDATA[I have been posting before on the necklace Lie algebra : on Travis Schedler&#39;s extension of the Lie algebra structure to a Lie bialgebra and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>I have<br />
+been posting before on the necklace Lie algebra : on Travis<br />
+Schedler&#39;s extension of the Lie algebra structure to a Lie bialgebra<br />
+and its deformation and <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php?p=277">more recently</a><br />
+in connection with Michel Van den Bergh&#39;s double Poisson paper. <br /> Yesterday, Victor Ginzburg and Travis Schedler posted their paper <a href="http://www.arxiv.org/abs/math.QA/0503405">Moyal quantization of<br />
+necklace Lie algebras</a> on the arXiv in which they give a Moyal-type<br />
+construction of the Hopf algebra deformation of the necklace Lie<br />
+bialgebra found by Schedler last year. <br /> It would be nice if<br />
+someone worked out a few examples of these constructions in full detail.<br />
+But as often in the case of (wild) quiver situation it is not clear what<br />
+an &#39;interesting&#39; example might be. For the finite and tame case<br />
+we have a full classification by (extended) Dynkin diagrams so a natural<br />
+class of examples but it isn&#39;t clear how to find gems in the<br />
+complement. <br /> One natural source of double quiver situations seems<br />
+to come from what I called the <a href="http://www.arxiv.org/abs/math.RA/0304196">One Quiver</a> of a<br />
+formally smooth algebra. This one quiver of group algebras of some<br />
+interesting arithemetical groups such as the modular group<br />
+$PSL_2(\mathbb{Z}) $ and $SL_2(\mathbb{Z}) $ were calculated before and<br />
+turned out to be consisting of one (resp. two) components which are the<br />
+double of the tame quiver $\tilde{A}_5 $. <br /> To obtain the double of<br />
+a wild quiver situation loook at the group $GL_2(\mathbb{Z}) = D_4<br />
+\bigstar_{D_2} D_6 $. In a previous post<br />
+I thought to have calculated it, but lately I found that this was<br />
+incorrect. Even the version I computed last week still had some mistakes<br />
+as <a href="http://www.math.ua.ac.be/algebra/member.php?who=raf.bocklandt">Raf<br />
+Bocklandt</a> discovered. But as of yesterday we are pretty certain that<br />
+the one quiver for $GL_2(\mathbb{Z}) $ consists of two components. One of<br />
+these is the double quiver of an interesting wild quiver  </p>
+<p>$\xymatrix{&#038; \vtx{} \ar@{=}[rr] \ar@{=}[dd] &#038; &#038; \vtx{} \ar@{=}[dd]<br />
+\\ \vtx{} \ar@{=}[ur] \ar@{=}[rr] \ar@{=}[dd] &#038; &#038; \vtx{} \ar@{.}[ur]<br />
+\ar@{.}[dd] \ar@{=}[dr] \\ &#038; \vtx{} \ar@{.}[rr] \ar@{=}[dr] &#038; &#038; \vtx{}<br />
+\\ \vtx{} \ar@{=}[rr] \ar@{.}[ur] &#038; &#038; \vtx{} \ar@{=}[ur]} $</p>
+<p>where each double line indicates that there is an arrow in each<br />
+direction between the vertices. So, it is an interwoven pattern of one<br />
+big cycle of length 6 (reminiscent of the modular group case) with 4<br />
+cycles of length 5. Perhaps the associated necklace Lie (bi)algebra and<br />
+its deformation might be interesting to work out. <br /> However, the<br />
+second component of the one quiver for $GL_2(\mathbb{Z}) $ is _not_<br />
+symmetric.Maybe I will come back to the calculation of these quivers<br />
+later.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/necklaces-again/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>double Poisson algebras</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/double-poisson-algebras/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/double-poisson-algebras/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 26 Oct 2004 06:35:54 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=277</guid>
+
+					<description><![CDATA[This morning, Michel Van den Bergh posted an interesting paper on the arXiv entitled Double Poisson Algebras. His main motivation was the construction of a&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/doublepoisson.jpg" alt="" style="float:left;margin-right:10px;" /></p>
+<p>This morning, <a href="http://alpha.luc.ac.be/Research/Algebra/Members/michel_id.html"><br />
+Michel Van den Bergh</a> posted an interesting paper on the arXiv<br />
+entitled <a href="http://www.arxiv.org/abs/math.QA/0410528">Double<br />
+Poisson Algebras</a>. His main motivation was the construction of a<br />
+natural Poisson structure on quotient varieties of representations of<br />
+deformed multiplicative preprojective algebras (introduced by<br />
+Crawley-Boevey and Shaw in <a href="http://www.arxiv.org/abs/math.RA/0404186">Multiplicative<br />
+preprojective algebras, middle convolution and the Deligne-Simpson<br />
+problem</a>) which he achieves by extending his double Poisson structure<br />
+on the path algebra of the quiver to the &#39;obvious&#39; universal<br />
+localization, that is the one by inverting all $1+aa^{\star} $ for $a $ an<br />
+arrow and $a^{\star} $ its double (the one in the other direction). <br
+/> For me the more interesting fact of this paper is that his double<br />
+bracket on the path algebra of a double quiver gives finer information<br />
+than the _necklace Lie algebra_ as defined in my (old) paper with Raf<br />
+Bocklandt <a href="http://www.arxiv.org/abs/math.AG/0010030">Necklace<br />
+Lie algebras and noncommutative symplectic geometry</a>. I will<br />
+certainly come back to this later when I have more energy but just to<br />
+wet your appetite let me point out that Michel calls a _double bracket_<br />
+on an algebra $A $ a bilinear map <br /> $\{ \{ -,- \} \}~:~A \times A<br />
+\rightarrow A \otimes A $ <br /> which is a derivation in the _second_<br />
+argument (for the outer bimodulke structure on $A $) and satisfies <br />
+$\{ \{ a,b \} \} = &#8211; \{ \{ b,a \} \}^o $ with $~(u \otimes v)^0 = v<br />
+\otimes u $ <br /> Given such a double bracket one can define an ordinary<br />
+bracket (using standard Hopf-algebra notation) <br /> $\{ a,b \} = \sum<br />
+\{ \{ a,b \} \}_{(1)} \{ \{ a,b \} \}_{(2)} $ <br /> which makes $A $ into<br />
+a <a href="http://math.polytechnique.fr/cmat/kosmann/lod.p">Loday<br />
+algebra</a> and induces a Lie algebra structure on $A/[A,A] $. He then<br />
+goes on to define such a double bracket on the path algebra of a double<br />
+quiver in such a way that the associated Lie structure above is the<br />
+necklace Lie algebra.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/double-poisson-algebras/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>cotangent bundles</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/cotangent-bundles/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/cotangent-bundles/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 09 Sep 2004 09:40:50 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<category><![CDATA[quivers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/cotangent-bundles.html</guid>
+
+					<description><![CDATA[The previous post in this sequence was [moduli spaces][1]. Why did we spend time explaining the connection of the quiver $Q~:~\xymatrix{\vtx{} \ar[rr]^a &#038; &#038; \vtx{}&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The<br />
+previous post in this sequence was [moduli spaces][1]. Why did we spend<br />
+time explaining the connection of the quiver<br />
+$Q~:~\xymatrix{\vtx{} \ar[rr]^a &#038; &#038; \vtx{} \ar@(ur,dr)^x} $<br />
+to moduli spaces of vectorbundles on curves and moduli spaces of linear<br />
+control systems? At the start I said we would concentrate on its _double<br />
+quiver_      $\tilde{Q}~:~\xymatrix{\vtx{} \ar@/^/[rr]^a &#038;&#038; \vtx{}<br />
+\ar@(u,ur)^x \ar@(d,dr)_{x^*} \ar@/^/[ll]^{a^*}} $      Clearly,<br />
+this already gives away the answer : if the path algebra $C Q$<br />
+determines a (non-commutative) manifold $M$, then the path algebra $C<br />
+\tilde{Q}$ determines the cotangent bundle of $M$. Recall that for a<br />
+commutative manifold $M$, the cotangent bundle is the vectorbundle<br />
+having at the point $p \in M$ as fiber the linear dual $(T_p M)^*$ of<br />
+the tangent space.      So, why do we claim that $C \tilde{Q}$<br />
+corresponds to the cotangent bundle of $C Q$? Fix a dimension vector<br />
+$\alpha = (m,n)$ then the representation space<br />
+$\mathbf{rep}_{\alpha}~Q = M_{n \times m}(C) \oplus M_n(C)$      is just<br />
+an affine space so in its point the tangent space is the representation<br />
+space itself. To define its linear dual use the non-degeneracy of the<br />
+_trace pairings_      $M_{n \times m}(C) \times M_{m \times n}(C)<br />
+\rightarrow C~:~(A,B) \mapsto tr(AB)$      $M_n(C) \times M_n(C)<br />
+\rightarrow C~:~(C,D) \mapsto tr(CD)$      and therefore the linear dual<br />
+$\mathbf{rep}_{\alpha}~Q^* = M_{m \times n}(C) \oplus M_n(C)$ which is<br />
+the representation space $\mathbf{rep}_{\alpha}~Q^s$ of the quiver<br />
+$Q^s~:~\xymatrix{\vtx{} &#038; &#038; \vtx{} \ar[ll] \ar@(ur,dr)} $<br />
+and therefore we have that the cotangent bundle to the representation<br />
+space $\mathbf{rep}_{\alpha}~Q$      $T^* \mathbf{rep}_{\alpha}~Q =<br />
+\mathbf{rep}_{\alpha}~\tilde{Q}$      Important for us will be that any<br />
+cotangent bundle has a natural _symplectic structure_. For a good<br />
+introduction to this see the [course notes][2] &#8220;Symplectic geometry and<br />
+quivers&#8221; by [Geert Van de Weyer][3].      As a consequence $C \tilde{Q}$<br />
+can be viewed as a non-commutative symplectic manifold with the<br />
+symplectic structure determined by the non-commutative 2-form<br />
+$\omega = da^* da + dx^* dx$      but before we can define all this we<br />
+will have to recall some facts on non-commutative differential forms.<br />
+Maybe [next time][4]. For the impatient : have a look at the paper by<br />
+Victor Ginzburg [Non-commutative Symplectic Geometry, Quiver varieties,<br />
+and Operads][5] or my paper with Raf Bocklandt [Necklace Lie algebras<br />
+and noncommutative symplectic geometry][6].      Now that we have a<br />
+cotangent bundle of $C Q$ is there also a _tangent bundle_ and does it<br />
+again correspond to a new quiver? Well yes, here it is<br />
+$\xymatrix{\vtx{} \ar@/^/[rr]^{a+da} \ar@/_/[rr]_{a-da} &#038; &#038; \vtx{}<br />
+\ar@(u,ur)^{x+dx} \ar@(d,dr)_{x-dx}} $      and the labeling of the<br />
+arrows may help you to work through some sections of the Cuntz-Quillen<br />
+paper&#8230;</p>
+<p>[1]: https://lievenlebruyn.github.io/neverendingbooks/index.php?p=39<br />
+[2]: http://www.win.ua.ac.be/~gvdwey/lectures/symplectic_moment.pdf<br />
+[3]: http://www.win.ua.ac.be/~gvdwey/<br />
+[4]: https://lievenlebruyn.github.io/neverendingbooks/index.php?p=41<br />
+[5]: http://www.arxiv.org/abs/math.QA/0005165<br />
+[6]: http://www.arxiv.org/abs/math.AG/0010030</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/cotangent-bundles/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>nog course outline</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/nog-course-outline/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/nog-course-outline/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 02 Sep 2004 15:33:28 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Cuntz]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Ginzburg]]></category>
+		<category><![CDATA[Kapranov]]></category>
+		<category><![CDATA[Kontsevich]]></category>
+		<category><![CDATA[LaTeX]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[Quillen]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=71</guid>
+
+					<description><![CDATA[Now that the preparation for my undergraduate courses in the first semester is more or less finished, I can begin to think about the courses&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Now that the preparation for my undergraduate courses in the first semester is more or less finished, I can begin to think about the courses I&#8217;ll give this year in the master class<br />
+non-commutative geometry. For a change I&#8217;d like to introduce the main ideas and concepts by a very concrete example : Ginzburg&#8217;s coadjoint-orbit result for the Calogero-Moser space and its<br />
+relation to the classification of one-sided ideals in the first Weyl algebra. Not only will this example give me the opportunity to say things about formally smooth algebras, non-commutative<br />
+differential forms and even non-commutative symplectic geometry, but it also involves what some people prefer to call _non-commutative algebraic geometry_ (that is the study of graded Noetherian<br />
+rings having excellent homological properties) via the projective space associated to the homogenized Weyl algebra. Besides, I have some affinity with this example. </p>
+<p>A long time ago I introduced<br />
+the moduli spaces for one-sided ideals in the Weyl algebra in <a href="http://www.math.ua.ac.be/~lebruyn/preprints/9249.pdf">Moduli spaces for right ideals of the Weyl algebra</a> and when I was printing a _very_ preliminary version of Ginzburg&#8217;s paper<br />
+<a href="http://www.arxiv.org/abs/math.QA/0005165">Non-commutative Symplectic Geometry, Quiver varieties, and Operads</a> (probably because he send a preview to Yuri Berest and I was in contact with him at the time about the moduli spaces) the<br />
+idea hit me at the printer that the right way to look at the propblem was to consider the quiver </p>
+<p>$\xymatrix{\vtx{} \ar@/^/[rr]^a &#038; &#038;  \vtx{} \ar@(u,ur)^x \ar@(d,dr)_y \ar@/^/[ll]^b} $</p>
+<p>which eventually led to my paper together with Raf Bocklandt <a href="http://www.arxiv.org/abs/math.AG/0010030">Necklace Lie algebras and noncommutative symplectic geometry</a>.</p>
+<p>Apart from this papers I would like to explain the following<br />
+papers by illustrating them on the above example : Michail Kapranov <a href="http://www.arxiv.org/abs/math.AG/9802041">Noncommutative geometry based on commutator expansions</a> Maxim Kontsevich and Alex Rosenberg <a href="http://www.arxiv.org/abs/math.AG/9812158">Noncommutative smooth<br />
+spaces</a> Yuri Berest and George Wilson <a href="http://www.arxiv.org/abs/math.QA/0102190">Automorphisms and Ideals of the Weyl Algebra</a> Yuri Berest and George Wilson <a href="http://www.arxiv.org/abs/math.AG/0104248">Ideal Classes of the Weyl Algebra and Noncommutative Projective<br />
+Geometry</a> Travis Schedler <a href="http://www.arxiv.org/abs/math.QA/0406200">A Hopf algebra quantizing a necklace Lie algebra canonically associated to a quiver</a> and of course the seminal paper by Joachim Cuntz and Daniel Quillen on<br />
+quasi-free algebras and their non-commutative differential forms which, unfortunately, in not available online.</p>
+<p>I plan to write a series of posts here on all this material but I will be very<br />
+happy to get side-tracked by any comments you might have. So please, if you are interested in any of this and want to have more information or explanation do not hesitate to post a comment (only<br />
+your name and email is required to do so, you do not have to register and you can even put some latex-code in your post but such a posting will first have to viewed by me to avoid cluttering of<br />
+nonsense GIFs in my directories).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/nog-course-outline/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

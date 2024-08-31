@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Brauer-Severi &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/brauer-severi/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jun 2007 12:32:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>neverendingbooks-geometry (2)</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry-2/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry-2/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 12 Jun 2007 12:32:56 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Azumaya]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[differential]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Jacobian]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[necklace]]></category>
+		<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[representations]]></category>
+		<category><![CDATA[topology]]></category>
+		<guid isPermaLink="false">http://localhost/?p=6</guid>
+
+					<description><![CDATA[Here pdf-files of older NeverEndingBooks-posts on geometry. For more recent posts go here. Seen this quiver? Necklaces (again) B for bricks A for aggregates From&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here pdf-files of older NeverEndingBooks-posts on geometry. For more recent posts <a href="index.php?p=5">go here</a>.</p>
+<p><span id="more-12052"></span></p>
+<p><a href="NEBPDFS/53.pdf">Seen this quiver?</a></p>
+<p><a href="NEBPDFS/282.pdf">Necklaces (again)</a></p>
+<p><a href="NEBPDFS/281.pdf">B for bricks</a></p>
+<p><a href="NEBPDFS/52.pdf">A for aggregates</a></p>
+<p><a href="NEBPDFS/51.pdf">From Galois to NOG</a></p>
+<p><a href="NEBPDFS/50.pdf">Jacobian update 2</a></p>
+<p><a href="NEBPDFS/256.pdf">Jacobian update</a></p>
+<p><a href="NEBPDFS/265.pdf">Congrats Carolyn!</a></p>
+<p><a href="NEBPDFS/48.pdf">Double Poisson algebras</a></p>
+<p><a href="NEBPDFS/44.pdf">Hyper-resolutions</a></p>
+<p><a href="NEBPDFS/43.pdf">Smooth Brauer-Severis</a></p>
+<p><a href="NEBPDFS/42.pdf">Brauer-Severi varieties</a></p>
+<p><a href="NEBPDFS/41.pdf">Curvatures</a></p>
+<p><a href="NEBPDFS/74.pdf">Differential forms</a></p>
+<p><a href="NEBPDFS/40.pdf">Cotangent bundles</a></p>
+<p><a href="NEBPDFS/39.pdf">Moduli spaces</a></p>
+<p><a href="NEBPDFS/37.pdf">Representation spaces</a></p>
+<p><a href="NEBPDFS/36.pdf">Quiver representations</a></p>
+<p><a href="NEBPDFS/35.pdf">Algebraic vs. differential NOG</a></p>
+<p><a href="NEBPDFS/34.pdf">Path algebras</a></p>
+<p><a href="NEBPDFS/241.pdf">Nog course outline</a></p>
+<p><a href="NEBPDFS/33.pdf">The Azumaya locus does determine the order</a></p>
+<p><a href="NEBPDFS/246.pdf">Differential geometry</a></p>
+<p><a href="NEBPDFS/240.pdf">The one quiver for GL(2,Z)</a></p>
+<p><a href="NEBPDFS/138.pdf">The necklace Lie bialgebra</a></p>
+<p><a href="NEBPDFS/137.pdf">More noncommutative manifolds</a></p>
+<p><a href="NEBPDFS/135.pdf">Points and lines</a></p>
+<p><a href="NEBPDFS/125.pdf">Projects in noncommutative geometry</a></p>
+<p><a href="NEBPDFS/118.pdf">Noncommutative geometry 2</a></p>
+<p><a href="NEBPDFS/115.pdf">Noncommutative geometry 1</a></p>
+<p><a href="NEBPDFS/113.pdf">A noncommutative Grothendieck topology</a></p>
+<p><a href="NEBPDFS/116.pdf">Connected component coalgebra</a></p>
+<p><a href="NEBPDFS/100.pdf">NOG master class update</a></p>
+<p><a href="NEBPDFS/93.pdf">NOG master class</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neverendingbooks-geometry-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>down with determinants</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 18 May 2007 17:14:51 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[quivers]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=177</guid>
+
+					<description><![CDATA[The categorical cafe has a guest post by Tom Leinster Linear Algebra Done Right on the book with the same title by Sheldon Axler. I&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The <a href="http://golem.ph.utexas.edu/category/">categorical cafe</a> has a guest post by Tom Leinster <a href="http://golem.ph.utexas.edu/category/2007/05/linear_algebra_done_right.html">Linear Algebra Done Right</a> on the book with the same title by <a href="http://www.axler.net/LADR.html">Sheldon Axler</a>. I haven&#8217;t read the book but glanced through his online paper <a href="http://www.axler.net/DwD.html">Down with determinants!</a>. Here is &#8216;his&#8217; proof of the fact that any n by n matrix A has at least one eigenvector. Take a vector $v \in \mathbb{C}^n $, then as the collection of vectors ${ v,A.v,A^2.v,\ldots,A^n.v } $ must be linearly dependent, there are complex numbers $a&#95;i \in \mathbb{C} $ such that $~(a&#95;0 + a&#95;1 A + a&#95;2 A^2 + \ldots + a&#95;n A^n).v = \vec{0} \in \mathbb{C}^n $ But then as $\mathbb{C} $ is algebraically closed the polynomial on the left factors into linear factors $a&#95;0 + a&#95;1 x + a&#95;2 x^2 + \ldots + a&#95;n x^n = c (x-r&#95;1)(x-r&#95;2) \ldots (x-r&#95;n) $ and therefore as $c(A-r&#95;1I&#95;n)(A-r&#95;2I&#95;n) \ldots (A-r&#95;nI&#95;n).v = \vec{0} $ from which it follows that at least one of the linear transformations $A-r&#95;j I&#95;n $ has a non-trivial kernel, whence A has an eigenvector with eigenvalue $r_j $. Okay, fine, nice even, but does this simple minded observation warrant the extreme conclusion of his paper (on page 18) ?</p>
+<blockquote>
+<p>As mathematicians, we often read a nice new proof of a known theorem, enjoy the different approach, but continue to derive our internal understanding from the method we originally learned. This paper aims to change drastically the way mathematicians think about and teach crucial aspects of linear algebra.</p>
+<p>The simple proof of the existence of eigenvalues given in Theorem 2.1 should be the one imprinted in our minds, written on our blackboards, and published in our textbooks. Generalized eigenvectors should become a central tool for the understanding of linear operators. As we have seen, their use leads to natural definitions of multiplicity and the characteristic polynomial. Every mathematician and every linear algebra student should at least remember that the generalized eigenvectors of an operator always span the domain (Proposition 3.4)‚Äîthis crucial result leads to easy proofs of upper-triangular form (Theorem 6.2) and the Spectral Theorem (Theorems 7.5 and 8.3).</p>
+<p>Determinants appear in many proofs not discussed here. If you scrutinize such proofs, you‚Äôll often discover better alternatives without determinants. Down with Determinants!
+  </p></blockquote>
+<p>I welcome all new proofs of known results as they allow instructors to choose the one best suited to their students (and preferable giving more than one proof showing that there is no such thing as &#8216;the best way&#8217; to prove a mathematical result). What worries me is Axler&#8217;s attitude shared by extremists and dogmatics world-wide : they are so blinded by their own right that they impoverish their own lifes (and if they had their way, also that of others) by not willing to consider other alternatives. A few other comments :</p>
+<ol>
+<li>
+<p>I would be far more impressed if he had given a short argument for the one line he skates over in his proof, that of $\mathbb{C} $ being algebraically closed. Does anyone give a proof of this fact anymore or is this one of the few facts we expect first year students to accept on faith?</p>
+<ol>
+<li>
+<p>I dont understand this aversity to the determinant (probably because of its nonlinear character) but at the same time not having any problems with successive powers of matrices. Surely he knows that the determinant is a fixed $~\mathbb{Q}~ $-polynomial in the traces (which are linear!) of powers of the matrix.</p>
+</li>
+<li>
+<p>The essense of linear algebra is that by choosing a basis cleverly one can express a linear operator in a extremely nice matrix form (a canonical form) so that all computations become much more easy. This crucial idea of considering different bases and their basechange seems to be missing from Axler&#8217;s approach. Moreover, I would have thought that everyone would know these days that &#8216;linear algebra done right&#8217; is a well developed topic called &#8216;representation theory of quivers&#8217; but I realize this might be viewed as a dogmatic statement. Fortunately someone else is giving the basic linear algebra courses here in Antwerp so students are spared my private obsessions (at least the first few years&#8230;). In &#91;his post&#93;(http://golem.ph.utexas.edu/category/2007/05/ linear&#95;algebra&#95;done_right.html) Leistner askes &#8220;What are determinants good for?&#8221; I cannot resist mentioning a trivial observation I made last week when thinking once again about <a href="https://lievenlebruyn.github.io/neverendingbooks/?p=318">THE rationality problem</a> and which may be well known to others. Recall from the previous post that rationality of the quotient variety of matrix-couples $~(A,B) \in M&#95;n(\mathbb{C}) \oplus M&#95;n(\mathbb{C}) / GL&#95;n $ under &#95;simultaneous conjugation_ is a very hard problem. On the other hand, the &#8216;near miss&#8217; problem of the quotient variety of matrix-couples $ { (A,B)~|~det(A)=0~} / GL&#95;n $ is completely trivial. It is rational for all n. Here is a one-line proof. Consider the quiver $\xymatrix{\vtx{} \ar@/^2ex/[rr] &amp; &amp; \vtx{} \ar@(ur,dr) \ar@/^2ex/[ll]} $ then the dimension vector (n-1,n) is a Schur root and the first fundamental theorem of $GL&#95;n $ (see for example Hanspeter Krafts excellent book on invariant theory) asserts that the corresponding quotient variety is the one above. The result then follows from Aidan Schofield&#8217;s paper <a href="http://www.arxiv.org/abs/math/9911014">Birational classification of moduli spaces of representations of quivers</a>. Btw. in this special case one does not have to use the full force of Aidan&#8217;s result. <a href="http://www.math.ubc.ca/~reichst/">Zinovy Reichstein</a>, who keeps me updated on events in <a href="http://www.mathcs.emory.edu/~skip/conf/Home.html">Atlanta</a>, emailed the following elegant short proof Here is an outline of a geometric proof. Let $X = {(A, B) : det(A) = 0} &#92;subset M&#95;n^2 $ and $Y = \mathbb{P}^{n-1} &#92;times M&#95;n $. Applying the no-name lemma to the $PGL&#95;n $-equivariant dominant rational map $~X \rightarrow Y $ given by $~(A, B) &#92;rightarrow (Ker(A), B) $ (which makes X into a vector bundle over a dense open $PGL&#95;n $-invariant subset of Y), we see that $X//PGL&#95;n $ is rational over $Y//PGL&#95;n $ On the other hand, $Y//PGLn = M&#95;n//PGL&#95;n $ is an affine space. Thus $X//PGL_n $ is rational. The moment I read this I knew how to do this quiver-wise and that it is just another Brauer-Severi type argument so completely inadequate to help settling the genuine matrix-problem. Update on the <a href="http://www.arxiv.org/abs/0704.3450">paper by Esther Beneish</a> : Esther did submit the paper in february.</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/down-with-determinants/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>lulu neverendingbooks</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lulu-neverendingbooks/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lulu-neverendingbooks/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 18 Jul 2005 13:15:34 +0000</pubDate>
+				<category><![CDATA[web]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[lulu]]></category>
+		<category><![CDATA[neverendingbooks]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=213</guid>
+
+					<description><![CDATA[Half a year ago, it all started with NeverEndingBooks in which I set out a rather modest goal: Why NeverEndingBooks? We all complain about exaggerated&#8230;]]></description>
+										<content:encoded><![CDATA[<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/book2.jpg" /><br />
+</center></p>
+<p>Half a year ago, it all started with NeverEndingBooks in which I set out a rather modest goal:</p>
+<blockquote><p>Why NeverEndingBooks? We all complain about exaggerated prices of mathematical books from<br />
+certain publishers, poor quality of editing and refereeing offered, as well as far too stringent book-contracts. Rather than lamenting about this, NeverEndingBooks gives itself one year to learn (and report) about the many aspects of the book-production cycle and to explore whether an alternative exists. If at the end of this year we will have produced at least one book this experiment will be considered a success. If,<br />
+however, we find out that it is an impossible task, we will explain where it all went wrong and why it is better to stick to an established PublishingHouse and accept its terms.
+</p></blockquote>
+<p>I assume we did manage to do it after all as you may check by visiting our <a href="http://www.lulu.com/neverendingbooks">storefront :<br />
+www.lulu.com/neverendingbooks</a>. However, it all turned out to be quite different from what I had in mind half a year ago. So, perhaps it&#8217;s time to recap.</p>
+<p>Originally, I&#8217;d planned to partner-up with the publisher-on-demand <a href="https://www.lightningsource.com/index.htm">LightningSource</a> but in the process they did require a VAT-number. In Belgium, the safest way to get one is to set up a non-profit organization (a VZW as we call<br />
+it). But then you have to write down your legal statutes, get them published in the <a href="http://www.ejustice.just.fgov.be/cgi/welcome.pl">Moniteur Belge</a> (at a hefty price) but what really put me off was that you have to set up a &#8220;board of directors&#8221; consisting of at least three<br />
+people. I don&#8217;t mind following a folly but if I have to involve others I usually pass, so I abandoned the whole idea.</p>
+<p>Still, I couldn&#8217;t help talking about the VAT-problem and at a certain time there was an idea to revive a sleeping VZW (=non-profit organization) of the <a href="http://bms.ulb.ac.be/cgi/welcome.php">Belgian Mathematical Society</a>, the MaRC (MAthematical Research Centre), the statutes of which allowed to become a publishing house. But, this wouldn&#8217;t involve just two other people but the whole BMS so I decided<br />
+to forget all about it and have a short vacation in France together with a few (former)PhD-students.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/rothkoatn.jpg" /><br />
+</center></p>
+<p>Given plenty of sun, cheese and whine (not necessarily in that order) sooner or later we had to talk about _the_ problem. For <a href="http://www.win.ua.ac.be/~rbockl/research/">Raf</a> it was the first time he heard about it but when we realized I thought one could easily publish books well under 25 dollars he was immediately interested and insisted we should set up a board of directors and continue with the plan.</p>
+<p>The different roles to play in the board were more or less self-evident : I had to be the treasurer (given the fact that I was the only with a secure, though small, income), <a href="http://www.win.ua.ac.be/~gvdwey/">Geert</a> had to become chairman (being the only one possessing suits), Raf would be secretary (being the only one who could write better Flemish than English) and <a href="http://www.math.ua.ac.be/~adri/">Jan</a> or <a href="http://www.win.ua.ac.be/~ssymens/">Stijn</a> would do PR (as they are the only ones having enough social skills).</p>
+<p>So, we went back willing to go through the whole process (at least 3 months) of obtaining a VAT-number.</p>
+<p>But then Raf got so interested in the whole idea that he explored other possibilities (I think he was more motivated by the fact that his sister wanted to publish her thesis rather than anything else) and came up with <a href="http://www.lulu.com/">lulu.com</a>.</p>
+<p>No legal hassle, no VAT-numbers, nothing required (or so it seemed). Still, before risking his sister&#8217;s thesis he wanted to check the service out and as it is a lot easier to take a book lying around rather than write one yourself he took my <a href="https://lievenlebruyn.github.io/neverendingbooks/toolkit/pdffile.php?pdf=%2FTheLibrary%2Fbooks%2FLeBruyn2.pdf">version 2</a> and published it at Lulu&#8217;s (since then this version is nicknamed <a href="http://en.wikipedia.org/wiki/Mark_Rothko">Rothko@n</a>).</p>
+<p>Although I gave him the permission to do so, it didn&#8217;t feel right that people should pay even a small amount for a nicely bound unedited version 2. So, the last month and a half I&#8217;ve been editing and partially rewriting version 2 and the two volumes are now <a href="http://www.lulu.com/neverendingbooks">available!</a></p>
+<p>Major changes are to the 4 middle chapters. There is now chapter 3 &#8220;Etale Technology&#8221; which contains all of the etale tricks scattered earlier in two chapters, chapter 4 ‚&#8221;Quiver Representations&#8221; collects all the<br />
+quiver material (again, scattered throughout the previous version). Chapter 5 ‚&#8221;Semisimple Representations&#8221; now includes recent material such as Raf&#8217;s characterization of the smooth locus of Cayley-smooth orders and our (together with Geert) classification of the central singularities, and chapter 6 ‚&#8221;Nilpotent Representations&#8221; now includes the material on Brauer-Severi varities which was in version 1 but somehow didn&#8217;t make it to version 2 before.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lulu-neverendingbooks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>reading backlog</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/reading-backlog/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/reading-backlog/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 08 Nov 2004 19:06:59 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[arxiv]]></category>
+		<category><![CDATA[Azumaya]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[moduli]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=187</guid>
+
+					<description><![CDATA[One of the things I like most about returning from a vacation is to have an enormous pile of fresh reading : a week&#39;s worth&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA/reading1.jpg" alt="" style="float:left;margin-right:10px;" /> </p>
+<p>One of the things I like most about returning from a vacation is to<br />
+have an enormous pile of fresh reading : a week&#39;s worth of<br />
+newspapers, some regular mail and much more email (three quarters junk).<br />
+Also before getting into bed after the ride I like to browse through the<br />
+<a href="http://www.arxiv.org/">arXiv</a> in search for interesting<br />
+papers. <br /> This time, the major surprise of my initial survey came<br />
+from the newspapers. No, not Bush again, _that_ news was headline<br />
+even in France. On the other hand, I didn&#39;t hear a word about <a
+href="http://news.bbc.co.uk/1/hi/world/europe/3974179.stm"> Theo Van<br />
+Gogh being shot and stabbed to death</a> in Amsterdam. I&#39;ll come<br />
+back to this later. <br /> I&#39;d rather mention the two papers that<br />
+somehow stood out during my scan of this week on the arXiv. The first is<br />
+<a href="http://www.arxiv.org/abs/math.AG/0411101">Framed quiver moduli,<br />
+cohomology, and quantum groups</a> by <a href="http://www.math.uni-muenster.de/reine/u/reinekem/">Markus<br />
+Reineke</a>. By the deframing trick, a framed quiver moduli problem is<br />
+reduced to an ordinary quiver moduli problem for a dimension vector for<br />
+which one of the entries is equal to one, hence in particular, an<br />
+indivisible dimension vector. Such quiver problems are far easier to<br />
+handle than the divisible ones where everything can at best be reduced<br />
+to the classical problem of classifying tuples of $n \\times n$ matrices<br />
+up to simultaneous conjugation. Markus deals with the case when the<br />
+quiver has no oriented cycles. An important examples of a framed moduli<br />
+quiver problem _with_ oriented cycles is the study of<br />
+Brauer-Severi varieties of smooth orders. Significant progress on the<br />
+description of the fibers in this case is achieved by Raf Bocklandt,<br />
+Stijn Symens and Geert Van de Weyer and will (hopefully) be posted soon.<br />
+<br /> The second paper is <a href="http://www.arxiv.org/abs/math.AG/0411094">Moduli schemes of rank<br />
+one Azumaya modules</a> by Norbert Hoffmann and Urich Stuhler which<br />
+brings back longforgotten memories of my Ph.D. thesis, 21 years<br />
+ago&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/reading-backlog/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>hyper-resolutions</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/hyper-resolutions/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/hyper-resolutions/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 30 Sep 2004 14:07:14 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Azumaya]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[moduli]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/hyper-resolutions.html</guid>
+
+					<description><![CDATA[[Last time][1] we saw that for $A$ a smooth order with center $R$ the Brauer-Severi variety $X_A$ is a smooth variety and we have a&#8230;]]></description>
+										<content:encoded><![CDATA[<p>[Last time][1] we saw that for $A$ a smooth order with center $R$ the<br />
+Brauer-Severi variety $X_A$ is a smooth variety and we have a projective<br />
+morphism      $X_A \rightarrow \mathbf{max}~R$      This situation is<br />
+very similar to that of a desingularization $~X \rightarrow<br />
+\mathbf{max}~R$ of the (possibly singular) variety $~\mathbf{max}~R$.<br />
+The top variety $~X$ is a smooth variety and there is a Zariski open<br />
+subset of $~\mathbf{max}~R$ where the fibers of this map consist of just<br />
+one point, or in more bombastic language a $~\mathbb{P}^0$. The only<br />
+difference in the case of the Brauer-Severi fibration is that we have a<br />
+Zariski open subset of $~\mathbf{max}~R$ (the Azumaya locus of A) where<br />
+the fibers of the fibration are isomorphic to $~\mathbb{P}^{n-1}$. In<br />
+this way one might view the Brauer-Severi fibration of a smooth order as<br />
+a non-commutative or hyper-desingularization of the central variety.<br />
+ This might provide a way to attack the old problem of construction<br />
+desingularizations of quiver-quotients. If $~Q$ is a quiver and $\alpha$<br />
+is an indivisible dimension vector (that is, the component dimensions<br />
+are coprime) then it is well known (a result due to [Alastair King][2])<br />
+that for a generic stability structure $\theta$ the moduli space<br />
+$~M^{\theta}(Q,\alpha)$ classifying $\theta$-semistable<br />
+$\alpha$-dimensional representations will be a smooth variety (as all<br />
+$\theta$-semistables are actually $\theta$-stable) and the fibration<br />
+ $~M^{\theta}(Q,\alpha) \rightarrow \mathbf{iss}_{\alpha}~Q$      is a<br />
+desingularization of the quotient-variety $~\mathbf{iss}_{\alpha}~Q$<br />
+classifying isomorphism classes of $\alpha$-dimensional semi-simple<br />
+representations.      However, if $\alpha$ is not indivisible nobody has<br />
+the faintest clue as to how to construct a natural desingularization of<br />
+$~\mathbf{iss}_{\alpha}~Q$. Still, we have a perfectly reasonable<br />
+hyper-desingularization      $~X_{A(Q,\alpha)} \rightarrow<br />
+\mathbf{iss}_{\alpha}~Q$      where $~A(Q,\alpha)$ is the corresponding<br />
+quiver order, the generic fibers of which are all projective spaces in<br />
+case $\alpha$ is the dimension vector of a simple representation of<br />
+$~Q$. I conjecture (meaning : I hope) that this Brauer-Severi fibration<br />
+contains already a lot of information on a genuine desingularization of<br />
+$~\mathbf{iss}_{\alpha}~Q$.      One obvious test for this seemingly<br />
+crazy conjecture is to study the flat locus of the Brauer-Severi<br />
+fibration. If it would contain info about desingularizations one would<br />
+expect that the fibration can never be flat in a central singularity! In<br />
+other words, we would like that the flat locus of the fibration is<br />
+contained in the smooth central locus. This is indeed the case and is a<br />
+more or less straightforward application of the proof (due to [Geert Van<br />
+de Weyer][3]) of the Popov-conjecture for quiver-quotients (see for<br />
+example his Ph.D. thesis [Nullcones of quiver representations][4]).<br />
+However, it is in general not true that the flat-locus and central<br />
+smooth locus coincide.      Sometimes this is because the Brauer-Severi<br />
+scheme is a blow-up of the Brauer-Severi of a nicer order. The following<br />
+example was worked out together with [Colin Ingalls][5] : Consider the<br />
+order      $~A = \begin{bmatrix} C[x,y] &#038; C[x,y] \\ (x,y) &#038; C[x,y]<br />
+\end{bmatrix}$      which is the quiver order of the quiver setting<br />
+$~(Q,\alpha)$      $\xymatrix{\vtx{1} \ar@/^2ex/[rr] \ar@/^1ex/[rr]<br />
+&#038; &#038; \vtx{1} \ar@/^2ex/[ll]} $      then the Brauer-Severi fibration<br />
+$~X_A \rightarrow \mathbf{iss}_{\alpha}~Q$ is flat everywhere except<br />
+over the zero representation where the fiber is $~\mathbb{P}^1 \times<br />
+\mathbb{P}^2$. On the other hand, for the order      $~B =<br />
+\begin{bmatrix} C[x,y] &#038; C[x,y] \\ C[x,y] &#038; C[x,y] \end{bmatrix}$<br />
+the Brauer-Severi fibration is flat and $~X_B \simeq \mathbb{A}^2 \times<br />
+\mathbb{P}^1$. It turns out that $~X_A$ is a blow-up of $~X_B$ at a<br />
+point in the fiber over the zero-representation.</p>
+<p>[1]: https://lievenlebruyn.github.io/neverendingbooks/index.php?p=342<br />
+[2]: http://www.maths.bath.ac.uk/~masadk/<br />
+[3]: http://www.win.ua.ac.be/~gvdwey/<br />
+[4]: http://www.win.ua.ac.be/~gvdwey/papers/thesis.pdf<br />
+[5]: http://kappa.math.unb.ca/~colin/  </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/hyper-resolutions/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>smooth Brauer-Severis</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/smooth-brauer-severis/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/smooth-brauer-severis/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 28 Sep 2004 14:04:14 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[Procesi]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/smooth-brauer-severis.html</guid>
+
+					<description><![CDATA[Around the same time Michel Van den Bergh introduced his Brauer-Severi schemes, [Claudio Procesi][1] (extending earlier work of [Bill Schelter][2]) introduced smooth orders as those&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Around the<br />
+same time Michel Van den Bergh introduced his Brauer-Severi schemes,<br />
+[Claudio Procesi][1] (extending earlier work of [Bill Schelter][2])<br />
+introduced smooth orders as those orders $A$ in a central simple algebra<br />
+$\Sigma$ (of dimension $n^2$) such that their representation variety<br />
+$\mathbf{trep}_n~A$ is a smooth variety. Many interesting orders are smooth<br />
+: hereditary orders, trace rings of generic matrices and more generally<br />
+size n approximations of formally smooth algebras (that is,<br />
+non-commutative manifolds). As in the commutative case, every order has<br />
+a Zariski open subset where it is a smooth order.      The relevance of<br />
+this notion to the study of Brauer-Severi varieties is that $X_A$ is a<br />
+smooth variety whenever $A$ is a smooth order. Indeed, the Brauer-Severi<br />
+scheme was the orbit space of the principal $GL_n$-fibration on the<br />
+Brauer-stable representations (see [last time][3]) which form a Zariski<br />
+open subset of the smooth variety $\mathbf{trep}_n~A \times k^n$. In fact,<br />
+in most cases the reverse implication will also hold, that is, if $X_A$<br />
+is smooth then usually A is a smooth order.      However, for low n,<br />
+there are some counterexamples. Consider the so called quantum plane<br />
+ $A_q=k_q[x,y]~:~yx=qxy$ with $~q$ an $n$-th root of unity      then one<br />
+can easily prove (using the fact that the smooth order locus of $A_q$ is<br />
+everything but the origin in the central variety $~\mathbb{A}^2$) that<br />
+the singularities of the Brauer-Severi scheme $X_A$ are the orbits<br />
+corresponding to those nilpotent representations $~\phi : A \rightarrow<br />
+M_n(k)$ which are at the same time singular points in $\mathbf{trep}_n~A$<br />
+and have a cyclic vector. As there are singular points among the<br />
+nilpotent representations, the Brauer-Severi scheme will also be<br />
+singular except perhaps for small values of $n$.      For example, if<br />
+$~n=2$ the defining relation is $~xy+yx=0$ and any trace preserving<br />
+representation has a matrix-description      $~x \rightarrow<br />
+\begin{bmatrix} a &#038; b \\ c &#038; -a \end{bmatrix}~y \rightarrow<br />
+\begin{bmatrix} d &#038; e \\ f &#038; -d \end{bmatrix}$      such that<br />
+$~2ad+bf+ec = 0$. That is,      $~\mathbf{trep}_2~A = \mathbb{V}(2ad+bf+ec)<br />
+\subset \mathbb{A}^6$      which is an hypersurface with a unique<br />
+singular point (the origin). As this point corresponds to the<br />
+zero-representation (which does not have a cyclic vector) the<br />
+Brauer-Severi scheme will be smooth in this case.      [Colin<br />
+Ingalls][4] extended this calculation to show that the Brauer-Severi<br />
+scheme is equally smooth when $~n=3$ but has a unique (!) singular point<br />
+when $~n=4$. So probably all Brauer-Severi schemes for $n \geq 4$ are<br />
+indeed singular. I conjecture that this is a general feature for<br />
+Brauer-Severi schemes of families (depending on the p.i.-degree $n$) of<br />
+non-smooth orders.</p>
+<p>[1]: http://venere.mat.uniroma1.it/people/procesi/<br />
+[2]: http://www.fact-index.com/b/bi/bill_schelter.html<br />
+[3]: https://lievenlebruyn.github.io/neverendingbooks/index.php?p=341<br />
+[4]: http://kappa.math.unb.ca/~colin/</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/smooth-brauer-severis/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Brauer-Severi varieties</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/brauer-severi-varieties/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/brauer-severi-varieties/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Mon, 27 Sep 2004 14:01:14 +0000</pubDate>
+				<category><![CDATA[featured]]></category>
+		<category><![CDATA[Azumaya]]></category>
+		<category><![CDATA[Brauer]]></category>
+		<category><![CDATA[Brauer-Severi]]></category>
+		<category><![CDATA[Galois]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[non-commutative]]></category>
+		<category><![CDATA[representations]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/index.php/brauer-severi-varieties.html</guid>
+
+					<description><![CDATA[![][1] Classical Brauer-Severi varieties can be described either as twisted forms of projective space (Severi\&#8217;s way) or as varieties containing splitting information about central simple&#8230;]]></description>
+										<content:encoded><![CDATA[<p>![][1]<br />
+Classical Brauer-Severi varieties can be described either as twisted<br />
+forms of projective space (Severi\&#8217;s way) or as varieties containing<br />
+splitting information about central simple algebras (Brauer\&#8217;s way). If<br />
+$K$ is a field with separable closure $\overline{K}$, the first approach<br />
+asks for projective varieties $X$ defined over $K$ such that over the<br />
+separable closure   $X(\overline{K}) \simeq<br />
+\mathbb{P}^{n-1}_{\overline{K}}$   they are just projective space. In<br />
+the second approach let $\Sigma$ be a central simple $K$-algebra and<br />
+define a variety $X_{\Sigma}$ whose points over a field extension $L$<br />
+are precisely the left ideals of $\Sigma \otimes_K L$ of dimension $n$.<br />
+This variety is defined over $K$ and is a closed subvariety of the<br />
+Grassmannian $Gr(n,n^2)$. In the special case that $\Sigma = M_n(K)$ one<br />
+can use the matrix-idempotents to show that the left ideals of dimension<br />
+$n$ correspond to the points of $\mathbb{P}^{n-1}_K$. As for any central<br />
+simple $K$-algebra $\Sigma$ we have that $\Sigma \otimes_K \overline{K}<br />
+\simeq M_n(\overline{K})$ it follows that the varieties $X_{\Sigma}$ are<br />
+among those of the first approach. In fact, there is a natural bijection<br />
+between those of the first approach (twisted forms) and of the second as<br />
+both are classified by the Galois cohomology pointed set<br />
+$H^1(Gal(\overline{K}/K),PGL_n(\overline{K}))$   because<br />
+$PGL_n(\overline{K})$ is the automorphism group of<br />
+$\mathbb{P}^{n-1}_{\overline{K}}$ as well as of $M_n(\overline{K})$. The<br />
+ringtheoretic relevance of the Brauer-Severi variety $X_{\Sigma}$ is<br />
+that for any field extension $L$ it has $L$-rational points if and only<br />
+if $L$ is a _splitting field_ for $\Sigma$, that is, $\Sigma \otimes_K L<br />
+\simeq M_n(\Sigma)$. To give one concrete example, If $\Sigma$ is the<br />
+quaternion-algebra $(a,b)_K$, then the Brauer-Severi variety is a conic<br />
+ $X_{\Sigma} = \mathbb{V}(x_0^2-ax_1^2-bx_2^2) \subset \mathbb{P}^2_K$<br />
+Whenever one has something working for central simple algebras, one can<br />
+_sheafify_ the construction to Azumaya algebras. For if $A$ is an<br />
+Azumaya algebra with center $R$ then for every maximal ideal<br />
+$\mathfrak{m}$ of $R$, the quotient $A/\mathfrak{m}A$ is a central<br />
+simple $R/\mathfrak{m}$-algebra. This was noted by the<br />
+sheafification-guru [Alexander Grothendieck][2] and he extended the<br />
+notion to Brauer-Severi schemes of Azumaya algebras which are projective<br />
+bundles   $X_A \rightarrow \mathbf{max}~R$   all of which fibers are<br />
+projective spaces (in case $R$ is an affine algebra over an<br />
+algebraically closed field). But the real fun started when [Mike<br />
+Artin][3] and [David Mumford][4] extended the construction to suitably<br />
+_ramified_ algebras. In good cases one has that the Brauer-Severi<br />
+fibration is flat with fibers over ramified points certain degenerations<br />
+of projective space. For example in the case considered by Artin and<br />
+Mumford of suitably ramified orders in quaternion algebras, the smooth<br />
+conics over Azumaya points degenerate to a pair of lines over ramified<br />
+points. A major application of their construction were examples of<br />
+unirational non-rational varieties. To date still one of the nicest<br />
+applications of non-commutative algebra to more mainstream mathematics.<br />
+ The final step in generalizing Brauer-Severi fibrations to arbitrary<br />
+orders was achieved by [Michel Van den Bergh][5] in 1986. Let $R$ be an<br />
+affine algebra over an algebraically closed field (say of characteristic<br />
+zero) $k$ and let $A$ be an $R$-order is a central simple algebra<br />
+$\Sigma$ of dimension $n^2$. Let $\mathbf{trep}_n~A$ be teh affine variety<br />
+of _trace preserving_ $n$-dimensional representations, then there is a<br />
+natural action of $GL_n$ on this variety by basechange (conjugation).<br />
+Moreover, $GL_n$ acts by left multiplication on column vectors $k^n$.<br />
+One then considers the open subset in $\mathbf{trep}_n~A \times k^n$<br />
+consisting of _Brauer-Stable representations_, that is those pairs<br />
+$(\phi,v)$ such that $\phi(A).v = k^n$ on which $GL_n$ acts freely. The<br />
+corresponding orbit space is then called the Brauer-Severio scheme $X_A$<br />
+of $A$ and there is a fibration   $X_A \rightarrow \mathbf{max}~R$   again<br />
+having as fibers projective spaces over Azumaya points but this time the<br />
+fibration is allowed to be far from flat in general. Two months ago I<br />
+outlined in Warwick an idea to apply this Brauer-Severi scheme to get a<br />
+hold on desingularizations of quiver quotient singularities. More on<br />
+this next time.</p>
+<p>[1]: https://lievenlebruyn.github.io/neverendingbooks/DATA/brauer.jpg<br />
+[2]: http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Grothendieck.html<br />
+[3]: http://www.cirs-tm.org/researchers/researchers.php?id=235<br />
+[4]: http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Mumford.html<br />
+[5]: http://alpha.luc.ac.be/Research/Algebra/Members/michel_id.html</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/brauer-severi-varieties/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

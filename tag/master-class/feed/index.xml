@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>master class &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/master-class/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 26 Jan 2011 16:40:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Noncommutative algebra and geometry master-degree</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-algebra-and-geometry-master-degree/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-algebra-and-geometry-master-degree/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 26 Jan 2011 16:40:56 +0000</pubDate>
+				<category><![CDATA[noncommutative]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[master class]]></category>
+		<category><![CDATA[moduli]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4856</guid>
+
+					<description><![CDATA[The lecturers, topics and dates of the 6 mini-courses in our &#8216;advanced master degree 2011 in noncommutative algebra and geometry&#8217; are : February 21-25 Vladimir&#8230;]]></description>
+										<content:encoded><![CDATA[<p>The lecturers, topics and dates of the 6 mini-courses in our &#8216;advanced master degree 2011 in noncommutative algebra and geometry&#8217; are :</p>
+<p>February 21-25<br />
+<a href="http://maths.dept.shef.ac.uk/maths/staff_info.php?id=1">Vladimir Bavula</a> (University of Sheffield) :<br />
+Localization Theory of Rings and Modules</p>
+<p>March 7-11<br />
+<a href="http://www.mathematik.uni-muenchen.de/~hanssch/index.php">Hans-Jürgen Schneider</a> (University of München) :<br />
+ Nichols Algebra and Root Systems</p>
+<p>April 11-12<br />
+<a href="http://www.math.jussieu.fr/~keller/">Bernhard Keller</a>  (Université Paris VII):<br />
+Cluster Algebra and Quantum Cluster Algebras</p>
+<p>April 18-22<br />
+<a href="http://alev.perso.math.cnrs.fr/">Jacques Alev</a>  (Université Reims):<br />
+Automorphisms of some Basic Algebras</p>
+<p>May 3-8<br />
+<a href="http://www.calpoly.edu/~math/directory.html">Goro Kato</a> (Cal Poly University, San Luis Obispo, US):<br />
+Sheaf Cohomology and Zeta – Functions</p>
+<p>May 9-13<br />
+<a href="http://wmaz.math.uni-wuppertal.de/reineke/">Markus Reineke</a> (University of Wuppertal):<br />
+Moduli Spaces of Representatives</p>
+<p>More information can be found <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/master2011.doc">here</a>. I&#8217;ve been told that some limited support is available for foreign graduate students wanting to attend this programme. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-algebra-and-geometry-master-degree/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>hier-Lafaye &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/hier-lafaye/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 03 Mar 2023 14:54:50 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>The shape of languages</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 03 Mar 2023 14:54:50 +0000</pubDate>
+				<category><![CDATA[Gbrain]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[category theory]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Gauthier-Lafaye]]></category>
+		<category><![CDATA[gbrain]]></category>
+		<category><![CDATA[hier-Lafaye]]></category>
+		<category><![CDATA[languages]]></category>
+		<category><![CDATA[Lawvere]]></category>
+		<category><![CDATA[shape]]></category>
+		<category><![CDATA[Sibony]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[topos]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10968</guid>
+
+					<description><![CDATA[In the topology of dreams we looked at Sibony&#8217;s idea to view dream-interpretations as sections in a fibered space. The &#8216;points&#8217; in the base-space and&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">the topology of dreams</a> we looked at Sibony&#8217;s idea to view dream-interpretations as sections in a fibered space.</p>
+<p>The &#8216;points&#8217; in the base-space and fibers consisting of chunks of text, perhaps connected by links. The topology and shape of this fibered space is still shrouded in mystery.</p>
+<p>Let&#8217;s look at a simple approach to turn a large number of texts into a topos, and define a loose metric on it.</p>
+<p>There&#8217;s this paper <a href="https://arxiv.org/abs/2106.07890">An enriched category theory of language: from syntax to semantics</a> by Tai-Danae Bradley, John Terilla and Yiannis Vlassopoulos.</p>
+<p><a href="https://www.math3ma.com/about">Tai-Danae Bradley</a> is an excellent communicator of everything category related, so probably it is more fun to read her own blogposts on this paper:</p>
+<ul>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-1">Language, Statistics, &#038; Category Theory, Part 1</a></li>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-2">Language, Statistics, &#038; Category Theory, Part 2</a></li>
+<li><a href="https://www.math3ma.com/blog/language-statistics-category-theory-part-3">Language, Statistics, &#038; Category Theory, Part 3</a></li>
+</ul>
+<p>or to watch her Categories for AI talk: &#8216;Category Theory Inspired by LLMs&#8217;:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/_LgWD3UTKfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>Let&#8217;s start with a collection of notes. In the paper, they consider all possible texts written in some language, but it may be a set of webpages to train a language model, or a set of recollections by someone.</p>
+<p>Next, shred these notes into chunks of text, and point one of these to all the texts obtained by deleting some words at the start and/or end of it. For example, the note &#8216;a red rose&#8217; will point to &#8216;a red&#8217;, &#8216;red rose&#8217;, &#8216;a&#8217;, &#8216;red&#8217; and &#8216;rose&#8217; (but not to &#8216;a rose&#8217;).</p>
+<p>You may call this a category, to me it is just as a poset $(\mathcal{L},\leq)$. The maximal elements are the individual words, the minimal elements are the notes, or websites, we started from.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/languageposet.png" width=60%><br />
+</center></p>
+<p>A down-set $A$ of this poset $(\mathcal{L},\leq)$ is a subset of $\mathcal{L}$ closed under taking smaller elements, that is, if $a \in A$ and $b \leq a$, then $b \in A$.</p>
+<p>The intersection of two down-sets is again a down-set (or empty), and the union of down-sets is again a downset. That is, down-sets define a topology on our collection of text-snippets, or if you want, on language-fragments.</p>
+<p>For example, the open determined by the word &#8216;red&#8217; is the collection of all text-fragments containing this word.</p>
+<p>The corresponding presheaf topos $\widehat{\mathcal{L}}$ is then just the category of all (set-valued) presheaves on this topological space.<br />
+As an example, the Yoneda-presheaf $\mathcal{Y}(p)$ of a text-snippet $p$ is the contra-variant functor</p>
+<p>$$(\mathcal{L},\leq) \rightarrow \mathbf{Sets}$$</p>
+<p>sending any $q \leq p$ to the unique map $\ast$ from $q$ to $p$, and if $q \not\leq p$ then we map it to $\emptyset$. If $A$ is a down-set (an open of over topological space) then the sections of $\mathcal{Y}(p)$ over $A$ are $\{ \ast \}$ if for all $a \in A$ we have $a \leq p$, and $\emptyset$ otherwise.</p>
+<p>The presheaf $\mathcal{Y}(p)$ already contains some semantic information about the snippet $p$ as it gives all contexts in which $p$ appears.</p>
+<p>Perhaps interesting is that the &#8216;points&#8217; of the topos $\widehat{\mathcal{L}}$ are the notes we started from.</p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">Recall</a> that Connes and Gauthier-Lafaey want to construct a topos describing someone&#8217;s unconscious, and points of that topos should be the connection with that person&#8217;s consciousness.</p>
+<p>Suppose you want to unravel your unconscious. You start by writing down a large set of notes containing all relevant facts of your life. Then you construct from these notes the above collection of snippets and its corresponding pre-sheaf topos. Clearly, you wrote your notes consciously, but probably the exact phrasing of these notes, or recurrent themes in them, or some text-combinations are ruled by your unconscious.</p>
+<p>Ok, it&#8217;s not much, but perhaps it&#8217;s a germ of an potential approach&#8230;</p>
+<p><center><br />
+<img decoding="async" src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.spiritofchange.org/content/uploads/data-import/b9645d25/brain.jpg" width=60%><br />
+(<a href="https://www.spiritofchange.org/automatic-brain-the-magic-of-the-unconscious-mind/">Image credit</a>)<br />
+</center></p>
+<p>Now we come to the interesting part of the paper, the &#8216;enrichment&#8217; of this poset.</p>
+<p>Surely, some of these text-snippets will occur more frequently than others. For example, in your starting notes the snippet &#8216;red rose&#8217; may appear ten time more than the snippet &#8216;red dwarf&#8217;, but this is not visible in the poset-structure. So how can we bring in this extra information?</p>
+<p>If we have two text-snippets $p$ and $q$ and $q \leq p$, that is, $p$ is a connected sub-string of $q$. We can compute the conditional probability $\pi(q|p)$ which tells us how likely it is that if we spot an occurrence of $p$ in our starting notes, it is part of the larger sentence $q$. These numbers can be easily computed and from the rules of probability we get that for snippets $r \leq q \leq p$ we have that</p>
+<p>$$\pi(r|p) = \pi(r|q) \times \pi(q|r)$$</p>
+<p>so these numbers (all between $0$ and $1$) behave multiplicative along paths in the poset.</p>
+<p>Nice in theory, but it requires an awful lot of computation. From the paper:</p>
+<blockquote><p>
+The reader might think of these probabilities $\pi(q|p)$ as being most well defined when $q$ is a short extension of $p$. While one may be skeptical about assigning a probability distribution on the set of all possible texts, it’s reasonable to say there is a nonzero probability that cat food will follow I am going to the store to buy a can of and, practically speaking, that probability can be estimated.</p>
+<p>Indeed, existing <a href="https://en.wikipedia.org/wiki/Wikipedia:Large_language_models#:~:text=Large%20language%20models%20(LLMs)%20are,new%20or%20modify%20existing%20text.">LLMs</a> successfully learn these conditional probabilities $\pi(q|p)$ using standard machine learning tools trained on large corpora of texts, which may be viewed as providing a wealth of samples drawn from these conditional probability distributions.
+</p></blockquote>
+<p>It may be easier to have an estimate $\mu(q|p)$ of this conditional probability for immediate successors (that is, if $q$ is obtained from $p$ by adding one word at the beginning or end of it), and then extend this measure to all arrows in the poset by taking the maximum of products along paths. In this way we have for all $r \leq q \leq p$ that</p>
+<p>$$\mu(r|p) \geq \mu(r|q) \times \mu(q|p)$$</p>
+<p>The upshot is that this measure $\mu$ turns our poset (or category) $(\mathcal{L},\leq)$ into a category &#8216;enriched&#8217; over the unit interval $[ 0,1 ]$ (suitably made into a monoidal category).</p>
+<p>I&#8217;ll spare you the details, just want to flash out the corresponding notion of &#8216;enriched presheaves&#8217; which are the objects of the <em>semantic category</em> $\widehat{\mathcal{L}}^s$ in the paper, which is the enriched version of the presheaf category $\widehat{\mathcal{L}}$.</p>
+<p>An enriched presheaf is a <em>function</em> (not functor)</p>
+<p>$$F~:~\mathcal{L} \rightarrow [0,1]$$</p>
+<p>satisfying the condition that for all text-snippets $r,q \in \mathcal{L}$ we have that</p>
+<p>$$\mu(r|q) \leq [F(q),F(r)] = \begin{cases} \frac{F(r)}{F(q)}~\text{if $F(r) \leq F(q)$} \\ 1~\text{otherwise} \end{cases}$$</p>
+<p>Note that the enriched (or semantic) Yoneda presheaf $\mathcal{Y}^s(p)(q) = \mu(q|p)$ satisfies this condition, and now this data not only records the contexts in which $p$ appears, but also measures how likely it is for $p$ to appear in a certain context.</p>
+<p>Another cute application of the condition on the measure $\mu$ is that it allows us to define a &#8216;distance function&#8217; (satisfying the triangle inequality) on all text-snippets in $\mathcal{L}$ by</p>
+<p>$$d(q,p) = \begin{cases} -ln(\mu(q|p))~\text{if $q \leq p$} \\<br />
+ \infty~\text{otherwise} \end{cases}$$</p>
+<p>So, the higher $\mu(q|p)$ the closer $q$ lies to $p$, and now the snippet $p$ (example &#8216;red&#8217;) not only defines the open set in $\mathcal{L}$ of all texts containing $p$, but now we can structure the snippets in this open set with respect to this &#8216;distance&#8217;.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/reddistance.png" width=60%><br />
+</center></p>
+<p>In this way we can turn any language, or a collection of texts in a given language, into what <a href="https://en.wikipedia.org/wiki/William_Lawvere">Lawvere</a> called a &#8216;generalized metric space&#8217;.</p>
+<p>It looks as if we are progressing slowly in our, probably futile, attempt to understand Alain Connes&#8217; and Patrick Gauthier-Lafaye&#8217;s claim that &#8216;the unconscious is structured like a topos&#8217;.</p>
+<p>Even if we accept the fact that we can start from a collection of notes, there are a number of changes we need to make to the above approach:</p>
+<ul>
+<li>there will be contextual links between these notes</li>
+<li>we only want to retain the relevant snippets, not all of them</li>
+<li>between these &#8216;highlights&#8217; there may also be contextual links</li>
+<li>texts can be related without having to be concatenations</li>
+<li>we need to implement changes when new notes are added</li>
+<li>&#8230; (much more)</li>
+</ul>
+<p>Perhaps, we should try to work on a specific &#8216;case&#8217;, and explore all technical tools that may help us to make progress.</p>
+<p>(tbc)</p>
+<p><strong>Previously in this series:</strong></p>
+<ul>
+<li><a href="https://lievenlebruyn.github.io/neverendingbooks/the-topology-of-dreams">The topology of dreams</a></li>
+</ul>
+<p><strong>Next:</strong></p>
+<p><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

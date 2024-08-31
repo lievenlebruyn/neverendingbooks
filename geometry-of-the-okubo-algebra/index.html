@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title>Geometry of the Okubo algebra &#8211; neverendingbooks</title>
+<meta name="robots" content="max-image-preview:large">
+
+<script>MathJax = {
+  tex: {
+    inlineMath: [['$','$'],['\\(','\\)']], 
+    processEscapes: true
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore|editor-rich-text'
+  }
+};</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="template" content="Founder 1.56">
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="neverendingbooks &raquo; Feed" href="https://lievenlebruyn.github.io/neverendingbooks/feed/">
+<link rel="alternate" type="application/rss+xml" title="neverendingbooks &raquo; Comments Feed" href="https://lievenlebruyn.github.io/neverendingbooks/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="neverendingbooks &raquo; Geometry of the Okubo algebra Comments Feed" href="https://lievenlebruyn.github.io/neverendingbooks/geometry-of-the-okubo-algebra/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/lievenlb.local\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://lievenlebruyn.github.io/neverendingbooks/wp-includes/css/dist/block-library/style.min.css?ver=6.6.1" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 11px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--regular: 16px;--wp--preset--font-size--larger: 36px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="ssp-search-css" href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/plugins/simply-static-pro/assets/ssp-search.css?ver=1.6.0" type="text/css" media="all">
+<link rel="stylesheet" id="ct-founder-google-fonts-css" href="//fonts.googleapis.com/css?family=Noto+Sans%3A400%2C700%2C400i&#038;display=swap&#038;subset=latin%2Clatin-ext&#038;ver=6.6.1" type="text/css" media="all">
+<link rel="stylesheet" id="ct-founder-font-awesome-css" href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/themes/founder/assets/font-awesome/css/all.min.css?ver=6.6.1" type="text/css" media="all">
+<link rel="stylesheet" id="ct-founder-style-css" href="https://lievenlebruyn.github.io/neverendingbooks/wp-content/themes/founder/style.css?ver=6.6.1" type="text/css" media="all">
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<!--[if IE 8]>
+<script type="text/javascript" src="http://lievenlb.local/wp-content/themes/founder/js/build/html5shiv.min.js?ver=6.6.1" id="ct-founder-html5-shiv-js"></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="https://lievenlebruyn.github.io/neverendingbooks/wp-json/">
+<link rel="alternate" title="JSON" type="application/json" href="https://lievenlebruyn.github.io/neverendingbooks/wp-json/wp/v2/posts/1407">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://lievenlebruyn.github.io/neverendingbooks/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.6.1">
+<link rel="canonical" href="https://lievenlebruyn.github.io/neverendingbooks/geometry-of-the-okubo-algebra/">
+<link rel="shortlink" href="https://lievenlebruyn.github.io/neverendingbooks/?p=1407">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://lievenlebruyn.github.io/neverendingbooks/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps%3A%2F%2Flievenlebruyn.github.io%2Fneverendingbooks%2Fgeometry-of-the-okubo-algebra%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://lievenlebruyn.github.io/neverendingbooks/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps%3A%2F%2Flievenlebruyn.github.io%2Fneverendingbooks%2Fgeometry-of-the-okubo-algebra%2F#038;format=xml">
+			                <meta name="ssp-config-path" content="/wp-content/uploads/simply-static/configs/">
+			
+			                <meta name="ssp-comment-redirect-url" content="https://lievenlebruyn.github.io/neverendingbooks/thank-you/">
+                <meta name="ssp-comment-endpoint" content="aHR0cDovL2xpZXZlbmxiLmxvY2FsL3dwLWNvbW1lbnRzLXBvc3QucGhw">
+						</head>
+
+<body id="founder" class="post-template-default single single-post postid-1407 single-format-standard full-post singular singular-post singular-post-1407">
+			<a class="skip-content" href="#main">Skip to content &rarr;</a>
+	<div id="overflow-container" class="overflow-container">
+		<div id="max-width" class="max-width">
+									<header class="site-header" id="site-header" role="banner">
+				<div id="title-container" class="title-container">
+					<div id="site-title" class="site-title"><a href="https://lievenlebruyn.github.io/neverendingbooks/">neverendingbooks</a></div>									</div>
+				<button id="toggle-navigation" class="toggle-navigation" name="toggle-navigation" aria-expanded="false">
+					<span class="screen-reader-text">open menu</span>
+					<i class="fas fa-bars" title="primary menu icon" aria-hidden="true"></i>
+				</button>
+				<div id="menu-primary-container" class="menu-primary-container">
+					<div id="menu-primary" class="menu-container menu-primary" role="navigation">
+	<div class="menu-unset"><ul><li class="page_item page-item-12112"><a href="https://lievenlebruyn.github.io/neverendingbooks/thank-you/">Thank You</a></li></ul></div>
+</div>
+					<ul class="social-media-icons">                    <li>
+                        <a class="twitter" target="_blank" href="http://x.com/lievenlb/with_replies" aria-label="twitter">
+                            <i class="fab fa-square-x-twitter" title="twitter"></i>
+                            <span class="screen-reader-text">twitter</span>
+                        </a>
+                    </li>
+                    						<li>
+							<a class="email" target="_blank" href="mailto:&#108;&#105;&#101;&#118;&#101;&#110;.&#108;&#101;b&#114;&#117;&#121;&#110;&#64;&#117;&#97;ntwe&#114;p&#101;&#110;&#46;be" aria-label="email &#108;&#105;&#101;&#118;&#101;&#110;.&#108;&#101;b&#114;&#117;&#121;&#110;&#64;&#117;&#97;ntwe&#114;p&#101;&#110;&#46;be">
+								<i class="fas fa-envelope" title="email"></i>
+								<span class="screen-reader-text">email</span>
+							</a>
+						</li>
+					</ul>					
+<div class="search-form-container">
+	<button id="search-icon" class="search-icon" aria-label="search" aria-pressed="false">
+		<i class="fas fa-search"></i>
+	</button>
+	<form role="search" method="get" class="search-form" action="http://lievenlb.local/">
+		<label class="screen-reader-text">Search</label>
+		<input type="search" class="search-field" placeholder="Search..." value="" name="s" title="Search for:" tabindex="-1">
+	</form>
+</div>				</div>
+			</header>
+										<aside class="sidebar sidebar-primary" id="sidebar-primary" role="complementary">
+		<h1 class="screen-reader-text">Sidebar</h1>
+		<button id="toggle-sidebar" class="toggle-sidebar" name="toggle-sidebar" aria-expanded="false">
+			<span class="screen-reader-text">open sidebar</span>
+			<i class="fas fa-angle-down" title="sidebar icon" aria-hidden="true"></i>
+		</button>
+		<div id="sidebar-primary-content" class="sidebar-primary-content">
+			<div id="sidebar-primary-widgets" class="sidebar-primary-widgets active-3">
+				<section id="block-2" class="widget widget_block widget_search"><form role="search" method="get" action="http://lievenlb.local/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search">
+<label class="wp-block-search__label" for="wp-block-search__input-1">Search</label><div class="wp-block-search__inside-wrapper ">
+<input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="" value="" type="search" name="s" required><button aria-label="Search" class="wp-block-search__button wp-element-button" type="submit">Search</button>
+</div>
+</form></section><section id="block-3" class="widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading">Recent Posts</h2>
+<ul class="wp-block-latest-posts__list wp-block-latest-posts">
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/vialism-versus-weilism/">Vialism versus Weilism</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/what-about-simone-weil/">What about  Simone Weil?</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/">Clancy and Nancago</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/bourbaki-and-dema-two-remarks/">Bourbaki and Dema, two remarks</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://lievenlebruyn.github.io/neverendingbooks/closure/">Closure</a></li>
+</ul>
+</div></div></section><section id="block-4" class="widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading">Recent Comments</h2>
+<ol class="wp-block-latest-comments">
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">Shane</span> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-173">Clancy and Nancago</a></footer></article></li>
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">Shane</span> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-172">Clancy and Nancago</a></footer></article></li>
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><a class="wp-block-latest-comments__comment-author" href="http://www.neverendingbooks.org/">lievenlb</a> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-171">Clancy and Nancago</a></footer></article></li>
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">Shane</span> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-170">Clancy and Nancago</a></footer></article></li>
+<li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">Party Poison</span> on <a class="wp-block-latest-comments__comment-link" href="https://lievenlebruyn.github.io/neverendingbooks/clancy-and-nancago/#comment-169">Clancy and Nancago</a></footer></article></li>
+</ol>
+</div></div></section>			</div>
+		</div>
+	</aside>
+
+						<section id="main" class="main" role="main">
+				
+<div id="loop-container" class="loop-container">
+	<div class="post-1407 post type-post status-publish format-standard hentry category-geometry tag-geometry entry">
+		<article>
+		<div class="post-header">
+			<h1 class="post-title">Geometry of the Okubo algebra</h1>
+			
+<div class="post-meta">
+	<p>
+		Published March 14, 2009 by lieven	</p>
+</div>		</div>
+				<div class="post-content">
+						<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/melanieR.jpg" style="float:right;margin-left:10px;" hspace="10">Last week, <a href="http://www.math.ucl.ac.be/membres/raczek/">Melanie Raczek</a> gave a talk entitled &#8216;Cubic forms and Okubo product&#8217; in our <a href="http://www.math.ua.ac.be/algeo/?page_id=11">Artseminar</a>, based on her paper <a href="http://www.mathematik.uni-bielefeld.de/LAG/man/312.pdf">On ternary cubic forms that  determine central simple algebras of degree 3</a>.</p>
+<p>I had never heard of this strange non-associative product on 8-dimensional space, but I guess it is an instance of <a href="http://en.wikipedia.org/wiki/Synchronicity">synchronicity</a> that now the Okubo algebra seems to pop-up everywhere.</p>
+<p>Yesterday, there was the post <a href="http://golem.ph.utexas.edu/category/2009/03/the_okubo_algebra.html">the Okubo algebra</a> by John Baez at the n-cafe, telling that <a href="http://spider.pas.rochester.edu/mainFrame/people/pages/Okubo_Susumu.html">Susumu Okubo</a> discovered his algebra while investigating quarks.</p>
+<p>I don&#8217;t know a thing about the physics, but over the last days I&#8217;ve been trying to understand some of the miraculous geometry associated to the Okubo algebra. So, let&#8217;s start out by defining the &#8216;algebra&#8217;.</p>
+<p>Consider the associative algebra of all 3&#215;3 complex matrices $M_3(\mathbb{C}) $ with the usual matrix-multiplication. In this algebra there is the 8-dimensional subspace of trace zero matrices, usually called the Lie algebra $\mathfrak{sl}_3 $. However, we will not use the Lie-bracket, only matrix-multiplication. Typical elements of $\mathfrak{sl}_3 $ will be written as  $X,Y,Z,&#8230; $ and their entries will be denoted as</p>
+<p>$X = \begin{bmatrix} x_0 &amp; x_1 &amp; x_2 \\ x_3 &amp; x_4 &amp; x_5 \\ x_6 &amp; x_7 &amp; -x_0-x_4 \end{bmatrix} $</p>
+<p>For any two elements $X,Y \in \mathfrak{sl}_3 $ one defines their Okubo-product to be the 3&#215;3 matrix</p>
+<p>$X \ast Y = \frac{1}{1-\omega}(Y.X-\omega X.Y) &#8211; \frac{1}{3}Tr(X.Y) 1_3 $</p>
+<p>where $\omega $ is a primitive 3-rd root of unity and $1_3 $ is the identity matrix. Written out in the entries of X and Y this operation looks horribly complicated</p>
+<p>$X \ast Y = \frac{1}{1-\omega} \begin{bmatrix} p_{11} &amp; p_{12} &amp; p_{13} \\ p_{21} &amp; p_{22} &amp; p_{23} \\ p_{31} &amp; p_{32} &amp; -p_{11}-p_{22} \end{bmatrix} $</p>
+<p>with</p>
+<p>[tex]\begin{eqalign} \\ p_{11} &amp;= (1-\omega)x_0y_0+x_3y_1+x_6y_2-\omega(x_1y_3+x_2y_6)-\frac{1}{3}T \\ p_{12} &amp;= x_1y_0+x_4y_1+x_7y_2-\omega(x_0y_1+x_1y_4+x_2y_7) \\ p_{13} &amp;= x_2y_0+x_5y_1-x_0y_2-x_4y_2-\omega(x_0y_2+x_1y_5-x_2y_0-x_2y_4) \\<br>
+p_{21} &amp;= x_0y_3+x_3y_4+x_6y_5 &#8211; \omega(x_3y_0+x_4y_3+x_5y_6) \\<br>
+p_{22} &amp;= (1-\omega)x_4y_4+x_1y_3+x_7y_5 &#8211; \omega(x_3y_1+x_5y_7) &#8211; \frac{1}{3}T \\<br>
+p_{23} &amp;= x_2y_3+x_5y_4-x_0y_5-x_4y_5-\omega(x_3y_2+x_4y_5-x_5y_0-x_5y_4) \\<br>
+p_{31} &amp;= x_0y_6+x_3y_7-x_6y_0-x_6y_4-\omega(x_6y_0+x_7y_3-x_0y_6-x_4y_6) \\<br>
+p_{32} &amp;= x_1y_6+x_4y_7-x_7y_0-x_7y_4 &#8211; \omega(x_6y_1+x_7y_4-x_0y_7-x_4y_7) \\<br>
+T &amp;= 2x_0y_0+2x_4y_4+x_1y_3+x_2y_6+x_3y_1+x_5y_7+x_6y_2+x_7y_5+x_0y_4+x_4y_0<br>
+\end{eqalign}[/tex]</p>
+<p>The crucial remark to make is that $X \ast Y $ is again a trace zero matrix. That is, we have defined a new operation on $\mathfrak{sl}_3 $.</p>
+<p>$\mathfrak{sl}_3 \times \mathfrak{sl}_3 \rightarrow \mathfrak{sl}_3~\qquad~\qquad~(X,Y) \mapsto X \ast Y $</p>
+<p>This Okubo-product is neither a Lie-bracket, nor an associative multiplication. In fact, it is a lot &#8216;less associative&#8217; than that other 8-dimensional algebra, the <a href="http://math.ucr.edu/home/baez/octonions/">octonions</a>. The only noteworthy identity it has is that $X \ast (Y \ast X) = (X \ast Y) \ast X $. So, why should we be interested in this horrible algebra?</p>
+<p>Well, let us consider the subset of $\mathfrak{sl}_3 $ consisting of those matrices X satusfying $Tr(X^2)=0 $. That is, with the above notation, all matrices X such that</p>
+<p>$x_0^2+x_4^2+x_1x_3+x_2x_6+x_5x_7=0 $</p>
+<p>In the 8-dimensional affine space $\mathfrak{sl}_3 $ these matrices form a singular quadric with top the zero-matrix. So, it is better to go projective. That is, any non-zero matrix $X \in \mathfrak{sl}_3 $ determines a point in 7-dimensional projective space $\mathbb{P}^7 $ with homogeneous coordinates</p>
+<p>$\overline{X} = [x_0:x_1:x_2:x_3:x_4:x_5:x_6:x_7] \in \mathbb{P}^7 $</p>
+<p>and the points $\overline{X} $ corresponding to solutions of $Tr(X^2)=0 $ form a smooth 6-dimensional quadric $Q \subset \mathbb{P}^7 $ with homogeneous equation</p>
+<p>$Q = \mathbb{V}(x_0^2+x_4^2+x_1x_3+x_2x_6+x_5x_7) $</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/ruledquadric.gif" style="float:right;margin-left:10px;" hspace="10"> 6-dimensional quadrics may be quite hard to visualize, so it may help to recall the classic situation of lines on a 2-dimensional quadric (animated gif taken from <a href="http://www.surfex.algebraicsurface.net/view.php?menuitem=198">surfex</a>).</p>
+<p>A 2-dimensional quadric contains two families of lines, often called the &#8216;blue lines&#8217; and the &#8216;red lines&#8217;, each of these lines isomorphic to $\mathbb{P}^1 $. The rules-of-intersection of these are :</p>
+<ul>
+<li>different red lines are disjoint as are different blue lines    </li>
+<li>any red and any blue line intersect in exactly one point    </li>
+<li>every point of the quadric lies on exactly one red and one blue line  </li>
+</ul>
+<p>The lines in either family are in one-to-one correspondence with the points on the projective line. We therefore say that there is a $\mathbb{P}^1 $-family of red lines and a $\mathbb{P}^1 $-family of blue lines on a 2-dimensional quadric.</p>
+<p>A 6-dimensional quadric $Q \subset \mathbb{P}^7 $ contains two families of &#8216;3-planes&#8217;. That is, there is a family of red $\mathbb{P}^3 $&#8217;s contained in Q and a family of blue $\mathbb{P}^3 $&#8217;s. Can we determine these red and blue 3-planes explicitly?</p>
+<p>Yes we can, using the Okubo algebra-product on $\mathfrak{sl}_3 $. Take $X \in \mathfrak{sl}_3 $ defining the point $\overline{X} \in Q $ (that is, $Tr(X^2)=0 $). then all 3&#215;3 matrices one obtains by taking the Okubo-product with left X-factor form a 4-dimensional linear subspace in $\mathfrak{sl}_3 $</p>
+<p>$L_X = &#123; X \ast Y~|~Y \in \mathfrak{sl}_3 &#125; \simeq \mathbb{C}^4 \subset \mathfrak{sl}_3 $</p>
+<p>so its non-zero matrices determine a 3-plane in $\mathbb{P}^7 $ (consisting of all points with homogeneous coordinates $[p_{11}:p_{12}:p_{13}:p_{21}:p_{22}:p_{23}:p_{31}:p_{32}] $, using the above formulas) which actually lies entirely in the quadric Q. These are precisely the bLue 3-planes in Q. That is, the family of all bLue 3-planes consists precisely of the 3-planes</p>
+<p>$\mathbb{P}(L_X) $ with $X \in \mathfrak{sl}_3 $ satisfying $Tr(X^2)=0 $</p>
+<p>Phrased differently, any point $\overline{X} \in Q $ determines a blue 3-plane $\mathbb{P}(L_X) $.</p>
+<p>Similarly, any point $\overline{X} \in Q $ determines a Red 3-plane by taking Okubo-products with Right X-factor, that is, $\mathbb{P}(R_X) $ is a 3-plane for Q where</p>
+<p>$R_X = &#123; Y \ast X~|~Y \in \mathfrak{sl}_3 &#125; \simeq \mathbb{C}^4 \subset \mathfrak{sl}_3 $</p>
+<p>and all Red 3-planes for Q are of this form. But, this is not all&#8230; these correspondences are unique! That is, any point on the quadric defines a unique red and a unique blue 3-plane, or, phrased differently, there is a Q-family of red 3-planes and a Q-family of blue 3-planes in Q. This is a consequence of <a href="http://en.wikipedia.org/wiki/Triality">triality</a>.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/D4.png" style="float:left;margin-right:10px;" hspace="10">To see this, note that the automorphism group of a 6-dimensional smooth quadric is the rotation group $SO_8(\mathbb{C}) $ and this group has <a href="http://en.wikipedia.org/wiki/Root_system">Dynkin diagram</a> $D_4 $, the most symmetrical of them all!</p>
+<p>In general, every node in a Dynkin diagram has an interesting projective variety associated to it, a so called <a href="http://en.wikipedia.org/wiki/Homogeneous_space">homogeneous space</a>. I&#8217;ll just mention what these spaces are corresponding to the 4 nodes of $D_4 $. Full details can be found in chapter 23 of Fulton and Harris&#8217; <a href="http://www.amazon.co.uk/Representation-Theory-Course-Graduate-Mathematics/dp/0387974954/">Representation theory, a first course</a>.</p>
+<p>The left-most node corresponds to the orthogonal Grassmannian of isotropic 1-planes in $\mathbb{C}^8  $ which is just a fancy way of viewing our quadric Q. The two right-most nodes correspond to the two connected components of the Grassmannians of isotropic 4-planes in $\mathbb{C}^8 $, which are our red resp. blue families of 3-planes on the quadric. Now, as the corresponding dotted Dynkin diagrams are isomorphic</p>
+<p></p>
+<center>
+<br>
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA2/triality.jpg"><br>
+</center>
+<p>there corresponding homogeneous spaces are also isomorphic. Thus indeed, there is a one-to-one correspondence between points of the quadric Q and red 3-planes on Q (and similarly with blue 3-planes on Q).</p>
+<p>Okay, so the Okubo-product allows us to associate to a point on the 6-dimensional quadric Q a unique red 3-plane and a unique blue 3-plane (much as any point on a 2-dimensional quadric determines a unique red and blue line). Do these families of red and blue 3-planes also satisfy &#8216;rules-of-intersection&#8217;?</p>
+<p>Yes they do and, once again, the Okubo-product clarifies them. Here they are :</p>
+<ul>
+<li>two different red 3-planes intersect in a unique line (as do different blue 3-planes)  </li>
+<li>the bLue 3-plane $\mathbb{P}(L_X) $ intersects the Red 3-plane $\mathbb{P}(R_Y) $ in a unique point if and only if the Okubo-product $X \ast Y \not= 0 $   </li>
+<li>the bLue 3-plane $\mathbb{P}(L_X) $ intersects the Red 3-plane $\mathbb{P}(R_Y) $ in a unique 2-plane if and only if the Okubo-product $X \ast Y = 0 $  </li>
+</ul>
+<p>That is, Right and Left Okubo-products determine the Red and bLue families of 3-planes on the 6-dimensional quadric as well as their intersections!</p>
+					</div>
+		<div class="post-after">
+						<p class="post-categories"><span>Published in </span><a href="https://lievenlebruyn.github.io/neverendingbooks/category/geometry/" title="View all posts in geometry">geometry</a></p>			<div class="post-tags">
+<span>Tagged in</span><ul><li><a href="https://lievenlebruyn.github.io/neverendingbooks/tag/geometry/" title="View all posts tagged geometry">geometry</a></li></ul>
+</div>			<nav class="further-reading">
+	<div class="previous">
+		<span>Previous Post</span>
+		<a href="https://lievenlebruyn.github.io/neverendingbooks/connes-consani-go-categorical/">Connes &#038; Consani go categorical</a>
+	</div>
+	<div class="next">
+		<span>Next Post</span>
+		<a href="https://lievenlebruyn.github.io/neverendingbooks/the-scottish-solids-hoax/">The Scottish solids hoax</a>
+	</div>
+</nav>		</div>
+	</article>
+	
+	<section id="comments" class="comments">
+		<div class="comments-number">
+			<h2>
+				Comments			</h2>
+		</div>
+		<ol class="comment-list">
+					</ol>
+					<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://lievenlebruyn.github.io/neverendingbooks/geometry-of-the-okubo-algebra/#respond" style="display:none;">Cancel reply</a></small>
+</h3>
+<form action="http://lievenlb.local/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p>
+<p class="comment-form-comment">
+	            <label for="comment">Comment</label>
+	            <textarea required id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+	        </p>
+<p class="comment-form-author">
+	            <label for="author">Name*</label>
+	            <input id="author" name="author" type="text" value="" size="30" aria-required="true">
+	        </p>
+<p class="comment-form-email">
+	            <label for="email">Email*</label>
+	            <input id="email" name="email" type="email" value="" size="30" aria-required="true">
+	        </p>
+<p class="comment-form-url">
+	            <label for="url">Website</label>
+	            <input id="url" name="url" type="url" value="" size="30">
+	            </p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="1407" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>
+</form>	</div>
+<!-- #respond -->
+		</section>
+	</div>
+</div>
+
+</section><!-- .main -->
+
+<footer id="site-footer" class="site-footer" role="contentinfo">
+		<span>
+        <a href="https://www.competethemes.com/founder/" rel="nofollow">Founder WordPress Theme</a> by Compete Themes.    </span>
+</footer>
+
+</div>
+</div>
+<!-- .overflow-container -->
+
+
+        <span class="ssp-id" style="display:none">1407</span>
+		<span style="display:none">            <div class="ssp-search">
+                <form class="search-form">
+                    <div class="form-row">
+                        <div class="search-input-container">
+                            <input class="search-input fuse-search" name="search-input" placeholder="Search" autocomplete="off" data-noresult="No results found.">
+                            <div class="search-auto-complete"></div>
+                            <button type="submit" class="search-submit">
+                                <svg viewbox="0 0 24 24">
+                                    <path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <div class="result"></div>
+            </div>
+			</span><script type="text/javascript" src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js?ver=6.6.1" id="mathjax-js"></script>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/plugins/simply-static-pro/assets/ssp-comment-webhook.js?ver=1.6.0" id="ssp-comment-webhook-js"></script>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/plugins/simply-static-pro/assets/fuse.js?ver=1.6.0" id="ssp-fuse-js"></script>
+<script type="text/javascript" id="ssp-search-js-extra">
+/* <![CDATA[ */
+var ssp_search = {"html":"            <div class=\"ssp-search\">\n                <form class=\"search-form\">\n                    <div class=\"form-row\">\n                        <div class=\"search-input-container\">\n                            <input class=\"search-input fuse-search\" name=\"search-input\"\n                                   placeholder=\"Search\"\n                                   autocomplete=\"off\"\n                                   data-noresult=\"No results found.\">\n                            <div class=\"search-auto-complete\"><\/div>\n                            <button type='submit' class='search-submit'>\n                                <svg viewBox='0 0 24 24'>\n                                    <path d='M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z'\/>\n                                <\/svg>\n                            <\/button>\n                        <\/div>\n                    <\/div>\n                <\/form>\n                <div class=\"result\"><\/div>\n            <\/div>\n\t\t\t","use_selector":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/plugins/simply-static-pro/assets/ssp-search.js?ver=1.6.0" id="ssp-search-js"></script>
+<script type="text/javascript" id="ct-founder-js-js-extra">
+/* <![CDATA[ */
+var ct_founder_objectL10n = {"openMenu":"open menu","closeMenu":"close menu","openSidebar":"open sidebar","closeSidebar":"close sidebar"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-content/themes/founder/js/build/production.min.js?ver=6.6.1" id="ct-founder-js-js"></script>
+<script type="text/javascript" src="https://lievenlebruyn.github.io/neverendingbooks/wp-includes/js/comment-reply.min.js?ver=6.6.1" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<!--[if IE 8]>
+<script type="text/javascript" src="http://lievenlb.local/wp-content/themes/founder/js/build/respond.min.js?ver=6.6.1" id="ct-founder-respond-js"></script>
+<![endif]-->
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Caspar &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/caspar/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 24 Feb 2021 11:17:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>GoV 1 : Geometry of viruses</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/gov-1-geometry-of-viruses/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/gov-1-geometry-of-viruses/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 24 Feb 2021 11:17:24 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[GoV]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[Caspar]]></category>
+		<category><![CDATA[Covid-19]]></category>
+		<category><![CDATA[icosahedron]]></category>
+		<category><![CDATA[Klug]]></category>
+		<category><![CDATA[Penrose]]></category>
+		<category><![CDATA[Twarock]]></category>
+		<category><![CDATA[virus]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=8923</guid>
+
+					<description><![CDATA[As you may have guessed from the symmetries of Covid-19 post, I did spend some time lately catching up with the literature on the geometric&#8230;]]></description>
+										<content:encoded><![CDATA[<p>As you may have guessed from <a href="https://lievenlebruyn.github.io/neverendingbooks/the-symmetries-of-covid-19">the symmetries of Covid-19</a> post, I did spend some time lately catching up with the literature on the geometric structure and symmetries of viruses. It may be fun to run a little series on this.</p>
+<p>A virus is a parasite, so it cannot reproduce on its own and needs to invade a host cell to replicate. All information needed for this replication process is stored in a fragile DNA or RNA string, the viral genome.</p>
+<p>This genome needs to be protected by a coating made of proteins, the viral capsid. Most viruses have an additional fatty protection layer, the envelope, decorated by virus (glyco)proteins (such as the &#8216;spikes&#8217; needed to infiltrate the host cell).</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/virusstructure.jpg" width=60% ><br />
+</center></p>
+<p>Most viruses are extremely small (between 20 and 200nm), our friend the corona-virus measures between 80 and 120nm. So, its genome is also pretty small (the corona genome has around 30.000 base pairs). To maximise its information, the volume of the protective capsid must be as large as possible, and must be formed by just a few different proteins (to free as much space in the code of the genome for other operations) and clusters of them are distributed over the polyhedral capsid, as symmetric as possible.</p>
+<p>This insight led Watson and Crick, the discoverers of the structure of DNA, to the <a href="https://rockedu.rockefeller.edu/component/viral-symmetry-and-genetic-economy/">&#8216;genetic economy&#8217;-proposal</a> that most sphere-like viruses will have an icosahedral capsid because the icosahedron is the Platonic solid with the largest volume and rotational symmetry group. They argued that the capsid is most likely constructed from a single subunit (capsomere), which is repeated many times to form the protein shell.</p>
+<p><center><br />
+<img decoding="async" src="https://rockedu.rockefeller.edu/wp-content/uploads/2020/04/economy.jpg" width=100%><br />
+</center></p>
+<p>Little is known about capsid formation, that is the process in which the capsid proteins self-assemble into an icosahedral shape, nor about the precise interplay between the genome and the capsid proteins. If we would understand these two things better it might open new possibilities for anti-viral drugs, by either blocking the self-assembly process or by breaking the genome-capsid interaction.</p>
+<p>A first proposal for the capsid structure was put forward by Caspar and Klug. Their <a href="https://viralzone.expasy.org/8577#:~:text=The%20Caspar%2DKlug%20Theory%20(CK,center%20of%20each%20triangular%20face.">quasi-equivalence principle</a> asserts that each of the 20 triangular faces of the icosahedron is subdivided in 3 subunits, each consisting of at least one protein.</p>
+<p>Most viruses have much more than 60 proteins in their capsid, so Caspar and Klug introduced their $T$-number giving the number of proteins per subunit. One superimposes the triangulation of the icosahedron with the hexagonal plane lattice, then $T$ is the number of sub-triangles of these hexagons contained in each subunit. For $T = 7$ we have the following situation</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/trianglehexagon.jpg" width=60%><br />
+</center></p>
+<p>Folding back the triangulation to form the icosahedron one then obtains a tiling consisting of hexagons (the green regions) and pentagons (the blue regions)</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/T=7.jpg" width=35%><br />
+</center></p>
+<p>It turned out that many viruses with icosahedral symmetry consist of subunits having a different number of proteins, such as dimers (2 proteins), trimers (3 proteins), or pentamers (5 proteins) and these self-organise around a 2, 3, or 5-fold rotational axis of the icosahedron.</p>
+<p>This led <a href="https://en.wikipedia.org/wiki/Reidun_Twarock">Reidun Twarock</a> around 2000 to propose her virus tiling theory. This is a generalisation of the Caspar-Klug theory in which one superimposese the triangulation of the icosahedron with other tilings of the plane, consisting of two or more non-congruent tiles. Here an example which looks a bit like the aperiodic <a href="https://en.wikipedia.org/wiki/Penrose_tiling">Penrose tilings</a> of the plane.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/virustiling1.jpg" width=70%><br />
+</center></p>
+<p>Here&#8217;s a recent Quanta-Magazine article on Twarock&#8217;s work and potential consequences: <a href="https://www.quantamagazine.org/the-illuminating-geometry-of-viruses-20170719/">The illuminating geometry of viruses</a>.</p>
+<p>And here&#8217;s an LMS Popular Lecture, from 2008, by Raidun Twarock herself: &#8220;Know your enemy &#8211; viruses under the mathematical microscope&#8221;.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dsJCv1DOfto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/gov-1-geometry-of-viruses/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Masters &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/masters/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 02 May 2021 09:20:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Lockdown reading : SNORT</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/lockdown-reading-snort/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/lockdown-reading-snort/#comments</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 02 May 2021 09:20:33 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[ATLAS]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Masters]]></category>
+		<category><![CDATA[monstrous moonshine]]></category>
+		<category><![CDATA[Noton]]></category>
+		<category><![CDATA[Siobhan Roberts]]></category>
+		<category><![CDATA[Snort]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=9753</guid>
+
+					<description><![CDATA[In this series I’ll mention some books I found entertaining, stimulating or comforting during these Corona times. Read them at your own risk. This must&#8230;]]></description>
+										<content:encoded><![CDATA[<p>In this series I’ll mention some books I found entertaining, stimulating or comforting during these Corona times. Read them at your own risk.</p>
+<p><center><br />
+<img decoding="async" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448216604l/12110017._SY475_.jpg" width=50%><br />
+</center></p>
+<p>This must have been the third time I&#8217;ve read <a href="https://www.theguardian.com/books/2011/aug/24/genius-in-my-basement-review">The genius in by basement &#8211; The biography of a happy man</a> by <a href="https://en.wikipedia.org/wiki/Alexander_Masters">Alexander masters</a>.</p>
+<p>I first read it when it came out in 2011.</p>
+<p>Then, in conjunction with <a href="https://www.bloomsbury.com/us/genius-at-play-9781620405932/">Genius at play &#8211; The Curious Mind of John Horton Conway</a> Conway&#8217;s biography by <a href="https://en.wikipedia.org/wiki/Siobhan_Roberts">Siobhan Roberts</a>, in <a href="https://lievenlebruyn.github.io/neverendingbooks/life-on-gaussian-primes">july 2017</a>, which is probably the best way to read this book.</p>
+<p>And, then again last week, as <a href="https://en.wikipedia.org/wiki/Simon_P._Norton">Simon Norton</a>&#8216;s work pops up wherever I look, as in <a href="https://lievenlebruyn.github.io/neverendingbooks/a-monstrous-unimodular-lattice">the previous post</a>.</p>
+<p>It takes some time to get used to the rather chaotic style (probably used because that&#8217;s how Masters perceives Norton), and all attempts at explaining Simon&#8217;s mathematics can better be skipped.</p>
+<p>The book tries to find an answer as to why a child prodigy and genius like Simon Norton failed to secure a safe place in academics.</p>
+<p>Page 328:</p>
+<blockquote><p>Simon&#8217;s second explanation of his loss of mathematical direction is heartbreaking. Now that Conway has fled to America, there is no one in the mathematical world who will work with him.</p>
+<p>They say he is too peculiar, too shabby, too old.</p>
+<p>His interests are fixed in mathematics that has had its day. His brilliance is frigid. His talent, perfectly suited to an extraordinary moment in algebraic history (the symmetry work at Cambridge during the early 1970s and 1980s) is out of fashion.
+</p></blockquote>
+<p>This may give the impression that Norton stopped doing good math after Conway left for Princeton in 1985. This is far from true.</p>
+<p>Norton&#8217;s <a href="https://en.wikipedia.org/wiki/Simon_P._Norton">Wikipedia page</a> mentions only post 1995 publications, which in itself is deplorable, as it leaves out his contributions to the <a href="https://en.wikipedia.org/wiki/ATLAS_of_Finite_Groups">ATLAS</a> and his seminal paper with Conway on Monstrous moonshine.</p>
+<p>Here&#8217;s Alexander Masters talking about &#8216;Genius in my basement&#8217;</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/j9Fyf9JG22A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>I&#8217;ll leave you with a nice quote, comparing Monstrous Moonshine to a Sainsbury&#8217;s bag on Jupiter.</p>
+<p>Page 334:</p>
+<blockquote><p>This much I do know: Monstrous Moonshine links the Monster to distant mathematics and the structure of space in ways that are as awe-inspiring to a man like Simon as it would be to an astronaut to step out of his space machine on Jupiter, and find a Sainsbury&#8217;s bag floating past. That&#8217;s why it&#8217;s called &#8216;Moonshine&#8217;, because mathematicians can even now hardly believe it.</p>
+<p>&#8216;I think&#8217;, said Simon, standing up from his berth and shaking crumbs and clotted blobs of oil and fish off his T-shirt onto the covers, &#8216;I can explain to you what Moonshine is in one sentence.&#8217;</p>
+<p>When he really tries, Simon can be a model of clarity.</p>
+<p>&#8216;It is,&#8217; he said, &#8216;the voice of God.&#8217;
+</p></blockquote>
+<p>Ps, wrt. <a href="https://lievenlebruyn.github.io/neverendingbooks/a-snortgo-endgame">SNORT</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lockdown-reading-snort/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

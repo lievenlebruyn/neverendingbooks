@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Twitter &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/twitter/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 07 Jan 2018 23:41:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Smullyan and the President&#8217;s sanity</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/smullyan-on-the-presidents-sanity/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/smullyan-on-the-presidents-sanity/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 07 Jan 2018 23:41:41 +0000</pubDate>
+				<category><![CDATA[rants]]></category>
+		<category><![CDATA[Smullyan]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7579</guid>
+
+					<description><![CDATA[Smullyan found himself in a very strange country indeed! All the inhabitants of this country are completely truthful &#8211; they always tell you honestly what&#8230;]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="https://c.o0bg.com/rf/image_960w/Boston/2011-2020/2017/02/16/BostonGlobe.com/Obits/Images/OBIT_SMULLYAN[1].jpg" width=100% ></p>
+<p>Smullyan found himself in a very strange country indeed!</p>
+<p>All the inhabitants of this country are completely truthful &#8211; they always tell you honestly what they believe, but the trouble is that about half of the population are totally mad, and all their beliefs are wrong!</p>
+<p>The other half are totally sane and accurate in their judgments, all their beliefs are correct.</p>
+<p>Smullyan felt honoured to be invited by the Presidential couple.</p>
+<p>The President was the only one who said anything, and what he said was:</p>
+<p><strong>&#8220;My wife once said that I believe that she believes I am mad.&#8221;</strong></p>
+<p>What can be deduced about the President&#8217;s sanity, and that of his wife?</p>
+<p><strong>Reference: </strong> This is a minor adaptation of Problem 4.5 in <a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s book <a href="http://logic-books.info/sites/default/files/logical_labirints.pdf">Logical Labyrinths</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/smullyan-on-the-presidents-sanity/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

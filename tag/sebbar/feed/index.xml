@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Sebbar &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/sebbar/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Thu, 11 Jan 2018 15:31:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Everything&#8217;s wrappable to a sphere</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Thu, 11 Jan 2018 15:31:22 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[groups]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Doyle]]></category>
+		<category><![CDATA[Gilman]]></category>
+		<category><![CDATA[Huson]]></category>
+		<category><![CDATA[McKay]]></category>
+		<category><![CDATA[Sebbar]]></category>
+		<category><![CDATA[Thurston]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7627</guid>
+
+					<description><![CDATA[One of the better opening quotes of a paper: &#8220;Even quite ungainly objects, like chairs and tables, will become almost spherical if you wrap them&#8230;]]></description>
+										<content:encoded><![CDATA[<p>One of the better opening quotes of a paper:</p>
+<p><strong>&#8220;Even quite ungainly objects, like chairs and tables, will become almost spherical if you wrap them in enough newspaper.&#8221;</strong></p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/wrap.jpg"></p>
+<p>The paper in question is <a href="https://people.uwm.edu/ancel/files/2017/04/Conway.Orbifold-Notation-for-Surface-Groups.1990-2d6oy2f.pdf">The orbifold notation for surface groups</a> by John Conway.</p>
+<p>Here&#8217;s Conway talking leisurely about Thurston&#8217;s idea to capture the acting group via the topology of the orbifold space and his own <a href="https://en.wikipedia.org/wiki/Orbifold_notation">notation for such orbifolds</a>.</p>
+<p><center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8z6T-7ovA5Q?start=209" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+</center></p>
+<p>Here&#8217;s another version of the paper, with illustrations: <a href="https://www.researchgate.net/publication/263488290_The_Orbifold_Notation_for_Two-Dimensional_Groups">The orbifold notation for two-dimensional groups</a>, by Conway and Daniel H. Huson.</p>
+<p>A very accessible account are these lecture notes:</p>
+<p><a href="https://www.math.dartmouth.edu//~doyle/docs/gi/gi.pdf">A field guide to the orbifolds</a>, notes from class on &#8220;Geometry and the Imagination&#8221; in Minneapolis, with John Conway, Peter Doyle, Jane Gilman and Bill Thurston, on June 17–28, 1991.</p>
+<p>And, here are notes by Thurston on <a href="http://library.msri.org/books/gt3m/PDF/1.pdf">The Geometry and Topology of Three-Manifolds</a>, including stuff about orbifolds.</p>
+<p>I came across these papers struggling my way through <a href="http://www.ams.org/journals/proc/2004-132-08/S0002-9939-04-07421-0/S0002-9939-04-07421-0.pdf">On the discrete groups of moonshine</a> by Conway, McKay and Sebbar.</p>
+<p>On the genus $0$ property of moonshine groups they have this to say:</p>
+<p>&#8220;As for groups of the form $(n|h)+e,f,\dots$, the genus can be determined from the fundamental regions using the <a href="https://en.wikipedia.org/wiki/Riemann%E2%80%93Hurwitz_formula">Riemann-Hurwitz formula</a>. Since most of the groups are not subgroups of the modular group, the calculations of the genus, <em>which cannot be produced here because of their length</em>, are carried out by finding the elliptic fixed points and the cone points in the orbifolds attached to the fundamental regions. The Euler characteristic of the orbifold determines the genus of the group. See [paper] for more details on orbifold techniques.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>the 171 moonshine groups</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sat, 06 Jan 2018 12:02:42 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[arithmetic groups]]></category>
+		<category><![CDATA[Conway]]></category>
+		<category><![CDATA[Ferenbaugh]]></category>
+		<category><![CDATA[McKay]]></category>
+		<category><![CDATA[monster]]></category>
+		<category><![CDATA[moonshine]]></category>
+		<category><![CDATA[Norton]]></category>
+		<category><![CDATA[Sebbar]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=7556</guid>
+
+					<description><![CDATA[Monstrous moonshine associates to every element of order $n$ of the monster group $\mathbb{M}$ an arithmetic group of the form \[ (n&#124;h)+e,f,\dots \] where $h$&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Monstrous moonshine associates to every element of order $n$ of the monster group $\mathbb{M}$ an arithmetic group of the form<br />
+\[<br />
+(n|h)+e,f,\dots \]<br />
+where $h$ is a divisor of $24$ and of $n$ and where $e,f,\dots$ are divisors of $\frac{n}{h}$ coprime with its quotient.</p>
+<p>In <a href="https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that">snakes, spines, and all that</a> we&#8217;ve constructed the arithmetic group<br />
+\[<br />
+\Gamma_0(n|h)+e,f,\dots \]<br />
+which normalizes $\Gamma_0(N)$ for $N=h.n$. If $h=1$ then this group is the moonshine group $(n|h)+e,f,\dots$, but for $h > 1$ the moonshine group is a specific subgroup of index $h$ in $\Gamma_0(n|h)+e,f,\dots$.</p>
+<p>I&#8217;m sure one can describe this subgroup explicitly in each case by analysing the action of the finite group $(\Gamma_0(n|h)+e,f,\dots)/\Gamma_0(N)$ on the $(N|1)$-snake. Some examples were worked out by John Duncan in his paper <a href="https://arxiv.org/abs/0810.1465">Arithmetic groups and the affine E8 Dynkin diagram</a>.</p>
+<p>But at the moment I don&#8217;t understand the general construction given by Conway, McKay and Sebbar in <a href="http://www.ams.org/journals/proc/2004-132-08/S0002-9939-04-07421-0/S0002-9939-04-07421-0.pdf">On the discrete groups of moonshine</a>. I&#8217;m stuck at the last sentence of (2) in section 3. Nothing a copy of Charles Ferenbaugh Ph. D. thesis cannot fix.</p>
+<p>The correspondence between the conjugacy classes of the Monster and these arithmetic groups takes up 3 pages in Conway &#038; Norton&#8217;s <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.3704&#038;rep=rep1&#038;type=pdf">Monstrous Moonshine</a>. Here&#8217;s the beginning of it.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/moonshinegroups.png" width=100% ></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

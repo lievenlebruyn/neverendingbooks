@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Popiel &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/popiel/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Mar 2022 14:01:16 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>The monster prime graph</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/the-monster-prime-graph/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-monster-prime-graph/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 16 Mar 2022 14:01:16 +0000</pubDate>
+				<category><![CDATA[groups]]></category>
+		<category><![CDATA[Cameron]]></category>
+		<category><![CDATA[Frobenius]]></category>
+		<category><![CDATA[Gruenberg]]></category>
+		<category><![CDATA[Hagie]]></category>
+		<category><![CDATA[Kegel]]></category>
+		<category><![CDATA[Lee]]></category>
+		<category><![CDATA[Popiel]]></category>
+		<category><![CDATA[Thompson]]></category>
+		<category><![CDATA[Vasil'ev]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10225</guid>
+
+					<description><![CDATA[Here&#8217;s a nice, symmetric, labeled graph: The prime numbers labelling the vertices are exactly the prime divisors of the order of the largest sporadic group:&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s a nice, symmetric, labeled graph:</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/monsterGKgraph.png" width=60% \><br />
+</center></p>
+<p>The prime numbers labelling the vertices are exactly the prime divisors of the order of the largest sporadic group: the <a href="https://en.wikipedia.org/wiki/Monster_group">monster group</a> $\mathbb{M}$.<br />
+\[<br />
+\# \mathbb{M} =  2^{46}.3^{20}.5^9.7^6.11^2.13^3.17.19.23.29.31.41.47.59.71 \]</p>
+<p>Looking (for example) at the <a href="https://math.stackexchange.com/questions/674124/character-table-of-the-monster">character table of the monster</a> you can check that there is an edge between two primes $p$ and $q$ exactly when the monster has an element of order $p.q$.</p>
+<p>Now the fun part: this graph characterises the Monster!</p>
+<p>There is no other group $G$ having only elements of these prime orders, and only these edges for its elements of order $p.q$.</p>
+<p>This was proved by Melissa Lee and Tomasz Popiel in <a href="https://arxiv.org/abs/2107.12755">$\mathbb{M}, \mathbb{B}$, and $\mathbf{Co}_1$ are recognisable by their prime graphs</a>, by using modular character theory.</p>
+<p>The proof for the Monster takes less than one page, so it&#8217;s clear that it builds on lots of previous results.</p>
+<p>There&#8217;s the work of Mina Hagie <a href="https://www.researchgate.net/publication/233456128_The_Prime_Graph_of_a_Sporadic_Simple_Group">The prime graph of a sporadic simple group</a>, who used the classification of all finite simple groups to put heavy restrictions on possible groups $G$ having the same prime graph as a sporadic simple group.</p>
+<p>For the Monster, she proved that if the prime graph of $G$ is that of the monster, then the <a href="https://en.wikipedia.org/wiki/Fitting_subgroup">Fitting subgroup</a> $F(G)$ must be a $3$-group, and $G/F(G) \simeq \mathbb{M}$.</p>
+<p>Her result, in turn, builds on the Gruenberg-Kegel theorem, after <a href="https://en.wikipedia.org/wiki/Karl_W._Gruenberg">Karl Gruenberg</a> and <a href="https://de.wikipedia.org/wiki/Otto_H._Kegel">Otto Kegel</a>.</p>
+<p>The Gruenberg-Kegel theorem, which they never published (a write-up is in the paper <a href="https://reader.elsevier.com/reader/sd/pii/0021869381902180?token=06975180945F897C639407AA9B1C677E2046A18AD7E21620CF33A1A79D132F7515616742F3EA7BCDD59B5B42E21E5B3B&#038;originRegion=eu-west-1&#038;originCreation=20220316094141">Prime graph components of finite groups</a> by Williams), shows the wealth of information contained in the prime graph of a finite group. For this reason, the prime graph is often called the Gruenberg-Kegel graph.</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GruenbergKegel.png" width=60% /><br />
+</center></p>
+<p>The pictures above are taken from a talk by <a href="https://en.wikipedia.org/wiki/Peter_Cameron_(mathematician)">Peter Cameron</a>, <a href="http://www-groups.mcs.st-andrews.ac.uk/~pjc/gog/lect4.pdf">The Gruenberg-Kegel graph</a>. <a href="https://cameroncounts.wordpress.com/">Peter Cameron&#8217;s blog</a> is an excellent source of information for all things relating groups and graphs.</p>
+<p>The full proof of the Gruenberg-Kegel theorem is way too involved for a blogpost, but I should give you at least an idea of it, and of one of the recurrent tools involved, the structural results on <a href="https://en.wikipedia.org/wiki/Frobenius_group">Frobenius groups</a> by <a href="https://en.wikipedia.org/wiki/John_G._Thompson">John Thompson</a>.</p>
+<p>Here&#8217;s lemma 1.1 of the paper <a href="https://link.springer.com/content/pdf/10.1007/s11202-005-0042-x.pdf">On connection between the structure of a finite group and the properties of its prime graph</a> by A.V. Vasil&#8217;ev.</p>
+<p><strong>Lemma</strong>: If $1 \triangleleft K \triangleleft H \triangleleft G$ is a series of normal subgroups, and if we have primes $p$ dividing the order of $K$, $q$ dividing the order of $H/K$, and $r$ dividing the order of $G/H$, then there is at least one edge among these three vertices in the prime graph of $G$.</p>
+<p>Okay, let&#8217;s suppose there&#8217;s a counterexample $G$, and take one of minimal order. Let $P$ be a Sylow $p$-subgroup of $K$, and $N$ its normaliser in $G$. By the <a href="https://en.wikipedia.org/wiki/Frattini%27s_argument">Frattini argument</a> $G=K.N$ and so $G/K \simeq N/(N \cap K)$.</p>
+<p>Then there&#8217;s a normal series $1 \triangleleft P \triangleleft (N \cap H)=N_H(P) \triangleleft N$, and by Frattini $H=K.(N \cap H)$. But then, $N/(N \cap H)=H.N/H = G/H$ and $(N \cap H)/P$ maps onto $(N \cap H)/(N \cap H \cap K) = H/K$, so this series satisfies the conditions for the three primes $p,q$ and $r$.</p>
+<p>But as there is no edge among $p,q$ and $r$ in the prime graph of $G$, there can be no such edge in the prime graph of $N$, and $N$ would be a counterexample of smaller order, unless $N=G$.</p>
+<p>Oh, I should have said this before: if there is an edge between two primes in the prime graph of a subgroup (or a quotient) of $G$, then such as edge exists also in the prime group of $G$ (trivial for subgroups, use lifts of elements for quotients).</p>
+<p>The only way out is that $N=G$, or that $P$ is a normal subgroup of $G$. Look at quotients $\overline{G}=G/P$ and $\overline{H}=H/P$, take a Sylow $q$-subgroup of $\overline{H}$ and $\overline{M}$ its normaliser in $\overline{G}$.</p>
+<p>Frattini again gives $\overline{M}/(\overline{M} \cap \overline{H}) = \overline{G}/\overline{H}$, and $r$ is a prime divisor of the order of $\overline{M}/\overline{Q}$.</p>
+<p>Lift the whole schmuck to the lift of $\overline{M}$ in $G$ and get a series of normal subgroups<br />
+\[<br />
+1 \triangleleft P \triangleleft Q \triangleleft M \]<br />
+satisfying the three primes condition, so would give a smaller counter-example unless $M=G$ and $Q$ (the lift of $\overline{Q}$ to $G$) is a normal subgroup of $G$.</p>
+<p>Sooner or later, in almost all proofs around the Gruenberg-Kegel result, a <a href="https://en.wikipedia.org/wiki/Frobenius_group">Frobenius group</a> enters the picture.</p>
+<p>Here, we take an element $x$ in $G$ of order $r$, and consider the subgroup $F$ generated by $Q$ and $x$. The action of $x$ on $Q$ by conjugation is fixed-point free (if not, $G$ would have elements of order $p.r$ or $q.r$ and there is no edge between these prime vertices by assumption).</p>
+<p>But then, $F$ is a semi-direct product $Q \rtimes \langle x \rangle$, and again because $G$ has no elements of order $p.r$ nor $q.r$ we have:</p>
+<ul>
+<li>the centraliser-subgroup in $F$ of any non-identity element in $\langle x \rangle$ is contained in $\langle x \rangle$</li>
+<li>the centraliser-subgroup in $F$ of any non-identity element in $Q$ is contained in $Q$</li>
+</ul>
+<p>So, $F$ is a Frobenius group with &#8216;Frobenius kernel&#8217; $Q$. Thompson proved that the Frobenius kernel is a nilpotent group, so a product of its Sylow-subgroups. But then, $Q$ (and therefore $G$) contains an element of order $p.q$, done.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-monster-prime-graph/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

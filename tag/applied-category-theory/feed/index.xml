@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>applied category theory &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/applied-category-theory/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Wed, 26 Jan 2022 12:07:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Poly</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/poly/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/poly/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Wed, 26 Jan 2022 12:07:40 +0000</pubDate>
+				<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[applied category theory]]></category>
+		<category><![CDATA[Poly]]></category>
+		<category><![CDATA[Spivak]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10109</guid>
+
+					<description><![CDATA[Following up on the deep learning and toposes-post, I was planning to do something on the logic of neural networks. Prepping for this I saw&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Following up on the <a href="https://lievenlebruyn.github.io/neverendingbooks/deep-learning-and-toposes">deep learning and toposes</a>-post, I was planning to do something on the logic of neural networks.</p>
+<p>Prepping for this I saw David Spivak&#8217;s paper <a href="https://arxiv.org/abs/2103.01189">Learner&#8217;s Languages</a> doing exactly that, but in the more general setting of &#8216;learners&#8217; (see also the deep learning post).</p>
+<p>And then &#8230; I fell under the spell of $\mathbf{Poly}$.</p>
+<p>Spivak is a story-telling talent. A long time ago I copied his short story (actually his abstract for a talk) &#8220;Presheaf, the cobbler&#8221; in the <a href="https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits">Children have always loved colimits</a>-post.</p>
+<p>Last week, he did post <a href="https://topos.site/blog/2022/01/poly-makes-me-happy-and-smart/">Poly makes me happy and smart</a> on the blog of the Topos Institute, which is another great read.</p>
+<p>If this is way too &#8216;fluffy&#8217; for you, perhaps you should watch his talk <a href="https://www.youtube.com/watch?v=Cp5_o2lDqj0">Poly: a category of remarkable abundance</a>.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Cp5_o2lDqj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>If you like (applied) category theory and have some days to waste, you can binge-watch all 15 episodes of the Poly-course <a href="https://topos.site/poly-course/">Polynomial Functors: A General Theory of Interaction</a>.</p>
+<p>If you are more the reading-type, the 273 pages of the <a href="https://topos.site/poly-book.pdf">Poly-book</a> will also kill a good number of your living hours.</p>
+<p>Personally, I have no great appetite for category theory, I prefer to digest it in homeopathic doses. And, I&#8217;m allergic to co-terminology.</p>
+<p>So then, how to define $\mathbf{Poly}$ for the likes of me?</p>
+<p>$\mathbf{Poly}$, you might have surmised, is a category. So, we need &#8216;objects&#8217; and &#8216;morphisms&#8217; between them.</p>
+<p>Any set $A$ has a corresponding &#8216;representable functor&#8217; sending a given set $S$ to the set of all maps from $A$ to $S$<br />
+\[<br />
+y^A~:~\mathbf{Sets} \rightarrow \mathbf{Sets} \qquad S \mapsto S^A=Maps(A,S) \]<br />
+This looks like a monomial in a variable $y$ ($y$ for Yoneda, of course), but does it work?</p>
+<p>What is $y^1$, where $1$ stands for the one-element set $\{ \ast \}$? $Maps(1,S)=S$, so $y^1$ is the identity functor sending $S$ to $S$.</p>
+<p>What is $y^0$, where $0$ is the empty set $\emptyset$? Well, for any set $S$ there is just one map $\emptyset \rightarrow S$, so $y^0$ is the constant functor sending any set $S$ to $1$. That is, $y^0=1$.</p>
+<p>Going from monomials to <em>polynomials</em> we need an addition. We add such representable functors by taking disjoint unions (finite or infinite), that is<br />
+\[<br />
+\sum_{i \in I} y^{A_i}~:~\mathbf{Sets} \rightarrow \mathbf{Sets} \qquad S \mapsto \bigsqcup_{i \in I} Maps(A_i,S) \]<br />
+If all $A_i$ are equal (meaning, they have the same cardinality) we use the shorthand $Iy^A$ for this sum.</p>
+<p>The <em>objects</em> in $\mathbf{Poly}$ are exactly these &#8216;polynomial functors&#8217;<br />
+\[<br />
+p = \sum_{i \in I} y^{p[i]} \]<br />
+with all $p[i] \in \mathbf{Sets}$. Remark that $p(1)=I$ as for any set $A$ there is just one map to $1$, that is $y^A(1) = Maps(A,1) = 1$, and we can write<br />
+\[<br />
+p = \sum_{i \in p(1)} y^{p[i]} \]<br />
+An object $p \in \mathbf{Poly}$ is thus described by the couple $(p(1),p[-])$ with $p(1)$ a set, and a functor $p[-] : p(1) \rightarrow \mathbf{Sets}$ where $p(1)$ is now a category with objects the elements of $p(1)$ and no morphisms apart from the identities.</p>
+<p>We can depict $p$ by a trimmed down forest, Spivak calls it the <em>corolla</em> of $p$, where the tree roots are the elements of $p(1)$ and the tree with root $i \in p(1)$ has one branch from the root for any element in $p[i]$. The corolla of $p=y^2+2y+1$ looks like</p>
+<p><center><br />
+<img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/corollaPoly.png" width=50% \><br />
+</center></p>
+<p>If $M$ is an $m$-dimensional manifold, then you might view its tangent bundle $TM$ set-theoretically as the &#8216;corolla&#8217; of the polynomial functor $M y^{\mathbb{R}^m}$, the tree-roots corresponding to the points of the manifold, and the branches to the different tangent vectors in these points.</p>
+<p><em>Morphisms</em> in $\mathbf{Poly}$ are a bit strange. For two polynomial functors $p=(p(1),p[-])$ and $q=(q(1),q[-])$ a map $p \rightarrow q$ in $\mathbf{Poly}$ consists of</p>
+<ul>
+<li>a map $\phi_1 : p(1) \rightarrow q(1)$ on the tree-roots in the right direction, and</li>
+<li>for any $i \in p(1)$ a map $q[\phi_1(i)] \rightarrow p[i]$ on the branches in the opposite direction</li>
+</ul>
+<p>In our manifold/tangentbundle example, a morphism $My^{\mathbb{R}^m} \rightarrow y^1$ sends every point $p \in M$ to the unique root of $y^1$ and the unique branch in $y^1$ picks out a unique tangent-vector for every point of $M$. That is, vectorfields on $M$ are very special (smooth) morphisms $Mu^{\mathbb{R}^m} \rightarrow y^1$ in $\mathbf{Poly}$.</p>
+<p>A smooth map between manifolds $M \rightarrow N$, does <em>not</em> determine a morphism $My^{\mathbb{R}^m} \rightarrow N y^{\mathbb{R}^n}$ in $\mathbf{Poly}$ because tangent vectors are pushed forward, not pulled back.</p>
+<p>If instead we view the cotangent bundle $T^*M$ as the corolla of the polynomial functor $My^{\mathbb{R}^m}$, then everything works well.</p>
+<p>But then, I promised not to use co-terminology&#8230;</p>
+<p>Another time I hope to tell you how $\mathbf{Poly}$ helps us to understand the logic of learners.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/poly/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

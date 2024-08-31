@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>nim-addition &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/nim-addition/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Tue, 11 Jan 2011 15:52:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>How to win transfinite Nimbers?</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/how-to-win-transfinite-nimbers/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/how-to-win-transfinite-nimbers/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Tue, 11 Jan 2011 15:52:26 +0000</pubDate>
+				<category><![CDATA[games]]></category>
+		<category><![CDATA[nim-addition]]></category>
+		<category><![CDATA[nim-multiplication]]></category>
+		<category><![CDATA[nimbers]]></category>
+		<category><![CDATA[transfinite numbers]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=4097</guid>
+
+					<description><![CDATA[Last time we introduced the game of transfinite Nimbers and asked a winning move for the transfinite game with stones a at position $~(2,2) $,&#8230;]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/n-dimensional-and-transfinite-nimbers.html">Last time</a> we introduced the game of transfinite Nimbers and asked a winning move for the transfinite game with stones a at position $~(2,2) $, b at $~(4,\omega) $, c at $~(\omega+2,\omega+3) $ and d at position $~(\omega+4,\omega+1) $.</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tnimbers1.jpg"></p>
+<p>Above is the <strong>unique</strong> winning move : we remove stone d and by the rectangle-rule add three new stones, marked 1. We only need to compute in finite fields to solve this and similar problems.</p>
+<p>First note that the largest finite number occuring in a stone-coordinate is 4, so in this case we can perform all calculations in the field $\mathbb{F}_{2^{2^2}}(\omega) = \mathbb{F}_{2^{12}} $ where (as before) we identify $\mathbb{F}_{2^{2^2}} = &#123; 0,1,2,\ldots,15 &#125; $ and we have seen that $\omega^3=2 $ (for ease of notation all Nim-additions and Nim-multiplications are denoted this time by + and x instead of $\oplus $ and $\otimes $ as we did last time, so for example $\omega^3 = \omega \otimes \omega \otimes \omega $).</p>
+<p>If you&#8217;re not nimble with the Nim-tables, you can check all calculations in <a href="http://www.sagemath.org/">SAGE</a> where we define this finite field via</p>
+<p><verbatim><br />
+sage: R.&lt; x,y,z>=GF(2)[]<br />
+sage: S.&lt; t,f,o>=R.quotient((x^2+x+1,y^2+y+x,z^3+x))<br />
+</verbatim></p>
+<p>and we can now calculate in $\mathbb{F}_{2^{12}} $ using the symbols t for Two, f for Four and o for $\omega $. For example, we have seen that the nim-value of a stone is the nim-multiplication of its coordinates</p>
+<p><verbatim><br />
+sage: t*t<br />
+ t + 1<br />
+sage: f*o<br />
+ f*o<br />
+sage: (o+t)*(o+t+1)<br />
+ o^2 + o + 1<br />
+sage: (o+f)*(o+1)<br />
+ f*o + o^2 + f + o<br />
+</verbatim></p>
+<p>That is, the nim-value of stone a is 3, stone b is $4 \times \omega $, stone c is $\omega^2+\omega+1 $ and finally that of stone d is equal to $\omega^2+5 \times \omega +4 $.</p>
+<p>By adding them up, the nim-value of the original position is a finite number : 6. Being non-zero we know that the 2nd player has a winning strategy.</p>
+<p>Just as in ordinary nim, we compare the value of a stone to the sum of the values of the other stones, to determine the stone we will play. These sums are for the four stones : 5 for a, $4 \times \omega+6 $ for b, $\omega^2+\omega+7 $ for c and $\omega^2+5 \times \omega+2 $ for d. There is only one stone where this sum is smaller than the stone-value, so we know we have to make our move with stone d.</p>
+<p>By the Nimbers-rule we need to find a rectangle with top-right hand corner $~(\omega+4,\omega+1) $ and lower-left hand corner $~(u,v) $ such that the values of the three new corners adds up to $\omega^2+5 \times \omega+2 $, that is we have to solve</p>
+<p>$u \times v + u \times (\omega+1) + (\omega+4)\times v = \omega^2+5 \times \omega+2 $</p>
+<p>where u and v are ordinals smaller than $\omega+4 $ and $\omega+1 $. u and v cannot be both finite, for then we wouldn&#8217;t obtain a $\omega^2 $ term. Similarly (u,v) cannot be of the form $~(u,\omega) $ with u finite because then the left-hand sum would be $\omega^2+4 \times \omega + u $ and likewise it cannot be of the form $~(\omega+i,v) $ with i and v finite as then the coefficient of $\omega $ in the left-hand sum will be i+1 and we cannot take i equal to 4.</p>
+<p>The only remaining possibility is that (u,v) is of the form $~(\omega+i,\omega) $ with i finite, in which case the left-hand sum equals $~\omega^2+ 5 \times \omega + i $ whence i=2 and we have found our unique winning move!</p>
+<p>But, our opponent can make life difficult by forcing us to compute in larger and larger finite fields. For example, if she would move next by dropping the c stone down to the 256-th row, what would be our next move?</p>
+<p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/tnimbers2.jpg"></p>
+<p>(one possible winning move is to remove the stone at $~(\omega+2,\omega) $ and add stones at the three new corners of the rectangle : $~(257,2), (257,\omega) $ and $~(\omega+2,2) $)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/how-to-win-transfinite-nimbers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Rockefeller &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/rockefeller/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Fri, 20 Jun 2014 08:37:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>European mathematics in 1927</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/european-mathematics-in-1927/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/european-mathematics-in-1927/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Fri, 20 Jun 2014 08:37:23 +0000</pubDate>
+				<category><![CDATA[stories]]></category>
+		<category><![CDATA[history]]></category>
+		<category><![CDATA[IHP]]></category>
+		<category><![CDATA[Rockefeller]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=6272</guid>
+
+					<description><![CDATA[Here&#8217;s a map of the (major) mathematical centers in Europe (in 1927), made for the Rockefeller Foundation. Support by the Rockefeller foundation was important for&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s a map of the (major) mathematical centers in Europe (in 1927), made for the <a href="http://www.rockefellerfoundation.org/">Rockefeller Foundation</a>.</p>
+<p><center><br />
+<img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/Math1927.jpg"><br />
+</center></p>
+<p>Support by the Rockefeller foundation was important for European Mathematics between the two world wars. They supported the erection of the <a href="http://www.uni-goettingen.de/de/20693.html">Mathematical Institute in Goettingen</a> between 1926-1929 and creation of the <a href="http://www.ihp.fr/">Institut Henri Poincare</a> in Paris at about the same time.</p>
+<p>Careers of people such as <a href="http://en.wikipedia.org/wiki/Stefan_Banach">Stefan Banach</a>, <a href="http://en.wikipedia.org/wiki/Bartel_Leendert_van_der_Waerden">Bartel van der Waerden</a> and <a href="http://en.wikipedia.org/wiki/Andr%C3%A9_Weil">Andre Weil</a> benefitted hugely from becoming fellows of the Rockefeller-funded International Educational Board in the 20ties.</p>
+<p>The map itself shows that there were three major centers at the time: Goettingen, Paris and Rome (followed by Berlin and Oxford, at a distance).</p>
+<p>Also the distribution by topics (the pie-charts per university) is interesting: predominantly Analysis (red) with a fair share of Geometry (yellow), Number Theory (green) and Applied Mathematics (blue). Philosophy (black) was even more important than Algebra (orange) which existed only in Goettingen (Noether, van der Waerden) and Berlin.</p>
+<p>I&#8217;d love to see a similar map for 2014&#8230;</p>
+<p>A larger version of the map can be found <a href="http://matrix.cmi.ua.ac.be/DATA3/MapMathInterbellum.jpg">here</a>.</p>
+<p>There&#8217;s a corresponding map for the USA <a href="http://books.google.be/books?id=p1EmmMaBL4sC&amp;lpg=PA45&amp;ots=gT-2qZet1W&amp;dq=Reinhard%20Siegmund-Schultze%20map%20of%20europe%20mathematics%20between%20the%20wars&amp;pg=PA54#v=onepage&amp;q=Reinhard%20Siegmund-Schultze%20map%20of%20europe%20mathematics%20between%20the%20wars&amp;f=true">here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/european-mathematics-in-1927/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

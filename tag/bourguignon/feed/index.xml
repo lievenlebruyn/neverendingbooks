@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Bourguignon &#8211; neverendingbooks</title>
+	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/bourguignon/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
+	<description></description>
+	<lastBuildDate>Sun, 30 Jan 2022 13:25:55 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Grothendieck stuff</title>
+		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-stuff/</link>
+					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-stuff/#respond</comments>
+		
+		<dc:creator><![CDATA[lieven]]></dc:creator>
+		<pubDate>Sun, 30 Jan 2022 13:25:55 +0000</pubDate>
+				<category><![CDATA[books]]></category>
+		<category><![CDATA[france]]></category>
+		<category><![CDATA[geometry]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[rants]]></category>
+		<category><![CDATA[stories]]></category>
+		<category><![CDATA[Bourguignon]]></category>
+		<category><![CDATA[Connes]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[Lafforgue]]></category>
+		<category><![CDATA[Schneps]]></category>
+		<category><![CDATA[topos theory]]></category>
+		<category><![CDATA[Villani]]></category>
+		<guid isPermaLink="false">http://www.neverendingbooks.org/?p=10179</guid>
+
+					<description><![CDATA[January 13th, Gallimard published Grothendieck&#8217;s text Recoltes et Semailles in a fancy box containing two books. Here&#8217;s a G-translation of Gallimard&#8217;s blurb: &#8220;Considered the mathematical&#8230;]]></description>
+										<content:encoded><![CDATA[<p>January 13th, Gallimard published</a> Grothendieck&#8217;s text <a href="https://www.gallimard.fr/Catalogue/GALLIMARD/Tel/Recoltes-et-Semailles-I-II#">Recoltes et Semailles</a> in a fancy box containing two books.</p>
+<p><center><br />
+<img decoding="async" src="https://ec56229aec51f1baff1d-185c3068e22352c56024573e929788ff.ssl.cf1.rackcdn.com/attachments/large/4/3/9/009916439.jpg" width=40% \><br />
+</center></p>
+<p>Here&#8217;s a G-translation of Gallimard&#8217;s blurb:</p>
+<p>&#8220;Considered the mathematical genius of the second half of the 20th century, Alexandre Grothendieck is the author of Récoltes et semailles, a kind of “monster” of more than a thousand pages, according to his own words. The mythical typescript, which opens with a sharp criticism of the ethics of mathematicians, will take the reader into the intimate territories of a spiritual experience after having initiated him into radical ecology.</p>
+<p>In this literary braid, several stories intertwine, “a journey to discover a past; a meditation on existence; a picture of the mores of a milieu and an era (or the picture of the insidious and implacable shift from one era to another…); an investigation (almost police at times, and at others bordering on the swashbuckling novel in the depths of the mathematical megapolis…); a vast mathematical digression (which will sow more than one…); […] a diary ; a psychology of discovery and creation; an indictment (ruthless, as it should be…), even a settling of accounts in “the beautiful mathematical world” (and without giving gifts…)”.&#8221;</p>
+<p>All literary events, great or small, are cause for the French to fill a radio show.</p>
+<p>January 21st, <a href="https://www.franceinter.fr/emissions/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-vendredi-21-janvier-2022"> &#8216;Le grand entretien&#8217; on France Inter</a> invited <a href="https://en.wikipedia.org/wiki/C%C3%A9dric_Villani">Cedric Villani</a> and <a href="https://en.wikipedia.org/wiki/Jean-Pierre_Bourguignon">Jean-Pierre Bourguignon</a> to talk about Grothendieck&#8217;s influence on mathematics (h/t <a href="http://www-lmpa.univ-littoral.fr/~stubbe/">Isar Stubbe</a>).</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/gZfkNlooqLw?start=726" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The embedded YouTube above starts at 12:06, when Bourguignon describes Grothendieck&#8217;s main achievements.</p>
+<p>Clearly, he starts off with the notion of schemes which, he says, proved to be decisive in the further development of algebraic geometry. Five years ago, I guess he would have continued mentioning <a href="https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem">FLT</a> and other striking results, impossible to prove without scheme theory.</p>
+<p>Now, he goes on saying that Grothendieck laid the basis of topos theory (&#8220;to define it, I would need not one minute and a half but a year and a half&#8221;), which is only now showing its first applications.</p>
+<p>Grothendieck, Bourguignon goes on, was the first to envision the true potential of this theory, which we should take very seriously according to people like Lafforgue and Connes, and which will have applications in fields far from algebraic geometry.</p>
+<p>Topos20 is spreading <a href="https://lievenlebruyn.github.io/neverendingbooks/huawei-and-topos-theory">rapidly</a> among French mathematicians. We&#8217;ll have to await further results before Topos20 will become a pandemic.</p>
+<p>Another interesting fragment starts at 16:19 and concerns <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis">Grothendieck&#8217;s gribouillis</a>, the 50.000 pages of scribblings found in Lasserre after his death.</p>
+<p>Bourguignon had the opportunity to see them some time ago, and when asked to describe them he tells they are in &#8216;caisses&#8217; stacked in a &#8216;libraire&#8217;.</p>
+<p>Here&#8217;s a picture of these crates taken by <a href="https://en.wikipedia.org/wiki/Leila_Schneps">Leila Schneps</a> in Lasserre around the time of Grothendieck&#8217;s funeral.</p>
+<p><center><br />
+<img decoding="async" src="http://matrix.cmi.ua.ac.be/DATA3/Boxes2.jpg" width=100% \><br />
+</center></p>
+<p>If you want to know what&#8217;s in these notes, and how they ended up at that place in Paris, you might want to read <a href="https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-2">this</a> and <a href="https://lievenlebruyn.github.io/neverendingbooks/where-are-grothendiecks-writings-2">that</a> post.</p>
+<p>If Bourguignon had to consult these notes at the Librairie Alain Brieux, it seems that there is no progress in the negotiations with Grothendieck&#8217;s children to make them public, or at least accessible.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-stuff/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
