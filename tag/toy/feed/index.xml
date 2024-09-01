@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/toy/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 28 Apr 2023 14:09:24 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:07:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>A newish toy in town</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 28 Apr 2023 14:09:24 +0000</pubDate>
@@ -53,8 +52,6 @@
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/NZrSgMz4TvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/lorenz/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 24 Mar 2012 15:49:08 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:50:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>noncommutative geometry at the Lorentz center</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-geometry-at-the-lorentz-center/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-geometry-at-the-lorentz-center/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 24 Mar 2012 15:49:08 +0000</pubDate>
@@ -42,8 +41,6 @@
 <p>If you like to see the slides of my talk you can find the handout-version <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/LeidenHandout.pdf">here</a>. They should be pretty self-exploratory, but if you like to read an unedited version of what i intended to tell with every slide you can find that text <a href="https://lievenlebruyn.github.io/neverendingbooks/DATA3/LeidenTalk.pdf">here</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-geometry-at-the-lorentz-center/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

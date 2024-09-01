@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/boston/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Thu, 01 Apr 2021 09:53:09 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:25:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Ghost metro stations</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/ghost-metro-stations/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/ghost-metro-stations/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 01 Apr 2021 09:53:09 +0000</pubDate>
@@ -69,8 +68,6 @@ Haxo metro station &#8211; <a href="https://www.affiches-parisiennes.com/haxo-le
 <p> <iframe src="https://player.vimeo.com/video/70886609?title=0&#038;byline=0&#038;portrait=0" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/ghost-metro-stations/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

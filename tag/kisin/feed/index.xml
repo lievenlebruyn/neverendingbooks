@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/kisin/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 30 Jan 2018 13:23:34 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:35:27 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>The Langlands program and non-commutative geometry</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 30 Jan 2018 13:23:34 +0000</pubDate>
@@ -65,8 +64,6 @@ GL_1(\mathbb{A}_{\mathbb{Q}})/GL_1(\mathbb{Q}) = \mathbb{A}_{\mathbb{Q}}^{\ast} 
 <p>For $n=2$ there&#8217;s a similar story with a &#8216;bad&#8217; quotient $M_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q})$, being the closure of an &#8216;open&#8217; nice piece which is the Langlands quotient space $GL_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q})$.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

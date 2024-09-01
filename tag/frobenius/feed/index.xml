@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/frobenius/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Wed, 16 Mar 2022 14:01:16 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>The monster prime graph</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-monster-prime-graph/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-monster-prime-graph/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 16 Mar 2022 14:01:16 +0000</pubDate>
@@ -82,15 +81,12 @@ satisfying the three primes condition, so would give a smaller counter-example u
 <p>So, $F$ is a Frobenius group with &#8216;Frobenius kernel&#8217; $Q$. Thompson proved that the Frobenius kernel is a nilpotent group, so a product of its Sylow-subgroups. But then, $Q$ (and therefore $G$) contains an element of order $p.q$, done.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-monster-prime-graph/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Lists 2010 : MathOverflow bookmarks</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 26 Dec 2010 21:25:39 +0000</pubDate>
@@ -116,8 +112,6 @@ satisfying the three primes condition, so would give a smaller counter-example u
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

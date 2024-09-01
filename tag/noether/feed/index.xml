@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/noether/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 02 Jun 2012 14:57:58 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>From the Noether boys to Bourbaki</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/from-the-noether-boys-to-bourbaki/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-the-noether-boys-to-bourbaki/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 02 Jun 2012 14:57:58 +0000</pubDate>
@@ -57,15 +56,12 @@
 <p>I hope students will come up with other interesting questions, do some excellent detective work and report on their results (for example in a blogpost or a YouTube clip).</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-the-noether-boys-to-bourbaki/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>So, who did discover the Leech lattice?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 20 Dec 2010 10:58:03 +0000</pubDate>
@@ -150,8 +146,6 @@ Which brings us to our next question : who discovered the Golay code?</p>
 <p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

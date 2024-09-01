@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/hurwitz/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 18 Oct 2011 14:40:22 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:50:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>meanwhile, at angs+</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/meanwhile-at-angs/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/meanwhile-at-angs/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 18 Oct 2011 14:40:22 +0000</pubDate>
@@ -46,8 +45,6 @@
 <p>(to be continued)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/meanwhile-at-angs/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

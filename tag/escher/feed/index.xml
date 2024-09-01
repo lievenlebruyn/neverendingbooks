@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/escher/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Mon, 24 May 2021 10:15:58 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:37:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -103,7 +103,6 @@ which is clearly absurd.
 		<item>
 		<title>Escher&#8217;s stairs</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/eschers-stairs/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/eschers-stairs/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 28 Apr 2021 13:15:04 +0000</pubDate>
@@ -151,15 +150,12 @@ Central staircase HBS Arnhem &#8211; <a href="https://www.museumkijker.nl/de-hel
 <p>There&#8217;s an excellent post on the <a href="https://heemkunderenkum.nl/de-arnhemse-jaren-van-maurits-cornelis-escher-2/">Arnhem-years of Mauk Escher</a> by Pieter van der Kuil. Unfortunately (for most of you) in Dutch, but perhaps Google translate can do its magic here.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/eschers-stairs/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Coxeter on Escher&#8217;s Circle Limits</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/coxeter-on-eschers-circle-limits/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/coxeter-on-eschers-circle-limits/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 15 Jan 2018 10:13:10 +0000</pubDate>
@@ -188,8 +184,6 @@ Central staircase HBS Arnhem &#8211; <a href="https://www.museumkijker.nl/de-hel
 </center></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/coxeter-on-eschers-circle-limits/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/topos-theory/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 28 Apr 2023 14:09:24 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:08:25 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>A newish toy in town</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 28 Apr 2023 14:09:24 +0000</pubDate>
@@ -53,15 +52,12 @@
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/NZrSgMz4TvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Against toposes</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/against-toposes/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/against-toposes/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 12 Apr 2023 08:41:46 +0000</pubDate>
@@ -99,8 +95,6 @@
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/ZdoLiIfmJ7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/against-toposes/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -211,7 +205,6 @@ Photo from <a href="https://lithub.com/remembering-my-father-jacques-lacan/">Rem
 		<item>
 		<title>Grothendieck stuff</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-stuff/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-stuff/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 30 Jan 2022 13:25:55 +0000</pubDate>
@@ -256,8 +249,6 @@ Photo from <a href="https://lithub.com/remembering-my-father-jacques-lacan/">Rem
 <p>If Bourguignon had to consult these notes at the Librairie Alain Brieux, it seems that there is no progress in the negotiations with Grothendieck&#8217;s children to make them public, or at least accessible.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-stuff/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

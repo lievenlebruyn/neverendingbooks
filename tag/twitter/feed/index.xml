@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/twitter/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sun, 07 Jan 2018 23:41:41 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:37:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Smullyan and the President&#8217;s sanity</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/smullyan-on-the-presidents-sanity/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/smullyan-on-the-presidents-sanity/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 07 Jan 2018 23:41:41 +0000</pubDate>
@@ -43,8 +42,6 @@
 <p><strong>Reference: </strong> This is a minor adaptation of Problem 4.5 in <a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s book <a href="http://logic-books.info/sites/default/files/logical_labirints.pdf">Logical Labyrinths</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/smullyan-on-the-presidents-sanity/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

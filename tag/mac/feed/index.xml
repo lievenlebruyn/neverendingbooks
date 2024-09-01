@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/mac/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Mon, 11 Jul 2011 12:01:46 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:53:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>From WordPress to ePublishing (1)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 11 Jul 2011 12:01:46 +0000</pubDate>
@@ -78,15 +77,12 @@
 <p>Finally, we want to see how it looks on the iPad. Mail MyFirstEBook.epub to yourself as attachement, open it with iBooks and enjoy!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>What&#8217;s Pippa got to do with the Bourbaki wedding?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/whats-pippa-got-to-do-with-the-bourbaki-wedding/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/whats-pippa-got-to-do-with-the-bourbaki-wedding/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 09 Jul 2011 10:00:45 +0000</pubDate>
@@ -125,15 +121,12 @@
 <p> As Claude Chevalley&#8217;s father had an impressive diplomatic career behind him and lived in the neighborhood, he might have been invited, and, perhaps the (unused) invitation was lying around at the time of  the second Bourbaki-congress in Chancay,just one month after the Edward-Wallis wedding&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/whats-pippa-got-to-do-with-the-bourbaki-wedding/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>NeB : 7 years and now an iPad App</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 31 Dec 2010 17:05:32 +0000</pubDate>
@@ -166,15 +159,12 @@
 <p>I wish you all a lot of mathematical (and other) fun in 2011 :: lieven.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/neb-7-years-and-now-an-ipad-app/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Seating the first few billion Knights</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-billion-knights/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-billion-knights/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 30 Dec 2010 20:28:57 +0000</pubDate>
@@ -210,15 +200,12 @@ R.quotient((x^2+x+1,y^2+y+x,z^2+z+x*y,t^2+t+x*y*z,u^2+u+x*y*z*t))</p>
 <p>atb :: lieven.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-billion-knights/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>So, who did discover the Leech lattice?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 20 Dec 2010 10:58:03 +0000</pubDate>
@@ -303,15 +290,12 @@ Which brings us to our next question : who discovered the Golay code?</p>
 <p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Return to LaTeX</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 12 Feb 2010 20:20:29 +0000</pubDate>
@@ -350,15 +334,12 @@ wplpost -x https://lievenlebruyn.github.io/neverendingbooks/xmlrpc.php ReturnToL
 (if your blog is on WordPress.com it even suffices to give its name, rather than this work-around for stand-alone wordpress blogs). The script asks for my username and password and will convert the tex-file and post it automatic.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Seating the first few thousand Knights</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2010 16:31:46 +0000</pubDate>
@@ -418,15 +399,12 @@ $K_{1051} $ at root $e^{2 \pi i/65535} $ and can then arrange seatings for all K
 <p>I&#8217;ll leave you with another Lenstra-exercise which shouldn&#8217;t be too difficult for you to solve now : &#8220;Prove that $x^3=2^{2^i} $ has three solutions in $\mathbb{N} $ for each $i \geq 2 $.&#8221;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Seriously now, where was the Bourbaki wedding?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 25 Nov 2009 11:15:59 +0000</pubDate>
@@ -486,15 +464,12 @@ The organ of Val-de-Grâce is one the rare parisian surviving witnesses of the a
 <p>Perhaps we got it right, the second time around : <strong>the Bourbaki-Pétard wedding was held on June 3rd 1939 in the church &#8216;l&#8217;église royale Notre-Dame du Val-de-Grâce&#8217; at 12h</strong>?</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Snow leopard + wordpress + latex problem</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 01 Oct 2009 17:09:05 +0000</pubDate>
@@ -515,8 +490,6 @@ The organ of Val-de-Grâce is one the rare parisian surviving witnesses of the a
 <p>Anyone experiencing a similar problem, or knowing a trick to resolve it? Takk.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

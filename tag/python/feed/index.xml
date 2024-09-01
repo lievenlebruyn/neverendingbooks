@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/python/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 12 Feb 2010 20:20:29 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:52:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Return to LaTeX</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 12 Feb 2010 20:20:29 +0000</pubDate>
@@ -61,8 +60,6 @@ wplpost -x https://lievenlebruyn.github.io/neverendingbooks/xmlrpc.php ReturnToL
 (if your blog is on WordPress.com it even suffices to give its name, rather than this work-around for stand-alone wordpress blogs). The script asks for my username and password and will convert the tex-file and post it automatic.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/return-to-latex/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

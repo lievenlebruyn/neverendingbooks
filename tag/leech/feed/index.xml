@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/leech/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 30 Apr 2021 10:35:55 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:26:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -93,7 +93,6 @@ where $\zeta_{2pp&#8217;}$ is a primitive $2pp&#8217;$-th root of unity. These t
 		<item>
 		<title>Know thy neighbours</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/know-thy-neighbours/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/know-thy-neighbours/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 24 Mar 2021 14:24:25 +0000</pubDate>
@@ -170,15 +169,12 @@ with $v \in 2 \mathbb{Z}$, with the second case instances forming a codeword in 
 <p>For $a=12$ one needs a slightly different argument, see section 0.2 of <a href="https://math.berkeley.edu/~reb/papers/thesis/thesis.pdf">Richard Borcherds&#8217; Ph.D. thesis</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/know-thy-neighbours/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The Leech lattice neighbour</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 23 Mar 2021 16:12:48 +0000</pubDate>
@@ -231,15 +227,12 @@ of every codeword is a multiple of $4$. Each one of these codes $\mathcal{C}$ gi
 <p><a href="https://en.wikipedia.org/wiki/Vera_Pless">Vera Pless</a> and <a href="https://en.wikipedia.org/wiki/Neil_Sloane">Neil Sloan</a> classified all $26$ <a href="https://www.researchgate.net/publication/251812065_Binary_self-dual_codes_of_length_24">binary self-dual codes of length $24$</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Witt and his Niemeier lattices</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/witt-and-his-niemeier-lattices/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/witt-and-his-niemeier-lattices/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 19 Mar 2021 15:01:34 +0000</pubDate>
@@ -346,8 +339,6 @@ No, he did <strong>not</strong> find the <a href="https://en.wikipedia.org/wiki/
 <p>It would have been so much against all his experiences and intuitions that he would have dropped everything on the spot to write a paper about it, or at least, he would have mentioned in his &#8216;more than $10$ lattices&#8217;-claim that, surprisingly, one of them was an even unimodular lattice without any roots.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/witt-and-his-niemeier-lattices/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -446,7 +437,6 @@ This is somewhat related to moonshine, or at least to Klein&#8217;s j-function, 
 		<item>
 		<title>Richard Borcherds on Witt and the Leech lattice</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/richard-borcherds-on-witt-and-the-leech-lattice/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/richard-borcherds-on-witt-and-the-leech-lattice/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 10 Feb 2021 10:26:13 +0000</pubDate>
@@ -480,8 +470,6 @@ This is somewhat related to moonshine, or at least to Klein&#8217;s j-function, 
 <p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/xI2miIBS5-s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/richard-borcherds-on-witt-and-the-leech-lattice/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

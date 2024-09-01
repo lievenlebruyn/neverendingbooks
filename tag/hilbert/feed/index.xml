@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/hilbert/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 01 Dec 2018 14:17:39 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:50:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>the mathematician of cubism</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mathematician-of-cubism/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-mathematician-of-cubism/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 01 Dec 2018 14:17:39 +0000</pubDate>
@@ -64,15 +63,12 @@
 </center></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-mathematician-of-cubism/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The empty set according to bourbaki</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-empty-set-according-to-bourbaki/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-empty-set-according-to-bourbaki/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 09 Feb 2013 16:01:09 +0000</pubDate>
@@ -108,8 +104,6 @@ In the first chapter they develop their version of logic, using &#8216;assemblag
 <p>Hair-splitting as this is, it will have dramatic implications when we will try to assemble Bourbaki&#8217;s definition of &#8220;1&#8221; another time.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-empty-set-according-to-bourbaki/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

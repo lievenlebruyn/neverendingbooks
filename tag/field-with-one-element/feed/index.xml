@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/field-with-one-element/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sun, 26 Dec 2010 21:25:39 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Lists 2010 : MathOverflow bookmarks</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 26 Dec 2010 21:25:39 +0000</pubDate>
@@ -48,8 +47,6 @@
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/lists-2010-mathoverflow-bookmarks/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

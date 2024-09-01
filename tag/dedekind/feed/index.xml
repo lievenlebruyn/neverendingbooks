@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/dedekind/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sun, 14 Jul 2019 16:39:40 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:53:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>the Riemann hypothesis and Psi</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 14 Jul 2019 16:39:40 +0000</pubDate>
@@ -125,15 +124,12 @@ FareySymbol(G).fundamental_domain()<br />
 <p>and there are explicit natural one-to-one correspondences between all these manifestations of $\Psi(n)$, tbc.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-riemann-hypothesis-and-6/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>5 years blogging</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/5-year-blogging/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/5-year-blogging/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 31 Dec 2008 22:55:59 +0000</pubDate>
@@ -163,15 +159,12 @@ FareySymbol(G).fundamental_domain()<br />
 <p>less entropy in 2009!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/5-year-blogging/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>noncommutative F_un geometry (2)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 17 Oct 2008 12:14:09 +0000</pubDate>
@@ -227,8 +220,6 @@ of an algebra (which is $\mathbb{Z} $-torsion free)</p>
 <p>hence it gives a permutation representation of $\Gamma $ on this set. But then, if finite dimensional $\mathbb{F}_1 $-representations of $\Gamma $ are the finite permutation representations, then the <strong>simple</strong> ones are the <strong>transitive</strong> permutation representations. That is, the points of the noncommutative scheme corresponding to $\mathbb{F}_1 \Gamma $ are the conjugacy classes of subgroups $H \subset \Gamma $ such that $\Gamma/H $ is finite. But these are exactly the modular dessins d&#8217;enfants introduced by Grothendieck as I explained a while back elsewhere (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/modular-quilts-and-cuboid-tree-diagrams.html">this post</a> and others in the same series).</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

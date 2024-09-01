@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/duchamp/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 01 Dec 2018 14:17:39 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:34:53 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>the mathematician of cubism</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mathematician-of-cubism/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-mathematician-of-cubism/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 01 Dec 2018 14:17:39 +0000</pubDate>
@@ -64,8 +63,6 @@
 </center></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-mathematician-of-cubism/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

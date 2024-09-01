@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/tilings/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 02 Mar 2021 07:21:17 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Conway&#8217;s musical sequences</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 02 Mar 2021 07:21:17 +0000</pubDate>
@@ -112,15 +111,12 @@ C_0 \subset C_2 \subset C_4 \subset \dots \subset C_{even}  \quad \text{and} \qu
 This time we will project parts of the standard $2$-dimensional lattice $\mathbb{Z}^2$ onto the line, which is a lot easier to visualise than de Bruijn&#8217;s projection from $\mathbb{R}^5$ to produce Penrose tilings or the projection from six dimensional space to harvest quasicrystals.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Penrose tilings and noncommutative geometry</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 18 May 2011 09:36:49 +0000</pubDate>
@@ -158,8 +154,6 @@ This time we will project parts of the standard $2$-dimensional lattice $\mathbb
 <p>In other words, the noncommutative projective scheme $\pmb{proj}(P)$ is actually isomorphic to an affine scheme and as its coordinate ring is formally smooth $\pmb{proj}(P)$ is a noncommutative smooth variety. It would be interesting to construct more such examples of interesting AF-algebras appearing as local rings of sections of proj-es of affine graded algebras.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

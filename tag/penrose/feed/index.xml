@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/penrose/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 28 Mar 2023 13:54:57 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>an einStein</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 28 Mar 2023 13:54:57 +0000</pubDate>
@@ -91,8 +90,6 @@
 <p>It would be nice to try this strategy on other symmetric tilings: break the symmetry by gluing together a small number of its orbifolds in such a way that this extended tile (possibly with its reversed image) tile the plane, and find out whether you discovered a new einStein!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -180,7 +177,6 @@ which is clearly absurd.
 		<item>
 		<title>de Bruijn&#8217;s pentagrids (2)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 17 Mar 2021 09:38:39 +0000</pubDate>
@@ -417,15 +413,12 @@ but it is <strong>not</strong> a Rhombic tiling. What&#8217;s going on?</p>
 Because this post is already dragging on for far too long (TL;DR), we&#8217;ll save the investigation of projections of singular pentagrids, how they differ from the regular situation, and how they determine multiple Rhombic tilings, for another time.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>de Bruijn&#8217;s pentagrids</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 11 Mar 2021 14:56:06 +0000</pubDate>
@@ -544,15 +537,12 @@ It then follows that $K_1(0,y)+K_2(0,y)+K_3(0,y)+K_4(0,y) = 1$ or $3$ between th
 <p>Another time, we will connect this to the <a href="https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences-2">cut-and-project method</a>, using the representation theory of $D_5$.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Penrose&#8217;s aperiodic tilings</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/penroses-aperiodic-tilings/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/penroses-aperiodic-tilings/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 09 Mar 2021 13:37:00 +0000</pubDate>
@@ -641,15 +631,12 @@ filling the entire plane.</p>
 <a href="https://www.cherryarbordesign.com/">Cherry Arbor Design</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/penroses-aperiodic-tilings/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Conway&#8217;s musical sequences</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 02 Mar 2021 07:21:17 +0000</pubDate>
@@ -739,15 +726,12 @@ C_0 \subset C_2 \subset C_4 \subset \dots \subset C_{even}  \quad \text{and} \qu
 This time we will project parts of the standard $2$-dimensional lattice $\mathbb{Z}^2$ onto the line, which is a lot easier to visualise than de Bruijn&#8217;s projection from $\mathbb{R}^5$ to produce Penrose tilings or the projection from six dimensional space to harvest quasicrystals.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>GoV 2 : Viruses and quasi-crystals</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 26 Feb 2021 11:14:00 +0000</pubDate>
@@ -856,15 +840,12 @@ Take a point in $\mathbb{R}^6$ and look at its orbit under the isometries of $G$
 <p>Do viruses invade us from the sixth dimension??</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>GoV 1 : Geometry of viruses</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/gov-1-geometry-of-viruses/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/gov-1-geometry-of-viruses/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 24 Feb 2021 11:17:24 +0000</pubDate>
@@ -913,15 +894,12 @@ Take a point in $\mathbb{R}^6$ and look at its orbit under the isometries of $G$
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/dsJCv1DOfto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/gov-1-geometry-of-viruses/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Penrose tiles in Helsinki</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/penrose-tiles-in-helsinki/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/penrose-tiles-in-helsinki/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 13 Jan 2018 10:38:23 +0000</pubDate>
@@ -945,15 +923,12 @@ Take a point in $\mathbb{R}^6$ and look at its orbit under the isometries of $G$
 <p>(via <a href="https://www.reddit.com/r/math/comments/7pntdz/penrose_tiling_in_helsinki_finland/">Reddit/m</a>)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/penrose-tiles-in-helsinki/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Penrose tilings and noncommutative geometry</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 18 May 2011 09:36:49 +0000</pubDate>
@@ -991,8 +966,6 @@ Take a point in $\mathbb{R}^6$ and look at its orbit under the isometries of $G$
 <p>In other words, the noncommutative projective scheme $\pmb{proj}(P)$ is actually isomorphic to an affine scheme and as its coordinate ring is formally smooth $\pmb{proj}(P)$ is a noncommutative smooth variety. It would be interesting to construct more such examples of interesting AF-algebras appearing as local rings of sections of proj-es of affine graded algebras.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/penrose-tilings-and-noncommutative-geometry/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

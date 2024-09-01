@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/duskin/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Mon, 10 Jan 2022 13:31:42 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:08:25 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Grothendieck talks</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-talks/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-talks/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 10 Jan 2022 13:31:42 +0000</pubDate>
@@ -53,10 +52,9 @@
 <p>For all subsequent recordings of his talks in the Topos Theory series on May 11th, May 18th, May 25th, May 30th, June 4th, June 6th, June 20th, June 27th, July 2nd, July 10th, July 11th and July 12th, please consult Mateo&#8217;s <a href="https://agrothendieck.github.io/">website</a> (under section 1973).</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendieck-talks/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
-		
+		<enclosure url="https://lievenlebruyn.github.io/neverendingbooks/DATA3/GrothTopos1.mp3" length="35414759" type="audio/mpeg" />
+
 			</item>
 	</channel>
 </rss>

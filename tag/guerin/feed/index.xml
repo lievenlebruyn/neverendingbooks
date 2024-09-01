@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/guerin/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Thu, 04 Aug 2022 13:11:39 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:08:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Le Guide Bourbaki : La Ciotat (2)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-la-ciotat-2/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-la-ciotat-2/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 04 Aug 2022 13:11:39 +0000</pubDate>
@@ -75,15 +74,12 @@ La Ciota (B.-d.-R.)</p>
 <p>Thank you!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-la-ciotat-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Le Guide Bourbaki : La Ciotat</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-la-ciotat/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-la-ciotat/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 26 Jul 2022 15:08:34 +0000</pubDate>
@@ -140,8 +136,6 @@ and Serre.</p>
 <p>with coordinates 43.171122, 5.597150.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-la-ciotat/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

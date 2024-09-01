@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/sullivan/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 23 Aug 2019 16:39:59 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:34:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Complete chaos and Belyi-extenders</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 23 Aug 2019 16:39:59 +0000</pubDate>
@@ -77,8 +76,6 @@ and $1$ is periodic.</p>
 <p>Going back to the mystery <a href="https://lievenlebruyn.github.io/neverendingbooks/the-mystery-manin-marcolli-monoid">Manin-Marcolli sub-monoid of $\mathcal{E}$</a>, it might explain why it is a good idea to restrict to very special Belyi-extenders having associated dessin a $2$-coloured tree, for then the periodic point $\infty$ is critical (the degree of the outside region is at least two), and therefore the conditions of Sullivan&#8217;s theorem are not satisfied.  So, these Belyi-extenders do not necessarily have to be completely chaotic. (tbc)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

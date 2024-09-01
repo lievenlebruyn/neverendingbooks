@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/epub/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Mon, 05 Sep 2011 14:35:56 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>wp-latex&#8217; sweet revenge : wp+MathJax-&gt; ePub</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/wp-latex-sweet-revenge-wpmathjax-epub/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/wp-latex-sweet-revenge-wpmathjax-epub/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 05 Sep 2011 14:35:56 +0000</pubDate>
@@ -52,15 +51,12 @@
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/wp-latex-sweet-revenge-wpmathjax-epub/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>From WordPress to ePublishing (1)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 11 Jul 2011 12:01:46 +0000</pubDate>
@@ -116,8 +112,6 @@
 <p>Finally, we want to see how it looks on the iPad. Mail MyFirstEBook.epub to yourself as attachement, open it with iBooks and enjoy!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-wordpress-to-epublishing-1/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

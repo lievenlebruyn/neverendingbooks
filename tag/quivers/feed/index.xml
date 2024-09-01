@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/quivers/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 14 May 2011 10:48:23 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>what have quivers done to students?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/what-have-quivers-done-to-students/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-have-quivers-done-to-students/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 14 May 2011 10:48:23 +0000</pubDate>
@@ -50,8 +49,6 @@
 <p>Perhaps, it is time to promote slow math&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-have-quivers-done-to-students/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

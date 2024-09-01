@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/ono/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 02 Mar 2021 17:50:18 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:37:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -114,7 +114,6 @@ This is somewhat related to moonshine, or at least to Klein&#8217;s j-function, 
 		<item>
 		<title>Monstrous dessins 1</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 22 Jul 2019 11:47:59 +0000</pubDate>
@@ -213,15 +212,12 @@ which shows that $\# \mathbb{P}^1(\mathbb{Z}/p^k \mathbb{Z}) = (p+1)p^{k-1}= \Ps
 <p>Next time, we&#8217;ll connect $\mathbb{P}^1(\mathbb{Z}/n \mathbb{Z})$ to Conway&#8217;s big picture and the congruence subgroup $\Gamma_0(n)$.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>a non-commutative Jack Daniels problem</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 20 Jan 2018 13:56:06 +0000</pubDate>
@@ -266,8 +262,6 @@ which shows that $\# \mathbb{P}^1(\mathbb{Z}/p^k \mathbb{Z}) = (p+1)p^{k-1}= \Ps
 <p>Btw. the bottle in the title image is not a Jack Daniels but the remains of a bottle of Ricard, because I&#8217;m still in the French mountains.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

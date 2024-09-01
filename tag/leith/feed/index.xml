@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/leith/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 30 Sep 2011 14:38:41 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>#cestGrothendieck</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/cestgrothendieck/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/cestgrothendieck/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 30 Sep 2011 14:38:41 +0000</pubDate>
@@ -50,8 +49,6 @@
 <p><iframe width="560" height="315" src="http://www.youtube.com/embed/yV5n7Heandk" frameborder="0" allowfullscreen></iframe></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/cestgrothendieck/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

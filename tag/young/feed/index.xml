@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/young/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Wed, 17 Mar 2021 09:38:39 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:25:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>de Bruijn&#8217;s pentagrids (2)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 17 Mar 2021 09:38:39 +0000</pubDate>
@@ -259,8 +258,6 @@ but it is <strong>not</strong> a Rhombic tiling. What&#8217;s going on?</p>
 Because this post is already dragging on for far too long (TL;DR), we&#8217;ll save the investigation of projections of singular pentagrids, how they differ from the regular situation, and how they determine multiple Rhombic tilings, for another time.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/de-bruijns-pentagrids-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

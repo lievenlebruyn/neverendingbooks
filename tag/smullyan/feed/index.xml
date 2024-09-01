@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/smullyan/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 26 Sep 2023 14:57:07 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:37:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>the strange island of two truths</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 26 Sep 2023 14:57:07 +0000</pubDate>
@@ -120,15 +119,12 @@ K &#038; 0<br />
 <p>(all images in this post are from Smullyan&#8217;s book <a href="https://www.amazon.com/Alice-Puzzle-Land-Carrollian-Children-Recreational/dp/0486482006">Alice in Puzzle-Land</a>)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-strange-island-of-two-truths/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>some skew Smullyan stumpers</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 21 Sep 2023 12:05:48 +0000</pubDate>
@@ -208,15 +204,12 @@ K &#038; 0<br />
 <p>But, she once gave me a text containing many more puzzles (as well as all the answers), so perhaps I&#8217;ll share these in a follow-up post.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/some-skew-smullyan-stumpers/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Boolean and Heyting islands</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/boolean-and-heyting-islands/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/boolean-and-heyting-islands/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 26 Mar 2021 14:27:43 +0000</pubDate>
@@ -265,15 +258,12 @@ Sociologist : For any inhabitants $A$ and $B$, there is an inhabitant $C$ who te
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/E27v83WWiGo?start=366" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/boolean-and-heyting-islands/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The strange logic of subways</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 05 Mar 2021 09:15:32 +0000</pubDate>
@@ -326,15 +316,12 @@ Sociologist : For any inhabitants $A$ and $B$, there is an inhabitant $C$ who te
 <p>Right now, I&#8217;m more into exploring whether this setting can be used to revive an old project of mine: <a href="https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems">Heyting Smullyanesque problems</a> (btw. the algebra in that post is <strong>not</strong> Heyting, oops!).</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Heyting Smullyanesque problems</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 10 Feb 2018 12:49:14 +0000</pubDate>
@@ -384,15 +371,12 @@ Zack: Xara is a Neutral if and only if Walt is not a Normal.</p>
 <p>What about a book on &#8220;Knights, Knaves and Knols&#8221;? A <a href="https://en.wikipedia.org/wiki/Knol">Knol</a> (or $X$-Knol) has knowledge limited to sentences with truth value $X$, an element in the Heyting algebra.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Knights and Knaves, the Heyting way</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 22 Jan 2018 10:01:57 +0000</pubDate>
@@ -438,15 +422,12 @@ Ford: Dave is a neutral.</p>
 <p>If you know of more of these Smullanesque problems using Heyting algebras, please leave a comment.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Smullyan and the President&#8217;s sanity</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/smullyan-on-the-presidents-sanity/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/smullyan-on-the-presidents-sanity/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 07 Jan 2018 23:41:41 +0000</pubDate>
@@ -467,8 +448,6 @@ Ford: Dave is a neutral.</p>
 <p><strong>Reference: </strong> This is a minor adaptation of Problem 4.5 in <a href="https://en.wikipedia.org/wiki/Raymond_Smullyan">Raymond Smullyan</a>&#8216;s book <a href="http://logic-books.info/sites/default/files/logical_labirints.pdf">Logical Labyrinths</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/smullyan-on-the-presidents-sanity/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

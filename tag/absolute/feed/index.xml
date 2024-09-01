@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/absolute/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Wed, 14 Sep 2011 14:37:15 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>3 related new math-sites</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/3-related-new-math-sites/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/3-related-new-math-sites/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 14 Sep 2011 14:37:15 +0000</pubDate>
@@ -50,15 +49,12 @@
 <p>This site is dedicated to maintain articles, videos, and news about meetings and activities related to noncommutative arithmetic geometry. The website is still `under construction&#8217; and the plan is to gradually add more videos (also from past conferences and meetings), as well as papers and slides.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/3-related-new-math-sites/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>eBook &#8216;geometry and the absolute point&#8217; v0.1</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 08 Jul 2011 11:32:32 +0000</pubDate>
@@ -82,8 +78,6 @@ In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217;
 <p>Soon, I will be releasing a LaTeX-ed &#8216;eBook&#8217; containing the Bourbaki-related posts. Later I might also try it on the games- and groups-related posts&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

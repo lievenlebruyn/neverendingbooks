@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/simples/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Thu, 12 May 2011 13:41:34 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:53:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Art and the absolute point</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 12 May 2011 13:41:34 +0000</pubDate>
@@ -58,15 +57,12 @@
 <p>James Borger&#8217;s paper <a href="http://arxiv.org/abs/0906.3146">Lambda-rings and the field with one element</a> offers a totally new conception of the descent data from $\mathbb{Z}$ to $\mathbb{F}_1$, namely that of a $\lambda$-ring in the sense of Grothendieck. Because Manin expects this approach to lead to progress in the field, he connects it to <a href="http://en.wikipedia.org/wiki/Futurism">Futurism</a>, an artistic and social movement that originated in Italy in the early 20th century.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The odd knights of the round table</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 28 Jan 2010 20:48:59 +0000</pubDate>
@@ -108,15 +104,12 @@ For example, all information about the finite field $\mathbb{F}_{2^4} $ is encod
 <p>Can you give explicit (even inductive) formulae to achieve this? I guess even the problem of placing Knight 16 will give you a couple of hours to think about&#8230; (to be continued).</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Pollock your own noncommutative space</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 19 May 2009 16:56:50 +0000</pubDate>
@@ -153,15 +146,12 @@ In fact, I&#8217;ve already told part of the story in <a href="https://lievenleb
 <p>For the mathematicians still around, this may sound like a lot of Pollock-bollocks but can be made precise. See my note <a href="http://arxiv.org/abs/0805.2377">Noncommutative geometry and dual coalgebras</a> for a very terse reading. Now that coalgebras are <a href="http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html">gaining popularity</a>, I really should write a more readable account of it, including some fanshi-wanshi examples&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>On2 : Conway’s nim-arithmetics</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/on2-conways-nim-arithmetics/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/on2-conways-nim-arithmetics/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 26 Jan 2009 18:51:18 +0000</pubDate>
@@ -218,8 +208,6 @@ $\kappa_{p^n} = [\omega^{\omega^{k-1}.p^{n-1}}] $ where $k $ is the number of pr
 <p>For an enjoyable video on all of this, see Conway&#8217;s MSRI lecture on <a href="http://www.msri.org/communications/ln/msri/2000/gametheory/conway/1/index.html">Infinite Games</a>. The nim-arithmetic part is towards the end of the lecture but watching the whole video is a genuine treat!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/on2-conways-nim-arithmetics/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

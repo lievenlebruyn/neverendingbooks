@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/coalgebras/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 19 May 2009 16:56:50 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:53:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Pollock your own noncommutative space</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 19 May 2009 16:56:50 +0000</pubDate>
@@ -59,15 +58,12 @@ In fact, I&#8217;ve already told part of the story in <a href="https://lievenleb
 <p>For the mathematicians still around, this may sound like a lot of Pollock-bollocks but can be made precise. See my note <a href="http://arxiv.org/abs/0805.2377">Noncommutative geometry and dual coalgebras</a> for a very terse reading. Now that coalgebras are <a href="http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html">gaining popularity</a>, I really should write a more readable account of it, including some fanshi-wanshi examples&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/pollock-your-own-noncommutative-space/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>noncommutative F_un geometry (2)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 17 Oct 2008 12:14:09 +0000</pubDate>
@@ -123,8 +119,6 @@ of an algebra (which is $\mathbb{Z} $-torsion free)</p>
 <p>hence it gives a permutation representation of $\Gamma $ on this set. But then, if finite dimensional $\mathbb{F}_1 $-representations of $\Gamma $ are the finite permutation representations, then the <strong>simple</strong> ones are the <strong>transitive</strong> permutation representations. That is, the points of the noncommutative scheme corresponding to $\mathbb{F}_1 \Gamma $ are the conjugacy classes of subgroups $H \subset \Gamma $ such that $\Gamma/H $ is finite. But these are exactly the modular dessins d&#8217;enfants introduced by Grothendieck as I explained a while back elsewhere (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/modular-quilts-and-cuboid-tree-diagrams.html">this post</a> and others in the same series).</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

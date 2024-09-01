@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/arithmetic-groups/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 06 Jan 2018 12:02:42 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:37:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>the 171 moonshine groups</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 06 Jan 2018 12:02:42 +0000</pubDate>
@@ -53,8 +52,6 @@ which normalizes $\Gamma_0(N)$ for $N=h.n$. If $h=1$ then this group is the moon
 <p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/moonshinegroups.png" width=100% ></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

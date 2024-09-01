@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/iuteich/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 05 Feb 2019 15:53:31 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:46:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -121,7 +121,6 @@ I fear this can only end badly.</p>
 		<item>
 		<title>G+ recovery 4 : #IUTeich (2)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/g-recovery-4-iuteich-2/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/g-recovery-4-iuteich-2/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 05 Feb 2019 08:10:39 +0000</pubDate>
@@ -221,15 +220,12 @@ S.P = Q_1.Q_2&#8230;.Q_k \]</p>
 <p>Probably i am missing something so all sorts of enlightenment re welcome!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/g-recovery-4-iuteich-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>G+ recovery 3 : #IUTeich (1)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/g-recovery-3-iuteich-1/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/g-recovery-3-iuteich-1/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 04 Feb 2019 12:26:09 +0000</pubDate>
@@ -323,15 +319,12 @@ If it remains prime then the quotient $\mathbb{Z}[\sqrt{m}]/(p)$ is the finite f
 <p>These different types of morphisms will become important when we want to reconstruct the arithmetic schemes (and covers) from the category structure of the Frobenioid. The essential trick will be to classify and distinguish the irreducible morphisms which are non-isomorphisms phi such that in any factorisation $\phi = \alpha \circ \beta$, either $\alpha$ or $\beta$ must be an isomorphism. (tbc)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/g-recovery-3-iuteich-1/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Je (ne) suis (pas) Mochizuki</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/je-ne-suis-pas-mochizuki/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/je-ne-suis-pas-mochizuki/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 12 Jan 2015 12:13:37 +0000</pubDate>
@@ -383,8 +376,6 @@ This is not just gibberish to the average layman. It was gibberish to the math c
 <p>RIMS is quickly becoming Mochizuki&#8217;s Lasserre.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/je-ne-suis-pas-mochizuki/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

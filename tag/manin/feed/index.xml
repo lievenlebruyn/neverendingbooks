@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/manin/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 31 Dec 2021 10:50:10 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Do we need the sphere spectrum?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 31 Dec 2021 10:50:10 +0000</pubDate>
@@ -81,15 +80,12 @@ From <a href="https://arxiv.org/abs/1710.08292">Topological classification of Mo
 <p>&#8211; between $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ and $\mathbb{W}_1(\mathbb{Z}(\mathbf{\mu}_{\infty}))$ where $\mathbb{Z}(\mathbf{\mu}_{\infty})$ is the ring obtained by adjoining to $\mathbb{Z}$ all roots of unity.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Complete chaos and Belyi-extenders</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 23 Aug 2019 16:39:59 +0000</pubDate>
@@ -144,8 +140,6 @@ and $1$ is periodic.</p>
 <p>Going back to the mystery <a href="https://lievenlebruyn.github.io/neverendingbooks/the-mystery-manin-marcolli-monoid">Manin-Marcolli sub-monoid of $\mathcal{E}$</a>, it might explain why it is a good idea to restrict to very special Belyi-extenders having associated dessin a $2$-coloured tree, for then the periodic point $\infty$ is critical (the degree of the outside region is at least two), and therefore the conditions of Sullivan&#8217;s theorem are not satisfied.  So, these Belyi-extenders do not necessarily have to be completely chaotic. (tbc)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -332,7 +326,6 @@ defined over $\mathbb{Q}$ with the additional property that $\gamma$ maps $\{ 0,
 		<item>
 		<title>Two lecture series on absolute geometry</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/two-lecture-series-on-absolute-geometry/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/two-lecture-series-on-absolute-geometry/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 18 Jan 2015 11:39:42 +0000</pubDate>
@@ -384,15 +377,12 @@ defined over $\mathbb{Q}$ with the additional property that $\gamma$ maps $\{ 0,
 <p>I will try to report here on Manin&#8217;s lectures in Ghent. If someone is able to attend Connes&#8217; lectures in Paris, I&#8217;d love to receive updates!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/two-lecture-series-on-absolute-geometry/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Manin&#8217;s three-space-2000</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/manins-three-space-2000/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/manins-three-space-2000/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 30 Jan 2012 15:47:57 +0000</pubDate>
@@ -418,15 +408,12 @@ defined over $\mathbb{Q}$ with the additional property that $\gamma$ maps $\{ 0,
 <p>Way back in 1984 Manin conjectured : &#8220;There is no such group naively, but a &#8216;category of representations of this group&#8217; may well exist. There may exist also certain correspondence rings (or their representations) between $\mathsf{Spec}(\mathbb{Z})$ and $x$.&#8221;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/manins-three-space-2000/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Art and the absolute point (3)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 19 May 2011 13:24:19 +0000</pubDate>
@@ -464,15 +451,12 @@ defined over $\mathbb{Q}$ with the additional property that $\gamma$ maps $\{ 0,
 <p>To depict these new infinite dimensional geometric objects I&#8217;ve chosen for <a href="http://en.wikipedia.org/wiki/Jackson_Pollock">Jackson Pollock</a>&#8216;s painting No. 8. It is no coincidence that Pollock-paintings also appeared in the depiction of noncommutative spaces. In fact, Matilde Marcolli has made the connection between $\lambda$-rings and noncommutative geometry in <a href="http://arxiv.org/abs/0901.3167">Cyclotomy and endomotives</a> by showing that the Bost-Connes endomotives are universal for $\lambda$-rings.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Who dreamed up the primes=knots analogy?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 16 May 2011 12:17:45 +0000</pubDate>
@@ -518,15 +502,12 @@ The opening paragraph of this unpublished preprint contains a major surprise!</p
 <p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/quizz1.jpg"></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Art and the absolute point (2)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 13 May 2011 13:41:51 +0000</pubDate>
@@ -561,15 +542,12 @@ The opening paragraph of this unpublished preprint contains a major surprise!</p
 <p>Another time I&#8217;ll sketch my own arty-farty take on all this.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Art and the absolute point</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 12 May 2011 13:41:34 +0000</pubDate>
@@ -605,8 +583,6 @@ The opening paragraph of this unpublished preprint contains a major surprise!</p
 <p>James Borger&#8217;s paper <a href="http://arxiv.org/abs/0906.3146">Lambda-rings and the field with one element</a> offers a totally new conception of the descent data from $\mathbb{Z}$ to $\mathbb{F}_1$, namely that of a $\lambda$-ring in the sense of Grothendieck. Because Manin expects this approach to lead to progress in the field, he connects it to <a href="http://en.wikipedia.org/wiki/Futurism">Futurism</a>, an artistic and social movement that originated in Italy in the early 20th century.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

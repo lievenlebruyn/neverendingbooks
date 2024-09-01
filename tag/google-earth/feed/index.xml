@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/google-earth/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Mon, 08 Feb 2010 14:30:59 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:52:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Where’s Bourbaki’s Escorial?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-escorial/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-escorial/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 08 Feb 2010 14:30:59 +0000</pubDate>
@@ -64,8 +63,6 @@ Abel Chevalley, who together with Marguerite compiled the <a href="http://catalo
 <p>Probably, Googles database is more reliable than the information provided by the village of Chançay, or the paper by Borowczyk as it is the same spelling as on the old Napoleonic map. Anyway, feel free to have a peek at Bourbaki&#8217;s Escorial yourself!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/wheres-bourbakis-escorial/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

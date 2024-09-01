@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/presheaves/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Wed, 07 Jan 2015 08:02:27 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:46:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Children have always loved colimits</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 07 Jan 2015 08:02:27 +0000</pubDate>
@@ -65,8 +64,6 @@
 <p>The published version, available from <a href="http://www.amazon.com/Category-Theory-Sciences-David-Spivak/dp/0262028131" target="_blank" rel="noopener">Amazon</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

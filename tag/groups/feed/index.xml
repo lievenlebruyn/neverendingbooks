@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/groups/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 08 Jul 2011 11:32:32 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:53:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>eBook &#8216;geometry and the absolute point&#8217; v0.1</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 08 Jul 2011 11:32:32 +0000</pubDate>
@@ -46,15 +45,12 @@ In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217;
 <p>Soon, I will be releasing a LaTeX-ed &#8216;eBook&#8217; containing the Bourbaki-related posts. Later I might also try it on the games- and groups-related posts&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/ebook-geometry-and-the-absolute-point-v0-1/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>the birthday of the primes=knots analogy</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 26 May 2011 10:07:22 +0000</pubDate>
@@ -101,15 +97,12 @@ In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217;
 <p>Probably, the knots=primes analogy was first dreamed up inside, or in the immediate neighborhood, on a walk to or from the cottages, overlooking the harbor.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-birthday-of-the-primesknots-analogy/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>If Bourbaki=WikiLeaks then Weil=Assange</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/if-bourbakiwikileaks-then-weilassange/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/if-bourbakiwikileaks-then-weilassange/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 17 May 2011 11:30:24 +0000</pubDate>
@@ -145,15 +138,12 @@ In preparing for next year&#8217;s &#8216;seminar noncommutative geometry&#8217;
 <p>If it were not for the fact that the other members had more pressing matters to deal with, Weil&#8217;s attitude would have resulted in more people dropping out of the group, or continuing the work under another name, a bit like what happens to WikiLeaks and <a href="http://en.wikipedia.org/wiki/OpenLeaks">OpenLeaks</a> today.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/if-bourbakiwikileaks-then-weilassange/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Who dreamed up the primes=knots analogy?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 16 May 2011 12:17:45 +0000</pubDate>
@@ -199,15 +189,12 @@ The opening paragraph of this unpublished preprint contains a major surprise!</p
 <p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/quizz1.jpg"></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/who-dreamed-up-the-primesknots-analogy/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>mathblogging and poll-results</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 21 Jan 2011 19:42:24 +0000</pubDate>
@@ -238,15 +225,12 @@ The opening paragraph of this unpublished preprint contains a major surprise!</p
 <p>Fortunately, some of you told me it was fine to write about &#8216;combinatorial games and cool nim stuff, finite simple groups, mathematical history, number theory, arithmetic geometry&#8217;, pushed me to go for &#8216;anything monstrous and moonshiney&#8217; (as if I would know the secrets of the &#8216;connection between the Mathieu group M24 and the elliptic genus of K3&#8217;&#8230;) or wrote that &#8216;various algebraic geometry related posts are always welcome: posts like <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/mumfords-treasure-map.html">Mumford&#8217;s treasure map</a>&#8216;.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mathblogging-and-poll-results/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>So, who did discover the Leech lattice?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 20 Dec 2010 10:58:03 +0000</pubDate>
@@ -331,8 +315,6 @@ Which brings us to our next question : who discovered the Golay code?</p>
 <p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -405,7 +387,6 @@ Next time we will look more closely into the historical context of Witt&#8217;s 
 		<item>
 		<title>Seriously now, where was the Bourbaki wedding?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 25 Nov 2009 11:15:59 +0000</pubDate>
@@ -465,15 +446,12 @@ The organ of Val-de-Grâce is one the rare parisian surviving witnesses of the a
 <p>Perhaps we got it right, the second time around : <strong>the Bourbaki-Pétard wedding was held on June 3rd 1939 in the church &#8216;l&#8217;église royale Notre-Dame du Val-de-Grâce&#8217; at 12h</strong>?</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Conway’s big picture</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 02 May 2009 18:22:03 +0000</pubDate>
@@ -518,15 +496,12 @@ Using both operations we can get any lattice in a specific form. For example,</p
 J.H. Conway&#8217;s paper &#8220;Understanding groups like $\Gamma_0(N) $&#8221; containing all this material is a must-read! Unfortunately, I do not know of an online version.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/conways-big-picture/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Mazur’s knotty dictionary</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 27 Dec 2008 11:24:09 +0000</pubDate>
@@ -565,8 +540,6 @@ $\pi^{alg}_1(M) \simeq \widehat{\pi_1(M)} $ (recall that the cofinite completion
 <p>More links to papers on arithmetic topology can be found in <a href="http://math.ucr.edu/home/baez/week257.html">John Baez&#8217; week 257</a> or <a href="http://golem.ph.utexas.edu/category/2007/10/this_weeks_finds_in_mathematic_18.html">via here</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

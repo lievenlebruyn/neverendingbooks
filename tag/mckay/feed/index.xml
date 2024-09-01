@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/mckay/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 02 Mar 2021 17:50:18 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:37:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -114,7 +114,6 @@ This is somewhat related to moonshine, or at least to Klein&#8217;s j-function, 
 		<item>
 		<title>Monstrous dessins 1</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 22 Jul 2019 11:47:59 +0000</pubDate>
@@ -213,15 +212,12 @@ which shows that $\# \mathbb{P}^1(\mathbb{Z}/p^k \mathbb{Z}) = (p+1)p^{k-1}= \Ps
 <p>Next time, we&#8217;ll connect $\mathbb{P}^1(\mathbb{Z}/n \mathbb{Z})$ to Conway&#8217;s big picture and the congruence subgroup $\Gamma_0(n)$.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Extending McKay&#8217;s E8 graph?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/extending-mckays-e8-graph/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/extending-mckays-e8-graph/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 25 Jan 2018 14:01:43 +0000</pubDate>
@@ -250,15 +246,12 @@ which shows that $\# \mathbb{P}^1(\mathbb{Z}/p^k \mathbb{Z}) = (p+1)p^{k-1}= \Ps
 <p>And, what is the full graph on the 171 groups?</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/extending-mckays-e8-graph/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Everything&#8217;s wrappable to a sphere</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 11 Jan 2018 15:31:22 +0000</pubDate>
@@ -291,15 +284,12 @@ which shows that $\# \mathbb{P}^1(\mathbb{Z}/p^k \mathbb{Z}) = (p+1)p^{k-1}= \Ps
 <p>&#8220;As for groups of the form $(n|h)+e,f,\dots$, the genus can be determined from the fundamental regions using the <a href="https://en.wikipedia.org/wiki/Riemann%E2%80%93Hurwitz_formula">Riemann-Hurwitz formula</a>. Since most of the groups are not subgroups of the modular group, the calculations of the genus, <em>which cannot be produced here because of their length</em>, are carried out by finding the elliptic fixed points and the cone points in the orbifolds attached to the fundamental regions. The Euler characteristic of the orbifold determines the genus of the group. See [paper] for more details on orbifold techniques.&#8221;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>the 171 moonshine groups</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 06 Jan 2018 12:02:42 +0000</pubDate>
@@ -330,8 +320,6 @@ which normalizes $\Gamma_0(N)$ for $N=h.n$. If $h=1$ then this group is the moon
 <p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/moonshinegroups.png" width=100% ></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

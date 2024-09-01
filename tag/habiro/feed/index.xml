@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/habiro/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 02 Feb 2018 09:13:06 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:35:27 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>From the Da Vinci code to Habiro</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-habiro/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-habiro/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 02 Feb 2018 09:13:06 +0000</pubDate>
@@ -77,8 +76,6 @@ with all coefficients $a_n \in \mathbb{Z}$.</p>
 <p>If the ring $\Re(\mathbb{Z})^{\ast}$ is controlled by the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q})$, then Habiro&#8217;s ring is controlled by the abelianzation $Gal(\overline{\mathbb{Q}}/\mathbb{Q})^{ab} \simeq \hat{\mathbb{Z}}^{\ast}$.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-habiro/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/lehner/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 05 Jan 2018 11:03:27 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:37:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Snakes, spines, threads and all that</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 05 Jan 2018 11:03:27 +0000</pubDate>
@@ -119,8 +118,6 @@ Conversely, an element that takes the snake to itself must conjugate into itself
 <p><strong>Reference</strong>: J.H. Conway, &#8220;Understanding groups like $\Gamma_0(N)$&#8221;, in &#8220;Groups, Difference Sets, and the Monster&#8221;, Walter de Gruyter-Berlin-New York, 1996</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

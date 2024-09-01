@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/klein/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sun, 18 Feb 2018 16:07:32 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Rotations of Klein&#8217;s quartic</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/rotations-of-kleins-quartic/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/rotations-of-kleins-quartic/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 18 Feb 2018 16:07:32 +0000</pubDate>
@@ -66,15 +65,12 @@ is non-trivial and must have image strictly larger than $C_3$ (otherwise, $G$ wo
 <p>But, $S_3$ has a normal subgroup of index $2$ and pulling this back, $G$ must also have a normal subgroup of index two, which we have excluded. Done!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/rotations-of-kleins-quartic/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>the Reddit (after)effect</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 15 Jan 2011 14:44:31 +0000</pubDate>
@@ -124,8 +120,6 @@ is non-trivial and must have image strictly larger than $C_3$ (otherwise, $G$ wo
 <p>What lesson should be learned from all this data? Should I go for shorter, snappier and more visual posts, or should I focus on the small group of visitors taking their time reading through a longer post, and don&#8217;t care about the appallingly high <a href="http://en.wikipedia.org/wiki/Bounce_rate">bounce rate</a> the others cause?</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

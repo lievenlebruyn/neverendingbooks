@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/bost/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 30 Jan 2018 13:23:34 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:37:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>The Langlands program and non-commutative geometry</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 30 Jan 2018 13:23:34 +0000</pubDate>
@@ -65,15 +64,12 @@ GL_1(\mathbb{A}_{\mathbb{Q}})/GL_1(\mathbb{Q}) = \mathbb{A}_{\mathbb{Q}}^{\ast} 
 <p>For $n=2$ there&#8217;s a similar story with a &#8216;bad&#8217; quotient $M_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q})$, being the closure of an &#8216;open&#8217; nice piece which is the Langlands quotient space $GL_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q})$.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>A forgotten type and roots of unity (again)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 29 Jan 2018 15:13:56 +0000</pubDate>
@@ -113,15 +109,12 @@ As in the <a href="https://lievenlebruyn.github.io/neverendingbooks/a-tetrahedra
 <p>I wonder what all this has to do with the action of the Bost-Connes algebra on the big picture or with Plazas&#8217; approach to moonshine via <a href="https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine">non-commutative geometry</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Roots of unity and the Big Picture</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 14 Jan 2018 10:29:21 +0000</pubDate>
@@ -173,15 +166,12 @@ Under $x$ the first set of $h$-th roots of unity centered at $hM$ is permuted, w
 <p>Finally I spotted that I mis-numbered two lattices in the description of $x$ and $y$, and the order went down to $48$ as it should, because I knew it had to be equal to $C_2 \times C_2 \times A_4$.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/roots-of-unity-and-the-big-picture/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>nc-geometry and moonshine?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 12 Jan 2018 15:28:03 +0000</pubDate>
@@ -232,8 +222,6 @@ e(\frac{a}{b}) \ast \frac{c}{d},\frac{g}{h} = \frac{c}{d},\Psi^c(\frac{a}{b}) \f
 <p>Looks like the right kind of paper to take along when I disappear next week for some time in the French mountains&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

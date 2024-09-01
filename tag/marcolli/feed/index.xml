@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/marcolli/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 31 Dec 2021 10:50:10 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:52:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Do we need the sphere spectrum?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 31 Dec 2021 10:50:10 +0000</pubDate>
@@ -81,15 +80,12 @@ From <a href="https://arxiv.org/abs/1710.08292">Topological classification of Mo
 <p>&#8211; between $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ and $\mathbb{W}_1(\mathbb{Z}(\mathbf{\mu}_{\infty}))$ where $\mathbb{Z}(\mathbf{\mu}_{\infty})$ is the ring obtained by adjoining to $\mathbb{Z}$ all roots of unity.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Complete chaos and Belyi-extenders</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 23 Aug 2019 16:39:59 +0000</pubDate>
@@ -144,8 +140,6 @@ and $1$ is periodic.</p>
 <p>Going back to the mystery <a href="https://lievenlebruyn.github.io/neverendingbooks/the-mystery-manin-marcolli-monoid">Manin-Marcolli sub-monoid of $\mathcal{E}$</a>, it might explain why it is a good idea to restrict to very special Belyi-extenders having associated dessin a $2$-coloured tree, for then the periodic point $\infty$ is critical (the degree of the outside region is at least two), and therefore the conditions of Sullivan&#8217;s theorem are not satisfied.  So, these Belyi-extenders do not necessarily have to be completely chaotic. (tbc)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -332,7 +326,6 @@ defined over $\mathbb{Q}$ with the additional property that $\gamma$ maps $\{ 0,
 		<item>
 		<title>The Langlands program and non-commutative geometry</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 30 Jan 2018 13:23:34 +0000</pubDate>
@@ -375,15 +368,12 @@ GL_1(\mathbb{A}_{\mathbb{Q}})/GL_1(\mathbb{Q}) = \mathbb{A}_{\mathbb{Q}}^{\ast} 
 <p>For $n=2$ there&#8217;s a similar story with a &#8216;bad&#8217; quotient $M_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q})$, being the closure of an &#8216;open&#8217; nice piece which is the Langlands quotient space $GL_2(\mathbb{A}_{\mathbb{Q}})/GL_2(\mathbb{Q})$.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-langlands-program-and-non-commutative-geometry/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>nc-geometry and moonshine?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 12 Jan 2018 15:28:03 +0000</pubDate>
@@ -434,15 +424,12 @@ e(\frac{a}{b}) \ast \frac{c}{d},\frac{g}{h} = \frac{c}{d},\Psi^c(\frac{a}{b}) \f
 <p>Looks like the right kind of paper to take along when I disappear next week for some time in the French mountains&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The martial art of giving talks</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-martial-art-of-giving-talks/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-martial-art-of-giving-talks/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 05 Jan 2012 15:45:30 +0000</pubDate>
@@ -467,15 +454,12 @@ Something along these lines would recognize “their” work without having to m
 Effectiveness: high (unless the Emperor is also present and is delegating to his hierophants the task of attacking you: in that case they won’t give up so easily and the effectiveness of this line of defense becomes medium/low).&#8221;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-martial-art-of-giving-talks/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Art and the absolute point (3)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 19 May 2011 13:24:19 +0000</pubDate>
@@ -513,15 +497,12 @@ Effectiveness: high (unless the Emperor is also present and is delegating to his
 <p>To depict these new infinite dimensional geometric objects I&#8217;ve chosen for <a href="http://en.wikipedia.org/wiki/Jackson_Pollock">Jackson Pollock</a>&#8216;s painting No. 8. It is no coincidence that Pollock-paintings also appeared in the depiction of noncommutative spaces. In fact, Matilde Marcolli has made the connection between $\lambda$-rings and noncommutative geometry in <a href="http://arxiv.org/abs/0901.3167">Cyclotomy and endomotives</a> by showing that the Bost-Connes endomotives are universal for $\lambda$-rings.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-3/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Art and the absolute point (2)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 13 May 2011 13:41:51 +0000</pubDate>
@@ -556,15 +537,12 @@ Effectiveness: high (unless the Emperor is also present and is delegating to his
 <p>Another time I&#8217;ll sketch my own arty-farty take on all this.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/art-and-the-absolute-point-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Langlands versus Connes</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 26 Oct 2010 08:54:28 +0000</pubDate>
@@ -600,8 +578,6 @@ Effectiveness: high (unless the Emperor is also present and is delegating to his
 <p>At the moment I&#8217;m running a master-seminar noncommutative geometry trying to explain this connection in detail. But, we&#8217;re still in the early phases, struggling with the topology of ideles and adeles, reciprocity laws, L-functions and the lot. Still, if someone is interested I might attempt to post some lecture notes here.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

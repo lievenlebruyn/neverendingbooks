@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/cartier/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 04 Jan 2022 19:42:59 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:46:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -152,7 +152,6 @@
 		<item>
 		<title>Grothendieck&#8217;s Café</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-cafe/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-cafe/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 01 Jul 2014 08:46:26 +0000</pubDate>
@@ -198,8 +197,6 @@
 <p>Note the phrase: <strong>I am exploiting him most profitably</strong>. Yes, by asking him daft questions over a pint at <strong>Café &#8220;Plantin&#8221;</strong>&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-cafe/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

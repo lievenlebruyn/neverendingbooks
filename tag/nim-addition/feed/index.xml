@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/nim-addition/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 11 Jan 2011 15:52:26 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>How to win transfinite Nimbers?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/how-to-win-transfinite-nimbers/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/how-to-win-transfinite-nimbers/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 11 Jan 2011 15:52:26 +0000</pubDate>
@@ -66,8 +65,6 @@ sage: (o+f)*(o+1)<br />
 <p>(one possible winning move is to remove the stone at $~(\omega+2,\omega) $ and add stones at the three new corners of the rectangle : $~(257,2), (257,\omega) $ and $~(\omega+2,2) $)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/how-to-win-transfinite-nimbers/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

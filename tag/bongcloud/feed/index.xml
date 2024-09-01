@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/bongcloud/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Thu, 18 Mar 2021 18:01:27 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:25:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>the bongcloud attack</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-bongcloud-attack/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-bongcloud-attack/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 18 Mar 2021 18:01:27 +0000</pubDate>
@@ -76,8 +75,6 @@
 <p>Now, that put a smile on your face, didn&#8217;t it?</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-bongcloud-attack/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

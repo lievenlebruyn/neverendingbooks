@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/writing/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sun, 04 Feb 2018 11:01:29 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:35:27 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>taking stock</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/taking-stock/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/taking-stock/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 04 Feb 2018 11:01:29 +0000</pubDate>
@@ -60,8 +59,6 @@
 <p>If you have suggestions or advice, please leave a comment or email me.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/taking-stock/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

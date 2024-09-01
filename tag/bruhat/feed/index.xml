@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/bruhat/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 02 Mar 2021 17:50:18 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:37:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -114,7 +114,6 @@ This is somewhat related to moonshine, or at least to Klein&#8217;s j-function, 
 		<item>
 		<title>The Big Picture is non-commutative</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 03 Jan 2018 12:22:09 +0000</pubDate>
@@ -221,8 +220,6 @@ These give us the commutation relations between the free monoids of operators co
 (\frac{1}{2} \ast) \circ (\frac{2}{3} \ast) = (\frac{2}{3} \ast) \circ (\frac{1}{2} \ast) \]</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-big-picture-is-non-commutative/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

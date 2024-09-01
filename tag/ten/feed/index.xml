@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/ten/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 19 Sep 2023 15:01:19 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:03:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>A projective plain (plane) of order ten</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 19 Sep 2023 15:01:19 +0000</pubDate>
@@ -92,8 +91,6 @@
 No order-10 projective planes via SAT</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-projective-plain-plane-of-order-ten/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/lasserre/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 31 May 2016 20:58:06 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:46:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Grothendieck&#8217;s gribouillis (2)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-2/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-2/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 31 May 2016 20:58:06 +0000</pubDate>
@@ -83,15 +82,12 @@
 <p>If I counted correctly, there are at least two of these metallic cases full of un-read post 2000 writings. To be continued&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Grothendieck&#8217;s gribouillis</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 03 Jan 2015 15:25:44 +0000</pubDate>
@@ -139,8 +135,6 @@
 <p><a href="http://blogs.afp.com/makingof/?post/alexandre-grothendieck-un-genie-mysterieux#.VKgDd4rF_by">Un génie mystérieux, un secret bien gardé</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

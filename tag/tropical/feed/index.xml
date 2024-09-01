@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/tropical/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Mon, 10 Apr 2023 13:34:31 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:07:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>The tropical brain-forest</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 10 Apr 2023 13:34:31 +0000</pubDate>
@@ -122,8 +121,6 @@
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

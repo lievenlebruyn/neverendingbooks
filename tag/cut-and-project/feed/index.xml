@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/cut-and-project/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Wed, 03 Mar 2021 17:18:35 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:26:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Conway&#8217;s musical sequences (2)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences-2/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences-2/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 03 Mar 2021 17:18:35 +0000</pubDate>
@@ -103,15 +102,12 @@ We separate the two cases:
 <p>giving from the inequalities that both $(a+1,b+1)$ and $(a+2,b+1)$ are in $W$, giving a long interval $L$ in the projection, finishing the proof.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Conway&#8217;s musical sequences</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 02 Mar 2021 07:21:17 +0000</pubDate>
@@ -201,8 +197,6 @@ C_0 \subset C_2 \subset C_4 \subset \dots \subset C_{even}  \quad \text{and} \qu
 This time we will project parts of the standard $2$-dimensional lattice $\mathbb{Z}^2$ onto the line, which is a lot easier to visualise than de Bruijn&#8217;s projection from $\mathbb{R}^5$ to produce Penrose tilings or the projection from six dimensional space to harvest quasicrystals.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/conways-musical-sequences/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

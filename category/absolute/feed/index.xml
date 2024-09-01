@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/category/absolute/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sun, 13 Feb 2022 12:33:07 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:44:02 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>The hype cycle of an idea</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 13 Feb 2022 12:33:07 +0000</pubDate>
@@ -82,15 +81,12 @@ Picture from <a href="https://medium.com/@mishra.kamal/gartner-hype-cycle-for-ai
 <p>Clearly, you don&#8217;t agree, and that&#8217;s fine. We now have a common terminology, and you can point me to results or events I must have missed, forcing me to redraw my graph.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Smirnov on $\mathbb{F}_1$ and the RH</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/smirnov-on-mathbbf_1-and-the-rh/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/smirnov-on-mathbbf_1-and-the-rh/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 21 Jan 2022 15:24:19 +0000</pubDate>
@@ -138,15 +134,12 @@ where $\sigma : A^{\times} \rightarrow \mathbb{Z}^{\times}$ is the isomorphism o
 <p>If you want to attend the seminar when it happens, please register for the <a href="https://sympa.usu.edu/wws/info/f1worldseminar">seminar&#8217;s mailing list</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/smirnov-on-mathbbf_1-and-the-rh/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The $\mathbb{F}_1$ World Seminar</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 08 Jan 2022 08:21:22 +0000</pubDate>
@@ -176,15 +169,12 @@ Combinatorics &#8211; finite field and incidence geometry, and various generaliz
 <p><a href="http://cage.ugent.be/~kthas/Fun/"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/fun.jpg" width=100% \></a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Do we need the sphere spectrum?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 31 Dec 2021 10:50:10 +0000</pubDate>
@@ -243,8 +233,6 @@ From <a href="https://arxiv.org/abs/1710.08292">Topological classification of Mo
 <p>&#8211; between $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ and $\mathbb{W}_1(\mathbb{Z}(\mathbf{\mu}_{\infty}))$ where $\mathbb{Z}(\mathbf{\mu}_{\infty})$ is the ring obtained by adjoining to $\mathbb{Z}$ all roots of unity.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -330,7 +318,6 @@ From <a href="https://arxiv.org/abs/1710.08292">Topological classification of Mo
 		<item>
 		<title>From the Da Vinci code to Habiro</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-habiro/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-habiro/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 02 Feb 2018 09:13:06 +0000</pubDate>
@@ -385,8 +372,6 @@ with all coefficients $a_n \in \mathbb{Z}$.</p>
 <p>If the ring $\Re(\mathbb{Z})^{\ast}$ is controlled by the absolute Galois group $Gal(\overline{\mathbb{Q}}/\mathbb{Q})$, then Habiro&#8217;s ring is controlled by the abelianzation $Gal(\overline{\mathbb{Q}}/\mathbb{Q})^{ab} \simeq \hat{\mathbb{Z}}^{\ast}$.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-the-da-vinci-code-to-habiro/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -497,7 +482,6 @@ There&#8217;s a lot of number theoretic and Galois-information encoded into the 
 		<item>
 		<title>The latest on Mochizuki</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-latest-on-mochizuki/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-latest-on-mochizuki/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 19 Nov 2017 17:18:35 +0000</pubDate>
@@ -535,15 +519,12 @@ There&#8217;s a lot of number theoretic and Galois-information encoded into the 
 <p>In six months, I&#8217;d say&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-latest-on-mochizuki/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to dismantle scheme theory?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/how-to-dismantle-scheme-theory/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/how-to-dismantle-scheme-theory/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 24 Jul 2017 18:09:27 +0000</pubDate>
@@ -591,8 +572,6 @@ f_v~:~\mathbb{Z}[x] \rightarrow^{\Delta}  \mathbb{Z}[x] \otimes \mathbb{Z}[x] \r
 <p>As, for example, in my note <a href="https://arxiv.org/abs/1509.00749">The coordinate biring of $\mathbf{Spec}(\mathbb{Z})/\mathbb{F}_1$.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/how-to-dismantle-scheme-theory/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

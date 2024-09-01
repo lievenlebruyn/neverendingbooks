@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/osx/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Thu, 01 Oct 2009 17:09:05 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:53:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Snow leopard + wordpress + latex problem</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 01 Oct 2009 17:09:05 +0000</pubDate>
@@ -43,15 +42,12 @@
 <p>Anyone experiencing a similar problem, or knowing a trick to resolve it? Takk.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/snow-leopard-wordpress-latex-problem/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>math2.0-setup : mysql and php+</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/math20-setup-mysql-and-php/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/math20-setup-mysql-and-php/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 12 Feb 2009 15:20:23 +0000</pubDate>
@@ -141,15 +137,12 @@ Save the file (Textwrangler will ask you to provide the sudo-password).</p>
 </center></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/math20-setup-mysql-and-php/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>yet another math2.0 proposal</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/yet-another-math20-proposal/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/yet-another-math20-proposal/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 11 Feb 2009 16:39:06 +0000</pubDate>
@@ -196,8 +189,6 @@ We are hoping to create here a space for presentation and archival storage of co
 <p>I&#8217;ve zeroed my MacBookPro, re-installed OSX 10.5 from scratch, upgraded it to current 10.5.6 but no extras (say, vanilla 10.5.6). And I&#8217;ll guide you from there, in all gory details, with plenty of screen-shots as I would have liked to find them when I tried to set this up.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/yet-another-math20-proposal/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/category/number-theory/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 20 Aug 2022 13:14:52 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:34:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -50,7 +50,6 @@
 		<item>
 		<title>The hype cycle of an idea</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 13 Feb 2022 12:33:07 +0000</pubDate>
@@ -110,15 +109,12 @@ Picture from <a href="https://medium.com/@mishra.kamal/gartner-hype-cycle-for-ai
 <p>Clearly, you don&#8217;t agree, and that&#8217;s fine. We now have a common terminology, and you can point me to results or events I must have missed, forcing me to redraw my graph.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-hype-cycle-of-an-idea/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Smirnov on $\mathbb{F}_1$ and the RH</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/smirnov-on-mathbbf_1-and-the-rh/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/smirnov-on-mathbbf_1-and-the-rh/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 21 Jan 2022 15:24:19 +0000</pubDate>
@@ -166,15 +162,12 @@ where $\sigma : A^{\times} \rightarrow \mathbb{Z}^{\times}$ is the isomorphism o
 <p>If you want to attend the seminar when it happens, please register for the <a href="https://sympa.usu.edu/wws/info/f1worldseminar">seminar&#8217;s mailing list</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/smirnov-on-mathbbf_1-and-the-rh/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The $\mathbb{F}_1$ World Seminar</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 08 Jan 2022 08:21:22 +0000</pubDate>
@@ -204,15 +197,12 @@ Combinatorics &#8211; finite field and incidence geometry, and various generaliz
 <p><a href="http://cage.ugent.be/~kthas/Fun/"><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/fun.jpg" width=100% \></a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-mathbbf_1-world-seminar/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Do we need the sphere spectrum?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 31 Dec 2021 10:50:10 +0000</pubDate>
@@ -271,8 +261,6 @@ From <a href="https://arxiv.org/abs/1710.08292">Topological classification of Mo
 <p>&#8211; between $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ and $\mathbb{W}_1(\mathbb{Z}(\mathbf{\mu}_{\infty}))$ where $\mathbb{Z}(\mathbf{\mu}_{\infty})$ is the ring obtained by adjoining to $\mathbb{Z}$ all roots of unity.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -479,7 +467,6 @@ This is somewhat related to moonshine, or at least to Klein&#8217;s j-function, 
 		<item>
 		<title>Complete chaos and Belyi-extenders</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 23 Aug 2019 16:39:59 +0000</pubDate>
@@ -534,8 +521,6 @@ and $1$ is periodic.</p>
 <p>Going back to the mystery <a href="https://lievenlebruyn.github.io/neverendingbooks/the-mystery-manin-marcolli-monoid">Manin-Marcolli sub-monoid of $\mathcal{E}$</a>, it might explain why it is a good idea to restrict to very special Belyi-extenders having associated dessin a $2$-coloured tree, for then the periodic point $\infty$ is critical (the degree of the outside region is at least two), and therefore the conditions of Sullivan&#8217;s theorem are not satisfied.  So, these Belyi-extenders do not necessarily have to be completely chaotic. (tbc)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/complete-chaos-and-belyi-extenders/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/symmetry/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Thu, 18 Feb 2021 10:31:34 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:52:30 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -72,7 +72,6 @@
 		<item>
 		<title>What&#8217;s Pippa got to do with the Bourbaki wedding?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/whats-pippa-got-to-do-with-the-bourbaki-wedding/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/whats-pippa-got-to-do-with-the-bourbaki-wedding/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 09 Jul 2011 10:00:45 +0000</pubDate>
@@ -111,15 +110,12 @@
 <p> As Claude Chevalley&#8217;s father had an impressive diplomatic career behind him and lived in the neighborhood, he might have been invited, and, perhaps the (unused) invitation was lying around at the time of  the second Bourbaki-congress in Chancay,just one month after the Edward-Wallis wedding&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/whats-pippa-got-to-do-with-the-bourbaki-wedding/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>So, who did discover the Leech lattice?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 20 Dec 2010 10:58:03 +0000</pubDate>
@@ -204,15 +200,12 @@ Which brings us to our next question : who discovered the Golay code?</p>
 <p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/so-who-did-discover-the-leech-lattice/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>the monster graph and McKay’s observation</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 22 Apr 2009 17:39:47 +0000</pubDate>
@@ -293,8 +286,6 @@ where i runs over all 194 possible classes, we get the following string of numbe
 <p>It will take us a couple of posts to get there, but for now, let&#8217;s give the gist of it : <a href="http://en.wikipedia.org/wiki/Monstrous_moonshine">monstrous moonshine</a> gives a correspondence between conjugacy classes of the monster and certain arithmetic subgroups of $PSL_2(\mathbb{R}) $ commensurable with the modular group $\Gamma = PSL_2(\mathbb{Z}) $. The edges of the extended Dynkin E(8) diagram are then given by the configuration of the arithmetic groups corresponding to the indicated 9 conjugacy classes!  (to be continued&#8230;)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-monster-graph-and-mckays-observation/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

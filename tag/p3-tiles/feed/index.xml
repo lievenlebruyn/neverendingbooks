@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/p3-tiles/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 09 Mar 2021 13:37:00 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:25:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Penrose&#8217;s aperiodic tilings</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/penroses-aperiodic-tilings/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/penroses-aperiodic-tilings/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 09 Mar 2021 13:37:00 +0000</pubDate>
@@ -111,8 +110,6 @@ filling the entire plane.</p>
 <a href="https://www.cherryarbordesign.com/">Cherry Arbor Design</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/penroses-aperiodic-tilings/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/norton/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 30 Apr 2021 10:35:55 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:37:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -231,7 +231,6 @@ This is somewhat related to moonshine, or at least to Klein&#8217;s j-function, 
 		<item>
 		<title>a non-commutative Jack Daniels problem</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 20 Jan 2018 13:56:06 +0000</pubDate>
@@ -276,15 +275,12 @@ This is somewhat related to moonshine, or at least to Klein&#8217;s j-function, 
 <p>Btw. the bottle in the title image is not a Jack Daniels but the remains of a bottle of Ricard, because I&#8217;m still in the French mountains.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-non-commutative-jack-daniels-problem/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>the 171 moonshine groups</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 06 Jan 2018 12:02:42 +0000</pubDate>
@@ -315,15 +311,12 @@ which normalizes $\Gamma_0(N)$ for $N=h.n$. If $h=1$ then this group is the moon
 <p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/moonshinegroups.png" width=100% ></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The defining property of 24</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 02 Jan 2018 13:17:03 +0000</pubDate>
@@ -387,8 +380,6 @@ and using our divisibility requirements it follows that this matrix belongs to $
 <p>A first step towards figuring out the <a href="https://lievenlebruyn.github.io/neverendingbooks/looking-for-the-moonshine-picture">Moonshine Picture</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

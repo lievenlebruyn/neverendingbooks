@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/monster/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Mon, 22 Jul 2019 11:47:59 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:37:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Monstrous dessins 1</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 22 Jul 2019 11:47:59 +0000</pubDate>
@@ -121,8 +120,6 @@ which shows that $\# \mathbb{P}^1(\mathbb{Z}/p^k \mathbb{Z}) = (p+1)p^{k-1}= \Ps
 <p>Next time, we&#8217;ll connect $\mathbb{P}^1(\mathbb{Z}/n \mathbb{Z})$ to Conway&#8217;s big picture and the congruence subgroup $\Gamma_0(n)$.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-1/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -211,7 +208,6 @@ The order of the Monster group is too small to be a counterexample (yet, it is d
 		<item>
 		<title>the monster dictates her picture</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-monster-dictates-her-picture/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-monster-dictates-her-picture/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 03 Feb 2018 16:05:51 +0000</pubDate>
@@ -251,15 +247,12 @@ The order of the Monster group is too small to be a counterexample (yet, it is d
 <p>Perhaps I should take some time to write all this down more formally.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-monster-dictates-her-picture/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>A forgotten type and roots of unity (again)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 29 Jan 2018 15:13:56 +0000</pubDate>
@@ -299,15 +292,12 @@ As in the <a href="https://lievenlebruyn.github.io/neverendingbooks/a-tetrahedra
 <p>I wonder what all this has to do with the action of the Bost-Connes algebra on the big picture or with Plazas&#8217; approach to moonshine via <a href="https://lievenlebruyn.github.io/neverendingbooks/nc-geometry-and-moonshine">non-commutative geometry</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-forgotten-type-and-roots-of-unity-again/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>What we (don&#8217;t) know</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 26 Jan 2018 09:15:01 +0000</pubDate>
@@ -350,15 +340,12 @@ As in the <a href="https://lievenlebruyn.github.io/neverendingbooks/a-tetrahedra
 <p>&#8220;We now understand the significance, in the <a href="https://en.wikipedia.org/wiki/Vertex_operator_algebra">VOA</a> or <a href="https://en.wikipedia.org/wiki/Conformal_field_theory">CFT</a> framework, of transformations in $SL_2(\mathbb{Z})$, but (ii) emphasises that many modular transformations relevant to Moonshine are more general (called the Atkin-Lehner involutions). <br /><strong>Monstrous moonshine will remain mysterious until we can understand its Atkin-Lehner symmetries.</strong>&#8221;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>the moonshine picture &#8211; at last</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 23 Jan 2018 11:17:02 +0000</pubDate>
@@ -426,15 +413,12 @@ M \frac{1}{4} &#038; M \frac{7}{12} &#038; M \frac{11}{12} &#038; &#038; M \frac
 <p>If this works out, it may be a first step towards a possibly new understanding of moonshine.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-moonshine-picture-finally/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Moonshine&#8217;s green anaconda</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/moonshines-green-anaconda/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/moonshines-green-anaconda/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 18 Jan 2018 12:04:30 +0000</pubDate>
@@ -480,15 +464,12 @@ M \frac{2}{3} &#038; 2M \frac{2}{3} &#038; M \frac{1}{2} &#038; } \]</p>
 <p>First determine subsets of the <a href="https://lievenlebruyn.github.io/neverendingbooks/chomp-and-the-moonshine-thread">moonshine thread</a> with the same local structure, and then determine for each class this local structure.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/moonshines-green-anaconda/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>the 171 moonshine groups</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 06 Jan 2018 12:02:42 +0000</pubDate>
@@ -519,15 +500,12 @@ which normalizes $\Gamma_0(N)$ for $N=h.n$. If $h=1$ then this group is the moon
 <p><img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/moonshinegroups.png" width=100% ></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-171-moonshine-groups/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Snakes, spines, threads and all that</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 05 Jan 2018 11:03:27 +0000</pubDate>
@@ -624,15 +602,12 @@ Conversely, an element that takes the snake to itself must conjugate into itself
 <p><strong>Reference</strong>: J.H. Conway, &#8220;Understanding groups like $\Gamma_0(N)$&#8221;, in &#8220;Groups, Difference Sets, and the Monster&#8221;, Walter de Gruyter-Berlin-New York, 1996</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/snakes-spines-threads-and-all-that/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The defining property of 24</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 02 Jan 2018 13:17:03 +0000</pubDate>
@@ -696,8 +671,6 @@ and using our divisibility requirements it follows that this matrix belongs to $
 <p>A first step towards figuring out the <a href="https://lievenlebruyn.github.io/neverendingbooks/looking-for-the-moonshine-picture">Moonshine Picture</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-defining-property-of-24/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

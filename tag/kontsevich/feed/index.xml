@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/kontsevich/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 04 Jan 2022 19:42:59 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:53:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -70,7 +70,6 @@
 		<item>
 		<title>best of 2008 (2) : big theorems</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/best-of-2008-2-big-theorems/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/best-of-2008-2-big-theorems/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 03 Jan 2009 18:56:27 +0000</pubDate>
@@ -109,15 +108,12 @@ And, Peter Woit of <a href="http://www.math.columbia.edu/~woit/wordpress/">Not E
 <p>All in all good news : there is indeed a market for longer technical math-posts and people (eventually) take time to read the post in detail.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/best-of-2008-2-big-theorems/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>best of 2008 (1) : wiskundemeisjes</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/best-of-2008-1-wiskundemeisjes/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/best-of-2008-1-wiskundemeisjes/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 02 Jan 2009 11:54:26 +0000</pubDate>
@@ -145,15 +141,12 @@ Stijn Symens <a href="http://stijnsymens.wordpress.com/">blog</a>, Rudy Penne&#8
 <p>Even though my own approach is somewhat different, Ionica and Jeanine you&#8217;re doing an excellent job: &#8220;houden zo!&#8221;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/best-of-2008-1-wiskundemeisjes/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>noncommutative F_un geometry (2)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 17 Oct 2008 12:14:09 +0000</pubDate>
@@ -209,8 +202,6 @@ of an algebra (which is $\mathbb{Z} $-torsion free)</p>
 <p>hence it gives a permutation representation of $\Gamma $ on this set. But then, if finite dimensional $\mathbb{F}_1 $-representations of $\Gamma $ are the finite permutation representations, then the <strong>simple</strong> ones are the <strong>transitive</strong> permutation representations. That is, the points of the noncommutative scheme corresponding to $\mathbb{F}_1 \Gamma $ are the conjugacy classes of subgroups $H \subset \Gamma $ such that $\Gamma/H $ is finite. But these are exactly the modular dessins d&#8217;enfants introduced by Grothendieck as I explained a while back elsewhere (see for example <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/modular-quilts-and-cuboid-tree-diagrams.html">this post</a> and others in the same series).</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/noncommutative-f_un-geometry-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

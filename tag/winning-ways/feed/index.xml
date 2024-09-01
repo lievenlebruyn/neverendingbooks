@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/winning-ways/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sun, 17 Sep 2023 11:38:33 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:03:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>the L-game</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 17 Sep 2023 11:38:33 +0000</pubDate>
@@ -106,8 +105,6 @@
 <p>Surely I missed cases, and made errors in others. Please leave corrections in the comments and I&#8217;ll try to update the positions.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-l-game/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/rosenhouse/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 10 Feb 2018 12:49:14 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:35:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Heyting Smullyanesque problems</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 10 Feb 2018 12:49:14 +0000</pubDate>
@@ -72,15 +71,12 @@ Zack: Xara is a Neutral if and only if Walt is not a Normal.</p>
 <p>What about a book on &#8220;Knights, Knaves and Knols&#8221;? A <a href="https://en.wikipedia.org/wiki/Knol">Knol</a> (or $X$-Knol) has knowledge limited to sentences with truth value $X$, an element in the Heyting algebra.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Knights and Knaves, the Heyting way</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 22 Jan 2018 10:01:57 +0000</pubDate>
@@ -126,8 +122,6 @@ Ford: Dave is a neutral.</p>
 <p>If you know of more of these Smullanesque problems using Heyting algebras, please leave a comment.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

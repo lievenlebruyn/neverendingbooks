@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/thurston/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Mon, 24 May 2021 10:15:58 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:37:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -103,7 +103,6 @@ which is clearly absurd.
 		<item>
 		<title>Everything&#8217;s wrappable to a sphere</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 11 Jan 2018 15:31:22 +0000</pubDate>
@@ -136,8 +135,6 @@ which is clearly absurd.
 <p>&#8220;As for groups of the form $(n|h)+e,f,\dots$, the genus can be determined from the fundamental regions using the <a href="https://en.wikipedia.org/wiki/Riemann%E2%80%93Hurwitz_formula">Riemann-Hurwitz formula</a>. Since most of the groups are not subgroups of the modular group, the calculations of the genus, <em>which cannot be produced here because of their length</em>, are carried out by finding the elliptic fixed points and the cone points in the orbifolds attached to the fundamental regions. The Euler characteristic of the orbifold determines the genus of the group. See [paper] for more details on orbifold techniques.&#8221;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/everythings-wrappable-to-a-sphere/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

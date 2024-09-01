@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/quasicrystal/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 26 Feb 2021 11:14:00 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:26:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>GoV 2 : Viruses and quasi-crystals</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 26 Feb 2021 11:14:00 +0000</pubDate>
@@ -131,8 +130,6 @@ Take a point in $\mathbb{R}^6$ and look at its orbit under the isometries of $G$
 <p>Do viruses invade us from the sixth dimension??</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/gov-2-viruses-and-quasi-crystals/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

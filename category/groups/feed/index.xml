@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/category/groups/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Wed, 16 Mar 2022 14:01:16 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:25:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>The monster prime graph</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-monster-prime-graph/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-monster-prime-graph/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 16 Mar 2022 14:01:16 +0000</pubDate>
@@ -82,8 +81,6 @@ satisfying the three primes condition, so would give a smaller counter-example u
 <p>So, $F$ is a Frobenius group with &#8216;Frobenius kernel&#8217; $Q$. Thompson proved that the Frobenius kernel is a nilpotent group, so a product of its Sylow-subgroups. But then, $Q$ (and therefore $G$) contains an element of order $p.q$, done.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-monster-prime-graph/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -187,7 +184,6 @@ and then we should consider the slice topos over the one-vertex bouquet graph wi
 		<item>
 		<title>Mamuth to Elephant (2)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 08 Mar 2022 18:58:58 +0000</pubDate>
@@ -275,15 +271,12 @@ true<br />
 <p>(to be <a href="https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-3">continued</a>)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>From Mamuth to Elephant</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 07 Mar 2022 10:27:07 +0000</pubDate>
@@ -433,15 +426,12 @@ so we see that</p>
 <p>(to be <a href="https://lievenlebruyn.github.io/neverendingbooks/mamuth-to-elephant-2">continued</a>&#8230;)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/from-mamuth-to-elephant/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Do we need the sphere spectrum?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 31 Dec 2021 10:50:10 +0000</pubDate>
@@ -500,8 +490,6 @@ From <a href="https://arxiv.org/abs/1710.08292">Topological classification of Mo
 <p>&#8211; between $\mathbb{Z}[\mathbb{Q}/\mathbb{Z}]$ and $\mathbb{W}_1(\mathbb{Z}(\mathbf{\mu}_{\infty}))$ where $\mathbb{Z}(\mathbf{\mu}_{\infty})$ is the ring obtained by adjoining to $\mathbb{Z}$ all roots of unity.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/do-we-need-the-sphere-spectrum/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -714,7 +702,6 @@ where $\zeta_{2pp&#8217;}$ is a primitive $2pp&#8217;$-th root of unity. These t
 		<item>
 		<title>Know thy neighbours</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/know-thy-neighbours/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/know-thy-neighbours/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 24 Mar 2021 14:24:25 +0000</pubDate>
@@ -791,15 +778,12 @@ with $v \in 2 \mathbb{Z}$, with the second case instances forming a codeword in 
 <p>For $a=12$ one needs a slightly different argument, see section 0.2 of <a href="https://math.berkeley.edu/~reb/papers/thesis/thesis.pdf">Richard Borcherds&#8217; Ph.D. thesis</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/know-thy-neighbours/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The Leech lattice neighbour</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 23 Mar 2021 16:12:48 +0000</pubDate>
@@ -852,8 +836,6 @@ of every codeword is a multiple of $4$. Each one of these codes $\mathcal{C}$ gi
 <p><a href="https://en.wikipedia.org/wiki/Vera_Pless">Vera Pless</a> and <a href="https://en.wikipedia.org/wiki/Neil_Sloane">Neil Sloan</a> classified all $26$ <a href="https://www.researchgate.net/publication/251812065_Binary_self-dual_codes_of_length_24">binary self-dual codes of length $24$</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-leech-lattice-neighbour/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/aperiodic/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 28 Mar 2023 13:54:57 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:07:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>an einStein</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 28 Mar 2023 13:54:57 +0000</pubDate>
@@ -91,8 +90,6 @@
 <p>It would be nice to try this strategy on other symmetric tilings: break the symmetry by gluing together a small number of its orbifolds in such a way that this extended tile (possibly with its reversed image) tile the plane, and find out whether you discovered a new einStein!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

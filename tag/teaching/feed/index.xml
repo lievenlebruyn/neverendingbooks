@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/teaching/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Wed, 25 Nov 2009 11:15:59 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:52:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Seriously now, where was the Bourbaki wedding?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 25 Nov 2009 11:15:59 +0000</pubDate>
@@ -82,15 +81,12 @@ The organ of Val-de-Grâce is one the rare parisian surviving witnesses of the a
 <p>Perhaps we got it right, the second time around : <strong>the Bourbaki-Pétard wedding was held on June 3rd 1939 in the church &#8216;l&#8217;église royale Notre-Dame du Val-de-Grâce&#8217; at 12h</strong>?</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seriously-now-where-was-the-bourbaki-wedding/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Grothendieck’s functor of points</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-functor-of-points/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-functor-of-points/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 29 Sep 2009 06:17:06 +0000</pubDate>
@@ -146,15 +142,12 @@ But what happens when $K = \mathbb{C} $ and $\lambda $ is a trancendental number
 <p>Things become quickly more interesting when we consider $R $-points for rings containing nilpotent elements.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-functor-of-points/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Don’t realize how lucky I am</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/dont-realize-how-lucky-i-am/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/dont-realize-how-lucky-i-am/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 27 Sep 2009 07:47:52 +0000</pubDate>
@@ -175,8 +168,6 @@ But what happens when $K = \mathbb{C} $ and $\lambda $ is a trancendental number
 <p>me : Yeah, I guess I don&#8217;t realize often enough just how lucky I am &#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/dont-realize-how-lucky-i-am/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

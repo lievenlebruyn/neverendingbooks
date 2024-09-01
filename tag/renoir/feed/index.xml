@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/renoir/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 15 Jul 2022 14:13:36 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:08:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Le Guide Bourbaki : Marlotte</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-marlotte/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-marlotte/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 15 Jul 2022 14:13:36 +0000</pubDate>
@@ -71,8 +70,6 @@
 <p>The exact location of the former Hotel de la mare aux fées is 83, Rue Murger in Bourron-Marlotte.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-marlotte/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/galois/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 27 Jan 2018 12:36:18 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:53:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -126,7 +126,6 @@ There&#8217;s a lot of number theoretic and Galois-information encoded into the 
 		<item>
 		<title>the Reddit (after)effect</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 15 Jan 2011 14:44:31 +0000</pubDate>
@@ -176,15 +175,12 @@ There&#8217;s a lot of number theoretic and Galois-information encoded into the 
 <p>What lesson should be learned from all this data? Should I go for shorter, snappier and more visual posts, or should I focus on the small group of visitors taking their time reading through a longer post, and don&#8217;t care about the appallingly high <a href="http://en.wikipedia.org/wiki/Bounce_rate">bounce rate</a> the others cause?</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Langlands versus Connes</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 26 Oct 2010 08:54:28 +0000</pubDate>
@@ -220,15 +216,12 @@ There&#8217;s a lot of number theoretic and Galois-information encoded into the 
 <p>At the moment I&#8217;m running a master-seminar noncommutative geometry trying to explain this connection in detail. But, we&#8217;re still in the early phases, struggling with the topology of ideles and adeles, reciprocity laws, L-functions and the lot. Still, if someone is interested I might attempt to post some lecture notes here.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/langlands-versus-connes/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Seating the first few thousand Knights</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2010 16:31:46 +0000</pubDate>
@@ -288,8 +281,6 @@ $K_{1051} $ at root $e^{2 \pi i/65535} $ and can then arrange seatings for all K
 <p>I&#8217;ll leave you with another Lenstra-exercise which shouldn&#8217;t be too difficult for you to solve now : &#8220;Prove that $x^3=2^{2^i} $ has three solutions in $\mathbb{N} $ for each $i \geq 2 $.&#8221;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -352,7 +343,6 @@ which is &#8216;almost&#8217; the functor W of big Witt vectors. Next time we&#8
 		<item>
 		<title>The odd knights of the round table</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 28 Jan 2010 20:48:59 +0000</pubDate>
@@ -394,8 +384,6 @@ For example, all information about the finite field $\mathbb{F}_{2^4} $ is encod
 <p>Can you give explicit (even inductive) formulae to achieve this? I guess even the problem of placing Knight 16 will give you a couple of hours to think about&#8230; (to be continued).</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -453,7 +441,6 @@ with the algebraic closure of the field of two elements. What makes all of this 
 		<item>
 		<title>best of 2008 (1) : wiskundemeisjes</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/best-of-2008-1-wiskundemeisjes/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/best-of-2008-1-wiskundemeisjes/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 02 Jan 2009 11:54:26 +0000</pubDate>
@@ -481,15 +468,12 @@ Stijn Symens <a href="http://stijnsymens.wordpress.com/">blog</a>, Rudy Penne&#8
 <p>Even though my own approach is somewhat different, Ionica and Jeanine you&#8217;re doing an excellent job: &#8220;houden zo!&#8221;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/best-of-2008-1-wiskundemeisjes/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Mazur’s knotty dictionary</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 27 Dec 2008 11:24:09 +0000</pubDate>
@@ -528,15 +512,12 @@ $\pi^{alg}_1(M) \simeq \widehat{\pi_1(M)} $ (recall that the cofinite completion
 <p>More links to papers on arithmetic topology can be found in <a href="http://math.ucr.edu/home/baez/week257.html">John Baez&#8217; week 257</a> or <a href="http://golem.ph.utexas.edu/category/2007/10/this_weeks_finds_in_mathematic_18.html">via here</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Manin’s geometric axis</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/manins-geometric-axis/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/manins-geometric-axis/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 23 Dec 2008 15:28:24 +0000</pubDate>
@@ -573,8 +554,6 @@ That is, these horizontal and vertical lines form a coordinate system, at least 
 <p>Still, there is a noticeable difference between the two sets of coordinate lines. The vertical lines do not intersect meaning that $p\mathbb{Z}[x]+q\mathbb{Z}[x]=\mathbb{Z}[x] $ for different prime numbers p and q. However, in general the principal prime ideals corresponding to the horizontal lines $~(\Phi_n(x)) $ and $~(\Phi_m(x)) $ are not comaximal when $n \not= m $, that is, these &#8216;lines&#8217; may have points in common! This will lead to an exotic new topology on the roots of unity&#8230; (to be continued).</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/manins-geometric-axis/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

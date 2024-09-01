@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/onag/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 08 Jan 2011 11:47:49 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:52:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>n-dimensional and transfinite Nimbers</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/n-dimensional-and-transfinite-nimbers/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/n-dimensional-and-transfinite-nimbers/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 08 Jan 2011 11:47:49 +0000</pubDate>
@@ -60,15 +59,12 @@
 <p>Give a winning move for the first player!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/n-dimensional-and-transfinite-nimbers/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to play Nimbers?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/how-to-play-nimbers/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/how-to-play-nimbers/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 07 Jan 2011 08:38:19 +0000</pubDate>
@@ -119,15 +115,12 @@
 <p>Suppose your opponent lets you add one extra stone along the diagonal if you allow her to start the game, where would you have to place it and be certain you will win the game?</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/how-to-play-nimbers/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Seating the first few billion Knights</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-billion-knights/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-billion-knights/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 30 Dec 2010 20:28:57 +0000</pubDate>
@@ -163,15 +156,12 @@ R.quotient((x^2+x+1,y^2+y+x,z^2+z+x*y,t^2+t+x*y*z,u^2+u+x*y*z*t))</p>
 <p>atb :: lieven.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-billion-knights/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Seating the first few thousand Knights</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2010 16:31:46 +0000</pubDate>
@@ -231,15 +221,12 @@ $K_{1051} $ at root $e^{2 \pi i/65535} $ and can then arrange seatings for all K
 <p>I&#8217;ll leave you with another Lenstra-exercise which shouldn&#8217;t be too difficult for you to solve now : &#8220;Prove that $x^3=2^{2^i} $ has three solutions in $\mathbb{N} $ for each $i \geq 2 $.&#8221;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-thousand-knights/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The odd knights of the round table</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 28 Jan 2010 20:48:59 +0000</pubDate>
@@ -281,8 +268,6 @@ For example, all information about the finite field $\mathbb{F}_{2^4} $ is encod
 <p>Can you give explicit (even inductive) formulae to achieve this? I guess even the problem of placing Knight 16 will give you a couple of hours to think about&#8230; (to be continued).</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-odd-knights-of-the-round-table/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

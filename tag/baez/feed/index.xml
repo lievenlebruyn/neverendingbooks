@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/baez/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Thu, 19 Mar 2020 10:05:04 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:35:27 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Sylvester&#8217;s synthemes</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/sylvesters-synthemes/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/sylvesters-synthemes/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 19 Mar 2020 10:05:04 +0000</pubDate>
@@ -104,15 +103,12 @@ showing (again) that $\phi$ is not a conjugation-automorphism.</p>
 \phi : S_6 = Sym(\{ 1,2,3,4,5,6 \}) \rightarrow Sym(\{ t_1,t_2,t_3,t_4,t_5,t_6 \}) = S_6 \]</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/sylvesters-synthemes/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Rotations of Klein&#8217;s quartic</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/rotations-of-kleins-quartic/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/rotations-of-kleins-quartic/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 18 Feb 2018 16:07:32 +0000</pubDate>
@@ -156,15 +152,12 @@ is non-trivial and must have image strictly larger than $C_3$ (otherwise, $G$ wo
 <p>But, $S_3$ has a normal subgroup of index $2$ and pulling this back, $G$ must also have a normal subgroup of index two, which we have excluded. Done!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/rotations-of-kleins-quartic/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The return of the Scottish solids</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-return-of-the-scottish-solids/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-return-of-the-scottish-solids/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 31 Jan 2018 10:04:42 +0000</pubDate>
@@ -194,8 +187,6 @@ is non-trivial and must have image strictly larger than $C_3$ (otherwise, $G$ wo
 <p>David Roberts drafted <a href="https://drive.google.com/file/d/1ckRg7bxVnndBooXXe19lqpoJqOrk3fUL/view">a letter to the editor of the Notices of the AMS</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-return-of-the-scottish-solids/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

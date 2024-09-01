@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/tracks/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 09 Jul 2011 12:56:22 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>eBook &#8211; ePub : comments</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/ebook-the-bourbaki-code-v1-0/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/ebook-the-bourbaki-code-v1-0/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 09 Jul 2011 12:56:22 +0000</pubDate>
@@ -37,8 +36,6 @@
 										<content:encoded><![CDATA[<p>There were some great comments by Peter before this post was taken offline. So, here they are, once again.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/ebook-the-bourbaki-code-v1-0/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

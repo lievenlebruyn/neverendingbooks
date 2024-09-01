@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/modular-group/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Wed, 24 Jul 2019 12:16:25 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:34:53 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Monstrous dessins 2</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-2/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-2/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 24 Jul 2019 12:16:25 +0000</pubDate>
@@ -109,8 +108,6 @@ This is the way Conway likes us to think about the congruence subgroup $\Gamma_0
 </center></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/monstrous-dessins-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

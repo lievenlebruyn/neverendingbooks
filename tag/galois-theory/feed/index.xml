@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/galois-theory/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Thu, 30 Dec 2010 20:28:57 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:51:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Seating the first few billion Knights</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-billion-knights/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-billion-knights/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 30 Dec 2010 20:28:57 +0000</pubDate>
@@ -58,8 +57,6 @@ R.quotient((x^2+x+1,y^2+y+x,z^2+z+x*y,t^2+t+x*y*z,u^2+u+x*y*z*t))</p>
 <p>atb :: lieven.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/seating-the-first-few-billion-knights/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

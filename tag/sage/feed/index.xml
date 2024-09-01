@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/sage/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 03 Aug 2019 14:23:40 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:50:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -129,7 +129,6 @@ L_n.s = \begin{bmatrix} n &#038; 0 \\ 0 &#038; 1 \end{bmatrix} \begin{bmatrix} 0
 		<item>
 		<title>Chomp and the moonshine thread</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/chomp-and-the-moonshine-thread/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/chomp-and-the-moonshine-thread/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 10 Jan 2018 12:16:41 +0000</pubDate>
@@ -174,15 +173,12 @@ H.graphviz_string()<br />
 <code>dot -Tpng chomp.dot -o chomp.png</code></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/chomp-and-the-moonshine-thread/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Farey symbols in SAGE 5.0</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/farey-symbols-in-sage-5-0/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/farey-symbols-in-sage-5-0/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 31 May 2012 14:56:56 +0000</pubDate>
@@ -207,8 +203,6 @@ H.graphviz_string()<br />
 <p> <img decoding="async" src="https://lievenlebruyn.github.io/neverendingbooks/DATA3/fundregionM12.jpg"></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/farey-symbols-in-sage-5-0/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

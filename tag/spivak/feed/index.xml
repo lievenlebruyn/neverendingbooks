@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/spivak/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 29 Jan 2022 10:03:09 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:46:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -161,7 +161,6 @@ if $p \in P_v$.</p>
 		<item>
 		<title>Poly</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/poly/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/poly/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 26 Jan 2022 12:07:40 +0000</pubDate>
@@ -220,8 +219,6 @@ An object $p \in \mathbf{Poly}$ is thus described by the couple $(p(1),p[-])$ wi
 <p>Another time I hope to tell you how $\mathbf{Poly}$ helps us to understand the logic of learners.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/poly/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -322,7 +319,6 @@ But, in order for this to define a sheaf-morphism, compatible with the restricti
 		<item>
 		<title>Children have always loved colimits</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 07 Jan 2015 08:02:27 +0000</pubDate>
@@ -365,8 +361,6 @@ But, in order for this to define a sheaf-morphism, compatible with the restricti
 <p>The published version, available from <a href="http://www.amazon.com/Category-Theory-Sciences-David-Spivak/dp/0262028131" target="_blank" rel="noopener">Amazon</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/children-have-always-loved-colimits/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

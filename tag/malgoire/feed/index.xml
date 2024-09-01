@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/malgoire/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sun, 28 Jan 2018 09:52:38 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:46:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Grothendieck&#8217;s gribouillis (3)</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-3/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-3/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 28 Jan 2018 09:52:38 +0000</pubDate>
@@ -56,15 +55,12 @@
 <p>&#8211; <a href="https://lievenlebruyn.github.io/neverendingbooks/where-are-grothendiecks-writings-2">Where are Grothendieck&#8217;s writings (2)?</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis-3/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Grothendieck&#8217;s gribouillis</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 03 Jan 2015 15:25:44 +0000</pubDate>
@@ -112,8 +108,6 @@
 <p><a href="http://blogs.afp.com/makingof/?post/alexandre-grothendieck-un-genie-mysterieux#.VKgDd4rF_by">Un génie mystérieux, un secret bien gardé</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-gribouillis/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

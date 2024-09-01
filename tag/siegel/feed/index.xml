@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/siegel/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sun, 21 Jan 2018 09:59:49 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:50:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -68,7 +68,6 @@
 		<item>
 		<title>Aaron Siegel on transfinite number hacking</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/aaron-siegel-on-transfinite-number-hacking/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/aaron-siegel-on-transfinite-number-hacking/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Wed, 16 May 2012 14:55:06 +0000</pubDate>
@@ -97,8 +96,6 @@ p = 191 and 229 are more troubling cases.  Consider p = 191: it's the first prim
 </center></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/aaron-siegel-on-transfinite-number-hacking/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

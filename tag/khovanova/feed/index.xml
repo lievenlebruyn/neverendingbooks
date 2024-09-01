@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/khovanova/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Mon, 15 Mar 2021 08:55:10 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:25:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Kasha-eating dragons</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/kasha-eating-dragons/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/kasha-eating-dragons/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 15 Mar 2021 08:55:10 +0000</pubDate>
@@ -69,8 +68,6 @@ bowl, what is the asymptotic behavior of the amounts of kasha?
 <p>But, I can never explain it better than Khovanova&#8217;s <a href="https://arxiv.org/pdf/1602.08488.pdf">treatment</a> of the kasha-eating dragons problem.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/kasha-eating-dragons/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

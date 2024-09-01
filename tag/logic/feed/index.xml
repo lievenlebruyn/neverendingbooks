@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/logic/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Tue, 04 Apr 2023 12:05:44 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:35:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Stephen Wolfram on ChatGPT</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 04 Apr 2023 12:05:44 +0000</pubDate>
@@ -75,15 +74,12 @@ And, yes, this seems like a mess—and doesn’t do anything to particularly enc
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/flXrLGPY3SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The strange logic of subways</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 05 Mar 2021 09:15:32 +0000</pubDate>
@@ -136,15 +132,12 @@ And, yes, this seems like a mess—and doesn’t do anything to particularly enc
 <p>Right now, I&#8217;m more into exploring whether this setting can be used to revive an old project of mine: <a href="https://lievenlebruyn.github.io/neverendingbooks/heyting-smullyanesque-problems">Heyting Smullyanesque problems</a> (btw. the algebra in that post is <strong>not</strong> Heyting, oops!).</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-strange-logic-of-subways/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Knights and Knaves, the Heyting way</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 22 Jan 2018 10:01:57 +0000</pubDate>
@@ -190,8 +183,6 @@ Ford: Dave is a neutral.</p>
 <p>If you know of more of these Smullanesque problems using Heyting algebras, please leave a comment.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/knights-and-knaves-the-heyting-way/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

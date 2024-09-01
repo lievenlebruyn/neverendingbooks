@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/gannon/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Fri, 26 Jan 2018 09:15:01 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:35:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>What we (don&#8217;t) know</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 26 Jan 2018 09:15:01 +0000</pubDate>
@@ -65,8 +64,6 @@
 <p>&#8220;We now understand the significance, in the <a href="https://en.wikipedia.org/wiki/Vertex_operator_algebra">VOA</a> or <a href="https://en.wikipedia.org/wiki/Conformal_field_theory">CFT</a> framework, of transformations in $SL_2(\mathbb{Z})$, but (ii) emphasises that many modular transformations relevant to Moonshine are more general (called the Atkin-Lehner involutions). <br /><strong>Monstrous moonshine will remain mysterious until we can understand its Atkin-Lehner symmetries.</strong>&#8221;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-we-dont-know/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

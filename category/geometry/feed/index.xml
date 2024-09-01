@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/category/geometry/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Mon, 02 Oct 2023 16:49:52 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:07:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -75,7 +75,6 @@
 		<item>
 		<title>A newish toy in town</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 28 Apr 2023 14:09:24 +0000</pubDate>
@@ -106,15 +105,12 @@
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/NZrSgMz4TvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/a-newish-toy-in-town/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The forests of the unconscious</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-forests-of-the-unconscious/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-forests-of-the-unconscious/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 20 Apr 2023 09:37:44 +0000</pubDate>
@@ -219,15 +215,12 @@ In other words, for every $m \in V$ there is another $n \in V$ such that $p$ lie
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-forests-of-the-unconscious/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The tropical brain-forest</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 10 Apr 2023 13:34:31 +0000</pubDate>
@@ -327,15 +320,12 @@ In other words, for every $m \in V$ there is another $n \in V$ such that $p$ lie
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Stephen Wolfram on ChatGPT</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 04 Apr 2023 12:05:44 +0000</pubDate>
@@ -388,15 +378,12 @@ And, yes, this seems like a mess—and doesn’t do anything to particularly enc
 <p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/flXrLGPY3SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/stephen-wolfram-on-chatgpt/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>an einStein</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Tue, 28 Mar 2023 13:54:57 +0000</pubDate>
@@ -465,15 +452,12 @@ And, yes, this seems like a mess—and doesn’t do anything to particularly enc
 <p>It would be nice to try this strategy on other symmetric tilings: break the symmetry by gluing together a small number of its orbifolds in such a way that this extended tile (possibly with its reversed image) tile the plane, and find out whether you discovered a new einStein!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/an-einstein/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The super-vault of missing notes</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 23 Mar 2023 14:44:37 +0000</pubDate>
@@ -553,8 +537,6 @@ from the presheaf condition $d(m,n)+p(n) \geq p(m)$ for all $m,n$ follows</p>
 <p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-tropical-brain-forest">The tropical brain forest</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -613,7 +595,6 @@ You have a sense that it is waiting quietly with answers to questions that nobod
 		<item>
 		<title>The enriched vault</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 10 Mar 2023 08:42:29 +0000</pubDate>
@@ -708,15 +689,12 @@ You have a sense that it is waiting quietly with answers to questions that nobod
 <p><a href="https://lievenlebruyn.github.io/neverendingbooks/the-super-vault-of-missing-notes">The super-vault of missing notes</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-enriched-vault/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>The shape of languages</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 03 Mar 2023 14:54:50 +0000</pubDate>
@@ -817,8 +795,6 @@ The reader might think of these probabilities $\pi(q|p)$ as being most well defi
 <p><a href="https://lievenlebruyn.github.io/neverendingbooks/loading-a-second-brain">Loading a second brain</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-shape-of-languages/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

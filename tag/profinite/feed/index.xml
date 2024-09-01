@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/profinite/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 15 Jan 2011 14:44:31 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:53:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>the Reddit (after)effect</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 15 Jan 2011 14:44:31 +0000</pubDate>
@@ -72,15 +71,12 @@
 <p>What lesson should be learned from all this data? Should I go for shorter, snappier and more visual posts, or should I focus on the small group of visitors taking their time reading through a longer post, and don&#8217;t care about the appallingly high <a href="http://en.wikipedia.org/wiki/Bounce_rate">bounce rate</a> the others cause?</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-reddit-aftereffect/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>What is the knot associated to a prime?</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 02 Jan 2011 10:57:35 +0000</pubDate>
@@ -119,15 +115,12 @@
 <p>Perhaps I should make a pod- or vod-cast of that 20 minute talk, one day&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/what-is-the-knot-associated-to-a-prime/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Mazur’s knotty dictionary</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 27 Dec 2008 11:24:09 +0000</pubDate>
@@ -166,8 +159,6 @@ $\pi^{alg}_1(M) \simeq \widehat{\pi_1(M)} $ (recall that the cofinite completion
 <p>More links to papers on arithmetic topology can be found in <a href="http://math.ucr.edu/home/baez/week257.html">John Baez&#8217; week 257</a> or <a href="http://golem.ph.utexas.edu/category/2007/10/this_weeks_finds_in_mathematic_18.html">via here</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mazurs-dictionary/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

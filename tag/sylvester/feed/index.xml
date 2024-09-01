@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/sylvester/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Thu, 19 Mar 2020 10:05:04 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:26:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Sylvester&#8217;s synthemes</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/sylvesters-synthemes/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/sylvesters-synthemes/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 19 Mar 2020 10:05:04 +0000</pubDate>
@@ -104,8 +103,6 @@ showing (again) that $\phi$ is not a conjugation-automorphism.</p>
 \phi : S_6 = Sym(\{ 1,2,3,4,5,6 \}) \rightarrow Sym(\{ t_1,t_2,t_3,t_4,t_5,t_6 \}) = S_6 \]</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/sylvesters-synthemes/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/anabelian/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sat, 13 Dec 2008 12:46:30 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:53:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Mumford’s treasure map</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/mumfords-treasure-map/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/mumfords-treasure-map/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sat, 13 Dec 2008 12:46:30 +0000</pubDate>
@@ -64,8 +63,6 @@ where $p $ is a prime number and $f(x) $ is an irreducible integral polynomial, 
 <p>This concludes our first attempt to decypher Mumford&#8217;s drawing, but if we delve a bit deeper, we are bound to find even more treasures&#8230; (to be <a href="https://lievenlebruyn.github.io/neverendingbooks/index.php/manins-geometric-axis">continued</a>).</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/mumfords-treasure-map/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

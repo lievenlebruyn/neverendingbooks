@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/php/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Thu, 12 Feb 2009 15:20:23 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:53:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>math2.0-setup : mysql and php+</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/math20-setup-mysql-and-php/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/math20-setup-mysql-and-php/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Thu, 12 Feb 2009 15:20:23 +0000</pubDate>
@@ -112,8 +111,6 @@ Save the file (Textwrangler will ask you to provide the sudo-password).</p>
 </center></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/math20-setup-mysql-and-php/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/iut/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Sun, 19 Nov 2017 17:18:35 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:44:02 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>The latest on Mochizuki</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/the-latest-on-mochizuki/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/the-latest-on-mochizuki/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Sun, 19 Nov 2017 17:18:35 +0000</pubDate>
@@ -60,8 +59,6 @@
 <p>In six months, I&#8217;d say&#8230;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/the-latest-on-mochizuki/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

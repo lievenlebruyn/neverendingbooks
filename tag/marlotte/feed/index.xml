@@ -12,7 +12,7 @@
 	<atom:link href="https://lievenlebruyn.github.io/neverendingbooks/tag/marlotte/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lievenlebruyn.github.io/neverendingbooks/</link>
 	<description></description>
-	<lastBuildDate>Mon, 25 Jul 2022 16:07:49 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Aug 2024 11:08:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Grothendieck&#8217;s haircut</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-haircut/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-haircut/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Mon, 25 Jul 2022 16:07:49 +0000</pubDate>
@@ -45,15 +44,12 @@
 <p>Given the fact that the 1957-summer Bourbaki-congress lasted until July 7th, and that most of the B&#8217;s may have bumped into G over the summer, I&#8217;d wager that the answer to this most important of questions is: late summer 1957.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/grothendiecks-haircut/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Le Guide Bourbaki : Marlotte</title>
 		<link>https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-marlotte/</link>
-					<comments>https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-marlotte/#respond</comments>
 		
 		<dc:creator><![CDATA[lieven]]></dc:creator>
 		<pubDate>Fri, 15 Jul 2022 14:13:36 +0000</pubDate>
@@ -102,8 +98,6 @@
 <p>The exact location of the former Hotel de la mare aux fées is 83, Rue Murger in Bourron-Marlotte.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://lievenlebruyn.github.io/neverendingbooks/le-guide-bourbaki-marlotte/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
